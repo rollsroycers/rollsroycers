@@ -41,6 +41,11 @@ self.addEventListener('activate', (event) => {
 self.addEventListener('fetch', (event) => {
   // Skip non-GET requests
   if (event.request.method !== 'GET') return;
+  
+  // Skip chrome-extension and other non-http(s) URLs
+  if (!event.request.url.startsWith('http://') && !event.request.url.startsWith('https://')) {
+    return;
+  }
 
   event.respondWith(
     caches.match(event.request)
@@ -66,6 +71,9 @@ self.addEventListener('fetch', (event) => {
               if (event.request.url.match(/\.(jpg|jpeg|png|gif|webp|svg|woff|woff2|ttf|eot|css|js)$/)) {
                 cache.put(event.request, responseToCache);
               }
+            })
+            .catch((error) => {
+              console.log('Cache put error:', error);
             });
 
           return response;

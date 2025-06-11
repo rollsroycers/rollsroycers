@@ -92,6 +92,9 @@ export default function Document() {
               var sc_project=13143252;
               var sc_invisible=1;
               var sc_security="e91ea536";
+              window.sc_project=13143252;
+              window.sc_invisible=1;
+              window.sc_security="e91ea536";
             `,
           }}
         />
@@ -99,6 +102,7 @@ export default function Document() {
           type="text/javascript"
           src="https://www.statcounter.com/counter/counter.js"
           async
+          defer
         ></script>
         <noscript>
           <div className="statcounter">
