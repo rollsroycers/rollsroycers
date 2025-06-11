@@ -18,9 +18,10 @@ const nextConfig = {
   compiler: {
     removeConsole: process.env.NODE_ENV === 'production',
   },
-  experimental: {
-    optimizeCss: true,
-  },
+  // Disabled due to build issues with micromatch
+  // experimental: {
+  //   optimizeCss: true,
+  // },
   generateEtags: true,
   productionBrowserSourceMaps: false,
   async headers() {
