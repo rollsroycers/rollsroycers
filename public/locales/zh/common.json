@@ -1,0 +1,139 @@
+{
+  "meta": {
+    "home": {
+      "title": "迪拜劳斯莱斯租赁 | 阿联酋豪华汽车租赁 2025",
+      "description": "迪拜高端劳斯莱斯租赁服务。车队包括幻影、古思特、库里南、曜影和魅影。24/7服务，价格优惠，专业司机。"
+    },
+    "fleet": {
+      "title": "劳斯莱斯迪拜车队 | 5款豪华车型",
+      "description": "探索我们的独家劳斯莱斯车队：幻影、古思特、库里南、曜影、魅影。所有车辆均为2024-2025款。"
+    },
+    "services": {
+      "title": "劳斯莱斯迪拜服务 | 婚礼、机场、商务、旅游",
+      "description": "专业劳斯莱斯租赁服务：婚礼用车、机场接送、商务出行、迪拜VIP观光游。"
+    }
+  },
+  "nav": {
+    "home": "首页",
+    "fleet": "车队",
+    "services": "服务",
+    "about": "关于我们",
+    "contact": "联系我们",
+    "booking": "立即预订",
+    "gallery": "图库",
+    "faq": "常见问题",
+    "testimonials": "客户评价",
+    "pricing": "价格",
+    "blog": "博客",
+    "locations": "地点",
+    "more": "更多"
+  },
+  "hero": {
+    "title": "体验极致奢华",
+    "subtitle": "劳斯莱斯迪拜 - 优雅与卓越的完美结合",
+    "cta": {
+      "book": "预订您的座驾",
+      "explore": "浏览车队"
+    }
+  },
+  "fleet": {
+    "title": "我们的豪华车队",
+    "subtitle": "从独家劳斯莱斯系列中选择",
+    "phantom": {
+      "name": "幻影",
+      "description": "奢华与精致的巅峰 - 旗舰轿车"
+    },
+    "ghost": {
+      "name": "古思特",
+      "description": "无处不在的完美 - 现代优雅"
+    },
+    "cullinan": {
+      "name": "库里南",
+      "description": "劳斯莱斯唯一的豪华SUV"
+    },
+    "dawn": {
+      "name": "曜影",
+      "description": "社交敞篷车 - 享受露天驾驶"
+    },
+    "wraith": {
+      "name": "魅影",
+      "description": "运动轿跑 - 力量与优雅"
+    }
+  },
+  "services": {
+    "title": "我们的尊贵服务",
+    "subtitle": "为每个场合定制解决方案",
+    "wedding": {
+      "title": "婚礼服务",
+      "description": "让您的特殊日子永生难忘"
+    },
+    "corporate": {
+      "title": "企业服务",
+      "description": "行政商务交通解决方案"
+    },
+    "airport": {
+      "title": "机场接送",
+      "description": "VIP机场接送服务"
+    },
+    "chauffeur": {
+      "title": "专业司机",
+      "description": "体验我们专业司机提供的24/7豪华服务"
+    },
+    "photoshoot": {
+      "title": "摄影服务",
+      "description": "以我们的豪华车辆为完美背景，捕捉精彩瞬间"
+    },
+    "tours": {
+      "title": "城市观光",
+      "description": "以极致奢华探索迪拜"
+    }
+  },
+  "booking": {
+    "title": "预订您的劳斯莱斯",
+    "form": {
+      "vehicle": "选择车辆",
+      "service": "服务类型",
+      "pickup": "取车地点",
+      "dropoff": "还车地点",
+      "date": "日期和时间",
+      "name": "全名",
+      "email": "电子邮箱",
+      "phone": "电话",
+      "submit": "确认预订"
+    }
+  },
+  "footer": {
+    "about": "我们是迪拜劳斯莱斯租赁的首选",
+    "quickLinks": "快速链接",
+    "contact": "联系我们",
+    "followUs": "关注我们",
+    "rights": "版权所有",
+    "privacy": "隐私政策",
+    "terms": "使用条款",
+    "support": "24/7支持",
+    "email": "电子邮件",
+    "showroom": "展厅",
+    "call": "致电",
+    "whatsapp": "WhatsApp"
+  },
+  "testimonials": {
+    "title": "客户评价",
+    "subtitle": "来自满意客户的真实体验"
+  },
+  "pricing": {
+    "title": "透明定价",
+    "daily": "日租",
+    "weekly": "周租",
+    "monthly": "月租",
+    "includes": "价格包含",
+    "insurance": "全险",
+    "mileage": "每日250公里",
+    "vat": "增值税",
+    "support": "24/7支持"
+  },
+  "offline": {
+    "title": "离线 | 劳斯莱斯迪拜",
+    "heading": "您当前处于离线状态",
+    "message": "请检查您的网络连接以访问完整网站。"
+  }
+}

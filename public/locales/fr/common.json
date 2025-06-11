@@ -1,0 +1,139 @@
+{
+  "meta": {
+    "home": {
+      "title": "Location Rolls-Royce Dubaï | Voitures de Luxe EAU 2025",
+      "description": "Location premium de Rolls-Royce à Dubaï. Flotte comprenant Phantom, Ghost, Cullinan, Dawn et Wraith. Service 24/7, prix compétitifs, chauffeurs professionnels."
+    },
+    "fleet": {
+      "title": "Flotte Rolls-Royce Dubaï | 5 Modèles de Luxe",
+      "description": "Découvrez notre flotte exclusive de Rolls-Royce: Phantom, Ghost, Cullinan, Dawn, Wraith. Tous les véhicules sont des modèles 2024-2025."
+    },
+    "services": {
+      "title": "Services Rolls-Royce Dubaï | Mariage, Aéroport, Affaires",
+      "description": "Services spécialisés de location Rolls-Royce: mariages, transferts aéroport, voyages d'affaires, tours VIP de Dubaï."
+    }
+  },
+  "nav": {
+    "home": "Accueil",
+    "fleet": "Flotte",
+    "services": "Services",
+    "about": "À propos",
+    "contact": "Contact",
+    "booking": "Réserver",
+    "gallery": "Galerie",
+    "faq": "FAQ",
+    "testimonials": "Témoignages",
+    "pricing": "Tarifs",
+    "blog": "Blog",
+    "locations": "Emplacements",
+    "more": "Plus"
+  },
+  "hero": {
+    "title": "Vivez le luxe absolu",
+    "subtitle": "Rolls-Royce Dubaï - Où l'élégance rencontre l'excellence",
+    "cta": {
+      "book": "Réservez votre voiture",
+      "explore": "Découvrir la flotte"
+    }
+  },
+  "fleet": {
+    "title": "Notre flotte prestigieuse",
+    "subtitle": "Choisissez parmi une collection exclusive de Rolls-Royce",
+    "phantom": {
+      "name": "Phantom",
+      "description": "Le summum du luxe et du raffinement - La berline phare"
+    },
+    "ghost": {
+      "name": "Ghost",
+      "description": "La perfection partout - L'élégance moderne"
+    },
+    "cullinan": {
+      "name": "Cullinan",
+      "description": "Le seul SUV de luxe de Rolls-Royce"
+    },
+    "dawn": {
+      "name": "Dawn",
+      "description": "Le cabriolet social - Plaisir à ciel ouvert"
+    },
+    "wraith": {
+      "name": "Wraith",
+      "description": "Le coupé sportif - Puissance et élégance"
+    }
+  },
+  "services": {
+    "title": "Nos services premium",
+    "subtitle": "Solutions sur mesure pour chaque occasion",
+    "wedding": {
+      "title": "Mariages",
+      "description": "Rendez votre jour spécial inoubliable"
+    },
+    "corporate": {
+      "title": "Services corporatifs",
+      "description": "Solutions de transport exécutif"
+    },
+    "airport": {
+      "title": "Transfert aéroport",
+      "description": "Accueil et départ VIP à l'aéroport"
+    },
+    "chauffeur": {
+      "title": "Chauffeur professionnel",
+      "description": "Vivez le luxe avec nos chauffeurs professionnels disponibles 24/7"
+    },
+    "photoshoot": {
+      "title": "Service de photographie",
+      "description": "Capturez des moments époustouflants avec nos véhicules de luxe comme toile de fond parfaite"
+    },
+    "tours": {
+      "title": "Tours de ville",
+      "description": "Explorez Dubaï dans le luxe ultime"
+    }
+  },
+  "booking": {
+    "title": "Réservez votre Rolls-Royce",
+    "form": {
+      "vehicle": "Choisir le véhicule",
+      "service": "Type de service",
+      "pickup": "Lieu de prise en charge",
+      "dropoff": "Lieu de retour",
+      "date": "Date et heure",
+      "name": "Nom complet",
+      "email": "Email",
+      "phone": "Téléphone",
+      "submit": "Confirmer la réservation"
+    }
+  },
+  "footer": {
+    "about": "Nous sommes le premier choix pour la location de Rolls-Royce à Dubaï",
+    "quickLinks": "Liens rapides",
+    "contact": "Contactez-nous",
+    "followUs": "Suivez-nous",
+    "rights": "Tous droits réservés",
+    "privacy": "Politique de confidentialité",
+    "terms": "Conditions d'utilisation",
+    "support": "Support 24/7",
+    "email": "Email",
+    "showroom": "Showroom",
+    "call": "Appeler",
+    "whatsapp": "WhatsApp"
+  },
+  "testimonials": {
+    "title": "Ce que disent nos clients",
+    "subtitle": "Expériences réelles de clients satisfaits"
+  },
+  "pricing": {
+    "title": "Tarifs transparents",
+    "daily": "Par jour",
+    "weekly": "Par semaine",
+    "monthly": "Par mois",
+    "includes": "Le prix comprend",
+    "insurance": "Assurance complète",
+    "mileage": "250 km par jour",
+    "vat": "TVA",
+    "support": "Support 24/7"
+  },
+  "offline": {
+    "title": "Hors ligne | Rolls-Royce Dubaï",
+    "heading": "Vous êtes actuellement hors ligne",
+    "message": "Veuillez vérifier votre connexion Internet pour accéder au site complet."
+  }
+}

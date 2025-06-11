@@ -1,0 +1,180 @@
+{
+  "nav": {
+    "home": "Home",
+    "fleet": "Our Fleet",
+    "services": "Services",
+    "about": "About",
+    "contact": "Contact",
+    "book": "Book Now",
+    "language": "Language",
+    "gallery": "Gallery",
+    "testimonials": "Testimonials",
+    "pricing": "Pricing",
+    "faq": "FAQ",
+    "blog": "Blog",
+    "locations": "Locations",
+    "more": "More"
+  },
+  "hero": {
+    "title": "Experience Ultimate Luxury",
+    "subtitle": "Rolls-Royce Rental in Dubai",
+    "description": "Indulge in the epitome of automotive excellence with our exclusive Rolls-Royce collection",
+    "cta": "Explore Our Fleet",
+    "stats": {
+      "cars": "Luxury Cars",
+      "experience": "Years of Excellence",
+      "clients": "Satisfied Clients",
+      "service": "24/7 Service"
+    }
+  },
+  "fleet": {
+    "title": "Our Exclusive Fleet",
+    "subtitle": "Choose Your Rolls-Royce",
+    "phantom": {
+      "name": "Rolls-Royce Phantom",
+      "description": "The pinnacle of luxury motoring",
+      "features": ["V12 Engine", "Extended Wheelbase", "Starlight Headliner", "Bespoke Audio"]
+    },
+    "cullinan": {
+      "name": "Rolls-Royce Cullinan",
+      "description": "Effortless, everywhere luxury SUV",
+      "features": ["All-Terrain", "Viewing Suite", "Recreation Module", "Night Vision"]
+    },
+    "ghost": {
+      "name": "Rolls-Royce Ghost",
+      "description": "Post-opulent minimalism",
+      "features": ["Planar Suspension", "Micro-Environment", "Illuminated Fascia", "Magic Carpet Ride"]
+    },
+    "dawn": {
+      "name": "Rolls-Royce Dawn",
+      "description": "The world's quietest convertible",
+      "features": ["Silent Ballet Roof", "Canadel Wood", "Open-Air Luxury", "Bespoke Audio"]
+    },
+    "wraith": {
+      "name": "Rolls-Royce Wraith",
+      "description": "The most powerful Rolls-Royce",
+      "features": ["Fastback Design", "Starlight Headliner", "Satellite Aided Transmission", "Dynamic Performance"]
+    },
+    "rentNow": "Rent Now",
+    "from": "From",
+    "perDay": "per day"
+  },
+  "services": {
+    "title": "Exceptional Services",
+    "subtitle": "Tailored to Your Needs",
+    "wedding": {
+      "title": "Wedding Service",
+      "description": "Make your special day unforgettable with our luxury wedding car service"
+    },
+    "corporate": {
+      "title": "Corporate Service",
+      "description": "Executive transportation solutions for business professionals"
+    },
+    "chauffeur": {
+      "title": "Professional Chauffeur",
+      "description": "Experience luxury with our trained, multilingual chauffeurs available 24/7"
+    },
+    "airport": {
+      "title": "Airport Transfer",
+      "description": "Seamless arrival and departure with our premium airport transfer service"
+    },
+    "events": {
+      "title": "Special Events",
+      "description": "Make your wedding, gala, or corporate event unforgettable"
+    },
+    "photoshoot": {
+      "title": "Photoshoot Service",
+      "description": "Capture stunning moments with our luxury vehicles as the perfect backdrop"
+    },
+    "tours": {
+      "title": "City Tours",
+      "description": "Explore Dubai's landmarks in ultimate luxury and comfort"
+    },
+    "hourly": {
+      "title": "Hourly Rental",
+      "description": "Flexible hourly packages for your convenience"
+    },
+    "concierge": {
+      "title": "Concierge Service",
+      "description": "Personal assistance for restaurant reservations, tours, and more"
+    },
+    "delivery": {
+      "title": "Delivery & Collection",
+      "description": "We deliver and collect from any location in Dubai"
+    }
+  },
+  "about": {
+    "title": "About Rolls-Royce Dubai",
+    "subtitle": "Setting the Standard for Luxury Car Rental",
+    "description": "With years of experience in providing exceptional luxury car rental services, we pride ourselves on delivering an unparalleled experience to our distinguished clientele. Our meticulously maintained fleet of Rolls-Royce vehicles represents the pinnacle of automotive luxury.",
+    "whyChoose": "Why Choose Us",
+    "reasons": {
+      "fleet": "Newest models with impeccable maintenance",
+      "service": "24/7 concierge and support service",
+      "drivers": "Professional, licensed, and multilingual chauffeurs",
+      "price": "Transparent pricing with no hidden fees",
+      "flexible": "Flexible rental terms and packages",
+      "delivery": "Complimentary delivery within Dubai"
+    }
+  },
+  "reviews": {
+    "title": "What Our Clients Say",
+    "subtitle": "Exceptional Experiences, Every Time",
+    "rating": "Rating",
+    "verified": "Verified Customer",
+    "readMore": "Read More",
+    "showLess": "Show Less"
+  },
+  "contact": {
+    "title": "Get in Touch",
+    "subtitle": "We're Here to Serve You",
+    "form": {
+      "name": "Your Name",
+      "email": "Email Address",
+      "phone": "Phone Number",
+      "car": "Select Car Model",
+      "date": "Rental Date",
+      "duration": "Rental Duration",
+      "message": "Additional Requirements",
+      "submit": "Send Inquiry",
+      "success": "Thank you! We'll contact you shortly.",
+      "error": "Something went wrong. Please try again."
+    },
+    "info": {
+      "phone": "Phone",
+      "email": "Email",
+      "address": "Address",
+      "hours": "Available 24/7"
+    },
+    "cta": "Call us directly for immediate assistance"
+  },
+  "footer": {
+    "tagline": "Experience the extraordinary",
+    "links": {
+      "privacy": "Privacy Policy",
+      "terms": "Terms & Conditions",
+      "sitemap": "Sitemap"
+    },
+    "social": "Follow Us",
+    "rights": "All rights reserved",
+    "support": "24/7 Support",
+    "email": "Email",
+    "showroom": "Showroom",
+    "about": "Your premier choice for Rolls-Royce luxury car rental in Dubai",
+    "quickLinks": "Quick Links",
+    "call": "Call",
+    "whatsapp": "WhatsApp",
+    "privacy": "Privacy Policy",
+    "terms": "Terms & Conditions"
+  },
+  "seo": {
+    "title": "Rolls-Royce Rental Dubai | Luxury Car Hire | 24/7 Service",
+    "description": "Rent Rolls-Royce in Dubai. Phantom, Cullinan, Ghost, Dawn & Wraith available. Professional chauffeur service, airport transfer, special events. Call +971558164922",
+    "keywords": "Rolls-Royce rental Dubai, luxury car hire Dubai, Rolls-Royce Phantom rental, Cullinan rental Dubai, chauffeur service Dubai, airport transfer Dubai, wedding car Dubai"
+  },
+  "offline": {
+    "title": "Offline | Rolls-Royce Dubai",
+    "heading": "You are Currently Offline",
+    "message": "Please check your internet connection to access the full site."
+  }
+}
