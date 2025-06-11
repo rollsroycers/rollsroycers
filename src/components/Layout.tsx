@@ -3,6 +3,7 @@ import Navbar from './Navbar'
 import Footer from './Footer'
 import CookieConsent from './CookieConsent'
 import SocialProofNotifications from './SocialProofNotifications'
+import VoiceSearch from './VoiceSearch'
 import { useTranslation } from 'next-i18next'
 
 interface LayoutProps {
@@ -22,6 +23,7 @@ export default function Layout({ children }: LayoutProps) {
       <Footer />
       <CookieConsent />
       <SocialProofNotifications />
+      <VoiceSearch />
     </div>
   )
 }
