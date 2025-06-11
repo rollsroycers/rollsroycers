@@ -83,6 +83,35 @@ export default function Document() {
       <body>
         <Main />
         <NextScript />
+        
+        {/* StatCounter Analytics */}
+        <script
+          type="text/javascript"
+          dangerouslySetInnerHTML={{
+            __html: `
+              var sc_project=13143252;
+              var sc_invisible=1;
+              var sc_security="e91ea536";
+            `
+          }}
+        />
+        <script
+          type="text/javascript"
+          src="https://www.statcounter.com/counter/counter.js"
+          async
+        />
+        <noscript>
+          <div className="statcounter">
+            <a title="free web stats" href="https://statcounter.com/" target="_blank">
+              <img
+                className="statcounter"
+                src="https://c.statcounter.com/13143252/0/e91ea536/1/"
+                alt="free web stats"
+                referrerPolicy="no-referrer-when-downgrade"
+              />
+            </a>
+          </div>
+        </noscript>
       </body>
     </Html>
   )
