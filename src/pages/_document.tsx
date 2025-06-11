@@ -102,11 +102,11 @@ export default function Document() {
         />
         <noscript>
           <div className="statcounter">
-            <a title="free web stats" href="https://statcounter.com/" target="_blank">
+            <a title="Web Analytics" href="https://statcounter.com/" target="_blank">
               <img
                 className="statcounter"
                 src="https://c.statcounter.com/13143252/0/e91ea536/1/"
-                alt="free web stats"
+                alt="Web Analytics"
                 referrerPolicy="no-referrer-when-downgrade"
               />
             </a>
