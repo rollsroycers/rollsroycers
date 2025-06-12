@@ -220,11 +220,17 @@ export default function SEO({ pageKey, dynamicParams }: SEOProps) {
                 "worstRating": "1"
               },
               "itemReviewed": {
-                "@type": "Service",
-                "name": "Rolls-Royce Dubai Car Rental Service",
-                "provider": {
-                  "@type": "CarRental",
-                  "@id": `${baseUrl}/#organization`
+                "@type": "CarRental",
+                "name": "Rolls-Royce Dubai",
+                "url": baseUrl,
+                "telephone": "+971558164922",
+                "address": {
+                  "@type": "PostalAddress",
+                  "streetAddress": "Sheikh Zayed Road",
+                  "addressLocality": "Dubai",
+                  "addressRegion": "Dubai",
+                  "postalCode": "00000",
+                  "addressCountry": "AE"
                 }
               }
             },
@@ -244,11 +250,17 @@ export default function SEO({ pageKey, dynamicParams }: SEOProps) {
                 "worstRating": "1"
               },
               "itemReviewed": {
-                "@type": "Service",
-                "name": "Rolls-Royce Dubai Car Rental Service",
-                "provider": {
-                  "@type": "CarRental",
-                  "@id": `${baseUrl}/#organization`
+                "@type": "CarRental",
+                "name": "Rolls-Royce Dubai",
+                "url": baseUrl,
+                "telephone": "+971558164922",
+                "address": {
+                  "@type": "PostalAddress",
+                  "streetAddress": "Sheikh Zayed Road",
+                  "addressLocality": "Dubai",
+                  "addressRegion": "Dubai",
+                  "postalCode": "00000",
+                  "addressCountry": "AE"
                 }
               }
             },
@@ -268,11 +280,17 @@ export default function SEO({ pageKey, dynamicParams }: SEOProps) {
                 "worstRating": "1"
               },
               "itemReviewed": {
-                "@type": "Service",
-                "name": "Rolls-Royce Dubai Car Rental Service",
-                "provider": {
-                  "@type": "CarRental",
-                  "@id": `${baseUrl}/#organization`
+                "@type": "CarRental",
+                "name": "Rolls-Royce Dubai",
+                "url": baseUrl,
+                "telephone": "+971558164922",
+                "address": {
+                  "@type": "PostalAddress",
+                  "streetAddress": "Sheikh Zayed Road",
+                  "addressLocality": "Dubai",
+                  "addressRegion": "Dubai",
+                  "postalCode": "00000",
+                  "addressCountry": "AE"
                 }
               }
             }
