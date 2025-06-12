@@ -24,7 +24,7 @@ interface SitemapPage {
 export default function handler(req: NextApiRequest, res: NextApiResponse) {
   const baseUrl = 'https://rollsroycers.com'
   const currentDate = new Date().toISOString().split('T')[0]
-  
+
   const staticPages: SitemapPage[] = [
     {
       url: '/',
@@ -64,15 +64,16 @@ export default function handler(req: NextApiRequest, res: NextApiResponse) {
     { url: '/faq', changefreq: 'monthly', priority: '0.7', lastmod: '2025-01-06' },
     { url: '/testimonials', changefreq: 'weekly', priority: '0.8', lastmod: currentDate },
     { url: '/pricing', changefreq: 'weekly', priority: '0.9', lastmod: currentDate },
-    { url: '/terms', changefreq: 'yearly', priority: '0.3', lastmod: '2024-12-01' },
-    { url: '/privacy', changefreq: 'yearly', priority: '0.3', lastmod: '2024-12-01' },
+    { url: '/terms', changefreq: 'yearly', priority: '0.3', lastmod: '2025-01-06' },
+    { url: '/privacy', changefreq: 'yearly', priority: '0.3', lastmod: '2025-01-06' },
   ]
-  
+
   const fleetPages: SitemapPage[] = [
     {
       url: '/fleet/phantom',
       changefreq: 'weekly',
       priority: '0.9',
+      lastmod: '2025-01-06',
       images: [
         {
           loc: '/images/Rolls-Royce_Phantom_Extended_Series_II.jpg',
@@ -85,6 +86,7 @@ export default function handler(req: NextApiRequest, res: NextApiResponse) {
       url: '/fleet/ghost',
       changefreq: 'weekly',
       priority: '0.9',
+      lastmod: '2025-01-06',
       images: [
         {
           loc: '/images/Rolls-Royce_Ghost_Black_Badge.jpg',
@@ -97,6 +99,7 @@ export default function handler(req: NextApiRequest, res: NextApiResponse) {
       url: '/fleet/cullinan',
       changefreq: 'weekly',
       priority: '0.9',
+      lastmod: '2025-01-06',
       images: [
         {
           loc: '/images/2024_Rolls-Royce_Cullinan.jpg',
@@ -109,6 +112,7 @@ export default function handler(req: NextApiRequest, res: NextApiResponse) {
       url: '/fleet/dawn',
       changefreq: 'weekly',
       priority: '0.9',
+      lastmod: '2025-01-06',
       images: [
         {
           loc: '/images/Rolls-Royce_Dawn.jpg',
@@ -117,56 +121,53 @@ export default function handler(req: NextApiRequest, res: NextApiResponse) {
         }
       ]
     },
-    { url: '/fleet/wraith', changefreq: 'weekly', priority: '0.9' },
+    { url: '/fleet/wraith', changefreq: 'weekly', priority: '0.9', lastmod: '2025-01-06' },
   ]
-  
+
   const servicePages: SitemapPage[] = [
-    { url: '/services/wedding', changefreq: 'weekly', priority: '0.8' },
-    { url: '/services/airport-transfer', changefreq: 'weekly', priority: '0.8' },
-    { url: '/services/corporate', changefreq: 'weekly', priority: '0.8' },
-    { url: '/services/chauffeur', changefreq: 'weekly', priority: '0.8' },
-    { url: '/services/events', changefreq: 'weekly', priority: '0.8' },
-    { url: '/services/photoshoot', changefreq: 'weekly', priority: '0.8' },
-    { url: '/services/tours', changefreq: 'weekly', priority: '0.8' },
+    { url: '/services/wedding', changefreq: 'weekly', priority: '0.8', lastmod: '2025-01-06' },
+    { url: '/services/airport-transfer', changefreq: 'weekly', priority: '0.8', lastmod: '2025-01-06' },
+    { url: '/services/corporate', changefreq: 'weekly', priority: '0.8', lastmod: '2025-01-06' },
+    { url: '/services/chauffeur', changefreq: 'weekly', priority: '0.8', lastmod: '2025-01-06' },
+    { url: '/services/events', changefreq: 'weekly', priority: '0.8', lastmod: '2025-01-06' },
+    { url: '/services/photoshoot', changefreq: 'weekly', priority: '0.8', lastmod: '2025-01-06' },
+    { url: '/services/tours', changefreq: 'weekly', priority: '0.8', lastmod: '2025-01-06' },
   ]
-  
+
   const locationPages: SitemapPage[] = [
-    { url: '/locations/downtown-dubai', changefreq: 'weekly', priority: '0.8' },
-    { url: '/locations/dubai-marina', changefreq: 'weekly', priority: '0.8' },
-    { url: '/locations/palm-jumeirah', changefreq: 'weekly', priority: '0.7' },
-    { url: '/locations/business-bay', changefreq: 'weekly', priority: '0.7' },
-    { url: '/locations/jbr', changefreq: 'weekly', priority: '0.7' },
-    { url: '/locations/difc', changefreq: 'weekly', priority: '0.8' },
+    { url: '/locations/downtown-dubai', changefreq: 'weekly', priority: '0.8', lastmod: '2025-01-06' },
+    { url: '/locations/dubai-marina', changefreq: 'weekly', priority: '0.8', lastmod: '2025-01-06' },
+    { url: '/locations/palm-jumeirah', changefreq: 'weekly', priority: '0.7', lastmod: '2025-01-06' },
+    { url: '/locations/business-bay', changefreq: 'weekly', priority: '0.7', lastmod: '2025-01-06' },
+    { url: '/locations/jbr', changefreq: 'weekly', priority: '0.7', lastmod: '2025-01-06' },
+    { url: '/locations/difc', changefreq: 'weekly', priority: '0.8', lastmod: '2025-01-06' },
   ]
-  
+
   const blogPages: SitemapPage[] = [
-    { url: '/blog/ultimate-guide-rolls-royce-rental-dubai', changefreq: 'monthly', priority: '0.7' },
-    { url: '/blog/top-scenic-drives-dubai', changefreq: 'monthly', priority: '0.6' },
-    { url: '/blog/rolls-royce-wedding-car-dubai', changefreq: 'monthly', priority: '0.6' },
-    { url: '/blog/business-travel-rolls-royce', changefreq: 'monthly', priority: '0.6' },
+    { url: '/blog/ultimate-guide-rolls-royce-rental-dubai', changefreq: 'monthly', priority: '0.7', lastmod: '2025-01-06' },
+    { url: '/blog/top-scenic-drives-dubai', changefreq: 'monthly', priority: '0.6', lastmod: '2025-01-06' },
+    { url: '/blog/rolls-royce-wedding-car-dubai', changefreq: 'monthly', priority: '0.6', lastmod: '2025-01-06' },
+    { url: '/blog/business-travel-rolls-royce', changefreq: 'monthly', priority: '0.6', lastmod: '2025-01-06' },
   ]
-  
+
   const comparisonPages: SitemapPage[] = [
-    { url: '/compare/rolls-royce-vs-bentley', changefreq: 'monthly', priority: '0.7' },
+    { url: '/compare/rolls-royce-vs-bentley', changefreq: 'monthly', priority: '0.7', lastmod: '2025-01-06' },
   ]
-  
+
   const languages = ['en', 'ar', 'ru', 'fr', 'zh', 'hi']
-  
+
   const allPages = [...staticPages, ...fleetPages, ...servicePages, ...locationPages, ...blogPages, ...comparisonPages]
-  
-  // Generate URL entries with proper formatting
-  const generateUrlEntry = (page: SitemapPage, lang: string): string => {
-    const langPrefix = lang === 'en' ? '' : `/${lang}`
+
+  const generateUrlEntry = (page: SitemapPage): string => {
     const alternateLinks = languages
-      .map(altLang => {
-        const altPrefix = altLang === 'en' ? '' : `/${altLang}`
-        return `    <xhtml:link rel="alternate" hreflang="${altLang}" href="${baseUrl}${altPrefix}${page.url}"/>`
+      .map(lang => {
+        const altPrefix = lang === 'en' ? '' : `/${lang}`
+        return `    <xhtml:link rel="alternate" hreflang="${lang}" href="${baseUrl}${altPrefix}${page.url}"/>`
       })
       .join('\n')
-    
-    // Add x-default for better international SEO
+      
     const xDefaultLink = `    <xhtml:link rel="alternate" hreflang="x-default" href="${baseUrl}${page.url}"/>`
-    
+
     const imageEntries = page.images?.map(img => `    <image:image>
       <image:loc>${baseUrl}${img.loc}</image:loc>
       ${img.title ? `<image:title>${img.title}</image:title>` : ''}
@@ -174,7 +175,7 @@ export default function handler(req: NextApiRequest, res: NextApiResponse) {
       ${img.geo_location ? `<image:geo_location>${img.geo_location}</image:geo_location>` : ''}
       ${img.license ? `<image:license>${img.license}</image:license>` : ''}
     </image:image>`).join('\n') || ''
-    
+
     const videoEntries = page.videos?.map(video => `    <video:video>
       <video:thumbnail_loc>${baseUrl}${video.thumbnail_loc}</video:thumbnail_loc>
       <video:title>${video.title}</video:title>
@@ -184,29 +185,27 @@ export default function handler(req: NextApiRequest, res: NextApiResponse) {
       <video:family_friendly>yes</video:family_friendly>
       <video:live>no</video:live>
     </video:video>`).join('\n') || ''
-    
+
     return `  <url>
-    <loc>${baseUrl}${langPrefix}${page.url}</loc>
+    <loc>${baseUrl}${page.url}</loc>
     <lastmod>${page.lastmod || currentDate}</lastmod>
     <changefreq>${page.changefreq}</changefreq>
     <priority>${page.priority}</priority>
 ${alternateLinks}
 ${xDefaultLink}
-${imageEntries ? imageEntries + '\n' : ''}${videoEntries ? videoEntries + '\n' : ''}  </url>`
+${imageEntries ? imageEntries + '\n' : ''}${videoEntries ? videoEntries + '\n' : ''}
+  </url>`
   }
-  
-  // For Google, it's better to only include the primary language URLs with hreflang annotations
-  // rather than duplicating URLs for each language
+
   const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:xhtml="http://www.w3.org/1999/xhtml"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
         xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
-${allPages.map(page => generateUrlEntry(page, 'en')).join('\n')}
+${allPages.map(page => generateUrlEntry(page)).join('\n')}
 </urlset>`
-  
+
   res.setHeader('Content-Type', 'text/xml; charset=UTF-8')
   res.setHeader('Cache-Control', 'public, s-maxage=3600, stale-while-revalidate')
-  res.setHeader('X-Robots-Tag', 'noindex, follow')
   res.status(200).send(sitemap)
 }
