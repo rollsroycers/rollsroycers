@@ -4,10 +4,20 @@ interface SitemapPage {
   url: string
   changefreq: 'always' | 'hourly' | 'daily' | 'weekly' | 'monthly' | 'yearly' | 'never'
   priority: string
+  lastmod?: string
   images?: Array<{
     loc: string
     title?: string
     caption?: string
+    geo_location?: string
+    license?: string
+  }>
+  videos?: Array<{
+    thumbnail_loc: string
+    title: string
+    description: string
+    content_loc?: string
+    duration?: number
   }>
 }
 
@@ -20,24 +30,42 @@ export default function handler(req: NextApiRequest, res: NextApiResponse) {
       url: '/',
       changefreq: 'daily',
       priority: '1.0',
+      lastmod: currentDate,
       images: [
         {
           loc: '/images/Rolls-royce-phantom.jpg',
           title: 'Luxury Rolls-Royce Fleet Dubai',
-          caption: 'Premium Rolls-Royce cars available for rent in Dubai'
+          caption: 'Premium Rolls-Royce cars available for rent in Dubai',
+          geo_location: 'Dubai, United Arab Emirates',
+          license: 'https://rollsroycers.com/terms'
+        },
+        {
+          loc: '/images/Rolls-royce-dubai.jpg',
+          title: 'Rolls-Royce Rental Dubai',
+          caption: 'Luxury car rental service in Dubai',
+          geo_location: 'Dubai, United Arab Emirates'
+        }
+      ],
+      videos: [
+        {
+          thumbnail_loc: '/images/Rolls-royce-official.jpg',
+          title: 'Rolls-Royce Dubai Experience',
+          description: 'Experience luxury with our Rolls-Royce rental service in Dubai',
+          content_loc: '/images/videos/Rolls_Royce_defines_what_Luxury_cars_mean.mp4',
+          duration: 58
         }
       ]
     },
-    { url: '/about', changefreq: 'monthly', priority: '0.8' },
-    { url: '/contact', changefreq: 'monthly', priority: '0.7' },
-    { url: '/booking', changefreq: 'weekly', priority: '0.9' },
-    { url: '/blog', changefreq: 'daily', priority: '0.8' },
-    { url: '/gallery', changefreq: 'weekly', priority: '0.8' },
-    { url: '/faq', changefreq: 'monthly', priority: '0.7' },
-    { url: '/testimonials', changefreq: 'weekly', priority: '0.8' },
-    { url: '/pricing', changefreq: 'weekly', priority: '0.9' },
-    { url: '/terms', changefreq: 'yearly', priority: '0.3' },
-    { url: '/privacy', changefreq: 'yearly', priority: '0.3' },
+    { url: '/about', changefreq: 'monthly', priority: '0.8', lastmod: '2025-01-06' },
+    { url: '/contact', changefreq: 'monthly', priority: '0.7', lastmod: '2025-01-06' },
+    { url: '/booking', changefreq: 'weekly', priority: '0.9', lastmod: currentDate },
+    { url: '/blog', changefreq: 'daily', priority: '0.8', lastmod: currentDate },
+    { url: '/gallery', changefreq: 'weekly', priority: '0.8', lastmod: '2025-01-06' },
+    { url: '/faq', changefreq: 'monthly', priority: '0.7', lastmod: '2025-01-06' },
+    { url: '/testimonials', changefreq: 'weekly', priority: '0.8', lastmod: currentDate },
+    { url: '/pricing', changefreq: 'weekly', priority: '0.9', lastmod: currentDate },
+    { url: '/terms', changefreq: 'yearly', priority: '0.3', lastmod: '2024-12-01' },
+    { url: '/privacy', changefreq: 'yearly', priority: '0.3', lastmod: '2024-12-01' },
   ]
   
   const fleetPages: SitemapPage[] = [
@@ -130,39 +158,55 @@ export default function handler(req: NextApiRequest, res: NextApiResponse) {
   const generateUrlEntry = (page: SitemapPage, lang: string): string => {
     const langPrefix = lang === 'en' ? '' : `/${lang}`
     const alternateLinks = languages
-      .filter(l => l !== lang)
       .map(altLang => {
         const altPrefix = altLang === 'en' ? '' : `/${altLang}`
         return `    <xhtml:link rel="alternate" hreflang="${altLang}" href="${baseUrl}${altPrefix}${page.url}"/>`
       })
       .join('\n')
     
+    // Add x-default for better international SEO
+    const xDefaultLink = `    <xhtml:link rel="alternate" hreflang="x-default" href="${baseUrl}${page.url}"/>`
+    
     const imageEntries = page.images?.map(img => `    <image:image>
       <image:loc>${baseUrl}${img.loc}</image:loc>
       ${img.title ? `<image:title>${img.title}</image:title>` : ''}
       ${img.caption ? `<image:caption>${img.caption}</image:caption>` : ''}
+      ${img.geo_location ? `<image:geo_location>${img.geo_location}</image:geo_location>` : ''}
+      ${img.license ? `<image:license>${img.license}</image:license>` : ''}
     </image:image>`).join('\n') || ''
+    
+    const videoEntries = page.videos?.map(video => `    <video:video>
+      <video:thumbnail_loc>${baseUrl}${video.thumbnail_loc}</video:thumbnail_loc>
+      <video:title>${video.title}</video:title>
+      <video:description>${video.description}</video:description>
+      ${video.content_loc ? `<video:content_loc>${baseUrl}${video.content_loc}</video:content_loc>` : ''}
+      ${video.duration ? `<video:duration>${video.duration}</video:duration>` : ''}
+      <video:family_friendly>yes</video:family_friendly>
+      <video:live>no</video:live>
+    </video:video>`).join('\n') || ''
     
     return `  <url>
     <loc>${baseUrl}${langPrefix}${page.url}</loc>
-    <lastmod>${currentDate}</lastmod>
+    <lastmod>${page.lastmod || currentDate}</lastmod>
     <changefreq>${page.changefreq}</changefreq>
     <priority>${page.priority}</priority>
-    <xhtml:link rel="alternate" hreflang="${lang}" href="${baseUrl}${langPrefix}${page.url}"/>
 ${alternateLinks}
-${imageEntries ? imageEntries + '\n' : ''}  </url>`
+${xDefaultLink}
+${imageEntries ? imageEntries + '\n' : ''}${videoEntries ? videoEntries + '\n' : ''}  </url>`
   }
   
+  // For Google, it's better to only include the primary language URLs with hreflang annotations
+  // rather than duplicating URLs for each language
   const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:xhtml="http://www.w3.org/1999/xhtml"
-        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
-${allPages.flatMap(page =>
-  languages.map(lang => generateUrlEntry(page, lang))
-).join('\n')}
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+        xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+${allPages.map(page => generateUrlEntry(page, 'en')).join('\n')}
 </urlset>`
   
   res.setHeader('Content-Type', 'text/xml; charset=UTF-8')
   res.setHeader('Cache-Control', 'public, s-maxage=3600, stale-while-revalidate')
+  res.setHeader('X-Robots-Tag', 'noindex, follow')
   res.status(200).send(sitemap)
 }
