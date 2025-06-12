@@ -154,11 +154,16 @@ export default function SEO({ pageKey, dynamicParams }: SEOProps) {
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
-            "@type": "CarRental",
+            "@type": "LocalBusiness",
+            "@id": `${baseUrl}/#organization`,
             "name": "Rolls-Royce Dubai",
             "description": description,
             "url": baseUrl,
-            "image": `${baseUrl}/images/logo.jpg`,
+            "image": [
+              `${baseUrl}/images/logo.jpg`,
+              `${baseUrl}/images/Rolls-royce-official.jpg`,
+              `${baseUrl}/images/Rolls-royce-dubai.jpg`
+            ],
             "telephone": "+971558164922",
             "address": {
               "@type": "PostalAddress",
@@ -188,66 +193,20 @@ export default function SEO({ pageKey, dynamicParams }: SEOProps) {
               "closes": "23:59"
             },
             "priceRange": "$$$$",
-            "paymentAccepted": "Cash, Credit Card, Bank Transfer",
-            "currenciesAccepted": "AED, USD, EUR, GBP",
-            "availableLanguage": {
-              "@type": "Language",
-              "name": ["English", "Arabic", "Chinese", "French", "Russian", "Hindi"]
+            "paymentAccepted": ["Cash", "Credit Card", "Bank Transfer"],
+            "currenciesAccepted": "AED",
+            "areaServed": {
+              "@type": "City",
+              "name": "Dubai"
             },
+            "serviceType": "Luxury Car Rental",
             "aggregateRating": {
               "@type": "AggregateRating",
               "ratingValue": "5.0",
               "reviewCount": "1247",
               "bestRating": "5",
               "worstRating": "1"
-            },
-            "review": [
-              {
-                "@type": "Review",
-                "author": {
-                  "@type": "Person",
-                  "name": "Ahmed Al-Rashid"
-                },
-                "datePublished": "2023-12-15",
-                "reviewBody": "Exceptional service! The Phantom was immaculate, and the chauffeur was professional and courteous. Made our anniversary celebration truly special.",
-                "reviewRating": {
-                  "@type": "Rating",
-                  "ratingValue": "5",
-                  "bestRating": "5",
-                  "worstRating": "1"
-                }
-              },
-              {
-                "@type": "Review",
-                "author": {
-                  "@type": "Person",
-                  "name": "Dmitry Ivanov"
-                },
-                "datePublished": "2023-11-20",
-                "reviewBody": "Perfect for our family trip to the desert. The Cullinan handled everything beautifully while maintaining supreme comfort.",
-                "reviewRating": {
-                  "@type": "Rating",
-                  "ratingValue": "5",
-                  "bestRating": "5",
-                  "worstRating": "1"
-                }
-              },
-              {
-                "@type": "Review",
-                "author": {
-                  "@type": "Person",
-                  "name": "Wang Jun"
-                },
-                "datePublished": "2023-07-10",
-                "reviewBody": "VIP treatment from start to finish. The Phantom's comfort is unmatched. Used it for important business meetings and the impression it made was invaluable.",
-                "reviewRating": {
-                  "@type": "Rating",
-                  "ratingValue": "5",
-                  "bestRating": "5",
-                  "worstRating": "1"
-                }
-              }
-            ]
+            }
           })
         }}
       />
