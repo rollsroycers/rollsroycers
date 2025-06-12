@@ -152,149 +152,103 @@ export default function SEO({ pageKey, dynamicParams }: SEOProps) {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
-          __html: JSON.stringify([
-            {
-              "@context": "https://schema.org",
-              "@type": "CarRental",
-              "@id": `${baseUrl}/#organization`,
-              "name": "Rolls-Royce Dubai",
-              "description": description,
-              "url": baseUrl,
-              "telephone": "+971558164922",
-              "address": {
-                "@type": "PostalAddress",
-                "streetAddress": "Sheikh Zayed Road",
-                "addressLocality": "Dubai",
-                "addressRegion": "Dubai",
-                "postalCode": "00000",
-                "addressCountry": "AE"
-              },
-              "geo": {
-                "@type": "GeoCoordinates",
-                "latitude": 25.2048,
-                "longitude": 55.2708
-              },
-              "openingHoursSpecification": {
-                "@type": "OpeningHoursSpecification",
-                "dayOfWeek": [
-                  "Monday",
-                  "Tuesday",
-                  "Wednesday",
-                  "Thursday",
-                  "Friday",
-                  "Saturday",
-                  "Sunday"
-                ],
-                "opens": "00:00",
-                "closes": "23:59"
-              },
-              "priceRange": "$$$$",
-              "paymentAccepted": "Cash, Credit Card, Bank Transfer",
-              "currenciesAccepted": "AED, USD, EUR, GBP",
-              "availableLanguage": {
-                "@type": "Language",
-                "name": ["English", "Arabic", "Chinese", "French", "Russian", "Hindi"]
-              },
-              "aggregateRating": {
-                "@type": "AggregateRating",
-                "ratingValue": "5.0",
-                "reviewCount": "1247",
-                "bestRating": "5",
-                "worstRating": "1"
-              }
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "CarRental",
+            "name": "Rolls-Royce Dubai",
+            "description": description,
+            "url": baseUrl,
+            "image": `${baseUrl}/images/logo.jpg`,
+            "telephone": "+971558164922",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Sheikh Zayed Road",
+              "addressLocality": "Dubai",
+              "addressRegion": "Dubai",
+              "postalCode": "00000",
+              "addressCountry": "AE"
             },
-            // Individual Review samples
-            {
-              "@context": "https://schema.org",
-              "@type": "Review",
-              "author": {
-                "@type": "Person",
-                "name": "Ahmed Al-Rashid"
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 25.2048,
+              "longitude": 55.2708
+            },
+            "openingHoursSpecification": {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": [
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday",
+                "Friday",
+                "Saturday",
+                "Sunday"
+              ],
+              "opens": "00:00",
+              "closes": "23:59"
+            },
+            "priceRange": "$$$$",
+            "paymentAccepted": "Cash, Credit Card, Bank Transfer",
+            "currenciesAccepted": "AED, USD, EUR, GBP",
+            "availableLanguage": {
+              "@type": "Language",
+              "name": ["English", "Arabic", "Chinese", "French", "Russian", "Hindi"]
+            },
+            "aggregateRating": {
+              "@type": "AggregateRating",
+              "ratingValue": "5.0",
+              "reviewCount": "1247",
+              "bestRating": "5",
+              "worstRating": "1"
+            },
+            "review": [
+              {
+                "@type": "Review",
+                "author": {
+                  "@type": "Person",
+                  "name": "Ahmed Al-Rashid"
+                },
+                "datePublished": "2023-12-15",
+                "reviewBody": "Exceptional service! The Phantom was immaculate, and the chauffeur was professional and courteous. Made our anniversary celebration truly special.",
+                "reviewRating": {
+                  "@type": "Rating",
+                  "ratingValue": "5",
+                  "bestRating": "5",
+                  "worstRating": "1"
+                }
               },
-              "datePublished": "2023-12-15",
-              "reviewBody": "Exceptional service! The Phantom was immaculate, and the chauffeur was professional and courteous. Made our anniversary celebration truly special.",
-              "reviewRating": {
-                "@type": "Rating",
-                "ratingValue": "5",
-                "bestRating": "5",
-                "worstRating": "1"
+              {
+                "@type": "Review",
+                "author": {
+                  "@type": "Person",
+                  "name": "Dmitry Ivanov"
+                },
+                "datePublished": "2023-11-20",
+                "reviewBody": "Perfect for our family trip to the desert. The Cullinan handled everything beautifully while maintaining supreme comfort.",
+                "reviewRating": {
+                  "@type": "Rating",
+                  "ratingValue": "5",
+                  "bestRating": "5",
+                  "worstRating": "1"
+                }
               },
-              "itemReviewed": {
-                "@type": "CarRental",
-                "name": "Rolls-Royce Dubai",
-                "url": baseUrl,
-                "telephone": "+971558164922",
-                "address": {
-                  "@type": "PostalAddress",
-                  "streetAddress": "Sheikh Zayed Road",
-                  "addressLocality": "Dubai",
-                  "addressRegion": "Dubai",
-                  "postalCode": "00000",
-                  "addressCountry": "AE"
+              {
+                "@type": "Review",
+                "author": {
+                  "@type": "Person",
+                  "name": "Wang Jun"
+                },
+                "datePublished": "2023-07-10",
+                "reviewBody": "VIP treatment from start to finish. The Phantom's comfort is unmatched. Used it for important business meetings and the impression it made was invaluable.",
+                "reviewRating": {
+                  "@type": "Rating",
+                  "ratingValue": "5",
+                  "bestRating": "5",
+                  "worstRating": "1"
                 }
               }
-            },
-            {
-              "@context": "https://schema.org",
-              "@type": "Review",
-              "author": {
-                "@type": "Person",
-                "name": "Dmitry Ivanov"
-              },
-              "datePublished": "2023-11-20",
-              "reviewBody": "Perfect for our family trip to the desert. The Cullinan handled everything beautifully while maintaining supreme comfort.",
-              "reviewRating": {
-                "@type": "Rating",
-                "ratingValue": "5",
-                "bestRating": "5",
-                "worstRating": "1"
-              },
-              "itemReviewed": {
-                "@type": "CarRental",
-                "name": "Rolls-Royce Dubai",
-                "url": baseUrl,
-                "telephone": "+971558164922",
-                "address": {
-                  "@type": "PostalAddress",
-                  "streetAddress": "Sheikh Zayed Road",
-                  "addressLocality": "Dubai",
-                  "addressRegion": "Dubai",
-                  "postalCode": "00000",
-                  "addressCountry": "AE"
-                }
-              }
-            },
-            {
-              "@context": "https://schema.org",
-              "@type": "Review",
-              "author": {
-                "@type": "Person",
-                "name": "Wang Jun"
-              },
-              "datePublished": "2023-07-10",
-              "reviewBody": "VIP treatment from start to finish. The Phantom's comfort is unmatched. Used it for important business meetings and the impression it made was invaluable.",
-              "reviewRating": {
-                "@type": "Rating",
-                "ratingValue": "5",
-                "bestRating": "5",
-                "worstRating": "1"
-              },
-              "itemReviewed": {
-                "@type": "CarRental",
-                "name": "Rolls-Royce Dubai",
-                "url": baseUrl,
-                "telephone": "+971558164922",
-                "address": {
-                  "@type": "PostalAddress",
-                  "streetAddress": "Sheikh Zayed Road",
-                  "addressLocality": "Dubai",
-                  "addressRegion": "Dubai",
-                  "postalCode": "00000",
-                  "addressCountry": "AE"
-                }
-              }
-            }
-          ])
+            ]
+          })
         }}
       />
     </Head>
