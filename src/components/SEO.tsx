@@ -4,12 +4,14 @@ import { useTranslation } from 'next-i18next'
 
 interface SEOProps {
   pageKey: string
+  title?: string
+  description?: string
   dynamicParams?: {
     [key: string]: string
   }
 }
 
-export default function SEO({ pageKey, dynamicParams }: SEOProps) {
+export default function SEO({ pageKey, title: titleProp, description: descriptionProp, dynamicParams }: SEOProps) {
   const router = useRouter()
   const { t, i18n } = useTranslation('seo')
   
@@ -32,8 +34,8 @@ export default function SEO({ pageKey, dynamicParams }: SEOProps) {
   }
   
   // Get SEO content
-  const title = getTranslation('title')
-  const description = getTranslation('description')
+  const title = titleProp || getTranslation('title')
+  const description = descriptionProp || getTranslation('description')
   const keywords = getTranslation('keywords')
   
   // Generate canonical URL
@@ -120,15 +122,6 @@ export default function SEO({ pageKey, dynamicParams }: SEOProps) {
       <meta name="ICBM" content="25.2048, 55.2708" />
       
       {/* Language-specific fonts preload */}
-      {currentLang === 'ar' && (
-        <link
-          rel="preload"
-          href="/fonts/dubai-font.woff2"
-          as="font"
-          type="font/woff2"
-          crossOrigin="anonymous"
-        />
-      )}
       {currentLang === 'zh' && (
         <link
           rel="preload"

@@ -1,12 +1,12 @@
 import { GetStaticProps } from 'next'
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
-import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
 import { motion } from 'framer-motion'
 import { useState } from 'react'
 import Layout from '@/components/Layout'
 import WhatsAppButton from '@/components/WhatsAppButton'
+import SEO from '@/components/SEO'
 
 export default function ChauffeurServicesPage() {
   const [selectedService, setSelectedService] = useState('hourly')
@@ -171,45 +171,7 @@ export default function ChauffeurServicesPage() {
 
   return (
     <>
-      <Head>
-        <title>Rolls-Royce Chauffeur Service Dubai | Professional Luxury Drivers</title>
-        <meta name="description" content="Premium Rolls-Royce chauffeur service in Dubai. Professional drivers, hourly & daily rates, airport transfers. Multilingual chauffeurs available 24/7." />
-        <meta name="keywords" content="Rolls Royce chauffeur Dubai, luxury chauffeur service Dubai, private driver Dubai, chauffeur driven Rolls Royce, professional driver Dubai" />
-        <link rel="canonical" href="https://rollsroycers.com/services/chauffeur" />
-        
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
-              "@context": "https://schema.org",
-              "@type": "Service",
-              "name": "Rolls-Royce Chauffeur Service Dubai",
-              "description": "Professional luxury chauffeur service with Rolls-Royce vehicles",
-              "provider": {
-                "@type": "Organization",
-                "name": "Rolls-Royce Dubai"
-              },
-              "areaServed": {
-                "@type": "City",
-                "name": "Dubai"
-              },
-              "serviceType": "Chauffeur Service",
-              "offers": Object.values(chauffeurServices).map(service => ({
-                "@type": "Offer",
-                "name": service.name,
-                "description": service.description,
-                "price": service.pricing
-              })),
-              "aggregateRating": {
-                "@type": "AggregateRating",
-                "ratingValue": "4.9",
-                "reviewCount": "428"
-              }
-            })
-          }}
-        />
-      </Head>
-
+      <SEO pageKey="services.chauffeur" />
       <Layout>
         {/* Hero Section */}
         <section className="relative h-screen flex items-center justify-center overflow-hidden">

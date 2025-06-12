@@ -1,12 +1,12 @@
 import { GetStaticProps, GetStaticPaths } from 'next'
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
-import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
 import { motion } from 'framer-motion'
 import { useRouter } from 'next/router'
 import Layout from '@/components/Layout'
 import WhatsAppButton from '@/components/WhatsAppButton'
+import SEO from '@/components/SEO'
 
 // Blog articles data - في الإنتاج يمكن نقلها لـ CMS
 const blogArticles: Record<string, BlogArticle> = {
@@ -661,49 +661,11 @@ export default function BlogArticlePage() {
 
   return (
     <>
-      <Head>
-        <title>{article.title} | Rolls-Royce Dubai Blog</title>
-        <meta name="description" content={article.description} />
-        <meta name="keywords" content={`${article.title}, Rolls Royce Dubai, luxury car rental, ${article.category}`} />
-        <link rel="canonical" href={`https://rollsroycers.com/blog/${slug}`} />
-        
-        <meta property="og:title" content={article.title} />
-        <meta property="og:description" content={article.description} />
-        <meta property="og:image" content={`https://rollsroycers.com${article.image}`} />
-        <meta property="og:type" content="article" />
-        
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
-              "@context": "https://schema.org",
-              "@type": "BlogPosting",
-              "headline": article.title,
-              "description": article.description,
-              "image": `https://rollsroycers.com${article.image}`,
-              "author": {
-                "@type": "Person",
-                "name": article.author
-              },
-              "publisher": {
-                "@type": "Organization",
-                "name": "Rolls-Royce Dubai",
-                "logo": {
-                  "@type": "ImageObject",
-                  "url": "https://rollsroycers.com/images/logo.jpg"
-                }
-              },
-              "datePublished": article.date,
-              "dateModified": article.date,
-              "mainEntityOfPage": {
-                "@type": "WebPage",
-                "@id": `https://rollsroycers.com/blog/${slug}`
-              }
-            })
-          }}
-        />
-      </Head>
-
+      <SEO
+        pageKey={`blog.${slug}`}
+        title={article.title}
+        description={article.description}
+      />
       <Layout>
         {/* Hero Section */}
         <section className="relative h-[60vh] flex items-center justify-center overflow-hidden">

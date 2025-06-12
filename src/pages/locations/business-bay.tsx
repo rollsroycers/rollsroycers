@@ -1,12 +1,12 @@
 import { GetStaticProps } from 'next'
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
-import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
 import { motion } from 'framer-motion'
 import Layout from '@/components/Layout'
 import WhatsAppButton from '@/components/WhatsAppButton'
 import ComparisonTool from '@/components/ComparisonTool'
+import SEO from '@/components/SEO'
 
 export default function BusinessBayPage() {
   const businessTowers = [
@@ -94,39 +94,7 @@ export default function BusinessBayPage() {
 
   return (
     <>
-      <Head>
-        <title>Rolls-Royce Rental Business Bay Dubai | Executive Car Hire</title>
-        <meta name="description" content="Premium Rolls-Royce rental in Business Bay Dubai. Perfect for executives, corporate meetings, and business entertainment. Quick delivery to all Business Bay towers." />
-        <meta name="keywords" content="Rolls Royce Business Bay, executive car rental Dubai, Business Bay luxury car, corporate rental Dubai, business district car hire" />
-        <link rel="canonical" href="https://rollsroycers.com/locations/business-bay" />
-        
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
-              "@context": "https://schema.org",
-              "@type": "LocalBusiness",
-              "name": "Rolls-Royce Business Bay",
-              "description": "Executive luxury car rental service in Business Bay Dubai",
-              "address": {
-                "@type": "PostalAddress",
-                "addressLocality": "Business Bay",
-                "addressRegion": "Dubai",
-                "addressCountry": "AE"
-              },
-              "geo": {
-                "@type": "GeoCoordinates",
-                "latitude": "25.1859",
-                "longitude": "55.2653"
-              },
-              "openingHours": "Mo-Su 00:00-24:00",
-              "telephone": "+971558164922",
-              "priceRange": "AED 5,500 - AED 8,000 per day"
-            })
-          }}
-        />
-      </Head>
-
+      <SEO pageKey="locations.business-bay" />
       <Layout>
         {/* Hero Section */}
         <section className="relative h-screen flex items-center justify-center overflow-hidden">

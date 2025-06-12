@@ -1,10 +1,10 @@
 import { GetStaticProps } from 'next'
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
-import Head from 'next/head'
 import Link from 'next/link'
 import { motion } from 'framer-motion'
 import Layout from '@/components/Layout'
 import WhatsAppButton from '@/components/WhatsAppButton'
+import SEO from '@/components/SEO'
 
 export default function PrivacyPage() {
   const sections = [
@@ -192,34 +192,7 @@ export default function PrivacyPage() {
 
   return (
     <>
-      <Head>
-        <title>Privacy Policy | Rolls-Royce Dubai - Data Protection</title>
-        <meta name="description" content="Privacy policy for Rolls-Royce Dubai. Learn how we collect, use, and protect your personal information. Your privacy and data security are our priority." />
-        <meta name="keywords" content="privacy policy Rolls Royce Dubai, data protection, personal information, GDPR compliance, customer privacy" />
-        <link rel="canonical" href="https://rollsroycers.com/privacy" />
-        
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
-              "@context": "https://schema.org",
-              "@type": "WebPage",
-              "name": "Privacy Policy",
-              "description": "Privacy policy and data protection information for Rolls-Royce Dubai",
-              "url": "https://rollsroycers.com/privacy",
-              "inLanguage": "en",
-              "isPartOf": {
-                "@type": "WebSite",
-                "name": "Rolls-Royce Dubai",
-                "url": "https://rollsroycers.com"
-              },
-              "dateModified": "2024-01-01",
-              "datePublished": "2024-01-01"
-            })
-          }}
-        />
-      </Head>
-
+      <SEO pageKey="other.privacy" />
       <Layout>
         {/* Hero Section */}
         <section className="relative h-[40vh] flex items-center justify-center overflow-hidden">

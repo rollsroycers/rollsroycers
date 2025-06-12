@@ -1,6 +1,5 @@
 import { GetStaticProps } from 'next'
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
-import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
 import { motion } from 'framer-motion'
@@ -10,6 +9,7 @@ import PriceCalculator from '@/components/PriceCalculator'
 import ComparisonTool from '@/components/ComparisonTool'
 import VirtualTour from '@/components/VirtualTour'
 import WhatsAppButton from '@/components/WhatsAppButton'
+import SEO from '@/components/SEO'
 
 export default function CullinanPage() {
   const [activeImageIndex, setActiveImageIndex] = useState(0)
@@ -73,54 +73,7 @@ export default function CullinanPage() {
 
   return (
     <>
-      <Head>
-        <title>Rolls-Royce Cullinan Rental Dubai | Luxury SUV Hire UAE 2024</title>
-        <meta name="description" content="Rent Rolls-Royce Cullinan in Dubai - The ultimate luxury SUV. 6.75L V12 engine, all-terrain capability, viewing suite. Daily, weekly & monthly rental available." />
-        <meta name="keywords" content="Rolls Royce Cullinan rental Dubai, luxury SUV rental Dubai, Cullinan hire UAE, Rolls Royce SUV Dubai, luxury car rental Dubai" />
-        <link rel="canonical" href="https://rollsroycers.com/fleet/cullinan" />
-        
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
-              "@context": "https://schema.org",
-              "@type": "Product",
-              "name": "Rolls-Royce Cullinan Rental",
-              "description": "Luxury SUV rental service in Dubai",
-              "brand": {
-                "@type": "Brand",
-                "name": "Rolls-Royce"
-              },
-              "model": "Cullinan",
-              "vehicleConfiguration": "SUV",
-              "vehicleEngine": {
-                "@type": "EngineSpecification",
-                "name": "6.75L V12 Twin-Turbo"
-              },
-              "offers": {
-                "@type": "AggregateOffer",
-                "priceCurrency": "AED",
-                "lowPrice": "6500",
-                "highPrice": "85000",
-                "offerCount": "4",
-                "offers": rentalPackages.map(pkg => ({
-                  "@type": "Offer",
-                  "price": pkg.price.replace(/[^0-9]/g, ''),
-                  "priceCurrency": "AED",
-                  "name": pkg.duration + " Rental"
-                }))
-              },
-              "aggregateRating": {
-                "@type": "AggregateRating",
-                "ratingValue": "4.9",
-                "reviewCount": "156",
-                "bestRating": "5"
-              }
-            })
-          }}
-        />
-      </Head>
-
+      <SEO pageKey="fleet.cullinan" />
       <Layout>
         {/* Hero Section */}
         <section className="relative h-screen flex items-center justify-center overflow-hidden">

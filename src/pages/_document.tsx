@@ -91,13 +91,12 @@ export default function Document() {
               var sc_project=13143252;
               var sc_invisible=1;
               var sc_security="e91ea536";
+              var sc_text=2;
+              var scJsHost = "https://www.statcounter.com/";
+              document.write("<sc"+"ript src='" + scJsHost + "counter/counter.js'></"+"script>");
             `,
           }}
         />
-        <script
-          src="https://www.statcounter.com/counter/counter.js"
-          async
-        ></script>
         <noscript>
           <div className="statcounter">
             <a title="Web Analytics" href="https://statcounter.com/" target="_blank" rel="noopener noreferrer">

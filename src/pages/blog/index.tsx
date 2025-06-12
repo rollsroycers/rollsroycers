@@ -1,12 +1,12 @@
 import { GetStaticProps } from 'next'
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
-import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
 import { motion } from 'framer-motion'
 import { useState } from 'react'
 import Layout from '@/components/Layout'
 import WhatsAppButton from '@/components/WhatsAppButton'
+import SEO from '@/components/SEO'
 
 export default function BlogPage() {
   const [selectedCategory, setSelectedCategory] = useState('all')
@@ -117,47 +117,7 @@ export default function BlogPage() {
 
   return (
     <>
-      <Head>
-        <title>Rolls-Royce Dubai Blog | Luxury Car Rental Tips & Guides</title>
-        <meta name="description" content="Expert insights on Rolls-Royce rental in Dubai. Luxury travel guides, wedding tips, business solutions, and exclusive event coverage. Your ultimate resource." />
-        <meta name="keywords" content="Rolls Royce Dubai blog, luxury car rental tips, Dubai travel guide, wedding car advice, business travel Dubai" />
-        <link rel="canonical" href="https://rollsroycers.com/blog" />
-        
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
-              "@context": "https://schema.org",
-              "@type": "Blog",
-              "name": "Rolls-Royce Dubai Blog",
-              "description": "Luxury car rental insights and Dubai travel guides",
-              "url": "https://rollsroycers.com/blog",
-              "publisher": {
-                "@type": "Organization",
-                "name": "Rolls-Royce Dubai",
-                "logo": {
-                  "@type": "ImageObject",
-                  "url": "https://rollsroycers.com/logo.png"
-                }
-              },
-              "blogPost": [
-                {
-                  "@type": "BlogPosting",
-                  "headline": featuredArticle.title,
-                  "description": featuredArticle.excerpt,
-                  "author": {
-                    "@type": "Person",
-                    "name": featuredArticle.author
-                  },
-                  "datePublished": "2024-12-15",
-                  "image": featuredArticle.image
-                }
-              ]
-            })
-          }}
-        />
-      </Head>
-
+      <SEO pageKey="blog.index" />
       <Layout>
         {/* Hero Section */}
         <section className="relative h-[60vh] flex items-center justify-center overflow-hidden">

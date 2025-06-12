@@ -1,12 +1,12 @@
 import { GetStaticProps } from 'next'
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
-import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
 import { motion } from 'framer-motion'
 import Layout from '@/components/Layout'
 import WhatsAppButton from '@/components/WhatsAppButton'
 import ComparisonTool from '@/components/ComparisonTool'
+import SEO from '@/components/SEO'
 
 export default function DowntownDubaiPage() {
   const landmarks = [
@@ -109,54 +109,7 @@ export default function DowntownDubaiPage() {
 
   return (
     <>
-      <Head>
-        <title>Rolls-Royce Rental Downtown Dubai | Burj Khalifa Area Luxury Cars</title>
-        <meta name="description" content="Rent Rolls-Royce in Downtown Dubai. Free delivery to Burj Khalifa, Dubai Mall, DIFC. Experience luxury car rental in Dubai's premier district. Book now!" />
-        <meta name="keywords" content="Rolls Royce rental Downtown Dubai, Burj Khalifa car rental, Dubai Mall luxury car, Downtown Dubai chauffeur, DIFC Rolls Royce" />
-        <link rel="canonical" href="https://rollsroycers.com/locations/downtown-dubai" />
-        
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
-              "@context": "https://schema.org",
-              "@type": "LocalBusiness",
-              "name": "Rolls-Royce Downtown Dubai",
-              "description": "Luxury Rolls-Royce rental service in Downtown Dubai",
-              "image": "/images/Rolls-Royce-black.jpg",
-              "address": {
-                "@type": "PostalAddress",
-                "addressLocality": "Downtown Dubai",
-                "addressRegion": "Dubai",
-                "addressCountry": "AE",
-                "streetAddress": "Mohammed Bin Rashid Boulevard"
-              },
-              "geo": {
-                "@type": "GeoCoordinates",
-                "latitude": "25.1972",
-                "longitude": "55.2744"
-              },
-              "openingHours": "Mo-Su 00:00-24:00",
-              "telephone": "+971558164922",
-              "priceRange": "AED 5,500 - AED 8,000 per day",
-              "areaServed": [
-                {
-                  "@type": "Place",
-                  "name": "Downtown Dubai"
-                },
-                {
-                  "@type": "Place", 
-                  "name": "Business Bay"
-                },
-                {
-                  "@type": "Place",
-                  "name": "DIFC"
-                }
-              ]
-            })
-          }}
-        />
-      </Head>
+      <SEO pageKey="locations.downtown-dubai" />
 
       <Layout>
         {/* Hero Section */}

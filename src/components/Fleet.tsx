@@ -17,7 +17,7 @@ export default function Fleet() {
       features: t('fleet.phantom.features', { returnObjects: true }) as string[],
       image: '/images/Rolls-royce-phantom.jpg',
       video: '/images/videos/Rolls-royce-phantom.mp4',
-      price: '$2,500'
+      price: 'AED 5,800'
     },
     {
       id: 2,
@@ -26,7 +26,7 @@ export default function Fleet() {
       features: t('fleet.cullinan.features', { returnObjects: true }) as string[],
       image: '/images/Rolls-Royce-Cullinan_.jpg',
       video: '/images/videos/Rolls-Royce-Cullinan_.mp4',
-      price: '$2,800'
+      price: 'AED 6,500'
     },
     {
       id: 3,
@@ -34,7 +34,7 @@ export default function Fleet() {
       description: t('fleet.ghost.description'),
       features: t('fleet.ghost.features', { returnObjects: true }) as string[],
       image: '/images/Rolls-Royce-white.jpg',
-      price: '$2,200'
+      price: 'AED 4,800'
     },
     {
       id: 4,
@@ -42,7 +42,7 @@ export default function Fleet() {
       description: t('fleet.dawn.description'),
       features: t('fleet.dawn.features', { returnObjects: true }) as string[],
       image: '/images/Rolls-royce-dubai.jpg',
-      price: '$2,400'
+      price: 'AED 5,500'
     },
     {
       id: 5,
@@ -50,7 +50,7 @@ export default function Fleet() {
       description: t('fleet.wraith.description'),
       features: t('fleet.wraith.features', { returnObjects: true }) as string[],
       image: '/images/Rolls-Royce-black.jpg',
-      price: '$2,300'
+      price: 'AED 5,000'
     }
   ]
 

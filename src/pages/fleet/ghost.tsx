@@ -1,6 +1,5 @@
 import { GetStaticProps } from 'next'
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
-import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
 import { motion } from 'framer-motion'
@@ -10,6 +9,7 @@ import PriceCalculator from '@/components/PriceCalculator'
 import ComparisonTool from '@/components/ComparisonTool'
 import VirtualTour from '@/components/VirtualTour'
 import WhatsAppButton from '@/components/WhatsAppButton'
+import SEO from '@/components/SEO'
 
 export default function GhostPage() {
   const [activeTab, setActiveTab] = useState('overview')
@@ -96,64 +96,7 @@ export default function GhostPage() {
 
   return (
     <>
-      <Head>
-        <title>Rolls-Royce Ghost Rental Dubai | Luxury Business Sedan UAE</title>
-        <meta name="description" content="Rent Rolls-Royce Ghost in Dubai - The ultimate business luxury sedan. Whisper-quiet cabin, advanced technology, professional chauffeur available. Book now!" />
-        <meta name="keywords" content="Rolls Royce Ghost rental Dubai, Ghost hire Dubai, luxury sedan rental Dubai, business car rental Dubai, executive car Dubai" />
-        <link rel="canonical" href="https://rollsroycers.com/fleet/ghost" />
-        
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
-              "@context": "https://schema.org",
-              "@type": "Product",
-              "name": "Rolls-Royce Ghost Rental",
-              "description": "Luxury business sedan rental service in Dubai",
-              "brand": {
-                "@type": "Brand",
-                "name": "Rolls-Royce"
-              },
-              "model": "Ghost",
-              "vehicleConfiguration": "Sedan",
-              "vehicleEngine": {
-                "@type": "EngineSpecification",
-                "name": "6.75L V12 Twin-Turbo",
-                "powerOutput": "563 HP"
-              },
-              "offers": {
-                "@type": "AggregateOffer",
-                "priceCurrency": "AED",
-                "lowPrice": "4800",
-                "highPrice": "75000",
-                "offerCount": "4",
-                "availability": "https://schema.org/InStock"
-              },
-              "aggregateRating": {
-                "@type": "AggregateRating",
-                "ratingValue": "4.9",
-                "reviewCount": "243",
-                "bestRating": "5"
-              },
-              "review": [
-                {
-                  "@type": "Review",
-                  "reviewRating": {
-                    "@type": "Rating",
-                    "ratingValue": "5"
-                  },
-                  "author": {
-                    "@type": "Person",
-                    "name": "Ahmed K."
-                  },
-                  "reviewBody": "Perfect for business meetings. The quiet cabin is incredible."
-                }
-              ]
-            })
-          }}
-        />
-      </Head>
-
+      <SEO pageKey="fleet.ghost" />
       <Layout>
         {/* Hero Section */}
         <section className="relative h-screen flex items-center justify-center overflow-hidden">

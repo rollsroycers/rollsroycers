@@ -1,11 +1,11 @@
 import { GetStaticProps } from 'next'
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
-import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
 import { motion } from 'framer-motion'
 import Layout from '@/components/Layout'
 import WhatsAppButton from '@/components/WhatsAppButton'
+import SEO from '@/components/SEO'
 
 export default function ToursServicePage() {
   const tourPackages = [
@@ -166,42 +166,7 @@ export default function ToursServicePage() {
 
   return (
     <>
-      <Head>
-        <title>Rolls-Royce Tours Dubai | Luxury Sightseeing & City Tours</title>
-        <meta name="description" content="Experience Dubai in a Rolls-Royce with our luxury tour packages. City tours, desert safaris, Abu Dhabi trips, and custom itineraries. Book your VIP tour today." />
-        <meta name="keywords" content="Rolls Royce tours Dubai, luxury city tour, VIP sightseeing, chauffeur tour service, Dubai desert safari Rolls Royce" />
-        <link rel="canonical" href="https://rollsroycers.com/services/tours" />
-        
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
-              "@context": "https://schema.org",
-              "@type": "TouristTrip",
-              "name": "Rolls-Royce Luxury Tours Dubai",
-              "description": "Premium sightseeing tours in Dubai with Rolls-Royce vehicles",
-              "provider": {
-                "@type": "Organization",
-                "name": "Rolls-Royce Dubai"
-              },
-              "touristType": "Luxury traveler",
-              "includesAttraction": [
-                {
-                  "@type": "TouristAttraction",
-                  "name": "Burj Khalifa",
-                  "description": "World's tallest building"
-                },
-                {
-                  "@type": "TouristAttraction",
-                  "name": "Palm Jumeirah",
-                  "description": "Iconic palm-shaped island"
-                }
-              ]
-            })
-          }}
-        />
-      </Head>
-
+      <SEO pageKey="services.tours" />
       <Layout>
         {/* Hero Section */}
         <section className="relative h-[70vh] flex items-center justify-center overflow-hidden">

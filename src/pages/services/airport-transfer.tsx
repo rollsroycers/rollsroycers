@@ -1,12 +1,12 @@
 import { GetStaticProps } from 'next'
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
-import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
 import { motion } from 'framer-motion'
 import { useState } from 'react'
 import Layout from '@/components/Layout'
 import WhatsAppButton from '@/components/WhatsAppButton'
+import SEO from '@/components/SEO'
 
 export default function AirportTransferPage() {
   const [selectedAirport, setSelectedAirport] = useState('DXB')
@@ -114,48 +114,7 @@ export default function AirportTransferPage() {
 
   return (
     <>
-      <Head>
-        <title>Rolls-Royce Airport Transfer Dubai | Luxury Airport Pickup Service</title>
-        <meta name="description" content="Premium Rolls-Royce airport transfer service in Dubai. DXB, DWC, AUH pickup. Professional chauffeurs, flight tracking, fixed rates. Book luxury airport transportation." />
-        <meta name="keywords" content="Rolls Royce airport transfer Dubai, luxury airport pickup Dubai, DXB airport transfer, Dubai airport limousine, VIP airport service Dubai" />
-        <link rel="canonical" href="https://rollsroycers.com/services/airport-transfer" />
-        
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
-              "@context": "https://schema.org",
-              "@type": "TaxiService",
-              "name": "Rolls-Royce Airport Transfer Dubai",
-              "description": "Luxury airport transfer service with Rolls-Royce vehicles",
-              "areaServed": [
-                {
-                  "@type": "Airport",
-                  "name": "Dubai International Airport",
-                  "iataCode": "DXB"
-                },
-                {
-                  "@type": "Airport", 
-                  "name": "Al Maktoum International Airport",
-                  "iataCode": "DWC"
-                }
-              ],
-              "priceRange": "AED 1,200 - AED 3,800",
-              "vehicleFleet": {
-                "@type": "Vehicle",
-                "brand": "Rolls-Royce",
-                "model": ["Phantom", "Ghost", "Cullinan", "Dawn", "Wraith"]
-              },
-              "aggregateRating": {
-                "@type": "AggregateRating",
-                "ratingValue": "4.9",
-                "reviewCount": "312"
-              }
-            })
-          }}
-        />
-      </Head>
-
+      <SEO pageKey="services.airport-transfer" />
       <Layout>
         {/* Hero Section */}
         <section className="relative h-screen flex items-center justify-center overflow-hidden">

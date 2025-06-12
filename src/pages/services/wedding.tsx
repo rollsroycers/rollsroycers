@@ -1,11 +1,11 @@
 import { GetStaticProps } from 'next'
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
-import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
 import { motion } from 'framer-motion'
 import Layout from '@/components/Layout'
 import WhatsAppButton from '@/components/WhatsAppButton'
+import SEO from '@/components/SEO'
 
 export default function WeddingServicePage() {
   const packages = [
@@ -67,46 +67,7 @@ export default function WeddingServicePage() {
 
   return (
     <>
-      <Head>
-        <title>Rolls-Royce Wedding Car Rental Dubai | Luxury Wedding Cars UAE</title>
-        <meta name="description" content="Premium Rolls-Royce wedding car rental in Dubai. Make your special day unforgettable with Phantom, Ghost, or Dawn. Professional chauffeurs, decoration included." />
-        <meta name="keywords" content="Rolls Royce wedding car Dubai, luxury wedding car rental Dubai, Phantom wedding car, wedding car hire Dubai, bridal car Dubai" />
-        <link rel="canonical" href="https://rollsroycers.com/services/wedding" />
-        
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
-              "@context": "https://schema.org",
-              "@type": "Service",
-              "serviceType": "Wedding Car Rental",
-              "provider": {
-                "@type": "Organization",
-                "name": "Rolls-Royce Dubai"
-              },
-              "areaServed": {
-                "@type": "City",
-                "name": "Dubai"
-              },
-              "hasOfferCatalog": {
-                "@type": "OfferCatalog",
-                "name": "Wedding Packages",
-                "itemListElement": packages.map(pkg => ({
-                  "@type": "Offer",
-                  "itemOffered": {
-                    "@type": "Service",
-                    "name": pkg.name,
-                    "description": pkg.features.join(', ')
-                  },
-                  "price": pkg.price,
-                  "priceCurrency": "AED"
-                }))
-              }
-            })
-          }}
-        />
-      </Head>
-
+      <SEO pageKey="services.wedding" />
       <Layout>
         {/* Hero Section */}
         <section className="relative h-screen flex items-center justify-center overflow-hidden">

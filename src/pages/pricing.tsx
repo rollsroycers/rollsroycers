@@ -1,11 +1,11 @@
 import { GetStaticProps } from 'next'
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
-import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
 import { motion } from 'framer-motion'
 import { useState } from 'react'
 import Layout from '@/components/Layout'
+import SEO from '@/components/SEO'
 import WhatsAppButton from '@/components/WhatsAppButton'
 import PriceCalculator from '@/components/PriceCalculator'
 
@@ -110,27 +110,27 @@ export default function PricingPage() {
   const additionalServices = [
     {
       service: 'Professional Chauffeur',
-      price: 'AED 1,200/day',
+      price: 'AED 1,500/day',
       description: 'Experienced, multilingual drivers'
     },
     {
       service: 'Airport Transfer',
-      price: 'AED 800',
+      price: 'AED 1,000',
       description: 'One-way luxury transfer'
     },
     {
       service: 'Wedding Package',
-      price: 'From AED 7,500',
+      price: 'From AED 8,500',
       description: 'Decorated vehicle with chauffeur'
     },
     {
       service: 'Hourly Rental',
-      price: 'AED 1,800/hour',
+      price: 'AED 2,000/hour',
       description: 'Minimum 4 hours'
     },
     {
       service: 'Extra Mileage',
-      price: 'AED 15/km',
+      price: 'AED 20/km',
       description: 'Beyond 250km daily allowance'
     },
     {
@@ -143,7 +143,7 @@ export default function PricingPage() {
   const corporatePackages = [
     {
       name: 'Executive',
-      price: 'AED 25,000/month',
+      price: 'AED 85,000/month',
       features: [
         '20 days per month',
         'Choice of Ghost or Wraith',
@@ -153,7 +153,7 @@ export default function PricingPage() {
     },
     {
       name: 'Chairman',
-      price: 'AED 45,000/month',
+      price: 'AED 150,000/month',
       features: [
         'Unlimited usage',
         'Any vehicle from fleet',
@@ -198,33 +198,7 @@ export default function PricingPage() {
 
   return (
     <>
-      <Head>
-        <title>Rolls-Royce Dubai Rental Prices 2025 | Transparent Pricing</title>
-        <meta name="description" content="Complete Rolls-Royce rental pricing in Dubai. Daily, weekly, and monthly rates for Phantom, Ghost, Cullinan, Dawn, and Wraith. No hidden fees." />
-        <meta name="keywords" content="Rolls Royce rental prices Dubai, luxury car rental cost, Phantom rental price, Ghost rental Dubai, Cullinan price per day" />
-        <link rel="canonical" href="https://rollsroycers.com/pricing" />
-        
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
-              "@context": "https://schema.org",
-              "@type": "PriceSpecification",
-              "priceCurrency": "AED",
-              "price": "4800-6500",
-              "unitText": "DAY",
-              "name": "Rolls-Royce Rental Pricing Dubai",
-              "description": "Daily rental rates for Rolls-Royce vehicles in Dubai",
-              "validFrom": "2025-01-01",
-              "validThrough": "2025-12-31",
-              "eligibleRegion": {
-                "@type": "Place",
-                "name": "Dubai, UAE"
-              }
-            })
-          }}
-        />
-      </Head>
+      <SEO pageKey="other.pricing" />
 
       <Layout>
         {/* Hero Section */}

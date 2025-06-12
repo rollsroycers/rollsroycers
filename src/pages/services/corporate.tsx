@@ -1,12 +1,12 @@
 import { GetStaticProps } from 'next'
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
-import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
 import { motion } from 'framer-motion'
 import { useState } from 'react'
 import Layout from '@/components/Layout'
 import WhatsAppButton from '@/components/WhatsAppButton'
+import SEO from '@/components/SEO'
 
 export default function CorporateServicesPage() {
   const [selectedPackage, setSelectedPackage] = useState('executive')
@@ -127,45 +127,7 @@ export default function CorporateServicesPage() {
 
   return (
     <>
-      <Head>
-        <title>Rolls-Royce Corporate Services Dubai | Business Car Rental UAE</title>
-        <meta name="description" content="Premium Rolls-Royce corporate car rental in Dubai. Executive transport, conference fleets, roadshow solutions. Dedicated account management. Enhance your business image." />
-        <meta name="keywords" content="corporate car rental Dubai, business Rolls Royce rental, executive transport Dubai, company car rental Dubai, VIP transport services" />
-        <link rel="canonical" href="https://rollsroycers.com/services/corporate" />
-        
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
-              "@context": "https://schema.org",
-              "@type": "Service",
-              "serviceType": "Corporate Luxury Car Rental",
-              "provider": {
-                "@type": "Organization",
-                "name": "Rolls-Royce Dubai",
-                "telephone": "+971558164922"
-              },
-              "areaServed": {
-                "@type": "Country",
-                "name": "United Arab Emirates"
-              },
-              "hasOfferCatalog": {
-                "@type": "OfferCatalog",
-                "name": "Corporate Packages",
-                "itemListElement": Object.values(corporatePackages).map(pkg => ({
-                  "@type": "Offer",
-                  "itemOffered": {
-                    "@type": "Service",
-                    "name": pkg.name,
-                    "description": pkg.description
-                  }
-                }))
-              }
-            })
-          }}
-        />
-      </Head>
-
+      <SEO pageKey="services.corporate" />
       <Layout>
         {/* Hero Section */}
         <section className="relative h-screen flex items-center justify-center overflow-hidden">

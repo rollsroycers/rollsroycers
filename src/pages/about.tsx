@@ -1,10 +1,10 @@
 import { GetStaticProps } from 'next'
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
-import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
 import { motion } from 'framer-motion'
 import Layout from '@/components/Layout'
+import SEO from '@/components/SEO'
 import WhatsAppButton from '@/components/WhatsAppButton'
 
 export default function AboutPage() {
@@ -78,47 +78,7 @@ export default function AboutPage() {
 
   return (
     <>
-      <Head>
-        <title>About Rolls-Royce Dubai | Premier Luxury Car Rental Since 2009</title>
-        <meta name="description" content="Learn about Rolls-Royce Dubai - UAE's premier luxury car rental company. 15+ years of excellence, 50+ vehicles, 10,000+ satisfied clients. Our story, team, and values." />
-        <meta name="keywords" content="about Rolls Royce Dubai, luxury car rental company Dubai, Rolls Royce rental history, Dubai car rental team" />
-        <link rel="canonical" href="https://rollsroycers.com/about" />
-        
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
-              "@context": "https://schema.org",
-              "@type": "Organization",
-              "name": "Rolls-Royce Dubai",
-              "url": "https://rollsroycers.com",
-              "logo": "https://rollsroycers.com/logo.png",
-              "description": "Premier luxury car rental company in Dubai specializing in Rolls-Royce vehicles",
-              "foundingDate": "2009",
-              "founders": [{
-                "@type": "Person",
-                "name": "Ahmed Al Rashid"
-              }],
-              "address": {
-                "@type": "PostalAddress",
-                "addressLocality": "Dubai",
-                "addressCountry": "AE"
-              },
-              "contactPoint": {
-                "@type": "ContactPoint",
-                "telephone": "+971558164922",
-                "contactType": "customer service",
-                "availableLanguage": ["English", "Arabic", "Russian", "French", "Chinese", "Hindi"]
-              },
-              "sameAs": [
-                "https://www.facebook.com/rollsroycers",
-                "https://www.instagram.com/rollsroycers",
-                "https://www.linkedin.com/company/rollsroycers"
-              ]
-            })
-          }}
-        />
-      </Head>
+      <SEO pageKey="other.about" />
 
       <Layout>
         {/* Hero Section */}

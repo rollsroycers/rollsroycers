@@ -1,6 +1,6 @@
 import { GetStaticProps } from 'next'
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
-import Head from 'next/head'
+import SEO from '@/components/SEO'
 import Image from 'next/image'
 import Link from 'next/link'
 import { motion } from 'framer-motion'
@@ -185,30 +185,7 @@ export default function FAQPage() {
 
   return (
     <>
-      <Head>
-        <title>Rolls-Royce Dubai FAQ | Frequently Asked Questions</title>
-        <meta name="description" content="Find answers to common questions about renting a Rolls-Royce in Dubai. Requirements, pricing, booking process, and policies explained." />
-        <meta name="keywords" content="Rolls Royce Dubai FAQ, luxury car rental questions, Dubai car rental requirements, Rolls Royce rental policies, booking information" />
-        <link rel="canonical" href="https://rollsroycers.com/faq" />
-        
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
-              "@context": "https://schema.org",
-              "@type": "FAQPage",
-              "mainEntity": faqs.map(faq => ({
-                "@type": "Question",
-                "name": faq.question,
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": faq.answer
-                }
-              }))
-            })
-          }}
-        />
-      </Head>
+      <SEO pageKey="other.faq" />
 
       <Layout>
         {/* Hero Section */}

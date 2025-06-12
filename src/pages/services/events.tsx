@@ -1,12 +1,12 @@
 import { GetStaticProps } from 'next'
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
-import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
 import { motion } from 'framer-motion'
 import Layout from '@/components/Layout'
 import WhatsAppButton from '@/components/WhatsAppButton'
 import PriceCalculator from '@/components/PriceCalculator'
+import SEO from '@/components/SEO'
 
 export default function EventsServicePage() {
   const eventTypes = [
@@ -172,55 +172,7 @@ export default function EventsServicePage() {
 
   return (
     <>
-      <Head>
-        <title>Rolls-Royce Event Rental Dubai | Luxury Cars for Special Events</title>
-        <meta name="description" content="Premium Rolls-Royce rental for events in Dubai. Perfect for galas, product launches, film productions, fashion shows, and private parties. Make your event unforgettable." />
-        <meta name="keywords" content="Rolls Royce event rental Dubai, luxury car events, gala dinner transportation, film production cars, fashion show vehicles" />
-        <link rel="canonical" href="https://rollsroycers.com/services/events" />
-        
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
-              "@context": "https://schema.org",
-              "@type": "Service",
-              "name": "Rolls-Royce Event Rental Service",
-              "description": "Luxury Rolls-Royce vehicles for special events in Dubai",
-              "provider": {
-                "@type": "Organization",
-                "name": "Rolls-Royce Dubai",
-                "address": {
-                  "@type": "PostalAddress",
-                  "addressLocality": "Dubai",
-                  "addressCountry": "AE"
-                }
-              },
-              "areaServed": "Dubai",
-              "hasOfferCatalog": {
-                "@type": "OfferCatalog",
-                "name": "Event Services",
-                "itemListElement": [
-                  {
-                    "@type": "Offer",
-                    "itemOffered": {
-                      "@type": "Service",
-                      "name": "Gala Event Transportation"
-                    }
-                  },
-                  {
-                    "@type": "Offer",
-                    "itemOffered": {
-                      "@type": "Service",
-                      "name": "Film Production Vehicles"
-                    }
-                  }
-                ]
-              }
-            })
-          }}
-        />
-      </Head>
-
+      <SEO pageKey="services.events" />
       <Layout>
         {/* Hero Section */}
         <section className="relative h-[70vh] flex items-center justify-center overflow-hidden">

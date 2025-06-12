@@ -1,6 +1,6 @@
 import { GetStaticProps } from 'next'
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
-import Head from 'next/head'
+import SEO from '@/components/SEO'
 import Image from 'next/image'
 import Link from 'next/link'
 import { motion } from 'framer-motion'
@@ -384,10 +384,7 @@ export default function GalleryPage() {
 
   return (
     <Layout>
-      <Head>
-        <title>Gallery - Rolls-Royce Dubai</title>
-        <meta name="description" content="Explore our stunning collection of Rolls-Royce luxury vehicles in Dubai" />
-      </Head>
+      <SEO pageKey="other.gallery" />
 
       <div className="min-h-screen bg-gray-900 pt-20">
         {/* Hero Section */}

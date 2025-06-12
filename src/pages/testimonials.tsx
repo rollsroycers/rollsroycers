@@ -1,6 +1,6 @@
 import { GetStaticProps } from 'next'
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
-import Head from 'next/head'
+import SEO from '@/components/SEO'
 import Image from 'next/image'
 import Link from 'next/link'
 import { motion } from 'framer-motion'
@@ -374,46 +374,7 @@ export default function TestimonialsPage() {
 
   return (
     <>
-      <Head>
-        <title>Rolls-Royce Dubai Reviews & Testimonials | Customer Experiences</title>
-        <meta name="description" content="Read real customer reviews and testimonials about Rolls-Royce rental experiences in Dubai. Wedding, corporate, tourism, and event services rated 5 stars." />
-        <meta name="keywords" content="Rolls Royce Dubai reviews, luxury car rental testimonials, customer experiences, wedding car reviews, corporate transportation feedback" />
-        <link rel="canonical" href="https://rollsroycers.com/testimonials" />
-        
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
-              "@context": "https://schema.org",
-              "@type": "Organization",
-              "name": "Rolls-Royce Dubai",
-              "aggregateRating": {
-                "@type": "AggregateRating",
-                "ratingValue": "5",
-                "reviewCount": testimonials.length,
-                "bestRating": "5",
-                "worstRating": "1"
-              },
-              "review": testimonials.slice(0, 5).map(testimonial => ({
-                "@type": "Review",
-                "author": {
-                  "@type": "Person",
-                  "name": testimonial.name
-                },
-                "datePublished": testimonial.date,
-                "reviewBody": testimonial.review,
-                "name": testimonial.title,
-                "reviewRating": {
-                  "@type": "Rating",
-                  "ratingValue": testimonial.rating,
-                  "bestRating": "5",
-                  "worstRating": "1"
-                }
-              }))
-            })
-          }}
-        />
-      </Head>
+      <SEO pageKey="other.testimonials" />
 
       <Layout>
         {/* Hero Section */}

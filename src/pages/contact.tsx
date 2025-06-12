@@ -1,6 +1,6 @@
 import { GetStaticProps } from 'next'
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
-import Head from 'next/head'
+import SEO from '@/components/SEO'
 import Image from 'next/image'
 import Link from 'next/link'
 import { motion } from 'framer-motion'
@@ -93,10 +93,7 @@ export default function ContactPage() {
 
   return (
     <Layout>
-      <Head>
-        <title>Contact Us - Rolls-Royce Dubai | 24/7 Support</title>
-        <meta name="description" content="Contact Rolls-Royce Dubai for luxury car rental. Available 24/7 via phone, WhatsApp, or email. Quick response guaranteed." />
-      </Head>
+      <SEO pageKey="other.contact" />
 
       <div className="min-h-screen bg-gray-900 pt-20">
         {/* Hero Section */}

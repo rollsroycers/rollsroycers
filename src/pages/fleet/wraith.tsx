@@ -1,6 +1,5 @@
 import { GetStaticProps } from 'next'
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
-import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
 import { motion } from 'framer-motion'
@@ -10,6 +9,7 @@ import PriceCalculator from '@/components/PriceCalculator'
 import ComparisonTool from '@/components/ComparisonTool'
 import VirtualTour from '@/components/VirtualTour'
 import WhatsAppButton from '@/components/WhatsAppButton'
+import SEO from '@/components/SEO'
 
 export default function WraithPage() {
   const [selectedFeature, setSelectedFeature] = useState('performance')
@@ -112,51 +112,7 @@ export default function WraithPage() {
 
   return (
     <>
-      <Head>
-        <title>Rolls-Royce Wraith Rental Dubai | Luxury Coupe Black Badge UAE</title>
-        <meta name="description" content="Rent Rolls-Royce Wraith in Dubai. Most powerful RR with 624 HP, coach doors, starlight headliner. Black Badge available. Book the ultimate grand tourer!" />
-        <meta name="keywords" content="Rolls Royce Wraith rental Dubai, Wraith Black Badge Dubai, luxury coupe rental Dubai, grand tourer rental, Rolls Royce sports car Dubai" />
-        <link rel="canonical" href="https://rollsroycers.com/fleet/wraith" />
-        
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
-              "@context": "https://schema.org",
-              "@type": "Product",
-              "name": "Rolls-Royce Wraith Rental",
-              "description": "Luxury grand tourer coupe rental service in Dubai",
-              "brand": {
-                "@type": "Brand",
-                "name": "Rolls-Royce"
-              },
-              "model": "Wraith",
-              "vehicleConfiguration": "Coupe",
-              "vehicleEngine": {
-                "@type": "EngineSpecification",
-                "name": "6.6L V12 Twin-Turbo",
-                "powerOutput": "624 HP"
-              },
-              "vehicleSpecialUsage": "Grand Tourer",
-              "offers": {
-                "@type": "AggregateOffer",
-                "priceCurrency": "AED",
-                "lowPrice": "5000",
-                "highPrice": "78000",
-                "availability": "https://schema.org/InStock",
-                "itemCondition": "https://schema.org/NewCondition"
-              },
-              "aggregateRating": {
-                "@type": "AggregateRating",
-                "ratingValue": "4.9",
-                "reviewCount": "167",
-                "bestRating": "5"
-              }
-            })
-          }}
-        />
-      </Head>
-
+      <SEO pageKey="fleet.wraith" />
       <Layout>
         {/* Hero Section */}
         <section className="relative h-screen flex items-center justify-center overflow-hidden">

@@ -1,6 +1,5 @@
 import { GetStaticProps } from 'next'
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
-import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
 import { motion } from 'framer-motion'
@@ -8,6 +7,7 @@ import Layout from '@/components/Layout'
 import WhatsAppButton from '@/components/WhatsAppButton'
 import ComparisonTool from '@/components/ComparisonTool'
 import WeatherRecommendations from '@/components/WeatherRecommendations'
+import SEO from '@/components/SEO'
 
 export default function JBRPage() {
   const beachClubs = [
@@ -94,41 +94,7 @@ export default function JBRPage() {
 
   return (
     <>
-      <Head>
-        <title>Rolls-Royce Rental JBR Dubai | Luxury Cars at Jumeirah Beach</title>
-        <meta name="description" content="Premium Rolls-Royce rental in JBR (Jumeirah Beach Residence) Dubai. Perfect for beach clubs, restaurants, and waterfront cruising. Free delivery to all JBR towers." />
-        <meta name="keywords" content="Rolls Royce JBR Dubai, luxury car rental Jumeirah Beach, JBR car hire, beach club car rental Dubai, The Walk JBR Rolls Royce" />
-        <link rel="canonical" href="https://rollsroycers.com/locations/jbr" />
-        
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
-              "@context": "https://schema.org",
-              "@type": "LocalBusiness",
-              "name": "Rolls-Royce JBR Dubai",
-              "description": "Luxury Rolls-Royce rental service in Jumeirah Beach Residence",
-              "image": "/images/Rolls-Royce-white.jpg",
-              "address": {
-                "@type": "PostalAddress",
-                "addressLocality": "Jumeirah Beach Residence",
-                "addressRegion": "Dubai",
-                "addressCountry": "AE",
-                "streetAddress": "The Walk, JBR"
-              },
-              "geo": {
-                "@type": "GeoCoordinates",
-                "latitude": "25.0758",
-                "longitude": "55.1343"
-              },
-              "openingHours": "Mo-Su 00:00-24:00",
-              "telephone": "+971558164922",
-              "priceRange": "AED 5,500 - AED 8,500 per day"
-            })
-          }}
-        />
-      </Head>
-
+      <SEO pageKey="locations.jbr" />
       <Layout>
         {/* Hero Section */}
         <section className="relative h-screen flex items-center justify-center overflow-hidden">

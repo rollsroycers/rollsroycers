@@ -1,11 +1,11 @@
 import { GetStaticProps } from 'next'
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
-import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
 import { motion } from 'framer-motion'
 import Layout from '@/components/Layout'
 import WhatsAppButton from '@/components/WhatsAppButton'
+import SEO from '@/components/SEO'
 
 export default function PhantomPage() {
   const features = [
@@ -28,49 +28,7 @@ export default function PhantomPage() {
 
   return (
     <>
-      <Head>
-        <title>Rolls-Royce Phantom Rental Dubai | Luxury Car Hire UAE</title>
-        <meta name="description" content="Rent Rolls-Royce Phantom in Dubai. Experience the pinnacle of luxury with the flagship sedan. Starting from AED 5,800/day. Book now for immediate delivery." />
-        <meta name="keywords" content="Rolls Royce Phantom rental Dubai, Phantom hire Dubai, luxury sedan rental Dubai, Rolls Royce Phantom Dubai price, rent Phantom UAE" />
-        <link rel="canonical" href="https://rollsroycers.com/fleet/phantom" />
-        
-        {/* Schema Markup for Car Rental */}
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
-              "@context": "https://schema.org",
-              "@type": "Car",
-              "name": "Rolls-Royce Phantom",
-              "brand": {
-                "@type": "Brand",
-                "name": "Rolls-Royce"
-              },
-              "model": "Phantom",
-              "vehicleEngine": {
-                "@type": "EngineSpecification",
-                "name": "6.75L V12 Twin-Turbo"
-              },
-              "speed": {
-                "@type": "QuantitativeValue",
-                "value": "250",
-                "unitCode": "KMH"
-              },
-              "offers": {
-                "@type": "Offer",
-                "price": "5800",
-                "priceCurrency": "AED",
-                "availability": "https://schema.org/InStock",
-                "seller": {
-                  "@type": "Organization",
-                  "name": "Rolls-Royce Dubai"
-                }
-              }
-            })
-          }}
-        />
-      </Head>
-
+      <SEO pageKey="fleet.phantom" />
       <Layout>
         {/* Hero Section */}
         <section className="relative h-screen flex items-center justify-center overflow-hidden">

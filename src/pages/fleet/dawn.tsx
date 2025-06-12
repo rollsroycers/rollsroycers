@@ -1,6 +1,5 @@
 import { GetStaticProps } from 'next'
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
-import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
 import { motion } from 'framer-motion'
@@ -11,6 +10,7 @@ import ComparisonTool from '@/components/ComparisonTool'
 import VirtualTour from '@/components/VirtualTour'
 import WhatsAppButton from '@/components/WhatsAppButton'
 import WeatherRecommendations from '@/components/WeatherRecommendations'
+import SEO from '@/components/SEO'
 
 export default function DawnPage() {
   const [roofStatus, setRoofStatus] = useState<'open' | 'closed'>('closed')
@@ -97,50 +97,7 @@ export default function DawnPage() {
 
   return (
     <>
-      <Head>
-        <title>Rolls-Royce Dawn Rental Dubai | Luxury Convertible Hire UAE</title>
-        <meta name="description" content="Rent Rolls-Royce Dawn convertible in Dubai. Experience open-air luxury with 563 HP V12, silent ballet roof. Perfect for special occasions. Book your Dawn today!" />
-        <meta name="keywords" content="Rolls Royce Dawn rental Dubai, Dawn convertible hire Dubai, luxury convertible rental Dubai, cabrio car rental Dubai, open top Rolls Royce" />
-        <link rel="canonical" href="https://rollsroycers.com/fleet/dawn" />
-        
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
-              "@context": "https://schema.org",
-              "@type": "Product",
-              "name": "Rolls-Royce Dawn Rental",
-              "description": "Luxury convertible rental service in Dubai",
-              "brand": {
-                "@type": "Brand",
-                "name": "Rolls-Royce"
-              },
-              "model": "Dawn",
-              "vehicleConfiguration": "Convertible",
-              "vehicleEngine": {
-                "@type": "EngineSpecification",
-                "name": "6.6L V12 Twin-Turbo",
-                "powerOutput": "563 HP"
-              },
-              "vehicleSpecialUsage": "Luxury Convertible",
-              "offers": {
-                "@type": "AggregateOffer",
-                "priceCurrency": "AED",
-                "lowPrice": "5500",
-                "highPrice": "80000",
-                "availability": "https://schema.org/InStock"
-              },
-              "aggregateRating": {
-                "@type": "AggregateRating",
-                "ratingValue": "5.0",
-                "reviewCount": "189",
-                "bestRating": "5"
-              }
-            })
-          }}
-        />
-      </Head>
-
+      <SEO pageKey="fleet.dawn" />
       <Layout>
         {/* Hero Section with Roof Animation */}
         <section className="relative h-screen flex items-center justify-center overflow-hidden">

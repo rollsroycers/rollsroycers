@@ -122,6 +122,8 @@ export default function Footer() {
                 width={60}
                 height={60}
                 className="rounded-full"
+                style={{ height: 'auto' }}
+                priority
               />
               <div>
                 <h3 className="font-bold text-lg">Rolls-Royce</h3>

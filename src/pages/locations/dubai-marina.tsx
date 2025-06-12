@@ -1,12 +1,12 @@
 import { GetStaticProps } from 'next'
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
-import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
 import { motion } from 'framer-motion'
 import Layout from '@/components/Layout'
 import WhatsAppButton from '@/components/WhatsAppButton'
 import ComparisonTool from '@/components/ComparisonTool'
+import SEO from '@/components/SEO'
 
 export default function DubaiMarinaPage() {
   const deliveryLocations = [
@@ -76,46 +76,7 @@ export default function DubaiMarinaPage() {
 
   return (
     <>
-      <Head>
-        <title>Rolls-Royce Rental Dubai Marina | Luxury Car Hire JBR & Marina Walk</title>
-        <meta name="description" content="Rent Rolls-Royce in Dubai Marina. Free delivery to JBR, Marina Walk, Bluewaters. Phantom, Ghost, Cullinan available. Experience Marina luxury drives!" />
-        <meta name="keywords" content="Rolls Royce rental Dubai Marina, luxury car hire Marina Walk, JBR car rental, Dubai Marina Rolls Royce, Marina luxury car rental" />
-        <link rel="canonical" href="https://rollsroycers.com/locations/dubai-marina" />
-        
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
-              "@context": "https://schema.org",
-              "@type": "LocalBusiness",
-              "name": "Rolls-Royce Dubai Marina",
-              "description": "Luxury Rolls-Royce rental service in Dubai Marina",
-              "address": {
-                "@type": "PostalAddress",
-                "addressLocality": "Dubai Marina",
-                "addressRegion": "Dubai",
-                "addressCountry": "AE"
-              },
-              "geo": {
-                "@type": "GeoCoordinates",
-                "latitude": "25.0805",
-                "longitude": "55.1403"
-              },
-              "openingHours": "Mo-Su 00:00-24:00",
-              "telephone": "+971558164922",
-              "priceRange": "AED 5,500 - AED 8,000 per day",
-              "areaServed": [
-                "Dubai Marina",
-                "JBR",
-                "Marina Walk",
-                "Bluewaters Island",
-                "Palm Jumeirah"
-              ]
-            })
-          }}
-        />
-      </Head>
-
+      <SEO pageKey="locations.dubai-marina" />
       <Layout>
         {/* Hero Section */}
         <section className="relative h-screen flex items-center justify-center overflow-hidden">

@@ -1,11 +1,11 @@
 import { GetStaticProps } from 'next'
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
-import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
 import { motion } from 'framer-motion'
 import Layout from '@/components/Layout'
 import WhatsAppButton from '@/components/WhatsAppButton'
+import SEO from '@/components/SEO'
 
 export default function PhotoshootServicePage() {
   const photoshootTypes = [
@@ -176,55 +176,7 @@ export default function PhotoshootServicePage() {
 
   return (
     <>
-      <Head>
-        <title>Rolls-Royce Photoshoot Dubai | Luxury Car Photography Service</title>
-        <meta name="description" content="Professional Rolls-Royce photoshoot service in Dubai. Perfect for fashion, weddings, commercials, and lifestyle photography. Book your luxury car photoshoot today." />
-        <meta name="keywords" content="Rolls Royce photoshoot Dubai, luxury car photography, fashion shoot cars, wedding photography Rolls Royce, commercial vehicle rental" />
-        <link rel="canonical" href="https://rollsroycers.com/services/photoshoot" />
-        
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
-              "@context": "https://schema.org",
-              "@type": "Service",
-              "name": "Rolls-Royce Photoshoot Service",
-              "description": "Luxury vehicle rental for professional photography and video production in Dubai",
-              "provider": {
-                "@type": "Organization",
-                "name": "Rolls-Royce Dubai",
-                "address": {
-                  "@type": "PostalAddress",
-                  "addressLocality": "Dubai",
-                  "addressCountry": "AE"
-                }
-              },
-              "areaServed": "Dubai",
-              "hasOfferCatalog": {
-                "@type": "OfferCatalog",
-                "name": "Photography Services",
-                "itemListElement": [
-                  {
-                    "@type": "Offer",
-                    "itemOffered": {
-                      "@type": "Service",
-                      "name": "Fashion Photography"
-                    }
-                  },
-                  {
-                    "@type": "Offer",
-                    "itemOffered": {
-                      "@type": "Service",
-                      "name": "Commercial Shoots"
-                    }
-                  }
-                ]
-              }
-            })
-          }}
-        />
-      </Head>
-
+      <SEO pageKey="services.photoshoot" />
       <Layout>
         {/* Hero Section */}
         <section className="relative h-[70vh] flex items-center justify-center overflow-hidden">

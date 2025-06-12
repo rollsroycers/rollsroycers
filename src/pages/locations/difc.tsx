@@ -1,11 +1,11 @@
 import { GetStaticProps } from 'next'
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
-import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
 import { motion } from 'framer-motion'
 import Layout from '@/components/Layout'
 import WhatsAppButton from '@/components/WhatsAppButton'
+import SEO from '@/components/SEO'
 // import LocationMap from '@/components/LocationMap' - Component will be created later
 // import VehicleCard from '@/components/VehicleCard' - Component will be created later
 
@@ -103,39 +103,7 @@ export default function DIFCLocationPage() {
 
   return (
     <>
-      <Head>
-        <title>Rolls-Royce Rental DIFC Dubai | Corporate Luxury Car Service</title>
-        <meta name="description" content="Premium Rolls-Royce rental service in DIFC Dubai. Executive transportation for business professionals. Phantom, Ghost, and Cullinan available for corporate needs." />
-        <meta name="keywords" content="Rolls Royce DIFC, Dubai financial center car rental, corporate luxury cars, executive transportation DIFC, business car rental Dubai" />
-        <link rel="canonical" href="https://rollsroycers.com/locations/difc" />
-        
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
-              "@context": "https://schema.org",
-              "@type": "LocalBusiness",
-              "name": "Rolls-Royce Rental DIFC",
-              "description": "Corporate luxury car rental in Dubai International Financial Centre",
-              "address": {
-                "@type": "PostalAddress",
-                "addressLocality": "Dubai",
-                "addressRegion": "Dubai",
-                "addressCountry": "AE",
-                "streetAddress": "Dubai International Financial Centre"
-              },
-              "geo": {
-                "@type": "GeoCoordinates",
-                "latitude": 25.2110,
-                "longitude": 55.2796
-              },
-              "openingHours": "Mo-Su 00:00-24:00",
-              "priceRange": "AED 4,800 - AED 6,500 per day"
-            })
-          }}
-        />
-      </Head>
-
+      <SEO pageKey="locations.difc" />
       <Layout>
         {/* Hero Section */}
         <section className="relative h-[70vh] flex items-center justify-center overflow-hidden">

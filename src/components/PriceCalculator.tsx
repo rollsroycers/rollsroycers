@@ -49,9 +49,9 @@ export default function PriceCalculator() {
     }
 
     // Additional services
-    const chauffeurPrice = withChauffeur ? 500 * days : 0
-    const insurancePrice = 200 * days
-    const deliveryPrice = deliveryLocation === 'airport' ? 300 : deliveryLocation === 'hotel' ? 0 : 200
+    const chauffeurPrice = withChauffeur ? 1500 * days : 0
+    const insurancePrice = 350 * days
+    const deliveryPrice = deliveryLocation === 'airport' ? 500 : deliveryLocation === 'hotel' ? 0 : 350
 
     // Apply promo code
     const discountRate = promoCodes[promoCode.toUpperCase() as keyof typeof promoCodes] || 0
@@ -137,7 +137,7 @@ export default function PriceCalculator() {
                       onChange={(e) => setWithChauffeur(e.target.checked)}
                       className="w-5 h-5 text-rolls-gold bg-rolls-navy border-rolls-gold/20 rounded focus:ring-rolls-gold"
                     />
-                    <span className="text-white">Professional Chauffeur (+AED 800/day)</span>
+                    <span className="text-white">Professional Chauffeur (+AED 1,500/day)</span>
                   </label>
                 </div>
 

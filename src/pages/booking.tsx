@@ -1,6 +1,6 @@
 import { GetStaticProps } from 'next'
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
-import Head from 'next/head'
+import SEO from '@/components/SEO'
 import Image from 'next/image'
 import Link from 'next/link'
 import { motion } from 'framer-motion'
@@ -64,43 +64,7 @@ export default function BookingPage() {
 
   return (
     <>
-      <Head>
-        <title>Book Rolls-Royce Dubai | Online Luxury Car Rental Booking</title>
-        <meta name="description" content="Book your Rolls-Royce rental in Dubai online. Choose from Phantom, Ghost, Cullinan, Dawn, or Wraith. Instant confirmation, best rates guaranteed." />
-        <meta name="keywords" content="book Rolls Royce Dubai, luxury car booking, rent Rolls Royce online, Dubai car rental booking, luxury vehicle reservation" />
-        <link rel="canonical" href="https://rollsroycers.com/booking" />
-        
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
-              "@context": "https://schema.org",
-              "@type": "RentalCarReservation",
-              "reservationFor": {
-                "@type": "RentalCar",
-                "name": "Rolls-Royce Fleet",
-                "brand": "Rolls-Royce",
-                "model": ["Phantom", "Ghost", "Cullinan", "Dawn", "Wraith"]
-              },
-              "provider": {
-                "@type": "Organization",
-                "name": "Rolls-Royce Dubai"
-              },
-              "potentialAction": {
-                "@type": "ReserveAction",
-                "target": {
-                  "@type": "EntryPoint",
-                  "urlTemplate": "https://rollsroycers.com/booking",
-                  "actionPlatform": [
-                    "http://schema.org/DesktopWebPlatform",
-                    "http://schema.org/MobileWebPlatform"
-                  ]
-                }
-              }
-            })
-          }}
-        />
-      </Head>
+      <SEO pageKey="other.booking" />
 
       <Layout>
         {/* Hero Section */}

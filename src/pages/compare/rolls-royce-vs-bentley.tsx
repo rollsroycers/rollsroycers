@@ -1,12 +1,12 @@
 import { GetStaticProps } from 'next'
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
-import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
 import { motion } from 'framer-motion'
 import { useState } from 'react'
 import Layout from '@/components/Layout'
 import WhatsAppButton from '@/components/WhatsAppButton'
+import SEO from '@/components/SEO'
 
 export default function RollsRoyceVsBentleyPage() {
   const [selectedAspect, setSelectedAspect] = useState('overview')
@@ -241,41 +241,7 @@ export default function RollsRoyceVsBentleyPage() {
 
   return (
     <>
-      <Head>
-        <title>Rolls-Royce vs Bentley Comparison Dubai | Luxury Car Rental Guide</title>
-        <meta name="description" content="Compare Rolls-Royce vs Bentley luxury cars in Dubai. Detailed comparison of features, performance, heritage, and rental prices to help you choose." />
-        <meta name="keywords" content="Rolls Royce vs Bentley, luxury car comparison Dubai, Phantom vs Mulsanne, Ghost vs Flying Spur, Cullinan vs Bentayga" />
-        <link rel="canonical" href="https://rollsroycers.com/compare/rolls-royce-vs-bentley" />
-        
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
-              "@context": "https://schema.org",
-              "@type": "Article",
-              "headline": "Rolls-Royce vs Bentley: The Ultimate Luxury Car Comparison",
-              "description": "Comprehensive comparison between Rolls-Royce and Bentley luxury vehicles",
-              "author": {
-                "@type": "Organization",
-                "name": "Rolls-Royce Dubai"
-              },
-              "publisher": {
-                "@type": "Organization",
-                "name": "Rolls-Royce Dubai",
-                "logo": {
-                  "@type": "ImageObject",
-                  "url": "https://rollsroycers.com/images/logo.jpg"
-                }
-              },
-              "mainEntityOfPage": {
-                "@type": "WebPage",
-                "@id": "https://rollsroycers.com/compare/rolls-royce-vs-bentley"
-              }
-            })
-          }}
-        />
-      </Head>
-
+      <SEO pageKey="compare.rolls-royce-vs-bentley" />
       <Layout>
         {/* Hero Section */}
         <section className="relative h-[60vh] flex items-center justify-center overflow-hidden">

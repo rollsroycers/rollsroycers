@@ -1,10 +1,10 @@
 import { GetStaticProps } from 'next'
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
-import Head from 'next/head'
 import Link from 'next/link'
 import { motion } from 'framer-motion'
 import Layout from '@/components/Layout'
 import WhatsAppButton from '@/components/WhatsAppButton'
+import SEO from '@/components/SEO'
 
 export default function TermsPage() {
   const sections = [
@@ -130,33 +130,7 @@ export default function TermsPage() {
 
   return (
     <>
-      <Head>
-        <title>Terms and Conditions | Rolls-Royce Dubai Car Rental</title>
-        <meta name="description" content="Terms and conditions for Rolls-Royce car rental in Dubai. Rental agreement, requirements, insurance, policies, and legal information. Read before booking." />
-        <meta name="keywords" content="Rolls Royce rental terms Dubai, car rental conditions, luxury car rental agreement, Dubai rental policies" />
-        <link rel="canonical" href="https://rollsroycers.com/terms" />
-        
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
-              "@context": "https://schema.org",
-              "@type": "WebPage",
-              "name": "Terms and Conditions",
-              "description": "Terms and conditions for Rolls-Royce car rental services in Dubai",
-              "url": "https://rollsroycers.com/terms",
-              "inLanguage": "en",
-              "isPartOf": {
-                "@type": "WebSite",
-                "name": "Rolls-Royce Dubai",
-                "url": "https://rollsroycers.com"
-              },
-              "dateModified": "2024-01-01"
-            })
-          }}
-        />
-      </Head>
-
+      <SEO pageKey="other.terms" />
       <Layout>
         {/* Hero Section */}
         <section className="relative h-[40vh] flex items-center justify-center overflow-hidden">
