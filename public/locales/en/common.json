@@ -274,5 +274,232 @@
     "title": "Offline | Rolls-Royce Dubai",
     "heading": "You are Currently Offline",
     "message": "Please check your internet connection to access the full site."
+  },
+  "compare": {
+    "hero": {
+      "bentleyAlt": "Bentley"
+    },
+    "summary": {
+      "rollsRoyce": {
+        "tagline": "The pinnacle of unparalleled luxury and comfort."
+      },
+      "bentley": {
+        "tagline": "A perfect blend of performance and luxury."
+      }
+    },
+    "aspects": {
+      "overview": {
+        "name": "Overview"
+      },
+      "luxury": {
+        "name": "Luxury"
+      },
+      "performance": {
+        "name": "Performance"
+      },
+      "technology": {
+        "name": "Technology"
+      },
+      "heritage": {
+        "name": "Heritage"
+      },
+      "price": {
+        "name": "Price"
+      }
+    },
+    "overview": {
+      "rolls-royce": {
+        "title": "The Pinnacle of Luxury",
+        "points": [
+          "Uncompromising commitment to luxury and comfort",
+          "Bespoke craftsmanship with unlimited customization",
+          "The quietest and smoothest ride in the automotive world",
+          "Preferred choice of royalty and heads of state"
+        ],
+        "summary": "Rolls-Royce represents the absolute pinnacle of automotive luxury, where no compromise is made in the pursuit of perfection."
+      },
+      "bentley": {
+        "title": "Performance Luxury",
+        "points": [
+          "Luxury combined with sporting performance",
+          "Handcrafted interiors with modern technology",
+          "More driver-focused experience",
+          "Racing heritage and sporting credentials"
+        ],
+        "summary": "Bentley offers a unique blend of luxury and performance, appealing to those who want to drive as much as be driven."
+      }
+    },
+    "luxury": {
+      "rolls-royce": {
+        "title": "Unparalleled Opulence",
+        "points": [
+          "Hand-stitched leather from specially reared bulls",
+          "Real wood veneers from single trees for perfect matching",
+          "Starlight headliner with thousands of fiber optic lights",
+          "Bespoke department for unlimited personalization"
+        ],
+        "summary": "Every Rolls-Royce is a masterpiece of craftsmanship, with attention to detail that borders on obsession."
+      },
+      "bentley": {
+        "title": "Contemporary Luxury",
+        "points": [
+          "Diamond-quilted leather seats",
+          "Rotating display featuring analog dials",
+          "Knurled metal controls and switches",
+          "Mulliner personalization service"
+        ],
+        "summary": "Bentley combines traditional craftsmanship with modern luxury, creating an environment that's both opulent and sporting."
+      }
+    },
+    "performance": {
+      "rolls-royce": {
+        "title": "Effortless Power",
+        "points": [
+          "V12 engines delivering seamless power",
+          "Focus on refinement over outright speed",
+          "Magic Carpet Ride suspension system",
+          "Near-silent operation at any speed"
+        ],
+        "summary": "Rolls-Royce prioritizes smooth, effortless power delivery over sporting performance, creating a serene driving experience."
+      },
+      "bentley": {
+        "title": "Exhilarating Performance",
+        "points": [
+          "W12 and V8 engines with massive power",
+          "0-60 mph in under 4 seconds (Continental GT)",
+          "Active all-wheel drive systems",
+          "Track-capable luxury vehicles"
+        ],
+        "summary": "Bentley delivers supercar performance wrapped in luxury, appealing to enthusiasts who refuse to compromise."
+      }
+    },
+    "technology": {
+      "rolls-royce": {
+        "title": "Invisible Technology",
+        "points": [
+          "Technology hidden behind traditional interfaces",
+          "Satellite Aided Transmission",
+          "Night vision with pedestrian detection",
+          "Bespoke audio system tuned to each car"
+        ],
+        "summary": "Rolls-Royce integrates cutting-edge technology seamlessly, maintaining a classic, uncluttered aesthetic."
+      },
+      "bentley": {
+        "title": "Modern Innovation",
+        "points": [
+          "Rotating display with touchscreen",
+          "Advanced driver assistance systems",
+          "Bang & Olufsen audio systems",
+          "Fully digital instrument cluster"
+        ],
+        "summary": "Bentley embraces modern technology more openly, offering a blend of traditional luxury and contemporary innovation."
+      }
+    },
+    "heritage": {
+      "rolls-royce": {
+        "title": "120 Years of Excellence",
+        "points": [
+          "Founded in 1904 by Henry Royce and Charles Rolls",
+          "Spirit of Ecstasy - the most famous automotive mascot",
+          "Supplier to royalty worldwide",
+          "The best car in the world philosophy"
+        ],
+        "summary": "Rolls-Royce has maintained its position as the ultimate luxury car manufacturer for over a century."
+      },
+      "bentley": {
+        "title": "Racing Pedigree",
+        "points": [
+          "Founded in 1919 by W.O. Bentley",
+          "Five Le Mans victories in the 1920s",
+          "Modern racing success at Le Mans",
+          "Bentley Boys racing heritage"
+        ],
+        "summary": "Bentley's racing heritage infuses every model with a sporting spirit that sets it apart from pure luxury brands."
+      }
+    },
+    "price": {
+      "rolls-royce": {
+        "title": "Ultimate Investment",
+        "points": [
+          "Starting prices from AED 2,000,000+",
+          "Bespoke options can double the base price",
+          "Strong value retention",
+          "Exclusive ownership experience"
+        ],
+        "summary": "Rolls-Royce commands premium prices that reflect its position as the ultimate luxury automobile."
+      },
+      "bentley": {
+        "title": "Accessible Ultra-Luxury",
+        "points": [
+          "Starting prices from AED 1,200,000+",
+          "More accessible entry point to ultra-luxury",
+          "Good value retention",
+          "Wider model range and price points"
+        ],
+        "summary": "Bentley offers a more accessible entry into the ultra-luxury segment while maintaining exclusivity."
+      }
+    },
+    "models": {
+      "phantom": {
+        "rollsRoyce": {
+          "model": "Rolls-Royce Phantom",
+          "price": "Starts from AED 2,500,000",
+          "type": "Luxury Sedan"
+        },
+        "bentley": {
+          "model": "Bentley Mulsanne",
+          "price": "Starts from AED 1,800,000",
+          "type": "Luxury Sedan"
+        }
+      },
+      "ghost": {
+        "rollsRoyce": {
+          "model": "Rolls-Royce Ghost",
+          "price": "Starts from AED 1,800,000",
+          "type": "Luxury Sedan"
+        },
+        "bentley": {
+          "model": "Bentley Flying Spur",
+          "price": "Starts from AED 1,200,000",
+          "type": "High-Performance Luxury Sedan"
+        }
+      },
+      "cullinan": {
+        "rollsRoyce": {
+          "model": "Rolls-Royce Cullinan",
+          "price": "Starts from AED 2,200,000",
+          "type": "Luxury SUV"
+        },
+        "bentley": {
+          "model": "Bentley Bentayga",
+          "price": "Starts from AED 1,500,000",
+          "type": "High-Performance Luxury SUV"
+        }
+      }
+    },
+    "rental": {
+      "rollsRoyce": {
+        "daily": "AED 3,500+",
+        "weekly": "AED 21,000+",
+        "monthly": "AED 75,000+",
+        "benefits": [
+          "Professional chauffeur included",
+          "Complimentary fuel",
+          "Comprehensive insurance",
+          "Bespoke concierge service"
+        ]
+      },
+      "bentley": {
+        "daily": "AED 2,800+",
+        "weekly": "AED 16,000+",
+        "monthly": "AED 55,000+",
+        "benefits": [
+          "Sport and luxury options",
+          "Self-drive available",
+          "Track day experiences",
+          "Performance driving courses"
+        ]
+      }
+    }
   }
 }
