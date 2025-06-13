@@ -1,5 +1,6 @@
 import { GetStaticProps } from 'next'
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
+import { useTranslation } from 'next-i18next'
 import Image from 'next/image'
 import Link from 'next/link'
 import { motion } from 'framer-motion'
@@ -9,6 +10,7 @@ import ComparisonTool from '@/components/ComparisonTool'
 import SEO from '@/components/SEO'
 
 export default function DubaiMarinaPage() {
+  const { t } = useTranslation('common')
   const deliveryLocations = [
     'Marina Mall',
     'JBR Beach',
@@ -22,25 +24,37 @@ export default function DubaiMarinaPage() {
 
   const popularRoutes = [
     {
-      name: 'Marina Coastal Drive',
-      description: 'Marina Walk → JBR → Palm Jumeirah → Atlantis',
+      name: t('locations.dubaiMarina.popularRoutes.coastal.name'),
+      description: t('locations.dubaiMarina.popularRoutes.coastal.description'),
       distance: '15 km',
       duration: '25 minutes',
-      highlights: ['Sunset views', 'Beach roads', 'Palm entrance']
+      highlights: [
+        t('locations.dubaiMarina.popularRoutes.coastal.highlights.0'),
+        t('locations.dubaiMarina.popularRoutes.coastal.highlights.1'),
+        t('locations.dubaiMarina.popularRoutes.coastal.highlights.2')
+      ]
     },
     {
-      name: 'City Lights Tour',
-      description: 'Marina → Sheikh Zayed Road → Downtown Dubai',
-      distance: '30 km', 
+      name: t('locations.dubaiMarina.popularRoutes.city.name'),
+      description: t('locations.dubaiMarina.popularRoutes.city.description'),
+      distance: '30 km',
       duration: '35 minutes',
-      highlights: ['Skyline views', 'Burj Khalifa', 'Dubai Mall']
+      highlights: [
+        t('locations.dubaiMarina.popularRoutes.city.highlights.0'),
+        t('locations.dubaiMarina.popularRoutes.city.highlights.1'),
+        t('locations.dubaiMarina.popularRoutes.city.highlights.2')
+      ]
     },
     {
-      name: 'Luxury Shopping Route',
-      description: 'Marina Mall → Mall of Emirates → City Walk',
+      name: t('locations.dubaiMarina.popularRoutes.shopping.name'),
+      description: t('locations.dubaiMarina.popularRoutes.shopping.description'),
       distance: '20 km',
-      duration: '30 minutes', 
-      highlights: ['Premium shopping', 'Valet parking', 'VIP lounges']
+      duration: '30 minutes',
+      highlights: [
+        t('locations.dubaiMarina.popularRoutes.shopping.highlights.0'),
+        t('locations.dubaiMarina.popularRoutes.shopping.highlights.1'),
+        t('locations.dubaiMarina.popularRoutes.shopping.highlights.2')
+      ]
     }
   ]
 
@@ -56,21 +70,21 @@ export default function DubaiMarinaPage() {
   const testimonials = [
     {
       name: 'Sarah Al Maktoum',
-      location: 'Marina Resident',
-      text: 'Having Rolls-Royce delivered to my Marina apartment was incredibly convenient. The sunset drive along JBR was magical!',
-      car: 'Dawn Convertible'
+      location: t('locations.dubaiMarina.testimonials.sarah.location'),
+      text: t('locations.dubaiMarina.testimonials.sarah.text'),
+      car: t('locations.dubaiMarina.testimonials.sarah.car')
     },
     {
       name: 'James Mitchell',
-      location: 'Tourist from UK',
-      text: 'Picked up the Phantom at Marina Walk. The chauffeur knew all the best photo spots. Unforgettable experience!',
-      car: 'Phantom'
+      location: t('locations.dubaiMarina.testimonials.james.location'),
+      text: t('locations.dubaiMarina.testimonials.james.text'),
+      car: t('locations.dubaiMarina.testimonials.james.car')
     },
     {
       name: 'Fatima Ahmed',
-      location: 'Business Executive',
-      text: 'Use their service monthly for client meetings. Marina to DIFC in supreme comfort. Always impressed!',
-      car: 'Ghost'
+      location: t('locations.dubaiMarina.testimonials.fatima.location'),
+      text: t('locations.dubaiMarina.testimonials.fatima.text'),
+      car: t('locations.dubaiMarina.testimonials.fatima.car')
     }
   ]
 
@@ -98,10 +112,10 @@ export default function DubaiMarinaPage() {
               transition={{ duration: 1 }}
             >
               <h1 className="text-5xl md:text-7xl font-bold text-white mb-6">
-                Rolls-Royce Dubai Marina
+                {t('locations.dubaiMarina.hero.title')}
               </h1>
               <p className="text-2xl text-rolls-gold mb-8">
-                Luxury Car Rental in the Heart of Marina
+                {t('locations.dubaiMarina.hero.subtitle')}
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center mb-8">
                 <motion.button
@@ -109,10 +123,10 @@ export default function DubaiMarinaPage() {
                   whileTap={{ scale: 0.95 }}
                   className="btn-primary"
                 >
-                  Book Marina Delivery
+                  {t('locations.dubaiMarina.hero.bookButton')}
                 </motion.button>
                 <a href="tel:+971558164922" className="btn-secondary">
-                  Call Marina Team
+                  {t('locations.dubaiMarina.hero.callButton')}
                 </a>
               </div>
               
@@ -122,19 +136,19 @@ export default function DubaiMarinaPage() {
                   <svg className="w-5 h-5 text-rolls-gold" fill="currentColor" viewBox="0 0 20 20">
                     <path d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z" />
                   </svg>
-                  <span>Free Marina Delivery</span>
+                  <span>{t('locations.dubaiMarina.hero.freeDelivery')}</span>
                 </div>
                 <div className="flex items-center gap-2">
                   <svg className="w-5 h-5 text-rolls-gold" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z" clipRule="evenodd" />
                   </svg>
-                  <span>15 Min Delivery</span>
+                  <span>{t('locations.dubaiMarina.hero.deliveryTime')}</span>
                 </div>
                 <div className="flex items-center gap-2">
                   <svg className="w-5 h-5 text-rolls-gold" fill="currentColor" viewBox="0 0 20 20">
                     <path d="M13 6a3 3 0 11-6 0 3 3 0 016 0zM18 8a2 2 0 11-4 0 2 2 0 014 0zM14 15a4 4 0 00-8 0v3h8v-3zM6 8a2 2 0 11-4 0 2 2 0 014 0zM16 18v-3a5.972 5.972 0 00-.75-2.906A3.005 3.005 0 0119 15v3h-3zM4.75 12.094A5.973 5.973 0 004 15v3H1v-3a3 3 0 013.75-2.906z" />
                   </svg>
-                  <span>VIP Concierge</span>
+                  <span>{t('locations.dubaiMarina.hero.vipConcierge')}</span>
                 </div>
               </div>
             </motion.div>
@@ -145,7 +159,7 @@ export default function DubaiMarinaPage() {
         <section className="py-20 bg-gradient-to-b from-rolls-black to-rolls-navy">
           <div className="container mx-auto px-4">
             <h2 className="text-4xl font-bold text-white text-center mb-12">
-              Why Choose Rolls-Royce in Dubai Marina?
+              {t('locations.dubaiMarina.whyChoose.title')}
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
               <motion.div
@@ -156,9 +170,9 @@ export default function DubaiMarinaPage() {
                 <div className="w-20 h-20 mx-auto mb-4 bg-rolls-gold/10 rounded-full flex items-center justify-center">
                   <span className="text-3xl">🏖️</span>
                 </div>
-                <h3 className="text-xl font-semibold text-white mb-3">Beachside Luxury</h3>
+                <h3 className="text-xl font-semibold text-white mb-3">{t('locations.dubaiMarina.whyChoose.beachside.title')}</h3>
                 <p className="text-gray-400">
-                  Cruise along JBR Beach and The Walk with the perfect backdrop of Marina skyline
+                  {t('locations.dubaiMarina.whyChoose.beachside.description')}
                 </p>
               </motion.div>
 
@@ -171,9 +185,9 @@ export default function DubaiMarinaPage() {
                 <div className="w-20 h-20 mx-auto mb-4 bg-rolls-gold/10 rounded-full flex items-center justify-center">
                   <span className="text-3xl">🌃</span>
                 </div>
-                <h3 className="text-xl font-semibold text-white mb-3">Vibrant Nightlife</h3>
+                <h3 className="text-xl font-semibold text-white mb-3">{t('locations.dubaiMarina.whyChoose.nightlife.title')}</h3>
                 <p className="text-gray-400">
-                  Access exclusive venues and restaurants with valet service at every destination
+                  {t('locations.dubaiMarina.whyChoose.nightlife.description')}
                 </p>
               </motion.div>
 
@@ -186,9 +200,9 @@ export default function DubaiMarinaPage() {
                 <div className="w-20 h-20 mx-auto mb-4 bg-rolls-gold/10 rounded-full flex items-center justify-center">
                   <span className="text-3xl">🛥️</span>
                 </div>
-                <h3 className="text-xl font-semibold text-white mb-3">Yacht Connection</h3>
+                <h3 className="text-xl font-semibold text-white mb-3">{t('locations.dubaiMarina.whyChoose.yacht.title')}</h3>
                 <p className="text-gray-400">
-                  Perfect for yacht owners - seamless transfer from marina to your vessel
+                  {t('locations.dubaiMarina.whyChoose.yacht.description')}
                 </p>
               </motion.div>
             </div>
@@ -199,7 +213,7 @@ export default function DubaiMarinaPage() {
         <section className="py-20 bg-gradient-to-b from-rolls-navy to-rolls-black">
           <div className="container mx-auto px-4">
             <h2 className="text-4xl font-bold text-white text-center mb-12">
-              Free Delivery Locations in Marina
+              {t('locations.dubaiMarina.deliveryLocations.title')}
             </h2>
             <div className="max-w-4xl mx-auto">
               <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
@@ -219,7 +233,7 @@ export default function DubaiMarinaPage() {
                 ))}
               </div>
               <p className="text-center text-gray-400 mt-6">
-                + All hotels, residences, and businesses within Dubai Marina & JBR
+                {t('locations.dubaiMarina.deliveryLocations.additional')}
               </p>
             </div>
           </div>
@@ -229,7 +243,7 @@ export default function DubaiMarinaPage() {
         <section className="py-20 bg-gradient-to-b from-rolls-black to-rolls-navy">
           <div className="container mx-auto px-4">
             <h2 className="text-4xl font-bold text-white text-center mb-12">
-              Scenic Routes from Marina
+              {t('locations.dubaiMarina.popularRoutes.title')}
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
               {popularRoutes.map((route, index) => (
@@ -244,16 +258,16 @@ export default function DubaiMarinaPage() {
                   <p className="text-gray-300 mb-4">{route.description}</p>
                   <div className="space-y-2 text-sm">
                     <div className="flex justify-between text-gray-400">
-                      <span>Distance:</span>
+                      <span>{t('locations.dubaiMarina.popularRoutes.distance')}:</span>
                       <span className="text-white">{route.distance}</span>
                     </div>
                     <div className="flex justify-between text-gray-400">
-                      <span>Duration:</span>
+                      <span>{t('locations.dubaiMarina.popularRoutes.duration')}:</span>
                       <span className="text-white">{route.duration}</span>
                     </div>
                   </div>
                   <div className="mt-4 pt-4 border-t border-rolls-gold/10">
-                    <p className="text-xs text-gray-400 mb-2">Highlights:</p>
+                    <p className="text-xs text-gray-400 mb-2">{t('locations.dubaiMarina.popularRoutes.highlights')}:</p>
                     <div className="flex flex-wrap gap-2">
                       {route.highlights.map((highlight, idx) => (
                         <span key={idx} className="text-xs bg-rolls-gold/10 text-rolls-gold px-2 py-1 rounded">
@@ -272,14 +286,14 @@ export default function DubaiMarinaPage() {
         <section className="py-20 bg-gradient-to-b from-rolls-navy to-rolls-black">
           <div className="container mx-auto px-4">
             <h2 className="text-4xl font-bold text-white text-center mb-12">
-              Explore Marina in Style
+              {t('locations.dubaiMarina.nearbyAttractions.title')}
             </h2>
             <div className="max-w-4xl mx-auto">
               <div className="bg-rolls-black/50 backdrop-blur-sm border border-rolls-gold/20 rounded-lg overflow-hidden">
                 <div className="grid grid-cols-3 gap-4 p-4 bg-rolls-gold/10 font-semibold text-white">
-                  <div>Attraction</div>
-                  <div>Distance</div>
-                  <div>Type</div>
+                  <div>{t('locations.dubaiMarina.nearbyAttractions.attraction')}</div>
+                  <div>{t('locations.dubaiMarina.nearbyAttractions.distance')}</div>
+                  <div>{t('locations.dubaiMarina.nearbyAttractions.type')}</div>
                 </div>
                 {nearbyAttractions.map((attraction, index) => (
                   <motion.div
@@ -303,7 +317,7 @@ export default function DubaiMarinaPage() {
         <section className="py-20 bg-gradient-to-b from-rolls-black to-rolls-navy">
           <div className="container mx-auto px-4">
             <h2 className="text-4xl font-bold text-white text-center mb-12">
-              Marina Experiences
+              {t('locations.dubaiMarina.testimonials.title')}
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
               {testimonials.map((testimonial, index) => (
@@ -325,7 +339,7 @@ export default function DubaiMarinaPage() {
                   <div>
                     <p className="text-white font-semibold">{testimonial.name}</p>
                     <p className="text-rolls-gold text-sm">{testimonial.location}</p>
-                    <p className="text-gray-400 text-sm mt-1">Rented: {testimonial.car}</p>
+                    <p className="text-gray-400 text-sm mt-1">{t('locations.dubaiMarina.testimonials.rented')}: {testimonial.car}</p>
                   </div>
                 </motion.div>
               ))}
@@ -337,7 +351,7 @@ export default function DubaiMarinaPage() {
         <section className="py-20 bg-gradient-to-b from-rolls-navy to-rolls-black">
           <div className="container mx-auto px-4">
             <h2 className="text-4xl font-bold text-white text-center mb-12">
-              Available at Marina
+              {t('locations.dubaiMarina.fleet.title')}
             </h2>
             <ComparisonTool />
           </div>
@@ -347,10 +361,10 @@ export default function DubaiMarinaPage() {
         <section className="py-20 bg-gradient-to-b from-rolls-black to-rolls-navy">
           <div className="container mx-auto px-4 text-center">
             <h2 className="text-4xl font-bold text-white mb-6">
-              Experience Marina Luxury Today
+              {t('locations.dubaiMarina.cta.title')}
             </h2>
             <p className="text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
-              Free delivery within 15 minutes to any Marina location. Professional chauffeurs available for guided tours.
+              {t('locations.dubaiMarina.cta.subtitle')}
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-8">
               <motion.a
@@ -359,18 +373,18 @@ export default function DubaiMarinaPage() {
                 whileTap={{ scale: 0.95 }}
                 className="btn-primary"
               >
-                Call Marina Team: +971 55 816 4922
+                {t('locations.dubaiMarina.cta.callButton')}
               </motion.a>
               <Link href="/booking" className="btn-secondary">
-                Book Online Now
+                {t('locations.dubaiMarina.cta.bookButton')}
               </Link>
             </div>
             
             {/* Location Map Preview */}
             <div className="max-w-2xl mx-auto bg-rolls-black/50 backdrop-blur-sm border border-rolls-gold/20 rounded-lg p-6">
-              <h3 className="text-lg font-semibold text-white mb-3">Marina Pickup Point</h3>
-              <p className="text-gray-400 mb-2">Dubai Marina Walk, Gate B</p>
-              <p className="text-sm text-gray-500">GPS: 25.0805° N, 55.1403° E</p>
+              <h3 className="text-lg font-semibold text-white mb-3">{t('locations.dubaiMarina.cta.pickupPoint')}</h3>
+              <p className="text-gray-400 mb-2">{t('locations.dubaiMarina.cta.pickupLocation')}</p>
+              <p className="text-sm text-gray-500">{t('locations.dubaiMarina.cta.gps')}</p>
             </div>
           </div>
         </section>

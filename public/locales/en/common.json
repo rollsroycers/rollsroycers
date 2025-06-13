@@ -846,6 +846,94 @@
           "avgDelivery": "Average Delivery",
           "availability": "Availability"
         }
+      },
+      "dubaiMarina": {
+        "hero": {
+          "title": "Rolls-Royce Dubai Marina",
+          "subtitle": "Luxury Car Rental in the Heart of Marina",
+          "bookButton": "Book Marina Delivery",
+          "callButton": "Call Marina Team",
+          "freeDelivery": "Free Marina Delivery",
+          "deliveryTime": "15 Min Delivery",
+          "vipConcierge": "VIP Concierge"
+        },
+        "whyChoose": {
+          "title": "Why Choose Rolls-Royce in Dubai Marina?",
+          "beachside": {
+            "title": "Beachside Luxury",
+            "description": "Cruise along JBR Beach and The Walk with the perfect backdrop of Marina skyline"
+          },
+          "nightlife": {
+            "title": "Vibrant Nightlife",
+            "description": "Access exclusive venues and restaurants with valet service at every destination"
+          },
+          "yacht": {
+            "title": "Yacht Connection",
+            "description": "Perfect for yacht owners - seamless transfer from marina to your vessel"
+          }
+        },
+        "deliveryLocations": {
+          "title": "Free Delivery Locations in Marina",
+          "additional": "+ All hotels, residences, and businesses within Dubai Marina & JBR"
+        },
+        "popularRoutes": {
+          "title": "Scenic Routes from Marina",
+          "distance": "Distance",
+          "duration": "Duration",
+          "highlights": "Highlights",
+          "coastal": {
+            "name": "Marina Coastal Drive",
+            "description": "Marina Walk → JBR → Palm Jumeirah → Atlantis",
+            "highlights": ["Sunset views", "Beach roads", "Palm entrance"]
+          },
+          "city": {
+            "name": "City Lights Tour",
+            "description": "Marina → Sheikh Zayed Road → Downtown Dubai",
+            "highlights": ["Skyline views", "Burj Khalifa", "Dubai Mall"]
+          },
+          "shopping": {
+            "name": "Luxury Shopping Route",
+            "description": "Marina Mall → Mall of Emirates → City Walk",
+            "highlights": ["Premium shopping", "Valet parking", "VIP lounges"]
+          }
+        },
+        "nearbyAttractions": {
+          "title": "Explore Marina in Style",
+          "attraction": "Attraction",
+          "distance": "Distance",
+          "type": "Type"
+        },
+        "testimonials": {
+          "title": "Marina Experiences",
+          "rented": "Rented",
+          "sarah": {
+            "location": "Marina Resident",
+            "text": "Having Rolls-Royce delivered to my Marina apartment was incredibly convenient. The sunset drive along JBR was magical!",
+            "car": "Dawn Convertible"
+          },
+          "james": {
+            "location": "Tourist from UK",
+            "text": "Picked up the Phantom at Marina Walk. The chauffeur knew all the best photo spots. Unforgettable experience!",
+            "car": "Phantom"
+          },
+          "fatima": {
+            "location": "Business Executive",
+            "text": "Use their service monthly for client meetings. Marina to DIFC in supreme comfort. Always impressed!",
+            "car": "Ghost"
+          }
+        },
+        "fleet": {
+          "title": "Available at Marina"
+        },
+        "cta": {
+          "title": "Experience Marina Luxury Today",
+          "subtitle": "Free delivery within 15 minutes to any Marina location. Professional chauffeurs available for guided tours.",
+          "callButton": "Call Marina Team: +971 55 816 4922",
+          "bookButton": "Book Online Now",
+          "pickupPoint": "Marina Pickup Point",
+          "pickupLocation": "Dubai Marina Walk, Gate B",
+          "gps": "GPS: 25.0805° N, 55.1403° E"
+        }
       }
     }
   }
