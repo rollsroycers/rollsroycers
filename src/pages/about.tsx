@@ -6,34 +6,36 @@ import { motion } from 'framer-motion'
 import Layout from '@/components/Layout'
 import SEO from '@/components/SEO'
 import WhatsAppButton from '@/components/WhatsAppButton'
+import { useTranslation } from 'next-i18next'
 
 export default function AboutPage() {
+  const { t } = useTranslation('common')
   const stats = [
-    { number: '15+', label: 'Years of Excellence', icon: '🏆' },
-    { number: '50+', label: 'Luxury Vehicles', icon: '🚗' },
-    { number: '10,000+', label: 'Happy Clients', icon: '😊' },
-    { number: '24/7', label: 'Service Available', icon: '⏰' }
+    { number: '15+', label: t('about.stats.years'), icon: '🏆' },
+    { number: '50+', label: t('about.stats.vehicles'), icon: '🚗' },
+    { number: '10,000+', label: t('about.stats.clients'), icon: '😊' },
+    { number: '24/7', label: t('about.stats.service'), icon: '⏰' }
   ]
 
   const values = [
     {
-      title: 'Uncompromising Quality',
-      description: 'We maintain the highest standards in vehicle maintenance and service delivery',
+      title: t('about.values.quality.title'),
+      description: t('about.values.quality.description'),
       icon: '✨'
     },
     {
-      title: 'Customer First',
-      description: 'Your satisfaction is our primary goal, with personalized service for every client',
+      title: t('about.values.customerFirst.title'),
+      description: t('about.values.customerFirst.description'),
       icon: '🎯'
     },
     {
-      title: 'Luxury Experience',
-      description: 'Beyond transportation, we deliver unforgettable moments of pure luxury',
+      title: t('about.values.luxuryExperience.title'),
+      description: t('about.values.luxuryExperience.description'),
       icon: '💎'
     },
     {
-      title: 'Trust & Reliability',
-      description: 'Building lasting relationships through consistent, dependable service',
+      title: t('about.values.trust.title'),
+      description: t('about.values.trust.description'),
       icon: '🤝'
     }
   ]
@@ -41,39 +43,39 @@ export default function AboutPage() {
   const team = [
     {
       name: 'Ahmed Al Rashid',
-      role: 'Founder & CEO',
-      bio: 'With over 20 years in luxury automotive, Ahmed brings unparalleled expertise to Dubai\'s premium car rental market.',
+      role: t('about.team.ceo.role'),
+      bio: t('about.team.ceo.bio'),
       image: '/images/team/ceo.jpg'
     },
     {
       name: 'Sarah Mitchell',
-      role: 'Operations Director',
-      bio: 'Former Rolls-Royce executive ensuring our fleet meets the highest international standards.',
+      role: t('about.team.operations.role'),
+      bio: t('about.team.operations.bio'),
       image: '/images/team/operations.jpg'
     },
     {
       name: 'Mohammed Hassan',
-      role: 'Head of Chauffeur Services',
-      bio: 'Leading a team of 50+ elite chauffeurs with focus on excellence and discretion.',
+      role: t('about.team.chauffeur.role'),
+      bio: t('about.team.chauffeur.bio'),
       image: '/images/team/chauffeur-head.jpg'
     }
   ]
 
   const milestones = [
-    { year: '2009', event: 'Company founded with 3 Rolls-Royce vehicles' },
-    { year: '2013', event: 'Expanded fleet to 15 vehicles, introduced chauffeur services' },
-    { year: '2016', event: 'Became official partner for Dubai luxury hotels' },
-    { year: '2019', event: 'Launched corporate services division' },
-    { year: '2021', event: 'Introduced contactless booking and digital services' },
-    { year: '2024', event: 'Celebrating 15 years with 50+ vehicle fleet' }
+    { year: '2009', event: t('about.milestones.2009') },
+    { year: '2013', event: t('about.milestones.2013') },
+    { year: '2016', event: t('about.milestones.2016') },
+    { year: '2019', event: t('about.milestones.2019') },
+    { year: '2021', event: t('about.milestones.2021') },
+    { year: '2024', event: t('about.milestones.2024') }
   ]
 
   const certifications = [
-    'Dubai Tourism Licensed',
-    'ISO 9001:2015 Certified',
-    'Luxury Travel Network Member',
-    'Dubai Chamber Member',
-    'RTA Approved Operator'
+    t('about.certifications.tourism'),
+    t('about.certifications.iso'),
+    t('about.certifications.luxuryNetwork'),
+    t('about.certifications.chamber'),
+    t('about.certifications.rta')
   ]
 
   return (
@@ -101,10 +103,10 @@ export default function AboutPage() {
               transition={{ duration: 1 }}
             >
               <h1 className="text-5xl md:text-7xl font-bold text-white mb-6">
-                Our Story
+                {t('about.hero.title')}
               </h1>
               <p className="text-2xl text-rolls-gold mb-8">
-                15 Years of Luxury Excellence in Dubai
+                {t('about.hero.subtitle')}
               </p>
             </motion.div>
           </div>
@@ -119,7 +121,7 @@ export default function AboutPage() {
                 whileInView={{ opacity: 1, y: 0 }}
                 className="text-4xl font-bold text-white mb-8"
               >
-                Welcome to Rolls-Royce Dubai
+                {t('about.introduction.title')}
               </motion.h2>
               <motion.p
                 initial={{ opacity: 0, y: 20 }}
@@ -127,9 +129,7 @@ export default function AboutPage() {
                 transition={{ delay: 0.1 }}
                 className="text-xl text-gray-300 leading-relaxed mb-6"
               >
-                Since 2009, Rolls-Royce Dubai has been the epitome of luxury car rental in the United Arab Emirates. 
-                We don't just rent cars; we deliver experiences that embody the spirit of Rolls-Royce – 
-                unparalleled luxury, exceptional service, and attention to every detail.
+                {t('about.introduction.p1')}
               </motion.p>
               <motion.p
                 initial={{ opacity: 0, y: 20 }}
@@ -137,9 +137,7 @@ export default function AboutPage() {
                 transition={{ delay: 0.2 }}
                 className="text-xl text-gray-300 leading-relaxed"
               >
-                From a modest beginning with three vehicles, we've grown to become Dubai's most trusted name 
-                in luxury transportation, serving royalty, celebrities, business leaders, and discerning 
-                travelers from around the world.
+                {t('about.introduction.p2')}
               </motion.p>
             </div>
           </div>
@@ -170,7 +168,7 @@ export default function AboutPage() {
         <section className="py-20 bg-gradient-to-b from-rolls-black to-rolls-navy">
           <div className="container mx-auto px-4">
             <h2 className="text-4xl font-bold text-white text-center mb-12">
-              Our Core Values
+              {t('about.values.sectionTitle')}
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-6xl mx-auto">
               {values.map((value, index) => (
@@ -194,7 +192,7 @@ export default function AboutPage() {
         <section className="py-20 bg-gradient-to-b from-rolls-navy to-rolls-black">
           <div className="container mx-auto px-4">
             <h2 className="text-4xl font-bold text-white text-center mb-12">
-              Our Journey
+              {t('about.milestones.sectionTitle')}
             </h2>
             <div className="max-w-4xl mx-auto">
               <div className="relative">
@@ -233,7 +231,7 @@ export default function AboutPage() {
         <section className="py-20 bg-gradient-to-b from-rolls-black to-rolls-navy">
           <div className="container mx-auto px-4">
             <h2 className="text-4xl font-bold text-white text-center mb-12">
-              Leadership Team
+              {t('about.team.sectionTitle')}
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
               {team.map((member, index) => (
@@ -262,7 +260,7 @@ export default function AboutPage() {
         <section className="py-20 bg-gradient-to-b from-rolls-navy to-rolls-black">
           <div className="container mx-auto px-4">
             <h2 className="text-4xl font-bold text-white text-center mb-12">
-              Certifications & Memberships
+              {t('about.certifications.sectionTitle')}
             </h2>
             <div className="flex flex-wrap justify-center gap-6 max-w-4xl mx-auto">
               {certifications.map((cert, index) => (
@@ -284,7 +282,7 @@ export default function AboutPage() {
         <section className="py-20 bg-gradient-to-b from-rolls-black to-rolls-navy">
           <div className="container mx-auto px-4">
             <h2 className="text-4xl font-bold text-white text-center mb-12">
-              Why Choose Rolls-Royce Dubai?
+              {t('about.whyChooseUs.sectionTitle')}
             </h2>
             <div className="max-w-4xl mx-auto">
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -294,8 +292,8 @@ export default function AboutPage() {
                       <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                     </svg>
                     <div>
-                      <h3 className="text-lg font-semibold text-white mb-2">Largest Fleet in UAE</h3>
-                      <p className="text-gray-400">Over 50 meticulously maintained Rolls-Royce vehicles</p>
+                      <h3 className="text-lg font-semibold text-white mb-2">{t('about.whyChooseUs.fleet.title')}</h3>
+                      <p className="text-gray-400">{t('about.whyChooseUs.fleet.description')}</p>
                     </div>
                   </div>
                   
@@ -304,8 +302,8 @@ export default function AboutPage() {
                       <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                     </svg>
                     <div>
-                      <h3 className="text-lg font-semibold text-white mb-2">Premium Insurance</h3>
-                      <p className="text-gray-400">Comprehensive coverage for complete peace of mind</p>
+                      <h3 className="text-lg font-semibold text-white mb-2">{t('about.whyChooseUs.insurance.title')}</h3>
+                      <p className="text-gray-400">{t('about.whyChooseUs.insurance.description')}</p>
                     </div>
                   </div>
                   
@@ -314,8 +312,8 @@ export default function AboutPage() {
                       <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                     </svg>
                     <div>
-                      <h3 className="text-lg font-semibold text-white mb-2">24/7 Support</h3>
-                      <p className="text-gray-400">Round-the-clock assistance in multiple languages</p>
+                      <h3 className="text-lg font-semibold text-white mb-2">{t('about.whyChooseUs.support.title')}</h3>
+                      <p className="text-gray-400">{t('about.whyChooseUs.support.description')}</p>
                     </div>
                   </div>
                 </div>
@@ -326,8 +324,8 @@ export default function AboutPage() {
                       <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                     </svg>
                     <div>
-                      <h3 className="text-lg font-semibold text-white mb-2">Elite Chauffeurs</h3>
-                      <p className="text-gray-400">Professional drivers trained in luxury service</p>
+                      <h3 className="text-lg font-semibold text-white mb-2">{t('about.whyChooseUs.chauffeurs.title')}</h3>
+                      <p className="text-gray-400">{t('about.whyChooseUs.chauffeurs.description')}</p>
                     </div>
                   </div>
                   
@@ -336,8 +334,8 @@ export default function AboutPage() {
                       <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                     </svg>
                     <div>
-                      <h3 className="text-lg font-semibold text-white mb-2">Transparent Pricing</h3>
-                      <p className="text-gray-400">No hidden fees, clear terms and conditions</p>
+                      <h3 className="text-lg font-semibold text-white mb-2">{t('about.whyChooseUs.pricing.title')}</h3>
+                      <p className="text-gray-400">{t('about.whyChooseUs.pricing.description')}</p>
                     </div>
                   </div>
                   
@@ -346,8 +344,8 @@ export default function AboutPage() {
                       <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                     </svg>
                     <div>
-                      <h3 className="text-lg font-semibold text-white mb-2">VIP Treatment</h3>
-                      <p className="text-gray-400">Red carpet service for every client</p>
+                      <h3 className="text-lg font-semibold text-white mb-2">{t('about.whyChooseUs.vip.title')}</h3>
+                      <p className="text-gray-400">{t('about.whyChooseUs.vip.description')}</p>
                     </div>
                   </div>
                 </div>
@@ -360,10 +358,10 @@ export default function AboutPage() {
         <section className="py-20 bg-gradient-to-b from-rolls-navy to-rolls-black">
           <div className="container mx-auto px-4 text-center">
             <h2 className="text-4xl font-bold text-white mb-6">
-              Experience the Difference
+              {t('about.cta.title')}
             </h2>
             <p className="text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
-              Join thousands of satisfied clients who have chosen Rolls-Royce Dubai for their luxury transportation needs.
+              {t('about.cta.description')}
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <motion.a
@@ -375,7 +373,7 @@ export default function AboutPage() {
                 Call: +971 55 816 4922
               </motion.a>
               <Link href="/fleet" className="btn-secondary">
-                View Our Fleet
+                {t('about.cta.button')}
               </Link>
             </div>
           </div>

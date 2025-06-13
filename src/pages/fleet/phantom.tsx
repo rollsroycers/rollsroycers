@@ -1,5 +1,6 @@
 import { GetStaticProps } from 'next'
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
+import { useTranslation } from 'next-i18next'
 import Image from 'next/image'
 import Link from 'next/link'
 import { motion } from 'framer-motion'
@@ -8,22 +9,23 @@ import WhatsAppButton from '@/components/WhatsAppButton'
 import SEO from '@/components/SEO'
 
 export default function PhantomPage() {
+  const { t } = useTranslation('common')
   const features = [
-    { icon: '👑', title: 'Magic Carpet Ride', desc: 'The smoothest ride technology in the world' },
-    { icon: '🌟', title: 'Starlight Headliner', desc: '1,340 fiber optic lights creating a celestial scene' },
-    { icon: '🎭', title: 'Theatre Configuration', desc: 'Rear seats with entertainment screens' },
-    { icon: '🔇', title: 'Silent Chamber', desc: 'The quietest car interior ever created' }
+    { icon: '👑', title: t('fleet.phantom.features.magicCarpetRide.title'), desc: t('fleet.phantom.features.magicCarpetRide.desc') },
+    { icon: '🌟', title: t('fleet.phantom.features.starlightHeadliner.title'), desc: t('fleet.phantom.features.starlightHeadliner.desc') },
+    { icon: '🎭', title: t('fleet.phantom.features.theatreConfiguration.title'), desc: t('fleet.phantom.features.theatreConfiguration.desc') },
+    { icon: '🔇', title: t('fleet.phantom.features.silentChamber.title'), desc: t('fleet.phantom.features.silentChamber.desc') }
   ]
 
   const specs = {
-    engine: '6.75L V12 Twin-Turbo',
-    power: '563 HP',
-    torque: '900 Nm',
-    acceleration: '0-100 km/h in 5.3s',
-    topSpeed: '250 km/h',
-    seats: '4-5 passengers',
-    transmission: '8-Speed Automatic',
-    drivetrain: 'Rear-Wheel Drive'
+    engine: t('fleet.phantom.specs.engine'),
+    power: t('fleet.phantom.specs.power'),
+    torque: t('fleet.phantom.specs.torque'),
+    acceleration: t('fleet.phantom.specs.acceleration'),
+    topSpeed: t('fleet.phantom.specs.topSpeed'),
+    seats: t('fleet.phantom.specs.seats'),
+    transmission: t('fleet.phantom.specs.transmission'),
+    drivetrain: t('fleet.phantom.specs.drivetrain')
   }
 
   return (
@@ -159,7 +161,7 @@ export default function PhantomPage() {
               <div className="relative h-64 md:col-span-2">
                 <Image
                   src="/images/Rolls-royce-phantom.jpg"
-                  alt="Phantom Exterior"
+                  alt={t('fleet.phantom.gallery.exteriorAlt')}
                   fill
                   className="object-cover rounded-lg"
                 />
@@ -167,7 +169,7 @@ export default function PhantomPage() {
               <div className="relative h-64">
                 <Image
                   src="/images/inside-Rolls-Royce.jpg"
-                  alt="Phantom Interior"
+                  alt={t('fleet.phantom.gallery.interiorAlt')}
                   fill
                   className="object-cover rounded-lg"
                 />

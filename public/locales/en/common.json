@@ -115,6 +115,104 @@
       "price": "Transparent pricing with no hidden fees",
       "flexible": "Flexible rental terms and packages",
       "delivery": "Complimentary delivery within Dubai"
+    },
+    "hero": {
+      "title": "Our Story",
+      "subtitle": "15 Years of Luxury Excellence in Dubai"
+    },
+    "introduction": {
+      "title": "Welcome to Rolls-Royce Dubai",
+      "p1": "Since 2009, Rolls-Royce Dubai has been the epitome of luxury car rental in the United Arab Emirates. We don't just rent cars; we deliver experiences that embody the spirit of Rolls-Royce – unparalleled luxury, exceptional service, and attention to every detail.",
+      "p2": "From a modest beginning with three vehicles, we've grown to become Dubai's most trusted name in luxury transportation, serving royalty, celebrities, business leaders, and discerning travelers from around the world."
+    },
+    "stats": {
+      "years": "Years of Excellence",
+      "vehicles": "Luxury Vehicles",
+      "clients": "Happy Clients",
+      "service": "Service Available"
+    },
+    "values": {
+      "sectionTitle": "Our Core Values",
+      "quality": {
+        "title": "Uncompromising Quality",
+        "description": "We maintain the highest standards in vehicle maintenance and service delivery"
+      },
+      "customerFirst": {
+        "title": "Customer First",
+        "description": "Your satisfaction is our primary goal, with personalized service for every client"
+      },
+      "luxuryExperience": {
+        "title": "Luxury Experience",
+        "description": "Beyond transportation, we deliver unforgettable moments of pure luxury"
+      },
+      "trust": {
+        "title": "Trust & Reliability",
+        "description": "Building lasting relationships through consistent, dependable service"
+      }
+    },
+    "milestones": {
+      "sectionTitle": "Our Journey",
+      "2009": "Company founded with 3 Rolls-Royce vehicles",
+      "2013": "Expanded fleet to 15 vehicles, introduced chauffeur services",
+      "2016": "Became official partner for Dubai luxury hotels",
+      "2019": "Launched corporate services division",
+      "2021": "Introduced contactless booking and digital services",
+      "2024": "Celebrating 15 years with 50+ vehicle fleet"
+    },
+    "team": {
+      "sectionTitle": "Leadership Team",
+      "ceo": {
+        "role": "Founder & CEO",
+        "bio": "With over 20 years in luxury automotive, Ahmed brings unparalleled expertise to Dubai's premium car rental market."
+      },
+      "operations": {
+        "role": "Operations Director",
+        "bio": "Former Rolls-Royce executive ensuring our fleet meets the highest international standards."
+      },
+      "chauffeur": {
+        "role": "Head of Chauffeur Services",
+        "bio": "Leading a team of 50+ elite chauffeurs with focus on excellence and discretion."
+      }
+    },
+    "certifications": {
+      "sectionTitle": "Certifications & Memberships",
+      "tourism": "Dubai Tourism Licensed",
+      "iso": "ISO 9001:2015 Certified",
+      "luxuryNetwork": "Luxury Travel Network Member",
+      "chamber": "Dubai Chamber Member",
+      "rta": "RTA Approved Operator"
+    },
+    "whyChooseUs": {
+      "sectionTitle": "Why Choose Rolls-Royce Dubai?",
+      "fleet": {
+        "title": "Largest Fleet in UAE",
+        "description": "Over 50 meticulously maintained Rolls-Royce vehicles"
+      },
+      "insurance": {
+        "title": "Premium Insurance",
+        "description": "Comprehensive coverage for complete peace of mind"
+      },
+      "support": {
+        "title": "24/7 Support",
+        "description": "Round-the-clock assistance in multiple languages"
+      },
+      "chauffeurs": {
+        "title": "Elite Chauffeurs",
+        "description": "Professional drivers trained in luxury service"
+      },
+      "pricing": {
+        "title": "Transparent Pricing",
+        "description": "No hidden fees, clear terms and conditions"
+      },
+      "vip": {
+        "title": "VIP Treatment",
+        "description": "Red carpet service for every client"
+      }
+    },
+    "cta": {
+      "title": "Experience the Difference",
+      "description": "Join thousands of satisfied clients who have chosen Rolls-Royce Dubai for their luxury transportation needs.",
+      "button": "View Our Fleet"
     }
   },
   "reviews": {

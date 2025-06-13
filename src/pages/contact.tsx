@@ -172,7 +172,7 @@ export default function ContactPage() {
                       value={formData.name}
                       onChange={(e) => setFormData({ ...formData, name: e.target.value })}
                       className="w-full bg-gray-800 text-white px-4 py-3 rounded-lg focus:outline-none focus:ring-2 focus:ring-rolls-gold"
-                      placeholder="John Doe"
+                      placeholder={t('placeholders.johnDoe')}
                     />
                   </div>
                   <div>
@@ -216,7 +216,7 @@ export default function ContactPage() {
                       value={formData.subject}
                       onChange={(e) => setFormData({ ...formData, subject: e.target.value })}
                       className="w-full bg-gray-800 text-white px-4 py-3 rounded-lg focus:outline-none focus:ring-2 focus:ring-rolls-gold"
-                      placeholder="Rental Inquiry"
+                      placeholder={t('placeholders.rentalInquiry')}
                     />
                   </div>
                 </div>

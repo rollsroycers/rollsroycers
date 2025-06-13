@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { motion } from 'framer-motion'
 import { useInView } from 'react-intersection-observer'
+import { useTranslation } from 'next-i18next'
 
 interface TourSpot {
   id: string
@@ -11,6 +12,7 @@ interface TourSpot {
 }
 
 export default function VirtualTour() {
+  const { t } = useTranslation('common')
   const [ref, inView] = useInView({ triggerOnce: true, threshold: 0.1 })
   const [activeCar, setActiveCar] = useState('phantom')
   const [activeSpot, setActiveSpot] = useState<string | null>(null)
@@ -137,7 +139,7 @@ export default function VirtualTour() {
               {/* Background Image */}
               <img
                 src={cars.find(c => c.id === activeCar)?.image}
-                alt="Interior view"
+                alt={t('virtualTour.alt.interiorView')}
                 className="absolute inset-0 w-full h-full object-cover opacity-30"
               />
               

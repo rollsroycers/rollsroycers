@@ -28,103 +28,103 @@ export default function Reviews() {
   const reviews: Review[] = [
     {
       id: 1,
-      name: "Ahmed Al-Rashid",
+      name: t('reviews.review1.name'),
       image: "/images/reviews/ahmed.webp",
       rating: 5,
-      date: "December 2023",
-      car: "Rolls-Royce Phantom",
-      review: "Exceptional service! The Phantom was immaculate, and the chauffeur was professional and courteous. Made our anniversary celebration truly special. The attention to detail was remarkable, from the chilled champagne to the perfect route planning. Will definitely book again!",
-      nationality: "UAE"
+      date: t('reviews.review1.date'),
+      car: t('reviews.review1.car'),
+      review: t('reviews.review1.review'),
+      nationality: t('reviews.review1.nationality')
     },
     {
       id: 2,
-      name: "Dmitry Ivanov",
+      name: t('reviews.review2.name'),
       image: "/images/reviews/Dmitry-Ivanov.jpg",
       rating: 5,
-      date: "November 2023",
-      car: "Rolls-Royce Cullinan",
-      review: "Perfect for our family trip to the desert. The Cullinan handled everything beautifully while maintaining supreme comfort. The team went above and beyond to ensure our comfort. Highly recommended for anyone seeking luxury SUV rental in Dubai.",
-      nationality: "Russia"
+      date: t('reviews.review2.date'),
+      car: t('reviews.review2.car'),
+      review: t('reviews.review2.review'),
+      nationality: t('reviews.review2.nationality')
     },
     {
       id: 3,
-      name: "Faten Al-Zahra",
+      name: t('reviews.review3.name'),
       image: "/images/reviews/faten.webp",
       rating: 5,
-      date: "November 2023",
-      car: "Rolls-Royce Dawn",
-      review: "The Dawn was absolutely stunning for our photoshoot. The convertible experience along Dubai Marina was unforgettable. Professional service from start to finish. The car arrived spotless and the staff were incredibly helpful with our special requests.",
-      nationality: "UAE"
+      date: t('reviews.review3.date'),
+      car: t('reviews.review3.car'),
+      review: t('reviews.review3.review'),
+      nationality: t('reviews.review3.nationality')
     },
     {
       id: 4,
-      name: "Antoine Lefèvre",
+      name: t('reviews.review4.name'),
       image: "/images/reviews/Antoine-Lefèvre_.jpg",
       rating: 5,
-      date: "October 2023",
-      car: "Rolls-Royce Ghost",
-      review: "Magnifique! The Ghost exceeded all expectations. Silent, smooth, and sophisticated. The chauffeur service was impeccable - multilingual and very knowledgeable about Dubai. Perfect for business meetings and city tours.",
-      nationality: "France"
+      date: t('reviews.review4.date'),
+      car: t('reviews.review4.car'),
+      review: t('reviews.review4.review'),
+      nationality: t('reviews.review4.nationality')
     },
     {
       id: 5,
-      name: "Chen Jie",
+      name: t('reviews.review5.name'),
       image: "/images/reviews/Chen-Jie.avif",
       rating: 5,
-      date: "October 2023",
-      car: "Rolls-Royce Wraith",
-      review: "Amazing experience! The Wraith's performance was thrilling yet refined. The starlight headliner was mesmerizing at night. Booking was easy, and the delivery service to our hotel was very convenient. Top-notch luxury car rental!",
-      nationality: "China"
+      date: t('reviews.review5.date'),
+      car: t('reviews.review5.car'),
+      review: t('reviews.review5.review'),
+      nationality: t('reviews.review5.nationality')
     },
     {
       id: 6,
-      name: "Pooja Sharma",
+      name: t('reviews.review6.name'),
       image: "/images/reviews/pouja.webp",
       rating: 5,
-      date: "September 2023",
-      car: "Rolls-Royce Phantom",
-      review: "Booked for our wedding and it was perfect! The white Phantom looked stunning in photos. The chauffeur was punctual and helped with the dress. Thank you for making our special day even more memorable. Highly recommended for weddings!",
-      nationality: "India"
+      date: t('reviews.review6.date'),
+      car: t('reviews.review6.car'),
+      review: t('reviews.review6.review'),
+      nationality: t('reviews.review6.nationality')
     },
     {
       id: 7,
-      name: "Sergey Volkov",
+      name: t('reviews.review7.name'),
       image: "/images/reviews/Sergey-Volkov.webp",
       rating: 5,
-      date: "September 2023",
-      car: "Rolls-Royce Cullinan",
-      review: "Outstanding service! Used the Cullinan for a week-long family vacation. The car was perfect for long drives to Abu Dhabi and the mountains. 24/7 support was actually available when needed. Best luxury car rental experience in Dubai.",
-      nationality: "Russia"
+      date: t('reviews.review7.date'),
+      car: t('reviews.review7.car'),
+      review: t('reviews.review7.review'),
+      nationality: t('reviews.review7.nationality')
     },
     {
       id: 8,
-      name: "Mohamed Hassan",
+      name: t('reviews.review8.name'),
       image: "/images/reviews/mohamed.jpg",
       rating: 5,
-      date: "August 2023",
-      car: "Rolls-Royce Ghost",
-      review: "Impressed by the professionalism and quality. The Ghost was pristine, and the airport transfer service was seamless. My business partners were thoroughly impressed. Will use again for all future visits to Dubai.",
-      nationality: "Egypt"
+      date: t('reviews.review8.date'),
+      car: t('reviews.review8.car'),
+      review: t('reviews.review8.review'),
+      nationality: t('reviews.review8.nationality')
     },
     {
       id: 9,
-      name: "Julien Dubois",
+      name: t('reviews.review9.name'),
       image: "/images/reviews/Julien-Dubois_.jpg",
       rating: 5,
-      date: "August 2023",
-      car: "Rolls-Royce Dawn",
-      review: "Phenomenal experience driving along the coast! The Dawn is truly special. The team accommodated our last-minute booking request perfectly. The car was delivered to our location on time. Merci for the excellent service!",
-      nationality: "France"
+      date: t('reviews.review9.date'),
+      car: t('reviews.review9.car'),
+      review: t('reviews.review9.review'),
+      nationality: t('reviews.review9.nationality')
     },
     {
       id: 10,
-      name: "Wang Jun",
+      name: t('reviews.review10.name'),
       image: "/images/reviews/Wang-Jun_.jpg",
       rating: 5,
-      date: "July 2023",
-      car: "Rolls-Royce Phantom",
-      review: "VIP treatment from start to finish. The Phantom's comfort is unmatched. Used it for important business meetings and the impression it made was invaluable. The chauffeur knew all the best routes to avoid traffic. Excellent!",
-      nationality: "China"
+      date: t('reviews.review10.date'),
+      car: t('reviews.review10.car'),
+      review: t('reviews.review10.review'),
+      nationality: t('reviews.review10.nationality')
     }
   ]
 

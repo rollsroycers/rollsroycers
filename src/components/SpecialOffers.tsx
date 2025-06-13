@@ -38,33 +38,33 @@ export default function SpecialOffers() {
   const offers = [
     {
       id: 1,
-      title: "Weekend Special",
-      discount: "20% OFF",
-      description: "Book any Rolls-Royce for 3+ days over the weekend",
+      title: t('offers.weekend.title'),
+      discount: t('offers.weekend.discount'),
+      description: t('offers.weekend.description'),
       code: "WEEKEND20",
       icon: "🌟"
     },
     {
       id: 2,
-      title: "First Time Customer",
-      discount: "15% OFF",
-      description: "Exclusive discount for new customers on first booking",
+      title: t('offers.firstTime.title'),
+      discount: t('offers.firstTime.discount'),
+      description: t('offers.firstTime.description'),
       code: "FIRST15",
       icon: "🎁"
     },
     {
       id: 3,
-      title: "Monthly Rental",
-      discount: "30% OFF",
-      description: "Special rates for monthly rentals on all models",
+      title: t('offers.monthly.title'),
+      discount: t('offers.monthly.discount'),
+      description: t('offers.monthly.description'),
       code: "MONTH30",
       icon: "📅"
     },
     {
       id: 4,
-      title: "Chauffeur Package",
-      discount: "Free Upgrade",
-      description: "Free chauffeur service for bookings over AED 5,000",
+      title: t('offers.chauffeur.title'),
+      discount: t('offers.chauffeur.discount'),
+      description: t('offers.chauffeur.description'),
       code: "CHAUFFEUR",
       icon: "👨‍✈️"
     }

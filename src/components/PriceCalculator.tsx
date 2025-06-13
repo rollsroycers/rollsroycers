@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { motion } from 'framer-motion'
 import { useInView } from 'react-intersection-observer'
+import { useTranslation } from 'next-i18next'
 
 interface PriceBreakdown {
   basePrice: number
@@ -12,6 +13,7 @@ interface PriceBreakdown {
 }
 
 export default function PriceCalculator() {
+  const { t } = useTranslation('common')
   const [ref, inView] = useInView({ triggerOnce: true, threshold: 0.1 })
   const [selectedCar, setSelectedCar] = useState('phantom')
   const [days, setDays] = useState(1)
@@ -166,7 +168,7 @@ export default function PriceCalculator() {
                     type="text"
                     value={promoCode}
                     onChange={(e) => setPromoCode(e.target.value)}
-                    placeholder="Enter code"
+                    placeholder={t('placeholders.enterCode')}
                     className="w-full px-4 py-3 bg-rolls-navy/50 border border-rolls-gold/20 rounded text-white placeholder-gray-500 focus:border-rolls-gold focus:outline-none"
                   />
                 </div>

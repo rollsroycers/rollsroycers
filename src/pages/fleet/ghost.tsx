@@ -1,5 +1,6 @@
 import { GetStaticProps } from 'next'
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
+import { useTranslation } from 'next-i18next'
 import Image from 'next/image'
 import Link from 'next/link'
 import { motion } from 'framer-motion'
@@ -12,85 +13,77 @@ import WhatsAppButton from '@/components/WhatsAppButton'
 import SEO from '@/components/SEO'
 
 export default function GhostPage() {
+  const { t } = useTranslation('common')
   const [activeTab, setActiveTab] = useState('overview')
   
   const images = [
-    { src: '/images/Rolls-Royce-black.jpg', alt: 'Rolls-Royce Ghost Black Dubai Rental' },
-    { src: '/images/Rolls-royce-with-chauffeur.jpg', alt: 'Ghost with Professional Chauffeur' },
-    { src: '/images/inside-Rolls-Royce.jpg', alt: 'Ghost Luxury Interior' },
-    { src: '/images/Rolls-Royce-front.jpg', alt: 'Ghost Front Grille View' }
+    { src: '/images/Rolls-Royce-black.jpg', alt: t('fleet.ghost.images.blackAlt') },
+    { src: '/images/Rolls-royce-with-chauffeur.jpg', alt: t('fleet.ghost.images.chauffeurAlt') },
+    { src: '/images/inside-Rolls-Royce.jpg', alt: t('fleet.ghost.images.interiorAlt') },
+    { src: '/images/Rolls-Royce-front.jpg', alt: t('fleet.ghost.images.frontGrilleAlt') }
   ]
 
   const specifications = {
     performance: [
-      { label: 'Engine', value: '6.75L V12 Twin-Turbo' },
-      { label: 'Power', value: '563 HP' },
-      { label: 'Torque', value: '850 Nm' },
-      { label: '0-100 km/h', value: '4.8 seconds' },
-      { label: 'Top Speed', value: '250 km/h' }
+      { label: t('fleet.ghost.specs.performance.engine.label'), value: t('fleet.ghost.specs.performance.engine.value') },
+      { label: t('fleet.ghost.specs.performance.power.label'), value: t('fleet.ghost.specs.performance.power.value') },
+      { label: t('fleet.ghost.specs.performance.torque.label'), value: t('fleet.ghost.specs.performance.torque.value') },
+      { label: t('fleet.ghost.specs.performance.acceleration.label'), value: t('fleet.ghost.specs.performance.acceleration.value') },
+      { label: t('fleet.ghost.specs.performance.topSpeed.label'), value: t('fleet.ghost.specs.performance.topSpeed.value') }
     ],
     dimensions: [
-      { label: 'Length', value: '5,546 mm' },
-      { label: 'Width', value: '1,948 mm' },
-      { label: 'Height', value: '1,571 mm' },
-      { label: 'Wheelbase', value: '3,465 mm' },
-      { label: 'Seating', value: '5 Adults' }
+      { label: t('fleet.ghost.specs.dimensions.length.label'), value: t('fleet.ghost.specs.dimensions.length.value') },
+      { label: t('fleet.ghost.specs.dimensions.width.label'), value: t('fleet.ghost.specs.dimensions.width.value') },
+      { label: t('fleet.ghost.specs.dimensions.height.label'), value: t('fleet.ghost.specs.dimensions.height.value') },
+      { label: t('fleet.ghost.specs.dimensions.wheelbase.label'), value: t('fleet.ghost.specs.dimensions.wheelbase.value') },
+      { label: t('fleet.ghost.specs.dimensions.seating.label'), value: t('fleet.ghost.specs.dimensions.seating.value') }
     ],
-    technology: [
-      'Planar Suspension System',
-      'Satellite Aided Transmission',
-      'Micro-Environment Purification',
-      'Spirit of Ecstasy Illuminated',
-      'Starlight Headliner',
-      'Bespoke Audio System',
-      'Night Vision Assistant',
-      'WiFi Hotspot'
-    ]
+    technology: t('fleet.ghost.specs.technology', { returnObjects: true }) as string[]
   }
 
   const rentalPackages = [
     {
-      duration: 'Daily',
-      price: 'AED 4,800',
-      includes: ['200 km/day', 'Basic Insurance', 'Valet Service']
+      duration: t('fleet.ghost.rentalPackages.daily.duration'),
+      price: t('fleet.ghost.rentalPackages.daily.price'),
+      includes: t('fleet.ghost.rentalPackages.daily.includes', { returnObjects: true }) as string[]
     },
     {
-      duration: 'Weekend',
-      price: 'AED 9,000',
-      includes: ['500 km total', 'Premium Insurance', 'Chauffeur Available']
+      duration: t('fleet.ghost.rentalPackages.weekend.duration'),
+      price: t('fleet.ghost.rentalPackages.weekend.price'),
+      includes: t('fleet.ghost.rentalPackages.weekend.includes', { returnObjects: true }) as string[]
     },
     {
-      duration: 'Weekly',
-      price: 'AED 28,800',
-      includes: ['1,500 km total', 'Full Coverage', 'Airport Transfers']
+      duration: t('fleet.ghost.rentalPackages.weekly.duration'),
+      price: t('fleet.ghost.rentalPackages.weekly.price'),
+      includes: t('fleet.ghost.rentalPackages.weekly.includes', { returnObjects: true }) as string[]
     },
     {
-      duration: 'Monthly',
-      price: 'AED 96,000',
-      includes: ['4,000 km total', 'VIP Support', 'Flexible Terms']
+      duration: t('fleet.ghost.rentalPackages.monthly.duration'),
+      price: t('fleet.ghost.rentalPackages.monthly.price'),
+      includes: t('fleet.ghost.rentalPackages.monthly.includes', { returnObjects: true }) as string[]
     }
   ]
 
   const businessFeatures = [
     {
       icon: '💼',
-      title: 'Business Excellence',
-      description: 'Perfect for corporate meetings with rear executive seating and fold-out tables'
+      title: t('fleet.ghost.businessFeatures.excellence.title'),
+      description: t('fleet.ghost.businessFeatures.excellence.description')
     },
     {
       icon: '🔇',
-      title: 'Whisper Quiet',
-      description: 'The quietest Rolls-Royce ever made, ideal for confidential discussions'
+      title: t('fleet.ghost.businessFeatures.quiet.title'),
+      description: t('fleet.ghost.businessFeatures.quiet.description')
     },
     {
       icon: '🌐',
-      title: 'Connected Office',
-      description: 'High-speed WiFi, charging ports, and entertainment systems'
+      title: t('fleet.ghost.businessFeatures.connected.title'),
+      description: t('fleet.ghost.businessFeatures.connected.description')
     },
     {
       icon: '🛡️',
-      title: 'Advanced Safety',
-      description: 'Comprehensive safety features including night vision and collision warning'
+      title: t('fleet.ghost.businessFeatures.safety.title'),
+      description: t('fleet.ghost.businessFeatures.safety.description')
     }
   ]
 
@@ -220,7 +213,7 @@ export default function GhostPage() {
                 >
                   <Image
                     src="/images/inside-Rolls-Royce.jpg"
-                    alt="Ghost Interior Excellence"
+                    alt={t('fleet.ghost.images.interiorExcellenceAlt')}
                     fill
                     className="object-cover"
                   />

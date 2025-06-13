@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { motion } from 'framer-motion'
 import { useInView } from 'react-intersection-observer'
+import { useTranslation } from 'next-i18next'
 
 interface Tier {
   name: string
@@ -12,6 +13,7 @@ interface Tier {
 }
 
 export default function LoyaltyProgram() {
+  const { t } = useTranslation('common')
   const [ref, inView] = useInView({ triggerOnce: true, threshold: 0.1 })
   const [selectedTier, setSelectedTier] = useState<number>(0)
   const [showEnrollForm, setShowEnrollForm] = useState(false)
@@ -22,49 +24,51 @@ export default function LoyaltyProgram() {
     preferredCar: ''
   })
 
+  const getTranslatedArray = (key: string, fallback: string[]): string[] => {
+    const translation = t(key, { returnObjects: true });
+    return Array.isArray(translation) ? translation : fallback;
+  };
+
   const tiers: Tier[] = [
     {
-      name: "Silver Elite",
+      name: t('loyalty.tiers.silver.name'),
       icon: "🥈",
-      requirement: "First rental",
-      benefits: [
-        "5% discount on all rentals",
-        "Priority booking access",
-        "Complimentary car upgrade (subject to availability)",
-        "24/7 dedicated support line",
-        "Birthday special offer"
-      ],
+      requirement: t('loyalty.tiers.silver.requirement'),
+      benefits: getTranslatedArray('loyalty.tiers.silver.benefits', [
+        '5% discount on all rentals',
+        'Priority booking access',
+        'Free car delivery within Dubai',
+        'Complimentary refreshments'
+      ]),
       color: "from-gray-400 to-gray-600",
       discount: 5
     },
     {
-      name: "Gold Premier",
+      name: t('loyalty.tiers.gold.name'),
       icon: "🥇",
-      requirement: "5+ rentals or 15+ days",
-      benefits: [
-        "10% discount on all rentals",
-        "Guaranteed car upgrade",
-        "Free airport transfers",
-        "Access to exclusive models",
-        "Personal account manager",
-        "Flexible cancellation policy"
-      ],
+      requirement: t('loyalty.tiers.gold.requirement'),
+      benefits: getTranslatedArray('loyalty.tiers.gold.benefits', [
+        '10% discount on all rentals',
+        'VIP booking concierge',
+        'Free airport transfers',
+        'Access to exclusive models',
+        'Complimentary chauffeur upgrade'
+      ]),
       color: "from-yellow-400 to-yellow-600",
       discount: 10
     },
     {
-      name: "Platinum Royal",
+      name: t('loyalty.tiers.platinum.name'),
       icon: "👑",
-      requirement: "10+ rentals or 30+ days",
-      benefits: [
-        "15% discount on all rentals",
-        "Complimentary chauffeur service (2 days/month)",
-        "VIP lounge access at partners",
-        "Exclusive event invitations",
-        "Customized rental packages",
-        "Priority access to new models",
-        "Annual luxury gift"
-      ],
+      requirement: t('loyalty.tiers.platinum.requirement'),
+      benefits: getTranslatedArray('loyalty.tiers.platinum.benefits', [
+        '15% discount on all rentals',
+        'Personal account manager',
+        'Unlimited free deliveries',
+        'First access to new fleet additions',
+        'Complimentary photoshoot package',
+        'Annual exclusive driving experience'
+      ]),
       color: "from-purple-400 to-purple-600",
       discount: 15
     }

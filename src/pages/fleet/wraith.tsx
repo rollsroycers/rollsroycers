@@ -1,5 +1,6 @@
 import { GetStaticProps } from 'next'
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
+import { useTranslation } from 'next-i18next'
 import Image from 'next/image'
 import Link from 'next/link'
 import { motion } from 'framer-motion'
@@ -12,101 +13,124 @@ import WhatsAppButton from '@/components/WhatsAppButton'
 import SEO from '@/components/SEO'
 
 export default function WraithPage() {
+  const { t } = useTranslation('common')
   const [selectedFeature, setSelectedFeature] = useState('performance')
+
+  const getTranslatedArray = (key: string, fallback: string[]): string[] => {
+    const translation = t(key, { returnObjects: true });
+    return Array.isArray(translation) ? translation : fallback;
+  };
   
   const images = [
-    { src: '/images/Rolls-Royce-black.jpg', alt: 'Rolls-Royce Wraith Black Badge Dubai' },
-    { src: '/images/Rolls-Royce-Ride.jpg', alt: 'Wraith Grand Tourer on Dubai Roads' },
-    { src: '/images/inside-Rolls-Royce.jpg', alt: 'Wraith Starlight Interior' },
-    { src: '/images/Rolls-Royce-front.jpg', alt: 'Wraith Front Design' }
+    { src: '/images/Rolls-Royce-black.jpg', alt: t('fleet.wraith.images.blackBadgeAlt') },
+    { src: '/images/Rolls-Royce-Ride.jpg', alt: t('fleet.wraith.images.grandTourerAlt') },
+    { src: '/images/inside-Rolls-Royce.jpg', alt: t('fleet.wraith.images.starlightInteriorAlt') },
+    { src: '/images/Rolls-Royce-front.jpg', alt: t('fleet.wraith.images.frontDesignAlt') }
   ]
 
   const specifications = {
     performance: [
-      { label: 'Engine', value: '6.6L V12 Twin-Turbo' },
-      { label: 'Power', value: '624 HP' },
-      { label: 'Torque', value: '870 Nm' },
-      { label: '0-100 km/h', value: '4.4 seconds' },
-      { label: 'Top Speed', value: '250 km/h' }
+      { label: t('fleet.wraith.specs.performance.engine.label'), value: t('fleet.wraith.specs.performance.engine.value') },
+      { label: t('fleet.wraith.specs.performance.power.label'), value: t('fleet.wraith.specs.performance.power.value') },
+      { label: t('fleet.wraith.specs.performance.torque.label'), value: t('fleet.wraith.specs.performance.torque.value') },
+      { label: t('fleet.wraith.specs.performance.acceleration.label'), value: t('fleet.wraith.specs.performance.acceleration.value') },
+      { label: t('fleet.wraith.specs.performance.topSpeed.label'), value: t('fleet.wraith.specs.performance.topSpeed.value') }
     ],
     dimensions: [
-      { label: 'Length', value: '5,269 mm' },
-      { label: 'Width', value: '1,947 mm' },
-      { label: 'Height', value: '1,507 mm' },
-      { label: 'Wheelbase', value: '3,112 mm' },
-      { label: 'Doors', value: '2 (Coach Doors)' }
+      { label: t('fleet.wraith.specs.dimensions.length.label'), value: t('fleet.wraith.specs.dimensions.length.value') },
+      { label: t('fleet.wraith.specs.dimensions.width.label'), value: t('fleet.wraith.specs.dimensions.width.value') },
+      { label: t('fleet.wraith.specs.dimensions.height.label'), value: t('fleet.wraith.specs.dimensions.height.value') },
+      { label: t('fleet.wraith.specs.dimensions.wheelbase.label'), value: t('fleet.wraith.specs.dimensions.wheelbase.value') },
+      { label: t('fleet.wraith.specs.dimensions.doors.label'), value: t('fleet.wraith.specs.dimensions.doors.value') }
     ],
-    exclusive: [
+    exclusive: getTranslatedArray('fleet.wraith.specs.exclusive', [
       'Satellite Aided Transmission',
-      'Starlight Headliner (1,340 stars)',
-      'Canadel Wood Paneling',
-      'Hand-Stitched Leather',
-      'Spirit of Ecstasy Illuminated',
-      'Black Badge Option Available',
-      'Bespoke Audio (18 speakers)',
-      'Night Vision with Wildlife Detection'
-    ]
+      'Starlight Headliner',
+      'Bespoke Audio System',
+      'Night Vision Camera',
+      'Dynamic Suspension'
+    ])
   }
 
   const blackBadge = {
-    title: 'Black Badge Edition',
-    description: 'The darkest and most powerful Wraith',
-    features: [
-      'Increased power to 632 HP',
-      'Dark chrome Spirit of Ecstasy',
-      'Carbon fiber composite wheels',
-      'Infinity starlight headliner',
-      'Exclusive Black Badge leather'
-    ]
+    title: t('fleet.wraith.blackBadge.title') || 'Black Badge',
+    description: t('fleet.wraith.blackBadge.description') || 'The alter ego of Rolls-Royce. Black Badge is the expression of a bolder attitude to luxury.',
+    features: getTranslatedArray('fleet.wraith.blackBadge.features', [
+      'Enhanced V12 Twin-Turbo Engine',
+      'Darkened Chrome Details',
+      'Exclusive Black Badge Wheels',
+      'Carbon Fiber Interior Elements',
+      'Bespoke Black Badge Leather'
+    ])
   }
 
   const rentalPackages = [
     {
-      duration: 'Daily',
-      price: 'AED 5,000',
-      includes: ['200 km/day', 'Basic Insurance', 'Valet Parking']
+      duration: t('fleet.wraith.rentalPackages.daily.duration') || 'Daily',
+      price: t('fleet.wraith.rentalPackages.daily.price') || 'AED 3,500',
+      includes: getTranslatedArray('fleet.wraith.rentalPackages.daily.includes', [
+        '250 km daily allowance',
+        'Professional chauffeur',
+        'Comprehensive insurance',
+        'Complimentary fuel'
+      ])
     },
     {
-      duration: 'Weekend',
-      price: 'AED 9,500',
-      includes: ['500 km total', 'Premium Insurance', 'Chauffeur Option']
+      duration: t('fleet.wraith.rentalPackages.weekend.duration') || 'Weekend',
+      price: t('fleet.wraith.rentalPackages.weekend.price') || 'AED 8,000',
+      includes: getTranslatedArray('fleet.wraith.rentalPackages.weekend.includes', [
+        '600 km total allowance',
+        'Friday to Sunday',
+        'Airport transfers',
+        'Concierge service'
+      ])
     },
     {
-      duration: 'Weekly',
-      price: 'AED 30,000',
-      includes: ['1,500 km total', 'Full Coverage', 'Concierge Service']
+      duration: t('fleet.wraith.rentalPackages.weekly.duration') || 'Weekly',
+      price: t('fleet.wraith.rentalPackages.weekly.price') || 'AED 21,000',
+      includes: getTranslatedArray('fleet.wraith.rentalPackages.weekly.includes', [
+        '1,500 km weekly allowance',
+        'Dedicated chauffeur',
+        'VIP parking access',
+        'Weekly maintenance'
+      ])
     },
     {
-      duration: 'Monthly',
-      price: 'AED 100,000',
-      includes: ['4,000 km total', 'VIP Support', 'Track Day Access']
+      duration: t('fleet.wraith.rentalPackages.monthly.duration') || 'Monthly',
+      price: t('fleet.wraith.rentalPackages.monthly.price') || 'AED 75,000',
+      includes: getTranslatedArray('fleet.wraith.rentalPackages.monthly.includes', [
+        '5,000 km monthly allowance',
+        'Flexible chauffeur hours',
+        'Premium insurance',
+        'Monthly detailing'
+      ])
     }
   ]
 
   const drivingExperiences = [
     {
       icon: '🏎️',
-      title: 'Grand Touring',
-      description: 'Dubai to Abu Dhabi in supreme comfort',
-      route: 'Sheikh Zayed Road scenic route'
+      title: t('fleet.wraith.drivingExperiences.grandTouring.title'),
+      description: t('fleet.wraith.drivingExperiences.grandTouring.description'),
+      route: t('fleet.wraith.drivingExperiences.grandTouring.route')
     },
     {
       icon: '🌃',
-      title: 'Night Cruising',
-      description: 'Downtown Dubai illuminated drives',
-      route: 'Business Bay to Dubai Mall circuit'
+      title: t('fleet.wraith.drivingExperiences.nightCruising.title'),
+      description: t('fleet.wraith.drivingExperiences.nightCruising.description'),
+      route: t('fleet.wraith.drivingExperiences.nightCruising.route')
     },
     {
       icon: '🏜️',
-      title: 'Desert Highway',
-      description: 'Al Ain road high-speed experience',
-      route: 'Dubai to Al Ain mountain roads'
+      title: t('fleet.wraith.drivingExperiences.desertHighway.title'),
+      description: t('fleet.wraith.drivingExperiences.desertHighway.description'),
+      route: t('fleet.wraith.drivingExperiences.desertHighway.route')
     },
     {
       icon: '🏁',
-      title: 'Track Experience',
-      description: 'Dubai Autodrome exclusive sessions',
-      route: 'Professional circuit with instructor'
+      title: t('fleet.wraith.drivingExperiences.trackExperience.title'),
+      description: t('fleet.wraith.drivingExperiences.trackExperience.description'),
+      route: t('fleet.wraith.drivingExperiences.trackExperience.route')
     }
   ]
 
@@ -240,7 +264,7 @@ export default function WraithPage() {
                   <div className="relative h-96 rounded-lg overflow-hidden">
                     <Image
                       src="/images/Rolls-Royce-front.jpg"
-                      alt="Wraith Performance"
+                      alt={t('fleet.wraith.images.performanceAlt')}
                       fill
                       className="object-cover"
                     />
@@ -370,7 +394,7 @@ export default function WraithPage() {
                 <div className="relative h-96 rounded-lg overflow-hidden">
                   <Image
                     src="/images/Rolls-Royce-black.jpg"
-                    alt="Wraith Black Badge"
+                    alt={t('fleet.wraith.images.blackBadgeAlt')}
                     fill
                     className="object-cover"
                   />

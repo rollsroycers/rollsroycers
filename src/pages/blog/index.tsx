@@ -1,5 +1,6 @@
 import { GetStaticProps } from 'next'
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
+import { useTranslation } from 'next-i18next'
 import Image from 'next/image'
 import Link from 'next/link'
 import { motion } from 'framer-motion'
@@ -9,24 +10,25 @@ import WhatsAppButton from '@/components/WhatsAppButton'
 import SEO from '@/components/SEO'
 
 export default function BlogPage() {
+  const { t } = useTranslation('common')
   const [selectedCategory, setSelectedCategory] = useState('all')
   
   const categories = [
-    { id: 'all', name: 'All Articles' },
-    { id: 'guides', name: 'Dubai Guides' },
-    { id: 'luxury', name: 'Luxury Lifestyle' },
-    { id: 'events', name: 'Events & News' },
-    { id: 'tips', name: 'Travel Tips' }
+    { id: 'all', name: t('blog.categories.all') },
+    { id: 'guides', name: t('blog.categories.guides') },
+    { id: 'luxury', name: t('blog.categories.luxury') },
+    { id: 'events', name: t('blog.categories.events') },
+    { id: 'tips', name: t('blog.categories.tips') }
   ]
 
   const featuredArticle = {
     id: 1,
-    title: 'Ultimate Guide to Renting a Rolls-Royce in Dubai 2024',
-    excerpt: 'Everything you need to know about luxury car rental in Dubai, from choosing the right model to understanding local regulations.',
+    title: t('blog.featured.title'),
+    excerpt: t('blog.featured.excerpt'),
     category: 'guides',
-    author: 'Ahmed Salem',
-    date: 'December 15, 2024',
-    readTime: '8 min read',
+    author: t('blog.featured.author'),
+    date: t('blog.featured.date'),
+    readTime: t('blog.featured.readTime'),
     image: '/images/Rolls-royce-dubai.jpg',
     slug: 'ultimate-guide-rolls-royce-rental-dubai'
   }
@@ -34,78 +36,78 @@ export default function BlogPage() {
   const articles = [
     {
       id: 2,
-      title: 'Top 10 Scenic Drives in Dubai with a Rolls-Royce',
-      excerpt: 'Discover the most breathtaking routes in Dubai perfect for your luxury car experience.',
+      title: t('blog.articles.article1.title'),
+      excerpt: t('blog.articles.article1.excerpt'),
       category: 'guides',
-      author: 'Sarah Johnson',
-      date: 'December 10, 2024',
-      readTime: '5 min read',
+      author: t('blog.articles.article1.author'),
+      date: t('blog.articles.article1.date'),
+      readTime: t('blog.articles.article1.readTime'),
       image: '/images/Rolls-Royce-Ride-2.jpg',
       slug: 'top-scenic-drives-dubai'
     },
     {
       id: 3,
-      title: 'Rolls-Royce Wedding Car: Making Your Special Day Extraordinary',
-      excerpt: 'How to incorporate the elegance of Rolls-Royce into your Dubai wedding celebration.',
+      title: t('blog.articles.article2.title'),
+      excerpt: t('blog.articles.article2.excerpt'),
       category: 'luxury',
-      author: 'Fatima Al Rashid',
-      date: 'December 8, 2024',
-      readTime: '6 min read',
+      author: t('blog.articles.article2.author'),
+      date: t('blog.articles.article2.date'),
+      readTime: t('blog.articles.article2.readTime'),
       image: '/images/Rolls-Royce-white.jpg',
       slug: 'rolls-royce-wedding-car-dubai'
     },
     {
       id: 4,
-      title: 'Business Travel in Style: Corporate Car Rental Solutions',
-      excerpt: 'Why executives choose Rolls-Royce for business transportation in Dubai.',
+      title: t('blog.articles.article3.title'),
+      excerpt: t('blog.articles.article3.excerpt'),
       category: 'luxury',
-      author: 'James Mitchell',
-      date: 'December 5, 2024',
-      readTime: '4 min read',
+      author: t('blog.articles.article3.author'),
+      date: t('blog.articles.article3.date'),
+      readTime: t('blog.articles.article3.readTime'),
       image: '/images/Rolls-royce-with-chauffeur.jpg',
       slug: 'business-travel-rolls-royce'
     },
     {
       id: 5,
-      title: 'Dubai International Motor Show 2024: Rolls-Royce Highlights',
-      excerpt: 'Exclusive coverage of the latest Rolls-Royce models showcased at Dubai Motor Show.',
+      title: t('blog.articles.article4.title'),
+      excerpt: t('blog.articles.article4.excerpt'),
       category: 'events',
-      author: 'Omar Hassan',
-      date: 'December 3, 2024',
-      readTime: '7 min read',
+      author: t('blog.articles.article4.author'),
+      date: t('blog.articles.article4.date'),
+      readTime: t('blog.articles.article4.readTime'),
       image: '/images/Rolls-Royce-black.jpg',
       slug: 'dubai-motor-show-2024'
     },
     {
       id: 6,
-      title: 'First-Time in Dubai? Your Luxury Transportation Guide',
-      excerpt: 'Essential tips for tourists looking to explore Dubai in ultimate comfort and style.',
+      title: t('blog.articles.article5.title'),
+      excerpt: t('blog.articles.article5.excerpt'),
       category: 'tips',
-      author: 'Maria Fernandez',
-      date: 'November 28, 2024',
-      readTime: '5 min read',
+      author: t('blog.articles.article5.author'),
+      date: t('blog.articles.article5.date'),
+      readTime: t('blog.articles.article5.readTime'),
       image: '/images/Rolls-Royce-front.jpg',
       slug: 'first-time-dubai-luxury-guide'
     },
     {
       id: 7,
-      title: 'The Evolution of Rolls-Royce: From Classic to Contemporary',
-      excerpt: 'Journey through the history of Rolls-Royce and its impact on luxury automotive.',
+      title: t('blog.articles.article6.title'),
+      excerpt: t('blog.articles.article6.excerpt'),
       category: 'luxury',
-      author: 'David Chen',
-      date: 'November 25, 2024',
-      readTime: '10 min read',
+      author: t('blog.articles.article6.author'),
+      date: t('blog.articles.article6.date'),
+      readTime: t('blog.articles.article6.readTime'),
       image: '/images/Rolls-royce-phantom.jpg',
       slug: 'evolution-rolls-royce-history'
     },
     {
       id: 8,
-      title: 'Exclusive: Inside Dubai\'s Most Luxurious Hotels with Valet Service',
-      excerpt: 'Where to stay when you\'re arriving in a Rolls-Royce in Dubai.',
+      title: t('blog.articles.article7.title'),
+      excerpt: t('blog.articles.article7.excerpt'),
       category: 'guides',
-      author: 'Sophie Laurent',
-      date: 'November 20, 2024',
-      readTime: '6 min read',
+      author: t('blog.articles.article7.author'),
+      date: t('blog.articles.article7.date'),
+      readTime: t('blog.articles.article7.readTime'),
       image: '/images/Rolls-oyce-air-port.jpg',
       slug: 'dubai-luxury-hotels-guide'
     }
@@ -301,7 +303,7 @@ export default function BlogPage() {
               <form className="flex flex-col sm:flex-row gap-4 max-w-md mx-auto">
                 <input
                   type="email"
-                  placeholder="Enter your email"
+                  placeholder={t('placeholders.enterEmail')}
                   className="flex-1 px-6 py-3 bg-rolls-black/50 border border-rolls-gold/20 rounded-full text-white placeholder-gray-500 focus:outline-none focus:border-rolls-gold"
                 />
                 <button type="submit" className="btn-primary">

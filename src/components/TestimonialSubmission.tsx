@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { motion } from 'framer-motion'
 import { useInView } from 'react-intersection-observer'
+import { useTranslation } from 'next-i18next'
 
 interface SuccessStory {
   id: number
@@ -14,6 +15,7 @@ interface SuccessStory {
 }
 
 export default function TestimonialSubmission() {
+  const { t } = useTranslation('common')
   const [ref, inView] = useInView({ triggerOnce: true, threshold: 0.1 })
   const [showForm, setShowForm] = useState(false)
   const [formData, setFormData] = useState({
@@ -29,30 +31,30 @@ export default function TestimonialSubmission() {
   const successStories: SuccessStory[] = [
     {
       id: 1,
-      name: "Sheikh Mohammed Al Rashid",
-      location: "Dubai, UAE",
-      occasion: "Royal Wedding",
-      story: "For my daughter's wedding, we chose a fleet of Rolls-Royce vehicles. The service was impeccable, and every detail was perfect. The chauffeurs were professional and made our special day even more memorable.",
+      name: t('testimonialSubmission.stories.story1.name'),
+      location: t('testimonialSubmission.stories.story1.location'),
+      occasion: t('testimonialSubmission.stories.story1.occasion'),
+      story: t('testimonialSubmission.stories.story1.story'),
       rating: 5,
       image: "/images/reviews/mohamed.jpg",
       verified: true
     },
     {
       id: 2,
-      name: "Elena Volkov",
-      location: "Moscow, Russia",
-      occasion: "Anniversary Celebration",
-      story: "My husband surprised me with a weekend in Dubai and a Rolls-Royce Dawn. Driving along the coast with the top down was a dream come true. The concierge service helped plan our entire itinerary.",
+      name: t('testimonialSubmission.stories.story2.name'),
+      location: t('testimonialSubmission.stories.story2.location'),
+      occasion: t('testimonialSubmission.stories.story2.occasion'),
+      story: t('testimonialSubmission.stories.story2.story'),
       rating: 5,
       image: "/images/reviews/Sergey-Volkov.webp",
       verified: true
     },
     {
       id: 3,
-      name: "Antoine Dubois",
-      location: "Paris, France",
-      occasion: "Business Excellence",
-      story: "As CEO, I needed to impress international clients. The Phantom's presence and the professional chauffeur service exceeded all expectations. We closed a major deal, and the experience was instrumental.",
+      name: t('testimonialSubmission.stories.story3.name'),
+      location: t('testimonialSubmission.stories.story3.location'),
+      occasion: t('testimonialSubmission.stories.story3.occasion'),
+      story: t('testimonialSubmission.stories.story3.story'),
       rating: 5,
       image: "/images/reviews/Antoine-Lefèvre_.jpg",
       verified: true

@@ -1,5 +1,6 @@
 import { useState, useEffect, useRef } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
+import { useTranslation } from 'next-i18next'
 
 declare global {
   interface Window {
@@ -15,6 +16,7 @@ interface VoiceCommand {
 }
 
 export default function VoiceSearch() {
+  const { t } = useTranslation('common')
   const [isListening, setIsListening] = useState(false)
   const [transcript, setTranscript] = useState('')
   const [isSupported, setIsSupported] = useState(false)
@@ -211,10 +213,10 @@ export default function VoiceSearch() {
               )}
 
               <div className="text-xs text-gray-400 space-y-1">
-                <p>Try saying:</p>
-                <p className="text-rolls-gold">"Book a Phantom"</p>
-                <p className="text-rolls-gold">"Show me prices"</p>
-                <p className="text-rolls-gold">"Check availability"</p>
+                <p>{t('voice.examples.title')}</p>
+                <p className="text-rolls-gold">"{t('voice.examples.bookPhantom')}"</p>
+                <p className="text-rolls-gold">"{t('voice.examples.showPrices')}"</p>
+                <p className="text-rolls-gold">"{t('voice.examples.checkAvailability')}"</p>
               </div>
 
               <button

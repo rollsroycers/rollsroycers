@@ -1,5 +1,6 @@
 import { GetStaticProps } from 'next'
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
+import { useTranslation } from 'next-i18next'
 import SEO from '@/components/SEO'
 import Image from 'next/image'
 import Link from 'next/link'
@@ -11,6 +12,7 @@ import AvailabilityCalendar from '@/components/AvailabilityCalendar'
 import PriceCalculator from '@/components/PriceCalculator'
 
 export default function BookingPage() {
+  const { t } = useTranslation('common')
   const [selectedVehicle, setSelectedVehicle] = useState('')
   const [selectedService, setSelectedService] = useState('self-drive')
   const [pickupLocation, setPickupLocation] = useState('')
@@ -288,16 +290,16 @@ export default function BookingPage() {
                   <h2 className="text-2xl font-bold text-white mb-6">4. Your Information</h2>
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                     <div>
-                      <label className="block text-white mb-2">Full Name</label>
+                      <label className="block text-white mb-2">{t('contact.form.name')}</label>
                       <input
                         type="text"
                         className="w-full px-4 py-3 bg-rolls-black/50 border border-rolls-gold/20 rounded-lg text-white focus:outline-none focus:border-rolls-gold"
-                        placeholder="John Doe"
+                        placeholder={t('placeholders.johnDoe')}
                       />
                     </div>
                     
                     <div>
-                      <label className="block text-white mb-2">Email Address</label>
+                      <label className="block text-white mb-2">{t('contact.form.email')}</label>
                       <input
                         type="email"
                         className="w-full px-4 py-3 bg-rolls-black/50 border border-rolls-gold/20 rounded-lg text-white focus:outline-none focus:border-rolls-gold"
@@ -306,7 +308,7 @@ export default function BookingPage() {
                     </div>
                     
                     <div>
-                      <label className="block text-white mb-2">Phone Number</label>
+                      <label className="block text-white mb-2">{t('contact.form.phone')}</label>
                       <input
                         type="tel"
                         className="w-full px-4 py-3 bg-rolls-black/50 border border-rolls-gold/20 rounded-lg text-white focus:outline-none focus:border-rolls-gold"
@@ -315,17 +317,17 @@ export default function BookingPage() {
                     </div>
                     
                     <div>
-                      <label className="block text-white mb-2">Nationality</label>
+                      <label className="block text-white mb-2">{t('booking.nationality')}</label>
                       <input
                         type="text"
                         className="w-full px-4 py-3 bg-rolls-black/50 border border-rolls-gold/20 rounded-lg text-white focus:outline-none focus:border-rolls-gold"
-                        placeholder="United Arab Emirates"
+                        placeholder={t('placeholders.country')}
                       />
                     </div>
                   </div>
                   
                   <div className="mt-6">
-                    <label className="block text-white mb-2">Special Requests</label>
+                    <label className="block text-white mb-2">{t('contact.form.message')}</label>
                     <textarea
                       rows={3}
                       className="w-full px-4 py-3 bg-rolls-black/50 border border-rolls-gold/20 rounded-lg text-white focus:outline-none focus:border-rolls-gold"

@@ -1,5 +1,6 @@
 import { GetStaticProps } from 'next'
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
+import { useTranslation } from 'next-i18next'
 import Image from 'next/image'
 import Link from 'next/link'
 import { motion } from 'framer-motion'
@@ -9,70 +10,60 @@ import WhatsAppButton from '@/components/WhatsAppButton'
 import SEO from '@/components/SEO'
 
 export default function CorporateServicesPage() {
+  const { t } = useTranslation('common')
   const [selectedPackage, setSelectedPackage] = useState('executive')
+
+  const getTranslatedArray = (key: string, fallback: string[]): string[] => {
+    const translation = t(key, { returnObjects: true });
+    return Array.isArray(translation) ? translation : fallback;
+  };
   
   const corporatePackages = {
     executive: {
-      name: 'Executive Package',
-      description: 'Perfect for C-suite transportation and VIP client meetings',
-      features: [
-        'Dedicated account manager',
-        'Monthly billing & invoicing',
-        'Priority booking system',
-        '24/7 availability',
-        'Multilingual chauffeurs',
-        'Confidentiality agreements',
-        'Flexible cancellation policy',
-        'Volume discounts'
-      ],
+      name: t('corporate.packages.executive.name'),
+      description: t('corporate.packages.executive.description'),
+      features: getTranslatedArray('corporate.packages.executive.features', [
+        'Dedicated Chauffeur',
+        'Onboard Wi-Fi & Refreshments',
+        'Airport Meet & Greet',
+        '24/7 Concierge Support'
+      ]),
       vehicles: ['Ghost', 'Phantom'],
       startingPrice: 'AED 5,500/day'
     },
     conference: {
-      name: 'Conference & Events',
-      description: 'Comprehensive fleet solutions for corporate events',
-      features: [
-        'Multiple vehicle coordination',
-        'Event planning assistance',
-        'Airport group transfers',
-        'Branded welcome signs',
-        'Dedicated dispatch team',
-        'Real-time GPS tracking',
-        'Guest management system',
-        'Post-event reporting'
-      ],
+      name: t('corporate.packages.conference.name'),
+      description: t('corporate.packages.conference.description'),
+      features: getTranslatedArray('corporate.packages.conference.features', [
+        'Fleet Coordination',
+        'On-site Dispatch Manager',
+        'Custom Vehicle Branding',
+        'Group Transportation'
+      ]),
       vehicles: ['Full Fleet Available'],
       startingPrice: 'Custom Quote'
     },
     roadshow: {
-      name: 'Roadshow Package',
-      description: 'Multi-day solutions for investor relations and presentations',
-      features: [
-        'Consistent chauffeur team',
-        'Route optimization',
-        'Mobile office setup',
-        'Equipment transportation',
-        'Inter-emirate travel',
-        'Standby availability',
-        'Presentation equipment',
-        'Security coordination'
-      ],
+      name: t('corporate.packages.roadshow.name'),
+      description: t('corporate.packages.roadshow.description'),
+      features: getTranslatedArray('corporate.packages.roadshow.features', [
+        'Multi-day, Multi-city Itineraries',
+        'Real-time Vehicle Tracking',
+        'Dedicated Logistics Planner',
+        'Flexible Scheduling'
+      ]),
       vehicles: ['Ghost', 'Cullinan'],
       startingPrice: 'AED 32,000/week'
     },
     partnership: {
-      name: 'Annual Partnership',
-      description: 'Long-term luxury mobility solutions for enterprises',
-      features: [
-        'Guaranteed availability',
-        'Preferred rates',
-        'Dedicated fleet allocation',
-        'Custom branding options',
-        'Employee transportation',
-        'Board meeting services',
-        'International coordination',
-        'Quarterly business reviews'
-      ],
+      name: t('corporate.packages.partnership.name'),
+      description: t('corporate.packages.partnership.description'),
+      features: getTranslatedArray('corporate.packages.partnership.features', [
+        'Annual Retainer Agreements',
+        'Preferred Corporate Rates',
+        'Priority Vehicle Access',
+        'Co-branded Marketing Opportunities'
+      ]),
       vehicles: ['Entire Fleet'],
       startingPrice: 'Bespoke Pricing'
     }
@@ -133,7 +124,7 @@ export default function CorporateServicesPage() {
         <section className="relative h-screen flex items-center justify-center overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/Rolls-royce-with-chauffeur.jpg"
+              src="/images/Rolls-Royce-front.jpg"
               alt="Rolls-Royce Corporate Services Dubai"
               fill
               className="object-cover"
@@ -420,12 +411,12 @@ export default function CorporateServicesPage() {
               <form className="space-y-4">
                 <input
                   type="text"
-                  placeholder="Company Name"
+                  placeholder={t('placeholders.companyName')}
                   className="w-full px-4 py-2 bg-rolls-black/30 border border-rolls-gold/20 rounded text-white placeholder-gray-500"
                 />
                 <input
                   type="email"
-                  placeholder="Business Email"
+                  placeholder={t('placeholders.businessEmail')}
                   className="w-full px-4 py-2 bg-rolls-black/30 border border-rolls-gold/20 rounded text-white placeholder-gray-500"
                 />
                 <select className="w-full px-4 py-2 bg-rolls-black/30 border border-rolls-gold/20 rounded text-white">

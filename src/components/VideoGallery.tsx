@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { motion } from 'framer-motion'
 import { useInView } from 'react-intersection-observer'
+import { useTranslation } from 'next-i18next'
 
 interface Video {
   id: number
@@ -12,6 +13,7 @@ interface Video {
 }
 
 export default function VideoGallery() {
+  const { t } = useTranslation('common')
   const [ref, inView] = useInView({ triggerOnce: true, threshold: 0.1 })
   const [selectedCategory, setSelectedCategory] = useState<string>('all')
   const [playingVideo, setPlayingVideo] = useState<Video | null>(null)
@@ -19,7 +21,7 @@ export default function VideoGallery() {
   const videos: Video[] = [
     {
       id: 1,
-      title: "Rolls-Royce Phantom - Exterior Elegance",
+      title: t('videoGallery.phantom.title'),
       thumbnail: "/images/Rolls-royce-phantom.jpg",
       videoUrl: "/images/videos/Rolls-royce-phantom.mp4",
       duration: "2:45",
@@ -27,7 +29,7 @@ export default function VideoGallery() {
     },
     {
       id: 2,
-      title: "Cullinan - King of SUVs",
+      title: t('videoGallery.cullinan.title'),
       thumbnail: "/images/Rolls-Royce-Cullinan_.jpg",
       videoUrl: "/images/videos/Rolls-Royce-Cullinan_.mp4",
       duration: "3:12",
@@ -35,7 +37,7 @@ export default function VideoGallery() {
     },
     {
       id: 3,
-      title: "Luxury Interior Tour",
+      title: t('videoGallery.interior.title'),
       thumbnail: "/images/inside-Rolls-Royce.jpg",
       videoUrl: "/images/videos/Rolls-royce-phantom.mp4",
       duration: "4:30",
@@ -43,7 +45,7 @@ export default function VideoGallery() {
     },
     {
       id: 4,
-      title: "Dubai City Experience",
+      title: t('videoGallery.dubai.title'),
       thumbnail: "/images/Rolls-royce-dubai.jpg",
       videoUrl: "/images/videos/Rolls-Royce-Cullinan_.mp4",
       duration: "5:00",
@@ -51,7 +53,7 @@ export default function VideoGallery() {
     },
     {
       id: 5,
-      title: "360° Virtual Showroom Tour",
+      title: t('videoGallery.showroom.title'),
       thumbnail: "/images/Rolls-royce-official.jpg",
       videoUrl: "/images/videos/Rolls-royce-phantom.mp4",
       duration: "6:15",
@@ -59,7 +61,7 @@ export default function VideoGallery() {
     },
     {
       id: 6,
-      title: "Night Drive in Dubai",
+      title: t('videoGallery.night.title'),
       thumbnail: "/images/Rolls-Royce-black.jpg",
       videoUrl: "/images/videos/Rolls-Royce-Cullinan_.mp4",
       duration: "3:45",
