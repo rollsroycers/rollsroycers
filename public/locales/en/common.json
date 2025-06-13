@@ -277,7 +277,27 @@
   },
   "compare": {
     "hero": {
-      "bentleyAlt": "Bentley"
+      "bentleyAlt": "Bentley",
+      "title": {
+        "rollsRoyce": "Rolls-Royce",
+        "vs": "vs",
+        "bentley": "Bentley"
+      },
+      "subtitle": "The ultimate comparison between two titans of British luxury motoring"
+    },
+    "quickSummary": {
+      "rollsRoyce": {
+        "title": "Rolls-Royce",
+        "point1": "Ultimate luxury and comfort",
+        "point2": "Bespoke craftsmanship",
+        "point3": "Timeless prestige"
+      },
+      "bentley": {
+        "title": "Bentley",
+        "point1": "Performance luxury blend",
+        "point2": "Sporting heritage",
+        "point3": "Driver engagement"
+      }
     },
     "summary": {
       "rollsRoyce": {
@@ -479,6 +499,7 @@
     },
     "rental": {
       "rollsRoyce": {
+        "title": "Rolls-Royce Rental",
         "daily": "AED 3,500+",
         "weekly": "AED 21,000+",
         "monthly": "AED 75,000+",
@@ -490,6 +511,7 @@
         ]
       },
       "bentley": {
+        "title": "Bentley Rental",
         "daily": "AED 2,800+",
         "weekly": "AED 16,000+",
         "monthly": "AED 55,000+",
@@ -499,7 +521,57 @@
           "Track day experiences",
           "Performance driving courses"
         ]
+      },
+      "dailyRate": "Daily Rate:",
+      "weeklyRate": "Weekly Rate:",
+      "monthlyRate": "Monthly Rate:",
+      "whyChooseRollsRoyce": "Why Choose Rolls-Royce:",
+      "bookRollsRoyce": "Book Rolls-Royce",
+      "whyChooseBentley": "Why Choose Bentley:",
+      "inquireBentley": "Inquire About Bentley",
+      "title": "Rental Price Comparison in Dubai"
+    },
+    "choice": {
+      "title": "Which Should You Choose?",
+      "rollsRoyce": {
+        "title": "Choose Rolls-Royce If You:",
+        "point1": "Value ultimate luxury and comfort above all else",
+        "point2": "Want to make the strongest possible impression",
+        "point3": "Prefer a serene, refined driving experience",
+        "point4": "Appreciate traditional craftsmanship and heritage",
+        "point5": "Need the ultimate wedding or special event vehicle"
+      },
+      "bentley": {
+        "title": "Choose Bentley If You:",
+        "point1": "Want luxury with sporting performance",
+        "point2": "Enjoy spirited driving and handling",
+        "point3": "Prefer contemporary design and technology",
+        "point4": "Want better value for ultra-luxury",
+        "point5": "Like the combination of luxury and speed"
       }
+    },
+    "verdict": {
+      "title": "The Verdict",
+      "p1": "Both Rolls-Royce and Bentley represent the pinnacle of British luxury motoring, but they cater to different preferences. Rolls-Royce remains the ultimate choice for those seeking uncompromising luxury, refinement, and prestige. Bentley offers a compelling alternative for those who want luxury with a sporting edge.",
+      "p2": "In Dubai, where luxury is a lifestyle, Rolls-Royce continues to reign supreme as the ultimate status symbol.",
+      "exploreFleet": "Explore Rolls-Royce Fleet",
+      "bookExperience": "Book Your Experience"
+    },
+    "related": {
+      "title": "More Luxury Comparisons",
+      "mercedes": {
+        "title": "Rolls-Royce vs Mercedes",
+        "subtitle": "Ultimate luxury vs German engineering"
+      },
+      "comingSoon": "Coming Soon"
+    },
+    "detailed": {
+      "comparison": "Comparison",
+      "rollsRoyce": "Rolls-Royce",
+      "bentley": "Bentley"
+    },
+    "modelComparison": {
+      "title": "Model-to-Model Comparison"
     }
   }
 }

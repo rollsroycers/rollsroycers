@@ -15,7 +15,18 @@ export default function RollsRoyceVsBentleyPage() {
 
   const getTranslatedArray = (key: string, fallback: string[]): string[] => {
     const translation = t(key, { returnObjects: true });
-    return Array.isArray(translation) ? translation : fallback;
+    if (Array.isArray(translation)) {
+      return translation.map(item => {
+        if (typeof item === 'string') {
+          return item;
+        }
+        if (typeof item === 'object' && item !== null && 'point' in item) {
+          return (item as { point: string }).point;
+        }
+        return '';
+      }).filter(item => item !== '');
+    }
+    return fallback;
   };
 
   const aspects = [
@@ -271,10 +282,10 @@ export default function RollsRoyceVsBentleyPage() {
               transition={{ duration: 1 }}
             >
               <h1 className="text-4xl md:text-6xl font-bold text-white mb-6">
-                Rolls-Royce <span className="text-rolls-gold">vs</span> Bentley
+                {t('compare.hero.title.rollsRoyce')} <span className="text-rolls-gold">{t('compare.hero.title.vs')}</span> {t('compare.hero.title.bentley')}
               </h1>
               <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-                The ultimate comparison between two titans of British luxury motoring
+                {t('compare.hero.subtitle')}
               </p>
             </motion.div>
           </div>
@@ -289,14 +300,14 @@ export default function RollsRoyceVsBentleyPage() {
                 whileInView={{ opacity: 1, x: 0 }}
                 className="bg-gradient-to-br from-rolls-gold/20 to-rolls-gold/10 border border-rolls-gold/30 rounded-lg p-8"
               >
-                <h2 className="text-3xl font-bold text-white mb-4">Rolls-Royce</h2>
+                <h2 className="text-3xl font-bold text-white mb-4">{t('compare.quickSummary.rollsRoyce.title')}</h2>
                 <p className="text-gray-300 mb-4">
                   {t('compare.summary.rollsRoyce.tagline')}
                 </p>
                 <div className="space-y-2">
-                  <p className="text-rolls-gold">✓ Ultimate luxury and comfort</p>
-                  <p className="text-rolls-gold">✓ Bespoke craftsmanship</p>
-                  <p className="text-rolls-gold">✓ Timeless prestige</p>
+                  <p className="text-rolls-gold">✓ {t('compare.quickSummary.rollsRoyce.point1')}</p>
+                  <p className="text-rolls-gold">✓ {t('compare.quickSummary.rollsRoyce.point2')}</p>
+                  <p className="text-rolls-gold">✓ {t('compare.quickSummary.rollsRoyce.point3')}</p>
                 </div>
               </motion.div>
 
@@ -305,14 +316,14 @@ export default function RollsRoyceVsBentleyPage() {
                 whileInView={{ opacity: 1, x: 0 }}
                 className="bg-gradient-to-br from-emerald-500/20 to-emerald-500/10 border border-emerald-500/30 rounded-lg p-8"
               >
-                <h2 className="text-3xl font-bold text-white mb-4">Bentley</h2>
+                <h2 className="text-3xl font-bold text-white mb-4">{t('compare.quickSummary.bentley.title')}</h2>
                 <p className="text-gray-300 mb-4">
                   {t('compare.summary.bentley.tagline')}
                 </p>
                 <div className="space-y-2">
-                  <p className="text-emerald-400">✓ Performance luxury blend</p>
-                  <p className="text-emerald-400">✓ Sporting heritage</p>
-                  <p className="text-emerald-400">✓ Driver engagement</p>
+                  <p className="text-emerald-400">✓ {t('compare.quickSummary.bentley.point1')}</p>
+                  <p className="text-emerald-400">✓ {t('compare.quickSummary.bentley.point2')}</p>
+                  <p className="text-emerald-400">✓ {t('compare.quickSummary.bentley.point3')}</p>
                 </div>
               </motion.div>
             </div>
@@ -354,14 +365,14 @@ export default function RollsRoyceVsBentleyPage() {
                 transition={{ duration: 0.5 }}
               >
                 <h2 className="text-4xl font-bold text-white text-center mb-12">
-                  {aspects.find(a => a.id === selectedAspect)?.name} Comparison
+                  {`${aspects.find(a => a.id === selectedAspect)?.name} ${t('compare.detailed.comparison')}`}
                 </h2>
                 
                 <div className="grid md:grid-cols-2 gap-8">
                   {/* Rolls-Royce */}
                   <div className="bg-rolls-black/50 backdrop-blur-sm border border-rolls-gold/20 rounded-lg p-8">
                     <div className="flex items-center justify-between mb-6">
-                      <h3 className="text-2xl font-bold text-white">Rolls-Royce</h3>
+                      <h3 className="text-2xl font-bold text-white">{t('compare.detailed.rollsRoyce')}</h3>
                       <div className="w-16 h-16 bg-rolls-gold/20 rounded-full flex items-center justify-center">
                         <span className="text-2xl">👑</span>
                       </div>
@@ -390,7 +401,7 @@ export default function RollsRoyceVsBentleyPage() {
                   {/* Bentley */}
                   <div className="bg-rolls-black/50 backdrop-blur-sm border border-emerald-500/20 rounded-lg p-8">
                     <div className="flex items-center justify-between mb-6">
-                      <h3 className="text-2xl font-bold text-white">Bentley</h3>
+                      <h3 className="text-2xl font-bold text-white">{t('compare.detailed.bentley')}</h3>
                       <div className="w-16 h-16 bg-emerald-500/20 rounded-full flex items-center justify-center">
                         <span className="text-2xl">🦅</span>
                       </div>
@@ -425,7 +436,7 @@ export default function RollsRoyceVsBentleyPage() {
         <section className="py-20 bg-gradient-to-b from-rolls-navy to-rolls-black">
           <div className="container mx-auto px-4">
             <h2 className="text-4xl font-bold text-white text-center mb-12">
-              Model-to-Model Comparison
+              {t('compare.modelComparison.title')}
             </h2>
             
             <div className="space-y-12 max-w-6xl mx-auto">
@@ -484,7 +495,7 @@ export default function RollsRoyceVsBentleyPage() {
         <section className="py-20 bg-gradient-to-b from-rolls-black to-rolls-navy">
           <div className="container mx-auto px-4">
             <h2 className="text-4xl font-bold text-white text-center mb-12">
-              Rental Price Comparison in Dubai
+              {t('compare.rental.title')}
             </h2>
             
             <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
@@ -494,24 +505,24 @@ export default function RollsRoyceVsBentleyPage() {
                 whileInView={{ opacity: 1, x: 0 }}
                 className="bg-gradient-to-b from-rolls-gold/20 to-rolls-gold/10 border border-rolls-gold/30 rounded-lg p-8"
               >
-                <h3 className="text-2xl font-bold text-white mb-6 text-center">Rolls-Royce Rental</h3>
+                <h3 className="text-2xl font-bold text-white mb-6 text-center">{t('compare.rental.rollsRoyce.title')}</h3>
                 
                 <div className="space-y-4 mb-6">
                   <div className="flex justify-between items-center">
-                    <span className="text-gray-300">Daily Rate:</span>
+                    <span className="text-gray-300">{t('compare.rental.dailyRate')}</span>
                     <span className="text-xl font-bold text-rolls-gold">{rentalComparison.rollsRoyce.daily}</span>
                   </div>
                   <div className="flex justify-between items-center">
-                    <span className="text-gray-300">Weekly Rate:</span>
+                    <span className="text-gray-300">{t('compare.rental.weeklyRate')}</span>
                     <span className="text-xl font-bold text-rolls-gold">{rentalComparison.rollsRoyce.weekly}</span>
                   </div>
                   <div className="flex justify-between items-center">
-                    <span className="text-gray-300">Monthly Rate:</span>
+                    <span className="text-gray-300">{t('compare.rental.monthlyRate')}</span>
                     <span className="text-xl font-bold text-rolls-gold">{rentalComparison.rollsRoyce.monthly}</span>
                   </div>
                 </div>
                 
-                <h4 className="text-white font-semibold mb-3">Why Choose Rolls-Royce:</h4>
+                <h4 className="text-white font-semibold mb-3">{t('compare.rental.whyChooseRollsRoyce')}</h4>
                 <ul className="space-y-2 mb-6">
                   {rentalComparison.rollsRoyce.benefits.map((benefit, index) => (
                     <li key={index} className="flex items-center text-gray-300">
@@ -524,7 +535,7 @@ export default function RollsRoyceVsBentleyPage() {
                 </ul>
                 
                 <Link href="/booking" className="btn-primary w-full text-center">
-                  Book Rolls-Royce
+                  {t('compare.rental.bookRollsRoyce')}
                 </Link>
               </motion.div>
 
@@ -534,24 +545,24 @@ export default function RollsRoyceVsBentleyPage() {
                 whileInView={{ opacity: 1, x: 0 }}
                 className="bg-gradient-to-b from-emerald-500/20 to-emerald-500/10 border border-emerald-500/30 rounded-lg p-8"
               >
-                <h3 className="text-2xl font-bold text-white mb-6 text-center">Bentley Rental</h3>
+                <h3 className="text-2xl font-bold text-white mb-6 text-center">{t('compare.rental.bentley.title')}</h3>
                 
                 <div className="space-y-4 mb-6">
                   <div className="flex justify-between items-center">
-                    <span className="text-gray-300">Daily Rate:</span>
+                    <span className="text-gray-300">{t('compare.rental.dailyRate')}</span>
                     <span className="text-xl font-bold text-emerald-400">{rentalComparison.bentley.daily}</span>
                   </div>
                   <div className="flex justify-between items-center">
-                    <span className="text-gray-300">Weekly Rate:</span>
+                    <span className="text-gray-300">{t('compare.rental.weeklyRate')}</span>
                     <span className="text-xl font-bold text-emerald-400">{rentalComparison.bentley.weekly}</span>
                   </div>
                   <div className="flex justify-between items-center">
-                    <span className="text-gray-300">Monthly Rate:</span>
+                    <span className="text-gray-300">{t('compare.rental.monthlyRate')}</span>
                     <span className="text-xl font-bold text-emerald-400">{rentalComparison.bentley.monthly}</span>
                   </div>
                 </div>
                 
-                <h4 className="text-white font-semibold mb-3">Why Choose Bentley:</h4>
+                <h4 className="text-white font-semibold mb-3">{t('compare.rental.whyChooseBentley')}</h4>
                 <ul className="space-y-2 mb-6">
                   {rentalComparison.bentley.benefits.map((benefit, index) => (
                     <li key={index} className="flex items-center text-gray-300">
@@ -564,7 +575,7 @@ export default function RollsRoyceVsBentleyPage() {
                 </ul>
                 
                 <button className="bg-emerald-500 hover:bg-emerald-600 text-white font-semibold py-3 px-6 rounded-full transition-all w-full">
-                  Inquire About Bentley
+                  {t('compare.rental.inquireBentley')}
                 </button>
               </motion.div>
             </div>
@@ -575,7 +586,7 @@ export default function RollsRoyceVsBentleyPage() {
         <section className="py-20 bg-gradient-to-b from-rolls-navy to-rolls-black">
           <div className="container mx-auto px-4">
             <h2 className="text-4xl font-bold text-white text-center mb-12">
-              Which Should You Choose?
+              {t('compare.choice.title')}
             </h2>
             
             <div className="grid md:grid-cols-2 gap-12 max-w-6xl mx-auto">
@@ -583,27 +594,27 @@ export default function RollsRoyceVsBentleyPage() {
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
               >
-                <h3 className="text-2xl font-bold text-rolls-gold mb-4">Choose Rolls-Royce If You:</h3>
+                <h3 className="text-2xl font-bold text-rolls-gold mb-4">{t('compare.choice.rollsRoyce.title')}</h3>
                 <ul className="space-y-3">
                   <li className="flex items-start">
                     <span className="text-rolls-gold mr-3">•</span>
-                    <span className="text-gray-300">Value ultimate luxury and comfort above all else</span>
+                    <span className="text-gray-300">{t('compare.choice.rollsRoyce.point1')}</span>
                   </li>
                   <li className="flex items-start">
                     <span className="text-rolls-gold mr-3">•</span>
-                    <span className="text-gray-300">Want to make the strongest possible impression</span>
+                    <span className="text-gray-300">{t('compare.choice.rollsRoyce.point2')}</span>
                   </li>
                   <li className="flex items-start">
                     <span className="text-rolls-gold mr-3">•</span>
-                    <span className="text-gray-300">Prefer a serene, refined driving experience</span>
+                    <span className="text-gray-300">{t('compare.choice.rollsRoyce.point3')}</span>
                   </li>
                   <li className="flex items-start">
                     <span className="text-rolls-gold mr-3">•</span>
-                    <span className="text-gray-300">Appreciate traditional craftsmanship and heritage</span>
+                    <span className="text-gray-300">{t('compare.choice.rollsRoyce.point4')}</span>
                   </li>
                   <li className="flex items-start">
                     <span className="text-rolls-gold mr-3">•</span>
-                    <span className="text-gray-300">Need the ultimate wedding or special event vehicle</span>
+                    <span className="text-gray-300">{t('compare.choice.rollsRoyce.point5')}</span>
                   </li>
                 </ul>
               </motion.div>
@@ -613,27 +624,27 @@ export default function RollsRoyceVsBentleyPage() {
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.1 }}
               >
-                <h3 className="text-2xl font-bold text-emerald-400 mb-4">Choose Bentley If You:</h3>
+                <h3 className="text-2xl font-bold text-emerald-400 mb-4">{t('compare.choice.bentley.title')}</h3>
                 <ul className="space-y-3">
                   <li className="flex items-start">
                     <span className="text-emerald-400 mr-3">•</span>
-                    <span className="text-gray-300">Want luxury with sporting performance</span>
+                    <span className="text-gray-300">{t('compare.choice.bentley.point1')}</span>
                   </li>
                   <li className="flex items-start">
                     <span className="text-emerald-400 mr-3">•</span>
-                    <span className="text-gray-300">Enjoy spirited driving and handling</span>
+                    <span className="text-gray-300">{t('compare.choice.bentley.point2')}</span>
                   </li>
                   <li className="flex items-start">
                     <span className="text-emerald-400 mr-3">•</span>
-                    <span className="text-gray-300">Prefer contemporary design and technology</span>
+                    <span className="text-gray-300">{t('compare.choice.bentley.point3')}</span>
                   </li>
                   <li className="flex items-start">
                     <span className="text-emerald-400 mr-3">•</span>
-                    <span className="text-gray-300">Want better value for ultra-luxury</span>
+                    <span className="text-gray-300">{t('compare.choice.bentley.point4')}</span>
                   </li>
                   <li className="flex items-start">
                     <span className="text-emerald-400 mr-3">•</span>
-                    <span className="text-gray-300">Like the combination of luxury and speed</span>
+                    <span className="text-gray-300">{t('compare.choice.bentley.point5')}</span>
                   </li>
                 </ul>
               </motion.div>
@@ -650,23 +661,21 @@ export default function RollsRoyceVsBentleyPage() {
               className="max-w-4xl mx-auto text-center"
             >
               <h2 className="text-4xl font-bold text-white mb-8">
-                The Verdict
+                {t('compare.verdict.title')}
               </h2>
               <div className="bg-rolls-black/50 backdrop-blur-sm border border-rolls-gold/20 rounded-lg p-12">
                 <p className="text-xl text-gray-300 mb-6">
-                  Both Rolls-Royce and Bentley represent the pinnacle of British luxury motoring, but they cater to different preferences. 
-                  Rolls-Royce remains the ultimate choice for those seeking uncompromising luxury, refinement, and prestige. 
-                  Bentley offers a compelling alternative for those who want luxury with a sporting edge.
+                  {t('compare.verdict.p1')}
                 </p>
                 <p className="text-2xl text-rolls-gold font-semibold mb-8">
-                  In Dubai, where luxury is a lifestyle, Rolls-Royce continues to reign supreme as the ultimate status symbol.
+                  {t('compare.verdict.p2')}
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4 justify-center">
                   <Link href="/fleet" className="btn-primary">
-                    Explore Rolls-Royce Fleet
+                    {t('compare.verdict.exploreFleet')}
                   </Link>
                   <Link href="/booking" className="btn-secondary">
-                    Book Your Experience
+                    {t('compare.verdict.bookExperience')}
                   </Link>
                 </div>
               </div>
@@ -678,7 +687,7 @@ export default function RollsRoyceVsBentleyPage() {
         <section className="py-20 bg-gradient-to-b from-rolls-navy to-rolls-black">
           <div className="container mx-auto px-4">
             <h2 className="text-4xl font-bold text-white text-center mb-12">
-              More Luxury Comparisons
+              {t('compare.related.title')}
             </h2>
             <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
               <motion.div
@@ -686,10 +695,10 @@ export default function RollsRoyceVsBentleyPage() {
                 whileInView={{ opacity: 1, y: 0 }}
                 className="bg-rolls-black/50 backdrop-blur-sm border border-rolls-gold/20 rounded-lg p-6 text-center"
               >
-                <h3 className="text-xl font-bold text-white mb-2">Rolls-Royce vs Mercedes</h3>
-                <p className="text-gray-400 mb-4">Ultimate luxury vs German engineering</p>
+                <h3 className="text-xl font-bold text-white mb-2">{t('compare.related.mercedes.title')}</h3>
+                <p className="text-gray-400 mb-4">{t('compare.related.mercedes.subtitle')}</p>
                 <Link href="/compare/rolls-royce-vs-mercedes" className="text-rolls-gold hover:text-white transition-colors">
-                  Coming Soon →
+                  {t('compare.related.comingSoon')} →
                 </Link>
               </motion.div>
 
