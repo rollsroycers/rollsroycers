@@ -1,5 +1,6 @@
 import { GetStaticProps } from 'next'
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
+import { useTranslation } from 'next-i18next'
 import Image from 'next/image'
 import Link from 'next/link'
 import { motion } from 'framer-motion'
@@ -10,27 +11,40 @@ import SEO from '@/components/SEO'
 // import VehicleCard from '@/components/VehicleCard' - Component will be created later
 
 export default function DIFCLocationPage() {
+  const { t } = useTranslation('common')
   const featuredVehicles = [
     {
       id: 'phantom',
       name: 'Rolls-Royce Phantom',
       image: '/images/phantom-main.jpg',
       price: 'AED 5,800',
-      features: ['Executive sedan', 'CEO transport', 'Board meetings']
+      features: [
+        t('locations.difc.fleet.phantom.features.0'),
+        t('locations.difc.fleet.phantom.features.1'),
+        t('locations.difc.fleet.phantom.features.2')
+      ]
     },
     {
       id: 'ghost',
       name: 'Rolls-Royce Ghost',
       image: '/images/ghost-black-badge-2.jpg',
       price: 'AED 4,800',
-      features: ['Business class', 'Client meetings', 'Corporate events']
+      features: [
+        t('locations.difc.fleet.ghost.features.0'),
+        t('locations.difc.fleet.ghost.features.1'),
+        t('locations.difc.fleet.ghost.features.2')
+      ]
     },
     {
       id: 'cullinan',
       name: 'Rolls-Royce Cullinan',
       image: '/images/cullinan-side.jpg',
       price: 'AED 6,500',
-      features: ['Executive SUV', 'Team transport', 'VIP transfers']
+      features: [
+        t('locations.difc.fleet.cullinan.features.0'),
+        t('locations.difc.fleet.cullinan.features.1'),
+        t('locations.difc.fleet.cullinan.features.2')
+      ]
     }
   ]
 
@@ -39,66 +53,82 @@ export default function DIFCLocationPage() {
       name: 'DIFC Gate Building',
       distance: '0.1 km',
       time: '1 min',
-      description: 'Iconic entrance to the financial district'
+      description: t('locations.difc.landmarks.gate.description')
     },
     {
       name: 'Emirates Towers',
       distance: '0.5 km',
       time: '2 mins',
-      description: 'Prestigious business towers'
+      description: t('locations.difc.landmarks.emirates.description')
     },
     {
       name: 'World Trade Centre',
       distance: '1 km',
       time: '3 mins',
-      description: 'Major exhibition and conference venue'
+      description: t('locations.difc.landmarks.wtc.description')
     },
     {
       name: 'Four Seasons DIFC',
       distance: '0.3 km',
       time: '1 min',
-      description: 'Luxury business hotel'
+      description: t('locations.difc.landmarks.fourseasons.description')
     },
     {
       name: 'Ritz-Carlton DIFC',
       distance: '0.4 km',
       time: '2 mins',
-      description: 'Premium accommodation for executives'
+      description: t('locations.difc.landmarks.ritz.description')
     }
   ]
 
   const corporateServices = [
     {
-      title: 'Executive Transportation',
-      description: 'Professional chauffeur service for C-suite executives',
-      features: ['Dedicated driver', 'Flexible scheduling', 'Confidential service']
+      title: t('locations.difc.corporateServices.executive.title'),
+      description: t('locations.difc.corporateServices.executive.description'),
+      features: [
+        t('locations.difc.corporateServices.executive.features.0'),
+        t('locations.difc.corporateServices.executive.features.1'),
+        t('locations.difc.corporateServices.executive.features.2')
+      ]
     },
     {
-      title: 'Board Meeting Arrivals',
-      description: 'Impressive arrivals for board meetings and presentations',
-      features: ['Punctual service', 'Professional appearance', 'Discrete handling']
+      title: t('locations.difc.corporateServices.board.title'),
+      description: t('locations.difc.corporateServices.board.description'),
+      features: [
+        t('locations.difc.corporateServices.board.features.0'),
+        t('locations.difc.corporateServices.board.features.1'),
+        t('locations.difc.corporateServices.board.features.2')
+      ]
     },
     {
-      title: 'Client Entertainment',
-      description: 'Impress clients with luxury transportation',
-      features: ['Multiple vehicles', 'Coordinated fleet', 'VIP treatment']
+      title: t('locations.difc.corporateServices.client.title'),
+      description: t('locations.difc.corporateServices.client.description'),
+      features: [
+        t('locations.difc.corporateServices.client.features.0'),
+        t('locations.difc.corporateServices.client.features.1'),
+        t('locations.difc.corporateServices.client.features.2')
+      ]
     },
     {
-      title: 'Corporate Events',
-      description: 'Fleet solutions for conferences and corporate gatherings',
-      features: ['Event coordination', 'Bulk bookings', 'Custom branding options']
+      title: t('locations.difc.corporateServices.events.title'),
+      description: t('locations.difc.corporateServices.events.description'),
+      features: [
+        t('locations.difc.corporateServices.events.features.0'),
+        t('locations.difc.corporateServices.events.features.1'),
+        t('locations.difc.corporateServices.events.features.2')
+      ]
     }
   ]
 
   const businessAmenities = [
-    'WiFi-enabled vehicles',
-    'Privacy partitions',
-    'Mobile office setup',
-    'Refreshments included',
-    'Newspaper service',
-    'Charging stations',
-    'Conference call capability',
-    'Document security'
+    t('locations.difc.amenities.wifi'),
+    t('locations.difc.amenities.privacy'),
+    t('locations.difc.amenities.office'),
+    t('locations.difc.amenities.refreshments'),
+    t('locations.difc.amenities.newspaper'),
+    t('locations.difc.amenities.charging'),
+    t('locations.difc.amenities.conference'),
+    t('locations.difc.amenities.security')
   ]
 
   return (
@@ -126,14 +156,13 @@ export default function DIFCLocationPage() {
               className="text-center"
             >
               <h1 className="text-5xl md:text-7xl font-bold text-white mb-6">
-                DIFC Dubai
+                {t('locations.difc.hero.title')}
               </h1>
               <p className="text-2xl text-rolls-gold mb-8">
-                Executive Transportation in the Financial District
+                {t('locations.difc.hero.subtitle')}
               </p>
               <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-                Premier Rolls-Royce rental service for Dubai's business elite.
-                Perfect for corporate meetings, client entertainment, and executive travel.
+                {t('locations.difc.hero.description')}
               </p>
             </motion.div>
           </div>
@@ -149,7 +178,7 @@ export default function DIFCLocationPage() {
                 className="text-center"
               >
                 <p className="text-4xl font-bold text-rolls-gold">500+</p>
-                <p className="text-gray-300">Corporate Clients</p>
+                <p className="text-gray-300">{t('locations.difc.stats.clients')}</p>
               </motion.div>
               <motion.div
                 initial={{ opacity: 0, y: 20 }}
@@ -158,7 +187,7 @@ export default function DIFCLocationPage() {
                 className="text-center"
               >
                 <p className="text-4xl font-bold text-rolls-gold">24/7</p>
-                <p className="text-gray-300">Executive Service</p>
+                <p className="text-gray-300">{t('locations.difc.stats.service')}</p>
               </motion.div>
               <motion.div
                 initial={{ opacity: 0, y: 20 }}
@@ -167,7 +196,7 @@ export default function DIFCLocationPage() {
                 className="text-center"
               >
                 <p className="text-4xl font-bold text-rolls-gold">15min</p>
-                <p className="text-gray-300">Response Time</p>
+                <p className="text-gray-300">{t('locations.difc.stats.response')}</p>
               </motion.div>
               <motion.div
                 initial={{ opacity: 0, y: 20 }}
@@ -176,7 +205,7 @@ export default function DIFCLocationPage() {
                 className="text-center"
               >
                 <p className="text-4xl font-bold text-rolls-gold">100%</p>
-                <p className="text-gray-300">Confidential</p>
+                <p className="text-gray-300">{t('locations.difc.stats.confidential')}</p>
               </motion.div>
             </div>
           </div>
@@ -191,10 +220,10 @@ export default function DIFCLocationPage() {
               className="text-center mb-12"
             >
               <h2 className="text-4xl font-bold text-white mb-4">
-                Corporate Services in DIFC
+                {t('locations.difc.corporateServices.title')}
               </h2>
               <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-                Tailored luxury transportation solutions for the business community
+                {t('locations.difc.corporateServices.subtitle')}
               </p>
             </motion.div>
 
@@ -229,7 +258,7 @@ export default function DIFCLocationPage() {
         <section className="py-20 bg-gradient-to-b from-rolls-black to-rolls-navy">
           <div className="container mx-auto px-4">
             <h2 className="text-4xl font-bold text-white text-center mb-12">
-              Business-Class Amenities
+              {t('locations.difc.amenities.title')}
             </h2>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-6 max-w-4xl mx-auto">
               {businessAmenities.map((amenity, index) => (
@@ -251,7 +280,7 @@ export default function DIFCLocationPage() {
         <section className="py-20 bg-gradient-to-b from-rolls-navy to-rolls-black">
           <div className="container mx-auto px-4">
             <h2 className="text-4xl font-bold text-white text-center mb-12">
-              Executive Fleet for DIFC
+              {t('locations.difc.fleet.title')}
             </h2>
             <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
               {featuredVehicles.map((vehicle, index) => (
@@ -284,7 +313,7 @@ export default function DIFCLocationPage() {
                         ))}
                       </ul>
                       <Link href={`/fleet/${vehicle.id}`} className="btn-primary w-full mt-4 inline-block text-center">
-                        View Details
+                        {t('locations.difc.fleet.viewDetails')}
                       </Link>
                     </div>
                   </div>
@@ -298,7 +327,7 @@ export default function DIFCLocationPage() {
         <section className="py-20 bg-gradient-to-b from-rolls-black to-rolls-navy">
           <div className="container mx-auto px-4">
             <h2 className="text-4xl font-bold text-white text-center mb-12">
-              DIFC Location & Nearby Landmarks
+              {t('locations.difc.landmarks.title')}
             </h2>
             
             <div className="grid lg:grid-cols-2 gap-12 max-w-6xl mx-auto">
@@ -306,11 +335,9 @@ export default function DIFCLocationPage() {
                 initial={{ opacity: 0, x: -20 }}
                 whileInView={{ opacity: 1, x: 0 }}
               >
-                <h3 className="text-2xl font-bold text-white mb-6">Strategic Business Location</h3>
+                <h3 className="text-2xl font-bold text-white mb-6">{t('locations.difc.landmarks.subtitle')}</h3>
                 <p className="text-gray-300 mb-6">
-                  Dubai International Financial Centre (DIFC) is the leading financial hub for the Middle East, 
-                  Africa, and South Asia. Our Rolls-Royce rental service provides immediate access to this 
-                  prestigious business district.
+                  {t('locations.difc.landmarks.description')}
                 </p>
                 
                 <div className="space-y-4">
@@ -321,7 +348,7 @@ export default function DIFCLocationPage() {
                         <span className="text-rolls-gold text-sm">{landmark.time}</span>
                       </div>
                       <p className="text-gray-400 text-sm">{landmark.description}</p>
-                      <p className="text-gray-500 text-xs mt-1">{landmark.distance} away</p>
+                      <p className="text-gray-500 text-xs mt-1">{t('locations.difc.landmarks.away', { distance: landmark.distance })}</p>
                     </div>
                   ))}
                 </div>
@@ -339,15 +366,15 @@ export default function DIFCLocationPage() {
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
                     </svg>
-                    <p className="text-white font-semibold">DIFC, Dubai</p>
-                    <p className="text-gray-400 text-sm mt-2">25.2110°N, 55.2796°E</p>
+                    <p className="text-white font-semibold">{t('locations.difc.map.title')}</p>
+                    <p className="text-gray-400 text-sm mt-2">{t('locations.difc.map.coordinates')}</p>
                     <a
                       href="https://maps.google.com/?q=25.2110,55.2796"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="text-rolls-gold hover:text-white transition-colors mt-4 inline-block"
                     >
-                      View on Google Maps →
+                      {t('locations.difc.map.viewOnMap')}
                     </a>
                   </div>
                 </div>
@@ -360,7 +387,7 @@ export default function DIFCLocationPage() {
         <section className="py-20 bg-gradient-to-b from-rolls-navy to-rolls-black">
           <div className="container mx-auto px-4">
             <h2 className="text-4xl font-bold text-white text-center mb-12">
-              Corporate Packages
+              {t('locations.difc.packages.title')}
             </h2>
             
             <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
@@ -369,30 +396,30 @@ export default function DIFCLocationPage() {
                 whileInView={{ opacity: 1, y: 0 }}
                 className="bg-gradient-to-b from-rolls-gold/20 to-rolls-gold/10 border border-rolls-gold/30 rounded-lg p-8 text-center"
               >
-                <h3 className="text-2xl font-bold text-white mb-4">Executive</h3>
-                <p className="text-4xl font-bold text-rolls-gold mb-4">AED 40,000</p>
-                <p className="text-gray-300 mb-6">Monthly Package</p>
+                <h3 className="text-2xl font-bold text-white mb-4">{t('locations.difc.packages.executive.title')}</h3>
+                <p className="text-4xl font-bold text-rolls-gold mb-4">{t('locations.difc.packages.executive.price')}</p>
+                <p className="text-gray-300 mb-6">{t('locations.difc.packages.monthlyPackage')}</p>
                 <ul className="space-y-3 text-left">
                   <li className="flex items-center text-gray-300">
                     <svg className="w-5 h-5 text-rolls-gold mr-3" fill="currentColor" viewBox="0 0 20 20">
                       <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                     </svg>
-                    20 days per month
+                    {t('locations.difc.packages.executive.features.0')}
                   </li>
                   <li className="flex items-center text-gray-300">
                     <svg className="w-5 h-5 text-rolls-gold mr-3" fill="currentColor" viewBox="0 0 20 20">
                       <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                     </svg>
-                    Dedicated chauffeur
+                    {t('locations.difc.packages.executive.features.1')}
                   </li>
                   <li className="flex items-center text-gray-300">
                     <svg className="w-5 h-5 text-rolls-gold mr-3" fill="currentColor" viewBox="0 0 20 20">
                       <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                     </svg>
-                    Choice of Ghost/Wraith
+                    {t('locations.difc.packages.executive.features.2')}
                   </li>
                 </ul>
-                <button className="btn-primary w-full mt-6">Select Package</button>
+                <button className="btn-primary w-full mt-6">{t('locations.difc.packages.selectPackage')}</button>
               </motion.div>
 
               <motion.div
@@ -402,38 +429,38 @@ export default function DIFCLocationPage() {
                 className="bg-gradient-to-b from-rolls-gold/30 to-rolls-gold/20 border-2 border-rolls-gold rounded-lg p-8 text-center relative"
               >
                 <div className="absolute -top-4 left-1/2 transform -translate-x-1/2 bg-rolls-gold text-rolls-black px-4 py-1 rounded-full text-sm font-bold">
-                  POPULAR
+                  {t('locations.difc.packages.popular')}
                 </div>
-                <h3 className="text-2xl font-bold text-white mb-4">Chairman</h3>
-                <p className="text-4xl font-bold text-rolls-gold mb-4">AED 72,000</p>
-                <p className="text-gray-300 mb-6">Monthly Package</p>
+                <h3 className="text-2xl font-bold text-white mb-4">{t('locations.difc.packages.chairman.title')}</h3>
+                <p className="text-4xl font-bold text-rolls-gold mb-4">{t('locations.difc.packages.chairman.price')}</p>
+                <p className="text-gray-300 mb-6">{t('locations.difc.packages.monthlyPackage')}</p>
                 <ul className="space-y-3 text-left">
                   <li className="flex items-center text-gray-300">
                     <svg className="w-5 h-5 text-rolls-gold mr-3" fill="currentColor" viewBox="0 0 20 20">
                       <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                     </svg>
-                    Unlimited usage
+                    {t('locations.difc.packages.chairman.features.0')}
                   </li>
                   <li className="flex items-center text-gray-300">
                     <svg className="w-5 h-5 text-rolls-gold mr-3" fill="currentColor" viewBox="0 0 20 20">
                       <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                     </svg>
-                    2 dedicated chauffeurs
+                    {t('locations.difc.packages.chairman.features.1')}
                   </li>
                   <li className="flex items-center text-gray-300">
                     <svg className="w-5 h-5 text-rolls-gold mr-3" fill="currentColor" viewBox="0 0 20 20">
                       <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                     </svg>
-                    Full fleet access
+                    {t('locations.difc.packages.chairman.features.2')}
                   </li>
                   <li className="flex items-center text-gray-300">
                     <svg className="w-5 h-5 text-rolls-gold mr-3" fill="currentColor" viewBox="0 0 20 20">
                       <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                     </svg>
-                    Priority booking
+                    {t('locations.difc.packages.chairman.features.3')}
                   </li>
                 </ul>
-                <button className="btn-primary w-full mt-6">Select Package</button>
+                <button className="btn-primary w-full mt-6">{t('locations.difc.packages.selectPackage')}</button>
               </motion.div>
 
               <motion.div
@@ -442,36 +469,36 @@ export default function DIFCLocationPage() {
                 transition={{ delay: 0.2 }}
                 className="bg-gradient-to-b from-rolls-gold/20 to-rolls-gold/10 border border-rolls-gold/30 rounded-lg p-8 text-center"
               >
-                <h3 className="text-2xl font-bold text-white mb-4">Enterprise</h3>
-                <p className="text-4xl font-bold text-rolls-gold mb-4">Custom</p>
-                <p className="text-gray-300 mb-6">Tailored Solution</p>
+                <h3 className="text-2xl font-bold text-white mb-4">{t('locations.difc.packages.enterprise.title')}</h3>
+                <p className="text-4xl font-bold text-rolls-gold mb-4">{t('locations.difc.packages.enterprise.price')}</p>
+                <p className="text-gray-300 mb-6">{t('locations.difc.packages.enterprise.subtitle')}</p>
                 <ul className="space-y-3 text-left">
                   <li className="flex items-center text-gray-300">
                     <svg className="w-5 h-5 text-rolls-gold mr-3" fill="currentColor" viewBox="0 0 20 20">
                       <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                     </svg>
-                    Multiple vehicles
+                    {t('locations.difc.packages.enterprise.features.0')}
                   </li>
                   <li className="flex items-center text-gray-300">
                     <svg className="w-5 h-5 text-rolls-gold mr-3" fill="currentColor" viewBox="0 0 20 20">
                       <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                     </svg>
-                    Fleet management
+                    {t('locations.difc.packages.enterprise.features.1')}
                   </li>
                   <li className="flex items-center text-gray-300">
                     <svg className="w-5 h-5 text-rolls-gold mr-3" fill="currentColor" viewBox="0 0 20 20">
                       <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                     </svg>
-                    Corporate branding
+                    {t('locations.difc.packages.enterprise.features.2')}
                   </li>
                   <li className="flex items-center text-gray-300">
                     <svg className="w-5 h-5 text-rolls-gold mr-3" fill="currentColor" viewBox="0 0 20 20">
                       <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                     </svg>
-                    Account management
+                    {t('locations.difc.packages.enterprise.features.3')}
                   </li>
                 </ul>
-                <button className="btn-secondary w-full mt-6">Contact Us</button>
+                <button className="btn-secondary w-full mt-6">{t('locations.difc.packages.contactUs')}</button>
               </motion.div>
             </div>
           </div>
@@ -481,7 +508,7 @@ export default function DIFCLocationPage() {
         <section className="py-20 bg-gradient-to-b from-rolls-black to-rolls-navy">
           <div className="container mx-auto px-4">
             <h2 className="text-4xl font-bold text-white text-center mb-12">
-              What DIFC Executives Say
+              {t('locations.difc.testimonials.title')}
             </h2>
             
             <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
@@ -498,11 +525,10 @@ export default function DIFCLocationPage() {
                   ))}
                 </div>
                 <p className="text-gray-300 mb-4">
-                  "The Phantom is perfect for board meetings. It creates the right impression and 
-                  the service is always impeccable. A true business partner."
+                  "{t('locations.difc.testimonials.ahmed.text')}"
                 </p>
-                <p className="text-white font-semibold">Ahmed Al-Rashid</p>
-                <p className="text-gray-400 text-sm">CEO, Emirates Investment Group</p>
+                <p className="text-white font-semibold">{t('locations.difc.testimonials.ahmed.name')}</p>
+                <p className="text-gray-400 text-sm">{t('locations.difc.testimonials.ahmed.title')}</p>
               </motion.div>
 
               <motion.div
@@ -519,11 +545,10 @@ export default function DIFCLocationPage() {
                   ))}
                 </div>
                 <p className="text-gray-300 mb-4">
-                  "Our corporate package with Rolls-Royce Dubai has elevated our client relationships. 
-                  The reliability and prestige are unmatched in the region."
+                  "{t('locations.difc.testimonials.sarah.text')}"
                 </p>
-                <p className="text-white font-semibold">Sarah Mitchell</p>
-                <p className="text-gray-400 text-sm">Managing Partner, Global Law Firm</p>
+                <p className="text-white font-semibold">{t('locations.difc.testimonials.sarah.name')}</p>
+                <p className="text-gray-400 text-sm">{t('locations.difc.testimonials.sarah.title')}</p>
               </motion.div>
             </div>
           </div>
@@ -537,23 +562,23 @@ export default function DIFCLocationPage() {
               whileInView={{ opacity: 1, y: 0 }}
             >
               <h2 className="text-4xl font-bold text-white mb-6">
-                Elevate Your Business Image in DIFC
+                {t('locations.difc.cta.title')}
               </h2>
               <p className="text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
-                Join Dubai's business elite with our exclusive Rolls-Royce corporate services
+                {t('locations.difc.cta.subtitle')}
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Link href="/booking" className="btn-primary">
-                  Book Corporate Service
+                  {t('locations.difc.cta.bookButton')}
                 </Link>
                 <Link href="/services/corporate" className="btn-secondary">
-                  Explore Packages
+                  {t('locations.difc.cta.exploreButton')}
                 </Link>
               </div>
               
               <div className="mt-12 text-gray-400">
-                <p>Corporate Hotline: +971 55 816 4922</p>
-                <p>Email: corporate@rollsroycers.com</p>
+                <p>{t('locations.difc.cta.hotline')}</p>
+                <p>{t('locations.difc.cta.email')}</p>
               </div>
             </motion.div>
           </div>

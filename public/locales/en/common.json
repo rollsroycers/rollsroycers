@@ -1090,6 +1090,137 @@
           "concierge": "Concierge Service",
           "satisfaction": "Client Satisfaction"
         }
+      },
+      "difc": {
+        "hero": {
+          "title": "DIFC Dubai",
+          "subtitle": "Executive Transportation in the Financial District",
+          "description": "Premier Rolls-Royce rental service for Dubai's business elite. Perfect for corporate meetings, client entertainment, and executive travel."
+        },
+        "stats": {
+          "clients": "Corporate Clients",
+          "service": "Executive Service",
+          "response": "Response Time",
+          "confidential": "Confidential"
+        },
+        "corporateServices": {
+          "title": "Corporate Services in DIFC",
+          "subtitle": "Tailored luxury transportation solutions for the business community",
+          "executive": {
+            "title": "Executive Transportation",
+            "description": "Professional chauffeur service for C-suite executives",
+            "features": ["Dedicated driver", "Flexible scheduling", "Confidential service"]
+          },
+          "board": {
+            "title": "Board Meeting Arrivals",
+            "description": "Impressive arrivals for board meetings and presentations",
+            "features": ["Punctual service", "Professional appearance", "Discrete handling"]
+          },
+          "client": {
+            "title": "Client Entertainment",
+            "description": "Impress clients with luxury transportation",
+            "features": ["Multiple vehicles", "Coordinated fleet", "VIP treatment"]
+          },
+          "events": {
+            "title": "Corporate Events",
+            "description": "Fleet solutions for conferences and corporate gatherings",
+            "features": ["Event coordination", "Bulk bookings", "Custom branding options"]
+          }
+        },
+        "amenities": {
+          "title": "Business-Class Amenities",
+          "wifi": "WiFi-enabled vehicles",
+          "privacy": "Privacy partitions",
+          "office": "Mobile office setup",
+          "refreshments": "Refreshments included",
+          "newspaper": "Newspaper service",
+          "charging": "Charging stations",
+          "conference": "Conference call capability",
+          "security": "Document security"
+        },
+        "fleet": {
+          "title": "Executive Fleet for DIFC",
+          "viewDetails": "View Details",
+          "phantom": {
+            "features": ["Executive sedan", "CEO transport", "Board meetings"]
+          },
+          "ghost": {
+            "features": ["Business class", "Client meetings", "Corporate events"]
+          },
+          "cullinan": {
+            "features": ["Executive SUV", "Team transport", "VIP transfers"]
+          }
+        },
+        "landmarks": {
+          "title": "DIFC Location & Nearby Landmarks",
+          "subtitle": "Strategic Business Location",
+          "description": "Dubai International Financial Centre (DIFC) is the leading financial hub for the Middle East, Africa, and South Asia. Our Rolls-Royce rental service provides immediate access to this prestigious business district.",
+          "away": "{{distance}} away",
+          "gate": {
+            "description": "Iconic entrance to the financial district"
+          },
+          "emirates": {
+            "description": "Prestigious business towers"
+          },
+          "wtc": {
+            "description": "Major exhibition and conference venue"
+          },
+          "fourseasons": {
+            "description": "Luxury business hotel"
+          },
+          "ritz": {
+            "description": "Premium accommodation for executives"
+          }
+        },
+        "map": {
+          "title": "DIFC, Dubai",
+          "coordinates": "25.2110°N, 55.2796°E",
+          "viewOnMap": "View on Google Maps →"
+        },
+        "packages": {
+          "title": "Corporate Packages",
+          "monthlyPackage": "Monthly Package",
+          "selectPackage": "Select Package",
+          "contactUs": "Contact Us",
+          "popular": "POPULAR",
+          "executive": {
+            "title": "Executive",
+            "price": "AED 40,000",
+            "features": ["20 days per month", "Dedicated chauffeur", "Choice of Ghost/Wraith"]
+          },
+          "chairman": {
+            "title": "Chairman",
+            "price": "AED 72,000",
+            "features": ["Unlimited usage", "2 dedicated chauffeurs", "Full fleet access", "Priority booking"]
+          },
+          "enterprise": {
+            "title": "Enterprise",
+            "price": "Custom",
+            "subtitle": "Tailored Solution",
+            "features": ["Multiple vehicles", "Fleet management", "Corporate branding", "Account management"]
+          }
+        },
+        "testimonials": {
+          "title": "What DIFC Executives Say",
+          "ahmed": {
+            "name": "Ahmed Al-Rashid",
+            "title": "CEO, Emirates Investment Group",
+            "text": "The Phantom is perfect for board meetings. It creates the right impression and the service is always impeccable. A true business partner."
+          },
+          "sarah": {
+            "name": "Sarah Mitchell",
+            "title": "Managing Partner, Global Law Firm",
+            "text": "Our corporate package with Rolls-Royce Dubai has elevated our client relationships. The reliability and prestige are unmatched in the region."
+          }
+        },
+        "cta": {
+          "title": "Elevate Your Business Image in DIFC",
+          "subtitle": "Join Dubai's business elite with our exclusive Rolls-Royce corporate services",
+          "bookButton": "Book Corporate Service",
+          "exploreButton": "Explore Packages",
+          "hotline": "Corporate Hotline: +971 55 816 4922",
+          "email": "Email: corporate@rollsroycers.com"
+        }
       }
     }
   }
