@@ -1,5 +1,6 @@
 import { GetStaticProps } from 'next'
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
+import { useTranslation } from 'next-i18next'
 import Image from 'next/image'
 import Link from 'next/link'
 import { motion } from 'framer-motion'
@@ -9,66 +10,79 @@ import ComparisonTool from '@/components/ComparisonTool'
 import SEO from '@/components/SEO'
 
 export default function BusinessBayPage() {
+  const { t } = useTranslation('common')
   const businessTowers = [
-    { name: 'Ubora Tower', type: 'Commercial', feature: 'Valet Parking' },
-    { name: 'Bay Square', type: 'Mixed Use', feature: 'Direct Access' },
-    { name: 'Executive Tower', type: 'Office Complex', feature: '24/7 Access' },
-    { name: 'Capital Bay', type: 'Business Hub', feature: 'VIP Entrance' },
-    { name: 'Preatoni Tower', type: 'Commercial', feature: 'Basement Parking' },
-    { name: 'The Metropolis', type: 'Business Center', feature: 'Concierge Service' }
+    { name: 'Ubora Tower', type: t('locations.businessBay.towers.commercial'), feature: t('locations.businessBay.towers.features.valetParking') },
+    { name: 'Bay Square', type: t('locations.businessBay.towers.mixedUse'), feature: t('locations.businessBay.towers.features.directAccess') },
+    { name: 'Executive Tower', type: t('locations.businessBay.towers.officeComplex'), feature: t('locations.businessBay.towers.features.access247') },
+    { name: 'Capital Bay', type: t('locations.businessBay.towers.businessHub'), feature: t('locations.businessBay.towers.features.vipEntrance') },
+    { name: 'Preatoni Tower', type: t('locations.businessBay.towers.commercial'), feature: t('locations.businessBay.towers.features.basementParking') },
+    { name: 'The Metropolis', type: t('locations.businessBay.towers.businessCenter'), feature: t('locations.businessBay.towers.features.conciergeService') }
   ]
 
   const keyAdvantages = [
     {
       icon: '🏢',
-      title: 'Business Hub',
-      description: 'Heart of Dubai\'s business district with easy access to DIFC and Downtown'
+      title: t('locations.businessBay.advantages.businessHub.title'),
+      description: t('locations.businessBay.advantages.businessHub.description')
     },
     {
       icon: '🚗',
-      title: 'Quick Connectivity',
-      description: 'Strategic location with multiple entry/exit points to Sheikh Zayed Road'
+      title: t('locations.businessBay.advantages.connectivity.title'),
+      description: t('locations.businessBay.advantages.connectivity.description')
     },
     {
       icon: '🍽️',
-      title: 'Premium Dining',
-      description: 'World-class restaurants for business lunches and client entertainment'
+      title: t('locations.businessBay.advantages.dining.title'),
+      description: t('locations.businessBay.advantages.dining.description')
     },
     {
       icon: '🏨',
-      title: 'Luxury Hotels',
-      description: 'Five-star hotels perfect for international business travelers'
+      title: t('locations.businessBay.advantages.hotels.title'),
+      description: t('locations.businessBay.advantages.hotels.description')
     }
   ]
 
   const corporateServices = [
     {
-      service: 'Executive Daily Rental',
-      description: 'Perfect for high-level meetings and client impressions',
-      features: ['Morning delivery to office', 'Evening pickup service', 'Flexible timing'],
-      price: 'From AED 5,500/day'
+      service: t('locations.businessBay.services.executive.title'),
+      description: t('locations.businessBay.services.executive.description'),
+      features: [
+        t('locations.businessBay.services.executive.features.morning'),
+        t('locations.businessBay.services.executive.features.evening'),
+        t('locations.businessBay.services.executive.features.flexible')
+      ],
+      price: t('locations.businessBay.services.executive.price')
     },
     {
-      service: 'Conference Package',
-      description: 'Multiple vehicles for corporate events and conferences',
-      features: ['Fleet coordination', 'Professional chauffeurs', 'VIP guest management'],
-      price: 'From AED 35,000'
+      service: t('locations.businessBay.services.conference.title'),
+      description: t('locations.businessBay.services.conference.description'),
+      features: [
+        t('locations.businessBay.services.conference.features.fleet'),
+        t('locations.businessBay.services.conference.features.chauffeurs'),
+        t('locations.businessBay.services.conference.features.vip')
+      ],
+      price: t('locations.businessBay.services.conference.price')
     },
     {
-      service: 'Monthly Corporate',
-      description: 'Long-term solutions for executives and companies',
-      features: ['Dedicated vehicle', 'Account management', 'Priority support'],
-      price: 'From AED 95,000/month'
+      service: t('locations.businessBay.services.monthly.title'),
+      description: t('locations.businessBay.services.monthly.description'),
+      features: [
+        t('locations.businessBay.services.monthly.features.dedicated'),
+        t('locations.businessBay.services.monthly.features.account'),
+        t('locations.businessBay.services.monthly.features.priority')
+      ],
+      price: t('locations.businessBay.services.monthly.price')
     }
   ]
 
   const nearbyDestinations = [
-    { name: 'Dubai Mall', distance: '5 minutes', purpose: 'Client entertainment' },
-    { name: 'DIFC', distance: '8 minutes', purpose: 'Financial meetings' },
-    { name: 'Dubai Canal', distance: '2 minutes', purpose: 'Scenic drives' },
-    { name: 'La Mer Beach', distance: '10 minutes', purpose: 'Leisure breaks' },
-    { name: 'City Walk', distance: '7 minutes', purpose: 'Business lunches' },
-    { name: 'Dubai Airport', distance: '20 minutes', purpose: 'Airport transfers' }
+    { name: 'Dubai Mall', distance: t('locations.businessBay.destinations.dubaiMall.distance'), purpose: t('locations.businessBay.destinations.dubaiMall.purpose') },
+    { name: 'DIFC', distance: t('locations.businessBay.destinations.difc.distance'), purpose: t('locations.businessBay.destinations.difc.purpose') },
+    { name: 'Dubai Canal', distance: t('locations.businessBay.destinations.canal.distance'), purpose: t('locations.businessBay.destinations.canal.purpose') },
+    { name: 'La Mer Beach', distance: t('locations.businessBay.destinations.laMer.distance'), purpose: t('locations.businessBay.destinations.laMer.purpose') },
+    { name: 'City Walk', distance: t('locations.businessBay.destinations.cityWalk.distance'), purpose: t('locations.businessBay.destinations.cityWalk.purpose') },
+    { name: 'Dubai Airport', distance: t('locations.businessBay.destinations.airport.distance'), purpose: t('locations.businessBay.destinations.airport.purpose') }
   ]
 
   const testimonials = [
@@ -116,10 +130,10 @@ export default function BusinessBayPage() {
               transition={{ duration: 1 }}
             >
               <h1 className="text-5xl md:text-7xl font-bold text-white mb-6">
-                Business Bay Excellence
+                {t('locations.businessBay.hero.title')}
               </h1>
               <p className="text-2xl text-rolls-gold mb-8">
-                Executive Transportation for Dubai's Business Elite
+                {t('locations.businessBay.hero.subtitle')}
               </p>
               
               {/* Business District Badge */}
@@ -127,7 +141,7 @@ export default function BusinessBayPage() {
                 <svg className="w-6 h-6 text-rolls-gold" fill="currentColor" viewBox="0 0 20 20">
                   <path fillRule="evenodd" d="M4 4a2 2 0 012-2h8a2 2 0 012 2v12a2 2 0 01-2 2H6a2 2 0 01-2-2V4zm3 1h6v4H7V5zm6 6H7v2h6v-2z" clipRule="evenodd" />
                 </svg>
-                <span className="text-white">Dubai's Premier Business District</span>
+                <span className="text-white">{t('locations.businessBay.hero.badge')}</span>
               </div>
 
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -136,10 +150,10 @@ export default function BusinessBayPage() {
                   whileTap={{ scale: 0.95 }}
                   className="btn-primary"
                 >
-                  Book Executive Service
+                  {t('locations.businessBay.hero.cta.book')}
                 </motion.button>
                 <a href="#corporate" className="btn-secondary">
-                  Corporate Solutions
+                  {t('locations.businessBay.hero.cta.corporate')}
                 </a>
               </div>
             </motion.div>
@@ -150,7 +164,7 @@ export default function BusinessBayPage() {
         <section className="py-20 bg-gradient-to-b from-rolls-black to-rolls-navy">
           <div className="container mx-auto px-4">
             <h2 className="text-4xl font-bold text-white text-center mb-12">
-              Why Rolls-Royce in Business Bay?
+              {t('locations.businessBay.whyHere.title')}
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-5xl mx-auto">
               {keyAdvantages.map((advantage, index) => (
@@ -174,7 +188,7 @@ export default function BusinessBayPage() {
         <section className="py-20 bg-gradient-to-b from-rolls-navy to-rolls-black">
           <div className="container mx-auto px-4">
             <h2 className="text-4xl font-bold text-white text-center mb-12">
-              Direct Delivery to Business Towers
+              {t('locations.businessBay.towers.title')}
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
               {businessTowers.map((tower, index) => (
@@ -192,7 +206,7 @@ export default function BusinessBayPage() {
               ))}
             </div>
             <p className="text-center text-gray-400 mt-8">
-              + All Business Bay towers and commercial buildings with complimentary valet coordination
+              {t('locations.businessBay.towers.note')}
             </p>
           </div>
         </section>
@@ -201,7 +215,7 @@ export default function BusinessBayPage() {
         <section id="corporate" className="py-20 bg-gradient-to-b from-rolls-black to-rolls-navy">
           <div className="container mx-auto px-4">
             <h2 className="text-4xl font-bold text-white text-center mb-12">
-              Corporate Services for Business Bay
+              {t('locations.businessBay.services.title')}
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
               {corporateServices.map((service, index) => (
@@ -226,7 +240,7 @@ export default function BusinessBayPage() {
                   </ul>
                   <div className="text-xl font-bold text-rolls-gold mb-4">{service.price}</div>
                   <button className="btn-primary w-full">
-                    Inquire Now
+                    {t('locations.businessBay.services.inquire')}
                   </button>
                 </motion.div>
               ))}
@@ -238,14 +252,14 @@ export default function BusinessBayPage() {
         <section className="py-20 bg-gradient-to-b from-rolls-navy to-rolls-black">
           <div className="container mx-auto px-4">
             <h2 className="text-4xl font-bold text-white text-center mb-12">
-              Quick Access from Business Bay
+              {t('locations.businessBay.destinations.title')}
             </h2>
             <div className="max-w-4xl mx-auto">
               <div className="bg-rolls-black/50 backdrop-blur-sm border border-rolls-gold/20 rounded-lg overflow-hidden">
                 <div className="grid grid-cols-3 gap-4 p-4 bg-rolls-gold/10 font-semibold text-white">
-                  <div>Destination</div>
-                  <div>Drive Time</div>
-                  <div>Purpose</div>
+                  <div>{t('locations.businessBay.destinations.header.destination')}</div>
+                  <div>{t('locations.businessBay.destinations.header.time')}</div>
+                  <div>{t('locations.businessBay.destinations.header.purpose')}</div>
                 </div>
                 {nearbyDestinations.map((dest, index) => (
                   <motion.div
@@ -269,7 +283,7 @@ export default function BusinessBayPage() {
         <section className="py-20 bg-gradient-to-b from-rolls-black to-rolls-navy">
           <div className="container mx-auto px-4">
             <h2 className="text-4xl font-bold text-white text-center mb-12">
-              Elevate Your Business Image
+              {t('locations.businessBay.benefits.title')}
             </h2>
             <div className="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
               <motion.div
@@ -277,12 +291,12 @@ export default function BusinessBayPage() {
                 whileInView={{ opacity: 1, x: 0 }}
                 className="bg-rolls-black/50 backdrop-blur-sm border border-rolls-gold/20 rounded-lg p-8"
               >
-                <h3 className="text-xl font-semibold text-rolls-gold mb-4">Client Impressions</h3>
+                <h3 className="text-xl font-semibold text-rolls-gold mb-4">{t('locations.businessBay.benefits.client.title')}</h3>
                 <ul className="space-y-3 text-gray-300">
-                  <li>• Arrive at meetings in unparalleled style</li>
-                  <li>• Transport VIP clients and partners</li>
-                  <li>• Stand out in the business community</li>
-                  <li>• Create memorable first impressions</li>
+                  <li>• {t('locations.businessBay.benefits.client.point1')}</li>
+                  <li>• {t('locations.businessBay.benefits.client.point2')}</li>
+                  <li>• {t('locations.businessBay.benefits.client.point3')}</li>
+                  <li>• {t('locations.businessBay.benefits.client.point4')}</li>
                 </ul>
               </motion.div>
 
@@ -291,12 +305,12 @@ export default function BusinessBayPage() {
                 whileInView={{ opacity: 1, x: 0 }}
                 className="bg-rolls-black/50 backdrop-blur-sm border border-rolls-gold/20 rounded-lg p-8"
               >
-                <h3 className="text-xl font-semibold text-rolls-gold mb-4">Productivity Benefits</h3>
+                <h3 className="text-xl font-semibold text-rolls-gold mb-4">{t('locations.businessBay.benefits.productivity.title')}</h3>
                 <ul className="space-y-3 text-gray-300">
-                  <li>• Mobile office with WiFi and charging</li>
-                  <li>• Quiet space for calls and preparation</li>
-                  <li>• Professional chauffeur handling navigation</li>
-                  <li>• Stress-free travel between meetings</li>
+                  <li>• {t('locations.businessBay.benefits.productivity.point1')}</li>
+                  <li>• {t('locations.businessBay.benefits.productivity.point2')}</li>
+                  <li>• {t('locations.businessBay.benefits.productivity.point3')}</li>
+                  <li>• {t('locations.businessBay.benefits.productivity.point4')}</li>
                 </ul>
               </motion.div>
             </div>
@@ -307,7 +321,7 @@ export default function BusinessBayPage() {
         <section className="py-20 bg-gradient-to-b from-rolls-navy to-rolls-black">
           <div className="container mx-auto px-4">
             <h2 className="text-4xl font-bold text-white text-center mb-12">
-              Business Bay Success Stories
+              {t('locations.businessBay.testimonials.title')}
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
               {testimonials.map((testimonial, index) => (
@@ -341,7 +355,7 @@ export default function BusinessBayPage() {
         <section className="py-20 bg-gradient-to-b from-rolls-black to-rolls-navy">
           <div className="container mx-auto px-4">
             <h2 className="text-4xl font-bold text-white text-center mb-12">
-              Executive Fleet for Business Bay
+              {t('locations.businessBay.fleet.title')}
             </h2>
             <ComparisonTool />
           </div>
@@ -351,10 +365,10 @@ export default function BusinessBayPage() {
         <section className="py-20 bg-gradient-to-b from-rolls-navy to-rolls-black">
           <div className="container mx-auto px-4 text-center">
             <h2 className="text-4xl font-bold text-white mb-6">
-              Transform Your Business Transportation
+              {t('locations.businessBay.cta.title')}
             </h2>
             <p className="text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
-              Join hundreds of Business Bay executives who choose Rolls-Royce for their corporate mobility needs
+              {t('locations.businessBay.cta.subtitle')}
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
               <motion.a
@@ -363,10 +377,10 @@ export default function BusinessBayPage() {
                 whileTap={{ scale: 0.95 }}
                 className="btn-primary"
               >
-                Call Business Team
+                {t('locations.businessBay.cta.call')}
               </motion.a>
               <Link href="/services/corporate" className="btn-secondary">
-                Corporate Packages
+                {t('locations.businessBay.cta.packages')}
               </Link>
             </div>
             
@@ -374,15 +388,15 @@ export default function BusinessBayPage() {
             <div className="grid grid-cols-3 gap-4 max-w-2xl mx-auto">
               <div className="bg-rolls-black/50 backdrop-blur-sm border border-rolls-gold/20 rounded-lg p-4">
                 <div className="text-2xl font-bold text-rolls-gold">200+</div>
-                <div className="text-sm text-gray-400">Corporate Clients</div>
+                <div className="text-sm text-gray-400">{t('locations.businessBay.stats.clients')}</div>
               </div>
               <div className="bg-rolls-black/50 backdrop-blur-sm border border-rolls-gold/20 rounded-lg p-4">
                 <div className="text-2xl font-bold text-rolls-gold">10 min</div>
-                <div className="text-sm text-gray-400">Tower Delivery</div>
+                <div className="text-sm text-gray-400">{t('locations.businessBay.stats.delivery')}</div>
               </div>
               <div className="bg-rolls-black/50 backdrop-blur-sm border border-rolls-gold/20 rounded-lg p-4">
                 <div className="text-2xl font-bold text-rolls-gold">24/7</div>
-                <div className="text-sm text-gray-400">Business Support</div>
+                <div className="text-sm text-gray-400">{t('locations.businessBay.stats.support')}</div>
               </div>
             </div>
           </div>

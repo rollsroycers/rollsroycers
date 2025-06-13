@@ -572,6 +572,157 @@
     },
     "modelComparison": {
       "title": "Model-to-Model Comparison"
+    },
+    "locations": {
+      "businessBay": {
+        "hero": {
+          "title": "Business Bay Excellence",
+          "subtitle": "Executive Transportation for Dubai's Business Elite",
+          "badge": "Dubai's Premier Business District",
+          "cta": {
+            "book": "Book Executive Service",
+            "corporate": "Corporate Solutions"
+          }
+        },
+        "whyHere": {
+          "title": "Why Rolls-Royce in Business Bay?"
+        },
+        "advantages": {
+          "businessHub": {
+            "title": "Business Hub",
+            "description": "Heart of Dubai's business district with easy access to DIFC and Downtown"
+          },
+          "connectivity": {
+            "title": "Quick Connectivity",
+            "description": "Strategic location with multiple entry/exit points to Sheikh Zayed Road"
+          },
+          "dining": {
+            "title": "Premium Dining",
+            "description": "World-class restaurants for business lunches and client entertainment"
+          },
+          "hotels": {
+            "title": "Luxury Hotels",
+            "description": "Five-star hotels perfect for international business travelers"
+          }
+        },
+        "towers": {
+          "title": "Direct Delivery to Business Towers",
+          "note": "+ All Business Bay towers and commercial buildings with complimentary valet coordination",
+          "commercial": "Commercial",
+          "mixedUse": "Mixed Use",
+          "officeComplex": "Office Complex",
+          "businessHub": "Business Hub",
+          "businessCenter": "Business Center",
+          "features": {
+            "valetParking": "Valet Parking",
+            "directAccess": "Direct Access",
+            "access247": "24/7 Access",
+            "vipEntrance": "VIP Entrance",
+            "basementParking": "Basement Parking",
+            "conciergeService": "Concierge Service"
+          }
+        },
+        "services": {
+          "title": "Corporate Services for Business Bay",
+          "inquire": "Inquire Now",
+          "executive": {
+            "title": "Executive Daily Rental",
+            "description": "Perfect for high-level meetings and client impressions",
+            "price": "From AED 5,500/day",
+            "features": {
+              "morning": "Morning delivery to office",
+              "evening": "Evening pickup service",
+              "flexible": "Flexible timing"
+            }
+          },
+          "conference": {
+            "title": "Conference Package",
+            "description": "Multiple vehicles for corporate events and conferences",
+            "price": "From AED 35,000",
+            "features": {
+              "fleet": "Fleet coordination",
+              "chauffeurs": "Professional chauffeurs",
+              "vip": "VIP guest management"
+            }
+          },
+          "monthly": {
+            "title": "Monthly Corporate",
+            "description": "Long-term solutions for executives and companies",
+            "price": "From AED 95,000/month",
+            "features": {
+              "dedicated": "Dedicated vehicle",
+              "account": "Account management",
+              "priority": "Priority support"
+            }
+          }
+        },
+        "destinations": {
+          "title": "Quick Access from Business Bay",
+          "header": {
+            "destination": "Destination",
+            "time": "Drive Time",
+            "purpose": "Purpose"
+          },
+          "dubaiMall": {
+            "distance": "5 minutes",
+            "purpose": "Client entertainment"
+          },
+          "difc": {
+            "distance": "8 minutes",
+            "purpose": "Financial meetings"
+          },
+          "canal": {
+            "distance": "2 minutes",
+            "purpose": "Scenic drives"
+          },
+          "laMer": {
+            "distance": "10 minutes",
+            "purpose": "Leisure breaks"
+          },
+          "cityWalk": {
+            "distance": "7 minutes",
+            "purpose": "Business lunches"
+          },
+          "airport": {
+            "distance": "20 minutes",
+            "purpose": "Airport transfers"
+          }
+        },
+        "benefits": {
+          "title": "Elevate Your Business Image",
+          "client": {
+            "title": "Client Impressions",
+            "point1": "Arrive at meetings in unparalleled style",
+            "point2": "Transport VIP clients and partners",
+            "point3": "Stand out in the business community",
+            "point4": "Create memorable first impressions"
+          },
+          "productivity": {
+            "title": "Productivity Benefits",
+            "point1": "Mobile office with WiFi and charging",
+            "point2": "Quiet space for calls and preparation",
+            "point3": "Professional chauffeur handling navigation",
+            "point4": "Stress-free travel between meetings"
+          }
+        },
+        "testimonials": {
+          "title": "Business Bay Success Stories"
+        },
+        "fleet": {
+          "title": "Executive Fleet for Business Bay"
+        },
+        "cta": {
+          "title": "Transform Your Business Transportation",
+          "subtitle": "Join hundreds of Business Bay executives who choose Rolls-Royce for their corporate mobility needs",
+          "call": "Call Business Team",
+          "packages": "Corporate Packages"
+        },
+        "stats": {
+          "clients": "Corporate Clients",
+          "delivery": "Tower Delivery",
+          "support": "Business Support"
+        }
+      }
     }
   }
 }
