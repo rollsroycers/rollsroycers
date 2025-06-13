@@ -1,5 +1,6 @@
 import { GetStaticProps } from 'next'
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
+import { useTranslation } from 'next-i18next'
 import Image from 'next/image'
 import Link from 'next/link'
 import { motion } from 'framer-motion'
@@ -10,61 +11,74 @@ import WeatherRecommendations from '@/components/WeatherRecommendations'
 import SEO from '@/components/SEO'
 
 export default function PalmJumeirahPage() {
+  const { t } = useTranslation('common')
   const luxuryHotels = [
-    { name: 'Atlantis The Palm', category: '5-Star Resort', feature: 'Valet Service' },
-    { name: 'One&Only The Palm', category: 'Ultra-Luxury', feature: 'Private Beach' },
-    { name: 'Waldorf Astoria', category: '5-Star Hotel', feature: 'VIP Entrance' },
-    { name: 'FIVE Palm Jumeirah', category: 'Beach Resort', feature: 'Beach Club' },
-    { name: 'Anantara The Palm', category: 'Resort & Spa', feature: 'Lagoon Access' },
-    { name: 'W Dubai - The Palm', category: 'Lifestyle Hotel', feature: 'Rooftop Bar' }
+    { name: 'Atlantis The Palm', category: t('locations.palmJumeirah.partnerHotels.atlantis.category'), feature: t('locations.palmJumeirah.partnerHotels.atlantis.feature') },
+    { name: 'One&Only The Palm', category: t('locations.palmJumeirah.partnerHotels.oneAndOnly.category'), feature: t('locations.palmJumeirah.partnerHotels.oneAndOnly.feature') },
+    { name: 'Waldorf Astoria', category: t('locations.palmJumeirah.partnerHotels.waldorf.category'), feature: t('locations.palmJumeirah.partnerHotels.waldorf.feature') },
+    { name: 'FIVE Palm Jumeirah', category: t('locations.palmJumeirah.partnerHotels.five.category'), feature: t('locations.palmJumeirah.partnerHotels.five.feature') },
+    { name: 'Anantara The Palm', category: t('locations.palmJumeirah.partnerHotels.anantara.category'), feature: t('locations.palmJumeirah.partnerHotels.anantara.feature') },
+    { name: 'W Dubai - The Palm', category: t('locations.palmJumeirah.partnerHotels.w.category'), feature: t('locations.palmJumeirah.partnerHotels.w.feature') }
   ]
 
   const attractions = [
     {
       name: 'The Pointe',
-      description: 'Waterfront dining and entertainment',
-      distance: '5 min from Atlantis',
-      bestTime: 'Evening for fountain shows'
+      description: t('locations.palmJumeirah.attractions.thePointe.description'),
+      distance: t('locations.palmJumeirah.attractions.thePointe.distance'),
+      bestTime: t('locations.palmJumeirah.attractions.thePointe.bestTime')
     },
     {
       name: 'Nakheel Mall',
-      description: 'Premium shopping destination',
-      distance: '10 min drive',
-      bestTime: 'Afternoon shopping'
+      description: t('locations.palmJumeirah.attractions.nakheelMall.description'),
+      distance: t('locations.palmJumeirah.attractions.nakheelMall.distance'),
+      bestTime: t('locations.palmJumeirah.attractions.nakheelMall.bestTime')
     },
     {
       name: 'Palm West Beach',
-      description: 'Pristine beach with luxury amenities',
-      distance: '15 min drive',
-      bestTime: 'Sunset hours'
+      description: t('locations.palmJumeirah.attractions.palmWestBeach.description'),
+      distance: t('locations.palmJumeirah.attractions.palmWestBeach.distance'),
+      bestTime: t('locations.palmJumeirah.attractions.palmWestBeach.bestTime')
     },
     {
       name: 'The View at The Palm',
-      description: '360° observation deck',
-      distance: '8 min drive',
-      bestTime: 'Golden hour photography'
+      description: t('locations.palmJumeirah.attractions.theView.description'),
+      distance: t('locations.palmJumeirah.attractions.theView.distance'),
+      bestTime: t('locations.palmJumeirah.attractions.theView.bestTime')
     }
   ]
 
   const drivingRoutes = [
     {
-      name: 'Palm Crescent Drive',
-      description: 'Atlantis → Crescent Road → Luxury Villas → Return',
-      highlights: ['Ocean views', 'Exclusive villas', 'Sunset spots'],
+      name: t('locations.palmJumeirah.drivingRoutes.crescent.name'),
+      description: t('locations.palmJumeirah.drivingRoutes.crescent.description'),
+      highlights: [
+        t('locations.palmJumeirah.drivingRoutes.crescent.highlights.0'),
+        t('locations.palmJumeirah.drivingRoutes.crescent.highlights.1'),
+        t('locations.palmJumeirah.drivingRoutes.crescent.highlights.2')
+      ],
       duration: '30 minutes',
       bestCar: 'Dawn Convertible'
     },
     {
-      name: 'Full Palm Circuit',
-      description: 'Complete loop around Palm Jumeirah',
-      highlights: ['All hotels', 'Beach clubs', 'Marina views'],
+      name: t('locations.palmJumeirah.drivingRoutes.full.name'),
+      description: t('locations.palmJumeirah.drivingRoutes.full.description'),
+      highlights: [
+        t('locations.palmJumeirah.drivingRoutes.full.highlights.0'),
+        t('locations.palmJumeirah.drivingRoutes.full.highlights.1'),
+        t('locations.palmJumeirah.drivingRoutes.full.highlights.2')
+      ],
       duration: '45 minutes',
       bestCar: 'Phantom'
     },
     {
-      name: 'Night Lights Tour',
-      description: 'Evening drive with illuminated landmarks',
-      highlights: ['Atlantis lights', 'The Pointe fountains', 'City skyline'],
+      name: t('locations.palmJumeirah.drivingRoutes.night.name'),
+      description: t('locations.palmJumeirah.drivingRoutes.night.description'),
+      highlights: [
+        t('locations.palmJumeirah.drivingRoutes.night.highlights.0'),
+        t('locations.palmJumeirah.drivingRoutes.night.highlights.1'),
+        t('locations.palmJumeirah.drivingRoutes.night.highlights.2')
+      ],
       duration: '40 minutes',
       bestCar: 'Ghost'
     }
@@ -72,45 +86,45 @@ export default function PalmJumeirahPage() {
 
   const exclusiveExperiences = [
     {
-      title: 'Beach Club Arrival',
-      description: 'Make a grand entrance at exclusive beach clubs',
+      title: t('locations.palmJumeirah.exclusiveExperiences.beachClub.title'),
+      description: t('locations.palmJumeirah.exclusiveExperiences.beachClub.description'),
       includes: [
-        'VIP parking coordination',
-        'Beach club reservations',
-        'Photographer arrangements',
-        'Sunset timing optimization'
+        t('locations.palmJumeirah.exclusiveExperiences.beachClub.includes.0'),
+        t('locations.palmJumeirah.exclusiveExperiences.beachClub.includes.1'),
+        t('locations.palmJumeirah.exclusiveExperiences.beachClub.includes.2'),
+        t('locations.palmJumeirah.exclusiveExperiences.beachClub.includes.3')
       ],
-      price: 'From AED 8,000'
+      price: t('locations.palmJumeirah.exclusiveExperiences.beachClub.price')
     },
     {
-      title: 'Atlantis Experience',
-      description: 'Complete luxury package at Atlantis The Palm',
+      title: t('locations.palmJumeirah.exclusiveExperiences.atlantis.title'),
+      description: t('locations.palmJumeirah.exclusiveExperiences.atlantis.description'),
       includes: [
-        'Hotel valet service',
-        'Aquaventure access',
-        'Restaurant bookings',
-        'Chauffeur standby service'
+        t('locations.palmJumeirah.exclusiveExperiences.atlantis.includes.0'),
+        t('locations.palmJumeirah.exclusiveExperiences.atlantis.includes.1'),
+        t('locations.palmJumeirah.exclusiveExperiences.atlantis.includes.2'),
+        t('locations.palmJumeirah.exclusiveExperiences.atlantis.includes.3')
       ],
-      price: 'From AED 9,500'
+      price: t('locations.palmJumeirah.exclusiveExperiences.atlantis.price')
     },
     {
-      title: 'Villa Collection Service',
-      description: 'Exclusive service for Palm villa residents',
+      title: t('locations.palmJumeirah.exclusiveExperiences.villa.title'),
+      description: t('locations.palmJumeirah.exclusiveExperiences.villa.description'),
       includes: [
-        'Monthly packages available',
-        'Dedicated account manager',
-        'Multiple vehicle options',
-        '24/7 availability'
+        t('locations.palmJumeirah.exclusiveExperiences.villa.includes.0'),
+        t('locations.palmJumeirah.exclusiveExperiences.villa.includes.1'),
+        t('locations.palmJumeirah.exclusiveExperiences.villa.includes.2'),
+        t('locations.palmJumeirah.exclusiveExperiences.villa.includes.3')
       ],
-      price: 'From AED 12,000'
+      price: t('locations.palmJumeirah.exclusiveExperiences.villa.price')
     }
   ]
 
   const stats = [
-    { number: '500+', label: 'Palm Deliveries Monthly' },
-    { number: '15 min', label: 'Average Delivery Time' },
-    { number: '24/7', label: 'Concierge Service' },
-    { number: '95%', label: 'Client Satisfaction' }
+    { number: '500+', label: t('locations.palmJumeirah.stats.deliveries') },
+    { number: '15 min', label: t('locations.palmJumeirah.stats.deliveryTime') },
+    { number: '24/7', label: t('locations.palmJumeirah.stats.concierge') },
+    { number: '95%', label: t('locations.palmJumeirah.stats.satisfaction') }
   ]
 
   return (
@@ -139,10 +153,10 @@ export default function PalmJumeirahPage() {
               transition={{ duration: 1 }}
             >
               <h1 className="text-5xl md:text-7xl font-bold text-white mb-6">
-                Palm Jumeirah Luxury
+                {t('locations.palmJumeirah.hero.title')}
               </h1>
               <p className="text-2xl text-rolls-gold mb-8">
-                Experience The Palm in Rolls-Royce Excellence
+                {t('locations.palmJumeirah.hero.subtitle')}
               </p>
               
               {/* Location Badge */}
@@ -150,7 +164,7 @@ export default function PalmJumeirahPage() {
                 <svg className="w-6 h-6 text-rolls-gold" fill="currentColor" viewBox="0 0 20 20">
                   <path fillRule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clipRule="evenodd" />
                 </svg>
-                <span className="text-white">The 8th Wonder of the World</span>
+                <span className="text-white">{t('locations.palmJumeirah.hero.badge')}</span>
               </div>
 
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -159,10 +173,10 @@ export default function PalmJumeirahPage() {
                   whileTap={{ scale: 0.95 }}
                   className="btn-primary"
                 >
-                  Book Palm Delivery
+                  {t('locations.palmJumeirah.hero.bookButton')}
                 </motion.button>
                 <a href="#experiences" className="btn-secondary">
-                  Exclusive Experiences
+                  {t('locations.palmJumeirah.hero.exploreButton')}
                 </a>
               </div>
             </motion.div>
@@ -173,7 +187,7 @@ export default function PalmJumeirahPage() {
         <section className="py-20 bg-gradient-to-b from-rolls-black to-rolls-navy">
           <div className="container mx-auto px-4">
             <h2 className="text-4xl font-bold text-white text-center mb-12">
-              Why Choose Rolls-Royce at The Palm?
+              {t('locations.palmJumeirah.whyChoose.title')}
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-4 gap-8 max-w-5xl mx-auto">
               {stats.map((stat, index) => (
@@ -199,9 +213,9 @@ export default function PalmJumeirahPage() {
                 <div className="w-20 h-20 mx-auto mb-4 bg-rolls-gold/10 rounded-full flex items-center justify-center">
                   <span className="text-3xl">🏖️</span>
                 </div>
-                <h3 className="text-xl font-semibold text-white mb-3">Beach Paradise</h3>
+                <h3 className="text-xl font-semibold text-white mb-3">{t('locations.palmJumeirah.whyChoose.beach.title')}</h3>
                 <p className="text-gray-400">
-                  Perfect for beach club arrivals and sunset drives along pristine coastlines
+                  {t('locations.palmJumeirah.whyChoose.beach.description')}
                 </p>
               </motion.div>
 
@@ -214,9 +228,9 @@ export default function PalmJumeirahPage() {
                 <div className="w-20 h-20 mx-auto mb-4 bg-rolls-gold/10 rounded-full flex items-center justify-center">
                   <span className="text-3xl">🏰</span>
                 </div>
-                <h3 className="text-xl font-semibold text-white mb-3">Iconic Hotels</h3>
+                <h3 className="text-xl font-semibold text-white mb-3">{t('locations.palmJumeirah.whyChoose.hotels.title')}</h3>
                 <p className="text-gray-400">
-                  Direct access to Atlantis and world-class resorts with VIP valet service
+                  {t('locations.palmJumeirah.whyChoose.hotels.description')}
                 </p>
               </motion.div>
 
@@ -229,9 +243,9 @@ export default function PalmJumeirahPage() {
                 <div className="w-20 h-20 mx-auto mb-4 bg-rolls-gold/10 rounded-full flex items-center justify-center">
                   <span className="text-3xl">🏡</span>
                 </div>
-                <h3 className="text-xl font-semibold text-white mb-3">Exclusive Villas</h3>
+                <h3 className="text-xl font-semibold text-white mb-3">{t('locations.palmJumeirah.whyChoose.villas.title')}</h3>
                 <p className="text-gray-400">
-                  Serving Palm's elite villa community with personalized luxury service
+                  {t('locations.palmJumeirah.whyChoose.villas.description')}
                 </p>
               </motion.div>
             </div>
@@ -242,7 +256,7 @@ export default function PalmJumeirahPage() {
         <section className="py-20 bg-gradient-to-b from-rolls-navy to-rolls-black">
           <div className="container mx-auto px-4">
             <h2 className="text-4xl font-bold text-white text-center mb-12">
-              Partner Hotels & Resorts
+              {t('locations.palmJumeirah.partnerHotels.title')}
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
               {luxuryHotels.map((hotel, index) => (
@@ -260,7 +274,7 @@ export default function PalmJumeirahPage() {
               ))}
             </div>
             <p className="text-center text-gray-400 mt-8">
-              Complimentary pickup and delivery to all Palm Jumeirah hotels and residences
+              {t('locations.palmJumeirah.partnerHotels.additional')}
             </p>
           </div>
         </section>
@@ -269,7 +283,7 @@ export default function PalmJumeirahPage() {
         <section className="py-20 bg-gradient-to-b from-rolls-black to-rolls-navy">
           <div className="container mx-auto px-4">
             <h2 className="text-4xl font-bold text-white text-center mb-12">
-              Scenic Palm Routes
+              {t('locations.palmJumeirah.drivingRoutes.title')}
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
               {drivingRoutes.map((route, index) => (
@@ -285,7 +299,7 @@ export default function PalmJumeirahPage() {
                   
                   <div className="space-y-3 mb-4">
                     <div>
-                      <p className="text-sm text-gray-400 mb-2">Route Highlights:</p>
+                      <p className="text-sm text-gray-400 mb-2">{t('locations.palmJumeirah.drivingRoutes.highlights')}:</p>
                       <div className="flex flex-wrap gap-2">
                         {route.highlights.map((highlight, idx) => (
                           <span key={idx} className="text-xs bg-rolls-gold/10 text-rolls-gold px-2 py-1 rounded">
@@ -298,11 +312,11 @@ export default function PalmJumeirahPage() {
                   
                   <div className="pt-4 border-t border-rolls-gold/10 space-y-2 text-sm">
                     <div className="flex justify-between">
-                      <span className="text-gray-400">Duration:</span>
+                      <span className="text-gray-400">{t('locations.palmJumeirah.drivingRoutes.duration')}:</span>
                       <span className="text-white">{route.duration}</span>
                     </div>
                     <div className="flex justify-between">
-                      <span className="text-gray-400">Best Car:</span>
+                      <span className="text-gray-400">{t('locations.palmJumeirah.drivingRoutes.bestCar')}:</span>
                       <span className="text-rolls-gold">{route.bestCar}</span>
                     </div>
                   </div>
@@ -316,7 +330,7 @@ export default function PalmJumeirahPage() {
         <section id="experiences" className="py-20 bg-gradient-to-b from-rolls-navy to-rolls-black">
           <div className="container mx-auto px-4">
             <h2 className="text-4xl font-bold text-white text-center mb-12">
-              Exclusive Palm Experiences
+              {t('locations.palmJumeirah.exclusiveExperiences.title')}
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
               {exclusiveExperiences.map((exp, index) => (
@@ -341,7 +355,7 @@ export default function PalmJumeirahPage() {
                   </ul>
                   <div className="text-2xl font-bold text-rolls-gold mb-4">{exp.price}</div>
                   <button className="btn-primary w-full">
-                    Book Experience
+                    {t('locations.palmJumeirah.exclusiveExperiences.bookButton')}
                   </button>
                 </motion.div>
               ))}
@@ -353,7 +367,7 @@ export default function PalmJumeirahPage() {
         <section className="py-20 bg-gradient-to-b from-rolls-black to-rolls-navy">
           <div className="container mx-auto px-4">
             <h2 className="text-4xl font-bold text-white text-center mb-12">
-              Palm Attractions Access
+              {t('locations.palmJumeirah.attractions.title')}
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
               {attractions.map((attraction, index) => (
@@ -367,10 +381,10 @@ export default function PalmJumeirahPage() {
                   <p className="text-gray-300 mb-3">{attraction.description}</p>
                   <div className="space-y-2 text-sm">
                     <p className="text-gray-400">
-                      <span className="text-rolls-gold">Distance:</span> {attraction.distance}
+                      <span className="text-rolls-gold">{t('locations.palmJumeirah.attractions.distance')}:</span> {attraction.distance}
                     </p>
                     <p className="text-gray-400">
-                      <span className="text-rolls-gold">Best Time:</span> {attraction.bestTime}
+                      <span className="text-rolls-gold">{t('locations.palmJumeirah.attractions.bestTime')}:</span> {attraction.bestTime}
                     </p>
                   </div>
                 </motion.div>
@@ -383,7 +397,7 @@ export default function PalmJumeirahPage() {
         <section className="py-20 bg-gradient-to-b from-rolls-navy to-rolls-black">
           <div className="container mx-auto px-4">
             <h2 className="text-4xl font-bold text-white text-center mb-12">
-              Best Times to Cruise The Palm
+              {t('locations.palmJumeirah.weather.title')}
             </h2>
             <WeatherRecommendations />
           </div>
@@ -393,7 +407,7 @@ export default function PalmJumeirahPage() {
         <section className="py-20 bg-gradient-to-b from-rolls-black to-rolls-navy">
           <div className="container mx-auto px-4">
             <h2 className="text-4xl font-bold text-white text-center mb-12">
-              Choose Your Palm Companion
+              {t('locations.palmJumeirah.fleet.title')}
             </h2>
             <ComparisonTool />
           </div>
@@ -403,10 +417,10 @@ export default function PalmJumeirahPage() {
         <section className="py-20 bg-gradient-to-b from-rolls-navy to-rolls-black">
           <div className="container mx-auto px-4 text-center">
             <h2 className="text-4xl font-bold text-white mb-6">
-              Experience The Palm in Ultimate Luxury
+              {t('locations.palmJumeirah.cta.title')}
             </h2>
             <p className="text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
-              From Atlantis arrivals to sunset beach drives, make every moment on The Palm unforgettable
+              {t('locations.palmJumeirah.cta.subtitle')}
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
               <motion.a
@@ -415,10 +429,10 @@ export default function PalmJumeirahPage() {
                 whileTap={{ scale: 0.95 }}
                 className="btn-primary"
               >
-                Call Palm Concierge
+                {t('locations.palmJumeirah.cta.callButton')}
               </motion.a>
               <Link href="/booking" className="btn-secondary">
-                Book Online Now
+                {t('locations.palmJumeirah.cta.bookButton')}
               </Link>
             </div>
             
@@ -428,19 +442,19 @@ export default function PalmJumeirahPage() {
                 <svg className="w-8 h-8 text-rolls-gold mx-auto mb-2" fill="currentColor" viewBox="0 0 20 20">
                   <path d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z" />
                 </svg>
-                <p className="text-white text-sm">Free Villa Delivery</p>
+                <p className="text-white text-sm">{t('locations.palmJumeirah.cta.freeDelivery')}</p>
               </div>
               <div className="bg-rolls-black/50 backdrop-blur-sm border border-rolls-gold/20 rounded-lg p-4">
                 <svg className="w-8 h-8 text-rolls-gold mx-auto mb-2" fill="currentColor" viewBox="0 0 20 20">
                   <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z" clipRule="evenodd" />
                 </svg>
-                <p className="text-white text-sm">15 Min Response</p>
+                <p className="text-white text-sm">{t('locations.palmJumeirah.cta.response')}</p>
               </div>
               <div className="bg-rolls-black/50 backdrop-blur-sm border border-rolls-gold/20 rounded-lg p-4">
                 <svg className="w-8 h-8 text-rolls-gold mx-auto mb-2" fill="currentColor" viewBox="0 0 20 20">
                   <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
                 </svg>
-                <p className="text-white text-sm">24/7 Support</p>
+                <p className="text-white text-sm">{t('locations.palmJumeirah.cta.support')}</p>
               </div>
             </div>
           </div>

@@ -934,6 +934,162 @@
           "pickupLocation": "Dubai Marina Walk, Gate B",
           "gps": "GPS: 25.0805° N, 55.1403° E"
         }
+      },
+      "palmJumeirah": {
+        "hero": {
+          "title": "Palm Jumeirah Luxury",
+          "subtitle": "Experience The Palm in Rolls-Royce Excellence",
+          "badge": "The 8th Wonder of the World",
+          "bookButton": "Book Palm Delivery",
+          "exploreButton": "Exclusive Experiences"
+        },
+        "whyChoose": {
+          "title": "Why Choose Rolls-Royce at The Palm?",
+          "beach": {
+            "title": "Beach Paradise",
+            "description": "Perfect for beach club arrivals and sunset drives along pristine coastlines"
+          },
+          "hotels": {
+            "title": "Iconic Hotels",
+            "description": "Direct access to Atlantis and world-class resorts with VIP valet service"
+          },
+          "villas": {
+            "title": "Exclusive Villas",
+            "description": "Serving Palm's elite villa community with personalized luxury service"
+          }
+        },
+        "partnerHotels": {
+          "title": "Partner Hotels & Resorts",
+          "additional": "Complimentary pickup and delivery to all Palm Jumeirah hotels and residences",
+          "atlantis": {
+            "category": "5-Star Resort",
+            "feature": "Valet Service"
+          },
+          "oneAndOnly": {
+            "category": "Ultra-Luxury",
+            "feature": "Private Beach"
+          },
+          "waldorf": {
+            "category": "5-Star Hotel",
+            "feature": "VIP Entrance"
+          },
+          "five": {
+            "category": "Beach Resort",
+            "feature": "Beach Club"
+          },
+          "anantara": {
+            "category": "Resort & Spa",
+            "feature": "Lagoon Access"
+          },
+          "w": {
+            "category": "Lifestyle Hotel",
+            "feature": "Rooftop Bar"
+          }
+        },
+        "drivingRoutes": {
+          "title": "Scenic Palm Routes",
+          "highlights": "Route Highlights",
+          "duration": "Duration",
+          "bestCar": "Best Car",
+          "crescent": {
+            "name": "Palm Crescent Drive",
+            "description": "Atlantis → Crescent Road → Luxury Villas → Return",
+            "highlights": ["Ocean views", "Exclusive villas", "Sunset spots"]
+          },
+          "full": {
+            "name": "Full Palm Circuit",
+            "description": "Complete loop around Palm Jumeirah",
+            "highlights": ["All hotels", "Beach clubs", "Marina views"]
+          },
+          "night": {
+            "name": "Night Lights Tour",
+            "description": "Evening drive with illuminated landmarks",
+            "highlights": ["Atlantis lights", "The Pointe fountains", "City skyline"]
+          }
+        },
+        "exclusiveExperiences": {
+          "title": "Exclusive Palm Experiences",
+          "bookButton": "Book Experience",
+          "beachClub": {
+            "title": "Beach Club Arrival",
+            "description": "Make a grand entrance at exclusive beach clubs",
+            "includes": [
+              "VIP parking coordination",
+              "Beach club reservations",
+              "Photographer arrangements",
+              "Sunset timing optimization"
+            ],
+            "price": "From AED 8,000"
+          },
+          "atlantis": {
+            "title": "Atlantis Experience",
+            "description": "Complete luxury package at Atlantis The Palm",
+            "includes": [
+              "Hotel valet service",
+              "Aquaventure access",
+              "Restaurant bookings",
+              "Chauffeur standby service"
+            ],
+            "price": "From AED 9,500"
+          },
+          "villa": {
+            "title": "Villa Collection Service",
+            "description": "Exclusive service for Palm villa residents",
+            "includes": [
+              "Monthly packages available",
+              "Dedicated account manager",
+              "Multiple vehicle options",
+              "24/7 availability"
+            ],
+            "price": "From AED 12,000"
+          }
+        },
+        "attractions": {
+          "title": "Palm Attractions Access",
+          "distance": "Distance",
+          "bestTime": "Best Time",
+          "thePointe": {
+            "description": "Waterfront dining and entertainment",
+            "distance": "5 min from Atlantis",
+            "bestTime": "Evening for fountain shows"
+          },
+          "nakheelMall": {
+            "description": "Premium shopping destination",
+            "distance": "10 min drive",
+            "bestTime": "Afternoon shopping"
+          },
+          "palmWestBeach": {
+            "description": "Pristine beach with luxury amenities",
+            "distance": "15 min drive",
+            "bestTime": "Sunset hours"
+          },
+          "theView": {
+            "description": "360° observation deck",
+            "distance": "8 min drive",
+            "bestTime": "Golden hour photography"
+          }
+        },
+        "weather": {
+          "title": "Best Times to Cruise The Palm"
+        },
+        "fleet": {
+          "title": "Choose Your Palm Companion"
+        },
+        "cta": {
+          "title": "Experience The Palm in Ultimate Luxury",
+          "subtitle": "From Atlantis arrivals to sunset beach drives, make every moment on The Palm unforgettable",
+          "callButton": "Call Palm Concierge",
+          "bookButton": "Book Online Now",
+          "freeDelivery": "Free Villa Delivery",
+          "response": "15 Min Response",
+          "support": "24/7 Support"
+        },
+        "stats": {
+          "deliveries": "Palm Deliveries Monthly",
+          "deliveryTime": "Average Delivery Time",
+          "concierge": "Concierge Service",
+          "satisfaction": "Client Satisfaction"
+        }
       }
     }
   }
