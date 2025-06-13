@@ -722,6 +722,130 @@
           "delivery": "Tower Delivery",
           "support": "Business Support"
         }
+      },
+      "downtown": {
+        "hero": {
+          "title": "Downtown Dubai Excellence",
+          "subtitle": "Luxury Car Rental at the Heart of Dubai",
+          "district": "Burj Khalifa District",
+          "bookButton": "Book Downtown Delivery",
+          "exploreButton": "Explore Experiences"
+        },
+        "advantages": {
+          "title": "Why Rolls-Royce in Downtown Dubai?",
+          "central": {
+            "title": "Central Location",
+            "description": "Minutes from every major attraction and business district"
+          },
+          "vip": {
+            "title": "VIP Access",
+            "description": "Priority entrance to Dubai Mall, Burj Khalifa, and hotels"
+          },
+          "delivery": {
+            "title": "10-Min Delivery",
+            "description": "Fastest response time in Downtown area"
+          },
+          "concierge": {
+            "title": "Concierge Service",
+            "description": "Restaurant bookings, event tickets, and local insights"
+          }
+        },
+        "landmarks": {
+          "title": "Direct Access to Downtown Landmarks"
+        },
+        "experiences": {
+          "title": "Curated Downtown Experiences",
+          "recommendedVehicle": "Recommended Vehicle",
+          "burjKhalifa": {
+            "title": "Burj Khalifa VIP Experience",
+            "description": "Arrive in style at the world's tallest building",
+            "features": [
+              "VIP entrance access",
+              "Professional photography",
+              "Sunset timing recommendations",
+              "Reserved parking arrangements"
+            ],
+            "recommended": "Phantom or Ghost"
+          },
+          "dubaiMall": {
+            "title": "Dubai Mall Shopping Tour",
+            "description": "Luxury shopping with dedicated chauffeur service",
+            "features": [
+              "VIP valet parking",
+              "Shopping assistance",
+              "Package storage in vehicle",
+              "Multi-stop coordination"
+            ],
+            "recommended": "Cullinan SUV"
+          },
+          "business": {
+            "title": "Business District Circuit",
+            "description": "Seamless corporate transportation in Downtown",
+            "features": [
+              "DIFC to Downtown routes",
+              "Meeting scheduling support",
+              "Mobile office features",
+              "Confidential environment"
+            ],
+            "recommended": "Ghost"
+          }
+        },
+        "hotels": {
+          "title": "Partner Hotels in Downtown",
+          "subtitle": "Complimentary delivery and pickup service to all Downtown Dubai hotels",
+          "additional": "+ All residential towers and serviced apartments"
+        },
+        "routes": {
+          "title": "Signature Downtown Routes",
+          "stops": "Route Stops",
+          "duration": "Duration",
+          "bestTime": "Best Time",
+          "fountain": {
+            "name": "Fountain Show Circuit",
+            "duration": "30 minutes",
+            "bestTime": "Evening (6-10 PM)"
+          },
+          "architecture": {
+            "name": "Architecture Tour",
+            "duration": "45 minutes",
+            "bestTime": "Golden Hour"
+          },
+          "dining": {
+            "name": "Luxury Dining Route",
+            "duration": "20 minutes between venues",
+            "bestTime": "Dinner Service"
+          }
+        },
+        "testimonials": {
+          "title": "Downtown Dubai Experiences",
+          "abdullah": {
+            "location": "Downtown Resident",
+            "text": "Living in Downtown, I use their Ghost for all my business meetings. The convenience of having a Rolls-Royce ready within minutes is unmatched."
+          },
+          "sophie": {
+            "location": "French Tourist",
+            "text": "We booked the Dawn for our anniversary dinner at At.mosphere. The chauffeur knew exactly where to stop for the best photos with Burj Khalifa."
+          },
+          "david": {
+            "location": "Business Traveler",
+            "text": "Stayed at Armani Hotel and used their Phantom service daily. Perfect for DIFC meetings and evening entertainment."
+          }
+        },
+        "fleet": {
+          "title": "Available Fleet in Downtown"
+        },
+        "cta": {
+          "title": "Experience Downtown Dubai in Ultimate Luxury",
+          "subtitle": "10-minute delivery to any Downtown location. VIP access to all major attractions included.",
+          "callButton": "Call Downtown Team",
+          "bookButton": "Book Online Now"
+        },
+        "stats": {
+          "deliveries": "Downtown Deliveries",
+          "time": "10 min",
+          "avgDelivery": "Average Delivery",
+          "availability": "Availability"
+        }
       }
     }
   }

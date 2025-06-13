@@ -1,5 +1,6 @@
 import { GetStaticProps } from 'next'
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
+import { useTranslation } from 'next-i18next'
 import Image from 'next/image'
 import Link from 'next/link'
 import { motion } from 'framer-motion'
@@ -9,6 +10,7 @@ import ComparisonTool from '@/components/ComparisonTool'
 import SEO from '@/components/SEO'
 
 export default function DowntownDubaiPage() {
+  const { t } = useTranslation('common')
   const landmarks = [
     { name: 'Burj Khalifa', type: 'Iconic Tower', distance: '2 min' },
     { name: 'Dubai Mall', type: 'Shopping', distance: '3 min' },
@@ -31,78 +33,78 @@ export default function DowntownDubaiPage() {
 
   const experiences = [
     {
-      title: 'Burj Khalifa VIP Experience',
-      description: 'Arrive in style at the world\'s tallest building',
+      title: t('locations.downtown.experiences.burjKhalifa.title'),
+      description: t('locations.downtown.experiences.burjKhalifa.description'),
       features: [
-        'VIP entrance access',
-        'Professional photography',
-        'Sunset timing recommendations',
-        'Reserved parking arrangements'
+        t('locations.downtown.experiences.burjKhalifa.features.0'),
+        t('locations.downtown.experiences.burjKhalifa.features.1'),
+        t('locations.downtown.experiences.burjKhalifa.features.2'),
+        t('locations.downtown.experiences.burjKhalifa.features.3')
       ],
-      recommended: 'Phantom or Ghost'
+      recommended: t('locations.downtown.experiences.burjKhalifa.recommended')
     },
     {
-      title: 'Dubai Mall Shopping Tour',
-      description: 'Luxury shopping with dedicated chauffeur service',
+      title: t('locations.downtown.experiences.dubaiMall.title'),
+      description: t('locations.downtown.experiences.dubaiMall.description'),
       features: [
-        'VIP valet parking',
-        'Shopping assistance',
-        'Package storage in vehicle',
-        'Multi-stop coordination'
+        t('locations.downtown.experiences.dubaiMall.features.0'),
+        t('locations.downtown.experiences.dubaiMall.features.1'),
+        t('locations.downtown.experiences.dubaiMall.features.2'),
+        t('locations.downtown.experiences.dubaiMall.features.3')
       ],
-      recommended: 'Cullinan SUV'
+      recommended: t('locations.downtown.experiences.dubaiMall.recommended')
     },
     {
-      title: 'Business District Circuit',
-      description: 'Seamless corporate transportation in Downtown',
+      title: t('locations.downtown.experiences.business.title'),
+      description: t('locations.downtown.experiences.business.description'),
       features: [
-        'DIFC to Downtown routes',
-        'Meeting scheduling support',
-        'Mobile office features',
-        'Confidential environment'
+        t('locations.downtown.experiences.business.features.0'),
+        t('locations.downtown.experiences.business.features.1'),
+        t('locations.downtown.experiences.business.features.2'),
+        t('locations.downtown.experiences.business.features.3')
       ],
-      recommended: 'Ghost'
+      recommended: t('locations.downtown.experiences.business.recommended')
     }
   ]
 
   const routes = [
     {
-      name: 'Fountain Show Circuit',
+      name: t('locations.downtown.routes.fountain.name'),
       stops: ['Dubai Mall Valet', 'Souk Al Bahar', 'Palace Hotel', 'Address Fountain Views'],
-      duration: '30 minutes',
-      bestTime: 'Evening (6-10 PM)'
+      duration: t('locations.downtown.routes.fountain.duration'),
+      bestTime: t('locations.downtown.routes.fountain.bestTime')
     },
     {
-      name: 'Architecture Tour',
+      name: t('locations.downtown.routes.architecture.name'),
       stops: ['Burj Khalifa', 'Dubai Opera', 'ICD Brookfield', 'Museum of the Future'],
-      duration: '45 minutes',
-      bestTime: 'Golden Hour'
+      duration: t('locations.downtown.routes.architecture.duration'),
+      bestTime: t('locations.downtown.routes.architecture.bestTime')
     },
     {
-      name: 'Luxury Dining Route',
+      name: t('locations.downtown.routes.dining.name'),
       stops: ['At.mosphere', 'Zuma', 'La Petite Maison', 'Nobu'],
-      duration: '20 minutes between venues',
-      bestTime: 'Dinner Service'
+      duration: t('locations.downtown.routes.dining.duration'),
+      bestTime: t('locations.downtown.routes.dining.bestTime')
     }
   ]
 
   const testimonials = [
     {
       name: 'Abdullah Al Rashid',
-      location: 'Downtown Resident',
-      text: 'Living in Downtown, I use their Ghost for all my business meetings. The convenience of having a Rolls-Royce ready within minutes is unmatched.',
+      location: t('locations.downtown.testimonials.abdullah.location'),
+      text: t('locations.downtown.testimonials.abdullah.text'),
       rating: 5
     },
     {
       name: 'Sophie Laurent',
-      location: 'French Tourist',
-      text: 'We booked the Dawn for our anniversary dinner at At.mosphere. The chauffeur knew exactly where to stop for the best photos with Burj Khalifa.',
+      location: t('locations.downtown.testimonials.sophie.location'),
+      text: t('locations.downtown.testimonials.sophie.text'),
       rating: 5
     },
     {
       name: 'David Chen',
-      location: 'Business Traveler',
-      text: 'Stayed at Armani Hotel and used their Phantom service daily. Perfect for DIFC meetings and evening entertainment.',
+      location: t('locations.downtown.testimonials.david.location'),
+      text: t('locations.downtown.testimonials.david.text'),
       rating: 5
     }
   ]
@@ -134,10 +136,10 @@ export default function DowntownDubaiPage() {
               transition={{ duration: 1 }}
             >
               <h1 className="text-5xl md:text-7xl font-bold text-white mb-6">
-                Downtown Dubai Excellence
+                {t('locations.downtown.hero.title')}
               </h1>
               <p className="text-2xl text-rolls-gold mb-8">
-                Luxury Car Rental at the Heart of Dubai
+                {t('locations.downtown.hero.subtitle')}
               </p>
               
               {/* Location Highlight */}
@@ -145,7 +147,7 @@ export default function DowntownDubaiPage() {
                 <svg className="w-5 h-5 text-rolls-gold" fill="currentColor" viewBox="0 0 20 20">
                   <path fillRule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clipRule="evenodd" />
                 </svg>
-                <span className="text-white">Burj Khalifa District</span>
+                <span className="text-white">{t('locations.downtown.hero.district')}</span>
               </div>
 
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -154,10 +156,10 @@ export default function DowntownDubaiPage() {
                   whileTap={{ scale: 0.95 }}
                   className="btn-primary"
                 >
-                  Book Downtown Delivery
+                  {t('locations.downtown.hero.bookButton')}
                 </motion.button>
                 <a href="#experiences" className="btn-secondary">
-                  Explore Experiences
+                  {t('locations.downtown.hero.exploreButton')}
                 </a>
               </div>
             </motion.div>
@@ -168,7 +170,7 @@ export default function DowntownDubaiPage() {
         <section className="py-20 bg-gradient-to-b from-rolls-black to-rolls-navy">
           <div className="container mx-auto px-4">
             <h2 className="text-4xl font-bold text-white text-center mb-12">
-              Why Rolls-Royce in Downtown Dubai?
+              {t('locations.downtown.advantages.title')}
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-4 gap-8 max-w-5xl mx-auto">
               <motion.div
@@ -179,9 +181,9 @@ export default function DowntownDubaiPage() {
                 <div className="w-20 h-20 mx-auto mb-4 bg-rolls-gold/10 rounded-full flex items-center justify-center">
                   <span className="text-3xl">🏢</span>
                 </div>
-                <h3 className="text-xl font-semibold text-white mb-3">Central Location</h3>
+                <h3 className="text-xl font-semibold text-white mb-3">{t('locations.downtown.advantages.central.title')}</h3>
                 <p className="text-gray-400">
-                  Minutes from every major attraction and business district
+                  {t('locations.downtown.advantages.central.description')}
                 </p>
               </motion.div>
 
@@ -194,9 +196,9 @@ export default function DowntownDubaiPage() {
                 <div className="w-20 h-20 mx-auto mb-4 bg-rolls-gold/10 rounded-full flex items-center justify-center">
                   <span className="text-3xl">🎯</span>
                 </div>
-                <h3 className="text-xl font-semibold text-white mb-3">VIP Access</h3>
+                <h3 className="text-xl font-semibold text-white mb-3">{t('locations.downtown.advantages.vip.title')}</h3>
                 <p className="text-gray-400">
-                  Priority entrance to Dubai Mall, Burj Khalifa, and hotels
+                  {t('locations.downtown.advantages.vip.description')}
                 </p>
               </motion.div>
 
@@ -209,9 +211,9 @@ export default function DowntownDubaiPage() {
                 <div className="w-20 h-20 mx-auto mb-4 bg-rolls-gold/10 rounded-full flex items-center justify-center">
                   <span className="text-3xl">⏱️</span>
                 </div>
-                <h3 className="text-xl font-semibold text-white mb-3">10-Min Delivery</h3>
+                <h3 className="text-xl font-semibold text-white mb-3">{t('locations.downtown.advantages.delivery.title')}</h3>
                 <p className="text-gray-400">
-                  Fastest response time in Downtown area
+                  {t('locations.downtown.advantages.delivery.description')}
                 </p>
               </motion.div>
 
@@ -224,9 +226,9 @@ export default function DowntownDubaiPage() {
                 <div className="w-20 h-20 mx-auto mb-4 bg-rolls-gold/10 rounded-full flex items-center justify-center">
                   <span className="text-3xl">🌟</span>
                 </div>
-                <h3 className="text-xl font-semibold text-white mb-3">Concierge Service</h3>
+                <h3 className="text-xl font-semibold text-white mb-3">{t('locations.downtown.advantages.concierge.title')}</h3>
                 <p className="text-gray-400">
-                  Restaurant bookings, event tickets, and local insights
+                  {t('locations.downtown.advantages.concierge.description')}
                 </p>
               </motion.div>
             </div>
@@ -237,7 +239,7 @@ export default function DowntownDubaiPage() {
         <section className="py-20 bg-gradient-to-b from-rolls-navy to-rolls-black">
           <div className="container mx-auto px-4">
             <h2 className="text-4xl font-bold text-white text-center mb-12">
-              Direct Access to Downtown Landmarks
+              {t('locations.downtown.landmarks.title')}
             </h2>
             <div className="max-w-5xl mx-auto">
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -265,7 +267,7 @@ export default function DowntownDubaiPage() {
         <section id="experiences" className="py-20 bg-gradient-to-b from-rolls-black to-rolls-navy">
           <div className="container mx-auto px-4">
             <h2 className="text-4xl font-bold text-white text-center mb-12">
-              Curated Downtown Experiences
+              {t('locations.downtown.experiences.title')}
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
               {experiences.map((exp, index) => (
@@ -289,7 +291,7 @@ export default function DowntownDubaiPage() {
                     ))}
                   </ul>
                   <div className="pt-4 border-t border-rolls-gold/20">
-                    <p className="text-sm text-gray-400">Recommended Vehicle:</p>
+                    <p className="text-sm text-gray-400">{t('locations.downtown.experiences.recommendedVehicle')}:</p>
                     <p className="text-rolls-gold font-semibold">{exp.recommended}</p>
                   </div>
                 </motion.div>
@@ -302,12 +304,12 @@ export default function DowntownDubaiPage() {
         <section className="py-20 bg-gradient-to-b from-rolls-navy to-rolls-black">
           <div className="container mx-auto px-4">
             <h2 className="text-4xl font-bold text-white text-center mb-12">
-              Partner Hotels in Downtown
+              {t('locations.downtown.hotels.title')}
             </h2>
             <div className="max-w-4xl mx-auto">
               <div className="bg-rolls-black/50 backdrop-blur-sm border border-rolls-gold/20 rounded-lg p-8">
                 <p className="text-gray-300 mb-6 text-center">
-                  Complimentary delivery and pickup service to all Downtown Dubai hotels
+                  {t('locations.downtown.hotels.subtitle')}
                 </p>
                 <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
                   {hotels.map((hotel, index) => (
@@ -323,7 +325,7 @@ export default function DowntownDubaiPage() {
                   ))}
                 </div>
                 <p className="text-center text-rolls-gold mt-6">
-                  + All residential towers and serviced apartments
+                  {t('locations.downtown.hotels.additional')}
                 </p>
               </div>
             </div>
@@ -334,7 +336,7 @@ export default function DowntownDubaiPage() {
         <section className="py-20 bg-gradient-to-b from-rolls-black to-rolls-navy">
           <div className="container mx-auto px-4">
             <h2 className="text-4xl font-bold text-white text-center mb-12">
-              Signature Downtown Routes
+              {t('locations.downtown.routes.title')}
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
               {routes.map((route, index) => (
@@ -348,7 +350,7 @@ export default function DowntownDubaiPage() {
                   <h3 className="text-xl font-semibold text-rolls-gold mb-4">{route.name}</h3>
                   <div className="space-y-3">
                     <div>
-                      <p className="text-sm text-gray-400 mb-2">Route Stops:</p>
+                      <p className="text-sm text-gray-400 mb-2">{t('locations.downtown.routes.stops')}:</p>
                       <ul className="space-y-1">
                         {route.stops.map((stop, idx) => (
                           <li key={idx} className="text-gray-300 text-sm flex items-center">
@@ -360,11 +362,11 @@ export default function DowntownDubaiPage() {
                     </div>
                     <div className="pt-3 border-t border-rolls-gold/10">
                       <div className="flex justify-between text-sm">
-                        <span className="text-gray-400">Duration:</span>
+                        <span className="text-gray-400">{t('locations.downtown.routes.duration')}:</span>
                         <span className="text-white">{route.duration}</span>
                       </div>
                       <div className="flex justify-between text-sm mt-1">
-                        <span className="text-gray-400">Best Time:</span>
+                        <span className="text-gray-400">{t('locations.downtown.routes.bestTime')}:</span>
                         <span className="text-white">{route.bestTime}</span>
                       </div>
                     </div>
@@ -379,7 +381,7 @@ export default function DowntownDubaiPage() {
         <section className="py-20 bg-gradient-to-b from-rolls-navy to-rolls-black">
           <div className="container mx-auto px-4">
             <h2 className="text-4xl font-bold text-white text-center mb-12">
-              Downtown Dubai Experiences
+              {t('locations.downtown.testimonials.title')}
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
               {testimonials.map((testimonial, index) => (
@@ -412,7 +414,7 @@ export default function DowntownDubaiPage() {
         <section className="py-20 bg-gradient-to-b from-rolls-black to-rolls-navy">
           <div className="container mx-auto px-4">
             <h2 className="text-4xl font-bold text-white text-center mb-12">
-              Available Fleet in Downtown
+              {t('locations.downtown.fleet.title')}
             </h2>
             <ComparisonTool />
           </div>
@@ -422,10 +424,10 @@ export default function DowntownDubaiPage() {
         <section className="py-20 bg-gradient-to-b from-rolls-navy to-rolls-black">
           <div className="container mx-auto px-4 text-center">
             <h2 className="text-4xl font-bold text-white mb-6">
-              Experience Downtown Dubai in Ultimate Luxury
+              {t('locations.downtown.cta.title')}
             </h2>
             <p className="text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
-              10-minute delivery to any Downtown location. VIP access to all major attractions included.
+              {t('locations.downtown.cta.subtitle')}
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
               <motion.a
@@ -434,10 +436,10 @@ export default function DowntownDubaiPage() {
                 whileTap={{ scale: 0.95 }}
                 className="btn-primary"
               >
-                Call Downtown Team
+                {t('locations.downtown.cta.callButton')}
               </motion.a>
               <Link href="/booking" className="btn-secondary">
-                Book Online Now
+                {t('locations.downtown.cta.bookButton')}
               </Link>
             </div>
             
@@ -445,15 +447,15 @@ export default function DowntownDubaiPage() {
             <div className="grid grid-cols-3 gap-4 max-w-2xl mx-auto">
               <div className="bg-rolls-black/50 backdrop-blur-sm border border-rolls-gold/20 rounded-lg p-4">
                 <div className="text-2xl font-bold text-rolls-gold">1,000+</div>
-                <div className="text-sm text-gray-400">Downtown Deliveries</div>
+                <div className="text-sm text-gray-400">{t('locations.downtown.stats.deliveries')}</div>
               </div>
               <div className="bg-rolls-black/50 backdrop-blur-sm border border-rolls-gold/20 rounded-lg p-4">
-                <div className="text-2xl font-bold text-rolls-gold">10 min</div>
-                <div className="text-sm text-gray-400">Average Delivery</div>
+                <div className="text-2xl font-bold text-rolls-gold">{t('locations.downtown.stats.time')}</div>
+                <div className="text-sm text-gray-400">{t('locations.downtown.stats.avgDelivery')}</div>
               </div>
               <div className="bg-rolls-black/50 backdrop-blur-sm border border-rolls-gold/20 rounded-lg p-4">
                 <div className="text-2xl font-bold text-rolls-gold">24/7</div>
-                <div className="text-sm text-gray-400">Availability</div>
+                <div className="text-sm text-gray-400">{t('locations.downtown.stats.availability')}</div>
               </div>
             </div>
           </div>
