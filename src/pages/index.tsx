@@ -32,26 +32,26 @@ export default function Home() {
 
   const featuredServices = [
     {
-      title: 'Wedding Service',
-      description: 'Make your special day unforgettable',
+      title: t('services.wedding.title'),
+      description: t('services.wedding.description'),
       image: '/images/Rolls-royce-with-blan.jpg',
       href: '/services/wedding'
     },
     {
-      title: 'Corporate Travel',
-      description: 'Executive transportation solutions',
+      title: t('services.corporate.title'),
+      description: t('services.corporate.description'),
       image: '/images/Black_Rolls_Royce_Ghost.jpg',
       href: '/services/corporate'
     },
     {
-      title: 'Airport Transfer',
-      description: 'VIP airport pickup & drop-off',
+      title: t('services.airport.title'),
+      description: t('services.airport.description'),
       image: '/images/Rolls-oyce-air-port.jpg',
       href: '/services/airport-transfer'
     },
     {
-      title: 'City Tours',
-      description: 'Explore Dubai in ultimate luxury',
+      title: t('services.tours.title'),
+      description: t('services.tours.description'),
       image: '/images/Rolls-royce-dubai.jpg',
       href: '/services/tours'
     }
@@ -131,10 +131,10 @@ export default function Home() {
               className="text-center mb-12"
             >
               <h2 className="text-4xl font-bold text-white mb-4">
-                Experience Rolls-Royce Excellence
+                {t('home.video.title')}
               </h2>
               <p className="text-xl text-gray-300">
-                Watch our luxury fleet in action across Dubai
+                {t('home.video.subtitle')}
               </p>
             </motion.div>
 
@@ -205,7 +205,7 @@ export default function Home() {
         <section className="py-20 bg-gradient-to-b from-rolls-navy to-rolls-black">
           <div className="container mx-auto px-4">
             <h2 className="text-4xl font-bold text-white text-center mb-12">
-              Our Premium Services
+              {t('home.premiumServices.title')}
             </h2>
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
               {featuredServices.map((service, index) => (
@@ -241,7 +241,7 @@ export default function Home() {
             </div>
             <div className="text-center mt-12">
               <Link href="/services" className="btn-primary">
-                View All Services
+                {t('home.premiumServices.viewAll')}
               </Link>
             </div>
           </div>
@@ -254,7 +254,7 @@ export default function Home() {
           <div className="container mx-auto px-4">
             <div className="text-center mb-12">
               <h2 className="text-4xl font-bold text-white mb-4">
-                What Our Customers Say
+                {t('reviews.title')}
               </h2>
               <div className="flex items-center justify-center space-x-2 mb-4">
                 {[...Array(5)].map((_, i) => (
@@ -262,7 +262,7 @@ export default function Home() {
                     <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
                   </svg>
                 ))}
-                <span className="text-white text-xl ml-2">5.0 (500+ Reviews)</span>
+                <span className="text-white text-xl ml-2">{t('reviews.rating')} (500+ {t('reviews.verified')})</span>
               </div>
             </div>
 
@@ -302,7 +302,7 @@ export default function Home() {
             
             <div className="text-center">
               <Link href="/testimonials" className="btn-secondary">
-                Read All 500+ Reviews
+                {t('reviews.readMore')}
               </Link>
             </div>
           </div>
@@ -314,31 +314,31 @@ export default function Home() {
         <section className="py-20 bg-gradient-to-b from-rolls-navy to-rolls-black">
           <div className="container mx-auto px-4">
             <h2 className="text-4xl font-bold text-white text-center mb-12">
-              Explore More
+              {t('home.explore.title')}
             </h2>
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-6xl mx-auto">
               <Link href="/gallery" className="bg-rolls-black/50 backdrop-blur-sm border border-rolls-gold/20 rounded-lg p-6 hover:border-rolls-gold/40 transition-all text-center group">
                 <div className="text-4xl mb-3">📸</div>
-                <h3 className="text-white font-semibold group-hover:text-rolls-gold transition-colors">Gallery</h3>
-                <p className="text-gray-400 text-sm mt-2">Browse our stunning collection</p>
+                <h3 className="text-white font-semibold group-hover:text-rolls-gold transition-colors">{t('home.explore.gallery.title')}</h3>
+                <p className="text-gray-400 text-sm mt-2">{t('home.explore.gallery.subtitle')}</p>
               </Link>
               
               <Link href="/faq" className="bg-rolls-black/50 backdrop-blur-sm border border-rolls-gold/20 rounded-lg p-6 hover:border-rolls-gold/40 transition-all text-center group">
                 <div className="text-4xl mb-3">❓</div>
-                <h3 className="text-white font-semibold group-hover:text-rolls-gold transition-colors">FAQs</h3>
-                <p className="text-gray-400 text-sm mt-2">Get answers to common questions</p>
+                <h3 className="text-white font-semibold group-hover:text-rolls-gold transition-colors">{t('home.explore.faq.title')}</h3>
+                <p className="text-gray-400 text-sm mt-2">{t('home.explore.faq.subtitle')}</p>
               </Link>
               
               <Link href="/blog" className="bg-rolls-black/50 backdrop-blur-sm border border-rolls-gold/20 rounded-lg p-6 hover:border-rolls-gold/40 transition-all text-center group">
                 <div className="text-4xl mb-3">📖</div>
-                <h3 className="text-white font-semibold group-hover:text-rolls-gold transition-colors">Blog</h3>
-                <p className="text-gray-400 text-sm mt-2">Read luxury insights & tips</p>
+                <h3 className="text-white font-semibold group-hover:text-rolls-gold transition-colors">{t('home.explore.blog.title')}</h3>
+                <p className="text-gray-400 text-sm mt-2">{t('home.explore.blog.subtitle')}</p>
               </Link>
               
               <Link href="/compare/rolls-royce-vs-bentley" className="bg-rolls-black/50 backdrop-blur-sm border border-rolls-gold/20 rounded-lg p-6 hover:border-rolls-gold/40 transition-all text-center group">
                 <div className="text-4xl mb-3">⚖️</div>
-                <h3 className="text-white font-semibold group-hover:text-rolls-gold transition-colors">Compare</h3>
-                <p className="text-gray-400 text-sm mt-2">Rolls-Royce vs Other Brands</p>
+                <h3 className="text-white font-semibold group-hover:text-rolls-gold transition-colors">{t('home.explore.compare.title')}</h3>
+                <p className="text-gray-400 text-sm mt-2">{t('home.explore.compare.subtitle')}</p>
               </Link>
             </div>
           </div>

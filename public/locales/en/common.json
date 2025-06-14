@@ -1221,6 +1221,35 @@
           "hotline": "Corporate Hotline: +971 55 816 4922",
           "email": "Email: corporate@rollsroycers.com"
         }
+      },
+      "home": {
+        "video": {
+          "title": "Experience Rolls-Royce Excellence",
+          "subtitle": "Watch our luxury fleet in action across Dubai"
+        },
+        "premiumServices": {
+          "title": "Our Premium Services",
+          "viewAll": "View All Services"
+        },
+        "explore": {
+          "title": "Explore More",
+          "gallery": {
+            "title": "Gallery",
+            "subtitle": "Browse our stunning collection"
+          },
+          "faq": {
+            "title": "FAQs",
+            "subtitle": "Get answers to common questions"
+          },
+          "blog": {
+            "title": "Blog",
+            "subtitle": "Read luxury insights & tips"
+          },
+          "compare": {
+            "title": "Compare",
+            "subtitle": "Rolls-Royce vs Other Brands"
+          }
+        }
       }
     }
   }
