@@ -26,7 +26,10 @@ export default function LoyaltyProgram() {
 
   const getTranslatedArray = (key: string, fallback: string[]): string[] => {
     const translation = t(key, { returnObjects: true });
-    return Array.isArray(translation) ? translation : fallback;
+    if (Array.isArray(translation)) {
+      return translation.map(item => typeof item === 'string' ? item : JSON.stringify(item));
+    }
+    return fallback;
   };
 
   const tiers: Tier[] = [
@@ -91,8 +94,8 @@ export default function LoyaltyProgram() {
           transition={{ duration: 0.8 }}
           className="text-center mb-12"
         >
-          <h2 className="heading-2 text-white mb-4">Rolls-Royce Elite Club</h2>
-          <p className="text-xl text-rolls-gold">Exclusive rewards for our distinguished clients</p>
+          <h2 className="heading-2 text-white mb-4">{t('loyalty.title')}</h2>
+          <p className="text-xl text-rolls-gold">{t('loyalty.subtitle')}</p>
         </motion.div>
 
         {/* Tiers Grid */}
@@ -140,7 +143,7 @@ export default function LoyaltyProgram() {
                     }}
                     className="w-full mt-6 px-4 py-2 bg-gradient-to-r from-rolls-gold to-yellow-600 text-rolls-black font-semibold rounded hover:shadow-lg transition-shadow"
                   >
-                    Join Now - Free
+                    {t('loyalty.join')}
                   </motion.button>
                 )}
               </div>
@@ -155,7 +158,7 @@ export default function LoyaltyProgram() {
           transition={{ duration: 0.8, delay: 0.4 }}
           className="bg-rolls-black/50 backdrop-blur-sm border border-rolls-gold/20 rounded-lg p-8 max-w-4xl mx-auto"
         >
-          <h3 className="text-xl font-semibold text-white mb-6 text-center">Your Journey to Elite Status</h3>
+          <h3 className="text-xl font-semibold text-white mb-6 text-center">{t('loyalty.journey')}</h3>
           
           <div className="relative">
             <div className="absolute top-5 left-0 right-0 h-1 bg-rolls-gold/20 rounded"></div>
@@ -178,14 +181,14 @@ export default function LoyaltyProgram() {
 
           <div className="mt-8 text-center">
             <p className="text-gray-300 mb-4">
-              Start your journey today and unlock exclusive benefits with every rental
+              {t('loyalty.enroll')}
             </p>
             {!showEnrollForm && (
               <button
                 onClick={() => setShowEnrollForm(true)}
                 className="btn-primary"
               >
-                Enroll in Elite Club
+                {t('loyalty.enroll')}
               </button>
             )}
           </div>
@@ -205,11 +208,11 @@ export default function LoyaltyProgram() {
               className="bg-rolls-black border border-rolls-gold/30 rounded-lg p-8 max-w-md w-full"
               onClick={(e) => e.stopPropagation()}
             >
-              <h3 className="text-2xl font-semibold text-white mb-6">Join Rolls-Royce Elite Club</h3>
+              <h3 className="text-2xl font-semibold text-white mb-6">{t('loyalty.form.title')}</h3>
               <form onSubmit={handleEnroll} className="space-y-4">
                 <div>
                   <label className="block text-sm font-medium text-rolls-gold mb-2">
-                    Full Name
+                    {t('loyalty.form.name')}
                   </label>
                   <input
                     type="text"
@@ -222,7 +225,7 @@ export default function LoyaltyProgram() {
 
                 <div>
                   <label className="block text-sm font-medium text-rolls-gold mb-2">
-                    Email Address
+                    {t('loyalty.form.email')}
                   </label>
                   <input
                     type="email"
@@ -235,7 +238,7 @@ export default function LoyaltyProgram() {
 
                 <div>
                   <label className="block text-sm font-medium text-rolls-gold mb-2">
-                    Phone Number
+                    {t('loyalty.form.phone')}
                   </label>
                   <input
                     type="tel"
@@ -248,14 +251,14 @@ export default function LoyaltyProgram() {
 
                 <div>
                   <label className="block text-sm font-medium text-rolls-gold mb-2">
-                    Preferred Rolls-Royce Model
+                    {t('loyalty.form.preferredCar')}
                   </label>
                   <select
                     value={enrollData.preferredCar}
                     onChange={(e) => setEnrollData({...enrollData, preferredCar: e.target.value})}
                     className="w-full px-4 py-3 bg-rolls-navy/50 border border-rolls-gold/20 rounded text-white focus:border-rolls-gold focus:outline-none"
                   >
-                    <option value="">Select a model</option>
+                    <option value="">{t('loyalty.form.selectModel')}</option>
                     <option value="phantom">Phantom</option>
                     <option value="cullinan">Cullinan</option>
                     <option value="ghost">Ghost</option>
@@ -266,20 +269,20 @@ export default function LoyaltyProgram() {
 
                 <div className="flex space-x-4 pt-4">
                   <button type="submit" className="btn-primary flex-1">
-                    Join Elite Club
+                    {t('loyalty.form.joinButton')}
                   </button>
                   <button
                     type="button"
                     onClick={() => setShowEnrollForm(false)}
                     className="btn-secondary flex-1"
                   >
-                    Cancel
+                    {t('loyalty.form.cancel')}
                   </button>
                 </div>
               </form>
 
               <p className="text-xs text-gray-500 mt-4 text-center">
-                By joining, you agree to receive exclusive offers and updates
+                {t('loyalty.form.terms')}
               </p>
             </motion.div>
           </motion.div>
@@ -293,28 +296,28 @@ export default function LoyaltyProgram() {
           className="mt-16"
         >
           <h3 className="text-2xl font-semibold text-white text-center mb-8">
-            Why Join Elite Club?
+            {t('loyalty.whyJoin')}
           </h3>
           <div className="grid grid-cols-1 md:grid-cols-4 gap-6 max-w-4xl mx-auto">
             <div className="text-center">
               <div className="text-4xl mb-3">💰</div>
-              <h4 className="font-semibold text-white mb-2">Save More</h4>
-              <p className="text-sm text-gray-400">Up to 15% off on every rental</p>
+              <h4 className="font-semibold text-white mb-2">{t('loyalty.saveMore.title')}</h4>
+              <p className="text-sm text-gray-400">{t('loyalty.saveMore.subtitle')}</p>
             </div>
             <div className="text-center">
               <div className="text-4xl mb-3">⚡</div>
-              <h4 className="font-semibold text-white mb-2">Priority Access</h4>
-              <p className="text-sm text-gray-400">First choice on new models</p>
+              <h4 className="font-semibold text-white mb-2">{t('loyalty.priorityAccess.title')}</h4>
+              <p className="text-sm text-gray-400">{t('loyalty.priorityAccess.subtitle')}</p>
             </div>
             <div className="text-center">
               <div className="text-4xl mb-3">🎁</div>
-              <h4 className="font-semibold text-white mb-2">Exclusive Perks</h4>
-              <p className="text-sm text-gray-400">Special gifts and experiences</p>
+              <h4 className="font-semibold text-white mb-2">{t('loyalty.exclusivePerks.title')}</h4>
+              <p className="text-sm text-gray-400">{t('loyalty.exclusivePerks.subtitle')}</p>
             </div>
             <div className="text-center">
               <div className="text-4xl mb-3">🌟</div>
-              <h4 className="font-semibold text-white mb-2">VIP Treatment</h4>
-              <p className="text-sm text-gray-400">Personal concierge service</p>
+              <h4 className="font-semibold text-white mb-2">{t('loyalty.vipTreatment.title')}</h4>
+              <p className="text-sm text-gray-400">{t('loyalty.vipTreatment.subtitle')}</p>
             </div>
           </div>
         </motion.div>

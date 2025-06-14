@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { motion } from 'framer-motion'
 import { useInView } from 'react-intersection-observer'
+import { useTranslation } from 'next-i18next'
 
 interface Destination {
   id: string
@@ -21,6 +22,7 @@ interface TripPlan {
 }
 
 export default function TripPlanner() {
+  const { t } = useTranslation('common')
   const [ref, inView] = useInView({ triggerOnce: true, threshold: 0.1 })
   const [selectedCar, setSelectedCar] = useState('cullinan')
   const [selectedDestinations, setSelectedDestinations] = useState<string[]>([])
@@ -176,8 +178,8 @@ export default function TripPlanner() {
           transition={{ duration: 0.8 }}
           className="text-center mb-12"
         >
-          <h2 className="heading-2 text-white mb-4">Luxury Trip Planner</h2>
-          <p className="text-xl text-rolls-gold">Create your perfect Dubai journey</p>
+          <h2 className="heading-2 text-white mb-4">{t('tripPlanner.title')}</h2>
+          <p className="text-xl text-rolls-gold">{t('tripPlanner.subtitle')}</p>
         </motion.div>
 
         <div className="max-w-6xl mx-auto">
@@ -191,7 +193,7 @@ export default function TripPlanner() {
                 transition={{ duration: 0.5 }}
                 className="bg-rolls-black/50 backdrop-blur-sm border border-rolls-gold/20 rounded-lg p-6"
               >
-                <h3 className="text-lg font-semibold text-white mb-4">Select Your Rolls-Royce</h3>
+                <h3 className="text-lg font-semibold text-white mb-4">{t('tripPlanner.selectCar')}</h3>
                 <div className="space-y-3">
                   {carOptions.map((car) => (
                     <button
@@ -205,7 +207,7 @@ export default function TripPlanner() {
                     >
                       <div className="text-left">
                         <div className="font-semibold">{car.name}</div>
-                        <div className="text-xs opacity-75">Ideal for: {car.ideal}</div>
+                        <div className="text-xs opacity-75">{t('tripPlanner.idealFor')}: {car.ideal}</div>
                       </div>
                     </button>
                   ))}
@@ -219,7 +221,7 @@ export default function TripPlanner() {
                 transition={{ duration: 0.5, delay: 0.1 }}
                 className="bg-rolls-black/50 backdrop-blur-sm border border-rolls-gold/20 rounded-lg p-6"
               >
-                <h3 className="text-lg font-semibold text-white mb-4">Suggested Routes</h3>
+                <h3 className="text-lg font-semibold text-white mb-4">{t('tripPlanner.suggestedRoutes')}</h3>
                 <div className="space-y-3">
                   {Object.entries(routeSuggestions).map(([key, route]) => (
                     <button
@@ -246,9 +248,9 @@ export default function TripPlanner() {
                 className="bg-rolls-black/50 backdrop-blur-sm border border-rolls-gold/20 rounded-lg p-6"
               >
                 <div className="flex items-center justify-between mb-6">
-                  <h3 className="text-lg font-semibold text-white">Choose Destinations</h3>
+                  <h3 className="text-lg font-semibold text-white">{t('tripPlanner.chooseDestinations')}</h3>
                   <span className="text-sm text-gray-400">
-                    {selectedDestinations.length}/5 selected
+                    {selectedDestinations.length}/5 {t('tripPlanner.selected')}
                   </span>
                 </div>
 
@@ -275,7 +277,7 @@ export default function TripPlanner() {
                             {destination.name}
                             {destination.recommended && (
                               <span className="text-xs bg-rolls-gold/30 text-rolls-gold px-2 py-0.5 rounded-full">
-                                Recommended
+                                {t('tripPlanner.recommended')}
                               </span>
                             )}
                           </div>
@@ -303,7 +305,7 @@ export default function TripPlanner() {
                     onClick={generateTripPlan}
                     className="btn-primary w-full"
                   >
-                    Generate Trip Plan
+                    {t('tripPlanner.generatePlan')}
                   </motion.button>
                 )}
               </motion.div>
@@ -318,32 +320,32 @@ export default function TripPlanner() {
               className="mt-8 bg-rolls-black/50 backdrop-blur-sm border border-rolls-gold/20 rounded-lg p-8"
             >
               <h3 className="text-2xl font-semibold text-white mb-6 text-center">
-                Your Luxury Trip Plan
+                {t('tripPlanner.yourPlan')}
               </h3>
 
               <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
                 <div className="text-center">
                   <div className="text-3xl mb-2">🚗</div>
-                  <div className="text-sm text-gray-400">Vehicle</div>
+                  <div className="text-sm text-gray-400">{t('tripPlanner.vehicle')}</div>
                   <div className="text-lg font-semibold text-white">
                     Rolls-Royce {carOptions.find(c => c.id === tripPlan.car)?.name}
                   </div>
                 </div>
                 <div className="text-center">
                   <div className="text-3xl mb-2">📍</div>
-                  <div className="text-sm text-gray-400">Total Distance</div>
+                  <div className="text-sm text-gray-400">{t('tripPlanner.totalDistance')}</div>
                   <div className="text-lg font-semibold text-white">{tripPlan.totalDistance} km</div>
                 </div>
                 <div className="text-center">
                   <div className="text-3xl mb-2">⏱️</div>
-                  <div className="text-sm text-gray-400">Estimated Time</div>
+                  <div className="text-sm text-gray-400">{t('tripPlanner.estimatedTime')}</div>
                   <div className="text-lg font-semibold text-white">{tripPlan.estimatedTime}</div>
                 </div>
               </div>
 
               <div className="space-y-4">
                 <div>
-                  <h4 className="text-lg font-semibold text-rolls-gold mb-3">Your Route</h4>
+                  <h4 className="text-lg font-semibold text-rolls-gold mb-3">{t('tripPlanner.yourRoute')}</h4>
                   <div className="flex flex-wrap gap-2">
                     {tripPlan.destinations.map((destId, index) => {
                       const dest = destinations.find(d => d.id === destId)
@@ -365,7 +367,7 @@ export default function TripPlanner() {
                 </div>
 
                 <div>
-                  <h4 className="text-lg font-semibold text-rolls-gold mb-3">Recommended Stops</h4>
+                  <h4 className="text-lg font-semibold text-rolls-gold mb-3">{t('tripPlanner.recommendedStops')}</h4>
                   <ul className="space-y-2">
                     {tripPlan.recommendedStops.map((stop, index) => (
                       <li key={index} className="flex items-start gap-2 text-gray-300">
@@ -386,7 +388,7 @@ export default function TripPlanner() {
                   whileTap={{ scale: 0.95 }}
                   className="btn-primary flex-1 text-center"
                 >
-                  Book This Experience
+                  {t('tripPlanner.bookExperience')}
                 </motion.a>
                 <button
                   onClick={() => {
@@ -395,7 +397,7 @@ export default function TripPlanner() {
                   }}
                   className="btn-secondary flex-1"
                 >
-                  Create New Plan
+                  {t('tripPlanner.createPlan')}
                 </button>
               </div>
             </motion.div>

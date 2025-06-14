@@ -1249,6 +1249,64 @@
             "title": "Compare",
             "subtitle": "Rolls-Royce vs Other Brands"
           }
+        },
+        "personalizedOffers": {
+          "title": "Your Personalized Offers",
+          "subtitle": "Exclusive deals curated just for you",
+          "ai": "AI-powered recommendations based on your preferences",
+          "welcome": {
+            "title": "Welcome Back! Exclusive 20% Off",
+            "description": "As a valued returning visitor, enjoy this special discount on your next booking",
+            "validFor": "Valid for:",
+            "allVehicles": "All vehicles",
+            "copyCode": "Copy Code",
+            "copied": "✓ Copied!",
+            "terms": "Terms & Conditions",
+            "useOffer": "Use This Offer"
+          },
+          "upgrade": {
+            "title": "Weekend Luxury Upgrade",
+            "description": "Book a Ghost, get upgraded to Phantom for the same price",
+            "validFor": "Valid for:",
+            "weekendBookings": "Weekend bookings"
+          },
+          "extended": {
+            "title": "Extended Journey: 30% Off Weekly Rentals",
+            "description": "Perfect for your extended Dubai experience",
+            "validFor": "Valid for:",
+            "weeklyRentals": "7+ day rentals"
+          },
+          "executive": {
+            "title": "Executive Package: Free Chauffeur",
+            "description": "Complimentary professional chauffeur service with any rental",
+            "validFor": "Valid for:",
+            "businessBookings": "Business bookings"
+          },
+          "notFound": {
+            "title": "Didn't Find What You're Looking For?",
+            "subtitle": "Let us create a custom package tailored to your specific needs and preferences.",
+            "chat": "Chat with Sales",
+            "quote": "Request Custom Quote"
+          }
+        },
+        "tripPlanner": {
+          "title": "Luxury Trip Planner",
+          "subtitle": "Create your perfect Dubai journey",
+          "selectCar": "Select Your Rolls-Royce",
+          "idealFor": "Ideal for",
+          "suggestedRoutes": "Suggested Routes",
+          "chooseDestinations": "Choose Destinations",
+          "selected": "selected",
+          "recommended": "Recommended",
+          "generatePlan": "Generate Trip Plan",
+          "yourPlan": "Your Luxury Trip Plan",
+          "vehicle": "Vehicle",
+          "totalDistance": "Total Distance",
+          "estimatedTime": "Estimated Time",
+          "yourRoute": "Your Route",
+          "recommendedStops": "Recommended Stops",
+          "bookExperience": "Book This Experience",
+          "createPlan": "Create New Plan"
         }
       }
     }

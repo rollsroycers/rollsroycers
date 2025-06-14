@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { useInView } from 'react-intersection-observer'
+import { useTranslation } from 'next-i18next'
 
 interface PersonalizedOffer {
   id: string
@@ -23,6 +24,7 @@ interface UserPreferences {
 }
 
 export default function PersonalizedOffers() {
+  const { t } = useTranslation('common')
   const [ref, inView] = useInView({ triggerOnce: true, threshold: 0.1 })
   const [personalizedOffers, setPersonalizedOffers] = useState<PersonalizedOffer[]>([])
   const [showOfferDetails, setShowOfferDetails] = useState<string | null>(null)
@@ -208,8 +210,8 @@ export default function PersonalizedOffers() {
           transition={{ duration: 0.8 }}
           className="text-center mb-12"
         >
-          <h2 className="heading-2 text-white mb-4">Your Personalized Offers</h2>
-          <p className="text-xl text-rolls-gold">Exclusive deals curated just for you</p>
+          <h2 className="heading-2 text-white mb-4">{t('personalizedOffers.title')}</h2>
+          <p className="text-xl text-rolls-gold">{t('personalizedOffers.subtitle')}</p>
           
           {/* AI Badge */}
           <motion.div
@@ -219,7 +221,7 @@ export default function PersonalizedOffers() {
             className="inline-flex items-center gap-2 mt-4 px-4 py-2 bg-rolls-black/50 backdrop-blur-sm border border-rolls-gold/20 rounded-full"
           >
             <div className="w-2 h-2 bg-green-500 rounded-full animate-pulse"></div>
-            <span className="text-sm text-gray-400">AI-powered recommendations based on your preferences</span>
+            <span className="text-sm text-gray-400">{t('personalizedOffers.ai')}</span>
           </motion.div>
         </motion.div>
 
@@ -251,7 +253,7 @@ export default function PersonalizedOffers() {
 
                 <div className="mb-4">
                   <div className="flex items-center justify-between mb-2">
-                    <span className="text-sm text-gray-400">Valid for:</span>
+                    <span className="text-sm text-gray-400">{t('personalizedOffers.welcome.validFor')}</span>
                     <span className="text-sm text-rolls-gold font-semibold">{offer.validFor}</span>
                   </div>
                   
@@ -262,7 +264,7 @@ export default function PersonalizedOffers() {
                       onClick={() => handleCopyCode(offer.code)}
                       className="text-sm text-white hover:text-rolls-gold transition-colors"
                     >
-                      {copiedCode === offer.code ? '✓ Copied!' : 'Copy Code'}
+                      {copiedCode === offer.code ? t('personalizedOffers.welcome.copied') : t('personalizedOffers.welcome.copyCode')}
                     </button>
                   </div>
                 </div>
@@ -271,7 +273,7 @@ export default function PersonalizedOffers() {
                   onClick={() => setShowOfferDetails(showOfferDetails === offer.id ? null : offer.id)}
                   className="text-sm text-gray-400 hover:text-white transition-colors flex items-center gap-1"
                 >
-                  Terms & Conditions
+                  {t('personalizedOffers.welcome.terms')}
                   <svg className={`w-4 h-4 transition-transform ${showOfferDetails === offer.id ? 'rotate-180' : ''}`} fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
                   </svg>
@@ -303,7 +305,7 @@ export default function PersonalizedOffers() {
                   whileTap={{ scale: 0.95 }}
                   className="btn-primary w-full mt-4 text-center"
                 >
-                  Use This Offer
+                  {t('personalizedOffers.welcome.useOffer')}
                 </motion.a>
               </div>
             </motion.div>
@@ -319,23 +321,23 @@ export default function PersonalizedOffers() {
         >
           <div className="bg-gradient-to-r from-rolls-gold/20 to-rolls-gold/10 backdrop-blur-sm border border-rolls-gold/30 rounded-lg p-8 max-w-2xl mx-auto">
             <h3 className="text-2xl font-semibold text-white mb-4">
-              Didn't Find What You're Looking For?
+              {t('personalizedOffers.notFound.title')}
             </h3>
             <p className="text-gray-300 mb-6">
-              Let us create a custom package tailored to your specific needs and preferences.
+              {t('personalizedOffers.notFound.subtitle')}
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <button className="btn-secondary flex items-center justify-center gap-2">
                 <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" />
                 </svg>
-                Chat with Sales
+                {t('personalizedOffers.notFound.chat')}
               </button>
               <button className="btn-primary flex items-center justify-center gap-2">
                 <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M9 16h.01" />
                 </svg>
-                Request Custom Quote
+                {t('personalizedOffers.notFound.quote')}
               </button>
             </div>
           </div>
