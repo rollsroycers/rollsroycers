@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { motion } from 'framer-motion'
 import { useInView } from 'react-intersection-observer'
+import { useTranslation } from 'next-i18next'
 
 interface InstagramPost {
   id: string
@@ -13,6 +14,7 @@ interface InstagramPost {
 }
 
 export default function InstagramFeed() {
+  const { t } = useTranslation('common')
   const [ref, inView] = useInView({ triggerOnce: true, threshold: 0.1 })
   const [selectedPost, setSelectedPost] = useState<InstagramPost | null>(null)
 
@@ -21,7 +23,7 @@ export default function InstagramFeed() {
     {
       id: '1',
       image: '/images/Rolls-royce-dubai.jpg',
-      caption: 'Cruising through Downtown Dubai in ultimate luxury 🌆',
+      caption: t('loyalty.tiers.silver.instagram.post1'),
       likes: 1234,
       hashtags: ['#RollsRoyceDubai', '#LuxuryLifestyle', '#DubaiLife'],
       carModel: 'Phantom',
@@ -30,7 +32,7 @@ export default function InstagramFeed() {
     {
       id: '2',
       image: '/images/Rolls-Royce-white.jpg',
-      caption: 'Sunset drives in the Dawn convertible 🌅',
+      caption: t('loyalty.tiers.silver.instagram.post2'),
       likes: 987,
       hashtags: ['#RollsRoyceDawn', '#ConvertibleLife', '#DubaiSunset'],
       carModel: 'Dawn',
@@ -39,7 +41,7 @@ export default function InstagramFeed() {
     {
       id: '3',
       image: '/images/Rolls-Royce-Cullinan_.jpg',
-      caption: 'Adventure ready with the Cullinan SUV 🏜️',
+      caption: t('loyalty.tiers.silver.instagram.post3'),
       likes: 1567,
       hashtags: ['#RollsRoyceCullinan', '#LuxurySUV', '#DesertDubai'],
       carModel: 'Cullinan',
@@ -48,7 +50,7 @@ export default function InstagramFeed() {
     {
       id: '4',
       image: '/images/Rolls-Royce-black.jpg',
-      caption: 'Business meetings in style with the Ghost 💼',
+      caption: t('loyalty.tiers.silver.instagram.post4'),
       likes: 892,
       hashtags: ['#RollsRoyceGhost', '#BusinessClass', '#DIFC'],
       carModel: 'Ghost',
@@ -57,7 +59,7 @@ export default function InstagramFeed() {
     {
       id: '5',
       image: '/images/Rolls-Royce-front.jpg',
-      caption: 'Performance meets luxury in the Wraith 🏁',
+      caption: t('loyalty.tiers.silver.instagram.post5'),
       likes: 1123,
       hashtags: ['#RollsRoyceWraith', '#LuxuryCoupe', '#DubaiCars'],
       carModel: 'Wraith',
@@ -66,7 +68,7 @@ export default function InstagramFeed() {
     {
       id: '6',
       image: '/images/Rolls-royce-with-blan.jpg',
-      caption: 'Wedding season with our exclusive fleet 💒',
+      caption: t('loyalty.tiers.silver.instagram.post6'),
       likes: 2345,
       hashtags: ['#DubaiWedding', '#LuxuryWedding', '#RollsRoyceFleet'],
       location: 'Atlantis The Palm'
@@ -90,8 +92,8 @@ export default function InstagramFeed() {
           transition={{ duration: 0.8 }}
           className="text-center mb-12"
         >
-          <h2 className="heading-2 text-white mb-4">Follow Our Journey</h2>
-          <p className="text-xl text-rolls-gold mb-6">@rollsroycers on Instagram</p>
+          <h2 className="heading-2 text-white mb-4">{t('loyalty.tiers.silver.instagram.followJourney')}</h2>
+          <p className="text-xl text-rolls-gold mb-6">{t('loyalty.tiers.silver.instagram.account')}</p>
           
           {/* Social Stats */}
           <div className="flex flex-wrap justify-center gap-6 mb-8">
@@ -182,10 +184,10 @@ export default function InstagramFeed() {
         >
           <div className="bg-gradient-to-r from-rolls-gold/20 to-rolls-gold/10 backdrop-blur-sm border border-rolls-gold/30 rounded-lg p-8 max-w-2xl mx-auto">
             <h3 className="text-2xl font-semibold text-white mb-4">
-              Join Our Exclusive Community
+              {t('loyalty.tiers.silver.instagram.joinCommunity')}
             </h3>
             <p className="text-gray-300 mb-6">
-              Follow us for daily luxury content, exclusive offers, and behind-the-scenes access to Dubai's most prestigious car fleet.
+              {t('loyalty.tiers.silver.instagram.communityDesc')}
             </p>
             <div className="flex flex-wrap justify-center gap-4">
               <motion.a
@@ -199,11 +201,11 @@ export default function InstagramFeed() {
                 <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
                   <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zM12 5.838c-3.403 0-6.162 2.759-6.162 6.162S8.597 18.163 12 18.163s6.162-2.759 6.162-6.163S15.403 5.838 12 5.838zm0 10.162c-2.209 0-4-1.79-4-4s1.791-4 4-4 4 1.79 4 4-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44 1.44-.645 1.44-1.44-.644-1.44-1.44-1.44z"/>
                 </svg>
-                Follow on Instagram
+                {t('loyalty.tiers.silver.instagram.follow')}
               </motion.a>
               <button className="btn-secondary flex items-center gap-2">
                 <span className="text-xl">🔔</span>
-                Turn on Notifications
+                {t('loyalty.tiers.silver.instagram.notifications')}
               </button>
             </div>
             
@@ -303,7 +305,7 @@ export default function InstagramFeed() {
                       className="btn-primary w-full text-center mt-4"
                       onClick={() => setSelectedPost(null)}
                     >
-                      Book {selectedPost.carModel} Now
+                      {t('loyalty.tiers.silver.instagram.bookNow', { carModel: selectedPost.carModel })}
                     </motion.a>
                   )}
                 </div>

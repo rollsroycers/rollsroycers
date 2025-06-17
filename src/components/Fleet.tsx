@@ -4,53 +4,59 @@ import { useInView } from 'react-intersection-observer'
 import Image from 'next/image'
 import { useState } from 'react'
 
-export default function Fleet() {
-  const { t } = useTranslation('common')
+import { TFunction } from 'next-i18next'
+
+export default function Fleet({ t }: { t: TFunction }) {
   const [ref, inView] = useInView({ triggerOnce: true, threshold: 0.1 })
   const [selectedCar, setSelectedCar] = useState<number | null>(null)
+
+  const getFeatures = (key: string): string[] => {
+    const features = t(key, { returnObjects: true });
+    return Array.isArray(features) ? features as string[] : [];
+  };
 
   const cars = [
     {
       id: 1,
       name: t('fleet.phantom.name'),
       description: t('fleet.phantom.description'),
-      features: t('fleet.phantom.features', { returnObjects: true }) as string[],
+      features: getFeatures('fleet.phantom.features'),
       image: '/images/Rolls-royce-phantom.jpg',
       video: '/images/videos/Rolls-royce-phantom.mp4',
-      price: 'AED 5,800'
+      price: `${t('common.aed', 'AED')} 5,800`
     },
     {
       id: 2,
       name: t('fleet.cullinan.name'),
       description: t('fleet.cullinan.description'),
-      features: t('fleet.cullinan.features', { returnObjects: true }) as string[],
+      features: getFeatures('fleet.cullinan.features'),
       image: '/images/Rolls-Royce-Cullinan_.jpg',
       video: '/images/videos/Rolls-Royce-Cullinan_.mp4',
-      price: 'AED 6,500'
+      price: `${t('common.aed', 'AED')} 6,500`
     },
     {
       id: 3,
       name: t('fleet.ghost.name'),
       description: t('fleet.ghost.description'),
-      features: t('fleet.ghost.features', { returnObjects: true }) as string[],
+      features: getFeatures('fleet.ghost.features'),
       image: '/images/Rolls-Royce-white.jpg',
-      price: 'AED 4,800'
+      price: `${t('common.aed', 'AED')} 4,800`
     },
     {
       id: 4,
       name: t('fleet.dawn.name'),
       description: t('fleet.dawn.description'),
-      features: t('fleet.dawn.features', { returnObjects: true }) as string[],
+      features: getFeatures('fleet.dawn.features'),
       image: '/images/Rolls-royce-dubai.jpg',
-      price: 'AED 5,500'
+      price: `${t('common.aed', 'AED')} 5,500`
     },
     {
       id: 5,
       name: t('fleet.wraith.name'),
       description: t('fleet.wraith.description'),
-      features: t('fleet.wraith.features', { returnObjects: true }) as string[],
+      features: getFeatures('fleet.wraith.features'),
       image: '/images/Rolls-Royce-black.jpg',
-      price: 'AED 5,000'
+      price: `${t('common.aed', 'AED')} 5,000`
     }
   ]
 
@@ -109,14 +115,18 @@ export default function Fleet() {
 
                 {/* Features */}
                 <div className="grid grid-cols-2 gap-2 mb-6">
-                  {car.features.map((feature, idx) => (
-                    <div key={idx} className="flex items-center text-sm text-gray-300">
-                      <svg className="w-4 h-4 text-rolls-gold mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                      </svg>
-                      {feature}
-                    </div>
-                  ))}
+                  {car.features && car.features.length > 0 ? (
+                    car.features.map((feature, idx) => (
+                      <div key={idx} className="flex items-center text-sm text-gray-300">
+                        <svg className="w-4 h-4 text-rolls-gold mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                        </svg>
+                        {feature}
+                      </div>
+                    ))
+                  ) : (
+                    <div className="col-span-2 text-sm text-gray-400">No features available</div>
+                  )}
                 </div>
 
                 {/* Price and CTA */}

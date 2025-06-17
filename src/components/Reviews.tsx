@@ -255,8 +255,8 @@ export default function Reviews() {
               <div className="flex mt-2">{renderStars(5)}</div>
             </div>
             <div className="text-left">
-              <div className="text-2xl font-semibold text-white">Excellent</div>
-              <div className="text-sm text-gray-400">Based on {reviews.length}+ reviews</div>
+              <div className="text-2xl font-semibold text-white">{t('common.excellent')}</div>
+              <div className="text-sm text-gray-400">{t('common.basedOnReviews', { count: reviews.length })}</div>
             </div>
           </div>
         </motion.div>

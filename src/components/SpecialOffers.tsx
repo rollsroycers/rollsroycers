@@ -87,8 +87,8 @@ export default function SpecialOffers() {
           transition={{ duration: 0.8 }}
           className="text-center mb-12"
         >
-          <h2 className="heading-2 text-white mb-4">Special Offers</h2>
-          <p className="text-xl text-rolls-gold">Limited Time Exclusive Deals</p>
+          <h2 className="heading-2 text-white mb-4">{t('common.specialOffers')}</h2>
+          <p className="text-xl text-rolls-gold">{t('common.limitedTimeDeals')}</p>
         </motion.div>
 
         {/* Countdown Timer */}
@@ -99,7 +99,7 @@ export default function SpecialOffers() {
           className="flex justify-center mb-12"
         >
           <div className="bg-rolls-black/50 backdrop-blur-sm border border-rolls-gold/30 rounded-lg p-6 glass-effect">
-            <p className="text-rolls-gold text-sm mb-3 text-center">Offers end in:</p>
+            <p className="text-rolls-gold text-sm mb-3 text-center">{t('common.offersEndIn')}</p>
             <div className="flex space-x-4">
               {Object.entries(timeLeft).map(([unit, value]) => (
                 <div key={unit} className="text-center">
@@ -139,7 +139,7 @@ export default function SpecialOffers() {
                 
                 {/* Promo Code */}
                 <div className="bg-rolls-black/50 border border-rolls-gold/30 rounded px-3 py-2 text-center">
-                  <p className="text-xs text-gray-500 mb-1">Use code:</p>
+                  <p className="text-xs text-gray-500 mb-1">{t('common.useCode')}</p>
                   <p className="text-rolls-gold font-mono font-bold">{offer.code}</p>
                 </div>
 

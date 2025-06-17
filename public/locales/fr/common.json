@@ -1,118 +1,136 @@
 {
-  "meta": {
-    "home": {
-      "title": "Location Rolls-Royce Dubaï | Voitures de Luxe EAU 2025",
-      "description": "Location premium de Rolls-Royce à Dubaï. Flotte comprenant Phantom, Ghost, Cullinan, Dawn et Wraith. Service 24/7, prix compétitifs, chauffeurs professionnels."
-    },
-    "fleet": {
-      "title": "Flotte Rolls-Royce Dubaï | 5 Modèles de Luxe",
-      "description": "Découvrez notre flotte exclusive de Rolls-Royce: Phantom, Ghost, Cullinan, Dawn, Wraith. Tous les véhicules sont des modèles 2024-2025."
-    },
-    "services": {
-      "title": "Services Rolls-Royce Dubaï | Mariage, Aéroport, Affaires",
-      "description": "Services spécialisés de location Rolls-Royce: mariages, transferts aéroport, voyages d'affaires, tours VIP de Dubaï."
-    }
-  },
   "nav": {
     "home": "Accueil",
-    "fleet": "Flotte",
+    "fleet": "Notre Flotte",
     "services": "Services",
-    "about": "À propos",
+    "about": "À Propos",
     "contact": "Contact",
-    "booking": "Réserver",
+    "book": "Réserver Maintenant",
+    "language": "Langue",
     "gallery": "Galerie",
-    "faq": "FAQ",
     "testimonials": "Témoignages",
     "pricing": "Tarifs",
+    "faq": "FAQ",
     "blog": "Blog",
-    "locations": "Emplacements",
+    "locations": "Lieux",
     "more": "Plus"
   },
   "hero": {
-    "title": "Vivez le luxe absolu",
-    "subtitle": "Rolls-Royce Dubaï - Où l'élégance rencontre l'excellence",
-    "cta": {
-      "book": "Réservez votre voiture",
-      "explore": "Découvrir la flotte"
+    "title": "Vivez le Luxe Ultime",
+    "subtitle": "Location de Rolls-Royce à Dubaï",
+    "description": "Laissez-vous tenter par la quintessence de l'excellence automobile avec notre collection exclusive de Rolls-Royce.",
+    "cta": "Découvrez Notre Flotte",
+    "stats": {
+      "cars": "Voitures de Luxe",
+      "experience": "Années d'Excellence",
+      "clients": "Clients Satisfaits",
+      "service": "Service 24/7"
     }
   },
   "fleet": {
-    "title": "Notre flotte prestigieuse",
-    "subtitle": "Choisissez parmi une collection exclusive de Rolls-Royce",
+    "title": "Notre Flotte Exclusive",
+    "subtitle": "Choisissez Votre Rolls-Royce",
     "phantom": {
-      "name": "Phantom",
-      "description": "Le summum du luxe et du raffinement - La berline phare"
-    },
-    "ghost": {
-      "name": "Ghost",
-      "description": "La perfection partout - L'élégance moderne"
+      "name": "Rolls-Royce Phantom",
+      "description": "Le summum du luxe automobile.",
+      "features": ["Moteur V12", "Empattement Long", "Ciel de Toit Étoilé", "Audio Sur Mesure"]
     },
     "cullinan": {
-      "name": "Cullinan",
-      "description": "Le seul SUV de luxe de Rolls-Royce"
+      "name": "Rolls-Royce Cullinan",
+      "description": "Le SUV de luxe, sans effort, partout.",
+      "features": ["Tout-Terrain", "Suite d'Observation", "Module de Loisirs", "Vision Nocturne"]
+    },
+    "ghost": {
+      "name": "Rolls-Royce Ghost",
+      "description": "Minimalisme post-opulent.",
+      "features": ["Suspension Planar", "Micro-Environnement", "Fascia Illuminée", "Conduite Tapis Volant"]
     },
     "dawn": {
-      "name": "Dawn",
-      "description": "Le cabriolet social - Plaisir à ciel ouvert"
+      "name": "Rolls-Royce Dawn",
+      "description": "Le cabriolet le plus silencieux au monde.",
+      "features": ["Toit Silencieux", "Audio Sur Mesure", "Matériaux Luxueux", "Maniabilité Dynamique"]
     },
     "wraith": {
-      "name": "Wraith",
-      "description": "Le coupé sportif - Puissance et élégance"
-    }
+      "name": "Rolls-Royce Wraith",
+      "description": "Puissance, style, drame.",
+      "features": ["Design Fastback", "Transmission Assistée par Satellite", "Ciel de Toit Étoilé", "Audio Sur Mesure"]
+    },
+    "from": "À partir de",
+    "perDay": "par jour",
+    "rentNow": "Louer Maintenant"
   },
   "services": {
-    "title": "Nos services premium",
-    "subtitle": "Solutions sur mesure pour chaque occasion",
+    "title": "Services Exceptionnels",
+    "subtitle": "Adaptés à Vos Besoins",
     "wedding": {
-      "title": "Mariages",
-      "description": "Rendez votre jour spécial inoubliable"
+      "title": "Service de Mariage",
+      "description": "Rendez votre jour spécial inoubliable avec notre service de voiture de mariage de luxe."
     },
     "corporate": {
-      "title": "Services corporatifs",
-      "description": "Solutions de transport exécutif"
-    },
-    "airport": {
-      "title": "Transfert aéroport",
-      "description": "Accueil et départ VIP à l'aéroport"
+      "title": "Service aux Entreprises",
+      "description": "Solutions de transport exécutif pour les professionnels."
     },
     "chauffeur": {
-      "title": "Chauffeur professionnel",
-      "description": "Vivez le luxe avec nos chauffeurs professionnels disponibles 24/7"
+      "title": "Chauffeur Professionnel",
+      "description": "Vivez le luxe avec nos chauffeurs formés et multilingues, disponibles 24/7."
+    },
+    "airport": {
+      "title": "Transfert Aéroport",
+      "description": "Arrivée et départ sans faille avec notre service de transfert aéroport premium."
+    },
+    "events": {
+      "title": "Événements Spéciaux",
+      "description": "Rendez votre mariage, gala ou événement d'entreprise inoubliable."
     },
     "photoshoot": {
-      "title": "Service de photographie",
-      "description": "Capturez des moments époustouflants avec nos véhicules de luxe comme toile de fond parfaite"
+      "title": "Service de Photoshoot",
+      "description": "Capturez des moments époustouflants avec nos véhicules de luxe comme toile de fond parfaite."
     },
     "tours": {
-      "title": "Tours de ville",
-      "description": "Explorez Dubaï dans le luxe ultime"
+      "title": "Visites de la Ville",
+      "description": "Explorez les sites emblématiques de Dubaï dans le luxe et le confort ultimes."
+    },
+    "hourly": {
+      "title": "Location à l'Heure",
+      "description": "Forfaits horaires flexibles pour votre commodité."
+    },
+    "concierge": {
+      "title": "Service de Conciergerie",
+      "description": "Assistance personnelle pour les réservations de restaurants, les visites, et plus encore."
+    },
+    "delivery": {
+      "title": "Livraison & Collecte",
+      "description": "Nous livrons et collectons depuis n'importe quel endroit à Dubaï."
     }
   },
   "booking": {
-    "title": "Réservez votre Rolls-Royce",
+    "title": "Réservez Votre Rolls-Royce",
     "form": {
-      "vehicle": "Choisir le véhicule",
-      "service": "Type de service",
-      "pickup": "Lieu de prise en charge",
-      "dropoff": "Lieu de retour",
-      "date": "Date et heure",
-      "name": "Nom complet",
+      "vehicle": "Choisissez un Véhicule",
+      "service": "Type de Service",
+      "pickup": "Lieu de Prise en Charge",
+      "dropoff": "Lieu de Restitution",
+      "date": "Date et Heure",
+      "name": "Nom Complet",
       "email": "Email",
       "phone": "Téléphone",
-      "submit": "Confirmer la réservation"
+      "submit": "Confirmer la Réservation"
     }
   },
   "footer": {
-    "about": "Nous sommes le premier choix pour la location de Rolls-Royce à Dubaï",
-    "quickLinks": "Liens rapides",
-    "contact": "Contactez-nous",
-    "followUs": "Suivez-nous",
+    "tagline": "Vivez l'extraordinaire",
+    "links": {
+      "privacy": "Politique de Confidentialité",
+      "terms": "Termes & Conditions",
+      "sitemap": "Plan du Site"
+    },
+    "social": "Suivez-Nous",
     "rights": "Tous droits réservés",
-    "privacy": "Politique de confidentialité",
-    "terms": "Conditions d'utilisation",
     "support": "Support 24/7",
     "email": "Email",
     "showroom": "Showroom",
+    "about": "Votre premier choix pour la location de voitures de luxe Rolls-Royce à Dubaï",
+    "quickLinks": "Liens Rapides",
     "call": "Appeler",
     "whatsapp": "WhatsApp"
   },
@@ -135,5 +153,335 @@
     "title": "Hors ligne | Rolls-Royce Dubaï",
     "heading": "Vous êtes actuellement hors ligne",
     "message": "Veuillez vérifier votre connexion Internet pour accéder au site complet."
+  },
+  "videoGallery": {
+    "title": "Galerie Vidéo",
+    "subtitle": "Vivez le luxe à travers notre collection de vidéos exclusives",
+    "virtualTour": {
+      "title": "Découvrez notre Showroom Virtuel à 360°",
+      "description": "Faites une visite virtuelle immersive de notre showroom de luxe et explorez chaque détail de notre collection Rolls-Royce depuis le confort de votre maison.",
+      "button": "Commencer la Visite Virtuelle"
+    },
+    "lifestyle": {
+      "title": "Style de Vie Luxueux Millionnaire"
+    },
+    "mansory": {
+      "title": "Mansory Black Badge Rolls Royce Cullinan"
+    },
+    "defining": {
+      "title": "Rolls Royce définit ce que signifie voitures de luxe"
+    },
+    "experience": {
+      "title": "L'Expérience Ultime Rolls-Royce"
+    },
+    "phantom": {
+      "title": "Rolls-Royce Phantom - Présentation extérieure"
+    },
+    "cullinan": {
+      "title": "Rolls-Royce Cullinan - Showcase extérieur"
+    },
+    "interior": {
+      "title": "Élégance intérieure Rolls-Royce"
+    },
+    "dubai": {
+      "title": "Rolls-Royce dans le paysage urbain de Dubaï"
+    },
+    "showroom": {
+      "title": "Visite du showroom Rolls-Royce Dubaï"
+    },
+    "night": {
+      "title": "Balade nocturne Rolls-Royce"
+    }
+  },
+  "home": {
+    "video": {
+      "title": "Découvrez l'Excellence Rolls-Royce",
+      "subtitle": "Regardez notre flotte de luxe en action à travers Dubaï"
+    },
+    "stats": {
+      "happyCustomers": "Clients Satisfaits",
+      "luxuryModels": "Modèles de Luxe",
+      "availableService": "Service Disponible",
+      "satisfactionRate": "Taux de Satisfaction"
+    }
+  },
+  "loyalty": {
+    "title": "Programme de Fidélité Rolls-Royce",
+    "subtitle": "Avantages exclusifs pour nos clients privilégiés",
+    "join": "Rejoindre Maintenant",
+    "enroll": "S'inscrire au Programme",
+    "journey": "Votre Parcours vers le Platine",
+    "whyJoin": "Pourquoi Rejoindre Notre Programme de Fidélité?",
+    "saveMore": {
+      "title": "Économisez Plus",
+      "subtitle": "Réductions exclusives sur chaque location"
+    },
+    "priorityAccess": {
+      "title": "Accès Prioritaire",
+      "subtitle": "Premier choix sur les nouveaux modèles"
+    },
+    "exclusivePerks": {
+      "title": "Avantages Exclusifs",
+      "subtitle": "Événements et expériences spéciales"
+    },
+    "vipTreatment": {
+      "title": "Traitement VIP",
+      "subtitle": "Service de conciergerie personnel"
+    },
+    "tiers": {
+      "silver": {
+        "name": "Argent",
+        "requirement": "3+ locations par an"
+      },
+      "gold": {
+        "name": "Or",
+        "requirement": "6+ locations par an"
+      },
+      "platinum": {
+        "name": "Platine",
+        "requirement": "12+ locations par an"
+      }
+    },
+    "faq": {
+      "q1": "Comment rejoindre le programme de fidélité?",
+      "a1": "Effectuez simplement votre première location pour être automatiquement inscrit."
+    }
+  },
+  "personalizedOffers": {
+    "title": "Vos Offres Exclusives",
+    "subtitle": "Offres personnalisées juste pour vous",
+    "ai": "Optimisé par l'IA",
+    "welcome": {
+      "validFor": "Valable pour :",
+      "copyCode": "Copier le Code",
+      "terms": "Termes appliqués",
+      "useOffer": "Utiliser cette Offre"
+    },
+    "notFound": {
+      "title": "Aucune offre disponible",
+      "subtitle": "Revenez bientôt pour des offres exclusives",
+      "chat": "Discuter avec nous",
+      "quote": "Obtenir un devis"
+    }
+  },
+  "tripPlanner": {
+    "title": "Planifiez Votre Voyage",
+    "subtitle": "Créez l'expérience de luxe parfaite",
+    "selectCar": "Sélectionnez Votre Rolls-Royce",
+    "idealFor": "Idéal pour",
+    "suggestedRoutes": "Itinéraires Suggérés",
+    "chooseDestinations": "Choisissez les Destinations",
+    "selected": "sélectionné(s)",
+    "recommended": "Recommandé"
+  },
+  "offers": {
+    "weekend": {
+      "discount": "20% DE RÉDUCTION",
+      "title": "Spécial Week-end",
+      "description": "Réservez du vendredi au dimanche et économisez"
+    },
+    "firstTime": {
+      "discount": "15% DE RÉDUCTION",
+      "title": "Première Visite",
+      "description": "Réduction exclusive pour les nouveaux clients"
+    },
+    "monthly": {
+      "discount": "30% DE RÉDUCTION",
+      "title": "Location Mensuelle",
+      "description": "Économisez plus sur les locations prolongées"
+    },
+    "chauffeur": {
+      "discount": "CHAUFFEUR GRATUIT",
+      "title": "Service Chauffeur",
+      "description": "Offert pour les locations de 3 jours et plus"
+    }
+  },
+  "testimonialSubmission": {
+    "shareExperience": {
+      "title": "Partagez Votre Expérience",
+      "description": "Racontez-nous votre voyage en Rolls-Royce"
+    },
+    "stories": {
+      "story1": {
+        "name": "Sarah & Michael Johnson",
+        "location": "Londres, UK",
+        "occasion": "Jour de Mariage",
+        "story": "La Phantom a rendu notre jour de mariage absolument parfait. De l'intérieur décoré au chauffeur professionnel, chaque détail était impeccable."
+      },
+      "story2": {
+        "name": "Alexander Petrov",
+        "location": "Moscou, Russie",
+        "occasion": "Conférence d'Affaires",
+        "story": "Arriver à la conférence en Ghost a fait une forte impression. Le service était impeccable et a aidé à conclure un partenariat important."
+      },
+      "story3": {
+        "name": "La Famille Chen",
+        "location": "Pékin, Chine",
+        "occasion": "Célébration d'Anniversaire",
+        "story": "Nous avons célébré notre 25e anniversaire en visitant Dubaï en Dawn. L'expérience du cabriolet au coucher du soleil était inoubliable. Vraiment magique!"
+      }
+    }
+  },
+  "cookie": {
+    "title": "Nous Utilisons des Cookies",
+    "description": "Nous utilisons des cookies pour améliorer votre expérience. En continuant à utiliser notre site, vous acceptez notre politique en matière de cookies.",
+    "decline": "Refuser",
+    "accept": "Accepter"
+  },
+  "common": {
+    "excellent": "Excellent",
+    "basedOnReviews": "Basé sur {{count}} avis",
+    "frequentlyAskedQuestions": "Questions Fréquemment Posées",
+    "everythingYouNeedToKnow": "Tout ce que vous devez savoir",
+    "rollsRoyceDubai": "Rolls-Royce Dubaï",
+    "aed": "AED",
+    "specialOffers": "Offres Spéciales",
+    "limitedTimeDeals": "Offres à Durée Limitée",
+    "offersEndIn": "Les offres se terminent dans",
+    "useCode": "Utiliser le Code",
+    "readyToExperience": "Prêt à Vivre le Luxe?",
+    "bookYourRollsRoyce": "Réservez votre Rolls-Royce aujourd'hui et vivez le summum de l'excellence automobile.",
+    "bookNow": "Réserver Maintenant",
+    "viewPricing": "Voir les Tarifs",
+    "available": "Disponible",
+    "unavailable": "Indisponible",
+    "selected": "Sélectionné",
+    "verifiedCustomer": "Client Vérifié",
+    "shareYourStory": "Partagez Votre Histoire"
+  },
+  "servicesPages": {
+    "corporate": {
+      "hero": {
+        "title": "Services d'entreprise Rolls-Royce",
+        "subtitle": "Transport exécutif pour votre entreprise",
+        "getQuote": "Obtenir un devis",
+        "viewPackages": "Voir les forfaits",
+        "stats": {
+          "clients": "Clients d'entreprise",
+          "retention": "Fidélisation des clients",
+          "support": "Support"
+        }
+      },
+      "whyChoose": {
+        "title": "Pourquoi choisir nos solutions d'entreprise ?",
+        "image": {
+          "title": "Image impeccable",
+          "description": "Faites une impression durable sur vos clients et partenaires."
+        },
+        "productivity": {
+          "title": "Productivité maximale",
+          "description": "Utilisez le temps de trajet pour travailler ou vous détendre dans un environnement luxueux."
+        },
+        "privacy": {
+          "title": "Confidentialité et sécurité",
+          "description": "Nous garantissons une confidentialité totale pour vos déplacements professionnels."
+        },
+        "standards": {
+          "title": "Les plus hauts standards",
+          "description": "Notre service répond aux exigences les plus strictes des entreprises."
+        }
+      },
+      "packages": {
+        "title": "Nos forfaits entreprise",
+        "requestQuote": "Demander un devis",
+        "executive": {
+          "name": "Forfait Exécutif",
+          "description": "Idéal pour les cadres supérieurs et les VIP.",
+          "features": ["Chauffeur personnel", "Wi-Fi et espace de travail", "Rafraîchissements", "Service prioritaire"],
+          "vehicles": ["Phantom", "Ghost"],
+          "price": "À partir de 1500 AED/heure"
+        },
+        "conference": {
+          "name": "Conférences et événements",
+          "description": "Transport pour les délégations et les participants à des événements.",
+          "features": ["Coordination logistique", "Transferts de groupe", "Marquage de véhicule en option", "Accueil à l'aéroport"],
+          "vehicles": ["Ghost", "Cullinan", "Minivans de luxe"],
+          "price": "Sur demande"
+        },
+        "roadshow": {
+          "name": "Roadshows",
+          "description": "Planification et exécution efficaces d'itinéraires complexes.",
+          "features": ["Horaires flexibles", "Chauffeurs expérimentés connaissant la ville", "Support 24/7", "Suivi en temps réel"],
+          "vehicles": ["Phantom", "Ghost", "Wraith"],
+          "price": "À partir de 1800 AED/jour"
+        },
+        "partnership": {
+          "name": "Partenariat à long terme",
+          "description": "Solutions sur mesure pour les clients professionnels réguliers.",
+          "features": ["Tarifs spéciaux", "Gestionnaire de compte dédié", "Facturation flexible", "Choix de véhicules étendu"],
+          "vehicles": ["Toute la flotte Rolls-Royce"],
+          "price": "Personnalisé"
+        }
+      },
+      "clients": {
+        "title": "Approuvé par les plus grandes entreprises",
+        "emiratesNBD": "Emirates NBD",
+        "banking": "Banque",
+        "damac": "DAMAC Properties",
+        "realEstate": "Immobilier",
+        "dubaiHolding": "Dubai Holding",
+        "investment": "Investissement",
+        "emaar": "Emaar",
+        "development": "Développement",
+        "more": "et bien d'autres..."
+      },
+      "caseStudies": {
+        "title": "Exemples de collaborations réussies",
+        "bank": {
+          "client": "Grande banque internationale",
+          "challenge": "Défi",
+          "challengeText": "Assurer le transport d'une délégation VIP lors d'un forum financier à Dubaï.",
+          "solution": "Solution",
+          "solutionText": "Fourniture de véhicules Rolls-Royce Phantom avec chauffeurs professionnels, élaboration d'un plan logistique détaillé.",
+          "result": "Résultat",
+          "resultText": "Tous les transferts ont été exécutés sans faille, la délégation a souligné le plus grand confort et le niveau de service."
+        },
+        "tech": {
+          "client": "Entreprise technologique de premier plan",
+          "challenge": "Défi",
+          "challengeText": "Organiser une série de voyages pour la haute direction lors d'un roadshow aux EAU.",
+          "solution": "Solution",
+          "solutionText": "Élaboration d'un calendrier flexible, fourniture de véhicules Rolls-Royce Ghost, assistance 24/7 assurée.",
+          "result": "Résultat",
+          "resultText": "Le roadshow a été un succès, toutes les réunions ont eu lieu à temps, les clients ont loué la fiabilité du service."
+        }
+      },
+      "benefits": {
+        "title": "Avantages du service aux entreprises",
+        "financial": {
+          "title": "Financiers",
+          "items": ["Optimiser les coûts de transport", "Tarifs spéciaux pour les entreprises", "Système de reporting transparent"]
+        },
+        "operational": {
+          "title": "Opérationnels",
+          "items": ["Gagner du temps sur l'organisation des voyages", "Disponibilité garantie des véhicules", "Support et coordination 24/7"]
+        },
+        "service": {
+          "title": "Service",
+          "items": ["Confort et sécurité optimaux", "Chauffeurs professionnels et discrets", "Approche individuelle pour chaque client"]
+        }
+      },
+      "cta": {
+        "title": "Élevez votre entreprise avec Rolls-Royce",
+        "description": "Contactez notre service aux entreprises pour discuter de vos besoins et recevoir une proposition sur mesure.",
+        "speakToTeam": "Parler à notre équipe",
+        "downloadBrochure": "Télécharger la brochure"
+      },
+      "quickInquiry": {
+        "title": "Demande rapide",
+        "selectPackage": "Sélectionner le forfait de service",
+        "packages": {
+            "executive": "Forfait Exécutif",
+            "conference": "Conférences et événements",
+            "roadshow": "Roadshows",
+            "partnership": "Partenariat à long terme"
+        },
+        "submitInquiry": "Envoyer la demande"
+      }
+    }
+  },
+  "placeholders": {
+    "companyName": "Nom de l'entreprise",
+    "businessEmail": "Email professionnel"
   }
 }

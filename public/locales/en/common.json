@@ -27,82 +27,6 @@
       "service": "24/7 Service"
     }
   },
-  "fleet": {
-    "title": "Our Exclusive Fleet",
-    "subtitle": "Choose Your Rolls-Royce",
-    "phantom": {
-      "name": "Rolls-Royce Phantom",
-      "description": "The pinnacle of luxury motoring",
-      "features": ["V12 Engine", "Extended Wheelbase", "Starlight Headliner", "Bespoke Audio"]
-    },
-    "cullinan": {
-      "name": "Rolls-Royce Cullinan",
-      "description": "Effortless, everywhere luxury SUV",
-      "features": ["All-Terrain", "Viewing Suite", "Recreation Module", "Night Vision"]
-    },
-    "ghost": {
-      "name": "Rolls-Royce Ghost",
-      "description": "Post-opulent minimalism",
-      "features": ["Planar Suspension", "Micro-Environment", "Illuminated Fascia", "Magic Carpet Ride"]
-    },
-    "dawn": {
-      "name": "Rolls-Royce Dawn",
-      "description": "The world's quietest convertible",
-      "features": ["Silent Ballet Roof", "Canadel Wood", "Open-Air Luxury", "Bespoke Audio"]
-    },
-    "wraith": {
-      "name": "Rolls-Royce Wraith",
-      "description": "The most powerful Rolls-Royce",
-      "features": ["Fastback Design", "Starlight Headliner", "Satellite Aided Transmission", "Dynamic Performance"]
-    },
-    "rentNow": "Rent Now",
-    "from": "From",
-    "perDay": "per day"
-  },
-  "services": {
-    "title": "Exceptional Services",
-    "subtitle": "Tailored to Your Needs",
-    "wedding": {
-      "title": "Wedding Service",
-      "description": "Make your special day unforgettable with our luxury wedding car service"
-    },
-    "corporate": {
-      "title": "Corporate Service",
-      "description": "Executive transportation solutions for business professionals"
-    },
-    "chauffeur": {
-      "title": "Professional Chauffeur",
-      "description": "Experience luxury with our trained, multilingual chauffeurs available 24/7"
-    },
-    "airport": {
-      "title": "Airport Transfer",
-      "description": "Seamless arrival and departure with our premium airport transfer service"
-    },
-    "events": {
-      "title": "Special Events",
-      "description": "Make your wedding, gala, or corporate event unforgettable"
-    },
-    "photoshoot": {
-      "title": "Photoshoot Service",
-      "description": "Capture stunning moments with our luxury vehicles as the perfect backdrop"
-    },
-    "tours": {
-      "title": "City Tours",
-      "description": "Explore Dubai's landmarks in ultimate luxury and comfort"
-    },
-    "hourly": {
-      "title": "Hourly Rental",
-      "description": "Flexible hourly packages for your convenience"
-    },
-    "concierge": {
-      "title": "Concierge Service",
-      "description": "Personal assistance for restaurant reservations, tours, and more"
-    },
-    "delivery": {
-      "title": "Delivery & Collection",
-      "description": "We deliver and collect from any location in Dubai"
-    }
-  },
   "about": {
     "title": "About Rolls-Royce Dubai",
     "subtitle": "Setting the Standard for Luxury Car Rental",
@@ -129,7 +53,11 @@
       "years": "Years of Excellence",
       "vehicles": "Luxury Vehicles",
       "clients": "Happy Clients",
-      "service": "Service Available"
+      "service": "Service Available",
+      "satisfaction": "Customer Satisfaction [From About Page Stats]",
+      "availability": "24/7 Availability [From About Page Stats]",
+      "experience": "Years of Experience [From About Page Stats]",
+      "rating": "5★ Rating [From About Page Stats]"
     },
     "values": {
       "sectionTitle": "Our Core Values",
@@ -215,13 +143,422 @@
       "button": "View Our Fleet"
     }
   },
+  "home": {
+    "video": {
+      "title": "Experience Rolls-Royce Excellence",
+      "subtitle": "Watch our luxury fleet in action across Dubai"
+    },
+    "stats": {
+      "happyCustomers": "Happy Customers",
+      "luxuryModels": "Luxury Models",
+      "availableService": "Available Service",
+      "satisfactionRate": "Satisfaction Rate"
+    },
+    "premiumServices": {
+      "title": "Our Premium Services",
+      "viewAll": "View All Services"
+    },
+    "explore": {
+      "title": "Explore More",
+      "gallery": {
+        "title": "Gallery",
+        "subtitle": "Browse our stunning collection"
+      },
+      "faq": {
+        "title": "FAQs",
+        "subtitle": "Get answers to common questions"
+      },
+      "blog": {
+        "title": "Blog",
+        "subtitle": "Read luxury insights & tips"
+      },
+      "compare": {
+        "title": "Compare",
+        "subtitle": "Rolls-Royce vs Other Brands"
+      }
+    }
+  },
+  "fleet": {
+    "title": "Our Exclusive Fleet",
+    "subtitle": "Choose Your Rolls-Royce",
+    "phantom": {
+      "name": "Rolls-Royce Phantom",
+      "description": "The pinnacle of luxury motoring",
+      "features": ["V12 Engine", "Extended Wheelbase", "Starlight Headliner", "Bespoke Audio"]
+    },
+    "cullinan": {
+      "name": "Rolls-Royce Cullinan",
+      "description": "Effortless, everywhere luxury SUV",
+      "features": ["All-Terrain", "Viewing Suite", "Recreation Module", "Night Vision"]
+    },
+    "ghost": {
+      "name": "Rolls-Royce Ghost",
+      "description": "Post-opulent minimalism",
+      "features": ["Planar Suspension", "Micro-Environment", "Illuminated Fascia", "Magic Carpet Ride"]
+    },
+    "dawn": {
+      "name": "Rolls-Royce Dawn",
+      "description": "The world's quietest convertible",
+      "features": ["Silent Roof", "Bespoke Audio", "Luxurious Materials", "Dynamic Handling"]
+    },
+    "wraith": {
+      "name": "Rolls-Royce Wraith",
+      "description": "Power, style, drama",
+      "features": ["Fastback Design", "Satellite-Aided Transmission", "Starlight Headliner", "Bespoke Audio"]
+    },
+    "from": "From",
+    "perDay": "per day",
+    "rentNow": "Rent Now"
+  },
+  "services": {
+    "title": "Exceptional Services",
+    "subtitle": "Tailored to Your Needs",
+    "wedding": {
+      "title": "Wedding Service",
+      "description": "Make your special day unforgettable with our luxury wedding car service"
+    },
+    "corporate": {
+      "title": "Corporate Service",
+      "description": "Executive transportation solutions for business professionals"
+    },
+    "chauffeur": {
+      "title": "Professional Chauffeur",
+      "description": "Experience luxury with our trained, multilingual chauffeurs available 24/7"
+    },
+    "airport": {
+      "title": "Airport Transfer",
+      "description": "Seamless arrival and departure with our premium airport transfer service"
+    },
+    "events": {
+      "title": "Special Events",
+      "description": "Make your wedding, gala, or corporate event unforgettable"
+    },
+    "photoshoot": {
+      "title": "Photoshoot Service",
+      "description": "Capture stunning moments with our luxury vehicles as the perfect backdrop"
+    },
+    "tours": {
+      "title": "City Tours",
+      "description": "Explore Dubai's landmarks in ultimate luxury and comfort"
+    },
+    "hourly": {
+      "title": "Hourly Rental",
+      "description": "Flexible hourly packages for your convenience"
+    },
+    "concierge": {
+      "title": "Concierge Service",
+      "description": "Personal assistance for restaurant reservations, tours, and more"
+    },
+    "delivery": {
+      "title": "Delivery & Collection",
+      "description": "We deliver and collect from any location in Dubai"
+    }
+  },
+  "common": {
+    "excellent": "Excellent",
+    "basedOnReviews": "Based on {{count}} reviews",
+    "frequentlyAskedQuestions": "Frequently Asked Questions",
+    "everythingYouNeedToKnow": "Everything you need to know",
+    "rollsRoyceDubai": "Rolls-Royce Dubai",
+    "aed": "AED",
+    "specialOffers": "Special Offers",
+    "limitedTimeDeals": "Limited Time Deals",
+    "offersEndIn": "Offers End In",
+    "useCode": "Use Code",
+    "readyToExperience": "Ready to Experience Luxury?",
+    "bookYourRollsRoyce": "Book your Rolls-Royce today and experience the pinnacle of automotive excellence",
+    "bookNow": "Book Now",
+    "viewPricing": "View Pricing",
+    "available": "Available",
+    "unavailable": "Unavailable",
+    "selected": "Selected",
+    "verifiedCustomer": "Verified Customer",
+    "shareYourStory": "Share Your Story"
+  },
   "reviews": {
     "title": "What Our Clients Say",
     "subtitle": "Exceptional Experiences, Every Time",
     "rating": "Rating",
     "verified": "Verified Customer",
     "readMore": "Read More",
-    "showLess": "Show Less"
+    "showLess": "Show Less",
+    "review1": {
+      "name": "Ahmed Al-Rashid",
+      "date": "2 weeks ago",
+      "car": "Rolls-Royce Phantom",
+      "review": "Absolutely exceptional service! The Phantom was immaculate and the chauffeur was professional beyond expectation. Made our anniversary truly special.",
+      "nationality": "UAE"
+    },
+    "review2": {
+      "name": "Dmitry Ivanov",
+      "date": "1 month ago",
+      "car": "Rolls-Royce Cullinan",
+      "review": "Perfect for our family vacation in Dubai. The Cullinan handled the desert safari beautifully while maintaining supreme comfort. Outstanding experience!",
+      "nationality": "Russia"
+    },
+    "review3": {
+      "name": "Fatima Al-Maktoum",
+      "date": "3 weeks ago",
+      "car": "Rolls-Royce Ghost",
+      "review": "Used for a corporate event. The service was impeccable, vehicle pristine, and the impression it made on our clients was invaluable. Highly recommend!",
+      "nationality": "UAE"
+    },
+    "review4": {
+      "name": "Antoine Lefèvre",
+      "date": "2 months ago",
+      "car": "Rolls-Royce Dawn",
+      "review": "The Dawn convertible was perfect for exploring Dubai's coastline. Sunset drives along JBR were magical. Service exceeded all expectations!",
+      "nationality": "France"
+    },
+    "review5": {
+      "name": "Chen Jie",
+      "date": "1 week ago",
+      "car": "Rolls-Royce Wraith",
+      "review": "Rented the Wraith for a photoshoot. The car is stunning and the team was incredibly accommodating with timing and locations. Will book again!",
+      "nationality": "China"
+    },
+    "review6": {
+      "name": "Pooja Sharma",
+      "date": "1 month ago",
+      "car": "Rolls-Royce Phantom",
+      "review": "Booked for our wedding day. Everything was perfect - from the decorated car to the professional chauffeur. Made our special day even more memorable!",
+      "nationality": "India"
+    },
+    "review7": {
+      "name": "Sergey Volkov",
+      "date": "3 weeks ago",
+      "car": "Rolls-Royce Cullinan",
+      "review": "Best luxury car rental in Dubai! The Cullinan was perfect for our business delegation. Professional service from start to finish.",
+      "nationality": "Russia"
+    },
+    "review8": {
+      "name": "Mohamed Hassan",
+      "date": "2 weeks ago",
+      "car": "Rolls-Royce Ghost",
+      "review": "I've rented luxury cars worldwide, but this experience was exceptional. The attention to detail and customer service is unmatched. Truly five-star!",
+      "nationality": "Egypt"
+    },
+    "review9": {
+      "name": "Julien Dubois",
+      "date": "1 month ago",
+      "car": "Rolls-Royce Dawn",
+      "review": "The Dawn was perfect for our anniversary celebration. Driving through Dubai Marina at sunset was unforgettable. Exceptional service throughout!",
+      "nationality": "France"
+    },
+    "review10": {
+      "name": "Wang Jun",
+      "date": "2 months ago",
+      "car": "Rolls-Royce Wraith",
+      "review": "Impressive service and an incredible car. The Wraith's performance is outstanding. The team made everything seamless. Highly recommended!",
+      "nationality": "China"
+    }
+  },
+  "offers": {
+    "weekend": {
+      "discount": "20% OFF",
+      "title": "Weekend Special",
+      "description": "Book for Friday-Sunday and save"
+    },
+    "firstTime": {
+      "discount": "15% OFF",
+      "title": "First Time Customer",
+      "description": "Exclusive discount for new clients"
+    },
+    "monthly": {
+      "discount": "30% OFF",
+      "title": "Monthly Rental",
+      "description": "Save more on extended rentals"
+    },
+    "chauffeur": {
+      "discount": "FREE CHAUFFEUR",
+      "title": "Chauffeur Service",
+      "description": "Complimentary with 3+ day rentals"
+    }
+  },
+  "loyalty": {
+    "title": "Rolls-Royce Loyalty Program",
+    "subtitle": "Exclusive benefits for our valued clients",
+    "join": "Join Now",
+    "enroll": "Enroll in Program",
+    "journey": "Your Journey to Platinum",
+    "whyJoin": "Why Join Our Loyalty Program?",
+    "saveMore": {
+      "title": "Save More",
+      "subtitle": "Exclusive discounts on every rental"
+    },
+    "priorityAccess": {
+      "title": "Priority Access",
+      "subtitle": "First choice on new models"
+    },
+    "exclusivePerks": {
+      "title": "Exclusive Perks",
+      "subtitle": "Special events and experiences"
+    },
+    "vipTreatment": {
+      "title": "VIP Treatment",
+      "subtitle": "Personal concierge service"
+    },
+    "tiers": {
+      "silver": {
+        "name": "Silver",
+        "requirement": "3+ rentals per year",
+        "instagram": {
+          "followJourney": "Follow Our Journey",
+          "account": "@rollsroycedubai",
+          "joinCommunity": "Join Our Community",
+          "communityDesc": "Exclusive content and behind-the-scenes access",
+          "follow": "Follow",
+          "notifications": "Turn on notifications",
+          "post1": "likes",
+          "post2": "likes",
+          "post3": "likes",
+          "post4": "likes",
+          "post5": "likes",
+          "post6": "likes"
+        },
+        "footer": {
+          "locations": {
+            "downtownDubai": "Downtown Dubai",
+            "marina": "Dubai Marina",
+            "palm": "Palm Jumeirah",
+            "businessBay": "Business Bay"
+          }
+        }
+      },
+      "gold": {
+        "name": "Gold",
+        "requirement": "6+ rentals per year"
+      },
+      "platinum": {
+        "name": "Platinum",
+        "requirement": "12+ rentals per year",
+        "footer": {
+          "locations": {
+            "downtownDubai": "Downtown Dubai",
+            "marina": "Dubai Marina",
+            "palm": "Palm Jumeirah",
+            "businessBay": "Business Bay"
+          }
+        }
+      }
+    },
+    "faq": {
+      "q1": "How do I join the loyalty program?",
+      "a1": "Simply make your first rental with us to automatically enroll in our Silver tier.",
+      "q2": "How are loyalty points calculated?",
+      "q3": "Can I share my benefits with family?",
+      "q4": "Do points expire?",
+      "q5": "How do I upgrade tiers?",
+      "q6": "What exclusive events are available?",
+      "q7": "Can I transfer points?",
+      "q8": "Is there a membership fee?",
+      "q9": "How do I check my status?",
+      "q10": "What happens if I don't meet tier requirements?"
+    }
+  },
+  "footer": {
+    "tagline": "Experience the extraordinary",
+    "links": {
+      "privacy": "Privacy Policy",
+      "terms": "Terms & Conditions",
+      "sitemap": "Sitemap"
+    },
+    "social": "Follow Us",
+    "rights": "All rights reserved",
+    "support": "24/7 Support",
+    "email": "Email",
+    "showroom": "Showroom",
+    "about": "Your premier choice for Rolls-Royce luxury car rental in Dubai",
+    "quickLinks": "Quick Links",
+    "call": "Call",
+    "whatsapp": "WhatsApp",
+    "privacy": "Privacy Policy",
+    "terms": "Terms & Conditions"
+  },
+  "testimonialSubmission": {
+    "shareExperience": {
+      "title": "Share Your Experience",
+      "description": "Tell us about your Rolls-Royce journey"
+    },
+    "stories": {
+      "story1": {
+        "name": "Sarah & Michael Johnson",
+        "location": "London, UK",
+        "occasion": "Wedding Day",
+        "story": "The Phantom made our wedding day absolutely perfect. From the decorated interior to the professional chauffeur, every detail was impeccable."
+      },
+      "story2": {
+        "name": "Alexander Petrov",
+        "location": "Moscow, Russia",
+        "occasion": "Business Conference",
+        "story": "Arriving at the conference in the Ghost made a powerful impression. The service was flawless and helped secure an important partnership."
+      },
+      "story3": {
+        "name": "The Chen Family",
+        "location": "Beijing, China",
+        "occasion": "Anniversary Celebration",
+        "story": "We celebrated our 25th anniversary touring Dubai in the Dawn. The convertible experience at sunset was unforgettable. Truly magical!"
+      }
+    }
+  },
+  "tripPlanner": {
+    "title": "Plan Your Journey",
+    "subtitle": "Create the perfect luxury experience",
+    "selectCar": "Select Your Rolls-Royce",
+    "idealFor": "Ideal for",
+    "suggestedRoutes": "Suggested Routes",
+    "chooseDestinations": "Choose Destinations",
+    "selected": "selected",
+    "recommended": "Recommended"
+  },
+  "personalizedOffers": {
+    "title": "Your Exclusive Offers",
+    "subtitle": "Personalized deals just for you",
+    "ai": "AI-Powered",
+    "welcome": {
+      "validFor": "Valid for:",
+      "copyCode": "Copy Code",
+      "terms": "Terms apply",
+      "useOffer": "Use This Offer"
+    },
+    "notFound": {
+      "title": "No offers available",
+      "subtitle": "Check back soon for exclusive deals",
+      "chat": "Chat with us",
+      "quote": "Get a quote"
+    }
+  },
+  "videoGallery": {
+    "lifestyle": {
+      "title": "Luxury Millionaire Aesthetic Lifestyle"
+    },
+    "mansory": {
+      "title": "Mansory Black Badge Rolls Royce Cullinan"
+    },
+    "defining": {
+      "title": "Rolls Royce defines what Luxury cars mean"
+    },
+    "experience": {
+      "title": "The Ultimate Rolls-Royce Experience"
+    },
+    "phantom": {
+      "title": "Rolls-Royce Phantom Exterior Walkthrough"
+    },
+    "cullinan": {
+      "title": "Rolls-Royce Cullinan Exterior Showcase"
+    },
+    "interior": {
+      "title": "Rolls-Royce Interior Elegance"
+    },
+    "dubai": {
+      "title": "Rolls-Royce in Dubai Cityscape"
+    },
+    "showroom": {
+      "title": "Rolls-Royce Dubai Showroom Tour"
+    },
+    "night": {
+      "title": "Rolls-Royce Night Drive"
+    }
   },
   "contact": {
     "title": "Get in Touch",
@@ -246,1069 +583,225 @@
     },
     "cta": "Call us directly for immediate assistance"
   },
-  "footer": {
-    "tagline": "Experience the extraordinary",
-    "links": {
-      "privacy": "Privacy Policy",
-      "terms": "Terms & Conditions",
-      "sitemap": "Sitemap"
-    },
-    "social": "Follow Us",
-    "rights": "All rights reserved",
-    "support": "24/7 Support",
-    "email": "Email",
-    "showroom": "Showroom",
-    "about": "Your premier choice for Rolls-Royce luxury car rental in Dubai",
-    "quickLinks": "Quick Links",
-    "call": "Call",
-    "whatsapp": "WhatsApp",
-    "privacy": "Privacy Policy",
-    "terms": "Terms & Conditions"
+  "cookie": {
+    "title": "We Use Cookies",
+    "description": "We use cookies to enhance your experience. By continuing to use our site, you accept our cookie policy.",
+    "decline": "Decline",
+    "accept": "Accept"
   },
-  "seo": {
-    "title": "Rolls-Royce Rental Dubai | Luxury Car Hire | 24/7 Service",
-    "description": "Rent Rolls-Royce in Dubai. Phantom, Cullinan, Ghost, Dawn & Wraith available. Professional chauffeur service, airport transfer, special events. Call +971558164922",
-    "keywords": "Rolls-Royce rental Dubai, luxury car hire Dubai, Rolls-Royce Phantom rental, Cullinan rental Dubai, chauffeur service Dubai, airport transfer Dubai, wedding car Dubai"
-  },
-  "offline": {
-    "title": "Offline | Rolls-Royce Dubai",
-    "heading": "You are Currently Offline",
-    "message": "Please check your internet connection to access the full site."
-  },
-  "compare": {
-    "hero": {
-      "bentleyAlt": "Bentley",
-      "title": {
-        "rollsRoyce": "Rolls-Royce",
-        "vs": "vs",
-        "bentley": "Bentley"
-      },
-      "subtitle": "The ultimate comparison between two titans of British luxury motoring"
-    },
-    "quickSummary": {
-      "rollsRoyce": {
-        "title": "Rolls-Royce",
-        "point1": "Ultimate luxury and comfort",
-        "point2": "Bespoke craftsmanship",
-        "point3": "Timeless prestige"
-      },
-      "bentley": {
-        "title": "Bentley",
-        "point1": "Performance luxury blend",
-        "point2": "Sporting heritage",
-        "point3": "Driver engagement"
-      }
-    },
-    "summary": {
-      "rollsRoyce": {
-        "tagline": "The pinnacle of unparalleled luxury and comfort."
-      },
-      "bentley": {
-        "tagline": "A perfect blend of performance and luxury."
-      }
-    },
-    "aspects": {
-      "overview": {
-        "name": "Overview"
-      },
-      "luxury": {
-        "name": "Luxury"
-      },
-      "performance": {
-        "name": "Performance"
-      },
-      "technology": {
-        "name": "Technology"
-      },
-      "heritage": {
-        "name": "Heritage"
-      },
-      "price": {
-        "name": "Price"
-      }
-    },
-    "overview": {
-      "rolls-royce": {
-        "title": "The Pinnacle of Luxury",
-        "points": [
-          "Uncompromising commitment to luxury and comfort",
-          "Bespoke craftsmanship with unlimited customization",
-          "The quietest and smoothest ride in the automotive world",
-          "Preferred choice of royalty and heads of state"
-        ],
-        "summary": "Rolls-Royce represents the absolute pinnacle of automotive luxury, where no compromise is made in the pursuit of perfection."
-      },
-      "bentley": {
-        "title": "Performance Luxury",
-        "points": [
-          "Luxury combined with sporting performance",
-          "Handcrafted interiors with modern technology",
-          "More driver-focused experience",
-          "Racing heritage and sporting credentials"
-        ],
-        "summary": "Bentley offers a unique blend of luxury and performance, appealing to those who want to drive as much as be driven."
-      }
-    },
-    "luxury": {
-      "rolls-royce": {
-        "title": "Unparalleled Opulence",
-        "points": [
-          "Hand-stitched leather from specially reared bulls",
-          "Real wood veneers from single trees for perfect matching",
-          "Starlight headliner with thousands of fiber optic lights",
-          "Bespoke department for unlimited personalization"
-        ],
-        "summary": "Every Rolls-Royce is a masterpiece of craftsmanship, with attention to detail that borders on obsession."
-      },
-      "bentley": {
-        "title": "Contemporary Luxury",
-        "points": [
-          "Diamond-quilted leather seats",
-          "Rotating display featuring analog dials",
-          "Knurled metal controls and switches",
-          "Mulliner personalization service"
-        ],
-        "summary": "Bentley combines traditional craftsmanship with modern luxury, creating an environment that's both opulent and sporting."
-      }
-    },
-    "performance": {
-      "rolls-royce": {
-        "title": "Effortless Power",
-        "points": [
-          "V12 engines delivering seamless power",
-          "Focus on refinement over outright speed",
-          "Magic Carpet Ride suspension system",
-          "Near-silent operation at any speed"
-        ],
-        "summary": "Rolls-Royce prioritizes smooth, effortless power delivery over sporting performance, creating a serene driving experience."
-      },
-      "bentley": {
-        "title": "Exhilarating Performance",
-        "points": [
-          "W12 and V8 engines with massive power",
-          "0-60 mph in under 4 seconds (Continental GT)",
-          "Active all-wheel drive systems",
-          "Track-capable luxury vehicles"
-        ],
-        "summary": "Bentley delivers supercar performance wrapped in luxury, appealing to enthusiasts who refuse to compromise."
-      }
-    },
-    "technology": {
-      "rolls-royce": {
-        "title": "Invisible Technology",
-        "points": [
-          "Technology hidden behind traditional interfaces",
-          "Satellite Aided Transmission",
-          "Night vision with pedestrian detection",
-          "Bespoke audio system tuned to each car"
-        ],
-        "summary": "Rolls-Royce integrates cutting-edge technology seamlessly, maintaining a classic, uncluttered aesthetic."
-      },
-      "bentley": {
-        "title": "Modern Innovation",
-        "points": [
-          "Rotating display with touchscreen",
-          "Advanced driver assistance systems",
-          "Bang & Olufsen audio systems",
-          "Fully digital instrument cluster"
-        ],
-        "summary": "Bentley embraces modern technology more openly, offering a blend of traditional luxury and contemporary innovation."
-      }
-    },
-    "heritage": {
-      "rolls-royce": {
-        "title": "120 Years of Excellence",
-        "points": [
-          "Founded in 1904 by Henry Royce and Charles Rolls",
-          "Spirit of Ecstasy - the most famous automotive mascot",
-          "Supplier to royalty worldwide",
-          "The best car in the world philosophy"
-        ],
-        "summary": "Rolls-Royce has maintained its position as the ultimate luxury car manufacturer for over a century."
-      },
-      "bentley": {
-        "title": "Racing Pedigree",
-        "points": [
-          "Founded in 1919 by W.O. Bentley",
-          "Five Le Mans victories in the 1920s",
-          "Modern racing success at Le Mans",
-          "Bentley Boys racing heritage"
-        ],
-        "summary": "Bentley's racing heritage infuses every model with a sporting spirit that sets it apart from pure luxury brands."
-      }
-    },
-    "price": {
-      "rolls-royce": {
-        "title": "Ultimate Investment",
-        "points": [
-          "Starting prices from AED 2,000,000+",
-          "Bespoke options can double the base price",
-          "Strong value retention",
-          "Exclusive ownership experience"
-        ],
-        "summary": "Rolls-Royce commands premium prices that reflect its position as the ultimate luxury automobile."
-      },
-      "bentley": {
-        "title": "Accessible Ultra-Luxury",
-        "points": [
-          "Starting prices from AED 1,200,000+",
-          "More accessible entry point to ultra-luxury",
-          "Good value retention",
-          "Wider model range and price points"
-        ],
-        "summary": "Bentley offers a more accessible entry into the ultra-luxury segment while maintaining exclusivity."
-      }
-    },
-    "models": {
-      "phantom": {
-        "rollsRoyce": {
-          "model": "Rolls-Royce Phantom",
-          "price": "Starts from AED 2,500,000",
-          "type": "Luxury Sedan"
-        },
-        "bentley": {
-          "model": "Bentley Mulsanne",
-          "price": "Starts from AED 1,800,000",
-          "type": "Luxury Sedan"
-        }
-      },
-      "ghost": {
-        "rollsRoyce": {
-          "model": "Rolls-Royce Ghost",
-          "price": "Starts from AED 1,800,000",
-          "type": "Luxury Sedan"
-        },
-        "bentley": {
-          "model": "Bentley Flying Spur",
-          "price": "Starts from AED 1,200,000",
-          "type": "High-Performance Luxury Sedan"
-        }
-      },
-      "cullinan": {
-        "rollsRoyce": {
-          "model": "Rolls-Royce Cullinan",
-          "price": "Starts from AED 2,200,000",
-          "type": "Luxury SUV"
-        },
-        "bentley": {
-          "model": "Bentley Bentayga",
-          "price": "Starts from AED 1,500,000",
-          "type": "High-Performance Luxury SUV"
-        }
-      }
-    },
-    "rental": {
-      "rollsRoyce": {
-        "title": "Rolls-Royce Rental",
-        "daily": "AED 3,500+",
-        "weekly": "AED 21,000+",
-        "monthly": "AED 75,000+",
-        "benefits": [
-          "Professional chauffeur included",
-          "Complimentary fuel",
-          "Comprehensive insurance",
-          "Bespoke concierge service"
-        ]
-      },
-      "bentley": {
-        "title": "Bentley Rental",
-        "daily": "AED 2,800+",
-        "weekly": "AED 16,000+",
-        "monthly": "AED 55,000+",
-        "benefits": [
-          "Sport and luxury options",
-          "Self-drive available",
-          "Track day experiences",
-          "Performance driving courses"
-        ]
-      },
-      "dailyRate": "Daily Rate:",
-      "weeklyRate": "Weekly Rate:",
-      "monthlyRate": "Monthly Rate:",
-      "whyChooseRollsRoyce": "Why Choose Rolls-Royce:",
-      "bookRollsRoyce": "Book Rolls-Royce",
-      "whyChooseBentley": "Why Choose Bentley:",
-      "inquireBentley": "Inquire About Bentley",
-      "title": "Rental Price Comparison in Dubai"
-    },
-    "choice": {
-      "title": "Which Should You Choose?",
-      "rollsRoyce": {
-        "title": "Choose Rolls-Royce If You:",
-        "point1": "Value ultimate luxury and comfort above all else",
-        "point2": "Want to make the strongest possible impression",
-        "point3": "Prefer a serene, refined driving experience",
-        "point4": "Appreciate traditional craftsmanship and heritage",
-        "point5": "Need the ultimate wedding or special event vehicle"
-      },
-      "bentley": {
-        "title": "Choose Bentley If You:",
-        "point1": "Want luxury with sporting performance",
-        "point2": "Enjoy spirited driving and handling",
-        "point3": "Prefer contemporary design and technology",
-        "point4": "Want better value for ultra-luxury",
-        "point5": "Like the combination of luxury and speed"
-      }
-    },
-    "verdict": {
-      "title": "The Verdict",
-      "p1": "Both Rolls-Royce and Bentley represent the pinnacle of British luxury motoring, but they cater to different preferences. Rolls-Royce remains the ultimate choice for those seeking uncompromising luxury, refinement, and prestige. Bentley offers a compelling alternative for those who want luxury with a sporting edge.",
-      "p2": "In Dubai, where luxury is a lifestyle, Rolls-Royce continues to reign supreme as the ultimate status symbol.",
-      "exploreFleet": "Explore Rolls-Royce Fleet",
-      "bookExperience": "Book Your Experience"
-    },
-    "related": {
-      "title": "More Luxury Comparisons",
-      "mercedes": {
-        "title": "Rolls-Royce vs Mercedes",
-        "subtitle": "Ultimate luxury vs German engineering"
-      },
-      "comingSoon": "Coming Soon"
-    },
-    "detailed": {
-      "comparison": "Comparison",
-      "rollsRoyce": "Rolls-Royce",
-      "bentley": "Bentley"
-    },
-    "modelComparison": {
-      "title": "Model-to-Model Comparison"
-    },
-    "locations": {
-      "businessBay": {
-        "hero": {
-          "title": "Business Bay Excellence",
-          "subtitle": "Executive Transportation for Dubai's Business Elite",
-          "badge": "Dubai's Premier Business District",
-          "cta": {
-            "book": "Book Executive Service",
-            "corporate": "Corporate Solutions"
-          }
-        },
-        "whyHere": {
-          "title": "Why Rolls-Royce in Business Bay?"
-        },
-        "advantages": {
-          "businessHub": {
-            "title": "Business Hub",
-            "description": "Heart of Dubai's business district with easy access to DIFC and Downtown"
-          },
-          "connectivity": {
-            "title": "Quick Connectivity",
-            "description": "Strategic location with multiple entry/exit points to Sheikh Zayed Road"
-          },
-          "dining": {
-            "title": "Premium Dining",
-            "description": "World-class restaurants for business lunches and client entertainment"
-          },
-          "hotels": {
-            "title": "Luxury Hotels",
-            "description": "Five-star hotels perfect for international business travelers"
-          }
-        },
-        "towers": {
-          "title": "Direct Delivery to Business Towers",
-          "note": "+ All Business Bay towers and commercial buildings with complimentary valet coordination",
-          "commercial": "Commercial",
-          "mixedUse": "Mixed Use",
-          "officeComplex": "Office Complex",
-          "businessHub": "Business Hub",
-          "businessCenter": "Business Center",
-          "features": {
-            "valetParking": "Valet Parking",
-            "directAccess": "Direct Access",
-            "access247": "24/7 Access",
-            "vipEntrance": "VIP Entrance",
-            "basementParking": "Basement Parking",
-            "conciergeService": "Concierge Service"
-          }
-        },
-        "services": {
-          "title": "Corporate Services for Business Bay",
-          "inquire": "Inquire Now",
-          "executive": {
-            "title": "Executive Daily Rental",
-            "description": "Perfect for high-level meetings and client impressions",
-            "price": "From AED 5,500/day",
-            "features": {
-              "morning": "Morning delivery to office",
-              "evening": "Evening pickup service",
-              "flexible": "Flexible timing"
-            }
-          },
-          "conference": {
-            "title": "Conference Package",
-            "description": "Multiple vehicles for corporate events and conferences",
-            "price": "From AED 35,000",
-            "features": {
-              "fleet": "Fleet coordination",
-              "chauffeurs": "Professional chauffeurs",
-              "vip": "VIP guest management"
-            }
-          },
-          "monthly": {
-            "title": "Monthly Corporate",
-            "description": "Long-term solutions for executives and companies",
-            "price": "From AED 95,000/month",
-            "features": {
-              "dedicated": "Dedicated vehicle",
-              "account": "Account management",
-              "priority": "Priority support"
-            }
-          }
-        },
-        "destinations": {
-          "title": "Quick Access from Business Bay",
-          "header": {
-            "destination": "Destination",
-            "time": "Drive Time",
-            "purpose": "Purpose"
-          },
-          "dubaiMall": {
-            "distance": "5 minutes",
-            "purpose": "Client entertainment"
-          },
-          "difc": {
-            "distance": "8 minutes",
-            "purpose": "Financial meetings"
-          },
-          "canal": {
-            "distance": "2 minutes",
-            "purpose": "Scenic drives"
-          },
-          "laMer": {
-            "distance": "10 minutes",
-            "purpose": "Leisure breaks"
-          },
-          "cityWalk": {
-            "distance": "7 minutes",
-            "purpose": "Business lunches"
-          },
-          "airport": {
-            "distance": "20 minutes",
-            "purpose": "Airport transfers"
-          }
-        },
-        "benefits": {
-          "title": "Elevate Your Business Image",
-          "client": {
-            "title": "Client Impressions",
-            "point1": "Arrive at meetings in unparalleled style",
-            "point2": "Transport VIP clients and partners",
-            "point3": "Stand out in the business community",
-            "point4": "Create memorable first impressions"
-          },
-          "productivity": {
-            "title": "Productivity Benefits",
-            "point1": "Mobile office with WiFi and charging",
-            "point2": "Quiet space for calls and preparation",
-            "point3": "Professional chauffeur handling navigation",
-            "point4": "Stress-free travel between meetings"
-          }
-        },
-        "testimonials": {
-          "title": "Business Bay Success Stories"
-        },
-        "fleet": {
-          "title": "Executive Fleet for Business Bay"
-        },
-        "cta": {
-          "title": "Transform Your Business Transportation",
-          "subtitle": "Join hundreds of Business Bay executives who choose Rolls-Royce for their corporate mobility needs",
-          "call": "Call Business Team",
-          "packages": "Corporate Packages"
-        },
+  "servicesPages": {
+    "corporate": {
+      "hero": {
+        "title": "Rolls-Royce Corporate Services",
+        "subtitle": "Executive Transportation for Your Business",
+        "getQuote": "Get a Quote",
+        "viewPackages": "View Packages",
         "stats": {
           "clients": "Corporate Clients",
-          "delivery": "Tower Delivery",
-          "support": "Business Support"
+          "retention": "Client Retention",
+          "support": "Support"
         }
       },
-      "downtown": {
-        "hero": {
-          "title": "Downtown Dubai Excellence",
-          "subtitle": "Luxury Car Rental at the Heart of Dubai",
-          "district": "Burj Khalifa District",
-          "bookButton": "Book Downtown Delivery",
-          "exploreButton": "Explore Experiences"
+      "whyChoose": {
+        "title": "Why Choose Our Corporate Solutions?",
+        "image": {
+          "title": "Impeccable Image",
+          "description": "Make a lasting impression on clients and partners."
         },
-        "advantages": {
-          "title": "Why Rolls-Royce in Downtown Dubai?",
-          "central": {
-            "title": "Central Location",
-            "description": "Minutes from every major attraction and business district"
-          },
-          "vip": {
-            "title": "VIP Access",
-            "description": "Priority entrance to Dubai Mall, Burj Khalifa, and hotels"
-          },
-          "delivery": {
-            "title": "10-Min Delivery",
-            "description": "Fastest response time in Downtown area"
-          },
-          "concierge": {
-            "title": "Concierge Service",
-            "description": "Restaurant bookings, event tickets, and local insights"
-          }
+        "productivity": {
+          "title": "Maximum Productivity",
+          "description": "Utilize travel time for work or relaxation in a luxurious environment."
         },
-        "landmarks": {
-          "title": "Direct Access to Downtown Landmarks"
+        "privacy": {
+          "title": "Confidentiality & Security",
+          "description": "We guarantee complete privacy for your business travels."
         },
-        "experiences": {
-          "title": "Curated Downtown Experiences",
-          "recommendedVehicle": "Recommended Vehicle",
-          "burjKhalifa": {
-            "title": "Burj Khalifa VIP Experience",
-            "description": "Arrive in style at the world's tallest building",
-            "features": [
-              "VIP entrance access",
-              "Professional photography",
-              "Sunset timing recommendations",
-              "Reserved parking arrangements"
-            ],
-            "recommended": "Phantom or Ghost"
-          },
-          "dubaiMall": {
-            "title": "Dubai Mall Shopping Tour",
-            "description": "Luxury shopping with dedicated chauffeur service",
-            "features": [
-              "VIP valet parking",
-              "Shopping assistance",
-              "Package storage in vehicle",
-              "Multi-stop coordination"
-            ],
-            "recommended": "Cullinan SUV"
-          },
-          "business": {
-            "title": "Business District Circuit",
-            "description": "Seamless corporate transportation in Downtown",
-            "features": [
-              "DIFC to Downtown routes",
-              "Meeting scheduling support",
-              "Mobile office features",
-              "Confidential environment"
-            ],
-            "recommended": "Ghost"
-          }
-        },
-        "hotels": {
-          "title": "Partner Hotels in Downtown",
-          "subtitle": "Complimentary delivery and pickup service to all Downtown Dubai hotels",
-          "additional": "+ All residential towers and serviced apartments"
-        },
-        "routes": {
-          "title": "Signature Downtown Routes",
-          "stops": "Route Stops",
-          "duration": "Duration",
-          "bestTime": "Best Time",
-          "fountain": {
-            "name": "Fountain Show Circuit",
-            "duration": "30 minutes",
-            "bestTime": "Evening (6-10 PM)"
-          },
-          "architecture": {
-            "name": "Architecture Tour",
-            "duration": "45 minutes",
-            "bestTime": "Golden Hour"
-          },
-          "dining": {
-            "name": "Luxury Dining Route",
-            "duration": "20 minutes between venues",
-            "bestTime": "Dinner Service"
-          }
-        },
-        "testimonials": {
-          "title": "Downtown Dubai Experiences",
-          "abdullah": {
-            "location": "Downtown Resident",
-            "text": "Living in Downtown, I use their Ghost for all my business meetings. The convenience of having a Rolls-Royce ready within minutes is unmatched."
-          },
-          "sophie": {
-            "location": "French Tourist",
-            "text": "We booked the Dawn for our anniversary dinner at At.mosphere. The chauffeur knew exactly where to stop for the best photos with Burj Khalifa."
-          },
-          "david": {
-            "location": "Business Traveler",
-            "text": "Stayed at Armani Hotel and used their Phantom service daily. Perfect for DIFC meetings and evening entertainment."
-          }
-        },
-        "fleet": {
-          "title": "Available Fleet in Downtown"
-        },
-        "cta": {
-          "title": "Experience Downtown Dubai in Ultimate Luxury",
-          "subtitle": "10-minute delivery to any Downtown location. VIP access to all major attractions included.",
-          "callButton": "Call Downtown Team",
-          "bookButton": "Book Online Now"
-        },
-        "stats": {
-          "deliveries": "Downtown Deliveries",
-          "time": "10 min",
-          "avgDelivery": "Average Delivery",
-          "availability": "Availability"
+        "standards": {
+          "title": "Highest Standards",
+          "description": "Our service meets the strictest corporate requirements."
         }
       },
-      "dubaiMarina": {
-        "hero": {
-          "title": "Rolls-Royce Dubai Marina",
-          "subtitle": "Luxury Car Rental in the Heart of Marina",
-          "bookButton": "Book Marina Delivery",
-          "callButton": "Call Marina Team",
-          "freeDelivery": "Free Marina Delivery",
-          "deliveryTime": "15 Min Delivery",
-          "vipConcierge": "VIP Concierge"
+      "packages": {
+        "title": "Our Corporate Packages",
+        "requestQuote": "Request a Quote",
+        "executive": {
+          "name": "Executive Package",
+          "description": "Ideal for top-tier executives and VIPs.",
+          "features": ["Personal Chauffeur", "Wi-Fi & Workspace", "Refreshments", "Priority Service"],
+          "vehicles": ["Phantom", "Ghost"],
+          "price": "From AED 1500/hour"
         },
-        "whyChoose": {
-          "title": "Why Choose Rolls-Royce in Dubai Marina?",
-          "beachside": {
-            "title": "Beachside Luxury",
-            "description": "Cruise along JBR Beach and The Walk with the perfect backdrop of Marina skyline"
-          },
-          "nightlife": {
-            "title": "Vibrant Nightlife",
-            "description": "Access exclusive venues and restaurants with valet service at every destination"
-          },
-          "yacht": {
-            "title": "Yacht Connection",
-            "description": "Perfect for yacht owners - seamless transfer from marina to your vessel"
-          }
+        "conference": {
+          "name": "Conference & Events",
+          "description": "Transportation for delegations and event attendees.",
+          "features": ["Logistics Coordination", "Group Transfers", "Optional Vehicle Branding", "Airport Meet & Greet"],
+          "vehicles": ["Ghost", "Cullinan", "Luxury Minivans"],
+          "price": "On Request"
         },
-        "deliveryLocations": {
-          "title": "Free Delivery Locations in Marina",
-          "additional": "+ All hotels, residences, and businesses within Dubai Marina & JBR"
+        "roadshow": {
+          "name": "Roadshows",
+          "description": "Efficient planning and execution of complex itineraries.",
+          "features": ["Flexible Scheduling", "Experienced City Chauffeurs", "24/7 Support", "Real-time Monitoring"],
+          "vehicles": ["Phantom", "Ghost", "Wraith"],
+          "price": "From AED 1800/day"
         },
-        "popularRoutes": {
-          "title": "Scenic Routes from Marina",
-          "distance": "Distance",
-          "duration": "Duration",
-          "highlights": "Highlights",
-          "coastal": {
-            "name": "Marina Coastal Drive",
-            "description": "Marina Walk → JBR → Palm Jumeirah → Atlantis",
-            "highlights": ["Sunset views", "Beach roads", "Palm entrance"]
-          },
-          "city": {
-            "name": "City Lights Tour",
-            "description": "Marina → Sheikh Zayed Road → Downtown Dubai",
-            "highlights": ["Skyline views", "Burj Khalifa", "Dubai Mall"]
-          },
-          "shopping": {
-            "name": "Luxury Shopping Route",
-            "description": "Marina Mall → Mall of Emirates → City Walk",
-            "highlights": ["Premium shopping", "Valet parking", "VIP lounges"]
-          }
-        },
-        "nearbyAttractions": {
-          "title": "Explore Marina in Style",
-          "attraction": "Attraction",
-          "distance": "Distance",
-          "type": "Type"
-        },
-        "testimonials": {
-          "title": "Marina Experiences",
-          "rented": "Rented",
-          "sarah": {
-            "location": "Marina Resident",
-            "text": "Having Rolls-Royce delivered to my Marina apartment was incredibly convenient. The sunset drive along JBR was magical!",
-            "car": "Dawn Convertible"
-          },
-          "james": {
-            "location": "Tourist from UK",
-            "text": "Picked up the Phantom at Marina Walk. The chauffeur knew all the best photo spots. Unforgettable experience!",
-            "car": "Phantom"
-          },
-          "fatima": {
-            "location": "Business Executive",
-            "text": "Use their service monthly for client meetings. Marina to DIFC in supreme comfort. Always impressed!",
-            "car": "Ghost"
-          }
-        },
-        "fleet": {
-          "title": "Available at Marina"
-        },
-        "cta": {
-          "title": "Experience Marina Luxury Today",
-          "subtitle": "Free delivery within 15 minutes to any Marina location. Professional chauffeurs available for guided tours.",
-          "callButton": "Call Marina Team: +971 55 816 4922",
-          "bookButton": "Book Online Now",
-          "pickupPoint": "Marina Pickup Point",
-          "pickupLocation": "Dubai Marina Walk, Gate B",
-          "gps": "GPS: 25.0805° N, 55.1403° E"
+        "partnership": {
+          "name": "Long-term Partnership",
+          "description": "Customized solutions for regular corporate clients.",
+          "features": ["Special Rates", "Dedicated Account Manager", "Flexible Billing", "Extended Vehicle Choice"],
+          "vehicles": ["Entire Rolls-Royce Fleet"],
+          "price": "Customized"
         }
       },
-      "palmJumeirah": {
-        "hero": {
-          "title": "Palm Jumeirah Luxury",
-          "subtitle": "Experience The Palm in Rolls-Royce Excellence",
-          "badge": "The 8th Wonder of the World",
-          "bookButton": "Book Palm Delivery",
-          "exploreButton": "Exclusive Experiences"
+      "clients": {
+        "title": "Trusted by Leading Companies",
+        "emiratesNBD": "Emirates NBD",
+        "banking": "Banking",
+        "damac": "DAMAC Properties",
+        "realEstate": "Real Estate",
+        "dubaiHolding": "Dubai Holding",
+        "investment": "Investment",
+        "emaar": "Emaar",
+        "development": "Development",
+        "more": "and many more..."
+      },
+      "caseStudies": {
+        "title": "Successful Collaboration Examples",
+        "bank": {
+          "client": "Major International Bank",
+          "challenge": "Challenge",
+          "challengeText": "Provide transportation for a VIP delegation during a financial forum in Dubai.",
+          "solution": "Solution",
+          "solutionText": "Supplied Rolls-Royce Phantom vehicles with professional chauffeurs, developed a detailed logistics plan.",
+          "result": "Result",
+          "resultText": "All transfers executed flawlessly, delegation noted highest comfort and service levels."
         },
-        "whyChoose": {
-          "title": "Why Choose Rolls-Royce at The Palm?",
-          "beach": {
-            "title": "Beach Paradise",
-            "description": "Perfect for beach club arrivals and sunset drives along pristine coastlines"
-          },
-          "hotels": {
-            "title": "Iconic Hotels",
-            "description": "Direct access to Atlantis and world-class resorts with VIP valet service"
-          },
-          "villas": {
-            "title": "Exclusive Villas",
-            "description": "Serving Palm's elite villa community with personalized luxury service"
-          }
-        },
-        "partnerHotels": {
-          "title": "Partner Hotels & Resorts",
-          "additional": "Complimentary pickup and delivery to all Palm Jumeirah hotels and residences",
-          "atlantis": {
-            "category": "5-Star Resort",
-            "feature": "Valet Service"
-          },
-          "oneAndOnly": {
-            "category": "Ultra-Luxury",
-            "feature": "Private Beach"
-          },
-          "waldorf": {
-            "category": "5-Star Hotel",
-            "feature": "VIP Entrance"
-          },
-          "five": {
-            "category": "Beach Resort",
-            "feature": "Beach Club"
-          },
-          "anantara": {
-            "category": "Resort & Spa",
-            "feature": "Lagoon Access"
-          },
-          "w": {
-            "category": "Lifestyle Hotel",
-            "feature": "Rooftop Bar"
-          }
-        },
-        "drivingRoutes": {
-          "title": "Scenic Palm Routes",
-          "highlights": "Route Highlights",
-          "duration": "Duration",
-          "bestCar": "Best Car",
-          "crescent": {
-            "name": "Palm Crescent Drive",
-            "description": "Atlantis → Crescent Road → Luxury Villas → Return",
-            "highlights": ["Ocean views", "Exclusive villas", "Sunset spots"]
-          },
-          "full": {
-            "name": "Full Palm Circuit",
-            "description": "Complete loop around Palm Jumeirah",
-            "highlights": ["All hotels", "Beach clubs", "Marina views"]
-          },
-          "night": {
-            "name": "Night Lights Tour",
-            "description": "Evening drive with illuminated landmarks",
-            "highlights": ["Atlantis lights", "The Pointe fountains", "City skyline"]
-          }
-        },
-        "exclusiveExperiences": {
-          "title": "Exclusive Palm Experiences",
-          "bookButton": "Book Experience",
-          "beachClub": {
-            "title": "Beach Club Arrival",
-            "description": "Make a grand entrance at exclusive beach clubs",
-            "includes": [
-              "VIP parking coordination",
-              "Beach club reservations",
-              "Photographer arrangements",
-              "Sunset timing optimization"
-            ],
-            "price": "From AED 8,000"
-          },
-          "atlantis": {
-            "title": "Atlantis Experience",
-            "description": "Complete luxury package at Atlantis The Palm",
-            "includes": [
-              "Hotel valet service",
-              "Aquaventure access",
-              "Restaurant bookings",
-              "Chauffeur standby service"
-            ],
-            "price": "From AED 9,500"
-          },
-          "villa": {
-            "title": "Villa Collection Service",
-            "description": "Exclusive service for Palm villa residents",
-            "includes": [
-              "Monthly packages available",
-              "Dedicated account manager",
-              "Multiple vehicle options",
-              "24/7 availability"
-            ],
-            "price": "From AED 12,000"
-          }
-        },
-        "attractions": {
-          "title": "Palm Attractions Access",
-          "distance": "Distance",
-          "bestTime": "Best Time",
-          "thePointe": {
-            "description": "Waterfront dining and entertainment",
-            "distance": "5 min from Atlantis",
-            "bestTime": "Evening for fountain shows"
-          },
-          "nakheelMall": {
-            "description": "Premium shopping destination",
-            "distance": "10 min drive",
-            "bestTime": "Afternoon shopping"
-          },
-          "palmWestBeach": {
-            "description": "Pristine beach with luxury amenities",
-            "distance": "15 min drive",
-            "bestTime": "Sunset hours"
-          },
-          "theView": {
-            "description": "360° observation deck",
-            "distance": "8 min drive",
-            "bestTime": "Golden hour photography"
-          }
-        },
-        "weather": {
-          "title": "Best Times to Cruise The Palm"
-        },
-        "fleet": {
-          "title": "Choose Your Palm Companion"
-        },
-        "cta": {
-          "title": "Experience The Palm in Ultimate Luxury",
-          "subtitle": "From Atlantis arrivals to sunset beach drives, make every moment on The Palm unforgettable",
-          "callButton": "Call Palm Concierge",
-          "bookButton": "Book Online Now",
-          "freeDelivery": "Free Villa Delivery",
-          "response": "15 Min Response",
-          "support": "24/7 Support"
-        },
-        "stats": {
-          "deliveries": "Palm Deliveries Monthly",
-          "deliveryTime": "Average Delivery Time",
-          "concierge": "Concierge Service",
-          "satisfaction": "Client Satisfaction"
+        "tech": {
+          "client": "Leading Technology Company",
+          "challenge": "Challenge",
+          "challengeText": "Organize a series of trips for top management during a UAE roadshow.",
+          "solution": "Solution",
+          "solutionText": "Developed a flexible schedule, provided Rolls-Royce Ghost vehicles, ensured 24/7 support.",
+          "result": "Result",
+          "resultText": "Roadshow was successful, all meetings on time, clients praised service reliability."
         }
       },
-      "difc": {
-        "hero": {
-          "title": "DIFC Dubai",
-          "subtitle": "Executive Transportation in the Financial District",
-          "description": "Premier Rolls-Royce rental service for Dubai's business elite. Perfect for corporate meetings, client entertainment, and executive travel."
+      "benefits": {
+        "title": "Corporate Service Benefits",
+        "financial": {
+          "title": "Financial",
+          "items": ["Optimize transportation costs", "Special corporate rates", "Transparent reporting system"]
         },
-        "stats": {
-          "clients": "Corporate Clients",
-          "service": "Executive Service",
-          "response": "Response Time",
-          "confidential": "Confidential"
+        "operational": {
+          "title": "Operational",
+          "items": ["Save time on trip organization", "Guaranteed vehicle availability", "24/7 support and coordination"]
         },
-        "corporateServices": {
-          "title": "Corporate Services in DIFC",
-          "subtitle": "Tailored luxury transportation solutions for the business community",
-          "executive": {
-            "title": "Executive Transportation",
-            "description": "Professional chauffeur service for C-suite executives",
-            "features": ["Dedicated driver", "Flexible scheduling", "Confidential service"]
-          },
-          "board": {
-            "title": "Board Meeting Arrivals",
-            "description": "Impressive arrivals for board meetings and presentations",
-            "features": ["Punctual service", "Professional appearance", "Discrete handling"]
-          },
-          "client": {
-            "title": "Client Entertainment",
-            "description": "Impress clients with luxury transportation",
-            "features": ["Multiple vehicles", "Coordinated fleet", "VIP treatment"]
-          },
-          "events": {
-            "title": "Corporate Events",
-            "description": "Fleet solutions for conferences and corporate gatherings",
-            "features": ["Event coordination", "Bulk bookings", "Custom branding options"]
-          }
-        },
-        "amenities": {
-          "title": "Business-Class Amenities",
-          "wifi": "WiFi-enabled vehicles",
-          "privacy": "Privacy partitions",
-          "office": "Mobile office setup",
-          "refreshments": "Refreshments included",
-          "newspaper": "Newspaper service",
-          "charging": "Charging stations",
-          "conference": "Conference call capability",
-          "security": "Document security"
-        },
-        "fleet": {
-          "title": "Executive Fleet for DIFC",
-          "viewDetails": "View Details",
-          "phantom": {
-            "features": ["Executive sedan", "CEO transport", "Board meetings"]
-          },
-          "ghost": {
-            "features": ["Business class", "Client meetings", "Corporate events"]
-          },
-          "cullinan": {
-            "features": ["Executive SUV", "Team transport", "VIP transfers"]
-          }
-        },
-        "landmarks": {
-          "title": "DIFC Location & Nearby Landmarks",
-          "subtitle": "Strategic Business Location",
-          "description": "Dubai International Financial Centre (DIFC) is the leading financial hub for the Middle East, Africa, and South Asia. Our Rolls-Royce rental service provides immediate access to this prestigious business district.",
-          "away": "{{distance}} away",
-          "gate": {
-            "description": "Iconic entrance to the financial district"
-          },
-          "emirates": {
-            "description": "Prestigious business towers"
-          },
-          "wtc": {
-            "description": "Major exhibition and conference venue"
-          },
-          "fourseasons": {
-            "description": "Luxury business hotel"
-          },
-          "ritz": {
-            "description": "Premium accommodation for executives"
-          }
-        },
-        "map": {
-          "title": "DIFC, Dubai",
-          "coordinates": "25.2110°N, 55.2796°E",
-          "viewOnMap": "View on Google Maps →"
-        },
+        "service": {
+          "title": "Service",
+          "items": ["Highest level of service and attention to detail", "Experienced, professional chauffeurs", "Impeccably maintained vehicles"]
+        }
+      },
+      "cta": {
+        "title": "Ready to Elevate Your Business Travel?",
+        "description": "Contact us today for a customized corporate transportation solution.",
+        "call": "Call Our Corporate Team",
+        "getQuote": "Get a Corporate Quote"
+      },
+      "quickInquiry": {
+        "title": "Quick Inquiry",
+        "subtitle": "Get a fast quote for your corporate needs",
         "packages": {
-          "title": "Corporate Packages",
-          "monthlyPackage": "Monthly Package",
-          "selectPackage": "Select Package",
-          "contactUs": "Contact Us",
-          "popular": "POPULAR",
-          "executive": {
-            "title": "Executive",
-            "price": "AED 40,000",
-            "features": ["20 days per month", "Dedicated chauffeur", "Choice of Ghost/Wraith"]
-          },
-          "chairman": {
-            "title": "Chairman",
-            "price": "AED 72,000",
-            "features": ["Unlimited usage", "2 dedicated chauffeurs", "Full fleet access", "Priority booking"]
-          },
-          "enterprise": {
-            "title": "Enterprise",
-            "price": "Custom",
-            "subtitle": "Tailored Solution",
-            "features": ["Multiple vehicles", "Fleet management", "Corporate branding", "Account management"]
-          }
+          "executive": "Executive Package",
+          "conference": "Conference & Events",
+          "roadshow": "Roadshows",
+          "partnership": "Long-term Partnership"
+        }
+      }
+    },
+    "wedding": {
+      "hero": {
+        "title": "An Unforgettable Wedding with Rolls-Royce",
+        "subtitle": "Arrive in Ultimate Style and Luxury",
+        "viewPackages": "View Wedding Packages",
+        "consultation": "Request a Consultation"
+      },
+      "whyChoose": {
+        "title": "Why Choose Us for Your Wedding?",
+        "bridal": {
+          "title": "Perfect Bridal Arrival",
+          "description": "Create a grand entrance that will be remembered forever."
         },
-        "testimonials": {
-          "title": "What DIFC Executives Say",
-          "ahmed": {
-            "name": "Ahmed Al-Rashid",
-            "title": "CEO, Emirates Investment Group",
-            "text": "The Phantom is perfect for board meetings. It creates the right impression and the service is always impeccable. A true business partner."
-          },
-          "sarah": {
-            "name": "Sarah Mitchell",
-            "title": "Managing Partner, Global Law Firm",
-            "text": "Our corporate package with Rolls-Royce Dubai has elevated our client relationships. The reliability and prestige are unmatched in the region."
-          }
+        "photo": {
+          "title": "Stunning Photo Opportunities",
+          "description": "Our cars provide a magnificent backdrop for your wedding photos."
         },
-        "cta": {
-          "title": "Elevate Your Business Image in DIFC",
-          "subtitle": "Join Dubai's business elite with our exclusive Rolls-Royce corporate services",
-          "bookButton": "Book Corporate Service",
-          "exploreButton": "Explore Packages",
-          "hotline": "Corporate Hotline: +971 55 816 4922",
-          "email": "Email: corporate@rollsroycers.com"
+        "reliability": {
+          "title": "Punctuality and Reliability",
+          "description": "We ensure timely arrival, so you can relax and enjoy your day."
         }
       },
-      "home": {
-        "video": {
-          "title": "Experience Rolls-Royce Excellence",
-          "subtitle": "Watch our luxury fleet in action across Dubai"
+      "packages": {
+        "title": "Our Exclusive Wedding Packages",
+        "bookPackage": "Book This Package",
+        "classic": {
+          "name": "Classic Elegance",
+          "duration": "4 Hours",
+          "features": [
+            "Professional Chauffeur",
+            "Red Carpet Service",
+            "Complimentary Water",
+            "Basic Floral Decoration"
+          ],
+          "price": "From AED 2,500"
         },
-        "premiumServices": {
-          "title": "Our Premium Services",
-          "viewAll": "View All Services"
+        "royal": {
+          "name": "Royal Affair",
+          "duration": "6 Hours",
+          "features": [
+            "Everything in Classic Elegance",
+            "Personalized Music Playlist",
+            "Complimentary Bubbly (Non-Alc)",
+            "Custom Floral Arrangements"
+          ],
+          "price": "From AED 4,000"
         },
-        "explore": {
-          "title": "Explore More",
-          "gallery": {
-            "title": "Gallery",
-            "subtitle": "Browse our stunning collection"
-          },
-          "faq": {
-            "title": "FAQs",
-            "subtitle": "Get answers to common questions"
-          },
-          "blog": {
-            "title": "Blog",
-            "subtitle": "Read luxury insights & tips"
-          },
-          "compare": {
-            "title": "Compare",
-            "subtitle": "Rolls-Royce vs Other Brands"
-          }
-        },
-        "personalizedOffers": {
-          "title": "Your Personalized Offers",
-          "subtitle": "Exclusive deals curated just for you",
-          "ai": "AI-powered recommendations based on your preferences",
-          "welcome": {
-            "title": "Welcome Back! Exclusive 20% Off",
-            "description": "As a valued returning visitor, enjoy this special discount on your next booking",
-            "validFor": "Valid for:",
-            "allVehicles": "All vehicles",
-            "copyCode": "Copy Code",
-            "copied": "✓ Copied!",
-            "terms": "Terms & Conditions",
-            "useOffer": "Use This Offer"
-          },
-          "upgrade": {
-            "title": "Weekend Luxury Upgrade",
-            "description": "Book a Ghost, get upgraded to Phantom for the same price",
-            "validFor": "Valid for:",
-            "weekendBookings": "Weekend bookings"
-          },
-          "extended": {
-            "title": "Extended Journey: 30% Off Weekly Rentals",
-            "description": "Perfect for your extended Dubai experience",
-            "validFor": "Valid for:",
-            "weeklyRentals": "7+ day rentals"
-          },
-          "executive": {
-            "title": "Executive Package: Free Chauffeur",
-            "description": "Complimentary professional chauffeur service with any rental",
-            "validFor": "Valid for:",
-            "businessBookings": "Business bookings"
-          },
-          "notFound": {
-            "title": "Didn't Find What You're Looking For?",
-            "subtitle": "Let us create a custom package tailored to your specific needs and preferences.",
-            "chat": "Chat with Sales",
-            "quote": "Request Custom Quote"
-          }
-        },
-        "tripPlanner": {
-          "title": "Luxury Trip Planner",
-          "subtitle": "Create your perfect Dubai journey",
-          "selectCar": "Select Your Rolls-Royce",
-          "idealFor": "Ideal for",
-          "suggestedRoutes": "Suggested Routes",
-          "chooseDestinations": "Choose Destinations",
-          "selected": "selected",
-          "recommended": "Recommended",
-          "generatePlan": "Generate Trip Plan",
-          "yourPlan": "Your Luxury Trip Plan",
-          "vehicle": "Vehicle",
-          "totalDistance": "Total Distance",
-          "estimatedTime": "Estimated Time",
-          "yourRoute": "Your Route",
-          "recommendedStops": "Recommended Stops",
-          "bookExperience": "Book This Experience",
-          "createPlan": "Create New Plan"
+        "ultimate": {
+          "name": "Ultimate Luxury",
+          "duration": "Full Day (10 Hours)",
+          "features": [
+            "Everything in Royal Affair",
+            "Multiple Car Convoy Option",
+            "Groom & Groomsmen Transport",
+            "Personal Wedding Coordinator"
+          ],
+          "price": "From AED 7,000",
+          "premium": "Most Popular"
         }
+      },
+      "gallery": {
+        "title": "Our Wedding Fleet in Action"
+      },
+      "testimonials": {
+        "title": "What Happy Couples Say",
+        "sarah": {
+          "name": "Sarah & Ahmed",
+          "text": "The Rolls-Royce was the highlight of our wedding. The service was impeccable and made us feel like royalty. Thank you for making our day so special!"
+        },
+        "fatima": {
+          "name": "Fatima & Khalid",
+          "text": "Absolutely flawless experience. The car was stunning, the chauffeur was incredibly professional. It was the perfect touch for our perfect day."
+        }
+      },
+      "cta": {
+        "title": "Ready to Plan Your Dream Wedding Transport?",
+        "description": "Contact our wedding specialists today to create a bespoke package that perfectly suits your needs.",
+        "call": "Call Our Wedding Specialist",
+        "getQuote": "Get a Personalized Quote"
       }
     }
+  },
+  "placeholders": {
+    "loading": "Loading...",
+    "error": "An error occurred."
   }
 }

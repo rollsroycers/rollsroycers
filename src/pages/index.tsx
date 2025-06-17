@@ -59,25 +59,25 @@ export default function Home() {
 
   const videoShowcase = [
     {
-      title: 'Luxury Millionaire Lifestyle',
+      title: t('videoGallery.lifestyle.title'),
       thumbnail: '/images/Rolls-royce-official.jpg',
       video: '/images/videos/Luxury_Millionaire_Aesthetic_Lifestyle.mp4',
       duration: '0:45'
     },
     {
-      title: 'Mansory Black Badge Cullinan',
+      title: t('videoGallery.mansory.title'),
       thumbnail: '/images/Rolls-Royce-Cullinan_.jpg',
       video: '/images/videos/Mansory_Black_Badge_Rolls_Royce_Cullinan.mp4',
       duration: '1:02'
     },
     {
-      title: 'Defining Luxury Cars',
+      title: t('videoGallery.defining.title'),
       thumbnail: '/images/Rolls-Royce-black.jpg',
       video: '/images/videos/Rolls_Royce_defines_what_Luxury_cars_mean.mp4',
       duration: '0:58'
     },
     {
-      title: 'Phantom Experience',
+      title: t('videoGallery.experience.title'),
       thumbnail: '/images/Rolls-royce-phantom.jpg',
       video: '/images/videos/Rolls-royce-phantom.mp4',
       duration: '1:15'
@@ -86,33 +86,33 @@ export default function Home() {
 
   const latestTestimonials = [
     {
-      name: 'Ahmed Al-Rashid',
-      location: 'Dubai, UAE',
+      name: t('reviews.review1.name'),
+      location: t('reviews.review1.nationality'),
       rating: 5,
-      review: 'Exceptional service for our wedding. The Phantom was immaculate!',
+      review: t('reviews.review1.review').split('"')[1] || t('reviews.review1.review'),
       image: '/images/reviews/ahmed.webp'
     },
     {
-      name: 'Wang Jun',
-      location: 'Shanghai, China',
+      name: t('reviews.review10.name'),
+      location: t('reviews.review10.nationality'),
       rating: 5,
-      review: '非常棒的服务！司机很专业，车辆完美。',
+      review: t('reviews.review10.review').split('"')[1] || t('reviews.review10.review'),
       image: '/images/reviews/Wang-Jun_.jpg'
     },
     {
-      name: 'Dmitry Ivanov',
-      location: 'Moscow, Russia',
+      name: t('reviews.review2.name'),
+      location: t('reviews.review2.nationality'),
       rating: 5,
-      review: 'Лучший сервис в Дубае! Rolls-Royce был идеальным.',
+      review: t('reviews.review2.review').split('"')[1] || t('reviews.review2.review'),
       image: '/images/reviews/Dmitry-Ivanov.jpg'
     }
   ]
 
   const stats = [
-    { number: '5000+', label: 'Happy Customers' },
-    { number: '5', label: 'Luxury Models' },
-    { number: '24/7', label: 'Available Service' },
-    { number: '100%', label: 'Satisfaction Rate' }
+    { number: '5000+', label: t('home.stats.happyCustomers') },
+    { number: '5', label: t('home.stats.luxuryModels') },
+    { number: '24/7', label: t('home.stats.availableService') },
+    { number: '100%', label: t('home.stats.satisfactionRate') }
   ]
 
   return (
@@ -199,7 +199,7 @@ export default function Home() {
           </div>
         </section>
 
-        <Fleet />
+        <Fleet t={t} />
         
         {/* Featured Services Grid */}
         <section className="py-20 bg-gradient-to-b from-rolls-navy to-rolls-black">
@@ -356,17 +356,17 @@ export default function Home() {
               whileInView={{ opacity: 1, y: 0 }}
             >
               <h2 className="text-4xl font-bold text-white mb-6">
-                Ready to Experience Ultimate Luxury?
+                {t('common.readyToExperience')}
               </h2>
               <p className="text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
-                Book your Rolls-Royce today and discover why we're Dubai's premier luxury car rental service
+                {t('common.bookYourRollsRoyce')}
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Link href="/booking" className="btn-primary">
-                  Book Now
+                  {t('common.bookNow')}
                 </Link>
                 <Link href="/pricing" className="btn-secondary">
-                  View Pricing
+                  {t('common.viewPricing')}
                 </Link>
               </div>
             </motion.div>
@@ -416,7 +416,7 @@ export default function Home() {
         {/* Additional Components */}
         <AvailabilityCalendar />
         <ComparisonTool />
-        <VideoGallery />
+        <VideoGallery t={t} />
         <TestimonialSubmission />
         <LoyaltyProgram />
         <PersonalizedOffers />

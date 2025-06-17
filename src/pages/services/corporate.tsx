@@ -13,106 +13,84 @@ export default function CorporateServicesPage() {
   const { t } = useTranslation('common')
   const [selectedPackage, setSelectedPackage] = useState('executive')
 
-  const getTranslatedArray = (key: string, fallback: string[]): string[] => {
+  const getTranslatedArray = (key: string): string[] => {
     const translation = t(key, { returnObjects: true });
-    return Array.isArray(translation) ? translation : fallback;
+    return Array.isArray(translation) ? translation : [];
   };
   
   const corporatePackages = {
     executive: {
-      name: t('corporate.packages.executive.name'),
-      description: t('corporate.packages.executive.description'),
-      features: getTranslatedArray('corporate.packages.executive.features', [
-        'Dedicated Chauffeur',
-        'Onboard Wi-Fi & Refreshments',
-        'Airport Meet & Greet',
-        '24/7 Concierge Support'
-      ]),
-      vehicles: ['Ghost', 'Phantom'],
-      startingPrice: 'AED 5,500/day'
+      name: t('servicesPages.corporate.packages.executive.name'),
+      description: t('servicesPages.corporate.packages.executive.description'),
+      features: getTranslatedArray('servicesPages.corporate.packages.executive.features'),
+      vehicles: t('servicesPages.corporate.packages.executive.vehicles', { returnObjects: true }) as string[],
+      startingPrice: t('servicesPages.corporate.packages.executive.price')
     },
     conference: {
-      name: t('corporate.packages.conference.name'),
-      description: t('corporate.packages.conference.description'),
-      features: getTranslatedArray('corporate.packages.conference.features', [
-        'Fleet Coordination',
-        'On-site Dispatch Manager',
-        'Custom Vehicle Branding',
-        'Group Transportation'
-      ]),
-      vehicles: ['Full Fleet Available'],
-      startingPrice: 'Custom Quote'
+      name: t('servicesPages.corporate.packages.conference.name'),
+      description: t('servicesPages.corporate.packages.conference.description'),
+      features: getTranslatedArray('servicesPages.corporate.packages.conference.features'),
+      vehicles: t('servicesPages.corporate.packages.conference.vehicles', { returnObjects: true }) as string[],
+      startingPrice: t('servicesPages.corporate.packages.conference.price')
     },
     roadshow: {
-      name: t('corporate.packages.roadshow.name'),
-      description: t('corporate.packages.roadshow.description'),
-      features: getTranslatedArray('corporate.packages.roadshow.features', [
-        'Multi-day, Multi-city Itineraries',
-        'Real-time Vehicle Tracking',
-        'Dedicated Logistics Planner',
-        'Flexible Scheduling'
-      ]),
-      vehicles: ['Ghost', 'Cullinan'],
-      startingPrice: 'AED 32,000/week'
+      name: t('servicesPages.corporate.packages.roadshow.name'),
+      description: t('servicesPages.corporate.packages.roadshow.description'),
+      features: getTranslatedArray('servicesPages.corporate.packages.roadshow.features'),
+      vehicles: t('servicesPages.corporate.packages.roadshow.vehicles', { returnObjects: true }) as string[],
+      startingPrice: t('servicesPages.corporate.packages.roadshow.price')
     },
     partnership: {
-      name: t('corporate.packages.partnership.name'),
-      description: t('corporate.packages.partnership.description'),
-      features: getTranslatedArray('corporate.packages.partnership.features', [
-        'Annual Retainer Agreements',
-        'Preferred Corporate Rates',
-        'Priority Vehicle Access',
-        'Co-branded Marketing Opportunities'
-      ]),
-      vehicles: ['Entire Fleet'],
-      startingPrice: 'Bespoke Pricing'
+      name: t('servicesPages.corporate.packages.partnership.name'),
+      description: t('servicesPages.corporate.packages.partnership.description'),
+      features: getTranslatedArray('servicesPages.corporate.packages.partnership.features'),
+      vehicles: t('servicesPages.corporate.packages.partnership.vehicles', { returnObjects: true }) as string[],
+      startingPrice: t('servicesPages.corporate.packages.partnership.price')
     }
   }
 
   const clientLogos = [
-    { name: 'Emirates NBD', sector: 'Banking' },
-    { name: 'DAMAC Properties', sector: 'Real Estate' },
-    { name: 'Dubai Holdings', sector: 'Investment' },
-    { name: 'Emaar', sector: 'Development' },
-    { name: 'DIFC', sector: 'Financial' },
-    { name: 'ADNOC', sector: 'Energy' }
+    { name: t('servicesPages.corporate.clients.emiratesNBD'), sector: t('servicesPages.corporate.clients.banking') },
+    { name: t('servicesPages.corporate.clients.damac'), sector: t('servicesPages.corporate.clients.realEstate') },
+    { name: t('servicesPages.corporate.clients.dubaiHolding'), sector: t('servicesPages.corporate.clients.investment') },
+    { name: t('servicesPages.corporate.clients.emaar'), sector: t('servicesPages.corporate.clients.development') }
   ]
 
   const benefits = [
     {
       icon: '🏢',
-      title: 'Corporate Image',
-      description: 'Enhance your company\'s prestige with the world\'s finest automobiles'
+      title: t('servicesPages.corporate.whyChoose.image.title'),
+      description: t('servicesPages.corporate.whyChoose.image.description')
     },
     {
       icon: '📊',
-      title: 'Productivity',
-      description: 'Transform travel time into productive work sessions with mobile office features'
+      title: t('servicesPages.corporate.whyChoose.productivity.title'),
+      description: t('servicesPages.corporate.whyChoose.productivity.description')
     },
     {
       icon: '🔒',
-      title: 'Privacy & Security',
-      description: 'Discreet, professional service with comprehensive confidentiality protocols'
+      title: t('servicesPages.corporate.whyChoose.privacy.title'),
+      description: t('servicesPages.corporate.whyChoose.privacy.description')
     },
     {
       icon: '🌍',
-      title: 'Global Standards',
-      description: 'Consistent luxury experience matching international business expectations'
+      title: t('servicesPages.corporate.whyChoose.standards.title'),
+      description: t('servicesPages.corporate.whyChoose.standards.description')
     }
   ]
 
   const caseStudies = [
     {
-      client: 'Global Investment Bank',
-      challenge: 'Required reliable luxury transport for 50+ executives during annual conference',
-      solution: 'Deployed 15 vehicles with dedicated dispatch, resulting in 100% on-time performance',
-      result: '3-year partnership agreement signed'
+      client: t('servicesPages.corporate.caseStudies.bank.client'),
+      challenge: t('servicesPages.corporate.caseStudies.bank.challengeText'),
+      solution: t('servicesPages.corporate.caseStudies.bank.solutionText'),
+      result: t('servicesPages.corporate.caseStudies.bank.resultText')
     },
     {
-      client: 'Tech Multinational',
-      challenge: 'Needed discrete transport for high-profile acquisition negotiations',
-      solution: 'Provided Ghost with security-trained chauffeur and mobile office setup',
-      result: 'Successfully completed $2B deal with full confidentiality'
+      client: t('servicesPages.corporate.caseStudies.tech.client'),
+      challenge: t('servicesPages.corporate.caseStudies.tech.challengeText'),
+      solution: t('servicesPages.corporate.caseStudies.tech.solutionText'),
+      result: t('servicesPages.corporate.caseStudies.tech.resultText')
     }
   ]
 
@@ -140,10 +118,10 @@ export default function CorporateServicesPage() {
               transition={{ duration: 1 }}
             >
               <h1 className="text-5xl md:text-7xl font-bold text-white mb-6">
-                Corporate Excellence
+                {t('servicesPages.corporate.hero.title')}
               </h1>
               <p className="text-2xl text-rolls-gold mb-8">
-                Elevate Your Business Transportation
+                {t('servicesPages.corporate.hero.subtitle')}
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
                 <motion.button
@@ -151,10 +129,10 @@ export default function CorporateServicesPage() {
                   whileTap={{ scale: 0.95 }}
                   className="btn-primary"
                 >
-                  Get Corporate Quote
+                  {t('servicesPages.corporate.hero.getQuote')}
                 </motion.button>
                 <a href="#packages" className="btn-secondary">
-                  View Packages
+                  {t('servicesPages.corporate.hero.viewPackages')}
                 </a>
               </div>
               
@@ -162,15 +140,15 @@ export default function CorporateServicesPage() {
               <div className="grid grid-cols-3 gap-4 max-w-2xl mx-auto">
                 <div className="text-center">
                   <div className="text-3xl font-bold text-rolls-gold">500+</div>
-                  <div className="text-sm text-gray-400">Corporate Clients</div>
+                  <div className="text-sm text-gray-400">{t('servicesPages.corporate.hero.stats.clients')}</div>
                 </div>
                 <div className="text-center">
                   <div className="text-3xl font-bold text-rolls-gold">98%</div>
-                  <div className="text-sm text-gray-400">Client Retention</div>
+                  <div className="text-sm text-gray-400">{t('servicesPages.corporate.hero.stats.retention')}</div>
                 </div>
                 <div className="text-center">
                   <div className="text-3xl font-bold text-rolls-gold">24/7</div>
-                  <div className="text-sm text-gray-400">Dedicated Support</div>
+                  <div className="text-sm text-gray-400">{t('servicesPages.corporate.hero.stats.support')}</div>
                 </div>
               </div>
             </motion.div>
@@ -181,7 +159,7 @@ export default function CorporateServicesPage() {
         <section className="py-20 bg-gradient-to-b from-rolls-black to-rolls-navy">
           <div className="container mx-auto px-4">
             <h2 className="text-4xl font-bold text-white text-center mb-12">
-              Why Choose Rolls-Royce for Business?
+              {t('servicesPages.corporate.whyChoose.title')}
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
               {benefits.map((benefit, index) => (
@@ -205,7 +183,7 @@ export default function CorporateServicesPage() {
         <section id="packages" className="py-20 bg-gradient-to-b from-rolls-navy to-rolls-black">
           <div className="container mx-auto px-4">
             <h2 className="text-4xl font-bold text-white text-center mb-12">
-              Tailored Corporate Solutions
+              {t('servicesPages.corporate.packages.title')}
             </h2>
             
             {/* Package Selector */}
@@ -271,7 +249,7 @@ export default function CorporateServicesPage() {
                         </p>
                       </div>
                       <button className="btn-primary w-full mt-6">
-                        Request Custom Quote
+                        {t('servicesPages.corporate.packages.requestQuote')}
                       </button>
                     </div>
                   </div>
@@ -285,7 +263,7 @@ export default function CorporateServicesPage() {
         <section className="py-20 bg-gradient-to-b from-rolls-black to-rolls-navy">
           <div className="container mx-auto px-4">
             <h2 className="text-4xl font-bold text-white text-center mb-12">
-              Trusted by Leading Companies
+              {t('servicesPages.corporate.clients.title')}
             </h2>
             <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-8 max-w-5xl mx-auto">
               {clientLogos.map((client, index) => (
@@ -302,7 +280,7 @@ export default function CorporateServicesPage() {
               ))}
             </div>
             <p className="text-center text-gray-400 mt-8">
-              + Many more prestigious organizations across the UAE
+              {t('servicesPages.corporate.clients.more')}
             </p>
           </div>
         </section>
@@ -311,7 +289,7 @@ export default function CorporateServicesPage() {
         <section className="py-20 bg-gradient-to-b from-rolls-navy to-rolls-black">
           <div className="container mx-auto px-4">
             <h2 className="text-4xl font-bold text-white text-center mb-12">
-              Success Stories
+              {t('servicesPages.corporate.caseStudies.title')}
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
               {caseStudies.map((study, index) => (
@@ -324,15 +302,15 @@ export default function CorporateServicesPage() {
                   <h3 className="text-xl font-semibold text-rolls-gold mb-4">{study.client}</h3>
                   <div className="space-y-3">
                     <div>
-                      <p className="text-sm text-gray-400 uppercase">Challenge</p>
+                      <p className="text-sm text-gray-400 uppercase">{t('servicesPages.corporate.caseStudies.bank.challenge')}</p>
                       <p className="text-gray-300">{study.challenge}</p>
                     </div>
                     <div>
-                      <p className="text-sm text-gray-400 uppercase">Solution</p>
+                      <p className="text-sm text-gray-400 uppercase">{t('servicesPages.corporate.caseStudies.bank.solution')}</p>
                       <p className="text-gray-300">{study.solution}</p>
                     </div>
                     <div>
-                      <p className="text-sm text-gray-400 uppercase">Result</p>
+                      <p className="text-sm text-gray-400 uppercase">{t('servicesPages.corporate.caseStudies.bank.result')}</p>
                       <p className="text-white font-medium">{study.result}</p>
                     </div>
                   </div>
@@ -346,36 +324,27 @@ export default function CorporateServicesPage() {
         <section className="py-20 bg-gradient-to-b from-rolls-black to-rolls-navy">
           <div className="container mx-auto px-4">
             <h2 className="text-4xl font-bold text-white text-center mb-12">
-              Corporate Account Benefits
+              {t('servicesPages.corporate.benefits.title')}
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
               <div className="bg-rolls-black/50 backdrop-blur-sm border border-rolls-gold/20 rounded-lg p-6">
-                <h3 className="text-lg font-semibold text-rolls-gold mb-3">Financial Advantages</h3>
+                <h3 className="text-lg font-semibold text-rolls-gold mb-3">{t('servicesPages.corporate.benefits.financial.title')}</h3>
                 <ul className="space-y-2 text-gray-300">
-                  <li>• Volume-based discounts</li>
-                  <li>• Monthly consolidated billing</li>
-                  <li>• Flexible payment terms</li>
-                  <li>• No deposit requirements</li>
+                  {getTranslatedArray('servicesPages.corporate.benefits.financial.items').map((item, i) => <li key={i}>• {item}</li>)}
                 </ul>
               </div>
               
               <div className="bg-rolls-black/50 backdrop-blur-sm border border-rolls-gold/20 rounded-lg p-6">
-                <h3 className="text-lg font-semibold text-rolls-gold mb-3">Operational Excellence</h3>
+                <h3 className="text-lg font-semibold text-rolls-gold mb-3">{t('servicesPages.corporate.benefits.operational.title')}</h3>
                 <ul className="space-y-2 text-gray-300">
-                  <li>• Dedicated account manager</li>
-                  <li>• Priority dispatch system</li>
-                  <li>• Real-time tracking portal</li>
-                  <li>• Detailed usage reports</li>
+                  {getTranslatedArray('servicesPages.corporate.benefits.operational.items').map((item, i) => <li key={i}>• {item}</li>)}
                 </ul>
               </div>
               
               <div className="bg-rolls-black/50 backdrop-blur-sm border border-rolls-gold/20 rounded-lg p-6">
-                <h3 className="text-lg font-semibold text-rolls-gold mb-3">Service Guarantees</h3>
+                <h3 className="text-lg font-semibold text-rolls-gold mb-3">{t('servicesPages.corporate.benefits.service.title')}</h3>
                 <ul className="space-y-2 text-gray-300">
-                  <li>• 15-minute response time</li>
-                  <li>• Backup vehicle provision</li>
-                  <li>• 24/7 support hotline</li>
-                  <li>• Service level agreements</li>
+                  {getTranslatedArray('servicesPages.corporate.benefits.service.items').map((item, i) => <li key={i}>• {item}</li>)}
                 </ul>
               </div>
             </div>
@@ -386,10 +355,10 @@ export default function CorporateServicesPage() {
         <section className="py-20 bg-gradient-to-b from-rolls-navy to-rolls-black">
           <div className="container mx-auto px-4 text-center">
             <h2 className="text-4xl font-bold text-white mb-6">
-              Elevate Your Corporate Transportation
+              {t('servicesPages.corporate.cta.title')}
             </h2>
             <p className="text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
-              Join 500+ companies that trust Rolls-Royce Dubai for their executive transportation needs
+              {t('servicesPages.corporate.cta.description')}
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-8">
               <motion.a
@@ -398,16 +367,16 @@ export default function CorporateServicesPage() {
                 whileTap={{ scale: 0.95 }}
                 className="btn-primary"
               >
-                Speak to Corporate Team
+                {t('servicesPages.corporate.cta.speakToTeam')}
               </motion.a>
               <button className="btn-secondary">
-                Download Corporate Brochure
+                {t('servicesPages.corporate.cta.downloadBrochure')}
               </button>
             </div>
             
             {/* Contact Form Preview */}
             <div className="max-w-md mx-auto bg-rolls-black/50 backdrop-blur-sm border border-rolls-gold/20 rounded-lg p-6">
-              <h3 className="text-lg font-semibold text-white mb-4">Quick Inquiry</h3>
+              <h3 className="text-lg font-semibold text-white mb-4">{t('servicesPages.corporate.quickInquiry.title')}</h3>
               <form className="space-y-4">
                 <input
                   type="text"
@@ -420,14 +389,14 @@ export default function CorporateServicesPage() {
                   className="w-full px-4 py-2 bg-rolls-black/30 border border-rolls-gold/20 rounded text-white placeholder-gray-500"
                 />
                 <select className="w-full px-4 py-2 bg-rolls-black/30 border border-rolls-gold/20 rounded text-white">
-                  <option>Select Package Interest</option>
-                  <option>Executive Package</option>
-                  <option>Conference & Events</option>
-                  <option>Roadshow Package</option>
-                  <option>Annual Partnership</option>
+                  <option>{t('servicesPages.corporate.quickInquiry.selectPackage')}</option>
+                  <option>{t('servicesPages.corporate.quickInquiry.packages.executive')}</option>
+                  <option>{t('servicesPages.corporate.quickInquiry.packages.conference')}</option>
+                  <option>{t('servicesPages.corporate.quickInquiry.packages.roadshow')}</option>
+                  <option>{t('servicesPages.corporate.quickInquiry.packages.partnership')}</option>
                 </select>
                 <button type="submit" className="btn-primary w-full">
-                  Submit Inquiry
+                  {t('servicesPages.corporate.quickInquiry.submitInquiry')}
                 </button>
               </form>
             </div>

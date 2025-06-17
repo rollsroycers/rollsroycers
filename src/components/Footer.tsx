@@ -52,10 +52,10 @@ export default function Footer() {
   ]
 
   const locationLinks = [
-    { href: '/locations/downtown-dubai', label: 'Downtown', icon: '🏙️' },
-    { href: '/locations/dubai-marina', label: 'Marina', icon: '🌊' },
-    { href: '/locations/palm-jumeirah', label: 'Palm', icon: '🌴' },
-    { href: '/locations/business-bay', label: 'Business Bay', icon: '🏢' }
+    { href: '/locations/downtown-dubai', label: t('loyalty.tiers.platinum.footer.locations.downtownDubai'), icon: '🏙️' },
+    { href: '/locations/dubai-marina', label: t('loyalty.tiers.platinum.footer.locations.marina'), icon: '🌊' },
+    { href: '/locations/palm-jumeirah', label: t('loyalty.tiers.platinum.footer.locations.palm'), icon: '🌴' },
+    { href: '/locations/business-bay', label: t('loyalty.tiers.platinum.footer.locations.businessBay'), icon: '🏢' }
   ]
 
   const quickLinks = [
@@ -65,7 +65,7 @@ export default function Footer() {
     { href: '/pricing', label: t('nav.pricing') },
     { href: '/faq', label: t('nav.faq') },
     { href: '/blog', label: t('nav.blog') },
-    { href: '/compare/rolls-royce-vs-bentley', label: 'Compare' },
+    { href: '/compare/rolls-royce-vs-bentley', label: t('loyalty.tiers.platinum.footer.compare') },
     { href: '/contact', label: t('nav.contact') }
   ]
 
@@ -126,8 +126,8 @@ export default function Footer() {
                 priority
               />
               <div>
-                <h3 className="font-bold text-lg">Rolls-Royce</h3>
-                <p className="text-sm text-gray-400">Dubai</p>
+                <h3 className="font-bold text-lg">{t('common.rollsRoyceDubai').split(' ')[0]}</h3>
+                <p className="text-sm text-gray-400">{t('common.rollsRoyceDubai').split(' ')[1]}</p>
               </div>
             </Link>
             <p className="text-sm text-gray-400 mb-4">
@@ -267,7 +267,7 @@ export default function Footer() {
               </div>
               <div>
                 <p className="text-sm text-gray-400">{t('footer.showroom')}</p>
-                <p className="text-rolls-gold font-semibold">Downtown Dubai</p>
+                <p className="text-rolls-gold font-semibold">{t('loyalty.tiers.platinum.footer.locations.downtownDubai')}</p>
               </div>
             </div>
           </div>

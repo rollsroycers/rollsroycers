@@ -135,5 +135,38 @@
     "title": "离线 | 劳斯莱斯迪拜",
     "heading": "您当前处于离线状态",
     "message": "请检查您的网络连接以访问完整网站。"
+,
+  "videoGallery": {
+    "lifestyle": {
+      "title": "奢华百万富翁生活方式"
+    },
+    "mansory": {
+      "title": "Mansory Black Badge 劳斯莱斯库里南"
+    },
+    "defining": {
+      "title": "劳斯莱斯定义豪华汽车的含义"
+    },
+    "experience": {
+      "title": "终极劳斯莱斯体验"
+    },
+    "phantom": {
+      "title": "劳斯莱斯幻影外观赏析"
+    },
+    "cullinan": {
+      "title": "劳斯莱斯库里南外观展示"
+    },
+    "interior": {
+      "title": "劳斯莱斯内饰优雅"
+    },
+    "dubai": {
+      "title": "迪拜城市景观中的劳斯莱斯"
+    },
+    "showroom": {
+      "title": "劳斯莱斯迪拜陈列室导览"
+    },
+    "night": {
+      "title": "劳斯莱斯夜间驾乘"
+    }
+  }
   }
 }

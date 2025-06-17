@@ -1,5 +1,6 @@
 import { GetStaticProps } from 'next'
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
+import { useTranslation } from 'next-i18next'
 import SEO from '@/components/SEO'
 import Image from 'next/image'
 import Link from 'next/link'
@@ -9,6 +10,7 @@ import Layout from '@/components/Layout'
 import WhatsAppButton from '@/components/WhatsAppButton'
 
 export default function TestimonialsPage() {
+  const { t } = useTranslation('common')
   const [selectedFilter, setSelectedFilter] = useState('all')
   const [selectedTestimonial, setSelectedTestimonial] = useState<number | null>(null)
 
@@ -424,7 +426,7 @@ export default function TestimonialsPage() {
                 className="text-center"
               >
                 <p className="text-4xl font-bold text-rolls-gold">{stats.totalReviews}+</p>
-                <p className="text-gray-300">Happy Customers</p>
+                <p className="text-gray-300">{t('home.stats.happyCustomers')}</p>
               </motion.div>
               <motion.div
                 initial={{ opacity: 0, y: 20 }}

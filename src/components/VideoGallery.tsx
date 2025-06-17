@@ -12,8 +12,9 @@ interface Video {
   category: 'exterior' | 'interior' | 'experience' | 'tour'
 }
 
-export default function VideoGallery() {
-  const { t } = useTranslation('common')
+import { TFunction } from 'next-i18next'
+
+export default function VideoGallery({ t }: { t: TFunction }) {
   const [ref, inView] = useInView({ triggerOnce: true, threshold: 0.1 })
   const [selectedCategory, setSelectedCategory] = useState<string>('all')
   const [playingVideo, setPlayingVideo] = useState<Video | null>(null)

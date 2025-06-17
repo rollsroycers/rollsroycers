@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { motion } from 'framer-motion'
 import { useInView } from 'react-intersection-observer'
+import { useTranslation } from 'next-i18next'
 
 interface AvailableDate {
   date: Date
@@ -17,6 +18,7 @@ interface BookingDetails {
 }
 
 export default function AvailabilityCalendar() {
+  const { t } = useTranslation('common')
   const [ref, inView] = useInView({ triggerOnce: true, threshold: 0.1 })
   const [selectedCar, setSelectedCar] = useState('phantom')
   const [currentMonth, setCurrentMonth] = useState(new Date())
@@ -222,7 +224,7 @@ export default function AvailabilityCalendar() {
                         </span>
                         {available && (
                           <span className={`text-xs ${selected ? 'text-rolls-black' : 'text-rolls-gold'}`}>
-                            Available
+                            {t('common.available')}
                           </span>
                         )}
                       </>
@@ -271,11 +273,11 @@ export default function AvailabilityCalendar() {
           >
             <div className="flex items-center gap-2">
               <div className="w-4 h-4 bg-white rounded"></div>
-              <span className="text-gray-400">Available</span>
+              <span className="text-gray-400">{t('common.available')}</span>
             </div>
             <div className="flex items-center gap-2">
               <div className="w-4 h-4 bg-white/30 rounded"></div>
-              <span className="text-gray-400">Unavailable</span>
+              <span className="text-gray-400">{t('common.unavailable')}</span>
             </div>
             <div className="flex items-center gap-2">
               <div className="w-4 h-4 bg-rolls-gold rounded"></div>

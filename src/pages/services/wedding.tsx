@@ -1,5 +1,6 @@
 import { GetStaticProps } from 'next'
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
+import { useTranslation } from 'next-i18next'
 import Image from 'next/image'
 import Link from 'next/link'
 import { motion } from 'framer-motion'
@@ -8,59 +9,41 @@ import WhatsAppButton from '@/components/WhatsAppButton'
 import SEO from '@/components/SEO'
 
 export default function WeddingServicePage() {
+  const { t } = useTranslation('common')
+
   const packages = [
     {
-      name: 'Classic Wedding',
+      name: t('servicesPages.wedding.packages.classic.name'),
       cars: ['Phantom', 'Ghost'],
-      duration: '6 hours',
-      features: [
-        'Professional chauffeur in formal attire',
-        'Wedding decoration on car',
-        'Complimentary champagne',
-        'Red carpet service',
-        'Multiple pickup locations'
-      ],
-      price: 'AED 7,500'
+      duration: t('servicesPages.wedding.packages.classic.duration'),
+      features: t('servicesPages.wedding.packages.classic.features', { returnObjects: true }) as string[],
+      price: t('servicesPages.wedding.packages.classic.price')
     },
     {
-      name: 'Royal Wedding',
+      name: t('servicesPages.wedding.packages.royal.name'),
       cars: ['Phantom', 'Ghost', 'Dawn'],
-      duration: '8 hours',
-      features: [
-        'Fleet of 3 matching vehicles',
-        'Premium decoration package',
-        'Photography session with cars',
-        'VIP chauffeur team',
-        'Bride & groom special amenities',
-        'Guest transportation'
-      ],
-      price: 'AED 18,000'
+      duration: t('servicesPages.wedding.packages.royal.duration'),
+      features: t('servicesPages.wedding.packages.royal.features', { returnObjects: true }) as string[],
+      price: t('servicesPages.wedding.packages.royal.price')
     },
     {
-      name: 'Ultimate Luxury',
+      name: t('servicesPages.wedding.packages.ultimate.name'),
       cars: ['Full Fleet Available'],
-      duration: 'Full Day',
-      features: [
-        'Unlimited vehicles selection',
-        'Helicopter arrival option',
-        'Personal wedding coordinator',
-        'Custom decoration themes',
-        'Professional videography',
-        'Honeymoon airport transfer'
-      ],
-      price: 'From AED 25,000'
+      duration: t('servicesPages.wedding.packages.ultimate.duration'),
+      features: t('servicesPages.wedding.packages.ultimate.features', { returnObjects: true }) as string[],
+      price: t('servicesPages.wedding.packages.ultimate.price')
     }
   ]
 
   const testimonials = [
     {
-      name: 'Sarah & Ahmed',
-      text: 'The Phantom made our wedding entrance unforgettable. The service was impeccable!',
+      name: t('servicesPages.wedding.testimonials.sarah.name'),
+      text: t('servicesPages.wedding.testimonials.sarah.text'),
       rating: 5
     },
     {
-      name: 'Fatima & Khalid',
-      text: 'Professional team, stunning cars. They made our special day even more magical.',
+      name: t('servicesPages.wedding.testimonials.fatima.name'),
+      text: t('servicesPages.wedding.testimonials.fatima.text'),
       rating: 5
     }
   ]
@@ -89,10 +72,10 @@ export default function WeddingServicePage() {
               transition={{ duration: 1 }}
             >
               <h1 className="text-5xl md:text-7xl font-bold text-white mb-6">
-                Luxury Wedding Cars
+                {t('servicesPages.wedding.hero.title')}
               </h1>
               <p className="text-2xl text-rolls-gold mb-8">
-                Make Your Special Day Unforgettable
+                {t('servicesPages.wedding.hero.subtitle')}
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <motion.a
@@ -101,10 +84,10 @@ export default function WeddingServicePage() {
                   whileTap={{ scale: 0.95 }}
                   className="btn-primary"
                 >
-                  View Wedding Packages
+                  {t('servicesPages.wedding.hero.viewPackages')}
                 </motion.a>
                 <a href="tel:+971558164922" className="btn-secondary">
-                  Call for Consultation
+                  {t('servicesPages.wedding.hero.consultation')}
                 </a>
               </div>
             </motion.div>
@@ -115,7 +98,7 @@ export default function WeddingServicePage() {
         <section className="py-20 bg-gradient-to-b from-rolls-black to-rolls-navy">
           <div className="container mx-auto px-4">
             <h2 className="text-4xl font-bold text-white text-center mb-12">
-              Why Choose Rolls-Royce for Your Wedding?
+              {t('servicesPages.wedding.whyChoose.title')}
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
               <motion.div
@@ -124,8 +107,8 @@ export default function WeddingServicePage() {
                 className="text-center"
               >
                 <div className="text-5xl mb-4">👰</div>
-                <h3 className="text-xl font-semibold text-white mb-3">Bridal Excellence</h3>
-                <p className="text-gray-400">Spacious interiors perfect for wedding dresses, professional assistance with entry/exit</p>
+                <h3 className="text-xl font-semibold text-white mb-3">{t('servicesPages.wedding.whyChoose.bridal.title')}</h3>
+                <p className="text-gray-400">{t('servicesPages.wedding.whyChoose.bridal.description')}</p>
               </motion.div>
               <motion.div
                 initial={{ opacity: 0, y: 20 }}
@@ -134,8 +117,8 @@ export default function WeddingServicePage() {
                 className="text-center"
               >
                 <div className="text-5xl mb-4">📸</div>
-                <h3 className="text-xl font-semibold text-white mb-3">Photo Perfect</h3>
-                <p className="text-gray-400">Iconic backdrop for wedding photography, timeless elegance in every shot</p>
+                <h3 className="text-xl font-semibold text-white mb-3">{t('servicesPages.wedding.whyChoose.photo.title')}</h3>
+                <p className="text-gray-400">{t('servicesPages.wedding.whyChoose.photo.description')}</p>
               </motion.div>
               <motion.div
                 initial={{ opacity: 0, y: 20 }}
@@ -144,8 +127,8 @@ export default function WeddingServicePage() {
                 className="text-center"
               >
                 <div className="text-5xl mb-4">🎯</div>
-                <h3 className="text-xl font-semibold text-white mb-3">Reliability</h3>
-                <p className="text-gray-400">100% on-time guarantee, backup vehicles available, experienced wedding team</p>
+                <h3 className="text-xl font-semibold text-white mb-3">{t('servicesPages.wedding.whyChoose.reliability.title')}</h3>
+                <p className="text-gray-400">{t('servicesPages.wedding.whyChoose.reliability.description')}</p>
               </motion.div>
             </div>
           </div>
@@ -155,7 +138,7 @@ export default function WeddingServicePage() {
         <section id="packages" className="py-20 bg-gradient-to-b from-rolls-navy to-rolls-black">
           <div className="container mx-auto px-4">
             <h2 className="text-4xl font-bold text-white text-center mb-12">
-              Wedding Car Packages
+              {t('servicesPages.wedding.packages.title')}
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
               {packages.map((pkg, index) => (
@@ -168,7 +151,7 @@ export default function WeddingServicePage() {
                 >
                   {index === 2 && (
                     <div className="absolute top-0 right-0 bg-rolls-gold text-rolls-black px-4 py-1 text-sm font-semibold">
-                      PREMIUM
+                      {t('servicesPages.wedding.packages.ultimate.premium')}
                     </div>
                   )}
                   <h3 className="text-2xl font-bold text-white mb-4">{pkg.name}</h3>
@@ -186,7 +169,7 @@ export default function WeddingServicePage() {
                     ))}
                   </ul>
                   <button className="btn-primary w-full">
-                    Book This Package
+                    {t('servicesPages.wedding.packages.bookPackage')}
                   </button>
                 </motion.div>
               ))}
@@ -198,7 +181,7 @@ export default function WeddingServicePage() {
         <section className="py-20 bg-gradient-to-b from-rolls-black to-rolls-navy">
           <div className="container mx-auto px-4">
             <h2 className="text-4xl font-bold text-white text-center mb-12">
-              Wedding Gallery
+              {t('servicesPages.wedding.gallery.title')}
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
               {[
@@ -232,7 +215,7 @@ export default function WeddingServicePage() {
         <section className="py-20 bg-gradient-to-b from-rolls-navy to-rolls-black">
           <div className="container mx-auto px-4">
             <h2 className="text-4xl font-bold text-white text-center mb-12">
-              Happy Couples
+              {t('servicesPages.wedding.testimonials.title')}
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
               {testimonials.map((testimonial, index) => (
@@ -261,17 +244,17 @@ export default function WeddingServicePage() {
         <section className="py-20 bg-gradient-to-b from-rolls-black to-rolls-navy">
           <div className="container mx-auto px-4 text-center">
             <h2 className="text-4xl font-bold text-white mb-6">
-              Make Your Wedding Unforgettable
+              {t('servicesPages.wedding.cta.title')}
             </h2>
             <p className="text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
-              Book your luxury wedding car today and receive a complimentary decoration upgrade
+              {t('servicesPages.wedding.cta.description')}
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href="tel:+971558164922" className="btn-primary">
-                Call: +971 55 816 4922
+                {t('servicesPages.wedding.cta.call')}: +971 55 816 4922
               </a>
               <a href="#contact" className="btn-secondary">
-                Get Wedding Quote
+                {t('servicesPages.wedding.cta.getQuote')}
               </a>
             </div>
           </div>

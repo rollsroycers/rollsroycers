@@ -127,7 +127,7 @@ export default function TestimonialSubmission() {
                     </svg>
                   ))}
                 </div>
-                <span className="text-xs text-gray-500">Verified Customer</span>
+                <span className="text-xs text-gray-500">{t('common.verifiedCustomer')}</span>
               </div>
             </motion.div>
           ))}
@@ -143,16 +143,16 @@ export default function TestimonialSubmission() {
           {!showForm && !submitted && (
             <div className="bg-gradient-to-r from-rolls-gold/20 to-rolls-gold/10 backdrop-blur-sm border border-rolls-gold/30 rounded-lg p-8 max-w-2xl mx-auto">
               <h3 className="text-2xl font-semibold text-white mb-4">
-                Share Your Rolls-Royce Experience
+                {t('testimonialSubmission.shareExperience.title')}
               </h3>
               <p className="text-gray-300 mb-6">
-                Have you created unforgettable memories with our service? We'd love to hear your story!
+                {t('testimonialSubmission.shareExperience.description')}
               </p>
               <button
                 onClick={() => setShowForm(true)}
                 className="btn-primary"
               >
-                Share Your Story
+                {t('common.shareYourStory')}
               </button>
             </div>
           )}
