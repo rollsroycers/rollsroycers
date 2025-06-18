@@ -52,10 +52,10 @@ export default function Footer() {
   ]
 
   const locationLinks = [
-    { href: '/locations/downtown-dubai', label: t('loyalty.tiers.platinum.footer.locations.downtownDubai'), icon: '🏙️' },
-    { href: '/locations/dubai-marina', label: t('loyalty.tiers.platinum.footer.locations.marina'), icon: '🌊' },
-    { href: '/locations/palm-jumeirah', label: t('loyalty.tiers.platinum.footer.locations.palm'), icon: '🌴' },
-    { href: '/locations/business-bay', label: t('loyalty.tiers.platinum.footer.locations.businessBay'), icon: '🏢' }
+    { href: '/locations/downtown-dubai', label: t('locations.downtownDubai.nav'), icon: '🏙️' },
+    { href: '/locations/dubai-marina', label: t('locations.dubaiMarina.nav'), icon: '🌊' },
+    { href: '/locations/palm-jumeirah', label: t('locations.palmJumeirah.nav'), icon: '🌴' },
+    { href: '/locations/business-bay', label: t('locations.businessBay.nav'), icon: '🏢' }
   ]
 
   const quickLinks = [
@@ -65,7 +65,7 @@ export default function Footer() {
     { href: '/pricing', label: t('nav.pricing') },
     { href: '/faq', label: t('nav.faq') },
     { href: '/blog', label: t('nav.blog') },
-    { href: '/compare/rolls-royce-vs-bentley', label: t('loyalty.tiers.platinum.footer.compare') },
+    { href: '/compare/rolls-royce-vs-bentley', label: t('home.explore.compare.title') },
     { href: '/contact', label: t('nav.contact') }
   ]
 
@@ -267,7 +267,7 @@ export default function Footer() {
               </div>
               <div>
                 <p className="text-sm text-gray-400">{t('footer.showroom')}</p>
-                <p className="text-rolls-gold font-semibold">{t('loyalty.tiers.platinum.footer.locations.downtownDubai')}</p>
+                <p className="text-rolls-gold font-semibold">{t('locations.downtownDubai.nav')}</p>
               </div>
             </div>
           </div>
