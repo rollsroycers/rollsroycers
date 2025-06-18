@@ -135,7 +135,7 @@
     "title": "离线 | 劳斯莱斯迪拜",
     "heading": "您当前处于离线状态",
     "message": "请检查您的网络连接以访问完整网站。"
-,
+  },
   "videoGallery": {
     "lifestyle": {
       "title": "奢华百万富翁生活方式"
@@ -167,6 +167,25 @@
     "night": {
       "title": "劳斯莱斯夜间驾乘"
     }
-  }
+  },
+  "locations": {
+    "downtownDubai": {
+      "nav": "迪拜市中心"
+    },
+    "dubaiMarina": {
+      "nav": "迪拜码头"
+    },
+    "palmJumeirah": {
+      "nav": "朱美拉棕榈岛"
+    },
+    "businessBay": {
+      "nav": "商业湾"
+    },
+    "jbr": {
+      "nav": "JBR"
+    },
+    "difc": {
+      "nav": "DIFC"
+    }
   }
 }

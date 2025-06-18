@@ -203,6 +203,25 @@
       "luxuryModels": "Modèles de Luxe",
       "availableService": "Service Disponible",
       "satisfactionRate": "Taux de Satisfaction"
+    },
+    "explore": {
+      "title": "Explorer Plus",
+      "gallery": {
+        "title": "Galerie",
+        "subtitle": "Parcourez notre superbe collection"
+      },
+      "faq": {
+        "title": "FAQ",
+        "subtitle": "Obtenez des réponses aux questions courantes"
+      },
+      "blog": {
+        "title": "Blog",
+        "subtitle": "Lisez les informations et conseils sur le luxe"
+      },
+      "compare": {
+        "title": "Comparer",
+        "subtitle": "Rolls-Royce vs Autres Marques"
+      }
     }
   },
   "loyalty": {
@@ -244,7 +263,25 @@
     },
     "faq": {
       "q1": "Comment rejoindre le programme de fidélité?",
-      "a1": "Effectuez simplement votre première location pour être automatiquement inscrit."
+      "a1": "Effectuez simplement votre première location pour être automatiquement inscrit.",
+      "q2": "Comment les points de fidélité sont-ils calculés?",
+      "a2": "Les points sont attribués pour chaque location, en fonction de la durée de la location et du modèle de voiture.",
+      "q3": "Puis-je partager mes avantages avec ma famille?",
+      "a3": "Les avantages ne sont pas transférables et ne peuvent être utilisés que par le membre qui les a gagnés.",
+      "q4": "Les points expirent-ils?",
+      "a4": "Les points expirent 24 mois à compter de la date à laquelle ils ont été gagnés.",
+      "q5": "Comment puis-je passer aux niveaux supérieurs?",
+      "a5": "Les niveaux sont automatiquement mis à niveau une fois le nombre requis de locations effectué au cours d'une année civile.",
+      "q6": "Quels événements exclusifs sont disponibles?",
+      "a6": "Les membres Or et Platine reçoivent des invitations à des lancements de voitures exclusifs, des événements de partenaires de luxe, et plus encore.",
+      "q7": "Puis-je transférer des points?",
+      "a7": "Non, les points de fidélité ne peuvent pas être transférés d'un compte à un autre.",
+      "q8": "Y a-t-il des frais d'adhésion?",
+      "a8": "Non, notre programme de fidélité est entièrement gratuit et commence avec votre première réservation.",
+      "q9": "Comment puis-je vérifier mon statut?",
+      "a9": "Vous pouvez consulter votre statut et votre solde de points en vous connectant à votre compte sur notre site Web ou en contactant notre service client.",
+      "q10": "Que se passe-t-il si je ne remplis pas les conditions de niveau?",
+      "a10": "Si vous ne remplissez pas les conditions requises pour maintenir votre statut de niveau actuel, vous serez ajusté au niveau inférieur suivant."
     }
   },
   "personalizedOffers": {
@@ -478,10 +515,111 @@
         },
         "submitInquiry": "Envoyer la demande"
       }
+    },
+    "wedding": {
+      "hero": {
+        "title": "Un Mariage Inoubliable avec Rolls-Royce",
+        "subtitle": "Arrivez avec Style et Luxe Ultimes",
+        "viewPackages": "Voir les Forfaits Mariage",
+        "consultation": "Demander une Consultation"
+      },
+      "whyChoose": {
+        "title": "Pourquoi Nous Choisir pour Votre Mariage?",
+        "bridal": {
+          "title": "Arrivée Parfaite de la Mariée",
+          "description": "Créez une entrée grandiose qui restera gravée dans les mémoires."
+        },
+        "photo": {
+          "title": "Opportunités Photo Époustouflantes",
+          "description": "Nos voitures offrent une toile de fond magnifique pour vos photos de mariage."
+        },
+        "reliability": {
+          "title": "Ponctualité et Fiabilité",
+          "description": "Nous assurons une arrivée à l'heure, pour que vous puissiez vous détendre et profiter de votre journée."
+        }
+      },
+      "packages": {
+        "title": "Nos Forfaits Mariage Exclusifs",
+        "bookPackage": "Réserver ce Forfait",
+        "classic": {
+          "name": "Élégance Classique",
+          "duration": "4 Heures",
+          "features": [
+            "Chauffeur Professionnel",
+            "Service Tapis Rouge",
+            "Eau Gratuite",
+            "Décoration Florale de Base"
+          ],
+          "price": "À partir de 2 500 AED"
+        },
+        "royal": {
+          "name": "Affaire Royale",
+          "duration": "6 Heures",
+          "features": [
+            "Tout inclus dans Élégance Classique",
+            "Playlist Musicale Personnalisée",
+            "Pétillant Offert (Sans Alcool)",
+            "Arrangements Floraux Personnalisés"
+          ],
+          "price": "À partir de 4 000 AED"
+        },
+        "ultimate": {
+          "name": "Luxe Ultime",
+          "duration": "Journée Complète (10 Heures)",
+          "features": [
+            "Tout inclus dans Affaire Royale",
+            "Option Cortège Multi-Voitures",
+            "Transport du Marié et des Garçons d'Honneur",
+            "Coordinateur de Mariage Personnel"
+          ],
+          "price": "À partir de 7 000 AED",
+          "premium": "Le Plus Populaire"
+        }
+      },
+      "gallery": {
+        "title": "Notre Flotte de Mariage en Action"
+      },
+      "testimonials": {
+        "title": "Ce que Disent les Couples Heureux",
+        "sarah": {
+          "name": "Sarah & Ahmed",
+          "text": "La Rolls-Royce a été le clou de notre mariage. Le service était impeccable et nous nous sommes sentis comme des rois. Merci d'avoir rendu notre journée si spéciale!"
+        },
+        "fatima": {
+          "name": "Fatima & Khalid",
+          "text": "Expérience absolument parfaite. La voiture était magnifique, le chauffeur incroyablement professionnel. C'était la touche parfaite pour notre journée parfaite."
+        }
+      },
+      "cta": {
+        "title": "Prêt à Planifier le Transport de Mariage de Vos Rêves?",
+        "description": "Contactez nos spécialistes du mariage dès aujourd'hui pour créer un forfait sur mesure qui correspond parfaitement à vos besoins.",
+        "call": "Appeler Notre Spécialiste Mariage",
+        "getQuote": "Obtenir un Devis Personnalisé"
+      }
     }
   },
   "placeholders": {
     "companyName": "Nom de l'entreprise",
     "businessEmail": "Email professionnel"
+  },
+  "locations": {
+    "downtownDubai": {
+      "nav": "Centre-ville de Dubaï"
+    },
+    "dubaiMarina": {
+      "nav": "Marina de Dubaï"
+    },
+    "palmJumeirah": {
+      "nav": "Palm Jumeirah"
+    },
+    "businessBay": {
+      "nav": "Business Bay"
+    },
+    "jbr": {
+      "nav": "JBR"
+    },
+    "difc": {
+      "nav": "DIFC"
+    }
   }
 }
