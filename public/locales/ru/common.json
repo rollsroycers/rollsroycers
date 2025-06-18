@@ -702,7 +702,15 @@
     ],
     "chooseDestinationsTitle": "Выберите направления",
     "destinationsSelected": "{count}/5 выбрано",
-    "destinations": []
+    "destinations": [
+      {"name": "Бурдж-Халифа", "recommended": true, "distance": "15 км", "duration": "25 мин", "description": "Самое высокое здание в мире с потрясающими видами"},
+      {"name": "Пальма Джумейра", "recommended": true, "distance": "25 км", "duration": "35 мин", "description": "Знаменитый остров в форме пальмы с роскошными курортами"},
+      {"name": "Дубай Марина", "distance": "30 км", "duration": "40 мин", "description": "Набережная с ресторанами и яхт-клубами"},
+      {"name": "Бурдж-эль-Араб", "recommended": true, "distance": "20 км", "duration": "30 мин", "description": "Роскошный отель в форме паруса"},
+      {"name": "Дубай-Крик", "distance": "10 км", "duration": "20 мин", "description": "Исторический водный путь с традиционными рынками"},
+      {"name": "Пляж JBR", "recommended": true, "distance": "28 км", "duration": "38 мин", "description": "Популярный пляж с ресторанами и развлечениями"},
+      {"name": "Дубайская рамка", "distance": "12 км", "duration": "22 мин", "description": "Архитектурная достопримечательность, соединяющая старый и новый Дубай"}
+    ]
   },
   "locations": {
     "downtownDubai": {
