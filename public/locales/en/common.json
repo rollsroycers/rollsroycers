@@ -415,14 +415,6 @@
           "post4": "likes",
           "post5": "likes",
           "post6": "likes"
-        },
-        "footer": {
-          "locations": {
-            "downtownDubai": "Downtown Dubai",
-            "marina": "Dubai Marina",
-            "palm": "Palm Jumeirah",
-            "businessBay": "Business Bay"
-          }
         }
       },
       "gold": {
@@ -431,29 +423,30 @@
       },
       "platinum": {
         "name": "Platinum",
-        "requirement": "12+ rentals per year",
-        "footer": {
-          "locations": {
-            "downtownDubai": "Downtown Dubai",
-            "marina": "Dubai Marina",
-            "palm": "Palm Jumeirah",
-            "businessBay": "Business Bay"
-          }
-        }
+        "requirement": "12+ rentals per year"
       }
     },
     "faq": {
       "q1": "How do I join the loyalty program?",
       "a1": "Simply make your first rental with us to automatically enroll in our Silver tier.",
       "q2": "How are loyalty points calculated?",
+      "a2": "Points are awarded for every rental, based on the rental duration and car model.",
       "q3": "Can I share my benefits with family?",
+      "a3": "Benefits are non-transferable and can only be used by the member who earned them.",
       "q4": "Do points expire?",
+      "a4": "Points expire 24 months from the date they were earned.",
       "q5": "How do I upgrade tiers?",
+      "a5": "Tiers are upgraded automatically upon completing the required number of rentals within a calendar year.",
       "q6": "What exclusive events are available?",
+      "a6": "Gold and Platinum members receive invitations to exclusive car launches, luxury partner events, and more.",
       "q7": "Can I transfer points?",
+      "a7": "No, loyalty points cannot be transferred from one account to another.",
       "q8": "Is there a membership fee?",
+      "a8": "No, our loyalty program is completely free and starts with your first booking.",
       "q9": "How do I check my status?",
-      "q10": "What happens if I don't meet tier requirements?"
+      "a9": "You can view your status and points balance by logging into your account on our website or by contacting our customer service team.",
+      "q10": "What happens if I don't meet tier requirements?",
+      "a10": "If you do not meet the requirements to maintain your current tier status, you will be adjusted to the next lower tier."
     }
   },
   "footer": {
@@ -803,5 +796,25 @@
   "placeholders": {
     "loading": "Loading...",
     "error": "An error occurred."
+  },
+  "locations": {
+    "downtownDubai": {
+      "nav": "Downtown Dubai"
+    },
+    "dubaiMarina": {
+      "nav": "Dubai Marina"
+    },
+    "palmJumeirah": {
+      "nav": "Palm Jumeirah"
+    },
+    "businessBay": {
+      "nav": "Business Bay"
+    },
+    "jbr": {
+      "nav": "JBR"
+    },
+    "difc": {
+      "nav": "DIFC"
+    }
   }
 }

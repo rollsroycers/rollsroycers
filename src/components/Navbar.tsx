@@ -51,12 +51,12 @@ export default function Navbar() {
   ]
 
   const locationItems = [
-    { href: '/locations/downtown-dubai', label: t('loyalty.tiers.silver.instagram.footer.locations.downtownDubai'), icon: '🏙️' },
-    { href: '/locations/dubai-marina', label: t('loyalty.tiers.silver.instagram.footer.locations.marina'), icon: '🌊' },
-    { href: '/locations/palm-jumeirah', label: t('loyalty.tiers.silver.instagram.footer.locations.palm'), icon: '🌴' },
-    { href: '/locations/business-bay', label: t('loyalty.tiers.silver.instagram.footer.locations.businessBay'), icon: '🏢' },
-    { href: '/locations/jbr', label: 'JBR', icon: '🏖️' },
-    { href: '/locations/difc', label: 'DIFC', icon: '🏦' }
+    { href: '/locations/downtown-dubai', label: t('locations.downtownDubai.nav'), icon: '🏙️' },
+    { href: '/locations/dubai-marina', label: t('locations.dubaiMarina.nav'), icon: '🌊' },
+    { href: '/locations/palm-jumeirah', label: t('locations.palmJumeirah.nav'), icon: '🌴' },
+    { href: '/locations/business-bay', label: t('locations.businessBay.nav'), icon: '🏢' },
+    { href: '/locations/jbr', label: t('locations.jbr.nav'), icon: '🏖️' },
+    { href: '/locations/difc', label: t('locations.difc.nav'), icon: '🏦' }
   ]
 
   const moreItems = [
@@ -65,7 +65,7 @@ export default function Navbar() {
     { href: '/pricing', label: t('nav.pricing'), icon: '💰' },
     { href: '/faq', label: t('nav.faq'), icon: '❓' },
     { href: '/blog', label: t('nav.blog'), icon: '📖' },
-    { href: '/compare/rolls-royce-vs-bentley', label: t('loyalty.tiers.silver.instagram.footer.compare'), icon: '⚖️' }
+    { href: '/compare/rolls-royce-vs-bentley', label: t('home.explore.compare.title'), icon: '⚖️' }
   ]
 
   const handleLanguageChange = (langCode: string) => {

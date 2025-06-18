@@ -81,6 +81,9 @@
       "title": "शहर का दौरा",
       "description": "परम विलासिता में दुबई का अन्वेषण करें"
     },
+    "events": {
+      "title": "विशेष कार्यक्रम"
+    },
     "photoshoot": {
       "title": "फोटोशूट"
     }
@@ -346,7 +349,21 @@
     "tiers": {
       "silver": {
         "name": "सिल्वर",
-        "requirement": "प्रति वर्ष 3+ किराये"
+        "requirement": "प्रति वर्ष 3+ किराये",
+        "instagram": {
+          "followJourney": "हमारी यात्रा का अनुसरण करें",
+          "account": "@rollsroycedubai",
+          "joinCommunity": "हमारे समुदाय में शामिल हों",
+          "communityDesc": "विशेष सामग्री और पर्दे के पीछे की पहुंच",
+          "follow": "फॉलो करें",
+          "notifications": "सूचनाएं चालू करें",
+          "post1": "पसंद",
+          "post2": "पसंद",
+          "post3": "पसंद",
+          "post4": "पसंद",
+          "post5": "पसंद",
+          "post6": "पसंद"
+        }
       },
       "gold": {
         "name": "गोल्ड",
@@ -661,7 +678,8 @@
     "rentalInquiry": "किराये की पूछताछ"
   },
   "locations": {
-    "businessBay": {
+    "downtownDubai": {
+      "nav": "डाउनटाउन दुबई",
       "hero": {
         "title": "बिजनेस बे उत्कृष्टता",
         "subtitle": "दुबई के व्यापार अभिजात वर्ग के लिए कार्यकारी परिवहन",
@@ -671,6 +689,21 @@
           "corporate": "कॉर्पोरेट समाधान"
         }
       }
+    },
+    "dubaiMarina": {
+      "nav": "दुबई मरीना"
+    },
+    "palmJumeirah": {
+      "nav": "पाम जुमेराह"
+    },
+    "businessBay": {
+      "nav": "बिजनेस बे"
+    },
+    "jbr": {
+      "nav": "जेबीआर"
+    },
+    "difc": {
+      "nav": "डीआईएफसी"
     }
   },
   "common": {
