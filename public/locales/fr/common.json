@@ -27,6 +27,26 @@
       "service": "Service 24/7"
     }
   },
+  "about": {
+    "title": "À Propos de Rolls-Royce Dubai",
+    "subtitle": "La Référence en Matière de Location de Voitures de Luxe",
+    "description": "Forts de nombreuses années d'expérience dans la fourniture de services exceptionnels de location de voitures de luxe, nous sommes fiers d'offrir une expérience inégalée à notre clientèle distinguée. Notre flotte de véhicules Rolls-Royce méticuleusement entretenue représente le summum du luxe automobile.",
+    "whyChoose": "Pourquoi Nous Choisir",
+    "reasons": {
+      "fleet": "Les modèles les plus récents avec un entretien impeccable",
+      "service": "Service de conciergerie et d'assistance 24/7",
+      "drivers": "Chauffeurs professionnels, agréés et multilingues",
+      "price": "Tarification transparente sans frais cachés",
+      "flexible": "Conditions et forfaits de location flexibles",
+      "delivery": "Livraison gratuite à Dubaï"
+    },
+    "stats": {
+      "satisfaction": "Satisfaction Client",
+      "availability": "Disponibilité 24/7",
+      "experience": "Années d'Expérience",
+      "rating": "Évaluation 5★"
+    }
+  },
   "fleet": {
     "title": "Notre Flotte Exclusive",
     "subtitle": "Choisissez Votre Rolls-Royce",
@@ -57,7 +77,8 @@
     },
     "from": "À partir de",
     "perDay": "par jour",
-    "rentNow": "Louer Maintenant"
+    "rentNow": "Louer Maintenant",
+    "aed": "AED"
   },
   "services": {
     "title": "Services Exceptionnels",
@@ -191,6 +212,18 @@
     },
     "night": {
       "title": "Balade nocturne Rolls-Royce"
+    },
+    "Rolls-Royce Interior": {
+        "title": "Intérieur Rolls-Royce"
+    },
+    "Rolls-Royce Official": {
+        "title": "Officiel Rolls-Royce"
+    },
+    "Rolls-Royce Airport": {
+        "title": "Aéroport Rolls-Royce"
+    },
+    "Rolls-Royce Experience": {
+        "title": "Expérience Rolls-Royce"
     }
   },
   "home": {
@@ -364,6 +397,21 @@
     "description": "Nous utilisons des cookies pour améliorer votre expérience. En continuant à utiliser notre site, vous acceptez notre politique en matière de cookies.",
     "decline": "Refuser",
     "accept": "Accepter"
+  },
+  "checkAvailability": {
+    "title": "Vérifier la disponibilité",
+    "subtitle": "Sélectionnez vos dates et votre voiture",
+    "selectCar": "Sélectionner une voiture",
+    "bookingSummary": "Résumé de la réservation",
+    "car": "Voiture",
+    "period": "Période",
+    "days": "jours",
+    "total": "Total",
+    "confirmBooking": "Confirmer la réservation",
+    "calendar": {
+      "months": ["Janvier", "Février", "Mars", "Avril", "Mai", "Juin", "Juillet", "Août", "Septembre", "Octobre", "Novembre", "Décembre"],
+      "daysOfWeek": ["Dim", "Lun", "Mar", "Mer", "Jeu", "Ven", "Sam"]
+    }
   },
   "common": {
     "excellent": "Excellent",
@@ -595,6 +643,197 @@
         "description": "Contactez nos spécialistes du mariage dès aujourd'hui pour créer un forfait sur mesure qui correspond parfaitement à vos besoins.",
         "call": "Appeler Notre Spécialiste Mariage",
         "getQuote": "Obtenir un Devis Personnalisé"
+      }
+    }
+  },
+  "compareFleet": {
+    "title": "Comparer notre flotte",
+    "subtitle": "Sélectionnez jusqu'à 3 voitures à comparer",
+    "compareButton": "Comparer {{count}} voitures",
+    "modalTitle": "Comparaison de voitures",
+    "feature": "Caractéristique",
+    "specifications": "Spécifications",
+    "ratings": "Évaluations",
+    "keyFeatures": "Caractéristiques clés",
+    "bookYourSelection": "Réservez votre sélection",
+    "startNewComparison": "Commencer une nouvelle comparaison",
+    "specs": {
+      "seats": "Sièges",
+      "doors": "Portes",
+      "engine": "Moteur",
+      "horsepower": "Puissance",
+      "topSpeed": "Vitesse maximale",
+      "acceleration": "0-100 km/h",
+      "transmission": "Transmission",
+      "fuelType": "Type de carburant"
+    },
+    "ratingsItems": {
+      "luxury": "Luxe",
+      "performance": "Performance",
+      "comfort": "Confort",
+      "technology": "Technologie",
+      "value": "Valeur"
+    },
+    "featureCategories": {
+      "luxury": "Luxe",
+      "technology": "Technologie",
+      "comfort": "Confort"
+    },
+    "cars": {
+      "phantom": {
+        "id": "phantom",
+        "name": "Rolls-Royce Phantom",
+        "image": "/images/Rolls-royce-phantom.jpg",
+        "price": 5800,
+        "specs": {
+          "seats": 5,
+          "doors": 4,
+          "engine": "6.75L V12",
+          "horsepower": 563,
+          "topSpeed": "250 km/h",
+          "acceleration": "5.3s",
+          "transmission": "8 vitesses automatique",
+          "fuelType": "Essence"
+        },
+        "features": [
+          {
+            "category": "Luxury",
+            "items": ["Ciel de toit étoilé", "Tapis en peau de mouton", "Audio sur mesure", "Cuir cousu main"]
+          },
+          {
+            "category": "Technology",
+            "items": ["Vision nocturne", "Régulateur de vitesse adaptatif", "Caméra 360°", "Point d'accès Wi-Fi"]
+          },
+          {
+            "category": "Comfort",
+            "items": ["Sièges massants", "Climatisation 4 zones", "Suspension pneumatique", "Pneus silencieux"]
+          }
+        ],
+        "ratings": { "luxury": 100, "performance": 85, "comfort": 100, "technology": 90, "value": 80 }
+      },
+      "cullinan": {
+        "id": "cullinan",
+        "name": "Rolls-Royce Cullinan",
+        "image": "/images/Rolls-Royce-Cullinan_.jpg",
+        "price": 6500,
+        "specs": {
+          "seats": 5,
+          "doors": 5,
+          "engine": "6.75L V12",
+          "horsepower": 563,
+          "topSpeed": "250 km/h",
+          "acceleration": "5.0s",
+          "transmission": "8 vitesses automatique",
+          "fuelType": "Essence"
+        },
+        "features": [
+          {
+            "category": "Luxury",
+            "items": ["Suite d'observation", "Module de loisirs", "Cloison en verre", "Toit ouvrant panoramique"]
+          },
+          {
+            "category": "Technology",
+            "items": ["Traction intégrale", "Assistant tout-terrain", "Affichage tête haute", "Contrôle gestuel"]
+          },
+          {
+            "category": "Comfort",
+            "items": ["Sièges arrière individuels", "Divertissement aux places arrière", "Porte-gobelets chauffants/refroidissants", "Tables de pique-nique"]
+          }
+        ],
+        "ratings": { "luxury": 95, "performance": 90, "comfort": 95, "technology": 95, "value": 85 }
+      },
+      "ghost": {
+        "id": "ghost",
+        "name": "Rolls-Royce Ghost",
+        "image": "/images/Rolls-Royce-black.jpg",
+        "price": 4800,
+        "specs": {
+          "seats": 5,
+          "doors": 4,
+          "engine": "6.75L V12",
+          "horsepower": 563,
+          "topSpeed": "250 km/h",
+          "acceleration": "4.8s",
+          "transmission": "8 vitesses automatique",
+          "fuelType": "Essence"
+        },
+        "features": [
+          {
+            "category": "Luxury",
+            "items": ["Fascia illuminée", "Ciel de toit étoilé filant", "Horloge sur mesure", "Carafe en cristal"]
+          },
+          {
+            "category": "Technology",
+            "items": ["Suspension planaire", "Transmission assistée par satellite", "Assistant de stationnement", "Tableau de bord numérique"]
+          },
+          {
+            "category": "Comfort",
+            "items": ["Purification du micro-environnement", "Refroidisseur de champagne", "Sièges de salon exécutif", "Isolation acoustique"]
+          }
+        ],
+        "ratings": { "luxury": 90, "performance": 95, "comfort": 92, "technology": 93, "value": 90 }
+      },
+      "dawn": {
+        "id": "dawn",
+        "name": "Rolls-Royce Dawn",
+        "image": "/images/Rolls-Royce-white.jpg",
+        "price": 5500,
+        "specs": {
+          "seats": 4,
+          "doors": 2,
+          "engine": "6.6L V12",
+          "horsepower": 563,
+          "topSpeed": "250 km/h",
+          "acceleration": "4.9s",
+          "transmission": "8 vitesses automatique",
+          "fuelType": "Essence"
+        },
+        "features": [
+          {
+            "category": "Luxury",
+            "items": ["Panneaux Canadel", "Portes d'autocar", "Toit décapotable", "Déflecteur de vent"]
+          },
+          {
+            "category": "Technology",
+            "items": ["Stabilisation active du roulis", "Sécurité dynamique", "Services connectés", "Système audio haut de gamme"]
+          },
+          {
+            "category": "Comfort",
+            "items": ["Chauffe-nuque", "Accoudoirs chauffants", "Sièges confort climatique", "Mécanisme de toit silencieux"]
+          }
+        ],
+        "ratings": { "luxury": 88, "performance": 88, "comfort": 85, "technology": 85, "value": 82 }
+      },
+      "wraith": {
+        "id": "wraith",
+        "name": "Rolls-Royce Wraith",
+        "image": "/images/Rolls-Royce-front.jpg",
+        "price": 5000,
+        "specs": {
+          "seats": 4,
+          "doors": 2,
+          "engine": "6.6L V12",
+          "horsepower": 624,
+          "topSpeed": "250 km/h",
+          "acceleration": "4.6s",
+          "transmission": "8 vitesses automatique",
+          "fuelType": "Essence"
+        },
+        "features": [
+          {
+            "category": "Luxury",
+            "items": ["Design Fastback", "Ciel de toit étoilé", "Audio sur mesure", "Placages en bois précieux"]
+          },
+          {
+            "category": "Technology",
+            "items": ["Transmission assistée par satellite", "Contrôleur rotatif Spirit of Ecstasy", "Commandes vocales", "Freins de performance"]
+          },
+          {
+            "category": "Comfort",
+            "items": ["Climatisation quatre zones", "Tapis moelleux", "Intérieur spacieux", "Expérience de conduite sans effort"]
+          }
+        ],
+        "ratings": { "luxury": 85, "performance": 98, "comfort": 88, "technology": 88, "value": 85 }
       }
     }
   },

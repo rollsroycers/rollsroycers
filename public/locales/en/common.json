@@ -208,7 +208,8 @@
     },
     "from": "From",
     "perDay": "per day",
-    "rentNow": "Rent Now"
+    "rentNow": "Rent Now",
+    "aed": "AED"
   },
   "services": {
     "title": "Exceptional Services",
@@ -793,9 +794,215 @@
       }
     }
   },
+  "checkAvailability": {
+    "title": "Check Availability",
+    "subtitle": "Select your dates and car",
+    "selectCar": "Select Car",
+    "bookingSummary": "Booking Summary",
+    "car": "Car",
+    "period": "Period",
+    "days": "days",
+    "total": "Total",
+    "confirmBooking": "Confirm Booking",
+    "calendar": {
+      "months": ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"],
+      "daysOfWeek": ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"]
+    }
+  },
   "placeholders": {
     "loading": "Loading...",
     "error": "An error occurred."
+  },
+  "compareFleet": {
+    "title": "Compare Our Fleet",
+    "subtitle": "Select up to 3 cars to compare",
+    "compareButton": "Compare {{count}} cars",
+    "modalTitle": "Car Comparison",
+    "feature": "Feature",
+    "specifications": "Specifications",
+    "ratings": "Ratings",
+    "keyFeatures": "Key Features",
+    "bookYourSelection": "Book Your Selection",
+    "startNewComparison": "Start New Comparison",
+    "specs": {
+      "seats": "Seats",
+      "doors": "Doors",
+      "engine": "Engine",
+      "horsepower": "Horsepower",
+      "topSpeed": "Top Speed",
+      "acceleration": "0-100 km/h",
+      "transmission": "Transmission",
+      "fuelType": "Fuel Type"
+    },
+    "ratingsItems": {
+      "luxury": "Luxury",
+      "performance": "Performance",
+      "comfort": "Comfort",
+      "technology": "Technology",
+      "value": "Value"
+    },
+    "featureCategories": {
+      "luxury": "Luxury",
+      "technology": "Technology",
+      "comfort": "Comfort"
+    },
+    "cars": {
+      "phantom": {
+        "id": "phantom",
+        "name": "Rolls-Royce Phantom",
+        "image": "/images/Rolls-royce-phantom.jpg",
+        "price": 5800,
+        "specs": {
+          "seats": 5,
+          "doors": 4,
+          "engine": "6.75L V12",
+          "horsepower": 563,
+          "topSpeed": "250 km/h",
+          "acceleration": "5.3s",
+          "transmission": "8-speed automatic",
+          "fuelType": "Petrol"
+        },
+        "features": [
+          {
+            "category": "Luxury",
+            "items": ["Starlight Headliner", "Sheepskin Mats", "Bespoke Audio", "Hand-stitched Leather"]
+          },
+          {
+            "category": "Technology",
+            "items": ["Night Vision", "Adaptive Cruise Control", "360° Camera", "Wi-Fi Hotspot"]
+          },
+          {
+            "category": "Comfort",
+            "items": ["Massaging Seats", "4-Zone Climate Control", "Air Suspension", "Silent-Seal Tyres"]
+          }
+        ],
+        "ratings": { "luxury": 100, "performance": 85, "comfort": 100, "technology": 90, "value": 80 }
+      },
+      "cullinan": {
+        "id": "cullinan",
+        "name": "Rolls-Royce Cullinan",
+        "image": "/images/Rolls-Royce-Cullinan_.jpg",
+        "price": 6500,
+        "specs": {
+          "seats": 5,
+          "doors": 5,
+          "engine": "6.75L V12",
+          "horsepower": 563,
+          "topSpeed": "250 km/h",
+          "acceleration": "5.0s",
+          "transmission": "8-speed automatic",
+          "fuelType": "Petrol"
+        },
+        "features": [
+          {
+            "category": "Luxury",
+            "items": ["Viewing Suite", "Recreation Module", "Glass Partition", "Panoramic Sunroof"]
+          },
+          {
+            "category": "Technology",
+            "items": ["All-Wheel Drive", "Off-Road Assistant", "Head-Up Display", "Gesture Control"]
+          },
+          {
+            "category": "Comfort",
+            "items": ["Individual Rear Seats", "Rear-seat Entertainment", "Heated/Cooled Cupholders", "Picnic Tables"]
+          }
+        ],
+        "ratings": { "luxury": 95, "performance": 90, "comfort": 95, "technology": 95, "value": 85 }
+      },
+      "ghost": {
+        "id": "ghost",
+        "name": "Rolls-Royce Ghost",
+        "image": "/images/Rolls-Royce-black.jpg",
+        "price": 4800,
+        "specs": {
+          "seats": 5,
+          "doors": 4,
+          "engine": "6.75L V12",
+          "horsepower": 563,
+          "topSpeed": "250 km/h",
+          "acceleration": "4.8s",
+          "transmission": "8-speed automatic",
+          "fuelType": "Petrol"
+        },
+        "features": [
+          {
+            "category": "Luxury",
+            "items": ["Illuminated Fascia", "Shooting Star Headliner", "Bespoke Clock", "Crystal Decanter"]
+          },
+          {
+            "category": "Technology",
+            "items": ["Planar Suspension", "Satellite Aided Transmission", "Parking Assistant", "Digital Instrument Cluster"]
+          },
+          {
+            "category": "Comfort",
+            "items": ["Micro-Environment Purification", "Champagne Cooler", "Executive Lounge Seating", "Acoustic Insulation"]
+          }
+        ],
+        "ratings": { "luxury": 90, "performance": 95, "comfort": 92, "technology": 93, "value": 90 }
+      },
+      "dawn": {
+        "id": "dawn",
+        "name": "Rolls-Royce Dawn",
+        "image": "/images/Rolls-Royce-white.jpg",
+        "price": 5500,
+        "specs": {
+          "seats": 4,
+          "doors": 2,
+          "engine": "6.6L V12",
+          "horsepower": 563,
+          "topSpeed": "250 km/h",
+          "acceleration": "4.9s",
+          "transmission": "8-speed automatic",
+          "fuelType": "Petrol"
+        },
+        "features": [
+          {
+            "category": "Luxury",
+            "items": ["Canadel Panelling", "Coach Doors", "Convertible Roof", "Wind Deflector"]
+          },
+          {
+            "category": "Technology",
+            "items": ["Active Roll Stabilisation", "Dynamic Safety", "Connected Services", "Premium Audio System"]
+          },
+          {
+            "category": "Comfort",
+            "items": ["Neck Warmer", "Heated Armrests", "Climate-Comfort Seats", "Silent Roof Mechanism"]
+          }
+        ],
+        "ratings": { "luxury": 88, "performance": 88, "comfort": 85, "technology": 85, "value": 82 }
+      },
+      "wraith": {
+        "id": "wraith",
+        "name": "Rolls-Royce Wraith",
+        "image": "/images/Rolls-Royce-front.jpg",
+        "price": 5000,
+        "specs": {
+          "seats": 4,
+          "doors": 2,
+          "engine": "6.6L V12",
+          "horsepower": 624,
+          "topSpeed": "250 km/h",
+          "acceleration": "4.6s",
+          "transmission": "8-speed automatic",
+          "fuelType": "Petrol"
+        },
+        "features": [
+          {
+            "category": "Luxury",
+            "items": ["Fastback Design", "Starlight Headliner", "Bespoke Audio", "Fine Wood Veneers"]
+          },
+          {
+            "category": "Technology",
+            "items": ["Satellite Aided Transmission", "Spirit of Ecstasy Rotary Controller", "Voice Commands", "Performance Brakes"]
+          },
+          {
+            "category": "Comfort",
+            "items": ["Four-Zone Climate Control", "Plush Carpeting", "Spacious Interior", "Effortless Driving Experience"]
+          }
+        ],
+        "ratings": { "luxury": 85, "performance": 98, "comfort": 88, "technology": 88, "value": 85 }
+      }
+    }
   },
   "locations": {
     "downtownDubai": {

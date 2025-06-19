@@ -4,6 +4,26 @@
       "title": "迪拜劳斯莱斯租赁 | 阿联酋豪华汽车租赁 2025",
       "description": "迪拜高端劳斯莱斯租赁服务。车队包括幻影、古思特、库里南、曜影和魅影。24/7服务，价格优惠，专业司机。"
     },
+    "about": {
+      "title": "关于劳斯莱斯迪拜",
+      "subtitle": "树立豪华汽车租赁的标杆",
+      "description": "凭借多年提供卓越豪华汽车租赁服务的经验，我们为能为尊贵的客户提供无与伦比的体验而自豪。我们精心维护的劳斯莱斯车队代表了汽车豪华的巅峰。",
+      "whyChoose": "为何选择我们",
+      "reasons": {
+        "fleet": "最新车型，无可挑剔的保养",
+        "service": "24/7礼宾和支持服务",
+        "drivers": "专业、持证、多语种的司机",
+        "price": "透明定价，无隐藏费用",
+        "flexible": "灵活的租赁条款和套餐",
+        "delivery": "迪拜境内免费送货"
+      },
+      "stats": {
+        "satisfaction": "客户满意度",
+        "availability": "24/7可用性",
+        "experience": "多年经验",
+        "rating": "5★评级"
+      }
+    },
     "fleet": {
       "title": "劳斯莱斯迪拜车队 | 5款豪华车型",
       "description": "探索我们的独家劳斯莱斯车队：幻影、古思特、库里南、曜影、魅影。所有车辆均为2024-2025款。"
@@ -36,6 +56,46 @@
       "explore": "浏览车队"
     }
   },
+  "about": {
+    "title": "关于劳斯莱斯迪拜",
+    "subtitle": "树立豪华汽车租赁的标杆",
+    "description": "凭借多年提供卓越豪华汽车租赁服务的经验，我们为能为尊贵的客户提供无与伦比的体验而自豪。我们精心维护的劳斯莱斯车队代表了汽车豪华的巅峰。",
+    "whyChoose": "为何选择我们",
+    "reasons": {
+      "fleet": "最新车型，无可挑剔的保养",
+      "service": "24/7礼宾和支持服务",
+      "drivers": "专业、持证、多语种的司机",
+      "price": "透明定价，无隐藏费用",
+      "flexible": "灵活的租赁条款和套餐",
+      "delivery": "迪拜境内免费送货"
+    },
+    "stats": {
+      "satisfaction": "客户满意度",
+      "availability": "24/7可用性",
+      "experience": "多年经验",
+      "rating": "5★评级"
+    }
+  },
+  "about": {
+    "title": "关于劳斯莱斯迪拜",
+    "subtitle": "树立豪华汽车租赁的标杆",
+    "description": "凭借多年提供卓越豪华汽车租赁服务的经验，我们为能为尊贵的客户提供无与伦比的体验而自豪。我们精心维护的劳斯莱斯车队代表了汽车豪华的巅峰。",
+    "whyChoose": "为何选择我们",
+    "reasons": {
+      "fleet": "最新车型，无可挑剔的保养",
+      "service": "24/7礼宾和支持服务",
+      "drivers": "专业、持证、多语种的司机",
+      "price": "透明定价，无隐藏费用",
+      "flexible": "灵活的租赁条款和套餐",
+      "delivery": "迪拜境内免费送货"
+    },
+    "stats": {
+      "satisfaction": "客户满意度",
+      "availability": "24/7可用性",
+      "experience": "多年经验",
+      "rating": "5★评级"
+    }
+  },
   "fleet": {
     "title": "我们的豪华车队",
     "subtitle": "从独家劳斯莱斯系列中选择",
@@ -58,7 +118,8 @@
     "wraith": {
       "name": "魅影",
       "description": "运动轿跑 - 力量与优雅"
-    }
+    },
+    "aed": "迪拉姆"
   },
   "services": {
     "title": "我们的尊贵服务",
@@ -120,6 +181,41 @@
     "title": "客户评价",
     "subtitle": "来自满意客户的真实体验"
   },
+  "home": {
+    "video": {
+      "title": "体验劳斯莱斯卓越",
+      "subtitle": "观看我们的豪华车队遍布迪拜"
+    },
+    "stats": {
+      "happyCustomers": "满意客户",
+      "luxuryModels": "豪华车型",
+      "availableService": "全天候服务",
+      "satisfactionRate": "满意率"
+    },
+    "premiumServices": {
+      "title": "我们的尊贵服务",
+      "viewAll": "查看所有服务"
+    },
+    "explore": {
+      "title": "探索更多",
+      "gallery": {
+        "title": "图库",
+        "subtitle": "浏览我们令人惊叹的收藏"
+      },
+      "faq": {
+        "title": "常见问题",
+        "subtitle": "获取常见问题的答案"
+      },
+      "blog": {
+        "title": "博客",
+        "subtitle": "阅读豪华见解和提示"
+      },
+      "compare": {
+        "title": "比较",
+        "subtitle": "劳斯莱斯与其他品牌"
+      }
+    }
+  },
   "pricing": {
     "title": "透明定价",
     "daily": "日租",
@@ -135,6 +231,21 @@
     "title": "离线 | 劳斯莱斯迪拜",
     "heading": "您当前处于离线状态",
     "message": "请检查您的网络连接以访问完整网站。"
+  },
+  "checkAvailability": {
+    "title": "检查可用性",
+    "subtitle": "选择您的日期和汽车",
+    "selectCar": "选择汽车",
+    "bookingSummary": "预订摘要",
+    "car": "汽车",
+    "period": "期间",
+    "days": "天",
+    "total": "总计",
+    "confirmBooking": "确认预订",
+    "calendar": {
+      "months": ["一月", "二月", "三月", "四月", "五月", "六月", "七月", "八月", "九月", "十月", "十一月", "十二月"],
+      "daysOfWeek": ["日", "一", "二", "三", "四", "五", "六"]
+    }
   },
   "videoGallery": {
     "lifestyle": {
@@ -166,6 +277,18 @@
     },
     "night": {
       "title": "劳斯莱斯夜间驾乘"
+    },
+    "Rolls-Royce Interior": {
+        "title": "劳斯莱斯内饰"
+    },
+    "Rolls-Royce Official": {
+        "title": "劳斯莱斯官方"
+    },
+    "Rolls-Royce Airport": {
+        "title": "劳斯莱斯机场"
+    },
+    "Rolls-Royce Experience": {
+        "title": "劳斯莱斯体验"
     }
   },
   "locations": {
@@ -186,6 +309,481 @@
     },
     "difc": {
       "nav": "DIFC"
+    },
+    "compareFleet": {
+      "title": "比较我们的车队",
+      "subtitle": "选择最多3辆车进行比较",
+      "compareButton": "比较{{count}}辆车",
+      "modalTitle": "汽车比较",
+      "feature": "特征",
+      "specifications": "规格",
+      "ratings": "评分",
+      "keyFeatures": "主要特点",
+      "bookYourSelection": "预订您的选择",
+      "startNewComparison": "开始新的比较",
+      "specs": {
+        "seats": "座位",
+        "doors": "门",
+        "engine": "引擎",
+        "horsepower": "马力",
+        "topSpeed": "最高速度",
+        "acceleration": "0-100公里/小时",
+        "transmission": "变速器",
+        "fuelType": "燃料类型"
+      },
+      "ratingsItems": {
+        "luxury": "奢华",
+        "performance": "性能",
+        "comfort": "舒适度",
+        "technology": "技术",
+        "value": "价值"
+      },
+      "featureCategories": {
+        "luxury": "奢华",
+        "technology": "技术",
+        "comfort": "舒适度"
+      },
+      "cars": {
+        "phantom": {
+          "id": "phantom",
+          "name": "劳斯莱斯幻影",
+          "image": "/images/Rolls-royce-phantom.jpg",
+          "price": 5800,
+          "specs": {
+            "seats": 5,
+            "doors": 4,
+            "engine": "6.75L V12",
+            "horsepower": 563,
+            "topSpeed": "250公里/小时",
+            "acceleration": "5.3秒",
+            "transmission": "8速自动",
+            "fuelType": "汽油"
+          },
+          "features": [
+            {
+              "category": "Luxury",
+              "items": ["星光顶篷", "羊皮地毯", "定制音响", "手工缝制皮革"]
+            },
+            {
+              "category": "Technology",
+              "items": ["夜视功能", "自适应巡航控制", "360°摄像头", "Wi-Fi热点"]
+            },
+            {
+              "category": "Comfort",
+              "items": ["按摩座椅", "4区气候控制", "空气悬架", "静音轮胎"]
+            }
+          ],
+          "ratings": { "luxury": 100, "performance": 85, "comfort": 100, "technology": 90, "value": 80 }
+        },
+        "cullinan": {
+          "id": "cullinan",
+          "name": "劳斯莱斯库里南",
+          "image": "/images/Rolls-Royce-Cullinan_.jpg",
+          "price": 6500,
+          "specs": {
+            "seats": 5,
+            "doors": 5,
+            "engine": "6.75L V12",
+            "horsepower": 563,
+            "topSpeed": "250公里/小时",
+            "acceleration": "5.0秒",
+            "transmission": "8速自动",
+            "fuelType": "汽油"
+          },
+          "features": [
+            {
+              "category": "Luxury",
+              "items": ["观景套房", "娱乐模块", "玻璃隔断", "全景天窗"]
+            },
+            {
+              "category": "Technology",
+              "items": ["全轮驱动", "越野助手", "平视显示器", "手势控制"]
+            },
+            {
+              "category": "Comfort",
+              "items": ["独立后排座椅", "后座娱乐系统", "加热/冷却杯架", "野餐桌"]
+            }
+          ],
+          "ratings": { "luxury": 95, "performance": 90, "comfort": 95, "technology": 95, "value": 85 }
+        },
+        "ghost": {
+          "id": "ghost",
+          "name": "劳斯莱斯古思特",
+          "image": "/images/Rolls-Royce-black.jpg",
+          "price": 4800,
+          "specs": {
+            "seats": 5,
+            "doors": 4,
+            "engine": "6.75L V12",
+            "horsepower": 563,
+            "topSpeed": "250公里/小时",
+            "acceleration": "4.8秒",
+            "transmission": "8速自动",
+            "fuelType": "汽油"
+          },
+          "features": [
+            {
+              "category": "Luxury",
+              "items": ["发光仪表板", "流星顶篷", "定制时钟", "水晶酒瓶"]
+            },
+            {
+              "category": "Technology",
+              "items": ["平面悬架", "卫星辅助变速", "停车辅助", "数字仪表盘"]
+            },
+            {
+              "category": "Comfort",
+              "items": ["微环境净化", "香槟冷却器", "行政酒廊座椅", "隔音"]
+            }
+          ],
+          "ratings": { "luxury": 90, "performance": 95, "comfort": 92, "technology": 93, "value": 90 }
+        },
+        "dawn": {
+          "id": "dawn",
+          "name": "劳斯莱斯曜影",
+          "image": "/images/Rolls-Royce-white.jpg",
+          "price": 5500,
+          "specs": {
+            "seats": 4,
+            "doors": 2,
+            "engine": "6.6L V12",
+            "horsepower": 563,
+            "topSpeed": "250公里/小时",
+            "acceleration": "4.9秒",
+            "transmission": "8速自动",
+            "fuelType": "汽油"
+          },
+          "features": [
+            {
+              "category": "Luxury",
+              "items": ["Canadel镶板", "马车式车门", "敞篷车顶", "挡风板"]
+            },
+            {
+              "category": "Technology",
+              "items": ["主动侧倾稳定", "动态安全", "互联服务", "高级音响系统"]
+            },
+            {
+              "category": "Comfort",
+              "items": ["颈部加热器", "加热扶手", "气候舒适座椅", "静音车顶机械装置"]
+            }
+          ],
+          "ratings": { "luxury": 88, "performance": 88, "comfort": 85, "technology": 85, "value": 82 }
+        },
+        "wraith": {
+          "id": "wraith",
+          "name": "劳斯莱斯魅影",
+          "image": "/images/Rolls-Royce-front.jpg",
+          "price": 5000,
+          "specs": {
+            "seats": 4,
+            "doors": 2,
+            "engine": "6.6L V12",
+            "horsepower": 624,
+            "topSpeed": "250公里/小时",
+            "acceleration": "4.6秒",
+            "transmission": "8速自动",
+            "fuelType": "汽油"
+          },
+          "features": [
+            {
+              "category": "Luxury",
+              "items": ["溜背设计", "星光顶篷", "定制音响", "精美木饰面"]
+            },
+            {
+              "category": "Technology",
+              "items": ["卫星辅助变速", "欢庆女神旋转控制器", "语音命令", "高性能制动器"]
+            },
+            {
+              "category": "Comfort",
+              "items": ["四区气候控制", "长毛地毯", "宽敞的内部空间", "轻松的驾驶体验"]
+            }
+          ],
+          "ratings": { "luxury": 85, "performance": 98, "comfort": 88, "technology": 88, "value": 85 }
+        }
+      }
     }
+  },
+  "common": {
+    "excellent": "优秀",
+    "basedOnReviews": "基于 {{count}} 条评价",
+    "frequentlyAskedQuestions": "常见问题解答",
+    "everythingYouNeedToKnow": "您需要了解的一切",
+    "rollsRoyceDubai": "劳斯莱斯迪拜",
+    "aed": "迪拉姆",
+    "specialOffers": "特别优惠",
+    "limitedTimeDeals": "限时优惠",
+    "offersEndIn": "优惠结束时间",
+    "useCode": "使用代码",
+    "readyToExperience": "准备体验奢华？",
+    "bookYourRollsRoyce": "立即预订您的劳斯莱斯，体验汽车卓越的巅峰",
+    "bookNow": "立即预订",
+    "viewPricing": "查看价格",
+    "available": "可用",
+    "unavailable": "不可用",
+    "selected": "已选择",
+    "verifiedCustomer": "已验证客户",
+    "shareYourStory": "分享您的故事",
+    "claimYourOffer": "领取您的优惠",
+    "termsApply": "*条款和条件适用",
+    "getInTouch": "联系我们",
+    "hereToServe": "我们随时为您服务",
+    "yourName": "您的姓名",
+    "emailAddress": "电子邮箱地址",
+    "phoneNumber": "电话号码",
+    "selectCarModel": "选择车型",
+    "rentalDuration": "租赁时长",
+    "additionalRequirements": "其他要求",
+    "sendInquiry": "发送询问",
+    "phone": "电话",
+    "callUsDirectly": "直接致电我们获得即时帮助",
+    "address": "地址",
+    "dubaiUAE": "阿联酋迪拜",
+    "days": "天",
+    "hours": "小时",
+    "minutes": "分钟",
+    "seconds": "秒"
+  },
+  "reviews": {
+    "title": "客户评价",
+    "subtitle": "每一次都是卓越体验",
+    "rating": "评分",
+    "verified": "已验证客户",
+    "readMore": "阅读更多",
+    "showLess": "显示更少",
+    "review1": {
+      "name": "Ahmed Al-Rashid",
+      "date": "2周前",
+      "car": "劳斯莱斯幻影",
+      "review": "绝对卓越的服务！幻影车况完美，司机专业程度超出预期。让我们的周年纪念日真正特别。",
+      "nationality": "阿联酋"
+    },
+    "review2": {
+      "name": "Dmitry Ivanov",
+      "date": "1个月前",
+      "car": "劳斯莱斯库里南",
+      "review": "完美适合我们在迪拜的家庭度假。库里南在沙漠探险中表现出色，同时保持极致舒适。出色的体验！",
+      "nationality": "俄罗斯"
+    },
+    "review3": {
+      "name": "Fatima Al-Maktoum",
+      "date": "3周前",
+      "car": "劳斯莱斯古思特",
+      "review": "用于企业活动。服务无可挑剔，车辆状况完美，给我们的客户留下了深刻印象。强烈推荐！",
+      "nationality": "阿联酋"
+    },
+    "review4": {
+      "name": "Antoine Lefèvre",
+      "date": "2个月前",
+      "car": "劳斯莱斯曜影",
+      "review": "曜影敞篷车非常适合探索迪拜海岸线。在JBR的日落驾驶真是太神奇了。服务超出了所有期望！",
+      "nationality": "法国"
+    },
+    "review5": {
+      "name": "Chen Jie",
+      "date": "1周前",
+      "car": "劳斯莱斯魅影",
+      "review": "租用魅影进行拍摄。这辆车令人惊叹，团队在时间和地点安排上非常配合。还会再次预订！",
+      "nationality": "中国"
+    },
+    "review6": {
+      "name": "Pooja Sharma",
+      "date": "1个月前",
+      "car": "劳斯莱斯幻影",
+      "review": "为我们的婚礼预订。一切都很完美 - 从装饰的汽车到专业的司机。让我们的特殊日子更加难忘！",
+      "nationality": "印度"
+    },
+    "review7": {
+      "name": "Sergey Volkov",
+      "date": "3周前",
+      "car": "劳斯莱斯库里南",
+      "review": "迪拜最好的豪华汽车租赁！库里南非常适合我们的商务代表团。从始至终的专业服务。",
+      "nationality": "俄罗斯"
+    },
+    "review8": {
+      "name": "Mohamed Hassan",
+      "date": "2周前",
+      "car": "劳斯莱斯古思特",
+      "review": "我在世界各地租过豪华汽车，但这次体验是非凡的。对细节的关注和客户服务无与伦比。真正的五星级！",
+      "nationality": "埃及"
+    },
+    "review9": {
+      "name": "Julien Dubois",
+      "date": "1个月前",
+      "car": "劳斯莱斯曜影",
+      "review": "曜影非常适合我们的周年庆祝。在迪拜码头日落时分驾驶令人难忘。全程服务卓越！",
+      "nationality": "法国"
+    },
+    "review10": {
+      "name": "Wang Jun",
+      "date": "2个月前",
+      "car": "劳斯莱斯魅影",
+      "review": "令人印象深刻的服务和令人难以置信的汽车。魅影的性能非常出色。团队让一切都变得无缝。强烈推荐！",
+      "nationality": "中国"
+    }
+  },
+  "offers": {
+    "weekend": {
+      "discount": "8折优惠",
+      "title": "周末特惠",
+      "description": "预订周五至周日可享优惠"
+    },
+    "firstTime": {
+      "discount": "85折优惠",
+      "title": "首次客户",
+      "description": "新客户专享折扣"
+    },
+    "monthly": {
+      "discount": "7折优惠",
+      "title": "月租",
+      "description": "长期租赁享更多优惠"
+    },
+    "chauffeur": {
+      "discount": "免费司机",
+      "title": "司机服务",
+      "description": "租赁3天以上免费提供"
+    }
+  },
+  "loyalty": {
+    "title": "劳斯莱斯忠诚度计划",
+    "subtitle": "为我们尊贵客户提供的独家福利",
+    "join": "立即加入",
+    "enroll": "加入计划",
+    "journey": "您的白金之旅",
+    "whyJoin": "为什么加入我们的忠诚度计划？",
+    "saveMore": {
+      "title": "节省更多",
+      "subtitle": "每次租赁都享有独家折扣"
+    },
+    "priorityAccess": {
+      "title": "优先使用权",
+      "subtitle": "新车型优先选择权"
+    },
+    "exclusivePerks": {
+      "title": "独家特权",
+      "subtitle": "特别活动和体验"
+    },
+    "vipTreatment": {
+      "title": "VIP待遇",
+      "subtitle": "个人礼宾服务"
+    },
+    "tiers": {
+      "silver": {
+        "name": "银卡",
+        "requirement": "每年3次以上租赁",
+        "instagram": {
+          "followJourney": "关注我们的旅程",
+          "account": "@rollsroycedubai",
+          "joinCommunity": "加入我们的社区",
+          "communityDesc": "独家内容和幕后花絮",
+          "follow": "关注",
+          "notifications": "开启通知",
+          "post1": "赞",
+          "post2": "赞",
+          "post3": "赞",
+          "post4": "赞",
+          "post5": "赞",
+          "post6": "赞"
+        }
+      },
+      "gold": {
+        "name": "金卡",
+        "requirement": "每年6次以上租赁"
+      },
+      "platinum": {
+        "name": "白金卡",
+        "requirement": "每年12次以上租赁"
+      }
+    },
+    "faq": {
+      "q1": "如何加入忠诚度计划？",
+      "a1": "只需完成您的第一次租赁，即可自动加入我们的银卡级别。",
+      "q2": "忠诚度积分如何计算？",
+      "a2": "积分根据租赁时长和车型为每次租赁授予。",
+      "q3": "我可以与家人分享我的福利吗？",
+      "a3": "福利不可转让，只能由获得福利的会员使用。",
+      "q4": "积分会过期吗？",
+      "a4": "积分在获得之日起24个月后过期。",
+      "q5": "如何升级等级？",
+      "a5": "在一个日历年内完成所需的租赁次数后，等级会自动升级。",
+      "q6": "有哪些独家活动？",
+      "a6": "金卡和白金卡会员会收到独家汽车发布会、豪华合作伙伴活动等邀请。",
+      "q7": "我可以转移积分吗？",
+      "a7": "不可以，忠诚度积分不能从一个账户转移到另一个账户。",
+      "q8": "有会员费吗？",
+      "a8": "没有，我们的忠诚度计划完全免费，从您的第一次预订开始。",
+      "q9": "如何查看我的状态？",
+      "a9": "您可以通过登录我们网站上的账户或联系我们的客户服务团队来查看您的状态和积分余额。",
+      "q10": "如果我不符合等级要求会怎样？",
+      "a10": "如果您不符合维持当前等级状态的要求，您将被调整到下一个较低的等级。"
+    }
+  },
+  "footer": {
+    "tagline": "体验非凡",
+    "links": {
+      "privacy": "隐私政策",
+      "terms": "条款和条件",
+      "sitemap": "网站地图"
+    },
+    "social": "关注我们",
+    "rights": "版权所有",
+    "support": "24/7支持",
+    "email": "电子邮件",
+    "showroom": "展厅",
+    "about": "您在迪拜劳斯莱斯豪华汽车租赁的首选",
+    "quickLinks": "快速链接",
+    "call": "致电",
+    "whatsapp": "WhatsApp",
+    "privacy": "隐私政策",
+    "terms": "条款和条件"
+  },
+  "instagram": {
+    "followJourney": "关注我们的旅程",
+    "account": "@rollsroycedubai",
+    "joinCommunity": "加入我们的社区",
+    "communityDesc": "独家内容和幕后花絮",
+    "follow": "关注",
+    "notifications": "开启通知",
+    "likes": "赞",
+    "followers": {
+      "instagram": "instagram",
+      "facebook": "facebook",
+      "twitter": "twitter",
+      "youtube": "youtube"
+    },
+    "hashtags": {
+      "rollsRoyceDubai": "#RollsRoyceDubai",
+      "luxuryCarRental": "#豪华汽车租赁",
+      "dubaiLuxury": "#迪拜奢华",
+      "rollsRoyceLife": "#劳斯莱斯生活"
+    }
+  },
+  "testimonialSubmission": {
+    "shareExperience": {
+      "title": "分享您的体验",
+      "description": "告诉我们您的劳斯莱斯之旅"
+    },
+    "stories": {
+      "story1": {
+        "name": "Sarah & Michael Johnson",
+        "location": "英国伦敦",
+        "occasion": "婚礼日",
+        "story": "幻影让我们的婚礼日绝对完美。从装饰的内饰到专业的司机，每个细节都无可挑剔。"
+      },
+      "story2": {
+        "name": "Alexander Petrov",
+        "location": "俄罗斯莫斯科",
+        "occasion": "商务会议",
+        "story": "驾驶古思特抵达会议给人留下了深刻的印象。服务无懈可击，帮助我们达成了重要的合作伙伴关系。"
+      },
+      "story3": {
+        "name": "陈氏家族",
+        "location": "中国北京",
+        "occasion": "周年庆典",
+        "story": "我们在曜影敞篷车中游览迪拜，庆祝我们的25周年纪念日。日落时的敞篷体验令人难忘。真是太神奇了！"
+      }
+    }
+  },
+  "tripPlanner": {
+    "title": "规划您的旅程",
+    "subtitle": "打造完美的豪华体验"
   }
 }

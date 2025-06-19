@@ -56,7 +56,8 @@
     },
     "from": "से",
     "perDay": "प्रति दिन",
-    "rentNow": "अभी किराए पर लें"
+    "rentNow": "अभी किराए पर लें",
+    "aed": "एईडी"
   },
   "services": {
     "title": "हमारी प्रीमियम सेवाएं",
@@ -456,6 +457,21 @@
     "decline": "अस्वीकार करें",
     "accept": "स्वीकार करें"
   },
+  "checkAvailability": {
+    "title": "उपलब्धता जांचें",
+    "subtitle": "अपनी तिथियां और कार चुनें",
+    "selectCar": "कार चुनें",
+    "bookingSummary": "बुकिंग सारांश",
+    "car": "कार",
+    "period": "अवधि",
+    "days": "दिन",
+    "total": "कुल",
+    "confirmBooking": "बुकिंग की पुष्टि करें",
+    "calendar": {
+      "months": ["जनवरी", "फरवरी", "मार्च", "अप्रैल", "मई", "जून", "जुलाई", "अगस्त", "सितंबर", "अक्टूबर", "नवंबर", "दिसंबर"],
+      "daysOfWeek": ["रवि", "सोम", "मंगल", "बुध", "गुरु", "शुक्र", "शनि"]
+    }
+  },
   "seo": {
     "title": "रोल्स-रॉयस रेंटल दुबई | लक्जरी कार किराया | 24/7 सेवा",
     "description": "दुबई में रोल्स-रॉयस किराए पर लें। फैंटम, कुलिनन, घोस्ट, डॉन और रेथ उपलब्ध हैं। पेशेवर ड्राइवर सेवा, हवाई अड्डा स्थानांतरण, विशेष कार्यक्रम। +971558164922 पर कॉल करें",
@@ -511,6 +527,197 @@
       },
       "price": {
         "name": "कीमत"
+      },
+      "compareFleet": {
+        "title": "हमारे बेड़े की तुलना करें",
+        "subtitle": "तुलना करने के लिए 3 कारों का चयन करें",
+        "compareButton": "{{count}} कारों की तुलना करें",
+        "modalTitle": "कार तुलना",
+        "feature": "सुविधा",
+        "specifications": "विशेष विवरण",
+        "ratings": "रेटिंग",
+        "keyFeatures": "प्रमुख विशेषताऐं",
+        "bookYourSelection": "अपनी पसंद बुक करें",
+        "startNewComparison": "नई तुलना शुरू करें",
+        "specs": {
+          "seats": "सीटों",
+          "doors": "दरवाजे",
+          "engine": "इंजन",
+          "horsepower": "अश्वशक्ति",
+          "topSpeed": "उच्चतम गति",
+          "acceleration": "0-100 किमी/घंटा",
+          "transmission": "हस्तांतरण",
+          "fuelType": "ईंधन प्रकार"
+        },
+        "ratingsItems": {
+          "luxury": "विलासिता",
+          "performance": "प्रदर्शन",
+          "comfort": "आराम",
+          "technology": "प्रौद्योगिकी",
+          "value": "मूल्य"
+        },
+        "featureCategories": {
+          "luxury": "विलासिता",
+          "technology": "प्रौद्योगिकी",
+          "comfort": "आराम"
+        },
+        "cars": {
+          "phantom": {
+            "id": "phantom",
+            "name": "रोल्स-रॉयस फैंटम",
+            "image": "/images/Rolls-royce-phantom.jpg",
+            "price": 5800,
+            "specs": {
+              "seats": 5,
+              "doors": 4,
+              "engine": "6.75L V12",
+              "horsepower": 563,
+              "topSpeed": "250 किमी/घंटा",
+              "acceleration": "5.3s",
+              "transmission": "8-स्पीड स्वचालित",
+              "fuelType": "पेट्रोल"
+            },
+            "features": [
+              {
+                "category": "Luxury",
+                "items": ["स्टारलाईट हेडलाइनर", "शीपस्किन मैट्स", "बस्पोक ऑडियो", "हस्तनिर्मित चमड़ा"]
+              },
+              {
+                "category": "Technology",
+                "items": ["नाइट विजन", "एडेप्टिव क्रूज कंट्रोल", "360° कैमरा", "वाई-फाई हॉटस्पॉट"]
+              },
+              {
+                "category": "Comfort",
+                "items": ["मसाज सीटें", "4-जोन क्लाइमेट कंट्रोल", "एयर सस्पेंशन", "साइलेंट-सील टायर"]
+              }
+            ],
+            "ratings": { "luxury": 100, "performance": 85, "comfort": 100, "technology": 90, "value": 80 }
+          },
+          "cullinan": {
+            "id": "cullinan",
+            "name": "रोल्स-रॉयस कुलिनन",
+            "image": "/images/Rolls-Royce-Cullinan_.jpg",
+            "price": 6500,
+            "specs": {
+              "seats": 5,
+              "doors": 5,
+              "engine": "6.75L V12",
+              "horsepower": 563,
+              "topSpeed": "250 किमी/घंटा",
+              "acceleration": "5.0s",
+              "transmission": "8-स्पीड स्वचालित",
+              "fuelType": "पेट्रोल"
+            },
+            "features": [
+              {
+                "category": "Luxury",
+                "items": ["व्यूइंग सूट", "रिक्रिएशन मॉड्यूल", "ग्लास पार्टिशन", "पैनोरमिक सनरूफ"]
+              },
+              {
+                "category": "Technology",
+                "items": ["ऑल-व्हील ड्राइव", "ऑफ-रोड असिस्टेंट", "हेड-अप डिस्प्ले", "जेस्चर कंट्रोल"]
+              },
+              {
+                "category": "Comfort",
+                "items": ["व्यक्तिगत रियर सीटें", "रियर-सीट एंटरटेनमेंट", "हीटेड/कूल्ड कपहोल्डर्स", "पिकनिक टेबल"]
+              }
+            ],
+            "ratings": { "luxury": 95, "performance": 90, "comfort": 95, "technology": 95, "value": 85 }
+          },
+          "ghost": {
+            "id": "ghost",
+            "name": "रोल्स-रॉयस घोस्ट",
+            "image": "/images/Rolls-Royce-black.jpg",
+            "price": 4800,
+            "specs": {
+              "seats": 5,
+              "doors": 4,
+              "engine": "6.75L V12",
+              "horsepower": 563,
+              "topSpeed": "250 किमी/घंटा",
+              "acceleration": "4.8s",
+              "transmission": "8-स्पीड स्वचालित",
+              "fuelType": "पेट्रोल"
+            },
+            "features": [
+              {
+                "category": "Luxury",
+                "items": ["प्रबुद्ध प्रावरणी", "शूटिंग स्टार हेडलाइनर", "बस्पोक घड़ी", "क्रिस्टल डिकैन्टर"]
+              },
+              {
+                "category": "Technology",
+                "items": ["प्लानर सस्पेंशन", "सैटेलाइट एडेड ट्रांसमिशन", "पार्किंग असिस्टेंट", "डिजिटल इंस्ट्रूमेंट क्लस्टर"]
+              },
+              {
+                "category": "Comfort",
+                "items": ["माइक्रो-एनवायरनमेंट प्यूरिफिकेशन", "शैंपेन कूलर", "एग्जीक्यूटिव लाउंज सीटिंग", "अकॉस्टिक इंसुलेशन"]
+              }
+            ],
+            "ratings": { "luxury": 90, "performance": 95, "comfort": 92, "technology": 93, "value": 90 }
+          },
+          "dawn": {
+            "id": "dawn",
+            "name": "रोल्स-रॉयस डॉन",
+            "image": "/images/Rolls-Royce-white.jpg",
+            "price": 5500,
+            "specs": {
+              "seats": 4,
+              "doors": 2,
+              "engine": "6.6L V12",
+              "horsepower": 563,
+              "topSpeed": "250 किमी/घंटा",
+              "acceleration": "4.9s",
+              "transmission": "8-स्पीड स्वचालित",
+              "fuelType": "पेट्रोल"
+            },
+            "features": [
+              {
+                "category": "Luxury",
+                "items": ["कैनाडेल पैनलिंग", "कोच दरवाजे", "कन्वर्टिबल रूफ", "विंड डिफ्लेक्टर"]
+              },
+              {
+                "category": "Technology",
+                "items": ["एक्टिव रोल स्टेबिलाइजेशन", "डायनेमिक सेफ्टी", "कनेक्टेड सर्विसेज", "प्रीमियम ऑडियो सिस्टम"]
+              },
+              {
+                "category": "Comfort",
+                "items": ["नेक वार्मर", "हीटेड आर्मरेस्ट", "क्लाइमेट-कम्फर्ट सीटें", "साइलेंट रूफ मैकेनिज्म"]
+              }
+            ],
+            "ratings": { "luxury": 88, "performance": 88, "comfort": 85, "technology": 85, "value": 82 }
+          },
+          "wraith": {
+            "id": "wraith",
+            "name": "रोल्स-रॉयस रेथ",
+            "image": "/images/Rolls-Royce-front.jpg",
+            "price": 5000,
+            "specs": {
+              "seats": 4,
+              "doors": 2,
+              "engine": "6.6L V12",
+              "horsepower": 624,
+              "topSpeed": "250 किमी/घंटा",
+              "acceleration": "4.6s",
+              "transmission": "8-स्पीड स्वचालित",
+              "fuelType": "पेट्रोल"
+            },
+            "features": [
+              {
+                "category": "Luxury",
+                "items": ["फास्टबैक डिजाइन", "स्टारलाईट हेडलाइनर", "बस्पोक ऑडियो", "फाइन वुड वेनीर्स"]
+              },
+              {
+                "category": "Technology",
+                "items": ["सैटेलाइट एडेड ट्रांसमिशन", "स्पिरिट ऑफ एक्स्टसी रोटरी कंट्रोलर", "वॉयस कमांड", "परफॉर्मेंस ब्रेक"]
+              },
+              {
+                "category": "Comfort",
+                "items": ["फोर-जोन क्लाइमेट कंट्रोल", "आलीशान कालीन", "विशाल इंटीरियर", "सहज ड्राइविंग अनुभव"]
+              }
+            ],
+            "ratings": { "luxury": 85, "performance": 98, "comfort": 88, "technology": 88, "value": 85 }
+          }
+        }
       }
     }
   },

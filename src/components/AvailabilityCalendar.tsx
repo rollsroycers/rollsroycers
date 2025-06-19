@@ -105,9 +105,8 @@ export default function AvailabilityCalendar() {
     setShowBookingForm(true)
   }
 
-  const monthNames = ['January', 'February', 'March', 'April', 'May', 'June', 
-                      'July', 'August', 'September', 'October', 'November', 'December']
-  const dayNames = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat']
+  const monthNames = t('checkAvailability.calendar.months', { returnObjects: true }) as string[]
+  const dayNames = t('checkAvailability.calendar.daysOfWeek', { returnObjects: true }) as unknown as string[]
 
   return (
     <section className="py-20 bg-gradient-to-b from-rolls-black to-rolls-navy">
@@ -119,8 +118,8 @@ export default function AvailabilityCalendar() {
           transition={{ duration: 0.8 }}
           className="text-center mb-12"
         >
-          <h2 className="heading-2 text-white mb-4">Check Availability</h2>
-          <p className="text-xl text-rolls-gold">Real-time availability and instant booking</p>
+          <h2 className="heading-2 text-white mb-4">{t('checkAvailability.title')}</h2>
+          <p className="text-xl text-rolls-gold">{t('checkAvailability.subtitle')}</p>
         </motion.div>
 
         <div className="max-w-6xl mx-auto">
@@ -131,7 +130,7 @@ export default function AvailabilityCalendar() {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="mb-8"
           >
-            <h3 className="text-lg font-semibold text-white mb-4">Select Your Rolls-Royce</h3>
+            <h3 className="text-lg font-semibold text-white mb-4">{t('checkAvailability.selectYourRR')}</h3>
             <div className="grid grid-cols-2 md:grid-cols-5 gap-4">
               {cars.map((car) => (
                 <button
@@ -148,8 +147,8 @@ export default function AvailabilityCalendar() {
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-rolls-black/80 to-transparent flex items-end p-2">
                     <div className="text-left">
-                      <p className="text-xs text-white font-semibold">{car.name.split(' ')[2]}</p>
-                      <p className="text-xs text-rolls-gold">AED {car.price}/day</p>
+                      <p className="text-xs text-white font-semibold">{t(`checkAvailability.cars.${car.id}.name`)}</p>
+                      <p className="text-xs text-rolls-gold">{t('fleet.aed')} {car.price}{t('fleet.perDay')}</p>
                     </div>
                   </div>
                 </button>
@@ -224,7 +223,7 @@ export default function AvailabilityCalendar() {
                         </span>
                         {available && (
                           <span className={`text-xs ${selected ? 'text-rolls-black' : 'text-rolls-gold'}`}>
-                            {t('common.available')}
+                            {t('checkAvailability.calendar.available')}
                           </span>
                         )}
                       </>
@@ -239,7 +238,7 @@ export default function AvailabilityCalendar() {
               <div className="mt-6 p-4 bg-rolls-navy/50 rounded-lg">
                 <div className="flex items-center justify-between">
                   <div>
-                    <p className="text-sm text-gray-400">Selected Dates</p>
+                    <p className="text-sm text-gray-400">{t('checkAvailability.calendar.selectedDates')}</p>
                     <p className="text-white">
                       {selectedStartDate && selectedStartDate.toLocaleDateString()}
                       {selectedStartDate && selectedEndDate && ' → '}
@@ -247,7 +246,7 @@ export default function AvailabilityCalendar() {
                     </p>
                     {selectedStartDate && selectedEndDate && (
                       <p className="text-sm text-rolls-gold">
-                        {Math.ceil((selectedEndDate.getTime() - selectedStartDate.getTime()) / (1000 * 60 * 60 * 24)) + 1} days
+                        {t('checkAvailability.calendar.totalDays', { count: Math.ceil((selectedEndDate.getTime() - selectedStartDate.getTime()) / (1000 * 60 * 60 * 24)) + 1 })}
                       </p>
                     )}
                   </div>
@@ -256,7 +255,7 @@ export default function AvailabilityCalendar() {
                       onClick={calculateBookingDetails}
                       className="btn-primary"
                     >
-                      Proceed to Booking
+                      {t('checkAvailability.proceedToBooking')}
                     </button>
                   )}
                 </div>
@@ -273,19 +272,19 @@ export default function AvailabilityCalendar() {
           >
             <div className="flex items-center gap-2">
               <div className="w-4 h-4 bg-white rounded"></div>
-              <span className="text-gray-400">{t('common.available')}</span>
+              <span className="text-gray-400">{t('checkAvailability.calendar.available')}</span>
             </div>
             <div className="flex items-center gap-2">
               <div className="w-4 h-4 bg-white/30 rounded"></div>
-              <span className="text-gray-400">{t('common.unavailable')}</span>
+              <span className="text-gray-400">{t('checkAvailability.calendar.unavailable')}</span>
             </div>
             <div className="flex items-center gap-2">
               <div className="w-4 h-4 bg-rolls-gold rounded"></div>
-              <span className="text-gray-400">Selected</span>
+              <span className="text-gray-400">{t('checkAvailability.calendar.selected')}</span>
             </div>
             <div className="flex items-center gap-2">
               <div className="w-4 h-4 bg-rolls-gold/20 rounded"></div>
-              <span className="text-gray-400">Date Range</span>
+              <span className="text-gray-400">{t('checkAvailability.calendar.dateRange')}</span>
             </div>
           </motion.div>
         </div>
@@ -304,28 +303,28 @@ export default function AvailabilityCalendar() {
               className="bg-rolls-black border border-rolls-gold/30 rounded-lg p-8 max-w-lg w-full"
               onClick={(e) => e.stopPropagation()}
             >
-              <h3 className="text-2xl font-semibold text-white mb-6">Complete Your Booking</h3>
+              <h3 className="text-2xl font-semibold text-white mb-6">{t('bookingForm.title')}</h3>
               
               <div className="space-y-4 mb-6">
                 <div className="bg-rolls-navy/50 p-4 rounded-lg">
-                  <p className="text-sm text-gray-400">Vehicle</p>
+                  <p className="text-sm text-gray-400">{t('bookingForm.vehicle')}</p>
                   <p className="text-lg font-semibold text-white">{bookingDetails.car}</p>
                 </div>
                 
                 <div className="bg-rolls-navy/50 p-4 rounded-lg">
-                  <p className="text-sm text-gray-400">Rental Period</p>
+                  <p className="text-sm text-gray-400">{t('bookingForm.rentalPeriod')}</p>
                   <p className="text-lg font-semibold text-white">
                     {bookingDetails.startDate?.toLocaleDateString()} - {bookingDetails.endDate?.toLocaleDateString()}
                   </p>
-                  <p className="text-sm text-rolls-gold">{bookingDetails.totalDays} days</p>
+                  <p className="text-sm text-rolls-gold">{t('bookingForm.totalDays', { count: bookingDetails.totalDays })}</p>
                 </div>
                 
                 <div className="bg-rolls-navy/50 p-4 rounded-lg">
-                  <p className="text-sm text-gray-400">Total Price</p>
+                  <p className="text-sm text-gray-400">{t('bookingForm.totalPrice')}</p>
                   <p className="text-2xl font-bold text-rolls-gold">
-                    AED {bookingDetails.totalPrice.toLocaleString()}
+                    {t('fleet.aed')} {bookingDetails.totalPrice.toLocaleString()}
                   </p>
-                  <p className="text-xs text-gray-500">Includes VAT, insurance, and standard services</p>
+                  <p className="text-xs text-gray-500">{t('bookingForm.priceIncludes')}</p>
                 </div>
               </div>
 
@@ -337,13 +336,13 @@ export default function AvailabilityCalendar() {
                   className="btn-primary flex-1 text-center"
                   onClick={() => setShowBookingForm(false)}
                 >
-                  Book Now
+                  {t('bookingForm.bookNow')}
                 </motion.a>
                 <button
                   onClick={() => setShowBookingForm(false)}
                   className="btn-secondary flex-1"
                 >
-                  Cancel
+                  {t('bookingForm.cancel')}
                 </button>
               </div>
             </motion.div>

@@ -66,11 +66,11 @@
     "title": "معرض الفيديو",
     "subtitle": "استمتع بالفخامة من خلال مجموعة الفيديو الحصرية لدينا",
     "filters": {
-      "all": "كل الفيديوهات",
-      "exterior": "الخارج",
-      "interior": "الداخل",
-      "experience": "التجربة",
-      "virtualTour": "جولة افتراضية"
+      "all": "🎬 جميع مقاطع الفيديو",
+      "exterior": "🚗 الخارجي",
+      "interior": "🪑 الداخلي",
+      "experience": "🌟 التجربة",
+      "virtualTour": "🎥 جولة افتراضية"
     },
     "videos": [
       {"title": "جولة خارجية لسيارة رولز رويس فانتوم", "duration": "2:45"},
@@ -91,6 +91,24 @@
     },
     "experience": {
       "title": "تجربة رولز رويس المطلقة"
+    },
+    "phantom": {
+        "title": "جولة خارجية لسيارة رولز رويس فانتوم"
+    },
+    "cullinan": {
+        "title": "عرض خارجي لسيارة رولز رويس كولينان"
+    },
+    "interior": {
+        "title": "أناقة داخلية في رولز رويس"
+    },
+    "dubai": {
+        "title": "رولز رويس في منظر مدينة دبي"
+    },
+    "showroom": {
+        "title": "جولة في صالة عرض رولز رويس دبي"
+    },
+    "night": {
+        "title": "قيادة ليلية في رولز رويس"
     },
     "virtualShowroom": {
       "title": "جرب معرضنا الافتراضي بنطاق 360 درجة",
@@ -128,7 +146,8 @@
     },
     "rentNow": "احجز الآن",
     "from": "من",
-    "perDay": "لليوم"
+    "perDay": "لليوم",
+    "aed": "درهم"
   },
   "services": {
     "title": "خدماتنا المتميزة",
@@ -458,6 +477,28 @@
     "accept": "قبول الكل",
     "decline": "رفض"
   },
+  "checkAvailability": {
+    "title": "تحقق من التوفر",
+    "subtitle": "اختر التواريخ والسيارة",
+    "selectCar": "اختر السيارة",
+    "bookingSummary": "ملخص الحجز",
+    "car": "السيارة",
+    "period": "الفترة",
+    "days": "أيام",
+    "total": "المجموع",
+    "confirmBooking": "تأكيد الحجز",
+    "calendar": {
+      "months": ["يناير", "فبراير", "مارس", "أبريل", "مايو", "يونيو", "يوليو", "أغسطس", "سبتمبر", "أكتوبر", "نوفمبر", "ديسمبر"],
+      "daysOfWeek": ["الأحد", "الإثنين", "الثلاثاء", "الأربعاء", "الخميس", "الجمعة", "السبت"]
+    },
+    "cars": {
+      "phantom": { "name": "رولز رويس فانتوم" },
+      "cullinan": { "name": "رولز رويس كولينان" },
+      "ghost": { "name": "رولز رويس جوست" },
+      "dawn": { "name": "رولز رويس داون" },
+      "wraith": { "name": "رولز رويس رايث" }
+    }
+  },
   "placeholders": {
     "enterCode": "أدخل الرمز",
     "companyName": "اسم الشركة",
@@ -772,6 +813,197 @@
       }
     }
   },
+  "compareFleet": {
+    "title": "قارن أسطولنا",
+    "subtitle": "اختر ما يصل إلى 3 سيارات للمقارنة",
+    "compareButton": "قارن {{count}} سيارات",
+    "modalTitle": "مقارنة السيارات",
+    "feature": "الميزة",
+    "specifications": "المواصفات",
+    "ratings": "التقييمات",
+    "keyFeatures": "الميزات الرئيسية",
+    "bookYourSelection": "احجز اختيارك",
+    "startNewComparison": "ابدأ مقارنة جديدة",
+    "specs": {
+      "seats": "المقاعد",
+      "doors": "الأبواب",
+      "engine": "المحرك",
+      "horsepower": "قوة حصانية",
+      "topSpeed": "السرعة القصوى",
+      "acceleration": "0-100 كم/س",
+      "transmission": "ناقل الحركة",
+      "fuelType": "نوع الوقود"
+    },
+    "ratingsItems": {
+      "luxury": "الفخامة",
+      "performance": "الأداء",
+      "comfort": "الراحة",
+      "technology": "التكنولوجيا",
+      "value": "القيمة"
+    },
+    "featureCategories": {
+      "luxury": "الفخامة",
+      "technology": "التكنولوجيا",
+      "comfort": "الراحة"
+    },
+    "cars": {
+      "phantom": {
+        "id": "phantom",
+        "name": "رولز رويس فانتوم",
+        "image": "/images/Rolls-royce-phantom.jpg",
+        "price": 5800,
+        "specs": {
+          "seats": 5,
+          "doors": 4,
+          "engine": "6.75L V12",
+          "horsepower": 563,
+          "topSpeed": "250 كم/س",
+          "acceleration": "5.3 ثانية",
+          "transmission": "8 سرعات أوتوماتيكية",
+          "fuelType": "بنزين"
+        },
+        "features": [
+          {
+            "category": "Luxury",
+            "items": ["سقف النجوم", "سجاد من جلد الغنم", "نظام صوتي مخصص", "جلد مخيط يدويًا"]
+          },
+          {
+            "category": "Technology",
+            "items": ["رؤية ليلية", "مثبت سرعة متكيف", "كاميرا 360 درجة", "نقطة اتصال Wi-Fi"]
+          },
+          {
+            "category": "Comfort",
+            "items": ["مقاعد مساج", "تحكم في المناخ رباعي المناطق", "تعليق هوائي", "إطارات مانعة للضوضاء"]
+          }
+        ],
+        "ratings": { "luxury": 100, "performance": 85, "comfort": 100, "technology": 90, "value": 80 }
+      },
+      "cullinan": {
+        "id": "cullinan",
+        "name": "رولز رويس كولينان",
+        "image": "/images/Rolls-Royce-Cullinan_.jpg",
+        "price": 6500,
+        "specs": {
+          "seats": 5,
+          "doors": 5,
+          "engine": "6.75L V12",
+          "horsepower": 563,
+          "topSpeed": "250 كم/س",
+          "acceleration": "5.0 ثانية",
+          "transmission": "8 سرعات أوتوماتيكية",
+          "fuelType": "بنزين"
+        },
+        "features": [
+          {
+            "category": "Luxury",
+            "items": ["جناح المشاهدة", "وحدة الترفيه", "قسم زجاجي", "سقف بانورامي"]
+          },
+          {
+            "category": "Technology",
+            "items": ["دفع رباعي", "مساعد الطرق الوعرة", "شاشة عرض على الزجاج الأمامي", "تحكم بالإيماءات"]
+          },
+          {
+            "category": "Comfort",
+            "items": ["مقاعد خلفية فردية", "نظام ترفيه للمقاعد الخلفية", "حاملات أكواب مُدفأة/مُبردة", "طاولات نزهة"]
+          }
+        ],
+        "ratings": { "luxury": 95, "performance": 90, "comfort": 95, "technology": 95, "value": 85 }
+      },
+      "ghost": {
+        "id": "ghost",
+        "name": "رولز رويس جوست",
+        "image": "/images/Rolls-Royce-black.jpg",
+        "price": 4800,
+        "specs": {
+          "seats": 5,
+          "doors": 4,
+          "engine": "6.75L V12",
+          "horsepower": 563,
+          "topSpeed": "250 كم/س",
+          "acceleration": "4.8 ثانية",
+          "transmission": "8 سرعات أوتوماتيكية",
+          "fuelType": "بنزين"
+        },
+        "features": [
+          {
+            "category": "Luxury",
+            "items": ["واجهة مضيئة", "سقف النجوم المتساقطة", "ساعة مخصصة", "إبريق كريستال"]
+          },
+          {
+            "category": "Technology",
+            "items": ["تعليق مستو", "ناقل حركة بمساعدة الأقمار الصناعية", "مساعد ركن", "لوحة عدادات رقمية"]
+          },
+          {
+            "category": "Comfort",
+            "items": ["تنقية البيئة الدقيقة", "مبرد شمبانيا", "مقاعد صالة تنفيذية", "عزل صوتي"]
+          }
+        ],
+        "ratings": { "luxury": 90, "performance": 95, "comfort": 92, "technology": 93, "value": 90 }
+      },
+      "dawn": {
+        "id": "dawn",
+        "name": "رولز رويس داون",
+        "image": "/images/Rolls-Royce-white.jpg",
+        "price": 5500,
+        "specs": {
+          "seats": 4,
+          "doors": 2,
+          "engine": "6.6L V12",
+          "horsepower": 563,
+          "topSpeed": "250 كم/س",
+          "acceleration": "4.9 ثانية",
+          "transmission": "8 سرعات أوتوماتيكية",
+          "fuelType": "بنزين"
+        },
+        "features": [
+          {
+            "category": "Luxury",
+            "items": ["ألواح كاناديل", "أبواب مدربة", "سقف قابل للتحويل", "عاكس الرياح"]
+          },
+          {
+            "category": "Technology",
+            "items": ["تثبيت لفة نشط", "سلامة ديناميكية", "خدمات متصلة", "نظام صوتي ممتاز"]
+          },
+          {
+            "category": "Comfort",
+            "items": ["مدفئ رقبة", "مساند ذراع مُدفأة", "مقاعد مريحة للمناخ", "آلية سقف صامتة"]
+          }
+        ],
+        "ratings": { "luxury": 88, "performance": 88, "comfort": 85, "technology": 85, "value": 82 }
+      },
+      "wraith": {
+        "id": "wraith",
+        "name": "رولز رويس رايث",
+        "image": "/images/Rolls-Royce-front.jpg",
+        "price": 5000,
+        "specs": {
+          "seats": 4,
+          "doors": 2,
+          "engine": "6.6L V12",
+          "horsepower": 624,
+          "topSpeed": "250 كم/س",
+          "acceleration": "4.6 ثانية",
+          "transmission": "8 سرعات أوتوماتيكية",
+          "fuelType": "بنزين"
+        },
+        "features": [
+          {
+            "category": "Luxury",
+            "items": ["تصميم فاست باك", "سقف النجوم", "نظام صوتي مخصص", "قشرة خشبية فاخرة"]
+          },
+          {
+            "category": "Technology",
+            "items": ["ناقل حركة بمساعدة الأقمار الصناعية", "وحدة تحكم دوارة بروح النشوة", "أوامر صوتية", "مكابح عالية الأداء"]
+          },
+          {
+            "category": "Comfort",
+            "items": ["تحكم في المناخ رباعي المناطق", "سجاد فخم", "مقصورة واسعة", "تجربة قيادة سهلة"]
+          }
+        ],
+        "ratings": { "luxury": 85, "performance": 98, "comfort": 88, "technology": 88, "value": 85 }
+      }
+    }
+  },
   "servicesPages": {
     "corporate": {
       "hero": {
@@ -1001,6 +1233,197 @@
     },
     "difc": {
       "nav": "مركز دبي المالي العالمي"
+    }
+  },
+  "compareFleet": {
+    "title": "قارن أسطولنا",
+    "subtitle": "اختر ما يصل إلى 3 سيارات للمقارنة",
+    "compareButton": "قارن {{count}} سيارات",
+    "modalTitle": "مقارنة السيارات",
+    "feature": "الميزة",
+    "specifications": "المواصفات",
+    "ratings": "التقييمات",
+    "keyFeatures": "الميزات الرئيسية",
+    "bookYourSelection": "احجز اختيارك",
+    "startNewComparison": "ابدأ مقارنة جديدة",
+    "specs": {
+      "seats": "المقاعد",
+      "doors": "الأبواب",
+      "engine": "المحرك",
+      "horsepower": "قوة حصانية",
+      "topSpeed": "السرعة القصوى",
+      "acceleration": "0-100 كم/س",
+      "transmission": "ناقل الحركة",
+      "fuelType": "نوع الوقود"
+    },
+    "ratingsItems": {
+      "luxury": "الفخامة",
+      "performance": "الأداء",
+      "comfort": "الراحة",
+      "technology": "التكنولوجيا",
+      "value": "القيمة"
+    },
+    "featureCategories": {
+      "luxury": "الفخامة",
+      "technology": "التكنولوجيا",
+      "comfort": "الراحة"
+    },
+    "cars": {
+      "phantom": {
+        "id": "phantom",
+        "name": "رولز رويس فانتوم",
+        "image": "/images/Rolls-royce-phantom.jpg",
+        "price": 5800,
+        "specs": {
+          "seats": 5,
+          "doors": 4,
+          "engine": "6.75L V12",
+          "horsepower": 563,
+          "topSpeed": "250 كم/س",
+          "acceleration": "5.3 ثانية",
+          "transmission": "8 سرعات أوتوماتيكية",
+          "fuelType": "بنزين"
+        },
+        "features": [
+          {
+            "category": "Luxury",
+            "items": ["سقف النجوم", "سجاد من جلد الغنم", "نظام صوتي مخصص", "جلد مخيط يدويًا"]
+          },
+          {
+            "category": "Technology",
+            "items": ["رؤية ليلية", "مثبت سرعة متكيف", "كاميرا 360 درجة", "نقطة اتصال Wi-Fi"]
+          },
+          {
+            "category": "Comfort",
+            "items": ["مقاعد مساج", "تحكم في المناخ رباعي المناطق", "تعليق هوائي", "إطارات مانعة للضوضاء"]
+          }
+        ],
+        "ratings": { "luxury": 100, "performance": 85, "comfort": 100, "technology": 90, "value": 80 }
+      },
+      "cullinan": {
+        "id": "cullinan",
+        "name": "رولز رويس كولينان",
+        "image": "/images/Rolls-Royce-Cullinan_.jpg",
+        "price": 6500,
+        "specs": {
+          "seats": 5,
+          "doors": 5,
+          "engine": "6.75L V12",
+          "horsepower": 563,
+          "topSpeed": "250 كم/س",
+          "acceleration": "5.0 ثانية",
+          "transmission": "8 سرعات أوتوماتيكية",
+          "fuelType": "بنزين"
+        },
+        "features": [
+          {
+            "category": "Luxury",
+            "items": ["جناح المشاهدة", "وحدة الترفيه", "قسم زجاجي", "سقف بانورامي"]
+          },
+          {
+            "category": "Technology",
+            "items": ["دفع رباعي", "مساعد الطرق الوعرة", "شاشة عرض على الزجاج الأمامي", "تحكم بالإيماءات"]
+          },
+          {
+            "category": "Comfort",
+            "items": ["مقاعد خلفية فردية", "نظام ترفيه للمقاعد الخلفية", "حاملات أكواب مُدفأة/مُبردة", "طاولات نزهة"]
+          }
+        ],
+        "ratings": { "luxury": 95, "performance": 90, "comfort": 95, "technology": 95, "value": 85 }
+      },
+      "ghost": {
+        "id": "ghost",
+        "name": "رولز رويس جوست",
+        "image": "/images/Rolls-Royce-black.jpg",
+        "price": 4800,
+        "specs": {
+          "seats": 5,
+          "doors": 4,
+          "engine": "6.75L V12",
+          "horsepower": 563,
+          "topSpeed": "250 كم/س",
+          "acceleration": "4.8 ثانية",
+          "transmission": "8 سرعات أوتوماتيكية",
+          "fuelType": "بنزين"
+        },
+        "features": [
+          {
+            "category": "Luxury",
+            "items": ["واجهة مضيئة", "سقف النجوم المتساقطة", "ساعة مخصصة", "إبريق كريستال"]
+          },
+          {
+            "category": "Technology",
+            "items": ["تعليق مستو", "ناقل حركة بمساعدة الأقمار الصناعية", "مساعد ركن", "لوحة عدادات رقمية"]
+          },
+          {
+            "category": "Comfort",
+            "items": ["تنقية البيئة الدقيقة", "مبرد شمبانيا", "مقاعد صالة تنفيذية", "عزل صوتي"]
+          }
+        ],
+        "ratings": { "luxury": 90, "performance": 95, "comfort": 92, "technology": 93, "value": 90 }
+      },
+      "dawn": {
+        "id": "dawn",
+        "name": "رولز رويس داون",
+        "image": "/images/Rolls-Royce-white.jpg",
+        "price": 5500,
+        "specs": {
+          "seats": 4,
+          "doors": 2,
+          "engine": "6.6L V12",
+          "horsepower": 563,
+          "topSpeed": "250 كم/س",
+          "acceleration": "4.9 ثانية",
+          "transmission": "8 سرعات أوتوماتيكية",
+          "fuelType": "بنزين"
+        },
+        "features": [
+          {
+            "category": "Luxury",
+            "items": ["ألواح كاناديل", "أبواب مدربة", "سقف قابل للتحويل", "عاكس الرياح"]
+          },
+          {
+            "category": "Technology",
+            "items": ["تثبيت لفة نشط", "سلامة ديناميكية", "خدمات متصلة", "نظام صوتي ممتاز"]
+          },
+          {
+            "category": "Comfort",
+            "items": ["مدفئ رقبة", "مساند ذراع مُدفأة", "مقاعد مريحة للمناخ", "آلية سقف صامتة"]
+          }
+        ],
+        "ratings": { "luxury": 88, "performance": 88, "comfort": 85, "technology": 85, "value": 82 }
+      },
+      "wraith": {
+        "id": "wraith",
+        "name": "رولز رويس رايث",
+        "image": "/images/Rolls-Royce-front.jpg",
+        "price": 5000,
+        "specs": {
+          "seats": 4,
+          "doors": 2,
+          "engine": "6.6L V12",
+          "horsepower": 624,
+          "topSpeed": "250 كم/س",
+          "acceleration": "4.6 ثانية",
+          "transmission": "8 سرعات أوتوماتيكية",
+          "fuelType": "بنزين"
+        },
+        "features": [
+          {
+            "category": "Luxury",
+            "items": ["تصميم فاست باك", "سقف النجوم", "نظام صوتي مخصص", "قشرة خشبية فاخرة"]
+          },
+          {
+            "category": "Technology",
+            "items": ["ناقل حركة بمساعدة الأقمار الصناعية", "وحدة تحكم دوارة بروح النشوة", "أوامر صوتية", "مكابح عالية الأداء"]
+          },
+          {
+            "category": "Comfort",
+            "items": ["تحكم في المناخ رباعي المناطق", "سجاد فخم", "مقصورة واسعة", "تجربة قيادة سهلة"]
+          }
+        ],
+        "ratings": { "luxury": 85, "performance": 98, "comfort": 88, "technology": 88, "value": 85 }
+      }
     }
   },
   "loyalty": {

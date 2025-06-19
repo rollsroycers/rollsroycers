@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { useInView } from 'react-intersection-observer'
+import { useTranslation } from 'next-i18next'
 
 interface CarSpec {
   id: string
@@ -31,197 +32,12 @@ interface CarSpec {
 }
 
 export default function ComparisonTool() {
+  const { t } = useTranslation('common')
   const [ref, inView] = useInView({ triggerOnce: true, threshold: 0.1 })
   const [selectedCars, setSelectedCars] = useState<string[]>(['phantom', 'cullinan'])
   const [showComparison, setShowComparison] = useState(false)
 
-  const carSpecs: Record<string, CarSpec> = {
-    phantom: {
-      id: 'phantom',
-      name: 'Rolls-Royce Phantom',
-      image: '/images/Rolls-royce-phantom.jpg',
-      price: 5800,
-      specs: {
-        seats: 5,
-        doors: 4,
-        engine: '6.75L V12',
-        horsepower: 563,
-        topSpeed: '250 km/h',
-        acceleration: '5.3s (0-100)',
-        transmission: '8-Speed Automatic',
-        fuelType: 'Petrol'
-      },
-      features: [
-        {
-          category: 'Luxury',
-          items: ['Starlight Headliner', 'Lambswool Floor Mats', 'Bespoke Audio System', 'Hand-stitched Leather']
-        },
-        {
-          category: 'Technology',
-          items: ['Night Vision', 'Adaptive Cruise Control', '360° Camera', 'WiFi Hotspot']
-        },
-        {
-          category: 'Comfort',
-          items: ['Massage Seats', 'Climate Control 4-Zone', 'Air Suspension', 'Silent Drive']
-        }
-      ],
-      ratings: {
-        luxury: 100,
-        performance: 85,
-        comfort: 100,
-        technology: 90,
-        value: 80
-      }
-    },
-    cullinan: {
-      id: 'cullinan',
-      name: 'Rolls-Royce Cullinan',
-      image: '/images/Rolls-Royce-Cullinan_.jpg',
-      price: 6500,
-      specs: {
-        seats: 5,
-        doors: 5,
-        engine: '6.75L V12',
-        horsepower: 563,
-        topSpeed: '250 km/h',
-        acceleration: '5.0s (0-100)',
-        transmission: '8-Speed Automatic',
-        fuelType: 'Petrol'
-      },
-      features: [
-        {
-          category: 'Luxury',
-          items: ['Viewing Suite', 'Recreation Module', 'Partition Glass', 'Panoramic Roof']
-        },
-        {
-          category: 'Technology',
-          items: ['All-Wheel Drive', 'Off-Road Assistant', 'Head-Up Display', 'Gesture Control']
-        },
-        {
-          category: 'Comfort',
-          items: ['Individual Rear Seats', 'Rear Entertainment', 'Cooled/Heated Cupholders', 'Picnic Tables']
-        }
-      ],
-      ratings: {
-        luxury: 95,
-        performance: 90,
-        comfort: 95,
-        technology: 95,
-        value: 85
-      }
-    },
-    ghost: {
-      id: 'ghost',
-      name: 'Rolls-Royce Ghost',
-      image: '/images/Rolls-Royce-black.jpg',
-      price: 4800,
-      specs: {
-        seats: 5,
-        doors: 4,
-        engine: '6.75L V12',
-        horsepower: 563,
-        topSpeed: '250 km/h',
-        acceleration: '4.8s (0-100)',
-        transmission: '8-Speed Automatic',
-        fuelType: 'Petrol'
-      },
-      features: [
-        {
-          category: 'Luxury',
-          items: ['Illuminated Fascia', 'Shooting Star Headliner', 'Bespoke Clock', 'Crystal Decanter']
-        },
-        {
-          category: 'Technology',
-          items: ['Planar Suspension', 'Satellite Aided Transmission', 'Park Assist', 'Digital Dashboard']
-        },
-        {
-          category: 'Comfort',
-          items: ['Micro-Environment Purification', 'Champagne Cooler', 'Executive Lounge Seats', 'Acoustic Insulation']
-        }
-      ],
-      ratings: {
-        luxury: 90,
-        performance: 95,
-        comfort: 92,
-        technology: 93,
-        value: 90
-      }
-    },
-    dawn: {
-      id: 'dawn',
-      name: 'Rolls-Royce Dawn',
-      image: '/images/Rolls-Royce-white.jpg',
-      price: 5500,
-      specs: {
-        seats: 4,
-        doors: 2,
-        engine: '6.6L V12',
-        horsepower: 563,
-        topSpeed: '250 km/h',
-        acceleration: '4.9s (0-100)',
-        transmission: '8-Speed Automatic',
-        fuelType: 'Petrol'
-      },
-      features: [
-        {
-          category: 'Luxury',
-          items: ['Canadel Wood Paneling', 'Soft-Close Doors', 'Convertible Roof', 'Wind Deflector']
-        },
-        {
-          category: 'Technology',
-          items: ['Active Roll Stabilization', 'Dynamic Safety', 'Connected Services', 'Premium Sound']
-        },
-        {
-          category: 'Comfort',
-          items: ['Neck Warmers', 'Heated Armrests', 'Climate Comfort Seats', 'Silent Roof Mechanism']
-        }
-      ],
-      ratings: {
-        luxury: 88,
-        performance: 88,
-        comfort: 85,
-        technology: 85,
-        value: 82
-      }
-    },
-    wraith: {
-      id: 'wraith',
-      name: 'Rolls-Royce Wraith',
-      image: '/images/Rolls-Royce-front.jpg',
-      price: 5000,
-      specs: {
-        seats: 4,
-        doors: 2,
-        engine: '6.6L V12',
-        horsepower: 624,
-        topSpeed: '250 km/h',
-        acceleration: '4.4s (0-100)',
-        transmission: '8-Speed Automatic',
-        fuelType: 'Petrol'
-      },
-      features: [
-        {
-          category: 'Luxury',
-          items: ['Starlight Headliner', 'Hand-Built Interior', 'Bespoke Options', 'Coach Doors']
-        },
-        {
-          category: 'Technology',
-          items: ['GPS Aided Transmission', 'Dynamic Traction Control', 'Sport Mode', 'Launch Control']
-        },
-        {
-          category: 'Comfort',
-          items: ['Power Everything', 'Dual-Zone Climate', 'Premium Leather', 'Sound Insulation']
-        }
-      ],
-      ratings: {
-        luxury: 87,
-        performance: 92,
-        comfort: 86,
-        technology: 88,
-        value: 85
-      }
-    }
-  }
+  const carSpecs: Record<string, CarSpec> = t('compareFleet.cars', { returnObjects: true }) as Record<string, CarSpec>
 
   const handleCarSelect = (carId: string) => {
     if (selectedCars.includes(carId)) {
@@ -245,8 +61,8 @@ export default function ComparisonTool() {
           transition={{ duration: 0.8 }}
           className="text-center mb-12"
         >
-          <h2 className="heading-2 text-white mb-4">Compare Our Fleet</h2>
-          <p className="text-xl text-rolls-gold">Select up to 3 vehicles to compare side by side</p>
+          <h2 className="heading-2 text-white mb-4">{t('compareFleet.title')}</h2>
+          <p className="text-xl text-rolls-gold">{t('compareFleet.subtitle')}</p>
         </motion.div>
 
         {/* Car Selection */}
@@ -277,8 +93,8 @@ export default function ComparisonTool() {
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-rolls-black/80 to-transparent flex items-end p-3">
                   <div className="text-left w-full">
-                    <p className="text-sm text-white font-semibold">{car.name.split(' ').pop()}</p>
-                    <p className="text-xs text-rolls-gold">AED {car.price}/day</p>
+                    <p className="text-sm text-white font-semibold">{car.name ? car.name.split(' ').pop() : ''}</p>
+                    <p className="text-xs text-rolls-gold">{t('fleet.aed')} {car.price}{t('fleet.perDay')}</p>
                   </div>
                 </div>
                 {selectedCars.includes(car.id) && (
@@ -298,7 +114,7 @@ export default function ComparisonTool() {
                 onClick={() => setShowComparison(true)}
                 className="btn-primary"
               >
-                Compare {selectedCars.length} Vehicles
+                {t('compareFleet.compareButton', { count: selectedCars.length })}
               </button>
             </div>
           )}
@@ -322,7 +138,7 @@ export default function ComparisonTool() {
                 onClick={(e) => e.stopPropagation()}
               >
                 <div className="sticky top-0 bg-rolls-black border-b border-rolls-gold/30 p-6 flex justify-between items-center">
-                  <h3 className="text-2xl font-semibold text-white">Vehicle Comparison</h3>
+                  <h3 className="text-2xl font-semibold text-white">{t('compareFleet.modalTitle')}</h3>
                   <button
                     onClick={() => setShowComparison(false)}
                     className="text-gray-400 hover:text-white transition-colors"
@@ -338,12 +154,12 @@ export default function ComparisonTool() {
                     <table className="w-full">
                       <thead>
                         <tr>
-                          <th className="text-left text-rolls-gold py-4 pr-4 sticky left-0 bg-rolls-black">Feature</th>
+                          <th className="text-left text-rolls-gold py-4 pr-4 sticky left-0 bg-rolls-black">{t('compareFleet.feature')}</th>
                           {getComparisonData().map((car) => (
                             <th key={car.id} className="text-center px-4 py-4">
                               <img src={car.image} alt={car.name} className="w-32 h-20 object-cover rounded-lg mx-auto mb-2" />
                               <div className="text-white font-semibold">{car.name}</div>
-                              <div className="text-rolls-gold">AED {car.price}/day</div>
+                              <div className="text-rolls-gold">{t('fleet.aed')} {car.price}{t('fleet.perDay')}</div>
                             </th>
                           ))}
                         </tr>
@@ -352,13 +168,13 @@ export default function ComparisonTool() {
                         {/* Specifications */}
                         <tr>
                           <td colSpan={selectedCars.length + 1} className="pt-6 pb-2">
-                            <h4 className="text-lg font-semibold text-rolls-gold">Specifications</h4>
+                            <h4 className="text-lg font-semibold text-rolls-gold">{t('compareFleet.specifications')}</h4>
                           </td>
                         </tr>
                         {['seats', 'doors', 'engine', 'horsepower', 'topSpeed', 'acceleration', 'transmission', 'fuelType'].map((spec) => (
                           <tr key={spec} className="border-b border-rolls-gold/10">
                             <td className="py-3 pr-4 text-gray-400 capitalize sticky left-0 bg-rolls-black">
-                              {spec.replace(/([A-Z])/g, ' $1').trim()}
+                              {t(`compareFleet.specs.${spec}`)}
                             </td>
                             {getComparisonData().map((car) => (
                               <td key={car.id} className="py-3 px-4 text-center text-white">
@@ -371,12 +187,12 @@ export default function ComparisonTool() {
                         {/* Ratings */}
                         <tr>
                           <td colSpan={selectedCars.length + 1} className="pt-6 pb-2">
-                            <h4 className="text-lg font-semibold text-rolls-gold">Ratings</h4>
+                            <h4 className="text-lg font-semibold text-rolls-gold">{t('compareFleet.ratings')}</h4>
                           </td>
                         </tr>
                         {Object.keys(carSpecs.phantom.ratings).map((rating) => (
                           <tr key={rating} className="border-b border-rolls-gold/10">
-                            <td className="py-3 pr-4 text-gray-400 capitalize sticky left-0 bg-rolls-black">{rating}</td>
+                            <td className="py-3 pr-4 text-gray-400 capitalize sticky left-0 bg-rolls-black">{t(`compareFleet.ratingsItems.${rating}`)}</td>
                             {getComparisonData().map((car) => (
                               <td key={car.id} className="py-3 px-4">
                                 <div className="flex items-center justify-center gap-2">
@@ -396,12 +212,12 @@ export default function ComparisonTool() {
                         {/* Features */}
                         <tr>
                           <td colSpan={selectedCars.length + 1} className="pt-6 pb-2">
-                            <h4 className="text-lg font-semibold text-rolls-gold">Key Features</h4>
+                            <h4 className="text-lg font-semibold text-rolls-gold">{t('compareFleet.keyFeatures')}</h4>
                           </td>
                         </tr>
                         {['Luxury', 'Technology', 'Comfort'].map((category) => (
                           <tr key={category} className="border-b border-rolls-gold/10">
-                            <td className="py-3 pr-4 text-gray-400 align-top sticky left-0 bg-rolls-black">{category}</td>
+                            <td className="py-3 pr-4 text-gray-400 align-top sticky left-0 bg-rolls-black">{t(`compareFleet.featureCategories.${category.toLowerCase()}`)}</td>
                             {getComparisonData().map((car) => {
                               const features = car.features.find(f => f.category === category)
                               return (
@@ -429,7 +245,7 @@ export default function ComparisonTool() {
                       className="btn-primary flex-1 text-center"
                       onClick={() => setShowComparison(false)}
                     >
-                      Book Your Selection
+                      {t('compareFleet.bookYourSelection')}
                     </a>
                     <button
                       onClick={() => {
@@ -438,7 +254,7 @@ export default function ComparisonTool() {
                       }}
                       className="btn-secondary flex-1"
                     >
-                      Start New Comparison
+                      {t('compareFleet.startNewComparison')}
                     </button>
                   </div>
                 </div>
