@@ -51,30 +51,7 @@
   "hero": {
     "title": "体验极致奢华",
     "subtitle": "劳斯莱斯迪拜 - 优雅与卓越的完美结合",
-    "cta": {
-      "book": "预订您的座驾",
-      "explore": "浏览车队"
-    }
-  },
-  "about": {
-    "title": "关于劳斯莱斯迪拜",
-    "subtitle": "树立豪华汽车租赁的标杆",
-    "description": "凭借多年提供卓越豪华汽车租赁服务的经验，我们为能为尊贵的客户提供无与伦比的体验而自豪。我们精心维护的劳斯莱斯车队代表了汽车豪华的巅峰。",
-    "whyChoose": "为何选择我们",
-    "reasons": {
-      "fleet": "最新车型，无可挑剔的保养",
-      "service": "24/7礼宾和支持服务",
-      "drivers": "专业、持证、多语种的司机",
-      "price": "透明定价，无隐藏费用",
-      "flexible": "灵活的租赁条款和套餐",
-      "delivery": "迪拜境内免费送货"
-    },
-    "stats": {
-      "satisfaction": "客户满意度",
-      "availability": "24/7可用性",
-      "experience": "多年经验",
-      "rating": "5★评级"
-    }
+    "cta": "浏览车队"
   },
   "about": {
     "title": "关于劳斯莱斯迪拜",
@@ -100,8 +77,35 @@
     "title": "我们的豪华车队",
     "subtitle": "从独家劳斯莱斯系列中选择",
     "phantom": {
-      "name": "幻影",
-      "description": "奢华与精致的巅峰 - 旗舰轿车"
+      "name": "劳斯莱斯幻影",
+      "description": "汽车奢华的巅峰之作，卓越汽车工艺和定制化服务的标志。",
+      "featuresTitle": "幻影独家特色",
+      "specsTitle": "技术规格",
+      "galleryTitle": "幻影画廊",
+      "features": [
+        { "icon": "👑", "title": "魔毯般平稳的行驶体验", "desc": "体验宁静平顺的旅程，最先进的自调平空气悬挂系统可吸收任何路面颠簸。" },
+        { "icon": "🌟", "title": "星光顶篷", "desc": "凝视定制的光纤车顶，欣赏梦幻般的星空，营造出繁星满天的夜空幻境。" },
+        { "icon": "🎭", "title": "后排影院系统", "desc": "双12英寸高清屏幕、定制音响系统和带饮料柜的中央控制台，为您的客人提供娱乐。" },
+        { "icon": "🔇", "title": "静谧座舱", "desc": "幻影车舱内超过130公斤的隔音材料，为您带来无与伦比的宁静，享受耳语般安静的驾乘体验。" }
+      ],
+      "specs": {
+        "engine": "6.75升双涡轮增压V12发动机",
+        "power": "563马力 @ 5000转/分",
+        "torque": "900牛·米 @ 1700转/分",
+        "acceleration": "0-100公里/小时 5.3秒",
+        "topSpeed": "250公里/小时（电子限速）",
+        "seats": "4-5",
+        "transmission": "8速自动变速箱",
+        "drivetrain": "后轮驱动"
+      },
+      "gallery": {
+        "exteriorAlt": "劳斯莱斯幻影在迪拜的雄伟外观",
+        "interiorAlt": "劳斯莱斯幻影的豪华内饰，配有星光顶篷"
+      },
+      "cta": {
+        "title": "立即体验劳斯莱斯幻影",
+        "subtitle": "迪拜最负盛名的豪华轿车正等着您。立即预订，即时送达您的位置。"
+      }
     },
     "ghost": {
       "name": "古思特",
@@ -119,7 +123,8 @@
       "name": "魅影",
       "description": "运动轿跑 - 力量与优雅"
     },
-    "aed": "迪拉姆"
+    "aed": "迪拉姆",
+    "perDay": "每天"
   },
   "services": {
     "title": "我们的尊贵服务",
@@ -244,21 +249,40 @@
     "confirmBooking": "确认预订",
     "calendar": {
       "months": ["一月", "二月", "三月", "四月", "五月", "六月", "七月", "八月", "九月", "十月", "十一月", "十二月"],
-      "daysOfWeek": ["日", "一", "二", "三", "四", "五", "六"]
+      "daysOfWeek": ["日", "一", "二", "三", "四", "五", "六"],
+      "available": "可用",
+      "unavailable": "不可用",
+      "selected": "已选择",
+      "dateRange": "日期范围"
+    },
+    "selectYourRR": "选择您的劳斯莱斯",
+    "cars": {
+      "phantom": {
+        "name": "劳斯莱斯幻影"
+      },
+      "cullinan": {
+        "name": "劳斯莱斯库里南"
+      },
+      "ghost": {
+        "name": "劳斯莱斯古思特"
+      },
+      "dawn": {
+        "name": "劳斯莱斯曜影"
+      },
+      "wraith": {
+        "name": "劳斯莱斯魅影"
+      }
     }
   },
   "videoGallery": {
-    "lifestyle": {
-      "title": "奢华百万富翁生活方式"
-    },
-    "mansory": {
-      "title": "Mansory Black Badge 劳斯莱斯库里南"
-    },
-    "defining": {
-      "title": "劳斯莱斯定义豪华汽车的含义"
-    },
-    "experience": {
-      "title": "终极劳斯莱斯体验"
+    "title": "视频库",
+    "subtitle": "通过我们的独家视频集锦体验奢华",
+    "filters": {
+      "all": "🎬 所有视频",
+      "exterior": "🚗 外观",
+      "interior": "🪑 内饰",
+      "experience": "🌟 体验",
+      "virtualTour": "🎥 虚拟导览"
     },
     "phantom": {
       "title": "劳斯莱斯幻影外观赏析"
@@ -278,18 +302,23 @@
     "night": {
       "title": "劳斯莱斯夜间驾乘"
     },
-    "Rolls-Royce Interior": {
-        "title": "劳斯莱斯内饰"
+    "lifestyle": {
+      "title": "奢华百万富翁生活方式"
     },
-    "Rolls-Royce Official": {
-        "title": "劳斯莱斯官方"
+    "mansory": {
+      "title": "Mansory Black Badge 劳斯莱斯库里南"
     },
-    "Rolls-Royce Airport": {
-        "title": "劳斯莱斯机场"
+    "defining": {
+      "title": "劳斯莱斯定义豪华汽车的含义"
     },
-    "Rolls-Royce Experience": {
-        "title": "劳斯莱斯体验"
+    "experience": {
+      "title": "终极劳斯莱斯体验"
     }
+  },
+  "virtualShowroom": {
+    "title": "体验我们的360°虚拟展厅",
+    "description": "对我们的豪华展厅进行沉浸式虚拟导览，在家中舒适地探索我们劳斯莱斯系列的每一个细节。",
+    "cta": "开始虚拟导览"
   },
   "locations": {
     "downtownDubai": {
@@ -309,196 +338,196 @@
     },
     "difc": {
       "nav": "DIFC"
+    }
+  },
+  "compareFleet": {
+    "title": "比较我们的车队",
+    "subtitle": "选择最多3辆车进行比较",
+    "compareButton": "比较{{count}}辆车",
+    "modalTitle": "汽车比较",
+    "feature": "特征",
+    "specifications": "规格",
+    "ratings": "评分",
+    "keyFeatures": "主要特点",
+    "bookYourSelection": "预订您的选择",
+    "startNewComparison": "开始新的比较",
+    "specs": {
+      "seats": "座位",
+      "doors": "门",
+      "engine": "引擎",
+      "horsepower": "马力",
+      "topSpeed": "最高速度",
+      "acceleration": "0-100公里/小时",
+      "transmission": "变速器",
+      "fuelType": "燃料类型"
     },
-    "compareFleet": {
-      "title": "比较我们的车队",
-      "subtitle": "选择最多3辆车进行比较",
-      "compareButton": "比较{{count}}辆车",
-      "modalTitle": "汽车比较",
-      "feature": "特征",
-      "specifications": "规格",
-      "ratings": "评分",
-      "keyFeatures": "主要特点",
-      "bookYourSelection": "预订您的选择",
-      "startNewComparison": "开始新的比较",
-      "specs": {
-        "seats": "座位",
-        "doors": "门",
-        "engine": "引擎",
-        "horsepower": "马力",
-        "topSpeed": "最高速度",
-        "acceleration": "0-100公里/小时",
-        "transmission": "变速器",
-        "fuelType": "燃料类型"
+    "ratingsItems": {
+      "luxury": "奢华",
+      "performance": "性能",
+      "comfort": "舒适度",
+      "technology": "技术",
+      "value": "价值"
+    },
+    "featureCategories": {
+      "luxury": "奢华",
+      "technology": "技术",
+      "comfort": "舒适度"
+    },
+    "cars": {
+      "phantom": {
+        "id": "phantom",
+        "name": "劳斯莱斯幻影",
+        "image": "/images/Rolls-royce-phantom.jpg",
+        "price": 5800,
+        "specs": {
+          "seats": 5,
+          "doors": 4,
+          "engine": "6.75L V12",
+          "horsepower": 563,
+          "topSpeed": "250公里/小时",
+          "acceleration": "5.3秒",
+          "transmission": "8速自动",
+          "fuelType": "汽油"
+        },
+        "features": [
+          {
+            "category": "Luxury",
+            "items": ["星光顶篷", "羊皮地毯", "定制音响", "手工缝制皮革"]
+          },
+          {
+            "category": "Technology",
+            "items": ["夜视功能", "自适应巡航控制", "360°摄像头", "Wi-Fi热点"]
+          },
+          {
+            "category": "Comfort",
+            "items": ["按摩座椅", "4区气候控制", "空气悬架", "静音轮胎"]
+          }
+        ],
+        "ratings": { "luxury": 100, "performance": 85, "comfort": 100, "technology": 90, "value": 80 }
       },
-      "ratingsItems": {
-        "luxury": "奢华",
-        "performance": "性能",
-        "comfort": "舒适度",
-        "technology": "技术",
-        "value": "价值"
+      "cullinan": {
+        "id": "cullinan",
+        "name": "劳斯莱斯库里南",
+        "image": "/images/Rolls-Royce-Cullinan_.jpg",
+        "price": 6500,
+        "specs": {
+          "seats": 5,
+          "doors": 5,
+          "engine": "6.75L V12",
+          "horsepower": 563,
+          "topSpeed": "250公里/小时",
+          "acceleration": "5.0秒",
+          "transmission": "8速自动",
+          "fuelType": "汽油"
+        },
+        "features": [
+          {
+            "category": "Luxury",
+            "items": ["观景套房", "娱乐模块", "玻璃隔断", "全景天窗"]
+          },
+          {
+            "category": "Technology",
+            "items": ["全轮驱动", "越野助手", "平视显示器", "手势控制"]
+          },
+          {
+            "category": "Comfort",
+            "items": ["独立后排座椅", "后座娱乐系统", "加热/冷却杯架", "野餐桌"]
+          }
+        ],
+        "ratings": { "luxury": 95, "performance": 90, "comfort": 95, "technology": 95, "value": 85 }
       },
-      "featureCategories": {
-        "luxury": "奢华",
-        "technology": "技术",
-        "comfort": "舒适度"
+      "ghost": {
+        "id": "ghost",
+        "name": "劳斯莱斯古思特",
+        "image": "/images/Rolls-Royce-black.jpg",
+        "price": 4800,
+        "specs": {
+          "seats": 5,
+          "doors": 4,
+          "engine": "6.75L V12",
+          "horsepower": 563,
+          "topSpeed": "250公里/小时",
+          "acceleration": "4.8秒",
+          "transmission": "8速自动",
+          "fuelType": "汽油"
+        },
+        "features": [
+          {
+            "category": "Luxury",
+            "items": ["发光仪表板", "流星顶篷", "定制时钟", "水晶酒瓶"]
+          },
+          {
+            "category": "Technology",
+            "items": ["平面悬架", "卫星辅助变速", "停车辅助", "数字仪表盘"]
+          },
+          {
+            "category": "Comfort",
+            "items": ["微环境净化", "香槟冷却器", "行政酒廊座椅", "隔音"]
+          }
+        ],
+        "ratings": { "luxury": 90, "performance": 95, "comfort": 92, "technology": 93, "value": 90 }
       },
-      "cars": {
-        "phantom": {
-          "id": "phantom",
-          "name": "劳斯莱斯幻影",
-          "image": "/images/Rolls-royce-phantom.jpg",
-          "price": 5800,
-          "specs": {
-            "seats": 5,
-            "doors": 4,
-            "engine": "6.75L V12",
-            "horsepower": 563,
-            "topSpeed": "250公里/小时",
-            "acceleration": "5.3秒",
-            "transmission": "8速自动",
-            "fuelType": "汽油"
-          },
-          "features": [
-            {
-              "category": "Luxury",
-              "items": ["星光顶篷", "羊皮地毯", "定制音响", "手工缝制皮革"]
-            },
-            {
-              "category": "Technology",
-              "items": ["夜视功能", "自适应巡航控制", "360°摄像头", "Wi-Fi热点"]
-            },
-            {
-              "category": "Comfort",
-              "items": ["按摩座椅", "4区气候控制", "空气悬架", "静音轮胎"]
-            }
-          ],
-          "ratings": { "luxury": 100, "performance": 85, "comfort": 100, "technology": 90, "value": 80 }
+      "dawn": {
+        "id": "dawn",
+        "name": "劳斯莱斯曜影",
+        "image": "/images/Rolls-Royce-white.jpg",
+        "price": 5500,
+        "specs": {
+          "seats": 4,
+          "doors": 2,
+          "engine": "6.6L V12",
+          "horsepower": 563,
+          "topSpeed": "250公里/小时",
+          "acceleration": "4.9秒",
+          "transmission": "8速自动",
+          "fuelType": "汽油"
         },
-        "cullinan": {
-          "id": "cullinan",
-          "name": "劳斯莱斯库里南",
-          "image": "/images/Rolls-Royce-Cullinan_.jpg",
-          "price": 6500,
-          "specs": {
-            "seats": 5,
-            "doors": 5,
-            "engine": "6.75L V12",
-            "horsepower": 563,
-            "topSpeed": "250公里/小时",
-            "acceleration": "5.0秒",
-            "transmission": "8速自动",
-            "fuelType": "汽油"
+        "features": [
+          {
+            "category": "Luxury",
+            "items": ["Canadel镶板", "马车式车门", "敞篷车顶", "挡风板"]
           },
-          "features": [
-            {
-              "category": "Luxury",
-              "items": ["观景套房", "娱乐模块", "玻璃隔断", "全景天窗"]
-            },
-            {
-              "category": "Technology",
-              "items": ["全轮驱动", "越野助手", "平视显示器", "手势控制"]
-            },
-            {
-              "category": "Comfort",
-              "items": ["独立后排座椅", "后座娱乐系统", "加热/冷却杯架", "野餐桌"]
-            }
-          ],
-          "ratings": { "luxury": 95, "performance": 90, "comfort": 95, "technology": 95, "value": 85 }
+          {
+            "category": "Technology",
+            "items": ["主动侧倾稳定", "动态安全", "互联服务", "高级音响系统"]
+          },
+          {
+            "category": "Comfort",
+            "items": ["颈部加热器", "加热扶手", "气候舒适座椅", "静音车顶机械装置"]
+          }
+        ],
+        "ratings": { "luxury": 88, "performance": 88, "comfort": 85, "technology": 85, "value": 82 }
+      },
+      "wraith": {
+        "id": "wraith",
+        "name": "劳斯莱斯魅影",
+        "image": "/images/Rolls-Royce-front.jpg",
+        "price": 5000,
+        "specs": {
+          "seats": 4,
+          "doors": 2,
+          "engine": "6.6L V12",
+          "horsepower": 624,
+          "topSpeed": "250公里/小时",
+          "acceleration": "4.6秒",
+          "transmission": "8速自动",
+          "fuelType": "汽油"
         },
-        "ghost": {
-          "id": "ghost",
-          "name": "劳斯莱斯古思特",
-          "image": "/images/Rolls-Royce-black.jpg",
-          "price": 4800,
-          "specs": {
-            "seats": 5,
-            "doors": 4,
-            "engine": "6.75L V12",
-            "horsepower": 563,
-            "topSpeed": "250公里/小时",
-            "acceleration": "4.8秒",
-            "transmission": "8速自动",
-            "fuelType": "汽油"
+        "features": [
+          {
+            "category": "Luxury",
+            "items": ["溜背设计", "星光顶篷", "定制音响", "精美木饰面"]
           },
-          "features": [
-            {
-              "category": "Luxury",
-              "items": ["发光仪表板", "流星顶篷", "定制时钟", "水晶酒瓶"]
-            },
-            {
-              "category": "Technology",
-              "items": ["平面悬架", "卫星辅助变速", "停车辅助", "数字仪表盘"]
-            },
-            {
-              "category": "Comfort",
-              "items": ["微环境净化", "香槟冷却器", "行政酒廊座椅", "隔音"]
-            }
-          ],
-          "ratings": { "luxury": 90, "performance": 95, "comfort": 92, "technology": 93, "value": 90 }
-        },
-        "dawn": {
-          "id": "dawn",
-          "name": "劳斯莱斯曜影",
-          "image": "/images/Rolls-Royce-white.jpg",
-          "price": 5500,
-          "specs": {
-            "seats": 4,
-            "doors": 2,
-            "engine": "6.6L V12",
-            "horsepower": 563,
-            "topSpeed": "250公里/小时",
-            "acceleration": "4.9秒",
-            "transmission": "8速自动",
-            "fuelType": "汽油"
+          {
+            "category": "Technology",
+            "items": ["卫星辅助变速", "欢庆女神旋转控制器", "语音命令", "高性能制动器"]
           },
-          "features": [
-            {
-              "category": "Luxury",
-              "items": ["Canadel镶板", "马车式车门", "敞篷车顶", "挡风板"]
-            },
-            {
-              "category": "Technology",
-              "items": ["主动侧倾稳定", "动态安全", "互联服务", "高级音响系统"]
-            },
-            {
-              "category": "Comfort",
-              "items": ["颈部加热器", "加热扶手", "气候舒适座椅", "静音车顶机械装置"]
-            }
-          ],
-          "ratings": { "luxury": 88, "performance": 88, "comfort": 85, "technology": 85, "value": 82 }
-        },
-        "wraith": {
-          "id": "wraith",
-          "name": "劳斯莱斯魅影",
-          "image": "/images/Rolls-Royce-front.jpg",
-          "price": 5000,
-          "specs": {
-            "seats": 4,
-            "doors": 2,
-            "engine": "6.6L V12",
-            "horsepower": 624,
-            "topSpeed": "250公里/小时",
-            "acceleration": "4.6秒",
-            "transmission": "8速自动",
-            "fuelType": "汽油"
-          },
-          "features": [
-            {
-              "category": "Luxury",
-              "items": ["溜背设计", "星光顶篷", "定制音响", "精美木饰面"]
-            },
-            {
-              "category": "Technology",
-              "items": ["卫星辅助变速", "欢庆女神旋转控制器", "语音命令", "高性能制动器"]
-            },
-            {
-              "category": "Comfort",
-              "items": ["四区气候控制", "长毛地毯", "宽敞的内部空间", "轻松的驾驶体验"]
-            }
-          ],
-          "ratings": { "luxury": 85, "performance": 98, "comfort": 88, "technology": 88, "value": 85 }
-        }
+          {
+            "category": "Comfort",
+            "items": ["四区气候控制", "长毛地毯", "宽敞的内部空间", "轻松的驾驶体验"]
+          }
+        ],
+        "ratings": { "luxury": 85, "performance": 98, "comfort": 88, "technology": 88, "value": 85 }
       }
     }
   },
@@ -668,21 +697,7 @@
     "tiers": {
       "silver": {
         "name": "银卡",
-        "requirement": "每年3次以上租赁",
-        "instagram": {
-          "followJourney": "关注我们的旅程",
-          "account": "@rollsroycedubai",
-          "joinCommunity": "加入我们的社区",
-          "communityDesc": "独家内容和幕后花絮",
-          "follow": "关注",
-          "notifications": "开启通知",
-          "post1": "赞",
-          "post2": "赞",
-          "post3": "赞",
-          "post4": "赞",
-          "post5": "赞",
-          "post6": "赞"
-        }
+        "requirement": "每年3次以上租赁"
       },
       "gold": {
         "name": "金卡",
@@ -715,25 +730,6 @@
       "q10": "如果我不符合等级要求会怎样？",
       "a10": "如果您不符合维持当前等级状态的要求，您将被调整到下一个较低的等级。"
     }
-  },
-  "footer": {
-    "tagline": "体验非凡",
-    "links": {
-      "privacy": "隐私政策",
-      "terms": "条款和条件",
-      "sitemap": "网站地图"
-    },
-    "social": "关注我们",
-    "rights": "版权所有",
-    "support": "24/7支持",
-    "email": "电子邮件",
-    "showroom": "展厅",
-    "about": "您在迪拜劳斯莱斯豪华汽车租赁的首选",
-    "quickLinks": "快速链接",
-    "call": "致电",
-    "whatsapp": "WhatsApp",
-    "privacy": "隐私政策",
-    "terms": "条款和条件"
   },
   "instagram": {
     "followJourney": "关注我们的旅程",

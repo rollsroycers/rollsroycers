@@ -183,8 +183,34 @@
     "subtitle": "Choose Your Rolls-Royce",
     "phantom": {
       "name": "Rolls-Royce Phantom",
-      "description": "The pinnacle of luxury motoring",
-      "features": ["V12 Engine", "Extended Wheelbase", "Starlight Headliner", "Bespoke Audio"]
+      "description": "The pinnacle of luxury motoring, an icon of automotive excellence and bespoke craftsmanship.",
+      "featuresTitle": "Phantom Exclusive Features",
+      "specsTitle": "Technical Specifications",
+      "galleryTitle": "Phantom Gallery",
+      "features": [
+        { "icon": "👑", "title": "Magic Carpet Ride", "desc": "Experience a serene and smooth journey with the state-of-the-art self-leveling air suspension that absorbs any road imperfections." },
+        { "icon": "🌟", "title": "Starlight Headliner", "desc": "Gaze upon a celestial dreamscape with a custom-made fiber optic roof, creating an illusion of a star-filled night sky." },
+        { "icon": "🎭", "title": "Rear Theatre Configuration", "desc": "Entertain your guests with dual 12-inch HD screens, a bespoke audio system, and a center console with a drinks cabinet." },
+        { "icon": "🔇", "title": "The Silent Chamber", "desc": "Enjoy unparalleled tranquility within the Phantom's cabin, thanks to over 130kg of sound insulation for a whisper-quiet ride." }
+      ],
+      "specs": {
+        "engine": "6.75L Twin-Turbocharged V12",
+        "power": "563 hp @ 5,000 rpm",
+        "torque": "900 Nm @ 1,700 rpm",
+        "acceleration": "0-100 km/h in 5.3s",
+        "topSpeed": "250 km/h (limited)",
+        "seats": "4-5",
+        "transmission": "8-speed automatic",
+        "drivetrain": "Rear-wheel drive"
+      },
+      "gallery": {
+        "exteriorAlt": "Rolls-Royce Phantom majestic exterior in Dubai",
+        "interiorAlt": "Luxurious interior of the Rolls-Royce Phantom with starlight headliner"
+      },
+      "cta": {
+        "title": "Experience the Rolls-Royce Phantom Today",
+        "subtitle": "Dubai's most prestigious luxury sedan awaits. Book now for immediate delivery to your location."
+      }
     },
     "cullinan": {
       "name": "Rolls-Royce Cullinan",

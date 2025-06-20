@@ -10,9 +10,17 @@ export default function Fleet({ t }: { t: TFunction }) {
   const [ref, inView] = useInView({ triggerOnce: true, threshold: 0.1 })
   const [selectedCar, setSelectedCar] = useState<number | null>(null)
 
-  const getFeatures = (key: string): string[] => {
+  const getFeatures = (key: string): (string | { title: string })[] => {
     const features = t(key, { returnObjects: true });
-    return Array.isArray(features) ? features as string[] : [];
+    if (Array.isArray(features)) {
+      return features.map(feature => {
+        if (typeof feature === 'object' && feature !== null && 'title' in feature) {
+          return feature as { title: string };
+        }
+        return feature as string;
+      });
+    }
+    return [];
   };
 
   const cars = [
@@ -121,7 +129,7 @@ export default function Fleet({ t }: { t: TFunction }) {
                         <svg className="w-4 h-4 text-rolls-gold mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                         </svg>
-                        {feature}
+                        {typeof feature === 'string' ? feature : feature.title}
                       </div>
                     ))
                   ) : (

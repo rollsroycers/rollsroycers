@@ -71,11 +71,11 @@ export default function VideoGallery({ t }: { t: TFunction }) {
   ]
 
   const categories = [
-    { id: 'all', name: 'All Videos', icon: '🎬' },
-    { id: 'exterior', name: 'Exterior', icon: '🚗' },
-    { id: 'interior', name: 'Interior', icon: '🪑' },
-    { id: 'experience', name: 'Experience', icon: '🌟' },
-    { id: 'tour', name: 'Virtual Tour', icon: '🎥' }
+    { id: 'all', name: t('videoGallery.filters.all'), icon: '🎬' },
+    { id: 'exterior', name: t('videoGallery.filters.exterior'), icon: '🚗' },
+    { id: 'interior', name: t('videoGallery.filters.interior'), icon: '🪑' },
+    { id: 'experience', name: t('videoGallery.filters.experience'), icon: '🌟' },
+    { id: 'tour', name: t('videoGallery.filters.virtualTour'), icon: '🎥' }
   ]
 
   const filteredVideos = selectedCategory === 'all' 
@@ -92,8 +92,8 @@ export default function VideoGallery({ t }: { t: TFunction }) {
           transition={{ duration: 0.8 }}
           className="text-center mb-12"
         >
-          <h2 className="heading-2 text-white mb-4">Video Gallery</h2>
-          <p className="text-xl text-rolls-gold">Experience luxury through our exclusive video collection</p>
+          <h2 className="heading-2 text-white mb-4">{t('videoGallery.title')}</h2>
+          <p className="text-xl text-rolls-gold">{t('videoGallery.subtitle')}</p>
         </motion.div>
 
         {/* Category Filter */}
@@ -203,17 +203,17 @@ export default function VideoGallery({ t }: { t: TFunction }) {
         >
           <div className="bg-gradient-to-r from-rolls-gold/20 to-rolls-gold/10 backdrop-blur-sm border border-rolls-gold/30 rounded-lg p-8 max-w-2xl mx-auto">
             <h3 className="text-2xl font-semibold text-white mb-4">
-              Experience Our 360° Virtual Showroom
+              {t('virtualShowroom.title')}
             </h3>
             <p className="text-gray-300 mb-6">
-              Take an immersive virtual tour of our luxury showroom and explore every detail of our Rolls-Royce collection from the comfort of your home.
+              {t('virtualShowroom.description')}
             </p>
             <motion.button
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
               className="btn-primary"
             >
-              Start Virtual Tour
+              {t('virtualShowroom.cta')}
             </motion.button>
           </div>
         </motion.div>

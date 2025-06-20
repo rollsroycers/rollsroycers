@@ -7,26 +7,12 @@ import { motion } from 'framer-motion'
 import Layout from '@/components/Layout'
 import WhatsAppButton from '@/components/WhatsAppButton'
 import SEO from '@/components/SEO'
+import { translateSpec } from '@/utils/translations'
 
 export default function PhantomPage() {
   const { t } = useTranslation('common')
-  const features = [
-    { icon: '👑', title: t('fleet.phantom.features.magicCarpetRide.title'), desc: t('fleet.phantom.features.magicCarpetRide.desc') },
-    { icon: '🌟', title: t('fleet.phantom.features.starlightHeadliner.title'), desc: t('fleet.phantom.features.starlightHeadliner.desc') },
-    { icon: '🎭', title: t('fleet.phantom.features.theatreConfiguration.title'), desc: t('fleet.phantom.features.theatreConfiguration.desc') },
-    { icon: '🔇', title: t('fleet.phantom.features.silentChamber.title'), desc: t('fleet.phantom.features.silentChamber.desc') }
-  ]
-
-  const specs = {
-    engine: t('fleet.phantom.specs.engine'),
-    power: t('fleet.phantom.specs.power'),
-    torque: t('fleet.phantom.specs.torque'),
-    acceleration: t('fleet.phantom.specs.acceleration'),
-    topSpeed: t('fleet.phantom.specs.topSpeed'),
-    seats: t('fleet.phantom.specs.seats'),
-    transmission: t('fleet.phantom.specs.transmission'),
-    drivetrain: t('fleet.phantom.specs.drivetrain')
-  }
+  const features = t('fleet.phantom.features', { returnObjects: true }) as { title: string; desc: string; icon: string }[];
+  const specs = t('fleet.phantom.specs', { returnObjects: true }) as Record<string, string>;
 
   return (
     <>
@@ -52,10 +38,10 @@ export default function PhantomPage() {
               transition={{ duration: 1 }}
             >
               <h1 className="text-5xl md:text-7xl font-bold text-white mb-6">
-                Rolls-Royce Phantom
+                {t('fleet.phantom.name')}
               </h1>
               <p className="text-2xl text-rolls-gold mb-8">
-                The Pinnacle of Luxury Motoring
+                {t('fleet.phantom.description')}
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <motion.a
@@ -64,10 +50,10 @@ export default function PhantomPage() {
                   whileTap={{ scale: 0.95 }}
                   className="btn-primary"
                 >
-                  Book Phantom Now
+                  {t('fleet.rentNow')}
                 </motion.a>
                 <Link href="/fleet" className="btn-secondary">
-                  View All Models
+                  {t('nav.fleet')}
                 </Link>
               </div>
             </motion.div>
@@ -81,21 +67,21 @@ export default function PhantomPage() {
               <div className="bg-rolls-black/50 backdrop-blur-sm border border-rolls-gold/30 rounded-lg p-8">
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
                   <div>
-                    <h3 className="text-3xl font-bold text-rolls-gold mb-2">AED 5,800</h3>
-                    <p className="text-gray-400">Per Day</p>
+                    <h3 className="text-3xl font-bold text-rolls-gold mb-2">{t('common.aed')} 5,800</h3>
+                    <p className="text-gray-400">{t('pricing.daily')}</p>
                   </div>
                   <div>
-                    <h3 className="text-3xl font-bold text-rolls-gold mb-2">AED 34,800</h3>
-                    <p className="text-gray-400">Per Week</p>
+                    <h3 className="text-3xl font-bold text-rolls-gold mb-2">{t('common.aed')} 34,800</h3>
+                    <p className="text-gray-400">{t('pricing.weekly')}</p>
                   </div>
                   <div>
-                    <h3 className="text-3xl font-bold text-rolls-gold mb-2">AED 116,000</h3>
-                    <p className="text-gray-400">Per Month</p>
+                    <h3 className="text-3xl font-bold text-rolls-gold mb-2">{t('common.aed')} 116,000</h3>
+                    <p className="text-gray-400">{t('pricing.monthly')}</p>
                   </div>
                 </div>
                 <div className="mt-8 text-center">
-                  <p className="text-green-400 mb-4">✓ Available for immediate delivery</p>
-                  <a href="#booking" className="btn-primary">Check Availability</a>
+                  <p className="text-green-400 mb-4">✓ {t('checkAvailability.title')}</p>
+                  <a href="#booking" className="btn-primary">{t('checkAvailability.title')}</a>
                 </div>
               </div>
             </div>
@@ -106,10 +92,10 @@ export default function PhantomPage() {
         <section className="py-20 bg-gradient-to-b from-rolls-navy to-rolls-black">
           <div className="container mx-auto px-4">
             <h2 className="text-4xl font-bold text-white text-center mb-12">
-              Phantom Exclusive Features
+              {t('fleet.phantom.featuresTitle')}
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-              {features.map((feature, index) => (
+              {Array.isArray(features) && features.map((feature, index) => (
                 <motion.div
                   key={index}
                   initial={{ opacity: 0, y: 20 }}
@@ -130,7 +116,7 @@ export default function PhantomPage() {
         <section className="py-20 bg-gradient-to-b from-rolls-black to-rolls-navy">
           <div className="container mx-auto px-4">
             <h2 className="text-4xl font-bold text-white text-center mb-12">
-              Technical Specifications
+              {t('fleet.phantom.specsTitle')}
             </h2>
             <div className="max-w-4xl mx-auto">
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -142,7 +128,7 @@ export default function PhantomPage() {
                     transition={{ delay: index * 0.1 }}
                     className="flex justify-between items-center p-4 bg-rolls-black/30 rounded-lg border border-rolls-gold/10"
                   >
-                    <span className="text-gray-400 capitalize">{key.replace(/([A-Z])/g, ' $1').trim()}:</span>
+                    <span className="text-gray-400 capitalize">{translateSpec(key, t)}:</span>
                     <span className="text-white font-semibold">{value}</span>
                   </motion.div>
                 ))}
@@ -155,7 +141,7 @@ export default function PhantomPage() {
         <section className="py-20 bg-gradient-to-b from-rolls-navy to-rolls-black">
           <div className="container mx-auto px-4">
             <h2 className="text-4xl font-bold text-white text-center mb-12">
-              Phantom Gallery
+              {t('fleet.phantom.galleryTitle')}
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
               <div className="relative h-64 md:col-span-2">
@@ -182,17 +168,17 @@ export default function PhantomPage() {
         <section className="py-20 bg-gradient-to-b from-rolls-black to-rolls-navy">
           <div className="container mx-auto px-4 text-center">
             <h2 className="text-4xl font-bold text-white mb-6">
-              Experience the Rolls-Royce Phantom Today
+              {t('fleet.phantom.cta.title')}
             </h2>
             <p className="text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
-              Dubai's most prestigious luxury sedan awaits. Book now for immediate delivery to your location.
+              {t('fleet.phantom.cta.subtitle')}
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href="tel:+971558164922" className="btn-primary">
-                Call Now: +971 55 816 4922
+                {t('footer.call')}: +971 55 816 4922
               </a>
               <a href="#booking" className="btn-secondary">
-                Online Booking
+                {t('nav.bookingLink')}
               </a>
             </div>
           </div>
@@ -207,7 +193,7 @@ export default function PhantomPage() {
 export const getStaticProps: GetStaticProps = async ({ locale }) => {
   return {
     props: {
-      ...(await serverSideTranslations(locale || 'en', ['common'])),
+      ...(await serverSideTranslations(locale || 'en', ['common', 'seo'])),
     },
   }
 }

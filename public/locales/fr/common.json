@@ -52,8 +52,34 @@
     "subtitle": "Choisissez Votre Rolls-Royce",
     "phantom": {
       "name": "Rolls-Royce Phantom",
-      "description": "Le summum du luxe automobile.",
-      "features": ["Moteur V12", "Empattement Long", "Ciel de Toit Étoilé", "Audio Sur Mesure"]
+      "description": "Le summum du luxe automobile, une icône de l'excellence automobile et de l'artisanat sur mesure.",
+      "featuresTitle": "Caractéristiques Exclusives de la Phantom",
+      "specsTitle": "Spécifications Techniques",
+      "galleryTitle": "Galerie de la Phantom",
+      "features": [
+        { "icon": "👑", "title": "Conduite Tapis Volant", "desc": "Vivez un voyage serein et doux avec la suspension pneumatique à nivellement automatique de pointe qui absorbe toutes les imperfections de la route." },
+        { "icon": "🌟", "title": "Ciel de Toit Étoilé", "desc": "Contemplez un paysage de rêve céleste avec un toit en fibre optique sur mesure, créant l'illusion d'un ciel nocturne rempli d'étoiles." },
+        { "icon": "🎭", "title": "Configuration Théâtre Arrière", "desc": "Divertissez vos invités avec deux écrans HD de 12 pouces, un système audio sur mesure et une console centrale avec un compartiment à boissons." },
+        { "icon": "🔇", "title": "La Chambre Silencieuse", "desc": "Profitez d'une tranquillité inégalée dans l'habitacle de la Phantom, grâce à plus de 130 kg d'isolation phonique pour une conduite silencieuse." }
+      ],
+      "specs": {
+        "engine": "V12 bi-turbo de 6,75 L",
+        "power": "563 ch à 5 000 tr/min",
+        "torque": "900 Nm à 1 700 tr/min",
+        "acceleration": "0-100 km/h en 5,3 s",
+        "topSpeed": "250 km/h (limitée)",
+        "seats": "4-5",
+        "transmission": "Automatique à 8 vitesses",
+        "drivetrain": "Propulsion"
+      },
+      "gallery": {
+        "exteriorAlt": "Extérieur majestueux de la Rolls-Royce Phantom à Dubaï",
+        "interiorAlt": "Intérieur luxueux de la Rolls-Royce Phantom avec ciel de toit étoilé"
+      },
+      "cta": {
+        "title": "Découvrez la Rolls-Royce Phantom Aujourd'hui",
+        "subtitle": "La berline de luxe la plus prestigieuse de Dubaï vous attend. Réservez maintenant pour une livraison immédiate à votre emplacement."
+      }
     },
     "cullinan": {
       "name": "Rolls-Royce Cullinan",
@@ -174,57 +200,6 @@
     "title": "Hors ligne | Rolls-Royce Dubaï",
     "heading": "Vous êtes actuellement hors ligne",
     "message": "Veuillez vérifier votre connexion Internet pour accéder au site complet."
-  },
-  "videoGallery": {
-    "title": "Galerie Vidéo",
-    "subtitle": "Vivez le luxe à travers notre collection de vidéos exclusives",
-    "virtualTour": {
-      "title": "Découvrez notre Showroom Virtuel à 360°",
-      "description": "Faites une visite virtuelle immersive de notre showroom de luxe et explorez chaque détail de notre collection Rolls-Royce depuis le confort de votre maison.",
-      "button": "Commencer la Visite Virtuelle"
-    },
-    "lifestyle": {
-      "title": "Style de Vie Luxueux Millionnaire"
-    },
-    "mansory": {
-      "title": "Mansory Black Badge Rolls Royce Cullinan"
-    },
-    "defining": {
-      "title": "Rolls Royce définit ce que signifie voitures de luxe"
-    },
-    "experience": {
-      "title": "L'Expérience Ultime Rolls-Royce"
-    },
-    "phantom": {
-      "title": "Rolls-Royce Phantom - Présentation extérieure"
-    },
-    "cullinan": {
-      "title": "Rolls-Royce Cullinan - Showcase extérieur"
-    },
-    "interior": {
-      "title": "Élégance intérieure Rolls-Royce"
-    },
-    "dubai": {
-      "title": "Rolls-Royce dans le paysage urbain de Dubaï"
-    },
-    "showroom": {
-      "title": "Visite du showroom Rolls-Royce Dubaï"
-    },
-    "night": {
-      "title": "Balade nocturne Rolls-Royce"
-    },
-    "Rolls-Royce Interior": {
-        "title": "Intérieur Rolls-Royce"
-    },
-    "Rolls-Royce Official": {
-        "title": "Officiel Rolls-Royce"
-    },
-    "Rolls-Royce Airport": {
-        "title": "Aéroport Rolls-Royce"
-    },
-    "Rolls-Royce Experience": {
-        "title": "Expérience Rolls-Royce"
-    }
   },
   "home": {
     "video": {
@@ -410,8 +385,76 @@
     "confirmBooking": "Confirmer la réservation",
     "calendar": {
       "months": ["Janvier", "Février", "Mars", "Avril", "Mai", "Juin", "Juillet", "Août", "Septembre", "Octobre", "Novembre", "Décembre"],
-      "daysOfWeek": ["Dim", "Lun", "Mar", "Mer", "Jeu", "Ven", "Sam"]
+      "daysOfWeek": ["Dim", "Lun", "Mar", "Mer", "Jeu", "Ven", "Sam"],
+      "available": "Disponible",
+      "unavailable": "Indisponible",
+      "selected": "Sélectionné",
+      "dateRange": "Plage de dates"
+    },
+    "selectYourRR": "Sélectionnez votre Rolls-Royce",
+    "cars": {
+      "phantom": {
+        "name": "Rolls-Royce Phantom"
+      },
+      "cullinan": {
+        "name": "Rolls-Royce Cullinan"
+      },
+      "ghost": {
+        "name": "Rolls-Royce Ghost"
+      },
+      "dawn": {
+        "name": "Rolls-Royce Dawn"
+      },
+      "wraith": {
+        "name": "Rolls-Royce Wraith"
+      }
     }
+  },
+  "videoGallery": {
+    "title": "Galerie Vidéo",
+    "subtitle": "Vivez le luxe à travers notre collection de vidéos exclusives",
+    "filters": {
+        "all": "🎬 Toutes les vidéos",
+        "exterior": "🚗 Extérieur",
+        "interior": "🪑 Intérieur",
+        "experience": "🌟 Expérience",
+        "virtualTour": "🎥 Visite virtuelle"
+    },
+    "phantom": {
+        "title": "Rolls-Royce Phantom - Présentation extérieure"
+    },
+    "cullinan": {
+        "title": "Rolls-Royce Cullinan - Showcase extérieur"
+    },
+    "interior": {
+        "title": "Élégance intérieure Rolls-Royce"
+    },
+    "dubai": {
+        "title": "Rolls-Royce dans le paysage urbain de Dubaï"
+    },
+    "showroom": {
+        "title": "Visite du showroom Rolls-Royce Dubaï"
+    },
+    "night": {
+        "title": "Balade nocturne Rolls-Royce"
+    },
+    "lifestyle": {
+        "title": "Style de Vie Luxueux Millionnaire"
+    },
+    "mansory": {
+        "title": "Mansory Black Badge Rolls Royce Cullinan"
+    },
+    "defining": {
+        "title": "Rolls Royce définit ce que signifie voitures de luxe"
+    },
+    "experience": {
+        "title": "L'Expérience Ultime Rolls-Royce"
+    }
+  },
+  "virtualShowroom": {
+    "title": "Découvrez notre Showroom Virtuel à 360°",
+    "description": "Faites une visite virtuelle immersive de notre showroom de luxe et explorez chaque détail de notre collection Rolls-Royce depuis le confort de votre maison.",
+    "cta": "Commencer la Visite Virtuelle"
   },
   "common": {
     "excellent": "Excellent",
@@ -698,15 +741,15 @@
         "features": [
           {
             "category": "Luxury",
-            "items": ["Ciel de toit étoilé", "Tapis en peau de mouton", "Audio sur mesure", "Cuir cousu main"]
+            "items": ["Ciel de Toit Étoilé", "Tapis en Peau de Mouton", "Audio Sur Mesure", "Cuir Cousu Main"]
           },
           {
             "category": "Technology",
-            "items": ["Vision nocturne", "Régulateur de vitesse adaptatif", "Caméra 360°", "Point d'accès Wi-Fi"]
+            "items": ["Vision Nocturne", "Régulateur de Vitesse Adaptatif", "Caméra 360°", "Hotspot Wi-Fi"]
           },
           {
             "category": "Comfort",
-            "items": ["Sièges massants", "Climatisation 4 zones", "Suspension pneumatique", "Pneus silencieux"]
+            "items": ["Sièges Massants", "Climatisation 4 Zones", "Suspension Pneumatique", "Pneus Silencieux"]
           }
         ],
         "ratings": { "luxury": 100, "performance": 85, "comfort": 100, "technology": 90, "value": 80 }
@@ -729,15 +772,15 @@
         "features": [
           {
             "category": "Luxury",
-            "items": ["Suite d'observation", "Module de loisirs", "Cloison en verre", "Toit ouvrant panoramique"]
+            "items": ["Suite d'Observation", "Module de Loisirs", "Cloison en Verre", "Toit Panoramique"]
           },
           {
             "category": "Technology",
-            "items": ["Traction intégrale", "Assistant tout-terrain", "Affichage tête haute", "Contrôle gestuel"]
+            "items": ["Traction Intégrale", "Assistant Tout-Terrain", "Affichage Tête Haute", "Contrôle Gestuel"]
           },
           {
             "category": "Comfort",
-            "items": ["Sièges arrière individuels", "Divertissement aux places arrière", "Porte-gobelets chauffants/refroidissants", "Tables de pique-nique"]
+            "items": ["Sièges Arrière Individuels", "Système de Divertissement Arrière", "Porte-gobelets Chauffants/Réfrigérants", "Tables de Pique-nique"]
           }
         ],
         "ratings": { "luxury": 95, "performance": 90, "comfort": 95, "technology": 95, "value": 85 }
@@ -760,15 +803,15 @@
         "features": [
           {
             "category": "Luxury",
-            "items": ["Fascia illuminée", "Ciel de toit étoilé filant", "Horloge sur mesure", "Carafe en cristal"]
+            "items": ["Tableau de Bord Illuminé", "Ciel de Toit Étoilé Filante", "Horloge Sur Mesure", "Carafe en Cristal"]
           },
           {
             "category": "Technology",
-            "items": ["Suspension planaire", "Transmission assistée par satellite", "Assistant de stationnement", "Tableau de bord numérique"]
+            "items": ["Suspension Planar", "Transmission Assistée par Satellite", "Aide au Stationnement", "Tableau de Bord Numérique"]
           },
           {
             "category": "Comfort",
-            "items": ["Purification du micro-environnement", "Refroidisseur de champagne", "Sièges de salon exécutif", "Isolation acoustique"]
+            "items": ["Purification de Micro-environnement", "Refroidisseur de Champagne", "Sièges de Salon Exécutif", "Insonorisation"]
           }
         ],
         "ratings": { "luxury": 90, "performance": 95, "comfort": 92, "technology": 93, "value": 90 }
@@ -791,15 +834,15 @@
         "features": [
           {
             "category": "Luxury",
-            "items": ["Panneaux Canadel", "Portes d'autocar", "Toit décapotable", "Déflecteur de vent"]
+            "items": ["Panneaux en Canadel", "Portes Antagonistes", "Toit Décapotable", "Déflecteur de Vent"]
           },
           {
             "category": "Technology",
-            "items": ["Stabilisation active du roulis", "Sécurité dynamique", "Services connectés", "Système audio haut de gamme"]
+            "items": ["Stabilisation Active du Roulis", "Sécurité Dynamique", "Services Connectés", "Système Audio Premium"]
           },
           {
             "category": "Comfort",
-            "items": ["Chauffe-nuque", "Accoudoirs chauffants", "Sièges confort climatique", "Mécanisme de toit silencieux"]
+            "items": ["Chauffe-nuque", "Accoudoirs Chauffants", "Sièges Confort Climatisés", "Mécanisme de Toit Silencieux"]
           }
         ],
         "ratings": { "luxury": 88, "performance": 88, "comfort": 85, "technology": 85, "value": 82 }
@@ -822,15 +865,15 @@
         "features": [
           {
             "category": "Luxury",
-            "items": ["Design Fastback", "Ciel de toit étoilé", "Audio sur mesure", "Placages en bois précieux"]
+            "items": ["Design Fastback", "Ciel de Toit Étoilé", "Audio Sur Mesure", "Placages en Bois Exquis"]
           },
           {
             "category": "Technology",
-            "items": ["Transmission assistée par satellite", "Contrôleur rotatif Spirit of Ecstasy", "Commandes vocales", "Freins de performance"]
+            "items": ["Transmission Assistée par Satellite", "Contrôleur Rotatif Spirit of Ecstasy", "Commandes Vocales", "Freins Haute Performance"]
           },
           {
             "category": "Comfort",
-            "items": ["Climatisation quatre zones", "Tapis moelleux", "Intérieur spacieux", "Expérience de conduite sans effort"]
+            "items": ["Climatisation Quatre Zones", "Tapis en Laine d'Agneau", "Intérieur Spacieux", "Expérience de Conduite sans Effort"]
           }
         ],
         "ratings": { "luxury": 85, "performance": 98, "comfort": 88, "technology": 88, "value": 85 }
@@ -838,8 +881,8 @@
     }
   },
   "placeholders": {
-    "companyName": "Nom de l'entreprise",
-    "businessEmail": "Email professionnel"
+    "loading": "Chargement...",
+    "error": "Une erreur est survenue."
   },
   "locations": {
     "downtownDubai": {
