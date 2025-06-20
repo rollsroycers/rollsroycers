@@ -13,79 +13,37 @@ import WhatsAppButton from '@/components/WhatsAppButton'
 import SEO from '@/components/SEO'
 
 export default function GhostPage() {
-  const { t } = useTranslation('common')
-  const [activeTab, setActiveTab] = useState('overview')
-  
+  const { t } = useTranslation('common');
+  const [activeTab, setActiveTab] = useState('overview');
+
+  type RentalPackage = {
+    duration: string;
+    price: string;
+    includes: string[];
+  };
+
+  type BusinessFeature = {
+    icon: string;
+    title: string;
+    description: string;
+  };
+
   const images = [
     { src: '/images/Rolls-Royce-black.jpg', alt: t('fleet.ghost.images.blackAlt') },
     { src: '/images/Rolls-royce-with-chauffeur.jpg', alt: t('fleet.ghost.images.chauffeurAlt') },
     { src: '/images/inside-Rolls-Royce.jpg', alt: t('fleet.ghost.images.interiorAlt') },
     { src: '/images/Rolls-Royce-front.jpg', alt: t('fleet.ghost.images.frontGrilleAlt') }
-  ]
+  ];
 
   const specifications = {
-    performance: [
-      { label: t('fleet.ghost.specs.performance.engine.label'), value: t('fleet.ghost.specs.performance.engine.value') },
-      { label: t('fleet.ghost.specs.performance.power.label'), value: t('fleet.ghost.specs.performance.power.value') },
-      { label: t('fleet.ghost.specs.performance.torque.label'), value: t('fleet.ghost.specs.performance.torque.value') },
-      { label: t('fleet.ghost.specs.performance.acceleration.label'), value: t('fleet.ghost.specs.performance.acceleration.value') },
-      { label: t('fleet.ghost.specs.performance.topSpeed.label'), value: t('fleet.ghost.specs.performance.topSpeed.value') }
-    ],
-    dimensions: [
-      { label: t('fleet.ghost.specs.dimensions.length.label'), value: t('fleet.ghost.specs.dimensions.length.value') },
-      { label: t('fleet.ghost.specs.dimensions.width.label'), value: t('fleet.ghost.specs.dimensions.width.value') },
-      { label: t('fleet.ghost.specs.dimensions.height.label'), value: t('fleet.ghost.specs.dimensions.height.value') },
-      { label: t('fleet.ghost.specs.dimensions.wheelbase.label'), value: t('fleet.ghost.specs.dimensions.wheelbase.value') },
-      { label: t('fleet.ghost.specs.dimensions.seating.label'), value: t('fleet.ghost.specs.dimensions.seating.value') }
-    ],
+    performance: Object.values(t('fleet.ghost.specs.performance', { returnObjects: true })),
+    dimensions: Object.values(t('fleet.ghost.specs.dimensions', { returnObjects: true })),
     technology: t('fleet.ghost.specs.technology', { returnObjects: true }) as string[]
-  }
+  };
 
-  const rentalPackages = [
-    {
-      duration: t('fleet.ghost.rentalPackages.daily.duration'),
-      price: t('fleet.ghost.rentalPackages.daily.price'),
-      includes: t('fleet.ghost.rentalPackages.daily.includes', { returnObjects: true }) as string[]
-    },
-    {
-      duration: t('fleet.ghost.rentalPackages.weekend.duration'),
-      price: t('fleet.ghost.rentalPackages.weekend.price'),
-      includes: t('fleet.ghost.rentalPackages.weekend.includes', { returnObjects: true }) as string[]
-    },
-    {
-      duration: t('fleet.ghost.rentalPackages.weekly.duration'),
-      price: t('fleet.ghost.rentalPackages.weekly.price'),
-      includes: t('fleet.ghost.rentalPackages.weekly.includes', { returnObjects: true }) as string[]
-    },
-    {
-      duration: t('fleet.ghost.rentalPackages.monthly.duration'),
-      price: t('fleet.ghost.rentalPackages.monthly.price'),
-      includes: t('fleet.ghost.rentalPackages.monthly.includes', { returnObjects: true }) as string[]
-    }
-  ]
+  const rentalPackages: RentalPackage[] = Object.values(t('fleet.ghost.rentalPackages', { returnObjects: true }));
 
-  const businessFeatures = [
-    {
-      icon: '💼',
-      title: t('fleet.ghost.businessFeatures.excellence.title'),
-      description: t('fleet.ghost.businessFeatures.excellence.description')
-    },
-    {
-      icon: '🔇',
-      title: t('fleet.ghost.businessFeatures.quiet.title'),
-      description: t('fleet.ghost.businessFeatures.quiet.description')
-    },
-    {
-      icon: '🌐',
-      title: t('fleet.ghost.businessFeatures.connected.title'),
-      description: t('fleet.ghost.businessFeatures.connected.description')
-    },
-    {
-      icon: '🛡️',
-      title: t('fleet.ghost.businessFeatures.safety.title'),
-      description: t('fleet.ghost.businessFeatures.safety.description')
-    }
-  ]
+  const businessFeatures: BusinessFeature[] = Object.values(t('fleet.ghost.businessFeatures', { returnObjects: true }));
 
   return (
     <>
@@ -186,22 +144,22 @@ export default function GhostPage() {
                   whileInView={{ opacity: 1, x: 0 }}
                 >
                   <h2 className="text-4xl font-bold text-white mb-6">
-                    The Essence of Luxury Redefined
+                    {t('fleet.ghost.overview.title')}
                   </h2>
                   <p className="text-gray-300 mb-4">
-                    The Rolls-Royce Ghost represents a new chapter in luxury motoring. With its minimalist aesthetic philosophy of 'Post Opulence', it delivers an experience that transcends traditional luxury.
+                    {t('fleet.ghost.overview.p1')}
                   </p>
                   <p className="text-gray-300 mb-6">
-                    Perfect for Dubai's business elite, the Ghost combines unparalleled comfort with cutting-edge technology, creating an environment where success feels effortless.
+                    {t('fleet.ghost.overview.p2')}
                   </p>
                   <div className="grid grid-cols-2 gap-4">
                     <div className="bg-rolls-black/50 p-4 rounded-lg">
-                      <div className="text-3xl font-bold text-rolls-gold">130db</div>
-                      <div className="text-sm text-gray-400">Quietest Cabin</div>
+                      <div className="text-3xl font-bold text-rolls-gold">{t('fleet.ghost.overview.stat1.value')}</div>
+                      <div className="text-sm text-gray-400">{t('fleet.ghost.overview.stat1.label')}</div>
                     </div>
                     <div className="bg-rolls-black/50 p-4 rounded-lg">
-                      <div className="text-3xl font-bold text-rolls-gold">100+</div>
-                      <div className="text-sm text-gray-400">Sound Deadening Compounds</div>
+                      <div className="text-3xl font-bold text-rolls-gold">{t('fleet.ghost.overview.stat2.value')}</div>
+                      <div className="text-sm text-gray-400">{t('fleet.ghost.overview.stat2.label')}</div>
                     </div>
                   </div>
                 </motion.div>
@@ -379,7 +337,7 @@ export default function GhostPage() {
                     <h3 className="text-xl font-semibold text-white mb-2">{pkg.duration}</h3>
                     <div className="text-3xl font-bold text-rolls-gold mb-4">{pkg.price}</div>
                     <ul className="space-y-2 text-sm text-gray-400">
-                      {pkg.includes.map((item, idx) => (
+                      {pkg.includes.map((item: string, idx: number) => (
                         <li key={idx}>{item}</li>
                       ))}
                     </ul>

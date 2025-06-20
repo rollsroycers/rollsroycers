@@ -217,22 +217,416 @@
     "cullinan": {
       "name": "Rolls-Royce Cullinan",
       "description": "Effortless, everywhere luxury SUV",
-      "features": ["All-Terrain", "Viewing Suite", "Recreation Module", "Night Vision"]
+      "features": ["All-Terrain", "Viewing Suite", "Recreation Module", "Night Vision"],
+      "images": {
+        "blackAlt": "Rolls-Royce Cullinan Black Exterior Dubai",
+        "frontAlt": "Cullinan Front View Luxury SUV",
+        "interiorAlt": "Cullinan Interior Leather Seats",
+        "roadAlt": "Cullinan on Dubai Roads"
+      },
+      "specs": {
+        "performance": {
+          "engine": { "label": "Engine", "value": "6.75L V12 Twin-Turbo" },
+          "power": { "label": "Power", "value": "563 HP" },
+          "torque": { "label": "Torque", "value": "850 Nm" },
+          "acceleration": { "label": "0-100 km/h", "value": "5.2 seconds" },
+          "topSpeed": { "label": "Top Speed", "value": "250 km/h" }
+        },
+        "dimensions": {
+          "length": { "label": "Length", "value": "5,341 mm" },
+          "width": { "label": "Width", "value": "2,164 mm" },
+          "height": { "label": "Height", "value": "1,835 mm" },
+          "wheelbase": { "label": "Wheelbase", "value": "3,295 mm" },
+          "bootCapacity": { "label": "Boot Capacity", "value": "600L / 1,930L" }
+        },
+        "features": [
+          "All-Terrain Capability",
+          "Magic Carpet Ride Suspension",
+          "Night Vision & Wildlife Detection",
+          "Viewing Suite (Rear Seats)",
+          "Refrigerated Compartment",
+          "Bespoke Audio System",
+          "Panoramic Glass Roof",
+          "4-Zone Climate Control"
+        ]
+      },
+      "rentalPackages": {
+        "daily": {
+          "duration": "Daily",
+          "price": "AED 6,500",
+          "includes": ["200 km/day", "Basic Insurance", "Chauffeur Option"]
+        },
+        "weekend": {
+          "duration": "Weekend",
+          "price": "AED 12,000",
+          "includes": ["500 km total", "Premium Insurance", "Airport Transfer"]
+        },
+        "weekly": {
+          "duration": "Weekly",
+          "price": "AED 39,000",
+          "includes": ["1,500 km total", "Full Coverage", "Dedicated Concierge"]
+        },
+        "monthly": {
+          "duration": "Monthly",
+          "price": "AED 130,000",
+          "includes": ["4,000 km total", "VIP Support", "Maintenance Included"]
+        }
+      },
+      "keyFeatures": {
+        "mastery": {
+          "title": "All-Terrain Mastery",
+          "description": "Conquer Dubai's desert dunes or cruise the city streets with equal elegance"
+        },
+        "luxury": {
+          "title": "Spacious Luxury",
+          "description": "Room for 5 adults in supreme comfort, perfect for family adventures"
+        },
+        "vision": {
+          "title": "Night Vision",
+          "description": "Advanced safety with thermal imaging for confident night driving"
+        },
+        "suite": {
+          "title": "Viewing Suite",
+          "description": "Unique rear seats that fold out for luxury outdoor experiences"
+        }
+      }
     },
     "ghost": {
       "name": "Rolls-Royce Ghost",
       "description": "Post-opulent minimalism",
-      "features": ["Planar Suspension", "Micro-Environment", "Illuminated Fascia", "Magic Carpet Ride"]
+      "features": ["Planar Suspension", "Micro-Environment", "Illuminated Fascia", "Magic Carpet Ride"],
+      "images": {
+        "blackAlt": "Black Rolls-Royce Ghost in Dubai",
+        "chauffeurAlt": "Rolls-Royce Ghost with chauffeur",
+        "interiorAlt": "Luxurious interior of the Rolls-Royce Ghost",
+        "frontGrilleAlt": "Front grille of the Rolls-Royce Ghost",
+        "interiorExcellenceAlt": "Interior excellence of the Rolls-Royce Ghost"
+      },
+      "specs": {
+        "performance": {
+          "engine": { "label": "Engine", "value": "6.75L Twin-Turbo V12" },
+          "power": { "label": "Power", "value": "563 hp" },
+          "torque": { "label": "Torque", "value": "850 Nm" },
+          "acceleration": { "label": "0-100 km/h", "value": "4.8s" },
+          "topSpeed": { "label": "Top Speed", "value": "250 km/h" }
+        },
+        "dimensions": {
+          "length": { "label": "Length", "value": "5,546 mm" },
+          "width": { "label": "Width", "value": "2,148 mm" },
+          "height": { "label": "Height", "value": "1,571 mm" },
+          "wheelbase": { "label": "Wheelbase", "value": "3,295 mm" },
+          "seating": { "label": "Seating", "value": "5" }
+        },
+        "technology": [
+          "Satellite Aided Transmission",
+          "Micro-Environment Purification System",
+          "Bespoke Audio System",
+          "Illuminated Fascia"
+        ]
+      },
+      "rentalPackages": {
+        "daily": {
+          "duration": "Daily Rental",
+          "price": "AED 3,800",
+          "includes": ["250km mileage", "Insurance", "24/7 Support"]
+        },
+        "weekend": {
+          "duration": "Weekend Package",
+          "price": "AED 7,200",
+          "includes": ["500km mileage", "Full Insurance", "VIP Concierge"]
+        },
+        "weekly": {
+          "duration": "Weekly Rental",
+          "price": "AED 25,000",
+          "includes": ["1500km mileage", "Full Insurance", "Dedicated Manager"]
+        },
+        "monthly": {
+          "duration": "Monthly Rental",
+          "price": "Contact Us",
+          "includes": ["Unlimited Mileage", "Full Maintenance", "Custom Terms"]
+        }
+      },
+      "businessFeatures": {
+        "excellence": {
+          "title": "Corporate Excellence",
+          "description": "The Ghost is the definitive choice for executives who demand sophistication and performance."
+        },
+        "quiet": {
+          "title": "Whisper-Quiet Cabin",
+          "description": "Conduct meetings or relax in a serene environment, shielded from the city's hustle."
+        },
+        "connected": {
+          "title": "Always Connected",
+          "description": "With onboard Wi-Fi and advanced connectivity, the Ghost is your mobile office."
+        },
+        "safety": {
+          "title": "Uncompromised Safety",
+          "description": "Advanced driver-assistance systems ensure a safe and secure journey every time."
+        }
+      },
+      "overview": {
+        "title": "The Essence of Luxury Redefined",
+        "p1": "The Rolls-Royce Ghost represents a new chapter in luxury motoring. With its minimalist aesthetic philosophy of 'Post Opulence', it delivers an experience that transcends traditional luxury.",
+        "p2": "Perfect for Dubai's business elite, the Ghost combines unparalleled comfort with cutting-edge technology, creating an environment where success feels effortless.",
+        "stat1": {
+          "value": "130db",
+          "label": "Quietest Cabin"
+        },
+        "stat2": {
+          "value": "100+",
+          "label": "Sound Deadening Compounds"
+        }
+      }
     },
     "dawn": {
       "name": "Rolls-Royce Dawn",
       "description": "The world's quietest convertible",
-      "features": ["Silent Roof", "Bespoke Audio", "Luxurious Materials", "Dynamic Handling"]
+      "features": ["Silent Roof", "Bespoke Audio", "Luxurious Materials", "Dynamic Handling"],
+      "images": {
+        "convertibleAlt": "Rolls-Royce Dawn Convertible Dubai",
+        "drivingAlt": "Dawn Driving Experience Dubai",
+        "interiorAlt": "Dawn Luxury Interior",
+        "whiteAlt": "White Dawn for Special Events"
+      },
+      "specs": {
+        "performance": {
+          "engine": { "label": "Engine", "value": "6.6L V12 Twin-Turbo" },
+          "power": { "label": "Power", "value": "563 HP" },
+          "torque": { "label": "Torque", "value": "820 Nm" },
+          "acceleration": { "label": "0-100 km/h", "value": "4.9 seconds" },
+          "topSpeed": { "label": "Top Speed", "value": "250 km/h" }
+        },
+        "convertible": {
+          "roofOperation": { "label": "Roof Operation", "value": "Fully Automatic" },
+          "openingTime": { "label": "Opening Time", "value": "22 seconds" },
+          "operationSpeed": { "label": "Operation Speed", "value": "Up to 50 km/h" },
+          "roofMaterial": { "label": "Roof Material", "value": "Fabric (6 layers)" },
+          "acousticInsulation": { "label": "Acoustic Insulation", "value": "Library Quiet" }
+        },
+        "features": [
+          "Silent Ballet Roof Mechanism",
+          "Bespoke Audio (16 speakers)",
+          "Heated/Cooled Seats",
+          "Wind Deflector System",
+          "Starlight Headliner",
+          "Spirit of Ecstasy Retractable",
+          "Night Vision Camera",
+          "Adaptive LED Headlights"
+        ]
+      },
+      "idealOccasions": {
+        "sunrise": {
+          "icon": "🌅",
+          "title": "Sunrise Drives",
+          "description": "Experience Dubai's golden hour along Jumeirah Beach Road"
+        },
+        "palm": {
+          "icon": "🌴",
+          "title": "Palm Jumeirah Tours",
+          "description": "Cruise the iconic Palm with the roof down"
+        },
+        "celebrations": {
+          "icon": "🎊",
+          "title": "Special Celebrations",
+          "description": "Perfect for anniversaries and romantic occasions"
+        },
+        "photoshoots": {
+          "icon": "📸",
+          "title": "Photoshoots",
+          "description": "Ideal backdrop for luxury lifestyle photography"
+        }
+      },
+      "rentalPackages": {
+        "daily": {
+          "duration": "Daily",
+          "price": "AED 5,500",
+          "includes": ["200 km/day", "Convertible Insurance", "Concierge Service"]
+        },
+        "weekend": {
+          "duration": "Weekend",
+          "price": "AED 10,500",
+          "includes": ["500 km total", "Premium Coverage", "Beach Route Map"]
+        },
+        "weekly": {
+          "duration": "Weekly",
+          "price": "AED 33,000",
+          "includes": ["1,500 km total", "Full Insurance", "VIP Support"]
+        },
+        "monthly": {
+          "duration": "Monthly",
+          "price": "AED 110,000",
+          "includes": ["4,000 km total", "Maintenance", "Flexible Terms"]
+        }
+      },
+      "keyFeatures": {
+        "ballet": {
+          "title": "Silent Ballet",
+          "description": "The quietest convertible roof mechanism in the world"
+        },
+        "seconds": {
+          "title": "22 Seconds",
+          "description": "Smooth roof operation even while driving up to 50 km/h"
+        },
+        "weather": {
+          "title": "All-Weather",
+          "description": "6-layer fabric roof provides exceptional insulation"
+        },
+        "audio": {
+          "title": "Bespoke Audio",
+          "description": "Perfectly tuned for both open and closed driving"
+        }
+      },
+      "routes": {
+        "coastal": {
+          "title": "Coastal Drive",
+          "path": "Jumeirah Beach Road → La Mer → City Walk → Downtown Dubai",
+          "distance": "25 km",
+          "duration": "45 minutes",
+          "bestTime": "Sunset",
+          "highlights": "Beach views, Burj Al Arab"
+        },
+        "desert": {
+          "title": "Desert Escape",
+          "path": "Dubai → Al Qudra Lakes → Desert Conservation Reserve",
+          "distance": "50 km",
+          "duration": "1.5 hours",
+          "bestTime": "Early morning",
+          "highlights": "Desert landscapes, wildlife"
+        }
+      }
     },
     "wraith": {
       "name": "Rolls-Royce Wraith",
       "description": "Power, style, drama",
-      "features": ["Fastback Design", "Satellite-Aided Transmission", "Starlight Headliner", "Bespoke Audio"]
+      "features": ["Fastback Design", "Satellite-Aided Transmission", "Starlight Headliner", "Bespoke Audio"],
+      "images": {
+        "blackBadgeAlt": "Rolls-Royce Wraith Black Badge in Dubai",
+        "grandTourerAlt": "Wraith as the ultimate Grand Tourer",
+        "starlightInteriorAlt": "Wraith interior with Starlight Headliner",
+        "frontDesignAlt": "Dynamic front design of the Rolls-Royce Wraith"
+      },
+      "specs": {
+        "performance": {
+          "engine": { "label": "Engine", "value": "6.6L Twin-Turbo V12" },
+          "power": { "label": "Power", "value": "624 hp" },
+          "torque": { "label": "Torque", "value": "870 Nm" },
+          "acceleration": { "label": "0-100 km/h", "value": "4.5s" },
+          "topSpeed": { "label": "Top Speed", "value": "250 km/h" }
+        },
+        "dimensions": {
+          "length": { "label": "Length", "value": "5,285 mm" },
+          "width": { "label": "Width", "value": "1,947 mm" },
+          "height": { "label": "Height", "value": "1,507 mm" },
+          "wheelbase": { "label": "Wheelbase", "value": "3,112 mm" },
+          "doors": { "label": "Doors", "value": "2 (Coach doors)" }
+        },
+        "exclusive": [
+          "Satellite Aided Transmission",
+          "Starlight Headliner",
+          "Bespoke Audio System",
+          "Night Vision Camera",
+          "Dynamic Suspension"
+        ]
+      },
+      "blackBadge": {
+        "title": "Wraith Black Badge",
+        "description": "The alter ego of Rolls-Royce. Black Badge is the expression of a bolder attitude to luxury.",
+        "features": [
+          "Enhanced V12 Twin-Turbo Engine",
+          "Darkened Chrome Details",
+          "Exclusive Black Badge Wheels",
+          "Carbon Fiber Interior Elements",
+          "Bespoke Black Badge Leather"
+        ]
+      },
+      "rentalPackages": {
+        "daily": {
+          "duration": "Daily",
+          "price": "AED 3,500",
+          "includes": ["250 km daily allowance", "Professional chauffeur", "Comprehensive insurance", "Complimentary fuel"]
+        },
+        "weekend": {
+          "duration": "Weekend",
+          "price": "AED 8,000",
+          "includes": ["600 km total allowance", "Friday to Sunday", "Airport transfers", "Concierge service"]
+        },
+        "weekly": {
+          "duration": "Weekly",
+          "price": "AED 21,000",
+          "includes": ["1,500 km weekly allowance", "Dedicated chauffeur", "VIP parking access", "Weekly maintenance"]
+        },
+        "monthly": {
+          "duration": "Monthly",
+          "price": "AED 75,000",
+          "includes": ["5,000 km monthly allowance", "Flexible chauffeur hours", "Premium insurance", "Monthly detailing"]
+        }
+      },
+      "drivingExperiences": {
+        "grandTouring": {
+          "icon": "🏎️",
+          "title": "Grand Touring",
+          "description": "Experience the ultimate cross-country performance.",
+          "route": "Dubai to Abu Dhabi Grand Mosque"
+        },
+        "nightCruising": {
+          "icon": "🌃",
+          "title": "Night Cruising",
+          "description": "Command the city's nightlife with unparalleled presence.",
+          "route": "Downtown Dubai & Sheikh Zayed Road"
+        },
+        "desertHighway": {
+          "icon": "🏜️",
+          "title": "Desert Highway",
+          "description": "Unleash the V12 power on open desert roads.",
+          "route": "Dubai to Jebel Hafeet"
+        },
+        "trackExperience": {
+          "icon": "🏁",
+          "title": "Track Experience",
+          "description": "Feel the raw power at the Dubai Autodrome.",
+          "route": "Exclusive track day packages available"
+        }
+      },
+      "featureTabs": {
+        "performance": {
+          "title": "Unmatched Power Delivery",
+          "description": "The Wraith's 6.6-liter twin-turbocharged V12 produces 624 horsepower, making it the most powerful Rolls-Royce in the lineup. The Satellite Aided Transmission uses GPS data to pre-select the optimal gear for upcoming terrain."
+        },
+        "design": {
+          "title": "Fastback Elegance",
+          "description": "The Wraith's sweeping fastback silhouette represents the most dynamic design in Rolls-Royce history. Coach doors provide theatrical entry, while the pillarless design creates an airy, open cabin.",
+          "stats": {
+            "doors": { "value": "2", "label": "Coach Doors" },
+            "roofline": { "value": "Fastback", "label": "Roofline" },
+            "seats": { "value": "4", "label": "Seats" },
+            "design": { "value": "Pillarless", "label": "Design" }
+          }
+        },
+        "technology": {
+          "title": "Advanced Technology",
+          "items": {
+            "transmission": {
+              "title": "Satellite Aided Transmission",
+              "description": "Uses GPS data to predict the road ahead and pre-selects the optimal gear for corners, hills, and motorway junctions."
+            },
+            "headliner": {
+              "title": "Starlight Headliner",
+              "description": "1,340 fiber optic lights hand-woven into the roof lining create a stunning celestial display unique to each car."
+            },
+            "audio": {
+              "title": "Bespoke Audio",
+              "description": "18-speaker system precisely tuned to the Wraith's unique cabin acoustics for an unparalleled audio experience."
+            },
+            "vision": {
+              "title": "Night Vision",
+              "description": "Thermal imaging camera detects pedestrians and animals up to 300 meters away, even in complete darkness."
+            }
+          }
+        },
+        "experience": {
+          "title": "Driving Experiences"
+        }
+      }
     },
     "from": "From",
     "perDay": "per day",

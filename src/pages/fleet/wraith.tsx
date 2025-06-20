@@ -16,11 +16,25 @@ export default function WraithPage() {
   const { t } = useTranslation('common')
   const [selectedFeature, setSelectedFeature] = useState('performance')
 
-  const getTranslatedArray = (key: string, fallback: string[]): string[] => {
-    const translation = t(key, { returnObjects: true });
-    return Array.isArray(translation) ? translation : fallback;
+  type RentalPackage = {
+    duration: string;
+    price: string;
+    includes: string[];
   };
-  
+
+  type DrivingExperience = {
+    icon: string;
+    title: string;
+    description: string;
+    route: string;
+  };
+
+  type BlackBadge = {
+    title: string;
+    description: string;
+    features: string[];
+  };
+
   const images = [
     { src: '/images/Rolls-Royce-black.jpg', alt: t('fleet.wraith.images.blackBadgeAlt') },
     { src: '/images/Rolls-Royce-Ride.jpg', alt: t('fleet.wraith.images.grandTourerAlt') },
@@ -29,110 +43,16 @@ export default function WraithPage() {
   ]
 
   const specifications = {
-    performance: [
-      { label: t('fleet.wraith.specs.performance.engine.label'), value: t('fleet.wraith.specs.performance.engine.value') },
-      { label: t('fleet.wraith.specs.performance.power.label'), value: t('fleet.wraith.specs.performance.power.value') },
-      { label: t('fleet.wraith.specs.performance.torque.label'), value: t('fleet.wraith.specs.performance.torque.value') },
-      { label: t('fleet.wraith.specs.performance.acceleration.label'), value: t('fleet.wraith.specs.performance.acceleration.value') },
-      { label: t('fleet.wraith.specs.performance.topSpeed.label'), value: t('fleet.wraith.specs.performance.topSpeed.value') }
-    ],
-    dimensions: [
-      { label: t('fleet.wraith.specs.dimensions.length.label'), value: t('fleet.wraith.specs.dimensions.length.value') },
-      { label: t('fleet.wraith.specs.dimensions.width.label'), value: t('fleet.wraith.specs.dimensions.width.value') },
-      { label: t('fleet.wraith.specs.dimensions.height.label'), value: t('fleet.wraith.specs.dimensions.height.value') },
-      { label: t('fleet.wraith.specs.dimensions.wheelbase.label'), value: t('fleet.wraith.specs.dimensions.wheelbase.value') },
-      { label: t('fleet.wraith.specs.dimensions.doors.label'), value: t('fleet.wraith.specs.dimensions.doors.value') }
-    ],
-    exclusive: getTranslatedArray('fleet.wraith.specs.exclusive', [
-      'Satellite Aided Transmission',
-      'Starlight Headliner',
-      'Bespoke Audio System',
-      'Night Vision Camera',
-      'Dynamic Suspension'
-    ])
+    performance: Object.values(t('fleet.wraith.specs.performance', { returnObjects: true })),
+    dimensions: Object.values(t('fleet.wraith.specs.dimensions', { returnObjects: true })),
+    exclusive: t('fleet.wraith.specs.exclusive', { returnObjects: true }) as string[]
   }
 
-  const blackBadge = {
-    title: t('fleet.wraith.blackBadge.title') || 'Black Badge',
-    description: t('fleet.wraith.blackBadge.description') || 'The alter ego of Rolls-Royce. Black Badge is the expression of a bolder attitude to luxury.',
-    features: getTranslatedArray('fleet.wraith.blackBadge.features', [
-      'Enhanced V12 Twin-Turbo Engine',
-      'Darkened Chrome Details',
-      'Exclusive Black Badge Wheels',
-      'Carbon Fiber Interior Elements',
-      'Bespoke Black Badge Leather'
-    ])
-  }
+  const blackBadge: BlackBadge = t('fleet.wraith.blackBadge', { returnObjects: true }) as BlackBadge;
 
-  const rentalPackages = [
-    {
-      duration: t('fleet.wraith.rentalPackages.daily.duration') || 'Daily',
-      price: t('fleet.wraith.rentalPackages.daily.price') || 'AED 3,500',
-      includes: getTranslatedArray('fleet.wraith.rentalPackages.daily.includes', [
-        '250 km daily allowance',
-        'Professional chauffeur',
-        'Comprehensive insurance',
-        'Complimentary fuel'
-      ])
-    },
-    {
-      duration: t('fleet.wraith.rentalPackages.weekend.duration') || 'Weekend',
-      price: t('fleet.wraith.rentalPackages.weekend.price') || 'AED 8,000',
-      includes: getTranslatedArray('fleet.wraith.rentalPackages.weekend.includes', [
-        '600 km total allowance',
-        'Friday to Sunday',
-        'Airport transfers',
-        'Concierge service'
-      ])
-    },
-    {
-      duration: t('fleet.wraith.rentalPackages.weekly.duration') || 'Weekly',
-      price: t('fleet.wraith.rentalPackages.weekly.price') || 'AED 21,000',
-      includes: getTranslatedArray('fleet.wraith.rentalPackages.weekly.includes', [
-        '1,500 km weekly allowance',
-        'Dedicated chauffeur',
-        'VIP parking access',
-        'Weekly maintenance'
-      ])
-    },
-    {
-      duration: t('fleet.wraith.rentalPackages.monthly.duration') || 'Monthly',
-      price: t('fleet.wraith.rentalPackages.monthly.price') || 'AED 75,000',
-      includes: getTranslatedArray('fleet.wraith.rentalPackages.monthly.includes', [
-        '5,000 km monthly allowance',
-        'Flexible chauffeur hours',
-        'Premium insurance',
-        'Monthly detailing'
-      ])
-    }
-  ]
+  const rentalPackages: RentalPackage[] = Object.values(t('fleet.wraith.rentalPackages', { returnObjects: true }));
 
-  const drivingExperiences = [
-    {
-      icon: '🏎️',
-      title: t('fleet.wraith.drivingExperiences.grandTouring.title'),
-      description: t('fleet.wraith.drivingExperiences.grandTouring.description'),
-      route: t('fleet.wraith.drivingExperiences.grandTouring.route')
-    },
-    {
-      icon: '🌃',
-      title: t('fleet.wraith.drivingExperiences.nightCruising.title'),
-      description: t('fleet.wraith.drivingExperiences.nightCruising.description'),
-      route: t('fleet.wraith.drivingExperiences.nightCruising.route')
-    },
-    {
-      icon: '🏜️',
-      title: t('fleet.wraith.drivingExperiences.desertHighway.title'),
-      description: t('fleet.wraith.drivingExperiences.desertHighway.description'),
-      route: t('fleet.wraith.drivingExperiences.desertHighway.route')
-    },
-    {
-      icon: '🏁',
-      title: t('fleet.wraith.drivingExperiences.trackExperience.title'),
-      description: t('fleet.wraith.drivingExperiences.trackExperience.description'),
-      route: t('fleet.wraith.drivingExperiences.trackExperience.route')
-    }
-  ]
+  const drivingExperiences: DrivingExperience[] = Object.values(t('fleet.wraith.drivingExperiences', { returnObjects: true }));
 
   return (
     <>
@@ -248,12 +168,12 @@ export default function WraithPage() {
               {selectedFeature === 'performance' && (
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
                   <div>
-                    <h3 className="text-3xl font-bold text-white mb-4">Unmatched Power Delivery</h3>
+                    <h3 className="text-3xl font-bold text-white mb-4">{t('fleet.wraith.featureTabs.performance.title')}</h3>
                     <p className="text-gray-300 mb-6">
-                      The Wraith's 6.6-liter twin-turbocharged V12 produces 624 horsepower, making it the most powerful Rolls-Royce in the lineup. The Satellite Aided Transmission uses GPS data to pre-select the optimal gear for upcoming terrain.
+                      {t('fleet.wraith.featureTabs.performance.description')}
                     </p>
                     <div className="space-y-4">
-                      {specifications.performance.map((spec, index) => (
+                      {specifications.performance.map((spec: any, index: number) => (
                         <div key={index} className="flex justify-between items-center bg-rolls-black/30 p-3 rounded">
                           <span className="text-gray-400">{spec.label}</span>
                           <span className="text-rolls-gold font-semibold">{spec.value}</span>
@@ -264,7 +184,7 @@ export default function WraithPage() {
                   <div className="relative h-96 rounded-lg overflow-hidden">
                     <Image
                       src="/images/Rolls-Royce-front.jpg"
-                      alt={t('fleet.wraith.images.performanceAlt')}
+                      alt={t('fleet.wraith.images.frontDesignAlt')}
                       fill
                       className="object-cover"
                     />
@@ -274,66 +194,40 @@ export default function WraithPage() {
 
               {selectedFeature === 'design' && (
                 <div className="text-center">
-                  <h3 className="text-3xl font-bold text-white mb-4">Fastback Elegance</h3>
+                  <h3 className="text-3xl font-bold text-white mb-4">{t('fleet.wraith.featureTabs.design.title')}</h3>
                   <p className="text-gray-300 mb-8 max-w-2xl mx-auto">
-                    The Wraith's sweeping fastback silhouette represents the most dynamic design in Rolls-Royce history. Coach doors provide theatrical entry, while the pillarless design creates an airy, open cabin.
+                    {t('fleet.wraith.featureTabs.design.description')}
                   </p>
                   <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-                    <div className="bg-rolls-black/50 p-4 rounded-lg">
-                      <div className="text-2xl font-bold text-rolls-gold">2</div>
-                      <div className="text-sm text-gray-400">Coach Doors</div>
-                    </div>
-                    <div className="bg-rolls-black/50 p-4 rounded-lg">
-                      <div className="text-2xl font-bold text-rolls-gold">Fastback</div>
-                      <div className="text-sm text-gray-400">Roofline</div>
-                    </div>
-                    <div className="bg-rolls-black/50 p-4 rounded-lg">
-                      <div className="text-2xl font-bold text-rolls-gold">4</div>
-                      <div className="text-sm text-gray-400">Seats</div>
-                    </div>
-                    <div className="bg-rolls-black/50 p-4 rounded-lg">
-                      <div className="text-2xl font-bold text-rolls-gold">Pillarless</div>
-                      <div className="text-sm text-gray-400">Design</div>
-                    </div>
+                    {Object.values(t('fleet.wraith.featureTabs.design.stats', { returnObjects: true })).map((stat: any, index: number) => (
+                      <div key={index} className="bg-rolls-black/50 p-4 rounded-lg">
+                        <div className="text-2xl font-bold text-rolls-gold">{stat.value}</div>
+                        <div className="text-sm text-gray-400">{stat.label}</div>
+                      </div>
+                    ))}
                   </div>
                 </div>
               )}
 
               {selectedFeature === 'technology' && (
                 <div>
-                  <h3 className="text-3xl font-bold text-white mb-8 text-center">Advanced Technology</h3>
+                  <h3 className="text-3xl font-bold text-white mb-8 text-center">{t('fleet.wraith.featureTabs.technology.title')}</h3>
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                    <div className="bg-rolls-black/50 backdrop-blur-sm border border-rolls-gold/20 rounded-lg p-6">
-                      <h4 className="text-xl font-semibold text-rolls-gold mb-4">Satellite Aided Transmission</h4>
-                      <p className="text-gray-300">
-                        Uses GPS data to predict the road ahead and pre-selects the optimal gear for corners, hills, and motorway junctions.
-                      </p>
-                    </div>
-                    <div className="bg-rolls-black/50 backdrop-blur-sm border border-rolls-gold/20 rounded-lg p-6">
-                      <h4 className="text-xl font-semibold text-rolls-gold mb-4">Starlight Headliner</h4>
-                      <p className="text-gray-300">
-                        1,340 fiber optic lights hand-woven into the roof lining create a stunning celestial display unique to each car.
-                      </p>
-                    </div>
-                    <div className="bg-rolls-black/50 backdrop-blur-sm border border-rolls-gold/20 rounded-lg p-6">
-                      <h4 className="text-xl font-semibold text-rolls-gold mb-4">Bespoke Audio</h4>
-                      <p className="text-gray-300">
-                        18-speaker system precisely tuned to the Wraith's unique cabin acoustics for an unparalleled audio experience.
-                      </p>
-                    </div>
-                    <div className="bg-rolls-black/50 backdrop-blur-sm border border-rolls-gold/20 rounded-lg p-6">
-                      <h4 className="text-xl font-semibold text-rolls-gold mb-4">Night Vision</h4>
-                      <p className="text-gray-300">
-                        Thermal imaging camera detects pedestrians and animals up to 300 meters away, even in complete darkness.
-                      </p>
-                    </div>
+                    {Object.values(t('fleet.wraith.featureTabs.technology.items', { returnObjects: true })).map((item: any, index: number) => (
+                      <div key={index} className="bg-rolls-black/50 backdrop-blur-sm border border-rolls-gold/20 rounded-lg p-6">
+                        <h4 className="text-xl font-semibold text-rolls-gold mb-4">{item.title}</h4>
+                        <p className="text-gray-300">
+                          {item.description}
+                        </p>
+                      </div>
+                    ))}
                   </div>
                 </div>
               )}
 
               {selectedFeature === 'experience' && (
                 <div>
-                  <h3 className="text-3xl font-bold text-white mb-8 text-center">Driving Experiences</h3>
+                  <h3 className="text-3xl font-bold text-white mb-8 text-center">{t('fleet.wraith.featureTabs.experience.title')}</h3>
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                     {drivingExperiences.map((exp, index) => (
                       <motion.div

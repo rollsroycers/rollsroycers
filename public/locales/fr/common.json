@@ -91,7 +91,20 @@
     "ghost": {
       "name": "Rolls-Royce Ghost",
       "description": "Minimalisme post-opulent.",
-      "features": ["Suspension Planar", "Micro-Environnement", "Fascia Illuminée", "Conduite Tapis Volant"]
+      "features": ["Suspension Planar", "Micro-Environnement", "Fascia Illuminée", "Conduite Tapis Volant"],
+      "overview": {
+        "title": "L'essence du luxe redéfinie",
+        "p1": "La Rolls-Royce Ghost représente un nouveau chapitre dans l'automobile de luxe. Avec sa philosophie esthétique minimaliste de 'Post Opulence', elle offre une expérience qui transcende le luxe traditionnel.",
+        "p2": "Parfaite pour l'élite des affaires de Dubaï, la Ghost allie un confort inégalé à une technologie de pointe, créant un environnement où le succès semble sans effort.",
+        "stat1": {
+          "value": "130db",
+          "label": "Cabine la plus silencieuse"
+        },
+        "stat2": {
+          "value": "100+",
+          "label": "Composés d'insonorisation"
+        }
+      }
     },
     "dawn": {
       "name": "Rolls-Royce Dawn",

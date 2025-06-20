@@ -12,88 +12,44 @@ import WhatsAppButton from '@/components/WhatsAppButton'
 import WeatherRecommendations from '@/components/WeatherRecommendations'
 import SEO from '@/components/SEO'
 
+import { useTranslation } from 'next-i18next'
+
 export default function DawnPage() {
+  const { t } = useTranslation('common')
   const [roofStatus, setRoofStatus] = useState<'open' | 'closed'>('closed')
+
+  type RentalPackage = {
+    duration: string;
+    price: string;
+    includes: string[];
+  };
+
+  type IdealOccasion = {
+    icon: string;
+    title: string;
+    description: string;
+  };
   
   const images = [
-    { src: '/images/Rolls-royce-dawn-series-2.jpg', alt: 'Rolls-Royce Dawn Convertible Dubai' },
-    { src: '/images/Rolls-Royce-Ride-2.jpg', alt: 'Dawn Driving Experience Dubai' },
-    { src: '/images/inside-Rolls-Royce.jpg', alt: 'Dawn Luxury Interior' },
-    { src: '/images/Rolls-Royce-white.jpg', alt: 'White Dawn for Special Events' }
+    { src: '/images/Rolls-royce-dawn-series-2.jpg', alt: t('fleet.dawn.images.convertibleAlt') },
+    { src: '/images/Rolls-Royce-Ride-2.jpg', alt: t('fleet.dawn.images.drivingAlt') },
+    { src: '/images/inside-Rolls-Royce.jpg', alt: t('fleet.dawn.images.interiorAlt') },
+    { src: '/images/Rolls-Royce-white.jpg', alt: t('fleet.dawn.images.whiteAlt') }
   ]
 
   const specifications = {
-    performance: [
-      { label: 'Engine', value: '6.6L V12 Twin-Turbo' },
-      { label: 'Power', value: '563 HP' },
-      { label: 'Torque', value: '820 Nm' },
-      { label: '0-100 km/h', value: '4.9 seconds' },
-      { label: 'Top Speed', value: '250 km/h' }
-    ],
-    convertible: [
-      { label: 'Roof Operation', value: 'Fully Automatic' },
-      { label: 'Opening Time', value: '22 seconds' },
-      { label: 'Operation Speed', value: 'Up to 50 km/h' },
-      { label: 'Roof Material', value: 'Fabric (6 layers)' },
-      { label: 'Acoustic Insulation', value: 'Library Quiet' }
-    ],
-    features: [
-      'Silent Ballet Roof Mechanism',
-      'Bespoke Audio (16 speakers)',
-      'Heated/Cooled Seats',
-      'Wind Deflector System',
-      'Starlight Headliner',
-      'Spirit of Ecstasy Retractable',
-      'Night Vision Camera',
-      'Adaptive LED Headlights'
-    ]
+    performance: Object.values(t('fleet.dawn.specs.performance', { returnObjects: true })),
+    convertible: Object.values(t('fleet.dawn.specs.convertible', { returnObjects: true })),
+    features: t('fleet.dawn.specs.features', { returnObjects: true }) as string[]
   }
 
-  const idealOccasions = [
-    {
-      icon: '🌅',
-      title: 'Sunrise Drives',
-      description: 'Experience Dubai\'s golden hour along Jumeirah Beach Road'
-    },
-    {
-      icon: '🌴',
-      title: 'Palm Jumeirah Tours',
-      description: 'Cruise the iconic Palm with the roof down'
-    },
-    {
-      icon: '🎊',
-      title: 'Special Celebrations',
-      description: 'Perfect for anniversaries and romantic occasions'
-    },
-    {
-      icon: '📸',
-      title: 'Photoshoots',
-      description: 'Ideal backdrop for luxury lifestyle photography'
-    }
-  ]
+  const idealOccasions: IdealOccasion[] = Object.values(t('fleet.dawn.idealOccasions', { returnObjects: true }));
 
-  const rentalPackages = [
-    {
-      duration: 'Daily',
-      price: 'AED 5,500',
-      includes: ['200 km/day', 'Convertible Insurance', 'Concierge Service']
-    },
-    {
-      duration: 'Weekend',
-      price: 'AED 10,500',
-      includes: ['500 km total', 'Premium Coverage', 'Beach Route Map']
-    },
-    {
-      duration: 'Weekly',
-      price: 'AED 33,000',
-      includes: ['1,500 km total', 'Full Insurance', 'VIP Support']
-    },
-    {
-      duration: 'Monthly',
-      price: 'AED 110,000',
-      includes: ['4,000 km total', 'Maintenance', 'Flexible Terms']
-    }
-  ]
+  const rentalPackages: RentalPackage[] = Object.values(t('fleet.dawn.rentalPackages', { returnObjects: true }));
+
+  const keyFeatures = Object.values(t('fleet.dawn.keyFeatures', { returnObjects: true }));
+
+  const routes = Object.values(t('fleet.dawn.routes', { returnObjects: true }));
 
   return (
     <>
@@ -167,64 +123,21 @@ export default function DawnPage() {
               Open-Air Luxury Redefined
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-              <motion.div
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                className="text-center"
-              >
-                <div className="w-20 h-20 mx-auto mb-4 bg-rolls-gold/10 rounded-full flex items-center justify-center">
-                  <svg className="w-10 h-10 text-rolls-gold" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z" />
-                  </svg>
-                </div>
-                <h3 className="text-xl font-semibold text-white mb-2">Silent Ballet</h3>
-                <p className="text-gray-400">The quietest convertible roof mechanism in the world</p>
-              </motion.div>
-
-              <motion.div
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                transition={{ delay: 0.1 }}
-                className="text-center"
-              >
-                <div className="w-20 h-20 mx-auto mb-4 bg-rolls-gold/10 rounded-full flex items-center justify-center">
-                  <svg className="w-10 h-10 text-rolls-gold" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
-                  </svg>
-                </div>
-                <h3 className="text-xl font-semibold text-white mb-2">22 Seconds</h3>
-                <p className="text-gray-400">Smooth roof operation even while driving up to 50 km/h</p>
-              </motion.div>
-
-              <motion.div
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                transition={{ delay: 0.2 }}
-                className="text-center"
-              >
-                <div className="w-20 h-20 mx-auto mb-4 bg-rolls-gold/10 rounded-full flex items-center justify-center">
-                  <svg className="w-10 h-10 text-rolls-gold" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 15a4 4 0 004 4h9a5 5 0 10-.1-9.999 5.002 5.002 0 10-9.78 2.096A4.001 4.001 0 003 15z" />
-                  </svg>
-                </div>
-                <h3 className="text-xl font-semibold text-white mb-2">All-Weather</h3>
-                <p className="text-gray-400">6-layer fabric roof provides exceptional insulation</p>
-              </motion.div>
-
-              <motion.div
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                transition={{ delay: 0.3 }}
-                className="text-center"
-              >
-                <div className="w-20 h-20 mx-auto mb-4 bg-rolls-gold/10 rounded-full flex items-center justify-center">
-                  <svg className="w-10 h-10 text-rolls-gold" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 19V6l12-3v13M9 19c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zm12-3c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zM9 10l12-3" />
-                  </svg>
-                </div>
-                <h3 className="text-xl font-semibold text-white mb-2">Bespoke Audio</h3>
-                <p className="text-gray-400">Perfectly tuned for both open and closed driving</p>
-              </motion.div>
+              {keyFeatures.map((feature: any, index: number) => (
+                <motion.div
+                  key={index}
+                  initial={{ opacity: 0, y: 20 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  transition={{ delay: index * 0.1 }}
+                  className="text-center"
+                >
+                  <div className="w-20 h-20 mx-auto mb-4 bg-rolls-gold/10 rounded-full flex items-center justify-center">
+                    {/* You can add icons here if you have them in your translation file */}
+                  </div>
+                  <h3 className="text-xl font-semibold text-white mb-2">{feature.title}</h3>
+                  <p className="text-gray-400">{feature.description}</p>
+                </motion.div>
+              ))}
             </div>
           </div>
         </section>
@@ -236,7 +149,7 @@ export default function DawnPage() {
               Perfect Moments for Dawn
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-              {idealOccasions.map((occasion, index) => (
+              {idealOccasions.map((occasion: IdealOccasion, index: number) => (
                 <motion.div
                   key={index}
                   initial={{ opacity: 0, scale: 0.9 }}
@@ -361,31 +274,20 @@ export default function DawnPage() {
               Recommended Dubai Routes
             </h2>
             <div className="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
-              <div className="bg-rolls-black/50 backdrop-blur-sm border border-rolls-gold/20 rounded-lg p-6">
-                <h3 className="text-xl font-semibold text-rolls-gold mb-4">Coastal Drive</h3>
-                <p className="text-gray-300 mb-4">
-                  Jumeirah Beach Road → La Mer → City Walk → Downtown Dubai
-                </p>
-                <ul className="space-y-2 text-sm text-gray-400">
-                  <li>• Distance: 25 km</li>
-                  <li>• Duration: 45 minutes</li>
-                  <li>• Best Time: Sunset</li>
-                  <li>• Highlights: Beach views, Burj Al Arab</li>
-                </ul>
-              </div>
-              
-              <div className="bg-rolls-black/50 backdrop-blur-sm border border-rolls-gold/20 rounded-lg p-6">
-                <h3 className="text-xl font-semibold text-rolls-gold mb-4">Desert Escape</h3>
-                <p className="text-gray-300 mb-4">
-                  Dubai → Al Qudra Lakes → Desert Conservation Reserve
-                </p>
-                <ul className="space-y-2 text-sm text-gray-400">
-                  <li>• Distance: 50 km</li>
-                  <li>• Duration: 1.5 hours</li>
-                  <li>• Best Time: Early morning</li>
-                  <li>• Highlights: Desert landscapes, wildlife</li>
-                </ul>
-              </div>
+              {routes.map((route: any, index: number) => (
+                <div key={index} className="bg-rolls-black/50 backdrop-blur-sm border border-rolls-gold/20 rounded-lg p-6">
+                  <h3 className="text-xl font-semibold text-rolls-gold mb-4">{route.title}</h3>
+                  <p className="text-gray-300 mb-4">
+                    {route.path}
+                  </p>
+                  <ul className="space-y-2 text-sm text-gray-400">
+                    <li>• Distance: {route.distance}</li>
+                    <li>• Duration: {route.duration}</li>
+                    <li>• Best Time: {route.bestTime}</li>
+                    <li>• Highlights: {route.highlights}</li>
+                  </ul>
+                </div>
+              ))}
             </div>
           </div>
         </section>
