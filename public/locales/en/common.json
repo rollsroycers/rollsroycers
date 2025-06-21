@@ -143,6 +143,47 @@
       "title": "Experience the Difference",
       "description": "Join thousands of satisfied clients who have chosen Rolls-Royce Dubai for their luxury transportation needs.",
       "button": "View Our Fleet"
+    },
+    "virtualShowroom": {
+      "title": "360° Virtual Experience",
+      "description": "Take an immersive virtual tour of our luxury showroom and explore every detail of our Rolls-Royce collection from the comfort of your home.",
+      "cta": "Start Virtual Tour"
+    },
+    "virtualTour": {
+      "title": "360° Virtual Experience",
+      "subtitle": "Explore every detail from anywhere",
+      "interiorSuffix": "Interior",
+      "alt": {
+        "interiorView": "Interior View"
+      },
+      "controls": {
+        "zoom": "Zoom",
+        "fullscreen": "Fullscreen",
+        "exit": "Exit",
+        "interactiveTour": "Interactive Tour"
+      },
+      "centerText": {
+        "logo": "RR",
+        "instruction": "Click hotspots to explore"
+      },
+      "features": {
+        "interactiveControls": {
+          "title": "Interactive Controls",
+          "description": "Navigate with mouse or touch gestures"
+        },
+        "detailedExploration": {
+          "title": "Detailed Exploration",
+          "description": "Zoom in to see craftsmanship details"
+        },
+        "mobileCompatible": {
+          "title": "Mobile Compatible",
+          "description": "Experience on any device, anywhere"
+        }
+      },
+      "cta": {
+        "question": "Want to experience this luxury in person?",
+        "button": "Schedule a Private Viewing"
+      }
     }
   },
   "home": {
@@ -217,14 +258,18 @@
     "cullinan": {
       "name": "Rolls-Royce Cullinan",
       "description": "Effortless, everywhere luxury SUV",
-      "features": ["All-Terrain", "Viewing Suite", "Recreation Module", "Night Vision"],
-      "images": {
-        "blackAlt": "Rolls-Royce Cullinan Black Exterior Dubai",
-        "frontAlt": "Cullinan Front View Luxury SUV",
-        "interiorAlt": "Cullinan Interior Leather Seats",
-        "roadAlt": "Cullinan on Dubai Roads"
+      "hero": {
+        "bookButton": "Book Cullinan Now",
+        "exploreButton": "Explore Features"
+      },
+      "whyChoose": {
+        "title": "Why Choose Cullinan in Dubai?"
       },
       "specs": {
+        "title": "Technical Excellence",
+        "performanceTitle": "Performance",
+        "dimensionsTitle": "Dimensions",
+        "featuresTitle": "Key Features",
         "performance": {
           "engine": { "label": "Engine", "value": "6.75L V12 Twin-Turbo" },
           "power": { "label": "Power", "value": "563 HP" },
@@ -251,6 +296,7 @@
         ]
       },
       "rentalPackages": {
+        "title": "Cullinan Rental Packages",
         "daily": {
           "duration": "Daily",
           "price": "AED 6,500",
@@ -289,11 +335,39 @@
           "title": "Viewing Suite",
           "description": "Unique rear seats that fold out for luxury outdoor experiences"
         }
+      },
+      "cta": {
+        "title": "Experience Cullinan Today",
+        "description": "Dubai's premier luxury SUV rental. Book now and receive complimentary chauffeur service for your first day."
+      },
+      "features": ["All-Terrain", "Viewing Suite", "Recreation Module", "Night Vision"],
+      "images": {
+        "blackAlt": "Rolls-Royce Cullinan Black Exterior Dubai",
+        "frontAlt": "Cullinan Front View Luxury SUV",
+        "interiorAlt": "Cullinan Interior Leather Seats",
+        "roadAlt": "Cullinan on Dubai Roads"
       }
     },
     "ghost": {
       "name": "Rolls-Royce Ghost",
       "description": "Post-opulent minimalism",
+      "subtitle": "Post Opulence. The Essence of Simplicity",
+      "heroButtons": {
+        "reserve": "Reserve Ghost Now",
+        "business": "Business Solutions"
+      },
+      "highlights": {
+        "acceleration": "4.8s to 100km/h",
+        "quiet": "Whisper Quiet",
+        "engine": "563 HP V12"
+      },
+      "tabs": {
+        "overview": "Overview",
+        "specifications": "Specifications",
+        "business": "Business",
+        "gallery": "Gallery",
+        "booking": "Booking"
+      },
       "features": ["Planar Suspension", "Micro-Environment", "Illuminated Fascia", "Magic Carpet Ride"],
       "images": {
         "blackAlt": "Black Rolls-Royce Ghost in Dubai",
@@ -376,6 +450,34 @@
           "value": "100+",
           "label": "Sound Deadening Compounds"
         }
+      },
+      "business": {
+        "title": "Ghost for Business Excellence",
+        "corporateSolutions": "Corporate Rental Solutions",
+        "executivePackage": {
+          "title": "Executive Package",
+          "features": [
+            "Dedicated account manager",
+            "Priority booking system",
+            "Corporate billing options",
+            "Volume discounts available"
+          ]
+        },
+        "vipServices": {
+          "title": "VIP Client Services",
+          "features": [
+            "Airport meet & greet",
+            "Multilingual chauffeurs",
+            "Flexible rental terms",
+            "24/7 concierge support"
+          ]
+        }
+      },
+      "gallery": {
+        "title": "Ghost Gallery"
+      },
+      "booking": {
+        "title": "Book Your Ghost Experience"
       }
     },
     "dawn": {
@@ -1230,6 +1332,26 @@
       "months": ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"],
       "daysOfWeek": ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"]
     }
+  },
+  "priceCalculator": {
+    "title": "Price Calculator",
+    "subtitle": "Get an instant quote for your luxury experience",
+    "selectCar": "Select Your Rolls-Royce",
+    "rentalDuration": "Rental Duration (Days)",
+    "monthlyRate": "🎉 Monthly rate applied!",
+    "weeklyRate": "🎉 Weekly rate applied!",
+    "dailyRate": "Daily rate",
+    "chauffeur": "Professional Chauffeur (+AED 1,500/day)",
+    "deliveryLocation": "Delivery Location",
+    "locations": {
+      "hotel": "Hotel (Free)",
+      "airport": "Airport (AED 500)",
+      "other": "Other Location (AED 350)"
+    },
+    "promoCode": "Promo Code",
+    "calculateButton": "Calculate Price",
+    "priceBreakdown": "Price Breakdown",
+    "vehicleRental": "Vehicle Rental"
   },
   "placeholders": {
     "loading": "Loading...",

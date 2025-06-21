@@ -86,11 +86,116 @@
     "cullinan": {
       "name": "Rolls-Royce Cullinan",
       "description": "Le SUV de luxe, sans effort, partout.",
-      "features": ["Tout-Terrain", "Suite d'Observation", "Module de Loisirs", "Vision Nocturne"]
+      "features": ["Tout-Terrain", "Suite d'Observation", "Module de Loisirs", "Vision Nocturne"],
+      "images": {
+        "blackAlt": "Rolls-Royce Cullinan noir",
+        "frontAlt": "Vue avant Rolls-Royce Cullinan",
+        "interiorAlt": "Intérieur Rolls-Royce Cullinan",
+        "roadAlt": "Rolls-Royce Cullinan sur la route"
+      },
+      "hero": {
+        "bookButton": "Réserver Cullinan maintenant",
+        "exploreButton": "Explorer les caractéristiques"
+      },
+      "whyChoose": {
+        "title": "Pourquoi choisir Cullinan à Dubaï?"
+      },
+      "specs": {
+        "title": "Excellence technique",
+        "performanceTitle": "Performance",
+        "dimensionsTitle": "Dimensions",
+        "featuresTitle": "Caractéristiques clés",
+        "performance": {
+          "engine": { "label": "Moteur", "value": "6.75L V12 Twin-Turbo" },
+          "power": { "label": "Puissance", "value": "563 ch" },
+          "torque": { "label": "Couple", "value": "850 Nm" },
+          "acceleration": { "label": "0-100 km/h", "value": "5.2 secondes" },
+          "topSpeed": { "label": "Vitesse max", "value": "250 km/h" }
+        },
+        "dimensions": {
+          "length": { "label": "Longueur", "value": "5,341 mm" },
+          "width": { "label": "Largeur", "value": "2,164 mm" },
+          "height": { "label": "Hauteur", "value": "1,835 mm" },
+          "wheelbase": { "label": "Empattement", "value": "3,295 mm" },
+          "bootCapacity": { "label": "Volume coffre", "value": "600L / 1,930L" }
+        },
+        "features": [
+          "Capacité tout-terrain",
+          "Suspension Magic Carpet Ride",
+          "Vision nocturne et détection de la faune",
+          "Suite d'observation (sièges arrière)",
+          "Compartiment réfrigéré",
+          "Système audio Bespoke",
+          "Toit panoramique en verre",
+          "Climatisation 4 zones"
+        ]
+      },
+      "rentalPackages": {
+        "title": "Forfaits de location Cullinan",
+        "daily": {
+          "duration": "Quotidien",
+          "price": "6,500 AED",
+          "includes": ["200 km/jour", "Assurance de base", "Option chauffeur"]
+        },
+        "weekend": {
+          "duration": "Week-end",
+          "price": "12,000 AED",
+          "includes": ["500 km total", "Assurance premium", "Transfert aéroport"]
+        },
+        "weekly": {
+          "duration": "Hebdomadaire",
+          "price": "39,000 AED",
+          "includes": ["1,500 km total", "Couverture complète", "Conciergerie dédiée"]
+        },
+        "monthly": {
+          "duration": "Mensuel",
+          "price": "130,000 AED",
+          "includes": ["4,000 km total", "Support VIP", "Entretien inclus"]
+        }
+      },
+      "keyFeatures": {
+        "mastery": {
+          "title": "Maîtrise tout-terrain",
+          "description": "Conquérez les dunes du désert de Dubaï ou parcourez les rues de la ville avec la même élégance"
+        },
+        "luxury": {
+          "title": "Luxe spacieux",
+          "description": "Place pour 5 adultes dans un confort suprême, parfait pour les aventures familiales"
+        },
+        "vision": {
+          "title": "Vision nocturne",
+          "description": "Sécurité avancée avec imagerie thermique pour une conduite nocturne en confiance"
+        },
+        "suite": {
+          "title": "Suite d'observation",
+          "description": "Sièges arrière uniques qui se déplient pour des expériences de luxe en plein air"
+        }
+      },
+      "cta": {
+        "title": "Découvrez Cullinan aujourd'hui",
+        "description": "La première location de SUV de luxe à Dubaï. Réservez maintenant et recevez un service de chauffeur gratuit pour votre première journée."
+      }
     },
     "ghost": {
       "name": "Rolls-Royce Ghost",
       "description": "Minimalisme post-opulent.",
+      "subtitle": "Post Opulence. L'Essence de la Simplicité",
+      "heroButtons": {
+        "reserve": "Réserver la Ghost Maintenant",
+        "business": "Solutions d'Affaires"
+      },
+      "highlights": {
+        "acceleration": "4.8s à 100km/h",
+        "quiet": "Silence Murmuré",
+        "engine": "563 CV V12"
+      },
+      "tabs": {
+        "overview": "Aperçu",
+        "specifications": "Spécifications",
+        "business": "Affaires",
+        "gallery": "Galerie",
+        "booking": "Réservation"
+      },
       "features": ["Suspension Planar", "Micro-Environnement", "Fascia Illuminée", "Conduite Tapis Volant"],
       "overview": {
         "title": "L'essence du luxe redéfinie",
@@ -104,6 +209,34 @@
           "value": "100+",
           "label": "Composés d'insonorisation"
         }
+      },
+      "business": {
+        "title": "Ghost pour l'Excellence Commerciale",
+        "corporateSolutions": "Solutions de Location pour Entreprises",
+        "executivePackage": {
+          "title": "Forfait Exécutif",
+          "features": [
+            "Gestionnaire de compte dédié",
+            "Système de réservation prioritaire",
+            "Options de facturation pour les entreprises",
+            "Réductions sur volume disponibles"
+          ]
+        },
+        "vipServices": {
+          "title": "Services Clients VIP",
+          "features": [
+            "Accueil à l'aéroport",
+            "Chauffeurs multilingues",
+            "Conditions de location flexibles",
+            "Assistance de conciergerie 24/7"
+          ]
+        }
+      },
+      "gallery": {
+        "title": "Galerie Ghost"
+      },
+      "booking": {
+        "title": "Réservez Votre Expérience Ghost"
       }
     },
     "dawn": {
@@ -470,6 +603,42 @@
     "title": "Découvrez notre Showroom Virtuel à 360°",
     "description": "Faites une visite virtuelle immersive de notre showroom de luxe et explorez chaque détail de notre collection Rolls-Royce depuis le confort de votre maison.",
     "cta": "Commencer la Visite Virtuelle"
+  },
+  "virtualTour": {
+    "title": "Visite virtuelle à 360°",
+    "subtitle": "Explorez chaque détail depuis n'importe où dans le monde",
+    "interiorSuffix": "Intérieur",
+    "alt": {
+      "interiorView": "Vue intérieure"
+    },
+    "controls": {
+      "zoom": "Zoom",
+      "fullscreen": "Plein écran",
+      "exit": "Sortir",
+      "interactiveTour": "Visite interactive"
+    },
+    "centerText": {
+      "logo": "RR",
+      "instruction": "Cliquez sur les points chauds pour explorer"
+    },
+    "features": {
+      "interactiveControls": {
+        "title": "Contrôles interactifs",
+        "description": "Naviguez avec la souris ou les gestes tactiles"
+      },
+      "detailedExploration": {
+        "title": "Exploration détaillée",
+        "description": "Zoomez pour admirer les détails de l'artisanat"
+      },
+      "mobileCompatible": {
+        "title": "Compatible mobile",
+        "description": "Expérience sur n'importe quel appareil, n'importe où"
+      }
+    },
+    "cta": {
+      "question": "Envie de vivre ce luxe en personne?",
+      "button": "Planifier une visite privée"
+    }
   },
   "common": {
     "excellent": "Excellent",
@@ -895,9 +1064,30 @@
       }
     }
   },
+  "priceCalculator": {
+    "title": "Calculateur de Prix",
+    "subtitle": "Obtenez un devis instantané pour votre expérience de luxe",
+    "selectCar": "Sélectionnez Votre Rolls-Royce",
+    "rentalDuration": "Durée de la Location (Jours)",
+    "monthlyRate": "🎉 Tarif mensuel appliqué !",
+    "weeklyRate": "🎉 Tarif hebdomadaire appliqué !",
+    "dailyRate": "Tarif journalier",
+    "chauffeur": "Chauffeur Professionnel (+1,500 AED/jour)",
+    "deliveryLocation": "Lieu de Livraison",
+    "locations": {
+      "hotel": "Hôtel (Gratuit)",
+      "airport": "Aéroport (500 AED)",
+      "other": "Autre Lieu (350 AED)"
+    },
+    "promoCode": "Code Promo",
+    "calculateButton": "Calculer le Prix",
+    "priceBreakdown": "Détail du Prix",
+    "vehicleRental": "Location de Véhicule"
+  },
   "placeholders": {
     "loading": "Chargement...",
-    "error": "Une erreur est survenue."
+    "error": "Une erreur est survenue.",
+    "enterCode": "Entrer le code"
   },
   "locations": {
     "downtownDubai": {

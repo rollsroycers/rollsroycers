@@ -20,7 +20,27 @@ export default function SEO({ pageKey, title: titleProp, description: descriptio
   
   // Build the full translation key path
   const getTranslation = (key: string) => {
-    const fullKey = `pages.${pageKey}.${key}`
+    let fullKey = ''
+    
+    // Handle different pageKey formats
+    if (pageKey === 'home') {
+      fullKey = `pages.home.${key}`
+    } else if (pageKey === 'blog.index') {
+      fullKey = `pages.other.blog.${key}`
+    } else if (pageKey.startsWith('fleet.')) {
+      fullKey = `pages.fleet.${pageKey.split('.')[1]}.${key}`
+    } else if (pageKey.startsWith('services.')) {
+      fullKey = `pages.services.${pageKey.split('.')[1]}.${key}`
+    } else if (pageKey.startsWith('locations.')) {
+      fullKey = `pages.locations.${pageKey.split('.')[1]}.${key}`
+    } else if (pageKey.startsWith('other.')) {
+      fullKey = `pages.other.${pageKey.split('.')[1]}.${key}`
+    } else if (pageKey.startsWith('compare.')) {
+      fullKey = `pages.compare.${pageKey.split('.')[1]}.${key}`
+    } else {
+      fullKey = `pages.${pageKey}.${key}`
+    }
+    
     let translation = t(fullKey)
     
     // Replace dynamic parameters if provided

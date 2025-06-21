@@ -27,7 +27,7 @@ export default function CullinanPage() {
     { src: '/images/Rolls-Royce-black.jpg', alt: t('fleet.cullinan.images.blackAlt') },
     { src: '/images/Rolls-Royce-front.jpg', alt: t('fleet.cullinan.images.frontAlt') },
     { src: '/images/inside-Rolls-Royce.jpg', alt: t('fleet.cullinan.images.interiorAlt') },
-    { src: '/images/Rolls-Royce-Ride-2.jpg', alt: t('fleet.cullinan.images.roadAlt') }
+    { src: '/images/Rolls-Royce-Cullinan_.jpg', alt: t('fleet.cullinan.images.roadAlt') }
   ]
 
   const specifications = {
@@ -36,7 +36,10 @@ export default function CullinanPage() {
     features: t('fleet.cullinan.specs.features', { returnObjects: true }) as string[]
   }
 
-  const rentalPackages: RentalPackage[] = Object.values(t('fleet.cullinan.rentalPackages', { returnObjects: true }));
+  const rentalPackagesData = t('fleet.cullinan.rentalPackages', { returnObjects: true });
+  const rentalPackages: RentalPackage[] = Object.entries(rentalPackagesData)
+    .filter(([key]) => key !== 'title')
+    .map(([, value]) => value as RentalPackage);
 
   const keyFeatures = Object.values(t('fleet.cullinan.keyFeatures', { returnObjects: true }));
 
@@ -65,10 +68,10 @@ export default function CullinanPage() {
               className="text-center"
             >
               <h1 className="text-6xl md:text-8xl font-bold text-white mb-4">
-                CULLINAN
+                {t('fleet.cullinan.name')}
               </h1>
               <p className="text-2xl text-rolls-gold mb-8">
-                The Ultimate Luxury SUV Experience
+                {t('fleet.cullinan.description')}
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
                 <motion.button
@@ -76,10 +79,10 @@ export default function CullinanPage() {
                   whileTap={{ scale: 0.95 }}
                   className="btn-primary"
                 >
-                  Book Cullinan Now
+                  {t('fleet.cullinan.hero.bookButton')}
                 </motion.button>
                 <Link href="#specs" className="btn-secondary">
-                  Explore Features
+                  {t('fleet.cullinan.hero.exploreButton')}
                 </Link>
               </div>
             </motion.div>
@@ -103,7 +106,7 @@ export default function CullinanPage() {
         <section className="py-20 bg-gradient-to-b from-rolls-black to-rolls-navy">
           <div className="container mx-auto px-4">
             <h2 className="text-4xl font-bold text-white text-center mb-12">
-              Why Choose Cullinan in Dubai?
+              {t('fleet.cullinan.whyChoose.title')}
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
               {keyFeatures.map((feature: any, index: number) => (
@@ -117,8 +120,8 @@ export default function CullinanPage() {
                   <div className="w-20 h-20 mx-auto mb-4 bg-rolls-gold/10 rounded-full flex items-center justify-center">
                     {/* You can add icons here if you have them in your translation file */}
                   </div>
-                  <h3 className="text-xl font-semibold text-white mb-2">{feature.title}</h3>
-                  <p className="text-gray-400">{feature.description}</p>
+                  <h3 className="text-xl font-semibold text-white mb-2">{t(feature.title)}</h3>
+                  <p className="text-gray-400">{t(feature.description)}</p>
                 </motion.div>
               ))}
             </div>
@@ -129,11 +132,11 @@ export default function CullinanPage() {
         <section id="specs" className="py-20 bg-gradient-to-b from-rolls-navy to-rolls-black">
           <div className="container mx-auto px-4">
             <h2 className="text-4xl font-bold text-white text-center mb-12">
-              Technical Excellence
+              {t('fleet.cullinan.specs.title')}
             </h2>
             <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
               <div className="bg-rolls-black/50 backdrop-blur-sm border border-rolls-gold/20 rounded-lg p-8">
-                <h3 className="text-2xl font-semibold text-rolls-gold mb-6">Performance</h3>
+                <h3 className="text-2xl font-semibold text-rolls-gold mb-6">{t('fleet.cullinan.specs.performanceTitle')}</h3>
                 <div className="space-y-4">
                   {specifications.performance.map((spec, index) => (
                     <div key={index} className="flex justify-between items-center">
@@ -145,7 +148,7 @@ export default function CullinanPage() {
               </div>
 
               <div className="bg-rolls-black/50 backdrop-blur-sm border border-rolls-gold/20 rounded-lg p-8">
-                <h3 className="text-2xl font-semibold text-rolls-gold mb-6">Dimensions</h3>
+                <h3 className="text-2xl font-semibold text-rolls-gold mb-6">{t('fleet.cullinan.specs.dimensionsTitle')}</h3>
                 <div className="space-y-4">
                   {specifications.dimensions.map((spec, index) => (
                     <div key={index} className="flex justify-between items-center">
@@ -157,7 +160,7 @@ export default function CullinanPage() {
               </div>
 
               <div className="bg-rolls-black/50 backdrop-blur-sm border border-rolls-gold/20 rounded-lg p-8">
-                <h3 className="text-2xl font-semibold text-rolls-gold mb-6">Key Features</h3>
+                <h3 className="text-2xl font-semibold text-rolls-gold mb-6">{t('fleet.cullinan.specs.featuresTitle')}</h3>
                 <ul className="space-y-3">
                   {specifications.features.map((feature, index) => (
                     <li key={index} className="flex items-start text-gray-300">
@@ -177,7 +180,7 @@ export default function CullinanPage() {
         <section className="py-20 bg-gradient-to-b from-rolls-black to-rolls-navy">
           <div className="container mx-auto px-4">
             <h2 className="text-4xl font-bold text-white text-center mb-12">
-              Cullinan Rental Packages
+              {t('fleet.cullinan.rentalPackages.title')}
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-6xl mx-auto mb-12">
               {rentalPackages.map((pkg, index) => (
@@ -210,7 +213,7 @@ export default function CullinanPage() {
         <section className="py-20 bg-gradient-to-b from-rolls-navy to-rolls-black">
           <div className="container mx-auto px-4">
             <h2 className="text-4xl font-bold text-white text-center mb-12">
-              360° Virtual Experience
+              {t('virtualShowroom.title')}
             </h2>
             <VirtualTour />
           </div>
@@ -220,7 +223,7 @@ export default function CullinanPage() {
         <section className="py-20 bg-gradient-to-b from-rolls-black to-rolls-navy">
           <div className="container mx-auto px-4">
             <h2 className="text-4xl font-bold text-white text-center mb-12">
-              Compare Our Fleet
+              {t('compareFleet.title')}
             </h2>
             <ComparisonTool />
           </div>
@@ -230,10 +233,10 @@ export default function CullinanPage() {
         <section className="py-20 bg-gradient-to-b from-rolls-navy to-rolls-black">
           <div className="container mx-auto px-4 text-center">
             <h2 className="text-4xl font-bold text-white mb-6">
-              Experience Cullinan Today
+              {t('fleet.cullinan.cta.title')}
             </h2>
             <p className="text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
-              Dubai's premier luxury SUV rental. Book now and receive complimentary chauffeur service for your first day.
+              {t('fleet.cullinan.cta.description')}
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <motion.a
@@ -242,10 +245,10 @@ export default function CullinanPage() {
                 whileTap={{ scale: 0.95 }}
                 className="btn-primary"
               >
-                Call: +971 55 816 4922
+                {t('footer.call')}
               </motion.a>
               <Link href="/booking" className="btn-secondary">
-                Online Booking
+                {t('booking.title')}
               </Link>
             </div>
           </div>
@@ -260,7 +263,7 @@ export default function CullinanPage() {
 export const getStaticProps: GetStaticProps = async ({ locale }) => {
   return {
     props: {
-      ...(await serverSideTranslations(locale || 'en', ['common'])),
+      ...(await serverSideTranslations(locale || 'en', ['common', 'seo'])),
     },
   }
 }

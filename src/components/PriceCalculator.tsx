@@ -80,8 +80,8 @@ export default function PriceCalculator() {
           transition={{ duration: 0.8 }}
           className="text-center mb-12"
         >
-          <h2 className="heading-2 text-white mb-4">Price Calculator</h2>
-          <p className="text-xl text-rolls-gold">Get an instant quote for your luxury experience</p>
+          <h2 className="heading-2 text-white mb-4">{t('priceCalculator.title')}</h2>
+          <p className="text-xl text-rolls-gold">{t('priceCalculator.subtitle')}</p>
         </motion.div>
 
         <motion.div
@@ -97,7 +97,7 @@ export default function PriceCalculator() {
                 {/* Car Selection */}
                 <div>
                   <label className="block text-sm font-medium text-rolls-gold mb-2">
-                    Select Your Rolls-Royce
+                    {t('priceCalculator.selectCar')}
                   </label>
                   <select
                     value={selectedCar}
@@ -115,7 +115,7 @@ export default function PriceCalculator() {
                 {/* Rental Duration */}
                 <div>
                   <label className="block text-sm font-medium text-rolls-gold mb-2">
-                    Rental Duration (Days)
+                    {t('priceCalculator.rentalDuration')}
                   </label>
                   <input
                     type="number"
@@ -126,7 +126,7 @@ export default function PriceCalculator() {
                     className="w-full px-4 py-3 bg-rolls-navy/50 border border-rolls-gold/20 rounded text-white focus:border-rolls-gold focus:outline-none"
                   />
                   <p className="text-xs text-gray-500 mt-1">
-                    {days >= 30 ? '🎉 Monthly rate applied!' : days >= 7 ? '🎉 Weekly rate applied!' : 'Daily rate'}
+                    {days >= 30 ? t('priceCalculator.monthlyRate') : days >= 7 ? t('priceCalculator.weeklyRate') : t('priceCalculator.dailyRate')}
                   </p>
                 </div>
 
@@ -139,30 +139,30 @@ export default function PriceCalculator() {
                       onChange={(e) => setWithChauffeur(e.target.checked)}
                       className="w-5 h-5 text-rolls-gold bg-rolls-navy border-rolls-gold/20 rounded focus:ring-rolls-gold"
                     />
-                    <span className="text-white">Professional Chauffeur (+AED 1,500/day)</span>
+                    <span className="text-white">{t('priceCalculator.chauffeur')}</span>
                   </label>
                 </div>
 
                 {/* Delivery Location */}
                 <div>
                   <label className="block text-sm font-medium text-rolls-gold mb-2">
-                    Delivery Location
+                    {t('priceCalculator.deliveryLocation')}
                   </label>
                   <select
                     value={deliveryLocation}
                     onChange={(e) => setDeliveryLocation(e.target.value)}
                     className="w-full px-4 py-3 bg-rolls-navy/50 border border-rolls-gold/20 rounded text-white focus:border-rolls-gold focus:outline-none"
                   >
-                    <option value="hotel">Hotel (Free)</option>
-                    <option value="airport">Airport (AED 500)</option>
-                    <option value="other">Other Location (AED 350)</option>
+                    <option value="hotel">{t('priceCalculator.locations.hotel')}</option>
+                    <option value="airport">{t('priceCalculator.locations.airport')}</option>
+                    <option value="other">{t('priceCalculator.locations.other')}</option>
                   </select>
                 </div>
 
                 {/* Promo Code */}
                 <div>
                   <label className="block text-sm font-medium text-rolls-gold mb-2">
-                    Promo Code
+                    {t('priceCalculator.promoCode')}
                   </label>
                   <input
                     type="text"
@@ -177,13 +177,13 @@ export default function PriceCalculator() {
                   onClick={calculatePrice}
                   className="btn-primary w-full"
                 >
-                  Calculate Price
+                  {t('priceCalculator.calculateButton')}
                 </button>
               </div>
 
               {/* Right Column - Price Breakdown */}
               <div className="bg-rolls-black/30 rounded-lg p-6">
-                <h3 className="text-xl font-semibold text-white mb-4">Price Breakdown</h3>
+                <h3 className="text-xl font-semibold text-white mb-4">{t('priceCalculator.priceBreakdown')}</h3>
                 
                 {breakdown ? (
                   <motion.div
@@ -192,8 +192,8 @@ export default function PriceCalculator() {
                     className="space-y-3"
                   >
                     <div className="flex justify-between text-gray-300">
-                      <span>Vehicle Rental</span>
-                      <span>AED {breakdown.basePrice.toLocaleString()}</span>
+                      <span>{t('priceCalculator.vehicleRental')}</span>
+                      <span>{t('common.aed')} {breakdown.basePrice.toLocaleString()}</span>
                     </div>
                     
                     {breakdown.chauffeurPrice > 0 && (

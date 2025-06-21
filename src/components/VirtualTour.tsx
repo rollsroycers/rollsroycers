@@ -97,8 +97,8 @@ export default function VirtualTour() {
           transition={{ duration: 0.8 }}
           className="text-center mb-12"
         >
-          <h2 className="heading-2 text-white mb-4">360° Virtual Experience</h2>
-          <p className="text-xl text-rolls-gold">Explore every detail from anywhere</p>
+          <h2 className="heading-2 text-white mb-4">{t('virtualTour.title')}</h2>
+          <p className="text-xl text-rolls-gold">{t('virtualTour.subtitle')}</p>
         </motion.div>
 
         {/* Car Selector */}
@@ -121,7 +121,7 @@ export default function VirtualTour() {
                   : 'bg-rolls-black/50 text-white border border-rolls-gold/20 hover:bg-rolls-gold/20'
               }`}
             >
-              {car.name} Interior
+              {car.name} {t('virtualTour.interiorSuffix')}
             </button>
           ))}
         </motion.div>
@@ -191,8 +191,8 @@ export default function VirtualTour() {
               {/* Center Logo */}
               <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
                 <div className="text-center">
-                  <div className="text-6xl font-bold text-white/10 mb-2">RR</div>
-                  <p className="text-sm text-white/30">Click hotspots to explore</p>
+                  <div className="text-6xl font-bold text-white/10 mb-2">{t('virtualTour.centerText.logo')}</div>
+                  <p className="text-sm text-white/30">{t('virtualTour.centerText.instruction')}</p>
                 </div>
               </div>
 
@@ -216,7 +216,7 @@ export default function VirtualTour() {
                     <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0zM10 7v3m0 0v3m0-3h3m-3 0H7" />
                     </svg>
-                    Zoom
+                    {t('virtualTour.controls.zoom')}
                   </button>
                   <button
                     onClick={handleFullscreen}
@@ -225,7 +225,7 @@ export default function VirtualTour() {
                     <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 8V4m0 0h4M4 4l5 5m11-5h-4m4 0v4m0-4l-5 5M4 16v4m0 0h4m-4 0l5-5m11 5h-4m4 0v-4m0 4l-5-5" />
                     </svg>
-                    {isFullscreen ? 'Exit' : 'Fullscreen'}
+                    {isFullscreen ? t('virtualTour.controls.exit') : t('virtualTour.controls.fullscreen')}
                   </button>
                 </div>
 
@@ -233,7 +233,7 @@ export default function VirtualTour() {
                   <svg className="w-5 h-5 text-rolls-gold" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
                   </svg>
-                  <span className="text-sm text-white">Interactive Tour</span>
+                  <span className="text-sm text-white">{t('virtualTour.controls.interactiveTour')}</span>
                 </div>
               </div>
             </div>
@@ -248,18 +248,18 @@ export default function VirtualTour() {
           >
             <div className="bg-rolls-black/50 backdrop-blur-sm border border-rolls-gold/20 rounded-lg p-6 text-center">
               <div className="text-3xl mb-3">🎮</div>
-              <h3 className="text-lg font-semibold text-white mb-2">Interactive Controls</h3>
-              <p className="text-sm text-gray-400">Navigate with mouse or touch gestures</p>
+              <h3 className="text-lg font-semibold text-white mb-2">{t('virtualTour.features.interactiveControls.title')}</h3>
+              <p className="text-sm text-gray-400">{t('virtualTour.features.interactiveControls.description')}</p>
             </div>
             <div className="bg-rolls-black/50 backdrop-blur-sm border border-rolls-gold/20 rounded-lg p-6 text-center">
               <div className="text-3xl mb-3">🔍</div>
-              <h3 className="text-lg font-semibold text-white mb-2">Detailed Exploration</h3>
-              <p className="text-sm text-gray-400">Zoom in to see craftsmanship details</p>
+              <h3 className="text-lg font-semibold text-white mb-2">{t('virtualTour.features.detailedExploration.title')}</h3>
+              <p className="text-sm text-gray-400">{t('virtualTour.features.detailedExploration.description')}</p>
             </div>
             <div className="bg-rolls-black/50 backdrop-blur-sm border border-rolls-gold/20 rounded-lg p-6 text-center">
               <div className="text-3xl mb-3">📱</div>
-              <h3 className="text-lg font-semibold text-white mb-2">Mobile Compatible</h3>
-              <p className="text-sm text-gray-400">Experience on any device, anywhere</p>
+              <h3 className="text-lg font-semibold text-white mb-2">{t('virtualTour.features.mobileCompatible.title')}</h3>
+              <p className="text-sm text-gray-400">{t('virtualTour.features.mobileCompatible.description')}</p>
             </div>
           </motion.div>
 
@@ -270,14 +270,14 @@ export default function VirtualTour() {
             transition={{ duration: 0.8, delay: 0.8 }}
             className="text-center mt-8"
           >
-            <p className="text-gray-400 mb-4">Want to experience this luxury in person?</p>
+            <p className="text-gray-400 mb-4">{t('virtualTour.cta.question')}</p>
             <motion.a
               href="#contact"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
               className="btn-primary inline-block"
             >
-              Schedule a Private Viewing
+              {t('virtualTour.cta.button')}
             </motion.a>
           </motion.div>
         </motion.div>

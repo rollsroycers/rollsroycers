@@ -111,9 +111,140 @@
     "ghost": {
       "name": "古思特",
       "description": "无处不在的完美 - 现代优雅",
+      "subtitle": "后奢华时代，极简主义的精髓",
+      "heroButtons": {
+        "reserve": "立即预订古思特",
+        "business": "商务解决方案"
+      },
+"virtualTour": {
+      "title": "360° 虚拟体验",
+      "subtitle": "从任何地方探索每一个细节",
+      "interiorSuffix": "内饰",
+      "alt": {
+        "interiorView": "内饰视图"
+      },
+      "controls": {
+        "zoom": "缩放",
+        "fullscreen": "全屏",
+        "exit": "退出",
+        "interactiveTour": "互动导览"
+      },
+      "centerText": {
+        "logo": "RR",
+        "instruction": "点击热点进行探索"
+      },
+      "features": {
+        "interactiveControls": {
+          "title": "互动控制",
+          "description": "使用鼠标或触摸手势导航"
+        },
+        "detailedExploration": {
+          "title": "详细探索",
+          "description": "放大以查看工艺细节"
+        },
+        "mobileCompatible": {
+          "title": "移动设备兼容",
+          "description": "在任何设备上随时随地体验"
+        }
+      },
+      "cta": {
+        "question": "想亲身体验这种奢华吗？",
+        "button": "安排私人鉴赏"
+      }
+    },
+      "highlights": {
+        "acceleration": "4.8秒破百",
+        "quiet": "静谧如诗",
+        "engine": "563马力V12"
+      },
+      "tabs": {
+        "overview": "概览",
+        "specifications": "技术规格",
+        "business": "商务",
+        "gallery": "图库",
+        "booking": "预订"
+      },
+      "features": ["平面悬架", "微环境", "发光仪表板", "魔毯般的行驶"],
+      "images": {
+        "blackAlt": "迪拜黑色劳斯莱斯古思特",
+        "chauffeurAlt": "配备司机的劳斯莱斯古思特",
+        "interiorAlt": "劳斯莱斯古思特豪华内饰",
+        "frontGrilleAlt": "劳斯莱斯古思特前格栅",
+        "interiorExcellenceAlt": "劳斯莱斯古思特卓越内饰"
+      },
+      "specs": {
+        "title": "技术规格",
+        "performanceTitle": "性能",
+        "dimensionsTitle": "尺寸",
+        "technologyTitle": "技术",
+        "performance": {
+          "engine": { "label": "发动机", "value": "6.75升双涡轮增压V12" },
+          "power": { "label": "功率", "value": "563马力" },
+          "torque": { "label": "扭矩", "value": "850牛·米" },
+          "acceleration": { "label": "0-100公里/小时", "value": "4.8秒" },
+          "topSpeed": { "label": "最高速度", "value": "250公里/小时" }
+        },
+        "dimensions": {
+          "length": { "label": "长度", "value": "5,546毫米" },
+          "width": { "label": "宽度", "value": "2,148毫米" },
+          "height": { "label": "高度", "value": "1,571毫米" },
+          "wheelbase": { "label": "轴距", "value": "3,295毫米" },
+          "seating": { "label": "座位", "value": "5" }
+        },
+        "technology": [
+          "卫星辅助变速系统",
+          "微环境净化系统",
+          "定制音响系统",
+          "发光仪表板"
+        ]
+      },
+      "rentalPackages": {
+        "daily": {
+          "duration": "日租",
+          "price": "迪拉姆 3,800",
+          "includes": ["250公里里程", "保险", "24/7支持"]
+        },
+        "weekend": {
+          "duration": "周末套餐",
+          "price": "迪拉姆 7,200",
+          "includes": ["500公里里程", "全险", "VIP礼宾服务"]
+        },
+        "weekly": {
+          "duration": "周租",
+          "price": "迪拉姆 25,000",
+          "includes": ["1500公里里程", "全险", "专属经理"]
+        },
+        "monthly": {
+          "duration": "月租",
+          "price": "联系我们",
+          "includes": ["无限里程", "全面维护", "定制条款"]
+        }
+      },
+      "businessFeatures": {
+        "excellence": {
+          "icon": "💼",
+          "title": "企业卓越",
+          "description": "古思特是追求精致和性能的高管们的理想选择。"
+        },
+        "quiet": {
+          "icon": "🔇",
+          "title": "静谧客舱",
+          "description": "在宁静的环境中举行会议或放松，远离城市的喧嚣。"
+        },
+        "connected": {
+          "icon": "📡",
+          "title": "时刻连接",
+          "description": "配备车载Wi-Fi和先进的连接功能，古思特就是您的移动办公室。"
+        },
+        "safety": {
+          "icon": "🛡️",
+          "title": "无懈可击的安全",
+          "description": "先进的驾驶辅助系统确保每次旅程都安全无虞。"
+        }
+      },
       "overview": {
         "title": "重新定义的奢华本质",
-        "p1": "劳斯莱斯古思特代表了豪华汽车的新篇章。凭借其“后奢华”的极简主义美学理念，它提供了超越传统奢华的体验。",
+        "p1": "劳斯莱斯古思特代表了豪华汽车的新篇章。凭借其\"后奢华\"的极简主义美学理念，它提供了超越传统奢华的体验。",
         "p2": "古思特完美契合迪拜的商业精英，将无与伦比的舒适性与尖端技术相结合，营造出一个轻松成功的环境。",
         "stat1": {
           "value": "130分贝",
@@ -123,11 +254,130 @@
           "value": "100+",
           "label": "隔音材料"
         }
+      },
+      "business": {
+        "title": "古思特商务卓越",
+        "corporateSolutions": "企业租赁解决方案",
+        "executivePackage": {
+          "title": "行政套餐",
+          "features": [
+            "专属客户经理",
+            "优先预订系统",
+            "企业计费选项",
+            "批量折扣优惠"
+          ]
+        },
+        "vipServices": {
+          "title": "VIP客户服务",
+          "features": [
+            "机场接机服务",
+            "多语种司机",
+            "灵活租赁条款",
+            "24/7礼宾支持"
+          ]
+        }
+      },
+      "gallery": {
+        "title": "古思特图库"
+      },
+      "booking": {
+        "title": "预订您的古思特",
+        "readyToExperience": "准备体验古思特？我们的团队全天候为您服务",
+        "callButton": "致电：+971 55 816 4922",
+        "bookOnlineButton": "在线预订"
       }
     },
     "cullinan": {
       "name": "库里南",
-      "description": "劳斯莱斯唯一的豪华SUV"
+      "description": "劳斯莱斯唯一的豪华SUV",
+      "images": {
+        "blackAlt": "黑色劳斯莱斯库里南",
+        "frontAlt": "劳斯莱斯库里南前视图",
+        "interiorAlt": "劳斯莱斯库里南内饰",
+        "roadAlt": "劳斯莱斯库里南在路上"
+      },
+      "hero": {
+        "bookButton": "立即预订库里南",
+        "exploreButton": "探索功能"
+      },
+      "whyChoose": {
+        "title": "为什么在迪拜选择库里南？"
+      },
+      "specs": {
+        "title": "技术卓越",
+        "performanceTitle": "性能",
+        "dimensionsTitle": "尺寸",
+        "featuresTitle": "主要特点",
+        "performance": {
+          "engine": { "label": "发动机", "value": "6.75L V12 双涡轮增压" },
+          "power": { "label": "功率", "value": "563 马力" },
+          "torque": { "label": "扭矩", "value": "850 牛米" },
+          "acceleration": { "label": "0-100 公里/小时", "value": "5.2 秒" },
+          "topSpeed": { "label": "最高时速", "value": "250 公里/小时" }
+        },
+        "dimensions": {
+          "length": { "label": "长度", "value": "5,341 毫米" },
+          "width": { "label": "宽度", "value": "2,164 毫米" },
+          "height": { "label": "高度", "value": "1,835 毫米" },
+          "wheelbase": { "label": "轴距", "value": "3,295 毫米" },
+          "bootCapacity": { "label": "行李箱容量", "value": "600升 / 1,930升" }
+        },
+        "features": [
+          "全地形能力",
+          "魔毯悬挂系统",
+          "夜视和野生动物检测",
+          "观景套件（后排座椅）",
+          "冷藏隔间",
+          "定制音响系统",
+          "全景玻璃天窗",
+          "四区恒温空调"
+        ]
+      },
+      "rentalPackages": {
+        "title": "库里南租赁套餐",
+        "daily": {
+          "duration": "每日",
+          "price": "6,500 迪拉姆",
+          "includes": ["200公里/天", "基础保险", "司机选项"]
+        },
+        "weekend": {
+          "duration": "周末",
+          "price": "12,000 迪拉姆",
+          "includes": ["总共500公里", "高级保险", "机场接送"]
+        },
+        "weekly": {
+          "duration": "每周",
+          "price": "39,000 迪拉姆",
+          "includes": ["总共1,500公里", "全面保障", "专属礼宾"]
+        },
+        "monthly": {
+          "duration": "每月",
+          "price": "130,000 迪拉姆",
+          "includes": ["总共4,000公里", "VIP支持", "包含维护"]
+        }
+      },
+      "keyFeatures": {
+        "mastery": {
+          "title": "全地形掌控",
+          "description": "征服迪拜的沙漠沙丘或在城市街道上巡航，同样优雅"
+        },
+        "luxury": {
+          "title": "宽敞豪华",
+          "description": "为5位成人提供至高舒适的空间，非常适合家庭冒险"
+        },
+        "vision": {
+          "title": "夜视功能",
+          "description": "配备热成像的先进安全系统，让夜间驾驶充满信心"
+        },
+        "suite": {
+          "title": "观景套件",
+          "description": "独特的后排座椅可折叠展开，提供奢华的户外体验"
+        }
+      },
+      "cta": {
+        "title": "今天体验库里南",
+        "description": "迪拜首屈一指的豪华SUV租赁。立即预订，首日免费享受司机服务。"
+      }
     },
     "dawn": {
       "name": "曜影",
@@ -333,6 +583,42 @@
     "title": "体验我们的360°虚拟展厅",
     "description": "对我们的豪华展厅进行沉浸式虚拟导览，在家中舒适地探索我们劳斯莱斯系列的每一个细节。",
     "cta": "开始虚拟导览"
+  },
+  "virtualTour": {
+    "title": "360°虚拟导览",
+    "subtitle": "从世界任何地方探索每一个细节",
+    "interiorSuffix": "内饰",
+    "alt": {
+      "interiorView": "内饰视图"
+    },
+    "controls": {
+      "zoom": "缩放",
+      "fullscreen": "全屏",
+      "exit": "退出",
+      "interactiveTour": "互动导览"
+    },
+    "centerText": {
+      "logo": "RR",
+      "instruction": "点击热点进行探索"
+    },
+    "features": {
+      "interactiveControls": {
+        "title": "互动控制",
+        "description": "使用鼠标或触摸手势导航"
+      },
+      "detailedExploration": {
+        "title": "详细探索",
+        "description": "放大查看工艺细节"
+      },
+      "mobileCompatible": {
+        "title": "移动兼容",
+        "description": "在任何设备上，任何地方体验"
+      }
+    },
+    "cta": {
+      "question": "想亲身体验这种奢华吗？",
+      "button": "安排私人参观"
+    }
   },
   "locations": {
     "downtownDubai": {
