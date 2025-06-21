@@ -43,6 +43,32 @@ export default function CullinanPage() {
 
   const keyFeatures = Object.values(t('fleet.cullinan.keyFeatures', { returnObjects: true }));
 
+  const tourSpots = {
+    cullinan: [
+      {
+        id: 'steering-wheel',
+        name: t('virtualTour.spots.cullinan.steeringWheel.name'),
+        description: t('virtualTour.spots.cullinan.steeringWheel.description'),
+        position: { x: 50, y: 60 },
+        details: t('virtualTour.spots.cullinan.steeringWheel.details', { returnObjects: true }) as string[]
+      },
+      {
+        id: 'dashboard',
+        name: t('virtualTour.spots.cullinan.dashboard.name'),
+        description: t('virtualTour.spots.cullinan.dashboard.description'),
+        position: { x: 65, y: 45 },
+        details: t('virtualTour.spots.cullinan.dashboard.details', { returnObjects: true }) as string[]
+      },
+      {
+        id: 'starlight-headliner',
+        name: t('virtualTour.spots.cullinan.starlightHeadliner.name'),
+        description: t('virtualTour.spots.cullinan.starlightHeadliner.description'),
+        position: { x: 50, y: 20 },
+        details: t('virtualTour.spots.cullinan.starlightHeadliner.details', { returnObjects: true }) as string[]
+      }
+    ]
+  };
+
   return (
     <>
       <SEO pageKey="fleet.cullinan" />
@@ -215,7 +241,7 @@ export default function CullinanPage() {
             <h2 className="text-4xl font-bold text-white text-center mb-12">
               {t('virtualShowroom.title')}
             </h2>
-            <VirtualTour />
+            <VirtualTour tourSpots={tourSpots} />
           </div>
         </section>
 

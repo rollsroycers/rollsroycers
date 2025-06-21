@@ -11,65 +11,16 @@ interface TourSpot {
   details: string[]
 }
 
-export default function VirtualTour() {
+interface VirtualTourProps {
+  tourSpots: Record<string, TourSpot[]>;
+}
+
+export default function VirtualTour({ tourSpots }: VirtualTourProps) {
   const { t } = useTranslation('common')
   const [ref, inView] = useInView({ triggerOnce: true, threshold: 0.1 })
   const [activeCar, setActiveCar] = useState('phantom')
   const [activeSpot, setActiveSpot] = useState<string | null>(null)
   const [isFullscreen, setIsFullscreen] = useState(false)
-
-  const tourSpots: Record<string, TourSpot[]> = {
-    phantom: [
-      {
-        id: 'dashboard',
-        name: 'Bespoke Dashboard',
-        description: 'Hand-crafted luxury at your fingertips',
-        position: { x: 50, y: 60 },
-        details: [
-          'Gallery wood veneer',
-          'Precision timepiece',
-          'Customizable ambient lighting',
-          'Gold-plated controls'
-        ]
-      },
-      {
-        id: 'starlight',
-        name: 'Starlight Headliner',
-        description: '1,340 fiber optic lights creating a celestial scene',
-        position: { x: 50, y: 20 },
-        details: [
-          'Hand-woven constellation',
-          'Shooting star feature',
-          'Adjustable brightness',
-          'Bespoke patterns available'
-        ]
-      },
-      {
-        id: 'seats',
-        name: 'Lounge Seating',
-        description: 'Supreme comfort with massage functions',
-        position: { x: 30, y: 70 },
-        details: [
-          'Lambswool carpets',
-          'Heated & ventilated seats',
-          '10-point massage',
-          'Memory settings'
-        ]
-      },
-      {
-        id: 'spirit',
-        name: 'Spirit of Ecstasy',
-        description: 'The iconic symbol of luxury',
-        position: { x: 70, y: 40 },
-        details: [
-          'Retractable mechanism',
-          'Illuminated crystal',
-          'Anti-theft protection',
-          'Customizable finish'
-        ]
-      }
-    ]
-  }
 
   const cars = [
     { id: 'phantom', name: 'Phantom', image: '/images/Rolls-royce-phantom.jpg' },

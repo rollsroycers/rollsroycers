@@ -50,6 +50,7 @@ export default function DawnPage() {
   const keyFeatures = Object.values(t('fleet.dawn.keyFeatures', { returnObjects: true }));
 
   const routes = Object.values(t('fleet.dawn.routes', { returnObjects: true }));
+  const tourSpots = t('virtualTourSpots', { returnObjects: true }) as Record<string, any[]>;
 
   return (
     <>
@@ -59,7 +60,7 @@ export default function DawnPage() {
         <section className="relative h-screen flex items-center justify-center overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/Rolls-royce-dawn-series-2.jpg"
+              src="/images/Rolls-Royce_Dawn.jpg"
               alt="Rolls-Royce Dawn Dubai"
               fill
               className="object-cover"
@@ -76,10 +77,10 @@ export default function DawnPage() {
               className="text-center"
             >
               <h1 className="text-6xl md:text-8xl font-bold text-white mb-4">
-                DAWN
+                {t('fleet.dawn.hero.title')}
               </h1>
               <p className="text-2xl text-rolls-gold mb-8">
-                The World's Quietest Convertible
+                {t('fleet.dawn.hero.subtitle')}
               </p>
               
               {/* Roof Status Indicator */}
@@ -96,7 +97,7 @@ export default function DawnPage() {
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 15l7-7 7 7" />
                     </svg>
                   </motion.div>
-                  Roof: {roofStatus === 'open' ? 'Open' : 'Closed'}
+                  {t('fleet.dawn.hero.roofStatus.label')}: {roofStatus === 'open' ? t('fleet.dawn.hero.roofStatus.open') : t('fleet.dawn.hero.roofStatus.closed')}
                 </button>
               </div>
 
@@ -106,10 +107,10 @@ export default function DawnPage() {
                   whileTap={{ scale: 0.95 }}
                   className="btn-primary"
                 >
-                  Experience Dawn Today
+                  {t('fleet.dawn.hero.cta.experience')}
                 </motion.button>
                 <Link href="#weather" className="btn-secondary">
-                  Check Weather Conditions
+                  {t('fleet.dawn.hero.cta.weather')}
                 </Link>
               </div>
             </motion.div>
@@ -120,7 +121,7 @@ export default function DawnPage() {
         <section className="py-20 bg-gradient-to-b from-rolls-black to-rolls-navy">
           <div className="container mx-auto px-4">
             <h2 className="text-4xl font-bold text-white text-center mb-12">
-              Open-Air Luxury Redefined
+              {t('fleet.dawn.sections.title')}
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
               {keyFeatures.map((feature: any, index: number) => (
@@ -146,7 +147,7 @@ export default function DawnPage() {
         <section className="py-20 bg-gradient-to-b from-rolls-navy to-rolls-black">
           <div className="container mx-auto px-4">
             <h2 className="text-4xl font-bold text-white text-center mb-12">
-              Perfect Moments for Dawn
+              {t('fleet.dawn.sections.perfectMoments.title')}
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
               {idealOccasions.map((occasion: IdealOccasion, index: number) => (
@@ -170,7 +171,7 @@ export default function DawnPage() {
         <section id="weather" className="py-20 bg-gradient-to-b from-rolls-black to-rolls-navy">
           <div className="container mx-auto px-4">
             <h2 className="text-4xl font-bold text-white text-center mb-12">
-              Weather-Perfect Driving
+              {t('fleet.dawn.sections.weatherDriving.title')}
             </h2>
             <WeatherRecommendations />
           </div>
@@ -180,11 +181,11 @@ export default function DawnPage() {
         <section className="py-20 bg-gradient-to-b from-rolls-navy to-rolls-black">
           <div className="container mx-auto px-4">
             <h2 className="text-4xl font-bold text-white text-center mb-12">
-              Technical Excellence
+              {t('fleet.dawn.sections.technicalExcellence.title')}
             </h2>
             <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
               <div className="bg-rolls-black/50 backdrop-blur-sm border border-rolls-gold/20 rounded-lg p-8">
-                <h3 className="text-2xl font-semibold text-rolls-gold mb-6">Performance</h3>
+                <h3 className="text-2xl font-semibold text-rolls-gold mb-6">{t('fleet.performance')}</h3>
                 <div className="space-y-4">
                   {specifications.performance.map((spec, index) => (
                     <div key={index} className="flex justify-between items-center">
@@ -196,7 +197,7 @@ export default function DawnPage() {
               </div>
 
               <div className="bg-rolls-black/50 backdrop-blur-sm border border-rolls-gold/20 rounded-lg p-8">
-                <h3 className="text-2xl font-semibold text-rolls-gold mb-6">Convertible Tech</h3>
+                <h3 className="text-2xl font-semibold text-rolls-gold mb-6">{t('fleet.convertibleTech')}</h3>
                 <div className="space-y-4">
                   {specifications.convertible.map((spec, index) => (
                     <div key={index} className="flex justify-between items-center">
@@ -208,7 +209,7 @@ export default function DawnPage() {
               </div>
 
               <div className="bg-rolls-black/50 backdrop-blur-sm border border-rolls-gold/20 rounded-lg p-8">
-                <h3 className="text-2xl font-semibold text-rolls-gold mb-6">Luxury Features</h3>
+                <h3 className="text-2xl font-semibold text-rolls-gold mb-6">{t('fleet.luxuryFeatures')}</h3>
                 <ul className="space-y-3">
                   {specifications.features.map((feature, index) => (
                     <li key={index} className="flex items-start text-gray-300">
@@ -263,7 +264,7 @@ export default function DawnPage() {
             <h2 className="text-4xl font-bold text-white text-center mb-12">
               360° Dawn Experience
             </h2>
-            <VirtualTour />
+            <VirtualTour tourSpots={tourSpots} />
           </div>
         </section>
 
