@@ -1,5 +1,6 @@
 import { GetStaticProps } from 'next'
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
+import { useTranslation } from 'next-i18next'
 import Image from 'next/image'
 import Link from 'next/link'
 import { motion } from 'framer-motion'
@@ -9,108 +10,94 @@ import WhatsAppButton from '@/components/WhatsAppButton'
 import SEO from '@/components/SEO'
 
 export default function AirportTransferPage() {
+  const { t } = useTranslation('services')
   const [selectedAirport, setSelectedAirport] = useState('DXB')
+  
+  const getTranslatedArray = (key: string): string[] => {
+    const translation = t(key, { returnObjects: true });
+    return Array.isArray(translation) ? translation : [];
+  };
   
   const airports = {
     DXB: {
-      name: 'Dubai International Airport (DXB)',
-      terminals: ['Terminal 1', 'Terminal 2', 'Terminal 3'],
-      distance: '15 km from Downtown',
-      transferTime: '20-30 minutes'
+      name: t('servicesPages.airportTransfer.airportSelector.dxb.name'),
+      terminals: getTranslatedArray('servicesPages.airportTransfer.airportSelector.dxb.terminals'),
+      distance: t('servicesPages.airportTransfer.airportSelector.dxb.distance'),
+      transferTime: t('servicesPages.airportTransfer.airportSelector.dxb.transferTime')
     },
     DWC: {
-      name: 'Al Maktoum International Airport (DWC)',
-      terminals: ['Passenger Terminal'],
-      distance: '37 km from Downtown',
-      transferTime: '35-45 minutes'
+      name: t('servicesPages.airportTransfer.airportSelector.dwc.name'),
+      terminals: getTranslatedArray('servicesPages.airportTransfer.airportSelector.dwc.terminals'),
+      distance: t('servicesPages.airportTransfer.airportSelector.dwc.distance'),
+      transferTime: t('servicesPages.airportTransfer.airportSelector.dwc.transferTime')
     },
     AUH: {
-      name: 'Abu Dhabi International Airport (AUH)',
-      terminals: ['Terminal 1', 'Terminal 2', 'Terminal 3'],
-      distance: '130 km from Dubai',
-      transferTime: '90-120 minutes'
+      name: t('servicesPages.airportTransfer.airportSelector.auh.name'),
+      terminals: getTranslatedArray('servicesPages.airportTransfer.airportSelector.auh.terminals'),
+      distance: t('servicesPages.airportTransfer.airportSelector.auh.distance'),
+      transferTime: t('servicesPages.airportTransfer.airportSelector.auh.transferTime')
     },
     SHJ: {
-      name: 'Sharjah International Airport (SHJ)',
-      terminals: ['Main Terminal'],
-      distance: '28 km from Dubai',
-      transferTime: '30-40 minutes'
+      name: t('servicesPages.airportTransfer.airportSelector.shj.name'),
+      terminals: getTranslatedArray('servicesPages.airportTransfer.airportSelector.shj.terminals'),
+      distance: t('servicesPages.airportTransfer.airportSelector.shj.distance'),
+      transferTime: t('servicesPages.airportTransfer.airportSelector.shj.transferTime')
     }
   }
 
   const transferPackages = [
     {
-      type: 'One-Way Transfer',
-      airports: ['DXB', 'DWC'],
-      vehicles: ['Phantom', 'Ghost', 'Cullinan'],
-      features: [
-        'Meet & Greet Service',
-        'Flight Monitoring',
-        'Luggage Assistance',
-        'Complimentary Water & Refreshments',
-        'Wi-Fi Available'
-      ],
-      price: 'From AED 1,200'
+      type: t('servicesPages.airportTransfer.packages.oneWay.name'),
+      airports: getTranslatedArray('servicesPages.airportTransfer.packages.oneWay.airports'),
+      vehicles: getTranslatedArray('servicesPages.airportTransfer.packages.oneWay.vehicles'),
+      features: getTranslatedArray('servicesPages.airportTransfer.packages.oneWay.features'),
+      price: t('servicesPages.airportTransfer.packages.oneWay.price')
     },
     {
-      type: 'Round-Trip Package',
-      airports: ['DXB', 'DWC', 'AUH'],
-      vehicles: ['Full Fleet Available'],
-      features: [
-        'Priority VIP Service',
-        'Dedicated Concierge',
-        '24/7 Flight Tracking',
-        'Flexible Timing',
-        'Multi-stop Options',
-        'Premium Amenities'
-      ],
-      price: 'From AED 2,200'
+      type: t('servicesPages.airportTransfer.packages.roundTrip.name'),
+      airports: getTranslatedArray('servicesPages.airportTransfer.packages.roundTrip.airports'),
+      vehicles: getTranslatedArray('servicesPages.airportTransfer.packages.roundTrip.vehicles'),
+      features: getTranslatedArray('servicesPages.airportTransfer.packages.roundTrip.features'),
+      price: t('servicesPages.airportTransfer.packages.roundTrip.price')
     },
     {
-      type: 'Business Delegation',
-      airports: ['All Airports'],
-      vehicles: ['Multiple Vehicles'],
-      features: [
-        'Fleet Coordination',
-        'Bilingual Chauffeurs',
-        'Corporate Billing',
-        'Executive Lounge Access',
-        'Meeting Setup in Vehicle',
-        'Security Arrangements'
-      ],
-      price: 'From AED 3,500'
+      type: t('servicesPages.airportTransfer.packages.business.name'),
+      airports: getTranslatedArray('servicesPages.airportTransfer.packages.business.airports'),
+      vehicles: getTranslatedArray('servicesPages.airportTransfer.packages.business.vehicles'),
+      features: getTranslatedArray('servicesPages.airportTransfer.packages.business.features'),
+      price: t('servicesPages.airportTransfer.packages.business.price')
     }
   ]
 
   const whyChooseUs = [
     {
       icon: '✈️',
-      title: 'Real-Time Flight Tracking',
-      description: 'We monitor your flight status to ensure timely pickup, even with delays'
+      title: t('servicesPages.airportTransfer.whyChoose.flightTracking.title'),
+      description: t('servicesPages.airportTransfer.whyChoose.flightTracking.description')
     },
     {
       icon: '👔',
-      title: 'Professional Chauffeurs',
-      description: 'Experienced, multilingual drivers trained in VIP protocol'
+      title: t('servicesPages.airportTransfer.whyChoose.professional.title'),
+      description: t('servicesPages.airportTransfer.whyChoose.professional.description')
     },
     {
       icon: '🛡️',
-      title: 'Reliability Guaranteed',
-      description: '24/7 availability with backup vehicles for peace of mind'
+      title: t('servicesPages.airportTransfer.whyChoose.reliability.title'),
+      description: t('servicesPages.airportTransfer.whyChoose.reliability.description')
     },
     {
       icon: '🎯',
-      title: 'Fixed Pricing',
-      description: 'No surge pricing or hidden fees, transparent rates always'
+      title: t('servicesPages.airportTransfer.whyChoose.pricing.title'),
+      description: t('servicesPages.airportTransfer.whyChoose.pricing.description')
     }
   ]
 
-  const popularRoutes = [
-    { from: 'DXB Terminal 3', to: 'Burj Khalifa/Downtown', time: '25 min', price: 'AED 1,350' },
-    { from: 'DXB Terminal 1', to: 'Dubai Marina', time: '35 min', price: 'AED 1,550' },
-    { from: 'DWC', to: 'Palm Jumeirah', time: '40 min', price: 'AED 1,800' },
-    { from: 'AUH', to: 'Dubai Downtown', time: '90 min', price: 'AED 3,800' }
-  ]
+  const popularRoutes = t('servicesPages.airportTransfer.popularRoutes.routes', { returnObjects: true }) as Array<{
+    from: string;
+    to: string;
+    time: string;
+    price: string;
+  }>;
 
   return (
     <>
@@ -136,10 +123,10 @@ export default function AirportTransferPage() {
               transition={{ duration: 1 }}
             >
               <h1 className="text-5xl md:text-7xl font-bold text-white mb-6">
-                Airport Transfer Excellence
+                {t('servicesPages.airportTransfer.hero.title')}
               </h1>
               <p className="text-2xl text-rolls-gold mb-8">
-                Arrive in Unparalleled Luxury
+                {t('servicesPages.airportTransfer.hero.subtitle')}
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <motion.button
@@ -147,26 +134,38 @@ export default function AirportTransferPage() {
                   whileTap={{ scale: 0.95 }}
                   className="btn-primary"
                 >
-                  Book Airport Transfer
+                  {t('servicesPages.airportTransfer.hero.bookTransfer')}
                 </motion.button>
                 <a href="tel:+971558164922" className="btn-secondary">
-                  24/7 Hotline: +971 55 816 4922
+                  {t('servicesPages.airportTransfer.hero.hotline')}
                 </a>
               </div>
               
               {/* Quick Stats */}
               <div className="grid grid-cols-3 gap-4 max-w-2xl mx-auto mt-12">
                 <div className="text-center">
-                  <div className="text-3xl font-bold text-rolls-gold">5,000+</div>
-                  <div className="text-sm text-gray-400">Airport Transfers</div>
+                  <div className="text-3xl font-bold text-rolls-gold">
+                    {t('servicesPages.airportTransfer.hero.stats.transfers')}
+                  </div>
+                  <div className="text-sm text-gray-400">
+                    {t('servicesPages.airportTransfer.hero.stats.transfersLabel')}
+                  </div>
                 </div>
                 <div className="text-center">
-                  <div className="text-3xl font-bold text-rolls-gold">24/7</div>
-                  <div className="text-sm text-gray-400">Availability</div>
+                  <div className="text-3xl font-bold text-rolls-gold">
+                    {t('servicesPages.airportTransfer.hero.stats.availability')}
+                  </div>
+                  <div className="text-sm text-gray-400">
+                    {t('servicesPages.airportTransfer.hero.stats.availabilityLabel')}
+                  </div>
                 </div>
                 <div className="text-center">
-                  <div className="text-3xl font-bold text-rolls-gold">98%</div>
-                  <div className="text-sm text-gray-400">On-Time Rate</div>
+                  <div className="text-3xl font-bold text-rolls-gold">
+                    {t('servicesPages.airportTransfer.hero.stats.onTime')}
+                  </div>
+                  <div className="text-sm text-gray-400">
+                    {t('servicesPages.airportTransfer.hero.stats.onTimeLabel')}
+                  </div>
                 </div>
               </div>
             </motion.div>
@@ -177,7 +176,7 @@ export default function AirportTransferPage() {
         <section className="py-20 bg-gradient-to-b from-rolls-black to-rolls-navy">
           <div className="container mx-auto px-4">
             <h2 className="text-4xl font-bold text-white text-center mb-12">
-              Select Your Airport
+              {t('servicesPages.airportTransfer.airportSelector.title')}
             </h2>
             
             {/* Airport Tabs */}
@@ -209,7 +208,9 @@ export default function AirportTransferPage() {
               </h3>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div>
-                  <h4 className="text-rolls-gold mb-2">Terminals</h4>
+                  <h4 className="text-rolls-gold mb-2">
+                    {t('servicesPages.airportTransfer.airportSelector.terminals')}
+                  </h4>
                   <ul className="space-y-1">
                     {airports[selectedAirport as keyof typeof airports].terminals.map((terminal, index) => (
                       <li key={index} className="text-gray-300">{terminal}</li>
@@ -217,12 +218,14 @@ export default function AirportTransferPage() {
                   </ul>
                 </div>
                 <div>
-                  <h4 className="text-rolls-gold mb-2">Transfer Information</h4>
+                  <h4 className="text-rolls-gold mb-2">
+                    {t('servicesPages.airportTransfer.airportSelector.transferInfo')}
+                  </h4>
                   <p className="text-gray-300">
-                    Distance: {airports[selectedAirport as keyof typeof airports].distance}
+                    {t('servicesPages.airportTransfer.airportSelector.distance')}: {airports[selectedAirport as keyof typeof airports].distance}
                   </p>
                   <p className="text-gray-300">
-                    Travel Time: {airports[selectedAirport as keyof typeof airports].transferTime}
+                    {t('servicesPages.airportTransfer.airportSelector.travelTime')}: {airports[selectedAirport as keyof typeof airports].transferTime}
                   </p>
                 </div>
               </div>
@@ -234,7 +237,7 @@ export default function AirportTransferPage() {
         <section className="py-20 bg-gradient-to-b from-rolls-navy to-rolls-black">
           <div className="container mx-auto px-4">
             <h2 className="text-4xl font-bold text-white text-center mb-12">
-              Why Choose Our Airport Service?
+              {t('servicesPages.airportTransfer.whyChoose.title')}
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
               {whyChooseUs.map((feature, index) => (
@@ -258,7 +261,7 @@ export default function AirportTransferPage() {
         <section className="py-20 bg-gradient-to-b from-rolls-black to-rolls-navy">
           <div className="container mx-auto px-4">
             <h2 className="text-4xl font-bold text-white text-center mb-12">
-              Transfer Packages
+              {t('servicesPages.airportTransfer.packages.title')}
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
               {transferPackages.map((pkg, index) => (
@@ -271,8 +274,12 @@ export default function AirportTransferPage() {
                 >
                   <h3 className="text-2xl font-bold text-white mb-4">{pkg.type}</h3>
                   <div className="text-3xl font-bold text-rolls-gold mb-4">{pkg.price}</div>
-                  <p className="text-gray-400 mb-4">Available at: {pkg.airports.join(', ')}</p>
-                  <p className="text-gray-400 mb-6">Vehicles: {pkg.vehicles.join(', ')}</p>
+                  <p className="text-gray-400 mb-4">
+                    {t('servicesPages.airportTransfer.packages.availableAt')}: {pkg.airports.join(', ')}
+                  </p>
+                  <p className="text-gray-400 mb-6">
+                    {t('servicesPages.airportTransfer.packages.vehicles')}: {pkg.vehicles.join(', ')}
+                  </p>
                   <ul className="space-y-3 mb-8">
                     {pkg.features.map((feature, idx) => (
                       <li key={idx} className="flex items-start text-gray-300">
@@ -284,7 +291,7 @@ export default function AirportTransferPage() {
                     ))}
                   </ul>
                   <button className="btn-primary w-full">
-                    Select Package
+                    {t('servicesPages.airportTransfer.packages.selectPackage')}
                   </button>
                 </motion.div>
               ))}
@@ -296,15 +303,15 @@ export default function AirportTransferPage() {
         <section className="py-20 bg-gradient-to-b from-rolls-navy to-rolls-black">
           <div className="container mx-auto px-4">
             <h2 className="text-4xl font-bold text-white text-center mb-12">
-              Popular Airport Routes
+              {t('servicesPages.airportTransfer.popularRoutes.title')}
             </h2>
             <div className="max-w-4xl mx-auto">
               <div className="bg-rolls-black/50 backdrop-blur-sm border border-rolls-gold/20 rounded-lg overflow-hidden">
                 <div className="grid grid-cols-4 gap-4 p-4 bg-rolls-gold/10 font-semibold text-white">
-                  <div>From</div>
-                  <div>To</div>
-                  <div>Duration</div>
-                  <div>Starting Price</div>
+                  <div>{t('servicesPages.airportTransfer.popularRoutes.from')}</div>
+                  <div>{t('servicesPages.airportTransfer.popularRoutes.to')}</div>
+                  <div>{t('servicesPages.airportTransfer.popularRoutes.duration')}</div>
+                  <div>{t('servicesPages.airportTransfer.popularRoutes.startingPrice')}</div>
                 </div>
                 {popularRoutes.map((route, index) => (
                   <motion.div
@@ -329,7 +336,7 @@ export default function AirportTransferPage() {
         <section className="py-20 bg-gradient-to-b from-rolls-black to-rolls-navy">
           <div className="container mx-auto px-4">
             <h2 className="text-4xl font-bold text-white text-center mb-12">
-              How Airport Transfer Works
+              {t('servicesPages.airportTransfer.howItWorks.title')}
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-4 gap-8 max-w-5xl mx-auto">
               <motion.div
@@ -340,8 +347,12 @@ export default function AirportTransferPage() {
                 <div className="w-16 h-16 mx-auto mb-4 bg-rolls-gold rounded-full flex items-center justify-center text-rolls-black font-bold text-xl">
                   1
                 </div>
-                <h3 className="text-lg font-semibold text-white mb-2">Book Online</h3>
-                <p className="text-gray-400 text-sm">Choose your vehicle and provide flight details</p>
+                <h3 className="text-lg font-semibold text-white mb-2">
+                  {t('servicesPages.airportTransfer.howItWorks.step1.title')}
+                </h3>
+                <p className="text-gray-400 text-sm">
+                  {t('servicesPages.airportTransfer.howItWorks.step1.description')}
+                </p>
               </motion.div>
               
               <motion.div
@@ -353,8 +364,12 @@ export default function AirportTransferPage() {
                 <div className="w-16 h-16 mx-auto mb-4 bg-rolls-gold rounded-full flex items-center justify-center text-rolls-black font-bold text-xl">
                   2
                 </div>
-                <h3 className="text-lg font-semibold text-white mb-2">Flight Tracking</h3>
-                <p className="text-gray-400 text-sm">We monitor your flight for delays or early arrival</p>
+                <h3 className="text-lg font-semibold text-white mb-2">
+                  {t('servicesPages.airportTransfer.howItWorks.step2.title')}
+                </h3>
+                <p className="text-gray-400 text-sm">
+                  {t('servicesPages.airportTransfer.howItWorks.step2.description')}
+                </p>
               </motion.div>
               
               <motion.div
@@ -366,8 +381,12 @@ export default function AirportTransferPage() {
                 <div className="w-16 h-16 mx-auto mb-4 bg-rolls-gold rounded-full flex items-center justify-center text-rolls-black font-bold text-xl">
                   3
                 </div>
-                <h3 className="text-lg font-semibold text-white mb-2">Meet & Greet</h3>
-                <p className="text-gray-400 text-sm">Your chauffeur awaits with a name board</p>
+                <h3 className="text-lg font-semibold text-white mb-2">
+                  {t('servicesPages.airportTransfer.howItWorks.step3.title')}
+                </h3>
+                <p className="text-gray-400 text-sm">
+                  {t('servicesPages.airportTransfer.howItWorks.step3.description')}
+                </p>
               </motion.div>
               
               <motion.div
@@ -379,8 +398,12 @@ export default function AirportTransferPage() {
                 <div className="w-16 h-16 mx-auto mb-4 bg-rolls-gold rounded-full flex items-center justify-center text-rolls-black font-bold text-xl">
                   4
                 </div>
-                <h3 className="text-lg font-semibold text-white mb-2">Luxury Transfer</h3>
-                <p className="text-gray-400 text-sm">Relax as we take you to your destination</p>
+                <h3 className="text-lg font-semibold text-white mb-2">
+                  {t('servicesPages.airportTransfer.howItWorks.step4.title')}
+                </h3>
+                <p className="text-gray-400 text-sm">
+                  {t('servicesPages.airportTransfer.howItWorks.step4.description')}
+                </p>
               </motion.div>
             </div>
           </div>
@@ -390,21 +413,21 @@ export default function AirportTransferPage() {
         <section className="py-20 bg-gradient-to-b from-rolls-navy to-rolls-black">
           <div className="container mx-auto px-4 text-center">
             <h2 className="text-4xl font-bold text-white mb-6">
-              Book Your Airport Transfer Now
+              {t('servicesPages.airportTransfer.cta.title')}
             </h2>
             <p className="text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
-              Experience seamless luxury from touchdown to destination. Available 24/7 for all major airports.
+              {t('servicesPages.airportTransfer.cta.description')}
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href="tel:+971558164922" className="btn-primary">
-                Call: +971 55 816 4922
+                {t('servicesPages.airportTransfer.cta.call')}
               </a>
               <Link href="/booking" className="btn-secondary">
-                Online Booking
+                {t('servicesPages.airportTransfer.cta.onlineBooking')}
               </Link>
             </div>
             <p className="text-gray-400 mt-6">
-              Free waiting time: 60 minutes for international flights, 30 minutes for domestic
+              {t('servicesPages.airportTransfer.cta.waitingTime')}
             </p>
           </div>
         </section>

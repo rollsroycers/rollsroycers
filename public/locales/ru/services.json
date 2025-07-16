@@ -3,8 +3,8 @@
     "corporate": {
       "hero": {
         "title": "Корпоративная аренда Rolls-Royce",
-        "subtitle": "Поднимите имидж бизнеса в Дубае",
-        "description": "Elevate your business image with our premium Rolls-Royce corporate services. From executive meetings to client entertainment, we provide unmatched luxury transportation solutions.",
+        "subtitle": "Поднимите имидж вашего бизнеса в Дубае",
+        "description": "Поднимите имидж вашего бизнеса с помощью наших премиальных корпоративных услуг Rolls-Royce. От деловых встреч до развлечения клиентов - мы предоставляем непревзойденные роскошные транспортные решения.",
         "getQuote": "Получить корпоративное предложение",
         "viewPackages": "Посмотреть корпоративные пакеты",
         "stats": {
@@ -14,227 +14,509 @@
         }
       },
       "whyChoose": {
-        "title": "Почему выбрать наши корпоративные услуги",
+        "title": "Почему выбирают наши корпоративные услуги",
         "image": {
-          "title": "Professional Image",
-          "description": "Make a lasting impression with our prestigious Rolls-Royce fleet"
+          "title": "Профессиональный имидж",
+          "description": "Произведите неизгладимое впечатление с нашим престижным флотом Rolls-Royce и укрепите репутацию вашего бизнеса"
         },
         "productivity": {
-          "title": "Enhanced Productivity",
-          "description": "Utilize travel time effectively in our quiet, comfortable vehicles"
+          "title": "Повышенная продуктивность",
+          "description": "Эффективно используйте время в пути в наших тихих, комфортабельных автомобилях, оборудованных бизнес-удобствами"
         },
         "privacy": {
-          "title": "Confidential Environment",
-          "description": "Conduct sensitive business discussions in complete privacy"
+          "title": "Конфиденциальная среда",
+          "description": "Ведите конфиденциальные деловые переговоры в полной приватности с звукоизолированными роскошными интерьерами"
         },
         "standards": {
-          "title": "International Standards",
-          "description": "World-class service that meets global corporate expectations"
+          "title": "Международные стандарты",
+          "description": "Сервис мирового класса, соответствующий глобальным корпоративным ожиданиям и требованиям соответствия"
         }
       },
       "packages": {
         "title": "Корпоративные пакеты",
         "executive": {
-          "name": "Executive Package",
-          "description": "Premium executive transportation for business leaders",
+          "name": "Исполнительный пакет",
+          "description": "Премиальная транспортировка руководителей для бизнес-лидеров и топ-менеджеров",
           "features": [
-            "Dedicated professional chauffeur",
-            "Premium Rolls-Royce Ghost or Phantom",
-            "24/7 availability",
-            "Airport meet & greet service",
-            "Complimentary water and refreshments",
-            "Wi-Fi connectivity",
-            "Privacy partition",
-            "Flexible scheduling",
-            "Corporate billing available"
+            "Выделенный профессиональный шофер",
+            "Премиальный Rolls-Royce Ghost или Phantom",
+            "Доступность 24/7 и поддержка",
+            "Встреча в аэропорту",
+            "Бесплатная вода и напитки",
+            "WiFi-подключение и зарядные порты",
+            "Бизнес-газеты и журналы",
+            "Гибкие изменения маршрута"
           ],
           "vehicles": [
             "Phantom",
             "Ghost"
           ],
-          "price": "From AED 1,200/day"
+          "price": "От 1,200 дирхам/день"
         },
         "conference": {
-          "name": "Conference Package",
-          "description": "Multi-day conference and event transportation",
+          "name": "Конференц-пакет",
+          "description": "Многодневная транспортировка на конференции и мероприятия для бизнес-делегаций",
           "features": [
-            "Multiple vehicle coordination",
-            "Event schedule management",
-            "VIP conference pickup/drop-off",
-            "Flexible timing adjustments",
-            "Dedicated account manager",
-            "Group transportation logistics",
-            "Hotel coordination",
-            "Conference venue partnerships"
+            "Координация нескольких автомобилей",
+            "Управление расписанием мероприятий",
+            "VIP-трансфер на конференции",
+            "Гибкие корректировки времени",
+            "Выделенный менеджер аккаунта",
+            "Логистика группового транспорта",
+            "Координация места встреч",
+            "Обновления расписания в реальном времени"
           ],
           "vehicles": [
             "Ghost",
             "Cullinan"
           ],
-          "price": "From AED 800/day"
+          "price": "От 800 дирхам/день"
         },
         "roadshow": {
-          "name": "Roadshow Package",
-          "description": "Multi-city business roadshow transportation",
+          "name": "Пакет роуд-шоу",
+          "description": "Транспортировка бизнес-роуд-шоу по нескольким городам ОАЭ",
           "features": [
-            "Inter-emirate travel coordination",
-            "Long-distance comfort optimization",
-            "Business meeting logistics",
-            "Flexible schedule accommodation",
-            "Professional route planning",
-            "Multi-day availability",
-            "Accommodation coordination",
-            "Executive amenities"
+            "Координация межэмиратского путешествия",
+            "Оптимизация комфорта для дальних поездок",
+            "Логистика деловых встреч",
+            "Гибкое размещение расписания",
+            "Профессиональное планирование маршрута",
+            "Организация остановок для отдыха",
+            "Помещения для хранения документов",
+            "Экстренная поддержка"
           ],
           "vehicles": [
             "Phantom",
             "Cullinan"
           ],
-          "price": "From AED 1,500/day"
+          "price": "От 1,500 дирхам/день"
         },
         "partnership": {
-          "name": "Partnership Package",
-          "description": "Long-term corporate partnership solutions",
+          "name": "Партнерский пакет",
+          "description": "Долгосрочные корпоративные партнерские решения с льготными тарифами",
           "features": [
-            "Dedicated fleet allocation",
-            "Priority booking guarantee",
-            "Customized service protocols",
-            "Quarterly business reviews",
-            "Volume discount pricing",
-            "Exclusive vehicle assignment",
-            "Corporate branding options",
-            "Annual contract benefits"
+            "Выделение специального флота",
+            "Гарантия приоритетного бронирования",
+            "Индивидуальные протоколы обслуживания",
+            "Ежеквартальные бизнес-обзоры",
+            "Ценообразование с объемными скидками",
+            "Консолидированные системы выставления счетов",
+            "Управление корпоративным аккаунтом",
+            "Мониторинг соответствия SLA"
           ],
           "vehicles": [
-            "All Models"
+            "Все модели"
           ],
-          "price": "Custom pricing available"
+          "price": "Индивидуальные цены доступны"
         },
         "requestQuote": "Запросить предложение"
       },
       "clients": {
         "title": "Доверяют ведущие компании",
         "emiratesNBD": "Emirates NBD",
-        "banking": "Banking Sector",
+        "banking": "Банковский сектор",
         "damac": "DAMAC Properties",
-        "realEstate": "Real Estate",
+        "realEstate": "Недвижимость",
         "dubaiHolding": "Dubai Holding",
-        "investment": "Investment",
+        "investment": "Инвестиции",
         "emaar": "Emaar Properties",
-        "development": "Development",
-        "more": "И 200+ других компаний доверяют нашим услугам"
+        "development": "Развитие",
+        "more": "И еще 500+ компаний доверяют нашим услугам"
       },
       "caseStudies": {
-        "title": "Success Stories",
+        "title": "Истории успеха",
         "bank": {
-          "client": "Major UAE Bank",
-          "challenge": "Challenge",
-          "challengeText": "Needed reliable transport for a 5-day, multi-city financial roadshow for their CEO.",
-          "solution": "Solution",
-          "solutionText": "Provided a dedicated Ghost with a professional chauffeur, managing a complex schedule flawlessly.",
-          "result": "Result",
-          "resultText": "The CEO praised the seamless experience, allowing them to focus on critical business meetings."
+          "client": "Крупный банк ОАЭ",
+          "challenge": "Вызов",
+          "challengeText": "Требовался надежный транспорт для 5-дневного многогороднего финансового роуд-шоу для их генерального директора и членов совета директоров.",
+          "solution": "Решение",
+          "solutionText": "Предоставили выделенный Ghost с профессиональным шофером, безупречно управляя сложным расписанием по Дубаю, Абу-Даби и Шардже.",
+          "result": "Результат",
+          "resultText": "Генеральный директор похвалил безупречный опыт, позволивший ему сосредоточиться на критически важных деловых встречах и достичь целей роуд-шоу."
         },
         "tech": {
-          "client": "International Tech Company",
-          "challenge": "Challenge",
-          "challengeText": "Required transportation for 50+ executives during a 3-day conference in Dubai.",
-          "solution": "Solution",
-          "solutionText": "Coordinated a fleet of 5 Rolls-Royce vehicles with synchronized timing and logistics.",
-          "result": "Result",
-          "resultText": "Achieved 100% on-time arrival rate with zero scheduling conflicts."
+          "client": "Международная IT-компания",
+          "challenge": "Вызов",
+          "challengeText": "Требовалась транспортировка для 50+ руководителей во время 3-дневной конференции в Дубае с множественными сменами площадок.",
+          "solution": "Решение",
+          "solutionText": "Координировали флот из 5 автомобилей Rolls-Royce с синхронизированным временем и логистическим управлением.",
+          "result": "Результат",
+          "resultText": "Достигли 100% показателя прибытия вовремя без конфликтов расписания, укрепив профессиональный имидж компании."
         }
       },
       "benefits": {
-        "title": "Corporate Benefits",
+        "title": "Корпоративные преимущества",
         "financial": {
-          "title": "Financial Advantages",
+          "title": "Финансовые преимущества",
           "items": [
-            "Transparent corporate billing",
-            "Detailed expense reporting",
-            "Volume discount programs",
-            "Flexible payment terms"
+            "Прозрачное корпоративное ценообразование",
+            "Доступны объемные скидки",
+            "Консолидированное месячное выставление счетов",
+            "Никаких скрытых комиссий или сборов",
+            "Налогово-вычитаемые бизнес-расходы",
+            "Гибкие условия оплаты"
           ]
         },
         "operational": {
-          "title": "Operational Excellence",
+          "title": "Операционные преимущества",
           "items": [
-            "Dedicated account management",
-            "24/7 booking support",
-            "Real-time vehicle tracking",
-            "Schedule optimization"
+            "Выделенный менеджер аккаунта",
+            "Гарантия приоритетного бронирования",
+            "Корпоративная горячая линия 24/7",
+            "Подтверждения бронирования в реальном времени",
+            "Отчеты о доступности флота",
+            "Мониторинг качества обслуживания"
           ]
         },
         "service": {
-          "title": "Service Quality",
+          "title": "Превосходство сервиса",
           "items": [
-            "Professional chauffeur training",
-            "Luxury vehicle maintenance",
-            "Punctuality guarantee",
-            "Confidentiality assurance"
+            "Профессиональные шоферы",
+            "Безупречный автопарк",
+            "Гарантия пунктуальности",
+            "Дискретно и конфиденциально",
+            "Многоязычные водители",
+            "Персонал с допуском безопасности"
           ]
         }
       },
       "cta": {
-        "title": "Готовы улучшить корпоративные перевозки?",
-        "description": "Contact our corporate specialists to discuss your transportation needs and receive a customized proposal.",
-        "speakToTeam": "Связаться с корпоративной командой",
+        "title": "Готовы поднять ваш корпоративный транспорт?",
+        "description": "Свяжитесь с нашей корпоративной командой для индивидуальных бизнес-решений и льготных тарифов. Позвольте нам позаботиться о ваших транспортных потребностях, пока вы сосредотачиваетесь на росте бизнеса.",
+        "speakToTeam": "Поговорить с корпоративной командой",
         "downloadBrochure": "Скачать корпоративную брошюру"
       },
       "quickInquiry": {
         "title": "Быстрый корпоративный запрос",
         "selectPackage": "Выберите пакет",
         "packages": {
-          "executive": "Executive Package",
-          "conference": "Conference Package",
-          "roadshow": "Roadshow Package",
-          "partnership": "Partnership Package"
+          "executive": "Исполнительный пакет",
+          "conference": "Конференц-пакет",
+          "roadshow": "Пакет роуд-шоу",
+          "partnership": "Партнерский пакет"
         },
         "submitInquiry": "Отправить запрос"
       }
     },
     "wedding": {
       "hero": {
-        "title": "Прокат автомобилей для свадьбы в Дубае",
+        "title": "Аренда свадебных автомобилей класса люкс в Дубае",
         "subtitle": "Прибудьте в непревзойденном стиле в ваш особенный день",
         "viewPackages": "Посмотреть свадебные пакеты",
         "consultation": "Бесплатная консультация"
       },
       "whyChoose": {
-        "title": "Почему выбрать наши свадебные услуги"
+        "title": "Почему выбирают наши свадебные услуги",
+        "bridal": {
+          "title": "Элегантность невесты",
+          "description": "Наш безупречный белый флот Rolls-Royce обеспечивает идеальное дополнение к вашему свадебному наряду и создает незабываемые воспоминания."
+        },
+        "photo": {
+          "title": "Идеально для фотографий",
+          "description": "Каждый ракурс потрясающий - создавайте свадебные фотографии журнального качества с нашими фотогеничными роскошными автомобилями."
+        },
+        "reliability": {
+          "title": "Надежность, которой можно доверять",
+          "description": "Ваш свадебный день слишком важен, чтобы оставлять что-то на волю случая. Мы гарантируем пунктуальность, совершенство и безупречный сервис."
+        }
       },
       "packages": {
         "title": "Свадебные пакеты",
         "classic": {
-          "name": "Классический свадебный пакет"
+          "name": "Классический свадебный пакет",
+          "duration": "4 часа",
+          "features": [
+            "Белый Rolls-Royce Phantom или Ghost",
+            "Профессиональный шофер в официальной одежде",
+            "Услуга красной дорожки",
+            "Бесплатное цветочное украшение",
+            "Подача шампанского для пары",
+            "Табличка 'Молодожены' и ленты",
+            "Помощь свадебного фотографа"
+          ],
+          "price": "От 2,500 дирхам"
         },
         "royal": {
-          "name": "Королевский свадебный пакет"
+          "name": "Королевский свадебный пакет",
+          "duration": "6 часов",
+          "features": [
+            "Выбор любой модели Rolls-Royce",
+            "Координация нескольких автомобилей для семьи",
+            "Индивидуальное украшение свадебного автомобиля",
+            "Помощь профессионального фотографа",
+            "Продленные часы обслуживания",
+            "Координация транспорта VIP-гостей",
+            "Подготовка свадебного плейлиста"
+          ],
+          "price": "От 4,200 дирхам"
         },
         "ultimate": {
-          "name": "Премиум свадебный пакет",
-          "premium": "Самый популярный"
+          "name": "Абсолютный свадебный пакет",
+          "premium": "Самый популярный",
+          "duration": "Полный день",
+          "features": [
+            "Весь флот в вашем распоряжении",
+            "Координация свадебного планирования",
+            "Индивидуальные темы украшения",
+            "Автомобиль профессионального свадебного фотографа",
+            "VIP-обслуживание в течение всего дня",
+            "Подготовка свадебного номера",
+            "Поддержка церемонии в нескольких местах",
+            "Гарантия запасного автомобиля"
+          ],
+          "price": "От 8,500 дирхам"
         },
         "bookPackage": "Забронировать этот пакет"
       },
       "gallery": {
-        "title": "Свадебная галерея"
+        "title": "Свадебная галерея",
+        "subtitle": "Посмотрите, как мы воплощаем мечты в реальность"
       },
       "testimonials": {
         "title": "Счастливые пары",
         "sarah": {
           "name": "Сара и Ахмед",
-          "text": "Rolls-Royce сделал наш свадебный день абсолютно волшебным..."
+          "text": "Rolls-Royce сделал наш свадебный день абсолютно волшебным. Все было идеально - от безупречного белого Phantom до профессионального шофера. Украшение было потрясающим, а наши фотографии захватывают дух. Настоятельно рекомендую!"
         },
         "fatima": {
           "name": "Фатима и Омар",
-          "text": "Исключительный сервис! Автомобиль был красиво украшен..."
+          "text": "Исключительный сервис от начала до конца! Автомобиль был красиво украшен, водитель был невероятно профессионален, а время было идеальным. Это сделало наш особенный день еще более запоминающимся. Спасибо за воплощение наших мечтаний!"
+        },
+        "mariam": {
+          "name": "Мариам и Халид",
+          "text": "Мы выбрали Королевский пакет, и он превзошел все наши ожидания. Координация с нашим фотографом была безупречной, а автомобиль выглядел абсолютно потрясающе. Наши семьи были так впечатлены. Стоит каждого дирхама!"
         }
       },
       "cta": {
-        "title": "Готовы сделать свадьбу незабываемой?",
-        "call": "Позвонить сейчас",
-        "getQuote": "Получить предложение"
+        "title": "Готовы сделать вашу свадьбу незабываемой?",
+        "call": "Звонить сейчас",
+        "getQuote": "Получить свадебную цену",
+        "description": "Свяжитесь с нами сегодня для персонализированного пакета свадебного автомобиля, адаптированного к вашему особенному дню. Наши свадебные специалисты помогут вам выбрать идеальный пакет."
+      },
+      "specialFeatures": {
+        "title": "Особенности свадебного сервиса",
+        "decorations": {
+          "title": "Индивидуальные украшения",
+          "description": "Свежие цветы, ленты и персонализированные темы в соответствии с цветами вашей свадьбы"
+        },
+        "photography": {
+          "title": "Поддержка фотографии",
+          "description": "Профессиональная помощь для идеальных свадебных снимков с оптимальным позиционированием автомобиля"
+        },
+        "coordination": {
+          "title": "Координация мероприятий",
+          "description": "Безупречное время с вашим свадебным планировщиком и требованиями места"
+        },
+        "backup": {
+          "title": "Гарантия запасного варианта",
+          "description": "Аварийный запасной автомобиль в режиме ожидания для обеспечения идеального течения вашего дня"
+        }
+      }
+    },
+    "airportTransfer": {
+      "hero": {
+        "title": "Превосходство в трансфере из аэропорта",
+        "subtitle": "Прибытие в непревзойденной роскоши",
+        "description": "Испытайте безупречную роскошь от посадки до места назначения с нашим премиум-сервисом трансфера Rolls-Royce из аэропорта.",
+        "bookTransfer": "Забронировать трансфер из аэропорта",
+        "hotline": "Горячая линия 24/7: +971 55 816 4922",
+        "stats": {
+          "transfers": "5,000+",
+          "transfersLabel": "Трансферов из аэропорта",
+          "availability": "24/7",
+          "availabilityLabel": "Доступность",
+          "onTime": "98%",
+          "onTimeLabel": "Своевременность"
+        }
+      },
+      "airportSelector": {
+        "title": "Выберите ваш аэропорт",
+        "dxb": {
+          "name": "Международный аэропорт Дубая (DXB)",
+          "terminals": [
+            "Терминал 1",
+            "Терминал 2",
+            "Терминал 3"
+          ],
+          "distance": "15 км от центра города",
+          "transferTime": "20-30 минут"
+        },
+        "dwc": {
+          "name": "Международный аэропорт Аль Мактум (DWC)",
+          "terminals": [
+            "Пассажирский терминал"
+          ],
+          "distance": "37 км от центра города",
+          "transferTime": "35-45 минут"
+        },
+        "auh": {
+          "name": "Международный аэропорт Абу-Даби (AUH)",
+          "terminals": [
+            "Терминал 1",
+            "Терминал 2",
+            "Терминал 3"
+          ],
+          "distance": "130 км от Дубая",
+          "transferTime": "90-120 минут"
+        },
+        "shj": {
+          "name": "Международный аэропорт Шарджа (SHJ)",
+          "terminals": [
+            "Главный терминал"
+          ],
+          "distance": "28 км от Дубая",
+          "transferTime": "30-40 минут"
+        },
+        "terminals": "Терминалы",
+        "transferInfo": "Информация о трансфере",
+        "distance": "Расстояние",
+        "travelTime": "Время в пути"
+      },
+      "whyChoose": {
+        "title": "Почему выбирают наш аэропортный сервис?",
+        "flightTracking": {
+          "title": "Отслеживание рейсов в реальном времени",
+          "description": "Мы отслеживаем статус вашего рейса для обеспечения своевременной встречи, даже при задержках или раннем прибытии"
+        },
+        "professional": {
+          "title": "Профессиональные шоферы",
+          "description": "Опытные многоязычные водители, обученные VIP-протоколу и аэропортным процедурам"
+        },
+        "reliability": {
+          "title": "Гарантированная надежность",
+          "description": "Доступность 24/7 с резервными автомобилями для полного спокойствия"
+        },
+        "pricing": {
+          "title": "Фиксированные цены",
+          "description": "Без скачков цен или скрытых комиссий, всегда прозрачные тарифы при предварительном бронировании"
+        }
+      },
+      "packages": {
+        "title": "Пакеты трансфера",
+        "oneWay": {
+          "name": "Трансфер в одну сторону",
+          "airports": [
+            "DXB",
+            "DWC"
+          ],
+          "vehicles": [
+            "Phantom",
+            "Ghost",
+            "Cullinan"
+          ],
+          "features": [
+            "Услуга встречи и проводов",
+            "Мониторинг рейсов",
+            "Помощь с багажом",
+            "Бесплатная вода и напитки",
+            "Wi-Fi доступен",
+            "Профессиональный шофер",
+            "Фиксированная цена маршрута"
+          ],
+          "price": "От 1,200 дирхам"
+        },
+        "roundTrip": {
+          "name": "Пакет туда-обратно",
+          "airports": [
+            "DXB",
+            "DWC",
+            "AUH"
+          ],
+          "vehicles": [
+            "Весь флот доступен"
+          ],
+          "features": [
+            "Приоритетный VIP-сервис",
+            "Выделенный консьерж",
+            "Отслеживание рейсов 24/7",
+            "Гибкое время",
+            "Варианты с несколькими остановками",
+            "Премиум-удобства",
+            "Гарантия возврата"
+          ],
+          "price": "От 2,200 дирхам"
+        },
+        "business": {
+          "name": "Бизнес-делегация",
+          "airports": [
+            "Все аэропорты"
+          ],
+          "vehicles": [
+            "Несколько автомобилей"
+          ],
+          "features": [
+            "Координация флота",
+            "Двуязычные шоферы",
+            "Корпоративное выставление счетов",
+            "Доступ в executive lounge",
+            "Организация встреч в автомобиле",
+            "Организация безопасности",
+            "Групповая логистика"
+          ],
+          "price": "От 3,500 дирхам"
+        },
+        "availableAt": "Доступно в",
+        "vehicles": "Автомобили",
+        "selectPackage": "Выбрать пакет"
+      },
+      "popularRoutes": {
+        "title": "Популярные аэропортные маршруты",
+        "from": "Откуда",
+        "to": "Куда",
+        "duration": "Длительность",
+        "startingPrice": "Начальная цена",
+        "routes": [
+          {
+            "from": "DXB Терминал 3",
+            "to": "Бурдж-Халифа/Центр",
+            "time": "25 мин",
+            "price": "1,350 дирхам"
+          },
+          {
+            "from": "DXB Терминал 1",
+            "to": "Дубай Марина",
+            "time": "35 мин",
+            "price": "1,550 дирхам"
+          },
+          {
+            "from": "DWC",
+            "to": "Пальма Джумейра",
+            "time": "40 мин",
+            "price": "1,800 дирхам"
+          },
+          {
+            "from": "AUH",
+            "to": "Центр Дубая",
+            "time": "90 мин",
+            "price": "3,800 дирхам"
+          }
+        ]
+      },
+      "howItWorks": {
+        "title": "Как работает трансфер из аэропорта",
+        "step1": {
+          "title": "Бронирование онлайн",
+          "description": "Выберите автомобиль и предоставьте детали рейса для безупречной координации"
+        },
+        "step2": {
+          "title": "Отслеживание рейса",
+          "description": "Мы автоматически отслеживаем ваш рейс на предмет задержек или раннего прибытия"
+        },
+        "step3": {
+          "title": "Встреча и проводы",
+          "description": "Ваш шофер ждет с табличкой с именем в зоне прибытия"
+        },
+        "step4": {
+          "title": "Роскошный трансфер",
+          "description": "Расслабьтесь, пока мы доставляем вас к месту назначения в полном комфорте"
+        }
+      },
+      "cta": {
+        "title": "Забронируйте трансфер из аэропорта сейчас",
+        "description": "Испытайте безупречную роскошь от посадки до места назначения. Доступно 24/7 для всех основных аэропортов ОАЭ.",
+        "call": "Звонить: +971 55 816 4922",
+        "onlineBooking": "Онлайн-бронирование",
+        "waitingTime": "Бесплатное время ожидания: 60 минут для международных рейсов, 30 минут для внутренних"
       }
     }
   },

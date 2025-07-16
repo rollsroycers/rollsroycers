@@ -4,13 +4,16 @@
       "packages": {
         "executive": {
           "name": "Executive Package",
-          "description": "Premium executive transportation for business leaders",
+          "description": "Premium executive transportation for business leaders and C-suite executives",
           "features": [
             "Dedicated professional chauffeur",
             "Premium Rolls-Royce Ghost or Phantom",
-            "24/7 availability",
+            "24/7 availability and support",
             "Airport meet & greet service",
-            "Complimentary water and refreshments"
+            "Complimentary water and refreshments",
+            "WiFi connectivity and charging ports",
+            "Business newspapers and magazines",
+            "Flexible itinerary modifications"
           ],
           "vehicles": [
             "Phantom",
@@ -20,13 +23,16 @@
         },
         "conference": {
           "name": "Conference Package",
-          "description": "Multi-day conference and event transportation",
+          "description": "Multi-day conference and event transportation for business delegations",
           "features": [
             "Multiple vehicle coordination",
             "Event schedule management",
             "VIP conference pickup/drop-off",
             "Flexible timing adjustments",
-            "Dedicated account manager"
+            "Dedicated account manager",
+            "Group transportation logistics",
+            "Meeting venue coordination",
+            "Real-time scheduling updates"
           ],
           "vehicles": [
             "Ghost",
@@ -36,13 +42,16 @@
         },
         "roadshow": {
           "name": "Roadshow Package",
-          "description": "Multi-city business roadshow transportation",
+          "description": "Multi-city business roadshow transportation across UAE",
           "features": [
             "Inter-emirate travel coordination",
             "Long-distance comfort optimization",
             "Business meeting logistics",
             "Flexible schedule accommodation",
-            "Professional route planning"
+            "Professional route planning",
+            "Rest stop arrangements",
+            "Document storage facilities",
+            "Emergency support coverage"
           ],
           "vehicles": [
             "Phantom",
@@ -52,13 +61,16 @@
         },
         "partnership": {
           "name": "Partnership Package",
-          "description": "Long-term corporate partnership solutions",
+          "description": "Long-term corporate partnership solutions with preferred rates",
           "features": [
             "Dedicated fleet allocation",
             "Priority booking guarantee",
             "Customized service protocols",
             "Quarterly business reviews",
-            "Volume discount pricing"
+            "Volume discount pricing",
+            "Consolidated billing systems",
+            "Corporate account management",
+            "SLA compliance monitoring"
           ],
           "vehicles": [
             "All Models"
@@ -77,7 +89,7 @@
         "investment": "Investment",
         "emaar": "Emaar Properties",
         "development": "Development",
-        "more": "And 200+ more companies trust our services",
+        "more": "And 500+ more companies trust our services",
         "title": "Trusted by Leading Businesses"
       },
       "caseStudies": {
@@ -85,20 +97,20 @@
         "bank": {
           "client": "Major UAE Bank",
           "challenge": "Challenge",
-          "challengeText": "Needed reliable transport for a 5-day, multi-city financial roadshow for their CEO.",
+          "challengeText": "Needed reliable transport for a 5-day, multi-city financial roadshow for their CEO and board members.",
           "solution": "Solution",
-          "solutionText": "Provided a dedicated Ghost with a professional chauffeur, managing a complex schedule flawlessly.",
+          "solutionText": "Provided a dedicated Ghost with a professional chauffeur, managing a complex schedule flawlessly across Dubai, Abu Dhabi, and Sharjah.",
           "result": "Result",
-          "resultText": "The CEO praised the seamless experience, allowing them to focus on critical business meetings."
+          "resultText": "The CEO praised the seamless experience, allowing them to focus on critical business meetings and achieve their roadshow objectives."
         },
         "tech": {
           "client": "International Tech Company",
           "challenge": "Challenge",
-          "challengeText": "Required transportation for 50+ executives during a 3-day conference in Dubai.",
+          "challengeText": "Required transportation for 50+ executives during a 3-day conference in Dubai with multiple venue changes.",
           "solution": "Solution",
-          "solutionText": "Coordinated a fleet of 5 Rolls-Royce vehicles with synchronized timing and logistics.",
+          "solutionText": "Coordinated a fleet of 5 Rolls-Royce vehicles with synchronized timing and logistics management.",
           "result": "Result",
-          "resultText": "Achieved 100% on-time arrival rate with zero scheduling conflicts."
+          "resultText": "Achieved 100% on-time arrival rate with zero scheduling conflicts, enhancing the company's professional image."
         }
       },
       "hero": {
@@ -117,19 +129,19 @@
         "title": "Why Choose Our Corporate Services",
         "image": {
           "title": "Professional Image",
-          "description": "Make a lasting impression with our prestigious Rolls-Royce fleet"
+          "description": "Make a lasting impression with our prestigious Rolls-Royce fleet and enhance your business reputation"
         },
         "productivity": {
           "title": "Enhanced Productivity",
-          "description": "Utilize travel time effectively in our quiet, comfortable vehicles"
+          "description": "Utilize travel time effectively in our quiet, comfortable vehicles equipped with business amenities"
         },
         "privacy": {
           "title": "Confidential Environment",
-          "description": "Conduct sensitive business discussions in complete privacy"
+          "description": "Conduct sensitive business discussions in complete privacy with soundproof luxury interiors"
         },
         "standards": {
           "title": "International Standards",
-          "description": "World-class service that meets global corporate expectations"
+          "description": "World-class service that meets global corporate expectations and compliance requirements"
         }
       },
       "benefits": {
@@ -140,7 +152,9 @@
             "Transparent corporate pricing",
             "Volume discounts available",
             "Consolidated monthly billing",
-            "No hidden fees or charges"
+            "No hidden fees or charges",
+            "Tax-deductible business expenses",
+            "Flexible payment terms"
           ]
         },
         "operational": {
@@ -149,7 +163,9 @@
             "Dedicated account manager",
             "Priority booking guarantee",
             "24/7 corporate hotline",
-            "Real-time booking confirmations"
+            "Real-time booking confirmations",
+            "Fleet availability reports",
+            "Service quality monitoring"
           ]
         },
         "service": {
@@ -158,13 +174,15 @@
             "Professional chauffeurs",
             "Pristine vehicle fleet",
             "Punctuality guarantee",
-            "Discreet and confidential"
+            "Discreet and confidential",
+            "Multilingual drivers",
+            "Security-cleared personnel"
           ]
         }
       },
       "cta": {
         "title": "Ready to Elevate Your Corporate Transportation?",
-        "description": "Contact our corporate team for customized business solutions and preferential rates.",
+        "description": "Contact our corporate team for customized business solutions and preferential rates. Let us handle your transportation needs while you focus on business growth.",
         "speakToTeam": "Speak to Corporate Team",
         "downloadBrochure": "Download Corporate Brochure"
       },
@@ -191,15 +209,15 @@
         "title": "Why Choose Our Wedding Services",
         "bridal": {
           "title": "Bridal Elegance",
-          "description": "Our pristine white Rolls-Royce fleet provides the perfect complement to your wedding attire."
+          "description": "Our pristine white Rolls-Royce fleet provides the perfect complement to your wedding attire and creates unforgettable memories."
         },
         "photo": {
           "title": "Photography Perfect",
-          "description": "Every angle is stunning - create unforgettable memories with our photogenic vehicles."
+          "description": "Every angle is stunning - create magazine-worthy wedding photos with our photogenic luxury vehicles."
         },
         "reliability": {
           "title": "Reliability You Can Trust",
-          "description": "Your wedding day is too important to leave to chance. We guarantee punctuality and perfection."
+          "description": "Your wedding day is too important to leave to chance. We guarantee punctuality, perfection, and seamless service."
         }
       },
       "packages": {
@@ -211,8 +229,10 @@
             "White Rolls-Royce Phantom or Ghost",
             "Professional chauffeur in formal attire",
             "Red carpet service",
-            "Complimentary decorations",
-            "Champagne service"
+            "Complimentary floral decorations",
+            "Champagne service for the couple",
+            "Just Married sign and ribbons",
+            "Wedding photography assistance"
           ],
           "price": "From AED 2,500"
         },
@@ -221,10 +241,12 @@
           "duration": "6 hours",
           "features": [
             "Choice of any Rolls-Royce model",
-            "Multiple vehicle coordination",
-            "Bridal car decoration",
-            "Photography assistance",
-            "Extended service hours"
+            "Multiple vehicle coordination for family",
+            "Custom bridal car decoration",
+            "Professional photography assistance",
+            "Extended service hours",
+            "VIP guest transport coordination",
+            "Wedding playlist preparation"
           ],
           "price": "From AED 4,200"
         },
@@ -235,8 +257,11 @@
             "Entire fleet at your disposal",
             "Wedding planning coordination",
             "Custom decoration themes",
-            "Professional photography car",
-            "VIP treatment throughout"
+            "Professional wedding photographer car",
+            "VIP treatment throughout the day",
+            "Bridal suite preparation",
+            "Multi-location ceremony support",
+            "Backup vehicle guarantee"
           ],
           "price": "From AED 8,500",
           "premium": "Most Popular"
@@ -244,24 +269,254 @@
         "bookPackage": "Book This Package"
       },
       "gallery": {
-        "title": "Wedding Gallery"
+        "title": "Wedding Gallery",
+        "subtitle": "See How We Make Dreams Come True"
       },
       "testimonials": {
         "title": "Happy Couples",
         "sarah": {
           "name": "Sarah & Ahmed",
-          "text": "The Rolls-Royce made our wedding day absolutely magical. Everything was perfect - from the pristine white Phantom to the professional chauffeur. Highly recommended!"
+          "text": "The Rolls-Royce made our wedding day absolutely magical. Everything was perfect - from the pristine white Phantom to the professional chauffeur. The decoration was stunning and our photos are breathtaking. Highly recommended!"
         },
         "fatima": {
           "name": "Fatima & Omar",
-          "text": "Exceptional service! The car was beautifully decorated and the driver was so professional. It made our special day even more memorable. Thank you!"
+          "text": "Exceptional service from start to finish! The car was beautifully decorated, the driver was incredibly professional, and the timing was perfect. It made our special day even more memorable. Thank you for making our dreams come true!"
+        },
+        "mariam": {
+          "name": "Mariam & Khalid",
+          "text": "We chose the Royal Package and it exceeded all our expectations. The coordination with our photographer was seamless, and the car looked absolutely stunning. Our families were so impressed. Worth every dirham!"
         }
       },
       "cta": {
         "title": "Ready to Make Your Wedding Unforgettable?",
-        "description": "Contact us today for a personalized wedding car package tailored to your special day.",
+        "description": "Contact us today for a personalized wedding car package tailored to your special day. Our wedding specialists will help you choose the perfect package.",
         "call": "Call Now",
         "getQuote": "Get Wedding Quote"
+      },
+      "specialFeatures": {
+        "title": "Special Wedding Features",
+        "decorations": {
+          "title": "Custom Decorations",
+          "description": "Fresh flowers, ribbons, and personalized themes to match your wedding colors"
+        },
+        "photography": {
+          "title": "Photography Support",
+          "description": "Professional assistance for the perfect wedding shots with optimal car positioning"
+        },
+        "coordination": {
+          "title": "Event Coordination",
+          "description": "Seamless timing with your wedding planner and venue requirements"
+        },
+        "backup": {
+          "title": "Backup Guarantee",
+          "description": "Emergency backup vehicle on standby to ensure your day goes perfectly"
+        }
+      }
+    },
+    "airportTransfer": {
+      "hero": {
+        "title": "Airport Transfer Excellence",
+        "subtitle": "Arrive in Unparalleled Luxury",
+        "description": "Experience seamless luxury from touchdown to destination with our premium Rolls-Royce airport transfer service.",
+        "bookTransfer": "Book Airport Transfer",
+        "hotline": "24/7 Hotline: +971 55 816 4922",
+        "stats": {
+          "transfers": "5,000+",
+          "transfersLabel": "Airport Transfers",
+          "availability": "24/7",
+          "availabilityLabel": "Availability",
+          "onTime": "98%",
+          "onTimeLabel": "On-Time Rate"
+        }
+      },
+      "airportSelector": {
+        "title": "Select Your Airport",
+        "dxb": {
+          "name": "Dubai International Airport (DXB)",
+          "terminals": [
+            "Terminal 1",
+            "Terminal 2",
+            "Terminal 3"
+          ],
+          "distance": "15 km from Downtown",
+          "transferTime": "20-30 minutes"
+        },
+        "dwc": {
+          "name": "Al Maktoum International Airport (DWC)",
+          "terminals": [
+            "Passenger Terminal"
+          ],
+          "distance": "37 km from Downtown",
+          "transferTime": "35-45 minutes"
+        },
+        "auh": {
+          "name": "Abu Dhabi International Airport (AUH)",
+          "terminals": [
+            "Terminal 1",
+            "Terminal 2",
+            "Terminal 3"
+          ],
+          "distance": "130 km from Dubai",
+          "transferTime": "90-120 minutes"
+        },
+        "shj": {
+          "name": "Sharjah International Airport (SHJ)",
+          "terminals": [
+            "Main Terminal"
+          ],
+          "distance": "28 km from Dubai",
+          "transferTime": "30-40 minutes"
+        },
+        "terminals": "Terminals",
+        "transferInfo": "Transfer Information",
+        "distance": "Distance",
+        "travelTime": "Travel Time"
+      },
+      "whyChoose": {
+        "title": "Why Choose Our Airport Service?",
+        "flightTracking": {
+          "title": "Real-Time Flight Tracking",
+          "description": "We monitor your flight status to ensure timely pickup, even with delays or early arrivals"
+        },
+        "professional": {
+          "title": "Professional Chauffeurs",
+          "description": "Experienced, multilingual drivers trained in VIP protocol and airport procedures"
+        },
+        "reliability": {
+          "title": "Reliability Guaranteed",
+          "description": "24/7 availability with backup vehicles for complete peace of mind"
+        },
+        "pricing": {
+          "title": "Fixed Pricing",
+          "description": "No surge pricing or hidden fees, transparent rates always with advance booking"
+        }
+      },
+      "packages": {
+        "title": "Transfer Packages",
+        "oneWay": {
+          "name": "One-Way Transfer",
+          "airports": [
+            "DXB",
+            "DWC"
+          ],
+          "vehicles": [
+            "Phantom",
+            "Ghost",
+            "Cullinan"
+          ],
+          "features": [
+            "Meet & Greet Service",
+            "Flight Monitoring",
+            "Luggage Assistance",
+            "Complimentary Water & Refreshments",
+            "Wi-Fi Available",
+            "Professional Chauffeur",
+            "Fixed Route Pricing"
+          ],
+          "price": "From AED 1,200"
+        },
+        "roundTrip": {
+          "name": "Round-Trip Package",
+          "airports": [
+            "DXB",
+            "DWC",
+            "AUH"
+          ],
+          "vehicles": [
+            "Full Fleet Available"
+          ],
+          "features": [
+            "Priority VIP Service",
+            "Dedicated Concierge",
+            "24/7 Flight Tracking",
+            "Flexible Timing",
+            "Multi-stop Options",
+            "Premium Amenities",
+            "Return Guarantee"
+          ],
+          "price": "From AED 2,200"
+        },
+        "business": {
+          "name": "Business Delegation",
+          "airports": [
+            "All Airports"
+          ],
+          "vehicles": [
+            "Multiple Vehicles"
+          ],
+          "features": [
+            "Fleet Coordination",
+            "Bilingual Chauffeurs",
+            "Corporate Billing",
+            "Executive Lounge Access",
+            "Meeting Setup in Vehicle",
+            "Security Arrangements",
+            "Group Logistics"
+          ],
+          "price": "From AED 3,500"
+        },
+        "availableAt": "Available at",
+        "vehicles": "Vehicles",
+        "selectPackage": "Select Package"
+      },
+      "popularRoutes": {
+        "title": "Popular Airport Routes",
+        "from": "From",
+        "to": "To",
+        "duration": "Duration",
+        "startingPrice": "Starting Price",
+        "routes": [
+          {
+            "from": "DXB Terminal 3",
+            "to": "Burj Khalifa/Downtown",
+            "time": "25 min",
+            "price": "AED 1,350"
+          },
+          {
+            "from": "DXB Terminal 1",
+            "to": "Dubai Marina",
+            "time": "35 min",
+            "price": "AED 1,550"
+          },
+          {
+            "from": "DWC",
+            "to": "Palm Jumeirah",
+            "time": "40 min",
+            "price": "AED 1,800"
+          },
+          {
+            "from": "AUH",
+            "to": "Dubai Downtown",
+            "time": "90 min",
+            "price": "AED 3,800"
+          }
+        ]
+      },
+      "howItWorks": {
+        "title": "How Airport Transfer Works",
+        "step1": {
+          "title": "Book Online",
+          "description": "Choose your vehicle and provide flight details for seamless coordination"
+        },
+        "step2": {
+          "title": "Flight Tracking",
+          "description": "We monitor your flight for delays or early arrival automatically"
+        },
+        "step3": {
+          "title": "Meet & Greet",
+          "description": "Your chauffeur awaits with a name board in the arrivals area"
+        },
+        "step4": {
+          "title": "Luxury Transfer",
+          "description": "Relax as we take you to your destination in complete comfort"
+        }
+      },
+      "cta": {
+        "title": "Book Your Airport Transfer Now",
+        "description": "Experience seamless luxury from touchdown to destination. Available 24/7 for all major airports in the UAE.",
+        "call": "Call: +971 55 816 4922",
+        "onlineBooking": "Online Booking",
+        "waitingTime": "Free waiting time: 60 minutes for international flights, 30 minutes for domestic"
       }
     }
   },

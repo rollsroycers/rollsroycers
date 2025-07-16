@@ -4,7 +4,7 @@
       "hero": {
         "title": "企业劳斯莱斯租赁",
         "subtitle": "提升您在迪拜的企业形象",
-        "description": "Elevate your business image with our premium Rolls-Royce corporate services. From executive meetings to client entertainment, we provide unmatched luxury transportation solutions.",
+        "description": "通过我们高端的劳斯莱斯企业服务提升您的企业形象。从高管会议到客户娱乐，我们提供无与伦比的豪华交通解决方案。",
         "getQuote": "获取企业报价",
         "viewPackages": "查看企业套餐",
         "stats": {
@@ -16,179 +16,184 @@
       "whyChoose": {
         "title": "为什么选择我们的企业服务",
         "image": {
-          "title": "Professional Image",
-          "description": "Make a lasting impression with our prestigious Rolls-Royce fleet"
+          "title": "专业形象",
+          "description": "通过我们享有盛誉的劳斯莱斯车队留下持久印象，增强您的企业声誉"
         },
         "productivity": {
-          "title": "Enhanced Productivity",
-          "description": "Utilize travel time effectively in our quiet, comfortable vehicles"
+          "title": "提高生产力",
+          "description": "在我们安静舒适、配备商务设施的车辆中有效利用旅行时间"
         },
         "privacy": {
-          "title": "Confidential Environment",
-          "description": "Conduct sensitive business discussions in complete privacy"
+          "title": "保密环境",
+          "description": "在完全隐私的隔音豪华内饰中进行敏感的商务讨论"
         },
         "standards": {
-          "title": "International Standards",
-          "description": "World-class service that meets global corporate expectations"
+          "title": "国际标准",
+          "description": "世界级服务，满足全球企业期望和合规要求"
         }
       },
       "packages": {
         "title": "企业套餐",
         "executive": {
-          "name": "Executive Package",
-          "description": "Premium executive transportation for business leaders",
+          "name": "高管套餐",
+          "description": "为商业领袖和C级高管提供的高端高管交通服务",
           "features": [
-            "Dedicated professional chauffeur",
-            "Premium Rolls-Royce Ghost or Phantom",
-            "24/7 availability",
-            "Airport meet & greet service",
-            "Complimentary water and refreshments",
-            "Wi-Fi connectivity",
-            "Privacy partition",
-            "Flexible scheduling",
-            "Corporate billing available"
+            "专用专业司机",
+            "高端劳斯莱斯魅影或幻影",
+            "24/7可用性和支持",
+            "机场迎接服务",
+            "免费水和饮料",
+            "WiFi连接和充电端口",
+            "商业报纸和杂志",
+            "灵活的行程修改"
           ],
           "vehicles": [
-            "Phantom",
-            "Ghost"
+            "幻影",
+            "魅影"
           ],
-          "price": "From AED 1,200/day"
+          "price": "1,200迪拉姆/天起"
         },
         "conference": {
-          "name": "Conference Package",
-          "description": "Multi-day conference and event transportation",
+          "name": "会议套餐",
+          "description": "为商务代表团提供的多日会议和活动交通服务",
           "features": [
-            "Multiple vehicle coordination",
-            "Event schedule management",
-            "VIP conference pickup/drop-off",
-            "Flexible timing adjustments",
-            "Dedicated account manager",
-            "Group transportation logistics",
-            "Hotel coordination",
-            "Conference venue partnerships"
+            "多车辆协调",
+            "活动日程管理",
+            "VIP会议接送",
+            "灵活时间调整",
+            "专用客户经理",
+            "团体交通物流",
+            "会议场所协调",
+            "实时日程更新"
           ],
           "vehicles": [
-            "Ghost",
-            "Cullinan"
+            "魅影",
+            "库里南"
           ],
-          "price": "From AED 800/day"
+          "price": "800迪拉姆/天起"
         },
         "roadshow": {
-          "name": "Roadshow Package",
-          "description": "Multi-city business roadshow transportation",
+          "name": "路演套餐",
+          "description": "阿联酋多城市商务路演交通服务",
           "features": [
-            "Inter-emirate travel coordination",
-            "Long-distance comfort optimization",
-            "Business meeting logistics",
-            "Flexible schedule accommodation",
-            "Professional route planning",
-            "Multi-day availability",
-            "Accommodation coordination",
-            "Executive amenities"
+            "酋长国间旅行协调",
+            "长途舒适优化",
+            "商务会议物流",
+            "灵活日程安排",
+            "专业路线规划",
+            "休息站安排",
+            "文件存储设施",
+            "紧急支持覆盖"
           ],
           "vehicles": [
-            "Phantom",
-            "Cullinan"
+            "幻影",
+            "库里南"
           ],
-          "price": "From AED 1,500/day"
+          "price": "1,500迪拉姆/天起"
         },
         "partnership": {
-          "name": "Partnership Package",
-          "description": "Long-term corporate partnership solutions",
+          "name": "合作伙伴套餐",
+          "description": "长期企业合作解决方案，享受优惠价格",
           "features": [
-            "Dedicated fleet allocation",
-            "Priority booking guarantee",
-            "Customized service protocols",
-            "Quarterly business reviews",
-            "Volume discount pricing",
-            "Exclusive vehicle assignment",
-            "Corporate branding options",
-            "Annual contract benefits"
+            "专用车队分配",
+            "优先预订保证",
+            "定制服务协议",
+            "季度业务审查",
+            "批量折扣定价",
+            "统一计费系统",
+            "企业账户管理",
+            "SLA合规监控"
           ],
           "vehicles": [
-            "All Models"
+            "所有型号"
           ],
-          "price": "Custom pricing available"
+          "price": "可提供定制价格"
         },
-        "requestQuote": "请求报价"
+        "requestQuote": "索取报价"
       },
       "clients": {
-        "title": "受到领先企业信赖",
-        "emiratesNBD": "Emirates NBD",
-        "banking": "Banking Sector",
-        "damac": "DAMAC Properties",
-        "realEstate": "Real Estate",
-        "dubaiHolding": "Dubai Holding",
-        "investment": "Investment",
-        "emaar": "Emaar Properties",
-        "development": "Development",
-        "more": "还有200+其他企业信赖我们的服务"
+        "title": "领先企业信赖",
+        "emiratesNBD": "阿联酋NBD银行",
+        "banking": "银行业",
+        "damac": "达马克地产",
+        "realEstate": "房地产",
+        "dubaiHolding": "迪拜控股",
+        "investment": "投资",
+        "emaar": "伊玛尔地产",
+        "development": "开发",
+        "more": "另有500+家公司信赖我们的服务"
       },
       "caseStudies": {
-        "title": "Success Stories",
+        "title": "成功案例",
         "bank": {
-          "client": "Major UAE Bank",
-          "challenge": "Challenge",
-          "challengeText": "Needed reliable transport for a 5-day, multi-city financial roadshow for their CEO.",
-          "solution": "Solution",
-          "solutionText": "Provided a dedicated Ghost with a professional chauffeur, managing a complex schedule flawlessly.",
-          "result": "Result",
-          "resultText": "The CEO praised the seamless experience, allowing them to focus on critical business meetings."
+          "client": "阿联酋大型银行",
+          "challenge": "挑战",
+          "challengeText": "需要为CEO和董事会成员提供5天多城市金融路演的可靠交通服务。",
+          "solution": "解决方案",
+          "solutionText": "提供了专用魅影和专业司机，完美管理跨迪拜、阿布扎比和沙迦的复杂日程。",
+          "result": "结果",
+          "resultText": "CEO赞扬了无缝体验，让他能够专注于关键商务会议并实现路演目标。"
         },
         "tech": {
-          "client": "International Tech Company",
-          "challenge": "Challenge",
-          "challengeText": "Required transportation for 50+ executives during a 3-day conference in Dubai.",
-          "solution": "Solution",
-          "solutionText": "Coordinated a fleet of 5 Rolls-Royce vehicles with synchronized timing and logistics.",
-          "result": "Result",
-          "resultText": "Achieved 100% on-time arrival rate with zero scheduling conflicts."
+          "client": "国际科技公司",
+          "challenge": "挑战",
+          "challengeText": "需要为迪拜3天会议期间50+名高管提供交通服务，涉及多个场地变更。",
+          "solution": "解决方案",
+          "solutionText": "协调了5辆劳斯莱斯车队，实现同步时间安排和物流管理。",
+          "result": "结果",
+          "resultText": "实现了100%准时到达率，零日程冲突，增强了公司的专业形象。"
         }
       },
       "benefits": {
-        "title": "Corporate Benefits",
+        "title": "企业优势",
         "financial": {
-          "title": "Financial Advantages",
+          "title": "财务优势",
           "items": [
-            "Transparent corporate billing",
-            "Detailed expense reporting",
-            "Volume discount programs",
-            "Flexible payment terms"
+            "透明的企业定价",
+            "可享受批量折扣",
+            "统一月度计费",
+            "无隐藏费用或收费",
+            "可税务抵扣的商务费用",
+            "灵活的付款条件"
           ]
         },
         "operational": {
-          "title": "Operational Excellence",
+          "title": "运营优势",
           "items": [
-            "Dedicated account management",
-            "24/7 booking support",
-            "Real-time vehicle tracking",
-            "Schedule optimization"
+            "专用客户经理",
+            "优先预订保证",
+            "24/7企业热线",
+            "实时预订确认",
+            "车队可用性报告",
+            "服务质量监控"
           ]
         },
         "service": {
-          "title": "Service Quality",
+          "title": "服务卓越",
           "items": [
-            "Professional chauffeur training",
-            "Luxury vehicle maintenance",
-            "Punctuality guarantee",
-            "Confidentiality assurance"
+            "专业司机",
+            "完美车队",
+            "准时保证",
+            "谨慎保密",
+            "多语言司机",
+            "安全许可人员"
           ]
         }
       },
       "cta": {
-        "title": "准备提升您的企业交通？",
-        "description": "Contact our corporate specialists to discuss your transportation needs and receive a customized proposal.",
-        "speakToTeam": "与企业团队交谈",
+        "title": "准备提升您的企业交通服务？",
+        "description": "联系我们的企业团队获取定制商务解决方案和优惠价格。让我们处理您的交通需求，专注于业务增长。",
+        "speakToTeam": "与企业团队对话",
         "downloadBrochure": "下载企业手册"
       },
       "quickInquiry": {
         "title": "快速企业咨询",
         "selectPackage": "选择套餐",
         "packages": {
-          "executive": "Executive Package",
-          "conference": "Conference Package",
-          "roadshow": "Roadshow Package",
-          "partnership": "Partnership Package"
+          "executive": "高管套餐",
+          "conference": "会议套餐",
+          "roadshow": "路演套餐",
+          "partnership": "合作伙伴套餐"
         },
         "submitInquiry": "提交咨询"
       }
@@ -201,40 +206,317 @@
         "consultation": "免费咨询"
       },
       "whyChoose": {
-        "title": "为什么选择我们的婚礼服务"
+        "title": "为什么选择我们的婚礼服务",
+        "bridal": {
+          "title": "新娘优雅",
+          "description": "我们纯净的白色劳斯莱斯车队为您的婚纱提供完美补充，创造难忘的回忆。"
+        },
+        "photo": {
+          "title": "摄影完美",
+          "description": "每个角度都令人惊叹 - 用我们上镜的豪华车辆创造杂志级的婚礼照片。"
+        },
+        "reliability": {
+          "title": "值得信赖的可靠性",
+          "description": "您的婚礼日太重要了，不能留给机会。我们保证准时、完美和无缝服务。"
+        }
       },
       "packages": {
         "title": "婚礼套餐",
         "classic": {
-          "name": "经典婚礼套餐"
+          "name": "经典婚礼套餐",
+          "duration": "4小时",
+          "features": [
+            "白色劳斯莱斯幻影或魅影",
+            "穿正装的专业司机",
+            "红毯服务",
+            "免费花卉装饰",
+            "为新人提供香槟服务",
+            "新婚标志和丝带",
+            "婚礼摄影协助"
+          ],
+          "price": "2,500迪拉姆起"
         },
         "royal": {
-          "name": "皇家婚礼套餐"
+          "name": "皇家婚礼套餐",
+          "duration": "6小时",
+          "features": [
+            "任选劳斯莱斯车型",
+            "为家庭协调多辆车",
+            "定制新娘车装饰",
+            "专业摄影协助",
+            "延长服务时间",
+            "VIP客人交通协调",
+            "婚礼播放列表准备"
+          ],
+          "price": "4,200迪拉姆起"
         },
         "ultimate": {
           "name": "至尊婚礼套餐",
-          "premium": "最受欢迎"
+          "premium": "最受欢迎",
+          "duration": "全天",
+          "features": [
+            "整个车队任您使用",
+            "婚礼策划协调",
+            "定制装饰主题",
+            "专业婚礼摄影车",
+            "全天VIP待遇",
+            "新婚套房准备",
+            "多地点仪式支持",
+            "备用车辆保证"
+          ],
+          "price": "8,500迪拉姆起"
         },
         "bookPackage": "预订此套餐"
       },
       "gallery": {
-        "title": "婚礼画廊"
+        "title": "婚礼画廊",
+        "subtitle": "看我们如何让梦想成真"
       },
       "testimonials": {
         "title": "幸福夫妇",
         "sarah": {
           "name": "萨拉和艾哈迈德",
-          "text": "劳斯莱斯让我们的婚礼日变得绝对神奇..."
+          "text": "劳斯莱斯让我们的婚礼日绝对神奇。一切都很完美 - 从纯净的白色幻影到专业司机。装饰令人惊叹，我们的照片令人叹为观止。强烈推荐！"
         },
         "fatima": {
           "name": "法蒂玛和奥马尔",
-          "text": "卓越的服务！汽车装饰得很漂亮..."
+          "text": "从头到尾的卓越服务！车子装饰得很漂亮，司机非常专业，时间安排完美。这让我们的特殊日子更加难忘。感谢您实现我们的梦想！"
+        },
+        "mariam": {
+          "name": "玛丽亚姆和哈立德",
+          "text": "我们选择了皇家套餐，它超出了我们的所有期望。与我们摄影师的协调非常顺利，车子看起来绝对令人惊叹。我们的家人都印象深刻。物有所值！"
         }
       },
       "cta": {
         "title": "准备让您的婚礼难忘吗？",
         "call": "立即致电",
-        "getQuote": "获取报价"
+        "getQuote": "获取婚礼报价",
+        "description": "立即联系我们，获得为您特殊日子量身定制的个性化婚车套餐。我们的婚礼专家将帮助您选择完美的套餐。"
+      },
+      "specialFeatures": {
+        "title": "特色婚礼功能",
+        "decorations": {
+          "title": "定制装饰",
+          "description": "鲜花、丝带和个性化主题，与您的婚礼颜色相匹配"
+        },
+        "photography": {
+          "title": "摄影支持",
+          "description": "专业协助完美婚礼拍摄，优化车辆定位"
+        },
+        "coordination": {
+          "title": "活动协调",
+          "description": "与您的婚礼策划师和场地要求无缝配合"
+        },
+        "backup": {
+          "title": "备用保证",
+          "description": "紧急备用车辆待命，确保您的日子完美进行"
+        }
+      }
+    },
+    "airportTransfer": {
+      "hero": {
+        "title": "机场接送卓越服务",
+        "subtitle": "以无与伦比的奢华抵达",
+        "description": "通过我们的劳斯莱斯高端机场接送服务，体验从着陆到目的地的无缝奢华。",
+        "bookTransfer": "预订机场接送",
+        "hotline": "24/7热线: +971 55 816 4922",
+        "stats": {
+          "transfers": "5,000+",
+          "transfersLabel": "机场接送",
+          "availability": "24/7",
+          "availabilityLabel": "可用性",
+          "onTime": "98%",
+          "onTimeLabel": "准时率"
+        }
+      },
+      "airportSelector": {
+        "title": "选择您的机场",
+        "dxb": {
+          "name": "迪拜国际机场 (DXB)",
+          "terminals": [
+            "1号航站楼",
+            "2号航站楼",
+            "3号航站楼"
+          ],
+          "distance": "距离市中心15公里",
+          "transferTime": "20-30分钟"
+        },
+        "dwc": {
+          "name": "阿勒马克图姆国际机场 (DWC)",
+          "terminals": [
+            "客运航站楼"
+          ],
+          "distance": "距离市中心37公里",
+          "transferTime": "35-45分钟"
+        },
+        "auh": {
+          "name": "阿布扎比国际机场 (AUH)",
+          "terminals": [
+            "1号航站楼",
+            "2号航站楼",
+            "3号航站楼"
+          ],
+          "distance": "距离迪拜130公里",
+          "transferTime": "90-120分钟"
+        },
+        "shj": {
+          "name": "沙迦国际机场 (SHJ)",
+          "terminals": [
+            "主航站楼"
+          ],
+          "distance": "距离迪拜28公里",
+          "transferTime": "30-40分钟"
+        },
+        "terminals": "航站楼",
+        "transferInfo": "接送信息",
+        "distance": "距离",
+        "travelTime": "旅行时间"
+      },
+      "whyChoose": {
+        "title": "为什么选择我们的机场服务？",
+        "flightTracking": {
+          "title": "实时航班追踪",
+          "description": "我们监控您的航班状态以确保准时接送，即使延误或提前到达"
+        },
+        "professional": {
+          "title": "专业司机",
+          "description": "经验丰富的多语言司机，接受过VIP协议和机场程序培训"
+        },
+        "reliability": {
+          "title": "可靠性保证",
+          "description": "24/7可用性与备用车辆，确保完全安心"
+        },
+        "pricing": {
+          "title": "固定价格",
+          "description": "无高峰定价或隐藏费用，提前预订始终透明价格"
+        }
+      },
+      "packages": {
+        "title": "接送套餐",
+        "oneWay": {
+          "name": "单程接送",
+          "airports": [
+            "DXB",
+            "DWC"
+          ],
+          "vehicles": [
+            "幻影",
+            "魅影",
+            "库里南"
+          ],
+          "features": [
+            "接机送机服务",
+            "航班监控",
+            "行李协助",
+            "免费水和饮料",
+            "Wi-Fi可用",
+            "专业司机",
+            "固定路线定价"
+          ],
+          "price": "1,200迪拉姆起"
+        },
+        "roundTrip": {
+          "name": "往返套餐",
+          "airports": [
+            "DXB",
+            "DWC",
+            "AUH"
+          ],
+          "vehicles": [
+            "全车队可用"
+          ],
+          "features": [
+            "优先VIP服务",
+            "专属礼宾",
+            "24/7航班追踪",
+            "灵活时间",
+            "多站点选择",
+            "高端设施",
+            "返程保证"
+          ],
+          "price": "2,200迪拉姆起"
+        },
+        "business": {
+          "name": "商务代表团",
+          "airports": [
+            "所有机场"
+          ],
+          "vehicles": [
+            "多辆车"
+          ],
+          "features": [
+            "车队协调",
+            "双语司机",
+            "企业计费",
+            "贵宾室通道",
+            "车内会议设置",
+            "安全安排",
+            "团体物流"
+          ],
+          "price": "3,500迪拉姆起"
+        },
+        "availableAt": "可用于",
+        "vehicles": "车辆",
+        "selectPackage": "选择套餐"
+      },
+      "popularRoutes": {
+        "title": "热门机场路线",
+        "from": "起点",
+        "to": "终点",
+        "duration": "时长",
+        "startingPrice": "起始价格",
+        "routes": [
+          {
+            "from": "DXB 3号航站楼",
+            "to": "哈利法塔/市中心",
+            "time": "25分钟",
+            "price": "1,350迪拉姆"
+          },
+          {
+            "from": "DXB 1号航站楼",
+            "to": "迪拜码头",
+            "time": "35分钟",
+            "price": "1,550迪拉姆"
+          },
+          {
+            "from": "DWC",
+            "to": "朱美拉棕榈岛",
+            "time": "40分钟",
+            "price": "1,800迪拉姆"
+          },
+          {
+            "from": "AUH",
+            "to": "迪拜市中心",
+            "time": "90分钟",
+            "price": "3,800迪拉姆"
+          }
+        ]
+      },
+      "howItWorks": {
+        "title": "机场接送如何运作",
+        "step1": {
+          "title": "在线预订",
+          "description": "选择您的车辆并提供航班详情以实现无缝协调"
+        },
+        "step2": {
+          "title": "航班追踪",
+          "description": "我们自动监控您的航班延误或提前到达"
+        },
+        "step3": {
+          "title": "接机服务",
+          "description": "您的司机在到达区域等候，手持姓名牌"
+        },
+        "step4": {
+          "title": "豪华接送",
+          "description": "放松身心，我们将在完全舒适中送您到目的地"
+        }
+      },
+      "cta": {
+        "title": "立即预订您的机场接送",
+        "description": "体验从着陆到目的地的无缝奢华。24/7为阿联酋所有主要机场提供服务。",
+        "call": "致电: +971 55 816 4922",
+        "onlineBooking": "在线预订",
+        "waitingTime": "免费等候时间：国际航班60分钟，国内航班30分钟"
       }
     }
   },

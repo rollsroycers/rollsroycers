@@ -2,239 +2,521 @@
   "servicesPages": {
     "corporate": {
       "hero": {
-        "title": "कॉर्पोरेट रोल्स-रॉयस किराया",
-        "subtitle": "दुबई में अपनी व्यावसायिक छवि बढ़ाएं",
-        "description": "Elevate your business image with our premium Rolls-Royce corporate services. From executive meetings to client entertainment, we provide unmatched luxury transportation solutions.",
-        "getQuote": "कॉर्पोरेट कोटेशन प्राप्त करें",
-        "viewPackages": "कॉर्पोरेट पैकेज देखें",
+        "title": "कॉर्पोरेट रोल्स-रॉयस रेंटल",
+        "subtitle": "दुबई में अपनी बिजनेस इमेज को ऊंचा उठाएं",
+        "description": "हमारी प्रीमियम रोल्स-रॉयस कॉर्पोरेट सर्विसेज के साथ अपनी बिजनेस इमेज को ऊंचा उठाएं। एग्जीक्यूटिव मीटिंग्स से लेकर क्लाइंट एंटरटेनमेंट तक, हम बेजोड़ लक्जरी ट्रांसपोर्टेशन सॉल्यूशन्स प्रदान करते हैं।",
+        "getQuote": "कॉर्पोरेट कोट पाएं",
+        "viewPackages": "कॉर्पोरेट पैकेजेस देखें",
         "stats": {
-          "clients": "500+ ग्राहक",
-          "retention": "98% प्रतिधारण",
-          "support": "24/7 सहायता"
+          "clients": "500+ क्लाइंट्स",
+          "retention": "98% रिटेंशन",
+          "support": "24/7 सपोर्ट"
         }
       },
       "whyChoose": {
-        "title": "हमारी कॉर्पोरेट सेवाएं क्यों चुनें",
+        "title": "हमारी कॉर्पोरेट सर्विसेज क्यों चुनें",
         "image": {
-          "title": "Professional Image",
-          "description": "Make a lasting impression with our prestigious Rolls-Royce fleet"
+          "title": "प्रोफेशनल इमेज",
+          "description": "हमारी प्रेस्टीजियस रोल्स-रॉयस फ्लीट के साथ लास्टिंग इम्प्रेशन बनाएं और अपनी बिजनेस रेप्यूटेशन बढ़ाएं"
         },
         "productivity": {
-          "title": "Enhanced Productivity",
-          "description": "Utilize travel time effectively in our quiet, comfortable vehicles"
+          "title": "बेहतर प्रोडक्टिविटी",
+          "description": "हमारी शांत, कम्फर्टेबल और बिजनेस अमेनिटीज से लैस गाड़ियों में ट्रैवल टाइम का इफेक्टिव इस्तेमाल करें"
         },
         "privacy": {
-          "title": "Confidential Environment",
-          "description": "Conduct sensitive business discussions in complete privacy"
+          "title": "कॉन्फिडेंशियल एनवायरनमेंट",
+          "description": "साउंडप्रूफ लक्जरी इंटीरियर्स के साथ कम्प्लीट प्राइवेसी में सेंसिटिव बिजनेस डिस्कशन्स करें"
         },
         "standards": {
-          "title": "International Standards",
-          "description": "World-class service that meets global corporate expectations"
+          "title": "इंटरनेशनल स्टैंडर्ड्स",
+          "description": "वर्ल्ड-क्लास सर्विस जो ग्लोबल कॉर्पोरेट एक्सपेक्टेशन्स और कॉम्प्लायंस रिक्वायरमेंट्स को मीट करती है"
         }
       },
       "packages": {
-        "title": "कॉर्पोरेट पैकेज",
+        "title": "कॉर्पोरेट पैकेजेस",
         "executive": {
-          "name": "Executive Package",
-          "description": "Premium executive transportation for business leaders",
+          "name": "एग्जीक्यूटिव पैकेज",
+          "description": "बिजनेस लीडर्स और C-suite एग्जीक्यूटिव्स के लिए प्रीमियम एग्जीक्यूटिव ट्रांसपोर्टेशन",
           "features": [
-            "Dedicated professional chauffeur",
-            "Premium Rolls-Royce Ghost or Phantom",
-            "24/7 availability",
-            "Airport meet & greet service",
-            "Complimentary water and refreshments",
-            "Wi-Fi connectivity",
-            "Privacy partition",
-            "Flexible scheduling",
-            "Corporate billing available"
+            "डेडिकेटेड प्रोफेशनल ड्राइवर",
+            "प्रीमियम रोल्स-रॉयस घोस्ट या फैंटम",
+            "24/7 अवेलेबिलिटी और सपोर्ट",
+            "एयरपोर्ट मीट & ग्रीट सर्विस",
+            "कॉम्प्लीमेंटरी वॉटर और रिफ्रेशमेंट्स",
+            "WiFi कनेक्टिविटी और चार्जिंग पोर्ट्स",
+            "बिजनेस न्यूजपेपर्स और मैगज़ीन्स",
+            "फ्लेक्सिबल इटिनरेरी मॉडिफिकेशन्स"
           ],
           "vehicles": [
-            "Phantom",
-            "Ghost"
+            "फैंटम",
+            "घोस्ट"
           ],
-          "price": "From AED 1,200/day"
+          "price": "AED 1,200/दिन से शुरू"
         },
         "conference": {
-          "name": "Conference Package",
-          "description": "Multi-day conference and event transportation",
+          "name": "कॉन्फ्रेंस पैकेज",
+          "description": "बिजनेस डेलिगेशन्स के लिए मल्टी-डे कॉन्फ्रेंस और इवेंट ट्रांसपोर्टेशन",
           "features": [
-            "Multiple vehicle coordination",
-            "Event schedule management",
-            "VIP conference pickup/drop-off",
-            "Flexible timing adjustments",
-            "Dedicated account manager",
-            "Group transportation logistics",
-            "Hotel coordination",
-            "Conference venue partnerships"
+            "मल्टीपल व्हीकल कोऑर्डिनेशन",
+            "इवेंट शेड्यूल मैनेजमेंट",
+            "VIP कॉन्फ्रेंस पिकअप/ड्रॉप-ऑफ",
+            "फ्लेक्सिबल टाइमिंग एडजस्टमेंट्स",
+            "डेडिकेटेड अकाउंट मैनेजर",
+            "ग्रुप ट्रांसपोर्टेशन लॉजिस्टिक्स",
+            "मीटिंग वेन्यू कोऑर्डिनेशन",
+            "रियल-टाइम शेड्यूलिंग अपडेट्स"
           ],
           "vehicles": [
-            "Ghost",
-            "Cullinan"
+            "घोस्ट",
+            "कुलिनन"
           ],
-          "price": "From AED 800/day"
+          "price": "AED 800/दिन से शुरू"
         },
         "roadshow": {
-          "name": "Roadshow Package",
-          "description": "Multi-city business roadshow transportation",
+          "name": "रोडशो पैकेज",
+          "description": "UAE भर में मल्टी-सिटी बिजनेस रोडशो ट्रांसपोर्टेशन",
           "features": [
-            "Inter-emirate travel coordination",
-            "Long-distance comfort optimization",
-            "Business meeting logistics",
-            "Flexible schedule accommodation",
-            "Professional route planning",
-            "Multi-day availability",
-            "Accommodation coordination",
-            "Executive amenities"
+            "इंटर-एमिरेट ट्रैवल कोऑर्डिनेशन",
+            "लॉन्ग-डिस्टेंस कम्फर्ट ऑप्टिमाइज़ेशन",
+            "बिजनेस मीटिंग लॉजिस्टिक्स",
+            "फ्लेक्सिबल शेड्यूल एकोमोडेशन",
+            "प्रोफेशनल रूट प्लानिंग",
+            "रेस्ट स्टॉप अरेंजमेंट्स",
+            "डॉक्यूमेंट स्टोरेज फैसिलिटीज़",
+            "इमरजेंसी सपोर्ट कवरेज"
           ],
           "vehicles": [
-            "Phantom",
-            "Cullinan"
+            "फैंटम",
+            "कुलिनन"
           ],
-          "price": "From AED 1,500/day"
+          "price": "AED 1,500/दिन से शुरू"
         },
         "partnership": {
-          "name": "Partnership Package",
-          "description": "Long-term corporate partnership solutions",
+          "name": "पार्टनरशिप पैकेज",
+          "description": "प्रेफर्ड रेट्स के साथ लॉन्ग-टर्म कॉर्पोरेट पार्टनरशिप सॉल्यूशन्स",
           "features": [
-            "Dedicated fleet allocation",
-            "Priority booking guarantee",
-            "Customized service protocols",
-            "Quarterly business reviews",
-            "Volume discount pricing",
-            "Exclusive vehicle assignment",
-            "Corporate branding options",
-            "Annual contract benefits"
+            "डेडिकेटेड फ्लीट एलोकेशन",
+            "प्रायोरिटी बुकिंग गारंटी",
+            "कस्टमाइज़्ड सर्विस प्रोटोकॉल्स",
+            "क्वार्टरली बिजनेस रिव्यूज़",
+            "वॉल्यूम डिस्काउंट प्राइसिंग",
+            "कंसॉलिडेटेड बिलिंग सिस्टम्स",
+            "कॉर्पोरेट अकाउंट मैनेजमेंट",
+            "SLA कॉम्प्लायंस मॉनिटरिंग"
           ],
           "vehicles": [
-            "All Models"
+            "सभी मॉडल्स"
           ],
-          "price": "Custom pricing available"
+          "price": "कस्टम प्राइसिंग उपलब्ध"
         },
-        "requestQuote": "कोटेशन का अनुरोध करें"
+        "requestQuote": "कोट रिक्वेस्ट करें"
       },
       "clients": {
-        "title": "अग्रणी व्यवसायों द्वारा भरोसेमंद",
-        "emiratesNBD": "Emirates NBD",
-        "banking": "Banking Sector",
-        "damac": "DAMAC Properties",
-        "realEstate": "Real Estate",
-        "dubaiHolding": "Dubai Holding",
-        "investment": "Investment",
-        "emaar": "Emaar Properties",
-        "development": "Development",
-        "more": "और 200+ अन्य कंपनियां हमारी सेवाओं पर भरोसा करती हैं"
+        "title": "लीडिंग बिजनेसेज द्वारा भरोसेमंद",
+        "emiratesNBD": "एमिरेट्स NBD",
+        "banking": "बैंकिंग सेक्टर",
+        "damac": "डैमाक प्रॉपर्टीज़",
+        "realEstate": "रियल एस्टेट",
+        "dubaiHolding": "दुबई होल्डिंग",
+        "investment": "इन्वेस्टमेंट",
+        "emaar": "इमार प्रॉपर्टीज़",
+        "development": "डेवलपमेंट",
+        "more": "और 500+ कंपनियां हमारी सर्विसेज पर भरोसा करती हैं"
       },
       "caseStudies": {
-        "title": "Success Stories",
+        "title": "सक्सेस स्टोरीज़",
         "bank": {
-          "client": "Major UAE Bank",
-          "challenge": "Challenge",
-          "challengeText": "Needed reliable transport for a 5-day, multi-city financial roadshow for their CEO.",
-          "solution": "Solution",
-          "solutionText": "Provided a dedicated Ghost with a professional chauffeur, managing a complex schedule flawlessly.",
-          "result": "Result",
-          "resultText": "The CEO praised the seamless experience, allowing them to focus on critical business meetings."
+          "client": "मेजर UAE बैंक",
+          "challenge": "चैलेंज",
+          "challengeText": "उनके CEO और बोर्ड मेंबर्स के लिए 5-डे, मल्टी-सिटी फाइनेंशियल रोडशो के लिए रिलायबल ट्रांसपोर्ट की जरूरत थी।",
+          "solution": "सॉल्यूशन",
+          "solutionText": "प्रोफेशनल ड्राइवर के साथ डेडिकेटेड घोस्ट प्रोवाइड किया, दुबई, अबू धाबी और शारजाह में कॉम्प्लेक्स शेड्यूल को फ्लॉलेसली मैनेज किया।",
+          "result": "रिजल्ट",
+          "resultText": "CEO ने सीमलेस एक्सपीरियंस की प्रशंसा की, जिससे वे क्रिटिकल बिजनेस मीटिंग्स पर फोकस कर सके और रोडशो ऑब्जेक्टिव्स अचीव कर सके।"
         },
         "tech": {
-          "client": "International Tech Company",
-          "challenge": "Challenge",
-          "challengeText": "Required transportation for 50+ executives during a 3-day conference in Dubai.",
-          "solution": "Solution",
-          "solutionText": "Coordinated a fleet of 5 Rolls-Royce vehicles with synchronized timing and logistics.",
-          "result": "Result",
-          "resultText": "Achieved 100% on-time arrival rate with zero scheduling conflicts."
+          "client": "इंटरनेशनल टेक कंपनी",
+          "challenge": "चैलेंज",
+          "challengeText": "दुबई में 3-डे कॉन्फ्रेंस के दौरान 50+ एग्जीक्यूटिव्स के लिए मल्टीपल वेन्यू चेंजेस के साथ ट्रांसपोर्टेशन की जरूरत थी।",
+          "solution": "सॉल्यूशन",
+          "solutionText": "सिंक्रोनाइज़्ड टाइमिंग और लॉजिस्टिक मैनेजमेंट के साथ 5 रोल्स-रॉयस व्हीकल्स का फ्लीट कोऑर्डिनेट किया।",
+          "result": "रिजल्ट",
+          "resultText": "100% ऑन-टाइम अराइवल रेट अचीव किया जीरो शेड्यूलिंग कॉन्फ्लिक्ट्स के साथ, कंपनी की प्रोफेशनल इमेज एन्हांस की।"
         }
       },
       "benefits": {
-        "title": "Corporate Benefits",
+        "title": "कॉर्पोरेट बेनिफिट्स",
         "financial": {
-          "title": "Financial Advantages",
+          "title": "फाइनेंशियल बेनिफिट्स",
           "items": [
-            "Transparent corporate billing",
-            "Detailed expense reporting",
-            "Volume discount programs",
-            "Flexible payment terms"
+            "ट्रांसपेरेंट कॉर्पोरेट प्राइसिंग",
+            "वॉल्यूम डिस्काउंट्स उपलब्ध",
+            "कंसॉलिडेटेड मंथली बिलिंग",
+            "नो हिडन फीस या चार्जेस",
+            "टैक्स-डिडक्टिबल बिजनेस एक्सपेंसेज",
+            "फ्लेक्सिबल पेमेंट टर्म्स"
           ]
         },
         "operational": {
-          "title": "Operational Excellence",
+          "title": "ऑपरेशनल बेनिफिट्स",
           "items": [
-            "Dedicated account management",
-            "24/7 booking support",
-            "Real-time vehicle tracking",
-            "Schedule optimization"
+            "डेडिकेटेड अकाउंट मैनेजर",
+            "प्रायोरिटी बुकिंग गारंटी",
+            "24/7 कॉर्पोरेट हॉटलाइन",
+            "रियल-टाइम बुकिंग कन्फर्मेशन्स",
+            "फ्लीट अवेलेबिलिटी रिपोर्ट्स",
+            "सर्विस क्वालिटी मॉनिटरिंग"
           ]
         },
         "service": {
-          "title": "Service Quality",
+          "title": "सर्विस एक्सीलेंस",
           "items": [
-            "Professional chauffeur training",
-            "Luxury vehicle maintenance",
-            "Punctuality guarantee",
-            "Confidentiality assurance"
+            "प्रोफेशनल ड्राइवर्स",
+            "प्रिस्टाइन व्हीकल फ्लीट",
+            "पंक्चुअलिटी गारंटी",
+            "डिस्क्रीट और कॉन्फिडेंशियल",
+            "मल्टीलिंगुअल ड्राइवर्स",
+            "सिक्योरिटी-क्लीयर्ड पर्सनल"
           ]
         }
       },
       "cta": {
-        "title": "अपने कॉर्पोरेट परिवहन को बेहतर बनाने के लिए तैयार?",
-        "description": "Contact our corporate specialists to discuss your transportation needs and receive a customized proposal.",
+        "title": "अपनी कॉर्पोरेट ट्रांसपोर्टेशन को एलीवेट करने के लिए तैयार हैं?",
+        "description": "कस्टमाइज़्ड बिजनेस सॉल्यूशन्स और प्रेफरेंशियल रेट्स के लिए हमारी कॉर्पोरेट टीम से संपर्क करें। आप बिजनेस ग्रोथ पर फोकस करें जबकि हम आपकी ट्रांसपोर्टेशन नीड्स हैंडल करते हैं।",
         "speakToTeam": "कॉर्पोरेट टीम से बात करें",
         "downloadBrochure": "कॉर्पोरेट ब्रोशर डाउनलोड करें"
       },
       "quickInquiry": {
-        "title": "त्वरित कॉर्पोरेट पूछताछ",
-        "selectPackage": "पैकेज चुनें",
+        "title": "क्विक कॉर्पोरेट इन्क्वायरी",
+        "selectPackage": "पैकेज सेलेक्ट करें",
         "packages": {
-          "executive": "Executive Package",
-          "conference": "Conference Package",
-          "roadshow": "Roadshow Package",
-          "partnership": "Partnership Package"
+          "executive": "एग्जीक्यूटिव पैकेज",
+          "conference": "कॉन्फ्रेंस पैकेज",
+          "roadshow": "रोडशो पैकेज",
+          "partnership": "पार्टनरशिप पैकेज"
         },
-        "submitInquiry": "पूछताछ सबमिट करें"
+        "submitInquiry": "इन्क्वायरी सबमिट करें"
       }
     },
     "wedding": {
       "hero": {
-        "title": "दुबई में लक्जरी शादी कार किराया",
-        "subtitle": "अपने विशेष दिन में अद्वितीय स्टाइल में पहुंचें",
-        "viewPackages": "शादी पैकेज देखें",
-        "consultation": "मुफ्त परामर्श"
+        "title": "दुबई में लक्जरी वेडिंग कार रेंटल",
+        "subtitle": "अपने विशेष दिन पर अतुलनीय स्टाइल में पहुंचें",
+        "viewPackages": "वेडिंग पैकेजेस देखें",
+        "consultation": "फ्री कंसल्टेशन"
       },
       "whyChoose": {
-        "title": "हमारी शादी सेवाएं क्यों चुनें"
+        "title": "हमारी वेडिंग सर्विसेज क्यों चुनें",
+        "bridal": {
+          "title": "ब्राइडल एलिगेंस",
+          "description": "हमारा साफ़ सफेद रोल्स-रॉयस फ्लीट आपकी वेडिंग अटायर का परफेक्ट कॉम्प्लीमेंट प्रदान करता है और अविस्मरणीय यादें बनाता है।"
+        },
+        "photo": {
+          "title": "फोटोग्राफी परफेक्ट",
+          "description": "हर एंगल शानदार है - हमारी फोटोजेनिक लक्जरी गाड़ियों के साथ मैगज़ीन क्वालिटी की वेडिंग फोटोज़ बनाएं।"
+        },
+        "reliability": {
+          "title": "भरोसेमंद रिलायबिलिटी",
+          "description": "आपका वेडिंग डे इतना महत्वपूर्ण है कि इसे चांस पर नहीं छोड़ा जा सकता। हम पंक्चुअलिटी, परफेक्शन और सीमलेस सर्विस गारंटी करते हैं।"
+        }
       },
       "packages": {
-        "title": "शादी पैकेज",
+        "title": "वेडिंग पैकेजेस",
         "classic": {
-          "name": "क्लासिक शादी पैकेज"
+          "name": "क्लासिक वेडिंग पैकेज",
+          "duration": "4 घंटे",
+          "features": [
+            "सफेद रोल्स-रॉयस फैंटम या घोस्ट",
+            "फॉर्मल अटायर में प्रोफेशनल ड्राइवर",
+            "रेड कार्पेट सर्विस",
+            "कॉम्प्लीमेंटरी फ्लोरल डेकोरेशन",
+            "कपल के लिए शैंपेन सर्विस",
+            "जस्ट मैरिड साइन और रिबन",
+            "वेडिंग फोटोग्राफी असिस्टेंस"
+          ],
+          "price": "AED 2,500 से शुरू"
         },
         "royal": {
-          "name": "रॉयल शादी पैकेज"
+          "name": "रॉयल वेडिंग पैकेज",
+          "duration": "6 घंटे",
+          "features": [
+            "कोई भी रोल्स-रॉयस मॉडल चुनें",
+            "फैमिली के लिए मल्टीपल व्हीकल कोऑर्डिनेशन",
+            "कस्टम ब्राइडल कार डेकोरेशन",
+            "प्रोफेशनल फोटोग्राफी असिस्टेंस",
+            "एक्सटेंडेड सर्विस आवर्स",
+            "VIP गेस्ट ट्रांसपोर्ट कोऑर्डिनेशन",
+            "वेडिंग प्लेलिस्ट प्रिपरेशन"
+          ],
+          "price": "AED 4,200 से शुरू"
         },
         "ultimate": {
-          "name": "अल्टीमेट शादी पैकेज",
-          "premium": "सबसे लोकप्रिय"
+          "name": "अल्टीमेट वेडिंग पैकेज",
+          "premium": "सबसे पॉपुलर",
+          "duration": "पूरा दिन",
+          "features": [
+            "पूरा फ्लीट आपके डिस्पोज़ल में",
+            "वेडिंग प्लानिंग कोऑर्डिनेशन",
+            "कस्टम डेकोरेशन थीम्स",
+            "प्रोफेशनल वेडिंग फोटोग्राफर कार",
+            "पूरे दिन VIP ट्रीटमेंट",
+            "ब्राइडल सूट प्रिपरेशन",
+            "मल्टी-लोकेशन सेरेमनी सपोर्ट",
+            "बैकअप व्हीकल गारंटी"
+          ],
+          "price": "AED 8,500 से शुरू"
         },
         "bookPackage": "इस पैकेज को बुक करें"
       },
       "gallery": {
-        "title": "शादी गैलरी"
+        "title": "वेडिंग गैलरी",
+        "subtitle": "देखें हम कैसे सपने सच करते हैं"
       },
       "testimonials": {
-        "title": "खुश जोड़े",
+        "title": "खुश कपल्स",
         "sarah": {
           "name": "सारा और अहमद",
-          "text": "रोल्स-रॉयस ने हमारे शादी के दिन को बिल्कुल जादुई बना दिया..."
+          "text": "रोल्स-रॉयस ने हमारे वेडिंग डे को बिल्कुल मैजिकल बना दिया। सब कुछ परफेक्ट था - साफ़ सफेद फैंटम से लेकर प्रोफेशनल ड्राइवर तक। डेकोरेशन शानदार था और हमारी फोटोज़ दमदार हैं। हाइली रेकमेंडेड!"
         },
         "fatima": {
           "name": "फातिमा और उमर",
-          "text": "असाधारण सेवा! कार खूबसूरती से सजाई गई थी..."
+          "text": "शुरू से अंत तक एक्सेप्शनल सर्विस! कार खूबसूरती से डेकोरेट की गई थी, ड्राइवर अविश्वसनीय रूप से प्रोफेशनल था, और टाइमिंग परफेक्ट थी। इसने हमारे स्पेशल डे को और भी मेमोरेबल बना दिया। हमारे सपने सच करने के लिए धन्यवाद!"
+        },
+        "mariam": {
+          "name": "मरियम और खालिद",
+          "text": "हमने रॉयल पैकेज चुना और यह हमारी सभी एक्सपेक्टेशन्स से बेहतर था। हमारे फोटोग्राफर के साथ कोऑर्डिनेशन सीमलेस था, और कार बिल्कुल शानदार लग रही थी। हमारे फैमिलीज़ बहुत इम्प्रेस्ड थे। वर्थ एवरी दिरहम!"
         }
       },
       "cta": {
-        "title": "अपनी शादी को अविस्मरणीय बनाने के लिए तैयार?",
+        "title": "अपनी वेडिंग को अनफॉरगेटेबल बनाने के लिए तैयार हैं?",
         "call": "अभी कॉल करें",
-        "getQuote": "कोटेशन प्राप्त करें"
+        "getQuote": "वेडिंग कोट पाएं",
+        "description": "आज ही हमसे संपर्क करें आपके स्पेशल डे के लिए टेलर्ड पर्सनलाइज़्ड वेडिंग कार पैकेज के लिए। हमारे वेडिंग स्पेशलिस्ट्स आपको परफेक्ट पैकेज चुनने में मदद करेंगे।"
+      },
+      "specialFeatures": {
+        "title": "स्पेशल वेडिंग फीचर्स",
+        "decorations": {
+          "title": "कस्टम डेकोरेशन्स",
+          "description": "ताज़े फूल, रिबन और पर्सनलाइज़्ड थीम्स आपके वेडिंग कलर्स के साथ मैच करने के लिए"
+        },
+        "photography": {
+          "title": "फोटोग्राफी सपोर्ट",
+          "description": "ऑप्टिमल कार पोज़िशनिंग के साथ परफेक्ट वेडिंग शॉट्स के लिए प्रोफेशनल असिस्टेंस"
+        },
+        "coordination": {
+          "title": "इवेंट कोऑर्डिनेशन",
+          "description": "आपके वेडिंग प्लानर और वेन्यू रिक्वायरमेंट्स के साथ सीमलेस टाइमिंग"
+        },
+        "backup": {
+          "title": "बैकअप गारंटी",
+          "description": "इमरजेंसी बैकअप व्हीकल स्टैंडबाई में यह सुनिश्चित करने के लिए कि आपका दिन परफेक्टली चले"
+        }
+      }
+    },
+    "airportTransfer": {
+      "hero": {
+        "title": "एयरपोर्ट ट्रांसफर एक्सीलेंस",
+        "subtitle": "अतुलनीय लक्जरी में पहुंचें",
+        "description": "हमारी प्रीमियम रोल्स-रॉयस एयरपोर्ट ट्रांसफर सर्विस के साथ टचडाउन से डेस्टिनेशन तक सीमलेस लक्जरी का अनुभव करें।",
+        "bookTransfer": "एयरपोर्ट ट्रांसफर बुक करें",
+        "hotline": "24/7 हॉटलाइन: +971 55 816 4922",
+        "stats": {
+          "transfers": "5,000+",
+          "transfersLabel": "एयरपोर्ट ट्रांसफर्स",
+          "availability": "24/7",
+          "availabilityLabel": "अवेलेबिलिटी",
+          "onTime": "98%",
+          "onTimeLabel": "ऑन-टाइम रेट"
+        }
+      },
+      "airportSelector": {
+        "title": "अपना एयरपोर्ट सेलेक्ट करें",
+        "dxb": {
+          "name": "दुबई इंटरनेशनल एयरपोर्ट (DXB)",
+          "terminals": [
+            "टर्मिनल 1",
+            "टर्मिनल 2",
+            "टर्मिनल 3"
+          ],
+          "distance": "डाउनटाउन से 15 किमी",
+          "transferTime": "20-30 मिनट"
+        },
+        "dwc": {
+          "name": "अल मकतूम इंटरनेशनल एयरपोर्ट (DWC)",
+          "terminals": [
+            "पैसेंजर टर्मिनल"
+          ],
+          "distance": "डाउनटाउन से 37 किमी",
+          "transferTime": "35-45 मिनट"
+        },
+        "auh": {
+          "name": "अबू धाबी इंटरनेशनल एयरपोर्ट (AUH)",
+          "terminals": [
+            "टर्मिनल 1",
+            "टर्मिनल 2",
+            "टर्मिनल 3"
+          ],
+          "distance": "दुबई से 130 किमी",
+          "transferTime": "90-120 मिनट"
+        },
+        "shj": {
+          "name": "शारजाह इंटरनेशनल एयरपोर्ट (SHJ)",
+          "terminals": [
+            "मेन टर्मिनल"
+          ],
+          "distance": "दुबई से 28 किमी",
+          "transferTime": "30-40 मिनट"
+        },
+        "terminals": "टर्मिनल्स",
+        "transferInfo": "ट्रांसफर इंफॉर्मेशन",
+        "distance": "डिस्टेंस",
+        "travelTime": "ट्रैवल टाइम"
+      },
+      "whyChoose": {
+        "title": "हमारी एयरपोर्ट सर्विस क्यों चुनें?",
+        "flightTracking": {
+          "title": "रियल-टाइम फ्लाइट ट्रैकिंग",
+          "description": "हम आपकी फ्लाइट स्टेटस मॉनिटर करते हैं टाइमली पिकअप एन्श्योर करने के लिए, डिले या अर्ली अराइवल के साथ भी"
+        },
+        "professional": {
+          "title": "प्रोफेशनल ड्राइवर्स",
+          "description": "एक्सपीरियंस्ड, मल्टीलिंगुअल ड्राइवर्स जो VIP प्रोटोकॉल और एयरपोर्ट प्रोसीजर्स में ट्रेंड हैं"
+        },
+        "reliability": {
+          "title": "रिलायबिलिटी गारंटी",
+          "description": "कम्प्लीट पीस ऑफ माइंड के लिए बैकअप व्हीकल्स के साथ 24/7 अवेलेबिलिटी"
+        },
+        "pricing": {
+          "title": "फिक्स्ड प्राइसिंग",
+          "description": "नो सर्ज प्राइसिंग या हिडन फीस, एडवांस बुकिंग के साथ हमेशा ट्रांसपेरेंट रेट्स"
+        }
+      },
+      "packages": {
+        "title": "ट्रांसफर पैकेजेस",
+        "oneWay": {
+          "name": "वन-वे ट्रांसफर",
+          "airports": [
+            "DXB",
+            "DWC"
+          ],
+          "vehicles": [
+            "फैंटम",
+            "घोस्ट",
+            "कुलिनन"
+          ],
+          "features": [
+            "मीट & ग्रीट सर्विस",
+            "फ्लाइट मॉनिटरिंग",
+            "लगेज असिस्टेंस",
+            "कॉम्प्लीमेंटरी वॉटर & रिफ्रेशमेंट्स",
+            "Wi-Fi अवेलेबल",
+            "प्रोफेशनल ड्राइवर",
+            "फिक्स्ड रूट प्राइसिंग"
+          ],
+          "price": "AED 1,200 से शुरू"
+        },
+        "roundTrip": {
+          "name": "राउंड-ट्रिप पैकेज",
+          "airports": [
+            "DXB",
+            "DWC",
+            "AUH"
+          ],
+          "vehicles": [
+            "फुल फ्लीट अवेलेबल"
+          ],
+          "features": [
+            "प्रायोरिटी VIP सर्विस",
+            "डेडिकेटेड कंसिअर्ज",
+            "24/7 फ्लाइट ट्रैकिंग",
+            "फ्लेक्सिबल टाइमिंग",
+            "मल्टी-स्टॉप ऑप्शन्स",
+            "प्रीमियम अमेनिटीज़",
+            "रिटर्न गारंटी"
+          ],
+          "price": "AED 2,200 से शुरू"
+        },
+        "business": {
+          "name": "बिजनेस डेलिगेशन",
+          "airports": [
+            "ऑल एयरपोर्ट्स"
+          ],
+          "vehicles": [
+            "मल्टीपल व्हीकल्स"
+          ],
+          "features": [
+            "फ्लीट कोऑर्डिनेशन",
+            "बिलिंगुअल ड्राइवर्स",
+            "कॉर्पोरेट बिलिंग",
+            "एग्जीक्यूटिव लाउंज एक्सेस",
+            "मीटिंग सेटअप इन व्हीकल",
+            "सिक्योरिटी अरेंजमेंट्स",
+            "ग्रुप लॉजिस्टिक्स"
+          ],
+          "price": "AED 3,500 से शुरू"
+        },
+        "availableAt": "अवेलेबल एट",
+        "vehicles": "व्हीकल्स",
+        "selectPackage": "पैकेज सेलेक्ट करें"
+      },
+      "popularRoutes": {
+        "title": "पॉपुलर एयरपोर्ट रूट्स",
+        "from": "फ्रॉम",
+        "to": "टू",
+        "duration": "ड्यूरेशन",
+        "startingPrice": "स्टार्टिंग प्राइस",
+        "routes": [
+          {
+            "from": "DXB टर्मिनल 3",
+            "to": "बुर्ज खलीफा/डाउनटाउन",
+            "time": "25 मिनट",
+            "price": "AED 1,350"
+          },
+          {
+            "from": "DXB टर्मिनल 1",
+            "to": "दुबई मरीना",
+            "time": "35 मिनट",
+            "price": "AED 1,550"
+          },
+          {
+            "from": "DWC",
+            "to": "पाम जुमेराह",
+            "time": "40 मिनट",
+            "price": "AED 1,800"
+          },
+          {
+            "from": "AUH",
+            "to": "दुबई डाउनटाउन",
+            "time": "90 मिनट",
+            "price": "AED 3,800"
+          }
+        ]
+      },
+      "howItWorks": {
+        "title": "एयरपोर्ट ट्रांसफर कैसे काम करता है",
+        "step1": {
+          "title": "ऑनलाइन बुक करें",
+          "description": "अपनी व्हीकल चुनें और सीमलेस कोऑर्डिनेशन के लिए फ्लाइट डिटेल्स प्रोवाइड करें"
+        },
+        "step2": {
+          "title": "फ्लाइट ट्रैकिंग",
+          "description": "हम आपकी फ्लाइट को डिले या अर्ली अराइवल के लिए ऑटोमेटिकली मॉनिटर करते हैं"
+        },
+        "step3": {
+          "title": "मीट & ग्रीट",
+          "description": "आपका ड्राइवर अराइवल एरिया में नेम बोर्ड के साथ वेट करता है"
+        },
+        "step4": {
+          "title": "लक्जरी ट्रांसफर",
+          "description": "रिलैक्स करें जबकि हम आपको कम्प्लीट कम्फर्ट में आपकी डेस्टिनेशन ले जाते हैं"
+        }
+      },
+      "cta": {
+        "title": "अपना एयरपोर्ट ट्रांसफर अभी बुक करें",
+        "description": "टचडाउन से डेस्टिनेशन तक सीमलेस लक्जरी का अनुभव करें। UAE के सभी मेजर एयरपोर्ट्स के लिए 24/7 अवेलेबल।",
+        "call": "कॉल करें: +971 55 816 4922",
+        "onlineBooking": "ऑनलाइन बुकिंग",
+        "waitingTime": "फ्री वेटिंग टाइम: इंटरनेशनल फ्लाइट्स के लिए 60 मिनट, डोमेस्टिक के लिए 30 मिनट"
       }
     }
   },
