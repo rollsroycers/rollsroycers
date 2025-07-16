@@ -1,0 +1,181 @@
+{
+  "src/pages/index.tsx": [
+    "common",
+    "seo",
+    "navigation"
+  ],
+  "src/pages/about.tsx": [
+    "common",
+    "seo",
+    "navigation"
+  ],
+  "src/pages/contact.tsx": [
+    "common",
+    "seo",
+    "navigation"
+  ],
+  "src/pages/gallery.tsx": [
+    "common",
+    "seo",
+    "navigation"
+  ],
+  "src/pages/testimonials.tsx": [
+    "common",
+    "seo",
+    "navigation"
+  ],
+  "src/pages/pricing.tsx": [
+    "common",
+    "seo",
+    "navigation"
+  ],
+  "src/pages/faq.tsx": [
+    "common",
+    "seo",
+    "navigation"
+  ],
+  "src/pages/booking.tsx": [
+    "common",
+    "seo",
+    "navigation"
+  ],
+  "src/pages/blog/index.tsx": [
+    "common",
+    "seo",
+    "navigation"
+  ],
+  "src/pages/blog/[slug].tsx": [
+    "common",
+    "seo",
+    "navigation"
+  ],
+  "src/pages/terms.tsx": [
+    "common",
+    "seo",
+    "navigation",
+    "pages"
+  ],
+  "src/pages/privacy.tsx": [
+    "common",
+    "seo",
+    "navigation",
+    "pages"
+  ],
+  "src/pages/services/tours.tsx": [
+    "common",
+    "seo",
+    "navigation",
+    "services"
+  ],
+  "src/pages/services/chauffeur.tsx": [
+    "common",
+    "seo",
+    "navigation",
+    "services"
+  ],
+  "src/pages/services/airport-transfer.tsx": [
+    "common",
+    "seo",
+    "navigation",
+    "services"
+  ],
+  "src/pages/services/events.tsx": [
+    "common",
+    "seo",
+    "navigation",
+    "services"
+  ],
+  "src/pages/services/photoshoot.tsx": [
+    "common",
+    "seo",
+    "navigation",
+    "services"
+  ],
+  "src/pages/services/corporate.tsx": [
+    "common",
+    "seo",
+    "navigation",
+    "services"
+  ],
+  "src/pages/services/wedding.tsx": [
+    "common",
+    "seo",
+    "navigation",
+    "services"
+  ],
+  "src/pages/locations/downtown-dubai.tsx": [
+    "common",
+    "seo",
+    "navigation"
+  ],
+  "src/pages/locations/dubai-marina.tsx": [
+    "common",
+    "seo",
+    "navigation"
+  ],
+  "src/pages/locations/palm-jumeirah.tsx": [
+    "common",
+    "seo",
+    "navigation"
+  ],
+  "src/pages/locations/business-bay.tsx": [
+    "common",
+    "seo",
+    "navigation"
+  ],
+  "src/pages/locations/jbr.tsx": [
+    "common",
+    "seo",
+    "navigation"
+  ],
+  "src/pages/locations/difc.tsx": [
+    "common",
+    "seo",
+    "navigation"
+  ],
+  "src/pages/fleet/phantom.tsx": [
+    "common",
+    "seo",
+    "navigation",
+    "fleet"
+  ],
+  "src/pages/fleet/ghost.tsx": [
+    "common",
+    "seo",
+    "navigation",
+    "fleet"
+  ],
+  "src/pages/fleet/cullinan.tsx": [
+    "common",
+    "seo",
+    "navigation",
+    "fleet"
+  ],
+  "src/pages/fleet/dawn.tsx": [
+    "common",
+    "seo",
+    "navigation",
+    "fleet"
+  ],
+  "src/pages/fleet/wraith.tsx": [
+    "common",
+    "seo",
+    "navigation",
+    "fleet"
+  ],
+  "src/pages/compare/rolls-royce-vs-bentley.tsx": [
+    "common",
+    "seo",
+    "navigation"
+  ],
+  "src/components/Layout.tsx": [
+    "navigation",
+    "footer"
+  ],
+  "src/components/Navbar.tsx": [
+    "navigation"
+  ],
+  "src/components/Footer.tsx": [
+    "footer"
+  ]
+}

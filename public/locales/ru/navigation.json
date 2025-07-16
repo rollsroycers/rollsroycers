@@ -1,0 +1,37 @@
+{
+  "nav": {
+    "home": "Главная",
+    "fleet": "Автопарк",
+    "services": "Услуги",
+    "locations": "Локации",
+    "about": "О нас",
+    "contact": "Контакты",
+    "booking": "Забронировать",
+    "gallery": "Галерея",
+    "blog": "Блог",
+    "faq": "ЧаВо",
+    "testimonials": "Отзывы",
+    "pricing": "Цены",
+    "more": "Еще"
+  },
+  "locations": {
+    "downtownDubai": {
+      "nav": "Даунтаун Дубай"
+    },
+    "dubaiMarina": {
+      "nav": "Дубай Марина"
+    },
+    "palmJumeirah": {
+      "nav": "Палм-Джумейра"
+    },
+    "businessBay": {
+      "nav": "Бизнес-Бей"
+    },
+    "jbr": {
+      "nav": "JBR"
+    },
+    "difc": {
+      "nav": "DIFC"
+    }
+  }
+}

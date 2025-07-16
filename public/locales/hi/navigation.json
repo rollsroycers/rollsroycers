@@ -1,0 +1,37 @@
+{
+  "nav": {
+    "home": "होम",
+    "fleet": "फ्लीट",
+    "services": "सेवाएं",
+    "locations": "स्थान",
+    "about": "हमारे बारे में",
+    "contact": "संपर्क",
+    "booking": "बुक करें",
+    "gallery": "गैलरी",
+    "blog": "ब्लॉग",
+    "faq": "सवाल-जवाब",
+    "testimonials": "प्रशंसापत्र",
+    "pricing": "मूल्य",
+    "more": "और"
+  },
+  "locations": {
+    "downtownDubai": {
+      "nav": "डाउनटाउन दुबई"
+    },
+    "dubaiMarina": {
+      "nav": "दुबई मरीना"
+    },
+    "palmJumeirah": {
+      "nav": "पाम जुमेराह"
+    },
+    "businessBay": {
+      "nav": "बिजनेस बे"
+    },
+    "jbr": {
+      "nav": "JBR"
+    },
+    "difc": {
+      "nav": "DIFC"
+    }
+  }
+}

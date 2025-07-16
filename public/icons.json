@@ -1,0 +1,97 @@
+{
+  "services": {
+    "airport": "✈️",
+    "chauffeur": "🤵",
+    "transfer": "🚗",
+    "luxury": "💎",
+    "wedding": "💒",
+    "corporate": "💼",
+    "gala": "🎭",
+    "fashion": "👗",
+    "film": "🎬",
+    "awards": "🏆",
+    "party": "🎉",
+    "phantom": "👑",
+    "ghost": "⚡",
+    "cullinan": "🏔️",
+    "dawn": "🌅",
+    "wraith": "💨",
+    "wifi": "📶",
+    "charging": "🔌",
+    "climate": "❄️",
+    "sound": "🔊",
+    "navigation": "🗺️",
+    "safety": "🛡️",
+    "downtown": "🏙️",
+    "marina": "⚓",
+    "palm": "🌴",
+    "business": "🏢",
+    "beach": "🏖️",
+    "mall": "🛍️",
+    "time": "⏰",
+    "distance": "📍",
+    "calendar": "📅",
+    "clock": "🕐",
+    "phone": "📞",
+    "email": "📧",
+    "whatsapp": "💬",
+    "chat": "💭",
+    "star": "⭐",
+    "review": "📝",
+    "rating": "📊",
+    "thumbsup": "👍"
+  },
+  "categories": {
+    "transport": [
+      "airport",
+      "chauffeur",
+      "transfer"
+    ],
+    "events": [
+      "wedding",
+      "corporate",
+      "gala",
+      "fashion",
+      "film",
+      "awards",
+      "party"
+    ],
+    "vehicles": [
+      "phantom",
+      "ghost",
+      "cullinan",
+      "dawn",
+      "wraith"
+    ],
+    "amenities": [
+      "wifi",
+      "charging",
+      "climate",
+      "sound",
+      "navigation",
+      "safety"
+    ],
+    "locations": [
+      "downtown",
+      "marina",
+      "palm",
+      "business",
+      "beach",
+      "mall"
+    ],
+    "ui": [
+      "time",
+      "distance",
+      "calendar",
+      "clock",
+      "phone",
+      "email",
+      "whatsapp",
+      "chat",
+      "star",
+      "review",
+      "rating",
+      "thumbsup"
+    ]
+  }
+}

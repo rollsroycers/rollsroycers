@@ -1,0 +1,39 @@
+{
+  "terms": {
+    "sections": {
+      "rentalAgreement": {
+        "title": "شروط اتفاقية التأجير"
+      },
+      "driverRequirements": {
+        "title": "متطلبات السائق"
+      },
+      "securityDeposit": {
+        "title": "سياسة التأمين"
+      },
+      "insuranceCoverage": {
+        "title": "التغطية التأمينية"
+      },
+      "usageRestrictions": {
+        "title": "قيود الاستخدام"
+      },
+      "fuelPolicy": {
+        "title": "سياسة الوقود"
+      },
+      "mileageAllowance": {
+        "title": "حد المسافة المسموح"
+      },
+      "cancellationPolicy": {
+        "title": "سياسة الإلغاء"
+      },
+      "trafficFines": {
+        "title": "المخالفات المرورية"
+      },
+      "damageClaims": {
+        "title": "مطالبات الأضرار"
+      }
+    }
+  },
+  "other": {
+    "testimonials": "آراء العملاء"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "terms": {
+    "sections": {
+      "rentalAgreement": {
+        "title": "Rental Agreement Terms"
+      },
+      "driverRequirements": {
+        "title": "Driver Requirements"
+      },
+      "securityDeposit": {
+        "title": "Security Deposit Policy"
+      },
+      "insuranceCoverage": {
+        "title": "Insurance Coverage"
+      },
+      "usageRestrictions": {
+        "title": "Usage Restrictions"
+      },
+      "fuelPolicy": {
+        "title": "Fuel Policy"
+      },
+      "mileageAllowance": {
+        "title": "Mileage Allowance"
+      },
+      "cancellationPolicy": {
+        "title": "Cancellation Policy"
+      },
+      "trafficFines": {
+        "title": "Traffic Fines & Violations"
+      },
+      "damageClaims": {
+        "title": "Damage Claims"
+      }
+    }
+  },
+  "other": {
+    "testimonials": "Customer Testimonials"
+  }
+}

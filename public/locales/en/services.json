@@ -1,0 +1,272 @@
+{
+  "servicesPages": {
+    "corporate": {
+      "packages": {
+        "executive": {
+          "name": "Executive Package",
+          "description": "Premium executive transportation for business leaders",
+          "features": [
+            "Dedicated professional chauffeur",
+            "Premium Rolls-Royce Ghost or Phantom",
+            "24/7 availability",
+            "Airport meet & greet service",
+            "Complimentary water and refreshments"
+          ],
+          "vehicles": [
+            "Phantom",
+            "Ghost"
+          ],
+          "price": "From AED 1,200/day"
+        },
+        "conference": {
+          "name": "Conference Package",
+          "description": "Multi-day conference and event transportation",
+          "features": [
+            "Multiple vehicle coordination",
+            "Event schedule management",
+            "VIP conference pickup/drop-off",
+            "Flexible timing adjustments",
+            "Dedicated account manager"
+          ],
+          "vehicles": [
+            "Ghost",
+            "Cullinan"
+          ],
+          "price": "From AED 800/day"
+        },
+        "roadshow": {
+          "name": "Roadshow Package",
+          "description": "Multi-city business roadshow transportation",
+          "features": [
+            "Inter-emirate travel coordination",
+            "Long-distance comfort optimization",
+            "Business meeting logistics",
+            "Flexible schedule accommodation",
+            "Professional route planning"
+          ],
+          "vehicles": [
+            "Phantom",
+            "Cullinan"
+          ],
+          "price": "From AED 1,500/day"
+        },
+        "partnership": {
+          "name": "Partnership Package",
+          "description": "Long-term corporate partnership solutions",
+          "features": [
+            "Dedicated fleet allocation",
+            "Priority booking guarantee",
+            "Customized service protocols",
+            "Quarterly business reviews",
+            "Volume discount pricing"
+          ],
+          "vehicles": [
+            "All Models"
+          ],
+          "price": "Custom pricing available"
+        },
+        "requestQuote": "Request Quote",
+        "title": "Corporate Packages"
+      },
+      "clients": {
+        "emiratesNBD": "Emirates NBD",
+        "banking": "Banking Sector",
+        "damac": "DAMAC Properties",
+        "realEstate": "Real Estate",
+        "dubaiHolding": "Dubai Holding",
+        "investment": "Investment",
+        "emaar": "Emaar Properties",
+        "development": "Development",
+        "more": "And 200+ more companies trust our services",
+        "title": "Trusted by Leading Businesses"
+      },
+      "caseStudies": {
+        "title": "Success Stories",
+        "bank": {
+          "client": "Major UAE Bank",
+          "challenge": "Challenge",
+          "challengeText": "Needed reliable transport for a 5-day, multi-city financial roadshow for their CEO.",
+          "solution": "Solution",
+          "solutionText": "Provided a dedicated Ghost with a professional chauffeur, managing a complex schedule flawlessly.",
+          "result": "Result",
+          "resultText": "The CEO praised the seamless experience, allowing them to focus on critical business meetings."
+        },
+        "tech": {
+          "client": "International Tech Company",
+          "challenge": "Challenge",
+          "challengeText": "Required transportation for 50+ executives during a 3-day conference in Dubai.",
+          "solution": "Solution",
+          "solutionText": "Coordinated a fleet of 5 Rolls-Royce vehicles with synchronized timing and logistics.",
+          "result": "Result",
+          "resultText": "Achieved 100% on-time arrival rate with zero scheduling conflicts."
+        }
+      },
+      "hero": {
+        "title": "Corporate Rolls-Royce Rentals",
+        "subtitle": "Elevate Your Business Image in Dubai",
+        "description": "Elevate your business image with our premium Rolls-Royce corporate services. From executive meetings to client entertainment, we provide unmatched luxury transportation solutions.",
+        "getQuote": "Get Corporate Quote",
+        "viewPackages": "View Corporate Packages",
+        "stats": {
+          "clients": "500+ Clients",
+          "retention": "98% Retention",
+          "support": "24/7 Support"
+        }
+      },
+      "whyChoose": {
+        "title": "Why Choose Our Corporate Services",
+        "image": {
+          "title": "Professional Image",
+          "description": "Make a lasting impression with our prestigious Rolls-Royce fleet"
+        },
+        "productivity": {
+          "title": "Enhanced Productivity",
+          "description": "Utilize travel time effectively in our quiet, comfortable vehicles"
+        },
+        "privacy": {
+          "title": "Confidential Environment",
+          "description": "Conduct sensitive business discussions in complete privacy"
+        },
+        "standards": {
+          "title": "International Standards",
+          "description": "World-class service that meets global corporate expectations"
+        }
+      },
+      "benefits": {
+        "title": "Corporate Benefits",
+        "financial": {
+          "title": "Financial Benefits",
+          "items": [
+            "Transparent corporate pricing",
+            "Volume discounts available",
+            "Consolidated monthly billing",
+            "No hidden fees or charges"
+          ]
+        },
+        "operational": {
+          "title": "Operational Benefits",
+          "items": [
+            "Dedicated account manager",
+            "Priority booking guarantee",
+            "24/7 corporate hotline",
+            "Real-time booking confirmations"
+          ]
+        },
+        "service": {
+          "title": "Service Excellence",
+          "items": [
+            "Professional chauffeurs",
+            "Pristine vehicle fleet",
+            "Punctuality guarantee",
+            "Discreet and confidential"
+          ]
+        }
+      },
+      "cta": {
+        "title": "Ready to Elevate Your Corporate Transportation?",
+        "description": "Contact our corporate team for customized business solutions and preferential rates.",
+        "speakToTeam": "Speak to Corporate Team",
+        "downloadBrochure": "Download Corporate Brochure"
+      },
+      "quickInquiry": {
+        "title": "Quick Corporate Inquiry",
+        "selectPackage": "Select Package",
+        "packages": {
+          "executive": "Executive Package",
+          "conference": "Conference Package",
+          "roadshow": "Roadshow Package",
+          "partnership": "Partnership Package"
+        },
+        "submitInquiry": "Submit Inquiry"
+      }
+    },
+    "wedding": {
+      "hero": {
+        "title": "Luxury Wedding Car Rental Dubai",
+        "subtitle": "Arrive in Unparalleled Style on Your Special Day",
+        "viewPackages": "View Wedding Packages",
+        "consultation": "Free Consultation"
+      },
+      "whyChoose": {
+        "title": "Why Choose Our Wedding Services",
+        "bridal": {
+          "title": "Bridal Elegance",
+          "description": "Our pristine white Rolls-Royce fleet provides the perfect complement to your wedding attire."
+        },
+        "photo": {
+          "title": "Photography Perfect",
+          "description": "Every angle is stunning - create unforgettable memories with our photogenic vehicles."
+        },
+        "reliability": {
+          "title": "Reliability You Can Trust",
+          "description": "Your wedding day is too important to leave to chance. We guarantee punctuality and perfection."
+        }
+      },
+      "packages": {
+        "title": "Wedding Packages",
+        "classic": {
+          "name": "Classic Wedding Package",
+          "duration": "4 hours",
+          "features": [
+            "White Rolls-Royce Phantom or Ghost",
+            "Professional chauffeur in formal attire",
+            "Red carpet service",
+            "Complimentary decorations",
+            "Champagne service"
+          ],
+          "price": "From AED 2,500"
+        },
+        "royal": {
+          "name": "Royal Wedding Package",
+          "duration": "6 hours",
+          "features": [
+            "Choice of any Rolls-Royce model",
+            "Multiple vehicle coordination",
+            "Bridal car decoration",
+            "Photography assistance",
+            "Extended service hours"
+          ],
+          "price": "From AED 4,200"
+        },
+        "ultimate": {
+          "name": "Ultimate Wedding Package",
+          "duration": "Full day",
+          "features": [
+            "Entire fleet at your disposal",
+            "Wedding planning coordination",
+            "Custom decoration themes",
+            "Professional photography car",
+            "VIP treatment throughout"
+          ],
+          "price": "From AED 8,500",
+          "premium": "Most Popular"
+        },
+        "bookPackage": "Book This Package"
+      },
+      "gallery": {
+        "title": "Wedding Gallery"
+      },
+      "testimonials": {
+        "title": "Happy Couples",
+        "sarah": {
+          "name": "Sarah & Ahmed",
+          "text": "The Rolls-Royce made our wedding day absolutely magical. Everything was perfect - from the pristine white Phantom to the professional chauffeur. Highly recommended!"
+        },
+        "fatima": {
+          "name": "Fatima & Omar",
+          "text": "Exceptional service! The car was beautifully decorated and the driver was so professional. It made our special day even more memorable. Thank you!"
+        }
+      },
+      "cta": {
+        "title": "Ready to Make Your Wedding Unforgettable?",
+        "description": "Contact us today for a personalized wedding car package tailored to your special day.",
+        "call": "Call Now",
+        "getQuote": "Get Wedding Quote"
+      }
+    }
+  },
+  "placeholders": {
+    "companyName": "Company Name",
+    "businessEmail": "Business Email"
+  }
+}

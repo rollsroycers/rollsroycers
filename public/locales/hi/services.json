@@ -1,0 +1,245 @@
+{
+  "servicesPages": {
+    "corporate": {
+      "hero": {
+        "title": "कॉर्पोरेट रोल्स-रॉयस किराया",
+        "subtitle": "दुबई में अपनी व्यावसायिक छवि बढ़ाएं",
+        "description": "Elevate your business image with our premium Rolls-Royce corporate services. From executive meetings to client entertainment, we provide unmatched luxury transportation solutions.",
+        "getQuote": "कॉर्पोरेट कोटेशन प्राप्त करें",
+        "viewPackages": "कॉर्पोरेट पैकेज देखें",
+        "stats": {
+          "clients": "500+ ग्राहक",
+          "retention": "98% प्रतिधारण",
+          "support": "24/7 सहायता"
+        }
+      },
+      "whyChoose": {
+        "title": "हमारी कॉर्पोरेट सेवाएं क्यों चुनें",
+        "image": {
+          "title": "Professional Image",
+          "description": "Make a lasting impression with our prestigious Rolls-Royce fleet"
+        },
+        "productivity": {
+          "title": "Enhanced Productivity",
+          "description": "Utilize travel time effectively in our quiet, comfortable vehicles"
+        },
+        "privacy": {
+          "title": "Confidential Environment",
+          "description": "Conduct sensitive business discussions in complete privacy"
+        },
+        "standards": {
+          "title": "International Standards",
+          "description": "World-class service that meets global corporate expectations"
+        }
+      },
+      "packages": {
+        "title": "कॉर्पोरेट पैकेज",
+        "executive": {
+          "name": "Executive Package",
+          "description": "Premium executive transportation for business leaders",
+          "features": [
+            "Dedicated professional chauffeur",
+            "Premium Rolls-Royce Ghost or Phantom",
+            "24/7 availability",
+            "Airport meet & greet service",
+            "Complimentary water and refreshments",
+            "Wi-Fi connectivity",
+            "Privacy partition",
+            "Flexible scheduling",
+            "Corporate billing available"
+          ],
+          "vehicles": [
+            "Phantom",
+            "Ghost"
+          ],
+          "price": "From AED 1,200/day"
+        },
+        "conference": {
+          "name": "Conference Package",
+          "description": "Multi-day conference and event transportation",
+          "features": [
+            "Multiple vehicle coordination",
+            "Event schedule management",
+            "VIP conference pickup/drop-off",
+            "Flexible timing adjustments",
+            "Dedicated account manager",
+            "Group transportation logistics",
+            "Hotel coordination",
+            "Conference venue partnerships"
+          ],
+          "vehicles": [
+            "Ghost",
+            "Cullinan"
+          ],
+          "price": "From AED 800/day"
+        },
+        "roadshow": {
+          "name": "Roadshow Package",
+          "description": "Multi-city business roadshow transportation",
+          "features": [
+            "Inter-emirate travel coordination",
+            "Long-distance comfort optimization",
+            "Business meeting logistics",
+            "Flexible schedule accommodation",
+            "Professional route planning",
+            "Multi-day availability",
+            "Accommodation coordination",
+            "Executive amenities"
+          ],
+          "vehicles": [
+            "Phantom",
+            "Cullinan"
+          ],
+          "price": "From AED 1,500/day"
+        },
+        "partnership": {
+          "name": "Partnership Package",
+          "description": "Long-term corporate partnership solutions",
+          "features": [
+            "Dedicated fleet allocation",
+            "Priority booking guarantee",
+            "Customized service protocols",
+            "Quarterly business reviews",
+            "Volume discount pricing",
+            "Exclusive vehicle assignment",
+            "Corporate branding options",
+            "Annual contract benefits"
+          ],
+          "vehicles": [
+            "All Models"
+          ],
+          "price": "Custom pricing available"
+        },
+        "requestQuote": "कोटेशन का अनुरोध करें"
+      },
+      "clients": {
+        "title": "अग्रणी व्यवसायों द्वारा भरोसेमंद",
+        "emiratesNBD": "Emirates NBD",
+        "banking": "Banking Sector",
+        "damac": "DAMAC Properties",
+        "realEstate": "Real Estate",
+        "dubaiHolding": "Dubai Holding",
+        "investment": "Investment",
+        "emaar": "Emaar Properties",
+        "development": "Development",
+        "more": "और 200+ अन्य कंपनियां हमारी सेवाओं पर भरोसा करती हैं"
+      },
+      "caseStudies": {
+        "title": "Success Stories",
+        "bank": {
+          "client": "Major UAE Bank",
+          "challenge": "Challenge",
+          "challengeText": "Needed reliable transport for a 5-day, multi-city financial roadshow for their CEO.",
+          "solution": "Solution",
+          "solutionText": "Provided a dedicated Ghost with a professional chauffeur, managing a complex schedule flawlessly.",
+          "result": "Result",
+          "resultText": "The CEO praised the seamless experience, allowing them to focus on critical business meetings."
+        },
+        "tech": {
+          "client": "International Tech Company",
+          "challenge": "Challenge",
+          "challengeText": "Required transportation for 50+ executives during a 3-day conference in Dubai.",
+          "solution": "Solution",
+          "solutionText": "Coordinated a fleet of 5 Rolls-Royce vehicles with synchronized timing and logistics.",
+          "result": "Result",
+          "resultText": "Achieved 100% on-time arrival rate with zero scheduling conflicts."
+        }
+      },
+      "benefits": {
+        "title": "Corporate Benefits",
+        "financial": {
+          "title": "Financial Advantages",
+          "items": [
+            "Transparent corporate billing",
+            "Detailed expense reporting",
+            "Volume discount programs",
+            "Flexible payment terms"
+          ]
+        },
+        "operational": {
+          "title": "Operational Excellence",
+          "items": [
+            "Dedicated account management",
+            "24/7 booking support",
+            "Real-time vehicle tracking",
+            "Schedule optimization"
+          ]
+        },
+        "service": {
+          "title": "Service Quality",
+          "items": [
+            "Professional chauffeur training",
+            "Luxury vehicle maintenance",
+            "Punctuality guarantee",
+            "Confidentiality assurance"
+          ]
+        }
+      },
+      "cta": {
+        "title": "अपने कॉर्पोरेट परिवहन को बेहतर बनाने के लिए तैयार?",
+        "description": "Contact our corporate specialists to discuss your transportation needs and receive a customized proposal.",
+        "speakToTeam": "कॉर्पोरेट टीम से बात करें",
+        "downloadBrochure": "कॉर्पोरेट ब्रोशर डाउनलोड करें"
+      },
+      "quickInquiry": {
+        "title": "त्वरित कॉर्पोरेट पूछताछ",
+        "selectPackage": "पैकेज चुनें",
+        "packages": {
+          "executive": "Executive Package",
+          "conference": "Conference Package",
+          "roadshow": "Roadshow Package",
+          "partnership": "Partnership Package"
+        },
+        "submitInquiry": "पूछताछ सबमिट करें"
+      }
+    },
+    "wedding": {
+      "hero": {
+        "title": "दुबई में लक्जरी शादी कार किराया",
+        "subtitle": "अपने विशेष दिन में अद्वितीय स्टाइल में पहुंचें",
+        "viewPackages": "शादी पैकेज देखें",
+        "consultation": "मुफ्त परामर्श"
+      },
+      "whyChoose": {
+        "title": "हमारी शादी सेवाएं क्यों चुनें"
+      },
+      "packages": {
+        "title": "शादी पैकेज",
+        "classic": {
+          "name": "क्लासिक शादी पैकेज"
+        },
+        "royal": {
+          "name": "रॉयल शादी पैकेज"
+        },
+        "ultimate": {
+          "name": "अल्टीमेट शादी पैकेज",
+          "premium": "सबसे लोकप्रिय"
+        },
+        "bookPackage": "इस पैकेज को बुक करें"
+      },
+      "gallery": {
+        "title": "शादी गैलरी"
+      },
+      "testimonials": {
+        "title": "खुश जोड़े",
+        "sarah": {
+          "name": "सारा और अहमद",
+          "text": "रोल्स-रॉयस ने हमारे शादी के दिन को बिल्कुल जादुई बना दिया..."
+        },
+        "fatima": {
+          "name": "फातिमा और उमर",
+          "text": "असाधारण सेवा! कार खूबसूरती से सजाई गई थी..."
+        }
+      },
+      "cta": {
+        "title": "अपनी शादी को अविस्मरणीय बनाने के लिए तैयार?",
+        "call": "अभी कॉल करें",
+        "getQuote": "कोटेशन प्राप्त करें"
+      }
+    }
+  },
+  "placeholders": {
+    "companyName": "कंपनी का नाम",
+    "businessEmail": "व्यावसायिक ईमेल"
+  }
+}

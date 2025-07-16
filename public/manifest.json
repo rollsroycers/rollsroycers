@@ -1,0 +1,64 @@
+{
+  "name": "Rolls-Royce Dubai - Luxury Car Rental",
+  "short_name": "RR Dubai",
+  "description": "Experience ultimate luxury with Dubai's premier Rolls-Royce rental service",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0a0a0a",
+  "theme_color": "#d4af37",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/images/logo-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/images/logo-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/images/screenshots/home.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "label": "Luxury Fleet"
+    },
+    {
+      "src": "/images/screenshots/booking.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "label": "Easy Booking"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Book Now",
+      "short_name": "Book",
+      "description": "Quick booking for luxury rental",
+      "url": "/#contact",
+      "icons": [{ "src": "/images/book-icon.png", "sizes": "96x96" }]
+    },
+    {
+      "name": "View Fleet",
+      "short_name": "Fleet",
+      "description": "Browse our luxury vehicles",
+      "url": "/#fleet",
+      "icons": [{ "src": "/images/fleet-icon.png", "sizes": "96x96" }]
+    },
+    {
+      "name": "Special Offers",
+      "short_name": "Offers",
+      "description": "View current promotions",
+      "url": "/#offers",
+      "icons": [{ "src": "/images/offer-icon.png", "sizes": "96x96" }]
+    }
+  ],
+  "categories": ["business", "lifestyle", "travel", "shopping"],
+  "prefer_related_applications": false,
+  "related_applications": []
+}

@@ -1,0 +1,245 @@
+{
+  "servicesPages": {
+    "corporate": {
+      "hero": {
+        "title": "Location Rolls-Royce d'entreprise",
+        "subtitle": "Rehaussez l'image de votre entreprise à Dubaï",
+        "description": "Elevate your business image with our premium Rolls-Royce corporate services. From executive meetings to client entertainment, we provide unmatched luxury transportation solutions.",
+        "getQuote": "Obtenir un devis d'entreprise",
+        "viewPackages": "Voir les forfaits d'entreprise",
+        "stats": {
+          "clients": "500+ clients",
+          "retention": "98% rétention",
+          "support": "Support 24/7"
+        }
+      },
+      "whyChoose": {
+        "title": "Pourquoi choisir nos services d'entreprise",
+        "image": {
+          "title": "Professional Image",
+          "description": "Make a lasting impression with our prestigious Rolls-Royce fleet"
+        },
+        "productivity": {
+          "title": "Enhanced Productivity",
+          "description": "Utilize travel time effectively in our quiet, comfortable vehicles"
+        },
+        "privacy": {
+          "title": "Confidential Environment",
+          "description": "Conduct sensitive business discussions in complete privacy"
+        },
+        "standards": {
+          "title": "International Standards",
+          "description": "World-class service that meets global corporate expectations"
+        }
+      },
+      "packages": {
+        "title": "Forfaits d'Entreprise",
+        "executive": {
+          "name": "Executive Package",
+          "description": "Premium executive transportation for business leaders",
+          "features": [
+            "Dedicated professional chauffeur",
+            "Premium Rolls-Royce Ghost or Phantom",
+            "24/7 availability",
+            "Airport meet & greet service",
+            "Complimentary water and refreshments",
+            "Wi-Fi connectivity",
+            "Privacy partition",
+            "Flexible scheduling",
+            "Corporate billing available"
+          ],
+          "vehicles": [
+            "Phantom",
+            "Ghost"
+          ],
+          "price": "From AED 1,200/day"
+        },
+        "conference": {
+          "name": "Conference Package",
+          "description": "Multi-day conference and event transportation",
+          "features": [
+            "Multiple vehicle coordination",
+            "Event schedule management",
+            "VIP conference pickup/drop-off",
+            "Flexible timing adjustments",
+            "Dedicated account manager",
+            "Group transportation logistics",
+            "Hotel coordination",
+            "Conference venue partnerships"
+          ],
+          "vehicles": [
+            "Ghost",
+            "Cullinan"
+          ],
+          "price": "From AED 800/day"
+        },
+        "roadshow": {
+          "name": "Roadshow Package",
+          "description": "Multi-city business roadshow transportation",
+          "features": [
+            "Inter-emirate travel coordination",
+            "Long-distance comfort optimization",
+            "Business meeting logistics",
+            "Flexible schedule accommodation",
+            "Professional route planning",
+            "Multi-day availability",
+            "Accommodation coordination",
+            "Executive amenities"
+          ],
+          "vehicles": [
+            "Phantom",
+            "Cullinan"
+          ],
+          "price": "From AED 1,500/day"
+        },
+        "partnership": {
+          "name": "Partnership Package",
+          "description": "Long-term corporate partnership solutions",
+          "features": [
+            "Dedicated fleet allocation",
+            "Priority booking guarantee",
+            "Customized service protocols",
+            "Quarterly business reviews",
+            "Volume discount pricing",
+            "Exclusive vehicle assignment",
+            "Corporate branding options",
+            "Annual contract benefits"
+          ],
+          "vehicles": [
+            "All Models"
+          ],
+          "price": "Custom pricing available"
+        },
+        "requestQuote": "Demander un devis"
+      },
+      "clients": {
+        "title": "Approuvé par les entreprises leaders",
+        "emiratesNBD": "Emirates NBD",
+        "banking": "Banking Sector",
+        "damac": "DAMAC Properties",
+        "realEstate": "Real Estate",
+        "dubaiHolding": "Dubai Holding",
+        "investment": "Investment",
+        "emaar": "Emaar Properties",
+        "development": "Development",
+        "more": "Et 200+ autres entreprises font confiance à nos services"
+      },
+      "caseStudies": {
+        "title": "Success Stories",
+        "bank": {
+          "client": "Major UAE Bank",
+          "challenge": "Challenge",
+          "challengeText": "Needed reliable transport for a 5-day, multi-city financial roadshow for their CEO.",
+          "solution": "Solution",
+          "solutionText": "Provided a dedicated Ghost with a professional chauffeur, managing a complex schedule flawlessly.",
+          "result": "Result",
+          "resultText": "The CEO praised the seamless experience, allowing them to focus on critical business meetings."
+        },
+        "tech": {
+          "client": "International Tech Company",
+          "challenge": "Challenge",
+          "challengeText": "Required transportation for 50+ executives during a 3-day conference in Dubai.",
+          "solution": "Solution",
+          "solutionText": "Coordinated a fleet of 5 Rolls-Royce vehicles with synchronized timing and logistics.",
+          "result": "Result",
+          "resultText": "Achieved 100% on-time arrival rate with zero scheduling conflicts."
+        }
+      },
+      "benefits": {
+        "title": "Corporate Benefits",
+        "financial": {
+          "title": "Financial Advantages",
+          "items": [
+            "Transparent corporate billing",
+            "Detailed expense reporting",
+            "Volume discount programs",
+            "Flexible payment terms"
+          ]
+        },
+        "operational": {
+          "title": "Operational Excellence",
+          "items": [
+            "Dedicated account management",
+            "24/7 booking support",
+            "Real-time vehicle tracking",
+            "Schedule optimization"
+          ]
+        },
+        "service": {
+          "title": "Service Quality",
+          "items": [
+            "Professional chauffeur training",
+            "Luxury vehicle maintenance",
+            "Punctuality guarantee",
+            "Confidentiality assurance"
+          ]
+        }
+      },
+      "cta": {
+        "title": "Prêt à améliorer votre transport d'entreprise?",
+        "description": "Contact our corporate specialists to discuss your transportation needs and receive a customized proposal.",
+        "speakToTeam": "Parler à l'équipe d'entreprise",
+        "downloadBrochure": "Télécharger la brochure d'entreprise"
+      },
+      "quickInquiry": {
+        "title": "Demande rapide d'entreprise",
+        "selectPackage": "Sélectionner un forfait",
+        "packages": {
+          "executive": "Executive Package",
+          "conference": "Conference Package",
+          "roadshow": "Roadshow Package",
+          "partnership": "Partnership Package"
+        },
+        "submitInquiry": "Soumettre la demande"
+      }
+    },
+    "wedding": {
+      "hero": {
+        "title": "Location de voitures de mariage à Dubaï",
+        "subtitle": "Arrivez avec un style inégalé le jour de votre mariage",
+        "viewPackages": "Voir les forfaits mariage",
+        "consultation": "Consultation gratuite"
+      },
+      "whyChoose": {
+        "title": "Pourquoi choisir nos services de mariage"
+      },
+      "packages": {
+        "title": "Forfaits Mariage",
+        "classic": {
+          "name": "Forfait mariage classique"
+        },
+        "royal": {
+          "name": "Forfait mariage royal"
+        },
+        "ultimate": {
+          "name": "Forfait mariage ultime",
+          "premium": "Plus populaire"
+        },
+        "bookPackage": "Réserver ce forfait"
+      },
+      "gallery": {
+        "title": "Galerie de mariage"
+      },
+      "testimonials": {
+        "title": "Couples Heureux",
+        "sarah": {
+          "name": "Sarah et Ahmed",
+          "text": "La Rolls-Royce a rendu notre jour de mariage absolument magique..."
+        },
+        "fatima": {
+          "name": "Fatima et Omar",
+          "text": "Service exceptionnel! La voiture était magnifiquement décorée..."
+        }
+      },
+      "cta": {
+        "title": "Prêt à rendre votre mariage inoubliable?",
+        "call": "Appeler maintenant",
+        "getQuote": "Obtenir un devis"
+      }
+    }
+  },
+  "placeholders": {
+    "companyName": "Nom de l'entreprise",
+    "businessEmail": "Email professionnel"
+  }
+}

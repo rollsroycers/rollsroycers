@@ -1,0 +1,37 @@
+{
+  "nav": {
+    "home": "首页",
+    "fleet": "车队",
+    "services": "服务",
+    "locations": "地点",
+    "about": "关于我们",
+    "contact": "联系我们",
+    "booking": "立即预订",
+    "gallery": "图库",
+    "blog": "博客",
+    "faq": "常见问题",
+    "testimonials": "客户评价",
+    "pricing": "价格",
+    "more": "更多"
+  },
+  "locations": {
+    "downtownDubai": {
+      "nav": "迪拜市中心"
+    },
+    "dubaiMarina": {
+      "nav": "迪拜码头"
+    },
+    "palmJumeirah": {
+      "nav": "朱美拉棕榈岛"
+    },
+    "businessBay": {
+      "nav": "商业湾"
+    },
+    "jbr": {
+      "nav": "JBR"
+    },
+    "difc": {
+      "nav": "DIFC"
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "nav": {
+    "home": "الرئيسية",
+    "fleet": "الأسطول",
+    "services": "الخدمات",
+    "locations": "المواقع",
+    "about": "من نحن",
+    "contact": "اتصل بنا",
+    "booking": "احجز الآن",
+    "gallery": "معرض الصور",
+    "blog": "المدونة",
+    "faq": "الأسئلة الشائعة",
+    "testimonials": "آراء العملاء",
+    "pricing": "الأسعار",
+    "more": "المزيد"
+  },
+  "locations": {
+    "downtownDubai": {
+      "nav": "وسط مدينة دبي"
+    },
+    "dubaiMarina": {
+      "nav": "دبي مارينا"
+    },
+    "palmJumeirah": {
+      "nav": "نخلة جميرا"
+    },
+    "businessBay": {
+      "nav": "الخليج التجاري"
+    },
+    "jbr": {
+      "nav": "جميرا بيتش ريزيدنس"
+    },
+    "difc": {
+      "nav": "مركز دبي المالي"
+    }
+  }
+}

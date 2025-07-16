@@ -1,0 +1,245 @@
+{
+  "servicesPages": {
+    "corporate": {
+      "hero": {
+        "title": "企业劳斯莱斯租赁",
+        "subtitle": "提升您在迪拜的企业形象",
+        "description": "Elevate your business image with our premium Rolls-Royce corporate services. From executive meetings to client entertainment, we provide unmatched luxury transportation solutions.",
+        "getQuote": "获取企业报价",
+        "viewPackages": "查看企业套餐",
+        "stats": {
+          "clients": "500+客户",
+          "retention": "98%保留率",
+          "support": "24/7支持"
+        }
+      },
+      "whyChoose": {
+        "title": "为什么选择我们的企业服务",
+        "image": {
+          "title": "Professional Image",
+          "description": "Make a lasting impression with our prestigious Rolls-Royce fleet"
+        },
+        "productivity": {
+          "title": "Enhanced Productivity",
+          "description": "Utilize travel time effectively in our quiet, comfortable vehicles"
+        },
+        "privacy": {
+          "title": "Confidential Environment",
+          "description": "Conduct sensitive business discussions in complete privacy"
+        },
+        "standards": {
+          "title": "International Standards",
+          "description": "World-class service that meets global corporate expectations"
+        }
+      },
+      "packages": {
+        "title": "企业套餐",
+        "executive": {
+          "name": "Executive Package",
+          "description": "Premium executive transportation for business leaders",
+          "features": [
+            "Dedicated professional chauffeur",
+            "Premium Rolls-Royce Ghost or Phantom",
+            "24/7 availability",
+            "Airport meet & greet service",
+            "Complimentary water and refreshments",
+            "Wi-Fi connectivity",
+            "Privacy partition",
+            "Flexible scheduling",
+            "Corporate billing available"
+          ],
+          "vehicles": [
+            "Phantom",
+            "Ghost"
+          ],
+          "price": "From AED 1,200/day"
+        },
+        "conference": {
+          "name": "Conference Package",
+          "description": "Multi-day conference and event transportation",
+          "features": [
+            "Multiple vehicle coordination",
+            "Event schedule management",
+            "VIP conference pickup/drop-off",
+            "Flexible timing adjustments",
+            "Dedicated account manager",
+            "Group transportation logistics",
+            "Hotel coordination",
+            "Conference venue partnerships"
+          ],
+          "vehicles": [
+            "Ghost",
+            "Cullinan"
+          ],
+          "price": "From AED 800/day"
+        },
+        "roadshow": {
+          "name": "Roadshow Package",
+          "description": "Multi-city business roadshow transportation",
+          "features": [
+            "Inter-emirate travel coordination",
+            "Long-distance comfort optimization",
+            "Business meeting logistics",
+            "Flexible schedule accommodation",
+            "Professional route planning",
+            "Multi-day availability",
+            "Accommodation coordination",
+            "Executive amenities"
+          ],
+          "vehicles": [
+            "Phantom",
+            "Cullinan"
+          ],
+          "price": "From AED 1,500/day"
+        },
+        "partnership": {
+          "name": "Partnership Package",
+          "description": "Long-term corporate partnership solutions",
+          "features": [
+            "Dedicated fleet allocation",
+            "Priority booking guarantee",
+            "Customized service protocols",
+            "Quarterly business reviews",
+            "Volume discount pricing",
+            "Exclusive vehicle assignment",
+            "Corporate branding options",
+            "Annual contract benefits"
+          ],
+          "vehicles": [
+            "All Models"
+          ],
+          "price": "Custom pricing available"
+        },
+        "requestQuote": "请求报价"
+      },
+      "clients": {
+        "title": "受到领先企业信赖",
+        "emiratesNBD": "Emirates NBD",
+        "banking": "Banking Sector",
+        "damac": "DAMAC Properties",
+        "realEstate": "Real Estate",
+        "dubaiHolding": "Dubai Holding",
+        "investment": "Investment",
+        "emaar": "Emaar Properties",
+        "development": "Development",
+        "more": "还有200+其他企业信赖我们的服务"
+      },
+      "caseStudies": {
+        "title": "Success Stories",
+        "bank": {
+          "client": "Major UAE Bank",
+          "challenge": "Challenge",
+          "challengeText": "Needed reliable transport for a 5-day, multi-city financial roadshow for their CEO.",
+          "solution": "Solution",
+          "solutionText": "Provided a dedicated Ghost with a professional chauffeur, managing a complex schedule flawlessly.",
+          "result": "Result",
+          "resultText": "The CEO praised the seamless experience, allowing them to focus on critical business meetings."
+        },
+        "tech": {
+          "client": "International Tech Company",
+          "challenge": "Challenge",
+          "challengeText": "Required transportation for 50+ executives during a 3-day conference in Dubai.",
+          "solution": "Solution",
+          "solutionText": "Coordinated a fleet of 5 Rolls-Royce vehicles with synchronized timing and logistics.",
+          "result": "Result",
+          "resultText": "Achieved 100% on-time arrival rate with zero scheduling conflicts."
+        }
+      },
+      "benefits": {
+        "title": "Corporate Benefits",
+        "financial": {
+          "title": "Financial Advantages",
+          "items": [
+            "Transparent corporate billing",
+            "Detailed expense reporting",
+            "Volume discount programs",
+            "Flexible payment terms"
+          ]
+        },
+        "operational": {
+          "title": "Operational Excellence",
+          "items": [
+            "Dedicated account management",
+            "24/7 booking support",
+            "Real-time vehicle tracking",
+            "Schedule optimization"
+          ]
+        },
+        "service": {
+          "title": "Service Quality",
+          "items": [
+            "Professional chauffeur training",
+            "Luxury vehicle maintenance",
+            "Punctuality guarantee",
+            "Confidentiality assurance"
+          ]
+        }
+      },
+      "cta": {
+        "title": "准备提升您的企业交通？",
+        "description": "Contact our corporate specialists to discuss your transportation needs and receive a customized proposal.",
+        "speakToTeam": "与企业团队交谈",
+        "downloadBrochure": "下载企业手册"
+      },
+      "quickInquiry": {
+        "title": "快速企业咨询",
+        "selectPackage": "选择套餐",
+        "packages": {
+          "executive": "Executive Package",
+          "conference": "Conference Package",
+          "roadshow": "Roadshow Package",
+          "partnership": "Partnership Package"
+        },
+        "submitInquiry": "提交咨询"
+      }
+    },
+    "wedding": {
+      "hero": {
+        "title": "迪拜豪华婚车租赁",
+        "subtitle": "在您的特殊日子以无与伦比的风格抵达",
+        "viewPackages": "查看婚礼套餐",
+        "consultation": "免费咨询"
+      },
+      "whyChoose": {
+        "title": "为什么选择我们的婚礼服务"
+      },
+      "packages": {
+        "title": "婚礼套餐",
+        "classic": {
+          "name": "经典婚礼套餐"
+        },
+        "royal": {
+          "name": "皇家婚礼套餐"
+        },
+        "ultimate": {
+          "name": "至尊婚礼套餐",
+          "premium": "最受欢迎"
+        },
+        "bookPackage": "预订此套餐"
+      },
+      "gallery": {
+        "title": "婚礼画廊"
+      },
+      "testimonials": {
+        "title": "幸福夫妇",
+        "sarah": {
+          "name": "萨拉和艾哈迈德",
+          "text": "劳斯莱斯让我们的婚礼日变得绝对神奇..."
+        },
+        "fatima": {
+          "name": "法蒂玛和奥马尔",
+          "text": "卓越的服务！汽车装饰得很漂亮..."
+        }
+      },
+      "cta": {
+        "title": "准备让您的婚礼难忘吗？",
+        "call": "立即致电",
+        "getQuote": "获取报价"
+      }
+    }
+  },
+  "placeholders": {
+    "companyName": "公司名称",
+    "businessEmail": "商务邮箱"
+  }
+}

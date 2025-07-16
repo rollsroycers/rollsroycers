@@ -1,0 +1,37 @@
+{
+  "nav": {
+    "home": "Home",
+    "fleet": "Fleet",
+    "services": "Services",
+    "locations": "Locations",
+    "about": "About",
+    "contact": "Contact",
+    "booking": "Book Now",
+    "gallery": "Gallery",
+    "blog": "Blog",
+    "faq": "FAQ",
+    "testimonials": "Testimonials",
+    "pricing": "Pricing",
+    "more": "More"
+  },
+  "locations": {
+    "downtownDubai": {
+      "nav": "Downtown Dubai"
+    },
+    "dubaiMarina": {
+      "nav": "Dubai Marina"
+    },
+    "palmJumeirah": {
+      "nav": "Palm Jumeirah"
+    },
+    "businessBay": {
+      "nav": "Business Bay"
+    },
+    "jbr": {
+      "nav": "JBR"
+    },
+    "difc": {
+      "nav": "DIFC"
+    }
+  }
+}
