@@ -1942,14 +1942,44 @@
     "title": "Contact Us",
     "subtitle": "Get in touch with our luxury car rental experts",
     "form": {
-      "name": "Full Name",
-      "email": "Email Address",
-      "phone": "Phone Number",
-      "subject": "Subject",
-      "message": "Your Message",
-      "send": "Send Message",
-      "success": "Your message has been sent successfully!",
-      "error": "There was an error sending your message. Please try again."
+      "title": "Send Us a Message",
+      "name": {
+        "label": "Full Name",
+        "placeholder": "John Doe"
+      },
+      "email": {
+        "label": "Email Address",
+        "placeholder": "john@example.com"
+      },
+      "phone": {
+        "label": "Phone Number",
+        "placeholder": "+971 55 816 4922"
+      },
+      "subject": {
+        "label": "Subject",
+        "placeholder": "Rental Inquiry"
+      },
+      "message": {
+        "label": "Message",
+        "placeholder": "Tell us about your requirements..."
+      },
+      "preferredContact": {
+        "label": "Preferred Contact Method",
+        "phone": "Phone",
+        "email": "Email",
+        "whatsapp": "WhatsApp"
+      },
+      "bestTime": {
+        "label": "Best Time to Contact",
+        "morning": "Morning (9AM - 12PM)",
+        "afternoon": "Afternoon (12PM - 5PM)",
+        "evening": "Evening (5PM - 8PM)",
+        "anytime": "Anytime"
+      },
+      "submit": "Send Message",
+      "submitting": "Sending...",
+      "success": "✓ Message sent successfully!",
+      "error": "✗ Failed to send. Please try again."
     },
     "info": {
       "title": "Our Information",
@@ -1958,7 +1988,65 @@
       "email": "info@rollsroycedubai.com",
       "hours": "Open 24/7"
     },
-    "map": "Our Location"
+    "map": "Our Location",
+    "hero": {
+      "title": "Get in Touch",
+      "description": "We're here to make your luxury car rental experience extraordinary"
+    },
+    "contactMethods": {
+      "call": {
+        "title": "Call Us",
+        "description": "24/7 Support Available",
+        "value": "+971 55 816 4922"
+      },
+      "whatsapp": {
+        "title": "WhatsApp",
+        "description": "Quick Response Guaranteed",
+        "value": "+971 55 816 4922"
+      },
+      "email": {
+        "title": "Email Us",
+        "description": "We reply within 2 hours",
+        "value": "info@rollsroycers.com"
+      },
+      "office": {
+        "title": "Visit Our Office",
+        "description": "Mon-Sat: 9AM-8PM",
+        "value": "Downtown Dubai, UAE"
+      }
+    },
+    "businessHours": {
+      "title": "Business Hours",
+      "monday": "Monday - Friday",
+      "mondayHours": "9:00 AM - 8:00 PM",
+      "saturday": "Saturday",
+      "saturdayHours": "9:00 AM - 6:00 PM",
+      "sunday": "Sunday",
+      "sundayHours": "10:00 AM - 5:00 PM",
+      "emergency": "📞 24/7 Emergency Support Available"
+    },
+    "socialMedia": {
+      "title": "Follow Us"
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "q1": {
+        "question": "What documents do I need to rent?",
+        "answer": "Valid UAE driving license or international driving permit, passport copy, and Emirates ID (for residents)."
+      },
+      "q2": {
+        "question": "Can I rent for just a few hours?",
+        "answer": "Yes! We offer flexible hourly packages starting from 4 hours minimum."
+      },
+      "q3": {
+        "question": "Do you provide airport pickup?",
+        "answer": "Absolutely! We offer complimentary airport pickup and drop-off services."
+      },
+      "q4": {
+        "question": "Is insurance included?",
+        "answer": "Yes, comprehensive insurance is included in all our rental packages."
+      }
+    }
   },
   "cookie": {
     "title": "This website uses cookies",
@@ -2223,7 +2311,9 @@
     "message": "Enter your message here...",
     "enterCode": "Enter promo code",
     "companyName": "Company Name",
-    "businessEmail": "Business Email"
+    "businessEmail": "Business Email",
+    "johnDoe": "John Doe",
+    "rentalInquiry": "Rental Inquiry"
   },
   "compareFleet": {
     "title": "Compare Our Fleet",
@@ -2799,7 +2889,229 @@
     },
     "jumeirah": "Palm Jumeirah",
     "jbr": {
-      "nav": "JBR"
+      "nav": "JBR",
+      "hero": {
+        "title": "JBR Beach Luxury",
+        "subtitle": "Where Beach Life Meets Rolls-Royce Excellence",
+        "badge": "Dubai's Premier Beach Destination",
+        "cta": {
+          "book": "Book Beach Delivery",
+          "experiences": "Beach Experiences"
+        }
+      },
+      "whyChoose": {
+        "title": "Why Choose Rolls-Royce at JBR?",
+        "features": {
+          "beachfront": {
+            "title": "Beachfront Paradise",
+            "description": "Direct access to Dubai's most vibrant beach with premium parking at all venues"
+          },
+          "vip": {
+            "title": "Beach Club VIP",
+            "description": "Skip the lines at exclusive beach clubs with our VIP coordination service"
+          },
+          "sunset": {
+            "title": "Sunset Drives",
+            "description": "Experience magical sunset cruises along the beach boulevard in convertible luxury"
+          }
+        }
+      },
+      "stats": {
+        "deliveries": "Monthly JBR Deliveries",
+        "arrival": "Beach Arrival Time",
+        "service": "Beachside Service",
+        "rating": "Customer Rating"
+      },
+      "beachClubs": {
+        "title": "Direct Access to Premium Beach Clubs",
+        "clubs": {
+          "zeroGravity": {
+            "name": "Zero Gravity",
+            "type": "Beach Club",
+            "feature": "VIP Cabanas"
+          },
+          "nikki": {
+            "name": "Nikki Beach",
+            "type": "Luxury Beach Club",
+            "feature": "Valet Service"
+          },
+          "barasti": {
+            "name": "Barasti Beach",
+            "type": "Beach Bar",
+            "feature": "Direct Access"
+          },
+          "cove": {
+            "name": "Cove Beach",
+            "type": "Day Club",
+            "feature": "Reserved Parking"
+          },
+          "azure": {
+            "name": "Azure Beach",
+            "type": "Premium Beach",
+            "feature": "VIP Entrance"
+          },
+          "theBeach": {
+            "name": "The Beach at JBR",
+            "type": "Public Beach",
+            "feature": "Multiple Access Points"
+          }
+        }
+      },
+      "experiences": {
+        "title": "Exclusive JBR Experiences",
+        "sunset": {
+          "title": "Sunset Beach Drive",
+          "description": "Cruise along JBR beach during golden hour",
+          "highlights": [
+            "Perfect lighting for photos",
+            "Beach boulevard cruise",
+            "Stop at scenic viewpoints",
+            "Professional photography available"
+          ],
+          "bestCar": "Dawn Convertible",
+          "price": "From AED 7,000",
+          "cta": "Book Experience"
+        },
+        "beachClub": {
+          "title": "Beach Club Circuit",
+          "description": "VIP arrivals at Dubai's top beach clubs",
+          "highlights": [
+            "Skip-the-line access",
+            "Reserved VIP parking",
+            "Club table reservations",
+            "Chauffeur standby service"
+          ],
+          "bestCar": "Cullinan",
+          "price": "From AED 8,500",
+          "cta": "Book Experience"
+        },
+        "nightLife": {
+          "title": "Night Life Experience",
+          "description": "Evening entertainment in style",
+          "highlights": [
+            "Restaurant valet service",
+            "Bar hopping coordination",
+            "Late night chauffeur",
+            "Safe luxury transport"
+          ],
+          "bestCar": "Ghost",
+          "price": "From AED 6,200",
+          "cta": "Book Experience"
+        },
+        "recommended": "Recommended:"
+      },
+      "dining": {
+        "title": "Fine Dining Destinations",
+        "headers": {
+          "restaurant": "Restaurant",
+          "cuisine": "Cuisine",
+          "location": "Location"
+        },
+        "restaurants": {
+          "zuma": {
+            "name": "Zuma",
+            "cuisine": "Japanese",
+            "location": "DIFC (10 min)"
+          },
+          "laPetite": {
+            "name": "La Petite Maison",
+            "cuisine": "French",
+            "location": "Gate Village"
+          },
+          "stk": {
+            "name": "STK",
+            "cuisine": "Steakhouse",
+            "location": "JBR Walk"
+          },
+          "seafire": {
+            "name": "Seafire Steakhouse",
+            "cuisine": "American",
+            "location": "Atlantis (15 min)"
+          },
+          "ilBorro": {
+            "name": "Il Borro",
+            "cuisine": "Italian",
+            "location": "JBR"
+          },
+          "nobu": {
+            "name": "Nobu",
+            "cuisine": "Japanese Fusion",
+            "location": "Atlantis (15 min)"
+          }
+        },
+        "note": "Valet parking coordination at all premium restaurants"
+      },
+      "attractions": {
+        "title": "Explore Beyond JBR",
+        "list": {
+          "theWalk": {
+            "name": "The Walk JBR",
+            "distance": "On location",
+            "type": "Shopping & Dining"
+          },
+          "marina": {
+            "name": "Dubai Marina",
+            "distance": "5 minutes",
+            "type": "Waterfront District"
+          },
+          "ainDubai": {
+            "name": "Ain Dubai",
+            "distance": "10 minutes",
+            "type": "Observation Wheel"
+          },
+          "palm": {
+            "name": "Palm Jumeirah",
+            "distance": "15 minutes",
+            "type": "Iconic Island"
+          },
+          "skydive": {
+            "name": "Skydive Dubai",
+            "distance": "3 minutes",
+            "type": "Adventure Sport"
+          },
+          "marinaMall": {
+            "name": "Dubai Marina Mall",
+            "distance": "7 minutes",
+            "type": "Shopping"
+          }
+        }
+      },
+      "weather": {
+        "title": "Best Times for Beach Cruising"
+      },
+      "residential": {
+        "title": "JBR Tower Residents",
+        "description": "Complimentary delivery to all JBR residential towers including:",
+        "towers": [
+          "Amwaj Suites",
+          "Bahar Towers",
+          "Rimal Towers",
+          "Shams Towers",
+          "Murjan Towers",
+          "Sadaf Towers"
+        ],
+        "note": "+ All JBR towers with basement parking access"
+      },
+      "fleet": {
+        "title": "Choose Your Beach Companion"
+      },
+      "cta": {
+        "title": "Experience JBR in Rolls-Royce Style",
+        "subtitle": "From sunrise beach drives to sunset dinner arrivals, make every moment at JBR extraordinary",
+        "call": "Call JBR Team",
+        "book": "Book Online",
+        "pickupPoints": {
+          "title": "JBR Pickup Points",
+          "beach": {
+            "title": "Beach Access",
+            "location": "The Walk Main Entrance"
+          },
+          "tower": {
+            "title": "Tower Delivery",
+            "location": "All JBR Basement Parking"
+          }
+        }
+      }
     },
     "businessBay": {
       "nav": "Business Bay",
@@ -3145,6 +3457,16 @@
         "deliveryTime": "5-minute arrival",
         "vipConcierge": "VIP Concierge Service"
       },
+      "stats": {
+        "monthlyDeliveries": "400+",
+        "monthlyDeliveriesLabel": "Monthly Marina Deliveries",
+        "responseTime": "3 min",
+        "responseTimeLabel": "Average Response Time",
+        "beachClubs": "15+",
+        "beachClubsLabel": "Partner Beach Clubs",
+        "satisfaction": "4.9/5",
+        "satisfactionLabel": "Guest Satisfaction"
+      },
       "whyChoose": {
         "title": "Why Choose Dubai Marina",
         "beachside": {
@@ -3159,6 +3481,77 @@
           "title": "Yacht Club Access",
           "description": "Exclusive access to luxury yacht clubs and marinas"
         }
+      },
+      "experiences": {
+        "title": "Exclusive Marina Experiences",
+        "subtitle": "Curated luxury experiences in Dubai's premier waterfront district",
+        "bookExperience": "Book Experience",
+        "sunset": {
+          "title": "Sunset Marina Cruise",
+          "description": "Arrive in style for a luxury yacht experience with Rolls-Royce transfers",
+          "duration": "4 hours",
+          "price": "From AED 8,500",
+          "highlights": [
+            "Rolls-Royce Marina pickup",
+            "VIP yacht boarding",
+            "Sunset cruise with gourmet dining",
+            "Return transfer to your destination"
+          ]
+        },
+        "beachClub": {
+          "title": "Elite Beach Club Circuit",
+          "description": "VIP access to Marina's most exclusive beach clubs with luxury transport",
+          "duration": "Full day",
+          "price": "From AED 6,500",
+          "highlights": [
+            "Skip-the-line club access",
+            "Reserved premium cabanas",
+            "Chauffeur standby service",
+            "Multiple venue transfers"
+          ]
+        },
+        "dining": {
+          "title": "Waterfront Dining Experience",
+          "description": "Michelin-starred dining tour along Dubai Marina's finest restaurants",
+          "duration": "Evening",
+          "price": "From AED 7,200",
+          "highlights": [
+            "Restaurant valet service",
+            "Chef's table reservations",
+            "Wine pairing experiences",
+            "Late-night luxury transport"
+          ]
+        }
+      },
+      "beachClubs": {
+        "title": "Partner Beach Clubs & Venues",
+        "subtitle": "Exclusive access and VIP treatment at Marina's finest establishments",
+        "clubs": [
+          {
+            "name": "Zero Gravity",
+            "type": "Premium Beach Club",
+            "feature": "VIP Cabana Access",
+            "distance": "2 min"
+          },
+          {
+            "name": "Barasti Beach",
+            "type": "Beachfront Bar",
+            "feature": "Direct Valet Service",
+            "distance": "3 min"
+          },
+          {
+            "name": "Azure Beach",
+            "type": "Day Club",
+            "feature": "Reserved VIP Parking",
+            "distance": "5 min"
+          },
+          {
+            "name": "Cove Beach",
+            "type": "Luxury Beach Club",
+            "feature": "Private Entrance",
+            "distance": "7 min"
+          }
+        ]
       },
       "deliveryLocations": {
         "title": "Free Delivery Locations",

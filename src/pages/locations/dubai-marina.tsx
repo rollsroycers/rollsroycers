@@ -88,6 +88,91 @@ export default function DubaiMarinaPage() {
     }
   ]
 
+  const stats = [
+    {
+      number: t('locations.dubaiMarina.stats.monthlyDeliveries'),
+      label: t('locations.dubaiMarina.stats.monthlyDeliveriesLabel')
+    },
+    {
+      number: t('locations.dubaiMarina.stats.responseTime'), 
+      label: t('locations.dubaiMarina.stats.responseTimeLabel')
+    },
+    {
+      number: t('locations.dubaiMarina.stats.beachClubs'),
+      label: t('locations.dubaiMarina.stats.beachClubsLabel')
+    },
+    {
+      number: t('locations.dubaiMarina.stats.satisfaction'),
+      label: t('locations.dubaiMarina.stats.satisfactionLabel')
+    }
+  ]
+
+  const experiences = [
+    {
+      title: t('locations.dubaiMarina.experiences.sunset.title'),
+      description: t('locations.dubaiMarina.experiences.sunset.description'),
+      duration: t('locations.dubaiMarina.experiences.sunset.duration'),
+      price: t('locations.dubaiMarina.experiences.sunset.price'),
+      highlights: [
+        t('locations.dubaiMarina.experiences.sunset.highlights.0'),
+        t('locations.dubaiMarina.experiences.sunset.highlights.1'),
+        t('locations.dubaiMarina.experiences.sunset.highlights.2'),
+        t('locations.dubaiMarina.experiences.sunset.highlights.3')
+      ]
+    },
+    {
+      title: t('locations.dubaiMarina.experiences.beachClub.title'),
+      description: t('locations.dubaiMarina.experiences.beachClub.description'),
+      duration: t('locations.dubaiMarina.experiences.beachClub.duration'),
+      price: t('locations.dubaiMarina.experiences.beachClub.price'),
+      highlights: [
+        t('locations.dubaiMarina.experiences.beachClub.highlights.0'),
+        t('locations.dubaiMarina.experiences.beachClub.highlights.1'),
+        t('locations.dubaiMarina.experiences.beachClub.highlights.2'),
+        t('locations.dubaiMarina.experiences.beachClub.highlights.3')
+      ]
+    },
+    {
+      title: t('locations.dubaiMarina.experiences.dining.title'),
+      description: t('locations.dubaiMarina.experiences.dining.description'),
+      duration: t('locations.dubaiMarina.experiences.dining.duration'),
+      price: t('locations.dubaiMarina.experiences.dining.price'),
+      highlights: [
+        t('locations.dubaiMarina.experiences.dining.highlights.0'),
+        t('locations.dubaiMarina.experiences.dining.highlights.1'),
+        t('locations.dubaiMarina.experiences.dining.highlights.2'),
+        t('locations.dubaiMarina.experiences.dining.highlights.3')
+      ]
+    }
+  ]
+
+  const beachClubs = [
+    {
+      name: t('locations.dubaiMarina.beachClubs.clubs.0.name'),
+      type: t('locations.dubaiMarina.beachClubs.clubs.0.type'),
+      feature: t('locations.dubaiMarina.beachClubs.clubs.0.feature'),
+      distance: t('locations.dubaiMarina.beachClubs.clubs.0.distance')
+    },
+    {
+      name: t('locations.dubaiMarina.beachClubs.clubs.1.name'),
+      type: t('locations.dubaiMarina.beachClubs.clubs.1.type'),
+      feature: t('locations.dubaiMarina.beachClubs.clubs.1.feature'),
+      distance: t('locations.dubaiMarina.beachClubs.clubs.1.distance')
+    },
+    {
+      name: t('locations.dubaiMarina.beachClubs.clubs.2.name'),
+      type: t('locations.dubaiMarina.beachClubs.clubs.2.type'),
+      feature: t('locations.dubaiMarina.beachClubs.clubs.2.feature'),
+      distance: t('locations.dubaiMarina.beachClubs.clubs.2.distance')
+    },
+    {
+      name: t('locations.dubaiMarina.beachClubs.clubs.3.name'),
+      type: t('locations.dubaiMarina.beachClubs.clubs.3.type'),
+      feature: t('locations.dubaiMarina.beachClubs.clubs.3.feature'),
+      distance: t('locations.dubaiMarina.beachClubs.clubs.3.distance')
+    }
+  ]
+
   return (
     <>
       <SEO pageKey="locations.dubai-marina" />
@@ -155,8 +240,28 @@ export default function DubaiMarinaPage() {
           </div>
         </section>
 
+        {/* Statistics */}
+        <section className="py-12 bg-gradient-to-b from-rolls-black to-rolls-navy">
+          <div className="container mx-auto px-4">
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
+              {stats.map((stat, index) => (
+                <motion.div
+                  key={index}
+                  initial={{ opacity: 0, y: 20 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  transition={{ delay: index * 0.1 }}
+                  className="text-center"
+                >
+                  <p className="text-4xl font-bold text-rolls-gold">{stat.number}</p>
+                  <p className="text-gray-300">{stat.label}</p>
+                </motion.div>
+              ))}
+            </div>
+          </div>
+        </section>
+
         {/* Why Marina */}
-        <section className="py-20 bg-gradient-to-b from-rolls-black to-rolls-navy">
+        <section className="py-20 bg-gradient-to-b from-rolls-navy to-rolls-black">
           <div className="container mx-auto px-4">
             <h2 className="text-4xl font-bold text-white text-center mb-12">
               {t('locations.dubaiMarina.whyChoose.title')}
@@ -209,8 +314,96 @@ export default function DubaiMarinaPage() {
           </div>
         </section>
 
-        {/* Delivery Locations */}
+        {/* Exclusive Experiences */}
+        <section className="py-20 bg-gradient-to-b from-rolls-black to-rolls-navy">
+          <div className="container mx-auto px-4">
+            <h2 className="text-4xl font-bold text-white text-center mb-12">
+              {t('locations.dubaiMarina.experiences.title')}
+            </h2>
+            <p className="text-xl text-gray-300 text-center mb-12 max-w-3xl mx-auto">
+              {t('locations.dubaiMarina.experiences.subtitle')}
+            </p>
+            <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+              {experiences.map((experience, index) => (
+                <motion.div
+                  key={index}
+                  initial={{ opacity: 0, y: 20 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  transition={{ delay: index * 0.1 }}
+                  className="bg-rolls-black/50 backdrop-blur-sm border border-rolls-gold/20 rounded-lg p-6"
+                >
+                  <h3 className="text-xl font-semibold text-rolls-gold mb-3">{experience.title}</h3>
+                  <p className="text-gray-300 mb-4">{experience.description}</p>
+                  <div className="space-y-2 text-sm mb-4">
+                    <div className="flex justify-between text-gray-400">
+                      <span>Duration:</span>
+                      <span className="text-white">{experience.duration}</span>
+                    </div>
+                    <div className="flex justify-between text-gray-400">
+                      <span>Price:</span>
+                      <span className="text-rolls-gold">{experience.price}</span>
+                    </div>
+                  </div>
+                  <div className="pt-4 border-t border-rolls-gold/10">
+                    <p className="text-xs text-gray-400 mb-2">Highlights:</p>
+                    <ul className="space-y-1">
+                      {experience.highlights.map((highlight, idx) => (
+                        <li key={idx} className="flex items-center text-gray-300 text-sm">
+                          <svg className="w-4 h-4 text-rolls-gold mr-2 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                            <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
+                          </svg>
+                          {highlight}
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                  <Link href="/booking" className="btn-primary w-full text-center mt-4">
+                    {t('locations.dubaiMarina.experiences.bookExperience')}
+                  </Link>
+                </motion.div>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        {/* Beach Clubs */}
         <section className="py-20 bg-gradient-to-b from-rolls-navy to-rolls-black">
+          <div className="container mx-auto px-4">
+            <h2 className="text-4xl font-bold text-white text-center mb-12">
+              {t('locations.dubaiMarina.beachClubs.title')}
+            </h2>
+            <p className="text-xl text-gray-300 text-center mb-12 max-w-3xl mx-auto">
+              {t('locations.dubaiMarina.beachClubs.subtitle')}
+            </p>
+            <div className="max-w-4xl mx-auto">
+              <div className="bg-rolls-black/50 backdrop-blur-sm border border-rolls-gold/20 rounded-lg overflow-hidden">
+                <div className="grid grid-cols-4 gap-4 p-4 bg-rolls-gold/10 font-semibold text-white text-sm">
+                  <div>Club Name</div>
+                  <div>Type</div>
+                  <div>Feature</div>
+                  <div>Distance</div>
+                </div>
+                {beachClubs.map((club, index) => (
+                  <motion.div
+                    key={index}
+                    initial={{ opacity: 0, x: -20 }}
+                    whileInView={{ opacity: 1, x: 0 }}
+                    transition={{ delay: index * 0.05 }}
+                    className="grid grid-cols-4 gap-4 p-4 border-t border-rolls-gold/10 text-gray-300 text-sm"
+                  >
+                    <div className="font-semibold text-white">{club.name}</div>
+                    <div className="text-gray-400">{club.type}</div>
+                    <div className="text-rolls-gold">{club.feature}</div>
+                    <div>{club.distance}</div>
+                  </motion.div>
+                ))}
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Delivery Locations */}
+        <section className="py-20 bg-gradient-to-b from-rolls-black to-rolls-navy">
           <div className="container mx-auto px-4">
             <h2 className="text-4xl font-bold text-white text-center mb-12">
               {t('locations.dubaiMarina.deliveryLocations.title')}
@@ -240,7 +433,7 @@ export default function DubaiMarinaPage() {
         </section>
 
         {/* Popular Routes */}
-        <section className="py-20 bg-gradient-to-b from-rolls-black to-rolls-navy">
+        <section className="py-20 bg-gradient-to-b from-rolls-navy to-rolls-black">
           <div className="container mx-auto px-4">
             <h2 className="text-4xl font-bold text-white text-center mb-12">
               {t('locations.dubaiMarina.popularRoutes.title')}
@@ -283,7 +476,7 @@ export default function DubaiMarinaPage() {
         </section>
 
         {/* Nearby Attractions */}
-        <section className="py-20 bg-gradient-to-b from-rolls-navy to-rolls-black">
+        <section className="py-20 bg-gradient-to-b from-rolls-black to-rolls-navy">
           <div className="container mx-auto px-4">
             <h2 className="text-4xl font-bold text-white text-center mb-12">
               {t('locations.dubaiMarina.nearbyAttractions.title')}
@@ -314,7 +507,7 @@ export default function DubaiMarinaPage() {
         </section>
 
         {/* Testimonials */}
-        <section className="py-20 bg-gradient-to-b from-rolls-black to-rolls-navy">
+        <section className="py-20 bg-gradient-to-b from-rolls-navy to-rolls-black">
           <div className="container mx-auto px-4">
             <h2 className="text-4xl font-bold text-white text-center mb-12">
               {t('locations.dubaiMarina.testimonials.title')}
@@ -348,7 +541,7 @@ export default function DubaiMarinaPage() {
         </section>
 
         {/* Fleet Preview */}
-        <section className="py-20 bg-gradient-to-b from-rolls-navy to-rolls-black">
+        <section className="py-20 bg-gradient-to-b from-rolls-black to-rolls-navy">
           <div className="container mx-auto px-4">
             <h2 className="text-4xl font-bold text-white text-center mb-12">
               {t('locations.dubaiMarina.fleet.title')}
@@ -358,7 +551,7 @@ export default function DubaiMarinaPage() {
         </section>
 
         {/* CTA Section */}
-        <section className="py-20 bg-gradient-to-b from-rolls-black to-rolls-navy">
+        <section className="py-20 bg-gradient-to-b from-rolls-navy to-rolls-black">
           <div className="container mx-auto px-4 text-center">
             <h2 className="text-4xl font-bold text-white mb-6">
               {t('locations.dubaiMarina.cta.title')}

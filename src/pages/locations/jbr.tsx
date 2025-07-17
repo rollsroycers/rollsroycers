@@ -1,5 +1,6 @@
 import { GetStaticProps } from 'next'
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
+import { useTranslation } from 'next-i18next'
 import Image from 'next/image'
 import Link from 'next/link'
 import { motion } from 'framer-motion'
@@ -10,86 +11,138 @@ import WeatherRecommendations from '@/components/WeatherRecommendations'
 import SEO from '@/components/SEO'
 
 export default function JBRPage() {
+  const { t } = useTranslation('common')
+  
   const beachClubs = [
-    { name: 'Zero Gravity', type: 'Beach Club', feature: 'VIP Cabanas' },
-    { name: 'Nikki Beach', type: 'Luxury Beach Club', feature: 'Valet Service' },
-    { name: 'Barasti Beach', type: 'Beach Bar', feature: 'Direct Access' },
-    { name: 'Cove Beach', type: 'Day Club', feature: 'Reserved Parking' },
-    { name: 'Azure Beach', type: 'Premium Beach', feature: 'VIP Entrance' },
-    { name: 'The Beach at JBR', type: 'Public Beach', feature: 'Multiple Access Points' }
+    { 
+      name: t('locations.jbr.beachClubs.clubs.zeroGravity.name'), 
+      type: t('locations.jbr.beachClubs.clubs.zeroGravity.type'), 
+      feature: t('locations.jbr.beachClubs.clubs.zeroGravity.feature') 
+    },
+    { 
+      name: t('locations.jbr.beachClubs.clubs.nikki.name'), 
+      type: t('locations.jbr.beachClubs.clubs.nikki.type'), 
+      feature: t('locations.jbr.beachClubs.clubs.nikki.feature') 
+    },
+    { 
+      name: t('locations.jbr.beachClubs.clubs.barasti.name'), 
+      type: t('locations.jbr.beachClubs.clubs.barasti.type'), 
+      feature: t('locations.jbr.beachClubs.clubs.barasti.feature') 
+    },
+    { 
+      name: t('locations.jbr.beachClubs.clubs.cove.name'), 
+      type: t('locations.jbr.beachClubs.clubs.cove.type'), 
+      feature: t('locations.jbr.beachClubs.clubs.cove.feature') 
+    },
+    { 
+      name: t('locations.jbr.beachClubs.clubs.azure.name'), 
+      type: t('locations.jbr.beachClubs.clubs.azure.type'), 
+      feature: t('locations.jbr.beachClubs.clubs.azure.feature') 
+    },
+    { 
+      name: t('locations.jbr.beachClubs.clubs.theBeach.name'), 
+      type: t('locations.jbr.beachClubs.clubs.theBeach.type'), 
+      feature: t('locations.jbr.beachClubs.clubs.theBeach.feature') 
+    }
   ]
 
   const restaurants = [
-    { name: 'Zuma', cuisine: 'Japanese', location: 'DIFC (10 min)' },
-    { name: 'La Petite Maison', cuisine: 'French', location: 'Gate Village' },
-    { name: 'STK', cuisine: 'Steakhouse', location: 'JBR Walk' },
-    { name: 'Seafire Steakhouse', cuisine: 'American', location: 'Atlantis (15 min)' },
-    { name: 'Il Borro', cuisine: 'Italian', location: 'JBR' },
-    { name: 'Nobu', cuisine: 'Japanese Fusion', location: 'Atlantis (15 min)' }
+    { 
+      name: t('locations.jbr.dining.restaurants.zuma.name'), 
+      cuisine: t('locations.jbr.dining.restaurants.zuma.cuisine'), 
+      location: t('locations.jbr.dining.restaurants.zuma.location') 
+    },
+    { 
+      name: t('locations.jbr.dining.restaurants.laPetite.name'), 
+      cuisine: t('locations.jbr.dining.restaurants.laPetite.cuisine'), 
+      location: t('locations.jbr.dining.restaurants.laPetite.location') 
+    },
+    { 
+      name: t('locations.jbr.dining.restaurants.stk.name'), 
+      cuisine: t('locations.jbr.dining.restaurants.stk.cuisine'), 
+      location: t('locations.jbr.dining.restaurants.stk.location') 
+    },
+    { 
+      name: t('locations.jbr.dining.restaurants.seafire.name'), 
+      cuisine: t('locations.jbr.dining.restaurants.seafire.cuisine'), 
+      location: t('locations.jbr.dining.restaurants.seafire.location') 
+    },
+    { 
+      name: t('locations.jbr.dining.restaurants.ilBorro.name'), 
+      cuisine: t('locations.jbr.dining.restaurants.ilBorro.cuisine'), 
+      location: t('locations.jbr.dining.restaurants.ilBorro.location') 
+    },
+    { 
+      name: t('locations.jbr.dining.restaurants.nobu.name'), 
+      cuisine: t('locations.jbr.dining.restaurants.nobu.cuisine'), 
+      location: t('locations.jbr.dining.restaurants.nobu.location') 
+    }
   ]
 
   const experiences = [
     {
-      title: 'Sunset Beach Drive',
-      description: 'Cruise along JBR beach during golden hour',
-      highlights: [
-        'Perfect lighting for photos',
-        'Beach boulevard cruise',
-        'Stop at scenic viewpoints',
-        'Professional photography available'
-      ],
-      bestCar: 'Dawn Convertible',
-      price: 'From AED 7,000'
+      title: t('locations.jbr.experiences.sunset.title'),
+      description: t('locations.jbr.experiences.sunset.description'),
+      highlights: t('locations.jbr.experiences.sunset.highlights', { returnObjects: true }) as string[],
+      bestCar: t('locations.jbr.experiences.sunset.bestCar'),
+      price: t('locations.jbr.experiences.sunset.price')
     },
     {
-      title: 'Beach Club Circuit',
-      description: 'VIP arrivals at Dubai\'s top beach clubs',
-      highlights: [
-        'Skip-the-line access',
-        'Reserved VIP parking',
-        'Club table reservations',
-        'Chauffeur standby service'
-      ],
-      bestCar: 'Cullinan',
-      price: 'From AED 8,500'
+      title: t('locations.jbr.experiences.beachClub.title'),
+      description: t('locations.jbr.experiences.beachClub.description'),
+      highlights: t('locations.jbr.experiences.beachClub.highlights', { returnObjects: true }) as string[],
+      bestCar: t('locations.jbr.experiences.beachClub.bestCar'),
+      price: t('locations.jbr.experiences.beachClub.price')
     },
     {
-      title: 'Night Life Experience',
-      description: 'Evening entertainment in style',
-      highlights: [
-        'Restaurant valet service',
-        'Bar hopping coordination',
-        'Late night chauffeur',
-        'Safe luxury transport'
-      ],
-      bestCar: 'Ghost',
-      price: 'From AED 6,200'
+      title: t('locations.jbr.experiences.nightLife.title'),
+      description: t('locations.jbr.experiences.nightLife.description'),
+      highlights: t('locations.jbr.experiences.nightLife.highlights', { returnObjects: true }) as string[],
+      bestCar: t('locations.jbr.experiences.nightLife.bestCar'),
+      price: t('locations.jbr.experiences.nightLife.price')
     }
   ]
 
   const attractions = [
-    { name: 'The Walk JBR', distance: 'On location', type: 'Shopping & Dining' },
-    { name: 'Dubai Marina', distance: '5 minutes', type: 'Waterfront District' },
-    { name: 'Ain Dubai', distance: '10 minutes', type: 'Observation Wheel' },
-    { name: 'Palm Jumeirah', distance: '15 minutes', type: 'Iconic Island' },
-    { name: 'Skydive Dubai', distance: '3 minutes', type: 'Adventure Sport' },
-    { name: 'Dubai Marina Mall', distance: '7 minutes', type: 'Shopping' }
+    { 
+      name: t('locations.jbr.attractions.list.theWalk.name'), 
+      distance: t('locations.jbr.attractions.list.theWalk.distance'), 
+      type: t('locations.jbr.attractions.list.theWalk.type') 
+    },
+    { 
+      name: t('locations.jbr.attractions.list.marina.name'), 
+      distance: t('locations.jbr.attractions.list.marina.distance'), 
+      type: t('locations.jbr.attractions.list.marina.type') 
+    },
+    { 
+      name: t('locations.jbr.attractions.list.ainDubai.name'), 
+      distance: t('locations.jbr.attractions.list.ainDubai.distance'), 
+      type: t('locations.jbr.attractions.list.ainDubai.type') 
+    },
+    { 
+      name: t('locations.jbr.attractions.list.palm.name'), 
+      distance: t('locations.jbr.attractions.list.palm.distance'), 
+      type: t('locations.jbr.attractions.list.palm.type') 
+    },
+    { 
+      name: t('locations.jbr.attractions.list.skydive.name'), 
+      distance: t('locations.jbr.attractions.list.skydive.distance'), 
+      type: t('locations.jbr.attractions.list.skydive.type') 
+    },
+    { 
+      name: t('locations.jbr.attractions.list.marinaMall.name'), 
+      distance: t('locations.jbr.attractions.list.marinaMall.distance'), 
+      type: t('locations.jbr.attractions.list.marinaMall.type') 
+    }
   ]
 
-  const residences = [
-    'Amwaj Suites',
-    'Bahar Towers',
-    'Rimal Towers',
-    'Shams Towers',
-    'Murjan Towers',
-    'Sadaf Towers'
-  ]
+  const residences = t('locations.jbr.residential.towers', { returnObjects: true }) as string[]
 
   const stats = [
-    { number: '300+', label: 'Monthly JBR Deliveries' },
-    { number: '10 min', label: 'Beach Arrival Time' },
-    { number: '24/7', label: 'Beachside Service' },
-    { number: '5 ⭐', label: 'Customer Rating' }
+    { number: '300+', label: t('locations.jbr.stats.deliveries') },
+    { number: '10 min', label: t('locations.jbr.stats.arrival') },
+    { number: '24/7', label: t('locations.jbr.stats.service') },
+    { number: '5 ⭐', label: t('locations.jbr.stats.rating') }
   ]
 
   return (
@@ -118,16 +171,16 @@ export default function JBRPage() {
               transition={{ duration: 1 }}
             >
               <h1 className="text-5xl md:text-7xl font-bold text-white mb-6">
-                JBR Beach Luxury
+                {t('locations.jbr.hero.title')}
               </h1>
               <p className="text-2xl text-rolls-gold mb-8">
-                Where Beach Life Meets Rolls-Royce Excellence
+                {t('locations.jbr.hero.subtitle')}
               </p>
               
               {/* Beach Badge */}
               <div className="inline-flex items-center gap-3 bg-rolls-black/50 backdrop-blur-sm border border-rolls-gold/30 rounded-full px-6 py-3 mb-8">
                 <span className="text-2xl">🏖️</span>
-                <span className="text-white">Dubai's Premier Beach Destination</span>
+                <span className="text-white">{t('locations.jbr.hero.badge')}</span>
               </div>
 
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -136,10 +189,10 @@ export default function JBRPage() {
                   whileTap={{ scale: 0.95 }}
                   className="btn-primary"
                 >
-                  Book Beach Delivery
+                  {t('locations.jbr.hero.cta.book')}
                 </motion.button>
                 <a href="#experiences" className="btn-secondary">
-                  Beach Experiences
+                  {t('locations.jbr.hero.cta.experiences')}
                 </a>
               </div>
             </motion.div>
@@ -150,7 +203,7 @@ export default function JBRPage() {
         <section className="py-20 bg-gradient-to-b from-rolls-black to-rolls-navy">
           <div className="container mx-auto px-4">
             <h2 className="text-4xl font-bold text-white text-center mb-12">
-              Why Choose Rolls-Royce at JBR?
+              {t('locations.jbr.whyChoose.title')}
             </h2>
             
             {/* Stats */}
@@ -179,9 +232,9 @@ export default function JBRPage() {
                 <div className="w-20 h-20 mx-auto mb-4 bg-rolls-gold/10 rounded-full flex items-center justify-center">
                   <span className="text-3xl">🌊</span>
                 </div>
-                <h3 className="text-xl font-semibold text-white mb-3">Beachfront Paradise</h3>
+                <h3 className="text-xl font-semibold text-white mb-3">{t('locations.jbr.whyChoose.features.beachfront.title')}</h3>
                 <p className="text-gray-400">
-                  Direct access to Dubai's most vibrant beach with premium parking at all venues
+                  {t('locations.jbr.whyChoose.features.beachfront.description')}
                 </p>
               </motion.div>
 
@@ -194,9 +247,9 @@ export default function JBRPage() {
                 <div className="w-20 h-20 mx-auto mb-4 bg-rolls-gold/10 rounded-full flex items-center justify-center">
                   <span className="text-3xl">🍹</span>
                 </div>
-                <h3 className="text-xl font-semibold text-white mb-3">Beach Club VIP</h3>
+                <h3 className="text-xl font-semibold text-white mb-3">{t('locations.jbr.whyChoose.features.vip.title')}</h3>
                 <p className="text-gray-400">
-                  Skip the lines at exclusive beach clubs with our VIP coordination service
+                  {t('locations.jbr.whyChoose.features.vip.description')}
                 </p>
               </motion.div>
 
@@ -209,9 +262,9 @@ export default function JBRPage() {
                 <div className="w-20 h-20 mx-auto mb-4 bg-rolls-gold/10 rounded-full flex items-center justify-center">
                   <span className="text-3xl">🌅</span>
                 </div>
-                <h3 className="text-xl font-semibold text-white mb-3">Sunset Drives</h3>
+                <h3 className="text-xl font-semibold text-white mb-3">{t('locations.jbr.whyChoose.features.sunset.title')}</h3>
                 <p className="text-gray-400">
-                  Experience magical sunset cruises along the beach boulevard in convertible luxury
+                  {t('locations.jbr.whyChoose.features.sunset.description')}
                 </p>
               </motion.div>
             </div>
@@ -222,7 +275,7 @@ export default function JBRPage() {
         <section className="py-20 bg-gradient-to-b from-rolls-navy to-rolls-black">
           <div className="container mx-auto px-4">
             <h2 className="text-4xl font-bold text-white text-center mb-12">
-              Direct Access to Premium Beach Clubs
+              {t('locations.jbr.beachClubs.title')}
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
               {beachClubs.map((club, index) => (
@@ -246,7 +299,7 @@ export default function JBRPage() {
         <section id="experiences" className="py-20 bg-gradient-to-b from-rolls-black to-rolls-navy">
           <div className="container mx-auto px-4">
             <h2 className="text-4xl font-bold text-white text-center mb-12">
-              Exclusive JBR Experiences
+              {t('locations.jbr.experiences.title')}
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
               {experiences.map((exp, index) => (
@@ -270,12 +323,12 @@ export default function JBRPage() {
                     ))}
                   </ul>
                   <div className="mb-4">
-                    <p className="text-sm text-gray-400">Recommended:</p>
+                    <p className="text-sm text-gray-400">{t('locations.jbr.experiences.recommended')}</p>
                     <p className="text-rolls-gold font-semibold">{exp.bestCar}</p>
                   </div>
                   <div className="text-2xl font-bold text-white mb-4">{exp.price}</div>
                   <button className="btn-primary w-full">
-                    Book Experience
+                    {t('locations.jbr.experiences.sunset.cta')}
                   </button>
                 </motion.div>
               ))}
@@ -287,14 +340,14 @@ export default function JBRPage() {
         <section className="py-20 bg-gradient-to-b from-rolls-navy to-rolls-black">
           <div className="container mx-auto px-4">
             <h2 className="text-4xl font-bold text-white text-center mb-12">
-              Fine Dining Destinations
+              {t('locations.jbr.dining.title')}
             </h2>
             <div className="max-w-4xl mx-auto">
               <div className="bg-rolls-black/50 backdrop-blur-sm border border-rolls-gold/20 rounded-lg overflow-hidden">
                 <div className="grid grid-cols-3 gap-4 p-4 bg-rolls-gold/10 font-semibold text-white">
-                  <div>Restaurant</div>
-                  <div>Cuisine</div>
-                  <div>Location</div>
+                  <div>{t('locations.jbr.dining.headers.restaurant')}</div>
+                  <div>{t('locations.jbr.dining.headers.cuisine')}</div>
+                  <div>{t('locations.jbr.dining.headers.location')}</div>
                 </div>
                 {restaurants.map((restaurant, index) => (
                   <motion.div
@@ -311,7 +364,7 @@ export default function JBRPage() {
                 ))}
               </div>
               <p className="text-center text-gray-400 mt-4">
-                Valet parking coordination at all premium restaurants
+                {t('locations.jbr.dining.note')}
               </p>
             </div>
           </div>
@@ -321,7 +374,7 @@ export default function JBRPage() {
         <section className="py-20 bg-gradient-to-b from-rolls-black to-rolls-navy">
           <div className="container mx-auto px-4">
             <h2 className="text-4xl font-bold text-white text-center mb-12">
-              Explore Beyond JBR
+              {t('locations.jbr.attractions.title')}
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-5xl mx-auto">
               {attractions.map((attraction, index) => (
@@ -345,7 +398,7 @@ export default function JBRPage() {
         <section className="py-20 bg-gradient-to-b from-rolls-navy to-rolls-black">
           <div className="container mx-auto px-4">
             <h2 className="text-4xl font-bold text-white text-center mb-12">
-              Best Times for Beach Cruising
+              {t('locations.jbr.weather.title')}
             </h2>
             <WeatherRecommendations />
           </div>
@@ -355,11 +408,11 @@ export default function JBRPage() {
         <section className="py-20 bg-gradient-to-b from-rolls-black to-rolls-navy">
           <div className="container mx-auto px-4">
             <h2 className="text-4xl font-bold text-white text-center mb-12">
-              JBR Tower Residents
+              {t('locations.jbr.residential.title')}
             </h2>
             <div className="max-w-4xl mx-auto bg-rolls-black/50 backdrop-blur-sm border border-rolls-gold/20 rounded-lg p-8">
               <p className="text-gray-300 text-center mb-8">
-                Complimentary delivery to all JBR residential towers including:
+                {t('locations.jbr.residential.description')}
               </p>
               <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
                 {residences.map((residence, index) => (
@@ -375,7 +428,7 @@ export default function JBRPage() {
                 ))}
               </div>
               <p className="text-center text-rolls-gold mt-6">
-                + All JBR towers with basement parking access
+                {t('locations.jbr.residential.note')}
               </p>
             </div>
           </div>
@@ -385,7 +438,7 @@ export default function JBRPage() {
         <section className="py-20 bg-gradient-to-b from-rolls-navy to-rolls-black">
           <div className="container mx-auto px-4">
             <h2 className="text-4xl font-bold text-white text-center mb-12">
-              Choose Your Beach Companion
+              {t('locations.jbr.fleet.title')}
             </h2>
             <ComparisonTool />
           </div>
@@ -395,10 +448,10 @@ export default function JBRPage() {
         <section className="py-20 bg-gradient-to-b from-rolls-black to-rolls-navy">
           <div className="container mx-auto px-4 text-center">
             <h2 className="text-4xl font-bold text-white mb-6">
-              Experience JBR in Rolls-Royce Style
+              {t('locations.jbr.cta.title')}
             </h2>
             <p className="text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
-              From sunrise beach drives to sunset dinner arrivals, make every moment at JBR extraordinary
+              {t('locations.jbr.cta.subtitle')}
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
               <motion.a
@@ -407,24 +460,24 @@ export default function JBRPage() {
                 whileTap={{ scale: 0.95 }}
                 className="btn-primary"
               >
-                Call JBR Team
+                {t('locations.jbr.cta.call')}
               </motion.a>
               <Link href="/booking" className="btn-secondary">
-                Book Online
+                {t('locations.jbr.cta.book')}
               </Link>
             </div>
             
             {/* Location Info */}
             <div className="max-w-2xl mx-auto bg-rolls-black/50 backdrop-blur-sm border border-rolls-gold/20 rounded-lg p-6">
-              <h3 className="text-lg font-semibold text-white mb-3">JBR Pickup Points</h3>
+              <h3 className="text-lg font-semibold text-white mb-3">{t('locations.jbr.cta.pickupPoints.title')}</h3>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-sm">
                 <div className="text-gray-300">
-                  <p className="text-rolls-gold mb-1">Beach Access</p>
-                  <p>The Walk Main Entrance</p>
+                  <p className="text-rolls-gold mb-1">{t('locations.jbr.cta.pickupPoints.beach.title')}</p>
+                  <p>{t('locations.jbr.cta.pickupPoints.beach.location')}</p>
                 </div>
                 <div className="text-gray-300">
-                  <p className="text-rolls-gold mb-1">Tower Delivery</p>
-                  <p>All JBR Basement Parking</p>
+                  <p className="text-rolls-gold mb-1">{t('locations.jbr.cta.pickupPoints.tower.title')}</p>
+                  <p>{t('locations.jbr.cta.pickupPoints.tower.location')}</p>
                 </div>
               </div>
             </div>

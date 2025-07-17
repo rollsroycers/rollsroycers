@@ -1,5 +1,6 @@
 import { GetStaticProps } from 'next'
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
+import { useTranslation } from 'next-i18next'
 import Image from 'next/image'
 import Link from 'next/link'
 import { motion } from 'framer-motion'
@@ -8,161 +9,53 @@ import WhatsAppButton from '@/components/WhatsAppButton'
 import SEO from '@/components/SEO'
 
 export default function ToursServicePage() {
-  const tourPackages = [
-    {
-      title: 'Dubai City Tour',
-      duration: '4 Hours',
-      price: 'AED 5,500',
-      image: '/images/Rolls-royce-dubai.jpg',
-      highlights: [
-        'Burj Khalifa photo stop',
-        'Dubai Mall visit',
-        'Palm Jumeirah drive',
-        'Burj Al Arab viewing',
-        'Dubai Marina cruise'
-      ],
-      description: 'Experience Dubai\'s iconic landmarks in ultimate luxury'
-    },
-    {
-      title: 'Desert Safari Luxury',
-      duration: '6 Hours',
-      price: 'AED 8,500',
-      image: '/images/Rolls-Royce_Cullinan_.jpg',
-      highlights: [
-        'Private desert experience',
-        'Sunset photography',
-        'Gourmet dinner setup',
-        'Falconry demonstration',
-        'Stargazing session'
-      ],
-      description: 'Combine desert adventure with Rolls-Royce elegance'
-    },
-    {
-      title: 'Abu Dhabi Day Trip',
-      duration: '8 Hours',
-      price: 'AED 12,000',
-      image: '/images/Rolls-Royce-white.jpg',
-      highlights: [
-        'Sheikh Zayed Mosque',
-        'Emirates Palace',
-        'Louvre Abu Dhabi',
-        'Corniche drive',
-        'Yas Island visit'
-      ],
-      description: 'Luxury journey to the UAE capital'
-    },
-    {
-      title: 'East Coast Explorer',
-      duration: '10 Hours',
-      price: 'AED 15,000',
-      image: '/images/Rolls-Royce_Dawn_Convertible-2.jpg',
-      highlights: [
-        'Fujairah Fort',
-        'Khorfakkan Beach',
-        'Mountain scenery',
-        'Traditional markets',
-        'Coastal dining'
-      ],
-      description: 'Scenic mountain and coastal adventure'
-    },
-    {
-      title: 'Dubai Night Tour',
-      duration: '3 Hours',
-      price: 'AED 4,500',
-      image: '/images/Black_Rolls_Royce_Ghost.jpg',
-      highlights: [
-        'Illuminated skyline',
-        'Dubai Fountain show',
-        'Night photography',
-        'Rooftop lounges',
-        'City lights cruise'
-      ],
-      description: 'See Dubai sparkle under the stars'
-    },
-    {
-      title: 'Heritage & Culture',
-      duration: '5 Hours',
-      price: 'AED 6,500',
-      image: '/images/Rolls-royce-phantom.jpg',
-      highlights: [
-        'Dubai Museum',
-        'Gold & Spice Souks',
-        'Al Fahidi District',
-        'Traditional Abra ride',
-        'Cultural exhibitions'
-      ],
-      description: 'Discover Dubai\'s rich heritage in style'
-    }
-  ]
+  const { t } = useTranslation('services')
 
-  const customTourOptions = [
-    {
-      title: 'Romance Package',
-      features: [
-        'Sunset beach drive',
-        'Private dinner setup',
-        'Champagne service',
-        'Rose petals decoration',
-        'Professional photographer'
-      ]
-    },
-    {
-      title: 'VIP Shopping Tour',
-      features: [
-        'Personal shopper',
-        'Exclusive boutiques',
-        'Private showrooms',
-        'Luxury mall access',
-        'Concierge service'
-      ]
-    },
-    {
-      title: 'Adventure Seeker',
-      features: [
-        'Helicopter tour combo',
-        'Yacht charter option',
-        'Desert activities',
-        'Water sports',
-        'Extreme experiences'
-      ]
-    }
-  ]
+  const getTranslatedArray = (key: string): string[] => {
+    const translation = t(key, { returnObjects: true });
+    return Array.isArray(translation) ? translation : [];
+  };
 
-  const includedAmenities = [
-    'Professional chauffeur guide',
-    'Complimentary refreshments',
-    'WiFi connectivity',
-    'Photography assistance',
-    'Multilingual service',
-    'Flexible itinerary',
-    'VIP access where applicable',
-    'Travel insurance'
-  ]
+  const tourPackages = getTranslatedArray('servicesPages.tours.packages.tours').map((tour: any, index: number) => ({
+    ...tour,
+    image: [
+      '/images/Rolls-royce-dubai.jpg',
+      '/images/Rolls-Royce_Cullinan_.jpg', 
+      '/images/Rolls-Royce-white.jpg',
+      '/images/Rolls-Royce_Dawn_Convertible-2.jpg',
+      '/images/Black_Rolls_Royce_Ghost.jpg',
+      '/images/Rolls-royce-phantom.jpg'
+    ][index] || '/images/Rolls-royce-dubai.jpg'
+  }))
+
+  const customTourOptions = getTranslatedArray('servicesPages.tours.customOptions.options')
+
+  const includedAmenities = getTranslatedArray('servicesPages.tours.included.amenities')
 
   const tourHighlights = [
     {
-      stat: '5000+',
-      label: 'Tours Completed'
+      stat: t('servicesPages.tours.highlights.toursCompleted'),
+      label: t('servicesPages.tours.highlights.toursCompletedLabel')
     },
     {
-      stat: '4.9/5',
-      label: 'Average Rating'
+      stat: t('servicesPages.tours.highlights.averageRating'),
+      label: t('servicesPages.tours.highlights.averageRatingLabel')
     },
     {
-      stat: '50+',
-      label: 'Destinations'
+      stat: t('servicesPages.tours.highlights.destinations'),
+      label: t('servicesPages.tours.highlights.destinationsLabel')
     },
     {
-      stat: '10',
-      label: 'Languages'
+      stat: t('servicesPages.tours.highlights.languages'),
+      label: t('servicesPages.tours.highlights.languagesLabel')
     }
   ]
 
-  const tourGuideLanguages = [
-    'English', 'Arabic', 'French', 'German', 
-    'Spanish', 'Italian', 'Russian', 'Chinese', 
-    'Japanese', 'Hindi'
-  ]
+  const tourGuideLanguages = getTranslatedArray('servicesPages.tours.guides.languages')
+
+  const processSteps = getTranslatedArray('servicesPages.tours.process.steps')
+
+  const faqItems = getTranslatedArray('servicesPages.tours.faq.questions')
 
   return (
     <>
@@ -189,21 +82,20 @@ export default function ToursServicePage() {
               className="text-center"
             >
               <h1 className="text-5xl md:text-7xl font-bold text-white mb-6">
-                Discover Dubai in Style
+                {t('servicesPages.tours.hero.title')}
               </h1>
               <p className="text-2xl text-rolls-gold mb-8">
-                Luxury Tours with Rolls-Royce
+                {t('servicesPages.tours.hero.subtitle')}
               </p>
               <p className="text-xl text-gray-300 max-w-3xl mx-auto mb-8">
-                Experience the best of Dubai and beyond from the comfort of a Rolls-Royce. 
-                Our curated tours combine iconic destinations with unparalleled luxury.
+                {t('servicesPages.tours.hero.description')}
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Link href="/booking" className="btn-primary">
-                  Book Your Tour
+                  {t('servicesPages.tours.hero.bookYourTour')}
                 </Link>
                 <a href="#packages" className="btn-secondary">
-                  Explore Tours
+                  {t('servicesPages.tours.hero.exploreTours')}
                 </a>
               </div>
             </motion.div>
@@ -234,10 +126,10 @@ export default function ToursServicePage() {
         <section id="packages" className="py-20 bg-gradient-to-b from-rolls-navy to-rolls-black">
           <div className="container mx-auto px-4">
             <h2 className="text-4xl font-bold text-white text-center mb-12">
-              Signature Tour Packages
+              {t('servicesPages.tours.packages.title')}
             </h2>
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
-              {tourPackages.map((tour, index) => (
+              {tourPackages.map((tour: any, index: number) => (
                 <motion.div
                   key={index}
                   initial={{ opacity: 0, y: 20 }}
@@ -260,9 +152,9 @@ export default function ToursServicePage() {
                   </div>
                   <div className="p-6">
                     <p className="text-gray-300 mb-4">{tour.description}</p>
-                    <h4 className="text-white font-semibold mb-3">Tour Highlights:</h4>
+                    <h4 className="text-white font-semibold mb-3">{t('servicesPages.tours.packages.tourHighlights')}</h4>
                     <ul className="space-y-2 mb-6">
-                      {tour.highlights.map((highlight, idx) => (
+                      {tour.highlights.map((highlight: string, idx: number) => (
                         <li key={idx} className="flex items-center text-gray-300 text-sm">
                           <svg className="w-4 h-4 text-rolls-gold mr-2 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
                             <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
@@ -272,7 +164,7 @@ export default function ToursServicePage() {
                       ))}
                     </ul>
                     <Link href="/booking" className="btn-primary w-full text-center">
-                      Book This Tour
+                      {t('servicesPages.tours.packages.bookThisTour')}
                     </Link>
                   </div>
                 </motion.div>
@@ -285,13 +177,13 @@ export default function ToursServicePage() {
         <section className="py-20 bg-gradient-to-b from-rolls-black to-rolls-navy">
           <div className="container mx-auto px-4">
             <h2 className="text-4xl font-bold text-white text-center mb-12">
-              Create Your Perfect Tour
+              {t('servicesPages.tours.customOptions.title')}
             </h2>
             <p className="text-xl text-gray-300 text-center mb-12 max-w-3xl mx-auto">
-              Design a bespoke tour experience tailored to your interests and preferences
+              {t('servicesPages.tours.customOptions.subtitle')}
             </p>
             <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
-              {customTourOptions.map((option, index) => (
+              {customTourOptions.map((option: any, index: number) => (
                 <motion.div
                   key={index}
                   initial={{ opacity: 0, y: 20 }}
@@ -300,8 +192,9 @@ export default function ToursServicePage() {
                   className="bg-gradient-to-b from-rolls-gold/20 to-rolls-gold/10 border border-rolls-gold/30 rounded-lg p-8"
                 >
                   <h3 className="text-2xl font-bold text-white mb-6 text-center">{option.title}</h3>
+                  <p className="text-gray-300 mb-6 text-center">{option.description}</p>
                   <ul className="space-y-3">
-                    {option.features.map((feature, idx) => (
+                    {option.features.map((feature: string, idx: number) => (
                       <li key={idx} className="flex items-center text-gray-300">
                         <svg className="w-5 h-5 text-rolls-gold mr-3 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
                           <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
@@ -325,11 +218,14 @@ export default function ToursServicePage() {
         <section className="py-20 bg-gradient-to-b from-rolls-navy to-rolls-black">
           <div className="container mx-auto px-4">
             <h2 className="text-4xl font-bold text-white text-center mb-12">
-              Included in Every Tour
+              {t('servicesPages.tours.included.title')}
             </h2>
+            <p className="text-xl text-gray-300 text-center mb-12 max-w-3xl mx-auto">
+              {t('servicesPages.tours.included.subtitle')}
+            </p>
             <div className="max-w-4xl mx-auto">
               <div className="grid md:grid-cols-2 gap-6">
-                {includedAmenities.map((amenity, index) => (
+                {includedAmenities.map((amenity: string, index: number) => (
                   <motion.div
                     key={index}
                     initial={{ opacity: 0, x: index % 2 === 0 ? -20 : 20 }}
@@ -354,32 +250,14 @@ export default function ToursServicePage() {
         <section className="py-20 bg-gradient-to-b from-rolls-black to-rolls-navy">
           <div className="container mx-auto px-4">
             <h2 className="text-4xl font-bold text-white text-center mb-12">
-              How It Works
+              {t('servicesPages.tours.process.title')}
             </h2>
+            <p className="text-xl text-gray-300 text-center mb-12 max-w-3xl mx-auto">
+              {t('servicesPages.tours.process.subtitle')}
+            </p>
             <div className="max-w-4xl mx-auto">
               <div className="space-y-8">
-                {[
-                  {
-                    step: '1',
-                    title: 'Choose Your Experience',
-                    description: 'Select from our signature tours or create a custom itinerary'
-                  },
-                  {
-                    step: '2',
-                    title: 'Select Your Rolls-Royce',
-                    description: 'Pick the perfect vehicle from our luxury fleet'
-                  },
-                  {
-                    step: '3',
-                    title: 'Personalize Details',
-                    description: 'Add special requests, preferred language, and timing'
-                  },
-                  {
-                    step: '4',
-                    title: 'Enjoy Your Journey',
-                    description: 'Relax as our expert chauffeur guides you through Dubai'
-                  }
-                ].map((item, index) => (
+                {processSteps.map((step: any, index: number) => (
                   <motion.div
                     key={index}
                     initial={{ opacity: 0, x: -20 }}
@@ -388,11 +266,11 @@ export default function ToursServicePage() {
                     className="flex items-start space-x-4"
                   >
                     <div className="flex-shrink-0 w-12 h-12 bg-rolls-gold rounded-full flex items-center justify-center">
-                      <span className="text-rolls-black font-bold text-lg">{item.step}</span>
+                      <span className="text-rolls-black font-bold text-lg">{step.number}</span>
                     </div>
                     <div className="flex-grow">
-                      <h3 className="text-xl font-bold text-white mb-2">{item.title}</h3>
-                      <p className="text-gray-300">{item.description}</p>
+                      <h3 className="text-xl font-bold text-white mb-2">{step.title}</h3>
+                      <p className="text-gray-300">{step.description}</p>
                     </div>
                   </motion.div>
                 ))}
@@ -405,14 +283,13 @@ export default function ToursServicePage() {
         <section className="py-20 bg-gradient-to-b from-rolls-navy to-rolls-black">
           <div className="container mx-auto px-4">
             <h2 className="text-4xl font-bold text-white text-center mb-12">
-              Multilingual Tour Guides
+              {t('servicesPages.tours.guides.title')}
             </h2>
             <p className="text-xl text-gray-300 text-center mb-8 max-w-3xl mx-auto">
-              Our professional chauffeur-guides speak multiple languages to ensure 
-              a comfortable and informative experience
+              {t('servicesPages.tours.guides.description')}
             </p>
             <div className="flex flex-wrap justify-center gap-4 max-w-4xl mx-auto">
-              {tourGuideLanguages.map((language, index) => (
+              {tourGuideLanguages.map((language: string, index: number) => (
                 <motion.div
                   key={index}
                   initial={{ opacity: 0, scale: 0.9 }}
@@ -431,78 +308,23 @@ export default function ToursServicePage() {
         <section className="py-20 bg-gradient-to-b from-rolls-black to-rolls-navy">
           <div className="container mx-auto px-4">
             <h2 className="text-4xl font-bold text-white text-center mb-12">
-              Guest Experiences
+              {t('servicesPages.tours.testimonials.title')}
             </h2>
-            <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
-              <motion.div
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                className="bg-rolls-black/50 backdrop-blur-sm border border-rolls-gold/20 rounded-lg p-8"
-              >
-                <div className="flex items-center mb-4">
-                  {[...Array(5)].map((_, i) => (
-                    <svg key={i} className="w-5 h-5 text-rolls-gold" fill="currentColor" viewBox="0 0 20 20">
-                      <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
-                    </svg>
-                  ))}
-                </div>
-                <p className="text-gray-300 mb-4">
-                  "The Dubai city tour in the Phantom was extraordinary. Our guide was knowledgeable, 
-                  the car was immaculate, and we felt like royalty throughout. Highly recommended!"
-                </p>
-                <p className="text-white font-semibold">James & Emily Thompson</p>
-                <p className="text-gray-400 text-sm">London, UK</p>
-              </motion.div>
-
-              <motion.div
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                transition={{ delay: 0.1 }}
-                className="bg-rolls-black/50 backdrop-blur-sm border border-rolls-gold/20 rounded-lg p-8"
-              >
-                <div className="flex items-center mb-4">
-                  {[...Array(5)].map((_, i) => (
-                    <svg key={i} className="w-5 h-5 text-rolls-gold" fill="currentColor" viewBox="0 0 20 20">
-                      <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
-                    </svg>
-                  ))}
-                </div>
-                <p className="text-gray-300 mb-4">
-                  "تجربة لا تُنسى! الجولة في دبي بسيارة رولز رويس كانت مذهلة. 
-                  المرشد كان يتحدث العربية بطلاقة والخدمة كانت ممتازة."
-                </p>
-                <p className="text-white font-semibold">محمد الزهراني</p>
-                <p className="text-gray-400 text-sm">الرياض، السعودية</p>
-              </motion.div>
-            </div>
+            <p className="text-xl text-gray-300 text-center mb-12 max-w-3xl mx-auto">
+              {t('servicesPages.tours.testimonials.subtitle')}
+            </p>
+            {/* Testimonials content can be added here */}
           </div>
         </section>
 
-        {/* FAQ Section */}
+        {/* FAQ */}
         <section className="py-20 bg-gradient-to-b from-rolls-navy to-rolls-black">
           <div className="container mx-auto px-4">
             <h2 className="text-4xl font-bold text-white text-center mb-12">
-              Frequently Asked Questions
+              {t('servicesPages.tours.faq.title')}
             </h2>
             <div className="max-w-3xl mx-auto space-y-6">
-              {[
-                {
-                  q: 'Can we customize the tour itinerary?',
-                  a: 'Absolutely! All our tours can be customized to match your interests and schedule.'
-                },
-                {
-                  q: 'Are tours suitable for children?',
-                  a: 'Yes, our tours are family-friendly. We provide child seats upon request.'
-                },
-                {
-                  q: 'What about pickup and drop-off?',
-                  a: 'We offer complimentary pickup and drop-off from any location in Dubai.'
-                },
-                {
-                  q: 'Can we stop for photos during the tour?',
-                  a: 'Of course! Photo stops are encouraged and our chauffeurs know the best spots.'
-                }
-              ].map((faq, index) => (
+              {faqItems.map((faq: any, index: number) => (
                 <motion.div
                   key={index}
                   initial={{ opacity: 0, y: 10 }}
@@ -510,8 +332,8 @@ export default function ToursServicePage() {
                   transition={{ delay: index * 0.1 }}
                   className="bg-rolls-black/30 border border-rolls-gold/10 rounded-lg p-6"
                 >
-                  <h3 className="text-lg font-bold text-white mb-2">{faq.q}</h3>
-                  <p className="text-gray-300">{faq.a}</p>
+                  <h3 className="text-lg font-bold text-white mb-2">{faq.question}</h3>
+                  <p className="text-gray-300">{faq.answer}</p>
                 </motion.div>
               ))}
             </div>
@@ -526,14 +348,14 @@ export default function ToursServicePage() {
               whileInView={{ opacity: 1, y: 0 }}
             >
               <h2 className="text-4xl font-bold text-white mb-6">
-                Begin Your Luxury Journey
+                {t('servicesPages.tours.cta.title')}
               </h2>
               <p className="text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
-                Discover Dubai's wonders from the comfort of a Rolls-Royce
+                {t('servicesPages.tours.cta.description')}
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Link href="/booking" className="btn-primary">
-                  Book Your Tour Now
+                  {t('servicesPages.tours.cta.bookNow')}
                 </Link>
                 <a
                   href="https://wa.me/971558164922?text=I want to book a Rolls-Royce tour"
@@ -547,8 +369,8 @@ export default function ToursServicePage() {
               
               <div className="mt-12 bg-rolls-black/50 backdrop-blur-sm border border-rolls-gold/20 rounded-lg p-8 max-w-2xl mx-auto">
                 <h3 className="text-2xl font-bold text-white mb-4">Special Offer</h3>
-                <p className="text-rolls-gold text-xl mb-2">20% Off Desert Safari Tours</p>
-                <p className="text-gray-300">Book before month end and save on our luxury desert experience</p>
+                <p className="text-rolls-gold text-xl mb-2">{t('servicesPages.tours.cta.specialOffer')}</p>
+                <p className="text-gray-300">{t('servicesPages.tours.cta.subtitle')}</p>
                 <p className="text-gray-400 text-sm mt-4">Terms and conditions apply</p>
               </div>
             </motion.div>

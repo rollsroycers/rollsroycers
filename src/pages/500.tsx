@@ -16,10 +16,10 @@ export default function Custom500() {
         title="500 - Server Error | Rolls-Royce Dubai"
         description="Sorry, something went wrong on our server. Please try again later."
       />
-      <Layout>
+    <Layout>
         <div className="min-h-screen flex items-center justify-center bg-gradient-to-b from-rolls-black to-rolls-navy px-4">
           <div className="text-center">
-            <motion.div
+          <motion.div
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8 }}
@@ -28,29 +28,29 @@ export default function Custom500() {
               <h1 className="text-8xl md:text-9xl font-bold text-rolls-gold mb-4">
                 500
               </h1>
-              
-              {/* Error Message */}
+
+          {/* Error Message */}
               <h2 className="text-2xl md:text-3xl font-bold text-white mb-4">
                 Server Error
-              </h2>
+            </h2>
               
               <p className="text-lg text-gray-300 mb-8 max-w-md mx-auto">
                 Sorry, something went wrong on our server. We're working to fix this issue.
                 Please try again later.
               </p>
-              
-              {/* Action Buttons */}
+
+          {/* Action Buttons */}
               <div className="space-y-4 sm:space-y-0 sm:space-x-4 sm:flex sm:justify-center">
                 <Link href="/" className="btn-primary">
                   Return Home
                 </Link>
                 
-                <button 
+            <button
                   onClick={() => window.location.reload()}
                   className="btn-secondary"
                 >
                   Try Again
-                </button>
+            </button>
               </div>
               
               {/* Contact Information */}
@@ -63,10 +63,10 @@ export default function Custom500() {
                   <p>📧 <a href="mailto:info@rollsroycers.com" className="text-rolls-gold hover:text-white transition-colors">info@rollsroycers.com</a></p>
                 </div>
               </div>
-            </motion.div>
-          </div>
+          </motion.div>
         </div>
-      </Layout>
+      </div>
+    </Layout>
     </>
   )
 }

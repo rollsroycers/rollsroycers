@@ -518,6 +518,874 @@
         "onlineBooking": "Online Booking",
         "waitingTime": "Free waiting time: 60 minutes for international flights, 30 minutes for domestic"
       }
+    },
+    "chauffeur": {
+      "hero": {
+        "title": "Professional Chauffeur Service",
+        "subtitle": "Experience Dubai with Elite Professional Drivers",
+        "description": "Experience luxury transportation with our elite professional chauffeurs. Available 24/7 across Dubai and UAE, our multilingual drivers provide unparalleled service, discretion, and local expertise.",
+        "bookNow": "Book Chauffeur Now",
+        "viewServices": "View Services",
+        "quickFeatures": [
+          "500+ Professional Chauffeurs",
+          "10,000+ Satisfied Clients",
+          "4.9/5 Average Rating"
+        ]
+      },
+      "services": {
+        "title": "Chauffeur Service Options",
+        "hourly": {
+          "name": "Hourly Chauffeur",
+          "description": "Flexible hourly service for multiple stops and waiting time",
+          "features": [
+            "Minimum 4 hours booking",
+            "Professional uniformed chauffeur",
+            "Unlimited stops within Dubai",
+            "Waiting time included",
+            "Multilingual drivers available",
+            "Real-time itinerary changes",
+            "Complimentary refreshments",
+            "WiFi & device charging"
+          ],
+          "pricing": "From AED 800/hour",
+          "ideal": "Shopping trips, business meetings, city tours"
+        },
+        "daily": {
+          "name": "Full Day Chauffeur",
+          "description": "Dedicated chauffeur service for 12 hours",
+          "features": [
+            "12-hour service window",
+            "Elite professional chauffeur",
+            "Unlimited mileage in Dubai",
+            "VIP meet & greet service",
+            "Route planning assistance",
+            "Restaurant reservations",
+            "Personal shopping assistance",
+            "Discrete security-trained drivers"
+          ],
+          "pricing": "From AED 6,500/day",
+          "ideal": "Business delegations, tourist groups, special events"
+        },
+        "transfer": {
+          "name": "Point-to-Point Transfer",
+          "description": "Direct transfer service between locations",
+          "features": [
+            "Fixed route pricing",
+            "No hidden charges",
+            "Flight monitoring (airports)",
+            "Meet & greet included",
+            "15 minutes free waiting",
+            "Luggage assistance",
+            "Child seats available",
+            "Pet-friendly options"
+          ],
+          "pricing": "From AED 600",
+          "ideal": "Airport transfers, hotel transfers, event transportation"
+        },
+        "events": {
+          "name": "Event Chauffeur",
+          "description": "Specialized service for weddings and special occasions",
+          "features": [
+            "Red carpet service",
+            "Formal attire chauffeurs",
+            "Decoration coordination",
+            "Multiple vehicle sync",
+            "Photography assistance",
+            "Guest transportation",
+            "Overnight availability",
+            "Emergency backup vehicles"
+          ],
+          "pricing": "From AED 8,000",
+          "ideal": "Weddings, galas, corporate events, premieres"
+        }
+      },
+      "qualities": {
+        "title": "Our Elite Chauffeurs",
+        "professional": {
+          "title": "Professional Excellence",
+          "points": [
+            "Minimum 5 years luxury driving experience",
+            "Advanced defensive driving certification",
+            "Impeccable presentation and grooming",
+            "Cultural awareness training"
+          ]
+        },
+        "language": {
+          "title": "Language Skills",
+          "points": [
+            "English (mandatory)",
+            "Arabic speakers available",
+            "Hindi/Urdu speakers",
+            "Russian, French, Chinese on request"
+          ]
+        },
+        "security": {
+          "title": "Security & Discretion",
+          "points": [
+            "Background verified drivers",
+            "Confidentiality agreements",
+            "VIP protection training",
+            "Emergency response protocols"
+          ]
+        },
+        "technology": {
+          "title": "Technology Enabled",
+          "points": [
+            "GPS tracked vehicles",
+            "Real-time communication",
+            "Digital trip reports",
+            "Mobile app connectivity"
+          ]
+        }
+      },
+      "routes": {
+        "title": "Popular Chauffeur Routes",
+        "headers": [
+          "Route",
+          "Duration",
+          "Type",
+          "Price"
+        ],
+        "popular": [
+          {
+            "route": "Dubai Mall → Gold Souk → Dubai Marina",
+            "duration": "4 hours",
+            "type": "Shopping Tour",
+            "price": "AED 3,200"
+          },
+          {
+            "route": "Hotel → DIFC → Business Bay → Airport",
+            "duration": "6 hours",
+            "type": "Business Circuit",
+            "price": "AED 4,800"
+          },
+          {
+            "route": "Full Day Dubai Highlights Tour",
+            "duration": "10 hours",
+            "type": "Tourist Special",
+            "price": "AED 7,200"
+          },
+          {
+            "route": "Dubai → Abu Dhabi → Dubai",
+            "duration": "8 hours",
+            "type": "Inter-Emirate",
+            "price": "AED 8,000"
+          }
+        ],
+        "note": "* Prices include vehicle, chauffeur, fuel, and basic refreshments"
+      },
+      "process": {
+        "title": "How It Works",
+        "steps": [
+          {
+            "title": "Choose Your Service",
+            "description": "Select from hourly, daily, transfer, or event chauffeur services based on your needs"
+          },
+          {
+            "title": "Select Your Vehicle",
+            "description": "Choose from our fleet of Phantom, Ghost, Cullinan, Dawn, or Wraith"
+          },
+          {
+            "title": "Meet Your Chauffeur",
+            "description": "Your professional chauffeur arrives 10 minutes early, impeccably dressed and ready"
+          },
+          {
+            "title": "Enjoy the Journey",
+            "description": "Relax in ultimate luxury while your chauffeur handles everything"
+          }
+        ]
+      },
+      "testimonials": [
+        {
+          "name": "Maria Fernandez",
+          "role": "CEO, Fashion House",
+          "text": "Our chauffeur Ahmed was exceptional. Professional, punctual, and knew Dubai inside out. Made my business trip seamless.",
+          "service": "Daily Chauffeur"
+        },
+        {
+          "name": "Sheikh Mohammed",
+          "role": "Local Business Owner",
+          "text": "I use their hourly service regularly. The flexibility and professionalism are unmatched. Highly recommend!",
+          "service": "Hourly Service"
+        },
+        {
+          "name": "Alexandra Petrova",
+          "role": "Tourist from Russia",
+          "text": "Our Russian-speaking chauffeur made our Dubai vacation perfect. He was like a personal tour guide!",
+          "service": "Full Day Tour"
+        }
+      ],
+      "cta": {
+        "title": "Experience Elite Chauffeur Service",
+        "description": "Professional chauffeurs available 24/7. Book now and travel Dubai in unparalleled comfort and style.",
+        "callButton": "Call: +971 55 816 4922",
+        "bookButton": "Book Chauffeur Online",
+        "stats": {
+          "chauffeurs": "500+ Professional Chauffeurs",
+          "clients": "10,000+ Satisfied Clients",
+          "rating": "4.9/5 Average Rating"
+        }
+      }
+    },
+    "events": {
+      "hero": {
+        "title": "Event Excellence",
+        "subtitle": "Elevate Your Special Occasions with Rolls-Royce",
+        "description": "From red carpet galas to exclusive product launches, make every arrival unforgettable with our premium event transportation service in Dubai.",
+        "bookEvent": "Book Event Service",
+        "viewPackages": "View Packages"
+      },
+      "features": {
+        "title": "Why Choose Rolls-Royce for Your Event",
+        "coordination": {
+          "title": "Event Coordination",
+          "description": "Dedicated event manager for seamless execution"
+        },
+        "timing": {
+          "title": "Precise Timing",
+          "description": "Choreographed arrivals and departures"
+        },
+        "media": {
+          "title": "Media Ready",
+          "description": "Vehicles prepared for photography and filming"
+        },
+        "fleet": {
+          "title": "Fleet Options",
+          "description": "Multiple vehicles for large group transportation"
+        },
+        "vip": {
+          "title": "VIP Treatment",
+          "description": "Red carpet service and special arrangements"
+        },
+        "discretion": {
+          "title": "Discretion",
+          "description": "Complete confidentiality for high-profile events"
+        }
+      },
+      "eventTypes": {
+        "title": "Events We Specialize In",
+        "gala": {
+          "title": "Gala Dinners",
+          "description": "Make a grand entrance at prestigious gala events",
+          "features": [
+            "Red carpet arrivals",
+            "Coordinated fleet options",
+            "Professional chauffeurs in formal attire",
+            "VIP valet service"
+          ]
+        },
+        "product": {
+          "title": "Product Launches",
+          "description": "Elevate your brand with luxury transportation",
+          "features": [
+            "Brand coordination",
+            "Multiple vehicle arrangements",
+            "Media-ready presentation",
+            "Timed arrivals"
+          ]
+        },
+        "film": {
+          "title": "Film & TV Productions",
+          "description": "Premium vehicles for productions and shoots",
+          "features": [
+            "Flexible scheduling",
+            "Multiple takes accommodation",
+            "Production insurance coverage",
+            "Specialized drivers"
+          ]
+        },
+        "fashion": {
+          "title": "Fashion Shows",
+          "description": "Complement haute couture with ultimate luxury",
+          "features": [
+            "Model transportation",
+            "VIP guest shuttles",
+            "Backstage accessibility",
+            "Style coordination"
+          ]
+        },
+        "awards": {
+          "title": "Award Ceremonies",
+          "description": "Arrive like a star at prestigious ceremonies",
+          "features": [
+            "Celebrity transportation",
+            "Paparazzi-ready arrivals",
+            "Security coordination",
+            "After-party transfers"
+          ]
+        },
+        "private": {
+          "title": "Private Parties",
+          "description": "Exclusive transportation for intimate gatherings",
+          "features": [
+            "Birthday celebrations",
+            "Anniversary parties",
+            "Yacht transfers",
+            "Night club arrivals"
+          ]
+        }
+      },
+      "packages": {
+        "title": "Event Packages",
+        "single": {
+          "name": "Single Vehicle",
+          "price": "From AED 8,000",
+          "duration": "Per Event",
+          "features": [
+            "One Rolls-Royce of choice",
+            "Professional chauffeur",
+            "4-hour minimum",
+            "Red carpet service"
+          ]
+        },
+        "fleet": {
+          "name": "Fleet Package",
+          "price": "From AED 24,000",
+          "duration": "Per Event",
+          "popular": "MOST POPULAR",
+          "features": [
+            "3-5 vehicles",
+            "Coordinated arrivals",
+            "Lead car designation",
+            "Event coordinator"
+          ]
+        },
+        "premium": {
+          "name": "Premium Production",
+          "price": "From AED 35,000",
+          "duration": "Per Project",
+          "features": [
+            "Unlimited vehicles",
+            "Flexible scheduling",
+            "Production support",
+            "Dedicated account manager"
+          ]
+        },
+        "bookPackage": "Book This Package"
+      },
+      "pastEvents": {
+        "title": "Trusted by Dubai's Premier Events",
+        "filmFestival": {
+          "event": "Dubai International Film Festival",
+          "role": "Official Transportation Partner",
+          "vehicles": "12 Rolls-Royce vehicles"
+        },
+        "fashionForward": {
+          "event": "Fashion Forward Dubai",
+          "role": "VIP Guest Transportation",
+          "vehicles": "8 vehicles including Phantom & Ghost"
+        },
+        "golfClub": {
+          "event": "Emirates Golf Club Gala",
+          "role": "Exclusive Vehicle Provider",
+          "vehicles": "6 Rolls-Royce Dawn convertibles"
+        },
+        "burjAlArab": {
+          "event": "Burj Al Arab Private Event",
+          "role": "Guest Shuttle Service",
+          "vehicles": "10 vehicle rotating fleet"
+        }
+      },
+      "process": {
+        "title": "Your Event, Perfectly Executed",
+        "steps": [
+          {
+            "step": "01",
+            "title": "Initial Consultation",
+            "description": "Discuss your event requirements, vehicle preferences, and logistics"
+          },
+          {
+            "step": "02",
+            "title": "Custom Proposal",
+            "description": "Receive a tailored package with vehicle selection and pricing"
+          },
+          {
+            "step": "03",
+            "title": "Event Coordination",
+            "description": "Work with our event manager to plan every detail"
+          },
+          {
+            "step": "04",
+            "title": "Vehicle Preparation",
+            "description": "Cars detailed and prepared to perfection for your event"
+          },
+          {
+            "step": "05",
+            "title": "Flawless Execution",
+            "description": "Professional chauffeurs deliver exceptional service on event day"
+          }
+        ]
+      },
+      "testimonial": {
+        "name": "Sarah Al-Mahmoud",
+        "role": "Event Director, Dubai Fashion Week",
+        "text": "Rolls-Royce elevated our entire fashion week experience. Their fleet coordination was flawless, and every model arrival felt like a red carpet moment. The professionalism and attention to detail exceeded our expectations. They truly understand the luxury event industry."
+      },
+      "gallery": {
+        "title": "Event Gallery",
+        "viewFull": "View Full Gallery →"
+      },
+      "cta": {
+        "title": "Make Your Event Unforgettable",
+        "description": "Let's discuss how Rolls-Royce can elevate your next special occasion",
+        "startPlanning": "Start Planning Your Event",
+        "whatsapp": "WhatsApp Consultation",
+        "stats": {
+          "events": "500+ Events Serviced",
+          "satisfaction": "98% Client Satisfaction",
+          "support": "24/7 Event Support"
+        }
+      }
+    },
+    "photoshoot": {
+      "hero": {
+        "title": "Picture Perfect Luxury",
+        "subtitle": "Professional Photoshoot Services with Rolls-Royce",
+        "description": "Elevate your photography with the world's most prestigious automobiles. From fashion shoots to wedding photography, create stunning visuals with our fleet.",
+        "bookPhotoshoot": "Book Photoshoot",
+        "viewPackages": "View Packages"
+      },
+      "stats": {
+        "photoshoots": "1000+",
+        "photoshootsLabel": "Photoshoots",
+        "magazineFeatures": "50+",
+        "magazineFeaturesLabel": "Magazine Features",
+        "brandCollaborations": "100+",
+        "brandCollaborationsLabel": "Brand Collaborations",
+        "availability": "24/7",
+        "availabilityLabel": "Availability"
+      },
+      "photoshootTypes": {
+        "title": "Photography Services We Offer",
+        "types": [
+          {
+            "title": "Fashion Photography",
+            "description": "High-end fashion shoots with ultimate luxury backdrop",
+            "features": [
+              "Model transportation included",
+              "Multiple location changes",
+              "Styling coordination",
+              "Behind-the-scenes access"
+            ]
+          },
+          {
+            "title": "Wedding Photography",
+            "description": "Capture your special day with Rolls-Royce elegance",
+            "features": [
+              "Bridal party photos",
+              "Romantic couple shots",
+              "Family portraits",
+              "Reception arrivals"
+            ]
+          },
+          {
+            "title": "Commercial Shoots",
+            "description": "Professional advertising and marketing campaigns",
+            "features": [
+              "Brand integration",
+              "Product placement",
+              "Video production",
+              "Digital content creation"
+            ]
+          },
+          {
+            "title": "Lifestyle Photography",
+            "description": "Luxury lifestyle and social media content",
+            "features": [
+              "Instagram worthy shots",
+              "Influencer collaborations",
+              "Personal branding",
+              "Travel photography"
+            ]
+          },
+          {
+            "title": "Music Videos",
+            "description": "Premium vehicles for music video productions",
+            "features": [
+              "Dynamic shots",
+              "Moving sequences",
+              "Multiple takes",
+              "Night shoots available"
+            ]
+          },
+          {
+            "title": "Corporate Photography",
+            "description": "Executive portraits and company profiles",
+            "features": [
+              "CEO portraits",
+              "Team photos",
+              "Annual reports",
+              "Marketing materials"
+            ]
+          }
+        ]
+      },
+      "packages": {
+        "title": "Photoshoot Packages",
+        "packages": [
+          {
+            "name": "Basic Shoot",
+            "duration": "2 Hours",
+            "price": "AED 5,500",
+            "features": [
+              "One Rolls-Royce vehicle",
+              "Stationary positioning",
+              "Basic cleaning & prep",
+              "Location of choice"
+            ]
+          },
+          {
+            "name": "Premium Shoot",
+            "duration": "4 Hours",
+            "price": "AED 10,500",
+            "mostPopular": "MOST POPULAR",
+            "features": [
+              "Choice of any vehicle",
+              "Multiple locations",
+              "Professional detailing",
+              "Driver for repositioning",
+              "Props coordination"
+            ]
+          },
+          {
+            "name": "Production Package",
+            "duration": "Full Day",
+            "price": "AED 18,000",
+            "features": [
+              "Multiple vehicles available",
+              "Unlimited locations",
+              "Dedicated coordinator",
+              "Moving shots included",
+              "Extended hours option"
+            ]
+          }
+        ],
+        "customPackages": "Custom packages available for extended productions and special requirements",
+        "bookThisPackage": "Book This Package"
+      },
+      "locations": {
+        "title": "Top Photoshoot Locations in Dubai",
+        "locations": [
+          {
+            "name": "Burj Khalifa Background",
+            "description": "Iconic Dubai skyline shots",
+            "bestTime": "Golden hour"
+          },
+          {
+            "name": "Palm Jumeirah",
+            "description": "Luxury beachfront settings",
+            "bestTime": "Sunset"
+          },
+          {
+            "name": "Dubai Marina",
+            "description": "Modern urban backdrop",
+            "bestTime": "Blue hour"
+          },
+          {
+            "name": "Desert Dunes",
+            "description": "Classic Arabian desert scenes",
+            "bestTime": "Early morning"
+          },
+          {
+            "name": "Jumeirah Beach Road",
+            "description": "Coastal drives and beach views",
+            "bestTime": "Late afternoon"
+          },
+          {
+            "name": "Old Dubai / Gold Souk",
+            "description": "Traditional meets luxury",
+            "bestTime": "Morning"
+          }
+        ],
+        "bestTimeLabel": "Best time:"
+      },
+      "photoTips": {
+        "title": "Professional Photography Tips",
+        "tips": [
+          {
+            "tip": "Best Lighting",
+            "advice": "Golden hour (sunrise/sunset) provides the most flattering light for both the car and subjects"
+          },
+          {
+            "tip": "Angle Selection",
+            "advice": "Three-quarter front angle showcases the iconic Rolls-Royce grille and Spirit of Ecstasy"
+          },
+          {
+            "tip": "Color Coordination",
+            "advice": "Choose outfits that complement the vehicle color for cohesive imagery"
+          },
+          {
+            "tip": "Detail Shots",
+            "advice": "Capture unique features like the starlight headliner, embroidered headrests, and dashboard"
+          }
+        ]
+      },
+      "partners": {
+        "title": "Recommended Photographer Partners",
+        "description": "We work with Dubai's premier photographers and production houses",
+        "partners": [
+          "Dubai Fashion Photographers",
+          "Emirates Wedding Studios",
+          "Luxury Lifestyle Media",
+          "Commercial Production Houses"
+        ],
+        "bringYourOwn": "Or bring your own photographer - we're happy to work with your creative team"
+      },
+      "gallery": {
+        "title": "Recent Photoshoots",
+        "viewFullGallery": "View Full Gallery"
+      },
+      "testimonial": {
+        "name": "Yasmin Al-Rashid",
+        "role": "Fashion Photographer & Creative Director",
+        "text": "Working with Rolls-Royce Dubai for our fashion shoots has been extraordinary. The vehicles are pristine, the service is impeccable, and they understand the creative process perfectly. Every shoot becomes a masterpiece.",
+        "rating": "Exceptional Experience"
+      },
+      "cta": {
+        "title": "Ready to Create Something Spectacular?",
+        "description": "Book your Rolls-Royce photoshoot today and capture luxury at its finest",
+        "bookYourPhotoshoot": "Book Your Photoshoot",
+        "call": "Call: +971 55 816 4922",
+        "bookingTips": {
+          "title": "Quick Booking Tips",
+          "tips": [
+            "Book at least 48 hours in advance for best availability",
+            "Golden hour slots (sunrise/sunset) book quickly",
+            "Weekend rates may apply for Friday-Saturday shoots",
+            "Special rates for multiple day bookings"
+          ]
+        }
+      }
+    },
+    "tours": {
+      "hero": {
+        "title": "Discover Dubai in Style",
+        "subtitle": "Luxury Tours with Rolls-Royce",
+        "description": "Experience the best of Dubai and beyond from the comfort of a Rolls-Royce. Our curated tours combine iconic destinations with unparalleled luxury.",
+        "bookYourTour": "Book Your Tour",
+        "exploreTours": "Explore Tours"
+      },
+      "highlights": {
+        "toursCompleted": "5000+",
+        "toursCompletedLabel": "Tours Completed",
+        "averageRating": "4.9/5",
+        "averageRatingLabel": "Average Rating",
+        "destinations": "50+",
+        "destinationsLabel": "Destinations",
+        "languages": "10",
+        "languagesLabel": "Languages"
+      },
+      "packages": {
+        "title": "Signature Tour Packages",
+        "tourHighlights": "Tour Highlights:",
+        "bookThisTour": "Book This Tour",
+        "tours": [
+          {
+            "title": "Dubai City Tour",
+            "duration": "4 Hours",
+            "price": "AED 5,500",
+            "description": "Experience Dubai's iconic landmarks in ultimate luxury",
+            "highlights": [
+              "Burj Khalifa photo stop",
+              "Dubai Mall visit",
+              "Palm Jumeirah drive",
+              "Burj Al Arab viewing",
+              "Dubai Marina cruise"
+            ]
+          },
+          {
+            "title": "Desert Safari Luxury",
+            "duration": "6 Hours",
+            "price": "AED 8,500",
+            "description": "Combine desert adventure with Rolls-Royce elegance",
+            "highlights": [
+              "Private desert experience",
+              "Sunset photography",
+              "Gourmet dinner setup",
+              "Falconry demonstration",
+              "Stargazing session"
+            ]
+          },
+          {
+            "title": "Abu Dhabi Day Trip",
+            "duration": "8 Hours",
+            "price": "AED 12,000",
+            "description": "Luxury journey to the UAE capital",
+            "highlights": [
+              "Sheikh Zayed Mosque",
+              "Emirates Palace",
+              "Louvre Abu Dhabi",
+              "Corniche drive",
+              "Yas Island visit"
+            ]
+          },
+          {
+            "title": "East Coast Explorer",
+            "duration": "10 Hours",
+            "price": "AED 15,000",
+            "description": "Scenic mountain and coastal adventure",
+            "highlights": [
+              "Fujairah Fort",
+              "Khorfakkan Beach",
+              "Mountain scenery",
+              "Traditional markets",
+              "Coastal dining"
+            ]
+          },
+          {
+            "title": "Dubai Night Tour",
+            "duration": "3 Hours",
+            "price": "AED 4,500",
+            "description": "See Dubai sparkle under the stars",
+            "highlights": [
+              "Illuminated skyline",
+              "Dubai Fountain show",
+              "Night photography",
+              "Rooftop lounges",
+              "City lights cruise"
+            ]
+          },
+          {
+            "title": "Heritage & Culture",
+            "duration": "5 Hours",
+            "price": "AED 6,500",
+            "description": "Discover Dubai's rich heritage in style",
+            "highlights": [
+              "Dubai Museum",
+              "Gold & Spice Souks",
+              "Al Fahidi District",
+              "Traditional Abra ride",
+              "Cultural exhibitions"
+            ]
+          }
+        ]
+      },
+      "customOptions": {
+        "title": "Custom Tour Options",
+        "subtitle": "Personalize your luxury experience",
+        "options": [
+          {
+            "title": "Romance Package",
+            "description": "Perfect for proposals and special occasions",
+            "features": [
+              "Private sunset locations",
+              "Champagne service",
+              "Professional photography",
+              "Romantic dining reservations"
+            ]
+          },
+          {
+            "title": "VIP Shopping Tour",
+            "description": "Exclusive shopping with personal concierge",
+            "features": [
+              "Mall of Emirates VIP",
+              "Dubai Mall experiences",
+              "Personal shopper service",
+              "Designer boutique access"
+            ]
+          },
+          {
+            "title": "Adventure Seeker",
+            "description": "Combine luxury with exciting activities",
+            "features": [
+              "Helicopter ride connections",
+              "Yacht charter arrangements",
+              "Premium adventure experiences",
+              "Action photography"
+            ]
+          }
+        ]
+      },
+      "included": {
+        "title": "What's Included",
+        "subtitle": "Every detail taken care of",
+        "amenities": [
+          "Professional chauffeur guide",
+          "Complimentary refreshments",
+          "High-speed WiFi access",
+          "Photography assistance",
+          "Climate-controlled comfort",
+          "Flexible itinerary adjustments",
+          "Premium sound system",
+          "Luxury vehicle insurance"
+        ]
+      },
+      "process": {
+        "title": "How It Works",
+        "subtitle": "Simple booking process",
+        "steps": [
+          {
+            "number": "01",
+            "title": "Choose Your Experience",
+            "description": "Select from our curated tours or create a custom itinerary"
+          },
+          {
+            "number": "02",
+            "title": "Select Your Rolls-Royce",
+            "description": "Pick from our fleet of luxury vehicles to match your style"
+          },
+          {
+            "number": "03",
+            "title": "Personalize Details",
+            "description": "Customize timing, stops, and special requirements"
+          },
+          {
+            "number": "04",
+            "title": "Enjoy Your Journey",
+            "description": "Relax and experience Dubai's finest in ultimate comfort"
+          }
+        ]
+      },
+      "guides": {
+        "title": "Multilingual Expert Guides",
+        "subtitle": "Local expertise in your language",
+        "description": "Our certified guides speak multiple languages and provide insights into Dubai's culture, history, and hidden gems.",
+        "languages": [
+          "English",
+          "Arabic",
+          "French",
+          "German",
+          "Spanish",
+          "Italian",
+          "Russian",
+          "Chinese",
+          "Japanese",
+          "Hindi"
+        ]
+      },
+      "testimonials": {
+        "title": "Guest Experiences",
+        "subtitle": "What our clients say"
+      },
+      "faq": {
+        "title": "Frequently Asked Questions",
+        "questions": [
+          {
+            "question": "Can tours be customized to specific interests?",
+            "answer": "Absolutely! We create bespoke itineraries based on your preferences, whether it's architecture, shopping, dining, or cultural experiences."
+          },
+          {
+            "question": "Are tours suitable for children and families?",
+            "answer": "Yes, our tours are family-friendly. We can provide child seats and adjust itineraries to include family-suitable attractions and dining options."
+          },
+          {
+            "question": "Do you provide pickup and drop-off services?",
+            "answer": "We offer complimentary pickup and drop-off from any location in Dubai, including hotels, airports, and residential areas."
+          },
+          {
+            "question": "Can we make photo stops during the tour?",
+            "answer": "Photography stops are encouraged! Our chauffeurs know the best spots and can assist with capturing memorable moments throughout your journey."
+          }
+        ]
+      },
+      "cta": {
+        "title": "Ready to Explore Dubai?",
+        "subtitle": "Book your luxury tour experience today",
+        "description": "Contact our team to design your perfect Dubai adventure",
+        "bookNow": "Book Your Tour",
+        "learnMore": "Learn More",
+        "specialOffer": "Limited Time: 20% off Desert Safari tours!"
+      }
     }
   },
   "placeholders": {

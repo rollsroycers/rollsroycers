@@ -518,6 +518,874 @@
         "onlineBooking": "Réservation En Ligne",
         "waitingTime": "Temps attente gratuit: 60 minutes vols internationaux, 30 minutes domestiques"
       }
+    },
+    "chauffeur": {
+      "hero": {
+        "title": "Service de Chauffeur Professionnel",
+        "subtitle": "Découvrez Dubaï avec des Chauffeurs Professionnels d'Élite",
+        "description": "Profitez du transport de luxe avec nos chauffeurs professionnels d'élite. Disponibles 24/7 à travers Dubaï et les EAU, nos chauffeurs multilingues offrent un service inégalé, de la discrétion et une expertise locale.",
+        "bookNow": "Réserver Chauffeur",
+        "viewServices": "Voir Services",
+        "quickFeatures": [
+          "500+ chauffeurs professionnels",
+          "10,000+ clients satisfaits",
+          "4.9/5 note moyenne"
+        ]
+      },
+      "services": {
+        "title": "Options de Service Chauffeur",
+        "hourly": {
+          "name": "Chauffeur à l'Heure",
+          "description": "Service horaire flexible pour arrêts multiples et temps d'attente",
+          "features": [
+            "Réservation minimum 4 heures",
+            "Chauffeur professionnel en uniforme",
+            "Arrêts illimités dans Dubaï",
+            "Temps d'attente inclus",
+            "Chauffeurs multilingues disponibles",
+            "Modifications d'itinéraire en temps réel",
+            "Rafraîchissements gratuits",
+            "WiFi et recharge d'appareils"
+          ],
+          "pricing": "À partir de 800 AED/heure",
+          "ideal": "Sorties shopping, réunions d'affaires, visites de la ville"
+        },
+        "daily": {
+          "name": "Chauffeur Journée Complète",
+          "description": "Service de chauffeur dédié pour 12 heures",
+          "features": [
+            "Fenêtre de service de 12 heures",
+            "Chauffeur professionnel d'élite",
+            "Kilométrage illimité à Dubaï",
+            "Service VIP d'accueil et d'accompagnement",
+            "Assistance de planification d'itinéraire",
+            "Réservations de restaurants",
+            "Assistance shopping personnel",
+            "Chauffeurs discrets formés à la sécurité"
+          ],
+          "pricing": "À partir de 6,500 AED/jour",
+          "ideal": "Délégations d'affaires, groupes touristiques, événements spéciaux"
+        },
+        "transfer": {
+          "name": "Transfert Point à Point",
+          "description": "Service de transfert direct entre locations",
+          "features": [
+            "Tarification d'itinéraire fixe",
+            "Aucun frais caché",
+            "Surveillance des vols (aéroports)",
+            "Accueil et accompagnement inclus",
+            "15 minutes d'attente gratuite",
+            "Assistance bagages",
+            "Sièges enfants disponibles",
+            "Options adaptées aux animaux"
+          ],
+          "pricing": "À partir de 600 AED",
+          "ideal": "Transferts aéroport, transferts hôtel, transport événements"
+        },
+        "events": {
+          "name": "Chauffeur Événements",
+          "description": "Service spécialisé pour mariages et occasions spéciales",
+          "features": [
+            "Service tapis rouge",
+            "Chauffeurs en tenue formelle",
+            "Coordination décoration",
+            "Synchronisation multi-véhicules",
+            "Assistance photographie",
+            "Transport des invités",
+            "Disponibilité nocturne",
+            "Véhicules de secours d'urgence"
+          ],
+          "pricing": "À partir de 8,000 AED",
+          "ideal": "Mariages, galas, événements corporatifs, premières"
+        }
+      },
+      "qualities": {
+        "title": "Nos Chauffeurs d'Élite",
+        "professional": {
+          "title": "Excellence Professionnelle",
+          "points": [
+            "Minimum 5 ans d'expérience de conduite de luxe",
+            "Certification de conduite défensive avancée",
+            "Présentation et toilettage impeccables",
+            "Formation à la sensibilisation culturelle"
+          ]
+        },
+        "language": {
+          "title": "Compétences Linguistiques",
+          "points": [
+            "Anglais (obligatoire)",
+            "Locuteurs arabes disponibles",
+            "Locuteurs hindi/ourdou",
+            "Russe, français, chinois sur demande"
+          ]
+        },
+        "security": {
+          "title": "Sécurité et Discrétion",
+          "points": [
+            "Chauffeurs aux antécédents vérifiés",
+            "Accords de confidentialité",
+            "Formation à la protection VIP",
+            "Protocoles de réponse d'urgence"
+          ]
+        },
+        "technology": {
+          "title": "Technologiquement Équipés",
+          "points": [
+            "Véhicules avec suivi GPS",
+            "Communication en temps réel",
+            "Rapports de voyage numériques",
+            "Connectivité application mobile"
+          ]
+        }
+      },
+      "routes": {
+        "title": "Itinéraires Chauffeur Populaires",
+        "headers": [
+          "Itinéraire",
+          "Durée",
+          "Type",
+          "Prix"
+        ],
+        "popular": [
+          {
+            "route": "Dubai Mall → Souk de l'Or → Dubai Marina",
+            "duration": "4 heures",
+            "type": "Tour Shopping",
+            "price": "3,200 AED"
+          },
+          {
+            "route": "Hôtel → DIFC → Business Bay → Aéroport",
+            "duration": "6 heures",
+            "type": "Circuit Affaires",
+            "price": "4,800 AED"
+          },
+          {
+            "route": "Tour Complet des Points Forts de Dubaï",
+            "duration": "10 heures",
+            "type": "Spécial Touristique",
+            "price": "7,200 AED"
+          },
+          {
+            "route": "Dubaï → Abu Dhabi → Dubaï",
+            "duration": "8 heures",
+            "type": "Inter-Émirats",
+            "price": "8,000 AED"
+          }
+        ],
+        "note": "* Les prix incluent véhicule, chauffeur, carburant et rafraîchissements de base"
+      },
+      "process": {
+        "title": "Comment Ça Marche",
+        "steps": [
+          {
+            "title": "Choisissez Votre Service",
+            "description": "Sélectionnez parmi les services de chauffeur horaire, journalier, transfert ou événement selon vos besoins"
+          },
+          {
+            "title": "Sélectionnez Votre Véhicule",
+            "description": "Choisissez parmi notre flotte de Phantom, Ghost, Cullinan, Dawn ou Wraith"
+          },
+          {
+            "title": "Rencontrez Votre Chauffeur",
+            "description": "Votre chauffeur professionnel arrive 10 minutes en avance, impeccablement habillé et prêt"
+          },
+          {
+            "title": "Profitez du Voyage",
+            "description": "Détendez-vous dans le luxe ultime pendant que votre chauffeur s'occupe de tout"
+          }
+        ]
+      },
+      "testimonials": [
+        {
+          "name": "Maria Fernandez",
+          "role": "PDG, Maison de Couture",
+          "text": "Notre chauffeur Ahmed était exceptionnel. Professionnel, ponctuel et connaissait Dubaï sur le bout des doigts. A rendu mon voyage d'affaires fluide.",
+          "service": "Chauffeur Journalier"
+        },
+        {
+          "name": "Sheikh Mohammed",
+          "role": "Propriétaire d'Entreprise Local",
+          "text": "J'utilise régulièrement leur service horaire. La flexibilité et le professionnalisme sont inégalés. Je recommande vivement!",
+          "service": "Service Horaire"
+        },
+        {
+          "name": "Alexandra Petrova",
+          "role": "Touriste de Russie",
+          "text": "Notre chauffeur russophone a rendu nos vacances à Dubaï parfaites. Il était comme un guide touristique personnel!",
+          "service": "Tour Journée Complète"
+        }
+      ],
+      "cta": {
+        "title": "Expérimentez le Service Chauffeur d'Élite",
+        "description": "Chauffeurs professionnels disponibles 24/7. Réservez maintenant et voyagez à Dubaï dans un confort et un style inégalés.",
+        "callButton": "Appelez: +971 55 816 4922",
+        "bookButton": "Réserver Chauffeur En Ligne",
+        "stats": {
+          "chauffeurs": "500+ chauffeurs professionnels",
+          "clients": "10,000+ clients satisfaits",
+          "rating": "4.9/5 note moyenne"
+        }
+      }
+    },
+    "events": {
+      "hero": {
+        "title": "Excellence d'Événements",
+        "subtitle": "Élevez Vos Occasions Spéciales avec Rolls-Royce",
+        "description": "Des galas sur tapis rouge aux lancements de produits exclusifs, rendez chaque arrivée inoubliable avec notre service de transport premium pour événements à Dubaï.",
+        "bookEvent": "Réserver Service Événement",
+        "viewPackages": "Voir Forfaits"
+      },
+      "features": {
+        "title": "Pourquoi Choisir Rolls-Royce pour Votre Événement",
+        "coordination": {
+          "title": "Coordination d'Événements",
+          "description": "Gestionnaire d'événements dédié pour une exécution parfaite"
+        },
+        "timing": {
+          "title": "Timing Précis",
+          "description": "Arrivées et départs chorégraphiés"
+        },
+        "media": {
+          "title": "Prêt pour les Médias",
+          "description": "Véhicules préparés pour la photographie et le tournage"
+        },
+        "fleet": {
+          "title": "Options de Flotte",
+          "description": "Véhicules multiples pour le transport de grands groupes"
+        },
+        "vip": {
+          "title": "Traitement VIP",
+          "description": "Service tapis rouge et arrangements spéciaux"
+        },
+        "discretion": {
+          "title": "Discrétion",
+          "description": "Confidentialité complète pour les événements de haut profil"
+        }
+      },
+      "eventTypes": {
+        "title": "Événements dans Lesquels Nous Nous Spécialisons",
+        "gala": {
+          "title": "Dîners de Gala",
+          "description": "Faites une entrée grandiose lors d'événements de gala prestigieux",
+          "features": [
+            "Arrivées tapis rouge",
+            "Options de flotte coordonnées",
+            "Chauffeurs professionnels en tenue formelle",
+            "Service de voiturier VIP"
+          ]
+        },
+        "product": {
+          "title": "Lancements de Produits",
+          "description": "Élevez votre marque avec un transport de luxe",
+          "features": [
+            "Coordination de marque",
+            "Arrangements de véhicules multiples",
+            "Présentation prête pour les médias",
+            "Arrivées programmées"
+          ]
+        },
+        "film": {
+          "title": "Productions Cinéma & TV",
+          "description": "Véhicules premium pour productions et tournages",
+          "features": [
+            "Planification flexible",
+            "Accommodation de prises multiples",
+            "Couverture d'assurance production",
+            "Chauffeurs spécialisés"
+          ]
+        },
+        "fashion": {
+          "title": "Défilés de Mode",
+          "description": "Complétez la haute couture avec le luxe ultime",
+          "features": [
+            "Transport de mannequins",
+            "Navettes VIP pour invités",
+            "Accessibilité en coulisses",
+            "Coordination de style"
+          ]
+        },
+        "awards": {
+          "title": "Cérémonies de Prix",
+          "description": "Arrivez comme une star lors de cérémonies prestigieuses",
+          "features": [
+            "Transport de célébrités",
+            "Arrivées prêtes pour paparazzi",
+            "Coordination sécuritaire",
+            "Transferts d'après-fête"
+          ]
+        },
+        "private": {
+          "title": "Fêtes Privées",
+          "description": "Transport exclusif pour rassemblements intimes",
+          "features": [
+            "Célébrations d'anniversaire",
+            "Fêtes d'anniversaire de mariage",
+            "Transferts de yacht",
+            "Arrivées en boîte de nuit"
+          ]
+        }
+      },
+      "packages": {
+        "title": "Forfaits Événements",
+        "single": {
+          "name": "Véhicule Unique",
+          "price": "À partir de 8,000 AED",
+          "duration": "Par Événement",
+          "features": [
+            "Une Rolls-Royce au choix",
+            "Chauffeur professionnel",
+            "Minimum 4 heures",
+            "Service tapis rouge"
+          ]
+        },
+        "fleet": {
+          "name": "Forfait Flotte",
+          "price": "À partir de 24,000 AED",
+          "duration": "Par Événement",
+          "popular": "LE PLUS POPULAIRE",
+          "features": [
+            "3-5 véhicules",
+            "Arrivées coordonnées",
+            "Désignation voiture de tête",
+            "Coordinateur d'événement"
+          ]
+        },
+        "premium": {
+          "name": "Production Premium",
+          "price": "À partir de 35,000 AED",
+          "duration": "Par Projet",
+          "features": [
+            "Véhicules illimités",
+            "Planification flexible",
+            "Support de production",
+            "Gestionnaire de compte dédié"
+          ]
+        },
+        "bookPackage": "Réserver Ce Forfait"
+      },
+      "pastEvents": {
+        "title": "Fait Confiance par les Événements Premiers de Dubaï",
+        "filmFestival": {
+          "event": "Festival International du Film de Dubaï",
+          "role": "Partenaire Transport Officiel",
+          "vehicles": "12 véhicules Rolls-Royce"
+        },
+        "fashionForward": {
+          "event": "Fashion Forward Dubai",
+          "role": "Transport Invités VIP",
+          "vehicles": "8 véhicules incluant Phantom & Ghost"
+        },
+        "golfClub": {
+          "event": "Gala Emirates Golf Club",
+          "role": "Fournisseur de Véhicules Exclusif",
+          "vehicles": "6 cabriolets Rolls-Royce Dawn"
+        },
+        "burjAlArab": {
+          "event": "Événement Privé Burj Al Arab",
+          "role": "Service Navette Invités",
+          "vehicles": "Flotte rotative de 10 véhicules"
+        }
+      },
+      "process": {
+        "title": "Votre Événement, Parfaitement Exécuté",
+        "steps": [
+          {
+            "step": "01",
+            "title": "Consultation Initiale",
+            "description": "Discutez vos exigences d'événement, préférences de véhicules et logistique"
+          },
+          {
+            "step": "02",
+            "title": "Proposition Personnalisée",
+            "description": "Recevez un forfait sur mesure avec sélection de véhicules et tarification"
+          },
+          {
+            "step": "03",
+            "title": "Coordination d'Événement",
+            "description": "Travaillez avec notre gestionnaire d'événements pour planifier chaque détail"
+          },
+          {
+            "step": "04",
+            "title": "Préparation de Véhicule",
+            "description": "Voitures détaillées et préparées à la perfection pour votre événement"
+          },
+          {
+            "step": "05",
+            "title": "Exécution Parfaite",
+            "description": "Chauffeurs professionnels offrent un service exceptionnel le jour de l'événement"
+          }
+        ]
+      },
+      "testimonial": {
+        "name": "Sarah Al-Mahmoud",
+        "role": "Directrice d'Événements, Semaine de la Mode de Dubaï",
+        "text": "Rolls-Royce a élevé toute notre expérience de semaine de mode. Leur coordination de flotte était parfaite, et chaque arrivée de mannequin ressemblait à un moment de tapis rouge. Le professionnalisme et l'attention aux détails ont dépassé nos attentes. Ils comprennent vraiment l'industrie des événements de luxe."
+      },
+      "gallery": {
+        "title": "Galerie d'Événements",
+        "viewFull": "Voir Galerie Complète →"
+      },
+      "cta": {
+        "title": "Rendez Votre Événement Inoubliable",
+        "description": "Discutons comment Rolls-Royce peut élever votre prochaine occasion spéciale",
+        "startPlanning": "Commencer à Planifier Votre Événement",
+        "whatsapp": "Consultation WhatsApp",
+        "stats": {
+          "events": "500+ Événements Servis",
+          "satisfaction": "98% Satisfaction Client",
+          "support": "Support Événements 24/7"
+        }
+      }
+    },
+    "photoshoot": {
+      "hero": {
+        "title": "Luxe Parfait en Image",
+        "subtitle": "Services de Photoshoot Professionnel avec Rolls-Royce",
+        "description": "Élevez votre photographie avec les automobiles les plus prestigieuses au monde. Des shootings de mode à la photographie de mariage, créez des visuels époustouflants avec notre flotte.",
+        "bookPhotoshoot": "Réserver un Photoshoot",
+        "viewPackages": "Voir les Forfaits"
+      },
+      "stats": {
+        "photoshoots": "1000+",
+        "photoshootsLabel": "Photoshoots",
+        "magazineFeatures": "50+",
+        "magazineFeaturesLabel": "Publications Magazine",
+        "brandCollaborations": "100+",
+        "brandCollaborationsLabel": "Collaborations de Marque",
+        "availability": "24/7",
+        "availabilityLabel": "Disponibilité"
+      },
+      "photoshootTypes": {
+        "title": "Services de Photographie que Nous Offrons",
+        "types": [
+          {
+            "title": "Photographie de Mode",
+            "description": "Shootings de mode haut de gamme avec toile de fond luxueuse ultime",
+            "features": [
+              "Transport des mannequins inclus",
+              "Changements de lieux multiples",
+              "Coordination du stylisme",
+              "Accès aux coulisses"
+            ]
+          },
+          {
+            "title": "Photographie de Mariage",
+            "description": "Capturer votre jour spécial avec l'élégance Rolls-Royce",
+            "features": [
+              "Photos de la fête nuptiale",
+              "Prises romantiques de couple",
+              "Portraits de famille",
+              "Arrivées de réception"
+            ]
+          },
+          {
+            "title": "Shootings Commerciaux",
+            "description": "Campagnes publicitaires et marketing professionnelles",
+            "features": [
+              "Intégration de marque",
+              "Placement de produit",
+              "Production vidéo",
+              "Création de contenu numérique"
+            ]
+          },
+          {
+            "title": "Photographie de Style de Vie",
+            "description": "Style de vie luxueux et contenu pour réseaux sociaux",
+            "features": [
+              "Prises dignes d'Instagram",
+              "Collaborations d'influenceurs",
+              "Marque personnelle",
+              "Photographie de voyage"
+            ]
+          },
+          {
+            "title": "Clips Musicaux",
+            "description": "Véhicules premium pour productions de clips musicaux",
+            "features": [
+              "Prises dynamiques",
+              "Séquences en mouvement",
+              "Prises multiples",
+              "Tournages de nuit disponibles"
+            ]
+          },
+          {
+            "title": "Photographie d'Entreprise",
+            "description": "Portraits exécutifs et profils d'entreprise",
+            "features": [
+              "Portraits de PDG",
+              "Photos d'équipe",
+              "Rapports annuels",
+              "Matériaux marketing"
+            ]
+          }
+        ]
+      },
+      "packages": {
+        "title": "Forfaits Photoshoot",
+        "packages": [
+          {
+            "name": "Shooting Basique",
+            "duration": "2 Heures",
+            "price": "5 500 AED",
+            "features": [
+              "Un véhicule Rolls-Royce",
+              "Positionnement stationnaire",
+              "Nettoyage et préparation de base",
+              "Lieu de choix"
+            ]
+          },
+          {
+            "name": "Shooting Premium",
+            "duration": "4 Heures",
+            "price": "10 500 AED",
+            "mostPopular": "LE PLUS POPULAIRE",
+            "features": [
+              "Choix de n'importe quel véhicule",
+              "Lieux multiples",
+              "Détaillage professionnel",
+              "Chauffeur pour repositionnement",
+              "Coordination des accessoires"
+            ]
+          },
+          {
+            "name": "Forfait Production",
+            "duration": "Journée Complète",
+            "price": "18 000 AED",
+            "features": [
+              "Véhicules multiples disponibles",
+              "Lieux illimités",
+              "Coordinateur dédié",
+              "Prises en mouvement incluses",
+              "Option d'heures prolongées"
+            ]
+          }
+        ],
+        "customPackages": "Forfaits personnalisés disponibles pour productions étendues et exigences spéciales",
+        "bookThisPackage": "Réserver ce Forfait"
+      },
+      "locations": {
+        "title": "Meilleurs Lieux de Photoshoot à Dubaï",
+        "locations": [
+          {
+            "name": "Arrière-plan Burj Khalifa",
+            "description": "Prises iconiques de l'horizon de Dubaï",
+            "bestTime": "Heure dorée"
+          },
+          {
+            "name": "Palm Jumeirah",
+            "description": "Cadres luxueux en bord de mer",
+            "bestTime": "Coucher de soleil"
+          },
+          {
+            "name": "Dubai Marina",
+            "description": "Toile de fond urbaine moderne",
+            "bestTime": "Heure bleue"
+          },
+          {
+            "name": "Dunes du Désert",
+            "description": "Scènes classiques du désert arabe",
+            "bestTime": "Tôt le matin"
+          },
+          {
+            "name": "Jumeirah Beach Road",
+            "description": "Conduites côtières et vues sur la plage",
+            "bestTime": "Fin d'après-midi"
+          },
+          {
+            "name": "Vieux Dubaï / Souk d'Or",
+            "description": "Le traditionnel rencontre le luxe",
+            "bestTime": "Matin"
+          }
+        ],
+        "bestTimeLabel": "Meilleur moment :"
+      },
+      "photoTips": {
+        "title": "Conseils de Photographie Professionnelle",
+        "tips": [
+          {
+            "tip": "Meilleur Éclairage",
+            "advice": "L'heure dorée (lever/coucher du soleil) fournit la lumière la plus flatteuse pour la voiture et les sujets"
+          },
+          {
+            "tip": "Sélection d'Angle",
+            "advice": "L'angle trois quarts avant met en valeur la calandre iconique Rolls-Royce et l'Esprit d'Extase"
+          },
+          {
+            "tip": "Coordination des Couleurs",
+            "advice": "Choisissez des tenues qui complètent la couleur du véhicule pour des images cohérentes"
+          },
+          {
+            "tip": "Prises de Détail",
+            "advice": "Capturez des caractéristiques uniques comme le ciel étoilé, les appuie-têtes brodés et le tableau de bord"
+          }
+        ]
+      },
+      "partners": {
+        "title": "Partenaires Photographes Recommandés",
+        "description": "Nous travaillons avec les photographes et maisons de production de premier plan de Dubaï",
+        "partners": [
+          "Photographes de Mode de Dubaï",
+          "Studios de Mariage des Émirats",
+          "Médias de Style de Vie Luxueux",
+          "Maisons de Production Commerciale"
+        ],
+        "bringYourOwn": "Ou amenez votre propre photographe - nous sommes heureux de travailler avec votre équipe créative"
+      },
+      "gallery": {
+        "title": "Photoshoots Récents",
+        "viewFullGallery": "Voir la Galerie Complète"
+      },
+      "testimonial": {
+        "name": "Yasmin Al-Rashid",
+        "role": "Photographe de Mode et Directrice Créative",
+        "text": "Travailler avec Rolls-Royce Dubai pour nos shootings de mode a été extraordinaire. Les véhicules sont impeccables, le service est irréprochable, et ils comprennent parfaitement le processus créatif. Chaque shooting devient un chef-d'œuvre.",
+        "rating": "Expérience Exceptionnelle"
+      },
+      "cta": {
+        "title": "Prêt à Créer Quelque Chose de Spectaculaire ?",
+        "description": "Réservez votre photoshoot Rolls-Royce aujourd'hui et capturez le luxe à son apogée",
+        "bookYourPhotoshoot": "Réserver Votre Photoshoot",
+        "call": "Appeler : +971 55 816 4922",
+        "bookingTips": {
+          "title": "Conseils de Réservation Rapide",
+          "tips": [
+            "Réservez au moins 48 heures à l'avance pour la meilleure disponibilité",
+            "Les créneaux d'heure dorée (lever/coucher de soleil) se réservent rapidement",
+            "Les tarifs de fin de semaine peuvent s'appliquer pour les shootings vendredi-samedi",
+            "Tarifs spéciaux pour les réservations de plusieurs jours"
+          ]
+        }
+      }
+    },
+    "tours": {
+      "hero": {
+        "title": "Découvrez Dubaï avec style",
+        "subtitle": "Tours de luxe avec Rolls-Royce",
+        "description": "Découvrez le meilleur de Dubaï et au-delà dans le confort d'une Rolls-Royce. Nos tours sélectionnés combinent des destinations emblématiques avec un luxe inégalé.",
+        "bookYourTour": "Réservez votre tour",
+        "exploreTours": "Explorer les tours"
+      },
+      "highlights": {
+        "toursCompleted": "5000+",
+        "toursCompletedLabel": "Tours complétés",
+        "averageRating": "4.9/5",
+        "averageRatingLabel": "Note moyenne",
+        "destinations": "50+",
+        "destinationsLabel": "Destinations",
+        "languages": "10",
+        "languagesLabel": "Langues"
+      },
+      "packages": {
+        "title": "Forfaits tours signature",
+        "tourHighlights": "Points forts du tour:",
+        "bookThisTour": "Réserver ce tour",
+        "tours": [
+          {
+            "title": "Tour de la ville de Dubaï",
+            "duration": "4 heures",
+            "price": "5,500 AED",
+            "description": "Découvrez les monuments emblématiques de Dubaï dans un luxe ultime",
+            "highlights": [
+              "Arrêt photo Burj Khalifa",
+              "Visite Dubai Mall",
+              "Conduite Palm Jumeirah",
+              "Vue Burj Al Arab",
+              "Croisière Dubai Marina"
+            ]
+          },
+          {
+            "title": "Safari désert de luxe",
+            "duration": "6 heures",
+            "price": "8,500 AED",
+            "description": "Combinez l'aventure du désert avec l'élégance Rolls-Royce",
+            "highlights": [
+              "Expérience désert privée",
+              "Photographie coucher de soleil",
+              "Configuration dîner gastronomique",
+              "Démonstration fauconnerie",
+              "Session observation étoiles"
+            ]
+          },
+          {
+            "title": "Excursion journée Abu Dhabi",
+            "duration": "8 heures",
+            "price": "12,000 AED",
+            "description": "Voyage de luxe vers la capitale des EAU",
+            "highlights": [
+              "Mosquée Sheikh Zayed",
+              "Emirates Palace",
+              "Louvre Abu Dhabi",
+              "Conduite Corniche",
+              "Visite île Yas"
+            ]
+          },
+          {
+            "title": "Explorateur côte est",
+            "duration": "10 heures",
+            "price": "15,000 AED",
+            "description": "Aventure pittoresque montagne et côte",
+            "highlights": [
+              "Fort Fujairah",
+              "Plage Khorfakkan",
+              "Paysages montagneux",
+              "Marchés traditionnels",
+              "Cuisine côtière"
+            ]
+          },
+          {
+            "title": "Tour de nuit Dubaï",
+            "duration": "3 heures",
+            "price": "4,500 AED",
+            "description": "Voyez Dubaï scintiller sous les étoiles",
+            "highlights": [
+              "Horizon illuminé",
+              "Spectacle fontaines Dubaï",
+              "Photographie nocturne",
+              "Lounges toit",
+              "Croisière lumières ville"
+            ]
+          },
+          {
+            "title": "Patrimoine et culture",
+            "duration": "5 heures",
+            "price": "6,500 AED",
+            "description": "Découvrez le riche patrimoine de Dubaï avec style",
+            "highlights": [
+              "Musée Dubaï",
+              "Souks or et épices",
+              "District Al Fahidi",
+              "Balade abra traditionnelle",
+              "Expositions culturelles"
+            ]
+          }
+        ]
+      },
+      "customOptions": {
+        "title": "Options tours personnalisées",
+        "subtitle": "Personnalisez votre expérience de luxe",
+        "options": [
+          {
+            "title": "Forfait romance",
+            "description": "Parfait pour les demandes et occasions spéciales",
+            "features": [
+              "Lieux coucher de soleil privés",
+              "Service champagne",
+              "Photographie professionnelle",
+              "Réservations dîner romantique"
+            ]
+          },
+          {
+            "title": "Tour shopping VIP",
+            "description": "Shopping exclusif avec concierge personnel",
+            "features": [
+              "Mall of Emirates VIP",
+              "Expériences Dubai Mall",
+              "Service acheteur personnel",
+              "Accès boutiques designers"
+            ]
+          },
+          {
+            "title": "Chercheur d'aventure",
+            "description": "Combinez luxe avec activités excitantes",
+            "features": [
+              "Connexions tour hélicoptère",
+              "Arrangements location yacht",
+              "Expériences aventure premium",
+              "Photographie action"
+            ]
+          }
+        ]
+      },
+      "included": {
+        "title": "Ce qui est inclus",
+        "subtitle": "Chaque détail pris en charge",
+        "amenities": [
+          "Chauffeur guide professionnel",
+          "Rafraîchissements gratuits",
+          "Accès WiFi haute vitesse",
+          "Assistance photographie",
+          "Confort climatisé",
+          "Ajustements itinéraire flexibles",
+          "Système audio premium",
+          "Assurance véhicule de luxe"
+        ]
+      },
+      "process": {
+        "title": "Comment ça marche",
+        "subtitle": "Processus de réservation simple",
+        "steps": [
+          {
+            "number": "01",
+            "title": "Choisissez votre expérience",
+            "description": "Sélectionnez parmi nos tours sélectionnés ou créez un itinéraire personnalisé"
+          },
+          {
+            "number": "02",
+            "title": "Sélectionnez votre Rolls-Royce",
+            "description": "Choisissez parmi notre flotte de véhicules de luxe pour correspondre à votre style"
+          },
+          {
+            "number": "03",
+            "title": "Personnalisez les détails",
+            "description": "Personnalisez horaires, arrêts et exigences spéciales"
+          },
+          {
+            "number": "04",
+            "title": "Profitez de votre voyage",
+            "description": "Détendez-vous et découvrez le meilleur de Dubaï dans un confort ultime"
+          }
+        ]
+      },
+      "guides": {
+        "title": "Guides experts multilingues",
+        "subtitle": "Expertise locale dans votre langue",
+        "description": "Nos guides certifiés parlent plusieurs langues et fournissent des aperçus sur la culture, l'histoire et les joyaux cachés de Dubaï.",
+        "languages": [
+          "Anglais",
+          "Arabe",
+          "Français",
+          "Allemand",
+          "Espagnol",
+          "Italien",
+          "Russe",
+          "Chinois",
+          "Japonais",
+          "Hindi"
+        ]
+      },
+      "testimonials": {
+        "title": "Expériences des invités",
+        "subtitle": "Ce que disent nos clients"
+      },
+      "faq": {
+        "title": "Questions fréquemment posées",
+        "questions": [
+          {
+            "question": "Les tours peuvent-ils être personnalisés selon des intérêts spécifiques?",
+            "answer": "Absolument! Nous créons des itinéraires sur mesure basés sur vos préférences, qu'il s'agisse d'architecture, de shopping, de cuisine ou d'expériences culturelles."
+          },
+          {
+            "question": "Les tours conviennent-ils aux enfants et familles?",
+            "answer": "Oui, nos tours sont adaptés aux familles. Nous pouvons fournir des sièges enfants et ajuster les itinéraires pour inclure des attractions et options de restauration adaptées aux familles."
+          },
+          {
+            "question": "Fournissez-vous des services de prise en charge et dépôt?",
+            "answer": "Nous offrons une prise en charge et un dépôt gratuits depuis n'importe quel endroit à Dubaï, y compris hôtels, aéroports et zones résidentielles."
+          },
+          {
+            "question": "Pouvons-nous faire des arrêts photo pendant le tour?",
+            "answer": "Les arrêts photo sont encouragés! Nos chauffeurs connaissent les meilleurs endroits et peuvent aider à capturer des moments mémorables tout au long de votre voyage."
+          }
+        ]
+      },
+      "cta": {
+        "title": "Prêt à explorer Dubaï?",
+        "subtitle": "Réservez votre expérience de tour de luxe aujourd'hui",
+        "description": "Contactez notre équipe pour concevoir votre aventure parfaite à Dubaï",
+        "bookNow": "Réservez votre tour",
+        "learnMore": "En savoir plus",
+        "specialOffer": "Temps limité: 20% de réduction sur les tours safari désert!"
+      }
     }
   },
   "placeholders": {

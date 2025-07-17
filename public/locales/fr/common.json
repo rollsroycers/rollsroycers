@@ -43,10 +43,111 @@
       "delivery": "Livraison gratuite à Dubaï"
     },
     "stats": {
+      "years": "Années d'Excellence",
+      "vehicles": "Véhicules de Luxe",
+      "clients": "Clients Satisfaits",
+      "service": "Service Disponible",
       "satisfaction": "Satisfaction Client",
       "availability": "Disponibilité 24/7",
       "experience": "Années d'Expérience",
       "rating": "Évaluation 5★"
+    },
+    "hero": {
+      "title": "Notre Histoire",
+      "subtitle": "15 Ans d'Excellence Luxueuse à Dubaï"
+    },
+    "introduction": {
+      "title": "Bienvenue chez Rolls-Royce Dubai",
+      "p1": "Depuis 2009, Rolls-Royce Dubai incarne l'excellence de la location de voitures de luxe aux Émirats Arabes Unis. Nous ne nous contentons pas de louer des voitures ; nous créons des expériences qui incarnent l'esprit Rolls-Royce – un luxe inégalé, un service exceptionnel et une attention portée à chaque détail.",
+      "p2": "D'un début modeste avec trois véhicules, nous avons grandi pour devenir le nom le plus fiable de Dubaï dans le transport de luxe, servant la royauté, les célébrités, les dirigeants d'entreprise et les voyageurs exigeants du monde entier."
+    },
+    "values": {
+      "sectionTitle": "Nos Valeurs Fondamentales",
+      "quality": {
+        "title": "Qualité Sans Compromis",
+        "description": "Nous maintenons les normes les plus élevées en matière d'entretien des véhicules et de prestation de services"
+      },
+      "customerFirst": {
+        "title": "Le Client d'Abord",
+        "description": "Votre satisfaction est notre objectif principal, avec un service personnalisé pour chaque client"
+      },
+      "luxuryExperience": {
+        "title": "Expérience Luxueuse",
+        "description": "Au-delà du transport, nous offrons des moments inoubliables de luxe pur"
+      },
+      "trust": {
+        "title": "Confiance et Fiabilité",
+        "description": "Construire des relations durables grâce à un service cohérent et fiable"
+      }
+    },
+    "milestones": {
+      "2009": "Fondation de l'entreprise avec 3 véhicules Rolls-Royce",
+      "2013": "Expansion de la flotte à 15 véhicules, introduction des services de chauffeur",
+      "2016": "Devenu partenaire officiel des hôtels de luxe de Dubaï",
+      "2019": "Lancement de la division des services d'entreprise",
+      "2021": "Introduction de la réservation sans contact et des services numériques",
+      "2024": "Célébration de 15 ans avec une flotte de plus de 50 véhicules",
+      "sectionTitle": "Notre Parcours"
+    },
+    "team": {
+      "sectionTitle": "Équipe de Direction",
+      "ceo": {
+        "role": "Fondateur et PDG",
+        "bio": "Avec plus de 20 ans dans l'automobile de luxe, Ahmed apporte une expertise inégalée au marché premium de la location de voitures de Dubaï."
+      },
+      "operations": {
+        "role": "Directrice des Opérations",
+        "bio": "Ancienne cadre Rolls-Royce s'assurant que notre flotte répond aux plus hauts standards internationaux."
+      },
+      "chauffeur": {
+        "role": "Responsable des Services de Chauffeur",
+        "bio": "Dirigeant une équipe de plus de 50 chauffeurs d'élite avec un focus sur l'excellence et la discrétion."
+      }
+    },
+    "certifications": {
+      "sectionTitle": "Certifications et Adhésions",
+      "tourism": "Agréé par le Tourisme de Dubaï",
+      "iso": "Certifié ISO 9001:2015",
+      "luxuryNetwork": "Membre du Réseau de Voyage de Luxe",
+      "chamber": "Membre de la Chambre de Commerce de Dubaï",
+      "rta": "Opérateur Approuvé RTA"
+    },
+    "whyChooseUs": {
+      "sectionTitle": "Pourquoi Choisir Rolls-Royce Dubai ?",
+      "fleet": {
+        "title": "Plus Grande Flotte des EAU",
+        "description": "Plus de 50 véhicules Rolls-Royce méticuleusement entretenus"
+      },
+      "insurance": {
+        "title": "Assurance Premium",
+        "description": "Couverture complète pour une tranquillité d'esprit totale"
+      },
+      "support": {
+        "title": "Support 24/7",
+        "description": "Assistance 24h/24 en plusieurs langues"
+      },
+      "chauffeurs": {
+        "title": "Chauffeurs d'Élite",
+        "description": "Conducteurs professionnels formés au service de luxe"
+      },
+      "pricing": {
+        "title": "Tarification Transparente",
+        "description": "Aucun frais caché, conditions claires"
+      },
+      "vip": {
+        "title": "Traitement VIP",
+        "description": "Service tapis rouge pour chaque client"
+      }
+    },
+    "cta": {
+      "title": "Découvrez la Différence",
+      "description": "Rejoignez des milliers de clients satisfaits qui ont choisi Rolls-Royce Dubai pour leurs besoins de transport de luxe.",
+      "button": "Voir Notre Flotte"
+    },
+    "virtualShowroom": {
+      "title": "Expérience Virtuelle 360°",
+      "description": "Faites une visite virtuelle immersive de notre showroom de luxe et explorez chaque détail de notre collection Rolls-Royce depuis le confort de votre maison.",
+      "cta": "Commencer la Visite Virtuelle"
     }
   },
   "fleet": {
@@ -2209,7 +2310,9 @@
     "error": "Une erreur est survenue.",
     "enterCode": "Entrer le code",
     "companyName": "Nom de l'entreprise",
-    "businessEmail": "Email professionnel"
+    "businessEmail": "Email professionnel",
+    "johnDoe": "Jean Dupont",
+    "rentalInquiry": "Demande de location"
   },
   "locations": {
     "downtownDubai": {
@@ -2314,6 +2417,87 @@
         "pickupPoint": "Point de prise en charge Marina",
         "pickupLocation": "Dubai Marina Walk, Bâtiment 6, Rez-de-chaussée",
         "gps": "GPS: 25.0657, 55.1713"
+      },
+      "stats": {
+        "monthlyDeliveries": "400+",
+        "monthlyDeliveriesLabel": "Livraisons mensuelles Marina",
+        "responseTime": "3 min",
+        "responseTimeLabel": "Temps de réponse moyen",
+        "beachClubs": "15+",
+        "beachClubsLabel": "Beach clubs partenaires",
+        "satisfaction": "4.9/5",
+        "satisfactionLabel": "Satisfaction client"
+      },
+      "experiences": {
+        "title": "Expériences Marina exclusives",
+        "subtitle": "Expériences de luxe sélectionnées dans le quartier balnéaire premier de Dubaï",
+        "bookExperience": "Réserver l'expérience",
+        "sunset": {
+          "title": "Croisière Marina au coucher du soleil",
+          "description": "Arrivez avec style pour une expérience de yacht de luxe avec transferts Rolls-Royce",
+          "duration": "4 heures",
+          "price": "À partir de 8,500 AED",
+          "highlights": [
+            "Prise en charge Rolls-Royce à Marina",
+            "Embarquement VIP sur yacht",
+            "Croisière coucher de soleil avec dîner gastronomique",
+            "Transfert retour vers votre destination"
+          ]
+        },
+        "beachClub": {
+          "title": "Circuit Elite Beach Club",
+          "description": "Accès VIP aux beach clubs les plus exclusifs de Marina avec transport de luxe",
+          "duration": "Journée complète",
+          "price": "À partir de 6,500 AED",
+          "highlights": [
+            "Accès club sans file d'attente",
+            "Cabanas premium réservées",
+            "Service chauffeur en attente",
+            "Transferts multi-lieux"
+          ]
+        },
+        "dining": {
+          "title": "Expérience gastronomique bord de mer",
+          "description": "Tour gastronomique étoilé Michelin le long des meilleurs restaurants de Dubai Marina",
+          "duration": "Soirée",
+          "price": "À partir de 7,200 AED",
+          "highlights": [
+            "Service voiturier restaurant",
+            "Réservations table du chef",
+            "Expériences accord vins",
+            "Transport de luxe nocturne tardif"
+          ]
+        }
+      },
+      "beachClubs": {
+        "title": "Beach clubs et lieux partenaires",
+        "subtitle": "Accès exclusif et traitement VIP dans les meilleurs établissements de Marina",
+        "clubs": [
+          {
+            "name": "Zero Gravity",
+            "type": "Beach club premium",
+            "feature": "Accès cabana VIP",
+            "distance": "2 min"
+          },
+          {
+            "name": "Barasti Beach",
+            "type": "Bar de plage",
+            "feature": "Service voiturier direct",
+            "distance": "3 min"
+          },
+          {
+            "name": "Azure Beach",
+            "type": "Club de jour",
+            "feature": "Parking VIP réservé",
+            "distance": "5 min"
+          },
+          {
+            "name": "Cove Beach",
+            "type": "Beach club de luxe",
+            "feature": "Entrée privée",
+            "distance": "7 min"
+          }
+        ]
       }
     },
     "palmJumeirah": {
@@ -2398,24 +2582,24 @@
           ]
         },
         "night": {
-          "name": "Route coucher de soleil et nuit",
-          "description": "Timing parfait pour l'heure dorée et monuments illuminés",
+          "name": "Route coucher et nuit",
+          "description": "Timing parfait pour l'heure dorée et les monuments illuminés",
           "highlights": [
             "Timing heure dorée",
             "Atlantis illuminé",
-            "Vues horizon"
+            "Vues sur l'horizon"
           ]
         }
       },
       "exclusiveExperiences": {
         "title": "Expériences exclusives Palm",
-        "bookButton": "Réserver expérience",
+        "bookButton": "Réserver l'expérience",
         "beachClub": {
           "title": "Accès club de plage élite",
-          "description": "Accès VIP aux clubs de plage les plus exclusifs de Palm avec arrivée Rolls-Royce",
+          "description": "Accès VIP aux clubs de plage les plus exclusifs de Palm avec arrivée en Rolls-Royce",
           "includes": [
-            "Entrée VIP avec arrivée Rolls-Royce",
-            "Cabane ou lit de jour réservé",
+            "Entrée VIP avec arrivée en Rolls-Royce",
+            "Cabana ou lit de jour réservé",
             "Boissons gratuites et cuisine gastronomique",
             "Séance photo professionnelle"
           ],
@@ -2423,39 +2607,39 @@
         },
         "atlantis": {
           "title": "Expérience Atlantis Royal",
-          "description": "Luxe ultime à Atlantis avec transferts exclusifs Rolls-Royce",
+          "description": "Luxe ultime à l'Atlantis avec transferts exclusifs en Rolls-Royce",
           "includes": [
             "Transferts Rolls-Royce aéroport et hôtel",
-            "Surclassement de suite à Atlantis Royal",
-            "Dîner privé dans restaurants de chefs célèbres",
+            "Surclassement suite à l'Atlantis Royal",
+            "Dîner privé dans des restaurants de chefs célèbres",
             "Accès VIP à Aquaventure et Lost Chambers"
           ],
           "price": "8 500 AED par jour"
         },
         "villa": {
           "title": "Expérience villa privée",
-          "description": "Accès exclusif aux villas de luxe Palm avec service complet de conciergerie",
+          "description": "Accès exclusif aux villas de luxe Palm avec service de conciergerie complet",
           "includes": [
             "Hébergement villa privée",
-            "Rolls-Royce dédié et chauffeur",
-            "Services concierge et chef personnels",
-            "Location yacht et accès sports nautiques"
+            "Rolls-Royce dédiée et chauffeur",
+            "Services de conciergerie personnels et chef",
+            "Location de yacht et accès aux sports nautiques"
           ],
           "price": "15 000 AED par jour"
         }
       },
       "attractions": {
-        "title": "Attractions principales",
+        "title": "Principales attractions",
         "distance": "Distance",
         "bestTime": "Meilleur moment",
         "thePointe": {
-          "description": "Destination gastronomique et divertissement en bord de mer avec spectacles de fontaines époustouflants",
+          "description": "Destination de restauration et divertissement en bord de mer avec spectacles de fontaines époustouflants",
           "distance": "Pointe du croissant",
-          "bestTime": "Soirée pour spectacles fontaines"
+          "bestTime": "Soirée pour les spectacles de fontaines"
         },
         "nakheelMall": {
-          "description": "Destination shopping premium avec marques de luxe et restaurants",
-          "distance": "Porte de Palm",
+          "description": "Destination shopping premium avec marques de luxe et restauration",
+          "distance": "Portail Palm",
           "bestTime": "Shopping après-midi"
         },
         "palmWestBeach": {
@@ -2464,23 +2648,23 @@
           "bestTime": "Matin et coucher de soleil"
         },
         "theView": {
-          "description": "Pont d'observation au 52e étage offrant des vues à 360 degrés sur Palm et Dubaï",
+          "description": "Pont d'observation du 52e étage offrant des vues à 360 degrés sur Palm et Dubaï",
           "distance": "Côté ouest",
-          "bestTime": "Journées de temps clair"
+          "bestTime": "Jours de temps clair"
         }
       },
       "weather": {
-        "title": "Expériences météo parfaites"
+        "title": "Expériences parfaites pour la météo"
       },
       "fleet": {
         "title": "Notre flotte Palm"
       },
       "cta": {
-        "title": "Découvrez Palm Jumeirah dans le luxe ultime",
+        "title": "Vivez Palm Jumeirah dans le luxe ultime",
         "subtitle": "Réservez votre Rolls-Royce pour une expérience inoubliable de Palm Jumeirah",
         "callButton": "Appeler maintenant",
-        "bookButton": "Réserver expérience",
-        "freeDelivery": "Livraison gratuite complexe",
+        "bookButton": "Réserver l'expérience",
+        "freeDelivery": "Livraison resort gratuite",
         "response": "Réponse 15 min",
         "support": "Support 24/7"
       }
@@ -2636,7 +2820,229 @@
       }
     },
     "jbr": {
-      "nav": "JBR"
+      "nav": "JBR",
+      "hero": {
+        "title": "Luxe de plage JBR",
+        "subtitle": "Où la vie de plage rencontre l'excellence Rolls-Royce",
+        "badge": "Première destination de plage de Dubaï",
+        "cta": {
+          "book": "Réserver livraison plage",
+          "experiences": "Expériences plage"
+        }
+      },
+      "whyChoose": {
+        "title": "Pourquoi choisir Rolls-Royce à JBR ?",
+        "features": {
+          "beachfront": {
+            "title": "Paradis en bord de mer",
+            "description": "Accès direct à la plage la plus dynamique de Dubaï avec parking premium dans tous les lieux"
+          },
+          "vip": {
+            "title": "VIP des clubs de plage",
+            "description": "Évitez les files d'attente dans les clubs de plage exclusifs avec notre service de coordination VIP"
+          },
+          "sunset": {
+            "title": "Promenades au coucher du soleil",
+            "description": "Vivez des croisières magiques au coucher du soleil le long du boulevard de la plage en luxe décapotable"
+          }
+        }
+      },
+      "stats": {
+        "deliveries": "Livraisons JBR mensuelles",
+        "arrival": "Temps d'arrivée plage",
+        "service": "Service bord de mer",
+        "rating": "Note client"
+      },
+      "beachClubs": {
+        "title": "Accès direct aux clubs de plage premium",
+        "clubs": {
+          "zeroGravity": {
+            "name": "Zero Gravity",
+            "type": "Club de plage",
+            "feature": "Cabanes VIP"
+          },
+          "nikki": {
+            "name": "Nikki Beach",
+            "type": "Club de plage luxe",
+            "feature": "Service valet"
+          },
+          "barasti": {
+            "name": "Barasti Beach",
+            "type": "Bar de plage",
+            "feature": "Accès direct"
+          },
+          "cove": {
+            "name": "Cove Beach",
+            "type": "Club de jour",
+            "feature": "Parking réservé"
+          },
+          "azure": {
+            "name": "Azure Beach",
+            "type": "Plage premium",
+            "feature": "Entrée VIP"
+          },
+          "theBeach": {
+            "name": "The Beach at JBR",
+            "type": "Plage publique",
+            "feature": "Points d'accès multiples"
+          }
+        }
+      },
+      "experiences": {
+        "title": "Expériences exclusives JBR",
+        "sunset": {
+          "title": "Promenade plage coucher soleil",
+          "description": "Croisière le long de la plage JBR pendant l'heure dorée",
+          "highlights": [
+            "Éclairage parfait pour photos",
+            "Croisière boulevard de plage",
+            "Arrêts aux points de vue panoramiques",
+            "Photographie professionnelle disponible"
+          ],
+          "bestCar": "Dawn Décapotable",
+          "price": "À partir de 7 000 AED",
+          "cta": "Réserver l'expérience"
+        },
+        "beachClub": {
+          "title": "Circuit clubs de plage",
+          "description": "Arrivées VIP dans les meilleurs clubs de plage de Dubaï",
+          "highlights": [
+            "Accès coupe-file",
+            "Parking VIP réservé",
+            "Réservations tables club",
+            "Service chauffeur en attente"
+          ],
+          "bestCar": "Cullinan",
+          "price": "À partir de 8 500 AED",
+          "cta": "Réserver l'expérience"
+        },
+        "nightLife": {
+          "title": "Expérience vie nocturne",
+          "description": "Divertissement du soir avec style",
+          "highlights": [
+            "Service valet restaurant",
+            "Coordination bar hopping",
+            "Chauffeur tard la nuit",
+            "Transport luxe sécurisé"
+          ],
+          "bestCar": "Ghost",
+          "price": "À partir de 6 200 AED",
+          "cta": "Réserver l'expérience"
+        },
+        "recommended": "Recommandé :"
+      },
+      "dining": {
+        "title": "Destinations gastronomiques",
+        "headers": {
+          "restaurant": "Restaurant",
+          "cuisine": "Cuisine",
+          "location": "Emplacement"
+        },
+        "restaurants": {
+          "zuma": {
+            "name": "Zuma",
+            "cuisine": "Japonaise",
+            "location": "DIFC (10 min)"
+          },
+          "laPetite": {
+            "name": "La Petite Maison",
+            "cuisine": "Française",
+            "location": "Gate Village"
+          },
+          "stk": {
+            "name": "STK",
+            "cuisine": "Steakhouse",
+            "location": "JBR Walk"
+          },
+          "seafire": {
+            "name": "Seafire Steakhouse",
+            "cuisine": "Américaine",
+            "location": "Atlantis (15 min)"
+          },
+          "ilBorro": {
+            "name": "Il Borro",
+            "cuisine": "Italienne",
+            "location": "JBR"
+          },
+          "nobu": {
+            "name": "Nobu",
+            "cuisine": "Fusion japonaise",
+            "location": "Atlantis (15 min)"
+          }
+        },
+        "note": "Coordination parking valet dans tous les restaurants premium"
+      },
+      "attractions": {
+        "title": "Explorer au-delà de JBR",
+        "list": {
+          "theWalk": {
+            "name": "The Walk JBR",
+            "distance": "Sur place",
+            "type": "Shopping et restauration"
+          },
+          "marina": {
+            "name": "Dubai Marina",
+            "distance": "5 minutes",
+            "type": "District front de mer"
+          },
+          "ainDubai": {
+            "name": "Ain Dubai",
+            "distance": "10 minutes",
+            "type": "Grande roue"
+          },
+          "palm": {
+            "name": "Palm Jumeirah",
+            "distance": "15 minutes",
+            "type": "Île iconique"
+          },
+          "skydive": {
+            "name": "Skydive Dubai",
+            "distance": "3 minutes",
+            "type": "Sport d'aventure"
+          },
+          "marinaMall": {
+            "name": "Dubai Marina Mall",
+            "distance": "7 minutes",
+            "type": "Shopping"
+          }
+        }
+      },
+      "weather": {
+        "title": "Meilleurs moments pour croisières plage"
+      },
+      "residential": {
+        "title": "Résidents des tours JBR",
+        "description": "Livraison gratuite à toutes les tours résidentielles JBR incluant :",
+        "towers": [
+          "Amwaj Suites",
+          "Bahar Towers",
+          "Rimal Towers",
+          "Shams Towers",
+          "Murjan Towers",
+          "Sadaf Towers"
+        ],
+        "note": "+ Toutes les tours JBR avec accès parking sous-sol"
+      },
+      "fleet": {
+        "title": "Choisissez votre compagnon de plage"
+      },
+      "cta": {
+        "title": "Vivez JBR dans le style Rolls-Royce",
+        "subtitle": "Des promenades plage au lever du soleil aux arrivées dîner au coucher du soleil, rendez chaque moment à JBR extraordinaire",
+        "call": "Appeler équipe JBR",
+        "book": "Réserver en ligne",
+        "pickupPoints": {
+          "title": "Points de prise en charge JBR",
+          "beach": {
+            "title": "Accès plage",
+            "location": "Entrée principale The Walk"
+          },
+          "tower": {
+            "title": "Livraison tour",
+            "location": "Tous parkings sous-sol JBR"
+          }
+        }
+      }
     },
     "difc": {
       "nav": "DIFC",
@@ -3231,6 +3637,106 @@
         "subtitle": "L'élégance britannique rencontre la précision allemande"
       },
       "comingSoon": "À venir"
+    }
+  },
+  "contact": {
+    "hero": {
+      "title": "Contactez-nous",
+      "description": "Nous sommes là pour rendre votre expérience de location de voitures de luxe extraordinaire"
+    },
+    "contactMethods": {
+      "call": {
+        "title": "Appelez-nous",
+        "description": "Support 24/7 disponible",
+        "value": "+971 55 816 4922"
+      },
+      "whatsapp": {
+        "title": "WhatsApp",
+        "description": "Réponse rapide garantie",
+        "value": "+971 55 816 4922"
+      },
+      "email": {
+        "title": "Écrivez-nous",
+        "description": "Nous répondons sous 2 heures",
+        "value": "info@rollsroycers.com"
+      },
+      "office": {
+        "title": "Visitez notre bureau",
+        "description": "Lun-Sam: 9h-20h",
+        "value": "Downtown Dubaï, EAU"
+      }
+    },
+    "form": {
+      "title": "Envoyez-nous un message",
+      "name": {
+        "label": "Nom complet",
+        "placeholder": "Jean Dupont"
+      },
+      "email": {
+        "label": "Adresse e-mail",
+        "placeholder": "jean@example.com"
+      },
+      "phone": {
+        "label": "Numéro de téléphone",
+        "placeholder": "+971 55 816 4922"
+      },
+      "subject": {
+        "label": "Sujet",
+        "placeholder": "Demande de location"
+      },
+      "message": {
+        "label": "Message",
+        "placeholder": "Parlez-nous de vos exigences..."
+      },
+      "preferredContact": {
+        "label": "Méthode de contact préférée",
+        "phone": "Téléphone",
+        "email": "E-mail",
+        "whatsapp": "WhatsApp"
+      },
+      "bestTime": {
+        "label": "Meilleur moment pour vous contacter",
+        "morning": "Matin (9h - 12h)",
+        "afternoon": "Après-midi (12h - 17h)",
+        "evening": "Soir (17h - 20h)",
+        "anytime": "N'importe quand"
+      },
+      "submit": "Envoyer le message",
+      "submitting": "Envoi en cours...",
+      "success": "✓ Message envoyé avec succès!",
+      "error": "✗ Échec de l'envoi. Veuillez réessayer."
+    },
+    "businessHours": {
+      "title": "Heures d'ouverture",
+      "monday": "Lundi - Vendredi",
+      "mondayHours": "9h00 - 20h00",
+      "saturday": "Samedi",
+      "saturdayHours": "9h00 - 18h00",
+      "sunday": "Dimanche",
+      "sundayHours": "10h00 - 17h00",
+      "emergency": "📞 Support d'urgence 24/7 disponible"
+    },
+    "socialMedia": {
+      "title": "Suivez-nous"
+    },
+    "faq": {
+      "title": "Questions fréquemment posées",
+      "q1": {
+        "question": "Quels documents dois-je fournir pour louer?",
+        "answer": "Permis de conduire UAE valide ou permis de conduire international, copie de passeport, et Emirates ID (pour les résidents)."
+      },
+      "q2": {
+        "question": "Puis-je louer pour quelques heures seulement?",
+        "answer": "Oui! Nous proposons des forfaits horaires flexibles à partir de 4 heures minimum."
+      },
+      "q3": {
+        "question": "Proposez-vous un service de prise en charge à l'aéroport?",
+        "answer": "Absolument! Nous offrons un service gratuit de prise en charge et de dépôt à l'aéroport."
+      },
+      "q4": {
+        "question": "L'assurance est-elle incluse?",
+        "answer": "Oui, une assurance complète est incluse dans tous nos forfaits de location."
+      }
     }
   }
 }

@@ -51,33 +51,33 @@ export default function ContactPage() {
   const contactMethods = [
     {
       icon: '📞',
-      title: 'Call Us',
-      description: '24/7 Support Available',
-      value: '+971 55 816 4922',
+      title: t('contact.contactMethods.call.title'),
+      description: t('contact.contactMethods.call.description'),
+      value: t('contact.contactMethods.call.value'),
       action: 'tel:+971558164922',
       color: 'bg-blue-500'
     },
     {
       icon: '💬',
-      title: 'WhatsApp',
-      description: 'Quick Response Guaranteed',
-      value: '+971 55 816 4922',
+      title: t('contact.contactMethods.whatsapp.title'),
+      description: t('contact.contactMethods.whatsapp.description'),
+      value: t('contact.contactMethods.whatsapp.value'),
       action: 'https://wa.me/971558164922',
       color: 'bg-green-500'
     },
     {
       icon: '📧',
-      title: 'Email Us',
-      description: 'We reply within 2 hours',
-      value: 'info@rollsroycers.com',
+      title: t('contact.contactMethods.email.title'),
+      description: t('contact.contactMethods.email.description'),
+      value: t('contact.contactMethods.email.value'),
       action: 'mailto:info@rollsroycers.com',
       color: 'bg-purple-500'
     },
     {
       icon: '📍',
-      title: 'Visit Our Office',
-      description: 'Mon-Sat: 9AM-8PM',
-      value: 'Downtown Dubai, UAE',
+      title: t('contact.contactMethods.office.title'),
+      description: t('contact.contactMethods.office.description'),
+      value: t('contact.contactMethods.office.value'),
       action: 'https://maps.google.com',
       color: 'bg-red-500'
     }
@@ -115,10 +115,10 @@ export default function ContactPage() {
               transition={{ duration: 0.8 }}
             >
               <h1 className="text-5xl md:text-7xl font-bold text-white mb-4">
-                Get in Touch
+                {t('contact.hero.title')}
               </h1>
               <p className="text-xl text-gray-300 max-w-2xl mx-auto px-4">
-                We're here to make your luxury car rental experience extraordinary
+                {t('contact.hero.description')}
               </p>
             </motion.div>
           </div>
@@ -158,12 +158,12 @@ export default function ContactPage() {
               animate={{ opacity: 1, x: 0 }}
               transition={{ delay: 0.5 }}
             >
-              <h2 className="text-3xl font-bold text-white mb-8">Send Us a Message</h2>
+              <h2 className="text-3xl font-bold text-white mb-8">{t('contact.form.title')}</h2>
               <form onSubmit={handleSubmit} className="space-y-6">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   <div>
                     <label htmlFor="name" className="block text-gray-300 mb-2">
-                      Full Name *
+                      {t('contact.form.name.label')} *
                     </label>
                     <input
                       type="text"
@@ -172,12 +172,12 @@ export default function ContactPage() {
                       value={formData.name}
                       onChange={(e) => setFormData({ ...formData, name: e.target.value })}
                       className="w-full bg-gray-800 text-white px-4 py-3 rounded-lg focus:outline-none focus:ring-2 focus:ring-rolls-gold"
-                      placeholder={t('placeholders.johnDoe')}
+                      placeholder={t('contact.form.name.placeholder')}
                     />
                   </div>
                   <div>
                     <label htmlFor="email" className="block text-gray-300 mb-2">
-                      Email Address *
+                      {t('contact.form.email.label')} *
                     </label>
                     <input
                       type="email"
@@ -186,7 +186,7 @@ export default function ContactPage() {
                       value={formData.email}
                       onChange={(e) => setFormData({ ...formData, email: e.target.value })}
                       className="w-full bg-gray-800 text-white px-4 py-3 rounded-lg focus:outline-none focus:ring-2 focus:ring-rolls-gold"
-                      placeholder="john@example.com"
+                      placeholder={t('contact.form.email.placeholder')}
                     />
                   </div>
                 </div>
@@ -194,7 +194,7 @@ export default function ContactPage() {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   <div>
                     <label htmlFor="phone" className="block text-gray-300 mb-2">
-                      Phone Number *
+                      {t('contact.form.phone.label')} *
                     </label>
                     <input
                       type="tel"
@@ -203,12 +203,12 @@ export default function ContactPage() {
                       value={formData.phone}
                       onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
                       className="w-full bg-gray-800 text-white px-4 py-3 rounded-lg focus:outline-none focus:ring-2 focus:ring-rolls-gold"
-                      placeholder="+971 55 816 4922"
+                      placeholder={t('contact.form.phone.placeholder')}
                     />
                   </div>
                   <div>
                     <label htmlFor="subject" className="block text-gray-300 mb-2">
-                      Subject
+                      {t('contact.form.subject.label')}
                     </label>
                     <input
                       type="text"
@@ -216,14 +216,14 @@ export default function ContactPage() {
                       value={formData.subject}
                       onChange={(e) => setFormData({ ...formData, subject: e.target.value })}
                       className="w-full bg-gray-800 text-white px-4 py-3 rounded-lg focus:outline-none focus:ring-2 focus:ring-rolls-gold"
-                      placeholder={t('placeholders.rentalInquiry')}
+                      placeholder={t('contact.form.subject.placeholder')}
                     />
                   </div>
                 </div>
 
                 <div>
                   <label htmlFor="message" className="block text-gray-300 mb-2">
-                    Message *
+                    {t('contact.form.message.label')} *
                   </label>
                   <textarea
                     id="message"
@@ -232,14 +232,14 @@ export default function ContactPage() {
                     value={formData.message}
                     onChange={(e) => setFormData({ ...formData, message: e.target.value })}
                     className="w-full bg-gray-800 text-white px-4 py-3 rounded-lg focus:outline-none focus:ring-2 focus:ring-rolls-gold resize-none"
-                    placeholder="Tell us about your requirements..."
+                    placeholder={t('contact.form.message.placeholder')}
                   />
                 </div>
 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   <div>
                     <label className="block text-gray-300 mb-2">
-                      Preferred Contact Method
+                      {t('contact.form.preferredContact.label')}
                     </label>
                     <div className="flex gap-4">
                       {['phone', 'email', 'whatsapp'].map((method) => (
@@ -252,14 +252,16 @@ export default function ContactPage() {
                             onChange={(e) => setFormData({ ...formData, preferredContact: e.target.value })}
                             className="mr-2 text-rolls-gold"
                           />
-                          <span className="text-gray-300 capitalize">{method}</span>
+                          <span className="text-gray-300">
+                            {t(`contact.form.preferredContact.${method}`)}
+                          </span>
                         </label>
                       ))}
                     </div>
                   </div>
                   <div>
                     <label htmlFor="bestTime" className="block text-gray-300 mb-2">
-                      Best Time to Contact
+                      {t('contact.form.bestTime.label')}
                     </label>
                     <select
                       id="bestTime"
@@ -267,10 +269,10 @@ export default function ContactPage() {
                       onChange={(e) => setFormData({ ...formData, bestTime: e.target.value })}
                       className="w-full bg-gray-800 text-white px-4 py-3 rounded-lg focus:outline-none focus:ring-2 focus:ring-rolls-gold"
                     >
-                      <option value="morning">Morning (9AM - 12PM)</option>
-                      <option value="afternoon">Afternoon (12PM - 5PM)</option>
-                      <option value="evening">Evening (5PM - 8PM)</option>
-                      <option value="anytime">Anytime</option>
+                      <option value="morning">{t('contact.form.bestTime.morning')}</option>
+                      <option value="afternoon">{t('contact.form.bestTime.afternoon')}</option>
+                      <option value="evening">{t('contact.form.bestTime.evening')}</option>
+                      <option value="anytime">{t('contact.form.bestTime.anytime')}</option>
                     </select>
                   </div>
                 </div>
@@ -286,7 +288,7 @@ export default function ContactPage() {
                         : 'bg-rolls-gold text-black hover:bg-yellow-600'
                     }`}
                   >
-                    {isSubmitting ? 'Sending...' : 'Send Message'}
+                    {isSubmitting ? t('contact.form.submitting') : t('contact.form.submit')}
                   </button>
 
                   {submitStatus === 'success' && (
@@ -295,7 +297,7 @@ export default function ContactPage() {
                       animate={{ opacity: 1 }}
                       className="text-green-500"
                     >
-                      ✓ Message sent successfully!
+                      {t('contact.form.success')}
                     </motion.p>
                   )}
                   {submitStatus === 'error' && (
@@ -304,7 +306,7 @@ export default function ContactPage() {
                       animate={{ opacity: 1 }}
                       className="text-red-500"
                     >
-                      ✗ Failed to send. Please try again.
+                      {t('contact.form.error')}
                     </motion.p>
                   )}
                 </div>
@@ -333,29 +335,33 @@ export default function ContactPage() {
 
               {/* Business Hours */}
               <div className="bg-gray-800 rounded-lg p-6">
-                <h3 className="text-xl font-semibold text-white mb-4">Business Hours</h3>
+                <h3 className="text-xl font-semibold text-white mb-4">
+                  {t('contact.businessHours.title')}
+                </h3>
                 <div className="space-y-2">
                   <div className="flex justify-between text-gray-300">
-                    <span>Monday - Friday</span>
-                    <span className="text-rolls-gold">9:00 AM - 8:00 PM</span>
+                    <span>{t('contact.businessHours.monday')}</span>
+                    <span className="text-rolls-gold">{t('contact.businessHours.mondayHours')}</span>
                   </div>
                   <div className="flex justify-between text-gray-300">
-                    <span>Saturday</span>
-                    <span className="text-rolls-gold">9:00 AM - 6:00 PM</span>
+                    <span>{t('contact.businessHours.saturday')}</span>
+                    <span className="text-rolls-gold">{t('contact.businessHours.saturdayHours')}</span>
                   </div>
                   <div className="flex justify-between text-gray-300">
-                    <span>Sunday</span>
-                    <span className="text-rolls-gold">10:00 AM - 5:00 PM</span>
+                    <span>{t('contact.businessHours.sunday')}</span>
+                    <span className="text-rolls-gold">{t('contact.businessHours.sundayHours')}</span>
                   </div>
                   <div className="pt-4 border-t border-gray-700 mt-4">
-                    <p className="text-green-500">📞 24/7 Emergency Support Available</p>
+                    <p className="text-green-500">{t('contact.businessHours.emergency')}</p>
                   </div>
                 </div>
               </div>
 
               {/* Social Media */}
               <div className="bg-gray-800 rounded-lg p-6">
-                <h3 className="text-xl font-semibold text-white mb-4">Follow Us</h3>
+                <h3 className="text-xl font-semibold text-white mb-4">
+                  {t('contact.socialMedia.title')}
+                </h3>
                 <div className="flex gap-4">
                   {socialLinks.map((social) => (
                     <a
@@ -379,36 +385,23 @@ export default function ContactPage() {
         <section className="bg-gray-800 py-16">
           <div className="container mx-auto px-4">
             <h2 className="text-3xl font-bold text-white text-center mb-12">
-              Frequently Asked Questions
+              {t('contact.faq.title')}
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
-              {[
-                {
-                  q: 'What documents do I need to rent?',
-                  a: 'Valid UAE driving license or international driving permit, passport copy, and Emirates ID (for residents).'
-                },
-                {
-                  q: 'Can I rent for just a few hours?',
-                  a: 'Yes! We offer flexible hourly packages starting from 4 hours minimum.'
-                },
-                {
-                  q: 'Do you provide airport pickup?',
-                  a: 'Absolutely! We offer complimentary airport pickup and drop-off services.'
-                },
-                {
-                  q: 'Is insurance included?',
-                  a: 'Yes, comprehensive insurance is included in all our rental packages.'
-                }
-              ].map((faq, index) => (
+              {['q1', 'q2', 'q3', 'q4'].map((faqKey, index) => (
                 <motion.div
-                  key={index}
+                  key={faqKey}
                   initial={{ opacity: 0, y: 20 }}
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ delay: 0.1 * index }}
                   className="bg-gray-700 rounded-lg p-6"
                 >
-                  <h4 className="text-white font-semibold mb-2">{faq.q}</h4>
-                  <p className="text-gray-300">{faq.a}</p>
+                  <h4 className="text-white font-semibold mb-2">
+                    {t(`contact.faq.${faqKey}.question`)}
+                  </h4>
+                  <p className="text-gray-300">
+                    {t(`contact.faq.${faqKey}.answer`)}
+                  </p>
                 </motion.div>
               ))}
             </div>
