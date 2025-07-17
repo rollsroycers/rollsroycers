@@ -1,5 +1,6 @@
 import { GetStaticProps } from 'next'
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
+import { useTranslation } from 'next-i18next'
 import SEO from '@/components/SEO'
 import Image from 'next/image'
 import Link from 'next/link'
@@ -9,70 +10,71 @@ import Layout from '@/components/Layout'
 import WhatsAppButton from '@/components/WhatsAppButton'
 
 export default function GalleryPage() {
+  const { t } = useTranslation('common')
   const [selectedCategory, setSelectedCategory] = useState('all')
   const [selectedImage, setSelectedImage] = useState<number | null>(null)
   const [showVideoModal, setShowVideoModal] = useState(false)
   const [selectedVideo, setSelectedVideo] = useState('')
 
   const categories = [
-    { id: 'all', name: 'All', icon: '🌟' },
-    { id: 'exterior', name: 'Exterior', icon: '🚗' },
-    { id: 'interior', name: 'Interior', icon: '🛋️' },
-    { id: 'details', name: 'Details', icon: '💎' },
-    { id: 'events', name: 'Events', icon: '🎭' },
-    { id: 'locations', name: 'Locations', icon: '📍' },
-    { id: 'photoshoot', name: 'Photoshoot', icon: '📸' },
-    { id: 'lifestyle', name: 'Lifestyle', icon: '✨' }
+    { id: 'all', name: t('gallery.categories.all'), icon: '🌟' },
+    { id: 'exterior', name: t('gallery.categories.exterior'), icon: '🚗' },
+    { id: 'interior', name: t('gallery.categories.interior'), icon: '🛋️' },
+    { id: 'details', name: t('gallery.categories.details'), icon: '💎' },
+    { id: 'events', name: t('gallery.categories.events'), icon: '🎭' },
+    { id: 'locations', name: t('gallery.categories.locations'), icon: '📍' },
+    { id: 'photoshoot', name: t('gallery.categories.photoshoot'), icon: '📸' },
+    { id: 'lifestyle', name: t('gallery.categories.lifestyle'), icon: '✨' }
   ]
 
   const galleryImages = [
     {
         id: 1,
         category: 'exterior',
-        vehicle: 'Phantom',
+        vehicle: t('gallery.vehicles.phantom'),
         title: 'Rolls Royce Extended Wheelbase Phantom',
         image: '/images/_Rolls-Royce_Extended_Wheelbase_Phantom.jpg',
-        description: 'Premium Phantom - Stunning exterior view'
+        description: `${t('gallery.descriptions.premium')} ${t('gallery.vehicles.phantom')} - ${t('gallery.descriptions.exterior')}`
     },
     {
         id: 2,
         category: 'exterior',
-        vehicle: 'Cullinan',
+        vehicle: t('gallery.vehicles.cullinan'),
         title: '2024 Rolls Royce Cullinan Black Badge',
         image: '/images/2024_Rolls-Royce_Cullinan_Black_Badge.jpg',
-        description: 'Premium Cullinan - Stunning exterior view'
+        description: `${t('gallery.descriptions.premium')} ${t('gallery.vehicles.cullinan')} - ${t('gallery.descriptions.exterior')}`
     },
     {
         id: 3,
         category: 'exterior',
-        vehicle: 'Cullinan',
+        vehicle: t('gallery.vehicles.cullinan'),
         title: '2024 Rolls Royce Cullinan',
         image: '/images/2024_Rolls-Royce_Cullinan.jpg',
-        description: 'Premium Cullinan - Stunning exterior view'
+        description: `${t('gallery.descriptions.premium')} ${t('gallery.vehicles.cullinan')} - ${t('gallery.descriptions.exterior')}`
     },
     {
         id: 4,
         category: 'exterior',
-        vehicle: 'Spectre',
+        vehicle: t('gallery.vehicles.spectre'),
         title: '2024 Rolls Royce Spectre',
         image: '/images/2024_Rolls-Royce_Spectre.jpg',
-        description: 'Premium Spectre - Stunning exterior view'
+        description: `${t('gallery.descriptions.premium')} ${t('gallery.vehicles.spectre')} - ${t('gallery.descriptions.exterior')}`
     },
     {
         id: 5,
         category: 'exterior',
-        vehicle: 'Ghost',
+        vehicle: t('gallery.vehicles.ghost'),
         title: '2025 Rolls Royce Ghost Black Badge Idealist',
         image: '/images/2025_Rolls-Royce_Ghost_Black_Badge_Idealist.jpg',
-        description: 'Premium Ghost - Stunning exterior view'
+        description: `${t('gallery.descriptions.premium')} ${t('gallery.vehicles.ghost')} - ${t('gallery.descriptions.exterior')}`
     },
     {
         id: 6,
         category: 'exterior',
-        vehicle: 'Ghost',
+        vehicle: t('gallery.vehicles.ghost'),
         title: 'Black Rolls Royce Ghost',
         image: '/images/Black_Rolls_Royce_Ghost.jpg',
-        description: 'Premium Ghost - Stunning exterior view'
+        description: `${t('gallery.descriptions.premium')} ${t('gallery.vehicles.ghost')} - ${t('gallery.descriptions.exterior')}`
     },
     {
         id: 7,
@@ -80,7 +82,7 @@ export default function GalleryPage() {
         vehicle: 'Rolls-Royce',
         title: 'Download Rolls Royce Logo Wallpape',
         image: '/images/Download_Rolls_Royce_Logo_wallpape.jpg',
-        description: 'Premium Rolls-Royce - Exquisite detail shot'
+        description: `${t('gallery.descriptions.premium')} Rolls-Royce - ${t('gallery.descriptions.details')}`
     },
     {
         id: 8,
@@ -88,15 +90,15 @@ export default function GalleryPage() {
         vehicle: 'Rolls-Royce',
         title: 'Inside Rolls Royce',
         image: '/images/inside-Rolls-Royce.jpg',
-        description: 'Premium Rolls-Royce - Luxurious interior view'
+        description: `${t('gallery.descriptions.premium')} Rolls-Royce - ${t('gallery.descriptions.interior')}`
     },
     {
         id: 9,
         category: 'lifestyle',
-        vehicle: 'Phantom',
+        vehicle: t('gallery.vehicles.phantom'),
         title: 'Luxury Cars Like The Rolls Royce Phantom',
         image: '/images/Luxury_cars_like_the_Rolls-Royce_Phantom.jpg',
-        description: 'Premium Phantom - Stunning exterior view'
+        description: `${t('gallery.descriptions.premium')} ${t('gallery.vehicles.phantom')} - ${t('gallery.descriptions.exterior')}`
     },
     {
         id: 10,
@@ -104,31 +106,31 @@ export default function GalleryPage() {
         vehicle: 'Rolls-Royce',
         title: 'Luxury Rolls Royce',
         image: '/images/Luxury_Rolls_Royce.jpg',
-        description: 'Premium Rolls-Royce - Stunning exterior view'
+        description: `${t('gallery.descriptions.premium')} Rolls-Royce - ${t('gallery.descriptions.exterior')}`
     },
     {
         id: 11,
         category: 'exterior',
-        vehicle: 'Phantom',
+        vehicle: t('gallery.vehicles.phantom'),
         title: 'New Rolls Royce Extended Wheelbase Phantom',
         image: '/images/new_Rolls-Royce_Extended_Wheelbase_Phantom.jpg',
-        description: 'Premium Phantom - Stunning exterior view'
+        description: `${t('gallery.descriptions.premium')} ${t('gallery.vehicles.phantom')} - ${t('gallery.descriptions.exterior')}`
     },
     {
         id: 12,
         category: 'interior',
-        vehicle: 'Ghost',
+        vehicle: t('gallery.vehicles.ghost'),
         title: 'New Rolls Royce Ghost Interior',
         image: '/images/New_Rolls-Royce_Ghost_interior_.jpg',
-        description: 'Premium Ghost - Luxurious interior view'
+        description: `${t('gallery.descriptions.premium')} ${t('gallery.vehicles.ghost')} - ${t('gallery.descriptions.interior')}`
     },
     {
         id: 13,
         category: 'exterior',
-        vehicle: 'Phantom',
+        vehicle: t('gallery.vehicles.phantom'),
         title: 'Phantom Extended',
         image: '/images/Phantom_Extended.jpg',
-        description: 'Premium Phantom - Stunning exterior view'
+        description: `${t('gallery.descriptions.premium')} ${t('gallery.vehicles.phantom')} - ${t('gallery.descriptions.exterior')}`
     },
     {
         id: 14,
@@ -136,39 +138,39 @@ export default function GalleryPage() {
         vehicle: 'Rolls-Royce',
         title: 'Rolls Oyce Air Port',
         image: '/images/Rolls-oyce-air-port.jpg',
-        description: 'Premium Rolls-Royce - Stunning exterior view'
+        description: `${t('gallery.descriptions.premium')} Rolls-Royce - ${t('gallery.descriptions.exterior')}`
     },
     {
         id: 15,
         category: 'exterior',
-        vehicle: 'Cullinan',
+        vehicle: t('gallery.vehicles.cullinan'),
         title: 'Rolls Royce Cullinan',
         image: '/images/Rolls-Royce_Cullinan_.jpg',
-        description: 'Premium Cullinan - Stunning exterior view'
+        description: `${t('gallery.descriptions.premium')} ${t('gallery.vehicles.cullinan')} - ${t('gallery.descriptions.exterior')}`
     },
     {
         id: 16,
         category: 'exterior',
-        vehicle: 'Cullinan',
+        vehicle: t('gallery.vehicles.cullinan'),
         title: 'Rolls Royce Cullinan Majestic Aurora',
         image: '/images/Rolls-Royce_Cullinan_Majestic_Aurora_.jpg',
-        description: 'Premium Cullinan - Stunning exterior view'
+        description: `${t('gallery.descriptions.premium')} ${t('gallery.vehicles.cullinan')} - ${t('gallery.descriptions.exterior')}`
     },
     {
         id: 17,
         category: 'exterior',
-        vehicle: 'Cullinan',
+        vehicle: t('gallery.vehicles.cullinan'),
         title: 'Rolls Royce Cullinan SUV 2',
         image: '/images/Rolls-Royce_Cullinan_SUV-2.jpg',
-        description: 'Premium Cullinan - Stunning exterior view'
+        description: `${t('gallery.descriptions.premium')} ${t('gallery.vehicles.cullinan')} - ${t('gallery.descriptions.exterior')}`
     },
     {
         id: 18,
         category: 'exterior',
-        vehicle: 'Dawn',
+        vehicle: t('gallery.vehicles.dawn'),
         title: 'Rolls Royce Dawn Convertible 2',
         image: '/images/Rolls-Royce_Dawn_Convertible-2.jpg',
-        description: 'Premium Dawn - Stunning exterior view'
+        description: `${t('gallery.descriptions.premium')} ${t('gallery.vehicles.dawn')} - ${t('gallery.descriptions.exterior')}`
     },
     {
         id: 19,
@@ -176,47 +178,47 @@ export default function GalleryPage() {
         vehicle: 'Rolls-Royce',
         title: 'Rolls Royce Dawn',
         image: '/images/Rolls-Royce_Dawn.jpg',
-        description: 'Premium Rolls-Royce - Stunning exterior view'
+        description: `${t('gallery.descriptions.premium')} Rolls-Royce - ${t('gallery.descriptions.exterior')}`
     },
     {
         id: 20,
         category: 'details',
-        vehicle: 'Ghost',
+        vehicle: t('gallery.vehicles.ghost'),
         title: 'Rolls Royce Ghost Black Badge',
         image: '/images/Rolls-Royce_Ghost_Black_Badge.jpg',
-        description: 'Premium Ghost - Exquisite detail shot'
+        description: `${t('gallery.descriptions.premium')} ${t('gallery.vehicles.ghost')} - ${t('gallery.descriptions.details')}`
     },
     {
         id: 21,
         category: 'exterior',
-        vehicle: 'Ghost',
+        vehicle: t('gallery.vehicles.ghost'),
         title: 'Rolls Royce Ghost 2',
         image: '/images/Rolls-Royce_Ghost-2.jpg',
-        description: 'Premium Ghost - Stunning exterior view'
+        description: `${t('gallery.descriptions.premium')} ${t('gallery.vehicles.ghost')} - ${t('gallery.descriptions.exterior')}`
     },
     {
         id: 22,
         category: 'exterior',
-        vehicle: 'Phantom',
+        vehicle: t('gallery.vehicles.phantom'),
         title: 'Rolls Royce Phantom Extended Magnetism',
         image: '/images/Rolls-Royce_Phantom_Extended_Magnetism.jpg',
-        description: 'Premium Phantom - Stunning exterior view'
+        description: `${t('gallery.descriptions.premium')} ${t('gallery.vehicles.phantom')} - ${t('gallery.descriptions.exterior')}`
     },
     {
         id: 23,
         category: 'exterior',
-        vehicle: 'Phantom',
+        vehicle: t('gallery.vehicles.phantom'),
         title: 'Rolls Royce Phantom Extended Series II',
         image: '/images/Rolls-Royce_Phantom_Extended_Series_II.jpg',
-        description: 'Premium Phantom - Stunning exterior view'
+        description: `${t('gallery.descriptions.premium')} ${t('gallery.vehicles.phantom')} - ${t('gallery.descriptions.exterior')}`
     },
     {
         id: 24,
         category: 'exterior',
-        vehicle: 'Spectre',
+        vehicle: t('gallery.vehicles.spectre'),
         title: 'Rolls Royce Spectre',
         image: '/images/Rolls-Royce_Spectre.jpg',
-        description: 'Premium Spectre - Stunning exterior view'
+        description: `${t('gallery.descriptions.premium')} ${t('gallery.vehicles.spectre')} - ${t('gallery.descriptions.exterior')}`
     },
     {
         id: 25,
@@ -224,7 +226,7 @@ export default function GalleryPage() {
         vehicle: 'Rolls-Royce',
         title: 'Rolls Royce 2',
         image: '/images/Rolls-Royce-2.jpg',
-        description: 'Premium Rolls-Royce - Stunning exterior view'
+        description: `${t('gallery.descriptions.premium')} Rolls-Royce - ${t('gallery.descriptions.exterior')}`
     },
     {
         id: 26,
@@ -232,7 +234,7 @@ export default function GalleryPage() {
         vehicle: 'Rolls-Royce',
         title: 'Rolls Royce Black',
         image: '/images/Rolls-Royce-black.jpg',
-        description: 'Premium Rolls-Royce - Stunning exterior view'
+        description: `${t('gallery.descriptions.premium')} Rolls-Royce - ${t('gallery.descriptions.exterior')}`
     },
     {
         id: 27,
@@ -240,7 +242,7 @@ export default function GalleryPage() {
         vehicle: 'Rolls-Royce',
         title: 'Rolls Royce Car Icon',
         image: '/images/Rolls-Royce-car-icon.jpg',
-        description: 'Premium Rolls-Royce - Exquisite detail shot'
+        description: `${t('gallery.descriptions.premium')} Rolls-Royce - ${t('gallery.descriptions.details')}`
     },
     {
         id: 28,
@@ -248,7 +250,7 @@ export default function GalleryPage() {
         vehicle: 'Rolls-Royce',
         title: 'Rolls Royce Cullinan',
         image: '/images/Rolls-Royce-Cullinan_.jpg',
-        description: 'Premium Rolls-Royce - Stunning exterior view'
+        description: `${t('gallery.descriptions.premium')} Rolls-Royce - ${t('gallery.descriptions.exterior')}`
     },
     {
         id: 29,
@@ -256,7 +258,7 @@ export default function GalleryPage() {
         vehicle: 'Rolls-Royce',
         title: 'Rolls Royce Dubai',
         image: '/images/Rolls-royce-dubai.jpg',
-        description: 'Premium Rolls-Royce - Stunning exterior view'
+        description: `${t('gallery.descriptions.premium')} Rolls-Royce - ${t('gallery.descriptions.exterior')}`
     },
     {
         id: 30,
@@ -264,7 +266,7 @@ export default function GalleryPage() {
         vehicle: 'Rolls-Royce',
         title: 'Rolls Royce Front',
         image: '/images/Rolls-Royce-front.jpg',
-        description: 'Premium Rolls-Royce - Stunning exterior view'
+        description: `${t('gallery.descriptions.premium')} Rolls-Royce - ${t('gallery.descriptions.exterior')}`
     },
     {
         id: 31,
@@ -272,15 +274,15 @@ export default function GalleryPage() {
         vehicle: 'Rolls-Royce',
         title: 'Rolls Royce Official',
         image: '/images/Rolls-royce-official.jpg',
-        description: 'Premium Rolls-Royce - Stunning exterior view'
+        description: `${t('gallery.descriptions.premium')} Rolls-Royce - ${t('gallery.descriptions.exterior')}`
     },
     {
         id: 32,
         category: 'exterior',
-        vehicle: 'Phantom',
+        vehicle: t('gallery.vehicles.phantom'),
         title: 'Rolls Royce Phantom',
         image: '/images/Rolls-royce-phantom.jpg',
-        description: 'Premium Phantom - Stunning exterior view'
+        description: `${t('gallery.descriptions.premium')} ${t('gallery.vehicles.phantom')} - ${t('gallery.descriptions.exterior')}`
     },
     {
         id: 33,
@@ -288,7 +290,7 @@ export default function GalleryPage() {
         vehicle: 'Rolls-Royce',
         title: 'Rolls Royce White',
         image: '/images/Rolls-Royce-white.jpg',
-        description: 'Premium Rolls-Royce - Stunning exterior view'
+        description: `${t('gallery.descriptions.premium')} Rolls-Royce - ${t('gallery.descriptions.exterior')}`
     },
     {
         id: 34,
@@ -296,7 +298,7 @@ export default function GalleryPage() {
         vehicle: 'Rolls-Royce',
         title: 'Rolls Royce With Blan',
         image: '/images/Rolls-royce-with-blan.jpg',
-        description: 'Premium Rolls-Royce - Stunning exterior view'
+        description: `${t('gallery.descriptions.premium')} Rolls-Royce - ${t('gallery.descriptions.exterior')}`
     },
     {
         id: 35,
@@ -304,7 +306,7 @@ export default function GalleryPage() {
         vehicle: 'Rolls-Royce',
         title: 'Rolls Royce Logo',
         image: '/images/logo.jpg',
-        description: 'Premium Rolls-Royce - Exquisite detail shot'
+        description: `${t('gallery.descriptions.premium')} Rolls-Royce - ${t('gallery.descriptions.details')}`
     },
     {
         id: 36,
@@ -312,45 +314,45 @@ export default function GalleryPage() {
         vehicle: 'Rolls-Royce',
         title: 'Rolls Royce Red Background',
         image: '/images/Rolls-Royce-red-background_.png',
-        description: 'Premium Rolls-Royce - Exquisite detail shot'
+        description: `${t('gallery.descriptions.premium')} Rolls-Royce - ${t('gallery.descriptions.details')}`
     }
   ];
 
   const videoGallery = [
     {
         id: 1,
-        title: 'Luxury Millionaire Aesthetic Lifestyle',
+        title: t('gallery.videos.millionaire'),
         video: '/images/videos/Luxury_Millionaire_Aesthetic_Lifestyle.mp4',
         thumbnail: '/images/videos/Luxury_Millionaire_Aesthetic_Lifestyle-thumb.jpg',
-        description: 'Experience the luxury of Rolls-Royce'
+        description: `${t('gallery.videos.experience')} Rolls-Royce`
     },
     {
         id: 2,
-        title: 'Mansory Black Badge Rolls Royce Cullinan',
+        title: t('gallery.videos.mansory'),
         video: '/images/videos/Mansory_Black_Badge_Rolls_Royce_Cullinan.mp4',
         thumbnail: '/images/videos/Mansory_Black_Badge_Rolls_Royce_Cullinan-thumb.jpg',
-        description: 'Experience the luxury of Cullinan'
+        description: `${t('gallery.videos.experience')} ${t('gallery.vehicles.cullinan')}`
     },
     {
         id: 3,
-        title: 'Rolls Royce Cullinan',
+        title: `Rolls Royce ${t('gallery.vehicles.cullinan')}`,
         video: '/images/videos/Rolls-Royce-Cullinan_.mp4',
         thumbnail: '/images/videos/Rolls-Royce-Cullinan_-thumb.jpg',
-        description: 'Experience the luxury of Cullinan'
+        description: `${t('gallery.videos.experience')} ${t('gallery.vehicles.cullinan')}`
     },
     {
         id: 4,
-        title: 'Rolls Royce Phantom',
+        title: `Rolls Royce ${t('gallery.vehicles.phantom')}`,
         video: '/images/videos/Rolls-royce-phantom.mp4',
         thumbnail: '/images/videos/Rolls-royce-phantom-thumb.jpg',
-        description: 'Experience the luxury of Phantom'
+        description: `${t('gallery.videos.experience')} ${t('gallery.vehicles.phantom')}`
     },
     {
         id: 5,
-        title: 'Rolls Royce Defines What Luxury Cars Mean',
+        title: t('gallery.videos.defines'),
         video: '/images/videos/Rolls_Royce_defines_what_Luxury_cars_mean.mp4',
         thumbnail: '/images/videos/Rolls_Royce_defines_what_Luxury_cars_mean-thumb.jpg',
-        description: 'Experience the luxury of Rolls-Royce'
+        description: `${t('gallery.videos.experience')} Rolls-Royce`
     }
   ];
 
@@ -406,10 +408,10 @@ export default function GalleryPage() {
               transition={{ duration: 0.8 }}
             >
               <h1 className="text-5xl md:text-7xl font-bold text-white mb-4">
-                Gallery
+                {t('gallery.hero.title')}
               </h1>
               <p className="text-xl text-gray-300 max-w-2xl mx-auto px-4">
-                Immerse yourself in the world of Rolls-Royce luxury
+                {t('gallery.hero.subtitle')}
               </p>
             </motion.div>
           </div>
@@ -470,7 +472,7 @@ export default function GalleryPage() {
         {/* Video Gallery */}
         <section className="bg-gray-800/50 py-16">
           <div className="container mx-auto px-4">
-            <h2 className="text-3xl font-bold text-white mb-8 text-center">Video Gallery</h2>
+            <h2 className="text-3xl font-bold text-white mb-8 text-center">{t('gallery.videoGallery.title')}</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
               {videoGallery.map((video, index) => (
                 <motion.div
@@ -513,8 +515,8 @@ export default function GalleryPage() {
         {/* Instagram Feed */}
         <section className="container mx-auto px-4 py-16">
           <div className="text-center mb-8">
-            <h2 className="text-3xl font-bold text-white mb-4">Follow Us on Instagram</h2>
-            <p className="text-gray-400">@rollsroycers</p>
+            <h2 className="text-3xl font-bold text-white mb-4">{t('gallery.instagram.title')}</h2>
+            <p className="text-gray-400">{t('gallery.instagram.handle')}</p>
           </div>
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
             {instagramPosts.map((post, index) => (

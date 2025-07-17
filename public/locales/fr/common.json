@@ -4188,5 +4188,48 @@
       "viewFleet": "Voir notre flotte",
       "disclaimer": "En réservant, vous acceptez ces conditions générales"
     }
+  },
+  "gallery": {
+    "hero": {
+      "title": "Galerie",
+      "subtitle": "Plongez dans l'univers du luxe Rolls-Royce"
+    },
+    "categories": {
+      "all": "Tout",
+      "exterior": "Extérieur",
+      "interior": "Intérieur",
+      "details": "Détails",
+      "events": "Événements",
+      "locations": "Lieux",
+      "photoshoot": "Séance photo",
+      "lifestyle": "Style de vie"
+    },
+    "videoGallery": {
+      "title": "Galerie Vidéo"
+    },
+    "instagram": {
+      "title": "Suivez-nous sur Instagram",
+      "handle": "@rollsroycers"
+    },
+    "vehicles": {
+      "phantom": "Phantom",
+      "cullinan": "Cullinan",
+      "ghost": "Ghost",
+      "dawn": "Dawn",
+      "wraith": "Wraith",
+      "spectre": "Spectre"
+    },
+    "descriptions": {
+      "exterior": "Vue extérieure époustouflante",
+      "interior": "Vue intérieure luxueuse",
+      "details": "Prise de vue détaillée exquise",
+      "premium": "Premium"
+    },
+    "videos": {
+      "experience": "Découvrez le luxe de",
+      "millionaire": "Style de Vie Esthétique de Millionnaire de Luxe",
+      "mansory": "Mansory Black Badge Rolls Royce Cullinan",
+      "defines": "Rolls Royce définit ce que signifient les voitures de luxe"
+    }
   }
 }

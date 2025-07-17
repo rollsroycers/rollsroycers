@@ -4504,5 +4504,48 @@
       "viewFleet": "عرض أسطولنا",
       "disclaimer": "بالحجز، فإنك توافق على هذه الشروط والأحكام"
     }
+  },
+  "gallery": {
+    "hero": {
+      "title": "المعرض",
+      "subtitle": "انغمس في عالم الفخامة من رولز رويس"
+    },
+    "categories": {
+      "all": "الكل",
+      "exterior": "المظهر الخارجي",
+      "interior": "المقصورة الداخلية",
+      "details": "التفاصيل",
+      "events": "الفعاليات",
+      "locations": "المواقع",
+      "photoshoot": "جلسة التصوير",
+      "lifestyle": "نمط الحياة"
+    },
+    "videoGallery": {
+      "title": "معرض الفيديو"
+    },
+    "instagram": {
+      "title": "تابعنا على إنستغرام",
+      "handle": "@rollsroycers"
+    },
+    "vehicles": {
+      "phantom": "فانتوم",
+      "cullinan": "كولينان",
+      "ghost": "جوست",
+      "dawn": "داون",
+      "wraith": "رايث",
+      "spectre": "سبيكتر"
+    },
+    "descriptions": {
+      "exterior": "منظر خارجي خلاب",
+      "interior": "منظر داخلي فاخر",
+      "details": "لقطة تفصيلية رائعة",
+      "premium": "فاخر"
+    },
+    "videos": {
+      "experience": "استمتع بفخامة",
+      "millionaire": "نمط حياة المليونير الفاخر الجمالي",
+      "mansory": "مانسوري بلاك بادج رولز رويس كولينان",
+      "defines": "رولز رويس يُعرّف ما تعنيه السيارات الفاخرة"
+    }
   }
 }

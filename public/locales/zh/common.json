@@ -4082,5 +4082,48 @@
       "viewFleet": "查看我们的车队",
       "disclaimer": "通过预订，您同意这些条款和条件"
     }
+  },
+  "gallery": {
+    "hero": {
+      "title": "画廊",
+      "subtitle": "沉浸在劳斯莱斯奢华世界中"
+    },
+    "categories": {
+      "all": "全部",
+      "exterior": "外观",
+      "interior": "内饰",
+      "details": "细节",
+      "events": "活动",
+      "locations": "地点",
+      "photoshoot": "摄影",
+      "lifestyle": "生活方式"
+    },
+    "videoGallery": {
+      "title": "视频画廊"
+    },
+    "instagram": {
+      "title": "在Instagram上关注我们",
+      "handle": "@rollsroycers"
+    },
+    "vehicles": {
+      "phantom": "幻影",
+      "cullinan": "库里南",
+      "ghost": "古思特",
+      "dawn": "曜影",
+      "wraith": "魅影",
+      "spectre": "闪灵"
+    },
+    "descriptions": {
+      "exterior": "令人惊叹的外观视图",
+      "interior": "奢华内饰视图",
+      "details": "精美细节镜头",
+      "premium": "顶级"
+    },
+    "videos": {
+      "experience": "体验奢华",
+      "millionaire": "奢华百万富翁美学生活方式",
+      "mansory": "Mansory黑标劳斯莱斯库里南",
+      "defines": "劳斯莱斯定义了什么是奢华汽车"
+    }
   }
 }
