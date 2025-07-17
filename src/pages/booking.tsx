@@ -26,47 +26,47 @@ export default function BookingPage() {
   };
   
   const vehicles = ensureArray([
-    { id: 'phantom', name: 'Rolls-Royce Phantom', price: 'AED 5,800/day' },
-    { id: 'ghost', name: 'Rolls-Royce Ghost', price: 'AED 4,800/day' },
-    { id: 'cullinan', name: 'Rolls-Royce Cullinan', price: 'AED 6,500/day' },
-    { id: 'dawn', name: 'Rolls-Royce Dawn', price: 'AED 5,500/day' },
-    { id: 'wraith', name: 'Rolls-Royce Wraith', price: 'AED 5,000/day' }
+    { id: 'phantom', name: t('booking.vehicles.phantom'), price: 'AED 5,800/day' },
+    { id: 'ghost', name: t('booking.vehicles.ghost'), price: 'AED 4,800/day' },
+    { id: 'cullinan', name: t('booking.vehicles.cullinan'), price: 'AED 6,500/day' },
+    { id: 'dawn', name: t('booking.vehicles.dawn'), price: 'AED 5,500/day' },
+    { id: 'wraith', name: t('booking.vehicles.wraith'), price: 'AED 5,000/day' }
   ]);
 
   const services = ensureArray([
-    { id: 'self-drive', name: 'Self Drive', description: 'Drive yourself in luxury' },
-    { id: 'chauffeur', name: 'With Chauffeur', description: 'Professional driver included' },
-    { id: 'hourly', name: 'Hourly Rental', description: 'Flexible hourly packages' },
-    { id: 'wedding', name: 'Wedding Service', description: 'Special occasion package' },
-    { id: 'corporate', name: 'Corporate', description: 'Business solutions' }
+    { id: 'self-drive', name: t('booking.services.selfDrive.name'), description: t('booking.services.selfDrive.description') },
+    { id: 'chauffeur', name: t('booking.services.chauffeur.name'), description: t('booking.services.chauffeur.description') },
+    { id: 'hourly', name: t('booking.services.hourly.name'), description: t('booking.services.hourly.description') },
+    { id: 'wedding', name: t('booking.services.wedding.name'), description: t('booking.services.wedding.description') },
+    { id: 'corporate', name: t('booking.services.corporate.name'), description: t('booking.services.corporate.description') }
   ]);
 
   const locations = ensureArray([
-    'Downtown Dubai',
-    'Dubai Marina',
-    'Palm Jumeirah',
-    'Business Bay',
-    'JBR',
-    'DIFC',
-    'Dubai International Airport (DXB)',
-    'Al Maktoum Airport (DWC)',
-    'Hotel Pickup',
-    'Custom Location'
+    t('booking.locations.downtownDubai'),
+    t('booking.locations.dubaiMarina'),
+    t('booking.locations.palmJumeirah'),
+    t('booking.locations.businessBay'),
+    t('booking.locations.jbr'),
+    t('booking.locations.difc'),
+    t('booking.locations.dxbAirport'),
+    t('booking.locations.dwcAirport'),
+    t('booking.locations.hotelPickup'),
+    t('booking.locations.customLocation')
   ]);
 
   const bookingSteps = ensureArray([
-    { number: 1, title: 'Choose Vehicle', icon: '🚗' },
-    { number: 2, title: 'Select Service', icon: '🎯' },
-    { number: 3, title: 'Pick Dates', icon: '📅' },
-    { number: 4, title: 'Confirm Details', icon: '✅' }
+    { number: 1, title: t('booking.steps.vehicle'), icon: '🚗' },
+    { number: 2, title: t('booking.steps.service'), icon: '🎯' },
+    { number: 3, title: t('booking.steps.dates'), icon: '📅' },
+    { number: 4, title: t('booking.steps.confirm'), icon: '✅' }
   ]);
 
   const requirements = ensureArray([
-    'Valid UAE driving license or international permit',
-    'Minimum age 25 years',
-    'Credit card for security deposit',
-    'Passport and visa copy',
-    'Proof of residence or hotel booking'
+    t('booking.requirements.items.license'),
+    t('booking.requirements.items.age'),
+    t('booking.requirements.items.credit'),
+    t('booking.requirements.items.passport'),
+    t('booking.requirements.items.residence')
   ]);
 
   return (
@@ -94,10 +94,10 @@ export default function BookingPage() {
               transition={{ duration: 1 }}
             >
               <h1 className="text-5xl md:text-6xl font-bold text-white mb-6">
-                Book Your Rolls-Royce
+                {t('booking.hero.title')}
               </h1>
               <p className="text-2xl text-rolls-gold">
-                Reserve Your Luxury Experience Online
+                {t('booking.hero.subtitle')}
               </p>
             </motion.div>
           </div>
@@ -119,7 +119,7 @@ export default function BookingPage() {
                     {step.icon}
                   </div>
                   <div className="text-white">
-                    <p className="text-xs text-gray-400">Step {step.number}</p>
+                    <p className="text-xs text-gray-400">{t('booking.steps.step')} {step.number}</p>
                     <p className="font-semibold">{step.title}</p>
                   </div>
                   {index < bookingSteps.length - 1 && (
@@ -144,7 +144,7 @@ export default function BookingPage() {
                   whileInView={{ opacity: 1, y: 0 }}
                   className="bg-rolls-black/50 backdrop-blur-sm border border-rolls-gold/20 rounded-lg p-8"
                 >
-                  <h2 className="text-2xl font-bold text-white mb-6">1. Choose Your Vehicle</h2>
+                  <h2 className="text-2xl font-bold text-white mb-6">{t('booking.vehicleSelection.title')}</h2>
                   <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
                     {vehicles.map((vehicle) => (
                       <label
@@ -179,7 +179,7 @@ export default function BookingPage() {
                   </div>
                   <div className="mt-4 text-center">
                     <Link href="/fleet" className="text-rolls-gold hover:text-white transition-colors">
-                      View detailed vehicle information →
+                      {t('booking.vehicleSelection.viewDetails')}
                     </Link>
                   </div>
                 </motion.div>
@@ -191,7 +191,7 @@ export default function BookingPage() {
                   transition={{ delay: 0.1 }}
                   className="bg-rolls-black/50 backdrop-blur-sm border border-rolls-gold/20 rounded-lg p-8"
                 >
-                  <h2 className="text-2xl font-bold text-white mb-6">2. Select Service Type</h2>
+                  <h2 className="text-2xl font-bold text-white mb-6">{t('booking.serviceSelection.title')}</h2>
                   <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
                     {services.map((service) => (
                       <label
@@ -233,16 +233,16 @@ export default function BookingPage() {
                   transition={{ delay: 0.2 }}
                   className="bg-rolls-black/50 backdrop-blur-sm border border-rolls-gold/20 rounded-lg p-8"
                 >
-                  <h2 className="text-2xl font-bold text-white mb-6">3. Pickup & Return Details</h2>
+                  <h2 className="text-2xl font-bold text-white mb-6">{t('booking.locationDates.title')}</h2>
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                     <div>
-                      <label className="block text-white mb-2">Pickup Location</label>
+                      <label className="block text-white mb-2">{t('booking.locationDates.pickupLocation')}</label>
                       <select
                         value={pickupLocation}
                         onChange={(e) => setPickupLocation(e.target.value)}
                         className="w-full px-4 py-3 bg-rolls-black/50 border border-rolls-gold/20 rounded-lg text-white focus:outline-none focus:border-rolls-gold"
                       >
-                        <option value="">Select Location</option>
+                        <option value="">{t('booking.locationDates.selectLocation')}</option>
                         {locations.map((location) => (
                           <option key={location} value={location}>{location}</option>
                         ))}
@@ -250,7 +250,7 @@ export default function BookingPage() {
                     </div>
                     
                     <div>
-                      <label className="block text-white mb-2">Pickup Date & Time</label>
+                      <label className="block text-white mb-2">{t('booking.locationDates.pickupDateTime')}</label>
                       <input
                         type="datetime-local"
                         value={pickupDate}
@@ -260,13 +260,13 @@ export default function BookingPage() {
                     </div>
                     
                     <div>
-                      <label className="block text-white mb-2">Return Location</label>
+                      <label className="block text-white mb-2">{t('booking.locationDates.returnLocation')}</label>
                       <select
                         value={dropoffLocation}
                         onChange={(e) => setDropoffLocation(e.target.value)}
                         className="w-full px-4 py-3 bg-rolls-black/50 border border-rolls-gold/20 rounded-lg text-white focus:outline-none focus:border-rolls-gold"
                       >
-                        <option value="">Same as pickup</option>
+                        <option value="">{t('booking.locationDates.sameAsPickup')}</option>
                         {locations.map((location) => (
                           <option key={location} value={location}>{location}</option>
                         ))}
@@ -274,7 +274,7 @@ export default function BookingPage() {
                     </div>
                     
                     <div>
-                      <label className="block text-white mb-2">Return Date & Time</label>
+                      <label className="block text-white mb-2">{t('booking.locationDates.returnDateTime')}</label>
                       <input
                         type="datetime-local"
                         value={dropoffDate}
@@ -292,28 +292,28 @@ export default function BookingPage() {
                   transition={{ delay: 0.3 }}
                   className="bg-rolls-black/50 backdrop-blur-sm border border-rolls-gold/20 rounded-lg p-8"
                 >
-                  <h2 className="text-2xl font-bold text-white mb-6">4. Your Information</h2>
+                  <h2 className="text-2xl font-bold text-white mb-6">{t('booking.personalInfo.title')}</h2>
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                     <div>
-                      <label className="block text-white mb-2">{t('contact.form.name')}</label>
+                      <label className="block text-white mb-2">{t('contact.form.name.label')}</label>
                       <input
                         type="text"
                         className="w-full px-4 py-3 bg-rolls-black/50 border border-rolls-gold/20 rounded-lg text-white focus:outline-none focus:border-rolls-gold"
-                        placeholder={t('placeholders.johnDoe')}
+                        placeholder={t('booking.placeholders.johnDoe')}
                       />
                     </div>
                     
                     <div>
-                      <label className="block text-white mb-2">{t('contact.form.email')}</label>
+                      <label className="block text-white mb-2">{t('contact.form.email.label')}</label>
                       <input
                         type="email"
                         className="w-full px-4 py-3 bg-rolls-black/50 border border-rolls-gold/20 rounded-lg text-white focus:outline-none focus:border-rolls-gold"
-                        placeholder="john@example.com"
+                        placeholder={t('contact.form.email.placeholder')}
                       />
                     </div>
                     
                     <div>
-                      <label className="block text-white mb-2">{t('contact.form.phone')}</label>
+                      <label className="block text-white mb-2">{t('contact.form.phone.label')}</label>
                       <input
                         type="tel"
                         className="w-full px-4 py-3 bg-rolls-black/50 border border-rolls-gold/20 rounded-lg text-white focus:outline-none focus:border-rolls-gold"
@@ -322,21 +322,21 @@ export default function BookingPage() {
                     </div>
                     
                     <div>
-                      <label className="block text-white mb-2">{t('booking.nationality')}</label>
+                      <label className="block text-white mb-2">{t('booking.personalInfo.nationality')}</label>
                       <input
                         type="text"
                         className="w-full px-4 py-3 bg-rolls-black/50 border border-rolls-gold/20 rounded-lg text-white focus:outline-none focus:border-rolls-gold"
-                        placeholder={t('placeholders.country')}
+                        placeholder={t('booking.placeholders.country')}
                       />
                     </div>
                   </div>
                   
                   <div className="mt-6">
-                    <label className="block text-white mb-2">{t('contact.form.message')}</label>
+                    <label className="block text-white mb-2">{t('contact.form.message.label')}</label>
                     <textarea
                       rows={3}
                       className="w-full px-4 py-3 bg-rolls-black/50 border border-rolls-gold/20 rounded-lg text-white focus:outline-none focus:border-rolls-gold"
-                      placeholder="Any special requirements or requests..."
+                      placeholder={t('booking.personalInfo.specialRequests')}
                     ></textarea>
                   </div>
                 </motion.div>
@@ -349,10 +349,10 @@ export default function BookingPage() {
                   className="text-center"
                 >
                   <button type="submit" className="btn-primary text-lg px-12 py-4">
-                    Proceed to Payment
+                    {t('booking.submit.button')}
                   </button>
                   <p className="text-gray-400 mt-4">
-                    You will be redirected to secure payment gateway
+                    {t('booking.submit.redirect')}
                   </p>
                 </motion.div>
               </form>
@@ -364,7 +364,7 @@ export default function BookingPage() {
         <section className="py-20 bg-gradient-to-b from-rolls-black to-rolls-navy">
           <div className="container mx-auto px-4">
             <h2 className="text-4xl font-bold text-white text-center mb-12">
-              Check Vehicle Availability
+              {t('booking.availability.title')}
             </h2>
             <AvailabilityCalendar />
           </div>
@@ -374,7 +374,7 @@ export default function BookingPage() {
         <section className="py-20 bg-gradient-to-b from-rolls-navy to-rolls-black">
           <div className="container mx-auto px-4">
             <h2 className="text-4xl font-bold text-white text-center mb-12">
-              Calculate Your Rental Cost
+              {t('booking.calculator.title')}
             </h2>
             <PriceCalculator />
           </div>
@@ -384,7 +384,7 @@ export default function BookingPage() {
         <section className="py-20 bg-gradient-to-b from-rolls-black to-rolls-navy">
           <div className="container mx-auto px-4">
             <h2 className="text-4xl font-bold text-white text-center mb-12">
-              Rental Requirements
+              {t('booking.requirements.title')}
             </h2>
             <div className="max-w-4xl mx-auto">
               <div className="bg-rolls-black/50 backdrop-blur-sm border border-rolls-gold/20 rounded-lg p-8">
@@ -408,7 +408,7 @@ export default function BookingPage() {
               
               <div className="mt-8 text-center">
                 <Link href="/terms" className="text-rolls-gold hover:text-white transition-colors">
-                  View complete terms and conditions →
+                  {t('booking.requirements.viewTerms')}
                 </Link>
               </div>
             </div>
@@ -419,10 +419,10 @@ export default function BookingPage() {
         <section className="py-20 bg-gradient-to-b from-rolls-navy to-rolls-black">
           <div className="container mx-auto px-4 text-center">
             <h2 className="text-4xl font-bold text-white mb-6">
-              Prefer to Book by Phone?
+              {t('booking.phoneBooking.title')}
             </h2>
             <p className="text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
-              Our booking specialists are available 24/7 to assist you with your reservation
+              {t('booking.phoneBooking.description')}
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <motion.a
@@ -431,7 +431,7 @@ export default function BookingPage() {
                 whileTap={{ scale: 0.95 }}
                 className="btn-primary"
               >
-                Call: +971 55 816 4922
+                {t('booking.phoneBooking.callButton')}
               </motion.a>
               <a
                 href="https://wa.me/971558164922"
@@ -439,7 +439,7 @@ export default function BookingPage() {
                 rel="noopener noreferrer"
                 className="btn-secondary"
               >
-                WhatsApp Booking
+                {t('booking.phoneBooking.whatsappButton')}
               </a>
             </div>
           </div>

@@ -1037,7 +1037,7 @@
     }
   },
   "booking": {
-    "title": "Réservez Votre Rolls-Royce",
+    "title": "Complétez votre réservation",
     "form": {
       "vehicle": "Choisissez un Véhicule",
       "service": "Type de Service",
@@ -1048,6 +1048,110 @@
       "email": "Email",
       "phone": "Téléphone",
       "submit": "Confirmer la Réservation"
+    },
+    "hero": {
+      "title": "Réservez votre Rolls-Royce",
+      "subtitle": "Réservez votre expérience de luxe en ligne"
+    },
+    "steps": {
+      "step": "Étape",
+      "vehicle": "Choisir le véhicule",
+      "service": "Sélectionner le service",
+      "dates": "Choisir les dates",
+      "confirm": "Confirmer les détails"
+    },
+    "vehicleSelection": {
+      "title": "1. Choisissez votre véhicule",
+      "viewDetails": "Voir les informations détaillées du véhicule →"
+    },
+    "vehicles": {
+      "phantom": "Rolls-Royce Phantom",
+      "ghost": "Rolls-Royce Ghost",
+      "cullinan": "Rolls-Royce Cullinan",
+      "dawn": "Rolls-Royce Dawn",
+      "wraith": "Rolls-Royce Wraith"
+    },
+    "serviceSelection": {
+      "title": "2. Sélectionnez le type de service"
+    },
+    "services": {
+      "selfDrive": {
+        "name": "Conduite autonome",
+        "description": "Conduisez vous-même dans le luxe"
+      },
+      "chauffeur": {
+        "name": "Avec chauffeur",
+        "description": "Conducteur professionnel inclus"
+      },
+      "hourly": {
+        "name": "Location horaire",
+        "description": "Forfaits horaires flexibles"
+      },
+      "wedding": {
+        "name": "Service mariage",
+        "description": "Forfait occasion spéciale"
+      },
+      "corporate": {
+        "name": "Entreprise",
+        "description": "Solutions business"
+      }
+    },
+    "locationDates": {
+      "title": "3. Détails de prise en charge et retour",
+      "pickupLocation": "Lieu de prise en charge",
+      "selectLocation": "Sélectionner le lieu",
+      "pickupDateTime": "Date et heure de prise en charge",
+      "returnLocation": "Lieu de retour",
+      "sameAsPickup": "Même que la prise en charge",
+      "returnDateTime": "Date et heure de retour"
+    },
+    "locations": {
+      "downtownDubai": "Downtown Dubaï",
+      "dubaiMarina": "Dubaï Marina",
+      "palmJumeirah": "Palm Jumeirah",
+      "businessBay": "Business Bay",
+      "jbr": "JBR",
+      "difc": "DIFC",
+      "dxbAirport": "Aéroport international de Dubaï (DXB)",
+      "dwcAirport": "Aéroport Al Maktoum (DWC)",
+      "hotelPickup": "Prise en charge à l'hôtel",
+      "customLocation": "Lieu personnalisé"
+    },
+    "personalInfo": {
+      "title": "4. Vos informations",
+      "nationality": "Nationalité",
+      "specialRequests": "Exigences ou demandes spéciales..."
+    },
+    "submit": {
+      "button": "Procéder au paiement",
+      "redirect": "Vous serez redirigé vers la passerelle de paiement sécurisée"
+    },
+    "availability": {
+      "title": "Vérifier la disponibilité du véhicule"
+    },
+    "calculator": {
+      "title": "Calculer le coût de votre location"
+    },
+    "requirements": {
+      "title": "Exigences de location",
+      "items": {
+        "license": "Permis de conduire UAE valide ou permis international",
+        "age": "Âge minimum 25 ans",
+        "credit": "Carte de crédit pour la caution",
+        "passport": "Copie du passeport et du visa",
+        "residence": "Preuve de résidence ou réservation d'hôtel"
+      },
+      "viewTerms": "Voir les termes et conditions complètes →"
+    },
+    "phoneBooking": {
+      "title": "Préférez-vous réserver par téléphone?",
+      "description": "Nos spécialistes de réservation sont disponibles 24/7 pour vous aider avec votre réservation",
+      "callButton": "Appelez: +971 55 816 4922",
+      "whatsappButton": "Réservation WhatsApp"
+    },
+    "placeholders": {
+      "johnDoe": "Jean Dupont",
+      "country": "Pays/Nationalité"
     }
   },
   "footer": {
@@ -3737,6 +3841,352 @@
         "question": "L'assurance est-elle incluse?",
         "answer": "Oui, une assurance complète est incluse dans tous nos forfaits de location."
       }
+    }
+  },
+  "privacy": {
+    "hero": {
+      "title": "Politique de confidentialité",
+      "subtitle": "Votre confidentialité nous tient à cœur",
+      "lastUpdated": "Dernière mise à jour : 1er janvier 2024",
+      "effectiveDate": "Date d'entrée en vigueur : 1er janvier 2024"
+    },
+    "introduction": {
+      "title": "Notre engagement envers votre confidentialité",
+      "description1": "Chez Rolls-Royce Dubai, nous comprenons que votre confidentialité compte. Cette politique de confidentialité explique comment nous collectons, utilisons, divulguons et protégeons vos informations lorsque vous utilisez nos services ou visitez notre site web. Nous nous engageons à protéger vos données personnelles et à respecter vos droits à la confidentialité.",
+      "description2": "Cette politique est conforme à la loi fédérale des EAU n° 45 de 2021 sur la protection des données personnelles et aux normes internationales de confidentialité, y compris le RGPD le cas échéant."
+    },
+    "sections": {
+      "dataCollection": {
+        "title": "1. Informations que nous collectons",
+        "personalInfo": {
+          "subtitle": "Informations personnelles",
+          "items": [
+            "Nom complet et coordonnées (email, téléphone, adresse)",
+            "Date de naissance et nationalité",
+            "Détails du permis de conduire et informations passeport/carte d'identité",
+            "Informations de carte de crédit et de paiement",
+            "Historique des réservations et préférences"
+          ]
+        },
+        "automaticInfo": {
+          "subtitle": "Informations automatiques",
+          "items": [
+            "Adresse IP et informations sur l'appareil",
+            "Type de navigateur et préférences linguistiques",
+            "Pages visitées et temps passé sur notre site",
+            "URLs de référence",
+            "Données de localisation (avec votre consentement)"
+          ]
+        }
+      },
+      "dataUsage": {
+        "title": "2. Comment nous utilisons vos informations",
+        "serviceDelivery": {
+          "subtitle": "Prestation de services",
+          "items": [
+            "Traitement des réservations de location et des paiements",
+            "Vérification du permis de conduire et de l'identité",
+            "Envoi de confirmations de réservation et de mises à jour",
+            "Fourniture de support client et d'assistance",
+            "Traitement des réclamations d'assurance si nécessaire"
+          ]
+        },
+        "businessOperations": {
+          "subtitle": "Opérations commerciales",
+          "items": [
+            "Amélioration de nos services et fonctionnalités du site",
+            "Envoi d'offres promotionnelles et de newsletters (avec votre consentement)",
+            "Réalisation d'études de marché et d'analyses",
+            "Prévention de la fraude et assurance de la sécurité",
+            "Respect des exigences légales et réglementaires"
+          ]
+        }
+      },
+      "dataSharing": {
+        "title": "3. Partage d'informations",
+        "shareWith": {
+          "subtitle": "Nous pouvons partager vos informations avec :",
+          "items": [
+            "Fournisseurs d'assurance à des fins de couverture",
+            "Autorités gouvernementales selon les exigences légales",
+            "Processeurs de paiement pour traiter les transactions",
+            "Partenaires marketing (uniquement avec votre consentement)",
+            "Prestataires de services qui aident dans nos opérations"
+          ]
+        },
+        "neverDo": {
+          "subtitle": "Nous ne :",
+          "items": [
+            "Vendons jamais vos informations personnelles à des tiers",
+            "Partageons des données sensibles sans votre consentement explicite",
+            "Utilisons vos informations à des fins non déclarées",
+            "Transférons des données vers des pays sans protection adéquate"
+          ]
+        }
+      },
+      "dataSecurity": {
+        "title": "4. Sécurité des données",
+        "securityMeasures": {
+          "subtitle": "Mesures de sécurité",
+          "items": [
+            "Chiffrement SSL pour toutes les transmissions de données",
+            "Serveurs sécurisés avec protection par pare-feu",
+            "Audits de sécurité et mises à jour réguliers",
+            "Accès limité aux informations personnelles",
+            "Conformité PCI DSS pour le traitement des paiements"
+          ]
+        }
+      },
+      "userRights": {
+        "title": "5. Vos droits",
+        "rights": {
+          "subtitle": "Vous avez le droit de :",
+          "items": [
+            "Accéder à vos informations personnelles que nous détenons",
+            "Demander la correction de données inexactes",
+            "Demander la suppression de vos informations",
+            "Vous désabonner des communications marketing",
+            "Retirer votre consentement à tout moment",
+            "Déposer une plainte auprès des autorités de protection des données"
+          ]
+        }
+      },
+      "cookiesPolicy": {
+        "title": "6. Politique des cookies",
+        "cookiesUsage": {
+          "subtitle": "Nous utilisons des cookies pour :",
+          "items": [
+            "Fonctionnalités essentielles du site",
+            "Se souvenir de vos préférences",
+            "Suivi des analyses et des performances",
+            "Contenu et publicités personnalisés",
+            "Intégration des réseaux sociaux"
+          ]
+        }
+      },
+      "dataRetention": {
+        "title": "7. Conservation des données",
+        "retentionPeriods": {
+          "subtitle": "Périodes de conservation",
+          "items": [
+            "Informations de réservation : 7 ans pour la conformité légale",
+            "Données marketing : jusqu'au retrait du consentement",
+            "Analyses du site : 2 ans",
+            "Enregistrements de paiement : selon les réglementations financières",
+            "Enregistrements de caméra : 30 jours (caméras de bureau et de véhicule)"
+          ]
+        }
+      },
+      "internationalTransfers": {
+        "title": "8. Transferts internationaux",
+        "crossBorderData": {
+          "subtitle": "Données transfrontalières",
+          "items": [
+            "Les données peuvent être traitées dans les pays où nous opérons",
+            "Nous assurons une protection adéquate pour les transferts internationaux",
+            "Les accords de transfert de données UE-EAU sont respectés",
+            "Vous pouvez demander des informations sur les garanties de transfert"
+          ]
+        }
+      },
+      "childrenPrivacy": {
+        "title": "9. Confidentialité des enfants",
+        "ageRestrictions": {
+          "subtitle": "Restrictions d'âge",
+          "items": [
+            "Nos services ne sont pas destinés aux enfants de moins de 18 ans",
+            "Nous ne collectons pas sciemment de données de mineurs",
+            "Les parents peuvent nous contacter pour supprimer de telles données",
+            "La vérification de l'âge est requise pour toutes les locations"
+          ]
+        }
+      },
+      "policyUpdates": {
+        "title": "10. Mises à jour de la politique de confidentialité",
+        "policyChanges": {
+          "subtitle": "Changements de politique",
+          "items": [
+            "Nous pouvons mettre à jour cette politique périodiquement",
+            "Les changements importants seront notifiés par email",
+            "L'utilisation continue constitue une acceptation des mises à jour",
+            "Les versions précédentes sont disponibles sur demande"
+          ]
+        }
+      }
+    },
+    "contact": {
+      "title": "Délégué à la protection des données",
+      "description": "Pour toute question liée à la confidentialité ou pour exercer vos droits, veuillez contacter notre délégué à la protection des données :",
+      "email": "privacy@rollsroycers.com",
+      "phone": "+971 55 816 4922",
+      "address": "Rolls-Royce Dubai, Downtown Dubai, EAU",
+      "responseTime": "dans les 48 heures"
+    },
+    "consent": {
+      "title": "Votre consentement",
+      "description": "En utilisant nos services, vous consentez à :",
+      "items": [
+        "La collecte et le traitement de vos données personnelles comme décrit",
+        "L'utilisation de cookies et technologies similaires",
+        "Le transfert de données selon les besoins pour fournir le service",
+        "La réception de communications de service et de mises à jour"
+      ],
+      "withdrawal": "Vous pouvez retirer votre consentement à tout moment en contactant notre délégué à la protection des données."
+    },
+    "relatedPolicies": {
+      "title": "Politiques connexes",
+      "termsConditions": "Conditions générales",
+      "cookiePolicy": "Politique des cookies",
+      "contactUs": "Contactez-nous"
+    },
+    "cta": {
+      "title": "Votre confidentialité est notre priorité",
+      "description": "Nous nous engageons à protéger vos informations personnelles et à fournir une transparence sur la façon dont nous traitons vos données.",
+      "contactPrivacyTeam": "Contacter l'équipe confidentialité",
+      "continueToFleet": "Continuer vers la flotte"
+    }
+  },
+  "terms": {
+    "hero": {
+      "title": "Conditions générales",
+      "lastUpdated": "Dernière mise à jour : 1er janvier 2025"
+    },
+    "introduction": "Bienvenue chez Rolls-Royce Dubai. Ces conditions générales établissent les règles et réglementations pour l'utilisation de nos services de location de voitures de luxe. En accédant à nos services et en louant un véhicule, vous acceptez pleinement ces conditions générales. Si vous n'êtes pas d'accord avec une partie de ces termes, veuillez ne pas utiliser nos services.",
+    "lastUpdated": "1er janvier 2025",
+    "sections": {
+      "rentalAgreement": {
+        "title": "1. Contrat de location",
+        "content": [
+          "La période de location commence lors de la remise ou de la réception du véhicule.",
+          "Les prolongations doivent être convenues 24 heures à l'avance.",
+          "Le retour anticipé est soumis aux frais de la période de location complète.",
+          "Toutes les locations nécessitent un accord signé et des documents valides."
+        ]
+      },
+      "driverRequirements": {
+        "title": "2. Exigences du conducteur",
+        "content": [
+          "Âge minimum de 25 ans pour tous les véhicules de luxe.",
+          "Permis de conduire émirati valide ou permis de conduire international requis.",
+          "Dossier de conduite propre sans infractions majeures au cours des 3 dernières années.",
+          "Les conducteurs supplémentaires doivent être pré-approuvés et répondre à toutes les exigences."
+        ]
+      },
+      "securityDeposit": {
+        "title": "3. Dépôt de garantie",
+        "content": [
+          "Dépôt de garantie de 10 000 à 25 000 dirhams selon le modèle de véhicule.",
+          "Le dépôt est entièrement remboursable lors du retour sûr du véhicule.",
+          "Délai de traitement du remboursement du dépôt de 14 à 21 jours ouvrables.",
+          "Le dépôt couvre les dommages mineurs et les amendes de circulation."
+        ]
+      },
+      "insuranceCoverage": {
+        "title": "4. Couverture d'assurance",
+        "content": [
+          "Assurance complète incluse avec toutes les locations.",
+          "Responsabilité supplémentaire de 5 000 à 15 000 dirhams selon le véhicule.",
+          "L'assurance ne couvre pas la conduite négligente ou imprudente.",
+          "Les biens personnels ne sont pas couverts par l'assurance véhicule."
+        ]
+      },
+      "usageRestrictions": {
+        "title": "5. Restrictions d'utilisation",
+        "content": [
+          "Les véhicules ne doivent pas être utilisés pour les courses, rallyes ou activités illégales.",
+          "Fumer est strictement interdit dans tous les véhicules.",
+          "Les animaux domestiques ne sont pas autorisés sans approbation préalable et frais supplémentaires.",
+          "Les voyages transfrontaliers nécessitent une autorisation spéciale et une documentation."
+        ]
+      },
+      "fuelPolicy": {
+        "title": "6. Politique de carburant",
+        "content": [
+          "Les véhicules sont fournis avec un réservoir plein de carburant premium.",
+          "Les véhicules doivent être retournés avec le même niveau de carburant.",
+          "Des frais de ravitaillement s'appliquent à 10 dirhams par litre plus les frais de service.",
+          "Seul le carburant premium doit être utilisé (98 octanes ou plus)."
+        ]
+      },
+      "mileageAllowance": {
+        "title": "7. Allocation kilométrique",
+        "content": [
+          "La location quotidienne comprend 250 km par jour.",
+          "La location hebdomadaire comprend 1 500 km par semaine.",
+          "La location mensuelle comprend 4 500 km par mois.",
+          "Le kilométrage excédentaire est facturé à 15 dirhams par kilomètre."
+        ]
+      },
+      "cancellationPolicy": {
+        "title": "8. Politique d'annulation",
+        "content": [
+          "Annulation gratuite jusqu'à 48 heures avant le début de la location.",
+          "Frais de 50% pour l'annulation dans les 24-48 heures.",
+          "Frais complets pour l'annulation dans les 24 heures.",
+          "Non-présentation entraîne la confiscation du montant total de la location."
+        ]
+      },
+      "trafficFines": {
+        "title": "9. Amendes de circulation et violations",
+        "content": [
+          "Le locataire est responsable de toutes les amendes de circulation pendant la période de location.",
+          "Frais administratifs de 250 dirhams par violation.",
+          "Les amendes seront débitées du dépôt de garantie ou de la carte de crédit.",
+          "Les violations graves peuvent entraîner une résiliation immédiate de la location."
+        ]
+      },
+      "vehicleReturn": {
+        "title": "10. Retour du véhicule",
+        "content": [
+          "Les véhicules doivent être retournés à l'heure et au lieu convenus.",
+          "Le retour tardif est facturé à l'heure plus 50% de frais supplémentaires.",
+          "Le véhicule doit être retourné dans le même état qu'il a été livré.",
+          "Des frais de nettoyage s'appliquent aux véhicules très sales (500+ dirhams)."
+        ]
+      },
+      "liability": {
+        "title": "11. Responsabilité et indemnisation",
+        "content": [
+          "Le locataire assume la pleine responsabilité du véhicule pendant la période de location.",
+          "La société n'est pas responsable des blessures personnelles ou des dommages matériels.",
+          "Le locataire indemnise la société contre toutes réclamations et pertes.",
+          "La responsabilité maximale est limitée au montant du dépôt de garantie."
+        ]
+      },
+      "governingLaw": {
+        "title": "12. Droit applicable",
+        "content": [
+          "Ces termes sont régis par les lois fédérales des EAU et les lois locales de Dubaï.",
+          "Les litiges sont résolus par les tribunaux de Dubaï.",
+          "La version anglaise des termes prévaut en cas de conflit de traduction.",
+          "Les dispositions non valides n'affectent pas les autres termes."
+        ]
+      }
+    },
+    "contact": {
+      "title": "Informations de contact",
+      "description": "Pour des questions sur ces conditions générales, veuillez nous contacter :",
+      "phone": "+971 55 816 4922",
+      "email": "legal@rollsroycers.com",
+      "address": "Downtown Dubai, EAU",
+      "officeHours": "Service client 24/7"
+    },
+    "acceptance": {
+      "title": "Acceptation des termes",
+      "description": "En procédant à la location, vous reconnaissez que vous :",
+      "items": [
+        "Avez lu et compris ces conditions générales",
+        "Acceptez de vous conformer à ces termes",
+        "Répondez à toutes les exigences d'éligibilité",
+        "Respecterez toutes les lois et réglementations applicables"
+      ]
+    },
+    "cta": {
+      "title": "Prêt à vivre le luxe ?",
+      "description": "Si vous acceptez nos conditions générales, continuez pour réserver votre expérience Rolls-Royce.",
+      "callButton": "Appeler : +971 55 816 4922",
+      "viewFleet": "Voir notre flotte",
+      "disclaimer": "En réservant, vous acceptez ces conditions générales"
     }
   }
 }

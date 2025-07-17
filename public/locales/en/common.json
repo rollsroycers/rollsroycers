@@ -3809,7 +3809,111 @@
     "monthly": "Per Month"
   },
   "booking": {
-    "title": "Complete Your Booking"
+    "title": "Complete Your Booking",
+    "hero": {
+      "title": "Book Your Rolls-Royce",
+      "subtitle": "Reserve Your Luxury Experience Online"
+    },
+    "steps": {
+      "step": "Step",
+      "vehicle": "Choose Vehicle",
+      "service": "Select Service",
+      "dates": "Pick Dates",
+      "confirm": "Confirm Details"
+    },
+    "vehicleSelection": {
+      "title": "1. Choose Your Vehicle",
+      "viewDetails": "View detailed vehicle information →"
+    },
+    "vehicles": {
+      "phantom": "Rolls-Royce Phantom",
+      "ghost": "Rolls-Royce Ghost",
+      "cullinan": "Rolls-Royce Cullinan",
+      "dawn": "Rolls-Royce Dawn",
+      "wraith": "Rolls-Royce Wraith"
+    },
+    "serviceSelection": {
+      "title": "2. Select Service Type"
+    },
+    "services": {
+      "selfDrive": {
+        "name": "Self Drive",
+        "description": "Drive yourself in luxury"
+      },
+      "chauffeur": {
+        "name": "With Chauffeur",
+        "description": "Professional driver included"
+      },
+      "hourly": {
+        "name": "Hourly Rental",
+        "description": "Flexible hourly packages"
+      },
+      "wedding": {
+        "name": "Wedding Service",
+        "description": "Special occasion package"
+      },
+      "corporate": {
+        "name": "Corporate",
+        "description": "Business solutions"
+      }
+    },
+    "locationDates": {
+      "title": "3. Pickup & Return Details",
+      "pickupLocation": "Pickup Location",
+      "selectLocation": "Select Location",
+      "pickupDateTime": "Pickup Date & Time",
+      "returnLocation": "Return Location",
+      "sameAsPickup": "Same as pickup",
+      "returnDateTime": "Return Date & Time"
+    },
+    "locations": {
+      "downtownDubai": "Downtown Dubai",
+      "dubaiMarina": "Dubai Marina",
+      "palmJumeirah": "Palm Jumeirah",
+      "businessBay": "Business Bay",
+      "jbr": "JBR",
+      "difc": "DIFC",
+      "dxbAirport": "Dubai International Airport (DXB)",
+      "dwcAirport": "Al Maktoum Airport (DWC)",
+      "hotelPickup": "Hotel Pickup",
+      "customLocation": "Custom Location"
+    },
+    "personalInfo": {
+      "title": "4. Your Information",
+      "nationality": "Nationality",
+      "specialRequests": "Any special requirements or requests..."
+    },
+    "submit": {
+      "button": "Proceed to Payment",
+      "redirect": "You will be redirected to secure payment gateway"
+    },
+    "availability": {
+      "title": "Check Vehicle Availability"
+    },
+    "calculator": {
+      "title": "Calculate Your Rental Cost"
+    },
+    "requirements": {
+      "title": "Rental Requirements",
+      "items": {
+        "license": "Valid UAE driving license or international permit",
+        "age": "Minimum age 25 years",
+        "credit": "Credit card for security deposit",
+        "passport": "Passport and visa copy",
+        "residence": "Proof of residence or hotel booking"
+      },
+      "viewTerms": "View complete terms and conditions →"
+    },
+    "phoneBooking": {
+      "title": "Prefer to Book by Phone?",
+      "description": "Our booking specialists are available 24/7 to assist you with your reservation",
+      "callButton": "Call: +971 55 816 4922",
+      "whatsappButton": "WhatsApp Booking"
+    },
+    "placeholders": {
+      "johnDoe": "John Doe",
+      "country": "Country/Nationality"
+    }
   },
   "blog": {
     "categories": {
@@ -4107,6 +4211,352 @@
         "subtitle": "British elegance meets German precision"
       },
       "comingSoon": "Coming Soon"
+    }
+  },
+  "privacy": {
+    "hero": {
+      "title": "Privacy Policy",
+      "subtitle": "Your privacy matters to us",
+      "lastUpdated": "Last updated: January 1, 2024",
+      "effectiveDate": "Effective date: January 1, 2024"
+    },
+    "introduction": {
+      "title": "Our Commitment to Your Privacy",
+      "description1": "At Rolls-Royce Dubai, we understand that your privacy matters. This Privacy Policy explains how we collect, use, disclose, and protect your information when you use our services or visit our website. We are committed to protecting your personal data and respecting your privacy rights.",
+      "description2": "This policy complies with UAE Federal Law No. 45 of 2021 on Personal Data Protection and international privacy standards including GDPR where applicable."
+    },
+    "sections": {
+      "dataCollection": {
+        "title": "1. Information We Collect",
+        "personalInfo": {
+          "subtitle": "Personal Information",
+          "items": [
+            "Full name and contact details (email, phone, address)",
+            "Date of birth and nationality",
+            "Driving license details and passport/ID information",
+            "Credit card and payment information",
+            "Booking history and preferences"
+          ]
+        },
+        "automaticInfo": {
+          "subtitle": "Automatic Information",
+          "items": [
+            "IP address and device information",
+            "Browser type and language preferences",
+            "Pages visited and time spent on our site",
+            "Referral URLs",
+            "Location data (with your consent)"
+          ]
+        }
+      },
+      "dataUsage": {
+        "title": "2. How We Use Your Information",
+        "serviceDelivery": {
+          "subtitle": "Service Delivery",
+          "items": [
+            "Process rental bookings and payments",
+            "Verify driving license and identity",
+            "Send booking confirmations and updates",
+            "Provide customer support and assistance",
+            "Handle insurance claims if necessary"
+          ]
+        },
+        "businessOperations": {
+          "subtitle": "Business Operations",
+          "items": [
+            "Improve our services and site functionality",
+            "Send promotional offers and newsletters (with your consent)",
+            "Conduct market research and analytics",
+            "Prevent fraud and ensure security",
+            "Comply with legal and regulatory requirements"
+          ]
+        }
+      },
+      "dataSharing": {
+        "title": "3. Information Sharing",
+        "shareWith": {
+          "subtitle": "We may share your information with:",
+          "items": [
+            "Insurance providers for coverage purposes",
+            "Government authorities as required by law",
+            "Payment processors to handle transactions",
+            "Marketing partners (only with your consent)",
+            "Service providers who assist in our operations"
+          ]
+        },
+        "neverDo": {
+          "subtitle": "We will never:",
+          "items": [
+            "Sell your personal information to third parties",
+            "Share sensitive data without your explicit consent",
+            "Use your information for undisclosed purposes",
+            "Transfer data to countries without adequate protection"
+          ]
+        }
+      },
+      "dataSecurity": {
+        "title": "4. Data Security",
+        "securityMeasures": {
+          "subtitle": "Security Measures",
+          "items": [
+            "SSL encryption for all data transmissions",
+            "Secure servers with firewall protection",
+            "Regular security audits and updates",
+            "Limited access to personal information",
+            "PCI DSS compliance for payment processing"
+          ]
+        }
+      },
+      "userRights": {
+        "title": "5. Your Rights",
+        "rights": {
+          "subtitle": "You have the right to:",
+          "items": [
+            "Access your personal information we hold",
+            "Request correction of inaccurate data",
+            "Request deletion of your information",
+            "Opt-out of marketing communications",
+            "Withdraw consent at any time",
+            "File a complaint with data protection authorities"
+          ]
+        }
+      },
+      "cookiesPolicy": {
+        "title": "6. Cookies Policy",
+        "cookiesUsage": {
+          "subtitle": "We use cookies for:",
+          "items": [
+            "Essential website functionality",
+            "Remembering your preferences",
+            "Analytics and performance tracking",
+            "Personalized content and advertisements",
+            "Social media integration"
+          ]
+        }
+      },
+      "dataRetention": {
+        "title": "7. Data Retention",
+        "retentionPeriods": {
+          "subtitle": "Retention Periods",
+          "items": [
+            "Booking information: 7 years for legal compliance",
+            "Marketing data: Until consent withdrawal",
+            "Website analytics: 2 years",
+            "Payment records: As required by financial regulations",
+            "Camera recordings: 30 days (office and vehicle cameras)"
+          ]
+        }
+      },
+      "internationalTransfers": {
+        "title": "8. International Transfers",
+        "crossBorderData": {
+          "subtitle": "Cross-Border Data",
+          "items": [
+            "Data may be processed in countries where we operate",
+            "We ensure adequate protection for international transfers",
+            "EU-UAE data transfer agreements are respected",
+            "You can request information about transfer safeguards"
+          ]
+        }
+      },
+      "childrenPrivacy": {
+        "title": "9. Children's Privacy",
+        "ageRestrictions": {
+          "subtitle": "Age Restrictions",
+          "items": [
+            "Our services are not intended for children under 18",
+            "We do not knowingly collect data from minors",
+            "Parents can contact us to remove such data",
+            "Age verification is required for all rentals"
+          ]
+        }
+      },
+      "policyUpdates": {
+        "title": "10. Privacy Policy Updates",
+        "policyChanges": {
+          "subtitle": "Policy Changes",
+          "items": [
+            "We may update this policy periodically",
+            "Significant changes will be notified via email",
+            "Continued use constitutes acceptance of updates",
+            "Previous versions are available upon request"
+          ]
+        }
+      }
+    },
+    "contact": {
+      "title": "Data Protection Officer",
+      "description": "For any privacy-related questions or to exercise your rights, please contact our Data Protection Officer:",
+      "email": "privacy@rollsroycers.com",
+      "phone": "+971 55 816 4922",
+      "address": "Rolls-Royce Dubai, Downtown Dubai, UAE",
+      "responseTime": "within 48 hours"
+    },
+    "consent": {
+      "title": "Your Consent",
+      "description": "By using our services, you consent to:",
+      "items": [
+        "Collection and processing of your personal data as described",
+        "Use of cookies and similar technologies",
+        "Data transfers as necessary to provide service",
+        "Receiving service communications and updates"
+      ],
+      "withdrawal": "You can withdraw your consent at any time by contacting our Data Protection Officer."
+    },
+    "relatedPolicies": {
+      "title": "Related Policies",
+      "termsConditions": "Terms and Conditions",
+      "cookiePolicy": "Cookie Policy",
+      "contactUs": "Contact Us"
+    },
+    "cta": {
+      "title": "Your Privacy is Our Priority",
+      "description": "We are committed to protecting your personal information and providing transparency in how we handle your data.",
+      "contactPrivacyTeam": "Contact Privacy Team",
+      "continueToFleet": "Continue to Fleet"
+    }
+  },
+  "terms": {
+    "hero": {
+      "title": "Terms and Conditions",
+      "lastUpdated": "Last updated: January 1, 2025"
+    },
+    "introduction": "Welcome to Rolls-Royce Dubai. These Terms and Conditions set forth the rules and regulations for the use of our luxury car rental services. By accessing our services and renting a vehicle, you accept these Terms and Conditions in full. If you disagree with any part of these terms, please do not use our services.",
+    "lastUpdated": "January 1, 2025",
+    "sections": {
+      "rentalAgreement": {
+        "title": "1. Rental Agreement",
+        "content": [
+          "Rental period begins upon vehicle delivery or pickup.",
+          "Extensions must be agreed upon 24 hours in advance.",
+          "Early return is subject to full rental period charges.",
+          "All rentals require signed agreement and valid documents."
+        ]
+      },
+      "driverRequirements": {
+        "title": "2. Driver Requirements",
+        "content": [
+          "Minimum age of 25 years for all luxury vehicles.",
+          "Valid UAE driving license or international driving license required.",
+          "Clean driving record with no major violations in the past 3 years.",
+          "Additional drivers must be pre-approved and meet all requirements."
+        ]
+      },
+      "securityDeposit": {
+        "title": "3. Security Deposit",
+        "content": [
+          "Security deposit of AED 10,000-25,000 depending on vehicle model.",
+          "Deposit is fully refundable upon safe return of vehicle.",
+          "Deposit refund processing time is 14-21 business days.",
+          "Deposit covers minor damages and traffic fines."
+        ]
+      },
+      "insuranceCoverage": {
+        "title": "4. Insurance Coverage",
+        "content": [
+          "Comprehensive insurance included with all rentals.",
+          "Additional liability of AED 5,000-15,000 depending on vehicle.",
+          "Insurance does not cover negligent or reckless driving.",
+          "Personal belongings are not covered under vehicle insurance."
+        ]
+      },
+      "usageRestrictions": {
+        "title": "5. Usage Restrictions",
+        "content": [
+          "Vehicles must not be used for racing, rallying, or any illegal activities.",
+          "Smoking is strictly prohibited in all vehicles.",
+          "Pets are not allowed without prior approval and additional fees.",
+          "Cross-border travel requires special permission and documentation."
+        ]
+      },
+      "fuelPolicy": {
+        "title": "6. Fuel Policy",
+        "content": [
+          "Vehicles are provided with a full tank of premium fuel.",
+          "Vehicles must be returned with the same fuel level.",
+          "Refueling charges apply at AED 10 per liter plus service fees.",
+          "Only premium fuel should be used (98 octane or higher)."
+        ]
+      },
+      "mileageAllowance": {
+        "title": "7. Mileage Allowance",
+        "content": [
+          "Daily rental includes 250km per day.",
+          "Weekly rental includes 1,500km per week.",
+          "Monthly rental includes 4,500km per month.",
+          "Excess mileage is charged at AED 15 per kilometer."
+        ]
+      },
+      "cancellationPolicy": {
+        "title": "8. Cancellation Policy",
+        "content": [
+          "Free cancellation up to 48 hours before rental start.",
+          "50% charge for cancellation within 24-48 hours.",
+          "Full charge for cancellation within 24 hours.",
+          "No-show results in forfeiture of full rental amount."
+        ]
+      },
+      "trafficFines": {
+        "title": "9. Traffic Fines and Violations",
+        "content": [
+          "Renter is responsible for all traffic fines during rental period.",
+          "Administrative fee of AED 250 per violation.",
+          "Fines will be deducted from security deposit or credit card.",
+          "Serious violations may result in immediate rental termination."
+        ]
+      },
+      "vehicleReturn": {
+        "title": "10. Vehicle Return",
+        "content": [
+          "Vehicles must be returned at agreed time and location.",
+          "Late return is charged hourly plus 50% additional fees.",
+          "Vehicle must be returned in same condition as delivered.",
+          "Cleaning fees apply for excessively dirty vehicles (AED 500+)."
+        ]
+      },
+      "liability": {
+        "title": "11. Liability and Indemnification",
+        "content": [
+          "Renter assumes full responsibility for vehicle during rental period.",
+          "Company is not liable for personal injury or property damage.",
+          "Renter indemnifies company against all claims and losses.",
+          "Maximum liability is limited to security deposit amount."
+        ]
+      },
+      "governingLaw": {
+        "title": "12. Governing Law",
+        "content": [
+          "These terms are governed by UAE federal laws and Dubai local laws.",
+          "Disputes are resolved through Dubai courts.",
+          "English version of terms prevails in case of translation conflict.",
+          "Invalid provisions do not affect other terms."
+        ]
+      }
+    },
+    "contact": {
+      "title": "Contact Information",
+      "description": "For questions about these Terms and Conditions, please contact us:",
+      "phone": "+971 55 816 4922",
+      "email": "legal@rollsroycers.com",
+      "address": "Downtown Dubai, UAE",
+      "officeHours": "24/7 Customer Service"
+    },
+    "acceptance": {
+      "title": "Acceptance of Terms",
+      "description": "By proceeding with rental, you acknowledge that you have:",
+      "items": [
+        "Read and understood these Terms and Conditions",
+        "Agree to comply with these terms",
+        "Meet all eligibility requirements",
+        "Will comply with all applicable laws and regulations"
+      ]
+    },
+    "cta": {
+      "title": "Ready to Experience Luxury?",
+      "description": "If you agree to our Terms and Conditions, continue to book your Rolls-Royce experience.",
+      "callButton": "Call: +971 55 816 4922",
+      "viewFleet": "View Our Fleet",
+      "disclaimer": "By booking, you agree to these Terms and Conditions"
     }
   }
 }
