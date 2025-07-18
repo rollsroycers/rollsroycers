@@ -110,6 +110,28 @@ export default function BlogPage() {
       readTime: t('blog.articles.article7.readTime'),
       image: '/images/Rolls-oyce-air-port.jpg',
       slug: 'dubai-luxury-hotels-guide'
+    },
+    {
+      id: 9,
+      title: t('blog.articles.article8.title'),
+      excerpt: t('blog.articles.article8.excerpt'),
+      category: 'tips',
+      author: t('blog.articles.article8.author'),
+      date: t('blog.articles.article8.date'),
+      readTime: t('blog.articles.article8.readTime'),
+      image: '/images/downtown-hero.jpg',
+      slug: 'luxury-shopping-dubai-rolls-royce'
+    },
+    {
+      id: 10,
+      title: t('blog.articles.article9.title'),
+      excerpt: t('blog.articles.article9.excerpt'),
+      category: 'luxury',
+      author: t('blog.articles.article9.author'),
+      date: t('blog.articles.article9.date'),
+      readTime: t('blog.articles.article9.readTime'),
+      image: '/images/Rolls-Royce_Dawn_Convertible-2.jpg',
+      slug: 'rolls-royce-dawn-convertible-dubai'
     }
   ]
 

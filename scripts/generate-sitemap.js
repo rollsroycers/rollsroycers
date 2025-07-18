@@ -55,6 +55,8 @@ const PAGES = [
   { path: '/blog/top-scenic-drives-dubai', priority: 0.6, changefreq: 'monthly' },
   { path: '/blog/rolls-royce-wedding-car-dubai', priority: 0.65, changefreq: 'monthly' },
   { path: '/blog/business-travel-rolls-royce', priority: 0.6, changefreq: 'monthly' },
+  { path: '/blog/luxury-shopping-dubai-rolls-royce', priority: 0.65, changefreq: 'monthly' },
+  { path: '/blog/rolls-royce-dawn-convertible-dubai', priority: 0.65, changefreq: 'monthly' },
   
   // Comparison pages
   { path: '/compare/rolls-royce-vs-bentley', priority: 0.65, changefreq: 'monthly' },

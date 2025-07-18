@@ -531,6 +531,190 @@ const blogArticles: Record<string, BlogArticle> = {
       'difc-rolls-royce-service',
       'executive-transportation-dubai'
     ]
+  },
+  'luxury-shopping-dubai-rolls-royce': {
+    title: 'Luxury Shopping Guide: Best Malls to Visit with Your Rolls-Royce in Dubai',
+    description: 'Discover Dubai\'s most prestigious shopping destinations and how to arrive in style with your Rolls-Royce rental.',
+    author: 'Layla Al-Mansouri',
+    date: '2025-01-16',
+    readTime: '10 min read',
+    category: 'Tips',
+    image: '/images/downtown-hero.jpg',
+    content: [
+      {
+        type: 'paragraph',
+        text: 'Dubai is synonymous with luxury shopping, and arriving at the city\'s most prestigious malls in a Rolls-Royce elevates the entire experience. From the iconic Dubai Mall to the exclusive Mall of the Emirates, discover how to make the most of your luxury shopping journey.'
+      },
+      {
+        type: 'heading',
+        text: 'The Dubai Mall: Where Luxury Meets Convenience'
+      },
+      {
+        type: 'paragraph',
+        text: 'As the world\'s largest shopping mall, The Dubai Mall offers valet parking services perfect for your Rolls-Royce. With over 1,200 stores including flagship boutiques from Chanel, Louis Vuitton, and Cartier, it\'s a shopping paradise.'
+      },
+      {
+        type: 'image',
+        src: '/images/Rolls-Royce_Phantom_Extended_Series_II.jpg',
+        alt: 'Rolls-Royce Phantom at Dubai Mall',
+        caption: 'The Phantom makes a grand entrance at Dubai Mall'
+      },
+      {
+        type: 'list',
+        items: [
+          '<strong>Valet Parking:</strong> Premium valet service for luxury vehicles',
+          '<strong>Private Shopping:</strong> VIP shopping experiences available',
+          '<strong>Dining:</strong> World-class restaurants for post-shopping relaxation',
+          '<strong>Entertainment:</strong> Dubai Aquarium, Ice Rink, and Burj Khalifa views'
+        ]
+      },
+      {
+        type: 'heading',
+        text: 'Mall of the Emirates: Ski Dubai and High-End Shopping'
+      },
+      {
+        type: 'paragraph',
+        text: 'Home to Ski Dubai and some of the most exclusive boutiques in the city, Mall of the Emirates offers a unique shopping experience. The mall\'s luxury wing houses brands like Hermès, Bulgari, and Tiffany & Co.'
+      },
+      {
+        type: 'heading',
+        text: 'City Walk: Open-Air Luxury Shopping'
+      },
+      {
+        type: 'paragraph',
+        text: 'For those who prefer open-air shopping, City Walk offers a European-style shopping experience with your Rolls-Royce parked right outside boutique stores.'
+      },
+      {
+        type: 'image',
+        src: '/images/Rolls-Royce_Ghost_Black_Badge.jpg',
+        alt: 'Rolls-Royce Ghost at City Walk',
+        caption: 'The Ghost perfectly complements City Walk\'s sophisticated atmosphere'
+      },
+      {
+        type: 'heading',
+        text: 'Shopping Etiquette with Your Rolls-Royce'
+      },
+      {
+        type: 'list',
+        items: [
+          'Always use valet parking to protect your luxury vehicle',
+          'Inform store managers of your arrival for VIP treatment',
+          'Take advantage of personal shopping services',
+          'Consider having purchases delivered to avoid carrying items'
+        ]
+      },
+      {
+        type: 'heading',
+        text: 'Best Times to Visit'
+      },
+      {
+        type: 'paragraph',
+        text: 'For the ultimate luxury shopping experience, visit during weekday mornings when malls are less crowded. This ensures better service and easier navigation with your Rolls-Royce.'
+      },
+      {
+        type: 'cta',
+        text: 'Ready to experience luxury shopping in Dubai with a Rolls-Royce?',
+        buttonText: 'Book Your Rolls-Royce',
+        buttonLink: '/booking'
+      }
+    ],
+    relatedArticles: [
+      'ultimate-guide-rolls-royce-rental-dubai',
+      'rolls-royce-dawn-convertible-dubai',
+      'business-travel-rolls-royce'
+    ]
+  },
+  'rolls-royce-dawn-convertible-dubai': {
+    title: 'Rolls-Royce Dawn: The Perfect Convertible for Dubai\'s Golden Weather',
+    description: 'Explore why the Rolls-Royce Dawn is the ultimate convertible for experiencing Dubai\'s perfect climate and stunning skyline.',
+    author: 'Omar Al-Rashid',
+    date: '2025-01-18',
+    readTime: '8 min read',
+    category: 'Luxury',
+    image: '/images/Rolls-Royce_Dawn_Convertible-2.jpg',
+    content: [
+      {
+        type: 'paragraph',
+        text: 'Dubai\'s year-round sunshine and perfect winter weather make it an ideal destination for convertible driving. The Rolls-Royce Dawn, with its handcrafted elegance and whisper-quiet operation, transforms every journey into an unforgettable experience.'
+      },
+      {
+        type: 'heading',
+        text: 'Why the Dawn is Perfect for Dubai'
+      },
+      {
+        type: 'paragraph',
+        text: 'The Dawn\'s retractable soft-top roof can be operated at speeds up to 50 km/h, making it perfect for Dubai\'s traffic conditions. Whether you\'re cruising along Jumeirah Beach Road or driving through Downtown Dubai, the Dawn offers an unparalleled open-air luxury experience.'
+      },
+      {
+        type: 'image',
+        src: '/images/dawn-convertible.jpg',
+        alt: 'Rolls-Royce Dawn with Dubai skyline',
+        caption: 'The Dawn against Dubai\'s iconic skyline'
+      },
+      {
+        type: 'heading',
+        text: 'Technical Excellence Meets Comfort'
+      },
+      {
+        type: 'list',
+        items: [
+          '<strong>6.6L V12 Engine:</strong> 563 bhp of effortless power',
+          '<strong>Airflow System:</strong> Advanced climate control even with the roof down',
+          '<strong>Silent Operation:</strong> Whisper-quiet even at highway speeds',
+          '<strong>Luxury Interior:</strong> Finest leather and wood craftsmanship'
+        ]
+      },
+      {
+        type: 'heading',
+        text: 'Best Routes for Dawn Driving in Dubai'
+      },
+      {
+        type: 'paragraph',
+        text: 'Experience the Dawn on these spectacular Dubai routes:'
+      },
+      {
+        type: 'list',
+        items: [
+          '<strong>Jumeirah Beach Road:</strong> Ocean views with gentle sea breeze',
+          '<strong>Sheikh Zayed Road:</strong> Iconic skyline views with the roof down',
+          '<strong>Dubai Marina Walk:</strong> Stunning waterfront and yacht views',
+          '<strong>Palm Jumeirah:</strong> Exclusive island luxury driving'
+        ]
+      },
+      {
+        type: 'image',
+        src: '/images/marina-hero.jpg',
+        alt: 'Dubai Marina scenic drive',
+        caption: 'Marina views are enhanced in the open-air Dawn'
+      },
+      {
+        type: 'heading',
+        text: 'Seasonal Considerations'
+      },
+      {
+        type: 'paragraph',
+        text: 'Dubai\'s climate makes the Dawn enjoyable year-round, but the cooler months from November to March offer the most comfortable open-air driving conditions. The Dawn\'s advanced climate control ensures comfort even during the warmer months.'
+      },
+      {
+        type: 'heading',
+        text: 'Photography and Social Media'
+      },
+      {
+        type: 'paragraph',
+        text: 'The Dawn is exceptionally photogenic, especially against Dubai\'s architectural marvels. Popular photo spots include the Burj Khalifa, Dubai Frame, and the infinity pool area at Marina Walk.'
+      },
+      {
+        type: 'cta',
+        text: 'Experience the ultimate in convertible luxury.',
+        buttonText: 'Rent Rolls-Royce Dawn',
+        buttonLink: '/fleet/dawn'
+      }
+    ],
+    relatedArticles: [
+      'ultimate-guide-rolls-royce-rental-dubai',
+      'top-scenic-drives-dubai',
+      'luxury-shopping-dubai-rolls-royce'
+    ]
   }
 }
 
