@@ -82,6 +82,184 @@ export default function SEO({ pageKey, title: titleProp, description: descriptio
   // Direction for RTL languages
   const dir = currentLang === 'ar' ? 'rtl' : 'ltr'
   
+  // Generate Schema.org structured data
+  const generateSchema = () => {
+    const schemas: any[] = [
+      // Organization Schema
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "@id": `${baseUrl}/#organization`,
+        "name": "Rolls-Royce Dubai",
+        "url": baseUrl,
+        "logo": {
+          "@type": "ImageObject",
+          "url": `${baseUrl}/logo.png`,
+          "width": 600,
+          "height": 400
+        },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "+971558164922",
+          "contactType": "customer service",
+          "availableLanguage": ["en", "ar", "zh", "fr", "ru", "hi"],
+          "areaServed": {
+            "@type": "Place",
+            "name": "Dubai, UAE"
+          }
+        },
+        "sameAs": [
+          "https://facebook.com/rollsroycedubai",
+          "https://instagram.com/rollsroycedubai",
+          "https://twitter.com/rollsroycedubai"
+        ]
+      },
+      // LocalBusiness Schema
+      {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "@id": `${baseUrl}/#localbusiness`,
+        "name": "Rolls-Royce Dubai Rental",
+        "image": `${baseUrl}/images/showroom.jpg`,
+        "priceRange": "AED 3,800 - AED 10,000 per day",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Downtown Dubai",
+          "addressLocality": "Dubai",
+          "addressCountry": "AE"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": "25.2048",
+          "longitude": "55.2708"
+        },
+        "openingHoursSpecification": {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+          "opens": "00:00",
+          "closes": "23:59"
+        },
+        "telephone": "+971558164922",
+        "hasOfferCatalog": {
+          "@type": "OfferCatalog",
+          "name": "Rolls-Royce Rental Services",
+          "itemListElement": [
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Rolls-Royce Phantom Rental",
+                "description": "Luxury Rolls-Royce Phantom rental with chauffeur in Dubai"
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Wedding Car Service",
+                "description": "Rolls-Royce wedding car rental in Dubai"
+              }
+            },
+            {
+              "@type": "Offer", 
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Airport Transfer",
+                "description": "VIP airport transfer service in Rolls-Royce"
+              }
+            }
+          ]
+        }
+      },
+      // Website Schema
+      {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "@id": `${baseUrl}/#website`,
+        "url": baseUrl,
+        "name": "Rolls-Royce Dubai",
+        "description": "Premium Rolls-Royce rental service in Dubai",
+        "publisher": {
+          "@id": `${baseUrl}/#organization`
+        },
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": {
+            "@type": "EntryPoint",
+            "urlTemplate": `${baseUrl}/search?q={search_term_string}`
+          },
+          "query-input": "required name=search_term_string"
+        },
+        "inLanguage": ["en", "ar", "zh", "fr", "ru", "hi"]
+      }
+    ];
+
+    // Add page-specific schema
+    if (pageKey === 'home') {
+      schemas.push({
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "@id": `${canonicalUrl}#webpage`,
+        "url": canonicalUrl,
+        "name": title,
+        "isPartOf": {
+          "@id": `${baseUrl}/#website`
+        },
+        "about": {
+          "@id": `${baseUrl}/#localbusiness`
+        },
+        "description": description,
+        "inLanguage": currentLang
+      });
+    } else if (pageKey.startsWith('fleet.')) {
+      const carModel = pageKey.split('.')[1];
+      schemas.push({
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "@id": `${canonicalUrl}#product`,
+        "name": title,
+        "description": description,
+        "image": [`${baseUrl}/images/fleet/${carModel}.jpg`],
+        "brand": {
+          "@type": "Brand",
+          "name": "Rolls-Royce"
+        },
+        "offers": {
+          "@type": "Offer",
+          "url": canonicalUrl,
+          "priceCurrency": "AED",
+          "availability": "https://schema.org/InStock",
+          "priceValidUntil": new Date(new Date().setFullYear(new Date().getFullYear() + 1)).toISOString().split('T')[0]
+        }
+      });
+    } else if (pageKey.startsWith('services.')) {
+      schemas.push({
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "@id": `${canonicalUrl}#service`,
+        "name": title,
+        "description": description,
+        "provider": {
+          "@id": `${baseUrl}/#localbusiness`
+        },
+        "areaServed": {
+          "@type": "City",
+          "name": "Dubai"
+        },
+        "hasOfferCatalog": {
+          "@type": "OfferCatalog",
+          "name": title
+        }
+      });
+    } else if (pageKey === 'faq') {
+      // FAQ schema will be added separately in the FAQ page
+    }
+
+    return schemas;
+  };
+
+  const schemas = generateSchema();
+  
   return (
     <Head>
       {/* Primary Meta Tags */}
@@ -141,6 +319,19 @@ export default function SEO({ pageKey, title: titleProp, description: descriptio
       <meta name="geo.position" content="25.2048;55.2708" />
       <meta name="ICBM" content="25.2048, 55.2708" />
       
+      {/* Business Information */}
+      <meta name="business:contact_data:street_address" content="Downtown Dubai" />
+      <meta name="business:contact_data:locality" content="Dubai" />
+      <meta name="business:contact_data:country_name" content="United Arab Emirates" />
+      <meta name="business:contact_data:postal_code" content="00000" />
+      <meta name="business:contact_data:phone_number" content="+971558164922" />
+      
+      {/* Schema.org Structured Data */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemas) }}
+      />
+      
       {/* Language-specific fonts preload */}
       {currentLang === 'zh' && (
         <link
@@ -160,69 +351,6 @@ export default function SEO({ pageKey, title: titleProp, description: descriptio
           crossOrigin="anonymous"
         />
       )}
-      
-      {/* Rich Snippets / Structured Data */}
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "LocalBusiness",
-            "@id": `${baseUrl}/#organization`,
-            "name": "Rolls-Royce Dubai",
-            "description": description,
-            "url": baseUrl,
-            "image": [
-              `${baseUrl}/images/logo.jpg`,
-              `${baseUrl}/images/Rolls-royce-official.jpg`,
-              `${baseUrl}/images/Rolls-royce-dubai.jpg`
-            ],
-            "telephone": "+971558164922",
-            "address": {
-              "@type": "PostalAddress",
-              "streetAddress": "Sheikh Zayed Road",
-              "addressLocality": "Dubai",
-              "addressRegion": "Dubai",
-              "postalCode": "00000",
-              "addressCountry": "AE"
-            },
-            "geo": {
-              "@type": "GeoCoordinates",
-              "latitude": 25.2048,
-              "longitude": 55.2708
-            },
-            "openingHoursSpecification": {
-              "@type": "OpeningHoursSpecification",
-              "dayOfWeek": [
-                "Monday",
-                "Tuesday",
-                "Wednesday",
-                "Thursday",
-                "Friday",
-                "Saturday",
-                "Sunday"
-              ],
-              "opens": "00:00",
-              "closes": "23:59"
-            },
-            "priceRange": "$$$$",
-            "paymentAccepted": ["Cash", "Credit Card", "Bank Transfer"],
-            "currenciesAccepted": "AED",
-            "areaServed": {
-              "@type": "City",
-              "name": "Dubai"
-            },
-            "serviceType": "Luxury Car Rental",
-            "aggregateRating": {
-              "@type": "AggregateRating",
-              "ratingValue": "5.0",
-              "reviewCount": "1247",
-              "bestRating": "5",
-              "worstRating": "1"
-            }
-          })
-        }}
-      />
     </Head>
   )
 }

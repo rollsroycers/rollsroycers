@@ -123,19 +123,19 @@
         "keywords": "avis location Rolls-Royce Dubaï, meilleur endroit pour louer Rolls-Royce Dubaï, avis location Rolls-Royce, témoignages clients Dubaï, location voiture luxe 5 étoiles"
       },
       "pricing": {
-        "title": "Prix location Rolls-Royce Dubaï | Combien coûte | Dès 3 800 AED",
-        "description": "Découvrez combien coûte la location d'une Rolls-Royce à Dubaï. Comparez les prix Phantom, Ghost, Cullinan. Tarifs journaliers pas chers, location à l'heure disponible. Devis en ligne instantané.",
-        "keywords": "prix location Rolls-Royce Dubaï, coût location Rolls-Royce Dubaï, combien pour louer Rolls-Royce Dubaï, location Rolls-Royce pas cher Dubaï, louer Rolls-Royce à l'heure Dubaï"
+        "title": "Location Rolls-Royce Dubaï Prix | Tarifs et Coûts | À partir de 3,800 AED",
+        "description": "Découvrez les prix de location Rolls-Royce à Dubaï. Comparez les tarifs Phantom, Ghost, Cullinan. Tarifs journaliers abordables, location horaire disponible. Devis instantanés en ligne.",
+        "keywords": "prix location Rolls-Royce Dubaï, coût location Rolls-Royce Dubaï, combien louer Rolls-Royce Dubaï, location Rolls-Royce pas cher Dubaï, location Rolls-Royce horaire Dubaï, tarifs voitures de luxe"
       },
       "faq": {
-        "title": "Comment et où louer Rolls-Royce à Dubaï | Puis-je louer? | FAQ 2025",
-        "description": "Apprenez comment louer une Rolls-Royce à Dubaï, où louer près de chez moi, exigences et processus. Puis-je louer une Rolls-Royce sans chauffeur? Toutes les réponses.",
-        "keywords": "comment louer Rolls-Royce Dubaï, où louer Rolls-Royce Dubaï, puis-je louer Rolls-Royce Dubaï, louer Rolls-Royce près de moi Dubaï, louer sans chauffeur Dubaï"
+        "title": "Comment et Où Louer Rolls-Royce à Dubaï | Puis-je Louer? | FAQ 2025",
+        "description": "Apprenez comment louer Rolls-Royce à Dubaï, où louer près de moi, exigences et processus. Puis-je louer Rolls-Royce sans chauffeur? Toutes les questions répondues.",
+        "keywords": "comment louer Rolls-Royce Dubaï, où louer Rolls-Royce Dubaï, puis-je louer Rolls-Royce Dubaï, location Rolls-Royce près de moi Dubaï, location sans chauffeur Dubaï"
       },
       "blog": {
-        "title": "Blog de Rolls-Royce Dubaï | Style de vie de luxe, conseils et guides",
-        "description": "Informations sur les voitures de luxe, guides de conduite à Dubaï, actualités de Rolls-Royce, couverture d'événements et locations pour célébrités. Votre guide de la conduite de luxe à Dubaï.",
-        "keywords": "blog Rolls-Royce Dubaï, articles sur les voitures de luxe, conseils de conduite à Dubaï, actualités automobiles, blog sur le style de vie de luxe"
+        "title": "Blog Rolls-Royce Dubaï | Style de Vie Luxueux, Conseils et Guides",
+        "description": "Aperçus sur les voitures de luxe, guides de conduite pour Dubaï, actualités Rolls-Royce, couverture d'événements et locations de célébrités. Votre guide de l'automobile de luxe à Dubaï.",
+        "keywords": "blog Rolls-Royce Dubaï, articles voitures de luxe, conseils conduite Dubaï, actualités automobiles, blog style de vie luxueux"
       },
       "booking": {
         "title": "Louer Rolls-Royce Dubaï en ligne 2025 | Réserver maintenant | Confirmation instantanée",
@@ -159,6 +159,20 @@
         "description": "Comparez les voitures de luxe Rolls-Royce et Bentley à Dubaï. Comparaison détaillée des caractéristiques, des performances, de l'héritage et des prix de location pour vous aider à choisir.",
         "keywords": "Rolls-Royce vs Bentley, comparaison de voitures de luxe Dubaï, Phantom vs Mulsanne, Ghost vs Flying Spur, Cullinan vs Bentayga"
       }
+    }
+  },
+  "blog": {
+    "index": {
+      "title": "Blog Rolls-Royce Dubaï | Style de Vie Luxueux, Conseils et Guides",
+      "description": "Aperçus sur les voitures de luxe, guides de conduite pour Dubaï, actualités Rolls-Royce, couverture d'événements et locations de célébrités. Votre guide de l'automobile de luxe à Dubaï.",
+      "keywords": "blog Rolls-Royce Dubaï, articles voitures de luxe, conseils conduite Dubaï, actualités automobiles, blog style de vie luxueux"
+    }
+  },
+  "compare": {
+    "rolls-royce-vs-bentley": {
+      "title": "Comparaison Rolls-Royce vs Bentley Dubaï | Guide de Location de Voitures de Luxe",
+      "description": "Comparez les voitures de luxe Rolls-Royce vs Bentley à Dubaï. Comparaison détaillée des caractéristiques, performances, héritage et prix de location pour vous aider à choisir.",
+      "keywords": "Rolls Royce vs Bentley, comparaison voitures de luxe Dubaï, Phantom vs Mulsanne, Ghost vs Flying Spur, Cullinan vs Bentayga"
     }
   }
 }

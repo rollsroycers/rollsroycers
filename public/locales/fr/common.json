@@ -1,11 +1,11 @@
 {
   "nav": {
     "home": "Accueil",
-    "fleet": "Notre Flotte",
+    "fleet": "Flotte",
     "services": "Services",
-    "about": "À Propos",
+    "about": "À propos",
     "contact": "Contact",
-    "book": "Réserver Maintenant",
+    "book": "Réserver",
     "bookingLink": "Réserver Maintenant",
     "booking": "Réserver",
     "language": "Langue",
@@ -14,7 +14,7 @@
     "pricing": "Tarifs",
     "faq": "FAQ",
     "blog": "Blog",
-    "locations": "Lieux",
+    "locations": "Emplacements",
     "more": "Plus"
   },
   "hero": {
@@ -986,7 +986,7 @@
     },
     "from": "À partir de",
     "perDay": "/jour",
-    "rentNow": "Louer maintenant",
+    "rentNow": "RÉSERVER",
     "aed": "AED",
     "performance": "Performance",
     "convertibleTech": "Technologie Cabriolet",
@@ -996,31 +996,31 @@
     "title": "Services Exceptionnels",
     "subtitle": "Adaptés à Vos Besoins",
     "wedding": {
-      "title": "Service de Mariage",
+      "title": "Services de mariage",
       "description": "Rendez votre jour spécial inoubliable avec notre service de voiture de mariage de luxe."
     },
     "corporate": {
-      "title": "Service aux Entreprises",
+      "title": "Services d'entreprise",
       "description": "Solutions de transport exécutif pour les professionnels."
     },
     "chauffeur": {
-      "title": "Chauffeur Professionnel",
+      "title": "Service chauffeur",
       "description": "Vivez le luxe avec nos chauffeurs formés et multilingues, disponibles 24/7."
     },
     "airport": {
-      "title": "Transfert Aéroport",
+      "title": "Transfert aéroport",
       "description": "Arrivée et départ sans faille avec notre service de transfert aéroport premium."
     },
     "events": {
-      "title": "Événements Spéciaux",
+      "title": "Événements",
       "description": "Rendez votre mariage, gala ou événement d'entreprise inoubliable."
     },
     "photoshoot": {
-      "title": "Service de Photoshoot",
+      "title": "Séances photo",
       "description": "Capturez des moments époustouflants avec nos véhicules de luxe comme toile de fond parfaite."
     },
     "tours": {
-      "title": "Visites de la Ville",
+      "title": "Circuits",
       "description": "Explorez les sites emblématiques de Dubaï dans le luxe et le confort ultimes."
     },
     "hourly": {
@@ -1164,11 +1164,11 @@
     "social": "Suivez-Nous",
     "rights": "Tous droits réservés",
     "support": "Support 24/7",
-    "email": "Nous contacter",
+    "email": "Nous écrire",
     "showroom": "Emplacement du showroom",
-    "about": "À propos",
+    "about": "Votre choix premium pour la location de Rolls-Royce de luxe à Dubaï",
     "quickLinks": "Liens rapides",
-    "call": "Appeler",
+    "call": "Nous appeler",
     "whatsapp": "WhatsApp",
     "privacy": "Politique de confidentialité",
     "terms": "Conditions générales"
@@ -1179,9 +1179,9 @@
   },
   "pricing": {
     "title": "Tarifs transparents",
-    "daily": "Par jour",
-    "weekly": "Par semaine",
-    "monthly": "Par mois",
+    "daily": "/jour",
+    "weekly": "/semaine",
+    "monthly": "/mois",
     "includes": "Le prix comprend",
     "insurance": "Assurance complète",
     "mileage": "250 km par jour",
@@ -1219,7 +1219,7 @@
         "subtitle": "Lisez les informations et conseils sur le luxe"
       },
       "compare": {
-        "title": "Comparer",
+        "title": "Comparer la flotte",
         "subtitle": "Rolls-Royce vs Autres Marques"
       }
     }
@@ -1579,10 +1579,10 @@
     "limitedTimeDeals": "Offres à durée limitée",
     "offersEndIn": "Les offres se terminent dans",
     "useCode": "Utiliser le code",
-    "readyToExperience": "Prêt à Vivre le Luxe?",
-    "bookYourRollsRoyce": "Réservez votre Rolls-Royce aujourd'hui et vivez le summum de l'excellence automobile.",
-    "bookNow": "Réserver Maintenant",
-    "viewPricing": "Voir les Tarifs",
+    "readyToExperience": "Prêt à vivre le luxe?",
+    "bookYourRollsRoyce": "Réservez votre Rolls-Royce aujourd'hui",
+    "bookNow": "Réserver maintenant",
+    "viewPricing": "Voir les tarifs",
     "available": "Disponible",
     "unavailable": "Indisponible",
     "selected": "Sélectionné",
@@ -3536,7 +3536,7 @@
         "name": "Aperçu"
       },
       "luxury": {
-        "name": "Luxe et confort"
+        "name": "Luxe et Confort"
       },
       "performance": {
         "name": "Performance"
@@ -3545,69 +3545,69 @@
         "name": "Technologie"
       },
       "heritage": {
-        "name": "Héritage et marque"
+        "name": "Héritage et Marque"
       },
       "price": {
-        "name": "Prix et valeur"
+        "name": "Prix et Valeur"
       }
     },
     "overview": {
       "rollsRoyce": {
-        "title": "Le summum du luxe",
+        "title": "Le Summum du Luxe",
         "summary": "Rolls-Royce représente le summum absolu du luxe automobile, où aucun compromis n'est fait dans la poursuite de la perfection."
       },
       "bentley": {
-        "title": "Luxe de performance",
-        "summary": "Bentley offre un mélange unique de luxe et de performance, séduisant ceux qui veulent conduire autant qu'être conduits."
+        "title": "Luxe de Performance",
+        "summary": "Bentley offre un mélange unique de luxe et de performance, attirant ceux qui veulent conduire autant qu'être conduits."
       }
     },
     "luxury": {
       "rollsRoyce": {
-        "title": "Opulence inégalée",
+        "title": "Opulence Inégalée",
         "summary": "Chaque Rolls-Royce est un chef-d'œuvre d'artisanat, avec une attention aux détails qui frôle l'obsession."
       },
       "bentley": {
-        "title": "Luxe contemporain",
+        "title": "Luxe Contemporain",
         "summary": "Bentley combine l'artisanat traditionnel avec le luxe moderne, créant un environnement à la fois opulent et sportif."
       }
     },
     "performance": {
       "rollsRoyce": {
-        "title": "Puissance sans effort",
-        "summary": "Rolls-Royce privilégie une livraison de puissance douce et sans effort plutôt que les performances sportives, créant une expérience de conduite sereine."
+        "title": "Puissance Sans Effort",
+        "summary": "Rolls-Royce privilégie une délivrance de puissance fluide et sans effort plutôt que les performances sportives, créant une expérience de conduite sereine."
       },
       "bentley": {
-        "title": "Performance exaltante",
-        "summary": "Bentley offre des performances de supercar enveloppées dans le luxe, séduisant les passionnés qui refusent de faire des compromis."
+        "title": "Performance Exaltante",
+        "summary": "Bentley offre les performances d'une supercar enveloppées dans le luxe, attirant les passionnés qui refusent de faire des compromis."
       }
     },
     "technology": {
       "rollsRoyce": {
-        "title": "Technologie invisible",
-        "summary": "Rolls-Royce intègre la technologie de pointe de manière transparente, maintenant une esthétique classique et épurée."
+        "title": "Technologie Invisible",
+        "summary": "Rolls-Royce intègre une technologie de pointe de manière transparente, maintenant une esthétique classique et épurée."
       },
       "bentley": {
-        "title": "Innovation moderne",
+        "title": "Innovation Moderne",
         "summary": "Bentley embrasse la technologie moderne plus ouvertement, offrant un mélange de luxe traditionnel et d'innovation contemporaine."
       }
     },
     "heritage": {
       "rollsRoyce": {
-        "title": "120 ans d'excellence",
+        "title": "120 Ans d'Excellence",
         "summary": "Rolls-Royce a maintenu sa position de fabricant automobile de luxe ultime pendant plus d'un siècle."
       },
       "bentley": {
-        "title": "Pedigree de course",
+        "title": "Pedigree de Course",
         "summary": "L'héritage de course de Bentley imprègne chaque modèle d'un esprit sportif qui le distingue des marques de luxe pur."
       }
     },
     "price": {
       "rollsRoyce": {
-        "title": "Investissement ultime",
+        "title": "Investissement Ultime",
         "summary": "Rolls-Royce commande des prix premium qui reflètent sa position d'automobile de luxe ultime."
       },
       "bentley": {
-        "title": "Ultra-luxe accessible",
+        "title": "Ultra-Luxe Accessible",
         "summary": "Bentley offre une entrée plus accessible dans le segment ultra-luxe tout en maintenant l'exclusivité."
       }
     },
@@ -3615,69 +3615,69 @@
       "phantom": {
         "rollsRoyce": {
           "model": "Phantom",
-          "price": "5 800 AED/jour",
-          "type": "Berline ultra-luxe"
+          "price": "5,800 AED/jour",
+          "type": "Berline Ultra-Luxe"
         },
         "bentley": {
           "model": "Mulsanne",
-          "price": "4 200 AED/jour",
-          "type": "Berline de luxe"
+          "price": "4,200 AED/jour",
+          "type": "Berline de Luxe"
         }
       },
       "ghost": {
         "rollsRoyce": {
           "model": "Ghost",
-          "price": "4 800 AED/jour",
-          "type": "Berline de luxe"
+          "price": "4,800 AED/jour",
+          "type": "Berline de Luxe"
         },
         "bentley": {
           "model": "Flying Spur",
-          "price": "3 500 AED/jour",
-          "type": "Berline sport"
+          "price": "3,500 AED/jour",
+          "type": "Berline Sport"
         }
       },
       "cullinan": {
         "rollsRoyce": {
           "model": "Cullinan",
-          "price": "6 500 AED/jour",
-          "type": "SUV ultra-luxe"
+          "price": "6,500 AED/jour",
+          "type": "SUV Ultra-Luxe"
         },
         "bentley": {
           "model": "Bentayga",
-          "price": "4 800 AED/jour",
-          "type": "SUV de luxe"
+          "price": "4,800 AED/jour",
+          "type": "SUV de Luxe"
         }
       }
     },
     "rental": {
       "rollsRoyce": {
         "title": "Location Rolls-Royce",
-        "daily": "3 500+ AED",
-        "weekly": "21 000+ AED",
-        "monthly": "75 000+ AED"
+        "daily": "3,500+ AED",
+        "weekly": "21,000+ AED",
+        "monthly": "75,000+ AED"
       },
       "bentley": {
         "title": "Location Bentley",
-        "daily": "2 800+ AED",
-        "weekly": "16 000+ AED",
-        "monthly": "55 000+ AED"
+        "daily": "2,800+ AED",
+        "weekly": "16,000+ AED",
+        "monthly": "55,000+ AED"
       },
-      "title": "Comparaison des prix de location",
-      "dailyRate": "Tarif journalier",
-      "weeklyRate": "Tarif hebdomadaire",
-      "monthlyRate": "Tarif mensuel",
-      "whyChooseRollsRoyce": "Pourquoi choisir Rolls-Royce ?",
-      "whyChooseBentley": "Pourquoi choisir Bentley ?",
+      "title": "Comparaison des Prix de Location",
+      "dailyRate": "Tarif Journalier",
+      "weeklyRate": "Tarif Hebdomadaire",
+      "monthlyRate": "Tarif Mensuel",
+      "whyChooseRollsRoyce": "Pourquoi Choisir Rolls-Royce?",
+      "whyChooseBentley": "Pourquoi Choisir Bentley?",
       "bookRollsRoyce": "Réserver Rolls-Royce",
-      "inquireBentley": "Se renseigner sur Bentley"
+      "inquireBentley": "S'informer sur Bentley"
     },
     "hero": {
       "title": {
         "rollsRoyce": "Rolls-Royce",
-        "vs": "contre",
+        "vs": "vs",
         "bentley": "Bentley"
       },
-      "subtitle": "La comparaison ultime de voitures de luxe pour Dubaï",
+      "subtitle": "La Comparaison Ultime de Voitures de Luxe pour Dubaï",
       "bentleyAlt": "Voiture de luxe Bentley à Dubaï"
     },
     "quickSummary": {
@@ -3689,9 +3689,9 @@
       },
       "bentley": {
         "title": "Bentley",
-        "point1": "La performance rencontre le luxe",
+        "point1": "Performance rencontre luxe",
         "point2": "Héritage de course",
-        "point3": "Expérience centrée sur le conducteur"
+        "point3": "Expérience axée sur le conducteur"
       }
     },
     "summary": {
@@ -3708,39 +3708,41 @@
       "bentley": "Bentley"
     },
     "modelComparison": {
-      "title": "Comparaison modèle par modèle"
+      "title": "Comparaison Modèle par Modèle"
     },
     "choice": {
-      "title": "Faire votre choix",
+      "title": "Faire Votre Choix",
       "rollsRoyce": {
-        "title": "Choisissez Rolls-Royce si :",
+        "title": "Choisissez Rolls-Royce Si:",
         "point1": "Vous voulez le summum absolu du luxe",
         "point2": "Le statut et le prestige sont primordiaux",
-        "point3": "Vous préférez être conduit plutôt que conduire",
+        "point3": "Vous préférez être conduit que conduire",
         "point4": "Vous appréciez l'artisanat traditionnel",
         "point5": "Le budget n'est pas une préoccupation principale"
       },
       "bentley": {
-        "title": "Choisissez Bentley si :",
-        "point1": "Vous aimez les performances de conduite",
-        "point2": "Vous voulez du luxe avec un flair sportif",
-        "point3": "L'héritage de course vous séduit",
+        "title": "Choisissez Bentley Si:",
+        "point1": "Vous appréciez les performances de conduite",
+        "point2": "Vous voulez du luxe avec une touche sportive",
+        "point3": "L'héritage de course vous attire",
         "point4": "Vous préférez des prix plus accessibles",
         "point5": "Vous aimez l'interprétation moderne du luxe"
       }
     },
     "verdict": {
-      "title": "Le verdict",
-      "p1": "Les deux Rolls-Royce et Bentley représentent la perfection absolue de la voiture de luxe, mais ils attirent des sensibilités différentes. Rolls-Royce est le choix ultime pour ceux qui valorisent la luxueuse absolue, le confort sans compromis et le statut suprême. C'est pour ceux qui apprécient d'être conduits dans l'opulence sans compromis.",
-      "p2": "Bentley, d'autre part, offre un mélange parfait de luxe et de performance pour ceux qui ne veulent pas choisir entre confort et excitation de conduite. Avec son héritage de course et son prix plus accessible, Bentley attire les amateurs de luxe qui veulent vivre l'excitation de la conduite tout en appréciant le confort exceptionnel et la maîtrise."
+      "title": "Le Verdict",
+      "p1": "Rolls-Royce et Bentley représentent toutes deux le summum du luxe automobile, mais elles s'adressent à des sensibilités différentes. Rolls-Royce est le choix ultime pour ceux qui valorisent le luxe absolu, le confort sans compromis et le statut suprême. C'est pour ceux qui apprécient d'être conduits dans une opulence inégalée.",
+      "p2": "Bentley, d'autre part, offre un mélange parfait de luxe et de performance pour ceux qui ne veulent pas choisir entre confort et excitation de conduite. Avec son héritage de course et ses prix plus accessibles, Bentley attire les passionnés de luxe qui veulent vivre l'excitation de la conduite tout en profitant d'un confort et d'un artisanat exceptionnels.",
+      "exploreFleet": "Explorer Notre Flotte",
+      "bookExperience": "Réserver Votre Expérience"
     },
     "related": {
-      "title": "Comparaisons liées",
+      "title": "Comparaisons Connexes",
       "mercedes": {
-        "title": "Rolls-Royce contre Mercedes-Maybach",
+        "title": "Rolls-Royce vs Mercedes-Maybach",
         "subtitle": "L'élégance britannique rencontre la précision allemande"
       },
-      "comingSoon": "À venir"
+      "comingSoon": "Bientôt Disponible"
     }
   },
   "contact": {
@@ -4230,6 +4232,322 @@
       "millionaire": "Style de Vie Esthétique de Millionnaire de Luxe",
       "mansory": "Mansory Black Badge Rolls Royce Cullinan",
       "defines": "Rolls Royce définit ce que signifient les voitures de luxe"
+    }
+  },
+  "testimonialsPage": {
+    "title": "Témoignages de nos clients",
+    "subtitle": "Découvrez pourquoi nos clients choisissent Rolls-Royce Dubai pour leurs moments les plus importants",
+    "stats": {
+      "averageRating": "Note moyenne",
+      "recommendationRate": "Taux de recommandation",
+      "countriesServed": "Pays desservis"
+    },
+    "filters": {
+      "allReviews": "Tous les avis",
+      "wedding": "Mariage",
+      "corporate": "Entreprise",
+      "tourism": "Tourisme",
+      "events": "Événements"
+    },
+    "labels": {
+      "experienceHighlights": "Points forts de l'expérience"
+    },
+    "cta": {
+      "title": "Prêt à créer votre propre histoire ?",
+      "subtitle": "Rejoignez des centaines de clients satisfaits qui ont vécu le summum du luxe avec Rolls-Royce Dubai",
+      "bookButton": "Réservez votre expérience",
+      "exploreButton": "Explorez notre flotte"
+    }
+  },
+  "pricingPage": {
+    "hero": {
+      "title": "Tarification transparente",
+      "subtitle": "Aucun frais caché, juste le luxe pur",
+      "description": "Tous les prix incluent l'assurance de base, 250 km par jour et la TVA"
+    },
+    "durationSelector": {
+      "daily": "Tarifs quotidiens",
+      "weekly": "Tarifs hebdomadaires",
+      "monthly": "Tarifs mensuels",
+      "weeklyDiscount": "15% DE RÉDUCTION",
+      "monthlyDiscount": "30% DE RÉDUCTION"
+    },
+    "vehiclePricing": {
+      "phantom": {
+        "tagline": "Le vaisseau amiral ultime",
+        "features": [
+          "Empattement étendu disponible",
+          "Ciel étoilé lumineux",
+          "Option suite privée",
+          "Système audio sur mesure"
+        ]
+      },
+      "ghost": {
+        "tagline": "Sans effort partout",
+        "features": [
+          "Fascia illuminé",
+          "Black Badge disponible",
+          "Suspension planaire",
+          "Conduite tapis volant"
+        ]
+      },
+      "cullinan": {
+        "tagline": "Excellence SUV de luxe",
+        "features": [
+          "Capacité tout-terrain",
+          "Option suite d'observation",
+          "Module de loisirs",
+          "Système de vision nocturne"
+        ]
+      },
+      "dawn": {
+        "tagline": "Cabriolet social",
+        "features": [
+          "Toit convertible",
+          "Déflecteur de vent",
+          "Réglage audio sur mesure",
+          "Luxe en plein air"
+        ]
+      },
+      "wraith": {
+        "tagline": "Grand Tourer",
+        "features": [
+          "Design fastback",
+          "Ciel étoilé",
+          "Puissance Black Badge",
+          "Performance dynamique"
+        ]
+      },
+      "labels": {
+        "perDay": "par jour",
+        "perWeek": "par semaine",
+        "perMonth": "par mois",
+        "mostPopular": "LE PLUS POPULAIRE",
+        "viewDetailsBook": "Voir détails et réserver"
+      }
+    },
+    "additionalServices": {
+      "title": "Services et frais supplémentaires",
+      "services": {
+        "chauffeur": {
+          "name": "Chauffeur professionnel",
+          "price": "1 500 AED/jour",
+          "description": "Conducteurs expérimentés et multilingues"
+        },
+        "airport": {
+          "name": "Transfert aéroport",
+          "price": "1 000 AED",
+          "description": "Transfert de luxe aller simple"
+        },
+        "wedding": {
+          "name": "Forfait mariage",
+          "price": "À partir de 8 500 AED",
+          "description": "Véhicule décoré avec chauffeur"
+        },
+        "hourly": {
+          "name": "Location horaire",
+          "price": "2 000 AED/heure",
+          "description": "Minimum 4 heures"
+        },
+        "mileage": {
+          "name": "Kilométrage supplémentaire",
+          "price": "20 AED/km",
+          "description": "Au-delà de 250 km par jour"
+        },
+        "delivery": {
+          "name": "Livraison et collecte",
+          "price": "500 AED à Dubaï",
+          "description": "Autres émirats à partir de 1 000 AED"
+        }
+      }
+    },
+    "corporatePackages": {
+      "title": "Forfaits corporatifs et long terme",
+      "packages": {
+        "executive": {
+          "name": "Exécutif",
+          "price": "85 000 AED/mois",
+          "features": [
+            "20 jours par mois",
+            "Choix de Ghost ou Wraith",
+            "Chauffeur dédié",
+            "Transferts aéroport inclus"
+          ]
+        },
+        "chairman": {
+          "name": "Président",
+          "price": "150 000 AED/mois",
+          "features": [
+            "Usage illimité",
+            "Tout véhicule de la flotte",
+            "2 chauffeurs dédiés",
+            "Réservation prioritaire"
+          ]
+        },
+        "enterprise": {
+          "name": "Entreprise",
+          "price": "Devis personnalisé",
+          "features": [
+            "Véhicules multiples",
+            "Gestion de flotte",
+            "Branding corporatif",
+            "Équipe compte dédiée"
+          ]
+        }
+      },
+      "recommended": "RECOMMANDÉ",
+      "learnMore": "En savoir plus"
+    },
+    "seasonalPricing": {
+      "title": "Ajustements de prix saisonniers",
+      "tableHeaders": {
+        "season": "Saison/Événement",
+        "factor": "Facteur de prix",
+        "details": "Détails"
+      },
+      "seasons": {
+        "peak": {
+          "name": "Saison haute (nov-mars)",
+          "factor": "+20%",
+          "description": "Saison de Dubaï et vacances"
+        },
+        "ramadan": {
+          "name": "Ramadan",
+          "factor": "+15%",
+          "description": "Période de forte demande"
+        },
+        "summer": {
+          "name": "Été (juin-août)",
+          "factor": "-10%",
+          "description": "Tarifs d'été spéciaux"
+        },
+        "events": {
+          "name": "Événements et expositions",
+          "factor": "+25%",
+          "description": "GITEX, salon aéronautique, etc."
+        }
+      },
+      "disclaimer": "* Les prix sont soumis à disponibilité et peuvent varier lors d'événements spéciaux"
+    },
+    "priceCalculator": {
+      "title": "Calculez votre coût total",
+      "subtitle": "Utilisez notre calculateur pour estimer votre coût de location incluant tous les services",
+      "openButton": "Ouvrir le calculateur de prix"
+    },
+    "priceGuarantee": {
+      "title": "Garantie du meilleur prix",
+      "subtitle": "Trouvez un prix plus bas pour la même location Rolls-Royce à Dubaï ? Nous l'égalerons et vous donnerons une remise supplémentaire de 5%.",
+      "features": {
+        "priceMatch": {
+          "title": "Égalisation de prix",
+          "description": "Nous égalons tout prix vérifié de concurrent"
+        },
+        "extraDiscount": {
+          "title": "5% de remise en plus",
+          "description": "Remise supplémentaire sur le prix égalisé"
+        },
+        "noHiddenFees": {
+          "title": "Aucun frais caché",
+          "description": "Tarification transparente toujours"
+        }
+      },
+      "cta": "Réservez en toute confiance"
+    },
+    "faq": {
+      "title": "FAQ sur les prix",
+      "questions": {
+        "included": {
+          "question": "Qu'est-ce qui est inclus dans le prix de location ?",
+          "answer": "Tous les prix incluent l'assurance complète, 250 km d'allocation quotidienne, la TVA et l'assistance routière 24h/24. Le carburant n'est pas inclus."
+        },
+        "deposit": {
+          "question": "Y a-t-il des dépôts de garantie ?",
+          "answer": "Oui, un dépôt de garantie remboursable de 5 000 à 10 000 AED est requis selon le modèle de véhicule. Il est retenu sur votre carte de crédit."
+        },
+        "discounts": {
+          "question": "Puis-je obtenir une remise pour les locations longues ?",
+          "answer": "Oui ! Les locations hebdomadaires obtiennent 15% de remise, mensuelles 30%, et 3+ mois jusqu'à 40% du tarif quotidien."
+        },
+        "holidays": {
+          "question": "Les prix changent-ils pendant les vacances ?",
+          "answer": "Les prix peuvent augmenter de 20-25% pendant la saison haute (novembre-mars) et les grands événements. Réservez tôt pour les meilleurs tarifs."
+        }
+      },
+      "viewAllFaqs": "Voir toutes les FAQ →"
+    },
+    "cta": {
+      "title": "Prêt à vivre le luxe ?",
+      "subtitle": "Réservez votre Rolls-Royce aujourd'hui et profitez des meilleurs tarifs à Dubaï",
+      "bookNow": "Réserver maintenant",
+      "callForRates": "Appelez pour les tarifs spéciaux",
+      "stats": {
+        "support": "Support client",
+        "hiddenFees": "Frais cachés",
+        "satisfaction": "Satisfaction"
+      }
+    }
+  },
+  "faqPage": {
+    "title": "Questions Fréquemment Posées",
+    "subtitle": "Réponses à toutes vos questions sur la location de Rolls-Royce à Dubaï",
+    "description": "Apprenez tout ce que vous devez savoir sur la location de véhicules Rolls-Royce de luxe",
+    "categories": {
+      "all": "Toutes les questions",
+      "booking": "Réservation",
+      "requirements": "Exigences",
+      "pricing": "Tarifs et paiement",
+      "vehicles": "Véhicules",
+      "services": "Services",
+      "policies": "Politiques"
+    },
+    "questions": {
+      "q1": "Comment réserver une Rolls-Royce à Dubaï?",
+      "a1": "La réservation est simple! Vous pouvez réserver en ligne sur notre site, nous appeler au +971 55 816 4922, ou envoyer un message WhatsApp. Nous recommandons de réserver au moins 48 heures à l'avance pour garantir la disponibilité.",
+      "q2": "Puis-je réserver une Rolls-Royce le jour même?",
+      "a2": "Oui, les réservations le jour même sont possibles selon disponibilité. Cependant, nous recommandons de réserver à l'avance pour sécuriser votre véhicule préféré. Pour les réservations urgentes, appelez-nous directement.",
+      "q3": "Combien de temps à l'avance dois-je réserver?",
+      "a3": "Pour le meilleur choix et une disponibilité garantie, nous recommandons de réserver 3-7 jours à l'avance. Pendant les saisons de pointe (novembre-mars) et pour les événements spéciaux, réserver 2-4 semaines à l'avance est conseillé.",
+      "q4": "Puis-je modifier ou annuler ma réservation?",
+      "a4": "Oui, les modifications sont gratuites jusqu'à 48 heures avant la location. Les annulations 48+ heures à l'avance reçoivent un remboursement complet. Les annulations dans les 24-48 heures engagent 50% de frais, et dans les 24 heures ne sont pas remboursables.",
+      "q5": "Quelles sont les exigences pour louer une Rolls-Royce?",
+      "a5": "Vous avez besoin d'un permis de conduire valide, passeport, carte de crédit, et âge minimum de 25 ans. Les permis internationaux sont acceptés jusqu'à 30 jours, après vous avez besoin d'un permis local.",
+      "q6": "Ai-je besoin d'un permis de conduire international?",
+      "a6": "Si vous êtes touriste, vous pouvez utiliser votre permis local jusqu'à 30 jours. Pour des séjours plus longs, vous aurez besoin d'un permis international ou d'un permis des Émirats.",
+      "q7": "Quel est l'âge minimum pour la location?",
+      "a7": "L'âge minimum est de 25 ans. Les conducteurs de 21-24 ans peuvent louer avec des frais supplémentaires pour jeune conducteur et un dépôt de garantie plus élevé.",
+      "q8": "Qu'est-ce qui est inclus dans le prix de location?",
+      "a8": "Tous les prix incluent l'assurance complète, allocation quotidienne de 250 km, TVA, et assistance routière 24/7. Le carburant n'est pas inclus.",
+      "q9": "Y a-t-il un dépôt de garantie?",
+      "a9": "Oui, un dépôt de garantie remboursable de 5,000-10,000 dirhams est requis selon le modèle. Il est bloqué sur votre carte de crédit.",
+      "q10": "Puis-je obtenir une remise pour les locations longues?",
+      "a10": "Oui! Les locations hebdomadaires obtiennent 15% de remise, mensuelles 30%, et 3+ mois jusqu'à 40% du tarif journalier.",
+      "q11": "Quels modèles Rolls-Royce sont disponibles?",
+      "a11": "Notre flotte comprend Phantom, Ghost, Cullinan, Dawn, et Wraith. Tous les véhicules sont des modèles récents avec les dernières fonctionnalités de luxe.",
+      "q12": "Puis-je choisir la couleur du véhicule?",
+      "a12": "Oui, nous avons une gamme de couleurs disponibles pour chaque modèle. Les couleurs spécifiques sont sujettes à disponibilité, donc nous recommandons une réservation précoce.",
+      "q13": "Tous les véhicules sont-ils neufs?",
+      "a13": "Tous nos véhicules sont de modèles récents (généralement moins de 3 ans) et entretenus aux plus hauts standards dans les centres Rolls-Royce autorisés.",
+      "q14": "Puis-je avoir un chauffeur?",
+      "a14": "Oui, nous offrons un service de chauffeur professionnel pour 1,500 dirhams par jour. Nos chauffeurs sont expérimentés, polis, et parlent plusieurs langues.",
+      "q15": "Offrez-vous la livraison?",
+      "a15": "Oui, nous offrons la livraison et collecte gratuite à Dubaï, pour des frais nominaux dans les autres émirats. Nous livrerons le véhicule à votre emplacement préféré.",
+      "q16": "Puis-je louer pour des occasions spéciales?",
+      "a16": "Absolument! Nous offrons des forfaits spéciaux pour mariages, événements d'entreprise, séances photo, et occasions spéciales. Appelez pour des devis personnalisés.",
+      "q17": "Quelle est la politique de carburant?",
+      "a17": "Vous recevez le véhicule avec un réservoir plein et devez le retourner dans le même état. Si pas retourné plein, nous facturons le carburant plus frais de service.",
+      "q18": "Que se passe-t-il en cas d'accident?",
+      "a18": "Tous nos véhicules sont entièrement assurés. En cas d'accident, contactez-nous immédiatement. Vous serez responsable de la franchise comme indiqué dans le contrat.",
+      "q19": "Puis-je conduire en dehors de Dubaï?",
+      "a19": "Oui, vous pouvez conduire partout aux Émirats Arabes Unis. Pour voyager hors du pays, veuillez nous informer à l'avance pour les autorisations nécessaires.",
+      "q20": "Quelles sont les heures d'ouverture?",
+      "a20": "Nous sommes disponibles 24/7 pour les urgences et service client. Les heures de bureau régulières sont de 8h à 22h, 7 jours par semaine."
+    },
+    "contactCta": {
+      "title": "Vous n'avez pas trouvé la réponse à votre question?",
+      "description": "Notre équipe est prête à vous aider",
+      "callButton": "Appeler",
+      "whatsappButton": "WhatsApp",
+      "emailButton": "Email"
     }
   }
 }

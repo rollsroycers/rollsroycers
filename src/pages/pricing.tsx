@@ -1,5 +1,6 @@
 import { GetStaticProps } from 'next'
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
+import { useTranslation } from 'next-i18next'
 import Image from 'next/image'
 import Link from 'next/link'
 import { motion } from 'framer-motion'
@@ -10,6 +11,7 @@ import WhatsAppButton from '@/components/WhatsAppButton'
 import PriceCalculator from '@/components/PriceCalculator'
 
 export default function PricingPage() {
+  const { t } = useTranslation('common')
   const [selectedDuration, setSelectedDuration] = useState('daily')
   const [showCalculator, setShowCalculator] = useState(false)
 
@@ -221,13 +223,13 @@ export default function PricingPage() {
               transition={{ duration: 1 }}
             >
               <h1 className="text-5xl md:text-6xl font-bold text-white mb-6">
-                Transparent Pricing
+                {t('pricingPage.hero.title')}
               </h1>
               <p className="text-2xl text-rolls-gold mb-4">
-                No Hidden Fees, Just Pure Luxury
+                {t('pricingPage.hero.subtitle')}
               </p>
               <p className="text-xl text-gray-300 max-w-2xl mx-auto">
-                All prices include basic insurance, 250km daily mileage, and VAT
+                {t('pricingPage.hero.description')}
               </p>
             </motion.div>
           </div>
@@ -331,7 +333,7 @@ export default function PricingPage() {
         <section className="py-20 bg-gradient-to-b from-rolls-black to-rolls-navy">
           <div className="container mx-auto px-4">
             <h2 className="text-4xl font-bold text-white text-center mb-12">
-              Additional Services & Fees
+              {t('pricingPage.additionalServices.title')}
             </h2>
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-5xl mx-auto">
               {additionalServices.map((service, index) => (
@@ -355,7 +357,7 @@ export default function PricingPage() {
         <section className="py-20 bg-gradient-to-b from-rolls-navy to-rolls-black">
           <div className="container mx-auto px-4">
             <h2 className="text-4xl font-bold text-white text-center mb-12">
-              Corporate & Long-Term Packages
+              {t('pricingPage.corporatePackages.title')}
             </h2>
             <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
               {corporatePackages.map((pkg, index) => (
@@ -386,7 +388,7 @@ export default function PricingPage() {
                     ))}
                   </ul>
                   <Link href="/services/corporate" className="btn-primary w-full">
-                    Learn More
+                    {t('pricingPage.corporatePackages.learnMore')}
                   </Link>
                 </motion.div>
               ))}
@@ -398,7 +400,7 @@ export default function PricingPage() {
         <section className="py-20 bg-gradient-to-b from-rolls-black to-rolls-navy">
           <div className="container mx-auto px-4">
             <h2 className="text-4xl font-bold text-white text-center mb-12">
-              Seasonal Price Adjustments
+              {t('pricingPage.seasonalPricing.title')}
             </h2>
             <div className="max-w-4xl mx-auto">
               <div className="bg-rolls-black/50 backdrop-blur-sm border border-rolls-gold/20 rounded-lg overflow-hidden">
@@ -428,7 +430,7 @@ export default function PricingPage() {
                 </table>
               </div>
               <p className="text-center text-gray-400 mt-4">
-                * Prices subject to availability and may vary during special events
+                {t('pricingPage.seasonalPricing.disclaimer')}
               </p>
             </div>
           </div>
@@ -439,10 +441,10 @@ export default function PricingPage() {
           <div className="container mx-auto px-4">
             <div className="text-center mb-12">
               <h2 className="text-4xl font-bold text-white mb-4">
-                Calculate Your Total Cost
+                {t('pricingPage.priceCalculator.title')}
               </h2>
               <p className="text-xl text-gray-300">
-                Use our calculator to estimate your rental cost including all services
+                {t('pricingPage.priceCalculator.subtitle')}
               </p>
             </div>
             
@@ -454,7 +456,7 @@ export default function PricingPage() {
                   onClick={() => setShowCalculator(true)}
                   className="btn-primary"
                 >
-                  Open Price Calculator
+                  {t('pricingPage.priceCalculator.openButton')}
                 </motion.button>
               </div>
             ) : (
@@ -473,31 +475,30 @@ export default function PricingPage() {
             >
               <div className="bg-gradient-to-r from-rolls-gold/20 to-rolls-gold/10 border border-rolls-gold/30 rounded-lg p-12">
                 <h2 className="text-3xl font-bold text-white mb-6">
-                  Best Price Guarantee
+                  {t('pricingPage.priceGuarantee.title')}
                 </h2>
                 <p className="text-xl text-gray-300 mb-8">
-                  Find a lower price for the same Rolls-Royce rental in Dubai? 
-                  We'll match it and give you an additional 5% discount.
+                  {t('pricingPage.priceGuarantee.subtitle')}
                 </p>
                 <div className="grid md:grid-cols-3 gap-6 mb-8">
                   <div>
                     <div className="text-4xl mb-2">💰</div>
-                    <h3 className="text-white font-semibold mb-2">Price Match</h3>
-                    <p className="text-gray-400 text-sm">We match any verified competitor price</p>
+                    <h3 className="text-white font-semibold mb-2">{t('pricingPage.priceGuarantee.features.priceMatch.title')}</h3>
+                    <p className="text-gray-400 text-sm">{t('pricingPage.priceGuarantee.features.priceMatch.description')}</p>
                   </div>
                   <div>
                     <div className="text-4xl mb-2">🎁</div>
-                    <h3 className="text-white font-semibold mb-2">Extra 5% Off</h3>
-                    <p className="text-gray-400 text-sm">Additional discount on matched price</p>
+                    <h3 className="text-white font-semibold mb-2">{t('pricingPage.priceGuarantee.features.extraDiscount.title')}</h3>
+                    <p className="text-gray-400 text-sm">{t('pricingPage.priceGuarantee.features.extraDiscount.description')}</p>
                   </div>
                   <div>
                     <div className="text-4xl mb-2">✅</div>
-                    <h3 className="text-white font-semibold mb-2">No Hidden Fees</h3>
-                    <p className="text-gray-400 text-sm">Transparent pricing always</p>
+                    <h3 className="text-white font-semibold mb-2">{t('pricingPage.priceGuarantee.features.noHiddenFees.title')}</h3>
+                    <p className="text-gray-400 text-sm">{t('pricingPage.priceGuarantee.features.noHiddenFees.description')}</p>
                   </div>
                 </div>
                 <Link href="/booking" className="btn-primary">
-                  Book with Confidence
+                  {t('pricingPage.priceGuarantee.cta')}
                 </Link>
               </div>
             </motion.div>
@@ -508,25 +509,25 @@ export default function PricingPage() {
         <section className="py-20 bg-gradient-to-b from-rolls-navy to-rolls-black">
           <div className="container mx-auto px-4">
             <h2 className="text-4xl font-bold text-white text-center mb-12">
-              Pricing FAQs
+              {t('pricingPage.faq.title')}
             </h2>
             <div className="max-w-3xl mx-auto space-y-6">
               {[
                 {
-                  q: 'What is included in the rental price?',
-                  a: 'All prices include comprehensive insurance, 250km daily mileage allowance, VAT, and 24/7 roadside assistance. Fuel is not included.'
+                  q: t('pricingPage.faq.questions.included.question'),
+                  a: t('pricingPage.faq.questions.included.answer')
                 },
                 {
-                  q: 'Are there any security deposits?',
-                  a: 'Yes, a refundable security deposit of AED 5,000-10,000 is required depending on the vehicle model. This is held on your credit card.'
+                  q: t('pricingPage.faq.questions.deposit.question'),
+                  a: t('pricingPage.faq.questions.deposit.answer')
                 },
                 {
-                  q: 'Can I get a discount for longer rentals?',
-                  a: 'Yes! Weekly rentals get 15% off, monthly rentals 30% off, and 3+ months up to 40% off the daily rate.'
+                  q: t('pricingPage.faq.questions.discounts.question'),
+                  a: t('pricingPage.faq.questions.discounts.answer')
                 },
                 {
-                  q: 'Do prices change during holidays?',
-                  a: 'Prices may increase 20-25% during peak season (November-March) and major events. Book early for best rates.'
+                  q: t('pricingPage.faq.questions.holidays.question'),
+                  a: t('pricingPage.faq.questions.holidays.answer')
                 }
               ].map((faq, index) => (
                 <motion.div
@@ -543,7 +544,7 @@ export default function PricingPage() {
             </div>
             <div className="text-center mt-8">
               <Link href="/faq" className="text-rolls-gold hover:text-white transition-colors">
-                View all FAQs →
+                {t('pricingPage.faq.viewAllFaqs')} →
               </Link>
             </div>
           </div>
@@ -557,35 +558,35 @@ export default function PricingPage() {
               whileInView={{ opacity: 1, y: 0 }}
             >
               <h2 className="text-4xl font-bold text-white mb-6">
-                Ready to Experience Luxury?
+                {t('pricingPage.cta.title')}
               </h2>
               <p className="text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
-                Book your Rolls-Royce today and enjoy the best rates in Dubai
+                {t('pricingPage.cta.subtitle')}
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Link href="/booking" className="btn-primary">
-                  Book Now
+                  {t('pricingPage.cta.bookNow')}
                 </Link>
                 <a
                   href="tel:+971558164922"
                   className="btn-secondary"
                 >
-                  Call for Special Rates
+                  {t('pricingPage.cta.callForRates')}
                 </a>
               </div>
               
               <div className="mt-12 grid md:grid-cols-3 gap-8 max-w-3xl mx-auto">
                 <div className="text-center">
                   <p className="text-4xl font-bold text-rolls-gold mb-2">24/7</p>
-                  <p className="text-gray-400">Customer Support</p>
+                  <p className="text-gray-400">{t('pricingPage.cta.stats.support')}</p>
                 </div>
                 <div className="text-center">
                   <p className="text-4xl font-bold text-rolls-gold mb-2">0%</p>
-                  <p className="text-gray-400">Hidden Fees</p>
+                  <p className="text-gray-400">{t('pricingPage.cta.stats.hiddenFees')}</p>
                 </div>
                 <div className="text-center">
                   <p className="text-4xl font-bold text-rolls-gold mb-2">100%</p>
-                  <p className="text-gray-400">Satisfaction</p>
+                  <p className="text-gray-400">{t('pricingPage.cta.stats.satisfaction')}</p>
                 </div>
               </div>
             </motion.div>

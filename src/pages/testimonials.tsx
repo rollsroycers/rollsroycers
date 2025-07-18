@@ -15,11 +15,11 @@ export default function TestimonialsPage() {
   const [selectedTestimonial, setSelectedTestimonial] = useState<number | null>(null)
 
   const filters = [
-    { id: 'all', name: 'All Reviews', count: 25 },
-    { id: 'wedding', name: 'Wedding', count: 8 },
-    { id: 'corporate', name: 'Corporate', count: 7 },
-    { id: 'tourism', name: 'Tourism', count: 6 },
-    { id: 'events', name: 'Events', count: 4 }
+    { id: 'all', name: t('testimonialsPage.filters.allReviews'), count: 25 },
+    { id: 'wedding', name: t('testimonialsPage.filters.wedding'), count: 8 },
+    { id: 'corporate', name: t('testimonialsPage.filters.corporate'), count: 7 },
+    { id: 'tourism', name: t('testimonialsPage.filters.tourism'), count: 6 },
+    { id: 'events', name: t('testimonialsPage.filters.events'), count: 4 }
   ]
 
   const testimonials = [
@@ -399,10 +399,10 @@ export default function TestimonialsPage() {
               transition={{ duration: 1 }}
             >
               <h1 className="text-5xl md:text-6xl font-bold text-white mb-6">
-                Customer Testimonials
+                {t('testimonialsPage.title')}
               </h1>
               <p className="text-2xl text-rolls-gold mb-4">
-                Real Experiences from Our Valued Clients
+                {t('testimonialsPage.subtitle')}
               </p>
               <div className="flex items-center justify-center space-x-2">
                 {[...Array(5)].map((_, i) => (
@@ -435,7 +435,7 @@ export default function TestimonialsPage() {
                 className="text-center"
               >
                 <p className="text-4xl font-bold text-rolls-gold">5.0</p>
-                <p className="text-gray-300">Average Rating</p>
+                <p className="text-gray-300">{t('testimonialsPage.stats.averageRating')}</p>
               </motion.div>
               <motion.div
                 initial={{ opacity: 0, y: 20 }}
@@ -444,7 +444,7 @@ export default function TestimonialsPage() {
                 className="text-center"
               >
                 <p className="text-4xl font-bold text-rolls-gold">100%</p>
-                <p className="text-gray-300">Recommendation Rate</p>
+                <p className="text-gray-300">{t('testimonialsPage.stats.recommendationRate')}</p>
               </motion.div>
               <motion.div
                 initial={{ opacity: 0, y: 20 }}
@@ -453,7 +453,7 @@ export default function TestimonialsPage() {
                 className="text-center"
               >
                 <p className="text-4xl font-bold text-rolls-gold">15+</p>
-                <p className="text-gray-300">Countries Served</p>
+                <p className="text-gray-300">{t('testimonialsPage.stats.countriesServed')}</p>
               </motion.div>
             </div>
           </div>
@@ -616,7 +616,7 @@ export default function TestimonialsPage() {
 
                       {/* Highlights */}
                       <div className="mb-6">
-                        <h5 className="text-white font-semibold mb-3">Experience Highlights:</h5>
+                        <h5 className="text-white font-semibold mb-3">{t('testimonialsPage.labels.experienceHighlights')}</h5>
                         <div className="flex flex-wrap gap-3">
                           {testimonial.highlights.map((highlight, idx) => (
                             <span key={idx} className="bg-rolls-gold/10 text-rolls-gold px-4 py-2 rounded-full">
@@ -658,17 +658,17 @@ export default function TestimonialsPage() {
               whileInView={{ opacity: 1, y: 0 }}
             >
               <h2 className="text-4xl font-bold text-white mb-6">
-                Join Our Growing List of Satisfied Customers
+                {t('testimonialsPage.cta.title')}
               </h2>
               <p className="text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
-                Experience the Rolls-Royce difference and create your own unforgettable story
+                {t('testimonialsPage.cta.subtitle')}
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Link href="/booking" className="btn-primary">
-                  Book Your Experience
+                  {t('testimonialsPage.cta.bookButton')}
                 </Link>
                 <Link href="/fleet" className="btn-secondary">
-                  Explore Our Fleet
+                  {t('testimonialsPage.cta.exploreButton')}
                 </Link>
               </div>
             </motion.div>

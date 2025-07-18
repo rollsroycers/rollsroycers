@@ -35,7 +35,9 @@
     "fix-remaining-assets": "node scripts/fix-remaining-assets.js",
     "validate-assets": "node scripts/validate-assets.js",
     "dev:restart": "node scripts/restart-dev-server.js",
-    "translations:full-setup": "npm run translations:generate && npm run translations:complete && npm run translations:update-code && npm run translations:test"
+    "translations:full-setup": "npm run translations:generate && npm run translations:complete && npm run translations:update-code && npm run translations:test",
+    "sitemap:generate": "node scripts/generate-sitemap.js",
+    "postbuild": "npm run sitemap:generate"
   },
   "dependencies": {
     "framer-motion": "^12.17.0",

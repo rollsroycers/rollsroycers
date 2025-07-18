@@ -4,6 +4,7 @@ import Footer from './Footer'
 import CookieConsent from './CookieConsent'
 import SocialProofNotifications from './SocialProofNotifications'
 import VoiceSearch from './VoiceSearch'
+import Breadcrumbs from './Breadcrumbs'
 import { useTranslation } from 'next-i18next'
 
 interface LayoutProps {
@@ -17,6 +18,7 @@ export default function Layout({ children }: LayoutProps) {
   return (
     <div className="min-h-screen flex flex-col" dir={dir}>
       <Navbar />
+      <Breadcrumbs />
       <main className="flex-grow">
         {children}
       </main>
