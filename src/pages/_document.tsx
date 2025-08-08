@@ -1,8 +1,10 @@
 import { Html, Head, Main, NextScript } from 'next/document'
 
 export default function Document() {
+  // Next.js Document does not receive router, but Next sets documentElement.lang at runtime.
+  // We can still default to en and set dir based on a heuristic via inline script early in Head.
   return (
-    <Html lang="en">
+    <Html lang="en" dir="ltr">
       <Head>
         {/* Preconnect to external domains for faster loading */}
         <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -77,6 +79,24 @@ export default function Document() {
               "servesCuisine": "Luxury Car Rental",
               "acceptsReservations": true
             })
+          }}
+        />
+
+        {/* Set initial html lang/dir as early as possible based on URL prefix */}
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+(function(){
+  try{
+    var path = location.pathname || '/';
+    var m = path.match(/^\/(en|ar|zh|fr|ru|hi)(?=\/|$)/);
+    var lang = m ? m[1] : 'en';
+    var dir = lang === 'ar' ? 'rtl' : 'ltr';
+    document.documentElement.setAttribute('lang', lang);
+    document.documentElement.setAttribute('dir', dir);
+  }catch(e){}
+})();
+          `
           }}
         />
       </Head>

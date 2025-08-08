@@ -718,6 +718,301 @@ const blogArticles: Record<string, BlogArticle> = {
   }
 }
 
+// New: Localized articles for selected slugs
+const localizedArticles: Record<string, Record<string, BlogArticle>> = {
+  en: {
+    'rolls-royce-chauffeur-dubai-guide': {
+      title: 'Rolls-Royce Chauffeur Service in Dubai: Executive Guide 2025',
+      description: 'A practical, high-end guide to chauffeur-driven Rolls-Royce in Dubai: pricing, occasions, routes, etiquette, and how to book right.',
+      author: 'Editorial Team',
+      date: '2025-08-08',
+      readTime: '9 min read',
+      category: 'Guides',
+      image: '/images/Rolls-royce-with-chauffeur.jpg',
+      content: [
+        { type: 'paragraph', text: 'Chauffeur-driven Rolls-Royce is the gold standard for VIP mobility in Dubai. This guide shows when it makes sense, what to expect, and how to maximize comfort, privacy, and impact.' },
+        { type: 'heading', text: 'When Chauffeur Service Makes Sense' },
+        { type: 'list', items: [
+          '<strong>Corporate & Investor Meetings:</strong> Arrive focused and composed',
+          '<strong>Events & Red-Carpet:</strong> On-time, discreet, and photogenic',
+          '<strong>Weddings & Anniversaries:</strong> Flawless timing and routes',
+          '<strong>Airport & Hotel Transfers:</strong> Seamless arrivals with luggage support'
+        ]},
+        { type: 'image', src: '/images/Rolls-Royce_Ghost_Black_Badge.jpg', alt: 'Rolls-Royce Ghost Chauffeur Dubai', caption: 'The Ghost balances presence and agility for city logistics' },
+        { type: 'heading', text: 'What You Get' },
+        { type: 'list', items: [
+          'Uniformed professional chauffeur (English/Arabic upon request)',
+          'Realtime routing and VIP drop-off planning',
+          'Bottled water, privacy, and silent cabin for calls',
+          'Door-to-door service with flexible waiting time'
+        ]},
+        { type: 'heading', text: 'Rates & Booking Tips' },
+        { type: 'list', ordered: true, items: [
+          'Book 24–72 hours in advance for guaranteed availability',
+          'Compare <em>hourly vs daily</em>—daily is better value for 6+ hours',
+          'Share your itinerary (locations/time windows) to optimize cost',
+          'For multi-stop days, consider <strong>Ghost</strong> (city) or <strong>Cullinan</strong> (events/crew)'
+        ]},
+        { type: 'cta', text: 'Ready to elevate your day with a chauffeur-driven Rolls-Royce?', buttonText: 'Book Chauffeur Service', buttonLink: '/services/chauffeur' }
+      ],
+      relatedArticles: ['business-travel-rolls-royce','ultimate-guide-rolls-royce-rental-dubai']
+    },
+    'rolls-royce-airport-transfer-dubai': {
+      title: 'Rolls-Royce Airport Transfer Dubai: Seamless Arrivals & Departures',
+      description: 'From gate to boardroom: how to plan a flawless Rolls-Royce airport transfer in Dubai with timing, routes, terminals, and baggage support.',
+      author: 'Editorial Team',
+      date: '2025-08-08',
+      readTime: '8 min read',
+      category: 'Guides',
+      image: '/images/Rolls-oyce-air-port.jpg',
+      content: [
+        { type: 'paragraph', text: 'Make every minute count. A Rolls-Royce transfer ensures quiet, efficient movement between DXB/DWC and your hotel, office, or venue.' },
+        { type: 'heading', text: 'Why It Works' },
+        { type: 'list', items: [
+          'Meet-and-greet at arrivals (assistance with luggage)',
+          'Discreet pickup at VIP/First terminals when applicable',
+          'Optimized routing for traffic windows',
+          'Silent cabin to reset, call, or prepare'
+        ]},
+        { type: 'image', src: '/images/Rolls-royce-official.jpg', alt: 'Rolls-Royce Airport Transfer Dubai', caption: 'Arrive refreshed and on schedule' },
+        { type: 'heading', text: 'Pro Tips' },
+        { type: 'list', ordered: true, items: [
+          'Share flight number for live tracking and buffer time',
+          'For dawn/late-night flights, pre-book 12–24h ahead',
+          'Use Cullinan for oversized luggage or family travel',
+          'If you have meetings on arrival, consider chauffeur daily package'
+        ]},
+        { type: 'cta', text: 'Land in style. Schedule your Rolls-Royce airport transfer now.', buttonText: 'Book Airport Transfer', buttonLink: '/services/airport-transfer' }
+      ],
+      relatedArticles: ['ultimate-guide-rolls-royce-rental-dubai','top-scenic-drives-dubai']
+    }
+  },
+  ar: {
+    'rolls-royce-chauffeur-dubai-guide': {
+      title: 'خدمة سائق خاص برولز رويس في دبي: دليل تنفيذي 2025',
+      description: 'دليل عملي واحترافي لاستخدام رولز رويس بسائق في دبي: الأسعار، المناسبات، المسارات، الإتيكيت، وكيف تحجز بالشكل الصحيح.',
+      author: 'فريق التحرير',
+      date: '2025-08-08',
+      readTime: '9 دقائق قراءة',
+      category: 'أدلة',
+      image: '/images/Rolls-royce-with-chauffeur.jpg',
+      content: [
+        { type: 'paragraph', text: 'توفّر خدمة رولز رويس بسائق أعلى معايير الفخامة والخصوصية في دبي. هذا الدليل يوضح متى تكون الخدمة الأنسب لك وما الذي ستحصل عليه وكيف تعظّم الاستفادة.' },
+        { type: 'heading', text: 'متى تختار السائق الخاص؟' },
+        { type: 'list', items: [
+          '<strong>اجتماعات الأعمال:</strong> وصول راقٍ وتركيز أعلى',
+          '<strong>الفعاليات والمناسبات:</strong> انضباط بالمواعيد ومظهر يليق',
+          '<strong>الأعراس والذكرى:</strong> إدارة دقيقة للمسار والتوقيت',
+          '<strong>النقل من/إلى المطار:</strong> استقبال ومساعدة بالحقائب'
+        ]},
+        { type: 'image', src: '/images/Rolls-royce-with-chauffeur.jpg', alt: 'سائق رولز رويس في دبي', caption: 'جوست: توازن مثالي للمدينة والمشاوير متعددة التوقفات' },
+        { type: 'heading', text: 'ماذا تتضمن الخدمة؟' },
+        { type: 'list', items: [
+          'سائق محترف بزي رسمي (عربي/إنجليزي عند الطلب)',
+          'تخطيط مسارات ذكي ونقاط إنزال VIP',
+          'هدوء وخصوصية داخل المقصورة لإجراء المكالمات',
+          'خدمة من الباب إلى الباب مع مرونة بوقت الانتظار'
+        ]},
+        { type: 'heading', text: 'الأسعار ونصائح الحجز' },
+        { type: 'list', ordered: true, items: [
+          'يفضّل الحجز قبل 24–72 ساعة لضمان التوفر',
+          'قارن بين <em>الساعات</em> و<em>اليوم الكامل</em>—اليوم الكامل أوفر فوق 6 ساعات',
+          'مشاركة خطتك الزمنية تساعد على تحسين التكلفة',
+          'للأيام متعددة التوقفات اختر <strong>جوست</strong> للمدينة أو <strong>كولينان</strong> للفعاليات'
+        ]},
+        { type: 'cta', text: 'جاهز لترقية يومك مع رولز رويس بسائق؟', buttonText: 'احجز خدمة السائق', buttonLink: '/services/chauffeur' }
+      ],
+      relatedArticles: ['business-travel-rolls-royce','ultimate-guide-rolls-royce-rental-dubai']
+    },
+    'rolls-royce-airport-transfer-dubai': {
+      title: 'نقل مطار برولز رويس في دبي: وصول ومغادرة بلا عناء',
+      description: 'من البوابة إلى المكتب: كيف تخطط لنقل مطار مثالي برولز رويس في دبي مع التوقيت والمسارات والدعم بالحقائب.',
+      author: 'فريق التحرير',
+      date: '2025-08-08',
+      readTime: '8 دقائق قراءة',
+      category: 'أدلة',
+      image: '/images/Rolls-oyce-air-port.jpg',
+      content: [
+        { type: 'paragraph', text: 'وفّر وقتك وطاقتك. يضمن لك نقل المطار برولز رويس حركة هادئة وسريعة بين DXB/DWC وفندقك أو مكتبك.' },
+        { type: 'heading', text: 'لماذا هو الخيار الأفضل؟' },
+        { type: 'list', items: [
+          'استقبال عند الوصول مع مساعدة بالحقائب',
+          'إمكانية الالتقاء بمناطق VIP عند توفرها',
+          'مسارات محسّنة حسب حركة المرور',
+          'مقصورة هادئة للاسترخاء أو التحضير'
+        ]},
+        { type: 'image', src: '/images/Rolls-royce-official.jpg', alt: 'نقل مطار رولز رويس دبي', caption: 'ابدأ يومك بوصول أنيق ومنظّم' },
+        { type: 'heading', text: 'نصائح سريعة' },
+        { type: 'list', ordered: true, items: [
+          'شارك رقم الرحلة للتتبّع وإضافة هامش زمني',
+          'لرحلات الفجر/المتأخرة احجز قبل 12–24 ساعة',
+          'اختر كولينان عند وجود حقائب كبيرة أو عائلة',
+          'إن كان لديك اجتماعات، فكّر في باقة السائق اليومية'
+        ]},
+        { type: 'cta', text: 'احجز نقل المطار برولز رويس الآن.', buttonText: 'احجز نقل المطار', buttonLink: '/services/airport-transfer' }
+      ],
+      relatedArticles: ['ultimate-guide-rolls-royce-rental-dubai','top-scenic-drives-dubai']
+    }
+  },
+  fr: {
+    'rolls-royce-chauffeur-dubai-guide': {
+      title: 'Service chauffeur Rolls‑Royce à Dubaï : guide exécutif 2025',
+      description: 'Conseils tarifs, usages, itinéraires et étiquette pour un service Rolls‑Royce avec chauffeur à Dubaï.',
+      author: 'Rédaction',
+      date: '2025-08-08',
+      readTime: '9 min',
+      category: 'Guides',
+      image: '/images/Rolls-royce-with-chauffeur.jpg',
+      content: [
+        { type: 'paragraph', text: 'Le service avec chauffeur en Rolls‑Royce est la référence VIP à Dubaï. Voici quand l’utiliser et comment en tirer le maximum.' },
+        { type: 'heading', text: 'Quand choisir le chauffeur ?' },
+        { type: 'list', items: [
+          'Rendez‑vous business et investisseurs',
+          'Événements et tapis rouge',
+          'Mariages et anniversaires',
+          'Transferts aéroport/hôtel'
+        ]},
+        { type: 'image', src: '/images/Rolls-royce-with-chauffeur.jpg', alt: 'Rolls‑Royce Ghost avec chauffeur', caption: 'Ghost : présence et agilité en ville' },
+        { type: 'heading', text: 'Ce qui est inclus' },
+        { type: 'list', items: [
+          'Chauffeur en uniforme (EN/AR sur demande)',
+          'Itinéraires optimisés et dépose VIP',
+          'Cabine silencieuse et confidentielle',
+          'Service porte‑à‑porte et attente souple'
+        ]},
+        { type: 'cta', text: 'Prêt à élever vos déplacements ?', buttonText: 'Réserver un chauffeur', buttonLink: '/services/chauffeur' }
+      ],
+      relatedArticles: ['business-travel-rolls-royce','ultimate-guide-rolls-royce-rental-dubai']
+    },
+    'rolls-royce-airport-transfer-dubai': {
+      title: 'Transfert aéroport en Rolls‑Royce à Dubaï : arrivées fluides',
+      description: 'Planifier un transfert aéroport parfait en Rolls‑Royce : timing, itinéraires, terminaux et bagages.',
+      author: 'Rédaction',
+      date: '2025-08-08',
+      readTime: '8 min',
+      category: 'Guides',
+      image: '/images/Rolls-oyce-air-port.jpg',
+      content: [
+        { type: 'paragraph', text: 'Optimisez chaque minute entre DXB/DWC et votre destination avec confort et discrétion.' },
+        { type: 'list', items: [
+          'Accueil à l’arrivée et aide bagages',
+          'Pick‑up discret en terminaux VIP si éligible',
+          'Itinéraires adaptés au trafic',
+          'Cabine silencieuse pour vous préparer'
+        ]},
+        { type: 'cta', text: 'Réservez votre transfert Rolls‑Royce dès maintenant.', buttonText: 'Réserver le transfert', buttonLink: '/services/airport-transfer' }
+      ],
+      relatedArticles: ['ultimate-guide-rolls-royce-rental-dubai','top-scenic-drives-dubai']
+    }
+  },
+  ru: {
+    'rolls-royce-chauffeur-dubai-guide': {
+      title: 'Услуга шофёра на Rolls‑Royce в Дубае: исполнительный гид 2025',
+      description: 'Тарифы, кейсы использования, маршруты и этикет премиального сервиса с личным водителем.',
+      author: 'Редакция',
+      date: '2025-08-08',
+      readTime: '9 мин чтения',
+      category: 'Guides',
+      image: '/images/Rolls-royce-with-chauffeur.jpg',
+      content: [
+        { type: 'paragraph', text: 'Rolls‑Royce с личным водителем — эталон VIP‑мобильности в Дубае. Когда это уместно и как получить максимум ценности.' },
+        { type: 'list', items: [
+          'Деловые встречи и инвесторы',
+          'Ивенты и красные дорожки',
+          'Свадьбы и юбилеи',
+          'Трансферы аэропорт/отель'
+        ]},
+        { type: 'cta', text: 'Готовы повысить уровень сервиса?', buttonText: 'Заказать шофёра', buttonLink: '/services/chauffeur' }
+      ],
+      relatedArticles: ['business-travel-rolls-royce','ultimate-guide-rolls-royce-rental-dubai']
+    },
+    'rolls-royce-airport-transfer-dubai': {
+      title: 'Аэропорт‑трансфер на Rolls‑Royce в Дубае: безупречные прилёты',
+      description: 'Планирование идеального трансфера: тайминг, маршруты, терминалы, багаж.',
+      author: 'Редакция',
+      date: '2025-08-08',
+      readTime: '8 мин чтения',
+      category: 'Guides',
+      image: '/images/Rolls-oyce-air-port.jpg',
+      content: [
+        { type: 'paragraph', text: 'Быстро, тихо, без стресса между DXB/DWC и вашим пунктом назначения.' },
+        { type: 'list', items: [
+          'Встреча по прилёту и помощь с багажом',
+          'VIP‑терминалы при наличии доступа',
+          'Маршруты с учётом трафика',
+          'Тихая кабина для отдыха и звонков'
+        ]},
+        { type: 'cta', text: 'Забронируйте трансфер уже сегодня.', buttonText: 'Заказать трансфер', buttonLink: '/services/airport-transfer' }
+      ],
+      relatedArticles: ['ultimate-guide-rolls-royce-rental-dubai','top-scenic-drives-dubai']
+    }
+  },
+  zh: {
+    'rolls-royce-chauffeur-dubai-guide': {
+      title: '迪拜劳斯莱斯专车服务：高管级指南 2025',
+      description: '何时选择带司机的劳斯莱斯、价格范围、行程规划与礼仪要点。',
+      author: '编辑团队',
+      date: '2025-08-08',
+      readTime: '9 分钟阅读',
+      category: '指南',
+      image: '/images/Rolls-royce-with-chauffeur.jpg',
+      content: [
+        { type: 'paragraph', text: '在迪拜，劳斯莱斯专车代表了顶级商务与社交礼遇。本指南帮助你合理选择并最大化价值。' },
+        { type: 'list', items: ['商务会面','红毯活动','婚礼纪念日','机场/酒店接送'] },
+        { type: 'cta', text: '立即预订劳斯莱斯专车。', buttonText: '预订专车', buttonLink: '/services/chauffeur' }
+      ],
+      relatedArticles: ['business-travel-rolls-royce','ultimate-guide-rolls-royce-rental-dubai']
+    },
+    'rolls-royce-airport-transfer-dubai': {
+      title: '迪拜劳斯莱斯机场接送：无缝衔接',
+      description: '航班信息、路线、行李与时间缓冲的实用建议。',
+      author: '编辑团队',
+      date: '2025-08-08',
+      readTime: '8 分钟阅读',
+      category: '指南',
+      image: '/images/Rolls-oyce-air-port.jpg',
+      content: [
+        { type: 'paragraph', text: 'DXB/DWC 与市区之间高效静音出行，抵达即投入状态。' },
+        { type: 'list', items: ['到达口接机','可用时走 VIP 通道','避堵路线','静音座舱'] },
+        { type: 'cta', text: '现在安排您的机场接送。', buttonText: '预订接送', buttonLink: '/services/airport-transfer' }
+      ],
+      relatedArticles: ['ultimate-guide-rolls-royce-rental-dubai','top-scenic-drives-dubai']
+    }
+  },
+  hi: {
+    'rolls-royce-chauffeur-dubai-guide': {
+      title: 'दुबई में रोल्स‑रॉयस शॉफर सेवा: एग्ज़िक्युटिव गाइड 2025',
+      description: 'कब लें, क्या मिलेगा, रेटिंग्स और बुकिंग टिप्स—सब कुछ एक जगह।',
+      author: 'संपादकीय टीम',
+      date: '2025-08-08',
+      readTime: '9 मिनट',
+      category: 'Guides',
+      image: '/images/Rolls-royce-with-chauffeur.jpg',
+      content: [
+        { type: 'paragraph', text: 'दुबई में शॉफर‑ड्रिवन रोल्स‑रॉयस VIP मोबिलिटी का बेंचमार्क है।' },
+        { type: 'list', items: ['बिज़नेस मीटिंग्स','इवेंट्स/रेड कार्पेट','शादियाँ','एयरपोर्ट ट्रांसफ़र'] },
+        { type: 'cta', text: 'आज ही शॉफर सेवा बुक करें।', buttonText: 'शॉफर बुक करें', buttonLink: '/services/chauffeur' }
+      ],
+      relatedArticles: ['business-travel-rolls-royce','ultimate-guide-rolls-royce-rental-dubai']
+    },
+    'rolls-royce-airport-transfer-dubai': {
+      title: 'रोल्स‑रॉयस एयरपोर्ट ट्रांसफ़र दुबई: सहज आगमन',
+      description: 'फ़्लाइट‑ट्रैकिंग, रूटिंग और लगेज‑सपोर्ट के साथ प्रीमियम ट्रांसफ़र।',
+      author: 'संपादकीय टीम',
+      date: '2025-08-08',
+      readTime: '8 मिनट',
+      category: 'Guides',
+      image: '/images/Rolls-oyce-air-port.jpg',
+      content: [
+        { type: 'paragraph', text: 'DXB/DWC से होटल/ऑफिस तक शांत और प्रभावी यात्रा।' },
+        { type: 'list', items: ['मिट‑एंड‑ग्रीट','VIP पिक‑अप (यदि लागू)','ट्रैफ़िक‑अवेयर रूट्स','क्वायट केबिन'] },
+        { type: 'cta', text: 'एयरपोर्ट ट्रांसफ़र शेड्यूल करें।', buttonText: 'अभी बुक करें', buttonLink: '/services/airport-transfer' }
+      ],
+      relatedArticles: ['ultimate-guide-rolls-royce-rental-dubai','top-scenic-drives-dubai']
+    }
+  }
+}
+
 interface BlogArticle {
   title: string
   description: string
@@ -734,7 +1029,18 @@ export default function BlogArticlePage() {
   const router = useRouter()
   const { slug } = router.query
   
-  const article = slug ? blogArticles[slug as string] : null
+  const article = (() => {
+    const s = (slug as string) || ''
+    const locale = (router.locale as string) || 'en'
+    // Prefer localized article if available
+    const byLocale = localizedArticles[locale] && localizedArticles[locale][s]
+    if (byLocale) return byLocale
+    // Fallback to English localized if exists
+    const enLocale = localizedArticles['en'] && localizedArticles['en'][s]
+    if (enLocale) return enLocale
+    // Fallback to legacy English articles
+    return s ? blogArticles[s] : null
+  })()
 
   if (!article) {
     return (
@@ -1029,9 +1335,10 @@ export default function BlogArticlePage() {
 }
 
 export const getStaticPaths: GetStaticPaths = async () => {
-  const paths = Object.keys(blogArticles).map((slug) => ({
-    params: { slug },
-  }))
+  const baseSlugs = Object.keys(blogArticles)
+  const newSlugs = ['rolls-royce-chauffeur-dubai-guide','rolls-royce-airport-transfer-dubai']
+  const unique = Array.from(new Set([...baseSlugs, ...newSlugs]))
+  const paths = unique.map((slug) => ({ params: { slug } }))
 
   return {
     paths,

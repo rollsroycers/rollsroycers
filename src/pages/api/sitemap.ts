@@ -148,6 +148,8 @@ export default function handler(req: NextApiRequest, res: NextApiResponse) {
     { url: '/blog/top-scenic-drives-dubai', changefreq: 'monthly', priority: '0.6', lastmod: '2025-01-06' },
     { url: '/blog/rolls-royce-wedding-car-dubai', changefreq: 'monthly', priority: '0.6', lastmod: '2025-01-06' },
     { url: '/blog/business-travel-rolls-royce', changefreq: 'monthly', priority: '0.6', lastmod: '2025-01-06' },
+    { url: '/blog/rolls-royce-chauffeur-dubai-guide', changefreq: 'monthly', priority: '0.7', lastmod: currentDate },
+    { url: '/blog/rolls-royce-airport-transfer-dubai', changefreq: 'monthly', priority: '0.7', lastmod: currentDate },
   ]
 
   const comparisonPages: SitemapPage[] = [

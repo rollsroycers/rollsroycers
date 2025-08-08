@@ -58,16 +58,42 @@ export default function SEO({ pageKey, title: titleProp, description: descriptio
   const description = descriptionProp || getTranslation('description')
   const keywords = getTranslation('keywords')
   
-  // Generate canonical URL
+  // Generate canonical & alternate URLs (locale-aware)
   const baseUrl = 'https://rollsroycers.com'
-  const canonicalUrl = `${baseUrl}${router.asPath}`
-  
-  // Generate alternate language URLs
+  const locale = (router.locale as string) || 'en'
+  const defaultLocale = (router.defaultLocale as string) || 'en'
+
+  // Strip query/hash from asPath for safety
+  const cleanPath = (router.asPath || '/').split('#')[0].split('?')[0]
+
+  // Compute canonical path without forcing default locale prefix
+  const canonicalPath = (() => {
+    if (locale && locale !== defaultLocale) {
+      // Ensure the path includes the locale prefix exactly once
+      const pathWithoutLeadingLocale = cleanPath.replace(new RegExp(`^/${locale}(?=/|$)`), '')
+      return `/${locale}${pathWithoutLeadingLocale === '/' ? '' : pathWithoutLeadingLocale}` || '/'
+    }
+    // Default locale: ensure we DO NOT prefix with /en
+    return cleanPath.replace(/^\/en(?=\/|$)/, '') || '/'
+  })()
+
+  const canonicalUrl = `${baseUrl}${canonicalPath}`
+
+  // Alternate language URLs. Default locale has no prefix
   const languages = ['en', 'ar', 'zh', 'fr', 'ru', 'hi']
-  const alternateUrls = languages.map(lang => ({
-    lang,
-    url: `${baseUrl}/${lang}${router.pathname}`
-  }))
+  const buildLangUrl = (lang: string) => {
+    const pathWithoutAnyLocale = cleanPath
+      .replace(/^\/en(?=\/|$)/, '')
+      .replace(/^\/ar(?=\/|$)/, '')
+      .replace(/^\/zh(?=\/|$)/, '')
+      .replace(/^\/fr(?=\/|$)/, '')
+      .replace(/^\/ru(?=\/|$)/, '')
+      .replace(/^\/hi(?=\/|$)/, '') || '/'
+    const prefix = lang === defaultLocale ? '' : `/${lang}`
+    return `${baseUrl}${prefix}${pathWithoutAnyLocale === '/' ? '' : pathWithoutAnyLocale}` || `${baseUrl}/`
+  }
+
+  const alternateUrls = languages.map(lang => ({ lang, url: buildLangUrl(lang) }))
   
   // Language-specific locale codes
   const localeMap: { [key: string]: string } = {
@@ -283,7 +309,8 @@ export default function SEO({ pageKey, title: titleProp, description: descriptio
           href={url}
         />
       ))}
-      <link rel="alternate" hrefLang="x-default" href={`${baseUrl}/en${router.pathname}`} />
+      {/* x-default should point to the default-locale URL (without locale prefix) */}
+      <link rel="alternate" hrefLang="x-default" href={buildLangUrl(defaultLocale)} />
       
       {/* Open Graph / Facebook */}
       <meta property="og:type" content="website" />
@@ -292,7 +319,7 @@ export default function SEO({ pageKey, title: titleProp, description: descriptio
       <meta property="og:description" content={description} />
       <meta property="og:image" content={`${baseUrl}/images/og-image.jpg`} />
       <meta property="og:locale" content={localeMap[currentLang]} />
-      {alternateUrls.map(({ lang, url }) => (
+      {alternateUrls.map(({ lang }) => (
         <meta key={lang} property="og:locale:alternate" content={localeMap[lang]} />
       ))}
       <meta property="og:site_name" content="Rolls-Royce Dubai" />

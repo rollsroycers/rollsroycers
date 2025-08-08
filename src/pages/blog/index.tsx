@@ -132,6 +132,28 @@ export default function BlogPage() {
       readTime: t('blog.articles.article9.readTime'),
       image: '/images/Rolls-Royce_Dawn_Convertible-2.jpg',
       slug: 'rolls-royce-dawn-convertible-dubai'
+    },
+    {
+      id: 11,
+      title: t('blog.articles.chauffeurGuide.title', 'Rolls-Royce Chauffeur Service in Dubai: Executive Guide 2025'),
+      excerpt: t('blog.articles.chauffeurGuide.excerpt', 'When to choose chauffeur service, pricing, routes, etiquette, and booking tips.'),
+      category: 'guides',
+      author: t('blog.articles.chauffeurGuide.author', 'Editorial Team'),
+      date: t('blog.articles.chauffeurGuide.date', 'Aug 8, 2025'),
+      readTime: t('blog.articles.chauffeurGuide.readTime', '9 min read'),
+      image: '/images/Rolls-royce-with-chauffeur.jpg',
+      slug: 'rolls-royce-chauffeur-dubai-guide'
+    },
+    {
+      id: 12,
+      title: t('blog.articles.airportTransfer.title', 'Rolls-Royce Airport Transfer Dubai: Seamless Arrivals & Departures'),
+      excerpt: t('blog.articles.airportTransfer.excerpt', 'Plan a flawless DXB/DWC transfer with timing, routes, terminals, and baggage support.'),
+      category: 'guides',
+      author: t('blog.articles.airportTransfer.author', 'Editorial Team'),
+      date: t('blog.articles.airportTransfer.date', 'Aug 8, 2025'),
+      readTime: t('blog.articles.airportTransfer.readTime', '8 min read'),
+      image: '/images/Rolls-oyce-air-port.jpg',
+      slug: 'rolls-royce-airport-transfer-dubai'
     }
   ]
 

@@ -4,31 +4,31 @@
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://rollsroycers.com/ru/</loc>
-    <lastmod>2025-07-18</lastmod>
+    <lastmod>2025-08-08</lastmod>
     <changefreq>daily</changefreq>
     <priority>1</priority>
   </url>
   <url>
     <loc>https://rollsroycers.com/ru/booking</loc>
-    <lastmod>2025-07-18</lastmod>
+    <lastmod>2025-08-08</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.95</priority>
   </url>
   <url>
     <loc>https://rollsroycers.com/ru/pricing</loc>
-    <lastmod>2025-07-18</lastmod>
+    <lastmod>2025-08-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://rollsroycers.com/ru/contact</loc>
-    <lastmod>2025-07-18</lastmod>
+    <lastmod>2025-08-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://rollsroycers.com/ru/fleet/phantom</loc>
-    <lastmod>2025-07-18</lastmod>
+    <lastmod>2025-08-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
     <image:image>
@@ -38,7 +38,7 @@
   </url>
   <url>
     <loc>https://rollsroycers.com/ru/fleet/ghost</loc>
-    <lastmod>2025-07-18</lastmod>
+    <lastmod>2025-08-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
     <image:image>
@@ -48,7 +48,7 @@
   </url>
   <url>
     <loc>https://rollsroycers.com/ru/fleet/cullinan</loc>
-    <lastmod>2025-07-18</lastmod>
+    <lastmod>2025-08-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
     <image:image>
@@ -58,7 +58,7 @@
   </url>
   <url>
     <loc>https://rollsroycers.com/ru/fleet/dawn</loc>
-    <lastmod>2025-07-18</lastmod>
+    <lastmod>2025-08-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -68,7 +68,7 @@
   </url>
   <url>
     <loc>https://rollsroycers.com/ru/fleet/wraith</loc>
-    <lastmod>2025-07-18</lastmod>
+    <lastmod>2025-08-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -78,163 +78,163 @@
   </url>
   <url>
     <loc>https://rollsroycers.com/ru/services/wedding</loc>
-    <lastmod>2025-07-18</lastmod>
+    <lastmod>2025-08-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
     <loc>https://rollsroycers.com/ru/services/corporate</loc>
-    <lastmod>2025-07-18</lastmod>
+    <lastmod>2025-08-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
     <loc>https://rollsroycers.com/ru/services/airport-transfer</loc>
-    <lastmod>2025-07-18</lastmod>
+    <lastmod>2025-08-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
     <loc>https://rollsroycers.com/ru/services/chauffeur</loc>
-    <lastmod>2025-07-18</lastmod>
+    <lastmod>2025-08-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://rollsroycers.com/ru/services/events</loc>
-    <lastmod>2025-07-18</lastmod>
+    <lastmod>2025-08-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://rollsroycers.com/ru/services/photoshoot</loc>
-    <lastmod>2025-07-18</lastmod>
+    <lastmod>2025-08-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.75</priority>
   </url>
   <url>
     <loc>https://rollsroycers.com/ru/services/tours</loc>
-    <lastmod>2025-07-18</lastmod>
+    <lastmod>2025-08-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.75</priority>
   </url>
   <url>
     <loc>https://rollsroycers.com/ru/locations/downtown-dubai</loc>
-    <lastmod>2025-07-18</lastmod>
+    <lastmod>2025-08-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://rollsroycers.com/ru/locations/dubai-marina</loc>
-    <lastmod>2025-07-18</lastmod>
+    <lastmod>2025-08-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://rollsroycers.com/ru/locations/palm-jumeirah</loc>
-    <lastmod>2025-07-18</lastmod>
+    <lastmod>2025-08-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.75</priority>
   </url>
   <url>
     <loc>https://rollsroycers.com/ru/locations/business-bay</loc>
-    <lastmod>2025-07-18</lastmod>
+    <lastmod>2025-08-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.75</priority>
   </url>
   <url>
     <loc>https://rollsroycers.com/ru/locations/jbr</loc>
-    <lastmod>2025-07-18</lastmod>
+    <lastmod>2025-08-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.75</priority>
   </url>
   <url>
     <loc>https://rollsroycers.com/ru/locations/difc</loc>
-    <lastmod>2025-07-18</lastmod>
+    <lastmod>2025-08-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.75</priority>
   </url>
   <url>
     <loc>https://rollsroycers.com/ru/about</loc>
-    <lastmod>2025-07-18</lastmod>
+    <lastmod>2025-08-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://rollsroycers.com/ru/gallery</loc>
-    <lastmod>2025-07-18</lastmod>
+    <lastmod>2025-08-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://rollsroycers.com/ru/testimonials</loc>
-    <lastmod>2025-07-18</lastmod>
+    <lastmod>2025-08-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://rollsroycers.com/ru/faq</loc>
-    <lastmod>2025-07-18</lastmod>
+    <lastmod>2025-08-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://rollsroycers.com/ru/blog</loc>
-    <lastmod>2025-07-18</lastmod>
+    <lastmod>2025-08-08</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://rollsroycers.com/ru/blog/ultimate-guide-rolls-royce-rental-dubai</loc>
-    <lastmod>2025-07-18</lastmod>
+    <lastmod>2025-08-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.65</priority>
   </url>
   <url>
     <loc>https://rollsroycers.com/ru/blog/top-scenic-drives-dubai</loc>
-    <lastmod>2025-07-18</lastmod>
+    <lastmod>2025-08-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://rollsroycers.com/ru/blog/rolls-royce-wedding-car-dubai</loc>
-    <lastmod>2025-07-18</lastmod>
+    <lastmod>2025-08-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.65</priority>
   </url>
   <url>
     <loc>https://rollsroycers.com/ru/blog/business-travel-rolls-royce</loc>
-    <lastmod>2025-07-18</lastmod>
+    <lastmod>2025-08-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://rollsroycers.com/ru/blog/luxury-shopping-dubai-rolls-royce</loc>
-    <lastmod>2025-07-18</lastmod>
+    <lastmod>2025-08-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.65</priority>
   </url>
   <url>
     <loc>https://rollsroycers.com/ru/blog/rolls-royce-dawn-convertible-dubai</loc>
-    <lastmod>2025-07-18</lastmod>
+    <lastmod>2025-08-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.65</priority>
   </url>
   <url>
     <loc>https://rollsroycers.com/ru/compare/rolls-royce-vs-bentley</loc>
-    <lastmod>2025-07-18</lastmod>
+    <lastmod>2025-08-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.65</priority>
   </url>
   <url>
     <loc>https://rollsroycers.com/ru/terms</loc>
-    <lastmod>2025-07-18</lastmod>
+    <lastmod>2025-08-08</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
     <loc>https://rollsroycers.com/ru/privacy</loc>
-    <lastmod>2025-07-18</lastmod>
+    <lastmod>2025-08-08</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
