@@ -1,5 +1,5 @@
 # Robots.txt for https://rollsroycers.com
-# Optimized for maximum SEO visibility
+# Optimized for maximum SEO visibility and AI search engines
 
 # Allow all search engines
 User-agent: *
@@ -30,21 +30,38 @@ User-agent: Baiduspider
 Allow: /
 Crawl-delay: 1
 
-# AI Search Engines
+# AI Search Engines - FULL ACCESS
 User-agent: GPTBot
 Allow: /
+Crawl-delay: 0
 
 User-agent: ChatGPT-User
 Allow: /
+Crawl-delay: 0
 
 User-agent: CCBot
 Allow: /
+Crawl-delay: 0
 
 User-agent: anthropic-ai
 Allow: /
+Crawl-delay: 0
 
 User-agent: Claude-Web
 Allow: /
+Crawl-delay: 0
+
+User-agent: PerplexityBot
+Allow: /
+Crawl-delay: 0
+
+User-agent: YouBot
+Allow: /
+Crawl-delay: 0
+
+User-agent: BingAI
+Allow: /
+Crawl-delay: 0
 
 # Social Media Crawlers
 User-agent: facebookexternalhit
@@ -62,6 +79,12 @@ Allow: /
 User-agent: Slackbot
 Allow: /
 
+User-agent: Discordbot
+Allow: /
+
+User-agent: Telegrambot
+Allow: /
+
 # Image crawlers
 User-agent: Googlebot-Image
 Allow: /images/
@@ -70,7 +93,11 @@ Allow: /*.jpeg$
 Allow: /*.png$
 Allow: /*.webp$
 
-# Sitemaps
+# Video crawlers
+User-agent: Googlebot-Video
+Allow: /videos/
+
+# Sitemaps - All languages
 Sitemap: https://rollsroycers.com/sitemap.xml
 Sitemap: https://rollsroycers.com/sitemap-en.xml
 Sitemap: https://rollsroycers.com/sitemap-ar.xml
@@ -78,6 +105,11 @@ Sitemap: https://rollsroycers.com/sitemap-zh.xml
 Sitemap: https://rollsroycers.com/sitemap-fr.xml
 Sitemap: https://rollsroycers.com/sitemap-ru.xml
 Sitemap: https://rollsroycers.com/sitemap-hi.xml
+Sitemap: https://rollsroycers.com/sitemap-pages.xml
 
 # Host directive (for Yandex)
-Host: https://rollsroycers.com 
+Host: https://rollsroycers.com
+
+# Crawl-delay for responsible crawling
+User-agent: *
+Crawl-delay: 1

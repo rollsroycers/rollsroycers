@@ -216,8 +216,6 @@
     }
   },
   "videoGallery": {
-    "title": "معرض الفيديو",
-    "subtitle": "شاهد أسطولنا الفاخر في أفضل حالاته",
     "phantom": {
       "title": "عرض الفانتوم"
     },
@@ -236,18 +234,6 @@
     "experience": {
       "title": "تجربة رولز رويس"
     }
-  },
-  "loyaltyProgram": {
-    "title": "برنامج الولاء",
-    "subtitle": "انضم لنخبة العملاء المميزين واستمتع بمزايا حصرية"
-  },
-  "personalizedOffers": {
-    "title": "عروض مخصصة",
-    "subtitle": "عروض خاصة مصممة خصيصاً لك"
-  },
-  "tripPlanner": {
-    "title": "مخطط رحلات دبي",
-    "subtitle": "خطط رحلتك المثالية مع رولز رويس"
   },
   "locations": {
     "downtownDubai": {
