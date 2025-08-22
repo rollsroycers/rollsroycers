@@ -1,16 +1,20 @@
 import { useState, useEffect } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
+import { useTranslation } from 'next-i18next'
 
 interface Notification {
   id: number
   type: 'booking' | 'view' | 'inquiry' | 'review'
-  message: string
-  location: string
-  time: string
-  car?: string
+  messageKey: string
+  messageParams?: Record<string, any>
+  locationKey: string
+  timeKey: string
+  timeParams?: Record<string, any>
+  carKey?: string
 }
 
 export default function SocialProofNotifications() {
+  const { t } = useTranslation('common')
   const [currentNotification, setCurrentNotification] = useState<Notification | null>(null)
   const [isVisible, setIsVisible] = useState(false)
 
@@ -18,66 +22,75 @@ export default function SocialProofNotifications() {
     {
       id: 1,
       type: 'booking',
-      message: 'Someone just booked a',
-      car: 'Rolls-Royce Phantom',
-      location: 'Business Bay, Dubai',
-      time: '2 minutes ago'
+      messageKey: 'socialProof.booking.someone',
+      carKey: 'socialProof.cars.phantom',
+      locationKey: 'socialProof.locations.businessBay',
+      timeKey: 'socialProof.time.minutesAgo',
+      timeParams: { count: 2 }
     },
     {
       id: 2,
       type: 'view',
-      message: '15 people are viewing',
-      car: 'Rolls-Royce Cullinan',
-      location: 'Dubai Marina',
-      time: 'Just now'
+      messageKey: 'socialProof.view.people',
+      messageParams: { count: 15 },
+      carKey: 'socialProof.cars.cullinan',
+      locationKey: 'socialProof.locations.dubaiMarina',
+      timeKey: 'socialProof.time.justNow'
     },
     {
       id: 3,
       type: 'inquiry',
-      message: 'New inquiry received for',
-      car: 'Wedding Package',
-      location: 'Jumeirah, Dubai',
-      time: '5 minutes ago'
+      messageKey: 'socialProof.inquiry.new',
+      carKey: 'socialProof.cars.weddingPackage',
+      locationKey: 'socialProof.locations.jumeirah',
+      timeKey: 'socialProof.time.minutesAgo',
+      timeParams: { count: 5 }
     },
     {
       id: 4,
       type: 'review',
-      message: 'Ahmed left a 5-star review for',
-      car: 'Rolls-Royce Ghost',
-      location: 'Downtown Dubai',
-      time: '10 minutes ago'
+      messageKey: 'socialProof.review.leftReview',
+      messageParams: { name: 'أحمد' },
+      carKey: 'socialProof.cars.ghost',
+      locationKey: 'socialProof.locations.downtown',
+      timeKey: 'socialProof.time.minutesAgo',
+      timeParams: { count: 10 }
     },
     {
       id: 5,
       type: 'booking',
-      message: 'Luxury package booked for',
-      car: '3 days',
-      location: 'Palm Jumeirah',
-      time: '3 minutes ago'
+      messageKey: 'socialProof.booking.luxury',
+      carKey: 'socialProof.time.days',
+      locationKey: 'socialProof.locations.palmJumeirah',
+      timeKey: 'socialProof.time.minutesAgo',
+      timeParams: { count: 3 }
     },
     {
       id: 6,
       type: 'view',
-      message: '8 people viewing',
-      car: 'Special Offers',
-      location: 'UAE',
-      time: 'Right now'
+      messageKey: 'socialProof.view.viewing',
+      messageParams: { count: 8 },
+      carKey: 'socialProof.cars.specialOffers',
+      locationKey: 'socialProof.locations.uae',
+      timeKey: 'socialProof.time.rightNow'
     },
     {
       id: 7,
       type: 'booking',
-      message: 'VIP client reserved',
-      car: 'Rolls-Royce Dawn',
-      location: 'DIFC, Dubai',
-      time: '7 minutes ago'
+      messageKey: 'socialProof.booking.vip',
+      carKey: 'socialProof.cars.dawn',
+      locationKey: 'socialProof.locations.difc',
+      timeKey: 'socialProof.time.minutesAgo',
+      timeParams: { count: 7 }
     },
     {
       id: 8,
       type: 'inquiry',
-      message: 'Corporate inquiry for',
-      car: 'Fleet Rental',
-      location: 'Abu Dhabi',
-      time: '15 minutes ago'
+      messageKey: 'socialProof.inquiry.corporate',
+      carKey: 'socialProof.cars.fleetRental',
+      locationKey: 'socialProof.locations.abuDhabi',
+      timeKey: 'socialProof.time.minutesAgo',
+      timeParams: { count: 15 }
     }
   ]
 
@@ -174,9 +187,9 @@ export default function SocialProofNotifications() {
                 
                 <div className="flex-1">
                   <p className="text-white text-sm">
-                    {currentNotification.message}
-                    {currentNotification.car && (
-                      <span className="font-semibold text-rolls-gold"> {currentNotification.car}</span>
+                    {t(currentNotification.messageKey, currentNotification.messageParams)}
+                    {currentNotification.carKey && (
+                      <span className="font-semibold text-rolls-gold"> {t(currentNotification.carKey, currentNotification.carKey === 'socialProof.time.days' ? { count: 3 } : {})}</span>
                     )}
                   </p>
                   
@@ -186,13 +199,13 @@ export default function SocialProofNotifications() {
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
                       </svg>
-                      {currentNotification.location}
+                      {t(currentNotification.locationKey)}
                     </span>
                     <span className="flex items-center gap-1">
                       <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
                       </svg>
-                      {currentNotification.time}
+                      {t(currentNotification.timeKey, currentNotification.timeParams)}
                     </span>
                   </div>
                 </div>

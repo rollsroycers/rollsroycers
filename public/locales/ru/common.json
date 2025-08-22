@@ -2345,5 +2345,82 @@
         "readTime": "8 мин чтения"
       }
     }
+  },
+  "cookie": {
+    "title": "Этот сайт использует файлы cookie",
+    "description": "Мы используем файлы cookie для улучшения вашего опыта на нашем сайте. Продолжая использовать наш сайт, вы соглашаетесь с использованием файлов cookie",
+    "accept": "ПРИНЯТЬ",
+    "decline": "Отклонить"
+  },
+  "voiceSearch": {
+    "button": "Голосовой поиск",
+    "listening": "Слушаю...",
+    "speak": "Говорите сейчас"
+  },
+  "offers": {
+    "weekend": {
+      "title": "Выходные предложения",
+      "discount": "Скидка 20%",
+      "description": "Забронируйте на выходные и получите скидку 20%"
+    },
+    "firstTime": {
+      "title": "Новый клиент",
+      "discount": "Скидка 15%",
+      "description": "Специальная скидка для новых клиентов"
+    },
+    "monthly": {
+      "title": "Месячная аренда",
+      "discount": "Скидка 30%",
+      "description": "Большая экономия на месячной аренде"
+    },
+    "chauffeur": {
+      "title": "Бесплатный водитель",
+      "discount": "Бесплатный водитель",
+      "description": "Получите бесплатного водителя при бронировании от 3 дней"
+    }
+  },
+  "socialProof": {
+    "booking": {
+      "someone": "Кто-то только что забронировал",
+      "luxury": "Люксовый пакет забронирован на",
+      "vip": "VIP-клиент забронировал"
+    },
+    "view": {
+      "people": "{{count}} человек просматривают",
+      "viewing": "{{count}} человек смотрят"
+    },
+    "inquiry": {
+      "new": "Новый запрос получен для",
+      "corporate": "Корпоративный запрос на"
+    },
+    "review": {
+      "leftReview": "{{name}} оставил 5-звездочный отзыв о"
+    },
+    "cars": {
+      "phantom": "Rolls-Royce Phantom",
+      "ghost": "Rolls-Royce Ghost",
+      "cullinan": "Rolls-Royce Cullinan",
+      "dawn": "Rolls-Royce Dawn",
+      "wraith": "Rolls-Royce Wraith",
+      "weddingPackage": "Свадебный пакет",
+      "specialOffers": "Специальные предложения",
+      "fleetRental": "Аренда автопарка"
+    },
+    "locations": {
+      "businessBay": "Бизнес-Бэй, Дубай",
+      "dubaiMarina": "Дубай Марина",
+      "jumeirah": "Джумейра, Дубай",
+      "downtown": "Даунтаун Дубай",
+      "palmJumeirah": "Палм-Джумейра",
+      "difc": "DIFC, Дубай",
+      "abuDhabi": "Абу-Даби",
+      "uae": "ОАЭ"
+    },
+    "time": {
+      "minutesAgo": "{{count}} минут назад",
+      "justNow": "Только что",
+      "rightNow": "Прямо сейчас",
+      "days": "{{count}} дней"
+    }
   }
 }

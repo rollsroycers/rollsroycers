@@ -239,7 +239,7 @@ export default function VoiceSearch() {
           className="fixed bottom-48 right-20 z-30"
         >
           <div className="bg-rolls-black/80 text-white text-xs px-3 py-1 rounded-full whitespace-nowrap">
-            🎤 Voice Search
+            🎤 {t('voiceSearch.button')}
           </div>
         </motion.div>
       )}

@@ -3207,24 +3207,24 @@
   },
   "offers": {
     "weekend": {
-      "discount": "8折优惠",
+      "discount": "20%折扣",
       "title": "周末特惠",
-      "description": "预订周五至周日可享优惠"
+      "description": "预订周末，享受20%折扣"
     },
     "firstTime": {
-      "discount": "85折优惠",
+      "discount": "15%折扣",
       "title": "首次客户",
-      "description": "新客户专享折扣"
+      "description": "新客户特别折扣"
     },
     "monthly": {
-      "discount": "7折优惠",
+      "discount": "30%折扣",
       "title": "月租",
-      "description": "长期租赁享更多优惠"
+      "description": "月租享受大幅优惠"
     },
     "chauffeur": {
       "discount": "免费司机",
-      "title": "司机服务",
-      "description": "租赁3天以上免费提供"
+      "title": "免费司机",
+      "description": "预订3天或以上可获得免费司机"
     }
   },
   "loyalty": {
@@ -4459,6 +4459,61 @@
       "callButton": "致电",
       "whatsappButton": "WhatsApp",
       "emailButton": "邮件"
+    }
+  },
+  "cookie": {
+    "title": "本网站使用Cookie",
+    "description": "我们使用Cookie来改善您在我们网站上的体验。继续使用我们的网站，即表示您同意我们使用Cookie",
+    "accept": "接受",
+    "decline": "拒绝"
+  },
+  "voiceSearch": {
+    "button": "语音搜索",
+    "listening": "正在听...",
+    "speak": "现在说话"
+  },
+  "socialProof": {
+    "booking": {
+      "someone": "有人刚刚预订了",
+      "luxury": "豪华套餐已预订",
+      "vip": "VIP客户预订了"
+    },
+    "view": {
+      "people": "{{count}}人正在查看",
+      "viewing": "{{count}}人正在浏览"
+    },
+    "inquiry": {
+      "new": "收到新询价",
+      "corporate": "企业询价"
+    },
+    "review": {
+      "leftReview": "{{name}}给了5星评价"
+    },
+    "cars": {
+      "phantom": "劳斯莱斯幻影",
+      "ghost": "劳斯莱斯古思特",
+      "cullinan": "劳斯莱斯库里南",
+      "dawn": "劳斯莱斯曜影",
+      "wraith": "劳斯莱斯魅影",
+      "weddingPackage": "婚礼套餐",
+      "specialOffers": "特别优惠",
+      "fleetRental": "车队租赁"
+    },
+    "locations": {
+      "businessBay": "迪拜商业湾",
+      "dubaiMarina": "迪拜码头",
+      "jumeirah": "朱美拉, 迪拜",
+      "downtown": "迪拜市中心",
+      "palmJumeirah": "朱美拉棕榈岛",
+      "difc": "迪拜国际金融中心",
+      "abuDhabi": "阿布扎比",
+      "uae": "阿联酋"
+    },
+    "time": {
+      "minutesAgo": "{{count}}分钟前",
+      "justNow": "刚刚",
+      "rightNow": "现在",
+      "days": "{{count}}天"
     }
   }
 }

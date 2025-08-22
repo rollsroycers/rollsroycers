@@ -1567,6 +1567,83 @@
         }
       }
     }
+},
+  "cookie": {
+    "title": "Ce site utilise des cookies",
+    "description": "Nous utilisons des cookies pour améliorer votre expérience sur notre site. En continuant à utiliser notre site, vous acceptez notre utilisation des cookies",
+    "accept": "ACCEPTER",
+    "decline": "Refuser"
+  },
+  "voiceSearch": {
+    "button": "Recherche vocale",
+    "listening": "Écoute...",
+    "speak": "Parlez maintenant"
+  },
+  "offers": {
+    "weekend": {
+      "title": "Offre week-end",
+      "discount": "20% de réduction",
+      "description": "Réservez pour le week-end et bénéficiez de 20% de réduction"
+    },
+    "firstTime": {
+      "title": "Nouveau client",
+      "discount": "15% de réduction",
+      "description": "Réduction spéciale pour les nouveaux clients"
+    },
+    "monthly": {
+      "title": "Location mensuelle",
+      "discount": "30% de réduction",
+      "description": "Grosses économies sur les locations mensuelles"
+    },
+    "chauffeur": {
+      "title": "Chauffeur gratuit",
+      "discount": "Chauffeur gratuit",
+      "description": "Obtenez un chauffeur gratuit pour les réservations de 3 jours ou plus"
+    }
+  },
+  "socialProof": {
+    "booking": {
+      "someone": "Quelqu'un vient de réserver une",
+      "luxury": "Forfait luxe réservé pour",
+      "vip": "Client VIP a réservé"
+    },
+    "view": {
+      "people": "{{count}} personnes consultent",
+      "viewing": "{{count}} personnes regardent"
+    },
+    "inquiry": {
+      "new": "Nouvelle demande reçue pour",
+      "corporate": "Demande d'entreprise pour"
+    },
+    "review": {
+      "leftReview": "{{name}} a laissé un avis 5 étoiles pour"
+    },
+    "cars": {
+      "phantom": "Rolls-Royce Phantom",
+      "ghost": "Rolls-Royce Ghost",
+      "cullinan": "Rolls-Royce Cullinan",
+      "dawn": "Rolls-Royce Dawn",
+      "wraith": "Rolls-Royce Wraith",
+      "weddingPackage": "Forfait mariage",
+      "specialOffers": "Offres spéciales",
+      "fleetRental": "Location de flotte"
+    },
+    "locations": {
+      "businessBay": "Business Bay, Dubaï",
+      "dubaiMarina": "Dubai Marina",
+      "jumeirah": "Jumeirah, Dubaï",
+      "downtown": "Centre-ville de Dubaï",
+      "palmJumeirah": "Palm Jumeirah",
+      "difc": "DIFC, Dubaï",
+      "abuDhabi": "Abu Dhabi",
+      "uae": "EAU"
+    },
+    "time": {
+      "minutesAgo": "il y a {{count}} minutes",
+      "justNow": "À l'instant",
+      "rightNow": "Maintenant",
+      "days": "{{count}} jours"
+    }
   },
   "common": {
     "excellent": "Excellent",

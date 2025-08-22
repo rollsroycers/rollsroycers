@@ -1588,6 +1588,83 @@
     "claimYourOffer": "Claim Your Offer",
     "termsApply": "*Terms and conditions apply",
     "aed": "AED"
+},
+  "cookie": {
+    "title": "This website uses cookies",
+    "description": "We use cookies to improve your experience on our site. By continuing to use our site, you agree to our use of cookies",
+    "accept": "ACCEPT",
+    "decline": "Decline"
+  },
+  "voiceSearch": {
+    "button": "Voice Search",
+    "listening": "Listening...",
+    "speak": "Speak now"
+  },
+  "offers": {
+    "weekend": {
+      "title": "Weekend Special",
+      "discount": "20% OFF",
+      "description": "Book for the weekend and get 20% off"
+    },
+    "firstTime": {
+      "title": "First Time Customer",
+      "discount": "15% OFF",
+      "description": "Special discount for new customers"
+    },
+    "monthly": {
+      "title": "Monthly Rental",
+      "discount": "30% OFF",
+      "description": "Big savings on monthly rentals"
+    },
+    "chauffeur": {
+      "title": "Free Chauffeur",
+      "discount": "Free Driver",
+      "description": "Get a free chauffeur with 3+ day bookings"
+    }
+  },
+  "socialProof": {
+    "booking": {
+      "someone": "Someone just booked a",
+      "luxury": "Luxury package booked for",
+      "vip": "VIP client reserved"
+    },
+    "view": {
+      "people": "{{count}} people are viewing",
+      "viewing": "{{count}} people viewing"
+    },
+    "inquiry": {
+      "new": "New inquiry received for",
+      "corporate": "Corporate inquiry for"
+    },
+    "review": {
+      "leftReview": "{{name}} left a 5-star review for"
+    },
+    "cars": {
+      "phantom": "Rolls-Royce Phantom",
+      "ghost": "Rolls-Royce Ghost",
+      "cullinan": "Rolls-Royce Cullinan",
+      "dawn": "Rolls-Royce Dawn",
+      "wraith": "Rolls-Royce Wraith",
+      "weddingPackage": "Wedding Package",
+      "specialOffers": "Special Offers",
+      "fleetRental": "Fleet Rental"
+    },
+    "locations": {
+      "businessBay": "Business Bay, Dubai",
+      "dubaiMarina": "Dubai Marina",
+      "jumeirah": "Jumeirah, Dubai",
+      "downtown": "Downtown Dubai",
+      "palmJumeirah": "Palm Jumeirah",
+      "difc": "DIFC, Dubai",
+      "abuDhabi": "Abu Dhabi",
+      "uae": "UAE"
+    },
+    "time": {
+      "minutesAgo": "{{count}} minutes ago",
+      "justNow": "Just now",
+      "rightNow": "Right now",
+      "days": "{{count}} days"
+    }
   },
   "reviews": {
     "title": "What Our Clients Say",
