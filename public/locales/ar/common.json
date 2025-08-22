@@ -130,7 +130,47 @@
     "contactUs": "اتصل بنا",
     "getQuote": "احصل على عرض سعر",
     "specialOffers": "عروض خاصة",
-    "limitedTimeDeals": "عروض محدودة المدة"
+    "limitedTimeDeals": "عروض محدودة المدة",
+    "frequentlyAskedQuestions": "الأسئلة الشائعة",
+    "everythingYouNeedToKnow": "كل ما تحتاج لمعرفته"
+  },
+  "compareFleet": {
+    "title": "قارن أسطولنا",
+    "subtitle": "اعثر على رولز رويس المثالية لتجربتك الفاخرة",
+    "description": "قارن الميزات والمواصفات والأسعار لاختيار السيارة المثالية لاحتياجاتك",
+    "selectCars": "اختر حتى 3 سيارات للمقارنة",
+    "selectUpTo": "اختر حتى 3 سيارات للمقارنة",
+    "selectedCount": "{{count}} سيارات مختارة",
+    "clear": "مسح المقارنة",
+    "compare": "قارن الآن",
+    "selectAModel": "اختر موديل",
+    "specs": {
+      "engine": "المحرك",
+      "power": "القوة (حصان)",
+      "torque": "عزم الدوران (نيوتن متر)",
+      "acceleration": "0-100 كم/س",
+      "topSpeed": "السرعة القصوى",
+      "seats": "عدد المقاعد",
+      "doors": "الأبواب",
+      "length": "الطول (مم)",
+      "width": "العرض (مم)",
+      "height": "الارتفاع (مم)",
+      "wheelbase": "قاعدة العجلات (مم)",
+      "fuelCapacity": "سعة الوقود (لتر)",
+      "bootSpace": "مساحة الصندوق (لتر)"
+    },
+    "ratingsItems": {
+      "comfort": "الراحة",
+      "performance": "الأداء",
+      "luxury": "الفخامة",
+      "space": "المساحة",
+      "presence": "الحضور على الطريق"
+    },
+    "featureCategories": {
+      "keyFeatures": "الميزات الرئيسية",
+      "bestFor": "الأفضل لـ",
+      "uniqueSellingPoint": "نقاط البيع الفريدة"
+    }
   },
   "offers": {
     "weekend": {
@@ -176,6 +216,8 @@
     }
   },
   "videoGallery": {
+    "title": "معرض الفيديو",
+    "subtitle": "شاهد أسطولنا الفاخر في أفضل حالاته",
     "phantom": {
       "title": "عرض الفانتوم"
     },
@@ -194,6 +236,18 @@
     "experience": {
       "title": "تجربة رولز رويس"
     }
+  },
+  "loyaltyProgram": {
+    "title": "برنامج الولاء",
+    "subtitle": "انضم لنخبة العملاء المميزين واستمتع بمزايا حصرية"
+  },
+  "personalizedOffers": {
+    "title": "عروض مخصصة",
+    "subtitle": "عروض خاصة مصممة خصيصاً لك"
+  },
+  "tripPlanner": {
+    "title": "مخطط رحلات دبي",
+    "subtitle": "خطط رحلتك المثالية مع رولز رويس"
   },
   "locations": {
     "downtownDubai": {
