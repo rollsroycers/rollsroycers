@@ -1,4 +1,12 @@
 {
+  "fleet": {
+    "index": {
+      "title": "Exceptional Fleet - Rolls-Royce Dubai",
+      "description": "Explore our exceptional Rolls-Royce fleet in Dubai. Phantom, Ghost, Cullinan SUV, Dawn convertible & Wraith coupe available.",
+      "heading": "Exceptional Fleet",
+      "subheading": "Experience Ultimate Luxury in Dubai"
+    }
+  },
   "terms": {
     "sections": {
       "rentalAgreement": {

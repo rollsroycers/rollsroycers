@@ -1,39 +1,47 @@
 {
+  "fleet": {
+    "index": {
+      "title": "असाधारण फ्लीट - रोल्स-रॉयस दुबई",
+      "description": "दुबई में हमारे असाधारण रोल्स-रॉयस फ्लीट का अन्वेषण करें। फैंटम, घोस्ट, कुलिनन SUV, डॉन कन्वर्टिबल और रेथ कूपे उपलब्ध हैं।",
+      "heading": "असाधारण फ्लीट",
+      "subheading": "दुबई में परम लक्जरी का अनुभव करें"
+    }
+  },
   "terms": {
     "sections": {
       "rentalAgreement": {
-        "title": "Rental Agreement Terms"
+        "title": "किराया समझौता शर्तें"
       },
       "driverRequirements": {
-        "title": "Driver Requirements"
+        "title": "ड्राइवर आवश्यकताएं"
       },
       "securityDeposit": {
-        "title": "Security Deposit Policy"
+        "title": "सिक्यूरिटी डिपॉजिट नीति"
       },
       "insuranceCoverage": {
-        "title": "Insurance Coverage"
+        "title": "बीमा कवरेज"
       },
       "usageRestrictions": {
-        "title": "Usage Restrictions"
+        "title": "उपयोग प्रतिबंध"
       },
       "fuelPolicy": {
-        "title": "Fuel Policy"
+        "title": "ईंधन नीति"
       },
       "mileageAllowance": {
-        "title": "Mileage Allowance"
+        "title": "माइलेज भत्ता"
       },
       "cancellationPolicy": {
-        "title": "Cancellation Policy"
+        "title": "रद्दीकरण नीति"
       },
       "trafficFines": {
-        "title": "Traffic Fines & Violations"
+        "title": "ट्रैफिक जुर्माना"
       },
       "damageClaims": {
-        "title": "Damage Claims"
+        "title": "नुकसान के दावे"
       }
     }
   },
   "other": {
-    "testimonials": "Customer Testimonials"
+    "testimonials": "ग्राहक प्रशंसापत्र"
   }
 }

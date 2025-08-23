@@ -1,39 +1,47 @@
 {
+  "fleet": {
+    "index": {
+      "title": "Исключительный Автопарк - Rolls-Royce Дубай",
+      "description": "Изучите наш исключительный автопарк Rolls-Royce в Дубае. Phantom, Ghost, Cullinan SUV, Dawn кабриолет и Wraith купе доступны.",
+      "heading": "Исключительный Автопарк",
+      "subheading": "Испытайте Абсолютную Роскошь в Дубае"
+    }
+  },
   "terms": {
     "sections": {
       "rentalAgreement": {
-        "title": "Rental Agreement Terms"
+        "title": "Условия Договора Аренды"
       },
       "driverRequirements": {
-        "title": "Driver Requirements"
+        "title": "Требования к Водителю"
       },
       "securityDeposit": {
-        "title": "Security Deposit Policy"
+        "title": "Политика Страхового Депозита"
       },
       "insuranceCoverage": {
-        "title": "Insurance Coverage"
+        "title": "Страховое Покрытие"
       },
       "usageRestrictions": {
-        "title": "Usage Restrictions"
+        "title": "Ограничения Использования"
       },
       "fuelPolicy": {
-        "title": "Fuel Policy"
+        "title": "Топливная Политика"
       },
       "mileageAllowance": {
-        "title": "Mileage Allowance"
+        "title": "Лимит Пробега"
       },
       "cancellationPolicy": {
-        "title": "Cancellation Policy"
+        "title": "Политика Отмены"
       },
       "trafficFines": {
-        "title": "Traffic Fines & Violations"
+        "title": "Штрафы за Нарушения"
       },
       "damageClaims": {
-        "title": "Damage Claims"
+        "title": "Требования по Ущербу"
       }
     }
   },
   "other": {
-    "testimonials": "Customer Testimonials"
+    "testimonials": "Отзывы Клиентов"
   }
 }

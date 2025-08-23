@@ -1,39 +1,47 @@
 {
+  "fleet": {
+    "index": {
+      "title": "卓越车队 - 劳斯莱斯迪拜",
+      "description": "探索我们在迪拜的卓越劳斯莱斯车队。幻影、古思特、库里南SUV、曜影敞篷车和魅影轿跑车均可提供。",
+      "heading": "卓越车队",
+      "subheading": "在迪拜体验极致奢华"
+    }
+  },
   "terms": {
     "sections": {
       "rentalAgreement": {
-        "title": "Rental Agreement Terms"
+        "title": "租赁协议条款"
       },
       "driverRequirements": {
-        "title": "Driver Requirements"
+        "title": "驾驶员要求"
       },
       "securityDeposit": {
-        "title": "Security Deposit Policy"
+        "title": "押金政策"
       },
       "insuranceCoverage": {
-        "title": "Insurance Coverage"
+        "title": "保险覆盖"
       },
       "usageRestrictions": {
-        "title": "Usage Restrictions"
+        "title": "使用限制"
       },
       "fuelPolicy": {
-        "title": "Fuel Policy"
+        "title": "燃油政策"
       },
       "mileageAllowance": {
-        "title": "Mileage Allowance"
+        "title": "里程限额"
       },
       "cancellationPolicy": {
-        "title": "Cancellation Policy"
+        "title": "取消政策"
       },
       "trafficFines": {
-        "title": "Traffic Fines & Violations"
+        "title": "交通罚款"
       },
       "damageClaims": {
-        "title": "Damage Claims"
+        "title": "损坏赔偿"
       }
     }
   },
   "other": {
-    "testimonials": "Customer Testimonials"
+    "testimonials": "客户评价"
   }
 }

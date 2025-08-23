@@ -1,39 +1,47 @@
 {
+  "fleet": {
+    "index": {
+      "title": "Flotte Exceptionnelle - Rolls-Royce Dubaï",
+      "description": "Explorez notre flotte exceptionnelle Rolls-Royce à Dubaï. Phantom, Ghost, Cullinan SUV, Dawn cabriolet et Wraith coupé disponibles.",
+      "heading": "Flotte Exceptionnelle",
+      "subheading": "Vivez le Luxe Ultime à Dubaï"
+    }
+  },
   "terms": {
     "sections": {
       "rentalAgreement": {
-        "title": "Rental Agreement Terms"
+        "title": "Conditions de l'Accord de Location"
       },
       "driverRequirements": {
-        "title": "Driver Requirements"
+        "title": "Exigences du Conducteur"
       },
       "securityDeposit": {
-        "title": "Security Deposit Policy"
+        "title": "Politique de Dépôt de Garantie"
       },
       "insuranceCoverage": {
-        "title": "Insurance Coverage"
+        "title": "Couverture d'Assurance"
       },
       "usageRestrictions": {
-        "title": "Usage Restrictions"
+        "title": "Restrictions d'Utilisation"
       },
       "fuelPolicy": {
-        "title": "Fuel Policy"
+        "title": "Politique de Carburant"
       },
       "mileageAllowance": {
-        "title": "Mileage Allowance"
+        "title": "Allocation Kilométrique"
       },
       "cancellationPolicy": {
-        "title": "Cancellation Policy"
+        "title": "Politique d'Annulation"
       },
       "trafficFines": {
-        "title": "Traffic Fines & Violations"
+        "title": "Amendes de Circulation"
       },
       "damageClaims": {
-        "title": "Damage Claims"
+        "title": "Réclamations de Dommages"
       }
     }
   },
   "other": {
-    "testimonials": "Customer Testimonials"
+    "testimonials": "Témoignages Clients"
   }
 }
