@@ -154,6 +154,17 @@ export default function BlogPage() {
       readTime: t('blog.articles.airportTransfer.readTime', '8 min read'),
       image: '/images/Rolls-oyce-air-port.jpg',
       slug: 'rolls-royce-airport-transfer-dubai'
+    },
+    {
+      id: 13,
+      title: t('blog.articles.luxuryGuide2025.title', '2025 Dubai Luxury Car Experience Guide: Why Rolls-Royce Reigns Supreme'),
+      excerpt: t('blog.articles.luxuryGuide2025.excerpt', 'The ultimate 2025 guide to luxury car rentals in Dubai. Compare Rolls-Royce vs Bentley, Ferrari, Lamborghini with pricing, features, and insider tips.'),
+      category: 'guides',
+      author: t('blog.articles.luxuryGuide2025.author', 'Editorial Team'),
+      date: t('blog.articles.luxuryGuide2025.date', 'Jan 20, 2025'),
+      readTime: t('blog.articles.luxuryGuide2025.readTime', '15 min read'),
+      image: '/images/Rolls-royce-dubai.jpg',
+      slug: 'dubai-luxury-car-guide-2025'
     }
   ]
 

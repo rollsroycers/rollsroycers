@@ -715,12 +715,291 @@ const blogArticles: Record<string, BlogArticle> = {
       'top-scenic-drives-dubai',
       'luxury-shopping-dubai-rolls-royce'
     ]
+  },
+  'dubai-luxury-car-guide-2025': {
+    title: '2025 Dubai Luxury Car Experience Guide: Why Rolls-Royce Reigns Supreme',
+    description: 'The ultimate 2025 guide to luxury car rentals in Dubai. Compare Rolls-Royce vs Bentley, Ferrari, Lamborghini with pricing, features, and insider tips for the perfect Dubai experience.',
+    author: 'Editorial Team',
+    date: '2025-01-20',
+    readTime: '15 min read',
+    category: 'Guides',
+    image: '/images/Rolls-royce-dubai.jpg',
+    content: [
+      {
+        type: 'paragraph',
+        text: 'Dubai has evolved into the global epicenter of luxury automotive experiences, where the world\'s most prestigious car brands compete for attention on streets lined with architectural marvels. In 2025, the luxury car rental market in Dubai offers unprecedented choices, but one marque continues to set the standard for ultimate luxury: Rolls-Royce.'
+      },
+      {
+        type: 'heading',
+        text: 'The Dubai Luxury Car Landscape in 2025'
+      },
+      {
+        type: 'paragraph',
+        text: 'Dubai\'s luxury car rental market has matured significantly, with over 150 premium vehicles available from authorized dealers and luxury rental specialists. The city\'s infrastructure, from the smoothest highways to valet services at five-star hotels, has been designed to accommodate the world\'s finest automobiles.'
+      },
+      {
+        type: 'image',
+        src: '/images/Rolls-royce-official.jpg',
+        alt: 'Luxury cars in Dubai 2025',
+        caption: 'Dubai\'s streets showcase the world\'s finest automotive craftsmanship'
+      },
+      {
+        type: 'heading',
+        text: 'Rolls-Royce: The Undisputed King of Luxury'
+      },
+      {
+        type: 'paragraph',
+        text: 'When it comes to pure luxury, presence, and craftsmanship, Rolls-Royce remains unmatched. Here\'s why discerning clients consistently choose Rolls-Royce over other luxury brands:'
+      },
+      {
+        type: 'list',
+        items: [
+          '<strong>Unparalleled Craftsmanship:</strong> 450+ hours of handcrafting per vehicle',
+          '<strong>Silent Luxury:</strong> Quietest cabins in the automotive world',
+          '<strong>Presence & Status:</strong> Immediate recognition and respect',
+          '<strong>Comfort Supremacy:</strong> Magic Carpet Ride suspension technology',
+          '<strong>Bespoke Options:</strong> Unlimited customization possibilities'
+        ]
+      },
+      {
+        type: 'heading',
+        text: '2025 Rolls-Royce Fleet Comparison'
+      },
+      {
+        type: 'paragraph',
+        text: 'Our 2025 Rolls-Royce collection features the latest models with cutting-edge technology and timeless elegance:'
+      },
+      {
+        type: 'image',
+        src: '/images/Phantom_Extended.jpg',
+        alt: '2025 Rolls-Royce Phantom Extended',
+        caption: 'The 2025 Phantom Extended Wheelbase: Ultimate luxury redefined'
+      },
+      {
+        type: 'list',
+        items: [
+          '<strong>Phantom Extended (AED 5,800/day):</strong> The flagship sedan with 6.75L V12 and executive seating',
+          '<strong>Ghost Black Badge (AED 4,200/day):</strong> Performance luxury with 600hp and dark aesthetic',
+          '<strong>Cullinan (AED 6,500/day):</strong> The world\'s most luxurious SUV with off-road capability',
+          '<strong>Spectre (AED 7,200/day):</strong> The first ultra-luxury electric coupe',
+          '<strong>Dawn Convertible (AED 5,200/day):</strong> Open-air luxury with infinite headroom'
+        ]
+      },
+      {
+        type: 'heading',
+        text: 'Bentley vs Rolls-Royce: The British Luxury Battle'
+      },
+      {
+        type: 'paragraph',
+        text: 'While Bentley offers exceptional luxury and performance, the comparison reveals why Rolls-Royce maintains its supremacy:'
+      },
+      {
+        type: 'image',
+        src: '/images/bentley-flying-spur.jpg',
+        alt: 'Bentley vs Rolls-Royce comparison',
+        caption: 'Bentley Flying Spur: Performance-oriented luxury'
+      },
+      {
+        type: 'list',
+        items: [
+          '<strong>Interior Silence:</strong> Rolls-Royce: 15dB quieter than Bentley',
+          '<strong>Ride Quality:</strong> Magic Carpet Ride vs Air Suspension',
+          '<strong>Presence Factor:</strong> Spirit of Ecstasy vs Flying B recognition',
+          '<strong>Customization:</strong> Unlimited bespoke vs limited options',
+          '<strong>Dubai Status:</strong> Rolls-Royce preferred by Royal families and VIPs'
+        ]
+      },
+      {
+        type: 'heading',
+        text: 'Italian Supercars: Ferrari & Lamborghini Experience'
+      },
+      {
+        type: 'paragraph',
+        text: 'For pure performance and adrenaline, Italian supercars offer unmatched excitement. However, they serve a different purpose than Rolls-Royce:'
+      },
+      {
+        type: 'list',
+        items: [
+          '<strong>Purpose:</strong> Track performance vs executive transport',
+          '<strong>Comfort:</strong> Sport-tuned vs luxury-optimized',
+          '<strong>Practicality:</strong> 2-seater vs 4-5 passenger capacity',
+          '<strong>Weather:</strong> Limited use vs year-round comfort',
+          '<strong>Business Use:</strong> Not suitable vs perfect for meetings'
+        ]
+      },
+      {
+        type: 'heading',
+        text: 'Smart Media Integration: Your Dubai Experience'
+      },
+      {
+        type: 'paragraph',
+        text: 'Dubai\'s photogenic landscape provides endless opportunities for creating memorable content with your luxury vehicle:'
+      },
+      {
+        type: 'image',
+        src: '/images/Rolls-Royce_Cullinan_Majestic_Aurora_.jpg',
+        alt: 'Rolls-Royce Cullinan Dubai photoshoot',
+        caption: 'The Cullinan against Dubai\'s golden hour skyline'
+      },
+      {
+        type: 'list',
+        items: [
+          '<strong>Iconic Locations:</strong> Burj Khalifa, Palm Jumeirah, Dubai Marina',
+          '<strong>Golden Hour Drives:</strong> Sheikh Zayed Road at sunset',
+          '<strong>Architectural Backdrops:</strong> DIFC towers and modern bridges',
+          '<strong>Desert Contrast:</strong> Luxury meets natural beauty on Al Qudra Road',
+          '<strong>Social Media Ready:</strong> Instagram-worthy moments at every turn'
+        ]
+      },
+      {
+        type: 'heading',
+        text: '2025 Pricing Strategy & Value Analysis'
+      },
+      {
+        type: 'paragraph',
+        text: 'Understanding the true value proposition of luxury car rentals in Dubai requires looking beyond daily rates:'
+      },
+      {
+        type: 'list',
+        ordered: true,
+        items: [
+          '<strong>Peak Season (Nov-Mar):</strong> 20-30% premium during optimal weather',
+          '<strong>Weekly Rates:</strong> 15-20% discount for 7+ day rentals',
+          '<strong>Monthly Packages:</strong> Up to 35% savings for extended stays',
+          '<strong>Corporate Rates:</strong> Special pricing for business accounts',
+          '<strong>Last-Minute Deals:</strong> 10-15% off for same-day bookings'
+        ]
+      },
+      {
+        type: 'heading',
+        text: 'The Complete Dubai Luxury Experience'
+      },
+      {
+        type: 'paragraph',
+        text: 'A Rolls-Royce rental in Dubai isn\'t just transportation—it\'s access to an exclusive lifestyle:'
+      },
+      {
+        type: 'image',
+        src: '/images/Rolls-royce-with-chauffeur.jpg',
+        alt: 'Professional chauffeur service Dubai',
+        caption: 'Professional chauffeur service enhances the luxury experience'
+      },
+      {
+        type: 'list',
+        items: [
+          '<strong>VIP Hotel Services:</strong> Priority valet and concierge attention',
+          '<strong>Restaurant Access:</strong> Reserved parking at Michelin-starred venues',
+          '<strong>Shopping Perks:</strong> VIP treatment at luxury boutiques',
+          '<strong>Event Presence:</strong> Red carpet arrivals and photo opportunities',
+          '<strong>Business Advantage:</strong> Enhanced credibility and networking'
+        ]
+      },
+      {
+        type: 'heading',
+        text: 'Booking Intelligence: Insider Tips for 2025'
+      },
+      {
+        type: 'list',
+        ordered: true,
+        items: [
+          '<strong>Advance Booking:</strong> Reserve 7-14 days ahead for best selection',
+          '<strong>Model Selection:</strong> Ghost for city driving, Cullinan for families',
+          '<strong>Chauffeur Service:</strong> Professional drivers add 40% more value',
+          '<strong>Insurance Plus:</strong> Comprehensive coverage reduces deposit requirements',
+          '<strong>Delivery Options:</strong> Airport pickup saves time and creates impact'
+        ]
+      },
+      {
+        type: 'heading',
+        text: 'Sustainable Luxury: The Future is Electric'
+      },
+      {
+        type: 'paragraph',
+        text: 'The introduction of the Rolls-Royce Spectre marks a new era in luxury motoring. This all-electric ultra-luxury coupe delivers 515 miles of range with the same whisper-quiet refinement Rolls-Royce is famous for.'
+      },
+      {
+        type: 'image',
+        src: '/images/2024_Rolls-Royce_Spectre.jpg',
+        alt: 'Rolls-Royce Spectre electric luxury',
+        caption: 'The Spectre: Electric luxury without compromise'
+      },
+      {
+        type: 'heading',
+        text: 'Cultural Sensitivity & Local Customs'
+      },
+      {
+        type: 'paragraph',
+        text: 'Dubai\'s multicultural environment requires understanding of local customs and preferences:'
+      },
+      {
+        type: 'list',
+        items: [
+          '<strong>Privacy Options:</strong> Tinted windows for conservative clients',
+          '<strong>Cultural Events:</strong> Ramadan and Eid special arrangements',
+          '<strong>Business Etiquette:</strong> Appropriate vehicles for different meetings',
+          '<strong>Family Considerations:</strong> Child safety and comfort requirements',
+          '<strong>Religious Observance:</strong> Prayer time flexibility and routing'
+        ]
+      },
+      {
+        type: 'heading',
+        text: 'The ROI of Luxury: Beyond Transportation'
+      },
+      {
+        type: 'paragraph',
+        text: 'For business travelers and investors, a Rolls-Royce rental offers measurable returns:'
+      },
+      {
+        type: 'list',
+        items: [
+          '<strong>Deal Confidence:</strong> 23% higher success rate in business negotiations',
+          '<strong>Network Access:</strong> Exclusive events and high-net-worth connections',
+          '<strong>Time Value:</strong> Productive travel time worth AED 500+ per hour',
+          '<strong>Brand Association:</strong> Enhanced personal and company reputation',
+          '<strong>Memory Creation:</strong> Unforgettable experiences with lasting impact'
+        ]
+      },
+      {
+        type: 'cta',
+        text: 'Ready to experience the pinnacle of luxury automotive excellence in Dubai? Our 2025 collection awaits.',
+        buttonText: 'Explore Our 2025 Collection',
+        buttonLink: '/fleet'
+      }
+    ],
+    relatedArticles: [
+      'ultimate-guide-rolls-royce-rental-dubai',
+      'rolls-royce-chauffeur-dubai-guide',
+      'luxury-shopping-dubai-rolls-royce'
+    ]
   }
 }
 
 // New: Localized articles for selected slugs
 const localizedArticles: Record<string, Record<string, BlogArticle>> = {
   en: {
+    'dubai-luxury-car-guide-2025': {
+      title: '2025 Dubai Luxury Car Experience Guide: Why Rolls-Royce Reigns Supreme',
+      description: 'The ultimate 2025 guide to luxury car rentals in Dubai. Compare Rolls-Royce vs Bentley, Ferrari, Lamborghini with pricing, features, and insider tips for the perfect Dubai experience.',
+      author: 'Editorial Team',
+      date: '2025-01-20',
+      readTime: '15 min read',
+      category: 'Guides',
+      image: '/images/Rolls-royce-dubai.jpg',
+      content: [
+        { type: 'paragraph', text: 'Dubai has evolved into the global epicenter of luxury automotive experiences, where the world\'s most prestigious car brands compete for attention on streets lined with architectural marvels. In 2025, the luxury car rental market in Dubai offers unprecedented choices, but one marque continues to set the standard for ultimate luxury: Rolls-Royce.' },
+        { type: 'heading', text: 'The Dubai Luxury Car Landscape in 2025' },
+        { type: 'image', src: '/images/Rolls-royce-official.jpg', alt: 'Luxury cars in Dubai 2025', caption: 'Dubai\'s streets showcase the world\'s finest automotive craftsmanship' },
+        { type: 'heading', text: 'Rolls-Royce: The Undisputed King of Luxury' },
+        { type: 'list', items: [
+          '<strong>Unparalleled Craftsmanship:</strong> 450+ hours of handcrafting per vehicle',
+          '<strong>Silent Luxury:</strong> Quietest cabins in the automotive world',
+          '<strong>Presence & Status:</strong> Immediate recognition and respect'
+        ]},
+        { type: 'image', src: '/images/Phantom_Extended.jpg', alt: '2025 Rolls-Royce Phantom Extended', caption: 'The 2025 Phantom Extended Wheelbase: Ultimate luxury redefined' },
+        { type: 'cta', text: 'Ready to experience the pinnacle of luxury automotive excellence in Dubai? Our 2025 collection awaits.', buttonText: 'Explore Our 2025 Collection', buttonLink: '/fleet' }
+      ],
+      relatedArticles: ['ultimate-guide-rolls-royce-rental-dubai','rolls-royce-chauffeur-dubai-guide','luxury-shopping-dubai-rolls-royce']
+    },
     'rolls-royce-chauffeur-dubai-guide': {
       title: 'Rolls-Royce Chauffeur Service in Dubai: Executive Guide 2025',
       description: 'A practical, high-end guide to chauffeur-driven Rolls-Royce in Dubai: pricing, occasions, routes, etiquette, and how to book right.',
@@ -788,6 +1067,29 @@ const localizedArticles: Record<string, Record<string, BlogArticle>> = {
     }
   },
   ar: {
+    'dubai-luxury-car-guide-2025': {
+      title: 'دليل تجربة السيارات الفاخرة في دبي 2025: لماذا تتربع رولز رويس على العرش؟',
+      description: 'الدليل النهائي لاستئجار السيارات الفاخرة في دبي 2025. مقارنة شاملة بين رولز رويس وبنتلي وفيراري ولامبورغيني مع الأسعار والمواصفات ونصائح الخبراء.',
+      author: 'فريق التحرير',
+      date: '2025-01-20',
+      readTime: '15 دقيقة قراءة',
+      category: 'أدلة',
+      image: '/images/Rolls-royce-dubai.jpg',
+      content: [
+        { type: 'paragraph', text: 'تطورت دبي لتصبح المركز العالمي لتجارب السيارات الفاخرة، حيث تتنافس أرقى العلامات التجارية في العالم على شوارع مزينة بالمعجزات المعمارية. في عام 2025، يقدم سوق تأجير السيارات الفاخرة في دبي خيارات لا مثيل لها، لكن علامة واحدة تستمر في وضع معايير الفخامة القصوى: رولز رويس.' },
+        { type: 'heading', text: 'مشهد السيارات الفاخرة في دبي 2025' },
+        { type: 'image', src: '/images/Rolls-royce-official.jpg', alt: 'السيارات الفاخرة في دبي 2025', caption: 'شوارع دبي تعرض أجود الحرف اليدوية في صناعة السيارات' },
+        { type: 'heading', text: 'رولز رويس: ملك الفخامة بلا منازع' },
+        { type: 'list', items: [
+          '<strong>حرفية لا مثيل لها:</strong> 450+ ساعة من الصنع اليدوي لكل مركبة',
+          '<strong>الفخامة الصامتة:</strong> أهدأ المقصورات في عالم السيارات',
+          '<strong>الحضور والمكانة:</strong> اعتراف وإجلال فوريان'
+        ]},
+        { type: 'image', src: '/images/Phantom_Extended.jpg', alt: 'رولز رويس فانتوم الممتد 2025', caption: 'فانتوم الممتد 2025: إعادة تعريف الفخامة القصوى' },
+        { type: 'cta', text: 'مستعد لتجربة قمة التميز في السيارات الفاخرة في دبي؟ مجموعة 2025 في انتظارك.', buttonText: 'استكشف مجموعة 2025', buttonLink: '/fleet' }
+      ],
+      relatedArticles: ['ultimate-guide-rolls-royce-rental-dubai','rolls-royce-chauffeur-dubai-guide','luxury-shopping-dubai-rolls-royce']
+    },
     'rolls-royce-chauffeur-dubai-guide': {
       title: 'خدمة سائق خاص برولز رويس في دبي: دليل تنفيذي 2025',
       description: 'دليل عملي واحترافي لاستخدام رولز رويس بسائق في دبي: الأسعار، المناسبات، المسارات، الإتيكيت، وكيف تحجز بالشكل الصحيح.',
@@ -855,8 +1157,31 @@ const localizedArticles: Record<string, Record<string, BlogArticle>> = {
     }
   },
   fr: {
+    'dubai-luxury-car-guide-2025': {
+      title: 'Guide des voitures de luxe à Dubaï 2025 : Pourquoi Rolls‑Royce règne en maître',
+      description: 'Le guide ultime 2025 de la location de voitures de luxe à Dubaï. Comparaison Rolls‑Royce vs Bentley, Ferrari, Lamborghini avec prix, caractéristiques et conseils d\'experts.',
+      author: 'Rédaction',
+      date: '2025-01-20',
+      readTime: '15 min',
+      category: 'Guides',
+      image: '/images/Rolls-royce-dubai.jpg',
+      content: [
+        { type: 'paragraph', text: 'Dubaï s\'est imposée comme l\'épicentre mondial des expériences automobiles de luxe, où les marques les plus prestigieuses du monde se disputent l\'attention sur des avenues bordées de merveilles architecturales. En 2025, le marché de la location de voitures de luxe à Dubaï offre des choix sans précédent, mais une marque continue de définir les standards du luxe ultime : Rolls‑Royce.' },
+        { type: 'heading', text: 'Le paysage automobile de luxe à Dubaï en 2025' },
+        { type: 'image', src: '/images/Rolls-royce-official.jpg', alt: 'Voitures de luxe à Dubaï 2025', caption: 'Les rues de Dubaï exposent le meilleur de l\'artisanat automobile mondial' },
+        { type: 'heading', text: 'Rolls‑Royce : Le roi incontesté du luxe' },
+        { type: 'list', items: [
+          '<strong>Artisanat inégalé :</strong> 450+ heures de fabrication artisanale par véhicule',
+          '<strong>Luxe silencieux :</strong> Les habitacles les plus silencieux du monde automobile',
+          '<strong>Présence et statut :</strong> Reconnaissance et respect immédiats'
+        ]},
+        { type: 'image', src: '/images/Phantom_Extended.jpg', alt: 'Rolls‑Royce Phantom Extended 2025', caption: 'La Phantom Extended 2025 : Le luxe ultime redéfini' },
+        { type: 'cta', text: 'Prêt à découvrir le summum de l\'excellence automobile de luxe à Dubaï ? Notre collection 2025 vous attend.', buttonText: 'Explorer notre collection 2025', buttonLink: '/fleet' }
+      ],
+      relatedArticles: ['ultimate-guide-rolls-royce-rental-dubai','rolls-royce-chauffeur-dubai-guide','luxury-shopping-dubai-rolls-royce']
+    },
     'rolls-royce-chauffeur-dubai-guide': {
-      title: 'Service chauffeur Rolls‑Royce à Dubaï : guide exécutif 2025',
+      title: 'Service chauffeur Rolls‑Royce à Dubaï : guide exécutif 2025',
       description: 'Conseils tarifs, usages, itinéraires et étiquette pour un service Rolls‑Royce avec chauffeur à Dubaï.',
       author: 'Rédaction',
       date: '2025-08-08',
@@ -864,15 +1189,15 @@ const localizedArticles: Record<string, Record<string, BlogArticle>> = {
       category: 'Guides',
       image: '/images/Rolls-royce-with-chauffeur.jpg',
       content: [
-        { type: 'paragraph', text: 'Le service avec chauffeur en Rolls‑Royce est la référence VIP à Dubaï. Voici quand l’utiliser et comment en tirer le maximum.' },
-        { type: 'heading', text: 'Quand choisir le chauffeur ?' },
+        { type: 'paragraph', text: 'Le service avec chauffeur en Rolls‑Royce est la référence VIP à Dubaï. Voici quand l\'utiliser et comment en tirer le maximum.' },
+        { type: 'heading', text: 'Quand choisir le chauffeur ?' },
         { type: 'list', items: [
           'Rendez‑vous business et investisseurs',
           'Événements et tapis rouge',
           'Mariages et anniversaires',
           'Transferts aéroport/hôtel'
         ]},
-        { type: 'image', src: '/images/Rolls-royce-with-chauffeur.jpg', alt: 'Rolls‑Royce Ghost avec chauffeur', caption: 'Ghost : présence et agilité en ville' },
+        { type: 'image', src: '/images/Rolls-royce-with-chauffeur.jpg', alt: 'Rolls‑Royce Ghost avec chauffeur', caption: 'Ghost : présence et agilité en ville' },
         { type: 'heading', text: 'Ce qui est inclus' },
         { type: 'list', items: [
           'Chauffeur en uniforme (EN/AR sur demande)',
@@ -880,7 +1205,7 @@ const localizedArticles: Record<string, Record<string, BlogArticle>> = {
           'Cabine silencieuse et confidentielle',
           'Service porte‑à‑porte et attente souple'
         ]},
-        { type: 'cta', text: 'Prêt à élever vos déplacements ?', buttonText: 'Réserver un chauffeur', buttonLink: '/services/chauffeur' }
+        { type: 'cta', text: 'Prêt à élever vos déplacements ?', buttonText: 'Réserver un chauffeur', buttonLink: '/services/chauffeur' }
       ],
       relatedArticles: ['business-travel-rolls-royce','ultimate-guide-rolls-royce-rental-dubai']
     },
@@ -906,6 +1231,29 @@ const localizedArticles: Record<string, Record<string, BlogArticle>> = {
     }
   },
   ru: {
+    'dubai-luxury-car-guide-2025': {
+      title: 'Гид по роскошным автомобилям Дубая 2025: Почему Rolls‑Royce правит балом',
+      description: 'Полный гид 2025 по аренде роскошных автомобилей в Дубае. Сравнение Rolls‑Royce vs Bentley, Ferrari, Lamborghini с ценами, характеристиками и экспертными советами.',
+      author: 'Редакция',
+      date: '2025-01-20',
+      readTime: '15 мин чтения',
+      category: 'Гиды',
+      image: '/images/Rolls-royce-dubai.jpg',
+      content: [
+        { type: 'paragraph', text: 'Дубай превратился в глобальный эпицентр роскошного автомобильного опыта, где самые престижные бренды мира соревнуются за внимание на улицах, обрамлённых архитектурными чудесами. В 2025 году рынок аренды роскошных автомобилей в Дубае предлагает беспрецедентный выбор, но одна марка продолжает устанавливать стандарты абсолютной роскоши: Rolls‑Royce.' },
+        { type: 'heading', text: 'Пейзаж роскошных автомобилей Дубая в 2025' },
+        { type: 'image', src: '/images/Rolls-royce-official.jpg', alt: 'Роскошные автомобили в Дубае 2025', caption: 'Улицы Дубая демонстрируют лучшее автомобильное мастерство мира' },
+        { type: 'heading', text: 'Rolls‑Royce: Непререкаемый король роскоши' },
+        { type: 'list', items: [
+          '<strong>Непревзойдённое мастерство:</strong> 450+ часов ручной работы на каждый автомобиль',
+          '<strong>Безмолвная роскошь:</strong> Самые тихие салоны в автомобильном мире',
+          '<strong>Присутствие и статус:</strong> Мгновенное признание и уважение'
+        ]},
+        { type: 'image', src: '/images/Phantom_Extended.jpg', alt: 'Rolls‑Royce Phantom Extended 2025', caption: 'Phantom Extended 2025: Абсолютная роскошь переосмыслена' },
+        { type: 'cta', text: 'Готовы испытать вершину автомобильного совершенства в Дубае? Наша коллекция 2025 ждёт вас.', buttonText: 'Изучить коллекцию 2025', buttonLink: '/fleet' }
+      ],
+      relatedArticles: ['ultimate-guide-rolls-royce-rental-dubai','rolls-royce-chauffeur-dubai-guide','luxury-shopping-dubai-rolls-royce']
+    },
     'rolls-royce-chauffeur-dubai-guide': {
       title: 'Услуга шофёра на Rolls‑Royce в Дубае: исполнительный гид 2025',
       description: 'Тарифы, кейсы использования, маршруты и этикет премиального сервиса с личным водителем.',
@@ -948,6 +1296,29 @@ const localizedArticles: Record<string, Record<string, BlogArticle>> = {
     }
   },
   zh: {
+    'dubai-luxury-car-guide-2025': {
+      title: '2025迪拜豪车体验指南：劳斯莱斯为何称霸豪车界',
+      description: '2025年迪拜豪车租赁终极指南。劳斯莱斯vs宾利、法拉利、兰博基尼全面对比，含价格、特性及专家建议。',
+      author: '编辑团队',
+      date: '2025-01-20',
+      readTime: '15分钟阅读',
+      category: '指南',
+      image: '/images/Rolls-royce-dubai.jpg',
+      content: [
+        { type: 'paragraph', text: '迪拜已发展成为全球豪华汽车体验的中心，世界最顶级的汽车品牌在这座建筑奇迹林立的城市街道上争奇斗艳。2025年，迪拜的豪车租赁市场提供前所未有的选择，但有一个品牌始终引领着极致奢华的标准：劳斯莱斯。' },
+        { type: 'heading', text: '2025年迪拜豪车格局' },
+        { type: 'image', src: '/images/Rolls-royce-official.jpg', alt: '2025年迪拜豪车', caption: '迪拜街头展示世界顶级汽车工艺' },
+        { type: 'heading', text: '劳斯莱斯：无可争议的奢华之王' },
+        { type: 'list', items: [
+          '<strong>无与伦比的工艺：</strong>每辆车450+小时手工制作',
+          '<strong>静谧奢华：</strong>汽车界最安静的座舱',
+          '<strong>身份与地位：</strong>即刻获得认可与尊重'
+        ]},
+        { type: 'image', src: '/images/Phantom_Extended.jpg', alt: '2025劳斯莱斯加长版幻影', caption: '2025年加长版幻影：奢华的重新定义' },
+        { type: 'cta', text: '准备在迪拜体验汽车奢华的巅峰了吗？我们的2025年车队等候您的光临。', buttonText: '探索2025年车队', buttonLink: '/fleet' }
+      ],
+      relatedArticles: ['ultimate-guide-rolls-royce-rental-dubai','rolls-royce-chauffeur-dubai-guide','luxury-shopping-dubai-rolls-royce']
+    },
     'rolls-royce-chauffeur-dubai-guide': {
       title: '迪拜劳斯莱斯专车服务：高管级指南 2025',
       description: '何时选择带司机的劳斯莱斯、价格范围、行程规划与礼仪要点。',
@@ -980,6 +1351,29 @@ const localizedArticles: Record<string, Record<string, BlogArticle>> = {
     }
   },
   hi: {
+    'dubai-luxury-car-guide-2025': {
+      title: 'दुबई लक्जरी कार एक्सपीरियंस गाइड 2025: रोल्स‑रॉयस क्यों है बादशाह',
+      description: 'दुबई में लक्जरी कार रेंटल की 2025 की संपूर्ण गाइड। रोल्स‑रॉयस vs बेंटले, फेरारी, लैम्बोर्गिनी की तुलना, कीमतें और एक्सपर्ट टिप्स।',
+      author: 'संपादकीय टीम',
+      date: '2025-01-20',
+      readTime: '15 मिनट',
+      category: 'गाइड्स',
+      image: '/images/Rolls-royce-dubai.jpg',
+      content: [
+        { type: 'paragraph', text: 'दुबई लक्जरी ऑटोमोटिव एक्सपीरियंस का वैश्विक केंद्र बन गया है, जहाँ दुनिया के सबसे प्रतिष्ठित कार ब्रांड्स आर्किटेक्चरल चमत्कारों से भरी सड़कों पर ध्यान आकर्षित करने के लिए प्रतिस्पर्धा करते हैं। 2025 में, दुबई का लक्जरी कार रेंटल मार्केट अभूतपूर्व विकल्प प्रदान करता है, लेकिन एक ब्रांड लगातार परम लक्जरी का मानक सेट करता रहता है: रोल्स‑रॉयस।' },
+        { type: 'heading', text: '2025 में दुबई का लक्जरी कार लैंडस्केप' },
+        { type: 'image', src: '/images/Rolls-royce-official.jpg', alt: '2025 में दुबई की लक्जरी कारें', caption: 'दुबई की सड़कें दुनिया की बेहतरीन ऑटोमोटिव कारीगरी प्रदर्शित करती हैं' },
+        { type: 'heading', text: 'रोल्स‑रॉयस: लक्जरी का निर्विवाद राजा' },
+        { type: 'list', items: [
+          '<strong>अतुल्य शिल्पकारी:</strong> प्रत्येक वाहन में 450+ घंटे की हस्तशिल्प',
+          '<strong>मौन लक्जरी:</strong> ऑटोमोटिव दुनिया में सबसे शांत केबिन',
+          '<strong>उपस्थिति और स्टेटस:</strong> तत्काल पहचान और सम्मान'
+        ]},
+        { type: 'image', src: '/images/Phantom_Extended.jpg', alt: '2025 रोल्स‑रॉयस फैंटम एक्सटेंडेड', caption: '2025 फैंटम एक्सटेंडेड: परम लक्जरी को पुनः परिभाषित' },
+        { type: 'cta', text: 'दुबई में लक्जरी ऑटोमोटिव उत्कृष्टता के शिखर का अनुभव करने के लिए तैयार हैं? हमारा 2025 कलेक्शन आपका इंतज़ार कर रहा है।', buttonText: '2025 कलेक्शन देखें', buttonLink: '/fleet' }
+      ],
+      relatedArticles: ['ultimate-guide-rolls-royce-rental-dubai','rolls-royce-chauffeur-dubai-guide','luxury-shopping-dubai-rolls-royce']
+    },
     'rolls-royce-chauffeur-dubai-guide': {
       title: 'दुबई में रोल्स‑रॉयस शॉफर सेवा: एग्ज़िक्युटिव गाइड 2025',
       description: 'कब लें, क्या मिलेगा, रेटिंग्स और बुकिंग टिप्स—सब कुछ एक जगह।',
@@ -1336,7 +1730,7 @@ export default function BlogArticlePage() {
 
 export const getStaticPaths: GetStaticPaths = async () => {
   const baseSlugs = Object.keys(blogArticles)
-  const newSlugs = ['rolls-royce-chauffeur-dubai-guide','rolls-royce-airport-transfer-dubai']
+  const newSlugs = ['rolls-royce-chauffeur-dubai-guide','rolls-royce-airport-transfer-dubai','dubai-luxury-car-guide-2025']
   const unique = Array.from(new Set([...baseSlugs, ...newSlugs]))
   const paths = unique.map((slug) => ({ params: { slug } }))
 
