@@ -1,4 +1,203 @@
 {
+  "hero": {
+    "title": "Exceptional Fleet",
+    "subtitle": "Experience Ultimate Luxury in Dubai",
+    "description": "Discover our meticulously curated collection of Rolls-Royce vehicles. Each model represents the pinnacle of automotive excellence, combining legendary craftsmanship with cutting-edge technology for an unparalleled driving experience.",
+    "call_button": "Call: +971 55 816 4922",
+    "book_button": "Book Online Now"
+  },
+  "categories": {
+    "all": "All Vehicles",
+    "sedan": "Luxury Sedans",
+    "suv": "Ultra-Luxury SUV",
+    "convertible": "Convertibles",
+    "coupe": "Grand Tourers"
+  },
+  "stats": {
+    "models": "Luxury Models",
+    "availability": "Availability",
+    "satisfied_clients": "Satisfied Clients",
+    "years_experience": "Years Experience"
+  },
+  "overview": {
+    "title": "Our Exclusive Collection",
+    "description": "Each Rolls-Royce in our fleet is carefully selected and maintained to deliver the ultimate luxury experience. From the flagship Phantom to the adventurous Cullinan, find the perfect vehicle for your Dubai journey."
+  },
+  "vehicles": {
+    "phantom": {
+      "name": "Phantom",
+      "tagline": "The Pinnacle of Luxury",
+      "description": "The flagship Rolls-Royce Phantom sets the standard for ultra-luxury sedans. With its handcrafted interior, whisper-quiet Magic Carpet Ride, and commanding presence, the Phantom is the ultimate expression of automotive excellence.",
+      "features": [
+        "6.75L V12 Engine - 563 hp",
+        "Magic Carpet Ride Suspension",
+        "Starlight Headliner",
+        "Partition Glass Privacy",
+        "Champagne Cooler & Crystal Flutes",
+        "Rear Executive Seating",
+        "Bespoke Audio System",
+        "Silent Operation Technology"
+      ],
+      "specifications": {
+        "engine": "6.75L Twin-Turbo V12",
+        "power": "563 hp / 664 lb-ft",
+        "acceleration": "0-100 km/h in 5.4s",
+        "top_speed": "250 km/h",
+        "seating": "4-5 Passengers",
+        "trunk": "548 Liters"
+      }
+    },
+    "cullinan": {
+      "name": "Cullinan",
+      "tagline": "Luxury Without Limits",
+      "description": "The Rolls-Royce Cullinan is the world's most luxurious SUV, combining the supreme refinement of a Rolls-Royce with the capability to tackle any terrain. Perfect for families or adventures in ultimate style.",
+      "features": [
+        "6.75L V12 Engine - 563 hp",
+        "All-Terrain Capability",
+        "Viewing Suite (Tailgate Seating)",
+        "7-Seater Configuration Available",
+        "Effortless Door Closure",
+        "Elevated Seating Position",
+        "Panoramic Glass Roof",
+        "Advanced Off-Road Systems"
+      ],
+      "specifications": {
+        "engine": "6.75L Twin-Turbo V12",
+        "power": "563 hp / 627 lb-ft",
+        "acceleration": "0-100 km/h in 5.2s",
+        "top_speed": "250 km/h",
+        "seating": "5-7 Passengers",
+        "cargo": "560-1,930 Liters"
+      }
+    },
+    "ghost": {
+      "name": "Ghost",
+      "tagline": "Effortless Performance",
+      "description": "The Rolls-Royce Ghost delivers the perfect balance of luxury and performance. With its contemporary design and advanced technology, the Ghost offers a more engaging driving experience while maintaining Rolls-Royce's legendary refinement.",
+      "features": [
+        "6.75L V12 Engine - 563 hp",
+        "Planar Suspension System",
+        "Illuminated Fascia",
+        "Spirit of Ecstasy Retractable",
+        "Satellite Aided Transmission",
+        "Four-Zone Climate Control",
+        "Wireless Charging",
+        "Head-Up Display"
+      ],
+      "specifications": {
+        "engine": "6.75L Twin-Turbo V12",
+        "power": "563 hp / 627 lb-ft",
+        "acceleration": "0-100 km/h in 4.8s",
+        "top_speed": "250 km/h",
+        "seating": "4-5 Passengers",
+        "trunk": "507 Liters"
+      }
+    },
+    "dawn": {
+      "name": "Dawn",
+      "tagline": "The Sexiest Rolls-Royce Ever Built",
+      "description": "The Rolls-Royce Dawn is a sensual, seductive drophead that offers the most social of driving experiences. With its fabric roof and exquisite craftsmanship, it transforms Dubai's perfect weather into an open-air luxury journey.",
+      "features": [
+        "6.6L V12 Engine - 563 hp",
+        "Silent & Effortless Roof Operation",
+        "80% New Bodywork vs Wraith",
+        "Infinity Symbol Design",
+        "Air Collar Neck Warming",
+        "Four Adult Seats",
+        "Acoustic Glass",
+        "52-Second Roof Operation"
+      ],
+      "specifications": {
+        "engine": "6.6L Twin-Turbo V12",
+        "power": "563 hp / 605 lb-ft",
+        "acceleration": "0-100 km/h in 4.9s",
+        "top_speed": "250 km/h",
+        "seating": "4 Passengers",
+        "trunk": "295 Liters"
+      }
+    },
+    "wraith": {
+      "name": "Wraith",
+      "tagline": "Power & Style in Perfect Harmony",
+      "description": "The Rolls-Royce Wraith is the most powerful and dynamic Rolls-Royce ever created. This grand tourer combines extraordinary performance with the brand's signature luxury, making it perfect for those who want to make a statement.",
+      "features": [
+        "6.6L V12 Engine - 624 hp",
+        "Fastback Silhouette",
+        "Satellite Aided Transmission",
+        "Starlight Headliner",
+        "Suicide Doors",
+        "Spirit of Ecstasy Centered",
+        "Head-Up Display",
+        "Premium Audio System"
+      ],
+      "specifications": {
+        "engine": "6.6L Twin-Turbo V12",
+        "power": "624 hp / 590 lb-ft",
+        "acceleration": "0-100 km/h in 4.6s",
+        "top_speed": "250 km/h",
+        "seating": "4 Passengers",
+        "trunk": "295 Liters"
+      }
+    }
+  },
+  "badges": {
+    "flagship": "Flagship",
+    "ultimate_suv": "Ultimate SUV",
+    "best_value": "Best Value",
+    "convertible": "Convertible",
+    "grand_tourer": "Grand Tourer",
+    "popular": "Most Popular"
+  },
+  "why_choose": {
+    "title": "Why Choose Our Fleet",
+    "subtitle": "Experience unmatched luxury and service excellence",
+    "reasons": [
+      {
+        "icon": "🏆",
+        "title": "Premium Selection",
+        "description": "Only the finest, newest Rolls-Royce models with meticulous maintenance and care"
+      },
+      {
+        "icon": "🔧",
+        "title": "Perfect Condition",
+        "description": "Regular servicing by certified technicians ensures every vehicle is in pristine condition"
+      },
+      {
+        "icon": "🛡️",
+        "title": "Comprehensive Insurance",
+        "description": "Full coverage protection for peace of mind during your luxury experience"
+      },
+      {
+        "icon": "👨‍✈️",
+        "title": "Professional Chauffeurs",
+        "description": "Expertly trained, multilingual drivers available for the ultimate VIP experience"
+      },
+      {
+        "icon": "📱",
+        "title": "24/7 Support",
+        "description": "Round-the-clock assistance and support for any needs during your rental"
+      },
+      {
+        "icon": "🚗",
+        "title": "Flexible Options",
+        "description": "Hourly, daily, weekly, and monthly rental packages to suit your needs"
+      }
+    ]
+  },
+  "comparison": {
+    "title": "Compare Our Vehicles",
+    "subtitle": "Find the perfect Rolls-Royce for your Dubai experience"
+  },
+  "cta": {
+    "title": "Ready to Experience Ultimate Luxury?",
+    "description": "Contact us today to reserve your perfect Rolls-Royce and create unforgettable memories in Dubai.",
+    "call_button": "Call Now: +971 55 816 4922",
+    "book_button": "Book Online",
+    "whatsapp_button": "WhatsApp Us"
+  },
+  "per_day": "per day",
+  "learn_more": "Learn More",
+  "rent_now": "Rent Now",
   "fleet": {
     "aed": "AED",
     "perDay": "/day",

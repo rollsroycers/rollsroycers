@@ -1,7 +1,206 @@
 {
+  "hero": {
+    "title": "Flotte Exceptionnelle",
+    "subtitle": "Vivez le Luxe Ultime à Dubaï",
+    "description": "Découvrez notre collection méticuleusement sélectionnée de véhicules Rolls-Royce. Chaque modèle représente le summum de l'excellence automobile, alliant l'artisanat légendaire à une technologie de pointe pour une expérience de conduite incomparable.",
+    "call_button": "Appelez : +971 55 816 4922",
+    "book_button": "Réservez en Ligne"
+  },
+  "categories": {
+    "all": "Tous les Véhicules",
+    "sedan": "Berlines de Luxe",
+    "suv": "SUV Ultra-Luxe",
+    "convertible": "Cabriolets",
+    "coupe": "Grands Tourismes"
+  },
+  "stats": {
+    "models": "Modèles de Luxe",
+    "availability": "Disponibilité",
+    "satisfied_clients": "Clients Satisfaits",
+    "years_experience": "Années d'Expérience"
+  },
+  "overview": {
+    "title": "Notre Collection Exclusive",
+    "description": "Chaque Rolls-Royce de notre flotte est soigneusement sélectionnée et entretenue pour offrir l'expérience de luxe ultime. De la Phantom emblématique à l'aventureuse Cullinan, trouvez le véhicule parfait pour votre voyage à Dubaï."
+  },
+  "vehicles": {
+    "phantom": {
+      "name": "Phantom",
+      "tagline": "L'Apogée du Luxe",
+      "description": "La Rolls-Royce Phantom établit la norme pour les berlines ultra-luxueuses. Avec son intérieur artisanal, sa conduite silencieuse Magic Carpet Ride et sa présence imposante, la Phantom est l'expression ultime de l'excellence automobile.",
+      "features": [
+        "Moteur V12 6,75L - 563 ch",
+        "Suspension Magic Carpet Ride",
+        "Ciel Étoilé Starlight",
+        "Cloison Vitrée Privée",
+        "Glacière à Champagne & Flûtes Cristal",
+        "Sièges Exécutifs Arrière",
+        "Système Audio Sur Mesure",
+        "Technologie de Fonctionnement Silencieux"
+      ],
+      "specifications": {
+        "engine": "V12 Bi-Turbo 6,75L",
+        "power": "563 ch / 664 lb-pi",
+        "acceleration": "0-100 km/h en 5,4s",
+        "top_speed": "250 km/h",
+        "seating": "4-5 Passagers",
+        "trunk": "548 Litres"
+      }
+    },
+    "cullinan": {
+      "name": "Cullinan",
+      "tagline": "Luxe Sans Limites",
+      "description": "La Rolls-Royce Cullinan est le SUV le plus luxueux au monde, combinant le raffinement suprême d'une Rolls-Royce avec la capacité de s'attaquer à tous les terrains. Parfaite pour les familles ou les aventures dans un style ultime.",
+      "features": [
+        "Moteur V12 6,75L - 563 ch",
+        "Capacité Tout-Terrain",
+        "Suite d'Observation (Sièges Hayon)",
+        "Configuration 7 Places Disponible",
+        "Fermeture de Portes Sans Effort",
+        "Position de Conduite Surélevée",
+        "Toit Panoramique en Verre",
+        "Systèmes Avancés Tout-Terrain"
+      ],
+      "specifications": {
+        "engine": "V12 Bi-Turbo 6,75L",
+        "power": "563 ch / 627 lb-pi",
+        "acceleration": "0-100 km/h en 5,2s",
+        "top_speed": "250 km/h",
+        "seating": "5-7 Passagers",
+        "cargo": "560-1 930 Litres"
+      }
+    },
+    "ghost": {
+      "name": "Ghost",
+      "tagline": "Performance Sans Effort",
+      "description": "La Rolls-Royce Ghost offre l'équilibre parfait entre luxe et performance. Avec son design contemporain et sa technologie avancée, la Ghost propose une expérience de conduite plus engageante tout en conservant le raffinement légendaire de Rolls-Royce.",
+      "features": [
+        "Moteur V12 6,75L - 563 ch",
+        "Système de Suspension Planar",
+        "Fascia Illuminé",
+        "Spirit of Ecstasy Rétractable",
+        "Transmission Assistée par Satellite",
+        "Climatisation Quatre Zones",
+        "Recharge Sans Fil",
+        "Affichage Tête Haute"
+      ],
+      "specifications": {
+        "engine": "V12 Bi-Turbo 6,75L",
+        "power": "563 ch / 627 lb-pi",
+        "acceleration": "0-100 km/h en 4,8s",
+        "top_speed": "250 km/h",
+        "seating": "4-5 Passagers",
+        "trunk": "507 Litres"
+      }
+    },
+    "dawn": {
+      "name": "Dawn",
+      "tagline": "La Plus Belle Rolls-Royce Jamais Créée",
+      "description": "La Rolls-Royce Dawn est un cabriolet sensuel et séduisant qui offre l'expérience de conduite la plus sociale. Avec son toit en tissu et son artisanat exquis, elle transforme le climat parfait de Dubaï en un voyage de luxe à ciel ouvert.",
+      "features": [
+        "Moteur V12 6,6L - 563 ch",
+        "Fonctionnement Toit Silencieux & Sans Effort",
+        "80% Nouvelle Carrosserie vs Wraith",
+        "Design Symbole Infini",
+        "Collier d'Air Chauffant Nuque",
+        "Quatre Sièges Adultes",
+        "Verre Acoustique",
+        "Ouverture Toit en 52 Secondes"
+      ],
+      "specifications": {
+        "engine": "V12 Bi-Turbo 6,6L",
+        "power": "563 ch / 605 lb-pi",
+        "acceleration": "0-100 km/h en 4,9s",
+        "top_speed": "250 km/h",
+        "seating": "4 Passagers",
+        "trunk": "295 Litres"
+      }
+    },
+    "wraith": {
+      "name": "Wraith",
+      "tagline": "Puissance & Style en Parfaite Harmonie",
+      "description": "La Rolls-Royce Wraith est la plus puissante et dynamique Rolls-Royce jamais créée. Ce grand tourisme combine une performance extraordinaire avec le luxe signature de la marque, parfaite pour ceux qui veulent faire sensation.",
+      "features": [
+        "Moteur V12 6,6L - 624 ch",
+        "Silhouette Fastback",
+        "Transmission Assistée par Satellite",
+        "Ciel Étoilé Starlight",
+        "Portes Suicide",
+        "Spirit of Ecstasy Centré",
+        "Affichage Tête Haute",
+        "Système Audio Premium"
+      ],
+      "specifications": {
+        "engine": "V12 Bi-Turbo 6,6L",
+        "power": "624 ch / 590 lb-pi",
+        "acceleration": "0-100 km/h en 4,6s",
+        "top_speed": "250 km/h",
+        "seating": "4 Passagers",
+        "trunk": "295 Litres"
+      }
+    }
+  },
+  "badges": {
+    "flagship": "Vaisseau Amiral",
+    "ultimate_suv": "SUV Ultime",
+    "best_value": "Meilleur Rapport",
+    "convertible": "Cabriolet",
+    "grand_tourer": "Grand Tourisme",
+    "popular": "Plus Populaire"
+  },
+  "why_choose": {
+    "title": "Pourquoi Choisir Notre Flotte",
+    "subtitle": "Vivez un luxe inégalé et une excellence de service",
+    "reasons": [
+      {
+        "icon": "🏆",
+        "title": "Sélection Premium",
+        "description": "Seulement les plus beaux modèles Rolls-Royce récents avec un entretien et des soins méticuleux"
+      },
+      {
+        "icon": "🔧",
+        "title": "État Parfait",
+        "description": "Entretien régulier par des techniciens certifiés garantit que chaque véhicule est en condition pristine"
+      },
+      {
+        "icon": "🛡️",
+        "title": "Assurance Complète",
+        "description": "Protection couverture complète pour votre tranquillité d'esprit pendant votre expérience luxueuse"
+      },
+      {
+        "icon": "👨‍✈️",
+        "title": "Chauffeurs Professionnels",
+        "description": "Conducteurs expertement formés et multilingues disponibles pour l'expérience VIP ultime"
+      },
+      {
+        "icon": "📱",
+        "title": "Support 24/7",
+        "description": "Assistance et support 24h/24 pour tous vos besoins pendant votre location"
+      },
+      {
+        "icon": "🚗",
+        "title": "Options Flexibles",
+        "description": "Forfaits de location horaire, quotidienne, hebdomadaire et mensuelle pour répondre à vos besoins"
+      }
+    ]
+  },
+  "comparison": {
+    "title": "Comparez Nos Véhicules",
+    "subtitle": "Trouvez la Rolls-Royce parfaite pour votre expérience à Dubaï"
+  },
+  "cta": {
+    "title": "Prêt à Vivre le Luxe Ultime ?",
+    "description": "Contactez-nous aujourd'hui pour réserver votre Rolls-Royce parfaite et créer des souvenirs inoubliables à Dubaï.",
+    "call_button": "Appelez : +971 55 816 4922",
+    "book_button": "Réservez en Ligne",
+    "whatsapp_button": "WhatsApp"
+  },
+  "per_day": "par jour",
+  "learn_more": "En Savoir Plus",
+  "rent_now": "Louer Maintenant",
   "fleet": {
     "aed": "AED",
-    "perDay": "/day",
-    "rentNow": "RENT NOW"
+    "perDay": "/jour",
+    "rentNow": "LOUER"
   }
 }

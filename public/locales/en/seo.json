@@ -348,16 +348,23 @@
       }
     }
   },
-  "blog": {
-    "index": {
-      "title": "Rolls-Royce Dubai Blog | Expert Guides, Tips & Luxury Lifestyle 2025",
-      "description": "Read expert articles on Rolls-Royce rental in Dubai. How-to guides, driving tips, best routes, event coverage, luxury lifestyle content. Updated weekly. Your trusted source for luxury car insights.",
-      "keywords": "rolls royce dubai blog, expert rental guides, luxury car tips, dubai driving advice, lifestyle articles, weekly updates, trusted content, car rental insights, exclusive stories, motoring blog"
+      "blog": {
+      "index": {
+        "title": "Rolls-Royce Dubai Blog | Expert Guides, Tips & Luxury Lifestyle 2025",
+        "description": "Read expert articles on Rolls-Royce rental in Dubai. How-to guides, driving tips, best routes, event coverage, luxury lifestyle content. Updated weekly. Your trusted source for luxury car insights.",
+        "keywords": "rolls royce dubai blog, expert rental guides, luxury car tips, dubai driving advice, lifestyle articles, weekly updates, trusted content, car rental insights, exclusive stories, motoring blog"
+      },
+      "dubai-luxury-car-guide-2025": {
+        "title": "2025 Dubai Luxury Car Guide: Rolls-Royce vs Bentley, Ferrari, Lamborghini | Best Rental Comparison",
+        "description": "Ultimate 2025 Dubai luxury car rental guide. Compare Rolls-Royce vs Bentley, Ferrari, Lamborghini with pricing, features & expert tips. Why Rolls-Royce reigns supreme in Dubai's luxury market.",
+        "keywords": "dubai luxury car guide 2025, rolls royce vs bentley dubai, luxury car rental comparison dubai, best luxury cars dubai 2025, rolls royce rental dubai 2025, bentley vs ferrari dubai, lamborghini rental dubai, luxury car market dubai 2025, premium car comparison dubai, dubai exotic car rental guide"
+      }
     },
-    "dubai-luxury-car-guide-2025": {
-      "title": "2025 Dubai Luxury Car Guide: Rolls-Royce vs Bentley, Ferrari, Lamborghini | Best Rental Comparison",
-      "description": "Ultimate 2025 Dubai luxury car rental guide. Compare Rolls-Royce vs Bentley, Ferrari, Lamborghini with pricing, features & expert tips. Why Rolls-Royce reigns supreme in Dubai's luxury market.",
-      "keywords": "dubai luxury car guide 2025, rolls royce vs bentley dubai, luxury car rental comparison dubai, best luxury cars dubai 2025, rolls royce rental dubai 2025, bentley vs ferrari dubai, lamborghini rental dubai, luxury car market dubai 2025, premium car comparison dubai, dubai exotic car rental guide"
+    "fleet": {
+      "index": {
+        "title": "Rolls-Royce Fleet Dubai 2025 | Phantom, Ghost, Cullinan, Dawn & Wraith Rental",
+        "description": "Explore our exceptional Rolls-Royce fleet in Dubai. Phantom, Ghost, Cullinan SUV, Dawn convertible & Wraith coupe available. Premium collection with professional chauffeurs. Book your luxury experience today.",
+        "keywords": "rolls royce fleet dubai, luxury car fleet dubai, phantom ghost cullinan rental dubai, rolls royce collection dubai, premium car rental fleet, luxury vehicle options dubai, rolls royce models dubai, executive car fleet rental"
+      }
     }
-  }
 }
