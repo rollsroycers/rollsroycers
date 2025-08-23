@@ -1761,11 +1761,23 @@
     }
   },
   "loyalty": {
-    "title": "Loyalty Program",
+    "title": "Rolls-Royce Elite Club",
     "subtitle": "Rewarding our esteemed clients",
     "join": "Join Our Loyalty Program",
     "description": "Become a member of our exclusive loyalty program and enjoy a range of benefits and rewards.",
     "points": "Earn points for every rental and redeem them for discounts, upgrades, and more.",
+    "whyJoin": "Why Join Our Elite Club?",
+    "form": {
+      "title": "Join Elite Club",
+      "name": "Full Name *",
+      "email": "Email Address *",
+      "phone": "Phone Number *",
+      "preferredCar": "Preferred Vehicle",
+      "selectModel": "Select Model",
+      "joinButton": "JOIN ELITE CLUB",
+      "cancel": "CANCEL",
+      "terms": "By joining, you agree to our terms and conditions and privacy policy."
+    },
     "saveMore": {
       "title": "Save More",
       "description": "Get exclusive member-only discounts on all our services.",
@@ -1789,48 +1801,37 @@
     "tiers": {
       "title": "Membership Tiers",
       "silver": {
-        "title": "Silver",
-        "description": "Join our Silver tier and start enjoying exclusive benefits.",
+        "name": "Silver Member",
+        "requirement": "3+ rentals per year",
         "benefits": [
           "5% discount on all rentals",
-          "Early access to new models",
-          "Complimentary water and snacks"
-        ],
-        "instagram": {
-          "title": "Follow us on Instagram",
-          "description": "Stay updated with our latest news and offers.",
-          "button": "Follow Us",
-          "followJourney": "Follow our journey",
-          "account": "@rollsroycedubai",
-          "joinCommunity": "Join the community",
-          "communityDesc": "Stay updated with latest news",
-          "follow": "FOLLOW",
-          "notifications": "🔔 Turn on notifications"
-        },
-        "name": "Silver",
-        "requirement": "3+ rentals per year"
+          "Priority booking access",
+          "Free car delivery within Dubai",
+          "Complimentary refreshments"
+        ]
       },
       "gold": {
-        "title": "Gold",
-        "description": "Upgrade to Gold for even more exclusive perks.",
+        "name": "Gold Member",
+        "requirement": "8+ rentals per year",
         "benefits": [
           "10% discount on all rentals",
-          "Complimentary airport transfers",
-          "Dedicated account manager"
-        ],
-        "name": "Gold",
-        "requirement": "6+ rentals per year"
+          "VIP booking concierge",
+          "Free airport transfers",
+          "Access to exclusive models",
+          "Complimentary chauffeur upgrade"
+        ]
       },
       "platinum": {
-        "title": "Platinum",
-        "description": "Experience the ultimate in luxury with our Platinum tier.",
+        "name": "Platinum Member",
+        "requirement": "15+ rentals per year",
         "benefits": [
           "15% discount on all rentals",
-          "Free chauffeur service for a day",
-          "Guaranteed availability of any car"
-        ],
-        "name": "Platinum",
-        "requirement": "12+ rentals per year"
+          "Personal account manager",
+          "Unlimited free deliveries",
+          "First access to new fleet additions",
+          "Complimentary photoshoot package",
+          "Annual exclusive driving experience"
+        ]
       }
     },
     "faq": {

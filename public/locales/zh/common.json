@@ -4592,5 +4592,80 @@
         "description": "走进劳斯莱斯的世界，发现真正奢华的含义"
       }
     }
+  },
+  "loyalty": {
+    "title": "劳斯莱斯精英俱乐部",
+    "subtitle": "回馈我们尊贵的客户",
+    "join": "加入我们的忠诚度计划",
+    "description": "成为我们专属忠诚度计划的会员，享受一系列福利和奖励。",
+    "points": "每次租赁都能获得积分，可兑换折扣、升级等更多优惠。",
+    "whyJoin": "为什么加入我们的精英俱乐部？",
+    "form": {
+      "title": "加入精英俱乐部",
+      "name": "全名 *",
+      "email": "邮箱地址 *",
+      "phone": "电话号码 *",
+      "preferredCar": "首选车型",
+      "selectModel": "选择型号",
+      "joinButton": "加入精英俱乐部",
+      "cancel": "取消",
+      "terms": "加入即表示您同意我们的条款和条件以及隐私政策。"
+    },
+    "saveMore": {
+      "title": "节省更多",
+      "description": "享受所有服务的会员专属折扣。",
+      "subtitle": "每次租赁的专属折扣"
+    },
+    "priorityAccess": {
+      "title": "优先访问",
+      "description": "第一时间了解我们车队的新增车型。",
+      "subtitle": "新车型优先体验"
+    },
+    "exclusivePerks": {
+      "title": "专属特权",
+      "description": "享受免费升级和其他特殊优惠。",
+      "subtitle": "特殊活动和体验"
+    },
+    "vipTreatment": {
+      "title": "VIP待遇",
+      "description": "享受我们团队提供的个性化服务和优先支持。",
+      "subtitle": "个人礼宾服务"
+    },
+    "tiers": {
+      "title": "会员等级",
+      "silver": {
+        "name": "银卡会员",
+        "requirement": "每年3+次租赁",
+        "benefits": [
+          "所有租赁5%折扣",
+          "优先预订权限",
+          "迪拜市内免费送车",
+          "免费茶点"
+        ]
+      },
+      "gold": {
+        "name": "金卡会员",
+        "requirement": "每年8+次租赁",
+        "benefits": [
+          "所有租赁10%折扣",
+          "VIP预订礼宾服务",
+          "免费机场接送",
+          "专属车型使用权",
+          "免费司机升级"
+        ]
+      },
+      "platinum": {
+        "name": "白金会员",
+        "requirement": "每年15+次租赁",
+        "benefits": [
+          "所有租赁15%折扣",
+          "专属客户经理",
+          "无限次免费送车",
+          "新车型首次体验权",
+          "免费摄影套餐",
+          "年度专属驾驶体验"
+        ]
+      }
+    }
   }
 }

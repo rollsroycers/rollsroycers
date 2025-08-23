@@ -4664,5 +4664,80 @@
       "whatsappButton": "WhatsApp",
       "emailButton": "Email"
     }
+  },
+  "loyalty": {
+    "title": "Club Elite Rolls-Royce",
+    "subtitle": "Récompenser nos clients estimés",
+    "join": "Rejoignez notre programme de fidélité",
+    "description": "Devenez membre de notre programme de fidélité exclusif et profitez d'une gamme d'avantages et de récompenses.",
+    "points": "Gagnez des points à chaque location et échangez-les contre des remises, des surclassements et plus encore.",
+    "whyJoin": "Pourquoi rejoindre notre Club Elite ?",
+    "form": {
+      "title": "Rejoindre le Club Elite",
+      "name": "Nom complet *",
+      "email": "Adresse e-mail *",
+      "phone": "Numéro de téléphone *",
+      "preferredCar": "Véhicule préféré",
+      "selectModel": "Sélectionner le modèle",
+      "joinButton": "REJOINDRE LE CLUB ELITE",
+      "cancel": "ANNULER",
+      "terms": "En rejoignant, vous acceptez nos conditions générales et notre politique de confidentialité."
+    },
+    "saveMore": {
+      "title": "Économisez Plus",
+      "description": "Obtenez des remises exclusives réservées aux membres sur tous nos services.",
+      "subtitle": "Remises exclusives sur chaque location"
+    },
+    "priorityAccess": {
+      "title": "Accès Prioritaire",
+      "description": "Soyez les premiers informés des nouveaux ajouts à notre flotte.",
+      "subtitle": "Premier accès aux nouveaux modèles"
+    },
+    "exclusivePerks": {
+      "title": "Avantages Exclusifs",
+      "description": "Profitez de surclassements gratuits et d'autres offres spéciales.",
+      "subtitle": "Événements et expériences spéciaux"
+    },
+    "vipTreatment": {
+      "title": "Traitement VIP",
+      "description": "Recevez un service personnalisé et un support prioritaire de notre équipe.",
+      "subtitle": "Service de conciergerie personnel"
+    },
+    "tiers": {
+      "title": "Niveaux d'adhésion",
+      "silver": {
+        "name": "Membre Argent",
+        "requirement": "3+ locations par an",
+        "benefits": [
+          "5% de remise sur toutes les locations",
+          "Accès prioritaire aux réservations",
+          "Livraison gratuite de voiture à Dubaï",
+          "Rafraîchissements gratuits"
+        ]
+      },
+      "gold": {
+        "name": "Membre Or",
+        "requirement": "8+ locations par an",
+        "benefits": [
+          "10% de remise sur toutes les locations",
+          "Conciergerie de réservation VIP",
+          "Transferts aéroport gratuits",
+          "Accès aux modèles exclusifs",
+          "Surclassement chauffeur gratuit"
+        ]
+      },
+      "platinum": {
+        "name": "Membre Platine",
+        "requirement": "15+ locations par an",
+        "benefits": [
+          "15% de remise sur toutes les locations",
+          "Gestionnaire de compte personnel",
+          "Livraisons gratuites illimitées",
+          "Premier accès aux nouveaux ajouts de flotte",
+          "Package photo gratuit",
+          "Expérience de conduite exclusive annuelle"
+        ]
+      }
+    }
   }
 }
