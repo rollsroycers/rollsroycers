@@ -4515,5 +4515,82 @@
       "rightNow": "现在",
       "days": "{{count}}天"
     }
+  },
+  "tripPlanner": {
+    "title": "迪拜旅行规划",
+    "subtitle": "设计您的完美奢华行程",
+    "description": "让我们帮助您规划一次难忘的迪拜之旅。选择您的兴趣，我们将为您建议路线和完美的劳斯莱斯。",
+    "interests": "选择您的兴趣",
+    "shopping": "奢华购物",
+    "dining": "精致餐饮",
+    "sightseeing": "标志性景点",
+    "art": "艺术与文化",
+    "adventure": "沙漠探险",
+    "relaxation": "休闲与水疗",
+    "duration": "旅行时长（天）",
+    "plan": "规划我的行程",
+    "recommendation": "我们的推荐",
+    "selectCar": "选择您的劳斯莱斯",
+    "idealFor": "适合",
+    "suggestedRoutes": "推荐路线",
+    "chooseDestinations": "选择您的目的地",
+    "selected": "已选择",
+    "recommended": "推荐",
+    "generatePlan": "生成计划",
+    "recommendedStops": "推荐站点"
+  },
+  "videoGallery": {
+    "title": "视频画廊",
+    "subtitle": "观看我们的车队动态",
+    "description": "通过我们精选的精彩视频，沉浸在传奇劳斯莱斯的魅力、力量和奢华中，这些视频展示了我们在迪拜的车辆。",
+    "featured": "精选视频",
+    "playlist": "我们的视频播放列表",
+    "cullinan": "全地形库里南",
+    "phantom": "标志性幻影",
+    "ghost": "宁静的魅影",
+    "dawn": "敞篷黎明",
+    "wraith": "强大的魅影",
+    "lifestyle": "迪拜奢华生活方式",
+    "watch": "观看视频",
+    "loadMore": "加载更多视频",
+    "modal": {
+      "title": "正在播放",
+      "close": "关闭"
+    },
+    "filters": {
+      "all": "全部",
+      "exterior": "外观",
+      "interior": "内饰",
+      "experience": "体验",
+      "virtualTour": "虚拟游览"
+    },
+    "interior": {
+      "title": "奢华内饰"
+    },
+    "dubai": {
+      "title": "迪拜体验"
+    },
+    "videos": {
+      "luxury": {
+        "title": "迪拜奢华生活方式",
+        "description": "在迪拜最独特的目的地体验劳斯莱斯的极致奢华"
+      },
+      "cullinan": {
+        "title": "劳斯莱斯库里南冒险",
+        "description": "终极豪华SUV征服迪拜多样地形，风格无与伦比"
+      },
+      "phantom": {
+        "title": "幻影：旗舰体验",
+        "description": "发现劳斯莱斯幻影这一标志性车型的汽车卓越性能巅峰"
+      },
+      "blackBadge": {
+        "title": "黑徽章力量",
+        "description": "释放奢华的黑暗面，体验大胆而强大的黑徽章系列"
+      },
+      "definition": {
+        "title": "定义奢华",
+        "description": "走进劳斯莱斯的世界，发现真正奢华的含义"
+      }
+    }
   }
 }

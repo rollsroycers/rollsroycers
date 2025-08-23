@@ -1948,7 +1948,12 @@
     "recommendation": "Our Recommendation For You",
     "selectCar": "Select Your Rolls-Royce",
     "idealFor": "Ideal for",
-    "suggestedRoutes": "Suggested Routes"
+    "suggestedRoutes": "Suggested Routes",
+    "chooseDestinations": "Choose Your Destinations",
+    "selected": "selected",
+    "recommended": "Recommended",
+    "generatePlan": "Generate Plan",
+    "recommendedStops": "Recommended Stops"
   },
   "personalizedOffers": {
     "title": "Personalized Offers",
@@ -1988,7 +1993,18 @@
     "ghost": "The Serene Ghost",
     "dawn": "The Open-Top Dawn",
     "wraith": "The Powerful Wraith",
-    "lifestyle": "Luxury Lifestyle in Dubai",
+    "lifestyle": {
+      "title": "Luxury Lifestyle in Dubai"
+    },
+    "mansory": {
+      "title": "Mansory Black Badge Rolls Royce Cullinan"
+    },
+    "defining": {
+      "title": "Rolls Royce defines what Luxury cars mean"
+    },
+    "experience": {
+      "title": "Experience the luxury of"
+    },
     "watch": "Watch Video",
     "loadMore": "Load More Videos",
     "modal": {
@@ -2007,6 +2023,28 @@
     },
     "dubai": {
       "title": "Dubai Experience"
+    },
+    "videos": {
+      "luxury": {
+        "title": "Luxury Lifestyle in Dubai",
+        "description": "Experience the pinnacle of luxury with Rolls-Royce in Dubai's most exclusive destinations"
+      },
+      "cullinan": {
+        "title": "Rolls-Royce Cullinan Adventure",
+        "description": "The ultimate luxury SUV conquering Dubai's diverse terrains in unparalleled style"
+      },
+      "phantom": {
+        "title": "Phantom: The Flagship Experience",
+        "description": "Discover the epitome of automotive excellence with the iconic Rolls-Royce Phantom"
+      },
+      "blackBadge": {
+        "title": "Black Badge Power",
+        "description": "Unleash the dark side of luxury with the bold and powerful Black Badge series"
+      },
+      "definition": {
+        "title": "Defining Luxury",
+        "description": "Step inside the world of Rolls-Royce and discover what true luxury means"
+      }
     },
     "showroom": {
       "title": "Virtual Showroom"

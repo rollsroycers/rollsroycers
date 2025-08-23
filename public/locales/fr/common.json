@@ -1307,9 +1307,11 @@
     "selectCar": "Sélectionnez Votre Rolls-Royce",
     "idealFor": "Idéal pour",
     "suggestedRoutes": "Itinéraires Suggérés",
-    "chooseDestinations": "Choisissez les Destinations",
-    "selected": "sélectionné(s)",
-    "recommended": "Recommandé"
+    "chooseDestinations": "Choisissez vos destinations",
+    "selected": "sélectionné",
+    "recommended": "Recommandé",
+    "generatePlan": "Générer le plan",
+    "recommendedStops": "Arrêts recommandés"
   },
   "offers": {
     "weekend": {
@@ -1462,6 +1464,28 @@
     },
     "experience": {
       "title": "L'Expérience Ultime Rolls-Royce"
+    },
+    "videos": {
+      "luxury": {
+        "title": "Style de vie luxueux à Dubaï",
+        "description": "Vivez le summum du luxe avec Rolls-Royce dans les destinations les plus exclusives de Dubaï"
+      },
+      "cullinan": {
+        "title": "Aventure Rolls-Royce Cullinan",
+        "description": "Le SUV de luxe ultime conquérant les terrains diversifiés de Dubaï avec un style inégalé"
+      },
+      "phantom": {
+        "title": "Phantom : L'expérience phare",
+        "description": "Découvrez le summum de l'excellence automobile avec l'emblématique Rolls-Royce Phantom"
+      },
+      "blackBadge": {
+        "title": "Puissance Black Badge",
+        "description": "Libérez le côté sombre du luxe avec la série Black Badge audacieuse et puissante"
+      },
+      "definition": {
+        "title": "Définir le luxe",
+        "description": "Entrez dans le monde de Rolls-Royce et découvrez ce que signifie le vrai luxe"
+      }
     }
   },
   "virtualShowroom": {
