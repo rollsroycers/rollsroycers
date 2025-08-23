@@ -3,6 +3,7 @@ import Image from 'next/image'
 import { useTranslation } from 'next-i18next'
 import { motion } from 'framer-motion'
 import { useState, useEffect } from 'react'
+import { createWhatsAppLinkProps } from '@/utils/whatsapp'
 
 export default function Footer() {
   const { t } = useTranslation('common')
@@ -236,7 +237,7 @@ export default function Footer() {
               </div>
               <div>
                 <p className="text-sm text-gray-400">{t('footer.support')}</p>
-                <a href="tel:+971558164922" className="text-rolls-gold font-semibold hover:text-white transition-colors">
+                <a {...createWhatsAppLinkProps('support')} className="text-rolls-gold font-semibold hover:text-white transition-colors">
                   +971 55 816 4922
                 </a>
               </div>
@@ -288,7 +289,7 @@ export default function Footer() {
           </Link>
           
           <a 
-            href="tel:+971558164922" 
+            {...createWhatsAppLinkProps('general')} 
             className="flex flex-col items-center justify-center py-3 hover:bg-rolls-gold/10 transition-colors"
           >
             <svg className="w-5 h-5 mb-1" fill="currentColor" viewBox="0 0 20 20">

@@ -10,6 +10,7 @@ import ComparisonTool from '@/components/ComparisonTool'
 import VirtualTour from '@/components/VirtualTour'
 import WhatsAppButton from '@/components/WhatsAppButton'
 import SEO from '@/components/SEO'
+import { createWhatsAppLinkProps } from '@/utils/whatsapp'
 
 import { useTranslation } from 'next-i18next'
 
@@ -266,12 +267,12 @@ export default function CullinanPage() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <motion.a
-                href="tel:+971558164922"
+                {...createWhatsAppLinkProps('cullinan')}
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 className="btn-primary"
               >
-                {t('footer.call')}
+                Chat: +971 55 816 4922
               </motion.a>
               <Link href="/booking" className="btn-secondary">
                 {t('booking.title')}

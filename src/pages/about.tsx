@@ -7,6 +7,7 @@ import Layout from '@/components/Layout'
 import SEO from '@/components/SEO'
 import WhatsAppButton from '@/components/WhatsAppButton'
 import { useTranslation } from 'next-i18next'
+import { createWhatsAppLinkProps } from '@/utils/whatsapp'
 
 export default function AboutPage() {
   const { t } = useTranslation('common')
@@ -365,12 +366,12 @@ export default function AboutPage() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <motion.a
-                href="tel:+971558164922"
+                {...createWhatsAppLinkProps('about')}
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 className="btn-primary"
               >
-                Call: +971 55 816 4922
+                Chat: +971 55 816 4922
               </motion.a>
               <Link href="/fleet" className="btn-secondary">
                 {t('about.cta.button')}

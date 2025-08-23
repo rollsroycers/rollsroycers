@@ -9,6 +9,7 @@ import Layout from '@/components/Layout'
 import SEO from '@/components/SEO'
 import WhatsAppButton from '@/components/WhatsAppButton'
 import PriceCalculator from '@/components/PriceCalculator'
+import { createWhatsAppLinkProps } from '@/utils/whatsapp'
 
 export default function PricingPage() {
   const { t } = useTranslation('common')
@@ -568,7 +569,7 @@ export default function PricingPage() {
                   {t('pricingPage.cta.bookNow')}
                 </Link>
                 <a
-                  href="tel:+971558164922"
+                  {...createWhatsAppLinkProps('pricing')}
                   className="btn-secondary"
                 >
                   {t('pricingPage.cta.callForRates')}

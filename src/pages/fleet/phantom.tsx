@@ -8,6 +8,7 @@ import Layout from '@/components/Layout'
 import WhatsAppButton from '@/components/WhatsAppButton'
 import SEO from '@/components/SEO'
 import { translateSpec } from '@/utils/translations'
+import { createWhatsAppLinkProps } from '@/utils/whatsapp'
 
 export default function PhantomPage() {
   const { t } = useTranslation('common')
@@ -174,8 +175,8 @@ export default function PhantomPage() {
               {t('fleet.phantom.cta.subtitle')}
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a href="tel:+971558164922" className="btn-primary">
-                {t('footer.call')}: +971 55 816 4922
+              <a {...createWhatsAppLinkProps('phantom')} className="btn-primary">
+                Chat: +971 55 816 4922
               </a>
               <a href="#booking" className="btn-secondary">
                 {t('nav.bookingLink')}

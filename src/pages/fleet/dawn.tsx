@@ -11,6 +11,7 @@ import VirtualTour from '@/components/VirtualTour'
 import WhatsAppButton from '@/components/WhatsAppButton'
 import WeatherRecommendations from '@/components/WeatherRecommendations'
 import SEO from '@/components/SEO'
+import { createWhatsAppLinkProps } from '@/utils/whatsapp'
 
 import { useTranslation } from 'next-i18next'
 
@@ -304,7 +305,7 @@ export default function DawnPage() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <motion.a
-                href="tel:+971558164922"
+                {...createWhatsAppLinkProps('dawn')}
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 className="btn-primary"

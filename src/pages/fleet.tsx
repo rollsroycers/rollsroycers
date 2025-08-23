@@ -9,6 +9,7 @@ import Layout from '@/components/Layout'
 import WhatsAppButton from '@/components/WhatsAppButton'
 import SEO from '@/components/SEO'
 import ComparisonTool from '@/components/ComparisonTool'
+import { createWhatsAppLinkProps } from '@/utils/whatsapp'
 
 export default function FleetPage() {
   const { t } = useTranslation(['common', 'fleet'])
@@ -198,7 +199,7 @@ export default function FleetPage() {
               
               <div className="flex flex-col sm:flex-row gap-4 justify-center mb-8">
                 <motion.a
-                  href="tel:+971558164922"
+                  {...createWhatsAppLinkProps('fleet')}
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                   className="btn-primary text-lg px-8 py-4"
@@ -353,7 +354,7 @@ export default function FleetPage() {
                         {t('fleet:learn_more')}
                       </Link>
                       <a
-                        href="tel:+971558164922"
+                        {...createWhatsAppLinkProps(vehicle.id as any)}
                         className="flex-1 bg-transparent border border-rolls-gold text-rolls-gold text-center py-3 px-4 rounded-lg font-semibold hover:bg-rolls-gold hover:text-rolls-black transition-colors"
                       >
                         {t('fleet:rent_now')}
@@ -439,7 +440,7 @@ export default function FleetPage() {
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <motion.a
-                  href="tel:+971558164922"
+                  {...createWhatsAppLinkProps('booking')}
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                   className="btn-primary text-lg px-8 py-4"
@@ -450,9 +451,7 @@ export default function FleetPage() {
                   {t('fleet:cta.book_button')}
                 </Link>
                 <a
-                  href="https://wa.me/971558164922"
-                  target="_blank"
-                  rel="noopener noreferrer"
+                  {...createWhatsAppLinkProps('quote')}
                   className="btn-outline text-lg px-8 py-4"
                 >
                   {t('fleet:cta.whatsapp_button')}

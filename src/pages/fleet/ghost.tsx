@@ -11,6 +11,7 @@ import ComparisonTool from '@/components/ComparisonTool'
 import VirtualTour from '@/components/VirtualTour'
 import WhatsAppButton from '@/components/WhatsAppButton'
 import SEO from '@/components/SEO'
+import { createWhatsAppLinkProps } from '@/utils/whatsapp'
 
 export default function GhostPage() {
   const { t } = useTranslation('common');
@@ -354,8 +355,8 @@ export default function GhostPage() {
                   {t('fleet.ghost.booking.readyToExperience')}
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                  <a href="tel:+971558164922" className="btn-primary">
-                    {t('fleet.ghost.booking.callButton')}
+                  <a {...createWhatsAppLinkProps('ghost')} className="btn-primary">
+                    Chat: +971 55 816 4922
                   </a>
                   <Link href="/booking" className="btn-secondary">
                     {t('fleet.ghost.booking.bookOnlineButton')}

@@ -10,6 +10,7 @@ import Layout from '@/components/Layout'
 import WhatsAppButton from '@/components/WhatsAppButton'
 import AvailabilityCalendar from '@/components/AvailabilityCalendar'
 import PriceCalculator from '@/components/PriceCalculator'
+import { createWhatsAppLinkProps } from '@/utils/whatsapp'
 
 export default function BookingPage() {
   const { t } = useTranslation('common')
@@ -426,7 +427,7 @@ export default function BookingPage() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <motion.a
-                href="tel:+971558164922"
+                {...createWhatsAppLinkProps('booking')}
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 className="btn-primary"
@@ -434,9 +435,7 @@ export default function BookingPage() {
                 {t('booking.phoneBooking.callButton')}
               </motion.a>
               <a
-                href="https://wa.me/971558164922"
-                target="_blank"
-                rel="noopener noreferrer"
+                {...createWhatsAppLinkProps('quote')}
                 className="btn-secondary"
               >
                 {t('booking.phoneBooking.whatsappButton')}

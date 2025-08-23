@@ -7,6 +7,7 @@ import { useState } from 'react'
 import Layout from '@/components/Layout'
 import WhatsAppButton from '@/components/WhatsAppButton'
 import SEO from '@/components/SEO'
+import { createWhatsAppLinkProps } from '@/utils/whatsapp'
 
 export default function ChauffeurServicesPage() {
   const [selectedService, setSelectedService] = useState('hourly')
@@ -502,7 +503,7 @@ export default function ChauffeurServicesPage() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-8">
               <motion.a
-                href="tel:+971558164922"
+                {...createWhatsAppLinkProps('chauffeur')}
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 className="btn-primary"
