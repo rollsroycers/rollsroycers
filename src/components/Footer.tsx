@@ -60,11 +60,11 @@ export default function Footer() {
 
   const quickLinks = [
     { href: '/about', label: t('nav.about') },
+    { href: '/blog', label: t('nav.blog') },
     { href: '/gallery', label: t('nav.gallery') },
     { href: '/testimonials', label: t('nav.testimonials') },
     { href: '/pricing', label: t('nav.pricing') },
     { href: '/faq', label: t('nav.faq') },
-    { href: '/blog', label: t('nav.blog') },
     { href: '/compare/rolls-royce-vs-bentley', label: t('home.explore.compare.title') },
     { href: '/contact', label: t('nav.contact') }
   ]
