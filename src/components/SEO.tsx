@@ -28,7 +28,8 @@ export default function SEO({ pageKey, title: titleProp, description: descriptio
     } else if (pageKey === 'blog.index') {
       fullKey = `pages.other.blog.${key}`
     } else if (pageKey.startsWith('fleet.')) {
-      fullKey = `pages.fleet.${pageKey.split('.')[1]}.${key}`
+      const fleetPath = pageKey.split('.').slice(1).join('.')
+      fullKey = `pages.fleet.${fleetPath}.${key}`
     } else if (pageKey.startsWith('services.')) {
       fullKey = `pages.services.${pageKey.split('.')[1]}.${key}`
     } else if (pageKey.startsWith('locations.')) {

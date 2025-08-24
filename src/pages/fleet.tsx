@@ -470,7 +470,7 @@ export default function FleetPage() {
 export const getStaticProps: GetStaticProps = async ({ locale }) => {
   return {
     props: {
-      ...(await serverSideTranslations(locale || 'en', ['common', 'fleet', 'seo', 'navigation'])),
+      ...(await serverSideTranslations(locale || 'en', ['common', 'fleet', 'seo', 'navigation', 'pages'])),
     },
   }
 }
