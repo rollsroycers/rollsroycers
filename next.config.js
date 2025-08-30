@@ -5,6 +5,18 @@ const nextConfig = {
   reactStrictMode: true,
   i18n,
   
+  // Compiler options for modern JavaScript features
+  compiler: {
+    // Enable modern JavaScript features
+    removeConsole: process.env.NODE_ENV === 'production',
+  },
+  
+  // Experimental features for modern JS
+  experimental: {
+    // Enable modern features
+    esmExternals: true,
+  },
+  
   // Image optimization
   images: {
     remotePatterns: [
