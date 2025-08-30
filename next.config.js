@@ -116,6 +116,12 @@ const nextConfig = {
         source: '/ae/:path*',
         destination: '/ar/:path*',
         permanent: true,
+      },
+      // Cookie policy alternative route (to avoid ad blocker issues)
+      {
+        source: '/cookies',
+        destination: '/data-policy',
+        permanent: false,
       }
     ]
   },

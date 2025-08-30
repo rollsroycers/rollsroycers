@@ -21,44 +21,12 @@
       "purpose": "any maskable"
     }
   ],
-  "screenshots": [
-    {
-      "src": "/images/screenshots/home.png",
-      "sizes": "1280x720",
-      "type": "image/png",
-      "label": "Luxury Fleet"
-    },
-    {
-      "src": "/images/screenshots/booking.png",
-      "sizes": "1280x720",
-      "type": "image/png",
-      "label": "Easy Booking"
-    }
+  "categories": [
+    "business",
+    "lifestyle",
+    "travel",
+    "shopping"
   ],
-  "shortcuts": [
-    {
-      "name": "Book Now",
-      "short_name": "Book",
-      "description": "Quick booking for luxury rental",
-      "url": "/#contact",
-      "icons": [{ "src": "/images/book-icon.png", "sizes": "96x96" }]
-    },
-    {
-      "name": "View Fleet",
-      "short_name": "Fleet",
-      "description": "Browse our luxury vehicles",
-      "url": "/#fleet",
-      "icons": [{ "src": "/images/fleet-icon.png", "sizes": "96x96" }]
-    },
-    {
-      "name": "Special Offers",
-      "short_name": "Offers",
-      "description": "View current promotions",
-      "url": "/#offers",
-      "icons": [{ "src": "/images/offer-icon.png", "sizes": "96x96" }]
-    }
-  ],
-  "categories": ["business", "lifestyle", "travel", "shopping"],
   "prefer_related_applications": false,
   "related_applications": []
 }

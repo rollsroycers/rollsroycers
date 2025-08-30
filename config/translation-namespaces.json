@@ -61,6 +61,18 @@
     "navigation",
     "pages"
   ],
+  "src/pages/cookie-policy.tsx": [
+    "common",
+    "seo",
+    "navigation",
+    "pages"
+  ],
+  "src/pages/data-policy.tsx": [
+    "common",
+    "seo",
+    "navigation",
+    "pages"
+  ],
   "src/pages/services/tours.tsx": [
     "common",
     "seo",

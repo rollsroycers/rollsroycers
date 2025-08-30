@@ -43,5 +43,163 @@
   },
   "other": {
     "testimonials": "Customer Testimonials"
+  },
+  "cookiePolicy": {
+    "hero": {
+      "title": "Cookie Policy",
+      "subtitle": "Understanding Our Cookie Usage",
+      "lastUpdated": "Last Updated"
+    },
+    "introduction": {
+      "title": "About This Cookie Policy",
+      "content1": "This Cookie Policy explains how Rolls-Royce Dubai uses cookies and similar tracking technologies on our website. We are committed to being transparent about our data practices and helping you understand how cookies enhance your browsing experience.",
+      "content2": "This policy works in conjunction with our Privacy Policy and Terms & Conditions to provide you with comprehensive information about how we handle your information."
+    },
+    "sections": {
+      "whatAreCookies": {
+        "title": "What Are Cookies?",
+        "content": [
+          "Cookies are small text files stored on your device when you visit our website.",
+          "They help us provide you with a personalized and efficient browsing experience.",
+          "Cookies contain information about your preferences and website usage patterns.",
+          "Most web browsers automatically accept cookies, but you can modify your browser settings to control them."
+        ]
+      },
+      "typesOfCookies": {
+        "title": "Types of Cookies We Use",
+        "essential": {
+          "title": "Essential Cookies",
+          "content": [
+            "Required for basic website functionality and security",
+            "Enable you to navigate the site and use key features",
+            "Remember your booking information during sessions",
+            "Cannot be disabled without affecting site functionality"
+          ]
+        },
+        "analytics": {
+          "title": "Analytics & Performance Cookies",
+          "content": [
+            "Help us understand how visitors interact with our website",
+            "Collect anonymous information about page views and user journeys",
+            "Allow us to improve website performance and user experience",
+            "Include Google Analytics and similar tools"
+          ]
+        },
+        "functional": {
+          "title": "Functional Cookies",
+          "content": [
+            "Remember your preferences and settings (language, currency)",
+            "Personalize content based on your location and previous visits",
+            "Enable enhanced features like live chat and contact forms",
+            "Improve your overall browsing experience"
+          ]
+        },
+        "marketing": {
+          "title": "Marketing & Advertising Cookies",
+          "content": [
+            "Track your visits across websites to build advertising profiles",
+            "Display relevant ads based on your interests and behavior",
+            "Measure the effectiveness of our marketing campaigns",
+            "Enable retargeting and personalized advertising"
+          ]
+        }
+      },
+      "specificCookies": {
+        "title": "Specific Cookies We Use",
+        "google": {
+          "title": "Google Services",
+          "content": [
+            "Google Analytics: _ga, _gat, _gid for website analytics",
+            "Google Maps: NID, PREF for location services and maps",
+            "Google Ads: IDE, DSID for advertising and remarketing",
+            "YouTube: VISITOR_INFO1_LIVE, YSC for embedded videos"
+          ]
+        },
+        "social": {
+          "title": "Social Media",
+          "content": [
+            "Facebook: fr, sb, datr for Like buttons and social sharing",
+            "Instagram: sessionid, csrftoken for embedded content",
+            "WhatsApp Business: Various cookies for chat functionality",
+            "LinkedIn: bcookie, bscookie for professional network features"
+          ]
+        },
+        "booking": {
+          "title": "Booking & Payment",
+          "content": [
+            "Session cookies to maintain your booking information",
+            "Payment gateway cookies for secure transaction processing",
+            "Preference cookies to remember your vehicle and service choices",
+            "Security cookies to protect against fraud and unauthorized access"
+          ]
+        }
+      },
+      "thirdParty": {
+        "title": "Third-Party Cookies",
+        "content": [
+          "Our website may contain links to third-party services (Google, Facebook, Instagram)",
+          "These services may set their own cookies according to their privacy policies",
+          "We do not control third-party cookies and recommend reviewing their policies",
+          "Third-party cookies may track your behavior across multiple websites"
+        ]
+      },
+      "manageCookies": {
+        "title": "How to Manage Cookies",
+        "browser": {
+          "title": "Browser Settings",
+          "content": [
+            "Chrome: Settings > Privacy and Security > Cookies and other site data",
+            "Safari: Preferences > Privacy > Manage Website Data",
+            "Firefox: Options > Privacy & Security > Cookies and Site Data",
+            "Edge: Settings > Site permissions > Cookies and site data"
+          ]
+        },
+        "optOut": {
+          "title": "Opt-Out Tools",
+          "content": [
+            "Google Analytics Opt-out Browser Add-on",
+            "Facebook Ad Preferences to control advertising cookies",
+            "Your Online Choices (youronlinechoices.eu) for EU users",
+            "Network Advertising Initiative (networkadvertising.org) opt-out tools"
+          ]
+        }
+      },
+      "impact": {
+        "title": "Impact of Disabling Cookies",
+        "content": [
+          "Some website features may not work properly without essential cookies",
+          "You may need to re-enter information on each visit",
+          "Personalized content and recommendations will not be available",
+          "Analytics cookies help us improve our services - disabling them affects our ability to enhance user experience"
+        ]
+      },
+      "consent": {
+        "title": "Cookie Consent",
+        "content": [
+          "By continuing to use our website, you consent to our use of cookies",
+          "You can withdraw consent at any time by changing your browser settings",
+          "We may ask for specific consent for certain types of cookies",
+          "Essential cookies will continue to be used for basic functionality"
+        ]
+      },
+      "updates": {
+        "title": "Policy Updates",
+        "content": [
+          "We may update this Cookie Policy periodically to reflect changes in technology or regulations",
+          "Significant changes will be notified through our website or email",
+          "The \"Last Updated\" date at the top shows when changes were made",
+          "Continued use of our website after updates constitutes acceptance of changes"
+        ]
+      }
+    },
+    "contact": {
+      "title": "Questions About Cookies?",
+      "subtitle": "If you have any questions about our use of cookies, please contact us:"
+    },
+    "acceptance": {
+      "title": "Cookie Acceptance",
+      "subtitle": "By using our website, you acknowledge that:"
+    },
+    "lastUpdated": "January 1, 2025"
   }
 }

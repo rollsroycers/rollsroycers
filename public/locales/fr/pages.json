@@ -43,5 +43,163 @@
   },
   "other": {
     "testimonials": "Témoignages Clients"
+  },
+  "cookiePolicy": {
+    "hero": {
+      "title": "Politique des cookies",
+      "subtitle": "Comprendre notre utilisation des cookies",
+      "lastUpdated": "Dernière mise à jour"
+    },
+    "introduction": {
+      "title": "À propos de cette politique des cookies",
+      "content1": "Cette politique des cookies explique comment Rolls-Royce Dubaï utilise les cookies et technologies de suivi similaires sur notre site web. Nous nous engageons à être transparents sur nos pratiques de données et à vous aider à comprendre comment les cookies améliorent votre expérience de navigation.",
+      "content2": "Cette politique fonctionne en conjonction avec notre politique de confidentialité et nos conditions générales pour vous fournir des informations complètes sur la façon dont nous traitons vos informations."
+    },
+    "sections": {
+      "whatAreCookies": {
+        "title": "Que sont les cookies ?",
+        "content": [
+          "Les cookies sont de petits fichiers texte stockés sur votre appareil lorsque vous visitez notre site web.",
+          "Ils nous aident à vous fournir une expérience de navigation personnalisée et efficace.",
+          "Les cookies contiennent des informations sur vos préférences et habitudes d'utilisation du site.",
+          "La plupart des navigateurs web acceptent automatiquement les cookies, mais vous pouvez modifier les paramètres de votre navigateur pour les contrôler."
+        ]
+      },
+      "typesOfCookies": {
+        "title": "Types de cookies que nous utilisons",
+        "essential": {
+          "title": "Cookies essentiels",
+          "content": [
+            "Requis pour les fonctionnalités de base du site web et la sécurité",
+            "Vous permettent de naviguer sur le site et d'utiliser les fonctionnalités clés",
+            "Mémorisent vos informations de réservation pendant les sessions",
+            "Ne peuvent pas être désactivés sans affecter les fonctionnalités du site"
+          ]
+        },
+        "analytics": {
+          "title": "Cookies d'analyse et de performance",
+          "content": [
+            "Nous aident à comprendre comment les visiteurs interagissent avec notre site web",
+            "Collectent des informations anonymes sur les vues de pages et les parcours utilisateurs",
+            "Nous permettent d'améliorer les performances du site web et l'expérience utilisateur",
+            "Incluent Google Analytics et des outils similaires"
+          ]
+        },
+        "functional": {
+          "title": "Cookies fonctionnels",
+          "content": [
+            "Mémorisent vos préférences et paramètres (langue, devise)",
+            "Personnalisent le contenu en fonction de votre localisation et visites précédentes",
+            "Activent des fonctionnalités améliorées comme le chat en direct et les formulaires de contact",
+            "Améliorent votre expérience de navigation globale"
+          ]
+        },
+        "marketing": {
+          "title": "Cookies marketing et publicitaires",
+          "content": [
+            "Suivent vos visites sur les sites web pour créer des profils publicitaires",
+            "Affichent des publicités pertinentes basées sur vos intérêts et comportements",
+            "Mesurent l'efficacité de nos campagnes marketing",
+            "Permettent le reciblage et la publicité personnalisée"
+          ]
+        }
+      },
+      "specificCookies": {
+        "title": "Cookies spécifiques que nous utilisons",
+        "google": {
+          "title": "Services Google",
+          "content": [
+            "Google Analytics : _ga, _gat, _gid pour les analyses de site web",
+            "Google Maps : NID, PREF pour les services de localisation et cartes",
+            "Google Ads : IDE, DSID pour la publicité et le remarketing",
+            "YouTube : VISITOR_INFO1_LIVE, YSC pour les vidéos intégrées"
+          ]
+        },
+        "social": {
+          "title": "Réseaux sociaux",
+          "content": [
+            "Facebook : fr, sb, datr pour les boutons J'aime et le partage social",
+            "Instagram : sessionid, csrftoken pour le contenu intégré",
+            "WhatsApp Business : Divers cookies pour les fonctionnalités de chat",
+            "LinkedIn : bcookie, bscookie pour les fonctionnalités de réseau professionnel"
+          ]
+        },
+        "booking": {
+          "title": "Réservation et paiement",
+          "content": [
+            "Cookies de session pour maintenir vos informations de réservation",
+            "Cookies de passerelle de paiement pour le traitement sécurisé des transactions",
+            "Cookies de préférences pour mémoriser vos choix de véhicule et service",
+            "Cookies de sécurité pour protéger contre la fraude et l'accès non autorisé"
+          ]
+        }
+      },
+      "thirdParty": {
+        "title": "Cookies tiers",
+        "content": [
+          "Notre site web peut contenir des liens vers des services tiers (Google, Facebook, Instagram)",
+          "Ces services peuvent définir leurs propres cookies selon leurs politiques de confidentialité",
+          "Nous ne contrôlons pas les cookies tiers et recommandons de consulter leurs politiques",
+          "Les cookies tiers peuvent suivre votre comportement sur plusieurs sites web"
+        ]
+      },
+      "manageCookies": {
+        "title": "Comment gérer les cookies",
+        "browser": {
+          "title": "Paramètres du navigateur",
+          "content": [
+            "Chrome : Paramètres > Confidentialité et sécurité > Cookies et autres données de site",
+            "Safari : Préférences > Confidentialité > Gérer les données de site web",
+            "Firefox : Options > Vie privée et sécurité > Cookies et données de site",
+            "Edge : Paramètres > Autorisations de site > Cookies et données de site"
+          ]
+        },
+        "optOut": {
+          "title": "Outils de désactivation",
+          "content": [
+            "Module complémentaire de navigateur de désactivation de Google Analytics",
+            "Préférences publicitaires Facebook pour contrôler les cookies publicitaires",
+            "Your Online Choices (youronlinechoices.eu) pour les utilisateurs européens",
+            "Outils de désactivation de Network Advertising Initiative (networkadvertising.org)"
+          ]
+        }
+      },
+      "impact": {
+        "title": "Impact de la désactivation des cookies",
+        "content": [
+          "Certaines fonctionnalités du site web peuvent ne pas fonctionner correctement sans les cookies essentiels",
+          "Vous pourriez devoir ressaisir des informations à chaque visite",
+          "Le contenu personnalisé et les recommandations ne seront pas disponibles",
+          "Les cookies d'analyse nous aident à améliorer nos services - les désactiver affecte notre capacité à améliorer l'expérience utilisateur"
+        ]
+      },
+      "consent": {
+        "title": "Consentement aux cookies",
+        "content": [
+          "En continuant à utiliser notre site web, vous consentez à notre utilisation des cookies",
+          "Vous pouvez retirer votre consentement à tout moment en modifiant les paramètres de votre navigateur",
+          "Nous pouvons demander un consentement spécifique pour certains types de cookies",
+          "Les cookies essentiels continueront d'être utilisés pour les fonctionnalités de base"
+        ]
+      },
+      "updates": {
+        "title": "Mises à jour de la politique",
+        "content": [
+          "Nous pouvons mettre à jour cette politique des cookies périodiquement pour refléter les changements technologiques ou réglementaires",
+          "Les changements significatifs seront notifiés via notre site web ou par email",
+          "La date \"Dernière mise à jour\" en haut indique quand les changements ont été apportés",
+          "L'utilisation continue de notre site web après les mises à jour constitue une acceptation des changements"
+        ]
+      }
+    },
+    "contact": {
+      "title": "Questions sur les cookies ?",
+      "subtitle": "Si vous avez des questions sur notre utilisation des cookies, veuillez nous contacter :"
+    },
+    "acceptance": {
+      "title": "Acceptation des cookies",
+      "subtitle": "En utilisant notre site web, vous reconnaissez que :"
+    },
+    "lastUpdated": "1er janvier 2025"
   }
 }
