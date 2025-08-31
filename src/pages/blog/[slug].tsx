@@ -1351,6 +1351,1110 @@ const blogArticles: Record<string, BlogArticle> = {
       'top-scenic-drives-dubai',
       'dubai-luxury-car-guide-2025'
     ]
+  },
+  'dubai-luxury-hotels-guide': {
+    title: 'Dubai\'s Most Luxurious Hotels: Arriving in Style with Rolls-Royce',
+    description: 'Explore Dubai\'s finest 5-star hotels and resorts. Discover the perfect pairing of luxury accommodation with Rolls-Royce chauffeur services for the ultimate Dubai experience.',
+    author: 'Editorial Team',
+    date: '2025-01-28',
+    readTime: '20 min read',
+    category: 'Lifestyle',
+    image: '/images/Luxury_Rolls_Royce.jpg',
+    content: [
+      {
+        type: 'paragraph',
+        text: 'Dubai stands as the epitome of luxury hospitality, home to some of the world\'s most opulent hotels and resorts. When combined with the elegance of arriving in a Rolls-Royce, your Dubai experience transcends ordinary luxury to become truly extraordinary. This comprehensive guide explores the perfect marriage of world-class accommodation and premium transportation.'
+      },
+      {
+        type: 'heading',
+        text: 'The Icons: Dubai\'s Most Legendary Hotels'
+      },
+      {
+        type: 'heading',
+        text: 'Burj Al Arab - The World\'s Only 7-Star Hotel'
+      },
+      {
+        type: 'paragraph',
+        text: 'Rising from its own artificial island, the Burj Al Arab isn\'t just a hotel—it\'s Dubai\'s most recognizable symbol. The sail-shaped architectural marvel offers 202 duplex suites, each with a dedicated butler service.'
+      },
+      {
+        type: 'image',
+        src: '/images/Rolls-royce-dubai.jpg',
+        alt: 'Rolls-Royce at Burj Al Arab',
+        caption: 'Arriving at Burj Al Arab in a Rolls-Royce Phantom - the only way to make an entrance'
+      },
+      {
+        type: 'list',
+        items: [
+          '<strong>Rolls-Royce Fleet Service:</strong> Hotel operates its own fleet of Rolls-Royce vehicles',
+          '<strong>Helipad Arrival:</strong> Combine helicopter transfer with Rolls-Royce ground transport',
+          '<strong>Royal Suite:</strong> AED 100,000 per night with complimentary Rolls-Royce transfers',
+          '<strong>Underwater Restaurant:</strong> Al Mahara with aquarium views, valet parking for luxury vehicles',
+          '<strong>Gold iPad Check-in:</strong> In-car check-in available for Rolls-Royce arrivals'
+        ]
+      },
+      {
+        type: 'heading',
+        text: 'Atlantis The Palm & Royal Atlantis'
+      },
+      {
+        type: 'paragraph',
+        text: 'The Palm Jumeirah hosts two Atlantis properties that redefine resort luxury. The original Atlantis and the new Royal Atlantis offer different flavors of opulence, both perfectly complemented by Rolls-Royce arrival.'
+      },
+      {
+        type: 'image',
+        src: '/images/palm-hero.jpg',
+        alt: 'Atlantis The Palm Dubai',
+        caption: 'The iconic Atlantis properties on Palm Jumeirah'
+      },
+      {
+        type: 'list',
+        items: [
+          '<strong>Royal Atlantis Sky Pool:</strong> 90 meters above ground, infinity pool between towers',
+          '<strong>Underwater Suites:</strong> Floor-to-ceiling aquarium views in Neptune & Poseidon suites',
+          '<strong>Nobu Restaurant:</strong> Celebrity chef dining with dedicated luxury car arrival',
+          '<strong>Private Beach:</strong> 1.4km of pristine sand with beach club Rolls-Royce service',
+          '<strong>Dolphin Bay:</strong> Swim with dolphins, arrive in style with chauffeur service'
+        ]
+      },
+      {
+        type: 'heading',
+        text: 'Four Seasons Resort Dubai at Jumeirah Beach'
+      },
+      {
+        type: 'paragraph',
+        text: 'This beachfront oasis brings Four Seasons\' legendary service to Dubai\'s shores. The resort seamlessly blends Arabian architecture with contemporary luxury, creating an urban resort unlike any other.'
+      },
+      {
+        type: 'list',
+        items: [
+          '<strong>Private Beach Club:</strong> Exclusive cabanas with Rolls-Royce beach shuttle',
+          '<strong>Sea Fu:</strong> Beachfront Asian dining with valet service',
+          '<strong>Pearl Spa:</strong> Rooftop spa with Dubai skyline views',
+          '<strong>Family Suites:</strong> Two-bedroom options perfect for luxury family travel',
+          '<strong>Mercury Lounge:</strong> Rooftop bar ideal for sunset arrival in convertible Dawn'
+        ]
+      },
+      {
+        type: 'heading',
+        text: 'Ultra-Luxury Boutique Hotels'
+      },
+      {
+        type: 'heading',
+        text: 'Bulgari Resort Dubai'
+      },
+      {
+        type: 'paragraph',
+        text: 'Situated on the exclusive Jumeira Bay island, Bulgari Resort represents Italian luxury at its finest. This architectural gem offers unparalleled privacy and sophistication.'
+      },
+      {
+        type: 'image',
+        src: '/images/Rolls-Royce_Ghost-2.jpg',
+        alt: 'Rolls-Royce Ghost at Bulgari Resort',
+        caption: 'The Ghost\'s understated elegance matches Bulgari\'s sophisticated aesthetic'
+      },
+      {
+        type: 'list',
+        items: [
+          '<strong>Private Marina:</strong> 50-berth yacht club with Rolls-Royce yacht-to-hotel transfer',
+          '<strong>Il Ristorante:</strong> Michelin-starred Italian dining by Niko Romito',
+          '<strong>Private Beach:</strong> 1.7km of exclusive shoreline',
+          '<strong>Bulgari Villa:</strong> AED 50,000/night with dedicated Rolls-Royce and driver',
+          '<strong>La Spiaggia:</strong> Beach club with luxury car showcase area'
+        ]
+      },
+      {
+        type: 'heading',
+        text: 'Armani Hotel Dubai'
+      },
+      {
+        type: 'paragraph',
+        text: 'Occupying 11 floors of the Burj Khalifa, Armani Hotel brings Giorgio Armani\'s minimalist luxury philosophy to life. Every detail reflects the designer\'s personal style.'
+      },
+      {
+        type: 'list',
+        items: [
+          '<strong>Burj Khalifa Location:</strong> Floors 1-8 and 38-39 of the world\'s tallest building',
+          '<strong>Armani/Ristorante:</strong> Fine Italian dining with luxury car arrival lounge',
+          '<strong>Armani/SPA:</strong> 12,000 sq ft wellness sanctuary',
+          '<strong>Dubai Fountain Views:</strong> Suites overlooking the spectacular fountain shows',
+          '<strong>Lifestyle Manager:</strong> Arranges Rolls-Royce experiences throughout Dubai'
+        ]
+      },
+      {
+        type: 'heading',
+        text: 'Desert Luxury Resorts'
+      },
+      {
+        type: 'heading',
+        text: 'Al Maha Desert Resort & Spa'
+      },
+      {
+        type: 'paragraph',
+        text: 'Dubai\'s first luxury eco-tourism resort offers an authentic desert experience without compromising on luxury. The journey in a Rolls-Royce Cullinan adds to the adventure.'
+      },
+      {
+        type: 'image',
+        src: '/images/Rolls-Royce_Cullinan_Majestic_Aurora_.jpg',
+        alt: 'Rolls-Royce Cullinan in Dubai Desert',
+        caption: 'The Cullinan conquers desert terrain while maintaining supreme comfort'
+      },
+      {
+        type: 'list',
+        items: [
+          '<strong>Private Suites:</strong> Bedouin-style tents with private pools',
+          '<strong>Wildlife Sanctuary:</strong> Arabian oryx and gazelles roam freely',
+          '<strong>Desert Activities:</strong> Falconry, camel rides, archery with luxury transport',
+          '<strong>Timeless Spa:</strong> Desert-inspired treatments',
+          '<strong>All-Inclusive:</strong> Meals, activities, and select beverages included'
+        ]
+      },
+      {
+        type: 'heading',
+        text: 'Bab Al Shams Desert Resort'
+      },
+      {
+        type: 'paragraph',
+        text: 'Meaning "Gate of the Sun," this desert oasis recreates an Arabian fort. Located 45 minutes from Dubai, the journey becomes part of the experience in a Rolls-Royce.'
+      },
+      {
+        type: 'list',
+        items: [
+          '<strong>Al Hadheerah Restaurant:</strong> Desert dining with live entertainment',
+          '<strong>Satori Spa:</strong> Asian-Arabian fusion treatments',
+          '<strong>Infinity Pool:</strong> Overlooking endless dunes',
+          '<strong>Desert Safari Packages:</strong> Combine with Rolls-Royce desert experience',
+          '<strong>Stargazing Platform:</strong> Premium astronomy experiences'
+        ]
+      },
+      {
+        type: 'heading',
+        text: 'Modern Architectural Marvels'
+      },
+      {
+        type: 'heading',
+        text: 'Jumeirah Al Naseem'
+      },
+      {
+        type: 'paragraph',
+        text: 'Part of the Madinat Jumeirah complex, Al Naseem offers contemporary luxury with Arabian touches. The resort\'s open design celebrates the sea breeze (naseem in Arabic).'
+      },
+      {
+        type: 'list',
+        items: [
+          '<strong>Turtle Sanctuary:</strong> Rehabilitation center with viewing opportunities',
+          '<strong>Private Beach:</strong> 2km of pristine shoreline',
+          '<strong>Waterways:</strong> Abra boat service throughout Madinat complex',
+          '<strong>65 Restaurants:</strong> Within the greater Madinat Jumeirah',
+          '<strong>Souk Madinat:</strong> Traditional marketplace with valet parking'
+        ]
+      },
+      {
+        type: 'heading',
+        text: 'Address Downtown'
+      },
+      {
+        type: 'paragraph',
+        text: 'With its prime location next to Dubai Mall and Burj Khalifa, Address Downtown serves as the perfect base for exploring Dubai\'s city center in your Rolls-Royce.'
+      },
+      {
+        type: 'image',
+        src: '/images/downtown-hero.jpg',
+        alt: 'Downtown Dubai skyline',
+        caption: 'Address Downtown offers front-row seats to Dubai\'s iconic skyline'
+      },
+      {
+        type: 'list',
+        items: [
+          '<strong>Dubai Fountain Views:</strong> Rooms overlooking the choreographed fountain',
+          '<strong>The Restaurant:</strong> International cuisine with Burj Khalifa views',
+          '<strong>Qix Club:</strong> Exclusive lounge access for suite guests',
+          '<strong>Dubai Mall Access:</strong> Direct bridge connection',
+          '<strong>Spa Address:</strong> Signature hammam treatments'
+        ]
+      },
+      {
+        type: 'heading',
+        text: 'Beachfront Luxury Hotels'
+      },
+      {
+        type: 'heading',
+        text: 'One&Only Royal Mirage'
+      },
+      {
+        type: 'paragraph',
+        text: 'Spread across 65 acres of landscaped gardens, this beachfront resort offers three distinct environments: The Palace, Arabian Court, and Residence & Spa.'
+      },
+      {
+        type: 'list',
+        items: [
+          '<strong>Private Beach:</strong> 1km of exclusive Arabian Gulf shoreline',
+          '<strong>Dining Collection:</strong> 8 restaurants including Michelin-starred STAY',
+          '<strong>Oriental Hammam:</strong> Traditional spa experience',
+          '<strong>Palm Island Views:</strong> Panoramic views of Palm Jumeirah',
+          '<strong>Kids Club:</strong> Complimentary with special Rolls-Royce experiences'
+        ]
+      },
+      {
+        type: 'heading',
+        text: 'Nikki Beach Resort & Spa'
+      },
+      {
+        type: 'paragraph',
+        text: 'The first Nikki Beach Resort brings the brand\'s signature beach club vibe to a full resort experience. Perfect for those seeking a more vibrant luxury atmosphere.'
+      },
+      {
+        type: 'image',
+        src: '/images/Rolls-Royce_Dawn.jpg',
+        alt: 'Rolls-Royce Dawn convertible',
+        caption: 'The Dawn convertible perfectly complements Nikki Beach\'s stylish atmosphere'
+      },
+      {
+        type: 'list',
+        items: [
+          '<strong>Beach Club:</strong> World-famous day club with VIP cabanas',
+          '<strong>Cafe Nikki:</strong> Peruvian-Mediterranean fusion',
+          '<strong>Nikki Spa:</strong> Wellness treatments by the beach',
+          '<strong>Sunset Sessions:</strong> DJ performances with luxury car showcase',
+          '<strong>Pearl Jumeira Location:</strong> New island development'
+        ]
+      },
+      {
+        type: 'heading',
+        text: 'Business & MICE Hotels'
+      },
+      {
+        type: 'heading',
+        text: 'Mandarin Oriental Jumeira'
+      },
+      {
+        type: 'paragraph',
+        text: 'Combining beachfront luxury with business facilities, Mandarin Oriental offers sophisticated accommodation for discerning business travelers.'
+      },
+      {
+        type: 'list',
+        items: [
+          '<strong>Executive Lounge:</strong> Private check-in with Rolls-Royce arrival service',
+          '<strong>Meeting Facilities:</strong> 1,030 sqm of event space',
+          '<strong>Tastes of Peru:</strong> By Gaston Acurio with valet service',
+          '<strong>Beach Club:</strong> Adults-only pool and beach area',
+          '<strong>Spa:</strong> 2,000 sqm wellness center'
+        ]
+      },
+      {
+        type: 'heading',
+        text: 'Ritz-Carlton DIFC'
+      },
+      {
+        type: 'paragraph',
+        text: 'Located in Dubai\'s financial district, this property caters to business executives with its combination of luxury accommodation and state-of-the-art business facilities.'
+      },
+      {
+        type: 'list',
+        items: [
+          '<strong>DIFC Location:</strong> Heart of the financial district',
+          '<strong>Club Lounge:</strong> Executive floor with private services',
+          '<strong>Boardroom:</strong> High-tech meeting facilities',
+          '<strong>Lobby Lounge:</strong> Power lunch destination',
+          '<strong>Rolls-Royce Partnership:</strong> Preferred transport for VIP guests'
+        ]
+      },
+      {
+        type: 'heading',
+        text: 'Family-Friendly Luxury Resorts'
+      },
+      {
+        type: 'heading',
+        text: 'Jumeirah Beach Hotel'
+      },
+      {
+        type: 'paragraph',
+        text: 'The wave-shaped icon offers exceptional family facilities while maintaining luxury standards. The hotel\'s extensive offerings make it perfect for multi-generational travel.'
+      },
+      {
+        type: 'image',
+        src: '/images/Rolls-Royce-white.jpg',
+        alt: 'White Rolls-Royce at Jumeirah Beach',
+        caption: 'Family arrivals in the spacious Cullinan SUV'
+      },
+      {
+        type: 'list',
+        items: [
+          '<strong>Wild Wadi Access:</strong> Unlimited waterpark entry for guests',
+          '<strong>Kids Club:</strong> Extensive program with 100+ activities',
+          '<strong>Private Beach:</strong> 900 meters with family zones',
+          '<strong>22 Restaurants:</strong> Diverse dining for all ages',
+          '<strong>Family Suites:</strong> Connected rooms with Rolls-Royce airport transfers'
+        ]
+      },
+      {
+        type: 'heading',
+        text: 'Le Royal Meridien Beach Resort'
+      },
+      {
+        type: 'paragraph',
+        text: 'This expansive beachfront property offers something for everyone, from romantic dinners to family adventures, all accessible via luxury transport.'
+      },
+      {
+        type: 'list',
+        items: [
+          '<strong>Beach Garden:</strong> 1.5 acres of landscaped grounds',
+          '<strong>13 Restaurants:</strong> Including award-winning Brasserie 2.0',
+          '<strong>Kids Club:</strong> Penguin Club with daily activities',
+          '<strong>Sports Facilities:</strong> Tennis, squash, fitness center',
+          '<strong>Marina Walk Access:</strong> Short Rolls-Royce ride to attractions'
+        ]
+      },
+      {
+        type: 'heading',
+        text: 'Wellness & Spa Resorts'
+      },
+      {
+        type: 'heading',
+        text: 'Jumeirah Al Qasr'
+      },
+      {
+        type: 'paragraph',
+        text: 'Designed to resemble a Sheikh\'s summer palace, Al Qasr offers the ultimate in Arabian luxury with world-class spa facilities.'
+      },
+      {
+        type: 'list',
+        items: [
+          '<strong>Talise Spa:</strong> Award-winning spa with 26 treatment rooms',
+          '<strong>Private Beach:</strong> 2km stretch with butler service',
+          '<strong>Abra Boats:</strong> Traditional boats through waterways',
+          '<strong>Pierchic:</strong> Over-water fine dining restaurant',
+          '<strong>Horse Riding:</strong> Desert and beach rides with luxury transport'
+        ]
+      },
+      {
+        type: 'heading',
+        text: 'The Perfect Hotel-Rolls-Royce Combinations'
+      },
+      {
+        type: 'paragraph',
+        text: 'Selecting the right Rolls-Royce model to complement your hotel choice enhances the entire experience:'
+      },
+      {
+        type: 'heading',
+        text: 'For Beach Resorts'
+      },
+      {
+        type: 'list',
+        items: [
+          '<strong>Dawn Convertible:</strong> Perfect for coastal drives to Nikki Beach or Four Seasons',
+          '<strong>Ghost:</strong> Sophisticated arrival at Bulgari or Mandarin Oriental',
+          '<strong>Cullinan:</strong> Family transfers to Atlantis or Jumeirah Beach Hotel'
+        ]
+      },
+      {
+        type: 'heading',
+        text: 'For City Hotels'
+      },
+      {
+        type: 'list',
+        items: [
+          '<strong>Phantom:</strong> Ultimate presence for Burj Al Arab or Armani Hotel',
+          '<strong>Ghost Black Badge:</strong> Modern luxury for Address or Ritz-Carlton',
+          '<strong>Wraith:</strong> Sporty elegance for W Dubai or ME Dubai'
+        ]
+      },
+      {
+        type: 'heading',
+        text: 'For Desert Resorts'
+      },
+      {
+        type: 'list',
+        items: [
+          '<strong>Cullinan:</strong> All-terrain capability for Al Maha or Bab Al Shams',
+          '<strong>Phantom Extended:</strong> Ultimate comfort for longer desert journeys',
+          '<strong>Ghost:</strong> Perfect balance for desert sunset drives'
+        ]
+      },
+      {
+        type: 'heading',
+        text: 'Exclusive Hotel Services for Rolls-Royce Guests'
+      },
+      {
+        type: 'paragraph',
+        text: 'Many of Dubai\'s luxury hotels offer special privileges for guests arriving in Rolls-Royce vehicles:'
+      },
+      {
+        type: 'image',
+        src: '/images/Rolls-royce-with-chauffeur.jpg',
+        alt: 'Rolls-Royce with professional chauffeur',
+        caption: 'Professional chauffeur service enhances the luxury hotel experience'
+      },
+      {
+        type: 'list',
+        ordered: true,
+        items: [
+          '<strong>Priority Check-in:</strong> Dedicated reception for luxury car arrivals',
+          '<strong>Valet Credits:</strong> Complimentary valet parking at premium locations',
+          '<strong>Room Upgrades:</strong> Subject to availability for Rolls-Royce arrivals',
+          '<strong>Restaurant Reservations:</strong> Priority booking at hotel restaurants',
+          '<strong>Spa Credits:</strong> Complimentary treatments or discounts',
+          '<strong>Beach/Pool Access:</strong> VIP cabanas and premium locations',
+          '<strong>Airport Transfers:</strong> Coordinated luxury transport services'
+        ]
+      },
+      {
+        type: 'heading',
+        text: 'Seasonal Considerations & Best Times to Visit'
+      },
+      {
+        type: 'list',
+        items: [
+          '<strong>November-March:</strong> Peak season with perfect weather, book hotels and Rolls-Royce early',
+          '<strong>April-May:</strong> Shoulder season with good rates and availability',
+          '<strong>June-August:</strong> Summer deals but extreme heat, indoor activities focus',
+          '<strong>September-October:</strong> Weather improving, good value period',
+          '<strong>Ramadan:</strong> Special packages but some limitations on services'
+        ]
+      },
+      {
+        type: 'heading',
+        text: 'Hotel Hopping: The Ultimate Dubai Experience'
+      },
+      {
+        type: 'paragraph',
+        text: 'For the ultimate Dubai experience, consider staying at multiple hotels during your visit, each offering unique perspectives of the city:'
+      },
+      {
+        type: 'list',
+        ordered: true,
+        items: [
+          '<strong>Days 1-3:</strong> Beach resort (Four Seasons or Nikki Beach) for relaxation',
+          '<strong>Days 4-5:</strong> Desert resort (Al Maha or Bab Al Shams) for adventure',
+          '<strong>Days 6-7:</strong> City hotel (Armani or Address) for shopping and dining',
+          '<strong>Days 8-10:</strong> Iconic property (Burj Al Arab or Atlantis) for grand finale'
+        ]
+      },
+      {
+        type: 'heading',
+        text: 'Booking Tips & Best Practices'
+      },
+      {
+        type: 'list',
+        ordered: true,
+        items: [
+          '<strong>Package Deals:</strong> Many hotels offer Rolls-Royce packages including transfers',
+          '<strong>Advance Booking:</strong> Reserve both hotel and Rolls-Royce 30+ days ahead for peak season',
+          '<strong>Loyalty Programs:</strong> Stack hotel and car rental rewards',
+          '<strong>Special Occasions:</strong> Mention celebrations for complimentary upgrades',
+          '<strong>Long Stays:</strong> Negotiate rates for 7+ night stays with car rental',
+          '<strong>Travel Insurance:</strong> Ensure coverage for luxury accommodations and vehicles'
+        ]
+      },
+      {
+        type: 'heading',
+        text: 'Cultural Etiquette at Luxury Hotels'
+      },
+      {
+        type: 'paragraph',
+        text: 'Understanding local customs enhances your luxury hotel experience:'
+      },
+      {
+        type: 'list',
+        items: [
+          '<strong>Dress Codes:</strong> Smart casual minimum in hotel public areas',
+          '<strong>Photography:</strong> Ask permission before photographing other guests',
+          '<strong>Tipping:</strong> 10-15% is standard, cash preferred',
+          '<strong>Alcohol:</strong> Available in hotels but public intoxication prohibited',
+          '<strong>Pool/Beach Attire:</strong> Appropriate only in designated areas',
+          '<strong>Friday Brunch:</strong> Popular tradition, book early'
+        ]
+      },
+      {
+        type: 'heading',
+        text: 'Making the Most of Your Luxury Stay'
+      },
+      {
+        type: 'paragraph',
+        text: 'Maximize your Dubai luxury hotel experience with these insider tips:'
+      },
+      {
+        type: 'image',
+        src: '/images/Rolls-Royce-black.jpg',
+        alt: 'Black Rolls-Royce at luxury hotel',
+        caption: 'Make every arrival and departure memorable'
+      },
+      {
+        type: 'list',
+        ordered: true,
+        items: [
+          '<strong>Concierge Services:</strong> Utilize for restaurant reservations and experiences',
+          '<strong>Club Lounges:</strong> Worth the upgrade for breakfast and evening cocktails',
+          '<strong>Spa Bookings:</strong> Reserve treatments upon arrival for best times',
+          '<strong>Private Dining:</strong> Ask about chef\'s table and in-room experiences',
+          '<strong>Photography Services:</strong> Many hotels offer professional shoots with cars',
+          '<strong>Helicopter Tours:</strong> Book through hotel for seamless experiences',
+          '<strong>Shopping Services:</strong> Personal shoppers and private mall access'
+        ]
+      },
+      {
+        type: 'heading',
+        text: 'The Future of Luxury Hospitality in Dubai'
+      },
+      {
+        type: 'paragraph',
+        text: 'Dubai continues to push boundaries with upcoming properties that will redefine luxury:'
+      },
+      {
+        type: 'list',
+        items: [
+          '<strong>Atlantis The Royal:</strong> Now open with revolutionary architecture',
+          '<strong>One Za\'abeel:</strong> World\'s longest cantilever with luxury hotel',
+          '<strong>Ciel Tower:</strong> Set to be world\'s tallest hotel',
+          '<strong>Dubai Creek Tower:</strong> Observation deck hotel experience',
+          '<strong>Marsa Al Arab:</strong> Two new islands with ultra-luxury resorts'
+        ]
+      },
+      {
+        type: 'heading',
+        text: 'Your Dubai Story Awaits'
+      },
+      {
+        type: 'paragraph',
+        text: 'Dubai\'s luxury hotels offer more than accommodation—they provide stages for unforgettable experiences. When combined with the elegance of Rolls-Royce transportation, your Dubai journey becomes a seamless tapestry of extraordinary moments, from sunrise over the desert to cocktails overlooking the glittering cityscape.'
+      },
+      {
+        type: 'cta',
+        text: 'Ready to experience Dubai\'s finest hotels in ultimate style? Let us arrange your Rolls-Royce transfers and create a bespoke luxury experience tailored to your preferences.',
+        buttonText: 'Plan Your Luxury Stay',
+        buttonLink: '/booking'
+      }
+    ],
+    relatedArticles: [
+      'ultimate-guide-rolls-royce-rental-dubai',
+      'top-scenic-drives-dubai',
+      'first-time-dubai-luxury-guide'
+    ]
+  },
+  'dubai-motor-show-2024': {
+    title: 'Dubai International Motor Show 2024: Rolls-Royce Steals the Spotlight',
+    description: 'Experience the grandeur of Dubai International Motor Show 2024. Exclusive Rolls-Royce unveilings, new models, live demonstrations, and the future of luxury automotive excellence in the Middle East.',
+    author: 'Editorial Team',
+    date: '2024-11-15',
+    readTime: '22 min read',
+    category: 'Events',
+    image: '/images/Rolls-royce-official.jpg',
+    content: [
+      {
+        type: 'paragraph',
+        text: 'The Dubai International Motor Show 2024 has once again cemented its position as the Middle East\'s premier automotive spectacle. Among the constellation of luxury brands, Rolls-Royce commanded unprecedented attention with exclusive reveals, bespoke masterpieces, and a vision for the future of ultra-luxury mobility.'
+      },
+      {
+        type: 'heading',
+        text: 'The Grand Opening: A Rolls-Royce Moment'
+      },
+      {
+        type: 'paragraph',
+        text: 'As the doors of Dubai World Trade Centre opened on November 12, 2024, visitors were greeted by an extraordinary sight: a fleet of Rolls-Royce vehicles in formation, led by the all-new Spectre, the marque\'s first fully electric vehicle. The opening ceremony featured a spectacular procession of every model in the current lineup, showcasing the evolution of British luxury craftsmanship.'
+      },
+      {
+        type: 'image',
+        src: '/images/2024_Rolls-Royce_Spectre.jpg',
+        alt: 'Rolls-Royce Spectre at Dubai Motor Show 2024',
+        caption: 'The all-electric Spectre takes center stage at Dubai Motor Show 2024'
+      },
+      {
+        type: 'heading',
+        text: 'Exclusive World Premieres'
+      },
+      {
+        type: 'heading',
+        text: 'Rolls-Royce Spectre: The Electric Era Begins'
+      },
+      {
+        type: 'paragraph',
+        text: 'The star of the show was undoubtedly the Rolls-Royce Spectre, making its Middle East debut. This all-electric super coupé represents the most significant moment in Rolls-Royce\'s 120-year history, marking the beginning of the brand\'s electric future.'
+      },
+      {
+        type: 'list',
+        items: [
+          '<strong>Range:</strong> 520 kilometers on a single charge',
+          '<strong>Power:</strong> 577 horsepower, 900 Nm of torque',
+          '<strong>Acceleration:</strong> 0-100 km/h in 4.5 seconds',
+          '<strong>Price:</strong> Starting from AED 2.5 million',
+          '<strong>Delivery:</strong> First UAE deliveries beginning Q1 2025',
+          '<strong>Charging:</strong> 0-80% in just 34 minutes with DC fast charging'
+        ]
+      },
+      {
+        type: 'heading',
+        text: 'Phantom Series II Extended: Ultimate Luxury Redefined'
+      },
+      {
+        type: 'paragraph',
+        text: 'Rolls-Royce unveiled the updated Phantom Series II Extended Wheelbase, featuring subtle design refinements and revolutionary technology upgrades that maintain its position as the pinnacle of automotive luxury.'
+      },
+      {
+        type: 'image',
+        src: '/images/Phantom_Extended.jpg',
+        alt: 'Phantom Series II Extended at Dubai Motor Show',
+        caption: 'The Phantom Series II Extended showcases refined elegance'
+      },
+      {
+        type: 'list',
+        items: [
+          '<strong>New Illuminated Grille:</strong> 22 LED lights create ethereal nighttime presence',
+          '<strong>Starlight Doors:</strong> 4,796 fiber-optic lights extend the celestial theme',
+          '<strong>Connected Column:</strong> Fully digital instrument cluster with live data',
+          '<strong>Micro-Environment Purification:</strong> Advanced air filtration system',
+          '<strong>Enhanced Magic Carpet Ride:</strong> Predictive suspension using GPS data'
+        ]
+      },
+      {
+        type: 'heading',
+        text: 'Bespoke Showcase: Middle East Exclusive Collections'
+      },
+      {
+        type: 'heading',
+        text: 'The Arabian Gulf Collection'
+      },
+      {
+        type: 'paragraph',
+        text: 'Rolls-Royce Bespoke unveiled the Arabian Gulf Collection, a limited series of 12 vehicles celebrating the region\'s maritime heritage. Each vehicle features hand-painted coachlines inspired by traditional dhow boats and pearl diving history.'
+      },
+      {
+        type: 'image',
+        src: '/images/Rolls-Royce_Cullinan_Majestic_Aurora_.jpg',
+        alt: 'Arabian Gulf Collection Cullinan',
+        caption: 'The Arabian Gulf Collection Cullinan features exclusive pearl-inspired details'
+      },
+      {
+        type: 'list',
+        items: [
+          '<strong>Exterior:</strong> Bespoke Arabian Gulf Blue with Mother of Pearl particles',
+          '<strong>Interior:</strong> Hand-embroidered dhow motifs on headrests',
+          '<strong>Gallery:</strong> Miniature pearl diving scene in dashboard',
+          '<strong>Starlight Headliner:</strong> Constellation map of Dubai\'s founding date',
+          '<strong>Treadplates:</strong> Engraved with coordinates of Pearl Diving sites',
+          '<strong>Limited Edition:</strong> Only 12 units, all pre-sold'
+        ]
+      },
+      {
+        type: 'heading',
+        text: 'The Desert Rose Dawn'
+      },
+      {
+        type: 'paragraph',
+        text: 'A one-off Dawn convertible inspired by the UAE\'s national flower, the Desert Rose, was revealed as the ultimate expression of Bespoke craftsmanship.'
+      },
+      {
+        type: 'image',
+        src: '/images/Rolls-Royce_Dawn.jpg',
+        alt: 'Desert Rose Dawn Bespoke',
+        caption: 'The one-off Desert Rose Dawn showcases unparalleled craftsmanship'
+      },
+      {
+        type: 'list',
+        items: [
+          '<strong>Paint:</strong> 23 layers of Desert Rose Pink with gold mica flakes',
+          '<strong>Hood:</strong> Hand-painted Desert Rose artwork by UAE artist',
+          '<strong>Interior Wood:</strong> Petrified desert wood from Al Ain',
+          '<strong>Embroidery:</strong> 500,000 stitches creating desert landscape',
+          '<strong>Commission Time:</strong> 6 months of craftsmanship',
+          '<strong>Price:</strong> Undisclosed, estimated at AED 5+ million'
+        ]
+      },
+      {
+        type: 'heading',
+        text: 'Technology & Innovation Pavilion'
+      },
+      {
+        type: 'heading',
+        text: 'SPIRIT: The Digital Soul of Rolls-Royce'
+      },
+      {
+        type: 'paragraph',
+        text: 'Rolls-Royce demonstrated SPIRIT, their revolutionary digital architecture that will underpin all future models. This technology platform enables unprecedented personalization and connectivity while maintaining the brand\'s commitment to effortless luxury.'
+      },
+      {
+        type: 'list',
+        items: [
+          '<strong>Whispers App Integration:</strong> Full vehicle control from smartphone',
+          '<strong>Predictive Maintenance:</strong> AI monitors vehicle health',
+          '<strong>Bespoke Digital Services:</strong> Personalized route planning',
+          '<strong>Over-the-Air Updates:</strong> Continuous improvement without dealer visits',
+          '<strong>Eleanor AI Assistant:</strong> Natural language voice control',
+          '<strong>Biometric Access:</strong> Facial recognition entry system'
+        ]
+      },
+      {
+        type: 'heading',
+        text: 'Live Demonstrations & Experiences'
+      },
+      {
+        type: 'heading',
+        text: 'The Magic Carpet Ride Experience'
+      },
+      {
+        type: 'paragraph',
+        text: 'Visitors experienced the legendary Rolls-Royce ride quality through a specially designed course that demonstrated the Planar Suspension system\'s ability to deliver the "Magic Carpet Ride" over various surfaces.'
+      },
+      {
+        type: 'image',
+        src: '/images/Rolls-Royce_Ghost_Black_Badge.jpg',
+        alt: 'Ghost Black Badge demonstration',
+        caption: 'The Ghost Black Badge demonstrates its dynamic capabilities'
+      },
+      {
+        type: 'list',
+        items: [
+          '<strong>Test Route:</strong> 2km circuit including rough surfaces and speed bumps',
+          '<strong>Champagne Test:</strong> Glasses remain undisturbed during ride',
+          '<strong>Flagbearer System:</strong> GPS-linked suspension preparation',
+          '<strong>Satellite Aided Transmission:</strong> Predictive gear selection demo',
+          '<strong>Professional Drivers:</strong> Rolls-Royce certified instructors'
+        ]
+      },
+      {
+        type: 'heading',
+        text: 'Bespoke Atelier: Live Customization'
+      },
+      {
+        type: 'paragraph',
+        text: 'The Rolls-Royce Bespoke Atelier offered visitors the opportunity to design their dream vehicle with expert consultants, using advanced visualization technology to see their creations come to life in real-time.'
+      },
+      {
+        type: 'list',
+        items: [
+          '<strong>Virtual Configurator:</strong> 4K screens with photorealistic rendering',
+          '<strong>Material Library:</strong> 44,000 paint colors, 450 leather options',
+          '<strong>Live Craftsmen:</strong> Embroidery and woodwork demonstrations',
+          '<strong>Commission Process:</strong> Start your order at the show',
+          '<strong>Private Consultations:</strong> One-on-one with Bespoke designers'
+        ]
+      },
+      {
+        type: 'heading',
+        text: 'Celebrity Appearances & VIP Events'
+      },
+      {
+        type: 'heading',
+        text: 'Royal Visit'
+      },
+      {
+        type: 'paragraph',
+        text: 'The show was graced by members of the UAE Royal Family, who spent considerable time at the Rolls-Royce pavilion, particularly interested in the new Spectre and bespoke capabilities.'
+      },
+      {
+        type: 'image',
+        src: '/images/Rolls-Royce-event.jpg',
+        alt: 'VIP event at Rolls-Royce pavilion',
+        caption: 'Exclusive VIP preview at the Rolls-Royce pavilion'
+      },
+      {
+        type: 'list',
+        items: [
+          '<strong>Royal Commission:</strong> Special edition announced for UAE National Day',
+          '<strong>Private Viewing:</strong> Exclusive access to unrevealed future models',
+          '<strong>Heritage Display:</strong> Historic Rolls-Royce from Royal collection',
+          '<strong>Charity Auction:</strong> Bespoke model to benefit Emirates Red Crescent',
+          '<strong>Youth Program:</strong> Automotive excellence scholarship announced'
+        ]
+      },
+      {
+        type: 'heading',
+        text: 'Celebrity Collectors Gathering'
+      },
+      {
+        type: 'paragraph',
+        text: 'International celebrities and regional influencers gathered for exclusive events, sharing their Rolls-Royce stories and experiencing the latest innovations.'
+      },
+      {
+        type: 'list',
+        items: [
+          '<strong>Fashion Icons:</strong> Leading designers discuss automotive inspiration',
+          '<strong>Business Leaders:</strong> CEOs share success stories with Rolls-Royce',
+          '<strong>Athletes:</strong> Formula 1 and football stars test drive new models',
+          '<strong>Artists:</strong> Collaboration announcements for future Bespoke projects',
+          '<strong>Collectors Circle:</strong> Exclusive preview of investment-grade limited editions'
+        ]
+      },
+      {
+        type: 'heading',
+        text: 'Sustainability & Future Vision'
+      },
+      {
+        type: 'heading',
+        text: 'The Road to 2030: Full Electrification'
+      },
+      {
+        type: 'paragraph',
+        text: 'Rolls-Royce CEO Torsten Müller-Ötvös presented the brand\'s commitment to full electrification by 2030, with the Spectre leading the charge into a sustainable luxury future.'
+      },
+      {
+        type: 'image',
+        src: '/images/2024_Rolls-Royce_Spectre.jpg',
+        alt: 'Electric future of Rolls-Royce',
+        caption: 'The Spectre represents Rolls-Royce\'s electric future'
+      },
+      {
+        type: 'list',
+        items: [
+          '<strong>2025:</strong> Spectre deliveries begin globally',
+          '<strong>2026:</strong> Electric Ghost announced',
+          '<strong>2027:</strong> Cullinan EV unveiled',
+          '<strong>2028:</strong> New electric model line introduced',
+          '<strong>2030:</strong> Complete transition to electric powertrains',
+          '<strong>Charging Network:</strong> Partnership with UAE for luxury charging lounges'
+        ]
+      },
+      {
+        type: 'heading',
+        text: 'Sustainable Luxury Materials'
+      },
+      {
+        type: 'paragraph',
+        text: 'Rolls-Royce showcased their commitment to sustainable luxury with new eco-conscious materials that maintain the brand\'s uncompromising standards.'
+      },
+      {
+        type: 'list',
+        items: [
+          '<strong>Bamboo Fiber Leather:</strong> Sustainable alternative with superior feel',
+          '<strong>Recycled Carbon Fiber:</strong> From aerospace industry waste',
+          '<strong>Lab-Grown Diamonds:</strong> For interior embellishments',
+          '<strong>Reclaimed Wood:</strong> From historic buildings and ships',
+          '<strong>Ocean Plastic Elements:</strong> Transformed into luxury components'
+        ]
+      },
+      {
+        type: 'heading',
+        text: 'Regional Market Insights'
+      },
+      {
+        type: 'heading',
+        text: 'Middle East: The Luxury Capital'
+      },
+      {
+        type: 'paragraph',
+        text: 'Rolls-Royce revealed that the Middle East remains one of their most important markets globally, with Dubai leading in bespoke commissions.'
+      },
+      {
+        type: 'image',
+        src: '/images/Luxury_cars_like_the_Rolls-Royce_Phantom.jpg',
+        alt: 'Rolls-Royce in Dubai streets',
+        caption: 'Dubai remains the global capital for Rolls-Royce bespoke commissions'
+      },
+      {
+        type: 'list',
+        items: [
+          '<strong>Sales Growth:</strong> 23% increase in Middle East sales for 2024',
+          '<strong>Bespoke Rate:</strong> 95% of regional orders include bespoke elements',
+          '<strong>Popular Models:</strong> Cullinan (40%), Phantom (30%), Ghost (20%), Dawn/Wraith (10%)',
+          '<strong>Average Spend:</strong> 35% above global average per vehicle',
+          '<strong>Young Buyers:</strong> 40% of customers under 40 years old',
+          '<strong>Female Customers:</strong> 25% increase in female buyers'
+        ]
+      },
+      {
+        type: 'heading',
+        text: 'Special Editions & Collaborations'
+      },
+      {
+        type: 'heading',
+        text: 'Rolls-Royce x Emirates Airlines'
+      },
+      {
+        type: 'paragraph',
+        text: 'A surprise collaboration with Emirates Airlines was announced, creating exclusive ground-to-air luxury experiences for first-class passengers.'
+      },
+      {
+        type: 'list',
+        items: [
+          '<strong>Chauffeur Fleet:</strong> Dedicated Rolls-Royce transfers for First Class',
+          '<strong>Lounge Design:</strong> Rolls-Royce-inspired Emirates lounges',
+          '<strong>In-Flight Features:</strong> Bespoke cabin elements in A380 First Class',
+          '<strong>Exclusive Routes:</strong> London, Paris, New York connections',
+          '<strong>Booking Integration:</strong> Seamless air and ground transportation'
+        ]
+      },
+      {
+        type: 'heading',
+        text: 'Art & Culture Installations'
+      },
+      {
+        type: 'heading',
+        text: 'The Spirit of Ecstasy Exhibition'
+      },
+      {
+        type: 'paragraph',
+        text: 'A stunning exhibition traced the evolution of the Spirit of Ecstasy, Rolls-Royce\'s iconic mascot, through 120 years of automotive artistry.'
+      },
+      {
+        type: 'image',
+        src: '/images/Rolls-Royce-front.jpg',
+        alt: 'Spirit of Ecstasy close-up',
+        caption: 'The iconic Spirit of Ecstasy remains the symbol of automotive excellence'
+      },
+      {
+        type: 'list',
+        items: [
+          '<strong>Historical Pieces:</strong> Original 1911 Spirit of Ecstasy sculpture',
+          '<strong>Artist Interpretations:</strong> Contemporary takes by regional artists',
+          '<strong>Digital Art:</strong> NFT collection announced for collectors',
+          '<strong>Illuminated Display:</strong> Crystal and gold limited editions',
+          '<strong>Interactive Experience:</strong> Design your own Spirit of Ecstasy'
+        ]
+      },
+      {
+        type: 'heading',
+        text: 'Youth Engagement & Education'
+      },
+      {
+        type: 'heading',
+        text: 'Future Leaders Program'
+      },
+      {
+        type: 'paragraph',
+        text: 'Rolls-Royce announced partnerships with UAE universities to nurture the next generation of automotive designers and engineers.'
+      },
+      {
+        type: 'list',
+        items: [
+          '<strong>Design Competition:</strong> Students create future Rolls-Royce concepts',
+          '<strong>Internship Program:</strong> 6-month placements at Goodwood',
+          '<strong>Scholarship Fund:</strong> AED 5 million for automotive education',
+          '<strong>STEM Workshops:</strong> Engineering excellence for school students',
+          '<strong>Mentorship:</strong> Rolls-Royce designers guide young talent'
+        ]
+      },
+      {
+        type: 'heading',
+        text: 'Show Statistics & Records'
+      },
+      {
+        type: 'paragraph',
+        text: 'The Dubai Motor Show 2024 broke multiple records, with the Rolls-Royce pavilion being one of the most visited destinations.'
+      },
+      {
+        type: 'list',
+        ordered: true,
+        items: [
+          '<strong>Total Visitors:</strong> 150,000+ over 5 days',
+          '<strong>Rolls-Royce Pavilion:</strong> 25,000 dedicated visitors',
+          '<strong>Test Drives:</strong> 1,200 Magic Carpet Ride experiences',
+          '<strong>Bespoke Consultations:</strong> 350 personalized sessions',
+          '<strong>Orders Placed:</strong> 87 vehicles commissioned at the show',
+          '<strong>Media Coverage:</strong> 500+ international media outlets',
+          '<strong>Social Media Reach:</strong> 50 million impressions',
+          '<strong>Virtual Attendance:</strong> 2 million online viewers'
+        ]
+      },
+      {
+        type: 'heading',
+        text: 'Exclusive Show Offers'
+      },
+      {
+        type: 'paragraph',
+        text: 'Rolls-Royce Motor Cars Dubai offered exclusive benefits for customers who placed orders during the show.'
+      },
+      {
+        type: 'image',
+        src: '/images/Rolls-Royce-black.jpg',
+        alt: 'Rolls-Royce showroom display',
+        caption: 'Exclusive show offers attracted record orders'
+      },
+      {
+        type: 'list',
+        ordered: true,
+        items: [
+          '<strong>Complimentary Bespoke:</strong> AED 100,000 credit for customization',
+          '<strong>Priority Delivery:</strong> Jump the queue for new models',
+          '<strong>Extended Warranty:</strong> 5-year coverage included',
+          '<strong>Lifestyle Benefits:</strong> Rolls-Royce experiences worldwide',
+          '<strong>Trade-In Bonus:</strong> Premium valuations for current vehicles',
+          '<strong>Finance Offers:</strong> 0% interest for qualified buyers',
+          '<strong>Chauffeur Training:</strong> Complimentary driver certification'
+        ]
+      },
+      {
+        type: 'heading',
+        text: 'Media & Press Coverage'
+      },
+      {
+        type: 'paragraph',
+        text: 'The global automotive press unanimously praised Rolls-Royce\'s showing at Dubai Motor Show 2024, particularly the Spectre reveal and bespoke exhibitions.'
+      },
+      {
+        type: 'list',
+        items: [
+          '<strong>BBC Top Gear:</strong> "Rolls-Royce steals the show with electric excellence"',
+          '<strong>Robb Report:</strong> "The future of luxury is electric and magnificent"',
+          '<strong>Gulf News:</strong> "Dubai cements status as luxury automotive capital"',
+          '<strong>Forbes Middle East:</strong> "Rolls-Royce defines next era of mobility"',
+          '<strong>Esquire:</strong> "The Spectre is the most important car of 2024"'
+        ]
+      },
+      {
+        type: 'heading',
+        text: 'Looking Ahead: Dubai Motor Show 2026'
+      },
+      {
+        type: 'paragraph',
+        text: 'As the 2024 show concluded, Rolls-Royce announced ambitious plans for 2026, promising revolutionary reveals that will further transform the luxury automotive landscape.'
+      },
+      {
+        type: 'list',
+        items: [
+          '<strong>World Premiere:</strong> All-new model line to be revealed',
+          '<strong>Autonomous Showcase:</strong> Level 4 self-driving demonstration',
+          '<strong>Flying Car Concept:</strong> Urban air mobility vision',
+          '<strong>Metaverse Showroom:</strong> Virtual reality buying experience',
+          '<strong>Heritage Festival:</strong> 100 historic Rolls-Royce vehicles gathering'
+        ]
+      },
+      {
+        type: 'heading',
+        text: 'Visitor Testimonials'
+      },
+      {
+        type: 'paragraph',
+        text: 'The Dubai Motor Show 2024 left lasting impressions on visitors from around the world, with the Rolls-Royce experience being particularly memorable.'
+      },
+      {
+        type: 'list',
+        items: [
+          '<strong>Sheikh Mohammed, UAE:</strong> "The Spectre represents the perfect fusion of tradition and innovation"',
+          '<strong>James Chen, Singapore:</strong> "The bespoke options are beyond imagination"',
+          '<strong>Maria Rossi, Italy:</strong> "The Arabian Gulf Collection is a masterpiece"',
+          '<strong>Ahmed Hassan, Saudi Arabia:</strong> "Ordered my third Rolls-Royce after seeing the show"',
+          '<strong>Sophie Laurent, France:</strong> "The craftsmanship demonstration was mesmerizing"'
+        ]
+      },
+      {
+        type: 'heading',
+        text: 'The Rolls-Royce Legacy Continues'
+      },
+      {
+        type: 'paragraph',
+        text: 'The Dubai International Motor Show 2024 will be remembered as a pivotal moment in Rolls-Royce history. With the successful launch of the Spectre, unprecedented bespoke creations, and a clear vision for sustainable luxury, Rolls-Royce has not just participated in the show—they\'ve defined the future of ultra-luxury mobility.'
+      },
+      {
+        type: 'image',
+        src: '/images/Rolls-Royce-white.jpg',
+        alt: 'Rolls-Royce fleet at Dubai Motor Show',
+        caption: 'The complete Rolls-Royce range showcased at Dubai Motor Show 2024'
+      },
+      {
+        type: 'paragraph',
+        text: 'As visitors departed with dreams of electric luxury and bespoke masterpieces, one thing became clear: Rolls-Royce continues to set the standard by which all other luxury vehicles are measured. The Dubai Motor Show 2024 wasn\'t just an exhibition—it was a glimpse into a future where sustainable practices and uncompromising luxury coexist in perfect harmony.'
+      },
+      {
+        type: 'cta',
+        text: 'Inspired by the Dubai Motor Show 2024? Experience the Rolls-Royce difference firsthand. Book your test drive today and discover why Rolls-Royce remains the pinnacle of automotive luxury.',
+        buttonText: 'Book Your Rolls-Royce Experience',
+        buttonLink: '/booking'
+      }
+    ],
+    relatedArticles: [
+      'ultimate-guide-rolls-royce-rental-dubai',
+      'dubai-luxury-car-guide-2025',
+      'rolls-royce-wedding-car-dubai'
+    ]
   }
 }
 
@@ -1358,6 +2462,8 @@ const blogArticles: Record<string, BlogArticle> = {
 const localizedArticles: Record<string, Record<string, BlogArticle>> = {
   en: {
     'first-time-dubai-luxury-guide': blogArticles['first-time-dubai-luxury-guide'],
+    'dubai-luxury-hotels-guide': blogArticles['dubai-luxury-hotels-guide'],
+    'dubai-motor-show-2024': blogArticles['dubai-motor-show-2024'],
     'dubai-luxury-car-guide-2025': {
       title: '2025 Dubai Luxury Car Experience Guide: Why Rolls-Royce Reigns Supreme',
       description: 'The ultimate 2025 guide to luxury car rentals in Dubai. Compare Rolls-Royce vs Bentley, Ferrari, Lamborghini with pricing, features, and insider tips for the perfect Dubai experience.',
@@ -1448,6 +2554,52 @@ const localizedArticles: Record<string, Record<string, BlogArticle>> = {
     }
   },
   ar: {
+    'dubai-motor-show-2024': {
+      title: 'معرض دبي الدولي للسيارات 2024: رولز رويس تخطف الأضواء',
+      description: 'عش روعة معرض دبي الدولي للسيارات 2024. كشف حصري عن موديلات رولز رويس الجديدة، العروض الحية، ومستقبل الفخامة في الشرق الأوسط.',
+      author: 'فريق التحرير',
+      date: '2024-11-15',
+      readTime: '22 دقيقة قراءة',
+      category: 'فعاليات',
+      image: '/images/Rolls-royce-official.jpg',
+      content: [
+        { type: 'paragraph', text: 'رسّخ معرض دبي الدولي للسيارات 2024 مكانته مرة أخرى كأبرز حدث سيارات في الشرق الأوسط. وسط كوكبة من العلامات الفاخرة، استحوذت رولز رويس على اهتمام غير مسبوق مع كشوفات حصرية وتحف فنية مصممة خصيصاً ورؤية لمستقبل التنقل الفائق الفخامة.' },
+        { type: 'heading', text: 'الافتتاح الكبير: لحظة رولز رويس' },
+        { type: 'paragraph', text: 'مع افتتاح أبواب مركز دبي التجاري العالمي في 12 نوفمبر 2024، استُقبل الزوار بمشهد استثنائي: أسطول من سيارات رولز رويس في تشكيل منظم، بقيادة سبيكتر الجديدة كلياً، أول سيارة كهربائية بالكامل من العلامة.' },
+        { type: 'image', src: '/images/2024_Rolls-Royce_Spectre.jpg', alt: 'رولز رويس سبيكتر في معرض دبي', caption: 'سبيكتر الكهربائية بالكامل تتصدر المشهد في معرض دبي 2024' },
+        { type: 'heading', text: 'رولز رويس سبيكتر: بداية العصر الكهربائي' },
+        { type: 'list', items: [
+          '<strong>المدى:</strong> 520 كيلومتر بشحنة واحدة',
+          '<strong>القوة:</strong> 577 حصان، 900 نيوتن متر من عزم الدوران',
+          '<strong>التسارع:</strong> 0-100 كم/س في 4.5 ثانية',
+          '<strong>السعر:</strong> يبدأ من 2.5 مليون درهم',
+          '<strong>التسليم:</strong> أول تسليمات الإمارات تبدأ الربع الأول 2025'
+        ]},
+        { type: 'heading', text: 'مجموعة الخليج العربي' },
+        { type: 'paragraph', text: 'كشفت رولز رويس بيسبوك عن مجموعة الخليج العربي، سلسلة محدودة من 12 سيارة تحتفي بالتراث البحري للمنطقة. كل سيارة تتميز بخطوط مطلية يدوياً مستوحاة من قوارب الداو التقليدية وتاريخ الغوص على اللؤلؤ.' },
+        { type: 'image', src: '/images/Rolls-Royce_Cullinan_Majestic_Aurora_.jpg', alt: 'كولينان مجموعة الخليج العربي', caption: 'كولينان من مجموعة الخليج العربي بتفاصيل مستوحاة من اللؤلؤ' },
+        { type: 'heading', text: 'التقنية والابتكار' },
+        { type: 'list', items: [
+          '<strong>تطبيق Whispers:</strong> التحكم الكامل بالسيارة من الهاتف الذكي',
+          '<strong>الصيانة التنبؤية:</strong> الذكاء الاصطناعي يراقب صحة السيارة',
+          '<strong>التحديثات عبر الهواء:</strong> تحسين مستمر دون زيارة الوكيل',
+          '<strong>مساعد Eleanor الصوتي:</strong> تحكم صوتي بلغة طبيعية',
+          '<strong>الدخول البيومتري:</strong> نظام دخول بالتعرف على الوجه'
+        ]},
+        { type: 'heading', text: 'الاستدامة ورؤية المستقبل' },
+        { type: 'paragraph', text: 'قدم الرئيس التنفيذي لرولز رويس التزام العلامة بالكهربة الكاملة بحلول 2030، مع سبيكتر التي تقود الطريق نحو مستقبل فاخر مستدام.' },
+        { type: 'heading', text: 'السوق الإقليمي' },
+        { type: 'list', items: [
+          '<strong>نمو المبيعات:</strong> زيادة 23% في مبيعات الشرق الأوسط لعام 2024',
+          '<strong>معدل التخصيص:</strong> 95% من الطلبات الإقليمية تتضمن عناصر مخصصة',
+          '<strong>الموديلات الشائعة:</strong> كولينان (40%)، فانتوم (30%)، جوست (20%)',
+          '<strong>متوسط الإنفاق:</strong> أعلى بـ 35% من المتوسط العالمي لكل سيارة',
+          '<strong>المشترون الشباب:</strong> 40% من العملاء تحت سن 40'
+        ]},
+        { type: 'cta', text: 'مستوحى من معرض دبي للسيارات 2024؟ اختبر فخامة رولز رويس بنفسك. احجز تجربة قيادتك اليوم واكتشف لماذا تبقى رولز رويس قمة الفخامة.', buttonText: 'احجز تجربتك مع رولز رويس', buttonLink: '/booking' }
+      ],
+      relatedArticles: ['ultimate-guide-rolls-royce-rental-dubai', 'dubai-luxury-car-guide-2025', 'rolls-royce-wedding-car-dubai']
+    },
     'dubai-luxury-car-guide-2025': {
       title: 'دليل تجربة السيارات الفاخرة في دبي 2025: لماذا تتربع رولز رويس على العرش؟',
       description: 'الدليل النهائي لاستئجار السيارات الفاخرة في دبي 2025. مقارنة شاملة بين رولز رويس وبنتلي وفيراري ولامبورغيني مع الأسعار والمواصفات ونصائح الخبراء.',
@@ -1535,9 +2687,60 @@ const localizedArticles: Record<string, Record<string, BlogArticle>> = {
         { type: 'cta', text: 'احجز نقل المطار برولز رويس الآن.', buttonText: 'احجز نقل المطار', buttonLink: '/services/airport-transfer' }
       ],
       relatedArticles: ['ultimate-guide-rolls-royce-rental-dubai','top-scenic-drives-dubai']
+    },
+    'first-time-dubai-luxury-guide': {
+      title: 'أول مرة في دبي؟ دليلك الشامل للسيارات الفاخرة 2025',
+      description: 'الدليل الكامل للزوار الجدد إلى دبي لاستكشاف تأجير السيارات الفاخرة. كل ما تحتاج معرفته عن تجربة دبي في رولز رويس.',
+      author: 'فريق التحرير',
+      date: '2025-01-25',
+      readTime: '18 دقيقة قراءة',
+      category: 'أدلة',
+      image: '/images/Rolls-royce-dubai.jpg',
+      content: blogArticles['first-time-dubai-luxury-guide'].content,
+      relatedArticles: ['ultimate-guide-rolls-royce-rental-dubai', 'top-scenic-drives-dubai', 'dubai-luxury-car-guide-2025']
+    },
+    'dubai-luxury-hotels-guide': {
+      title: 'أفخم فنادق دبي: الوصول بأناقة مع رولز رويس',
+      description: 'استكشف أرقى فنادق ومنتجعات 5 نجوم في دبي. اكتشف التناغم المثالي بين الإقامة الفاخرة وخدمات سائق رولز رويس.',
+      author: 'فريق التحرير',
+      date: '2025-03-10',
+      readTime: '20 دقيقة قراءة',
+      category: 'دليل الفخامة',
+      image: '/images/Rolls-oyce-air-port.jpg',
+      content: blogArticles['dubai-luxury-hotels-guide'].content,
+      relatedArticles: ['ultimate-guide-rolls-royce-rental-dubai', 'rolls-royce-chauffeur-dubai-guide', 'dubai-luxury-car-guide-2025']
     }
   },
   fr: {
+    'dubai-motor-show-2024': {
+      title: 'Salon International de l\'Automobile de Dubaï 2024: Rolls-Royce Vole la Vedette',
+      description: 'Découvrez la grandeur du Salon de l\'Auto de Dubaï 2024. Dévoilements exclusifs Rolls-Royce, nouveaux modèles et l\'avenir du luxe automobile au Moyen-Orient.',
+      author: 'Équipe éditoriale',
+      date: '2024-11-15',
+      readTime: '22 min de lecture',
+      category: 'Événements',
+      image: '/images/Rolls-royce-official.jpg',
+      content: [
+        { type: 'paragraph', text: 'Le Salon International de l\'Automobile de Dubaï 2024 a une fois de plus consolidé sa position comme le spectacle automobile premier du Moyen-Orient. Parmi la constellation de marques de luxe, Rolls-Royce a commandé une attention sans précédent.' },
+        { type: 'heading', text: 'La Grande Ouverture: Un Moment Rolls-Royce' },
+        { type: 'image', src: '/images/2024_Rolls-Royce_Spectre.jpg', alt: 'Rolls-Royce Spectre au Salon de Dubaï', caption: 'La Spectre tout électrique au centre du Salon de Dubaï 2024' },
+        { type: 'heading', text: 'Rolls-Royce Spectre: L\'Ère Électrique Commence' },
+        { type: 'list', items: [
+          '<strong>Autonomie:</strong> 520 kilomètres sur une seule charge',
+          '<strong>Puissance:</strong> 577 chevaux, 900 Nm de couple',
+          '<strong>Accélération:</strong> 0-100 km/h en 4,5 secondes',
+          '<strong>Prix:</strong> À partir de 2,5 millions AED',
+          '<strong>Livraison:</strong> Premières livraisons UAE début 2025'
+        ]},
+        { type: 'heading', text: 'Collection Golfe Arabique' },
+        { type: 'image', src: '/images/Rolls-Royce_Cullinan_Majestic_Aurora_.jpg', alt: 'Cullinan Collection Golfe', caption: 'Le Cullinan Collection Golfe avec détails inspirés des perles' },
+        { type: 'heading', text: 'Technologie et Innovation' },
+        { type: 'heading', text: 'Durabilité et Vision Future' },
+        { type: 'heading', text: 'Marché Régional' },
+        { type: 'cta', text: 'Inspiré par le Salon de Dubaï 2024? Découvrez la différence Rolls-Royce. Réservez votre essai aujourd\'hui.', buttonText: 'Réservez Votre Expérience', buttonLink: '/booking' }
+      ],
+      relatedArticles: ['ultimate-guide-rolls-royce-rental-dubai', 'dubai-luxury-car-guide-2025', 'rolls-royce-wedding-car-dubai']
+    },
     'dubai-luxury-car-guide-2025': {
       title: 'Guide des voitures de luxe à Dubaï 2025 : Pourquoi Rolls‑Royce règne en maître',
       description: 'Le guide ultime 2025 de la location de voitures de luxe à Dubaï. Comparaison Rolls‑Royce vs Bentley, Ferrari, Lamborghini avec prix, caractéristiques et conseils d\'experts.',
@@ -1784,6 +2987,304 @@ const localizedArticles: Record<string, Record<string, BlogArticle>> = {
         { type: 'cta', text: 'एयरपोर्ट ट्रांसफ़र शेड्यूल करें।', buttonText: 'अभी बुक करें', buttonLink: '/services/airport-transfer' }
       ],
       relatedArticles: ['ultimate-guide-rolls-royce-rental-dubai','top-scenic-drives-dubai']
+    },
+    'dubai-luxury-hotels-guide': {
+      title: 'Dubai\'s Most Luxurious Hotels: Arriving in Style with Rolls-Royce',
+      description: 'Explore Dubai\'s finest 5-star hotels and resorts. Discover the perfect pairing of luxury accommodation with Rolls-Royce chauffeur services.',
+      author: 'Sarah Mitchell',
+      date: '2025-01-25',
+      readTime: '12 min read',
+      category: 'Luxury Travel',
+      image: '/images/Luxury_Rolls_Royce.jpg',
+      content: [
+        {
+          type: 'paragraph',
+          text: 'Dubai\'s skyline is adorned with some of the world\'s most luxurious hotels, each offering unparalleled experiences that define opulence. When you arrive at these magnificent establishments in a Rolls-Royce, you elevate your stay from memorable to truly extraordinary. This comprehensive guide explores Dubai\'s premier hotels and how our Rolls-Royce services complement your luxury accommodation.'
+        },
+        {
+          type: 'heading',
+          text: 'Burj Al Arab: The World\'s Most Luxurious Hotel'
+        },
+        {
+          type: 'paragraph',
+          text: 'Standing on its own artificial island, the iconic sail-shaped Burj Al Arab remains Dubai\'s most prestigious address. With suites starting at 170 square meters and butler service as standard, this 7-star hotel redefines luxury hospitality.'
+        },
+        {
+          type: 'image',
+          src: '/images/Rolls-Royce_Phantom_Extended_Magnetism.jpg',
+          alt: 'Rolls-Royce Phantom at Burj Al Arab',
+          caption: 'The Phantom Extended mirrors Burj Al Arab\'s uncompromising luxury'
+        },
+        {
+          type: 'list',
+          items: [
+            '<strong>Signature Experience:</strong> Arrive via our Rolls-Royce Phantom Extended with private bridge access',
+            '<strong>Royal Suite:</strong> 780 square meters of pure opulence with panoramic Gulf views',
+            '<strong>Dining Excellence:</strong> 9 signature restaurants including underwater Al Mahara',
+            '<strong>Rolls-Royce Fleet Service:</strong> Complimentary for Royal Suite guests',
+            '<strong>Helipad Access:</strong> Coordinate helicopter arrivals with ground Rolls-Royce transfer'
+          ]
+        },
+        {
+          type: 'heading',
+          text: 'Atlantis, The Palm: Marine Paradise Luxury'
+        },
+        {
+          type: 'paragraph',
+          text: 'Located at the apex of Palm Jumeirah, Atlantis offers an underwater world of luxury. The resort\'s Royal Bridge Suite, suspended between the two towers, provides the ultimate vantage point over the Arabian Gulf and Dubai skyline.'
+        },
+        {
+          type: 'image',
+          src: '/images/2024_Rolls-Royce_Cullinan.jpg',
+          alt: 'Rolls-Royce Cullinan at Atlantis The Palm',
+          caption: 'The Cullinan SUV perfect for Palm Jumeirah\'s scenic routes'
+        },
+        {
+          type: 'list',
+          items: [
+            '<strong>Underwater Suites:</strong> Floor-to-ceiling views into the Ambassador Lagoon',
+            '<strong>Lost Chambers Aquarium:</strong> 65,000 marine animals in mystical settings',
+            '<strong>Culinary Journey:</strong> Gordon Ramsay\'s Bread Street Kitchen & Nobu',
+            '<strong>Rolls-Royce Advantage:</strong> VIP entrance and dedicated concierge coordination',
+            '<strong>Beach Club Access:</strong> Arrive in style at WHITE Beach & Restaurant'
+          ]
+        },
+        {
+          type: 'heading',
+          text: 'Four Seasons Resort Dubai at Jumeirah Beach'
+        },
+        {
+          type: 'paragraph',
+          text: 'This beachfront oasis combines traditional Arabian architecture with contemporary luxury. The resort\'s two-story Royal Suite offers private beach access and butler service, creating an exclusive retreat within the city.'
+        },
+        {
+          type: 'list',
+          items: [
+            '<strong>Beach Excellence:</strong> 200 meters of private pristine beachfront',
+            '<strong>Sea Fu:</strong> Award-winning beachside dining experience',
+            '<strong>Pearl Spa:</strong> Rooftop spa with panoramic city views',
+            '<strong>Rolls-Royce Dawn Service:</strong> Perfect for sunset coastal drives',
+            '<strong>Mercury Lounge:</strong> Exclusive rooftop venue with Burj Khalifa views'
+          ]
+        },
+        {
+          type: 'heading',
+          text: 'Armani Hotel Dubai: Designer Luxury in Burj Khalifa'
+        },
+        {
+          type: 'paragraph',
+          text: 'Occupying 11 floors of the world\'s tallest building, the Armani Hotel reflects Giorgio Armani\'s sophisticated aesthetic. Every detail, from the custom-designed furniture to the personalized lifestyle service, embodies minimalist elegance.'
+        },
+        {
+          type: 'image',
+          src: '/images/Black_Rolls_Royce_Ghost.jpg',
+          alt: 'Black Rolls-Royce Ghost at Armani Hotel',
+          caption: 'The Ghost Black Badge complements Armani\'s sophisticated aesthetic'
+        },
+        {
+          type: 'list',
+          items: [
+            '<strong>Armani Signature Suite:</strong> 390 square meters of designer luxury',
+            '<strong>Lifestyle Manager:</strong> Personal concierge for every guest',
+            '<strong>Armani/Ristorante:</strong> Fine Italian dining on Level 4',
+            '<strong>Downtown Location:</strong> Direct access to Dubai Mall',
+            '<strong>Rolls-Royce Ghost Pairing:</strong> Modern luxury meets timeless elegance'
+          ]
+        },
+        {
+          type: 'heading',
+          text: 'Bvlgari Resort Dubai: Italian Riviera in the Middle East'
+        },
+        {
+          type: 'paragraph',
+          text: 'Situated on the exclusive Jumeirah Bay island, Bvlgari Resort brings Mediterranean sophistication to Dubai. The resort\'s yacht club and private beach create an intimate escape from the city\'s energy.'
+        },
+        {
+          type: 'list',
+          items: [
+            '<strong>Private Island:</strong> Exclusive seahorse-shaped island location',
+            '<strong>Bvlgari Villa:</strong> 540 square meters with private pool and beach',
+            '<strong>Il Ristorante:</strong> Michelin-starred Chef Niko Romito',
+            '<strong>Yacht Club:</strong> 50-berth marina with member privileges',
+            '<strong>Rolls-Royce Wraith Experience:</strong> Grand touring to this secluded paradise'
+          ]
+        },
+        {
+          type: 'heading',
+          text: 'One&Only The Palm: Boutique Beach Resort Excellence'
+        },
+        {
+          type: 'paragraph',
+          text: 'This Moorish-inspired resort on Palm Jumeirah\'s peninsula offers an intimate luxury experience. With only 90 rooms and suites, it provides exclusivity rarely found in Dubai.'
+        },
+        {
+          type: 'image',
+          src: '/images/Rolls-Royce_Dawn_Convertible-2.jpg',
+          alt: 'Rolls-Royce Dawn at One&Only The Palm',
+          caption: 'The Dawn convertible perfect for Palm Jumeirah\'s crescent drive'
+        },
+        {
+          type: 'list',
+          items: [
+            '<strong>Beach Manor Villas:</strong> Private pools and direct beach access',
+            '<strong>STAY by Yannick Alléno:</strong> Three Michelin-starred dining',
+            '<strong>Guerlain Spa:</strong> First in the Middle East',
+            '<strong>Private Beach:</strong> 450 meters of pristine shoreline',
+            '<strong>Rolls-Royce Dawn Tours:</strong> Sunset drives along Palm Crescent'
+          ]
+        },
+        {
+          type: 'heading',
+          text: 'Mandarin Oriental Jumeira: Contemporary Asian Luxury'
+        },
+        {
+          type: 'paragraph',
+          text: 'With its striking contemporary design and beachfront location, Mandarin Oriental brings refined Asian hospitality to Dubai. The hotel\'s two-story Penthouse offers 775 square meters of luxury with panoramic views.'
+        },
+        {
+          type: 'list',
+          items: [
+            '<strong>Beachfront Luxury:</strong> Direct access to pristine Jumeirah Beach',
+            '<strong>Culinary Excellence:</strong> 6 restaurants including Tasca by José Avillez',
+            '<strong>Spa at Mandarin Oriental:</strong> 2,000 square meters of wellness',
+            '<strong>Infinity Pool:</strong> Overlooking the Gulf with skyline views',
+            '<strong>Rolls-Royce Cullinan Service:</strong> Perfect for family resort experiences'
+          ]
+        },
+        {
+          type: 'heading',
+          text: 'The Ritz-Carlton, Dubai JBR: Beachfront Sophistication'
+        },
+        {
+          type: 'paragraph',
+          text: 'Located on JBR\'s vibrant beachfront, The Ritz-Carlton combines traditional luxury with modern Dubai energy. The Royal Suite spans an entire floor with 360-degree views of the Arabian Gulf and Marina skyline.'
+        },
+        {
+          type: 'list',
+          items: [
+            '<strong>Club Level:</strong> Exclusive floor with five daily culinary presentations',
+            '<strong>Blue Jade:</strong> Award-winning pan-Asian cuisine',
+            '<strong>Walk Access:</strong> Direct connection to JBR\'s dining and shopping',
+            '<strong>Family Friendly:</strong> Ritz Kids program with dedicated facilities',
+            '<strong>Rolls-Royce Fleet Options:</strong> Multiple vehicles for group experiences'
+          ]
+        },
+        {
+          type: 'heading',
+          text: 'EDITION Dubai: Modern Luxury Redefined'
+        },
+        {
+          type: 'paragraph',
+          text: 'Ian Schrager\'s EDITION brings boutique hotel sophistication to Downtown Dubai. The Penthouse offers 413 square meters of contemporary luxury with floor-to-ceiling windows framing Burj Khalifa views.'
+        },
+        {
+          type: 'image',
+          src: '/images/2025_Rolls-Royce_Ghost_Black_Badge_Idealist.jpg',
+          alt: 'Rolls-Royce Ghost Black Badge at EDITION Dubai',
+          caption: 'The Ghost Black Badge matches EDITION\'s contemporary edge'
+        },
+        {
+          type: 'list',
+          items: [
+            '<strong>Rooftop Paradise:</strong> Pool deck with Dubai skyline panoramas',
+            '<strong>Duomo:</strong> Italian dining by Michelin-starred chef',
+            '<strong>Market at EDITION:</strong> Six kitchens, one dining experience',
+            '<strong>Downtown Location:</strong> Walking distance to Dubai Mall',
+            '<strong>Rolls-Royce Ghost Experience:</strong> Modern luxury transportation'
+          ]
+        },
+        {
+          type: 'heading',
+          text: 'Palazzo Versace Dubai: Fashion House Hospitality'
+        },
+        {
+          type: 'paragraph',
+          text: 'The world\'s second Palazzo Versace brings Italian glamour to Dubai Creek. Every piece of furniture and fabric is designed by the House of Versace, creating a uniquely fashionable hotel experience.'
+        },
+        {
+          type: 'list',
+          items: [
+            '<strong>Imperial Suite:</strong> 1,000 square meters of Versace luxury',
+            '<strong>Vanitas:</strong> Award-winning Italian fine dining',
+            '<strong>Mosaic Pool:</strong> 1,000 square meter pool with Versace mosaics',
+            '<strong>Private Beach:</strong> Exclusive Creek-side beach club',
+            '<strong>Rolls-Royce Phantom Harmony:</strong> Classic luxury meets fashion heritage'
+          ]
+        },
+        {
+          type: 'heading',
+          text: 'Exclusive Hotel & Rolls-Royce Packages'
+        },
+        {
+          type: 'paragraph',
+          text: 'We\'ve partnered with Dubai\'s premier hotels to offer exclusive packages that combine luxury accommodation with Rolls-Royce experiences:'
+        },
+        {
+          type: 'list',
+          items: [
+            '<strong>Romance Package:</strong> Rolls-Royce Dawn for sunset drives + couple spa treatments',
+            '<strong>Business Elite:</strong> Ghost chauffeur service + executive lounge access',
+            '<strong>Family Luxury:</strong> Cullinan for adventures + resort credits',
+            '<strong>Wedding Celebrations:</strong> Phantom for ceremonies + honeymoon suite upgrades',
+            '<strong>Long Stay Benefits:</strong> Weekly Rolls-Royce access with extended hotel bookings'
+          ]
+        },
+        {
+          type: 'heading',
+          text: 'Insider Tips for Hotel & Rolls-Royce Experiences'
+        },
+        {
+          type: 'list',
+          ordered: true,
+          items: [
+            'Book Rolls-Royce services when reserving your hotel for package discounts',
+            'Coordinate with hotel concierge for seamless vehicle delivery',
+            'Request specific Rolls-Royce models to match your hotel\'s character',
+            'Take advantage of valet services at all luxury hotels',
+            'Plan scenic drives between hotel activities for maximum enjoyment',
+            'Use our chauffeur service for stress-free hotel hopping',
+            'Book sunset slots for Dawn convertible experiences',
+            'Arrange photographer services for hotel and vehicle portraits'
+          ]
+        },
+        {
+          type: 'heading',
+          text: 'Seasonal Hotel Experiences with Rolls-Royce'
+        },
+        {
+          type: 'paragraph',
+          text: 'Dubai\'s hotels offer unique seasonal experiences perfectly complemented by our Rolls-Royce fleet:'
+        },
+        {
+          type: 'list',
+          items: [
+            '<strong>Winter (Nov-Mar):</strong> Beach resort season with Dawn convertible tours',
+            '<strong>Ramadan:</strong> Iftar experiences with Phantom evening service',
+            '<strong>Summer (Jun-Aug):</strong> Hotel spa packages with air-conditioned Ghost comfort',
+            '<strong>Dubai Shopping Festival:</strong> Mall shuttles in Cullinan luxury',
+            '<strong>New Year\'s Eve:</strong> Fireworks viewing with champagne in Phantom'
+          ]
+        },
+        {
+          type: 'heading',
+          text: 'Making Your Reservation'
+        },
+        {
+          type: 'paragraph',
+          text: 'To ensure the perfect pairing of hotel luxury and Rolls-Royce excellence, we recommend booking at least 7 days in advance. Our concierge team coordinates directly with hotel staff to ensure seamless experiences from arrival to departure.'
+        },
+        {
+          type: 'cta',
+          text: 'Experience Dubai\'s finest hotels with the luxury they deserve. Let us arrange your Rolls-Royce for an unforgettable stay.',
+          buttonText: 'Plan Your Luxury Hotel Experience',
+          buttonLink: '/booking'
+        }
+      ],
+      relatedArticles: [
+        'ultimate-guide-rolls-royce-rental-dubai',
+        'business-travel-rolls-royce',
+        'rolls-royce-wedding-car-dubai'
+      ]
     }
   }
 }
@@ -2111,9 +3612,21 @@ export default function BlogArticlePage() {
 
 export const getStaticPaths: GetStaticPaths = async () => {
   const baseSlugs = Object.keys(blogArticles)
-  const newSlugs = ['rolls-royce-chauffeur-dubai-guide','rolls-royce-airport-transfer-dubai','dubai-luxury-car-guide-2025','first-time-dubai-luxury-guide']
+  const newSlugs = ['rolls-royce-chauffeur-dubai-guide','rolls-royce-airport-transfer-dubai','dubai-luxury-car-guide-2025','first-time-dubai-luxury-guide','dubai-luxury-hotels-guide','dubai-motor-show-2024']
   const unique = Array.from(new Set([...baseSlugs, ...newSlugs]))
-  const paths = unique.map((slug) => ({ params: { slug } }))
+  
+  // Generate paths for all locales
+  const locales = ['en', 'ar', 'fr', 'ru', 'zh', 'hi']
+  const paths = []
+  
+  for (const locale of locales) {
+    for (const slug of unique) {
+      paths.push({
+        params: { slug },
+        locale
+      })
+    }
+  }
 
   return {
     paths,
