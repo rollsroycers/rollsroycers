@@ -12,7 +12,10 @@ export default function CookiePolicyPage() {
   
   const getTranslatedArray = (key: string, fallback: string[]): string[] => {
     const translation = t(key, { returnObjects: true });
-    return Array.isArray(translation) ? translation : fallback;
+    if (Array.isArray(translation)) {
+      return translation.filter((item): item is string => typeof item === 'string');
+    }
+    return fallback;
   };
 
   const sections = [
@@ -409,7 +412,7 @@ export default function CookiePolicyPage() {
 export const getStaticProps: GetStaticProps = async ({ locale }) => {
   return {
     props: {
-      ...(await serverSideTranslations(locale || 'en', ["pages"])),
+      ...(await serverSideTranslations(locale || 'en', ["common", "nav", "footer", "pages"])),
     },
   }
 }
