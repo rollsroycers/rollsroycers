@@ -412,7 +412,7 @@ export default function CookiePolicyPage() {
 export const getStaticProps: GetStaticProps = async ({ locale }) => {
   return {
     props: {
-      ...(await serverSideTranslations(locale || 'en', ["common", "nav", "footer", "pages"])),
+      ...(await serverSideTranslations(locale || 'en', ["common", "navigation", "footer", "pages"])),
     },
   }
 }
