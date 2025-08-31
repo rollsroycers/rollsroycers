@@ -1,0 +1,186 @@
+{
+  "locations": {
+    "hero": {
+      "title": "迪拜全城服务地点",
+      "subtitle": "无论您在哪里都有高级劳斯莱斯服务",
+      "description": "从迪拜市中心到朱美拉棕榈岛，在迪拜所有主要地点享受豪华交通服务。快速响应，专业服务，全天候可用。",
+      "viewLocations": "查看所有地点",
+      "bookNow": "立即预订"
+    },
+    "stats": {
+      "areas": "服务区域",
+      "availability": "可用性",
+      "response": "响应时间",
+      "coverage": "迪拜覆盖"
+    },
+    "zones": {
+      "all": "所有区域",
+      "central": "迪拜中心",
+      "coastal": "沿海地区",
+      "business": "商业区"
+    },
+    "grid": {
+      "title": "我们的服务地点",
+      "popular": "最受欢迎",
+      "luxury": "豪华区",
+      "business": "商业中心",
+      "nearbyLandmarks": "附近地标",
+      "viewDetails": "查看详情"
+    },
+    "downtown": {
+      "name": "迪拜市中心",
+      "description": "迪拜的心脏地带，拥有标志性地标和豪华目的地",
+      "landmarks": [
+        "哈利法塔",
+        "迪拜购物中心",
+        "迪拜喷泉",
+        "阿巴哈尔露天市场",
+        "迪拜歌剧院"
+      ],
+      "distance": "中心位置"
+    },
+    "marina": {
+      "name": "迪拜码头",
+      "description": "滨水生活区，拥有壮观景色和餐饮",
+      "landmarks": [
+        "码头步行道",
+        "码头购物中心",
+        "7号码头",
+        "迪拜码头游艇俱乐部",
+        "码头海滩"
+      ],
+      "distance": "距市中心25公里"
+    },
+    "palm": {
+      "name": "朱美拉棕榈岛",
+      "description": "独家岛屿天堂，拥有豪华度假村和住宅",
+      "landmarks": [
+        "亚特兰蒂斯棕榈酒店",
+        "棕榈岛观景台",
+        "纳赫勒购物中心",
+        "棕榈西海滩",
+        "棕榈岛唯一酒店"
+      ],
+      "distance": "距市中心30公里"
+    },
+    "businessBay": {
+      "name": "商业湾",
+      "description": "迪拜的中央商务区，企业卓越之地",
+      "landmarks": [
+        "迪拜运河",
+        "湾大道",
+        "JW万豪侯爵酒店",
+        "商业湾地铁站",
+        "行政大楼"
+      ],
+      "distance": "距市中心5公里"
+    },
+    "jbr": {
+      "name": "JBR和步行道",
+      "description": "海滨娱乐和住宅目的地",
+      "landmarks": [
+        "JBR海滩",
+        "步行道",
+        "迪拜之眼",
+        "蓝水岛",
+        "罗克西电影院"
+      ],
+      "distance": "距市中心28公里"
+    },
+    "difc": {
+      "name": "迪拜国际金融中心",
+      "description": "中东领先的国际金融中心",
+      "landmarks": [
+        "门楼",
+        "阿联酋塔",
+        "DIFC艺术之夜",
+        "门大道",
+        "金融中心地铁站"
+      ],
+      "distance": "距市中心8公里"
+    },
+    "coverage": {
+      "title": "迪拜全面覆盖",
+      "subtitle": "战略定位快速访问",
+      "description": "我们的车队战略性地分布在迪拜各地，确保快速响应时间和向酋长国内任何地点提供无缝服务。",
+      "instant": {
+        "title": "即时可用",
+        "description": "车辆准备从迪拜多个地点立即派遣"
+      },
+      "strategic": {
+        "title": "战略位置",
+        "description": "位于主要酒店、机场和商业中心附近，便于快速访问"
+      },
+      "quick": {
+        "title": "快速响应",
+        "description": "到迪拜任何地点的平均响应时间为15分钟"
+      },
+      "areas": {
+        "title": "服务响应时间",
+        "downtown": "迪拜市中心",
+        "marina": "迪拜码头",
+        "palm": "朱美拉棕榈岛",
+        "businessBay": "商业湾",
+        "jbr": "JBR",
+        "difc": "DIFC",
+        "deira": "德拉",
+        "jumeirah": "朱美拉"
+      }
+    },
+    "routes": {
+      "title": "热门路线和价格",
+      "route1": {
+        "from": "迪拜机场（DXB）",
+        "to": "迪拜市中心"
+      },
+      "route2": {
+        "from": "迪拜市中心",
+        "to": "迪拜码头"
+      },
+      "route3": {
+        "from": "迪拜码头",
+        "to": "朱美拉棕榈岛"
+      },
+      "route4": {
+        "from": "商业湾",
+        "to": "DIFC"
+      },
+      "route5": {
+        "from": "JBR",
+        "to": "亚特兰蒂斯棕榈酒店"
+      },
+      "route6": {
+        "from": "DIFC",
+        "to": "迪拜购物中心"
+      }
+    },
+    "availability": {
+      "title": "随时随地可用",
+      "hours": {
+        "title": "24/7服务",
+        "description": "全年365天在迪拜所有地点全天候可用"
+      },
+      "booking": {
+        "title": "即时预订",
+        "description": "在线预订、致电或WhatsApp即可立即确认和派遣"
+      },
+      "fleet": {
+        "title": "准备就绪的车队",
+        "description": "完整的劳斯莱斯车队准备在任何地点部署"
+      }
+    },
+    "cta": {
+      "title": "从任何地点预订您的劳斯莱斯",
+      "description": "无论您在迪拜市中心、码头还是朱美拉棕榈岛，豪华只需一个电话。专业司机、完美车辆和无与伦比的服务遍布迪拜。",
+      "call": "立即致电",
+      "whatsapp": "WhatsApp聊天",
+      "bookOnline": "在线预订",
+      "features": {
+        "premium": "高级服务",
+        "fast": "快速响应",
+        "reliable": "100%可靠",
+        "luxury": "纯粹奢华"
+      }
+    }
+  }
+}

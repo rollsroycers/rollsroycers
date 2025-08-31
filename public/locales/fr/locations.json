@@ -1,0 +1,186 @@
+{
+  "locations": {
+    "hero": {
+      "title": "Emplacements de Service à Travers Dubaï",
+      "subtitle": "Service Premium Rolls-Royce Partout où Vous en Avez Besoin",
+      "description": "Du centre-ville de Dubaï à Palm Jumeirah, vivez le transport de luxe avec une couverture stratégique dans tous les principaux quartiers de Dubaï. Réponse rapide, service professionnel, disponible 24/7.",
+      "viewLocations": "Voir Tous les Emplacements",
+      "bookNow": "Réserver Maintenant"
+    },
+    "stats": {
+      "areas": "Zones de Service",
+      "availability": "Disponibilité",
+      "response": "Temps de Réponse",
+      "coverage": "Couverture de Dubaï"
+    },
+    "zones": {
+      "all": "Toutes les Zones",
+      "central": "Centre de Dubaï",
+      "coastal": "Zones Côtières",
+      "business": "Quartiers d'Affaires"
+    },
+    "grid": {
+      "title": "Nos Emplacements de Service",
+      "popular": "Plus Populaire",
+      "luxury": "Zone de Luxe",
+      "business": "Centre d'Affaires",
+      "nearbyLandmarks": "Monuments à Proximité",
+      "viewDetails": "Voir les Détails"
+    },
+    "downtown": {
+      "name": "Centre-ville de Dubaï",
+      "description": "Le cœur de Dubaï avec ses monuments emblématiques et ses destinations de luxe",
+      "landmarks": [
+        "Burj Khalifa",
+        "Dubai Mall",
+        "Fontaine de Dubaï",
+        "Souk Al Bahar",
+        "Opéra de Dubaï"
+      ],
+      "distance": "Emplacement Central"
+    },
+    "marina": {
+      "name": "Dubai Marina",
+      "description": "Quartier du front de mer avec vues magnifiques et restaurants",
+      "landmarks": [
+        "Promenade de la Marina",
+        "Marina Mall",
+        "Pier 7",
+        "Club de Yacht de Dubai Marina",
+        "Plage de la Marina"
+      ],
+      "distance": "25 km du Centre-ville"
+    },
+    "palm": {
+      "name": "Palm Jumeirah",
+      "description": "Île paradisiaque exclusive avec complexes hôteliers et résidences de luxe",
+      "landmarks": [
+        "Atlantis The Palm",
+        "The Pointe",
+        "Nakheel Mall",
+        "Palm West Beach",
+        "One&Only The Palm"
+      ],
+      "distance": "30 km du Centre-ville"
+    },
+    "businessBay": {
+      "name": "Business Bay",
+      "description": "District d'affaires central de Dubaï pour l'excellence corporative",
+      "landmarks": [
+        "Canal de Dubaï",
+        "Bay Avenue",
+        "JW Marriott Marquis",
+        "Métro Business Bay",
+        "Tours Exécutives"
+      ],
+      "distance": "5 km du Centre-ville"
+    },
+    "jbr": {
+      "name": "JBR & The Walk",
+      "description": "Destination de divertissement et résidentielle en bord de mer",
+      "landmarks": [
+        "The Beach à JBR",
+        "The Walk",
+        "Ain Dubai",
+        "Île Bluewaters",
+        "Cinéma Roxy"
+      ],
+      "distance": "28 km du Centre-ville"
+    },
+    "difc": {
+      "name": "DIFC",
+      "description": "Centre financier international leader au Moyen-Orient",
+      "landmarks": [
+        "Gate Building",
+        "Tours Emirates",
+        "Nuits d'Art DIFC",
+        "Gate Avenue",
+        "Métro Centre Financier"
+      ],
+      "distance": "8 km du Centre-ville"
+    },
+    "coverage": {
+      "title": "Couverture Complète de Dubaï",
+      "subtitle": "Positionnement Stratégique pour un Accès Rapide",
+      "description": "Notre flotte est stratégiquement positionnée à travers Dubaï pour garantir des temps de réponse rapides et une prestation de service fluide vers n'importe quel endroit de l'émirat.",
+      "instant": {
+        "title": "Disponibilité Instantanée",
+        "description": "Véhicules prêts pour une expédition immédiate depuis plusieurs emplacements à Dubaï"
+      },
+      "strategic": {
+        "title": "Emplacements Stratégiques",
+        "description": "Positionnés près des grands hôtels, aéroports et centres d'affaires pour un accès rapide"
+      },
+      "quick": {
+        "title": "Réponse Rapide",
+        "description": "Temps de réponse moyen de 15 minutes vers n'importe quel endroit à Dubaï"
+      },
+      "areas": {
+        "title": "Temps de Réponse du Service",
+        "downtown": "Centre-ville de Dubaï",
+        "marina": "Dubai Marina",
+        "palm": "Palm Jumeirah",
+        "businessBay": "Business Bay",
+        "jbr": "JBR",
+        "difc": "DIFC",
+        "deira": "Deira",
+        "jumeirah": "Jumeirah"
+      }
+    },
+    "routes": {
+      "title": "Itinéraires Populaires et Tarifs",
+      "route1": {
+        "from": "Aéroport de Dubaï (DXB)",
+        "to": "Centre-ville de Dubaï"
+      },
+      "route2": {
+        "from": "Centre-ville de Dubaï",
+        "to": "Dubai Marina"
+      },
+      "route3": {
+        "from": "Dubai Marina",
+        "to": "Palm Jumeirah"
+      },
+      "route4": {
+        "from": "Business Bay",
+        "to": "DIFC"
+      },
+      "route5": {
+        "from": "JBR",
+        "to": "Atlantis The Palm"
+      },
+      "route6": {
+        "from": "DIFC",
+        "to": "Dubai Mall"
+      }
+    },
+    "availability": {
+      "title": "Toujours Disponible, Partout",
+      "hours": {
+        "title": "Service 24/7",
+        "description": "Disponibilité 24h/24 dans tous les emplacements de Dubaï, 365 jours par an"
+      },
+      "booking": {
+        "title": "Réservation Instantanée",
+        "description": "Réservez en ligne, appelez ou WhatsApp pour confirmation et expédition immédiates"
+      },
+      "fleet": {
+        "title": "Flotte Prête",
+        "description": "Flotte complète de véhicules Rolls-Royce prête pour déploiement à n'importe quel endroit"
+      }
+    },
+    "cta": {
+      "title": "Réservez Votre Rolls-Royce depuis N'importe Quel Endroit",
+      "description": "Que vous soyez au centre-ville de Dubaï, à la Marina ou à Palm Jumeirah, le luxe n'est qu'à un appel. Chauffeurs professionnels, véhicules immaculés et service inégalé à travers Dubaï.",
+      "call": "Appelez Maintenant",
+      "whatsapp": "Chat WhatsApp",
+      "bookOnline": "Réserver en Ligne",
+      "features": {
+        "premium": "Service Premium",
+        "fast": "Réponse Rapide",
+        "reliable": "100% Fiable",
+        "luxury": "Pur Luxe"
+      }
+    }
+  }
+}

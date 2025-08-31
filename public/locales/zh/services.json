@@ -1,4 +1,206 @@
 {
+  "services": {
+    "hero": {
+      "title": "劳斯莱斯尊贵服务",
+      "subtitle": "为每个场合量身定制的卓越体验",
+      "description": "从企业卓越到婚礼优雅，体验迪拜最负盛名的豪华汽车租赁服务。每一次旅程都精心打造至完美。",
+      "exploreServices": "探索服务",
+      "callNow": "立即致电"
+    },
+    "stats": {
+      "clients": "满意客户",
+      "events": "服务活动",
+      "support": "支持",
+      "satisfaction": "满意度"
+    },
+    "categories": {
+      "all": "所有服务",
+      "events": "活动",
+      "business": "商务",
+      "transfer": "接送",
+      "luxury": "奢华",
+      "media": "媒体"
+    },
+    "grid": {
+      "title": "我们的尊贵服务",
+      "learnMore": "了解更多"
+    },
+    "wedding": {
+      "title": "婚车服务",
+      "description": "用我们纯白的劳斯莱斯车队让您的特殊日子难以忘怀",
+      "features": {
+        "decoration": "定制鲜花装饰",
+        "photography": "摄影协助",
+        "redCarpet": "红毯服务"
+      },
+      "price": "起价 2,500 迪拉姆"
+    },
+    "corporate": {
+      "title": "企业服务",
+      "description": "通过专业司机服务提升您的企业形象",
+      "features": {
+        "professional": "专业司机",
+        "flexible": "灵活安排",
+        "billing": "企业账单"
+      },
+      "price": "起价 1,200 迪拉姆/天"
+    },
+    "airport": {
+      "title": "机场接送",
+      "description": "往返阿联酋所有机场的无缝豪华接送服务",
+      "features": {
+        "meetGreet": "迎接服务",
+        "flightTracking": "航班追踪",
+        "availability": "24/7 可用"
+      },
+      "price": "起价 1,200 迪拉姆"
+    },
+    "chauffeur": {
+      "title": "司机服务",
+      "description": "专业司机提供小时、日租或定制安排",
+      "features": {
+        "professional": "精英专业司机",
+        "multilingual": "多语言支持",
+        "hourly": "灵活按小时预订"
+      },
+      "price": "起价 800 迪拉姆/小时"
+    },
+    "events": {
+      "title": "活动交通",
+      "description": "在晚宴、首映式和特殊场合惊艳亮相",
+      "features": {
+        "galas": "晚宴",
+        "premieres": "电影首映",
+        "coordination": "活动协调"
+      },
+      "price": "起价 3,000 迪拉姆"
+    },
+    "photoshoot": {
+      "title": "拍摄与电影",
+      "description": "为商业拍摄、电影和时尚提供高端车辆",
+      "features": {
+        "locations": "多个地点",
+        "permits": "许可协助",
+        "styling": "车辆造型"
+      },
+      "price": "起价 5,000 迪拉姆"
+    },
+    "tours": {
+      "title": "豪华旅游",
+      "description": "以极致的舒适和风格探索迪拜的亮点",
+      "features": {
+        "custom": "定制行程",
+        "guide": "专业导游",
+        "refreshments": "高级茶点"
+      },
+      "price": "起价 4,000 迪拉姆"
+    },
+    "whyUs": {
+      "title": "为什么选择我们的服务",
+      "premium": {
+        "title": "高端车队",
+        "description": "最新劳斯莱斯车型保养完美，内饰一尘不染"
+      },
+      "reliability": {
+        "title": "绝对可靠",
+        "description": "98%准点率，备用车辆确保无缝服务"
+      },
+      "experience": {
+        "title": "无与伦比的经验",
+        "description": "为迪拜精英服务超过10年，超过10,000名满意客户"
+      },
+      "customized": {
+        "title": "定制解决方案",
+        "description": "量身定制的服务以满足您的特定需求和偏好"
+      }
+    },
+    "packages": {
+      "title": "特别套餐",
+      "popular": "最受欢迎",
+      "bookNow": "立即预订",
+      "contactUs": "联系我们",
+      "daily": {
+        "title": "日租套餐",
+        "price": "3,000 迪拉姆/天",
+        "feature1": "12小时服务",
+        "feature2": "专业司机",
+        "feature3": "迪拜无限公里",
+        "feature4": "免费茶点"
+      },
+      "weekly": {
+        "title": "周租套餐",
+        "price": "18,000 迪拉姆/周",
+        "feature1": "7天无限服务",
+        "feature2": "专属司机",
+        "feature3": "酋长国间旅行",
+        "feature4": "包含机场接送",
+        "feature5": "20%折扣"
+      },
+      "monthly": {
+        "title": "月租套餐",
+        "price": "定制报价",
+        "feature1": "30天专享服务",
+        "feature2": "多种车辆选择",
+        "feature3": "企业账单",
+        "feature4": "优先预订",
+        "feature5": "活动协调",
+        "feature6": "保证最优价格"
+      }
+    },
+    "process": {
+      "title": "服务流程",
+      "step1": {
+        "title": "联系我们",
+        "description": "致电、WhatsApp或在线预订"
+      },
+      "step2": {
+        "title": "选择服务",
+        "description": "选择您偏好的服务和车辆"
+      },
+      "step3": {
+        "title": "确认预订",
+        "description": "通过简单支付确保您的预订"
+      },
+      "step4": {
+        "title": "享受卓越",
+        "description": "体验最高级的豪华交通"
+      }
+    },
+    "testimonials": {
+      "title": "客户评价",
+      "client1": {
+        "name": "谢赫·阿卜杜拉·阿勒马克图姆",
+        "role": "企业高管",
+        "text": "卓越的服务！企业套餐超出了我们的期望。专业的司机和完美的车辆让我们的商务会议顺利进行。",
+        "service": "企业服务"
+      },
+      "client2": {
+        "name": "莎拉和詹姆斯·米切尔",
+        "role": "新婚夫妇",
+        "text": "美丽的白色幻影让我们的婚礼完美无瑕。装饰令人惊叹，服务无可挑剔。强烈推荐！",
+        "service": "婚礼服务"
+      },
+      "client3": {
+        "name": "埃琳娜·沃尔科夫",
+        "role": "时装设计师",
+        "text": "为我们的活动使用了他们的拍摄服务。车辆一尘不染，时间完美，团队极其专业。",
+        "service": "拍摄服务"
+      }
+    },
+    "cta": {
+      "title": "准备体验卓越？",
+      "description": "从我们的高端服务中选择，让我们超越您的期望。全天候服务迪拜和阿联酋。",
+      "call": "立即致电",
+      "whatsapp": "WhatsApp聊天",
+      "bookOnline": "在线预订",
+      "features": {
+        "global": "国际标准",
+        "availability": "24/7服务",
+        "payment": "安全支付",
+        "insurance": "全面保险"
+      }
+    }
+  },
   "servicesPages": {
     "corporate": {
       "hero": {

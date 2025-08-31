@@ -1,4 +1,206 @@
 {
+  "services": {
+    "hero": {
+      "title": "Premium Rolls-Royce Services",
+      "subtitle": "Tailored Excellence for Every Occasion",
+      "description": "From corporate excellence to wedding elegance, experience Dubai's most prestigious luxury car rental services. Every journey crafted to perfection.",
+      "exploreServices": "Explore Services",
+      "callNow": "Call Now"
+    },
+    "stats": {
+      "clients": "Happy Clients",
+      "events": "Events Served",
+      "support": "Support",
+      "satisfaction": "Satisfaction"
+    },
+    "categories": {
+      "all": "All Services",
+      "events": "Events",
+      "business": "Business",
+      "transfer": "Transfer",
+      "luxury": "Luxury",
+      "media": "Media"
+    },
+    "grid": {
+      "title": "Our Premium Services",
+      "learnMore": "Learn More"
+    },
+    "wedding": {
+      "title": "Wedding Car Service",
+      "description": "Make your special day unforgettable with our pristine white Rolls-Royce fleet",
+      "features": {
+        "decoration": "Custom floral decoration",
+        "photography": "Photography assistance",
+        "redCarpet": "Red carpet service"
+      },
+      "price": "From AED 2,500"
+    },
+    "corporate": {
+      "title": "Corporate Services",
+      "description": "Elevate your business image with professional chauffeur services",
+      "features": {
+        "professional": "Professional chauffeurs",
+        "flexible": "Flexible scheduling",
+        "billing": "Corporate billing"
+      },
+      "price": "From AED 1,200/day"
+    },
+    "airport": {
+      "title": "Airport Transfer",
+      "description": "Seamless luxury transfers to and from all UAE airports",
+      "features": {
+        "meetGreet": "Meet & greet service",
+        "flightTracking": "Flight tracking",
+        "availability": "24/7 availability"
+      },
+      "price": "From AED 1,200"
+    },
+    "chauffeur": {
+      "title": "Chauffeur Service",
+      "description": "Professional drivers for hourly, daily, or custom arrangements",
+      "features": {
+        "professional": "Elite professional drivers",
+        "multilingual": "Multilingual support",
+        "hourly": "Flexible hourly booking"
+      },
+      "price": "From AED 800/hour"
+    },
+    "events": {
+      "title": "Event Transportation",
+      "description": "Make a grand entrance at galas, premieres, and special occasions",
+      "features": {
+        "galas": "Gala dinners",
+        "premieres": "Film premieres",
+        "coordination": "Event coordination"
+      },
+      "price": "From AED 3,000"
+    },
+    "photoshoot": {
+      "title": "Photoshoot & Film",
+      "description": "Premium vehicles for commercial shoots, films, and fashion",
+      "features": {
+        "locations": "Multiple locations",
+        "permits": "Permit assistance",
+        "styling": "Vehicle styling"
+      },
+      "price": "From AED 5,000"
+    },
+    "tours": {
+      "title": "Luxury Tours",
+      "description": "Explore Dubai's highlights in ultimate comfort and style",
+      "features": {
+        "custom": "Custom itineraries",
+        "guide": "Professional guide",
+        "refreshments": "Premium refreshments"
+      },
+      "price": "From AED 4,000"
+    },
+    "whyUs": {
+      "title": "Why Choose Our Services",
+      "premium": {
+        "title": "Premium Fleet",
+        "description": "Latest Rolls-Royce models maintained to perfection with pristine interiors"
+      },
+      "reliability": {
+        "title": "Absolute Reliability",
+        "description": "98% on-time rate with backup vehicles ensuring seamless service"
+      },
+      "experience": {
+        "title": "Unmatched Experience",
+        "description": "10+ years serving Dubai's elite with over 10,000 satisfied clients"
+      },
+      "customized": {
+        "title": "Customized Solutions",
+        "description": "Tailored services to match your specific requirements and preferences"
+      }
+    },
+    "packages": {
+      "title": "Special Packages",
+      "popular": "Most Popular",
+      "bookNow": "Book Now",
+      "contactUs": "Contact Us",
+      "daily": {
+        "title": "Daily Package",
+        "price": "AED 3,000/day",
+        "feature1": "12 hours service",
+        "feature2": "Professional chauffeur",
+        "feature3": "Unlimited km in Dubai",
+        "feature4": "Complimentary refreshments"
+      },
+      "weekly": {
+        "title": "Weekly Package",
+        "price": "AED 18,000/week",
+        "feature1": "7 days unlimited service",
+        "feature2": "Dedicated chauffeur",
+        "feature3": "Inter-emirate travel",
+        "feature4": "Airport transfers included",
+        "feature5": "20% discount on rate"
+      },
+      "monthly": {
+        "title": "Monthly Package",
+        "price": "Custom Quote",
+        "feature1": "30 days exclusive service",
+        "feature2": "Multiple vehicle options",
+        "feature3": "Corporate billing",
+        "feature4": "Priority booking",
+        "feature5": "Event coordination",
+        "feature6": "Best rates guaranteed"
+      }
+    },
+    "process": {
+      "title": "How It Works",
+      "step1": {
+        "title": "Contact Us",
+        "description": "Call, WhatsApp, or book online"
+      },
+      "step2": {
+        "title": "Choose Service",
+        "description": "Select your preferred service and vehicle"
+      },
+      "step3": {
+        "title": "Confirm Booking",
+        "description": "Secure your reservation with easy payment"
+      },
+      "step4": {
+        "title": "Enjoy Excellence",
+        "description": "Experience luxury transportation at its finest"
+      }
+    },
+    "testimonials": {
+      "title": "What Our Clients Say",
+      "client1": {
+        "name": "Sheikh Abdullah Al Maktoum",
+        "role": "Business Executive",
+        "text": "Exceptional service! The corporate package exceeded our expectations. Professional chauffeurs and immaculate vehicles made our business meetings seamless.",
+        "service": "Corporate Service"
+      },
+      "client2": {
+        "name": "Sarah & James Mitchell",
+        "role": "Wedding Couple",
+        "text": "Our wedding day was made perfect with the beautiful white Phantom. The decoration was stunning and the service was flawless. Highly recommended!",
+        "service": "Wedding Service"
+      },
+      "client3": {
+        "name": "Elena Volkov",
+        "role": "Fashion Designer",
+        "text": "Used their photoshoot service for our campaign. The vehicles were pristine, timing was perfect, and the team was incredibly professional.",
+        "service": "Photoshoot Service"
+      }
+    },
+    "cta": {
+      "title": "Ready to Experience Excellence?",
+      "description": "Choose from our premium services and let us exceed your expectations. Available 24/7 across Dubai and UAE.",
+      "call": "Call Now",
+      "whatsapp": "WhatsApp Chat",
+      "bookOnline": "Book Online",
+      "features": {
+        "global": "International Standards",
+        "availability": "24/7 Service",
+        "payment": "Secure Payment",
+        "insurance": "Fully Insured"
+      }
+    }
+  },
   "servicesPages": {
     "corporate": {
       "packages": {

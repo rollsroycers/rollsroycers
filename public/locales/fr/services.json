@@ -1,4 +1,206 @@
 {
+  "services": {
+    "hero": {
+      "title": "Services Premium Rolls-Royce",
+      "subtitle": "Excellence Sur Mesure pour Chaque Occasion",
+      "description": "De l'excellence corporative à l'élégance nuptiale, découvrez les services de location de voitures de luxe les plus prestigieux de Dubaï. Chaque voyage conçu à la perfection.",
+      "exploreServices": "Explorer les Services",
+      "callNow": "Appelez Maintenant"
+    },
+    "stats": {
+      "clients": "Clients Satisfaits",
+      "events": "Événements Servis",
+      "support": "Support",
+      "satisfaction": "Satisfaction"
+    },
+    "categories": {
+      "all": "Tous les Services",
+      "events": "Événements",
+      "business": "Affaires",
+      "transfer": "Transfert",
+      "luxury": "Luxe",
+      "media": "Médias"
+    },
+    "grid": {
+      "title": "Nos Services Premium",
+      "learnMore": "En Savoir Plus"
+    },
+    "wedding": {
+      "title": "Service de Voiture de Mariage",
+      "description": "Rendez votre jour spécial inoubliable avec notre flotte immaculée de Rolls-Royce blanches",
+      "features": {
+        "decoration": "Décoration florale personnalisée",
+        "photography": "Assistance photographique",
+        "redCarpet": "Service tapis rouge"
+      },
+      "price": "À partir de 2 500 AED"
+    },
+    "corporate": {
+      "title": "Services Corporatifs",
+      "description": "Rehaussez l'image de votre entreprise avec des services de chauffeur professionnel",
+      "features": {
+        "professional": "Chauffeurs professionnels",
+        "flexible": "Planification flexible",
+        "billing": "Facturation d'entreprise"
+      },
+      "price": "À partir de 1 200 AED/jour"
+    },
+    "airport": {
+      "title": "Transfert Aéroport",
+      "description": "Transferts de luxe sans faille vers et depuis tous les aéroports des EAU",
+      "features": {
+        "meetGreet": "Service d'accueil",
+        "flightTracking": "Suivi des vols",
+        "availability": "Disponible 24/7"
+      },
+      "price": "À partir de 1 200 AED"
+    },
+    "chauffeur": {
+      "title": "Service de Chauffeur",
+      "description": "Chauffeurs professionnels pour location horaire, journalière ou sur mesure",
+      "features": {
+        "professional": "Chauffeurs professionnels d'élite",
+        "multilingual": "Support multilingue",
+        "hourly": "Réservation flexible à l'heure"
+      },
+      "price": "À partir de 800 AED/heure"
+    },
+    "events": {
+      "title": "Transport d'Événements",
+      "description": "Faites une entrée remarquée lors de galas, premières et occasions spéciales",
+      "features": {
+        "galas": "Dîners de gala",
+        "premieres": "Premières de films",
+        "coordination": "Coordination d'événements"
+      },
+      "price": "À partir de 3 000 AED"
+    },
+    "photoshoot": {
+      "title": "Séance Photo & Film",
+      "description": "Véhicules premium pour tournages commerciaux, films et mode",
+      "features": {
+        "locations": "Plusieurs emplacements",
+        "permits": "Assistance aux permis",
+        "styling": "Stylisme de véhicule"
+      },
+      "price": "À partir de 5 000 AED"
+    },
+    "tours": {
+      "title": "Tours de Luxe",
+      "description": "Explorez les points forts de Dubaï dans un confort et un style ultimes",
+      "features": {
+        "custom": "Itinéraires personnalisés",
+        "guide": "Guide professionnel",
+        "refreshments": "Rafraîchissements premium"
+      },
+      "price": "À partir de 4 000 AED"
+    },
+    "whyUs": {
+      "title": "Pourquoi Choisir Nos Services",
+      "premium": {
+        "title": "Flotte Premium",
+        "description": "Derniers modèles Rolls-Royce entretenus à la perfection avec des intérieurs immaculés"
+      },
+      "reliability": {
+        "title": "Fiabilité Absolue",
+        "description": "Taux de ponctualité de 98% avec véhicules de secours garantissant un service sans faille"
+      },
+      "experience": {
+        "title": "Expérience Inégalée",
+        "description": "Plus de 10 ans au service de l'élite de Dubaï avec plus de 10 000 clients satisfaits"
+      },
+      "customized": {
+        "title": "Solutions Personnalisées",
+        "description": "Services sur mesure pour répondre à vos exigences et préférences spécifiques"
+      }
+    },
+    "packages": {
+      "title": "Forfaits Spéciaux",
+      "popular": "Le Plus Populaire",
+      "bookNow": "Réserver Maintenant",
+      "contactUs": "Nous Contacter",
+      "daily": {
+        "title": "Forfait Journalier",
+        "price": "3 000 AED/jour",
+        "feature1": "Service de 12 heures",
+        "feature2": "Chauffeur professionnel",
+        "feature3": "Km illimités à Dubaï",
+        "feature4": "Rafraîchissements gratuits"
+      },
+      "weekly": {
+        "title": "Forfait Hebdomadaire",
+        "price": "18 000 AED/semaine",
+        "feature1": "Service illimité de 7 jours",
+        "feature2": "Chauffeur dédié",
+        "feature3": "Voyage inter-émirats",
+        "feature4": "Transferts aéroport inclus",
+        "feature5": "20% de réduction"
+      },
+      "monthly": {
+        "title": "Forfait Mensuel",
+        "price": "Devis Personnalisé",
+        "feature1": "Service exclusif de 30 jours",
+        "feature2": "Options de véhicules multiples",
+        "feature3": "Facturation d'entreprise",
+        "feature4": "Réservation prioritaire",
+        "feature5": "Coordination d'événements",
+        "feature6": "Meilleurs tarifs garantis"
+      }
+    },
+    "process": {
+      "title": "Comment Ça Marche",
+      "step1": {
+        "title": "Contactez-Nous",
+        "description": "Appelez, WhatsApp ou réservez en ligne"
+      },
+      "step2": {
+        "title": "Choisir le Service",
+        "description": "Sélectionnez votre service et véhicule préférés"
+      },
+      "step3": {
+        "title": "Confirmer la Réservation",
+        "description": "Sécurisez votre réservation avec un paiement facile"
+      },
+      "step4": {
+        "title": "Profitez de l'Excellence",
+        "description": "Découvrez le transport de luxe à son meilleur"
+      }
+    },
+    "testimonials": {
+      "title": "Ce Que Disent Nos Clients",
+      "client1": {
+        "name": "Sheikh Abdullah Al Maktoum",
+        "role": "Dirigeant d'Entreprise",
+        "text": "Service exceptionnel! Le forfait corporatif a dépassé nos attentes. Des chauffeurs professionnels et des véhicules impeccables ont rendu nos réunions d'affaires parfaites.",
+        "service": "Service Corporatif"
+      },
+      "client2": {
+        "name": "Sarah & James Mitchell",
+        "role": "Couple Marié",
+        "text": "Notre jour de mariage était parfait avec la magnifique Phantom blanche. La décoration était superbe et le service impeccable. Hautement recommandé!",
+        "service": "Service de Mariage"
+      },
+      "client3": {
+        "name": "Elena Volkov",
+        "role": "Créatrice de Mode",
+        "text": "Utilisé leur service de séance photo pour notre campagne. Les véhicules étaient immaculés, le timing parfait et l'équipe incroyablement professionnelle.",
+        "service": "Service de Séance Photo"
+      }
+    },
+    "cta": {
+      "title": "Prêt à Vivre l'Excellence?",
+      "description": "Choisissez parmi nos services premium et laissez-nous dépasser vos attentes. Disponible 24/7 à travers Dubaï et les EAU.",
+      "call": "Appelez Maintenant",
+      "whatsapp": "Chat WhatsApp",
+      "bookOnline": "Réserver en Ligne",
+      "features": {
+        "global": "Standards Internationaux",
+        "availability": "Service 24/7",
+        "payment": "Paiement Sécurisé",
+        "insurance": "Entièrement Assuré"
+      }
+    }
+  },
   "servicesPages": {
     "corporate": {
       "hero": {

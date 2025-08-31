@@ -1,0 +1,236 @@
+{
+  "locations": {
+    "hero": {
+      "title": "Service Locations Across Dubai",
+      "subtitle": "Premium Rolls-Royce Service Everywhere You Need Us",
+      "description": "From Downtown Dubai to Palm Jumeirah, experience luxury transportation with strategic coverage across all major Dubai locations. Quick response, professional service, available 24/7.",
+      "viewLocations": "View All Locations",
+      "bookNow": "Book Now"
+    },
+    "stats": {
+      "areas": "Service Areas",
+      "availability": "Availability",
+      "response": "Response Time",
+      "coverage": "Dubai Coverage"
+    },
+    "zones": {
+      "all": "All Zones",
+      "central": "Central Dubai",
+      "coastal": "Coastal Areas",
+      "business": "Business Districts"
+    },
+    "grid": {
+      "title": "Our Service Locations",
+      "popular": "Most Popular",
+      "luxury": "Luxury Zone",
+      "business": "Business Hub",
+      "nearbyLandmarks": "Nearby Landmarks",
+      "viewDetails": "View Details"
+    },
+    "downtown": {
+      "name": "Downtown Dubai",
+      "description": "The heart of Dubai with iconic landmarks and luxury destinations",
+      "landmarks": [
+        "Burj Khalifa",
+        "Dubai Mall",
+        "Dubai Fountain",
+        "Souk Al Bahar",
+        "Dubai Opera"
+      ],
+      "distance": "Central Location"
+    },
+    "marina": {
+      "name": "Dubai Marina",
+      "description": "Waterfront lifestyle district with stunning views and dining",
+      "landmarks": [
+        "Marina Walk",
+        "Marina Mall",
+        "Pier 7",
+        "Dubai Marina Yacht Club",
+        "Marina Beach"
+      ],
+      "distance": "25 km from Downtown"
+    },
+    "palm": {
+      "name": "Palm Jumeirah",
+      "description": "Exclusive island paradise with luxury resorts and residences",
+      "landmarks": [
+        "Atlantis The Palm",
+        "The Pointe",
+        "Nakheel Mall",
+        "Palm West Beach",
+        "One&Only The Palm"
+      ],
+      "distance": "30 km from Downtown"
+    },
+    "businessBay": {
+      "name": "Business Bay",
+      "description": "Dubai's central business district for corporate excellence",
+      "landmarks": [
+        "Dubai Canal",
+        "Bay Avenue",
+        "JW Marriott Marquis",
+        "Business Bay Metro",
+        "Executive Towers"
+      ],
+      "distance": "5 km from Downtown"
+    },
+    "jbr": {
+      "name": "JBR & The Walk",
+      "description": "Beachfront entertainment and residential destination",
+      "landmarks": [
+        "The Beach at JBR",
+        "The Walk",
+        "Ain Dubai",
+        "Bluewaters Island",
+        "Roxy Cinema"
+      ],
+      "distance": "28 km from Downtown"
+    },
+    "difc": {
+      "name": "DIFC",
+      "description": "Leading international financial center in the Middle East",
+      "landmarks": [
+        "Gate Building",
+        "Emirates Towers",
+        "DIFC Art Nights",
+        "Gate Avenue",
+        "Financial Centre Metro"
+      ],
+      "distance": "8 km from Downtown"
+    },
+    "coverage": {
+      "title": "Complete Dubai Coverage",
+      "subtitle": "Strategic Positioning for Quick Access",
+      "description": "Our fleet is strategically positioned across Dubai to ensure rapid response times and seamless service delivery to any location within the emirate.",
+      "instant": {
+        "title": "Instant Availability",
+        "description": "Vehicles ready for immediate dispatch from multiple locations across Dubai"
+      },
+      "strategic": {
+        "title": "Strategic Locations",
+        "description": "Positioned near major hotels, airports, and business centers for quick access"
+      },
+      "quick": {
+        "title": "Quick Response",
+        "description": "Average response time of 15 minutes to any location in Dubai"
+      },
+      "areas": {
+        "title": "Service Response Times",
+        "downtown": "Downtown Dubai",
+        "marina": "Dubai Marina",
+        "palm": "Palm Jumeirah",
+        "businessBay": "Business Bay",
+        "jbr": "JBR",
+        "difc": "DIFC",
+        "deira": "Deira",
+        "jumeirah": "Jumeirah"
+      }
+    },
+    "routes": {
+      "title": "Popular Routes & Pricing",
+      "route1": {
+        "from": "Dubai Airport (DXB)",
+        "to": "Downtown Dubai"
+      },
+      "route2": {
+        "from": "Downtown Dubai",
+        "to": "Dubai Marina"
+      },
+      "route3": {
+        "from": "Dubai Marina",
+        "to": "Palm Jumeirah"
+      },
+      "route4": {
+        "from": "Business Bay",
+        "to": "DIFC"
+      },
+      "route5": {
+        "from": "JBR",
+        "to": "Atlantis The Palm"
+      },
+      "route6": {
+        "from": "DIFC",
+        "to": "Dubai Mall"
+      }
+    },
+    "availability": {
+      "title": "Always Available, Everywhere",
+      "hours": {
+        "title": "24/7 Service",
+        "description": "Round-the-clock availability across all Dubai locations, 365 days a year"
+      },
+      "booking": {
+        "title": "Instant Booking",
+        "description": "Book online, call, or WhatsApp for immediate confirmation and dispatch"
+      },
+      "fleet": {
+        "title": "Ready Fleet",
+        "description": "Full fleet of Rolls-Royce vehicles ready for deployment at any location"
+      }
+    },
+    "cta": {
+      "title": "Book Your Rolls-Royce from Any Location",
+      "description": "Whether you're in Downtown Dubai, Marina, or Palm Jumeirah, luxury is just a call away. Professional chauffeurs, pristine vehicles, and unmatched service across Dubai.",
+      "call": "Call Now",
+      "whatsapp": "WhatsApp Chat",
+      "bookOnline": "Book Online",
+      "features": {
+        "premium": "Premium Service",
+        "fast": "Fast Response",
+        "reliable": "100% Reliable",
+        "luxury": "Pure Luxury"
+      }
+    }
+  },
+  "locationsPages": {
+    "downtown": {
+      "hero": {
+        "title": "Rolls-Royce Service in Downtown Dubai",
+        "subtitle": "Luxury Transportation at the Heart of Dubai",
+        "description": "Experience premium Rolls-Royce service in Downtown Dubai, home to Burj Khalifa, Dubai Mall, and Dubai Fountain. Perfect for business meetings, shopping trips, and special occasions.",
+        "bookNow": "Book Downtown Service"
+      }
+    },
+    "marina": {
+      "hero": {
+        "title": "Rolls-Royce Service in Dubai Marina",
+        "subtitle": "Waterfront Luxury Transportation",
+        "description": "Premium Rolls-Royce service in Dubai Marina. Ideal for yacht club events, waterfront dining, and coastal drives along the stunning Marina Walk.",
+        "bookNow": "Book Marina Service"
+      }
+    },
+    "palm": {
+      "hero": {
+        "title": "Rolls-Royce Service in Palm Jumeirah",
+        "subtitle": "Island Paradise Luxury Transport",
+        "description": "Exclusive Rolls-Royce service on Palm Jumeirah. Perfect for Atlantis events, beach club visits, and luxury resort transfers on the iconic palm-shaped island.",
+        "bookNow": "Book Palm Service"
+      }
+    },
+    "businessBay": {
+      "hero": {
+        "title": "Rolls-Royce Service in Business Bay",
+        "subtitle": "Corporate Excellence Transportation",
+        "description": "Professional Rolls-Royce service in Business Bay. Ideal for corporate meetings, business conferences, and executive transportation along Dubai Canal.",
+        "bookNow": "Book Business Bay Service"
+      }
+    },
+    "jbr": {
+      "hero": {
+        "title": "Rolls-Royce Service in JBR",
+        "subtitle": "Beachfront Luxury Transportation",
+        "description": "Premium Rolls-Royce service at JBR and The Walk. Perfect for beach events, entertainment venues, and dining at Dubai's premier beachfront destination.",
+        "bookNow": "Book JBR Service"
+      }
+    },
+    "difc": {
+      "hero": {
+        "title": "Rolls-Royce Service in DIFC",
+        "subtitle": "Financial District Premium Transport",
+        "description": "Elite Rolls-Royce service in Dubai International Financial Centre. Essential for banking executives, financial meetings, and corporate events at the Gate.",
+        "bookNow": "Book DIFC Service"
+      }
+    }
+  }
+}
