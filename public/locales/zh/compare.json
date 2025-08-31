@@ -1,0 +1,131 @@
+{
+  "hero": {
+    "title": "幻影 vs 迈巴赫",
+    "subtitle": "终极豪华对比：英伦优雅遇见德国工程"
+  },
+  "categories": {
+    "all": "所有功能",
+    "performance": "性能",
+    "luxury": "豪华",
+    "technology": "科技",
+    "comfort": "舒适",
+    "pricing": "价格"
+  },
+  "vehicles": {
+    "phantom": {
+      "tagline": "英国豪华与工艺的巅峰"
+    },
+    "maybach": {
+      "tagline": "德国工程卓越与现代豪华"
+    }
+  },
+  "metrics": {
+    "starlight": "星空顶篷",
+    "ambient": "环境照明",
+    "handcrafted": "手工缝制皮革",
+    "executive": "行政座椅",
+    "spirit": "欢庆女神",
+    "mbux": "MBUX系统",
+    "bespoke_audio": "定制音响",
+    "burmester": "柏林之声4D"
+  },
+  "advantages": {
+    "phantom": {
+      "heritage": "117年豪华传承",
+      "craftsmanship": "无与伦比的手工细节",
+      "presence": "道路上的威严存在",
+      "customization": "无限定制选项",
+      "quietness": "世界最安静的座舱"
+    },
+    "maybach": {
+      "technology": "尖端科技",
+      "performance": "卓越加速",
+      "innovation": "先进驾驶辅助",
+      "efficiency": "更好的燃油经济性",
+      "sportiness": "动态驾驶模式"
+    }
+  },
+  "pricing": {
+    "starting_from": "起价"
+  },
+  "comparison": {
+    "title": "详细对比",
+    "subtitle": "在超豪华世界中每个细节都很重要"
+  },
+  "table": {
+    "feature": "功能"
+  },
+  "features": {
+    "performance": "性能规格",
+    "luxury": "豪华功能",
+    "technology": "科技",
+    "comfort": "舒适与空间",
+    "pricing": "租赁价格"
+  },
+  "differences": {
+    "title": "主要差异",
+    "subtitle": "了解这些传奇的区别",
+    "heritage": {
+      "title": "传承与遗产",
+      "description": "劳斯莱斯带来超过一个世纪的皇家赞助和定制豪华，而迈巴赫代表着德国超豪华的复兴与现代创新。"
+    },
+    "technology": {
+      "title": "科技整合",
+      "description": "迈巴赫以MBUX和增强现实导航等尖端技术领先，而幻影专注于永恒的优雅与精心整合的现代便利设施。"
+    },
+    "craftsmanship": {
+      "title": "工艺理念",
+      "description": "幻影具有手工组装的部件和无限定制，而迈巴赫将精密工程与豪华自动化相结合。"
+    },
+    "performance": {
+      "title": "性能方法",
+      "description": "幻影优先考虑轻松流畅和至高舒适，而迈巴赫提供更具动感的驾驶体验，配有运动模式和更快的加速。"
+    },
+    "interior": {
+      "title": "内饰体验",
+      "description": "幻影的座舱是传统豪华的圣殿，配有标志性的星空顶篷，而迈巴赫提供高科技休息室，配有按摩座椅和环境照明。"
+    },
+    "value": {
+      "title": "价值主张",
+      "description": "幻影为独特性和传承要求溢价，而迈巴赫以更好的价值和更低的运营成本提供可比的豪华。"
+    }
+  },
+  "verdict": {
+    "title": "我们的结论",
+    "subtitle": "两者都很出色，但哪个适合您？",
+    "choose_phantom": {
+      "title": "如果您重视以下方面，请选择幻影：",
+      "reason1": "终极声望和品牌认知度",
+      "reason2": "传统工艺和定制豪华",
+      "reason3": "最安静和最舒适的乘坐体验",
+      "reason4": "做出终极豪华声明"
+    },
+    "choose_maybach": {
+      "title": "如果您偏好以下方面，请选择迈巴赫：",
+      "reason1": "最新技术和创新",
+      "reason2": "更好的性能和动态",
+      "reason3": "具有德国精密的现代豪华",
+      "reason4": "可比豪华的更好价值"
+    }
+  },
+  "faq": {
+    "title": "常见问题",
+    "q1": "在迪拜婚礼上哪辆车更有声望？",
+    "a1": "由于其标志性地位和皇家传承，劳斯莱斯幻影传统上被认为在婚礼上更有声望。然而，迈巴赫在欣赏现代豪华的年轻夫妇中越来越受欢迎。",
+    "q2": "哪个提供更好的技术功能？",
+    "a2": "梅赛德斯-迈巴赫在技术方面表现出色，配备MBUX系统、增强现实导航和先进的驾驶辅助。幻影专注于无缝集成的技术，不会影响其经典豪华感。",
+    "q3": "后排乘客舒适度如何？",
+    "a3": "两者在后排舒适度方面都表现出色。幻影提供更多腿部空间和著名的'魔毯般的乘坐'，而迈巴赫提供带按摩功能和娱乐屏幕的行政座椅。",
+    "q4": "哪个更适合商务会议？",
+    "a4": "幻影凭借其存在感和传承做出更强烈的传统商务声明。迈巴赫以其连接功能和现代便利设施吸引精通技术的高管。",
+    "q5": "我可以在租赁期间在两者之间切换吗？",
+    "a5": "是的！我们提供灵活的租赁套餐，让您体验两种车辆。许多客户为正式活动租赁幻影，为城市游览租赁迈巴赫。"
+  },
+  "cta": {
+    "title": "以您的方式体验豪华",
+    "subtitle": "两个传奇都可在迪拜立即租赁",
+    "book_phantom": "预订劳斯莱斯幻影",
+    "inquire_maybach": "咨询迈巴赫",
+    "contact_us": "联系我们的专家"
+  }
+}

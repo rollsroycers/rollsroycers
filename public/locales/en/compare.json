@@ -1,0 +1,131 @@
+{
+  "hero": {
+    "title": "Phantom vs Maybach",
+    "subtitle": "The Ultimate Luxury Comparison: British Elegance meets German Engineering"
+  },
+  "categories": {
+    "all": "All Features",
+    "performance": "Performance",
+    "luxury": "Luxury",
+    "technology": "Technology",
+    "comfort": "Comfort",
+    "pricing": "Pricing"
+  },
+  "vehicles": {
+    "phantom": {
+      "tagline": "The pinnacle of British luxury and craftsmanship"
+    },
+    "maybach": {
+      "tagline": "German engineering excellence and modern luxury"
+    }
+  },
+  "metrics": {
+    "starlight": "Starlight Headliner",
+    "ambient": "Ambient Lighting",
+    "handcrafted": "Hand-Stitched Leather",
+    "executive": "Executive Seating",
+    "spirit": "Spirit of Ecstasy",
+    "mbux": "MBUX System",
+    "bespoke_audio": "Bespoke Audio",
+    "burmester": "Burmester 4D"
+  },
+  "advantages": {
+    "phantom": {
+      "heritage": "117 years of luxury heritage",
+      "craftsmanship": "Unmatched handcrafted details",
+      "presence": "Commanding road presence",
+      "customization": "Unlimited bespoke options",
+      "quietness": "World's quietest cabin"
+    },
+    "maybach": {
+      "technology": "Cutting-edge technology",
+      "performance": "Superior acceleration",
+      "innovation": "Advanced driver assistance",
+      "efficiency": "Better fuel economy",
+      "sportiness": "Dynamic driving modes"
+    }
+  },
+  "pricing": {
+    "starting_from": "Starting from"
+  },
+  "comparison": {
+    "title": "Detailed Comparison",
+    "subtitle": "Every detail matters in the world of ultra-luxury"
+  },
+  "table": {
+    "feature": "Feature"
+  },
+  "features": {
+    "performance": "Performance Specs",
+    "luxury": "Luxury Features",
+    "technology": "Technology",
+    "comfort": "Comfort & Space",
+    "pricing": "Rental Pricing"
+  },
+  "differences": {
+    "title": "Key Differences",
+    "subtitle": "Understanding what sets these legends apart",
+    "heritage": {
+      "title": "Heritage & Legacy",
+      "description": "Rolls-Royce brings over a century of royal patronage and bespoke luxury, while Maybach represents the revival of German ultra-luxury with modern innovation."
+    },
+    "technology": {
+      "title": "Technology Integration",
+      "description": "Maybach leads with cutting-edge tech like MBUX and augmented reality navigation, while Phantom focuses on timeless elegance with carefully integrated modern conveniences."
+    },
+    "craftsmanship": {
+      "title": "Craftsmanship Philosophy",
+      "description": "Phantom features hand-assembled components and unlimited customization, while Maybach combines precision engineering with luxurious automation."
+    },
+    "performance": {
+      "title": "Performance Approach",
+      "description": "Phantom prioritizes effortless waftability and supreme comfort, while Maybach offers a more dynamic drive with sport modes and faster acceleration."
+    },
+    "interior": {
+      "title": "Interior Experience",
+      "description": "Phantom's cabin is a sanctuary of traditional luxury with the iconic Starlight headliner, while Maybach offers a high-tech lounge with massage seats and ambient lighting."
+    },
+    "value": {
+      "title": "Value Proposition",
+      "description": "Phantom commands a premium for exclusivity and heritage, while Maybach offers comparable luxury with better value and lower running costs."
+    }
+  },
+  "verdict": {
+    "title": "Our Verdict",
+    "subtitle": "Both are exceptional, but which one suits you?",
+    "choose_phantom": {
+      "title": "Choose the Phantom if you value:",
+      "reason1": "Ultimate prestige and brand recognition",
+      "reason2": "Traditional craftsmanship and bespoke luxury",
+      "reason3": "The quietest and most comfortable ride",
+      "reason4": "Making the ultimate luxury statement"
+    },
+    "choose_maybach": {
+      "title": "Choose the Maybach if you prefer:",
+      "reason1": "Latest technology and innovation",
+      "reason2": "Better performance and dynamics",
+      "reason3": "Modern luxury with German precision",
+      "reason4": "Better value for comparable luxury"
+    }
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "q1": "Which car is more prestigious for weddings in Dubai?",
+    "a1": "The Rolls-Royce Phantom is traditionally considered more prestigious for weddings due to its iconic status and royal heritage. However, the Maybach is increasingly popular among younger couples who appreciate modern luxury.",
+    "q2": "Which offers better technology features?",
+    "a2": "The Mercedes-Maybach excels in technology with its MBUX system, augmented reality navigation, and advanced driver assistance. The Phantom focuses on seamlessly integrated technology that doesn't compromise its classic luxury feel.",
+    "q3": "What about rear passenger comfort?",
+    "a3": "Both excel in rear comfort. The Phantom offers more legroom and the famous 'Magic Carpet Ride,' while the Maybach provides executive seats with massage functions and entertainment screens.",
+    "q4": "Which is better for business meetings?",
+    "a4": "The Phantom makes a stronger traditional business statement with its presence and heritage. The Maybach appeals to tech-savvy executives with its connectivity features and modern amenities.",
+    "q5": "Can I switch between both during my rental period?",
+    "a5": "Yes! We offer flexible rental packages that allow you to experience both vehicles. Many clients rent the Phantom for formal events and the Maybach for city touring."
+  },
+  "cta": {
+    "title": "Experience Luxury Your Way",
+    "subtitle": "Both legends are available for immediate rental in Dubai",
+    "book_phantom": "Book Rolls-Royce Phantom",
+    "inquire_maybach": "Inquire About Maybach",
+    "contact_us": "Contact Our Specialists"
+  }
+}
