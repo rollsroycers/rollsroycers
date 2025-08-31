@@ -352,9 +352,24 @@
     },
     "compare": {
       "rolls-royce-vs-bentley": {
-        "title": "Comparaison Rolls-Royce vs Bentley Dubaï | Guide de location de voitures de luxe",
-        "description": "Comparez les voitures de luxe Rolls-Royce et Bentley à Dubaï. Comparaison détaillée des caractéristiques, des performances, de l'héritage et des prix de location pour vous aider à choisir.",
-        "keywords": "Rolls-Royce vs Bentley, comparaison de voitures de luxe Dubaï, Phantom vs Mulsanne, Ghost vs Flying Spur, Cullinan vs Bentayga"
+        "title": "Comparaison Rolls-Royce vs Bentley Dubaï | Guide de Location de Voitures de Luxe",
+        "description": "Comparez les voitures de luxe Rolls-Royce vs Bentley à Dubaï. Comparaison détaillée des caractéristiques, performances, héritage et prix de location pour vous aider à choisir.",
+        "keywords": "Rolls Royce vs Bentley, comparaison voitures de luxe Dubaï, Phantom vs Mulsanne, Ghost vs Flying Spur, Cullinan vs Bentayga"
+      },
+      "rolls-royce-vs-mercedes": {
+        "title": "Rolls-Royce vs Mercedes-Benz Dubaï 2025 | Comparaison Ultime de Luxe | Britannique vs Allemand",
+        "description": "Comparez Rolls-Royce vs Mercedes-Benz à Dubaï. Phantom vs Maybach S-Class, Ghost vs S-Class, Cullinan vs GLS. L'artisanat britannique sur mesure rencontre l'excellence de l'ingénierie allemande. Guide de comparaison expert avec prix, caractéristiques, technologie.",
+        "keywords": "rolls royce vs mercedes dubaï, comparaison voitures de luxe dubaï, phantom vs maybach dubaï, ghost vs classe s dubaï, cullinan vs gls dubaï, luxe britannique vs allemand, comparaison location dubaï, mercedes maybach vs rolls royce, guide choix luxe dubaï, avis comparaison expert",
+        "aiKeywords": [
+          "rolls royce vs mercedes dubaï",
+          "comparaison voitures luxe dubaï",
+          "phantom vs maybach",
+          "comparaison rolls royce mercedes",
+          "voitures luxe britanniques vs allemandes",
+          "comparaison location voitures luxe dubaï",
+          "maybach vs rolls royce dubaï",
+          "meilleure voiture luxe dubaï"
+        ]
       }
     }
   },
@@ -365,18 +380,17 @@
       "keywords": "blog Rolls-Royce Dubaï, articles voitures de luxe, conseils conduite Dubaï, actualités automobiles, blog style de vie luxueux"
     }
   },
-  "compare": {
-    "rolls-royce-vs-bentley": {
-      "title": "Comparaison Rolls-Royce vs Bentley Dubaï | Guide de Location de Voitures de Luxe",
-      "description": "Comparez les voitures de luxe Rolls-Royce vs Bentley à Dubaï. Comparaison détaillée des caractéristiques, performances, héritage et prix de location pour vous aider à choisir.",
-      "keywords": "Rolls Royce vs Bentley, comparaison voitures de luxe Dubaï, Phantom vs Mulsanne, Ghost vs Flying Spur, Cullinan vs Bentayga"
-    }
-  },
   "fleet": {
     "index": {
       "title": "Flotte Rolls-Royce Dubaï 2025 | Location Phantom, Ghost, Cullinan, Dawn et Wraith",
       "description": "Explorez notre exceptionnelle flotte Rolls-Royce à Dubaï. Phantom, Ghost, Cullinan SUV, Dawn cabriolet et Wraith coupé disponibles. Collection premium avec chauffeurs professionnels. Réservez votre expérience de luxe dès aujourd'hui.",
       "keywords": "flotte rolls royce dubai, flotte voitures de luxe dubai, location phantom ghost cullinan dubai, collection rolls royce dubai, flotte location premium, options véhicules de luxe dubai, modèles rolls royce dubai, location flotte exécutive"
+    }
+  },
+  "compare": {
+    "rolls-royce-vs-ferrari": {
+      "title": "Location Rolls-Royce vs Ferrari à Dubaï | Choix de Luxe Intelligent",
+      "description": "Comparez la location Rolls-Royce vs Ferrari à Dubaï. Découvrez pourquoi Rolls-Royce offre une valeur, un confort et un prestige supérieurs pour la location de voitures de luxe. Tarifs tout compris, service de chauffeur professionnel et expérience de luxe inégalée."
     }
   }
 }

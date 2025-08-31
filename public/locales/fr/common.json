@@ -1225,63 +1225,78 @@
     }
   },
   "loyalty": {
-    "title": "Programme de Fidélité Rolls-Royce",
-    "subtitle": "Avantages exclusifs pour nos clients privilégiés",
-    "join": "Rejoindre Maintenant",
-    "enroll": "S'inscrire au Programme",
-    "journey": "Votre Parcours vers le Platine",
-    "whyJoin": "Pourquoi Rejoindre Notre Programme de Fidélité?",
+    "title": "Club Elite Rolls-Royce",
+    "subtitle": "Récompenser nos clients estimés",
+    "join": "Rejoignez notre programme de fidélité",
+    "description": "Devenez membre de notre programme de fidélité exclusif et profitez d'une gamme d'avantages et de récompenses.",
+    "points": "Gagnez des points à chaque location et échangez-les contre des remises, des surclassements et plus encore.",
+    "whyJoin": "Pourquoi rejoindre notre Club Elite ?",
+    "form": {
+      "title": "Rejoindre le Club Elite",
+      "name": "Nom complet *",
+      "email": "Adresse e-mail *",
+      "phone": "Numéro de téléphone *",
+      "preferredCar": "Véhicule préféré",
+      "selectModel": "Sélectionner le modèle",
+      "joinButton": "REJOINDRE LE CLUB ELITE",
+      "cancel": "ANNULER",
+      "terms": "En rejoignant, vous acceptez nos conditions générales et notre politique de confidentialité."
+    },
     "saveMore": {
       "title": "Économisez Plus",
-      "subtitle": "Réductions exclusives sur chaque location"
+      "description": "Obtenez des remises exclusives réservées aux membres sur tous nos services.",
+      "subtitle": "Remises exclusives sur chaque location"
     },
     "priorityAccess": {
       "title": "Accès Prioritaire",
-      "subtitle": "Premier choix sur les nouveaux modèles"
+      "description": "Soyez les premiers informés des nouveaux ajouts à notre flotte.",
+      "subtitle": "Premier accès aux nouveaux modèles"
     },
     "exclusivePerks": {
       "title": "Avantages Exclusifs",
-      "subtitle": "Événements et expériences spéciales"
+      "description": "Profitez de surclassements gratuits et d'autres offres spéciales.",
+      "subtitle": "Événements et expériences spéciaux"
     },
     "vipTreatment": {
       "title": "Traitement VIP",
+      "description": "Recevez un service personnalisé et un support prioritaire de notre équipe.",
       "subtitle": "Service de conciergerie personnel"
     },
     "tiers": {
+      "title": "Niveaux d'adhésion",
       "silver": {
-        "name": "Argent",
-        "requirement": "3+ locations par an"
+        "name": "Membre Argent",
+        "requirement": "3+ locations par an",
+        "benefits": [
+          "5% de remise sur toutes les locations",
+          "Accès prioritaire aux réservations",
+          "Livraison gratuite de voiture à Dubaï",
+          "Rafraîchissements gratuits"
+        ]
       },
       "gold": {
-        "name": "Or",
-        "requirement": "6+ locations par an"
+        "name": "Membre Or",
+        "requirement": "8+ locations par an",
+        "benefits": [
+          "10% de remise sur toutes les locations",
+          "Conciergerie de réservation VIP",
+          "Transferts aéroport gratuits",
+          "Accès aux modèles exclusifs",
+          "Surclassement chauffeur gratuit"
+        ]
       },
       "platinum": {
-        "name": "Platine",
-        "requirement": "12+ locations par an"
+        "name": "Membre Platine",
+        "requirement": "15+ locations par an",
+        "benefits": [
+          "15% de remise sur toutes les locations",
+          "Gestionnaire de compte personnel",
+          "Livraisons gratuites illimitées",
+          "Premier accès aux nouveaux ajouts de flotte",
+          "Package photo gratuit",
+          "Expérience de conduite exclusive annuelle"
+        ]
       }
-    },
-    "faq": {
-      "q1": "Comment rejoindre le programme de fidélité?",
-      "a1": "Effectuez simplement votre première location pour être automatiquement inscrit.",
-      "q2": "Comment les points de fidélité sont-ils calculés?",
-      "a2": "Les points sont attribués pour chaque location, en fonction de la durée de la location et du modèle de voiture.",
-      "q3": "Puis-je partager mes avantages avec ma famille?",
-      "a3": "Les avantages ne sont pas transférables et ne peuvent être utilisés que par le membre qui les a gagnés.",
-      "q4": "Les points expirent-ils?",
-      "a4": "Les points expirent 24 mois à compter de la date à laquelle ils ont été gagnés.",
-      "q5": "Comment puis-je passer aux niveaux supérieurs?",
-      "a5": "Les niveaux sont automatiquement mis à niveau une fois le nombre requis de locations effectué au cours d'une année civile.",
-      "q6": "Quels événements exclusifs sont disponibles?",
-      "a6": "Les membres Or et Platine reçoivent des invitations à des lancements de voitures exclusifs, des événements de partenaires de luxe, et plus encore.",
-      "q7": "Puis-je transférer des points?",
-      "a7": "Non, les points de fidélité ne peuvent pas être transférés d'un compte à un autre.",
-      "q8": "Y a-t-il des frais d'adhésion?",
-      "a8": "Non, notre programme de fidélité est entièrement gratuit et commence avec votre première réservation.",
-      "q9": "Comment puis-je vérifier mon statut?",
-      "a9": "Vous pouvez consulter votre statut et votre solde de points en vous connectant à votre compte sur notre site Web ou en contactant notre service client.",
-      "q10": "Que se passe-t-il si je ne remplis pas les conditions de niveau?",
-      "a10": "Si vous ne remplissez pas les conditions requises pour maintenir votre statut de niveau actuel, vous serez ajusté au niveau inférieur suivant."
     }
   },
   "personalizedOffers": {
@@ -1315,24 +1330,24 @@
   },
   "offers": {
     "weekend": {
-      "discount": "20% DE RÉDUCTION",
-      "title": "Spécial Week-end",
-      "description": "Réservez du vendredi au dimanche et économisez"
+      "title": "Offre week-end",
+      "discount": "20% de réduction",
+      "description": "Réservez pour le week-end et bénéficiez de 20% de réduction"
     },
     "firstTime": {
-      "discount": "15% DE RÉDUCTION",
-      "title": "Première Visite",
-      "description": "Réduction exclusive pour les nouveaux clients"
+      "title": "Nouveau client",
+      "discount": "15% de réduction",
+      "description": "Réduction spéciale pour les nouveaux clients"
     },
     "monthly": {
-      "discount": "30% DE RÉDUCTION",
-      "title": "Location Mensuelle",
-      "description": "Économisez plus sur les locations prolongées"
+      "title": "Location mensuelle",
+      "discount": "30% de réduction",
+      "description": "Grosses économies sur les locations mensuelles"
     },
     "chauffeur": {
-      "discount": "CHAUFFEUR GRATUIT",
-      "title": "Service Chauffeur",
-      "description": "Offert pour les locations de 3 jours et plus"
+      "title": "Chauffeur gratuit",
+      "discount": "Chauffeur gratuit",
+      "description": "Obtenez un chauffeur gratuit pour les réservations de 3 jours ou plus"
     }
   },
   "testimonialSubmission": {
@@ -1362,10 +1377,10 @@
     }
   },
   "cookie": {
-    "title": "Nous Utilisons des Cookies",
-    "description": "Nous utilisons des cookies pour améliorer votre expérience. En continuant à utiliser notre site, vous acceptez notre politique en matière de cookies.",
-    "decline": "Refuser",
-    "accept": "Accepter"
+    "title": "Ce site utilise des cookies",
+    "description": "Nous utilisons des cookies pour améliorer votre expérience sur notre site. En continuant à utiliser notre site, vous acceptez notre utilisation des cookies",
+    "accept": "ACCEPTER",
+    "decline": "Refuser"
   },
   "checkAvailability": {
     "title": "Vérifier la disponibilité",
@@ -1591,39 +1606,11 @@
         }
       }
     }
-},
-  "cookie": {
-    "title": "Ce site utilise des cookies",
-    "description": "Nous utilisons des cookies pour améliorer votre expérience sur notre site. En continuant à utiliser notre site, vous acceptez notre utilisation des cookies",
-    "accept": "ACCEPTER",
-    "decline": "Refuser"
   },
   "voiceSearch": {
     "button": "Recherche vocale",
     "listening": "Écoute...",
     "speak": "Parlez maintenant"
-  },
-  "offers": {
-    "weekend": {
-      "title": "Offre week-end",
-      "discount": "20% de réduction",
-      "description": "Réservez pour le week-end et bénéficiez de 20% de réduction"
-    },
-    "firstTime": {
-      "title": "Nouveau client",
-      "discount": "15% de réduction",
-      "description": "Réduction spéciale pour les nouveaux clients"
-    },
-    "monthly": {
-      "title": "Location mensuelle",
-      "discount": "30% de réduction",
-      "description": "Grosses économies sur les locations mensuelles"
-    },
-    "chauffeur": {
-      "title": "Chauffeur gratuit",
-      "discount": "Chauffeur gratuit",
-      "description": "Obtenez un chauffeur gratuit pour les réservations de 3 jours ou plus"
-    }
   },
   "socialProof": {
     "booking": {
@@ -3858,6 +3845,101 @@
         "subtitle": "L'élégance britannique rencontre la précision allemande"
       },
       "comingSoon": "Bientôt Disponible"
+    },
+    "mercedes": {
+      "hero": {
+        "title": {
+          "rollsRoyce": "Rolls-Royce",
+          "vs": "vs",
+          "mercedes": "Mercedes-Benz"
+        },
+        "subtitle": "Découvrez l'Excellence Inégalée du Luxe Britannique Sur Mesure",
+        "exploreFleet": "Explorer Notre Flotte",
+        "bookNow": "Réserver Rolls-Royce Maintenant"
+      },
+      "quickSummary": {
+        "rollsRoyce": {
+          "title": "Rolls-Royce",
+          "point1": "Personnalisation sur mesure inégalée",
+          "point2": "La conduite la plus silencieuse et douce au monde",
+          "point3": "Symbole ultime de succès et de prestige"
+        },
+        "mercedes": {
+          "title": "Mercedes-Benz",
+          "point1": "Véhicules de luxe produits en masse",
+          "point2": "Approche axée sur la technologie",
+          "point3": "Choix des cadres d'entreprise"
+        }
+      },
+      "cta": {
+        "title": "Vivez le Vrai Luxe avec Rolls-Royce",
+        "subtitle": "Alors que Mercedes offre la qualité, Rolls-Royce offre une expérience incomparable",
+        "viewFleet": "Voir la Flotte Rolls-Royce",
+        "bookNow": "Réservez Votre Rolls-Royce"
+      },
+      "verdict": {
+        "title": "Le Choix Évident pour le Luxe Ultime",
+        "p1": "Bien que Mercedes-Benz offre une ingénierie et une technologie allemandes impressionnantes, Rolls-Royce reste dans une classe à part.",
+        "p2": "Choisissez Rolls-Royce pour une expérience qui transcende le simple transport."
+      }
+    },
+    "rolls-royce-vs-ferrari": {
+      "title": "Location Rolls-Royce vs Ferrari à Dubaï | Choix de Luxe Intelligent",
+      "description": "Comparez la location Rolls-Royce vs Ferrari à Dubaï. Découvrez pourquoi Rolls-Royce offre une valeur, un confort et un prestige supérieurs pour la location de voitures de luxe. Tarifs tout compris, service de chauffeur professionnel et expérience de luxe inégalée."
+    },
+    "ferrari": {
+      "hero": {
+        "title": "Location Rolls-Royce vs Ferrari à Dubaï",
+        "subtitle": "Découvrez pourquoi Rolls-Royce est le choix intelligent pour la location de voitures de luxe à Dubaï",
+        "bookRollsRoyce": "Réserver Rolls-Royce Maintenant",
+        "seeComparison": "Voir la Comparaison Complète"
+      },
+      "aspects": {
+        "rental": {
+          "name": "Expérience de Location"
+        },
+        "comfort": {
+          "name": "Confort et Luxe"
+        },
+        "occasion": {
+          "name": "Occasions Parfaites"
+        },
+        "service": {
+          "name": "Service et Support"
+        },
+        "value": {
+          "name": "Proposition de Valeur"
+        },
+        "experience": {
+          "name": "Expérience Dubai"
+        }
+      },
+      "winner": {
+        "title": "Pourquoi les Clients Intelligents Choisissent Rolls-Royce",
+        "subtitle": "Les chiffres parlent d'eux-mêmes - Rolls-Royce offre une valeur, un confort et un prestige supérieurs"
+      },
+      "detailed": {
+        "comparison": "Comparaison"
+      },
+      "packages": {
+        "title": "Forfaits de Location - Le Coût Réel",
+        "summary": "Économisez jusqu'à 40% avec la location tout compris Rolls-Royce",
+        "cta": "Réservez Intelligemment - Choisissez Rolls-Royce"
+      },
+      "testimonials": {
+        "title": "Ce Que Disent Nos Clients"
+      },
+      "finalCta": {
+        "title": "Le Choix Intelligent est Clair",
+        "message": "Rejoignez des milliers de clients satisfaits qui choisissent Rolls-Royce pour l'expérience de location de luxe ultime à Dubaï.",
+        "bookNow": "Réservez Votre Rolls-Royce",
+        "viewFleet": "Voir Notre Flotte",
+        "urgency": "⏰ Disponibilité limitée - Réservez maintenant pour sécuriser vos dates"
+      },
+      "contact": {
+        "title": "Prêt à Vivre le Vrai Luxe?",
+        "subtitle": "Notre équipe est disponible 24/7 pour vous aider"
+      }
     }
   },
   "contact": {
@@ -4663,81 +4745,6 @@
       "callButton": "Appeler",
       "whatsappButton": "WhatsApp",
       "emailButton": "Email"
-    }
-  },
-  "loyalty": {
-    "title": "Club Elite Rolls-Royce",
-    "subtitle": "Récompenser nos clients estimés",
-    "join": "Rejoignez notre programme de fidélité",
-    "description": "Devenez membre de notre programme de fidélité exclusif et profitez d'une gamme d'avantages et de récompenses.",
-    "points": "Gagnez des points à chaque location et échangez-les contre des remises, des surclassements et plus encore.",
-    "whyJoin": "Pourquoi rejoindre notre Club Elite ?",
-    "form": {
-      "title": "Rejoindre le Club Elite",
-      "name": "Nom complet *",
-      "email": "Adresse e-mail *",
-      "phone": "Numéro de téléphone *",
-      "preferredCar": "Véhicule préféré",
-      "selectModel": "Sélectionner le modèle",
-      "joinButton": "REJOINDRE LE CLUB ELITE",
-      "cancel": "ANNULER",
-      "terms": "En rejoignant, vous acceptez nos conditions générales et notre politique de confidentialité."
-    },
-    "saveMore": {
-      "title": "Économisez Plus",
-      "description": "Obtenez des remises exclusives réservées aux membres sur tous nos services.",
-      "subtitle": "Remises exclusives sur chaque location"
-    },
-    "priorityAccess": {
-      "title": "Accès Prioritaire",
-      "description": "Soyez les premiers informés des nouveaux ajouts à notre flotte.",
-      "subtitle": "Premier accès aux nouveaux modèles"
-    },
-    "exclusivePerks": {
-      "title": "Avantages Exclusifs",
-      "description": "Profitez de surclassements gratuits et d'autres offres spéciales.",
-      "subtitle": "Événements et expériences spéciaux"
-    },
-    "vipTreatment": {
-      "title": "Traitement VIP",
-      "description": "Recevez un service personnalisé et un support prioritaire de notre équipe.",
-      "subtitle": "Service de conciergerie personnel"
-    },
-    "tiers": {
-      "title": "Niveaux d'adhésion",
-      "silver": {
-        "name": "Membre Argent",
-        "requirement": "3+ locations par an",
-        "benefits": [
-          "5% de remise sur toutes les locations",
-          "Accès prioritaire aux réservations",
-          "Livraison gratuite de voiture à Dubaï",
-          "Rafraîchissements gratuits"
-        ]
-      },
-      "gold": {
-        "name": "Membre Or",
-        "requirement": "8+ locations par an",
-        "benefits": [
-          "10% de remise sur toutes les locations",
-          "Conciergerie de réservation VIP",
-          "Transferts aéroport gratuits",
-          "Accès aux modèles exclusifs",
-          "Surclassement chauffeur gratuit"
-        ]
-      },
-      "platinum": {
-        "name": "Membre Platine",
-        "requirement": "15+ locations par an",
-        "benefits": [
-          "15% de remise sur toutes les locations",
-          "Gestionnaire de compte personnel",
-          "Livraisons gratuites illimitées",
-          "Premier accès aux nouveaux ajouts de flotte",
-          "Package photo gratuit",
-          "Expérience de conduite exclusive annuelle"
-        ]
-      }
     }
   }
 }

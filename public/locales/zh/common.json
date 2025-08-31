@@ -1374,44 +1374,57 @@
     }
   },
   "videoGallery": {
-    "title": "视频库",
-    "subtitle": "通过我们的独家视频集锦体验奢华",
+    "title": "视频画廊",
+    "subtitle": "观看我们的车队动态",
+    "description": "通过我们精选的精彩视频，沉浸在传奇劳斯莱斯的魅力、力量和奢华中，这些视频展示了我们在迪拜的车辆。",
+    "featured": "精选视频",
+    "playlist": "我们的视频播放列表",
+    "cullinan": "全地形库里南",
+    "phantom": "标志性幻影",
+    "ghost": "宁静的魅影",
+    "dawn": "敞篷黎明",
+    "wraith": "强大的魅影",
+    "lifestyle": "迪拜奢华生活方式",
+    "watch": "观看视频",
+    "loadMore": "加载更多视频",
+    "modal": {
+      "title": "正在播放",
+      "close": "关闭"
+    },
     "filters": {
-      "all": "🎬 所有视频",
-      "exterior": "🚗 外观",
-      "interior": "🪑 内饰",
-      "experience": "🌟 体验",
-      "virtualTour": "🎥 虚拟导览"
-    },
-    "phantom": {
-      "title": "劳斯莱斯幻影外观赏析"
-    },
-    "cullinan": {
-      "title": "劳斯莱斯库里南外观展示"
+      "all": "全部",
+      "exterior": "外观",
+      "interior": "内饰",
+      "experience": "体验",
+      "virtualTour": "虚拟游览"
     },
     "interior": {
-      "title": "劳斯莱斯内饰优雅"
+      "title": "奢华内饰"
     },
     "dubai": {
-      "title": "迪拜城市景观中的劳斯莱斯"
+      "title": "迪拜体验"
     },
-    "showroom": {
-      "title": "劳斯莱斯迪拜陈列室导览"
-    },
-    "night": {
-      "title": "劳斯莱斯夜间驾乘"
-    },
-    "lifestyle": {
-      "title": "奢华百万富翁生活方式"
-    },
-    "mansory": {
-      "title": "Mansory Black Badge 劳斯莱斯库里南"
-    },
-    "defining": {
-      "title": "劳斯莱斯定义豪华汽车的含义"
-    },
-    "experience": {
-      "title": "终极劳斯莱斯体验"
+    "videos": {
+      "luxury": {
+        "title": "迪拜奢华生活方式",
+        "description": "在迪拜最独特的目的地体验劳斯莱斯的极致奢华"
+      },
+      "cullinan": {
+        "title": "劳斯莱斯库里南冒险",
+        "description": "终极豪华SUV征服迪拜多样地形，风格无与伦比"
+      },
+      "phantom": {
+        "title": "幻影：旗舰体验",
+        "description": "发现劳斯莱斯幻影这一标志性车型的汽车卓越性能巅峰"
+      },
+      "blackBadge": {
+        "title": "黑徽章力量",
+        "description": "释放奢华的黑暗面，体验大胆而强大的黑徽章系列"
+      },
+      "definition": {
+        "title": "定义奢华",
+        "description": "走进劳斯莱斯的世界，发现真正奢华的含义"
+      }
     }
   },
   "virtualShowroom": {
@@ -3228,63 +3241,78 @@
     }
   },
   "loyalty": {
-    "title": "劳斯莱斯忠诚度计划",
-    "subtitle": "为我们尊贵客户提供的独家福利",
-    "join": "立即加入",
-    "enroll": "加入计划",
-    "journey": "您的白金之旅",
-    "whyJoin": "为什么加入我们的忠诚度计划？",
+    "title": "劳斯莱斯精英俱乐部",
+    "subtitle": "回馈我们尊贵的客户",
+    "join": "加入我们的忠诚度计划",
+    "description": "成为我们专属忠诚度计划的会员，享受一系列福利和奖励。",
+    "points": "每次租赁都能获得积分，可兑换折扣、升级等更多优惠。",
+    "whyJoin": "为什么加入我们的精英俱乐部？",
+    "form": {
+      "title": "加入精英俱乐部",
+      "name": "全名 *",
+      "email": "邮箱地址 *",
+      "phone": "电话号码 *",
+      "preferredCar": "首选车型",
+      "selectModel": "选择型号",
+      "joinButton": "加入精英俱乐部",
+      "cancel": "取消",
+      "terms": "加入即表示您同意我们的条款和条件以及隐私政策。"
+    },
     "saveMore": {
       "title": "节省更多",
-      "subtitle": "每次租赁都享有独家折扣"
+      "description": "享受所有服务的会员专属折扣。",
+      "subtitle": "每次租赁的专属折扣"
     },
     "priorityAccess": {
-      "title": "优先使用权",
-      "subtitle": "新车型优先选择权"
+      "title": "优先访问",
+      "description": "第一时间了解我们车队的新增车型。",
+      "subtitle": "新车型优先体验"
     },
     "exclusivePerks": {
-      "title": "独家特权",
-      "subtitle": "特别活动和体验"
+      "title": "专属特权",
+      "description": "享受免费升级和其他特殊优惠。",
+      "subtitle": "特殊活动和体验"
     },
     "vipTreatment": {
       "title": "VIP待遇",
+      "description": "享受我们团队提供的个性化服务和优先支持。",
       "subtitle": "个人礼宾服务"
     },
     "tiers": {
+      "title": "会员等级",
       "silver": {
-        "name": "银卡",
-        "requirement": "每年3次以上租赁"
+        "name": "银卡会员",
+        "requirement": "每年3+次租赁",
+        "benefits": [
+          "所有租赁5%折扣",
+          "优先预订权限",
+          "迪拜市内免费送车",
+          "免费茶点"
+        ]
       },
       "gold": {
-        "name": "金卡",
-        "requirement": "每年6次以上租赁"
+        "name": "金卡会员",
+        "requirement": "每年8+次租赁",
+        "benefits": [
+          "所有租赁10%折扣",
+          "VIP预订礼宾服务",
+          "免费机场接送",
+          "专属车型使用权",
+          "免费司机升级"
+        ]
       },
       "platinum": {
-        "name": "白金卡",
-        "requirement": "每年12次以上租赁"
+        "name": "白金会员",
+        "requirement": "每年15+次租赁",
+        "benefits": [
+          "所有租赁15%折扣",
+          "专属客户经理",
+          "无限次免费送车",
+          "新车型首次体验权",
+          "免费摄影套餐",
+          "年度专属驾驶体验"
+        ]
       }
-    },
-    "faq": {
-      "q1": "如何加入忠诚度计划？",
-      "a1": "只需完成您的第一次租赁，即可自动加入我们的银卡级别。",
-      "q2": "忠诚度积分如何计算？",
-      "a2": "积分根据租赁时长和车型为每次租赁授予。",
-      "q3": "我可以与家人分享我的福利吗？",
-      "a3": "福利不可转让，只能由获得福利的会员使用。",
-      "q4": "积分会过期吗？",
-      "a4": "积分在获得之日起24个月后过期。",
-      "q5": "如何升级等级？",
-      "a5": "在一个日历年内完成所需的租赁次数后，等级会自动升级。",
-      "q6": "有哪些独家活动？",
-      "a6": "金卡和白金卡会员会收到独家汽车发布会、豪华合作伙伴活动等邀请。",
-      "q7": "我可以转移积分吗？",
-      "a7": "不可以，忠诚度积分不能从一个账户转移到另一个账户。",
-      "q8": "有会员费吗？",
-      "a8": "没有，我们的忠诚度计划完全免费，从您的第一次预订开始。",
-      "q9": "如何查看我的状态？",
-      "a9": "您可以通过登录我们网站上的账户或联系我们的客户服务团队来查看您的状态和积分余额。",
-      "q10": "如果我不符合等级要求会怎样？",
-      "a10": "如果您不符合维持当前等级状态的要求，您将被调整到下一个较低的等级。"
     }
   },
   "instagram": {
@@ -3335,8 +3363,27 @@
     }
   },
   "tripPlanner": {
-    "title": "规划您的旅程",
-    "subtitle": "打造完美的豪华体验"
+    "title": "迪拜旅行规划",
+    "subtitle": "设计您的完美奢华行程",
+    "description": "让我们帮助您规划一次难忘的迪拜之旅。选择您的兴趣，我们将为您建议路线和完美的劳斯莱斯。",
+    "interests": "选择您的兴趣",
+    "shopping": "奢华购物",
+    "dining": "精致餐饮",
+    "sightseeing": "标志性景点",
+    "art": "艺术与文化",
+    "adventure": "沙漠探险",
+    "relaxation": "休闲与水疗",
+    "duration": "旅行时长（天）",
+    "plan": "规划我的行程",
+    "recommendation": "我们的推荐",
+    "selectCar": "选择您的劳斯莱斯",
+    "idealFor": "适合",
+    "suggestedRoutes": "推荐路线",
+    "chooseDestinations": "选择您的目的地",
+    "selected": "已选择",
+    "recommended": "推荐",
+    "generatePlan": "生成计划",
+    "recommendedStops": "推荐站点"
   },
   "placeholders": {
     "companyName": "公司名称",
@@ -3654,6 +3701,101 @@
         "subtitle": "英式优雅遇见德式精准"
       },
       "comingSoon": "即将推出"
+    },
+    "mercedes": {
+      "hero": {
+        "title": {
+          "rollsRoyce": "劳斯莱斯",
+          "vs": "对比",
+          "mercedes": "梅赛德斯-奔驰"
+        },
+        "subtitle": "体验无与伦比的英式定制奢华卓越",
+        "exploreFleet": "探索我们的车队",
+        "bookNow": "立即预订劳斯莱斯"
+      },
+      "quickSummary": {
+        "rollsRoyce": {
+          "title": "劳斯莱斯",
+          "point1": "无与伦比的定制化定制",
+          "point2": "世界上最安静、最平稳的驾驶",
+          "point3": "成功和声望的终极象征"
+        },
+        "mercedes": {
+          "title": "梅赛德斯-奔驰",
+          "point1": "大规模生产的豪华车",
+          "point2": "以技术为中心的方法",
+          "point3": "企业高管选择"
+        }
+      },
+      "cta": {
+        "title": "与劳斯莱斯一起体验真正的奢华",
+        "subtitle": "虽然梅赛德斯提供品质，但劳斯莱斯提供无与伦比的体验",
+        "viewFleet": "查看劳斯莱斯车队",
+        "bookNow": "预订您的劳斯莱斯"
+      },
+      "verdict": {
+        "title": "终极奢华的明确选择",
+        "p1": "虽然梅赛德斯-奔驰提供令人印象深刻的德国工程和技术，但劳斯莱斯仍然处于自己的联盟中。",
+        "p2": "选择劳斯莱斯，获得超越单纯交通的体验。"
+      }
+    },
+    "rolls-royce-vs-ferrari": {
+      "title": "迪拜劳斯莱斯vs法拉利租赁 | 智能豪华选择",
+      "description": "比较迪拜劳斯莱斯vs法拉利租赁。了解为什么劳斯莱斯在豪华汽车租赁方面提供卓越的价值、舒适性和声望。全包价格、专业司机服务和无与伦比的豪华体验。"
+    },
+    "ferrari": {
+      "hero": {
+        "title": "迪拜劳斯莱斯vs法拉利租赁",
+        "subtitle": "了解为什么劳斯莱斯是迪拜豪华汽车租赁的智能选择",
+        "bookRollsRoyce": "立即预订劳斯莱斯",
+        "seeComparison": "查看完整比较"
+      },
+      "aspects": {
+        "rental": {
+          "name": "租赁体验"
+        },
+        "comfort": {
+          "name": "舒适与豪华"
+        },
+        "occasion": {
+          "name": "完美场合"
+        },
+        "service": {
+          "name": "服务与支持"
+        },
+        "value": {
+          "name": "价值主张"
+        },
+        "experience": {
+          "name": "迪拜体验"
+        }
+      },
+      "winner": {
+        "title": "为什么明智的客户选择劳斯莱斯",
+        "subtitle": "数字不言自明 - 劳斯莱斯提供卓越的价值、舒适性和声望"
+      },
+      "detailed": {
+        "comparison": "比较"
+      },
+      "packages": {
+        "title": "租赁套餐 - 真实成本",
+        "summary": "使用劳斯莱斯全包租赁节省高达40%",
+        "cta": "明智预订 - 选择劳斯莱斯"
+      },
+      "testimonials": {
+        "title": "客户评价"
+      },
+      "finalCta": {
+        "title": "明智的选择很明显",
+        "message": "加入成千上万满意的客户，选择劳斯莱斯，在迪拜获得终极豪华租赁体验。",
+        "bookNow": "预订您的劳斯莱斯",
+        "viewFleet": "查看我们的车队",
+        "urgency": "⏰ 名额有限 - 立即预订以确保您的日期"
+      },
+      "contact": {
+        "title": "准备体验真正的豪华？",
+        "subtitle": "我们的团队24/7为您服务"
+      }
     }
   },
   "contact": {
@@ -4514,158 +4656,6 @@
       "justNow": "刚刚",
       "rightNow": "现在",
       "days": "{{count}}天"
-    }
-  },
-  "tripPlanner": {
-    "title": "迪拜旅行规划",
-    "subtitle": "设计您的完美奢华行程",
-    "description": "让我们帮助您规划一次难忘的迪拜之旅。选择您的兴趣，我们将为您建议路线和完美的劳斯莱斯。",
-    "interests": "选择您的兴趣",
-    "shopping": "奢华购物",
-    "dining": "精致餐饮",
-    "sightseeing": "标志性景点",
-    "art": "艺术与文化",
-    "adventure": "沙漠探险",
-    "relaxation": "休闲与水疗",
-    "duration": "旅行时长（天）",
-    "plan": "规划我的行程",
-    "recommendation": "我们的推荐",
-    "selectCar": "选择您的劳斯莱斯",
-    "idealFor": "适合",
-    "suggestedRoutes": "推荐路线",
-    "chooseDestinations": "选择您的目的地",
-    "selected": "已选择",
-    "recommended": "推荐",
-    "generatePlan": "生成计划",
-    "recommendedStops": "推荐站点"
-  },
-  "videoGallery": {
-    "title": "视频画廊",
-    "subtitle": "观看我们的车队动态",
-    "description": "通过我们精选的精彩视频，沉浸在传奇劳斯莱斯的魅力、力量和奢华中，这些视频展示了我们在迪拜的车辆。",
-    "featured": "精选视频",
-    "playlist": "我们的视频播放列表",
-    "cullinan": "全地形库里南",
-    "phantom": "标志性幻影",
-    "ghost": "宁静的魅影",
-    "dawn": "敞篷黎明",
-    "wraith": "强大的魅影",
-    "lifestyle": "迪拜奢华生活方式",
-    "watch": "观看视频",
-    "loadMore": "加载更多视频",
-    "modal": {
-      "title": "正在播放",
-      "close": "关闭"
-    },
-    "filters": {
-      "all": "全部",
-      "exterior": "外观",
-      "interior": "内饰",
-      "experience": "体验",
-      "virtualTour": "虚拟游览"
-    },
-    "interior": {
-      "title": "奢华内饰"
-    },
-    "dubai": {
-      "title": "迪拜体验"
-    },
-    "videos": {
-      "luxury": {
-        "title": "迪拜奢华生活方式",
-        "description": "在迪拜最独特的目的地体验劳斯莱斯的极致奢华"
-      },
-      "cullinan": {
-        "title": "劳斯莱斯库里南冒险",
-        "description": "终极豪华SUV征服迪拜多样地形，风格无与伦比"
-      },
-      "phantom": {
-        "title": "幻影：旗舰体验",
-        "description": "发现劳斯莱斯幻影这一标志性车型的汽车卓越性能巅峰"
-      },
-      "blackBadge": {
-        "title": "黑徽章力量",
-        "description": "释放奢华的黑暗面，体验大胆而强大的黑徽章系列"
-      },
-      "definition": {
-        "title": "定义奢华",
-        "description": "走进劳斯莱斯的世界，发现真正奢华的含义"
-      }
-    }
-  },
-  "loyalty": {
-    "title": "劳斯莱斯精英俱乐部",
-    "subtitle": "回馈我们尊贵的客户",
-    "join": "加入我们的忠诚度计划",
-    "description": "成为我们专属忠诚度计划的会员，享受一系列福利和奖励。",
-    "points": "每次租赁都能获得积分，可兑换折扣、升级等更多优惠。",
-    "whyJoin": "为什么加入我们的精英俱乐部？",
-    "form": {
-      "title": "加入精英俱乐部",
-      "name": "全名 *",
-      "email": "邮箱地址 *",
-      "phone": "电话号码 *",
-      "preferredCar": "首选车型",
-      "selectModel": "选择型号",
-      "joinButton": "加入精英俱乐部",
-      "cancel": "取消",
-      "terms": "加入即表示您同意我们的条款和条件以及隐私政策。"
-    },
-    "saveMore": {
-      "title": "节省更多",
-      "description": "享受所有服务的会员专属折扣。",
-      "subtitle": "每次租赁的专属折扣"
-    },
-    "priorityAccess": {
-      "title": "优先访问",
-      "description": "第一时间了解我们车队的新增车型。",
-      "subtitle": "新车型优先体验"
-    },
-    "exclusivePerks": {
-      "title": "专属特权",
-      "description": "享受免费升级和其他特殊优惠。",
-      "subtitle": "特殊活动和体验"
-    },
-    "vipTreatment": {
-      "title": "VIP待遇",
-      "description": "享受我们团队提供的个性化服务和优先支持。",
-      "subtitle": "个人礼宾服务"
-    },
-    "tiers": {
-      "title": "会员等级",
-      "silver": {
-        "name": "银卡会员",
-        "requirement": "每年3+次租赁",
-        "benefits": [
-          "所有租赁5%折扣",
-          "优先预订权限",
-          "迪拜市内免费送车",
-          "免费茶点"
-        ]
-      },
-      "gold": {
-        "name": "金卡会员",
-        "requirement": "每年8+次租赁",
-        "benefits": [
-          "所有租赁10%折扣",
-          "VIP预订礼宾服务",
-          "免费机场接送",
-          "专属车型使用权",
-          "免费司机升级"
-        ]
-      },
-      "platinum": {
-        "name": "白金会员",
-        "requirement": "每年15+次租赁",
-        "benefits": [
-          "所有租赁15%折扣",
-          "专属客户经理",
-          "无限次免费送车",
-          "新车型首次体验权",
-          "免费摄影套餐",
-          "年度专属驾驶体验"
-        ]
-      }
     }
   }
 }

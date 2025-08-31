@@ -1588,12 +1588,13 @@
     "claimYourOffer": "Claim Your Offer",
     "termsApply": "*Terms and conditions apply",
     "aed": "AED"
-},
+  },
   "cookie": {
     "title": "This website uses cookies",
-    "description": "We use cookies to improve your experience on our site. By continuing to use our site, you agree to our use of cookies",
-    "accept": "ACCEPT",
-    "decline": "Decline"
+    "description": "We use cookies to improve your experience on our site. By continuing to use our site, you agree to our use of cookies.",
+    "accept": "Accept",
+    "decline": "Decline",
+    "learnMore": "Learn More"
   },
   "voiceSearch": {
     "button": "Voice Search",
@@ -1601,25 +1602,30 @@
     "speak": "Speak now"
   },
   "offers": {
+    "title": "Special Offers",
+    "subtitle": "Exclusive deals for our discerning clients",
     "weekend": {
-      "title": "Weekend Special",
-      "discount": "20% OFF",
-      "description": "Book for the weekend and get 20% off"
+      "title": "Weekend Getaway",
+      "description": "Book any Rolls-Royce for 3 days and get 10% off.",
+      "code": "WEEKEND10",
+      "discount": "20% OFF"
     },
     "firstTime": {
-      "title": "First Time Customer",
-      "discount": "15% OFF",
-      "description": "Special discount for new customers"
+      "title": "First-Time Renter",
+      "description": "Enjoy a complimentary chauffeur for 4 hours on your first rental.",
+      "code": "FIRSTROLLS",
+      "discount": "15% OFF"
     },
     "monthly": {
       "title": "Monthly Rental",
-      "discount": "30% OFF",
-      "description": "Big savings on monthly rentals"
+      "description": "Get a special discounted rate for rentals of 30 days or more.",
+      "code": "MONTHLYLUX"
     },
     "chauffeur": {
-      "title": "Free Chauffeur",
-      "discount": "Free Driver",
-      "description": "Get a free chauffeur with 3+ day bookings"
+      "title": "Chauffeur Package",
+      "description": "Book a chauffeur for 8 hours and get 2 extra hours free.",
+      "code": "CHAUFFEUR10",
+      "discount": "FREE CHAUFFEUR"
     }
   },
   "socialProof": {
@@ -1733,40 +1739,13 @@
       "rating": 5
     }
   },
-  "offers": {
-    "title": "Special Offers",
-    "subtitle": "Exclusive deals for our discerning clients",
-    "weekend": {
-      "title": "Weekend Getaway",
-      "description": "Book any Rolls-Royce for 3 days and get 10% off.",
-      "code": "WEEKEND10",
-      "discount": "20% OFF"
-    },
-    "firstTime": {
-      "title": "First-Time Renter",
-      "description": "Enjoy a complimentary chauffeur for 4 hours on your first rental.",
-      "code": "FIRSTROLLS",
-      "discount": "15% OFF"
-    },
-    "monthly": {
-      "title": "Monthly Rental",
-      "description": "Get a special discounted rate for rentals of 30 days or more.",
-      "code": "MONTHLYLUX"
-    },
-    "chauffeur": {
-      "title": "Chauffeur Package",
-      "description": "Book a chauffeur for 8 hours and get 2 extra hours free.",
-      "code": "CHAUFFEUR10",
-      "discount": "FREE CHAUFFEUR"
-    }
-  },
   "loyalty": {
     "title": "Rolls-Royce Elite Club",
     "subtitle": "Rewarding our esteemed clients",
     "join": "Join Our Loyalty Program",
     "description": "Become a member of our exclusive loyalty program and enjoy a range of benefits and rewards.",
     "points": "Earn points for every rental and redeem them for discounts, upgrades, and more.",
-    "whyJoin": "Why Join Our Elite Club?",
+    "whyJoin": "Why Join Our Loyalty Program?",
     "form": {
       "title": "Join Elite Club",
       "name": "Full Name *",
@@ -1858,8 +1837,7 @@
       "a10": "If you don't meet the requirements to maintain your current tier status, you will be adjusted to the next lower tier."
     },
     "enroll": "Join Program",
-    "journey": "Your Platinum Journey",
-    "whyJoin": "Why Join Our Loyalty Program?"
+    "journey": "Your Platinum Journey"
   },
   "footer": {
     "description": "Experience the pinnacle of luxury car rental in Dubai with our exclusive fleet of Rolls-Royce vehicles. Unmatched service, pristine cars, and unforgettable experiences await.",
@@ -2163,13 +2141,6 @@
         "answer": "Yes, comprehensive insurance is included in all our rental packages."
       }
     }
-  },
-  "cookie": {
-    "title": "This website uses cookies",
-    "description": "We use cookies to improve your experience on our site. By continuing to use our site, you agree to our use of cookies.",
-    "accept": "Accept",
-    "decline": "Decline",
-    "learnMore": "Learn More"
   },
   "servicesPages": {
     "corporate": {
@@ -4341,6 +4312,101 @@
         "subtitle": "British elegance meets German precision"
       },
       "comingSoon": "Coming Soon"
+    },
+    "mercedes": {
+      "hero": {
+        "title": {
+          "rollsRoyce": "Rolls-Royce",
+          "vs": "vs",
+          "mercedes": "Mercedes-Benz"
+        },
+        "subtitle": "Experience the Unmatched Excellence of British Bespoke Luxury",
+        "exploreFleet": "Explore Our Fleet",
+        "bookNow": "Book Rolls-Royce Now"
+      },
+      "quickSummary": {
+        "rollsRoyce": {
+          "title": "Rolls-Royce",
+          "point1": "Unparalleled bespoke customization",
+          "point2": "World's quietest and smoothest ride",
+          "point3": "Ultimate symbol of success and prestige"
+        },
+        "mercedes": {
+          "title": "Mercedes-Benz",
+          "point1": "Mass-produced luxury vehicles",
+          "point2": "Technology-focused approach",
+          "point3": "Corporate executive choice"
+        }
+      },
+      "cta": {
+        "title": "Experience True Luxury with Rolls-Royce",
+        "subtitle": "While Mercedes offers quality, Rolls-Royce delivers an incomparable experience",
+        "viewFleet": "View Rolls-Royce Fleet",
+        "bookNow": "Book Your Rolls-Royce"
+      },
+      "verdict": {
+        "title": "The Clear Choice for Ultimate Luxury",
+        "p1": "While Mercedes-Benz offers impressive German engineering and technology, Rolls-Royce remains in a league of its own.",
+        "p2": "Choose Rolls-Royce for an experience that transcends mere transportation."
+      }
+    },
+    "rolls-royce-vs-ferrari": {
+      "title": "Rolls-Royce vs Ferrari Rental in Dubai | Smart Luxury Choice",
+      "description": "Compare Rolls-Royce vs Ferrari rental in Dubai. Discover why Rolls-Royce offers superior value, comfort, and prestige for luxury car rental. All-inclusive rates, professional chauffeur service, and unmatched luxury experience."
+    },
+    "ferrari": {
+      "hero": {
+        "title": "Rolls-Royce vs Ferrari Rental in Dubai",
+        "subtitle": "Discover why Rolls-Royce is the intelligent choice for luxury car rental in Dubai",
+        "bookRollsRoyce": "Book Rolls-Royce Now",
+        "seeComparison": "See Full Comparison"
+      },
+      "aspects": {
+        "rental": {
+          "name": "Rental Experience"
+        },
+        "comfort": {
+          "name": "Comfort & Luxury"
+        },
+        "occasion": {
+          "name": "Perfect Occasions"
+        },
+        "service": {
+          "name": "Service & Support"
+        },
+        "value": {
+          "name": "Value Proposition"
+        },
+        "experience": {
+          "name": "Dubai Experience"
+        }
+      },
+      "winner": {
+        "title": "Why Smart Clients Choose Rolls-Royce",
+        "subtitle": "The numbers speak for themselves - Rolls-Royce delivers superior value, comfort, and prestige"
+      },
+      "detailed": {
+        "comparison": "Comparison"
+      },
+      "packages": {
+        "title": "Rental Packages - The Real Cost",
+        "summary": "Save up to 40% with Rolls-Royce all-inclusive rental",
+        "cta": "Book Smart - Choose Rolls-Royce"
+      },
+      "testimonials": {
+        "title": "What Our Clients Say"
+      },
+      "finalCta": {
+        "title": "The Smart Choice is Clear",
+        "message": "Join thousands of satisfied clients who choose Rolls-Royce for the ultimate luxury rental experience in Dubai.",
+        "bookNow": "Reserve Your Rolls-Royce",
+        "viewFleet": "View Our Fleet",
+        "urgency": "⏰ Limited availability - Book now to secure your dates"
+      },
+      "contact": {
+        "title": "Ready to Experience True Luxury?",
+        "subtitle": "Our team is available 24/7 to assist you"
+      }
     }
   },
   "privacy": {

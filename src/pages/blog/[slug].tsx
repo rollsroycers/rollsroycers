@@ -971,12 +971,393 @@ const blogArticles: Record<string, BlogArticle> = {
       'rolls-royce-chauffeur-dubai-guide',
       'luxury-shopping-dubai-rolls-royce'
     ]
+  },
+  'first-time-dubai-luxury-guide': {
+    title: 'First Time in Dubai? Your Complete Luxury Car Guide 2025',
+    description: 'The ultimate guide for first-time visitors to Dubai exploring luxury car rentals. Everything you need to know about experiencing Dubai in a Rolls-Royce, from requirements to insider tips and must-visit destinations.',
+    author: 'Editorial Team',
+    date: '2025-01-25',
+    readTime: '18 min read',
+    category: 'Guides',
+    image: '/images/Rolls-royce-dubai.jpg',
+    content: [
+      {
+        type: 'paragraph',
+        text: 'Welcome to Dubai, where dreams touch the sky and luxury knows no bounds. As a first-time visitor, you\'re about to enter a world where supercars are as common as taxis, and where experiencing the city in a Rolls-Royce isn\'t just transportation—it\'s a rite of passage into Dubai\'s extraordinary lifestyle.'
+      },
+      {
+        type: 'heading',
+        text: 'Why Dubai is the Ultimate Luxury Car Destination'
+      },
+      {
+        type: 'paragraph',
+        text: 'Dubai has transformed itself into the global capital of luxury, where 7-star hotels, the world\'s tallest buildings, and artificial islands are just the beginning. The city\'s infrastructure is specifically designed for luxury vehicles, with pristine 6-lane highways, valet parking at every venue, and a culture that celebrates automotive excellence.'
+      },
+      {
+        type: 'image',
+        src: '/images/downtown-hero.jpg',
+        alt: 'Dubai Downtown skyline with luxury cars',
+        caption: 'Dubai\'s iconic skyline provides the perfect backdrop for your luxury car experience'
+      },
+      {
+        type: 'heading',
+        text: 'Your First 48 Hours: Essential Dubai Experiences with a Rolls-Royce'
+      },
+      {
+        type: 'paragraph',
+        text: 'To truly understand Dubai\'s luxury ecosystem, your first two days should be carefully curated. Here\'s your insider itinerary:'
+      },
+      {
+        type: 'list',
+        ordered: true,
+        items: [
+          '<strong>Day 1 Morning:</strong> Pick up your Rolls-Royce from Dubai International Airport. The Cullinan SUV is perfect for first-timers—spacious, commanding, and versatile.',
+          '<strong>Day 1 Afternoon:</strong> Drive to Burj Khalifa via Sheikh Zayed Road. Park at Dubai Mall valet (complimentary with luxury vehicles) and enjoy lunch at At.mosphere on the 122nd floor.',
+          '<strong>Day 1 Evening:</strong> Sunset drive to Palm Jumeirah. Stop at Atlantis The Palm for photos, then dinner at Nobu with oceanfront views.',
+          '<strong>Day 2 Morning:</strong> Early morning desert drive to Al Qudra Lakes. Experience the contrast of ultimate luxury against raw desert beauty.',
+          '<strong>Day 2 Afternoon:</strong> Return via Dubai Marina for yacht spotting and lunch at Pier 7.',
+          '<strong>Day 2 Evening:</strong> JBR Beach walk and dinner at La Petite Maison, where your Rolls-Royce gets prime valet positioning.'
+        ]
+      },
+      {
+        type: 'heading',
+        text: 'Understanding Dubai\'s Luxury Car Culture'
+      },
+      {
+        type: 'paragraph',
+        text: 'Dubai\'s relationship with luxury cars is unique. Here, a Rolls-Royce isn\'t ostentatious—it\'s appropriate. The city\'s residents include royalty, billionaire entrepreneurs, and international celebrities who expect and appreciate automotive excellence.'
+      },
+      {
+        type: 'image',
+        src: '/images/Rolls-Royce_Cullinan_Majestic_Aurora_.jpg',
+        alt: 'Rolls-Royce Cullinan in Dubai desert',
+        caption: 'The Cullinan conquers both Dubai\'s urban jungle and desert landscapes with equal grace'
+      },
+      {
+        type: 'heading',
+        text: 'First-Timer\'s Guide to Dubai Roads and Driving'
+      },
+      {
+        type: 'list',
+        items: [
+          '<strong>Speed Limits:</strong> 60-80 km/h in city, 100-120 km/h on highways. Cameras are everywhere—respect them.',
+          '<strong>Salik Tolls:</strong> Automatic toll gates (AED 4 each). Your rental company handles billing.',
+          '<strong>Parking:</strong> Paid zones (AED 2-4/hour) via app. Free on Fridays and public holidays.',
+          '<strong>Fuel:</strong> Special 98 octane for Rolls-Royce. Attendants provide full service.',
+          '<strong>Navigation:</strong> Google Maps works perfectly. Waze shows speed cameras.',
+          '<strong>Peak Hours:</strong> Avoid 7-9 AM and 5-7 PM on weekdays.'
+        ]
+      },
+      {
+        type: 'heading',
+        text: 'Cultural Etiquette for Luxury Car Renters'
+      },
+      {
+        type: 'paragraph',
+        text: 'Dubai blends international sophistication with Middle Eastern traditions. Understanding local customs enhances your experience:'
+      },
+      {
+        type: 'list',
+        items: [
+          '<strong>Photography:</strong> Always ask permission before photographing people. Government buildings are off-limits.',
+          '<strong>Dress Code:</strong> Smart casual minimum when driving luxury cars. Beachwear only at beaches.',
+          '<strong>Alcohol:</strong> Never drink and drive. Zero tolerance with severe penalties.',
+          '<strong>Ramadan Considerations:</strong> During holy month, eating/drinking in public during daylight is prohibited.',
+          '<strong>Friday Prayers:</strong> 12-1:30 PM is quiet time. Plan activities accordingly.',
+          '<strong>Tipping:</strong> Valet parking (AED 5-10), hotel staff (AED 10-20).'
+        ]
+      },
+      {
+        type: 'heading',
+        text: 'Must-Visit Destinations for Your Rolls-Royce Experience'
+      },
+      {
+        type: 'paragraph',
+        text: 'Dubai offers diverse experiences, each enhanced by arriving in a Rolls-Royce:'
+      },
+      {
+        type: 'image',
+        src: '/images/palm-hero.jpg',
+        alt: 'Palm Jumeirah aerial view Dubai',
+        caption: 'The Palm Jumeirah: An engineering marvel best explored in ultimate luxury'
+      },
+      {
+        type: 'list',
+        items: [
+          '<strong>Burj Al Arab:</strong> The world\'s only 7-star hotel. Afternoon tea requires reservations.',
+          '<strong>Dubai Frame:</strong> Architectural marvel offering 360° city views.',
+          '<strong>Gold Souk:</strong> Traditional market with modern parking facilities nearby.',
+          '<strong>Dubai Creek:</strong> Where old meets new Dubai. Abra boat rides for AED 1.',
+          '<strong>Global Village:</strong> Cultural festival (Oct-Apr) with pavilions from 90 countries.',
+          '<strong>Miracle Garden:</strong> World\'s largest flower garden (closed in summer).',
+          '<strong>Dubai Fountain:</strong> Shows every 30 minutes from 6 PM at Burj Khalifa.'
+        ]
+      },
+      {
+        type: 'heading',
+        text: 'Dining Destinations Worth the Drive'
+      },
+      {
+        type: 'paragraph',
+        text: 'Dubai\'s culinary scene matches its automotive excellence. These restaurants offer valet parking and ambiance worthy of your Rolls-Royce arrival:'
+      },
+      {
+        type: 'list',
+        ordered: true,
+        items: [
+          '<strong>Pierchic:</strong> Over-water dining at Al Qasr. Romance meets Arabian Gulf views.',
+          '<strong>Zuma:</strong> Japanese contemporary in DIFC. Dubai\'s power dining destination.',
+          '<strong>Ossiano:</strong> Underwater restaurant at Atlantis. Aquarium dining experience.',
+          '<strong>Coya:</strong> Peruvian cuisine at Four Seasons. Vibrant atmosphere, impeccable service.',
+          '<strong>Al Hadheerah:</strong> Desert restaurant at Bab Al Shams. Arabian nights come alive.',
+          '<strong>Trèsind Studio:</strong> Indian molecular gastronomy. Only 20 seats, book months ahead.'
+        ]
+      },
+      {
+        type: 'heading',
+        text: 'Shopping in Style: Where to Park Your Rolls-Royce'
+      },
+      {
+        type: 'image',
+        src: '/images/Rolls-royce-official.jpg',
+        alt: 'Rolls-Royce at Dubai Mall',
+        caption: 'Premium valet services at Dubai\'s luxury shopping destinations'
+      },
+      {
+        type: 'paragraph',
+        text: 'Dubai\'s shopping experiences range from traditional souks to ultra-modern malls:'
+      },
+      {
+        type: 'list',
+        items: [
+          '<strong>Dubai Mall:</strong> World\'s largest mall. VIP valet at Fashion Avenue entrance.',
+          '<strong>Mall of Emirates:</strong> Ski Dubai and luxury brands. Reserved parking for premium vehicles.',
+          '<strong>City Walk:</strong> Open-air shopping. Central valet plaza for luxury cars.',
+          '<strong>The Galleria Al Maryah Island:</strong> Abu Dhabi\'s luxury mall (1.5-hour scenic drive).',
+          '<strong>Souk Madinat Jumeirah:</strong> Traditional architecture, modern amenities. Waterfront valet service.'
+        ]
+      },
+      {
+        type: 'heading',
+        text: 'Weather Considerations for Luxury Driving'
+      },
+      {
+        type: 'paragraph',
+        text: 'Dubai\'s climate significantly impacts your driving experience:'
+      },
+      {
+        type: 'list',
+        items: [
+          '<strong>November-March:</strong> Perfect weather (20-30°C). Convertible Dawn ideal. Peak tourist season.',
+          '<strong>April-May & September-October:</strong> Warm (30-35°C). Air conditioning essential.',
+          '<strong>June-August:</strong> Extreme heat (40-48°C). Limit midday driving. Cars need shade.',
+          '<strong>Rare Rain (Dec-Feb):</strong> Roads become slippery. Drive cautiously.',
+          '<strong>Sandstorms:</strong> Occasional reduced visibility. Pull over safely if severe.'
+        ]
+      },
+      {
+        type: 'heading',
+        text: 'Photography Hotspots for Your Rolls-Royce'
+      },
+      {
+        type: 'paragraph',
+        text: 'Capture your Dubai luxury experience at these photogenic locations:'
+      },
+      {
+        type: 'image',
+        src: '/images/Rolls-Royce-white.jpg',
+        alt: 'White Rolls-Royce at Dubai Marina',
+        caption: 'Dubai Marina provides stunning backdrop for luxury car photography'
+      },
+      {
+        type: 'list',
+        ordered: true,
+        items: [
+          '<strong>Jumeirah Beach Road:</strong> Burj Al Arab background at sunset.',
+          '<strong>Dubai Marina Walk:</strong> Yacht harbour and skyscrapers.',
+          '<strong>DIFC Gate:</strong> Modern architecture and art installations.',
+          '<strong>Al Seef Heritage:</strong> Traditional Dubai with modern skyline views.',
+          '<strong>Dubai Design District:</strong> Colorful murals and creative spaces.',
+          '<strong>Burj Plaza:</strong> Burj Khalifa framing your Rolls-Royce.',
+          '<strong>Love Lakes, Al Qudra:</strong> Heart-shaped lakes in the desert.'
+        ]
+      },
+      {
+        type: 'heading',
+        text: 'Business Travel: Making an Impression'
+      },
+      {
+        type: 'paragraph',
+        text: 'For business visitors, a Rolls-Royce elevates your professional presence:'
+      },
+      {
+        type: 'list',
+        items: [
+          '<strong>DIFC Meetings:</strong> Financial district with dedicated luxury parking.',
+          '<strong>Business Bay:</strong> Corporate hub with valet at most towers.',
+          '<strong>DWTC:</strong> Convention center with VIP entrance for luxury vehicles.',
+          '<strong>Free Zones:</strong> DMCC, JAFZA, Dubai Silicon Oasis all have executive facilities.',
+          '<strong>Hotel Meetings:</strong> Arrive at Armani, Bulgari, or Four Seasons for maximum impact.'
+        ]
+      },
+      {
+        type: 'heading',
+        text: 'Evening Entertainment and Nightlife'
+      },
+      {
+        type: 'paragraph',
+        text: 'Dubai\'s nightlife scene appreciates luxury arrivals:'
+      },
+      {
+        type: 'list',
+        items: [
+          '<strong>WHITE Dubai:</strong> Rooftop club at Meydan. VIP table bookings recommended.',
+          '<strong>Cavalli Club:</strong> Designer nightclub with premium valet service.',
+          '<strong>Soho Garden:</strong> Pool and nightclub complex. Early arrival beats queues.',
+          '<strong>Zero Gravity:</strong> Beach club by day, party venue by night.',
+          '<strong>Billionaire Mansion:</strong> Exclusive dinner and entertainment venue.',
+          '<strong>Dubai Opera:</strong> World-class performances. Dedicated luxury car parking.'
+        ]
+      },
+      {
+        type: 'heading',
+        text: 'Day Trips from Dubai in Your Rolls-Royce'
+      },
+      {
+        type: 'image',
+        src: '/images/Rolls-Royce-black.jpg',
+        alt: 'Black Rolls-Royce on desert highway',
+        caption: 'Explore beyond Dubai in comfort and style'
+      },
+      {
+        type: 'list',
+        ordered: true,
+        items: [
+          '<strong>Abu Dhabi (1.5 hours):</strong> Sheikh Zayed Mosque, Louvre, Emirates Palace.',
+          '<strong>Hatta (1.5 hours):</strong> Mountain scenery, Hatta Dam, heritage village.',
+          '<strong>Ras Al Khaimah (1 hour):</strong> Jebel Jais mountains, zipline adventure.',
+          '<strong>Fujairah (2 hours):</strong> East coast beaches, Snoopy Island snorkeling.',
+          '<strong>Al Ain (1.5 hours):</strong> Oasis city, hot springs, camel market.',
+          '<strong>Sharjah (30 minutes):</strong> Cultural capital, museums, Blue Souk.'
+        ]
+      },
+      {
+        type: 'heading',
+        text: 'Understanding Rental Packages and Pricing'
+      },
+      {
+        type: 'paragraph',
+        text: 'First-time renters should understand Dubai\'s luxury car rental structure:'
+      },
+      {
+        type: 'list',
+        items: [
+          '<strong>Daily Rates:</strong> AED 4,800-6,500 depending on model and season.',
+          '<strong>Weekly Packages:</strong> 15-20% discount for 7+ days.',
+          '<strong>Monthly Deals:</strong> Up to 35% savings for extended stays.',
+          '<strong>Chauffeur Service:</strong> Add AED 800-1,200 per day for professional driver.',
+          '<strong>Insurance Options:</strong> Basic included, comprehensive recommended (AED 300-500/day).',
+          '<strong>Delivery/Collection:</strong> Complimentary to hotels, AED 300-500 for private addresses.',
+          '<strong>Fuel Policy:</strong> Full-to-full standard. Special 98 octane required.',
+          '<strong>Mileage:</strong> 250-300 km/day included. AED 5-10 per extra km.'
+        ]
+      },
+      {
+        type: 'heading',
+        text: 'Health and Safety Considerations'
+      },
+      {
+        type: 'paragraph',
+        text: 'Your safety and comfort are paramount:'
+      },
+      {
+        type: 'list',
+        items: [
+          '<strong>Emergency Numbers:</strong> Police 999, Ambulance 998, Fire 997.',
+          '<strong>Hospitals:</strong> American Hospital, Mediclinic, Saudi German Hospital.',
+          '<strong>Breakdown:</strong> Rental company provides 24/7 roadside assistance.',
+          '<strong>COVID Protocols:</strong> Masks optional, cars sanitized between rentals.',
+          '<strong>Heat Safety:</strong> Stay hydrated, use AC, park in shade when possible.',
+          '<strong>Travel Insurance:</strong> Ensure coverage includes luxury vehicle rental.'
+        ]
+      },
+      {
+        type: 'heading',
+        text: 'Making Memories: Beyond the Drive'
+      },
+      {
+        type: 'paragraph',
+        text: 'Your Rolls-Royce experience in Dubai creates lasting memories:'
+      },
+      {
+        type: 'image',
+        src: '/images/Rolls-Royce_Dawn.jpg',
+        alt: 'Rolls-Royce Dawn convertible in Dubai',
+        caption: 'Create unforgettable moments with the Dawn convertible'
+      },
+      {
+        type: 'list',
+        items: [
+          '<strong>Sunrise Desert Safari:</strong> Private morning drive with falconry demonstration.',
+          '<strong>Helicopter Tour:</strong> See Dubai from above, land at Atlantis helipad.',
+          '<strong>Yacht Charter:</strong> Combine land and sea luxury for ultimate experience.',
+          '<strong>Private Beach Clubs:</strong> Exclusive access at Cove Beach, Nikki Beach.',
+          '<strong>Golf Courses:</strong> Emirates Golf Club, Dubai Creek with luxury parking.',
+          '<strong>Spa Experiences:</strong> Talise Spa, One&Only Spa with valet service.'
+        ]
+      },
+      {
+        type: 'heading',
+        text: 'Practical Tips for First-Time Luxury Renters'
+      },
+      {
+        type: 'list',
+        ordered: true,
+        items: [
+          '<strong>Documentation:</strong> Passport, license, credit card (AED 10,000-20,000 hold).',
+          '<strong>Booking Timing:</strong> Reserve 7-14 days ahead for best selection.',
+          '<strong>Inspection:</strong> Document any existing marks during pickup.',
+          '<strong>Navigation Setup:</strong> Configure phone mount and Bluetooth before driving.',
+          '<strong>Concierge Services:</strong> Use rental company\'s connections for reservations.',
+          '<strong>Social Media:</strong> Tag locations and rental company for potential upgrades.',
+          '<strong>Feedback:</strong> Provide reviews for future rental benefits.'
+        ]
+      },
+      {
+        type: 'heading',
+        text: 'The Rolls-Royce Difference: Why It Matters'
+      },
+      {
+        type: 'paragraph',
+        text: 'In a city of superlatives, Rolls-Royce stands apart. It\'s not about speed or flash—it\'s about presence, comfort, and the confidence that comes from experiencing the very best. Your first time in Dubai deserves nothing less than the pinnacle of automotive luxury.'
+      },
+      {
+        type: 'heading',
+        text: 'Your Dubai Story Starts Here'
+      },
+      {
+        type: 'paragraph',
+        text: 'Dubai is a city that rewards the bold, celebrates success, and embraces luxury as a way of life. Your Rolls-Royce isn\'t just transportation—it\'s your key to unlocking the full Dubai experience. From the moment you slide behind the wheel, you\'re not just visiting Dubai; you\'re living it.'
+      },
+      {
+        type: 'cta',
+        text: 'Ready to begin your Dubai luxury adventure? Our expert team is ready to match you with the perfect Rolls-Royce for your first Dubai experience.',
+        buttonText: 'Start Your Dubai Journey',
+        buttonLink: '/booking'
+      }
+    ],
+    relatedArticles: [
+      'ultimate-guide-rolls-royce-rental-dubai',
+      'top-scenic-drives-dubai',
+      'dubai-luxury-car-guide-2025'
+    ]
   }
 }
 
 // New: Localized articles for selected slugs
 const localizedArticles: Record<string, Record<string, BlogArticle>> = {
   en: {
+    'first-time-dubai-luxury-guide': blogArticles['first-time-dubai-luxury-guide'],
     'dubai-luxury-car-guide-2025': {
       title: '2025 Dubai Luxury Car Experience Guide: Why Rolls-Royce Reigns Supreme',
       description: 'The ultimate 2025 guide to luxury car rentals in Dubai. Compare Rolls-Royce vs Bentley, Ferrari, Lamborghini with pricing, features, and insider tips for the perfect Dubai experience.',
@@ -1730,7 +2111,7 @@ export default function BlogArticlePage() {
 
 export const getStaticPaths: GetStaticPaths = async () => {
   const baseSlugs = Object.keys(blogArticles)
-  const newSlugs = ['rolls-royce-chauffeur-dubai-guide','rolls-royce-airport-transfer-dubai','dubai-luxury-car-guide-2025']
+  const newSlugs = ['rolls-royce-chauffeur-dubai-guide','rolls-royce-airport-transfer-dubai','dubai-luxury-car-guide-2025','first-time-dubai-luxury-guide']
   const unique = Array.from(new Set([...baseSlugs, ...newSlugs]))
   const paths = unique.map((slug) => ({ params: { slug } }))
 
