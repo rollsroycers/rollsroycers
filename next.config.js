@@ -62,7 +62,6 @@ const nextConfig = {
     minimumCacheTTL: 60 * 60 * 24 * 365, // 1 year
     dangerouslyAllowSVG: true,
     contentDispositionType: 'attachment',
-    contentSecurityPolicy: "default-src 'self'; script-src 'none'; sandbox;",
     // Lazy load images outside viewport
     loader: 'default',
     // Disable static imports for better performance
@@ -95,10 +94,10 @@ const nextConfig = {
             key: 'Permissions-Policy',
             value: 'camera=(), microphone=(), geolocation=(self)'
           },
-          // Add preconnect hints for faster resource loading
+          // Optimize resource loading - removed duplicate preconnect hints to avoid conflicts with _document.tsx
           {
-            key: 'Link',
-            value: '<https://fonts.googleapis.com>; rel=preconnect; crossorigin, <https://fonts.gstatic.com>; rel=preconnect; crossorigin'
+            key: 'X-UA-Compatible',
+            value: 'IE=edge'
           }
         ]
       },

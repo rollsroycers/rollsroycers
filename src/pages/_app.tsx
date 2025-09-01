@@ -9,12 +9,22 @@ function MyApp({ Component, pageProps }: AppProps) {
 
   useEffect(() => {
     // Set direction based on locale - only on client side
-    if (typeof window !== 'undefined') {
-      document.documentElement.dir = router.locale === 'ar' ? 'rtl' : 'ltr'
-      document.documentElement.lang = router.locale || 'en'
+    if (typeof window !== 'undefined' && document) {
+      const dir = router.locale === 'ar' ? 'rtl' : 'ltr'
+      const lang = router.locale || 'en'
       
-      // Add performance class
-      document.documentElement.classList.add('js-enabled')
+      // Only update if different to prevent unnecessary DOM changes
+      if (document.documentElement.dir !== dir) {
+        document.documentElement.dir = dir
+      }
+      if (document.documentElement.lang !== lang) {
+        document.documentElement.lang = lang
+      }
+      
+      // Add performance class only if not already present
+      if (!document.documentElement.classList.contains('js-enabled')) {
+        document.documentElement.classList.add('js-enabled')
+      }
     }
   }, [router.locale])
 
@@ -24,18 +34,28 @@ function MyApp({ Component, pageProps }: AppProps) {
 
     // Defer performance optimizations to not block initial render
     const initPerformance = () => {
-      // Simple performance initialization
-      if ('requestIdleCallback' in window) {
-        (window as any).requestIdleCallback(() => {
-          console.log('Performance optimizations initialized')
-          
-          // Report Web Vitals in production
-          if (process.env.NODE_ENV === 'production') {
-            window.addEventListener('beforeunload', () => {
-              console.log('Page unloading - performance metrics collected')
-            })
-          }
-        }, { timeout: 3000 })
+      try {
+        // Simple performance initialization
+        if ('requestIdleCallback' in window) {
+          (window as any).requestIdleCallback(() => {
+            console.log('Performance optimizations initialized')
+            
+            // Report Web Vitals in production
+            if (process.env.NODE_ENV === 'production') {
+              const handleBeforeUnload = () => {
+                console.log('Page unloading - performance metrics collected')
+              }
+              window.addEventListener('beforeunload', handleBeforeUnload)
+              
+              // Cleanup function
+              return () => {
+                window.removeEventListener('beforeunload', handleBeforeUnload)
+              }
+            }
+          }, { timeout: 3000 })
+        }
+      } catch (error) {
+        console.warn('Performance initialization failed:', error)
       }
     }
 
@@ -52,28 +72,46 @@ function MyApp({ Component, pageProps }: AppProps) {
           
           console.log('Service Worker registered:', registration)
           
-          // Check for updates periodically
-          const updateInterval = setInterval(() => {
-            registration.update()
-          }, 60000) // Check every minute
+          // Check for updates periodically - store interval ID
+          let updateInterval: NodeJS.Timeout | null = null
+          
+          const startUpdateChecks = () => {
+            updateInterval = setInterval(() => {
+              if (registration) {
+                registration.update()
+              }
+            }, 60000) // Check every minute
+          }
           
           // Handle SW updates
-          registration.addEventListener('updatefound', () => {
+          const handleUpdateFound = () => {
             const newWorker = registration.installing
             if (newWorker) {
-              newWorker.addEventListener('statechange', () => {
+              const handleStateChange = () => {
                 if (newWorker.state === 'installed' && navigator.serviceWorker.controller) {
                   // New service worker available
                   console.log('New service worker available. Please refresh.')
                 }
-              })
+              }
+              newWorker.addEventListener('statechange', handleStateChange)
             }
-          })
+          }
           
-          // Clean up interval on page unload
-          window.addEventListener('beforeunload', () => {
-            clearInterval(updateInterval)
-          })
+          registration.addEventListener('updatefound', handleUpdateFound)
+          startUpdateChecks()
+          
+          // Clean up interval and listeners on page unload
+          const cleanup = () => {
+            if (updateInterval) {
+              clearInterval(updateInterval)
+            }
+            registration.removeEventListener('updatefound', handleUpdateFound)
+          }
+          
+          window.addEventListener('beforeunload', cleanup)
+          
+          // Return cleanup function for effect cleanup
+          return cleanup
         } catch (error) {
           console.error('Service Worker registration failed:', error)
         }

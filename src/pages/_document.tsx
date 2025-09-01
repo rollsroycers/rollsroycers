@@ -84,7 +84,13 @@ export default function Document() {
           }}
         />
         
-        {/* Load fonts properly */}
+        {/* Load fonts properly with fallback */}
+        <link
+          rel="preload"
+          href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+          as="style"
+          crossOrigin="anonymous"
+        />
         <link
           rel="stylesheet"
           href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
