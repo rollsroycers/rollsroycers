@@ -3664,6 +3664,136 @@
     }
   },
   "compare": {
+    "hero": {
+      "title": "Comparer les Voitures de Luxe",
+      "subtitle": "Prenez une Décision Éclairée",
+      "description": "Explorez des comparaisons détaillées entre Rolls-Royce et d'autres marques de luxe pour trouver le véhicule parfait pour vos besoins",
+      "imageAlt": "Vitrine de comparaison de voitures de luxe"
+    },
+    "stats": {
+      "comparisons": {
+        "value": "4+",
+        "label": "Comparaisons Détaillées"
+      },
+      "brands": {
+        "value": "5",
+        "label": "Marques de Luxe"
+      },
+      "features": {
+        "value": "20+",
+        "label": "Caractéristiques Analysées"
+      },
+      "experts": {
+        "value": "10+",
+        "label": "Avis d'Experts"
+      }
+    },
+    "categories": {
+      "all": "Toutes les Comparaisons",
+      "luxury": "Focus Luxe",
+      "performance": "Performance",
+      "heritage": "Marques Patrimoniales"
+    },
+    "comparisons": {
+      "title": "Comparaisons en Vedette",
+      "subtitle": "Explorez nos comparaisons complètes de voitures de luxe pour faire le meilleur choix pour votre style de vie",
+      "rolls-royce-vs-bentley": {
+        "title": "Rolls-Royce vs Bentley",
+        "subtitle": "Confrontation du Luxe Britannique",
+        "description": "Comparez deux titans de l'ingénierie automobile britannique de luxe, chacun avec son approche unique du raffinement ultime",
+        "highlights": [
+          "Comparaison du patrimoine et de l'artisanat",
+          "Différences de philosophie de performance",
+          "Analyse des options de personnalisation",
+          "Évaluation de la valeur d'investissement"
+        ]
+      },
+      "rolls-royce-vs-ferrari": {
+        "title": "Rolls-Royce vs Ferrari",
+        "subtitle": "Luxe vs Performance",
+        "description": "Découvrez les différences entre le luxe ultime et la performance ultime dans ces marques emblématiques",
+        "highlights": [
+          "Priorités confort vs vitesse",
+          "Comparaison du prestige de la marque",
+          "Analyse de l'expérience de conduite",
+          "Différences d'expérience de propriété"
+        ]
+      },
+      "rolls-royce-vs-mercedes": {
+        "title": "Rolls-Royce vs Mercedes",
+        "subtitle": "Luxe Classique vs Moderne",
+        "description": "Comparez le luxe britannique traditionnel avec l'excellence et l'innovation de l'ingénierie allemande",
+        "highlights": [
+          "Comparaison de l'intégration technologique",
+          "Évaluation de la qualité de construction",
+          "Analyse des caractéristiques de luxe",
+          "Comparaison service et maintenance"
+        ]
+      },
+      "phantom-vs-maybach": {
+        "title": "Phantom vs Maybach",
+        "subtitle": "Bataille Ultime des Vaisseau Amiral",
+        "description": "La comparaison ultime entre deux des berlines phares les plus luxueuses au monde",
+        "highlights": [
+          "Comparaison de l'opulence intérieure",
+          "Évaluation de la qualité de conduite",
+          "Analyse du facteur d'exclusivité",
+          "Rapport prix-valeur"
+        ]
+      }
+    },
+    "whyCompare": {
+      "title": "Pourquoi Comparer avec Nous?",
+      "subtitle": "Obtenez des informations d'experts et une analyse détaillée pour faire le choix parfait de voiture de luxe",
+      "reasons": {
+        "informed": {
+          "icon": "📊",
+          "title": "Décisions Éclairées",
+          "description": "Faites des choix confiants avec nos comparaisons complètes couvrant tous les aspects de la propriété d'une voiture de luxe"
+        },
+        "comprehensive": {
+          "icon": "🔍",
+          "title": "Analyse Complète",
+          "description": "Nous analysons les performances, le luxe, la technologie, le patrimoine et la valeur pour vous donner une image complète"
+        },
+        "expert": {
+          "icon": "👨‍💼",
+          "title": "Perspectives d'Experts",
+          "description": "Bénéficiez d'années d'expérience dans l'industrie automobile de luxe avec des opinions d'experts impartiales"
+        }
+      }
+    },
+    "tool": {
+      "title": "Outil de Comparaison Interactif",
+      "subtitle": "Comparez les spécifications, les caractéristiques et les prix dans toute notre flotte de luxe",
+      "cta": "Commencer la Comparaison"
+    },
+    "faq": {
+      "title": "Questions Fréquemment Posées",
+      "q1": {
+        "question": "Qu'est-ce qui rend Rolls-Royce unique par rapport aux autres marques de luxe?",
+        "answer": "Rolls-Royce se distingue par son engagement sans compromis envers l'artisanat, ses options de personnalisation sur mesure et le légendaire 'Magic Carpet Ride' qui offre un confort et un raffinement inégalés."
+      },
+      "q2": {
+        "question": "Quelle marque offre le meilleur rapport qualité-prix?",
+        "answer": "La valeur dépend de vos priorités. Rolls-Royce offre un luxe et une exclusivité inégalés, tandis que des marques comme Mercedes offrent plus de technologie à des prix inférieurs. Nos comparaisons vous aident à déterminer ce qui compte le plus pour vous."
+      },
+      "q3": {
+        "question": "Puis-je tester plusieurs marques avant de décider?",
+        "answer": "Oui! Nous proposons des expériences d'essai pour tous les véhicules de notre flotte. Contactez notre équipe pour organiser des essais consécutifs pour la meilleure expérience de comparaison."
+      },
+      "q4": {
+        "question": "Quelle marque est la meilleure pour les services de chauffeur?",
+        "answer": "Rolls-Royce est traditionnellement l'étalon-or pour les services de chauffeur, offrant un confort et une présence suprêmes à l'arrière. Cependant, la Mercedes Classe S et Bentley excellent également dans ce rôle avec leurs propres avantages uniques."
+      }
+    },
+    "cta": {
+      "title": "Prêt à Vivre l'Excellence?",
+      "subtitle": "Choisissez votre véhicule de luxe parfait et commencez votre voyage aujourd'hui",
+      "book": "Réserver Maintenant",
+      "contact": "Contacter un Expert",
+      "viewComparison": "Voir la Comparaison"
+    },
     "aspects": {
       "overview": {
         "name": "Aperçu"

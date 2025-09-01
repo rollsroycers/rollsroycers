@@ -4131,6 +4131,136 @@
     }
   },
   "compare": {
+    "hero": {
+      "title": "Compare Luxury Cars",
+      "subtitle": "Make an Informed Decision",
+      "description": "Explore detailed comparisons between Rolls-Royce and other luxury brands to find the perfect vehicle for your needs",
+      "imageAlt": "Luxury car comparison showcase"
+    },
+    "stats": {
+      "comparisons": {
+        "value": "4+",
+        "label": "Detailed Comparisons"
+      },
+      "brands": {
+        "value": "5",
+        "label": "Luxury Brands"
+      },
+      "features": {
+        "value": "20+",
+        "label": "Features Analyzed"
+      },
+      "experts": {
+        "value": "10+",
+        "label": "Expert Reviews"
+      }
+    },
+    "categories": {
+      "all": "All Comparisons",
+      "luxury": "Luxury Focus",
+      "performance": "Performance",
+      "heritage": "Heritage Brands"
+    },
+    "comparisons": {
+      "title": "Featured Comparisons",
+      "subtitle": "Explore our comprehensive luxury car comparisons to make the best choice for your lifestyle",
+      "rolls-royce-vs-bentley": {
+        "title": "Rolls-Royce vs Bentley",
+        "subtitle": "British Luxury Showdown",
+        "description": "Compare two titans of British luxury automotive engineering, each with their unique approach to ultimate refinement",
+        "highlights": [
+          "Heritage & craftsmanship comparison",
+          "Performance philosophy differences",
+          "Customization options analysis",
+          "Investment value assessment"
+        ]
+      },
+      "rolls-royce-vs-ferrari": {
+        "title": "Rolls-Royce vs Ferrari",
+        "subtitle": "Luxury vs Performance",
+        "description": "Discover the differences between ultimate luxury and ultimate performance in these iconic brands",
+        "highlights": [
+          "Comfort vs speed priorities",
+          "Brand prestige comparison",
+          "Driving experience analysis",
+          "Ownership experience differences"
+        ]
+      },
+      "rolls-royce-vs-mercedes": {
+        "title": "Rolls-Royce vs Mercedes",
+        "subtitle": "Classic vs Modern Luxury",
+        "description": "Compare traditional British luxury with German engineering excellence and innovation",
+        "highlights": [
+          "Technology integration comparison",
+          "Build quality assessment",
+          "Luxury features analysis",
+          "Service & maintenance comparison"
+        ]
+      },
+      "phantom-vs-maybach": {
+        "title": "Phantom vs Maybach",
+        "subtitle": "Ultimate Flagship Battle",
+        "description": "The ultimate comparison between two of the world's most luxurious flagship sedans",
+        "highlights": [
+          "Interior opulence comparison",
+          "Ride quality assessment",
+          "Exclusivity factor analysis",
+          "Price-to-value ratio"
+        ]
+      }
+    },
+    "whyCompare": {
+      "title": "Why Compare with Us?",
+      "subtitle": "Get expert insights and detailed analysis to make the perfect luxury car choice",
+      "reasons": {
+        "informed": {
+          "icon": "📊",
+          "title": "Informed Decisions",
+          "description": "Make confident choices with our comprehensive comparisons covering every aspect of luxury car ownership"
+        },
+        "comprehensive": {
+          "icon": "🔍",
+          "title": "Comprehensive Analysis",
+          "description": "We analyze performance, luxury, technology, heritage, and value to give you the complete picture"
+        },
+        "expert": {
+          "icon": "👨‍💼",
+          "title": "Expert Insights",
+          "description": "Benefit from years of experience in the luxury automotive industry with unbiased expert opinions"
+        }
+      }
+    },
+    "tool": {
+      "title": "Interactive Comparison Tool",
+      "subtitle": "Compare specifications, features, and pricing across our entire luxury fleet",
+      "cta": "Start Comparing"
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "q1": {
+        "question": "What makes Rolls-Royce unique compared to other luxury brands?",
+        "answer": "Rolls-Royce stands apart with its uncompromising commitment to craftsmanship, bespoke customization options, and the legendary 'Magic Carpet Ride' that provides unmatched comfort and refinement."
+      },
+      "q2": {
+        "question": "Which brand offers better value for money?",
+        "answer": "Value depends on your priorities. Rolls-Royce offers unparalleled luxury and exclusivity, while brands like Mercedes provide more technology at lower price points. Our comparisons help you determine what matters most to you."
+      },
+      "q3": {
+        "question": "Can I test drive multiple brands before deciding?",
+        "answer": "Yes! We offer test drive experiences for all vehicles in our fleet. Contact our team to arrange consecutive test drives for the best comparison experience."
+      },
+      "q4": {
+        "question": "Which brand is best for chauffeur services?",
+        "answer": "Rolls-Royce is traditionally the gold standard for chauffeur services, offering supreme rear-seat comfort and presence. However, Mercedes S-Class and Bentley also excel in this role with their own unique advantages."
+      }
+    },
+    "cta": {
+      "title": "Ready to Experience Excellence?",
+      "subtitle": "Choose your perfect luxury vehicle and begin your journey today",
+      "book": "Book Now",
+      "contact": "Contact Expert",
+      "viewComparison": "View Comparison"
+    },
     "aspects": {
       "overview": {
         "name": "Overview"
