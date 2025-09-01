@@ -1218,7 +1218,7 @@
         "title": "Blog",
         "subtitle": "Lisez les informations et conseils sur le luxe"
       },
-      "compare": {
+      "comparison": {
         "title": "Comparer la flotte",
         "subtitle": "Rolls-Royce vs Autres Marques"
       }
@@ -3666,9 +3666,9 @@
   "compare": {
     "hero": {
       "title": "Comparer les Voitures de Luxe",
-      "subtitle": "Prenez une Décision Éclairée",
-      "description": "Explorez des comparaisons détaillées entre Rolls-Royce et d'autres marques de luxe pour trouver le véhicule parfait pour vos besoins",
-      "imageAlt": "Vitrine de comparaison de voitures de luxe"
+      "subtitle": "La Comparaison Ultime de Voitures de Luxe pour Dubaï",
+      "bentleyAlt": "Voiture de luxe Bentley à Dubaï",
+      "description": "Explorez des comparaisons détaillées entre Rolls-Royce et d'autres marques de luxe pour trouver le véhicule parfait pour vos besoins"
     },
     "stats": {
       "comparisons": {
@@ -3933,15 +3933,6 @@
       "whyChooseBentley": "Pourquoi Choisir Bentley?",
       "bookRollsRoyce": "Réserver Rolls-Royce",
       "inquireBentley": "S'informer sur Bentley"
-    },
-    "hero": {
-      "title": {
-        "rollsRoyce": "Rolls-Royce",
-        "vs": "vs",
-        "bentley": "Bentley"
-      },
-      "subtitle": "La Comparaison Ultime de Voitures de Luxe pour Dubaï",
-      "bentleyAlt": "Voiture de luxe Bentley à Dubaï"
     },
     "quickSummary": {
       "rollsRoyce": {

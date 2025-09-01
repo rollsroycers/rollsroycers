@@ -1293,7 +1293,7 @@
         "title": "博客",
         "subtitle": "阅读豪华见解和提示"
       },
-      "compare": {
+      "comparison": {
         "title": "车队比较",
         "subtitle": "劳斯莱斯与其他品牌"
       }
@@ -3522,9 +3522,9 @@
   "compare": {
     "hero": {
       "title": "比较豪华汽车",
-      "subtitle": "做出明智的决定",
-      "description": "探索劳斯莱斯与其他豪华品牌之间的详细比较，找到满足您需求的完美车辆",
-      "imageAlt": "豪华汽车比较展示"
+      "subtitle": "迪拜终极奢华汽车比较",
+      "bentleyAlt": "迪拜宾利奢华汽车",
+      "description": "探索劳斯莱斯与其他豪华品牌之间的详细比较，找到满足您需求的完美车辆"
     },
     "stats": {
       "comparisons": {
@@ -3789,15 +3789,6 @@
       "whyChooseBentley": "为什么选择宾利？",
       "bookRollsRoyce": "预订劳斯莱斯",
       "inquireBentley": "咨询宾利"
-    },
-    "hero": {
-      "title": {
-        "rollsRoyce": "劳斯莱斯",
-        "vs": "对比",
-        "bentley": "宾利"
-      },
-      "subtitle": "迪拜终极奢华汽车比较",
-      "bentleyAlt": "迪拜宾利奢华汽车"
     },
     "quickSummary": {
       "rollsRoyce": {

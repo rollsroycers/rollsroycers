@@ -278,7 +278,7 @@
         "title": "Blog",
         "subtitle": "Read luxury insights & tips"
       },
-      "compare": {
+      "comparison": {
         "title": "Compare",
         "subtitle": "Rolls-Royce vs Other Brands"
       }
@@ -4402,12 +4402,9 @@
       "inquireBentley": "Inquire About Bentley"
     },
     "hero": {
-      "title": {
-        "rollsRoyce": "Rolls-Royce",
-        "vs": "vs",
-        "bentley": "Bentley"
-      },
+      "title": "Compare Luxury Cars",
       "subtitle": "The Ultimate Luxury Car Comparison for Dubai",
+      "description": "Explore detailed comparisons between Rolls-Royce and other luxury brands to find the perfect vehicle for your needs",
       "bentleyAlt": "Bentley luxury car in Dubai"
     },
     "quickSummary": {
