@@ -1,29 +1,9 @@
 import '@/styles/globals.css'
 import type { AppProps } from 'next/app'
 import { appWithTranslation } from 'next-i18next'
-import { useRouter } from 'next/router'
-import { useEffect } from 'react'
 
+// Ultra-minimal app to isolate React #418 error
 function MyApp({ Component, pageProps }: AppProps) {
-  const router = useRouter()
-
-  useEffect(() => {
-    // Only run on client side to prevent hydration issues
-    if (typeof window === 'undefined') return
-
-    // Set direction based on locale
-    const dir = router.locale === 'ar' ? 'rtl' : 'ltr'
-    const lang = router.locale || 'en'
-    
-    // Update document direction and language
-    if (document.documentElement.dir !== dir) {
-      document.documentElement.dir = dir
-    }
-    if (document.documentElement.lang !== lang) {
-      document.documentElement.lang = lang
-    }
-  }, [router.locale])
-
   return <Component {...pageProps} />
 }
 

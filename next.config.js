@@ -2,7 +2,7 @@
 const i18n = require('./next-i18next.config.js').i18n
 
 const nextConfig = {
-  reactStrictMode: true,
+  reactStrictMode: false, // Temporarily disable to debug React #418
   
   // Use the same i18n configuration
   i18n,
