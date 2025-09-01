@@ -11,22 +11,6 @@ export default function Document() {
         <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
         <link rel="dns-prefetch" href="https://www.google-analytics.com" />
         
-        {/* Preload critical fonts */}
-        <link
-          rel="preload"
-          href="/fonts/inter-v12-latin-regular.woff2"
-          as="font"
-          type="font/woff2"
-          crossOrigin="anonymous"
-        />
-        <link
-          rel="preload"
-          href="/fonts/inter-v12-latin-600.woff2"
-          as="font"
-          type="font/woff2"
-          crossOrigin="anonymous"
-        />
-        
         {/* Critical CSS - inline for fastest render */}
         <style
           dangerouslySetInnerHTML={{
