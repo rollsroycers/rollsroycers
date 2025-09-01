@@ -1,12 +1,12 @@
-# === Force HTTPS ===
-http://rollsroycers.com/* https://rollsroycers.com/:splat 301!
-http://www.rollsroycers.com/* https://rollsroycers.com/:splat 301!
+# === TEMPORARILY DISABLED ALL REDIRECTS TO FIX LOOPS ===
+# Uncomment these after fixing the redirect loop issue
 
-# === Force non-www ===
-https://www.rollsroycers.com/* https://rollsroycers.com/:splat 301!
+# # === Force HTTPS ===
+# http://rollsroycers.com/* https://rollsroycers.com/:splat 301!
+# http://www.rollsroycers.com/* https://rollsroycers.com/:splat 301!
 
-# === REMOVED /en redirects to fix infinite loop ===
-# English is served at both / and /en without redirects
+# # === Force non-www ===
+# https://www.rollsroycers.com/* https://rollsroycers.com/:splat 301!
 
 # === Language-specific redirects ===
 /ae/* /ar/:splat 301!

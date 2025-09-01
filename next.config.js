@@ -1,13 +1,15 @@
 /** @type {import('next').NextConfig} */
-const { i18n } = require('./next-i18next.config')
 
 const nextConfig = {
   reactStrictMode: true,
+  
+  // i18n configuration - English without /en prefix
   i18n: {
     defaultLocale: 'en',
     locales: ['en', 'ar', 'ru', 'fr', 'zh', 'hi'],
-    localeDetection: false, // Disable automatic locale detection
+    localeDetection: false,
   },
+  
   
   // Compiler options for modern JavaScript features
   compiler: {
@@ -147,27 +149,9 @@ const nextConfig = {
     ]
   },
   
-  // SEO-friendly redirects
+  // NO REDIRECTS - avoiding loops
   async redirects() {
     return [
-      // === REMOVED /en redirects to fix infinite loop ===
-      // English is now served at root URL without any redirects
-      
-      // === Handle www to non-www redirects ===
-      // Note: These are handled in middleware.ts for better control
-      
-      // === Handle specific page redirects that were found in Search Console ===
-      {
-        source: '/en/testimonials',
-        destination: '/testimonials',
-        permanent: true,
-      },
-      {
-        source: '/en/compare',
-        destination: '/compare',
-        permanent: true,
-      },
-      
       // Redirect common misspellings to correct URLs
       {
         source: '/rent-rolls-royes-dubai',
