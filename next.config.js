@@ -3,6 +3,9 @@
 const nextConfig = {
   reactStrictMode: true,
   
+  // Transpile ESM packages
+  transpilePackages: ['react-i18next', 'i18next', 'next-i18next'],
+  
   // i18n configuration - English without /en prefix
   i18n: {
     defaultLocale: 'en',
@@ -10,25 +13,41 @@ const nextConfig = {
     localeDetection: false,
   },
   
-  
   // Compiler options for modern JavaScript features
   compiler: {
-    // Enable modern JavaScript features
-    removeConsole: process.env.NODE_ENV === 'production',
+    // Remove console logs in production
+    removeConsole: process.env.NODE_ENV === 'production' ? {
+      exclude: ['error', 'warn'],
+    } : false,
     // Remove React Testing Library data attributes from production builds
     reactRemoveProperties: process.env.NODE_ENV === 'production' && {
       properties: ['^data-testid$'],
     },
+    // Enable emotion for better CSS-in-JS performance
+    styledComponents: false,
   },
   
   // Experimental features for modern JS
   experimental: {
-    // Enable modern features
-    esmExternals: true,
-    optimizeCss: true, // Enable CSS optimization
+    // Enable CSS optimization
+    optimizeCss: true,
     scrollRestoration: true,
     // Reduce JavaScript payload
-    optimizePackageImports: ['framer-motion', 'swiper', 'react-intersection-observer'],
+    optimizePackageImports: [
+      'framer-motion',
+      'swiper',
+      'react-intersection-observer'
+    ],
+  },
+  
+  // Enable modular imports for libraries
+  modularizeImports: {
+    'framer-motion': {
+      transform: 'framer-motion/{{member}}',
+    },
+    'lodash': {
+      transform: 'lodash/{{member}}',
+    },
   },
   
   // Image optimization with lazy loading by default
@@ -50,6 +69,10 @@ const nextConfig = {
     dangerouslyAllowSVG: true,
     contentDispositionType: 'attachment',
     contentSecurityPolicy: "default-src 'self'; script-src 'none'; sandbox;",
+    // Lazy load images outside viewport
+    loader: 'default',
+    // Disable static imports for better performance
+    disableStaticImages: false,
   },
   
   // SEO optimizations
@@ -77,6 +100,11 @@ const nextConfig = {
           {
             key: 'Permissions-Policy',
             value: 'camera=(), microphone=(), geolocation=(self)'
+          },
+          // Add preconnect hints for faster resource loading
+          {
+            key: 'Link',
+            value: '<https://fonts.googleapis.com>; rel=preconnect; crossorigin, <https://fonts.gstatic.com>; rel=preconnect; crossorigin'
           }
         ]
       },
@@ -136,13 +164,13 @@ const nextConfig = {
           }
         ]
       },
-      // HTML caching
+      // HTML caching with stale-while-revalidate
       {
         source: '/:path*((?!api))',
         headers: [
           {
             key: 'Cache-Control',
-            value: 'public, s-maxage=31536000, stale-while-revalidate=59'
+            value: 'public, s-maxage=3600, stale-while-revalidate=86400'
           }
         ]
       }
@@ -218,92 +246,165 @@ const nextConfig = {
   },
   
   // Optimize bundle size
-  webpack: (config, { isServer, dev }) => {
+  webpack: (config, { isServer, dev, webpack }) => {
     // Production optimizations
     if (!dev) {
+      // Add webpack bundle analyzer in development
+      if (process.env.ANALYZE === 'true') {
+        const { BundleAnalyzerPlugin } = require('webpack-bundle-analyzer')
+        config.plugins.push(
+          new BundleAnalyzerPlugin({
+            analyzerMode: 'static',
+            reportFilename: isServer ? '../analyze/server.html' : './analyze/client.html',
+            openAnalyzer: false,
+          })
+        )
+      }
+
       // Optimize for client-side bundle
       if (!isServer) {
+        // Add ModuleConcatenationPlugin for better tree shaking
+        config.plugins.push(new webpack.optimize.ModuleConcatenationPlugin())
+        
         config.optimization = {
           ...config.optimization,
           minimize: true,
           runtimeChunk: 'single',
           moduleIds: 'deterministic',
+          usedExports: true,
+          sideEffects: false,
           splitChunks: {
             chunks: 'all',
-            maxInitialRequests: 25,
+            maxAsyncRequests: 30,
+            maxInitialRequests: 30,
             minSize: 20000,
+            maxSize: 244000, // Split chunks larger than 244KB
             cacheGroups: {
               default: false,
               vendors: false,
-              // Framework chunks
+              // React framework
               framework: {
                 name: 'framework',
                 chunks: 'all',
                 test: /[\\/]node_modules[\\/](react|react-dom|scheduler|prop-types|use-subscription)[\\/]/,
-                priority: 40,
+                priority: 50,
                 enforce: true,
-              },
-              // Libraries chunk
-              lib: {
-                test(module) {
-                  return module.size() > 160000 &&
-                    /node_modules[/\\]/.test(module.identifier());
-                },
-                name(module) {
-                  const hash = require('crypto')
-                    .createHash('sha1');
-                  hash.update(module.identifier());
-                  return hash.digest('hex').substring(0, 8);
-                },
-                priority: 30,
-                minChunks: 1,
                 reuseExistingChunk: true,
               },
+              // Next.js internals
+              nextjs: {
+                name: 'nextjs',
+                chunks: 'all',
+                test: /[\\/]node_modules[\\/](next|@next)[\\/]/,
+                priority: 45,
+                enforce: true,
+                reuseExistingChunk: true,
+              },
+              // i18n libraries
+              i18n: {
+                name: 'i18n',
+                test: /[\\/]node_modules[\\/](next-i18next|react-i18next|i18next)[\\/]/,
+                chunks: 'all',
+                priority: 40,
+                reuseExistingChunk: true,
+              },
+              // Animation libraries (load on demand)
+              animations: {
+                name: 'animations',
+                test: /[\\/]node_modules[\\/](framer-motion)[\\/]/,
+                chunks: 'async',
+                priority: 35,
+                reuseExistingChunk: true,
+              },
+              // Swiper (load on demand)
+              swiper: {
+                name: 'swiper',
+                test: /[\\/]node_modules[\\/](swiper)[\\/]/,
+                chunks: 'async',
+                priority: 35,
+                reuseExistingChunk: true,
+              },
+              // Polyfills
+              polyfills: {
+                name: 'polyfills',
+                test: /[\\/]node_modules[\\/](core-js|regenerator-runtime)[\\/]/,
+                chunks: 'all',
+                priority: 60,
+                reuseExistingChunk: true,
+              },
+              // Common modules
               commons: {
                 name: 'commons',
                 chunks: 'all',
                 minChunks: 2,
                 priority: 20,
+                reuseExistingChunk: true,
               },
-              // Separate i18n
-              i18n: {
-                name: 'i18n',
-                test: /[\\/]node_modules[\\/](next-i18next|react-i18next|i18next)[\\/]/,
+              // Vendor libraries
+              vendor: {
+                test: /[\\/]node_modules[\\/]/,
+                name(module) {
+                  // Get the package name safely
+                  const match = module.context && module.context.match(/[\\/]node_modules[\\/](.*?)([\\/]|$)/);
+                  const packageName = match ? match[1] : 'vendor';
+                  // Create a vendor chunk per package
+                  return `vendor-${packageName.replace('@', '')}`;
+                },
                 chunks: 'all',
-                priority: 35,
-              },
-              // Separate animation libraries
-              animations: {
-                name: 'animations',
-                test: /[\\/]node_modules[\\/](framer-motion|swiper)[\\/]/,
-                chunks: 'all',
-                priority: 35,
+                priority: 10,
+                reuseExistingChunk: true,
               },
             },
           },
         };
 
-        // Alias react to preact in production for smaller bundle
-        if (process.env.PREACT === 'true') {
+        // Replace React with Preact in production (optional - for even smaller bundles)
+        if (process.env.USE_PREACT === 'true') {
           config.resolve.alias = {
             ...config.resolve.alias,
             'react': 'preact/compat',
             'react-dom': 'preact/compat',
+            'react/jsx-runtime': 'preact/jsx-runtime',
           };
         }
+
+        // Ignore moment locales to reduce bundle size
+        config.plugins.push(
+          new webpack.IgnorePlugin({
+            resourceRegExp: /^\.\/locale$/,
+            contextRegExp: /moment$/,
+          })
+        );
       }
+
+      // Server-side optimizations
+      if (isServer) {
+        // Externalize node modules for server bundle
+        config.externals = [...(config.externals || []), 'sharp', 'canvas'];
+      }
+    }
+
+    // Development optimizations
+    if (dev) {
+      // Faster rebuilds in development
+      config.cache = {
+        type: 'filesystem',
+        buildDependencies: {
+          config: [__filename],
+        },
+      };
     }
     
     return config;
   },
   
-  // Compression
+  // Enable compression
   compress: true,
   
   // Generate ETags for caching
   generateEtags: true,
   
-  // Powered by header
+  // Disable powered-by header
   poweredByHeader: false,
   
   // Trailing slash handling for SEO consistency
@@ -312,8 +413,14 @@ const nextConfig = {
   // Output optimization
   output: 'standalone',
   
-  // Disable x-powered-by header
-  poweredByHeader: false,
+  // Build optimization
+  productionBrowserSourceMaps: false, // Disable source maps in production
+  
+  // Enable static exports for better performance
+  generateBuildId: async () => {
+    // Generate a unique build ID based on timestamp
+    return `build-${Date.now()}`;
+  },
 }
 
 module.exports = nextConfig

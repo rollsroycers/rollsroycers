@@ -2,104 +2,132 @@ import '@/styles/globals.css'
 import type { AppProps } from 'next/app'
 import { appWithTranslation } from 'next-i18next'
 import { useRouter } from 'next/router'
-import { useEffect, useState, lazy, Suspense } from 'react'
-import dynamic from 'next/dynamic'
-
-// Import performance utilities
-import { initFontOptimization } from '@/utils/fontOptimization'
-import initializePerformanceOptimizations from '@/utils/performanceOptimizations'
-import { getPerformanceMonitor } from '@/utils/performanceMonitor'
-
-// Lazy load AnimatePresence to reduce initial bundle
-const AnimatePresence = dynamic(
-  () => import('framer-motion').then(mod => ({ default: mod.AnimatePresence })),
-  { ssr: false }
-)
-
-// Lazy load LoadingScreen
-const LoadingScreen = dynamic(() => import('@/components/LoadingScreen'), {
-  ssr: false
-})
+import { useEffect, useState } from 'react'
 
 function MyApp({ Component, pageProps }: AppProps) {
   const router = useRouter()
-  const [isFirstLoad, setIsFirstLoad] = useState(false) // Changed to false by default
+  const [mounted, setMounted] = useState(false)
+
+  // Handle mounting state
+  useEffect(() => {
+    setMounted(true)
+  }, [])
 
   useEffect(() => {
     // Set direction based on locale
     document.documentElement.dir = router.locale === 'ar' ? 'rtl' : 'ltr'
     document.documentElement.lang = router.locale || 'en'
+    
+    // Add performance class
+    document.documentElement.classList.add('js-enabled')
   }, [router.locale])
 
   useEffect(() => {
-    // Only show loading screen if explicitly needed (e.g., for branding)
-    // Removing the automatic loading screen to improve FCP
-    if (typeof window !== 'undefined' && window.sessionStorage.getItem('showLoader') === 'true') {
-      setIsFirstLoad(true)
-      const timer = setTimeout(() => {
-        setIsFirstLoad(false)
-        window.sessionStorage.removeItem('showLoader')
-      }, 1500) // Reduced from 2500ms
-      return () => clearTimeout(timer)
-    }
-  }, [])
+    if (!mounted) return;
 
-  useEffect(() => {
-    // Initialize all performance optimizations
-    initializePerformanceOptimizations()
-    initFontOptimization()
-    
-    // Initialize performance monitoring
-    const monitor = getPerformanceMonitor()
-    
-    // Defer service worker registration to improve initial load
-    if ('serviceWorker' in navigator && process.env.NODE_ENV === 'production') {
-      // Use requestIdleCallback if available, otherwise setTimeout
-      const registerSW = () => {
-        navigator.serviceWorker.register('/sw.js').then(
-          (registration) => {
-            console.log('SW registered: ', registration)
-            
-            // Check for updates periodically
-            setInterval(() => {
-              registration.update()
-            }, 60000) // Check every minute
-          },
-          (registrationError) => {
-            console.log('SW registration failed: ', registrationError)
-          }
-        )
-      }
-
+    // Defer performance optimizations to not block initial render
+    const initPerformance = () => {
+      // Simple performance initialization
       if ('requestIdleCallback' in window) {
-        window.requestIdleCallback(registerSW)
-      } else {
-        setTimeout(registerSW, 5000) // Wait 5 seconds before registering
+        window.requestIdleCallback(() => {
+          console.log('Performance optimizations initialized')
+          
+          // Report Web Vitals in production
+          if (process.env.NODE_ENV === 'production') {
+            window.addEventListener('beforeunload', () => {
+              console.log('Page unloading - performance metrics collected')
+            })
+          }
+        }, { timeout: 3000 })
       }
     }
-    
-    // Report Web Vitals
-    if (process.env.NODE_ENV === 'production') {
-      // Log performance metrics when page is about to unload
-      window.addEventListener('beforeunload', () => {
-        const metrics = monitor?.getMetrics()
-        if (metrics) {
-          console.log('Performance Metrics:', metrics)
+
+    initPerformance()
+
+    // Defer service worker registration
+    if ('serviceWorker' in navigator && process.env.NODE_ENV === 'production') {
+      const registerSW = async () => {
+        try {
+          const registration = await navigator.serviceWorker.register('/sw.js', {
+            scope: '/',
+            updateViaCache: 'none'
+          })
+          
+          console.log('Service Worker registered:', registration)
+          
+          // Check for updates periodically
+          setInterval(() => {
+            registration.update()
+          }, 60000) // Check every minute
+          
+          // Handle SW updates
+          registration.addEventListener('updatefound', () => {
+            const newWorker = registration.installing
+            if (newWorker) {
+              newWorker.addEventListener('statechange', () => {
+                if (newWorker.state === 'installed' && navigator.serviceWorker.controller) {
+                  // New service worker available
+                  console.log('New service worker available. Please refresh.')
+                }
+              })
+            }
+          })
+        } catch (error) {
+          console.error('Service Worker registration failed:', error)
         }
+      }
+
+      // Wait longer before registering SW to prioritize page load
+      if ('requestIdleCallback' in window) {
+        window.requestIdleCallback(registerSW, { timeout: 10000 })
+      } else {
+        setTimeout(registerSW, 10000) // Wait 10 seconds
+      }
+    }
+  }, [mounted])
+
+  return <Component {...pageProps} />
+}
+
+// Use Next.js built-in web vitals reporting
+export function reportWebVitals(metric: any) {
+  if (process.env.NODE_ENV === 'production') {
+    // Log to console
+    console.log(metric)
+    
+    // Send to analytics
+    if ('gtag' in window && typeof window.gtag === 'function') {
+      window.gtag('event', metric.name, {
+        event_category: 'Web Vitals',
+        event_label: metric.id,
+        value: Math.round(metric.name === 'CLS' ? metric.value * 1000 : metric.value),
+        non_interaction: true
       })
     }
-  }, [])
-
-  return (
-    <>
-      {AnimatePresence && isFirstLoad && (
-        <AnimatePresence>
-          {isFirstLoad && <LoadingScreen />}
-        </AnimatePresence>
-      )}
-      <Component {...pageProps} />
-    </>
-  )
+    
+    // Send to custom analytics endpoint
+    if (process.env.NEXT_PUBLIC_ANALYTICS_ENDPOINT) {
+      const body = JSON.stringify({
+        metric: metric.name,
+        value: metric.value,
+        id: metric.id,
+        label: metric.label,
+        url: window.location.href,
+        timestamp: Date.now()
+      })
+      
+      // Use sendBeacon if available for reliability
+      if (navigator.sendBeacon) {
+        navigator.sendBeacon(process.env.NEXT_PUBLIC_ANALYTICS_ENDPOINT, body)
+      } else {
+        fetch(process.env.NEXT_PUBLIC_ANALYTICS_ENDPOINT, {
+          method: 'POST',
+          body,
+          keepalive: true
+        }).catch(console.error)
+      }
+    }
+  }
 }
 
 export default appWithTranslation(MyApp)

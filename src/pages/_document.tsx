@@ -1,194 +1,292 @@
 import { Html, Head, Main, NextScript } from 'next/document'
+import Script from 'next/script'
 
 export default function Document() {
-  // Next.js Document does not receive router, but Next sets documentElement.lang at runtime.
-  // We can still default to en and set dir based on a heuristic via inline script early in Head.
   return (
-    <Html lang="en" dir="ltr">
+    <Html lang="en">
       <Head>
-        {/* Critical resource hints for performance */}
+        {/* Preconnect to external domains */}
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-        <link rel="dns-prefetch" href="https://www.google-analytics.com" />
         <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
+        <link rel="dns-prefetch" href="https://www.google-analytics.com" />
         
-        {/* Preload critical fonts for better LCP */}
+        {/* Preload critical fonts */}
         <link
           rel="preload"
-          href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
-          as="style"
+          href="/fonts/inter-v12-latin-regular.woff2"
+          as="font"
+          type="font/woff2"
+          crossOrigin="anonymous"
         />
         <link
-          href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
-          rel="stylesheet"
+          rel="preload"
+          href="/fonts/inter-v12-latin-600.woff2"
+          as="font"
+          type="font/woff2"
+          crossOrigin="anonymous"
         />
         
-        {/* Favicon and App Icons - optimize with smaller sizes */}
-        <link rel="icon" type="image/jpeg" href="/images/Rolls-Royce-car-icon.jpg" />
-        <link rel="apple-touch-icon" href="/images/Rolls-Royce-car-icon.jpg" />
-        <link rel="manifest" href="/manifest.json" />
-        
-        {/* Mobile App Meta Tags */}
-        <meta name="theme-color" content="#C4A570" />
-        <meta name="apple-mobile-web-app-capable" content="yes" />
-        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
-        <meta name="apple-mobile-web-app-title" content="RR Dubai" />
-        <meta name="mobile-web-app-capable" content="yes" />
-        
-        {/* SEO Meta Tags */}
-        <meta name="robots" content="index, follow" />
-        <meta name="googlebot" content="index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1" />
-        
-        {/* Open Graph / Facebook */}
-        <meta property="og:type" content="website" />
-        <meta property="og:site_name" content="Rolls-Royce Dubai Luxury Car Rental" />
-        
-        {/* Twitter */}
-        <meta property="twitter:card" content="summary_large_image" />
-        
-        {/* Structured Data for Local Business */}
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
-              "@context": "https://schema.org",
-              "@type": "LuxuryCarRental",
-              "name": "Rolls-Royce Dubai Luxury Car Rental",
-              "image": "https://rollsroycers.com/images/logo.jpg",
-              "telephone": "+971558164922",
-              "address": {
-                "@type": "PostalAddress",
-                "addressLocality": "Dubai",
-                "addressCountry": "AE"
-              },
-              "geo": {
-                "@type": "GeoCoordinates",
-                "latitude": 25.2048,
-                "longitude": 55.2708
-              },
-              "url": "https://rollsroycers.com",
-              "sameAs": [
-                "https://www.facebook.com/rollsroycers",
-                "https://www.instagram.com/rollsroycers",
-                "https://www.twitter.com/rollsroycers"
-              ],
-              "openingHoursSpecification": {
-                "@type": "OpeningHoursSpecification",
-                "dayOfWeek": [
-                  "Monday",
-                  "Tuesday",
-                  "Wednesday",
-                  "Thursday",
-                  "Friday",
-                  "Saturday",
-                  "Sunday"
-                ],
-                "opens": "00:00",
-                "closes": "23:59"
-              },
-              "priceRange": "$$$$$",
-              "servesCuisine": "Luxury Car Rental",
-              "acceptsReservations": true
-            })
-          }}
-        />
-
-        {/* Critical inline CSS for above-the-fold content */}
+        {/* Critical CSS - inline for fastest render */}
         <style
           dangerouslySetInnerHTML={{
             __html: `
-              /* Critical CSS for initial page load */
-              body {
+              /* Critical CSS for above-the-fold content */
+              * {
                 margin: 0;
                 padding: 0;
-                font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', sans-serif;
+                box-sizing: border-box;
+              }
+              
+              html {
+                font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+                line-height: 1.5;
+                -webkit-text-size-adjust: 100%;
                 -webkit-font-smoothing: antialiased;
                 -moz-osx-font-smoothing: grayscale;
               }
-              * {
-                box-sizing: border-box;
+              
+              body {
+                margin: 0;
+                padding: 0;
+                min-height: 100vh;
+                background: #ffffff;
+                color: #1a1a1a;
               }
-              /* Prevent layout shift from loading fonts */
-              .font-loading * {
-                transition: none !important;
+              
+              /* Hide elements until fonts load */
+              .fonts-loading {
+                opacity: 0;
               }
-            `
+              
+              .fonts-loaded {
+                opacity: 1;
+                transition: opacity 0.3s ease-in-out;
+              }
+              
+              /* Prevent layout shift */
+              img, video {
+                max-width: 100%;
+                height: auto;
+                display: block;
+              }
+              
+              /* Loading skeleton animation */
+              .skeleton {
+                animation: skeleton-loading 1s linear infinite alternate;
+              }
+              
+              @keyframes skeleton-loading {
+                0% {
+                  background-color: hsl(200, 20%, 80%);
+                }
+                100% {
+                  background-color: hsl(200, 20%, 95%);
+                }
+              }
+              
+              /* Reduce motion for accessibility */
+              @media (prefers-reduced-motion: reduce) {
+                *,
+                *::before,
+                *::after {
+                  animation-duration: 0.01ms !important;
+                  animation-iteration-count: 1 !important;
+                  transition-duration: 0.01ms !important;
+                  scroll-behavior: auto !important;
+                }
+              }
+            `,
           }}
         />
-
-        {/* Set initial html lang/dir as early as possible based on URL prefix */}
+        
+        {/* Load non-critical fonts asynchronously */}
+        <link
+          rel="preload"
+          as="style"
+          href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+        />
+        <noscript>
+          <link
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+          />
+        </noscript>
+        
+        {/* PWA manifest */}
+        <link rel="manifest" href="/manifest.json" />
+        
+        {/* Theme color for mobile browsers */}
+        <meta name="theme-color" content="#1a1a1a" />
+        
+        {/* Apple touch icon */}
+        <link rel="apple-touch-icon" href="/icon-192x192.png" />
+        
+        {/* Favicon */}
+        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+      </Head>
+      <body>
+        {/* Add performance mark */}
         <script
           dangerouslySetInnerHTML={{
             __html: `
-(function(){
-  try{
-    var path = location.pathname || '/';
-    var m = path.match(/^\/(en|ar|zh|fr|ru|hi)(?=\/|$)/);
-    var lang = m ? m[1] : 'en';
-    var dir = lang === 'ar' ? 'rtl' : 'ltr';
-    document.documentElement.setAttribute('lang', lang);
-    document.documentElement.setAttribute('dir', dir);
-    
-    // Add font-loading class
-    document.documentElement.classList.add('font-loading');
-    
-    // Remove font-loading class when fonts are loaded
-    if ('fonts' in document) {
-      Promise.all([
-        document.fonts.load('400 1em Inter'),
-        document.fonts.load('700 1em Inter')
-      ]).then(function() {
-        document.documentElement.classList.remove('font-loading');
-      });
-    }
-  }catch(e){}
-})();
-          `
+              // Mark the start of body parsing
+              if (window.performance && window.performance.mark) {
+                window.performance.mark('body-start');
+              }
+              
+              // Add JS enabled class immediately
+              document.documentElement.classList.add('js-enabled');
+              
+              // Detect webp support
+              function checkWebP(callback) {
+                var webP = new Image();
+                webP.onload = webP.onerror = function () {
+                  callback(webP.height == 2);
+                };
+                webP.src = "data:image/webp;base64,UklGRjoAAABXRUJQVlA4IC4AAACyAgCdASoCAAIALmk0mk0iIiIiIgBoSygABc6WWgAA/veff/0PP8bA//LwYAAA";
+              }
+              
+              checkWebP(function(support) {
+                if (support) {
+                  document.documentElement.classList.add('webp');
+                } else {
+                  document.documentElement.classList.add('no-webp');
+                }
+              });
+              
+              // Connection detection for adaptive loading
+              if ('connection' in navigator) {
+                const connection = navigator.connection || navigator.mozConnection || navigator.webkitConnection;
+                if (connection) {
+                  document.documentElement.setAttribute('data-connection', connection.effectiveType || '4g');
+                  if (connection.saveData) {
+                    document.documentElement.classList.add('save-data');
+                  }
+                }
+              }
+            `,
           }}
         />
-      </Head>
-      <body>
+        
         <Main />
         <NextScript />
         
-        {/* Defer non-critical scripts */}
-        {process.env.NODE_ENV === 'production' && (
-          <>
-            <script
-              defer
-              dangerouslySetInnerHTML={{
-                __html: `
-                  // Load StatCounter after page load
-                  window.addEventListener('load', function() {
-                    setTimeout(function() {
-                      var sc_project=13143252;
-                      var sc_invisible=1;
-                      var sc_security="e91ea536";
-                      var sc_text=2;
-                      var scJsHost = "https://www.statcounter.com/";
-                      var script = document.createElement('script');
-                      script.src = scJsHost + "counter/counter.js";
-                      script.async = true;
-                      document.body.appendChild(script);
-                    }, 3000); // Delay analytics by 3 seconds
+        {/* Defer loading of Google Analytics */}
+        <Script
+          id="google-analytics"
+          strategy="afterInteractive"
+          dangerouslySetInnerHTML={{
+            __html: `
+              // Only load GA in production
+              if (window.location.hostname !== 'localhost' && window.location.hostname !== '127.0.0.1') {
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+                gtag('js', new Date());
+                gtag('config', 'YOUR_GA_MEASUREMENT_ID', {
+                  page_path: window.location.pathname,
+                  send_page_view: true
+                });
+                
+                // Lazy load the GA script
+                var script = document.createElement('script');
+                script.async = true;
+                script.src = 'https://www.googletagmanager.com/gtag/js?id=YOUR_GA_MEASUREMENT_ID';
+                
+                // Use requestIdleCallback if available
+                if ('requestIdleCallback' in window) {
+                  requestIdleCallback(function() {
+                    document.head.appendChild(script);
+                  }, { timeout: 2000 });
+                } else {
+                  setTimeout(function() {
+                    document.head.appendChild(script);
+                  }, 2000);
+                }
+              }
+            `,
+          }}
+        />
+        
+        {/* Performance monitoring script */}
+        <Script
+          id="performance-monitoring"
+          strategy="afterInteractive"
+          dangerouslySetInnerHTML={{
+            __html: `
+              // Simple performance monitoring
+              window.addEventListener('load', function() {
+                if (window.performance && window.performance.timing) {
+                  var timing = window.performance.timing;
+                  var loadTime = timing.loadEventEnd - timing.navigationStart;
+                  var domContentLoaded = timing.domContentLoadedEventEnd - timing.navigationStart;
+                  var firstPaint = 0;
+                  
+                  // Get First Paint timing
+                  if (window.performance.getEntriesByType) {
+                    var paintEntries = window.performance.getEntriesByType('paint');
+                    if (paintEntries.length > 0) {
+                      paintEntries.forEach(function(entry) {
+                        if (entry.name === 'first-contentful-paint') {
+                          firstPaint = Math.round(entry.startTime);
+                        }
+                      });
+                    }
+                  }
+                  
+                  // Log performance metrics
+                  console.log('Performance Metrics:', {
+                    loadTime: loadTime + 'ms',
+                    domContentLoaded: domContentLoaded + 'ms',
+                    firstPaint: firstPaint + 'ms'
                   });
-                `,
-              }}
-            />
-            <noscript>
-              <div className="statcounter">
-                <a title="Web Analytics" href="https://statcounter.com/" target="_blank" rel="noopener noreferrer">
-                  <img
-                    className="statcounter"
-                    src="https://c.statcounter.com/13143252/0/e91ea536/1/"
-                    alt="Web Analytics"
-                    referrerPolicy="no-referrer-when-downgrade"
-                  />
-                </a>
-              </div>
-            </noscript>
-          </>
-        )}
+                  
+                  // Send to analytics if available
+                  if (window.gtag) {
+                    window.gtag('event', 'page_timing', {
+                      event_category: 'Performance',
+                      event_label: 'Load Time',
+                      value: loadTime,
+                      non_interaction: true
+                    });
+                  }
+                }
+              });
+            `,
+          }}
+        />
+        
+        {/* Resource hints for next navigation */}
+        <Script
+          id="resource-hints"
+          strategy="lazyOnload"
+          dangerouslySetInnerHTML={{
+            __html: `
+              // Prefetch resources for likely next navigation
+              document.addEventListener('DOMContentLoaded', function() {
+                // Find all internal links
+                var links = document.querySelectorAll('a[href^="/"]');
+                var prefetched = new Set();
+                
+                links.forEach(function(link) {
+                  link.addEventListener('mouseenter', function() {
+                    var href = link.getAttribute('href');
+                    if (href && !prefetched.has(href)) {
+                      // Create prefetch link
+                      var prefetchLink = document.createElement('link');
+                      prefetchLink.rel = 'prefetch';
+                      prefetchLink.href = href;
+                      document.head.appendChild(prefetchLink);
+                      prefetched.add(href);
+                    }
+                  }, { passive: true });
+                });
+              });
+            `,
+          }}
+        />
       </body>
     </Html>
   )
