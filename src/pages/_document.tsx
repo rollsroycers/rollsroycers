@@ -84,13 +84,7 @@ export default function Document() {
           }}
         />
         
-        {/* Load fonts properly with fallback */}
-        <link
-          rel="preload"
-          href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
-          as="style"
-          crossOrigin="anonymous"
-        />
+        {/* Load fonts properly with correct crossorigin */}
         <link
           rel="stylesheet"
           href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
@@ -111,131 +105,8 @@ export default function Document() {
         <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
       </Head>
       <body>
-        {/* Add performance mark */}
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `
-              // Mark the start of body parsing
-              if (window.performance && window.performance.mark) {
-                window.performance.mark('body-start');
-              }
-              
-              // Add JS enabled class immediately
-              document.documentElement.classList.add('js-enabled');
-              
-              // Detect webp support
-              function checkWebP(callback) {
-                var webP = new Image();
-                webP.onload = webP.onerror = function () {
-                  callback(webP.height == 2);
-                };
-                webP.src = "data:image/webp;base64,UklGRjoAAABXRUJQVlA4IC4AAACyAgCdASoCAAIALmk0mk0iIiIiIgBoSygABc6WWgAA/veff/0PP8bA//LwYAAA";
-              }
-              
-              checkWebP(function(support) {
-                if (support) {
-                  document.documentElement.classList.add('webp');
-                } else {
-                  document.documentElement.classList.add('no-webp');
-                }
-              });
-              
-              // Connection detection for adaptive loading
-              if ('connection' in navigator) {
-                const connection = navigator.connection || navigator.mozConnection || navigator.webkitConnection;
-                if (connection) {
-                  document.documentElement.setAttribute('data-connection', connection.effectiveType || '4g');
-                  if (connection.saveData) {
-                    document.documentElement.classList.add('save-data');
-                  }
-                }
-              }
-            `,
-          }}
-        />
-        
         <Main />
         <NextScript />
-        
-        {/* Defer loading of Google Analytics */}
-        
-        {/* Performance monitoring script */}
-        <Script
-          id="performance-monitoring"
-          strategy="afterInteractive"
-          dangerouslySetInnerHTML={{
-            __html: `
-              // Simple performance monitoring
-              window.addEventListener('load', function() {
-                if (window.performance && window.performance.timing) {
-                  var timing = window.performance.timing;
-                  var loadTime = timing.loadEventEnd - timing.navigationStart;
-                  var domContentLoaded = timing.domContentLoadedEventEnd - timing.navigationStart;
-                  var firstPaint = 0;
-                  
-                  // Get First Paint timing
-                  if (window.performance.getEntriesByType) {
-                    var paintEntries = window.performance.getEntriesByType('paint');
-                    if (paintEntries.length > 0) {
-                      paintEntries.forEach(function(entry) {
-                        if (entry.name === 'first-contentful-paint') {
-                          firstPaint = Math.round(entry.startTime);
-                        }
-                      });
-                    }
-                  }
-                  
-                  // Log performance metrics
-                  console.log('Performance Metrics:', {
-                    loadTime: loadTime + 'ms',
-                    domContentLoaded: domContentLoaded + 'ms',
-                    firstPaint: firstPaint + 'ms'
-                  });
-                  
-                  // Send to analytics if available
-                  if (window.gtag) {
-                    window.gtag('event', 'page_timing', {
-                      event_category: 'Performance',
-                      event_label: 'Load Time',
-                      value: loadTime,
-                      non_interaction: true
-                    });
-                  }
-                }
-              });
-            `,
-          }}
-        />
-        
-        {/* Resource hints for next navigation */}
-        <Script
-          id="resource-hints"
-          strategy="lazyOnload"
-          dangerouslySetInnerHTML={{
-            __html: `
-              // Prefetch resources for likely next navigation
-              document.addEventListener('DOMContentLoaded', function() {
-                // Find all internal links
-                var links = document.querySelectorAll('a[href^="/"]');
-                var prefetched = new Set();
-                
-                links.forEach(function(link) {
-                  link.addEventListener('mouseenter', function() {
-                    var href = link.getAttribute('href');
-                    if (href && !prefetched.has(href)) {
-                      // Create prefetch link
-                      var prefetchLink = document.createElement('link');
-                      prefetchLink.rel = 'prefetch';
-                      prefetchLink.href = href;
-                      document.head.appendChild(prefetchLink);
-                      prefetched.add(href);
-                    }
-                  }, { passive: true });
-                });
-              });
-            `,
-          }}
-        />
       </body>
     </Html>
   )

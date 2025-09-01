@@ -2,135 +2,27 @@ import '@/styles/globals.css'
 import type { AppProps } from 'next/app'
 import { appWithTranslation } from 'next-i18next'
 import { useRouter } from 'next/router'
-import { useEffect, useState } from 'react'
+import { useEffect } from 'react'
 
 function MyApp({ Component, pageProps }: AppProps) {
   const router = useRouter()
-  const [isClient, setIsClient] = useState(false)
-
-  // Set client-side flag
-  useEffect(() => {
-    setIsClient(true)
-  }, [])
 
   useEffect(() => {
-    // Set direction based on locale - only on client side
-    if (isClient && typeof window !== 'undefined' && document) {
-      const dir = router.locale === 'ar' ? 'rtl' : 'ltr'
-      const lang = router.locale || 'en'
-      
-      // Only update if different to prevent unnecessary DOM changes
-      if (document.documentElement.dir !== dir) {
-        document.documentElement.dir = dir
-      }
-      if (document.documentElement.lang !== lang) {
-        document.documentElement.lang = lang
-      }
-      
-      // Add performance class only if not already present
-      if (!document.documentElement.classList.contains('js-enabled')) {
-        document.documentElement.classList.add('js-enabled')
-      }
+    // Only run on client side to prevent hydration issues
+    if (typeof window === 'undefined') return
+
+    // Set direction based on locale
+    const dir = router.locale === 'ar' ? 'rtl' : 'ltr'
+    const lang = router.locale || 'en'
+    
+    // Update document direction and language
+    if (document.documentElement.dir !== dir) {
+      document.documentElement.dir = dir
     }
-  }, [router.locale, isClient])
-
-  useEffect(() => {
-    // Ensure we're on client side
-    if (!isClient || typeof window === 'undefined') return;
-
-    // Defer performance optimizations to not block initial render
-    const initPerformance = () => {
-      try {
-        // Simple performance initialization
-        if ('requestIdleCallback' in window) {
-          (window as any).requestIdleCallback(() => {
-            console.log('Performance optimizations initialized')
-            
-            // Report Web Vitals in production
-            if (process.env.NODE_ENV === 'production') {
-              const handleBeforeUnload = () => {
-                console.log('Page unloading - performance metrics collected')
-              }
-              window.addEventListener('beforeunload', handleBeforeUnload)
-              
-              // Cleanup function
-              return () => {
-                window.removeEventListener('beforeunload', handleBeforeUnload)
-              }
-            }
-          }, { timeout: 3000 })
-        }
-      } catch (error) {
-        console.warn('Performance initialization failed:', error)
-      }
+    if (document.documentElement.lang !== lang) {
+      document.documentElement.lang = lang
     }
-
-    initPerformance()
-
-    // Defer service worker registration
-    if ('serviceWorker' in navigator && process.env.NODE_ENV === 'production') {
-      const registerSW = async () => {
-        try {
-          const registration = await navigator.serviceWorker.register('/sw.js', {
-            scope: '/',
-            updateViaCache: 'none'
-          })
-          
-          console.log('Service Worker registered:', registration)
-          
-          // Check for updates periodically - store interval ID
-          let updateInterval: NodeJS.Timeout | null = null
-          
-          const startUpdateChecks = () => {
-            updateInterval = setInterval(() => {
-              if (registration) {
-                registration.update()
-              }
-            }, 60000) // Check every minute
-          }
-          
-          // Handle SW updates
-          const handleUpdateFound = () => {
-            const newWorker = registration.installing
-            if (newWorker) {
-              const handleStateChange = () => {
-                if (newWorker.state === 'installed' && navigator.serviceWorker.controller) {
-                  // New service worker available
-                  console.log('New service worker available. Please refresh.')
-                }
-              }
-              newWorker.addEventListener('statechange', handleStateChange)
-            }
-          }
-          
-          registration.addEventListener('updatefound', handleUpdateFound)
-          startUpdateChecks()
-          
-          // Clean up interval and listeners on page unload
-          const cleanup = () => {
-            if (updateInterval) {
-              clearInterval(updateInterval)
-            }
-            registration.removeEventListener('updatefound', handleUpdateFound)
-          }
-          
-          window.addEventListener('beforeunload', cleanup)
-          
-          // Return cleanup function for effect cleanup
-          return cleanup
-        } catch (error) {
-          console.error('Service Worker registration failed:', error)
-        }
-      }
-
-      // Wait longer before registering SW to prioritize page load
-      if ('requestIdleCallback' in window) {
-        (window as any).requestIdleCallback(registerSW, { timeout: 10000 })
-      } else {
-        setTimeout(registerSW, 10000) // Wait 10 seconds
-      }
-    }
-  }, [isClient])
+  }, [router.locale])
 
   return <Component {...pageProps} />
 }
