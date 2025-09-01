@@ -3613,6 +3613,37 @@
         "author": "Omar Al-Rashid",
         "date": "18 janvier 2025",
         "readTime": "8 min de lecture"
+      },
+      "first-time-dubai-luxury-guide": {
+        "title": "Première Fois à Dubaï? Votre Guide Complet des Voitures de Luxe 2025",
+        "description": "Le guide ultime pour les nouveaux visiteurs à Dubaï explorant la location de voitures de luxe",
+        "readTime": "18 min de lecture",
+        "category": "Guides",
+        "author": "Équipe Éditoriale",
+        "cta": {
+          "text": "Prêt à commencer votre aventure de luxe à Dubaï? Notre équipe d'experts est prête à vous associer à la Rolls-Royce parfaite pour votre première expérience à Dubaï.",
+          "buttonText": "Commencez Votre Voyage à Dubaï"
+        },
+        "sections": {
+          "whyDubai": "Pourquoi Dubaï est la Destination Ultime pour les Voitures de Luxe",
+          "first48Hours": "Vos Premières 48 Heures: Expériences Essentielles de Dubaï avec une Rolls-Royce",
+          "drivingGuide": "Guide du Débutant pour les Routes et la Conduite à Dubaï",
+          "culturalEtiquette": "Étiquette Culturelle pour les Locataires de Voitures de Luxe",
+          "mustVisit": "Destinations Incontournables pour Votre Expérience Rolls-Royce",
+          "diningDestinations": "Destinations Gastronomiques Qui Valent le Détour",
+          "shopping": "Shopping avec Style: Où Garer Votre Rolls-Royce",
+          "weatherConsiderations": "Considérations Météorologiques pour la Conduite de Luxe",
+          "photographySpots": "Spots Photo pour Votre Rolls-Royce",
+          "businessTravel": "Voyage d'Affaires: Faire une Impression",
+          "eveningEntertainment": "Divertissement du Soir et Vie Nocturne",
+          "dayTrips": "Excursions d'une Journée depuis Dubaï dans Votre Rolls-Royce",
+          "rentalPackages": "Comprendre les Forfaits de Location et les Prix",
+          "healthSafety": "Considérations de Santé et Sécurité",
+          "makingMemories": "Créer des Souvenirs: Au-delà de la Conduite",
+          "practicalTips": "Conseils Pratiques pour les Premiers Locataires de Luxe",
+          "rollsRoyceDifference": "La Différence Rolls-Royce: Pourquoi C'est Important",
+          "dubaiStory": "Votre Histoire de Dubaï Commence Ici"
+        }
       }
     },
     "pagination": {

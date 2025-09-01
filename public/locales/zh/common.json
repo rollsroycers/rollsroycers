@@ -3469,6 +3469,37 @@
         "author": "奥马尔·拉希德",
         "date": "2025年1月18日",
         "readTime": "8分钟阅读"
+      },
+      "first-time-dubai-luxury-guide": {
+        "title": "第一次来迪拜？您的2025年豪华汽车完整指南",
+        "description": "为第一次来迪拜的游客探索豪华汽车租赁的终极指南",
+        "readTime": "18分钟阅读",
+        "category": "指南",
+        "author": "编辑团队",
+        "cta": {
+          "text": "准备开始您的迪拜豪华冒险了吗？我们的专家团队已准备好为您的第一次迪拜体验匹配完美的劳斯莱斯。",
+          "buttonText": "开始您的迪拜之旅"
+        },
+        "sections": {
+          "whyDubai": "为什么迪拜是终极豪华汽车目的地",
+          "first48Hours": "您的前48小时：劳斯莱斯必备迪拜体验",
+          "drivingGuide": "迪拜道路和驾驶初学者指南",
+          "culturalEtiquette": "豪华汽车租户的文化礼仪",
+          "mustVisit": "劳斯莱斯体验必游目的地",
+          "diningDestinations": "值得驾驶前往的餐饮目的地",
+          "shopping": "时尚购物：在哪里停放您的劳斯莱斯",
+          "weatherConsiderations": "豪华驾驶的天气考虑",
+          "photographySpots": "劳斯莱斯摄影热点",
+          "businessTravel": "商务旅行：留下深刻印象",
+          "eveningEntertainment": "晚间娱乐和夜生活",
+          "dayTrips": "驾驶劳斯莱斯从迪拜出发的一日游",
+          "rentalPackages": "了解租赁套餐和定价",
+          "healthSafety": "健康与安全考虑",
+          "makingMemories": "创造回忆：驾驶之外",
+          "practicalTips": "首次豪华租赁者的实用技巧",
+          "rollsRoyceDifference": "劳斯莱斯差异：为什么重要",
+          "dubaiStory": "您的迪拜故事从这里开始"
+        }
       }
     },
     "pagination": {

@@ -127,5 +127,262 @@
     "book_phantom": "Réserver Rolls-Royce Phantom",
     "inquire_maybach": "Se Renseigner sur Maybach",
     "contact_us": "Contacter Nos Spécialistes"
+  },
+  "mercedes": {
+    "aspects": {
+      "overview": {
+        "name": "Vue d'ensemble"
+      },
+      "luxury": {
+        "name": "Luxe et Confort"
+      },
+      "performance": {
+        "name": "Performance"
+      },
+      "technology": {
+        "name": "Technologie"
+      },
+      "heritage": {
+        "name": "Héritage"
+      },
+      "rental": {
+        "name": "Expérience de Location"
+      }
+    },
+    "hero": {
+      "title": {
+        "rollsRoyce": "Louez Rolls-Royce",
+        "vs": "ou",
+        "mercedes": "Mercedes-Benz à Dubaï"
+      },
+      "subtitle": "Pourquoi la location de Rolls-Royce offre une expérience de luxe inégalée",
+      "exploreFleet": "Explorer Notre Flotte",
+      "bookNow": "Réserver Votre Expérience"
+    },
+    "overview": {
+      "rolls-royce": {
+        "title": "L'apogée du luxe sur mesure",
+        "points": [
+          "Excellence artisanale avec personnalisation illimitée",
+          "La marque automobile la plus prestigieuse au monde",
+          "Qualité de conduite inégalée avec Magic Carpet Ride",
+          "Symbole de réussite et d'accomplissement ultime"
+        ],
+        "summary": "Rolls-Royce se tient seule au sommet du luxe automobile."
+      },
+      "mercedes": {
+        "title": "Innovation de luxe pionnière",
+        "points": [
+          "Technologie avancée intégrée au luxe raffiné",
+          "Gamme de modèles plus large, de l'exécutif à l'ultra-luxe",
+          "Fonctions de sécurité et d'innovation leaders du secteur",
+          "Équilibre parfait entre performance et confort"
+        ],
+        "summary": "Mercedes-Benz combine l'ingénierie allemande avec le luxe moderne."
+      }
+    },
+    "luxury": {
+      "rolls-royce": {
+        "title": "Artisanat artisanal",
+        "points": [
+          "Cuir cousu main provenant de tanneries européennes exclusives",
+          "Ciel étoilé avec jusqu'à 1 600 lumières à fibre optique",
+          "Placages de bois sur mesure assortis d'arbres uniques",
+          "Fonction Gallery transformant le tableau de bord en espace artistique"
+        ],
+        "summary": "Chaque intérieur Rolls-Royce est un chef-d'œuvre sur mesure."
+      },
+      "mercedes": {
+        "title": "Luxe moderne sophistiqué",
+        "points": [
+          "Assistant intérieur MBUX avec contrôle gestuel",
+          "Confort énergisant avec massage et aromathérapie",
+          "Systèmes audio surround Burmester 4D",
+          "Pack siège arrière exécutif avec sièges inclinables"
+        ],
+        "summary": "Mercedes-Benz offre un luxe de pointe avec une technologie avancée."
+      }
+    },
+    "performance": {
+      "rolls-royce": {
+        "title": "Fluidité sans effort",
+        "points": [
+          "Moteurs V12 bi-turbo avec livraison de puissance transparente",
+          "Accent sur le silence et la douceur plutôt que la vitesse",
+          "Transmission assistée par satellite pour les changements prédictifs",
+          "Suspension pneumatique avec technologie de balayage routier"
+        ],
+        "summary": "Rolls-Royce privilégie une progression sereine et sans effort."
+      },
+      "mercedes": {
+        "title": "Excellence de performance dynamique",
+        "points": [
+          "Variantes AMG avec capacités de performance exceptionnelles",
+          "Technologie hybride légère EQ Boost pour l'efficacité",
+          "Transmission intégrale 4MATIC pour une traction supérieure",
+          "Plusieurs modes de conduite du confort au sport+"
+        ],
+        "summary": "Mercedes-Benz offre des options de performance polyvalentes."
+      }
+    },
+    "technology": {
+      "rolls-royce": {
+        "title": "Innovation discrète",
+        "points": [
+          "Technologie intégrée de manière transparente derrière un design classique",
+          "Système audio sur mesure réglé individuellement pour chaque voiture",
+          "Vision nocturne avec avertissement faune et piétons",
+          "Spirit of Ecstasy se rétracte automatiquement pour la sécurité"
+        ],
+        "summary": "Rolls-Royce intègre la technologie de manière invisible."
+      },
+      "mercedes": {
+        "title": "Leadership technologique",
+        "points": [
+          "MBUX Hyperscreen avec personnalisation alimentée par l'IA",
+          "Capacités de conduite autonome de niveau 3",
+          "Affichage de navigation en réalité augmentée",
+          "Mises à jour over-the-air pour une amélioration continue"
+        ],
+        "summary": "Mercedes-Benz mène l'innovation technologique automobile."
+      }
+    },
+    "heritage": {
+      "rolls-royce": {
+        "title": "120 ans de perfection",
+        "points": [
+          "Fondée en 1904 avec un engagement envers l'excellence",
+          "Fournisseur de la royauté et des dirigeants mondiaux",
+          "Spirit of Ecstasy - le symbole automobile le plus emblématique",
+          "Chaque voiture encore fabriquée à la main à Goodwood, Angleterre"
+        ],
+        "summary": "Rolls-Royce représente une tradition ininterrompue d'excellence."
+      },
+      "mercedes": {
+        "title": "Inventeur de l'automobile",
+        "points": [
+          "Karl Benz a créé la première automobile en 1886",
+          "Pionnier d'innombrables innovations automobiles",
+          "L'étoile à trois branches symbolise la motorisation universelle",
+          "Domination constante en Formule 1 démontrant l'excellence"
+        ],
+        "summary": "Mercedes-Benz a inventé l'automobile et continue de façonner son avenir."
+      }
+    },
+    "rental": {
+      "rolls-royce": {
+        "title": "Expérience de location ultime",
+        "points": [
+          "Chauffeur professionnel inclus avec chaque location",
+          "Tarifs journaliers à partir de 3 500 AED avec service tout compris",
+          "Carburant gratuit, assurance et conciergerie 24h/24 7j/7",
+          "Parfait pour mariages, événements corporatifs et occasions VIP"
+        ],
+        "summary": "La location Rolls-Royce offre une expérience de luxe inégalée avec un service complet en gants blancs."
+      },
+      "mercedes": {
+        "title": "Location de luxe standard",
+        "points": [
+          "Options d'auto-conduite à partir de 1 200 AED par jour",
+          "Couverture d'assurance de base incluse",
+          "Disponibilité limitée du chauffeur",
+          "Convient aux réunions d'affaires et aux transferts d'aéroport"
+        ],
+        "summary": "La location Mercedes offre un bon rapport qualité-prix mais manque des services exclusifs de Rolls-Royce."
+      }
+    },
+    "detailed": {
+      "comparison": "Comparaison",
+      "rollsRoyce": "Rolls-Royce",
+      "mercedes": "Mercedes-Benz"
+    },
+    "models": {
+      "flagship": {
+        "rollsRoyce": {
+          "model": "Rolls-Royce Phantom",
+          "price": "5 800 AED/jour",
+          "type": "Expérience phare ultime"
+        },
+        "mercedes": {
+          "model": "Mercedes-Maybach S680",
+          "price": "2 500 AED/jour",
+          "type": "Luxe exécutif"
+        }
+      },
+      "executive": {
+        "rollsRoyce": {
+          "model": "Rolls-Royce Ghost",
+          "price": "3 800 AED/jour",
+          "type": "Excellence d'affaires"
+        },
+        "mercedes": {
+          "model": "Mercedes Classe S",
+          "price": "1 200 AED/jour",
+          "type": "Standard d'entreprise"
+        }
+      },
+      "suv": {
+        "rollsRoyce": {
+          "model": "Rolls-Royce Cullinan",
+          "price": "4 500 AED/jour",
+          "type": "Aventure de luxe"
+        },
+        "mercedes": {
+          "model": "Mercedes-Maybach GLS",
+          "price": "1 800 AED/jour",
+          "type": "Luxe familial"
+        }
+      }
+    },
+    "modelComparison": {
+      "title": "Comparaison modèle par modèle"
+    },
+    "whyRent": {
+      "title": "Pourquoi louer Rolls-Royce plutôt que Mercedes?",
+      "chauffeur": {
+        "title": "Chauffeur professionnel",
+        "desc": "Chaque location Rolls-Royce comprend un chauffeur professionnel formé. Les locations Mercedes facturent souvent un supplément."
+      },
+      "experience": {
+        "title": "Expérience VIP",
+        "desc": "Service tapis rouge, accueil à l'aéroport et attention personnalisée que les locations Mercedes ne peuvent égaler."
+      },
+      "prestige": {
+        "title": "Prestige ultime",
+        "desc": "Arrivez en Rolls-Royce et laissez une impression inoubliable. Mercedes est courante, Rolls-Royce est extraordinaire."
+      }
+    },
+    "packages": {
+      "rollsRoyce": {
+        "title": "Forfait tout compris Rolls-Royce",
+        "p1": "Chauffeur professionnel en uniforme",
+        "p2": "Carburant illimité inclus",
+        "p3": "Couverture d'assurance complète",
+        "p4": "Service de conciergerie 24h/24 7j/7",
+        "p5": "Rafraîchissements gratuits",
+        "p6": "Service tapis rouge pour événements",
+        "price": "À partir de 3 500 AED/jour",
+        "cta": "Réserver Rolls-Royce maintenant"
+      },
+      "mercedes": {
+        "title": "Location Mercedes de base",
+        "p1": "Auto-conduite ou chauffeur (coût supplémentaire)",
+        "p2": "Frais de carburant supplémentaires",
+        "p3": "Assurance de base uniquement",
+        "p4": "Heures de support limitées",
+        "p5": "Pas d'extras gratuits",
+        "p6": "Service standard uniquement",
+        "price": "À partir de 1 200 AED/jour",
+        "cta": "Service limité"
+      }
+    },
+    "finalCta": {
+      "title": "Vivez le vrai luxe avec Rolls-Royce Dubaï",
+      "subtitle": "Ne vous contentez pas de l'ordinaire. Choisissez Rolls-Royce pour vos occasions spéciales, événements corporatifs et expériences VIP à Dubaï.",
+      "offer": "Offre spéciale : Réservez 3+ jours et obtenez 10% de réduction",
+      "callNow": "Appelez maintenant pour une réservation instantanée",
+      "viewFleet": "Voir la flotte Rolls-Royce",
+      "bookNow": "Réservez votre Rolls-Royce"
+    }
   }
 }

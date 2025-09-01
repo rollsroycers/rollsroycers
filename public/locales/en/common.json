@@ -4080,6 +4080,37 @@
         "author": "Omar Al-Rashid",
         "date": "January 18, 2025",
         "readTime": "8 min read"
+      },
+      "first-time-dubai-luxury-guide": {
+        "title": "First Time in Dubai? Your Complete Luxury Car Guide 2025",
+        "description": "The ultimate guide for first-time visitors to Dubai exploring luxury car rentals",
+        "readTime": "18 min read",
+        "category": "Guides",
+        "author": "Editorial Team",
+        "cta": {
+          "text": "Ready to begin your Dubai luxury adventure? Our expert team is ready to match you with the perfect Rolls-Royce for your first Dubai experience.",
+          "buttonText": "Start Your Dubai Journey"
+        },
+        "sections": {
+          "whyDubai": "Why Dubai is the Ultimate Luxury Car Destination",
+          "first48Hours": "Your First 48 Hours: Essential Dubai Experiences with a Rolls-Royce",
+          "drivingGuide": "First-Timer's Guide to Dubai Roads and Driving",
+          "culturalEtiquette": "Cultural Etiquette for Luxury Car Renters",
+          "mustVisit": "Must-Visit Destinations for Your Rolls-Royce Experience",
+          "diningDestinations": "Dining Destinations Worth the Drive",
+          "shopping": "Shopping in Style: Where to Park Your Rolls-Royce",
+          "weatherConsiderations": "Weather Considerations for Luxury Driving",
+          "photographySpots": "Photography Hotspots for Your Rolls-Royce",
+          "businessTravel": "Business Travel: Making an Impression",
+          "eveningEntertainment": "Evening Entertainment and Nightlife",
+          "dayTrips": "Day Trips from Dubai in Your Rolls-Royce",
+          "rentalPackages": "Understanding Rental Packages and Pricing",
+          "healthSafety": "Health and Safety Considerations",
+          "makingMemories": "Making Memories: Beyond the Drive",
+          "practicalTips": "Practical Tips for First-Time Luxury Renters",
+          "rollsRoyceDifference": "The Rolls-Royce Difference: Why It Matters",
+          "dubaiStory": "Your Dubai Story Starts Here"
+        }
       }
     },
     "pagination": {
