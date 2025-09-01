@@ -3,7 +3,10 @@ const { i18n } = require('./next-i18next.config')
 
 const nextConfig = {
   reactStrictMode: true,
-  i18n,
+  i18n: {
+    ...i18n,
+    localeDetection: false, // Disable automatic locale detection to avoid 307 redirects
+  },
   
   // Compiler options for modern JavaScript features
   compiler: {

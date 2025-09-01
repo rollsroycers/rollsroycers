@@ -321,7 +321,7 @@ export default function PricingPage() {
                     </ul>
                     
                     <Link href={`/fleet/${vehicle.model.toLowerCase()}`} className="btn-primary w-full text-center">
-                      View Details & Book
+                      View {vehicle.model} Details & Book Now
                     </Link>
                   </div>
                 </motion.div>

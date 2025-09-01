@@ -67,20 +67,28 @@ export default function SEO({ pageKey, title: titleProp, description: descriptio
   // Strip query/hash from asPath for safety
   const cleanPath = (router.asPath || '/').split('#')[0].split('?')[0]
 
-  // Compute canonical path without forcing default locale prefix
+  // Compute canonical path - English (default) has no prefix, other languages have prefix
   const canonicalPath = (() => {
+    // Remove any existing locale prefix first
+    const pathWithoutAnyLocale = cleanPath
+      .replace(/^\/en(?=\/|$)/, '')
+      .replace(/^\/ar(?=\/|$)/, '')
+      .replace(/^\/zh(?=\/|$)/, '')
+      .replace(/^\/fr(?=\/|$)/, '')
+      .replace(/^\/ru(?=\/|$)/, '')
+      .replace(/^\/hi(?=\/|$)/, '') || '/'
+    
+    // Only add locale prefix for non-English languages
     if (locale && locale !== defaultLocale) {
-      // Ensure the path includes the locale prefix exactly once
-      const pathWithoutLeadingLocale = cleanPath.replace(new RegExp(`^/${locale}(?=/|$)`), '')
-      return `/${locale}${pathWithoutLeadingLocale === '/' ? '' : pathWithoutLeadingLocale}` || '/'
+      return `/${locale}${pathWithoutAnyLocale === '/' ? '' : pathWithoutAnyLocale}`
     }
-    // Default locale: ensure we DO NOT prefix with /en
-    return cleanPath.replace(/^\/en(?=\/|$)/, '') || '/'
+    // English (default) gets no prefix
+    return pathWithoutAnyLocale
   })()
 
   const canonicalUrl = `${baseUrl}${canonicalPath}`
 
-  // Alternate language URLs. Default locale has no prefix
+  // Alternate language URLs - English has no prefix, other languages have prefix
   const languages = ['en', 'ar', 'zh', 'fr', 'ru', 'hi']
   const buildLangUrl = (lang: string) => {
     const pathWithoutAnyLocale = cleanPath
@@ -90,8 +98,9 @@ export default function SEO({ pageKey, title: titleProp, description: descriptio
       .replace(/^\/fr(?=\/|$)/, '')
       .replace(/^\/ru(?=\/|$)/, '')
       .replace(/^\/hi(?=\/|$)/, '') || '/'
+    // Only non-English languages get locale prefix
     const prefix = lang === defaultLocale ? '' : `/${lang}`
-    return `${baseUrl}${prefix}${pathWithoutAnyLocale === '/' ? '' : pathWithoutAnyLocale}` || `${baseUrl}/`
+    return `${baseUrl}${prefix}${pathWithoutAnyLocale === '/' ? '' : pathWithoutAnyLocale}`
   }
 
   const alternateUrls = languages.map(lang => ({ lang, url: buildLangUrl(lang) }))
@@ -310,7 +319,7 @@ export default function SEO({ pageKey, title: titleProp, description: descriptio
           href={url}
         />
       ))}
-      {/* x-default should point to the default-locale URL (without locale prefix) */}
+      {/* x-default should point to the English version (without prefix) */}
       <link rel="alternate" hrefLang="x-default" href={buildLangUrl(defaultLocale)} />
       
       {/* Open Graph / Facebook */}

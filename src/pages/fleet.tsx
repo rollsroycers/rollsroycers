@@ -347,17 +347,17 @@ export default function FleetPage() {
 
                     {/* Action Buttons */}
                     <div className="flex gap-3">
-                      <Link 
+                      <Link
                         href={vehicle.href}
                         className="flex-1 bg-rolls-gold text-rolls-black text-center py-3 px-4 rounded-lg font-semibold hover:bg-white transition-colors"
                       >
-                        {t('fleet:learn_more')}
+                        View {vehicle.name} Details
                       </Link>
                       <a
                         {...createWhatsAppLinkProps(vehicle.id as any)}
                         className="flex-1 bg-transparent border border-rolls-gold text-rolls-gold text-center py-3 px-4 rounded-lg font-semibold hover:bg-rolls-gold hover:text-rolls-black transition-colors"
                       >
-                        {t('fleet:rent_now')}
+                        Rent {vehicle.name} Now
                       </a>
                     </div>
                   </div>
