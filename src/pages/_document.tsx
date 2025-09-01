@@ -6,14 +6,25 @@ export default function Document() {
   return (
     <Html lang="en" dir="ltr">
       <Head>
-        {/* Preconnect to external domains for faster loading */}
+        {/* Critical resource hints for performance */}
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link rel="dns-prefetch" href="https://www.google-analytics.com" />
         <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
         
-        {/* Favicon and App Icons */}
-        <link rel="icon" href="/images/Rolls-Royce-car-icon.jpg" />
+        {/* Preload critical fonts for better LCP */}
+        <link
+          rel="preload"
+          href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+          as="style"
+        />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+          rel="stylesheet"
+        />
+        
+        {/* Favicon and App Icons - optimize with smaller sizes */}
+        <link rel="icon" type="image/jpeg" href="/images/Rolls-Royce-car-icon.jpg" />
         <link rel="apple-touch-icon" href="/images/Rolls-Royce-car-icon.jpg" />
         <link rel="manifest" href="/manifest.json" />
         
@@ -82,6 +93,29 @@ export default function Document() {
           }}
         />
 
+        {/* Critical inline CSS for above-the-fold content */}
+        <style
+          dangerouslySetInnerHTML={{
+            __html: `
+              /* Critical CSS for initial page load */
+              body {
+                margin: 0;
+                padding: 0;
+                font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', sans-serif;
+                -webkit-font-smoothing: antialiased;
+                -moz-osx-font-smoothing: grayscale;
+              }
+              * {
+                box-sizing: border-box;
+              }
+              /* Prevent layout shift from loading fonts */
+              .font-loading * {
+                transition: none !important;
+              }
+            `
+          }}
+        />
+
         {/* Set initial html lang/dir as early as possible based on URL prefix */}
         <script
           dangerouslySetInnerHTML={{
@@ -94,6 +128,19 @@ export default function Document() {
     var dir = lang === 'ar' ? 'rtl' : 'ltr';
     document.documentElement.setAttribute('lang', lang);
     document.documentElement.setAttribute('dir', dir);
+    
+    // Add font-loading class
+    document.documentElement.classList.add('font-loading');
+    
+    // Remove font-loading class when fonts are loaded
+    if ('fonts' in document) {
+      Promise.all([
+        document.fonts.load('400 1em Inter'),
+        document.fonts.load('700 1em Inter')
+      ]).then(function() {
+        document.documentElement.classList.remove('font-loading');
+      });
+    }
   }catch(e){}
 })();
           `
@@ -104,18 +151,27 @@ export default function Document() {
         <Main />
         <NextScript />
         
-        {/* StatCounter Analytics - Development Disabled */}
+        {/* Defer non-critical scripts */}
         {process.env.NODE_ENV === 'production' && (
           <>
             <script
+              defer
               dangerouslySetInnerHTML={{
                 __html: `
-                  var sc_project=13143252;
-                  var sc_invisible=1;
-                  var sc_security="e91ea536";
-                  var sc_text=2;
-                  var scJsHost = "https://www.statcounter.com/";
-                  document.write("<sc"+"ript src='" + scJsHost + "counter/counter.js'></"+"script>");
+                  // Load StatCounter after page load
+                  window.addEventListener('load', function() {
+                    setTimeout(function() {
+                      var sc_project=13143252;
+                      var sc_invisible=1;
+                      var sc_security="e91ea536";
+                      var sc_text=2;
+                      var scJsHost = "https://www.statcounter.com/";
+                      var script = document.createElement('script');
+                      script.src = scJsHost + "counter/counter.js";
+                      script.async = true;
+                      document.body.appendChild(script);
+                    }, 3000); // Delay analytics by 3 seconds
+                  });
                 `,
               }}
             />
