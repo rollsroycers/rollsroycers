@@ -21,28 +21,20 @@ const nextConfig = {
     styledComponents: false,
   },
   
-  // Experimental features for modern JS
+  // Temporarily disable experimental features to debug runtime issues
   experimental: {
-    // Enable CSS optimization
-    optimizeCss: true,
-    scrollRestoration: true,
-    // Reduce JavaScript payload
-    optimizePackageImports: [
-      'framer-motion',
-      'swiper',
-      'react-intersection-observer'
-    ],
+    // All experimental features disabled for debugging
   },
   
-  // Enable modular imports for libraries
-  modularizeImports: {
-    'framer-motion': {
-      transform: 'framer-motion/{{member}}',
-    },
-    'lodash': {
-      transform: 'lodash/{{member}}',
-    },
-  },
+  // Temporarily disable modular imports for debugging
+  // modularizeImports: {
+  //   'framer-motion': {
+  //     transform: 'framer-motion/{{member}}',
+  //   },
+  //   'lodash': {
+  //     transform: 'lodash/{{member}}',
+  //   },
+  // },
   
   // Image optimization with lazy loading by default
   images: {
@@ -259,92 +251,32 @@ const nextConfig = {
         // Add ModuleConcatenationPlugin for better tree shaking
         config.plugins.push(new webpack.optimize.ModuleConcatenationPlugin())
         
+        // Simplified optimization to prevent runtime chunk errors
         config.optimization = {
           ...config.optimization,
           minimize: true,
-          runtimeChunk: 'single',
+          runtimeChunk: false, // Disable runtime chunk splitting temporarily
           moduleIds: 'deterministic',
           usedExports: true,
           sideEffects: false,
-          mangleExports: false,
           splitChunks: {
             chunks: 'all',
-            maxAsyncRequests: 30,
-            maxInitialRequests: 30,
-            minSize: 20000,
-            maxSize: 244000, // Split chunks larger than 244KB
+            maxAsyncRequests: 10,
+            maxInitialRequests: 10,
+            minSize: 50000,
             cacheGroups: {
               default: false,
-              vendors: false,
-              // React framework
-              framework: {
-                name: 'framework',
+              vendors: {
+                test: /[\\/]node_modules[\\/]/,
+                name: 'vendors',
                 chunks: 'all',
-                test: /[\\/]node_modules[\\/](react|react-dom|scheduler|prop-types|use-subscription)[\\/]/,
-                priority: 50,
-                enforce: true,
+                priority: 20,
                 reuseExistingChunk: true,
               },
-              // Next.js internals
-              nextjs: {
-                name: 'nextjs',
-                chunks: 'all',
-                test: /[\\/]node_modules[\\/](next|@next)[\\/]/,
-                priority: 45,
-                enforce: true,
-                reuseExistingChunk: true,
-              },
-              // i18n libraries
-              i18n: {
-                name: 'i18n',
-                test: /[\\/]node_modules[\\/](next-i18next|react-i18next|i18next)[\\/]/,
-                chunks: 'all',
-                priority: 40,
-                reuseExistingChunk: true,
-              },
-              // Animation libraries (load on demand)
-              animations: {
-                name: 'animations',
-                test: /[\\/]node_modules[\\/](framer-motion)[\\/]/,
-                chunks: 'async',
-                priority: 35,
-                reuseExistingChunk: true,
-              },
-              // Swiper (load on demand)
-              swiper: {
-                name: 'swiper',
-                test: /[\\/]node_modules[\\/](swiper)[\\/]/,
-                chunks: 'async',
-                priority: 35,
-                reuseExistingChunk: true,
-              },
-              // Polyfills
-              polyfills: {
-                name: 'polyfills',
-                test: /[\\/]node_modules[\\/](core-js|regenerator-runtime)[\\/]/,
-                chunks: 'all',
-                priority: 60,
-                reuseExistingChunk: true,
-              },
-              // Common modules
               commons: {
                 name: 'commons',
                 chunks: 'all',
                 minChunks: 2,
-                priority: 20,
-                reuseExistingChunk: true,
-              },
-              // Vendor libraries
-              vendor: {
-                test: /[\\/]node_modules[\\/]/,
-                name(module) {
-                  // Get the package name safely
-                  const match = module.context && module.context.match(/[\\/]node_modules[\\/](.*?)([\\/]|$)/);
-                  const packageName = match ? match[1] : 'vendor';
-                  // Create a vendor chunk per package
-                  return `vendor-${packageName.replace('@', '')}`;
-                },
-                chunks: 'all',
                 priority: 10,
                 reuseExistingChunk: true,
               },
