@@ -202,5 +202,86 @@
     "aed": "AED",
     "perDay": "/day",
     "rentNow": "RENT NOW"
+  },
+  "phantom": {
+    "name": "Rolls-Royce Phantom",
+    "tagline": "The Pinnacle of Luxury",
+    "description": "Experience automotive perfection with the flagship Rolls-Royce Phantom",
+    "longDescription": "The Rolls-Royce Phantom stands as the ultimate expression of luxury motoring. With its commanding presence, unparalleled craftsmanship, and revolutionary technology, the Phantom offers an experience that transcends mere transportation. Every journey becomes a celebration of success and refinement.",
+    "features": [
+      {
+        "title": "Magic Carpet Ride",
+        "desc": "Revolutionary suspension system for otherworldly comfort",
+        "icon": "🎯"
+      },
+      {
+        "title": "Starlight Headliner",
+        "desc": "1,340 fiber optic lights create your personal night sky",
+        "icon": "✨"
+      },
+      {
+        "title": "The Gallery",
+        "desc": "Bespoke artwork space across the dashboard",
+        "icon": "🎨"
+      },
+      {
+        "title": "Whisper Quiet",
+        "desc": "World's quietest car with 130kg of sound insulation",
+        "icon": "🔇"
+      },
+      {
+        "title": "Extended Wheelbase",
+        "desc": "Ultimate rear passenger space and comfort",
+        "icon": "📏"
+      },
+      {
+        "title": "Bespoke Audio",
+        "desc": "18-speaker system tuned to perfection",
+        "icon": "🎵"
+      },
+      {
+        "title": "Champagne Cooler",
+        "desc": "Integrated cooling for your celebrations",
+        "icon": "🍾"
+      },
+      {
+        "title": "Privacy Suite",
+        "desc": "Electrochromatic glass for instant privacy",
+        "icon": "🔒"
+      }
+    ],
+    "specs": {
+      "engine": "6.75L V12 Twin-Turbo",
+      "power": "563 HP",
+      "torque": "900 Nm",
+      "acceleration": "0-100 km/h in 5.4s",
+      "topSpeed": "250 km/h",
+      "transmission": "8-Speed Automatic",
+      "seats": "5 Passengers",
+      "luggage": "548 Liters",
+      "fuelType": "Premium Petrol",
+      "wheelbase": "3,772mm (Extended)",
+      "length": "5,982mm",
+      "features": "Starlight, Gallery, Champagne Cooler"
+    },
+    "whyChoose": {
+      "title": "Why Choose Phantom?",
+      "reasons": [
+        "Unmatched presence and prestige",
+        "Revolutionary comfort technology",
+        "Bespoke craftsmanship",
+        "Perfect for special occasions",
+        "Professional chauffeur included",
+        "24/7 concierge support"
+      ]
+    },
+    "idealFor": [
+      "Weddings & Celebrations",
+      "Corporate Events",
+      "Airport Transfers",
+      "City Tours",
+      "Photoshoots",
+      "Special Occasions"
+    ]
   }
 }
