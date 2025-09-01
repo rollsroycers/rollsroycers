@@ -4,6 +4,28 @@ import type { NextRequest } from 'next/server'
 export function middleware(request: NextRequest) {
   const hostname = request.headers.get('host') || 'rollsroycers.com'
   
+  // Create response early to add headers
+  const response = NextResponse.next()
+  
+  // Add proper Content-Security-Policy header
+  const cspHeader = [
+    "default-src 'self'",
+    "script-src 'self' 'unsafe-inline' 'unsafe-eval' https://www.googletagmanager.com https://www.google-analytics.com",
+    "style-src 'self' 'unsafe-inline' https://fonts.googleapis.com",
+    "img-src 'self' data: https: blob:",
+    "font-src 'self' https://fonts.gstatic.com",
+    "connect-src 'self' https://www.google-analytics.com https://www.googletagmanager.com",
+    "frame-src 'self'",
+    "media-src 'self'",
+    "object-src 'none'",
+    "base-uri 'self'",
+    "form-action 'self'",
+    "frame-ancestors 'none'",
+    "upgrade-insecure-requests"
+  ].join('; ')
+  
+  response.headers.set('Content-Security-Policy', cspHeader)
+  
   // Only handle www to non-www redirect (avoid complex locale redirects)
   if (hostname.startsWith('www.')) {
     const newUrl = new URL(request.url)
@@ -21,8 +43,8 @@ export function middleware(request: NextRequest) {
   // DO NOT handle /en redirects - let Next.js i18n handle it
   // This prevents redirect loops
   
-  // Just pass through all other requests
-  return NextResponse.next()
+  // Return response with headers
+  return response
 }
 
 export const config = {

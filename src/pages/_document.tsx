@@ -84,18 +84,11 @@ export default function Document() {
           }}
         />
         
-        {/* Load non-critical fonts asynchronously */}
+        {/* Load fonts properly */}
         <link
-          rel="preload"
-          as="style"
+          rel="stylesheet"
           href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
         />
-        <noscript>
-          <link
-            rel="stylesheet"
-            href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
-          />
-        </noscript>
         
         {/* PWA manifest */}
         <link rel="manifest" href="/manifest.json" />
@@ -159,40 +152,6 @@ export default function Document() {
         <NextScript />
         
         {/* Defer loading of Google Analytics */}
-        <Script
-          id="google-analytics"
-          strategy="afterInteractive"
-          dangerouslySetInnerHTML={{
-            __html: `
-              // Only load GA in production
-              if (window.location.hostname !== 'localhost' && window.location.hostname !== '127.0.0.1') {
-                window.dataLayer = window.dataLayer || [];
-                function gtag(){dataLayer.push(arguments);}
-                gtag('js', new Date());
-                gtag('config', 'YOUR_GA_MEASUREMENT_ID', {
-                  page_path: window.location.pathname,
-                  send_page_view: true
-                });
-                
-                // Lazy load the GA script
-                var script = document.createElement('script');
-                script.async = true;
-                script.src = 'https://www.googletagmanager.com/gtag/js?id=YOUR_GA_MEASUREMENT_ID';
-                
-                // Use requestIdleCallback if available
-                if ('requestIdleCallback' in window) {
-                  requestIdleCallback(function() {
-                    document.head.appendChild(script);
-                  }, { timeout: 2000 });
-                } else {
-                  setTimeout(function() {
-                    document.head.appendChild(script);
-                  }, 2000);
-                }
-              }
-            `,
-          }}
-        />
         
         {/* Performance monitoring script */}
         <Script

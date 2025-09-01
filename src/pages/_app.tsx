@@ -2,34 +2,31 @@ import '@/styles/globals.css'
 import type { AppProps } from 'next/app'
 import { appWithTranslation } from 'next-i18next'
 import { useRouter } from 'next/router'
-import { useEffect, useState } from 'react'
+import { useEffect } from 'react'
 
 function MyApp({ Component, pageProps }: AppProps) {
   const router = useRouter()
-  const [mounted, setMounted] = useState(false)
-
-  // Handle mounting state
-  useEffect(() => {
-    setMounted(true)
-  }, [])
 
   useEffect(() => {
-    // Set direction based on locale
-    document.documentElement.dir = router.locale === 'ar' ? 'rtl' : 'ltr'
-    document.documentElement.lang = router.locale || 'en'
-    
-    // Add performance class
-    document.documentElement.classList.add('js-enabled')
+    // Set direction based on locale - only on client side
+    if (typeof window !== 'undefined') {
+      document.documentElement.dir = router.locale === 'ar' ? 'rtl' : 'ltr'
+      document.documentElement.lang = router.locale || 'en'
+      
+      // Add performance class
+      document.documentElement.classList.add('js-enabled')
+    }
   }, [router.locale])
 
   useEffect(() => {
-    if (!mounted) return;
+    // Ensure we're on client side
+    if (typeof window === 'undefined') return;
 
     // Defer performance optimizations to not block initial render
     const initPerformance = () => {
       // Simple performance initialization
       if ('requestIdleCallback' in window) {
-        window.requestIdleCallback(() => {
+        (window as any).requestIdleCallback(() => {
           console.log('Performance optimizations initialized')
           
           // Report Web Vitals in production
@@ -56,7 +53,7 @@ function MyApp({ Component, pageProps }: AppProps) {
           console.log('Service Worker registered:', registration)
           
           // Check for updates periodically
-          setInterval(() => {
+          const updateInterval = setInterval(() => {
             registration.update()
           }, 60000) // Check every minute
           
@@ -72,6 +69,11 @@ function MyApp({ Component, pageProps }: AppProps) {
               })
             }
           })
+          
+          // Clean up interval on page unload
+          window.addEventListener('beforeunload', () => {
+            clearInterval(updateInterval)
+          })
         } catch (error) {
           console.error('Service Worker registration failed:', error)
         }
@@ -79,12 +81,12 @@ function MyApp({ Component, pageProps }: AppProps) {
 
       // Wait longer before registering SW to prioritize page load
       if ('requestIdleCallback' in window) {
-        window.requestIdleCallback(registerSW, { timeout: 10000 })
+        (window as any).requestIdleCallback(registerSW, { timeout: 10000 })
       } else {
         setTimeout(registerSW, 10000) // Wait 10 seconds
       }
     }
-  }, [mounted])
+  }, [])
 
   return <Component {...pageProps} />
 }
@@ -96,8 +98,8 @@ export function reportWebVitals(metric: any) {
     console.log(metric)
     
     // Send to analytics
-    if ('gtag' in window && typeof window.gtag === 'function') {
-      window.gtag('event', metric.name, {
+    if ('gtag' in window && typeof (window as any).gtag === 'function') {
+      (window as any).gtag('event', metric.name, {
         event_category: 'Web Vitals',
         event_label: metric.id,
         value: Math.round(metric.name === 'CLS' ? metric.value * 1000 : metric.value),
