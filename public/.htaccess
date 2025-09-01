@@ -1,19 +1,7 @@
-# === TEMPORARILY DISABLED WWW AND HTTPS REDIRECTS TO FIX LOOPS ===
-# RewriteEngine On
-
-# # Force HTTPS - DISABLED
-# # RewriteCond %{HTTPS} off
-# # RewriteRule ^(.*)$ https://rollsroycers.com/$1 [R=301,L]
-
-# # Force non-www - DISABLED
-# # RewriteCond %{HTTP_HOST} ^www\.rollsroycers\.com [NC]
-# # RewriteRule ^(.*)$ https://rollsroycers.com/$1 [R=301,L]
-
-# REMOVED /en redirects to fix infinite loop
-# English is served at both / and /en without redirects
-
-# Redirect testimonials and terms
+# === BASIC CONFIGURATION FOR APACHE ===
 RewriteEngine On
+
+# Redirect testimonials and terms (these are safe redirects)
 RewriteRule ^testimonials/?$ /faq#testimonials [R=301,L,NE]
 RewriteRule ^([^/]+)/testimonials/?$ /$1/faq#testimonials [R=301,L,NE]
 RewriteRule ^terms/?$ /privacy#terms [R=301,L,NE]

@@ -149,7 +149,7 @@ const nextConfig = {
     ]
   },
   
-  // NO REDIRECTS - avoiding loops
+  // Minimal redirects to avoid loops
   async redirects() {
     return [
       // Redirect common misspellings to correct URLs
@@ -207,21 +207,11 @@ const nextConfig = {
         destination: '/faq#testimonials',
         permanent: true,
       },
-      {
-        source: '/:locale/testimonials',
-        destination: '/:locale/faq#testimonials',
-        permanent: true,
-      },
       
       // === Fix for terms page (redirect to privacy if terms doesn't exist) ===
       {
         source: '/terms',
         destination: '/privacy#terms',
-        permanent: true,
-      },
-      {
-        source: '/:locale/terms',
-        destination: '/:locale/privacy#terms',
         permanent: true,
       }
     ]

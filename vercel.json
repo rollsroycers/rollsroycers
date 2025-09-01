@@ -12,16 +12,6 @@
       "permanent": true
     },
     {
-      "source": "/en/:path*",
-      "destination": "/:path*",
-      "permanent": true
-    },
-    {
-      "source": "/en",
-      "destination": "/",
-      "permanent": true
-    },
-    {
       "source": "/testimonials",
       "destination": "/faq#testimonials",
       "permanent": true
