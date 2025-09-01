@@ -266,6 +266,7 @@ const nextConfig = {
           moduleIds: 'deterministic',
           usedExports: true,
           sideEffects: false,
+          mangleExports: false,
           splitChunks: {
             chunks: 'all',
             maxAsyncRequests: 30,

@@ -2,14 +2,20 @@ import '@/styles/globals.css'
 import type { AppProps } from 'next/app'
 import { appWithTranslation } from 'next-i18next'
 import { useRouter } from 'next/router'
-import { useEffect } from 'react'
+import { useEffect, useState } from 'react'
 
 function MyApp({ Component, pageProps }: AppProps) {
   const router = useRouter()
+  const [isClient, setIsClient] = useState(false)
+
+  // Set client-side flag
+  useEffect(() => {
+    setIsClient(true)
+  }, [])
 
   useEffect(() => {
     // Set direction based on locale - only on client side
-    if (typeof window !== 'undefined' && document) {
+    if (isClient && typeof window !== 'undefined' && document) {
       const dir = router.locale === 'ar' ? 'rtl' : 'ltr'
       const lang = router.locale || 'en'
       
@@ -26,11 +32,11 @@ function MyApp({ Component, pageProps }: AppProps) {
         document.documentElement.classList.add('js-enabled')
       }
     }
-  }, [router.locale])
+  }, [router.locale, isClient])
 
   useEffect(() => {
     // Ensure we're on client side
-    if (typeof window === 'undefined') return;
+    if (!isClient || typeof window === 'undefined') return;
 
     // Defer performance optimizations to not block initial render
     const initPerformance = () => {
@@ -124,7 +130,7 @@ function MyApp({ Component, pageProps }: AppProps) {
         setTimeout(registerSW, 10000) // Wait 10 seconds
       }
     }
-  }, [])
+  }, [isClient])
 
   return <Component {...pageProps} />
 }

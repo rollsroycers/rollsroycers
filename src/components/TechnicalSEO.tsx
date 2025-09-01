@@ -103,8 +103,7 @@ const TechnicalSEO: React.FC<TechnicalSEOProps> = ({
       <meta name="apple-mobile-web-app-title" content="Rolls-Royce Dubai" />
       <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
       
-      {/* Security Headers */}
-      <meta httpEquiv="Content-Security-Policy" content="upgrade-insecure-requests" />
+      {/* Security Headers - CSP handled by middleware */}
       <meta httpEquiv="Strict-Transport-Security" content="max-age=31536000; includeSubDomains; preload" />
       <meta httpEquiv="X-Content-Type-Options" content="nosniff" />
       <meta httpEquiv="X-Frame-Options" content="SAMEORIGIN" />
