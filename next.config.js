@@ -3,10 +3,9 @@ const { i18n } = require('./next-i18next.config')
 
 const nextConfig = {
   reactStrictMode: true,
-  // Skip middleware URL normalization to handle locales manually
-  skipMiddlewareUrlNormalize: true,
   i18n: {
-    ...i18n,
+    defaultLocale: 'en',
+    locales: ['en', 'ar', 'ru', 'fr', 'zh', 'hi'],
     localeDetection: false, // Disable automatic locale detection
   },
   
@@ -151,18 +150,8 @@ const nextConfig = {
   // SEO-friendly redirects
   async redirects() {
     return [
-      // === Redirect /en/* to /* (English is default) ===
-      // Redirect /en to root (English is default)
-      {
-        source: '/en',
-        destination: '/',
-        permanent: true,
-      },
-      {
-        source: '/en/:path+',
-        destination: '/:path+',
-        permanent: true,
-      },
+      // === REMOVED /en redirects to fix infinite loop ===
+      // English is now served at root URL without any redirects
       
       // === Handle www to non-www redirects ===
       // Note: These are handled in middleware.ts for better control
