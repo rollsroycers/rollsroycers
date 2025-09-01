@@ -7,9 +7,8 @@ RewriteRule ^(.*)$ https://rollsroycers.com/$1 [R=301,L]
 RewriteCond %{HTTP_HOST} ^www\.rollsroycers\.com [NC]
 RewriteRule ^(.*)$ https://rollsroycers.com/$1 [R=301,L]
 
-# Redirect /en/* to /*
-RewriteRule ^en/(.*)$ /$1 [R=301,L]
-RewriteRule ^en/?$ / [R=301,L]
+# REMOVED /en redirects to fix infinite loop
+# English is served at both / and /en without redirects
 
 # Redirect testimonials and terms
 RewriteRule ^testimonials/?$ /faq#testimonials [R=301,L,NE]

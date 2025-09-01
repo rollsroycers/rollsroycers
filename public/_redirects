@@ -5,9 +5,8 @@ http://www.rollsroycers.com/* https://rollsroycers.com/:splat 301!
 # === Force non-www ===
 https://www.rollsroycers.com/* https://rollsroycers.com/:splat 301!
 
-# === Redirect /en/* to /* (English is default) ===
-/en/* /:splat 301!
-/en / 301!
+# === REMOVED /en redirects to fix infinite loop ===
+# English is served at both / and /en without redirects
 
 # === Language-specific redirects ===
 /ae/* /ar/:splat 301!
