@@ -99,6 +99,33 @@ const nextConfig = {
   // SEO-friendly redirects
   async redirects() {
     return [
+      // === Comprehensive /en/* to /* redirects (English is default) ===
+      {
+        source: '/en',
+        destination: '/',
+        permanent: true,
+      },
+      {
+        source: '/en/:path*',
+        destination: '/:path*',
+        permanent: true,
+      },
+      
+      // === Handle www to non-www redirects ===
+      // Note: These are handled in middleware.ts for better control
+      
+      // === Handle specific page redirects that were found in Search Console ===
+      {
+        source: '/en/testimonials',
+        destination: '/testimonials',
+        permanent: true,
+      },
+      {
+        source: '/en/compare',
+        destination: '/compare',
+        permanent: true,
+      },
+      
       // Redirect common misspellings to correct URLs
       {
         source: '/rent-rolls-royes-dubai',
@@ -146,6 +173,30 @@ const nextConfig = {
         source: '/cookies',
         destination: '/cookie-policy',
         permanent: false,
+      },
+      
+      // === Redirect testimonials to appropriate page ===
+      {
+        source: '/testimonials',
+        destination: '/faq#testimonials',
+        permanent: true,
+      },
+      {
+        source: '/:locale/testimonials',
+        destination: '/:locale/faq#testimonials',
+        permanent: true,
+      },
+      
+      // === Fix for terms page (redirect to privacy if terms doesn't exist) ===
+      {
+        source: '/terms',
+        destination: '/privacy#terms',
+        permanent: true,
+      },
+      {
+        source: '/:locale/terms',
+        destination: '/:locale/privacy#terms',
+        permanent: true,
       }
     ]
   },

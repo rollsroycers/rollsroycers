@@ -1,0 +1,48 @@
+# === Force HTTPS ===
+http://rollsroycers.com/* https://rollsroycers.com/:splat 301!
+http://www.rollsroycers.com/* https://rollsroycers.com/:splat 301!
+
+# === Force non-www ===
+https://www.rollsroycers.com/* https://rollsroycers.com/:splat 301!
+
+# === Redirect /en/* to /* (English is default) ===
+/en/* /:splat 301!
+/en / 301!
+
+# === Language-specific redirects ===
+/ae/* /ar/:splat 301!
+/ae /ar 301!
+
+# === Redirect missing pages ===
+/testimonials /faq#testimonials 301!
+/*/testimonials /*/faq#testimonials 301!
+/terms /privacy#terms 301!
+/*/terms /*/privacy#terms 301!
+
+# === Common misspellings ===
+/rent-rolls-royes-dubai / 301!
+/rolls-royes-rental-dubai / 301!
+/role-royce-dubai / 301!
+/phantom-rental /fleet/phantom 301!
+/ghost-rental /fleet/ghost 301!
+/cullinan-rental /fleet/cullinan 301!
+
+# === Service-specific redirects ===
+/services/photoshoot /services#photoshoot 301!
+/services/airport-transfer /services#airport-transfer 301!
+/services/tours /services#tours 301!
+/services/events /services#events 301!
+/services/wedding /services#wedding 301!
+/services/chauffeur /services#chauffeur 301!
+/services/corporate /services#corporate 301!
+
+# === Location-specific redirects ===
+/locations/palm-jumeirah /locations#palm-jumeirah 301!
+/locations/dubai-marina /locations#dubai-marina 301!
+/locations/business-bay /locations#business-bay 301!
+/locations/difc /locations#difc 301!
+/locations/downtown-dubai /locations#downtown-dubai 301!
+/locations/jbr /locations#jbr 301!
+
+# === Default language fallback ===
+/* /index.html 200

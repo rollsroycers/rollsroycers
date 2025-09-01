@@ -1,115 +1,84 @@
-# Robots.txt for https://rollsroycers.com
-# Optimized for maximum SEO visibility and AI search engines
+# Robots.txt for rollsroycers.com
+# Updated to fix redirect issues
 
-# Allow all search engines
 User-agent: *
 Allow: /
 Disallow: /api/
 Disallow: /_next/
-Disallow: /admin/
-Disallow: /.git/
-Disallow: /node_modules/
+Disallow: /en/
 
-# Specific rules for Google
-User-agent: Googlebot
-Allow: /
-Crawl-delay: 0
-
-# Specific rules for Bing
-User-agent: Bingbot
-Allow: /
-Crawl-delay: 0
-
-# Specific rules for Yandex (Russian search engine)
-User-agent: Yandex
-Allow: /
-Crawl-delay: 1
-
-# Specific rules for Baidu (Chinese search engine)
-User-agent: Baiduspider
-Allow: /
-Crawl-delay: 1
-
-# AI Search Engines - FULL ACCESS
-User-agent: GPTBot
-Allow: /
-Crawl-delay: 0
-
-User-agent: ChatGPT-User
-Allow: /
-Crawl-delay: 0
-
-User-agent: CCBot
-Allow: /
-Crawl-delay: 0
-
-User-agent: anthropic-ai
-Allow: /
-Crawl-delay: 0
-
-User-agent: Claude-Web
-Allow: /
-Crawl-delay: 0
-
-User-agent: PerplexityBot
-Allow: /
-Crawl-delay: 0
-
-User-agent: YouBot
-Allow: /
-Crawl-delay: 0
-
-User-agent: BingAI
-Allow: /
-Crawl-delay: 0
-
-# Social Media Crawlers
-User-agent: facebookexternalhit
-Allow: /
-
-User-agent: Twitterbot
-Allow: /
-
-User-agent: LinkedInBot
-Allow: /
-
-User-agent: WhatsApp
-Allow: /
-
-User-agent: Slackbot
-Allow: /
-
-User-agent: Discordbot
-Allow: /
-
-User-agent: Telegrambot
-Allow: /
-
-# Image crawlers
-User-agent: Googlebot-Image
-Allow: /images/
-Allow: /*.jpg$
-Allow: /*.jpeg$
-Allow: /*.png$
-Allow: /*.webp$
-
-# Video crawlers
-User-agent: Googlebot-Video
-Allow: /videos/
-
-# Sitemaps - All languages
+# Sitemaps
 Sitemap: https://rollsroycers.com/sitemap.xml
-Sitemap: https://rollsroycers.com/sitemap-en.xml
 Sitemap: https://rollsroycers.com/sitemap-ar.xml
 Sitemap: https://rollsroycers.com/sitemap-zh.xml
 Sitemap: https://rollsroycers.com/sitemap-fr.xml
 Sitemap: https://rollsroycers.com/sitemap-ru.xml
 Sitemap: https://rollsroycers.com/sitemap-hi.xml
-Sitemap: https://rollsroycers.com/sitemap-pages.xml
 
-# Host directive (for Yandex)
-Host: https://rollsroycers.com
-
-# Crawl-delay for responsible crawling
-User-agent: *
+# Crawl-delay
 Crawl-delay: 1
+
+# Google
+User-agent: Googlebot
+Allow: /
+Disallow: /api/
+Disallow: /en/
+
+# Google Image
+User-agent: Googlebot-Image
+Allow: /images/
+Allow: *.jpg
+Allow: *.jpeg
+Allow: *.gif
+Allow: *.png
+Allow: *.webp
+
+# Google AdSense
+User-agent: Mediapartners-Google
+Allow: /
+
+# Bing
+User-agent: Bingbot
+Allow: /
+Disallow: /api/
+Disallow: /en/
+Crawl-delay: 1
+
+# Yandex
+User-agent: Yandex
+Allow: /
+Disallow: /api/
+Disallow: /en/
+Crawl-delay: 2
+
+# Facebook
+User-agent: facebookexternalhit
+Allow: /
+
+# Twitter
+User-agent: Twitterbot
+Allow: /
+
+# LinkedIn
+User-agent: LinkedInBot
+Allow: /
+
+# WhatsApp
+User-agent: WhatsApp
+Allow: /
+
+# Block bad bots
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: DotBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+# Host directive (for supported crawlers)
+Host: https://rollsroycers.com

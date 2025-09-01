@@ -1,0 +1,25 @@
+{
+  "baseUrl": "https://rollsroycers.com",
+  "defaultLocale": "en",
+  "locales": [
+    "en",
+    "ar",
+    "zh",
+    "fr",
+    "ru",
+    "hi"
+  ],
+  "rules": {
+    "selfReferencing": true,
+    "crossLanguageCanonical": false,
+    "useHreflang": true,
+    "removeTrailingSlash": true,
+    "forceLowercase": true
+  },
+  "specialPages": {
+    "/en/*": {
+      "redirect": true,
+      "statusCode": 301
+    }
+  }
+}
