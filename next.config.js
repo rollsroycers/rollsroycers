@@ -1,17 +1,11 @@
 /** @type {import('next').NextConfig} */
+const i18n = require('./next-i18next.config.js').i18n
 
 const nextConfig = {
   reactStrictMode: true,
   
-  // Transpile ESM packages
-  transpilePackages: ['react-i18next', 'i18next', 'next-i18next'],
-  
-  // i18n configuration - English without /en prefix
-  i18n: {
-    defaultLocale: 'en',
-    locales: ['en', 'ar', 'ru', 'fr', 'zh', 'hi'],
-    localeDetection: false,
-  },
+  // Use the same i18n configuration
+  i18n,
   
   // Compiler options for modern JavaScript features
   compiler: {
