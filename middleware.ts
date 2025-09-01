@@ -6,7 +6,7 @@ export function middleware(request: NextRequest) {
   const pathname = url.pathname
   const hostname = request.headers.get('host') || 'rollsroycers.com'
   
-  // Handle www to non-www redirect
+  // Handle www to non-www redirect FIRST (highest priority)
   if (hostname.startsWith('www.')) {
     const newUrl = new URL(request.url)
     newUrl.hostname = hostname.replace('www.', '')
@@ -20,37 +20,65 @@ export function middleware(request: NextRequest) {
     return NextResponse.redirect(httpsUrl, 301)
   }
   
+  // CRITICAL: Handle /en redirect to prevent Next.js from adding it
+  // This must be done carefully to avoid loops
+  if (pathname === '/en' || pathname.startsWith('/en/')) {
+    // Extract the path without the /en prefix
+    const pathWithoutEn = pathname.slice(3) || '/'
+    
+    // Build the new URL
+    const redirectUrl = new URL(pathWithoutEn, request.url)
+    redirectUrl.search = url.search
+    
+    // Create redirect response with cache prevention headers
+    const response = NextResponse.redirect(redirectUrl, 301)
+    response.headers.set('Cache-Control', 'no-cache, no-store, must-revalidate')
+    response.headers.set('X-Robots-Tag', 'noindex') // Don't index /en URLs
+    
+    return response
+  }
+  
   // Get the locale from the pathname
-  const locale = pathname.split('/')[1]
-  const locales = ['ar', 'zh', 'fr', 'ru', 'hi'] // Removed 'en' from locales
+  const pathSegments = pathname.split('/').filter(Boolean)
+  const locale = pathSegments[0]
+  const locales = ['ar', 'zh', 'fr', 'ru', 'hi'] // NOT including 'en' since it's default
   
   // Check if the pathname starts with a locale
   const hasLocale = locales.includes(locale)
   
-  // Redirect /en/* to /* (English is default)
-  if (locale === 'en') {
-    const newPath = pathname.replace(/^\/en/, '') || '/'
-    const newUrl = new URL(newPath, request.url)
-    newUrl.search = url.search
-    return NextResponse.redirect(newUrl, 301)
-  }
-  
   // Create response with headers
   const response = NextResponse.next()
   
-  // Add canonical link header for better SEO
-  // All language versions should point to the English version as canonical
+  // Set canonical headers for SEO
+  let canonicalUrl = ''
+  
   if (hasLocale) {
-    const canonicalPath = pathname.replace(`/${locale}`, '')
-    const canonicalUrl = `https://rollsroycers.com${canonicalPath || '/'}`
-    response.headers.set('Link', `<${canonicalUrl}>; rel="canonical"`)
+    // For non-English pages, canonical points to English version
+    const canonicalPath = pathname.replace(`/${locale}`, '') || '/'
+    canonicalUrl = `https://rollsroycers.com${canonicalPath}`
+  } else {
+    // For English pages (no locale prefix), self-referencing canonical
+    canonicalUrl = `https://rollsroycers.com${pathname}`
   }
   
-  // For English pages (no locale prefix), set self-referencing canonical
-  if (!hasLocale && pathname !== '/') {
-    const canonicalUrl = `https://rollsroycers.com${pathname}`
-    response.headers.set('Link', `<${canonicalUrl}>; rel="canonical"`)
-  }
+  // Add canonical link header
+  response.headers.set('Link', `<${canonicalUrl}>; rel="canonical"`)
+  
+  // Add hreflang headers for SEO
+  const hreflangLinks = []
+  const basePath = hasLocale ? pathname.replace(`/${locale}`, '') : pathname
+  
+  // Add English (x-default and en)
+  hreflangLinks.push(`<https://rollsroycers.com${basePath}>; rel="alternate"; hreflang="x-default"`)
+  hreflangLinks.push(`<https://rollsroycers.com${basePath}>; rel="alternate"; hreflang="en"`)
+  
+  // Add other languages
+  locales.forEach(lang => {
+    hreflangLinks.push(`<https://rollsroycers.com/${lang}${basePath}>; rel="alternate"; hreflang="${lang}"`)
+  })
+  
+  // Set all hreflang links
+  response.headers.set('Link', hreflangLinks.join(', '))
   
   // Add x-robots-tag for proper indexing
   response.headers.set('X-Robots-Tag', 'index, follow')
@@ -64,13 +92,13 @@ export function middleware(request: NextRequest) {
 export const config = {
   matcher: [
     /*
-     * Match all request paths except for the ones starting with:
+     * Match all request paths except:
      * - api (API routes)
      * - _next/static (static files)
-     * - _next/image (image optimization files)
-     * - favicon.ico (favicon file)
-     * - public folder
+     * - _next/image (image optimization files)  
+     * - favicon.ico, robots.txt, sitemap.xml
+     * - public assets with file extensions
      */
-    '/((?!api|_next/static|_next/image|favicon.ico|images|fonts|icons).*)',
+    '/((?!api|_next/static|_next/image|favicon.ico|robots.txt|sitemap.xml|.*\\..*).*)',
   ],
 }

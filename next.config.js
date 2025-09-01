@@ -3,9 +3,11 @@ const { i18n } = require('./next-i18next.config')
 
 const nextConfig = {
   reactStrictMode: true,
+  // Skip middleware URL normalization to handle locales manually
+  skipMiddlewareUrlNormalize: true,
   i18n: {
     ...i18n,
-    localeDetection: false, // Disable automatic locale detection to avoid 307 redirects
+    localeDetection: false, // Disable automatic locale detection
   },
   
   // Compiler options for modern JavaScript features
@@ -149,15 +151,16 @@ const nextConfig = {
   // SEO-friendly redirects
   async redirects() {
     return [
-      // === Comprehensive /en/* to /* redirects (English is default) ===
+      // === Redirect /en/* to /* (English is default) ===
+      // Redirect /en to root (English is default)
       {
         source: '/en',
         destination: '/',
         permanent: true,
       },
       {
-        source: '/en/:path*',
-        destination: '/:path*',
+        source: '/en/:path+',
+        destination: '/:path+',
         permanent: true,
       },
       
