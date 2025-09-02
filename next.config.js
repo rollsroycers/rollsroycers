@@ -36,7 +36,7 @@ const nextConfig = {
   //   },
   // },
   
-  // Image optimization with lazy loading by default
+  // Enhanced image optimization for PageSpeed
   images: {
     remotePatterns: [
       {
@@ -107,7 +107,7 @@ const nextConfig = {
           }
         ]
       },
-      // Optimize images
+      // Optimize images with longer cache
       {
         source: '/images/:path*',
         headers: [
@@ -122,6 +122,10 @@ const nextConfig = {
           {
             key: 'X-Content-Type-Options',
             value: 'nosniff'
+          },
+          {
+            key: 'Vary',
+            value: 'Accept'
           }
         ]
       },
@@ -156,6 +160,24 @@ const nextConfig = {
           {
             key: 'Cache-Control',
             value: 'public, s-maxage=3600, stale-while-revalidate=86400'
+          },
+          {
+            key: 'Content-Encoding',
+            value: 'gzip'
+          }
+        ]
+      },
+      // WebP and AVIF image optimization headers
+      {
+        source: '/images/:path*.(webp|avif)',
+        headers: [
+          {
+            key: 'Cache-Control',
+            value: 'public, max-age=31536000, immutable'
+          },
+          {
+            key: 'Content-Type',
+            value: 'image/webp'
           }
         ]
       }
