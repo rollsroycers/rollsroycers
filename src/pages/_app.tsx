@@ -2,7 +2,7 @@ import '@/styles/globals.css'
 import type { AppProps } from 'next/app'
 import { appWithTranslation } from 'next-i18next'
 
-// Ultra-minimal app to isolate React #418 error
+// Minimal app with React 18 compatibility
 function MyApp({ Component, pageProps }: AppProps) {
   return <Component {...pageProps} />
 }
