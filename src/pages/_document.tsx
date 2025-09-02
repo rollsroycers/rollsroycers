@@ -5,17 +5,11 @@ export default function Document() {
   return (
     <Html lang="en">
       <Head>
-        {/* Optimized resource hints for PageSpeed */}
+        {/* Preconnect to external domains */}
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
         <link rel="dns-prefetch" href="https://www.google-analytics.com" />
-        
-        {/* Preload critical images */}
-        <link rel="preload" as="image" href="/images/Rolls-Royce-front.jpg" />
-        
-        {/* Critical CSS preload hint */}
-        <link rel="preload" href="/_next/static/css/b7715e5b837d80ba.css" as="style" />
         
         {/* Critical CSS - inline for fastest render */}
         <style
@@ -90,34 +84,11 @@ export default function Document() {
           }}
         />
         
-        {/* Optimized font loading to eliminate render blocking */}
-        <link
-          rel="preload"
-          href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
-          as="style"
-        />
+        {/* Load fonts properly with correct crossorigin */}
         <link
           rel="stylesheet"
           href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
-          media="print"
         />
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `
-              // Load font stylesheet asynchronously
-              document.addEventListener('DOMContentLoaded', function() {
-                var link = document.querySelector('link[media="print"]');
-                if (link) link.media = 'all';
-              });
-            `,
-          }}
-        />
-        <noscript>
-          <link
-            rel="stylesheet"
-            href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
-          />
-        </noscript>
         
         {/* PWA manifest */}
         <link rel="manifest" href="/manifest.json" />
@@ -136,24 +107,6 @@ export default function Document() {
       <body>
         <Main />
         <NextScript />
-        
-        {/* Defer non-critical JavaScript for better PageSpeed */}
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `
-              // Defer non-critical operations
-              window.addEventListener('load', function() {
-                // Initialize non-critical features after page load
-                if ('requestIdleCallback' in window) {
-                  requestIdleCallback(function() {
-                    // Initialize analytics and other non-critical scripts
-                    console.log('Non-critical scripts initialized');
-                  });
-                }
-              });
-            `,
-          }}
-        />
       </body>
     </Html>
   )
