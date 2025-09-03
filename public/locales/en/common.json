@@ -5271,5 +5271,22 @@
       "whatsappButton": "WhatsApp",
       "emailButton": "Email Us"
     }
+  },
+  "search": {
+    "title": "Search",
+    "subtitle": "Find the perfect luxury car rental service",
+    "placeholder": "Search for cars, services, locations...",
+    "search": "Search",
+    "searching": "Searching...",
+    "resultsFor": "Results for",
+    "noResults": "No results found",
+    "noResultsDesc": "Try searching for different keywords or browse our main categories:",
+    "popular": "Popular Searches"
+  },
+  "navigation": {
+    "fleet": "Fleet",
+    "services": "Services",
+    "locations": "Locations",
+    "pricing": "Pricing"
   }
 }

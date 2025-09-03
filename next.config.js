@@ -226,6 +226,23 @@ const nextConfig = {
         source: '/terms',
         destination: '/privacy#terms',
         permanent: true,
+      },
+      
+      // === Fix Google Search Console 404 errors ===
+      {
+        source: '/week',
+        destination: '/pricing',
+        permanent: true,
+      },
+      {
+        source: '/month',
+        destination: '/pricing',
+        permanent: true,
+      },
+      {
+        source: '/search',
+        destination: '/search',
+        permanent: false,
       }
     ]
   },
