@@ -29,8 +29,16 @@ export function middleware(request: NextRequest) {
     return NextResponse.redirect(httpsUrl, 301)
   }
   
-  // DO NOT handle /en redirects - let Next.js i18n handle it
-  // This prevents redirect loops
+  // Handle /en redirects to default domain (English as default language)
+  const url = request.nextUrl.clone()
+  
+  // Redirect /en paths to root (making English the default without prefix)
+  if (url.pathname.startsWith('/en/') || url.pathname === '/en') {
+    // Remove /en prefix and redirect to the same path without locale
+    const pathWithoutLocale = url.pathname.replace(/^\/en/, '') || '/'
+    url.pathname = pathWithoutLocale
+    return NextResponse.redirect(url, 301)
+  }
   
   // Return response with headers
   return response
