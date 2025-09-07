@@ -29,7 +29,7 @@ export default function Hero() {
   ]
 
   return (
-    <section id="home" className="relative h-screen overflow-hidden">
+    <section id="home" className="relative min-h-mobile overflow-hidden">
       {/* Background Slideshow */}
       <div className="absolute inset-0">
         {heroImages.map((image, index) => (
@@ -54,8 +54,8 @@ export default function Hero() {
       </div>
 
       {/* Content */}
-      <div className="relative z-10 h-full flex items-center">
-        <div className="container mx-auto px-4">
+      <div className="relative z-10 h-full flex items-center py-20 sm:py-0">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
@@ -112,13 +112,13 @@ export default function Hero() {
 
           {/* Stats */}
           <motion.div 
-            className="absolute bottom-10 left-0 right-0"
+            className="absolute bottom-5 sm:bottom-10 left-0 right-0"
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, delay: 1.5 }}
           >
-            <div className="container mx-auto px-4">
-              <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
+            <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+              <div className="grid grid-cols-2 md:grid-cols-4 gap-4 sm:gap-8">
                 {stats.map((stat, index) => (
                   <motion.div
                     key={stat.label}
@@ -127,10 +127,10 @@ export default function Hero() {
                     animate={{ opacity: 1, scale: 1 }}
                     transition={{ duration: 0.5, delay: 1.7 + index * 0.1 }}
                   >
-                    <div className="text-4xl font-bold text-rolls-gold mb-2">
+                    <div className="text-2xl sm:text-3xl lg:text-4xl font-bold text-rolls-gold mb-1 sm:mb-2">
                       {stat.value}
                     </div>
-                    <div className="text-sm text-gray-400 uppercase tracking-wider">
+                    <div className="text-xs sm:text-sm text-gray-400 uppercase tracking-wider">
                       {stat.label}
                     </div>
                   </motion.div>

@@ -77,7 +77,7 @@ export default function Services() {
           <p className="text-xl text-rolls-gold">{t('services.subtitle')}</p>
         </motion.div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 lg:gap-8">
           {services.map((service, index) => (
             <motion.div
               key={service.title}
@@ -86,17 +86,17 @@ export default function Services() {
               transition={{ duration: 0.5, delay: index * 0.1 }}
               className="group relative"
             >
-              <div className="relative z-10 bg-rolls-black/80 p-8 rounded-lg glass-effect luxury-shadow hover:bg-rolls-black/90 transition-all duration-300">
+              <div className="relative z-10 bg-rolls-black/80 p-4 sm:p-6 lg:p-8 rounded-lg glass-effect luxury-shadow hover:bg-rolls-black/90 transition-all duration-300">
                 {/* Icon */}
-                <div className="mb-6 text-rolls-gold group-hover:scale-110 transition-transform duration-300">
+                <div className="mb-4 sm:mb-6 text-rolls-gold group-hover:scale-110 transition-transform duration-300">
                   {service.icon}
                 </div>
 
                 {/* Content */}
-                <h3 className="text-2xl font-semibold text-white mb-3">
+                <h3 className="text-lg sm:text-xl lg:text-2xl font-semibold text-white mb-2 sm:mb-3">
                   {service.title}
                 </h3>
-                <p className="text-gray-400 leading-relaxed">
+                <p className="text-sm sm:text-base text-gray-400 leading-relaxed">
                   {service.description}
                 </p>
 

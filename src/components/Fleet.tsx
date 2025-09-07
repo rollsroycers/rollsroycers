@@ -82,7 +82,7 @@ export default function Fleet({ t }: { t: TFunction }) {
           <p className="text-xl text-rolls-gold">{t('fleet.subtitle')}</p>
         </motion.div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 gap-4 sm:gap-6 lg:gap-8">
           {cars.map((car, index) => (
             <motion.div
               key={car.id}
@@ -117,12 +117,12 @@ export default function Fleet({ t }: { t: TFunction }) {
               </div>
 
               {/* Content */}
-              <div className="p-6">
-                <h3 className="heading-3 text-white mb-2">{car.name}</h3>
-                <p className="text-gray-400 mb-4">{car.description}</p>
+              <div className="p-4 sm:p-6">
+                <h3 className="text-xl sm:text-2xl md:text-3xl font-semibold text-white mb-2">{car.name}</h3>
+                <p className="text-sm sm:text-base text-gray-400 mb-4 line-clamp-2">{car.description}</p>
 
                 {/* Features */}
-                <div className="grid grid-cols-2 gap-2 mb-6">
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-1 sm:gap-2 mb-4 sm:mb-6">
                   {car.features && car.features.length > 0 ? (
                     car.features.map((feature, idx) => (
                       <div key={idx} className="flex items-center text-sm text-gray-300">
@@ -138,15 +138,15 @@ export default function Fleet({ t }: { t: TFunction }) {
                 </div>
 
                 {/* Price and CTA */}
-                <div className="flex items-center justify-between">
+                <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3">
                   <div>
-                    <span className="text-sm text-gray-400">{t('fleet.from')}</span>
-                    <div className="text-2xl font-bold text-rolls-gold">
-                      {car.price} <span className="text-sm font-normal">{t('fleet.perDay')}</span>
+                    <span className="text-xs sm:text-sm text-gray-400">{t('fleet.from')}</span>
+                    <div className="text-lg sm:text-xl lg:text-2xl font-bold text-rolls-gold">
+                      {car.price} <span className="text-xs sm:text-sm font-normal">{t('fleet.perDay')}</span>
                     </div>
                   </div>
-                  <a href="#contact">
-                    <button className="btn-secondary group-hover:bg-rolls-gold group-hover:text-rolls-black">
+                  <a href="#contact" className="w-full sm:w-auto">
+                    <button className="w-full sm:w-auto btn-secondary group-hover:bg-rolls-gold group-hover:text-rolls-black touch-action-manipulation">
                       {t('fleet.rentNow')}
                     </button>
                   </a>

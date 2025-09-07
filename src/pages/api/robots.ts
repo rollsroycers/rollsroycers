@@ -1,37 +1,80 @@
 import { NextApiRequest, NextApiResponse } from 'next'
 
 export default function handler(req: NextApiRequest, res: NextApiResponse) {
-  const robots = `# Robots.txt for https://rollsroycers.com
-# Consolidated via API to avoid conflicts with public file
+  const robots = `# Robots.txt for rollsroycers.com
+# Optimized for mobile-first indexing and SEO performance
 
-# Allow all search engines
+# Default rules for all crawlers
 User-agent: *
 Allow: /
+
+# Block sensitive/unnecessary directories
 Disallow: /api/
 Disallow: /_next/
 Disallow: /admin/
-Disallow: /.git/
+Disallow: /.well-known/
 Disallow: /node_modules/
+Disallow: /.git/
+Disallow: /scripts/
 
-# Specific rules for Google
+# Allow important static assets
+Allow: /images/
+Allow: /icons/
+Allow: /manifest.json
+Allow: /sw.js
+Allow: /*.css
+Allow: /*.js
+
+# Google Search Engines (no crawl-delay to avoid warnings)
 User-agent: Googlebot
 Allow: /
+Disallow: /api/
+Disallow: /admin/
+Disallow: /_next/
 
-# Specific rules for Bing
+# Google Images - prioritize image indexing
+User-agent: Googlebot-Image
+Allow: /
+Allow: /images/
+Allow: *.jpg
+Allow: *.jpeg
+Allow: *.png
+Allow: *.webp
+Allow: *.gif
+Allow: *.svg
+
+# Google Mobile (for mobile-first indexing)
+User-agent: Googlebot-Mobile
+Allow: /
+Disallow: /api/
+Disallow: /admin/
+
+# Google AdSense
+User-agent: Mediapartners-Google
+Allow: /
+
+# Bing Search Engine
 User-agent: Bingbot
 Allow: /
-
-# Yandex
-User-agent: Yandex
-Allow: /
+Disallow: /api/
+Disallow: /admin/
 Crawl-delay: 1
 
-# Baidu
+# Yandex Search Engine
+User-agent: YandexBot
+Allow: /
+Disallow: /api/
+Disallow: /admin/
+Crawl-delay: 2
+
+# Baidu Search Engine
 User-agent: Baiduspider
 Allow: /
+Disallow: /api/
+Disallow: /admin/
 Crawl-delay: 1
 
-# AI Search Engines
+# AI Search Engines (allow for content discovery)
 User-agent: GPTBot
 Allow: /
 
@@ -47,7 +90,7 @@ Allow: /
 User-agent: Claude-Web
 Allow: /
 
-# Social Media Crawlers
+# Social Media Crawlers (important for sharing)
 User-agent: facebookexternalhit
 Allow: /
 
@@ -60,28 +103,40 @@ Allow: /
 User-agent: WhatsApp
 Allow: /
 
+User-agent: TelegramBot
+Allow: /
+
 User-agent: Slackbot
 Allow: /
 
-# Image crawlers
-User-agent: Googlebot-Image
-Allow: /images/
-Allow: /*.jpg$
-Allow: /*.jpeg$
-Allow: /*.png$
-Allow: /*.webp$
+# Block aggressive crawlers and scrapers
+User-agent: AhrefsBot
+Disallow: /
 
-# Sitemaps
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: DotBot
+Disallow: /
+
+User-agent: SeznamBot
+Disallow: /
+
+User-agent: BLEXBot
+Disallow: /
+
+# Sitemaps (ordered by priority)
 Sitemap: https://rollsroycers.com/sitemap.xml
+Sitemap: https://rollsroycers.com/sitemap-pages.xml
 Sitemap: https://rollsroycers.com/sitemap-en.xml
 Sitemap: https://rollsroycers.com/sitemap-ar.xml
 Sitemap: https://rollsroycers.com/sitemap-zh.xml
 Sitemap: https://rollsroycers.com/sitemap-fr.xml
 Sitemap: https://rollsroycers.com/sitemap-ru.xml
-Sitemap: https://rollsroycers.com/sitemap-hi.xml
-
-# Host directive (used by Yandex)
-Host: https://rollsroycers.com`
+Sitemap: https://rollsroycers.com/sitemap-hi.xml`
 
   res.setHeader('Content-Type', 'text/plain')
   res.write(robots)

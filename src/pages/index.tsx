@@ -128,8 +128,8 @@ export default function Home() {
         <Hero />
         
         {/* Video Showcase */}
-        <section className="py-20 bg-gradient-to-b from-rolls-navy to-rolls-black">
-          <div className="container mx-auto px-4">
+        <section className="py-12 sm:py-16 lg:py-20 bg-gradient-to-b from-rolls-navy to-rolls-black">
+          <div className="container mx-auto px-4 sm:px-6 lg:px-8">
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
@@ -143,7 +143,7 @@ export default function Home() {
               </p>
             </motion.div>
 
-            <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6">
               {videoShowcase.map((video, index) => (
                 <motion.div
                   key={index}
@@ -185,9 +185,9 @@ export default function Home() {
         </section>
 
         {/* Stats Section */}
-        <section className="py-16 bg-gradient-to-b from-rolls-black to-rolls-navy">
-          <div className="container mx-auto px-4">
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
+        <section className="py-12 sm:py-16 bg-gradient-to-b from-rolls-black to-rolls-navy">
+          <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-6 sm:gap-8">
               {stats.map((stat, index) => (
                 <motion.div
                   key={index}
@@ -196,8 +196,8 @@ export default function Home() {
                   transition={{ delay: index * 0.1 }}
                   className="text-center"
                 >
-                  <p className="text-5xl font-bold text-rolls-gold mb-2">{stat.number}</p>
-                  <p className="text-gray-300">{stat.label}</p>
+                  <p className="text-3xl sm:text-4xl lg:text-5xl font-bold text-rolls-gold mb-1 sm:mb-2">{stat.number}</p>
+                  <p className="text-sm sm:text-base text-gray-300">{stat.label}</p>
                 </motion.div>
               ))}
             </div>
@@ -207,12 +207,12 @@ export default function Home() {
         <Fleet t={t} />
         
         {/* Featured Services Grid */}
-        <section className="py-20 bg-gradient-to-b from-rolls-navy to-rolls-black">
-          <div className="container mx-auto px-4">
-            <h2 className="text-4xl font-bold text-white text-center mb-12">
+        <section className="py-12 sm:py-16 lg:py-20 bg-gradient-to-b from-rolls-navy to-rolls-black">
+          <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-white text-center mb-8 sm:mb-12">
               {t('home.premiumServices.title')}
             </h2>
-            <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6 lg:gap-8">
               {featuredServices.map((service, index) => (
                 <motion.div
                   key={index}
@@ -366,11 +366,11 @@ export default function Home() {
               <p className="text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
                 {t('common.bookYourRollsRoyce')}
               </p>
-              <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <Link href="/booking" className="btn-primary">
+              <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center">
+                <Link href="/booking" className="btn-primary touch-action-manipulation">
                   {t('common.bookNow')}
                 </Link>
-                <Link href="/pricing" className="btn-secondary">
+                <Link href="/pricing" className="btn-secondary touch-action-manipulation">
                   {t('common.viewPricing')}
                 </Link>
               </div>

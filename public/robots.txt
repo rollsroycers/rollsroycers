@@ -1,84 +1,110 @@
 # Robots.txt for rollsroycers.com
-# Updated to fix redirect issues
+# Optimized for mobile-first indexing and SEO performance
 
+# Default rules for all crawlers
 User-agent: *
 Allow: /
+
+# Block sensitive/unnecessary directories
 Disallow: /api/
 Disallow: /_next/
-Disallow: /en/
+Disallow: /admin/
+Disallow: /.well-known/
+Disallow: /node_modules/
+Disallow: /.git/
+Disallow: /scripts/
 
-# Sitemaps
-Sitemap: https://rollsroycers.com/sitemap.xml
-Sitemap: https://rollsroycers.com/sitemap-ar.xml
-Sitemap: https://rollsroycers.com/sitemap-zh.xml
-Sitemap: https://rollsroycers.com/sitemap-fr.xml
-Sitemap: https://rollsroycers.com/sitemap-ru.xml
-Sitemap: https://rollsroycers.com/sitemap-hi.xml
+# Allow important static assets
+Allow: /images/
+Allow: /icons/
+Allow: /manifest.json
+Allow: /sw.js
+Allow: /*.css
+Allow: /*.js
 
-# Crawl-delay
-Crawl-delay: 1
-
-# Google
+# Google Search Engines (no crawl-delay to avoid warnings)
 User-agent: Googlebot
 Allow: /
 Disallow: /api/
-Disallow: /en/
+Disallow: /admin/
+Disallow: /_next/
 
-# Google Image
+# Google Images - prioritize image indexing
 User-agent: Googlebot-Image
+Allow: /
 Allow: /images/
 Allow: *.jpg
 Allow: *.jpeg
-Allow: *.gif
 Allow: *.png
 Allow: *.webp
+Allow: *.gif
+Allow: *.svg
+
+# Google Mobile (for mobile-first indexing)
+User-agent: Googlebot-Mobile
+Allow: /
+Disallow: /api/
+Disallow: /admin/
 
 # Google AdSense
 User-agent: Mediapartners-Google
 Allow: /
 
-# Bing
+# Bing Search Engine
 User-agent: Bingbot
 Allow: /
 Disallow: /api/
-Disallow: /en/
+Disallow: /admin/
 Crawl-delay: 1
 
-# Yandex
-User-agent: Yandex
+# Yandex Search Engine
+User-agent: YandexBot
 Allow: /
 Disallow: /api/
-Disallow: /en/
+Disallow: /admin/
 Crawl-delay: 2
 
-# Facebook
+# Social Media Crawlers (important for sharing)
 User-agent: facebookexternalhit
 Allow: /
 
-# Twitter
 User-agent: Twitterbot
 Allow: /
 
-# LinkedIn
 User-agent: LinkedInBot
 Allow: /
 
-# WhatsApp
 User-agent: WhatsApp
 Allow: /
 
-# Block bad bots
+User-agent: TelegramBot
+Allow: /
+
+# Block aggressive crawlers and scrapers
 User-agent: AhrefsBot
 Disallow: /
 
 User-agent: SemrushBot
 Disallow: /
 
-User-agent: DotBot
-Disallow: /
-
 User-agent: MJ12bot
 Disallow: /
 
-# Host directive (for supported crawlers)
-Host: https://rollsroycers.com
+User-agent: DotBot
+Disallow: /
+
+User-agent: SeznamBot
+Disallow: /
+
+User-agent: BLEXBot
+Disallow: /
+
+# Sitemaps (ordered by priority)
+Sitemap: https://rollsroycers.com/sitemap.xml
+Sitemap: https://rollsroycers.com/sitemap-pages.xml
+Sitemap: https://rollsroycers.com/sitemap-en.xml
+Sitemap: https://rollsroycers.com/sitemap-ar.xml
+Sitemap: https://rollsroycers.com/sitemap-zh.xml
+Sitemap: https://rollsroycers.com/sitemap-fr.xml
+Sitemap: https://rollsroycers.com/sitemap-ru.xml
+Sitemap: https://rollsroycers.com/sitemap-hi.xml

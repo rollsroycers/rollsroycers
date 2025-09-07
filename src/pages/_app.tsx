@@ -1,9 +1,27 @@
 import '@/styles/globals.css'
 import type { AppProps } from 'next/app'
 import { appWithTranslation } from 'next-i18next'
+import { useEffect } from 'react'
+import { optimizeForMobile, setMobileViewportHeight } from '@/utils/mobileOptimizations'
+import { getPerformanceMonitor } from '@/utils/performanceMonitor'
+import { initializePerformanceOptimizations } from '@/utils/performanceOptimizations'
 
 // Minimal app with React 18 compatibility
 function MyApp({ Component, pageProps }: AppProps) {
+  useEffect(() => {
+    // Initialize mobile optimizations
+    optimizeForMobile()
+    
+    // Set up mobile-safe viewport height
+    setMobileViewportHeight()
+    
+    // Initialize performance monitoring
+    getPerformanceMonitor()
+    
+    // Initialize general performance optimizations
+    initializePerformanceOptimizations()
+  }, [])
+
   return <Component {...pageProps} />
 }
 
