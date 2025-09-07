@@ -58,21 +58,18 @@ User-agent: Bingbot
 Allow: /
 Disallow: /api/
 Disallow: /admin/
-Crawl-delay: 1
 
 # Yandex Search Engine
 User-agent: YandexBot
 Allow: /
 Disallow: /api/
 Disallow: /admin/
-Crawl-delay: 2
 
 # Baidu Search Engine
 User-agent: Baiduspider
 Allow: /
 Disallow: /api/
 Disallow: /admin/
-Crawl-delay: 1
 
 # AI Search Engines (allow for content discovery)
 User-agent: GPTBot

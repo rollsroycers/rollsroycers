@@ -55,14 +55,12 @@ User-agent: Bingbot
 Allow: /
 Disallow: /api/
 Disallow: /admin/
-Crawl-delay: 1
 
 # Yandex Search Engine
 User-agent: YandexBot
 Allow: /
 Disallow: /api/
 Disallow: /admin/
-Crawl-delay: 2
 
 # Social Media Crawlers (important for sharing)
 User-agent: facebookexternalhit
