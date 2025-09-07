@@ -2,7 +2,8 @@ import { NextApiRequest, NextApiResponse } from 'next'
 
 export default function handler(req: NextApiRequest, res: NextApiResponse) {
   const robots = `# Robots.txt for rollsroycers.com  
-# Updated: September 2025 - Clean version with zero warnings
+# Updated: September 7, 2025 - Clean version with zero warnings
+# File size: optimized, no crawl-delay directives
 
 User-agent: *
 Allow: /
