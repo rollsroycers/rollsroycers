@@ -13,6 +13,8 @@ export default function Document() {
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
         <link rel="dns-prefetch" href="https://www.google-analytics.com" />
+        <link rel="dns-prefetch" href="https://www.statcounter.com" />
+        <link rel="dns-prefetch" href="https://c.statcounter.com" />
         
         {/* Critical CSS - inline for fastest render */}
         <style
@@ -106,6 +108,34 @@ export default function Document() {
         <link rel="icon" href="/favicon.ico" />
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
         <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+        
+        {/* StatCounter Analytics */}
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              var sc_project=13143252; 
+              var sc_invisible=1; 
+              var sc_security="e91ea536";
+            `,
+          }}
+        />
+        <script
+          type="text/javascript"
+          src="https://www.statcounter.com/counter/counter.js"
+          async
+        />
+        <noscript>
+          <div className="statcounter">
+            <a title="Web Analytics" href="https://statcounter.com/" target="_blank" rel="noopener noreferrer">
+              <img
+                className="statcounter"
+                src="https://c.statcounter.com/13143252/0/e91ea536/1/"
+                alt="Web Analytics"
+                referrerPolicy="no-referrer-when-downgrade"
+              />
+            </a>
+          </div>
+        </noscript>
       </Head>
       <body>
         <Main />

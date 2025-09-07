@@ -94,7 +94,7 @@ const loadAnalytics = () => {
   gaScript.src = 'https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID';
   document.body.appendChild(gaScript);
 
-  // StatCounter (already handled in _document.tsx)
+  // StatCounter (configured in _document.tsx - Project: 13143252)
 };
 
 // Initialize non-critical features
