@@ -1,5 +1,5 @@
-# Robots.txt for rollsroycers.com
-# Clean version - no warnings
+# Robots.txt for rollsroycers.com  
+# Updated: September 2025 - Clean version with zero warnings
 
 User-agent: *
 Allow: /
