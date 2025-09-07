@@ -105,4 +105,4 @@ Sitemap: https://rollsroycers.com/sitemap-ar.xml
 Sitemap: https://rollsroycers.com/sitemap-zh.xml
 Sitemap: https://rollsroycers.com/sitemap-fr.xml
 Sitemap: https://rollsroycers.com/sitemap-ru.xml
-Sitemap: https://rollsroycers.com/sitemap-hi.xml
+Sitemap: https://rollsroycers.com/sitemap-hi.xml# Last updated: Sun Sep  7 03:24:55 EEST 2025
