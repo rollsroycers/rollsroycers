@@ -2,130 +2,46 @@ import { NextApiRequest, NextApiResponse } from 'next'
 
 export default function handler(req: NextApiRequest, res: NextApiResponse) {
   const robots = `# Robots.txt for rollsroycers.com
-# Optimized for mobile-first indexing and SEO performance
+# Clean version - no warnings
 
-# Default rules for all crawlers
 User-agent: *
 Allow: /
-
-# Block sensitive/unnecessary directories
 Disallow: /api/
 Disallow: /_next/
 Disallow: /admin/
-Disallow: /.well-known/
-Disallow: /node_modules/
-Disallow: /.git/
-Disallow: /scripts/
 
-# Allow important static assets
-Allow: /images/
-Allow: /icons/
-Allow: /manifest.json
-Allow: /sw.js
-Allow: /*.css
-Allow: /*.js
-
-# Google Search Engines (no crawl-delay to avoid warnings)
+# Google crawlers
 User-agent: Googlebot
 Allow: /
-Disallow: /api/
-Disallow: /admin/
-Disallow: /_next/
 
-# Google Images - prioritize image indexing
 User-agent: Googlebot-Image
 Allow: /
-Allow: /images/
-Allow: *.jpg
-Allow: *.jpeg
-Allow: *.png
-Allow: *.webp
-Allow: *.gif
-Allow: *.svg
 
-# Google Mobile (for mobile-first indexing)
 User-agent: Googlebot-Mobile
 Allow: /
-Disallow: /api/
-Disallow: /admin/
 
-# Google AdSense
-User-agent: Mediapartners-Google
-Allow: /
-
-# Bing Search Engine
+# Other search engines  
 User-agent: Bingbot
 Allow: /
-Disallow: /api/
-Disallow: /admin/
 
-# Yandex Search Engine
-User-agent: YandexBot
-Allow: /
-Disallow: /api/
-Disallow: /admin/
-
-# Baidu Search Engine
-User-agent: Baiduspider
-Allow: /
-Disallow: /api/
-Disallow: /admin/
-
-# AI Search Engines (allow for content discovery)
-User-agent: GPTBot
+User-agent: Yandex
 Allow: /
 
-User-agent: ChatGPT-User
-Allow: /
-
-User-agent: CCBot
-Allow: /
-
-User-agent: anthropic-ai
-Allow: /
-
-User-agent: Claude-Web
-Allow: /
-
-# Social Media Crawlers (important for sharing)
+# Social crawlers
 User-agent: facebookexternalhit
 Allow: /
 
 User-agent: Twitterbot
 Allow: /
 
-User-agent: LinkedInBot
-Allow: /
-
-User-agent: WhatsApp
-Allow: /
-
-User-agent: TelegramBot
-Allow: /
-
-User-agent: Slackbot
-Allow: /
-
-# Block aggressive crawlers and scrapers
+# Block scrapers
 User-agent: AhrefsBot
 Disallow: /
 
 User-agent: SemrushBot
 Disallow: /
 
-User-agent: MJ12bot
-Disallow: /
-
-User-agent: DotBot
-Disallow: /
-
-User-agent: SeznamBot
-Disallow: /
-
-User-agent: BLEXBot
-Disallow: /
-
-# Sitemaps (ordered by priority)
+# Sitemaps
 Sitemap: https://rollsroycers.com/sitemap.xml
 Sitemap: https://rollsroycers.com/sitemap-pages.xml
 Sitemap: https://rollsroycers.com/sitemap-en.xml
