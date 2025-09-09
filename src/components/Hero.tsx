@@ -29,7 +29,7 @@ export default function Hero() {
   ]
 
   return (
-    <section id="home" className="relative min-h-mobile overflow-hidden">
+    <section id="home" className="relative min-h-mobile overflow-hidden pt-20">
       {/* Background Slideshow */}
       <div className="absolute inset-0">
         {heroImages.map((image, index) => (
@@ -54,7 +54,7 @@ export default function Hero() {
       </div>
 
       {/* Content */}
-      <div className="relative z-10 h-full flex items-center py-20 sm:py-0">
+      <div className="relative z-10 h-full flex items-center py-8 sm:py-16 lg:py-20">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
