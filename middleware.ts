@@ -3,45 +3,39 @@ import type { NextRequest } from 'next/server'
 
 export function middleware(request: NextRequest) {
   const hostname = request.headers.get('host') || 'rollsroycers.com'
+  const url = request.nextUrl.clone()
   
-  // Create response early to add headers
-  const response = NextResponse.next()
+  // PRIORITY 1: Handle /en redirects FIRST (before any other processing)
+  // This ensures English content is served from root domain without /en prefix
+  if (url.pathname === '/en' || url.pathname.startsWith('/en/')) {
+    // Remove /en prefix and redirect to the same path without locale
+    const pathWithoutLocale = url.pathname.replace(/^\/en/, '') || '/'
+    url.pathname = pathWithoutLocale
+    // Force redirect with rewrite URL to ensure it works
+    const redirectUrl = new URL(pathWithoutLocale, request.url)
+    return NextResponse.redirect(redirectUrl, 301)
+  }
   
-  // Temporarily disable CSP to debug runtime errors
-  // TODO: Re-enable CSP after fixing runtime issues
-  
-  // Add basic security headers instead
-  response.headers.set('X-Frame-Options', 'SAMEORIGIN')
-  response.headers.set('X-Content-Type-Options', 'nosniff')
-  response.headers.set('Referrer-Policy', 'origin-when-cross-origin')
-  
-  // Handle www to non-www redirect with proper URL construction
+  // PRIORITY 2: Handle www to non-www redirect
   if (hostname.startsWith('www.')) {
     const newUrl = new URL(request.url)
     newUrl.hostname = hostname.replace('www.', '')
-    // Ensure we don't break the URL structure
     return NextResponse.redirect(newUrl, 301)
   }
   
-  // Only handle HTTP to HTTPS in production
+  // PRIORITY 3: Only handle HTTP to HTTPS in production
   if (process.env.NODE_ENV === 'production' && request.headers.get('x-forwarded-proto') === 'http') {
     const httpsUrl = new URL(request.url)
     httpsUrl.protocol = 'https:'
     return NextResponse.redirect(httpsUrl, 301)
   }
   
-  // Handle /en redirects to default domain (English as default language)
-  const url = request.nextUrl.clone()
+  // Create response with security headers
+  const response = NextResponse.next()
+  response.headers.set('X-Frame-Options', 'SAMEORIGIN')
+  response.headers.set('X-Content-Type-Options', 'nosniff')
+  response.headers.set('Referrer-Policy', 'origin-when-cross-origin')
   
-  // Redirect /en paths to root (making English the default without prefix)
-  if (url.pathname.startsWith('/en/') || url.pathname === '/en') {
-    // Remove /en prefix and redirect to the same path without locale
-    const pathWithoutLocale = url.pathname.replace(/^\/en/, '') || '/'
-    url.pathname = pathWithoutLocale
-    return NextResponse.redirect(url, 301)
-  }
-  
-  // Return response with headers
   return response
 }
 
@@ -54,7 +48,12 @@ export const config = {
      * - _next/image (image optimization files)  
      * - favicon.ico, robots.txt, sitemap.xml
      * - public assets with file extensions
+     * 
+     * IMPORTANT: Explicitly include /en paths for redirect handling
      */
     '/((?!api|_next/static|_next/image|favicon.ico|robots.txt|sitemap.xml|.*\\..*).*)',
+    // Explicitly match /en paths to ensure middleware processes them
+    '/en/:path*',
+    '/en'
   ],
 }

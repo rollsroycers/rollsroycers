@@ -6,7 +6,6 @@ const config = {
     defaultLocale: 'en',
     locales: ['en', 'ar', 'ru', 'fr', 'zh', 'hi'],
     localeDetection: false,
-    trailingSlash: false,
   },
   defaultNS: 'common',
   localePath: path.resolve('./public/locales'),
