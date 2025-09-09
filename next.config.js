@@ -219,6 +219,17 @@ const nextConfig = {
         destination: '/ar/:path*',
         permanent: true,
       },
+      // Redirect /en to default domain (English as default language)
+      {
+        source: '/en',
+        destination: '/',
+        permanent: true,
+      },
+      {
+        source: '/en/:path*',
+        destination: '/:path*',
+        permanent: true,
+      },
       // Cookie policy alternative route (to avoid ad blocker issues)
       {
         source: '/cookies',
