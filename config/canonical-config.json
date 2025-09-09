@@ -14,7 +14,8 @@
     "crossLanguageCanonical": false,
     "useHreflang": true,
     "removeTrailingSlash": true,
-    "forceLowercase": true
+    "forceLowercase": true,
+    "enforceNonWww": true
   },
   "specialPages": {
     "/en/*": {

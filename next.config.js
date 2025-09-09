@@ -165,6 +165,18 @@ const nextConfig = {
   // Minimal redirects to avoid loops
   async redirects() {
     return [
+      // Force non-www domain for SEO consistency
+      {
+        source: '/:path*',
+        has: [
+          {
+            type: 'host',
+            value: 'www.rollsroycers.com',
+          },
+        ],
+        destination: 'https://rollsroycers.com/:path*',
+        permanent: true,
+      },
       // Redirect common misspellings to correct URLs
       {
         source: '/rent-rolls-royes-dubai',

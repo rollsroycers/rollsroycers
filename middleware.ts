@@ -15,10 +15,11 @@ export function middleware(request: NextRequest) {
   response.headers.set('X-Content-Type-Options', 'nosniff')
   response.headers.set('Referrer-Policy', 'origin-when-cross-origin')
   
-  // Only handle www to non-www redirect (avoid complex locale redirects)
+  // Handle www to non-www redirect with proper URL construction
   if (hostname.startsWith('www.')) {
     const newUrl = new URL(request.url)
     newUrl.hostname = hostname.replace('www.', '')
+    // Ensure we don't break the URL structure
     return NextResponse.redirect(newUrl, 301)
   }
   

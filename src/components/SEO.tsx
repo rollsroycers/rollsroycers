@@ -83,9 +83,17 @@ export default function SEO({ pageKey, title: titleProp, description: descriptio
 
   const basePathWithoutLocale = getBasePathWithoutLocale(cleanPath)
 
-  // CANONICAL URL: Always use English (default locale) without prefix
-  // This ensures all language versions point to the same canonical
-  const canonicalUrl = `${baseUrl}${basePathWithoutLocale === '/' ? '' : basePathWithoutLocale}`
+  // CANONICAL URL: Self-referencing - each page points to itself
+  // This follows Google's best practices for multilingual websites
+  const canonicalUrl = (() => {
+    if (locale === defaultLocale) {
+      // English version has no locale prefix
+      return `${baseUrl}${basePathWithoutLocale === '/' ? '' : basePathWithoutLocale}`
+    } else {
+      // Other language versions include locale prefix
+      return `${baseUrl}/${locale}${basePathWithoutLocale === '/' ? '' : basePathWithoutLocale}`
+    }
+  })()
 
   // Alternate language URLs - English has no prefix, other languages have prefix
   const languages = ['en', 'ar', 'zh', 'fr', 'ru', 'hi']
