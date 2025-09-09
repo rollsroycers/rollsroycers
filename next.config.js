@@ -162,6 +162,23 @@ const nextConfig = {
     ]
   },
   
+  // Handle /en rewrites before i18n routing
+  async rewrites() {
+    return {
+      beforeFiles: [
+        // Rewrite /en to root (English as default)
+        {
+          source: '/en',
+          destination: '/',
+        },
+        {
+          source: '/en/:path*',
+          destination: '/:path*',
+        },
+      ],
+    }
+  },
+  
   // Minimal redirects to avoid loops
   async redirects() {
     return [
