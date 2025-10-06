@@ -165,6 +165,28 @@ export default function BlogPage() {
       readTime: t('blog.articles.luxuryGuide2025.readTime', '15 min read'),
       image: '/images/Rolls-royce-dubai.jpg',
       slug: 'dubai-luxury-car-guide-2025'
+    },
+    {
+      id: 14,
+      title: t('blog.articles.article10.title', 'The Art of Arriving in Style: Rolls-Royce for Special Events in Dubai'),
+      excerpt: t('blog.articles.article10.excerpt', 'Discover how to make unforgettable entrances at galas, red carpet events, corporate functions, and celebrations with Dubai\'s most prestigious luxury cars.'),
+      category: 'luxury',
+      author: t('blog.articles.article10.author', 'Layla Al-Mansouri'),
+      date: t('blog.articles.article10.date', 'October 1, 2025'),
+      readTime: t('blog.articles.article10.readTime', '10 min read'),
+      image: '/images/Rolls-Royce-Ride-2.jpg',
+      slug: 'art-of-arriving-special-events-dubai'
+    },
+    {
+      id: 15,
+      title: t('blog.articles.article11.title', 'Dubai After Dark: The Ultimate Rolls-Royce Night Experience Guide'),
+      excerpt: t('blog.articles.article11.excerpt', 'Discover Dubai\'s most spectacular nighttime destinations and experiences, from illuminated skylines to exclusive venues, all from the luxury of your Rolls-Royce.'),
+      category: 'luxury',
+      author: t('blog.articles.article11.author', 'Khalid Al-Mansoori'),
+      date: t('blog.articles.article11.date', 'October 4, 2025'),
+      readTime: t('blog.articles.article11.readTime', '12 min read'),
+      image: '/images/Rolls-Royce-black.jpg',
+      slug: 'dubai-night-experience-rolls-royce'
     }
   ]
 
