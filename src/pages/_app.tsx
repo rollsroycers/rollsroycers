@@ -1,26 +1,34 @@
 import '@/styles/globals.css'
 import type { AppProps } from 'next/app'
-import { appWithTranslation } from 'next-i18next'
-import { useEffect } from 'react'
+import { useEffect, useState } from 'react'
 import { optimizeForMobile, setMobileViewportHeight } from '@/utils/mobileOptimizations'
 import { getPerformanceMonitor } from '@/utils/performanceMonitor'
 import { initializePerformanceOptimizations } from '@/utils/performanceOptimizations'
 
 // Minimal app with React 18 compatibility
 function MyApp({ Component, pageProps }: AppProps) {
+  const [isMounted, setIsMounted] = useState(false)
+
   useEffect(() => {
+    setIsMounted(true)
+
     // Initialize mobile optimizations
     optimizeForMobile()
-    
+
     // Set up mobile-safe viewport height
     setMobileViewportHeight()
-    
+
     // Initialize performance monitoring
     getPerformanceMonitor()
-    
+
     // Initialize general performance optimizations
     initializePerformanceOptimizations()
   }, [])
+
+  // During SSR, render minimal component
+  if (!isMounted) {
+    return <Component {...pageProps} />
+  }
 
   return <Component {...pageProps} />
 }
@@ -30,7 +38,7 @@ export function reportWebVitals(metric: any) {
   if (process.env.NODE_ENV === 'production') {
     // Log to console
     console.log(metric)
-    
+
     // Send to analytics
     if ('gtag' in window && typeof (window as any).gtag === 'function') {
       (window as any).gtag('event', metric.name, {
@@ -40,7 +48,7 @@ export function reportWebVitals(metric: any) {
         non_interaction: true
       })
     }
-    
+
     // Send to custom analytics endpoint
     if (process.env.NEXT_PUBLIC_ANALYTICS_ENDPOINT) {
       const body = JSON.stringify({
@@ -51,7 +59,7 @@ export function reportWebVitals(metric: any) {
         url: window.location.href,
         timestamp: Date.now()
       })
-      
+
       // Use sendBeacon if available for reliability
       if (navigator.sendBeacon) {
         navigator.sendBeacon(process.env.NEXT_PUBLIC_ANALYTICS_ENDPOINT, body)
@@ -66,4 +74,6 @@ export function reportWebVitals(metric: any) {
   }
 }
 
-export default appWithTranslation(MyApp)
+// Export directly without appWithTranslation for Cloudflare Workers compatibility
+// Translations are already baked into SSG pages at build time
+export default MyApp
