@@ -9,8 +9,10 @@ const i18nConfig = {
   },
   defaultNS: 'common',
   localePath: path.resolve('./public/locales'),
-  reloadOnPrerender: false,
-  react: { useSuspense: false },
+  reloadOnPrerender: process.env.NODE_ENV === 'development',
+  react: {
+    useSuspense: false,
+  },
 }
 
 export const serverSideTranslations = async (
@@ -19,7 +21,8 @@ export const serverSideTranslations = async (
 ) => {
   try {
     return await _serverSideTranslations(locale, namespaces, i18nConfig as any)
-  } catch {
+  } catch (error) {
+    console.error('[i18n] Failed to load translations:', error)
     // Fallback for Cloudflare Workers where filesystem isn't available at runtime
     return {
       _nextI18Next: {

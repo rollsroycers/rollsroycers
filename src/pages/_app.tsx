@@ -75,12 +75,4 @@ export function reportWebVitals(metric: any) {
   }
 }
 
-export default appWithTranslation(MyApp, {
-  i18n: {
-    defaultLocale: 'en',
-    locales: ['en', 'ar', 'ru', 'fr', 'zh', 'hi'],
-    localeDetection: false,
-  },
-  defaultNS: 'common',
-  react: { useSuspense: false },
-})
+export default appWithTranslation(MyApp)
