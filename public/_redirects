@@ -1,21 +1,14 @@
-# === Netlify/Vercel Redirects File ===
-# Keep only essential redirects to avoid loops
+# === Cloudflare Redirects ===
 
-# === Language-specific redirects ===
-/ae/* /ar/:splat 301!
-/ae /ar 301!
+/ae/* /ar/:splat 301
+/ae /ar 301
 
-# === Redirect missing pages ===
-/testimonials /faq#testimonials 301!
-/terms /privacy#terms 301!
+/testimonials /faq 301
+/terms /privacy 301
 
-# === Common misspellings ===
-/rent-rolls-royes-dubai / 301!
-/rolls-royes-rental-dubai / 301!
-/role-royce-dubai / 301!
-/phantom-rental /fleet/phantom 301!
-/ghost-rental /fleet/ghost 301!
-/cullinan-rental /fleet/cullinan 301!
-
-# === Default fallback for client-side routing ===
-/* /index.html 200
+/rent-rolls-royes-dubai / 301
+/rolls-royes-rental-dubai / 301
+/role-royce-dubai / 301
+/phantom-rental /fleet/phantom 301
+/ghost-rental /fleet/ghost 301
+/cullinan-rental /fleet/cullinan 301
