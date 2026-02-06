@@ -85,11 +85,11 @@ export default function Navbar() {
             <Image
               src="/images/logo.jpg"
               alt="Rolls-Royce Dubai"
-              width={50}
-              height={50}
+              width={40}
+              height={40}
               className="rounded-full"
               priority
-              style={{ width: 'auto', height: 'auto' }}
+              style={{ width: '40px', height: '40px' }}
             />
             <span className="text-white font-bold text-xl hidden sm:block">
               {t('common.rollsRoyceDubai')}
