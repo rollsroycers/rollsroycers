@@ -41,15 +41,15 @@ export default function RollsRoyceVsBentleyPage() {
 
   const comparisonData = {
     overview: {
-      'rolls-royce': {
-        title: t('compare.overview.rolls-royce.title') || 'The Pinnacle of Luxury',
-        points: getTranslatedArray('compare.overview.rolls-royce.points', [
+      'rollsRoyce': {
+        title: t('compare.overview.rollsRoyce.title') || 'The Pinnacle of Luxury',
+        points: getTranslatedArray('compare.overview.rollsRoyce.points', [
           'Uncompromising commitment to luxury and comfort',
           'Bespoke craftsmanship with unlimited customization',
           'The quietest and smoothest ride in the automotive world',
           'Preferred choice of royalty and heads of state'
         ]),
-        summary: t('compare.overview.rolls-royce.summary') || 'Rolls-Royce represents the absolute pinnacle of automotive luxury, where no compromise is made in the pursuit of perfection.'
+        summary: t('compare.overview.rollsRoyce.summary') || 'Rolls-Royce represents the absolute pinnacle of automotive luxury, where no compromise is made in the pursuit of perfection.'
       },
       'bentley': {
         title: t('compare.overview.bentley.title') || 'Performance Luxury',
@@ -63,15 +63,15 @@ export default function RollsRoyceVsBentleyPage() {
       }
     },
     luxury: {
-      'rolls-royce': {
-        title: t('compare.luxury.rolls-royce.title') || 'Unparalleled Opulence',
-        points: getTranslatedArray('compare.luxury.rolls-royce.points', [
+      'rollsRoyce': {
+        title: t('compare.luxury.rollsRoyce.title') || 'Unparalleled Opulence',
+        points: getTranslatedArray('compare.luxury.rollsRoyce.points', [
           'Hand-stitched leather from specially reared bulls',
           'Real wood veneers from single trees for perfect matching',
           'Starlight headliner with thousands of fiber optic lights',
           'Bespoke department for unlimited personalization'
         ]),
-        summary: t('compare.luxury.rolls-royce.summary') || 'Every Rolls-Royce is a masterpiece of craftsmanship, with attention to detail that borders on obsession.'
+        summary: t('compare.luxury.rollsRoyce.summary') || 'Every Rolls-Royce is a masterpiece of craftsmanship, with attention to detail that borders on obsession.'
       },
       'bentley': {
         title: t('compare.luxury.bentley.title') || 'Contemporary Luxury',
@@ -85,15 +85,15 @@ export default function RollsRoyceVsBentleyPage() {
       }
     },
     performance: {
-      'rolls-royce': {
-        title: t('compare.performance.rolls-royce.title') || 'Effortless Power',
-        points: getTranslatedArray('compare.performance.rolls-royce.points', [
+      'rollsRoyce': {
+        title: t('compare.performance.rollsRoyce.title') || 'Effortless Power',
+        points: getTranslatedArray('compare.performance.rollsRoyce.points', [
           'V12 engines delivering seamless power',
           'Focus on refinement over outright speed',
           'Magic Carpet Ride suspension system',
           'Near-silent operation at any speed'
         ]),
-        summary: t('compare.performance.rolls-royce.summary') || 'Rolls-Royce prioritizes smooth, effortless power delivery over sporting performance, creating a serene driving experience.'
+        summary: t('compare.performance.rollsRoyce.summary') || 'Rolls-Royce prioritizes smooth, effortless power delivery over sporting performance, creating a serene driving experience.'
       },
       'bentley': {
         title: t('compare.performance.bentley.title') || 'Exhilarating Performance',
@@ -107,15 +107,15 @@ export default function RollsRoyceVsBentleyPage() {
       }
     },
     technology: {
-      'rolls-royce': {
-        title: t('compare.technology.rolls-royce.title') || 'Invisible Technology',
-        points: getTranslatedArray('compare.technology.rolls-royce.points', [
+      'rollsRoyce': {
+        title: t('compare.technology.rollsRoyce.title') || 'Invisible Technology',
+        points: getTranslatedArray('compare.technology.rollsRoyce.points', [
           'Technology hidden behind traditional interfaces',
           'Satellite Aided Transmission',
           'Night vision with pedestrian detection',
           'Bespoke audio system tuned to each car'
         ]),
-        summary: t('compare.technology.rolls-royce.summary') || 'Rolls-Royce integrates cutting-edge technology seamlessly, maintaining a classic, uncluttered aesthetic.'
+        summary: t('compare.technology.rollsRoyce.summary') || 'Rolls-Royce integrates cutting-edge technology seamlessly, maintaining a classic, uncluttered aesthetic.'
       },
       'bentley': {
         title: t('compare.technology.bentley.title') || 'Modern Innovation',
@@ -129,15 +129,15 @@ export default function RollsRoyceVsBentleyPage() {
       }
     },
     heritage: {
-      'rolls-royce': {
-        title: t('compare.heritage.rolls-royce.title') || '120 Years of Excellence',
-        points: getTranslatedArray('compare.heritage.rolls-royce.points', [
+      'rollsRoyce': {
+        title: t('compare.heritage.rollsRoyce.title') || '120 Years of Excellence',
+        points: getTranslatedArray('compare.heritage.rollsRoyce.points', [
           'Founded in 1904 by Henry Royce and Charles Rolls',
           'Spirit of Ecstasy - the most famous automotive mascot',
           'Supplier to royalty worldwide',
           'The best car in the world philosophy'
         ]),
-        summary: t('compare.heritage.rolls-royce.summary') || 'Rolls-Royce has maintained its position as the ultimate luxury car manufacturer for over a century.'
+        summary: t('compare.heritage.rollsRoyce.summary') || 'Rolls-Royce has maintained its position as the ultimate luxury car manufacturer for over a century.'
       },
       'bentley': {
         title: t('compare.heritage.bentley.title') || 'Racing Pedigree',
@@ -151,15 +151,15 @@ export default function RollsRoyceVsBentleyPage() {
       }
     },
     price: {
-      'rolls-royce': {
-        title: t('compare.price.rolls-royce.title') || 'Ultimate Investment',
-        points: getTranslatedArray('compare.price.rolls-royce.points', [
+      'rollsRoyce': {
+        title: t('compare.price.rollsRoyce.title') || 'Ultimate Investment',
+        points: getTranslatedArray('compare.price.rollsRoyce.points', [
           'Starting prices from AED 2,000,000+',
           'Bespoke options can double the base price',
           'Strong value retention',
           'Exclusive ownership experience'
         ]),
-        summary: t('compare.price.rolls-royce.summary') || 'Rolls-Royce commands premium prices that reflect its position as the ultimate luxury automobile.'
+        summary: t('compare.price.rollsRoyce.summary') || 'Rolls-Royce commands premium prices that reflect its position as the ultimate luxury automobile.'
       },
       'bentley': {
         title: t('compare.price.bentley.title') || 'Accessible Ultra-Luxury',
@@ -393,11 +393,11 @@ export default function RollsRoyceVsBentleyPage() {
                     </div>
                     
                     <h4 className="text-xl font-semibold text-rolls-gold mb-4">
-                      {comparisonData[selectedAspect as keyof typeof comparisonData]['rolls-royce'].title}
+                      {comparisonData[selectedAspect as keyof typeof comparisonData]['rollsRoyce'].title}
                     </h4>
                     
                     <ul className="space-y-3 mb-6">
-                      {comparisonData[selectedAspect as keyof typeof comparisonData]['rolls-royce'].points.map((point, index) => (
+                      {comparisonData[selectedAspect as keyof typeof comparisonData]['rollsRoyce'].points.map((point, index) => (
                         <li key={index} className="flex items-start">
                           <svg className="w-5 h-5 text-rolls-gold mr-3 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
                             <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
@@ -408,7 +408,7 @@ export default function RollsRoyceVsBentleyPage() {
                     </ul>
                     
                     <p className="text-gray-400 italic">
-                      {comparisonData[selectedAspect as keyof typeof comparisonData]['rolls-royce'].summary}
+                      {comparisonData[selectedAspect as keyof typeof comparisonData]['rollsRoyce'].summary}
                     </p>
                   </div>
 

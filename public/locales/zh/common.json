@@ -4165,7 +4165,11 @@
   },
   "compare": {
     "hero": {
-      "title": "比较豪华汽车",
+      "title": {
+        "rollsRoyce": "Rolls-Royce",
+        "vs": "vs",
+        "bentley": "Bentley"
+      },
       "subtitle": "迪拜终极奢华汽车比较",
       "bentleyAlt": "迪拜宾利奢华汽车",
       "description": "探索劳斯莱斯与其他豪华品牌之间的详细比较，找到满足您需求的完美车辆"
