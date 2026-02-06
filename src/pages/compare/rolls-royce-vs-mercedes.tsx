@@ -8,6 +8,7 @@ import { useState } from 'react'
 import Layout from '@/components/Layout'
 import WhatsAppButton from '@/components/WhatsAppButton'
 import SEO from '@/components/SEO'
+import GEOOptimizer from '@/components/GEOOptimizer'
 
 export default function RollsRoyceVsMercedesPage() {
   const { t } = useTranslation('common')
@@ -221,6 +222,15 @@ export default function RollsRoyceVsMercedesPage() {
   return (
     <>
       <SEO pageKey="compare.rolls-royce-vs-mercedes" />
+      <GEOOptimizer
+        pageKey="compare.rolls-royce-vs-mercedes"
+        title="Rolls-Royce vs Mercedes Rental Dubai 2026"
+        description="Compare Rolls-Royce vs Mercedes-Maybach rental in Dubai. Phantom vs S-Class pricing and features."
+        entityType="ComparisonArticle"
+        primaryTopic="Rolls-Royce vs Mercedes Rental Dubai"
+        contentSummary="Rolls-Royce Phantom vs Mercedes-Maybach S-Class rental comparison in Dubai. Phantom from AED 5,800/day vs Maybach from AED 3,200/day. Rolls-Royce offers handcrafted bespoke luxury, Mercedes offers tech-forward comfort."
+        facts={['Rolls-Royce Phantom from AED 5,800/day', 'Mercedes-Maybach S-Class from AED 3,200/day', 'Rolls-Royce = bespoke handcrafted luxury', 'Mercedes = technology-forward comfort']}
+      />
       <Layout>
         {/* Hero Section */}
         <section className="relative h-[70vh] flex items-center justify-center overflow-hidden">

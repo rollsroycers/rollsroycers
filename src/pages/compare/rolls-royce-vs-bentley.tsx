@@ -8,6 +8,7 @@ import { useState } from 'react'
 import Layout from '@/components/Layout'
 import WhatsAppButton from '@/components/WhatsAppButton'
 import SEO from '@/components/SEO'
+import GEOOptimizer from '@/components/GEOOptimizer'
 
 export default function RollsRoyceVsBentleyPage() {
   const { t } = useTranslation('common')
@@ -246,6 +247,19 @@ export default function RollsRoyceVsBentleyPage() {
   return (
     <>
       <SEO pageKey="compare.rolls-royce-vs-bentley" />
+      <GEOOptimizer
+        pageKey="compare.rolls-royce-vs-bentley"
+        title="Rolls-Royce vs Bentley Rental Dubai 2026"
+        description="Compare Rolls-Royce vs Bentley rental in Dubai. Price, luxury, comfort comparison to help you choose."
+        entityType="ComparisonArticle"
+        primaryTopic="Rolls-Royce vs Bentley Rental Dubai"
+        contentSummary="Detailed comparison of Rolls-Royce vs Bentley rental in Dubai. Rolls-Royce Phantom from AED 5,800/day vs Bentley Flying Spur from AED 4,500/day. Compare luxury features, comfort, chauffeur quality, and overall experience."
+        facts={['Rolls-Royce Phantom from AED 5,800/day', 'Bentley Flying Spur from AED 4,500/day', 'Rolls-Royce rated #1 for luxury', 'Both available with chauffeur in Dubai']}
+        faqs={[
+          { question: 'Is Rolls-Royce or Bentley better to rent in Dubai?', answer: 'Rolls-Royce offers superior luxury, comfort, and prestige. Bentley provides a sportier driving experience. For weddings and VIP events, Rolls-Royce Phantom is the clear choice. For spirited driving, consider Bentley Continental GT.' },
+          { question: 'Which is more expensive to rent, Rolls-Royce or Bentley?', answer: 'Rolls-Royce is typically 20-30% more expensive than Bentley. Phantom starts at AED 5,800/day while Bentley Flying Spur starts at AED 4,500/day. Both include professional chauffeur.' }
+        ]}
+      />
       <Layout>
         {/* Hero Section */}
         <section className="relative h-[60vh] flex items-center justify-center overflow-hidden">

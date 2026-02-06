@@ -7,6 +7,8 @@ import { motion } from 'framer-motion'
 import Layout from '@/components/Layout'
 import WhatsAppButton from '@/components/WhatsAppButton'
 import SEO from '@/components/SEO'
+import GEOOptimizer from '@/components/GEOOptimizer'
+import EntitySchema from '@/components/EntitySchema'
 // import LocationMap from '@/components/LocationMap' - Component will be created later
 // import VehicleCard from '@/components/VehicleCard' - Component will be created later
 
@@ -134,6 +136,16 @@ export default function DIFCLocationPage() {
   return (
     <>
       <SEO pageKey="locations.difc" />
+      <GEOOptimizer
+        pageKey="locations.difc"
+        title="Rolls-Royce Rental DIFC Dubai 2026"
+        description="Premium Rolls-Royce rental in DIFC financial district. Ghost for executives. Corporate accounts available."
+        entityType="LocalBusiness"
+        primaryTopic="Rolls-Royce Rental DIFC Dubai"
+        contentSummary="Premium Rolls-Royce rental in Dubai International Financial Centre. Ghost Series II and Phantom for financial executives. Corporate accounts, monthly packages, and priority booking."
+        facts={['DIFC financial district specialist', 'Corporate accounts available', 'Ghost ideal for finance executives', 'Gate Avenue area coverage', '10-min delivery to DIFC']}
+      />
+      <EntitySchema pageType="location" locationName="difc" />
       <Layout>
         {/* Hero Section */}
         <section className="relative h-[70vh] flex items-center justify-center overflow-hidden">

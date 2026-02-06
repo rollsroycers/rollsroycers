@@ -1,7 +1,7 @@
 {
   "pages": {
     "home": {
-      "title": "迪拜劳斯莱斯租赁 | 带司机的豪华轿车 | RR Dubai 2025",
+      "title": "迪拜劳斯莱斯租赁 | 带司机的豪华轿车 | RR Dubai 2026",
       "description": "在迪拜租一辆独特的劳斯莱斯。我们的车队包括幻影、库里南、古思特、曜影和魅影。我们提供专业的司机服务、VIP机场接送和婚车服务。请致电+971558164922进行预订。",
       "keywords": "迪拜劳斯莱斯租赁, 迪拜豪华车租赁, 带司机的劳斯莱斯, 迪拜幻影租赁, 迪拜库里南出租, 迪拜VIP机场接送, 迪拜劳斯莱斯婚车, 豪华车租赁",
       "aiKeywords": [
@@ -10,39 +10,85 @@
         "迪拜豪华汽车租赁",
         "迪拜带司机劳斯莱斯",
         "迪拜劳斯莱斯司机服务"
+      ],
+      "longTailKeywords": [
+        "迪拜最便宜劳斯莱斯租赁",
+        "迪拜劳斯莱斯一天多少钱",
+        "迪拜劳斯莱斯带司机每小时价格",
+        "迪拜劳斯莱斯租赁无押金",
+        "哈利法塔附近豪华车租赁",
+        "2026迪拜最佳劳斯莱斯租赁公司",
+        "迪拜游客租劳斯莱斯"
+      ],
+      "voiceSearchOptimized": [
+        "在迪拜租劳斯莱斯多少钱？",
+        "迪拜哪里可以租劳斯莱斯？",
+        "迪拜最便宜的劳斯莱斯是哪款？",
+        "可以租一天劳斯莱斯吗？",
+        "预订迪拜带司机的劳斯莱斯"
       ]
     },
     "fleet": {
       "index": {
         "title": "迪拜豪华劳斯莱斯车队 | 查看所有车型 | 幻影、古思特、库里南",
         "description": "探索我们在迪拜的完整劳斯莱斯车队。从幻影、古思特、库里南、曜影和魅影中选择。专业司机服务，24/7全天候可用。最优价格从3,800迪拉姆/天起。查看所有车型，比较功能，立即预订。",
-        "keywords": "迪拜劳斯莱斯车队，迪拜所有劳斯莱斯车型，迪拜劳斯莱斯系列，迪拜豪华车队，幻影古思特库里南迪拜，劳斯莱斯租赁车队，查看所有劳斯莱斯迪拜，比较劳斯莱斯车型，迪拜豪华车队租赁，迪拜劳斯莱斯展厅"
+        "keywords": "迪拜劳斯莱斯车队，迪拜所有劳斯莱斯车型，迪拜劳斯莱斯系列，迪拜豪华车队，幻影古思特库里南迪拜，劳斯莱斯租赁车队，查看所有劳斯莱斯迪拜，比较劳斯莱斯车型，迪拜豪华车队租赁，迪拜劳斯莱斯展厅",
+        "longTailKeywords": [
+          "迪拜所有劳斯莱斯车型租赁",
+          "比较迪拜劳斯莱斯租赁价格"
+        ],
+        "voiceSearchOptimized": [
+          "给我看迪拜所有劳斯莱斯车型",
+          "租哪款劳斯莱斯最好？"
+        ],
+        "aiKeywords": [
+          "迪拜劳斯莱斯车队",
+          "所有车型租赁迪拜",
+          "比较劳斯莱斯迪拜"
+        ]
       },
       "phantom": {
-        "title": "迪拜租赁劳斯莱斯幻影 2025 | 5,800迪拉姆/天 | 最佳豪华车 | 第一服务",
-        "description": "在迪拜租赁劳斯莱斯幻影，每天5,800迪拉姆起，配专业司机。2025年加长轴距版，完美适合婚礼、VIP接送和企业活动。⭐ 1,247条评价中获4.9/5评分。免费送车、即时预订、24/7支持。体验奢华巅峰 - 立即预订！",
-        "keywords": "迪拜租劳斯莱斯幻影, 迪拜劳斯莱斯幻影租赁价格, 迪拜幻影租赁2025, 迪拜豪华车租赁幻影, 迪拜幻影带司机, 迪拜劳斯莱斯幻影婚车, 迪拜幻影机场接送, 迪拜幻影企业租赁, 迪拜VIP幻影, 迪拜幻影小时租赁, 迪拜幻影加长轴距, 迪拜最佳幻影租赁, 迪拜幻影司机服务, 迪拜幻影日租, 迪拜幻影月租",
-        "aiKeywords": [],
-        "longTailKeywords": [],
-        "voiceSearchOptimized": [],
-        "schema": {},
+        "title": "迪拜租赁劳斯莱斯幻影 2026 | 5,800迪拉姆/天 | 最佳豪华车 | 第一服务",
+        "description": "在迪拜租赁劳斯莱斯幻影，每天5,800迪拉姆起，配专业司机。2026年加长轴距版，完美适合婚礼、VIP接送和企业活动。⭐ 1,247条评价中获4.9/5评分。免费送车、即时预订、24/7支持。体验奢华巅峰 - 立即预订！",
+        "keywords": "迪拜租劳斯莱斯幻影, 迪拜劳斯莱斯幻影租赁价格, 迪拜幻影租赁2026, 迪拜豪华车租赁幻影, 迪拜幻影带司机, 迪拜劳斯莱斯幻影婚车, 迪拜幻影机场接送, 迪拜幻影企业租赁, 迪拜VIP幻影, 迪拜幻影小时租赁, 迪拜幻影加长轴距, 迪拜最佳幻影租赁, 迪拜幻影司机服务, 迪拜幻影日租, 迪拜幻影月租",
+        "aiKeywords": [
+          "迪拜幻影租赁价格",
+          "幻影婚车迪拜",
+          "幻影带司机迪拜"
+        ],
+        "longTailKeywords": [
+          "迪拜白色幻影婚车",
+          "幻影加长版租赁价格",
+          "幻影vs迈巴赫租赁迪拜"
+        ],
+        "voiceSearchOptimized": [
+          "迪拜幻影一天多少钱？",
+          "有白色幻影婚车吗？"
+        ],
+        "schema": {
+          "availability": "InStock",
+          "breadcrumb": "Home > Fleet > Rolls-Royce Phantom",
+          "priceRange": "AED 5,800 - 116,000",
+          "reviewCount": "1247",
+          "rating": "4.9"
+        },
         "og": {
-          "title": "迪拜租赁劳斯莱斯幻影 2025 | 5,800迪拉姆/天 | 最佳豪华车 | 第一服务",
-          "description": "在迪拜租赁劳斯莱斯幻影，每天5,800迪拉姆起，配专业司机。2025年加长轴距版，完美适合婚礼、VIP接送和企业活动。⭐ 1,247条评价中获4.9/5评分。免费送车、即时预订、24/7支持。体验奢华巅峰 - 立即预订！",
-          "image": "https://www.rollsroycers.com/images/Rolls-royce-phantom.jpg",
-          "url": "https://www.rollsroycers.com/zh/fleet/phantom"
+          "title": "迪拜租赁劳斯莱斯幻影 2026 | 5,800迪拉姆/天 | 最佳豪华车 | 第一服务",
+          "description": "在迪拜租赁劳斯莱斯幻影，每天5,800迪拉姆起，配专业司机。2026年加长轴距版，完美适合婚礼、VIP接送和企业活动。⭐ 1,247条评价中获4.9/5评分。免费送车、即时预订、24/7支持。体验奢华巅峰 - 立即预订！",
+          "image": "https://rollsroycers.com/images/Rolls-royce-phantom.jpg",
+          "url": "https://rollsroycers.com/zh/fleet/phantom"
         },
         "twitter": {
           "card": "summary_large_image",
-          "title": "迪拜租赁劳斯莱斯幻影 2025 | 5,800迪拉姆/天 | 最佳豪华车 | 第一服务",
-          "description": "在迪拜租赁劳斯莱斯幻影，每天5,800迪拉姆起，配专业司机。2025年加长轴距版，完美适合婚礼、VIP接送和企业活动。⭐ 1,247条评价中获4.9/5评分。免费送车、即时预订、24/7支持。体验奢华巅峰 - 立即预订！",
-          "image": "https://www.rollsroycers.com/images/Rolls-royce-phantom.jpg"
+          "title": "迪拜租赁劳斯莱斯幻影 2026 | 5,800迪拉姆/天 | 最佳豪华车 | 第一服务",
+          "description": "在迪拜租赁劳斯莱斯幻影，每天5,800迪拉姆起，配专业司机。2026年加长轴距版，完美适合婚礼、VIP接送和企业活动。⭐ 1,247条评价中获4.9/5评分。免费送车、即时预订、24/7支持。体验奢华巅峰 - 立即预订！",
+          "image": "https://rollsroycers.com/images/Rolls-royce-phantom.jpg"
         }
       },
       "ghost": {
-        "title": "2025款劳斯莱斯古思特租赁迪拜 | Black Badge版 | 3,800迪拉姆/天起",
-        "description": "在迪拜体验2025款劳斯莱斯古思特系列II。革命性的Planar悬挂系统、发光仪表盘和静谧的座舱。可选择标准版或Black Badge版。是DIFC会议、码头驾驶或VIP活动的理想之选。包含专业司机。",
-        "keywords": "2025款劳斯莱斯古思特租赁迪拜, 租用古思特Black Badge迪拜, 古思特系列II租赁, 行政轿车迪拜码头, 商务车DIFC, 带司机的古思特市中心, 古思特发光仪表盘体验, Planar悬挂系统",
+        "title": "2026款劳斯莱斯古思特租赁迪拜 | Black Badge版 | 3,800迪拉姆/天起",
+        "description": "在迪拜体验2026款劳斯莱斯古思特系列II。革命性的Planar悬挂系统、发光仪表盘和静谧的座舱。可选择标准版或Black Badge版。是DIFC会议、码头驾驶或VIP活动的理想之选。包含专业司机。",
+        "keywords": "2026款劳斯莱斯古思特租赁迪拜, 租用古思特Black Badge迪拜, 古思特系列II租赁, 行政轿车迪拜码头, 商务车DIFC, 带司机的古思特市中心, 古思特发光仪表盘体验, Planar悬挂系统",
         "aiKeywords": [
           "迪拜租劳斯莱斯",
           "迪拜劳斯莱斯租赁",
@@ -52,12 +98,21 @@
           "rolls royce ghost dubai",
           "ghost rental dubai",
           "rent ghost dubai"
+        ],
+        "longTailKeywords": [
+          "迪拜古思特黑标版租赁",
+          "古思特二代日租价格",
+          "迪拜最便宜古思特租赁"
+        ],
+        "voiceSearchOptimized": [
+          "古思特一天多少钱？",
+          "有古思特黑标版出租吗？"
         ]
       },
       "cullinan": {
-        "title": "2025款劳斯莱斯库里南租赁迪拜 | Black Badge SUV | 4,500迪拉姆起",
-        "description": "在迪拜租用雄伟的2025款劳斯莱斯库里南SUV。体验观景套房、全地形能力和至尊舒适。提供标准版或Black Badge版。是哈塔家庭旅行、豪华沙漠探险或朱美拉棕榈岛巡游的理想之选。",
-        "keywords": "2025款劳斯莱斯库里南租赁迪拜, 库里南Black Badge SUV租赁, 豪华7座SUV迪拜, 库里南沙漠探险预订, 家庭豪华车JBR, 观景套房体验迪拜, 全地形劳斯莱斯租赁",
+        "title": "2026款劳斯莱斯库里南租赁迪拜 | Black Badge SUV | 4,500迪拉姆起",
+        "description": "在迪拜租用雄伟的2026款劳斯莱斯库里南SUV。体验观景套房、全地形能力和至尊舒适。提供标准版或Black Badge版。是哈塔家庭旅行、豪华沙漠探险或朱美拉棕榈岛巡游的理想之选。",
+        "keywords": "2026款劳斯莱斯库里南租赁迪拜, 库里南Black Badge SUV租赁, 豪华7座SUV迪拜, 库里南沙漠探险预订, 家庭豪华车JBR, 观景套房体验迪拜, 全地形劳斯莱斯租赁",
         "aiKeywords": [
           "迪拜租劳斯莱斯",
           "迪拜劳斯莱斯租赁",
@@ -67,12 +122,21 @@
           "rolls royce cullinan dubai",
           "cullinan rental dubai",
           "rent cullinan dubai"
+        ],
+        "longTailKeywords": [
+          "迪拜库里南SUV家庭租赁",
+          "库里南沙漠之旅迪拜",
+          "七座豪华SUV租赁"
+        ],
+        "voiceSearchOptimized": [
+          "库里南租赁多少钱？",
+          "库里南适合家庭吗？"
         ]
       },
       "dawn": {
-        "title": "2025款劳斯莱斯曜影租赁迪拜 | 敞篷豪华 | 4,200迪拉姆/天",
-        "description": "尽情享受2025款劳斯莱斯曜影，世界上最安静的敞篷车。体验静音的芭蕾舞车顶机械装置和定制音响。是JBR海滩驾驶、在Pierchic享用浪漫晚餐或前往帆船酒店日落巡游的完美选择。预订并配备专业司机。",
-        "keywords": "2025款劳斯莱斯曜影敞篷车迪拜, 租用曜影drophead迪拜码头, 豪华敞篷车JBR海滩, 曜影静音车顶机械装置, 浪漫汽车租赁迪拜, 朱美拉日落驾驶, 敞篷劳斯莱斯预订",
+        "title": "2026款劳斯莱斯曜影租赁迪拜 | 敞篷豪华 | 4,200迪拉姆/天",
+        "description": "尽情享受2026款劳斯莱斯曜影，世界上最安静的敞篷车。体验静音的芭蕾舞车顶机械装置和定制音响。是JBR海滩驾驶、在Pierchic享用浪漫晚餐或前往帆船酒店日落巡游的完美选择。预订并配备专业司机。",
+        "keywords": "2026款劳斯莱斯曜影敞篷车迪拜, 租用曜影drophead迪拜码头, 豪华敞篷车JBR海滩, 曜影静音车顶机械装置, 浪漫汽车租赁迪拜, 朱美拉日落驾驶, 敞篷劳斯莱斯预订",
         "aiKeywords": [
           "迪拜租劳斯莱斯",
           "迪拜劳斯莱斯租赁",
@@ -82,12 +146,20 @@
           "rolls royce dawn dubai",
           "dawn rental dubai",
           "rent dawn dubai"
+        ],
+        "longTailKeywords": [
+          "迪拜码头黎明敞篷车租赁",
+          "劳斯莱斯敞篷车海滩JBR"
+        ],
+        "voiceSearchOptimized": [
+          "黎明敞篷车租赁多少钱？",
+          "在迪拜哪里开敞篷车？"
         ]
       },
       "wraith": {
-        "title": "2025款劳斯莱斯魅影租赁迪拜 | 624马力豪华轿跑 | 4,000迪拉姆起",
-        "description": "驾驶最强劲的劳斯莱斯 - 2025款魅影，搭载624马力V12发动机。配备卫星辅助变速箱、星光车顶和独特的快背设计。是谢赫扎耶德路巡航、商务湾会议或独家活动的完美选择。",
-        "keywords": "2025款劳斯莱斯魅影租赁迪拜, 租用魅影Black Badge轿跑, 624马力豪华车迪拜, 快背劳斯莱斯租赁, 魅影卫星变速箱, 强劲轿跑谢赫扎耶德路, 运动豪华租赁市中心",
+        "title": "2026款劳斯莱斯魅影租赁迪拜 | 624马力豪华轿跑 | 4,000迪拉姆起",
+        "description": "驾驶最强劲的劳斯莱斯 - 2026款魅影，搭载624马力V12发动机。配备卫星辅助变速箱、星光车顶和独特的快背设计。是谢赫扎耶德路巡航、商务湾会议或独家活动的完美选择。",
+        "keywords": "2026款劳斯莱斯魅影租赁迪拜, 租用魅影Black Badge轿跑, 624马力豪华车迪拜, 快背劳斯莱斯租赁, 魅影卫星变速箱, 强劲轿跑谢赫扎耶德路, 运动豪华租赁市中心",
         "aiKeywords": [
           "迪拜租劳斯莱斯",
           "迪拜劳斯莱斯租赁",
@@ -97,6 +169,15 @@
           "rolls royce wraith dubai",
           "wraith rental dubai",
           "rent wraith dubai"
+        ],
+        "longTailKeywords": [
+          "迪拜魅影双门跑车租赁",
+          "最快劳斯莱斯出租",
+          "魅影星空顶迪拜"
+        ],
+        "voiceSearchOptimized": [
+          "魅影一天多少钱？",
+          "魅影是最快的劳斯莱斯吗？"
         ]
       }
     },
@@ -114,6 +195,13 @@
           "rolls royce wedding dubai",
           "luxury wedding dubai",
           "vip wedding dubai"
+        ],
+        "longTailKeywords": [
+          "迪拜白色劳斯莱斯婚车",
+          "迪拜豪华婚车套餐2026"
+        ],
+        "voiceSearchOptimized": [
+          "婚车劳斯莱斯多少钱？"
         ]
       },
       "corporate": {
@@ -129,6 +217,13 @@
           "rolls royce corporate dubai",
           "luxury corporate dubai",
           "vip corporate dubai"
+        ],
+        "longTailKeywords": [
+          "企业劳斯莱斯月租套餐迪拜",
+          "总裁用车劳斯莱斯迪拜"
+        ],
+        "voiceSearchOptimized": [
+          "有企业套餐吗？"
         ]
       },
       "airport-transfer": {
@@ -144,6 +239,13 @@
           "rolls royce airport-transfer dubai",
           "luxury airport-transfer dubai",
           "vip airport-transfer dubai"
+        ],
+        "longTailKeywords": [
+          "迪拜机场劳斯莱斯接机DXB",
+          "VIP机场接送迪拜"
+        ],
+        "voiceSearchOptimized": [
+          "预订机场劳斯莱斯接机"
         ]
       },
       "chauffeur": {
@@ -159,6 +261,13 @@
           "rolls royce chauffeur dubai",
           "luxury chauffeur dubai",
           "vip chauffeur dubai"
+        ],
+        "longTailKeywords": [
+          "迪拜劳斯莱斯按小时租司机",
+          "中文司机劳斯莱斯迪拜"
+        ],
+        "voiceSearchOptimized": [
+          "司机每小时多少钱？"
         ]
       },
       "events": {
@@ -174,6 +283,13 @@
           "rolls royce events dubai",
           "luxury events dubai",
           "vip events dubai"
+        ],
+        "longTailKeywords": [
+          "迪拜晚宴劳斯莱斯",
+          "豪华车队活动迪拜"
+        ],
+        "voiceSearchOptimized": [
+          "预订活动用劳斯莱斯"
         ]
       },
       "photoshoot": {
@@ -189,6 +305,13 @@
           "rolls royce photoshoot dubai",
           "luxury photoshoot dubai",
           "vip photoshoot dubai"
+        ],
+        "longTailKeywords": [
+          "迪拜劳斯莱斯ins拍照",
+          "劳斯莱斯MV拍摄租赁"
+        ],
+        "voiceSearchOptimized": [
+          "拍照租劳斯莱斯多少钱？"
         ]
       },
       "tours": {
@@ -204,6 +327,13 @@
           "rolls royce tours dubai",
           "luxury tours dubai",
           "vip tours dubai"
+        ],
+        "longTailKeywords": [
+          "劳斯莱斯迪拜私人城市游",
+          "豪华车导游迪拜"
+        ],
+        "voiceSearchOptimized": [
+          "预订劳斯莱斯迪拜之旅"
         ]
       }
     },
@@ -221,6 +351,12 @@
           "rolls royce downtown-dubai",
           "luxury car rental downtown-dubai",
           "chauffeur service downtown-dubai"
+        ],
+        "longTailKeywords": [
+          "哈利法塔附近租劳斯莱斯"
+        ],
+        "voiceSearchOptimized": [
+          "送劳斯莱斯到迪拜市中心"
         ]
       },
       "dubai-marina": {
@@ -236,6 +372,12 @@
           "rolls royce dubai-marina",
           "luxury car rental dubai-marina",
           "chauffeur service dubai-marina"
+        ],
+        "longTailKeywords": [
+          "迪拜码头敞篷车租赁"
+        ],
+        "voiceSearchOptimized": [
+          "在迪拜码头租劳斯莱斯"
         ]
       },
       "palm-jumeirah": {
@@ -251,6 +393,12 @@
           "rolls royce palm-jumeirah",
           "luxury car rental palm-jumeirah",
           "chauffeur service palm-jumeirah"
+        ],
+        "longTailKeywords": [
+          "送劳斯莱斯到亚特兰蒂斯棕榈岛"
+        ],
+        "voiceSearchOptimized": [
+          "送车到棕榈岛"
         ]
       },
       "business-bay": {
@@ -266,6 +414,12 @@
           "rolls royce business-bay",
           "luxury car rental business-bay",
           "chauffeur service business-bay"
+        ],
+        "longTailKeywords": [
+          "商业湾企业劳斯莱斯"
+        ],
+        "voiceSearchOptimized": [
+          "商业湾租车"
         ]
       },
       "jbr": {
@@ -281,6 +435,12 @@
           "rolls royce jbr",
           "luxury car rental jbr",
           "chauffeur service jbr"
+        ],
+        "longTailKeywords": [
+          "JBR海滩劳斯莱斯租赁"
+        ],
+        "voiceSearchOptimized": [
+          "JBR租劳斯莱斯"
         ]
       },
       "difc": {
@@ -296,6 +456,12 @@
           "rolls royce difc",
           "luxury car rental difc",
           "chauffeur service difc"
+        ],
+        "longTailKeywords": [
+          "DIFC金融中心劳斯莱斯"
+        ],
+        "voiceSearchOptimized": [
+          "DIFC租车"
         ]
       }
     },
@@ -303,72 +469,331 @@
       "about": {
         "title": "关于迪拜劳斯莱斯 | 自2010年以来的豪华车租赁 | 我们的故事",
         "description": "自2010年以来，迪拜领先的劳斯莱斯租赁公司。拥有超过50辆豪华车，服务超过10,000名满意客户，并屡获殊荣。了解我们的发展历程。",
-        "keywords": "关于迪拜劳斯莱斯, 豪华车租赁公司, 迪拜租车历史, 高级租赁服务, 成立于2010年"
+        "keywords": "关于迪拜劳斯莱斯, 豪华车租赁公司, 迪拜租车历史, 高级租赁服务, 成立于2010年",
+        "longTailKeywords": [
+          "关于迪拜劳斯莱斯租赁公司"
+        ],
+        "voiceSearchOptimized": [
+          "介绍一下你们公司"
+        ],
+        "aiKeywords": [
+          "迪拜劳斯莱斯租赁公司",
+          "豪华车租赁公司迪拜"
+        ]
       },
       "contact": {
         "title": "联系迪拜劳斯莱斯 | 24/7支持 | WhatsApp +971558164922",
         "description": "联系我们租用迪拜的劳斯莱斯。请致电+971558164922或通过WhatsApp与我们联系。我们的展厅位于迪拜市中心。即时报价和24/7客户服务。",
-        "keywords": "联系迪拜劳斯莱斯, 豪华车租赁电话, 通过WhatsApp预订汽车, 迪拜展厅位置, 24/7支持"
+        "keywords": "联系迪拜劳斯莱斯, 豪华车租赁电话, 通过WhatsApp预订汽车, 迪拜展厅位置, 24/7支持",
+        "longTailKeywords": [
+          "联系迪拜劳斯莱斯租赁WhatsApp"
+        ],
+        "voiceSearchOptimized": [
+          "打电话给劳斯莱斯迪拜"
+        ],
+        "aiKeywords": [
+          "联系劳斯莱斯迪拜",
+          "电话劳斯莱斯租赁"
+        ]
       },
       "gallery": {
         "title": "迪拜劳斯莱斯画廊 | 我们车队照片和视频 | 虚拟导览",
         "description": "浏览我们的劳斯莱斯系列画廊。高分辨率照片、360°视角、内饰细节和视频导览。在预订前查看我们的豪华车队。",
-        "keywords": "迪拜劳斯莱斯画廊, 豪华车照片, 迪拜车队图片, 劳斯莱斯视频, 虚拟汽车导览"
+        "keywords": "迪拜劳斯莱斯画廊, 豪华车照片, 迪拜车队图片, 劳斯莱斯视频, 虚拟汽车导览",
+        "longTailKeywords": [
+          "迪拜劳斯莱斯车队照片"
+        ],
+        "voiceSearchOptimized": [
+          "给我看车队照片"
+        ],
+        "aiKeywords": [
+          "劳斯莱斯照片迪拜",
+          "豪华车图库"
+        ]
       },
       "testimonials": {
         "title": "租劳斯莱斯迪拜评价 | 最佳租赁地点 | 5星评级",
         "description": "在租劳斯莱斯之前阅读迪拜的评价。拥有1200多条验证评价的最佳劳斯莱斯租赁地。看看为什么我们是豪华车租赁第一名。",
-        "keywords": "租劳斯莱斯迪拜评价, 迪拜最佳租劳斯莱斯地点, 劳斯莱斯租赁评价, 迪拜客户见证, 5星豪华车租赁"
+        "keywords": "租劳斯莱斯迪拜评价, 迪拜最佳租劳斯莱斯地点, 劳斯莱斯租赁评价, 迪拜客户见证, 5星豪华车租赁",
+        "longTailKeywords": [
+          "迪拜劳斯莱斯租赁客户评价"
+        ],
+        "voiceSearchOptimized": [
+          "客户怎么评价？"
+        ],
+        "aiKeywords": [
+          "劳斯莱斯租赁评价",
+          "客户评论"
+        ]
       },
       "pricing": {
         "title": "迪拜劳斯莱斯租赁价格 | 租车费用 | 3,800迪拉姆起",
         "description": "了解迪拜劳斯莱斯租赁价格。比较幻影、古思特、库里南价格。实惠的日租价格，可按小时租赁。在线即时报价。",
-        "keywords": "迪拜劳斯莱斯租赁价格，迪拜劳斯莱斯租车费用，迪拜劳斯莱斯租赁多少钱，迪拜便宜劳斯莱斯租赁，迪拜按小时租劳斯莱斯，豪华车租赁价格"
+        "keywords": "迪拜劳斯莱斯租赁价格，迪拜劳斯莱斯租车费用，迪拜劳斯莱斯租赁多少钱，迪拜便宜劳斯莱斯租赁，迪拜按小时租劳斯莱斯，豪华车租赁价格",
+        "longTailKeywords": [
+          "2026迪拜劳斯莱斯租赁价目表"
+        ],
+        "voiceSearchOptimized": [
+          "租赁价格是多少？"
+        ],
+        "aiKeywords": [
+          "2026迪拜劳斯莱斯租赁价格",
+          "每天多少钱劳斯莱斯"
+        ]
       },
       "faq": {
-        "title": "如何及在哪里租赁迪拜劳斯莱斯 | 我能租吗？| FAQ 2025",
+        "title": "如何及在哪里租赁迪拜劳斯莱斯 | 我能租吗？| FAQ 2026",
         "description": "了解如何在迪拜租赁劳斯莱斯，在我附近哪里租，要求和流程。我可以在没有司机的情况下租劳斯莱斯吗？所有问题已解答。",
-        "keywords": "如何租劳斯莱斯迪拜，在哪里租劳斯莱斯迪拜，我能租劳斯莱斯迪拜吗，我附近租劳斯莱斯迪拜，无司机租赁迪拜"
+        "keywords": "如何租劳斯莱斯迪拜，在哪里租劳斯莱斯迪拜，我能租劳斯莱斯迪拜吗，我附近租劳斯莱斯迪拜，无司机租赁迪拜",
+        "longTailKeywords": [
+          "迪拜劳斯莱斯租赁常见问题"
+        ],
+        "voiceSearchOptimized": [
+          "租车需要什么？"
+        ],
+        "aiKeywords": [
+          "常见问题劳斯莱斯租赁",
+          "豪华车租赁问答迪拜"
+        ]
       },
       "blog": {
         "title": "迪拜劳斯莱斯博客 | 奢华生活方式、技巧和指南",
         "description": "豪华汽车洞察、迪拜驾驶指南、劳斯莱斯新闻、活动报道和名人租赁。您在迪拜的豪华汽车指南。",
-        "keywords": "迪拜劳斯莱斯博客，豪华车文章，迪拜驾驶技巧，汽车新闻，奢华生活方式博客"
+        "keywords": "迪拜劳斯莱斯博客，豪华车文章，迪拜驾驶技巧，汽车新闻，奢华生活方式博客",
+        "longTailKeywords": [
+          "劳斯莱斯迪拜租赁博客攻略"
+        ],
+        "voiceSearchOptimized": [
+          "阅读劳斯莱斯迪拜博客"
+        ],
+        "aiKeywords": [
+          "劳斯莱斯博客迪拜",
+          "豪华车租赁攻略"
+        ]
       },
       "booking": {
-        "title": "在线租劳斯莱斯迪拜2025 | 立即预订 | 即时确认",
-        "description": "在线租劳斯莱斯迪拜，即时预订。2025最优价格，实时可用性。在线预订幻影、古思特、库里南。安全支付，24/7支持。",
-        "keywords": "在线租劳斯莱斯迪拜, 在线预订劳斯莱斯迪拜2025, 迪拜在线劳斯莱斯租赁, 迪拜即时预订, 在线租豪华车"
+        "title": "在线租劳斯莱斯迪拜2026 | 立即预订 | 即时确认",
+        "description": "在线租劳斯莱斯迪拜，即时预订。2026最优价格，实时可用性。在线预订幻影、古思特、库里南。安全支付，24/7支持。",
+        "keywords": "在线租劳斯莱斯迪拜, 在线预订劳斯莱斯迪拜2026, 迪拜在线劳斯莱斯租赁, 迪拜即时预订, 在线租豪华车",
+        "longTailKeywords": [
+          "在线预订迪拜劳斯莱斯"
+        ],
+        "voiceSearchOptimized": [
+          "现在预订劳斯莱斯"
+        ],
+        "aiKeywords": [
+          "在线预订劳斯莱斯",
+          "即时预订豪华车"
+        ]
       },
       "privacy": {
         "title": "隐私政策 | 迪拜劳斯莱斯 | 数据保护与安全",
         "description": "迪拜劳斯莱斯的隐私政策。我们如何保护您的数据、使用您的信息并确保其安全。我们遵守GDPR并遵循透明的做法。",
-        "keywords": "隐私政策迪拜劳斯莱斯, 数据保护, GDPR合规, 信息安全, 租赁隐私"
+        "keywords": "隐私政策迪拜劳斯莱斯, 数据保护, GDPR合规, 信息安全, 租赁隐私",
+        "longTailKeywords": [
+          "隐私政策劳斯莱斯迪拜"
+        ],
+        "voiceSearchOptimized": [],
+        "aiKeywords": [
+          "隐私政策劳斯莱斯"
+        ]
       },
       "terms": {
         "title": "条款与条件 | 迪拜劳斯莱斯租赁协议 | 政策",
         "description": "在迪拜租用劳斯莱斯的条款与条件。年龄要求、保险、押金、使用政策和损坏责任。请在预订前阅读。",
-        "keywords": "条款与条件迪拜劳斯莱斯, 租赁协议, 租车政策, 使用条款, 责任保险"
+        "keywords": "条款与条件迪拜劳斯莱斯, 租赁协议, 租车政策, 使用条款, 责任保险",
+        "longTailKeywords": [
+          "劳斯莱斯租赁条款条件"
+        ],
+        "voiceSearchOptimized": [],
+        "aiKeywords": [
+          "租赁条款劳斯莱斯"
+        ]
       },
       "cookie-policy": {
-        "title": "Cookie政策 | 迪拜劳斯莱斯 | 数据隐私和网站Cookie 2025",
+        "title": "Cookie政策 | 迪拜劳斯莱斯 | 数据隐私和网站Cookie 2026",
         "description": "迪拜劳斯莱斯Cookie政策。我们如何使用Cookie、Cookie类型、第三方Cookie、管理首选项。透明的数据做法，符合GDPR。您的隐私对我们很重要。",
-        "keywords": "cookie政策迪拜劳斯莱斯, 网站cookie, 数据隐私, gdpr合规, cookie同意, 第三方cookie, 隐私首选项, 浏览器设置, cookie管理, 数据保护"
+        "keywords": "cookie政策迪拜劳斯莱斯, 网站cookie, 数据隐私, gdpr合规, cookie同意, 第三方cookie, 隐私首选项, 浏览器设置, cookie管理, 数据保护",
+        "longTailKeywords": [
+          "Cookie政策"
+        ],
+        "voiceSearchOptimized": [],
+        "aiKeywords": [
+          "Cookie政策劳斯莱斯"
+        ]
+      },
+      "locations": {
+        "longTailKeywords": [
+          "rolls royce delivery locations dubai all areas",
+          "where does rolls roycers deliver in dubai",
+          "rolls royce rental areas coverage dubai"
+        ],
+        "palm": {
+          "keywords": "rolls royce palm jumeirah, atlantis car service dubai, palm island luxury transport, the pointe chauffeur service, nakheel mall transport, palm west beach car, one and only palm rolls royce, luxury island transport dubai",
+          "title": "Rolls-Royce Palm Jumeirah | Atlantis & Luxury Resort Service | Island Transport",
+          "description": "Premium Rolls-Royce service on Palm Jumeirah. Perfect for Atlantis events, beach clubs, luxury resorts. Exclusive island transportation with professional chauffeurs. Book Palm luxury service."
+        },
+        "businessBay": {
+          "keywords": "rolls royce business bay, dubai canal car service, business bay chauffeur, corporate transport dubai, executive towers car service, bay avenue luxury transport, jw marriott marquis rolls royce, business district car dubai",
+          "title": "Business Bay Rolls-Royce Service | Corporate Transport | Dubai Canal",
+          "description": "Professional Rolls-Royce service in Business Bay. Ideal for corporate meetings, Dubai Canal views, executive towers. 5km from Downtown, quick business transport. Book corporate luxury service."
+        },
+        "difc": {
+          "description": "Elite Rolls-Royce service in Dubai International Financial Centre. Essential for banking executives, Gate Building meetings, Emirates Towers. Premium financial district transport.",
+          "title": "DIFC Rolls-Royce Service | Financial District Transport | Gate Building",
+          "keywords": "rolls royce difc, dubai financial centre car, gate building chauffeur, emirates towers transport, difc art nights car, gate avenue luxury, financial district rolls royce, banking executive transport dubai"
+        },
+        "downtown": {
+          "description": "Premium Rolls-Royce service in Downtown Dubai. Perfect for Burj Khalifa visits, Dubai Mall shopping, Dubai Fountain shows. Professional chauffeurs, instant availability. Central location service from AED 250.",
+          "keywords": "rolls royce downtown dubai, burj khalifa car service, dubai mall chauffeur, downtown dubai luxury car, dubai fountain transport, souk al bahar rolls royce, dubai opera car service, downtown dubai vip transport",
+          "title": "Rolls-Royce Downtown Dubai | Burj Khalifa & Dubai Mall Service | Book Now"
+        },
+        "main": {
+          "description": "Premium Rolls-Royce service across all Dubai locations. From Downtown Dubai to Palm Jumeirah, Dubai Marina to DIFC. Quick 15-minute response time, 24/7 availability. Book luxury car service from any location +971558164922.",
+          "keywords": "rolls royce locations dubai, luxury car service downtown dubai, rolls royce marina dubai, palm jumeirah car service, business bay chauffeur, jbr luxury transport, difc executive car, dubai service areas, rolls royce near me, luxury car coverage dubai",
+          "title": "Rolls-Royce Service Locations Dubai | Downtown, Marina, Palm | 24/7 Coverage"
+        },
+        "aiKeywords": [
+          "rolls royce delivery dubai locations",
+          "dubai areas luxury car rental",
+          "rolls royce coverage map dubai"
+        ],
+        "voiceSearchOptimized": [
+          "Where do you deliver in Dubai?",
+          "Which areas can I get a Rolls-Royce delivered?"
+        ],
+        "marina": {
+          "keywords": "rolls royce dubai marina, marina walk car service, dubai marina chauffeur, pier 7 luxury transport, yacht club car service, marina mall transport, waterfront luxury car dubai, marina beach rolls royce",
+          "description": "Exclusive Rolls-Royce service in Dubai Marina. Ideal for Marina Walk, yacht club events, waterfront dining at Pier 7. 25km from Downtown, professional drivers. Book Marina luxury transport.",
+          "title": "Rolls-Royce Dubai Marina | Waterfront Luxury Service | Marina Walk & JBR"
+        },
+        "jbr": {
+          "keywords": "rolls royce jbr dubai, the walk car service, jbr beach chauffeur, ain dubai transport, bluewaters island car, the beach jbr luxury, roxy cinema transport, beachfront rolls royce dubai",
+          "description": "Luxury Rolls-Royce service at JBR and The Walk. Perfect for beach events, Ain Dubai visits, Bluewaters Island. Beachfront premium transportation. Book JBR luxury car service.",
+          "title": "JBR Rolls-Royce Service | The Walk & Beach | Ain Dubai Transport"
+        }
+      },
+      "services": {
+        "tours": {
+          "description": "Explore Dubai in ultimate luxury with Rolls-Royce tours. Custom itineraries, professional guides, premium refreshments. Visit Burj Khalifa, Palm Jumeirah, Dubai Marina. From AED 4,000. Full day and half-day tours available.",
+          "title": "Luxury Tours Dubai | Rolls-Royce City Tours | Custom Itineraries",
+          "keywords": "luxury tours dubai, rolls royce tour dubai, private tour dubai, city tour rolls royce, dubai sightseeing luxury car, vip tour dubai, custom tour dubai, guided tour rolls royce, premium tour service dubai, exclusive dubai tours"
+        },
+        "corporate": {
+          "keywords": "corporate car service dubai, executive car rental dubai, business car hire dubai, rolls royce corporate dubai, company car service dubai, ceo car rental dubai, board meeting transportation dubai, roadshow car service dubai, conference transportation dubai, vip business car dubai",
+          "description": "Elevate your business with corporate Rolls-Royce services in Dubai. Executive packages from AED 1,200/day. Professional chauffeurs, flexible scheduling, corporate billing. Trusted by 500+ companies including Emirates NBD, DAMAC. 24/7 support.",
+          "title": "Corporate Rolls-Royce Service Dubai | Executive Car Rental | Business Packages"
+        },
+        "chauffeur": {
+          "keywords": "chauffeur service dubai, rolls royce with driver dubai, hourly chauffeur dubai, daily driver service dubai, professional driver dubai, luxury chauffeur service, multilingual chauffeur dubai, personal driver dubai, private chauffeur dubai, vip driver service dubai",
+          "title": "Professional Chauffeur Service Dubai | Rolls-Royce with Driver | Hourly & Daily",
+          "description": "Elite chauffeur service with Rolls-Royce in Dubai. From AED 800/hour. 500+ professional multilingual drivers, 24/7 availability. Hourly, daily, or custom arrangements. Perfect for shopping, business meetings, city tours. Book now."
+        },
+        "main": {
+          "description": "Premium Rolls-Royce services in Dubai. Wedding cars from AED 2,500, corporate packages from AED 1,200/day, airport transfers 24/7. Professional chauffeurs, 10,000+ satisfied clients. Book luxury car services online or call +971558164922.",
+          "title": "Rolls-Royce Services Dubai | Wedding, Corporate, Airport Transfer | Best Prices 2026",
+          "keywords": "rolls royce services dubai, luxury car services dubai, wedding car rental dubai, corporate car service dubai, airport transfer dubai, chauffeur service dubai, event transportation dubai, photoshoot car rental dubai, luxury tours dubai, rolls royce with driver dubai, vip car service dubai, executive car rental dubai"
+        },
+        "photoshoot": {
+          "title": "Rolls-Royce Photoshoot & Film Dubai | Commercial Shoots | From AED 5,000",
+          "keywords": "rolls royce photoshoot dubai, car rental for photoshoot dubai, film car rental dubai, commercial shoot car dubai, fashion photoshoot car dubai, music video car rental dubai, media production car dubai, luxury car photoshoot, photography car rental dubai, rolls royce filming dubai",
+          "description": "Premium Rolls-Royce vehicles for photoshoots and filming in Dubai. Perfect for fashion, commercials, music videos. Multiple locations, permit assistance, vehicle styling. From AED 5,000. Professional support for media productions."
+        },
+        "airportTransfer": {
+          "title": "Rolls-Royce Airport Transfer Dubai | DXB DWC AUH | 24/7 Service",
+          "keywords": "rolls royce airport transfer dubai, luxury airport transfer dubai, dxb airport transfer rolls royce, dwc airport transfer, abu dhabi airport transfer, vip airport service dubai, chauffeur airport transfer, meet and greet dubai airport, private airport transfer dubai, executive airport service dubai",
+          "description": "Premium Rolls-Royce airport transfer service in Dubai. From AED 1,200 to DXB, DWC, AUH airports. Meet & greet, flight tracking, 60 min free waiting. Professional chauffeurs, fixed prices. Book luxury airport transfer +971558164922."
+        },
+        "wedding": {
+          "description": "Make your wedding unforgettable with Rolls-Royce wedding cars in Dubai. White Phantom & Ghost with decoration, red carpet service. Professional chauffeur in formal attire. Book the perfect wedding car from AED 2,500. Free consultation +971558164922.",
+          "title": "Rolls-Royce Wedding Car Dubai | White Phantom & Ghost | From AED 2,500",
+          "keywords": "rolls royce wedding car dubai, white rolls royce rental dubai, wedding car hire dubai, phantom wedding car dubai, ghost wedding car dubai, luxury wedding transportation dubai, bridal car dubai, wedding car with decoration dubai, red carpet car service dubai, just married car dubai"
+        },
+        "voiceSearchOptimized": [
+          "What services does Rolls Roycers offer?",
+          "List all Rolls-Royce services in Dubai"
+        ],
+        "events": {
+          "description": "Make a grand entrance with Rolls-Royce event transportation in Dubai. Perfect for galas, premieres, fashion shows, awards ceremonies. Red carpet service, event coordination. From AED 3,000. Professional chauffeurs in formal attire.",
+          "keywords": "event transportation dubai, gala car service dubai, premiere car rental dubai, red carpet car service dubai, fashion show transportation dubai, awards ceremony car dubai, vip event transport dubai, luxury event car dubai, special occasion car rental dubai, rolls royce events dubai",
+          "title": "Event Transportation Dubai | Rolls-Royce for Galas & Premieres | Red Carpet Service"
+        },
+        "aiKeywords": [
+          "rolls royce services dubai",
+          "luxury car rental services",
+          "chauffeur wedding corporate tour dubai"
+        ],
+        "longTailKeywords": [
+          "all rolls royce services dubai 2026",
+          "luxury car services dubai complete list",
+          "rolls royce rental service options"
+        ]
+      },
+      "compare": {
+        "aiKeywords": [
+          "luxury car comparison dubai",
+          "rolls royce vs competitors rental",
+          "best luxury car to rent dubai"
+        ],
+        "phantom_vs_maybach": {
+          "og_title": "Phantom vs Maybach: The Ultimate Luxury Comparison in Dubai",
+          "title": "Rolls-Royce Phantom vs Mercedes-Maybach 2026 | Dubai Luxury Car Comparison",
+          "aiKeywords": [
+            "phantom vs maybach",
+            "rolls royce vs mercedes maybach",
+            "luxury car comparison dubai",
+            "phantom maybach rental",
+            "ultra luxury sedan dubai",
+            "phantom or maybach",
+            "british vs german luxury car",
+            "best luxury car dubai"
+          ],
+          "keywords": "rolls royce phantom vs maybach dubai, phantom maybach comparison, luxury car comparison dubai, phantom vs maybach s class, which is better phantom or maybach, rolls royce vs mercedes maybach price, phantom maybach rental dubai, ultra luxury sedan comparison, british vs german luxury, phantom or maybach for wedding",
+          "description": "Compare Rolls-Royce Phantom vs Mercedes-Maybach S-Class in Dubai. Detailed comparison of features, performance, luxury, and rental prices. Phantom from AED 3,500/day vs Maybach from AED 3,000/day. Which ultra-luxury sedan is right for you?",
+          "og_description": "Detailed comparison of Rolls-Royce Phantom and Mercedes-Maybach S-Class. Performance, luxury, technology, and pricing compared. Book your preferred ultra-luxury sedan in Dubai."
+        },
+        "voiceSearchOptimized": [
+          "Compare Rolls-Royce with other luxury cars in Dubai"
+        ],
+        "longTailKeywords": [
+          "compare rolls royce with luxury cars dubai",
+          "rolls royce vs bentley vs ferrari dubai rental"
+        ]
       }
     },
     "compare": {
       "index": {
-        "title": "比较豪华汽车迪拜2025 | 劳斯莱斯对比宾利、法拉利、梅赛德斯",
+        "title": "比较豪华汽车迪拜2026 | 劳斯莱斯对比宾利、法拉利、梅赛德斯",
         "description": "在迪拜比较劳斯莱斯与宾利、法拉利、梅赛德斯和迈巴赫。全面的豪华汽车比较涵盖性能、舒适性、技术、传统和价值。专家分析帮助您选择完美的豪华租赁。",
-        "keywords": "比较豪华汽车迪拜, 劳斯莱斯对比宾利, 劳斯莱斯对比法拉利, 劳斯莱斯对比梅赛德斯, 豪华汽车比较迪拜, 幻影对比迈巴赫, 豪华租赁比较, 迪拜汽车比较指南, 迪拜最佳豪华汽车, 专家汽车比较"
+        "keywords": "比较豪华汽车迪拜, 劳斯莱斯对比宾利, 劳斯莱斯对比法拉利, 劳斯莱斯对比梅赛德斯, 豪华汽车比较迪拜, 幻影对比迈巴赫, 豪华租赁比较, 迪拜汽车比较指南, 迪拜最佳豪华汽车, 专家汽车比较",
+        "longTailKeywords": [
+          "比较迪拜豪华车租赁"
+        ],
+        "voiceSearchOptimized": [
+          "比较劳斯莱斯和其他豪华车"
+        ],
+        "aiKeywords": [
+          "比较豪华车迪拜",
+          "劳斯莱斯对比其他品牌"
+        ]
       },
       "rolls-royce-vs-bentley": {
         "title": "劳斯莱斯对比宾利迪拜 | 豪华汽车租赁指南",
         "description": "比较迪拜的劳斯莱斯对比宾利豪华汽车。功能、性能、传承和租赁价格的详细比较，帮助您选择。",
-        "keywords": "劳斯莱斯对比宾利，迪拜豪华车比较，幻影对比慕尚，古思特对比飞驰，库里南对比添越"
+        "keywords": "劳斯莱斯对比宾利，迪拜豪华车比较，幻影对比慕尚，古思特对比飞驰，库里南对比添越",
+        "longTailKeywords": [
+          "劳斯莱斯还是宾利租赁价格"
+        ],
+        "voiceSearchOptimized": [
+          "劳斯莱斯还是宾利？"
+        ],
+        "aiKeywords": [
+          "劳斯莱斯对比宾利迪拜",
+          "幻影对比飞驰"
+        ]
       },
       "rolls-royce-vs-mercedes": {
-        "title": "劳斯莱斯对比梅赛德斯-奔驰迪拜2025 | 终极豪华比较 | 英国对比德国",
+        "title": "劳斯莱斯对比梅赛德斯-奔驰迪拜2026 | 终极豪华比较 | 英国对比德国",
         "description": "在迪拜比较劳斯莱斯与梅赛德斯-奔驰。幻影对比迈巴赫S级，古思特对比S级，库里南对比GLS。英国定制工艺与德国工程卓越相遇。包含价格、功能、技术的专家比较指南。",
         "keywords": "劳斯莱斯对比梅赛德斯迪拜，迪拜豪华车比较，幻影对比迈巴赫迪拜，古思特对比S级迪拜，库里南对比GLS迪拜，英国对比德国豪华，迪拜租赁比较，梅赛德斯迈巴赫对比劳斯莱斯，迪拜豪华选择指南，专家比较评论",
         "aiKeywords": [
@@ -380,6 +805,12 @@
           "迪拜豪华车租赁比较",
           "迈巴赫对比劳斯莱斯迪拜",
           "迪拜最佳豪华车"
+        ],
+        "longTailKeywords": [
+          "幻影还是迈巴赫S级"
+        ],
+        "voiceSearchOptimized": [
+          "劳斯莱斯还是奔驰迈巴赫？"
         ]
       }
     },
@@ -394,11 +825,16 @@
       "title": "迪拜劳斯莱斯博客 | 奢华生活方式、技巧和指南",
       "description": "豪华汽车洞察、迪拜驾驶指南、劳斯莱斯新闻、活动报道和名人租赁。您在迪拜的豪华汽车指南。",
       "keywords": "迪拜劳斯莱斯博客，豪华车文章，迪拜驾驶技巧，汽车新闻，奢华生活方式博客"
+    },
+    "dubai-luxury-car-guide-2026": {
+      "title": "2026 Dubai Luxury Car Guide: Rolls-Royce vs Bentley, Ferrari, Lamborghini | Best Rental Comparison",
+      "description": "Ultimate 2026 Dubai luxury car rental guide. Compare Rolls-Royce vs Bentley, Ferrari, Lamborghini with pricing, features & expert tips. Why Rolls-Royce reigns supreme in Dubai's luxury market.",
+      "keywords": "dubai luxury car guide 2026, rolls royce vs bentley dubai, luxury car rental comparison dubai, best luxury cars dubai 2026, rolls royce rental dubai 2026, bentley vs ferrari dubai, lamborghini rental dubai, luxury car market dubai 2026, premium car comparison dubai, dubai exotic car rental guide"
     }
   },
   "fleet": {
     "index": {
-      "title": "迪拜劳斯莱斯车队2025 | 幻影、古思特、库里南、曙光和魅影租赁",
+      "title": "迪拜劳斯莱斯车队2026 | 幻影、古思特、库里南、曙光和魅影租赁",
       "description": "探索我们在迪拜的卓越劳斯莱斯车队。幻影、古思特、库里南SUV、曙光敞篷车和魅影轿跑车可选。精品车队配备专业司机。立即预订您的豪华体验。",
       "keywords": "迪拜劳斯莱斯车队，迪拜豪华车队，迪拜幻影古思特库里南租赁，迪拜劳斯莱斯收藏，精品租车车队，迪拜豪华车选择，迪拜劳斯莱斯车型，高端车队租赁"
     }
@@ -409,7 +845,7 @@
       "description": "比较迪拜劳斯莱斯vs法拉利租赁。了解为什么劳斯莱斯在豪华汽车租赁方面提供卓越的价值、舒适性和声望。全包价格、专业司机服务和无与伦比的豪华体验。"
     },
     "phantom_vs_maybach": {
-      "title": "劳斯莱斯幻影vs梅赛德斯迈巴赫2025 | 迪拜豪华车对比",
+      "title": "劳斯莱斯幻影vs梅赛德斯迈巴赫2026 | 迪拜豪华车对比",
       "description": "比较迪拜劳斯莱斯幻影与梅赛德斯迈巴赫S级。详细比较功能、性能、豪华度和租赁价格。幻影3,500迪拉姆/天起vs迈巴赫3,000迪拉姆/天起。哪款超豪华轿车适合您？",
       "keywords": "劳斯莱斯幻影vs迈巴赫迪拜，幻影迈巴赫对比，豪华车比较迪拜，幻影vs迈巴赫s级，哪个更好幻影还是迈巴赫，劳斯莱斯vs梅赛德斯迈巴赫价格，幻影迈巴赫租赁迪拜，超豪华轿车比较，英国vs德国豪华，幻影或迈巴赫婚礼",
       "og_title": "幻影vs迈巴赫：迪拜终极豪华对比",
@@ -429,7 +865,7 @@
   "blog.dubai-luxury-hotels-guide.title": "迪拜最豪华的酒店：乘坐劳斯莱斯优雅抵达",
   "blog.dubai-luxury-hotels-guide.description": "探索迪拜最好的五星级酒店和度假村。发现豪华住宿与劳斯莱斯司机服务的完美结合。",
   "blog.dubai-luxury-hotels-guide.keywords": "迪拜豪华酒店，迪拜五星级酒店，劳斯莱斯酒店接送，帆船酒店，亚特兰蒂斯棕榈岛，迪拜豪华住宿，酒店司机服务",
-  "blog.first-time-dubai-luxury-guide.title": "第一次来迪拜？您的2025年豪华汽车完整指南",
+  "blog.first-time-dubai-luxury-guide.title": "第一次来迪拜？您的2026年豪华汽车完整指南",
   "blog.first-time-dubai-luxury-guide.description": "为第一次来迪拜的游客探索豪华汽车租赁的终极指南。关于在劳斯莱斯中体验迪拜的一切，从要求到内部提示和必游目的地。",
   "blog.first-time-dubai-luxury-guide.keywords": "第一次迪拜，迪拜豪华指南，劳斯莱斯租赁指南迪拜，迪拜游客指南，豪华汽车租赁迪拜初学者，迪拜旅游豪华汽车，第一次迪拜之旅，迪拜旅游提示，豪华体验迪拜，迪拜汽车租赁指南"
 }

@@ -182,5 +182,55 @@
         "luxury": "Pur Luxe"
       }
     }
+  },
+  "locationsPages": {
+    "downtown": {
+      "hero": {
+        "title": "Service Rolls-Royce à Downtown Dubai",
+        "subtitle": "Transport de luxe au cœur de Dubaï",
+        "description": "Service premium Rolls-Royce à Downtown Dubai, siège du Burj Khalifa, Dubai Mall et de la Fontaine de Dubaï. Idéal pour réunions d'affaires, shopping et occasions spéciales.",
+        "bookNow": "Réserver à Downtown"
+      }
+    },
+    "marina": {
+      "hero": {
+        "title": "Service Rolls-Royce à Dubai Marina",
+        "subtitle": "Transport de luxe en bord de mer",
+        "description": "Service premium Rolls-Royce à Dubai Marina. Idéal pour les yacht clubs, dîners en bord de mer et balades côtières.",
+        "bookNow": "Réserver à Marina"
+      }
+    },
+    "palm": {
+      "hero": {
+        "title": "Service Rolls-Royce à Palm Jumeirah",
+        "subtitle": "Transport de luxe sur l'île paradisiaque",
+        "description": "Service exclusif Rolls-Royce à Palm Jumeirah. Parfait pour les événements Atlantis, beach clubs et transferts resort.",
+        "bookNow": "Réserver à Palm"
+      }
+    },
+    "businessBay": {
+      "hero": {
+        "title": "Service Rolls-Royce à Business Bay",
+        "subtitle": "Transport d'excellence corporate",
+        "description": "Service professionnel Rolls-Royce à Business Bay. Idéal pour réunions, conférences et transport exécutif.",
+        "bookNow": "Réserver à Business Bay"
+      }
+    },
+    "jbr": {
+      "hero": {
+        "title": "Service Rolls-Royce à JBR",
+        "subtitle": "Transport de luxe en front de mer",
+        "description": "Service premium à JBR et The Walk. Parfait pour événements de plage, divertissement et restauration.",
+        "bookNow": "Réserver à JBR"
+      }
+    },
+    "difc": {
+      "hero": {
+        "title": "Service Rolls-Royce au DIFC",
+        "subtitle": "Transport premium du quartier financier",
+        "description": "Service d'élite au Centre Financier International de Dubaï. Essentiel pour les banquiers et événements corporate.",
+        "bookNow": "Réserver au DIFC"
+      }
+    }
   }
 }

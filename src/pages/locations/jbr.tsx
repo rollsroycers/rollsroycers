@@ -9,6 +9,8 @@ import WhatsAppButton from '@/components/WhatsAppButton'
 import ComparisonTool from '@/components/ComparisonTool'
 import WeatherRecommendations from '@/components/WeatherRecommendations'
 import SEO from '@/components/SEO'
+import GEOOptimizer from '@/components/GEOOptimizer'
+import EntitySchema from '@/components/EntitySchema'
 
 export default function JBRPage() {
   const { t } = useTranslation('common')
@@ -148,6 +150,16 @@ export default function JBRPage() {
   return (
     <>
       <SEO pageKey="locations.jbr" />
+      <GEOOptimizer
+        pageKey="locations.jbr"
+        title="Rolls-Royce Rental JBR Dubai 2026"
+        description="Rent Rolls-Royce at JBR. Beachfront luxury experience with Dawn convertible. Free delivery to The Walk."
+        entityType="LocalBusiness"
+        primaryTopic="Rolls-Royce Rental JBR"
+        contentSummary="Luxury Rolls-Royce rental at JBR (Jumeirah Beach Residence). Dawn convertible for beachfront drives. Free delivery to The Walk, beach clubs, and Ain Dubai area."
+        facts={['Free delivery to JBR and The Walk', 'Beachfront luxury experience', 'Near Ain Dubai', 'Dawn convertible for beach drives', '24/7 availability']}
+      />
+      <EntitySchema pageType="location" locationName="jbr" />
       <Layout>
         {/* Hero Section */}
         <section className="relative h-screen flex items-center justify-center overflow-hidden">

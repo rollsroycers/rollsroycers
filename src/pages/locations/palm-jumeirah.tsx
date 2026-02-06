@@ -9,6 +9,8 @@ import WhatsAppButton from '@/components/WhatsAppButton'
 import ComparisonTool from '@/components/ComparisonTool'
 import WeatherRecommendations from '@/components/WeatherRecommendations'
 import SEO from '@/components/SEO'
+import GEOOptimizer from '@/components/GEOOptimizer'
+import EntitySchema from '@/components/EntitySchema'
 
 export default function PalmJumeirahPage() {
   const { t } = useTranslation('common')
@@ -130,6 +132,16 @@ export default function PalmJumeirahPage() {
   return (
     <>
       <SEO pageKey="locations.palm-jumeirah" />
+      <GEOOptimizer
+        pageKey="locations.palm-jumeirah"
+        title="Rolls-Royce Rental Palm Jumeirah 2026"
+        description="Rent Rolls-Royce on Palm Jumeirah. Delivery to Atlantis, Royal Atlantis, One&Only. Premium resort service."
+        entityType="LocalBusiness"
+        primaryTopic="Rolls-Royce Rental Palm Jumeirah"
+        contentSummary="Luxury Rolls-Royce rental on Palm Jumeirah. Free delivery to Atlantis, Royal Atlantis, One&Only, and all Palm hotels. Perfect for resort guests and tourists."
+        facts={['Free delivery to Palm Jumeirah hotels', 'Atlantis and resort service', 'Dawn convertible for island drives', '24/7 availability', 'Tourist-friendly service']}
+      />
+      <EntitySchema pageType="location" locationName="palm-jumeirah" />
       <Layout>
         {/* Hero Section */}
         <section className="relative h-screen flex items-center justify-center overflow-hidden">

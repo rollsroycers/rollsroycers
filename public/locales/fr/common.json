@@ -533,6 +533,62 @@
           "Technologie de suspension Planar",
           "Système audio sur mesure"
         ]
+      },
+      "rentalPackages": {
+        "daily": {
+          "price": "AED 3,800",
+          "duration": "Location journalière",
+          "includes": [
+            "250 km",
+            "Assurance",
+            "Support 24/7"
+          ]
+        },
+        "weekly": {
+          "price": "AED 25,000",
+          "duration": "Location hebdomadaire",
+          "includes": [
+            "1500 km",
+            "Assurance complète",
+            "Manager dédié"
+          ]
+        },
+        "weekend": {
+          "price": "AED 7,200",
+          "duration": "Forfait week-end",
+          "includes": [
+            "500 km",
+            "Assurance complète",
+            "Conciergerie VIP"
+          ]
+        },
+        "monthly": {
+          "duration": "Location mensuelle",
+          "includes": [
+            "Kilométrage illimité",
+            "Entretien complet",
+            "Conditions personnalisées"
+          ],
+          "price": "Contactez-nous"
+        }
+      },
+      "businessFeatures": {
+        "connected": {
+          "description": "Avec le Wi-Fi embarqué et une connectivité avancée, la Ghost est votre bureau mobile.",
+          "title": "Toujours connecté"
+        },
+        "excellence": {
+          "description": "La Ghost est le choix par excellence pour les dirigeants exigeants.",
+          "title": "Excellence corporate"
+        },
+        "quiet": {
+          "description": "Tenez des réunions ou détendez-vous dans un environnement serein.",
+          "title": "Habitacle ultra-silencieux"
+        },
+        "safety": {
+          "description": "Des systèmes d'aide à la conduite avancés assurent sécurité à chaque trajet.",
+          "title": "Sécurité sans compromis"
+        }
       }
     },
     "dawn": {
@@ -564,15 +620,51 @@
         "whiteAlt": "Dawn blanche immaculée contre l'horizon moderne de Dubaï"
       },
       "sections": {
-        "title": "Caractéristiques clés de la Dawn",
+        "title": "Caractéristiques clés Dawn",
         "perfectMoments": {
           "title": "Des moments parfaits vous attendent"
         },
         "weatherDriving": {
-          "title": "Conduite parfaite par tous temps"
+          "title": "Conduite par temps idéal"
         },
         "technicalExcellence": {
-          "title": "Excellence du cabriolet"
+          "title": "Excellence cabriolet"
+        },
+        "features": {
+          "seconds": {
+            "description": "Fonctionnement fluide du toit jusqu'à 50 km/h",
+            "title": "22 secondes"
+          },
+          "allWeather": {
+            "description": "Le toit en tissu 6 couches offre une isolation exceptionnelle",
+            "title": "Tout temps"
+          },
+          "bespokeAudio": {
+            "description": "Parfaitement réglé pour la conduite ouverte et fermée",
+            "title": "Audio Bespoke"
+          },
+          "silentBallet": {
+            "description": "Le mécanisme de toit cabriolet le plus silencieux au monde",
+            "title": "Ballet Silencieux"
+          }
+        },
+        "comparison": {
+          "title": "Comparez notre flotte"
+        },
+        "cta": {
+          "availability": "Vérifier la disponibilité",
+          "call": "Appelez : +971 55 816 4922",
+          "subtitle": "Réservez maintenant et recevez une carte des itinéraires au coucher de soleil et une séance photo professionnelle",
+          "title": "Ressentez la brise de Dubaï en Dawn"
+        },
+        "experience": {
+          "title": "Expérience Dawn 360°"
+        },
+        "rentalPackages": {
+          "title": "Forfaits location Dawn"
+        },
+        "routes": {
+          "title": "Itinéraires recommandés à Dubaï"
         }
       },
       "keyFeatures": {
@@ -591,6 +683,14 @@
         "comfort": {
           "title": "Confort toute l'année",
           "description": "Climatisation, sièges chauffants et déflecteurs de vent assurent le confort dans le climat de Dubaï."
+        },
+        "weather": {
+          "title": "All-Weather",
+          "description": "6-layer fabric roof provides exceptional insulation"
+        },
+        "audio": {
+          "title": "Bespoke Audio",
+          "description": "Perfectly tuned for both open and closed driving"
         }
       },
       "idealOccasions": {
@@ -607,12 +707,24 @@
         "photoshoots": {
           "title": "Séances photo de luxe",
           "description": "Toile de fond ultime pour la photographie de mode et lifestyle",
-          "bestTime": "Heure dorée"
+          "bestTime": "Heure dorée",
+          "icon": "📸"
         },
         "celebrations": {
           "title": "Célébrations spéciales",
           "description": "Rendez les anniversaires et moments marquants inoubliables",
-          "bestTime": "À tout moment"
+          "bestTime": "À tout moment",
+          "icon": "🎊"
+        },
+        "sunrise": {
+          "title": "Sunrise Drives",
+          "icon": "🌅",
+          "description": "Experience Dubai's golden hour along Jumeirah Beach Road"
+        },
+        "palm": {
+          "description": "Cruise the iconic Palm with the roof down",
+          "title": "Palm Jumeirah Tours",
+          "icon": "🌴"
         }
       },
       "specs": {
@@ -658,6 +770,26 @@
           "materials": {
             "label": "Matériaux du toit",
             "value": "Textile allemand premium avec amortissement sonore"
+          },
+          "openingTime": {
+            "value": "22 seconds",
+            "label": "Temps d'ouverture"
+          },
+          "operationSpeed": {
+            "value": "Up to 50 km/h",
+            "label": "Vitesse d'opération"
+          },
+          "acousticInsulation": {
+            "label": "Isolation acoustique",
+            "value": "Silence de bibliothèque"
+          },
+          "roofMaterial": {
+            "label": "Matériau du toit",
+            "value": "Tissu (6 couches)"
+          },
+          "roofOperation": {
+            "label": "Fonctionnement du toit",
+            "value": "Entièrement automatique"
           }
         },
         "features": [
@@ -714,7 +846,18 @@
             "Vues du désert",
             "Observation de chameaux",
             "Lever/coucher de soleil"
-          ]
+          ],
+          "title": "Évasion désertique",
+          "bestTime": "Tôt le matin",
+          "path": "Dubaï → Lacs Al Qudra → Réserve du désert"
+        },
+        "coastal": {
+          "title": "Balade côtière",
+          "bestTime": "Coucher de soleil",
+          "highlights": "Vues sur la plage, Burj Al Arab",
+          "path": "Jumeirah Beach Road → La Mer → City Walk → Downtown Dubai",
+          "duration": "45 minutes",
+          "distance": "25 km"
         }
       },
       "rentalPackages": {
@@ -833,6 +976,22 @@
             "presence": {
               "value": "100%",
               "label": "Présence routière"
+            },
+            "drag": {
+              "value": "0.33",
+              "label": "Coef. aérodynamique"
+            },
+            "paintLayers": {
+              "value": "20",
+              "label": "Couches de peinture"
+            },
+            "coachDoors": {
+              "label": "Ouverture de porte",
+              "value": "83°"
+            },
+            "fastback": {
+              "label": "Angle du toit",
+              "value": "24°"
             }
           }
         },
@@ -850,11 +1009,29 @@
             "starlight": {
               "title": "Ciel de toit étoilé",
               "description": "1,340 lumières en fibre optique créent une constellation personnalisée."
+            },
+            "audio": {
+              "description": "18 haut-parleurs et 1300W créent un environnement acoustique parfait.",
+              "title": "Système audio Bespoke"
+            },
+            "headliner": {
+              "description": "Un ciel étoilé personnalisable selon votre signe astrologique.",
+              "title": "Ciel étoilé"
+            },
+            "transmission": {
+              "description": "Utilise les données GPS pour anticiper la route et sélectionner le rapport optimal.",
+              "title": "Transmission assistée par satellite"
+            },
+            "vision": {
+              "description": "Caméra infrarouge détecte piétons et animaux à 300m.",
+              "title": "Vision nocturne"
             }
-          }
+          },
+          "description": "Technologie avancée intégrée pour sublimer l'expérience de conduite."
         },
         "experience": {
-          "title": "Excellence du grand tourisme"
+          "title": "Excellence du grand tourisme",
+          "description": "La Wraith est faite pour être conduite. Découvrez les meilleurs itinéraires de Dubaï."
         }
       },
       "specs": {
@@ -896,6 +1073,10 @@
           "wheelbase": {
             "label": "Empattement",
             "value": "3,112 mm"
+          },
+          "doors": {
+            "label": "Portes",
+            "value": "2 (Portes Coach)"
           }
         },
         "exclusive": [
@@ -940,23 +1121,43 @@
           ]
         },
         "weekend": {
-          "duration": "Grand tour week-end",
+          "duration": "Week-end Grand Tour",
           "price": "15,000 AED",
           "includes": [
-            "600km kilométrage total",
-            "Voyage inter-émirats approuvé",
-            "Recommandations itinéraires pittoresques",
-            "Partenariats hôtels de luxe"
+            "600 km total",
+            "Voyages inter-émirats",
+            "Suggestions d'itinéraires",
+            "Partenariats hôteliers"
           ]
         },
         "weekly": {
-          "duration": "Exécutif hebdomadaire",
+          "duration": "Semaine executive",
           "price": "48,000 AED",
           "includes": [
-            "Allocation hebdomadaire 2000km",
-            "Chauffeur business disponible",
-            "Coordination événements corporate",
+            "2 000 km par semaine",
+            "Chauffeur business",
+            "Coordination événements",
             "Conditions flexibles"
+          ]
+        },
+        "daily": {
+          "price": "AED 3,500",
+          "duration": "Journalière",
+          "includes": [
+            "250 km par jour",
+            "Chauffeur professionnel",
+            "Assurance complète",
+            "Carburant offert"
+          ]
+        },
+        "monthly": {
+          "price": "AED 75,000",
+          "duration": "Mensuelle",
+          "includes": [
+            "5 000 km par mois",
+            "Heures chauffeur flexibles",
+            "Assurance premium",
+            "Détailing mensuel"
           ]
         }
       },
@@ -981,7 +1182,74 @@
           "bestFor": "Conduite sportive, événements circuit",
           "icon": "⚡",
           "route": "Conduite sportive, événements circuit"
+        },
+        "desertHighway": {
+          "description": "Ressentez la puissance brute du V12 sur les routes désertiques.",
+          "icon": "🏜️",
+          "route": "Route Dubaï-Al Ain",
+          "title": "Autoroute du désert"
+        },
+        "nightCruising": {
+          "description": "Attirez l'attention avec une présence dramatique sous le skyline de Dubaï.",
+          "icon": "🌃",
+          "route": "Croisière nocturne Sheikh Zayed Road",
+          "title": "Croisière nocturne"
+        },
+        "trackExperience": {
+          "description": "Libérez le potentiel de la Wraith à l'Autodrome de Dubaï.",
+          "icon": "🏁",
+          "route": "Circuit Dubai Autodrome",
+          "title": "Expérience circuit"
         }
+      },
+      "virtualTourSpots": {
+        "wraith": [
+          {
+            "id": "coach-doors",
+            "name": "Iconic Coach Doors",
+            "description": "Effortless entry and exit with rear-hinged doors, a signature Rolls-Royce design feature.",
+            "position": {
+              "x": 30,
+              "y": 55
+            },
+            "details": [
+              "Power-closing mechanism",
+              "Wide aperture for easy access",
+              "Frameless windows",
+              "Integrated umbrella"
+            ]
+          },
+          {
+            "id": "infotainment",
+            "name": "Rotary Controller",
+            "description": "Intuitive control of the infotainment system with a Spirit of Ecstasy-crested rotary dial.",
+            "position": {
+              "x": 55,
+              "y": 48
+            },
+            "details": [
+              "Touchpad for character input",
+              "Hand-crafted glass finish",
+              "Quick access buttons",
+              "Ergonomic design"
+            ]
+          },
+          {
+            "id": "starlight-headliner",
+            "name": "Bespoke Starlight Headliner",
+            "description": "A celestial experience tailored to your desires, with customizable constellations.",
+            "position": {
+              "x": 50,
+              "y": 25
+            },
+            "details": [
+              "1,340 individual fiber optic lights",
+              "Hand-woven into the leather roof lining",
+              "Adjustable brightness",
+              "Shooting star animations available"
+            ]
+          }
+        ]
       }
     },
     "from": "À partir de",
@@ -989,8 +1257,121 @@
     "rentNow": "RÉSERVER",
     "aed": "AED",
     "performance": "Performance",
-    "convertibleTech": "Technologie Cabriolet",
-    "luxuryFeatures": "Caractéristiques de Luxe"
+    "convertibleTech": "Technologie cabriolet",
+    "luxuryFeatures": "Caractéristiques de Luxe",
+    "virtualTourSpots": {
+      "title": "Points du tour virtuel",
+      "description": "Explorez l'intérieur en détail",
+      "cullinan": [
+        {
+          "id": "steering-wheel",
+          "name": "Heated Steering Wheel",
+          "description": "Experience comfort in every touch with the heated, hand-stitched leather steering wheel.",
+          "position": {
+            "x": 50,
+            "y": 60
+          },
+          "details": [
+            "Full-grain leather",
+            "Multi-function controls",
+            "Adjustable temperature",
+            "Classic Rolls-Royce insignia"
+          ]
+        },
+        {
+          "id": "dashboard",
+          "name": "Glass-Fascia Dashboard",
+          "description": "A seamless digital display integrated behind a single pane of glass for a clean, modern aesthetic.",
+          "position": {
+            "x": 65,
+            "y": 45
+          },
+          "details": [
+            "12.3-inch digital instrument cluster",
+            "Central infotainment screen",
+            "Bespoke wood or carbon fibre trim",
+            "Spirit of Ecstasy clock"
+          ]
+        },
+        {
+          "id": "starlight-headliner",
+          "name": "Shooting Starlight Headliner",
+          "description": "An enchanting celestial canopy with dynamic shooting stars that arc across the roof.",
+          "position": {
+            "x": 50,
+            "y": 20
+          },
+          "details": [
+            "Over 1,600 fiber-optic lights",
+            "Eight randomly-sequenced shooting stars",
+            "Customizable constellations",
+            "Adjustable brightness and animation speed"
+          ]
+        }
+      ],
+      "phantom": [
+        {
+          "id": "dashboard",
+          "name": "Bespoke Dashboard",
+          "description": "Hand-crafted luxury at your fingertips",
+          "position": {
+            "x": 50,
+            "y": 60
+          },
+          "details": [
+            "Gallery wood veneer",
+            "Precision timepiece",
+            "Customizable ambient lighting",
+            "Gold-plated controls"
+          ]
+        },
+        {
+          "id": "starlight",
+          "name": "Starlight Headliner",
+          "description": "1,340 fiber optic lights creating a celestial scene",
+          "position": {
+            "x": 50,
+            "y": 20
+          },
+          "details": [
+            "Hand-woven constellation",
+            "Shooting star feature",
+            "Adjustable brightness",
+            "Bespoke patterns available"
+          ]
+        },
+        {
+          "id": "seats",
+          "name": "Lounge Seating",
+          "description": "Supreme comfort with massage functions",
+          "position": {
+            "x": 30,
+            "y": 70
+          },
+          "details": [
+            "Lambswool carpets",
+            "Heated & ventilated seats",
+            "10-point massage",
+            "Memory settings"
+          ]
+        },
+        {
+          "id": "spirit",
+          "name": "Spirit of Ecstasy",
+          "description": "The iconic symbol of luxury",
+          "position": {
+            "x": 70,
+            "y": 40
+          },
+          "details": [
+            "Retractable mechanism",
+            "Illuminated crystal",
+            "Anti-theft protection",
+            "Customizable finish"
+          ]
+        }
+      ]
+    }
   },
   "services": {
     "title": "Services Exceptionnels",
@@ -1159,9 +1540,19 @@
     "links": {
       "privacy": "Politique de Confidentialité",
       "terms": "Termes & Conditions",
-      "sitemap": "Plan du Site"
+      "sitemap": "Plan du Site",
+      "title": "Liens rapides",
+      "home": "Accueil",
+      "fleet": "Flotte",
+      "services": "Services",
+      "about": "À propos",
+      "blog": "Blog",
+      "contact": "Contact",
+      "faq": "FAQ"
     },
-    "social": "Suivez-Nous",
+    "social": {
+      "title": "Suivez-nous"
+    },
     "rights": "Tous droits réservés",
     "support": "Support 24/7",
     "email": "Nous écrire",
@@ -1171,7 +1562,17 @@
     "call": "Nous appeler",
     "whatsapp": "WhatsApp",
     "privacy": "Politique de confidentialité",
-    "terms": "Conditions générales"
+    "terms": "Conditions générales",
+    "ourServices": "Nos services",
+    "legalInfo": "Informations juridiques",
+    "contact": {
+      "phone": "+971 55 816 4922",
+      "email": "info@rollsroycers.com",
+      "address": "Sheikh Zayed Road, Dubaï",
+      "title": "Contactez-nous"
+    },
+    "copyright": "© 2026 Rolls-Royce Dubaï. Tous droits réservés.",
+    "description": "Service premium de location Rolls-Royce à Dubaï. Luxe incomparable avec livraison gratuite."
   },
   "testimonials": {
     "title": "Ce que disent nos clients",
@@ -1222,6 +1623,11 @@
         "title": "Comparer la flotte",
         "subtitle": "Rolls-Royce vs Autres Marques"
       }
+    },
+    "whyChooseUs": "Pourquoi nous choisir",
+    "premiumServices": {
+      "title": "Nos services premium",
+      "viewAll": "Voir tous les services"
     }
   },
   "loyalty": {
@@ -1297,24 +1703,63 @@
           "Expérience de conduite exclusive annuelle"
         ]
       }
-    }
+    },
+    "silver": "Argent",
+    "gold": "Or",
+    "platinum": "Platine",
+    "enroll": "S'inscrire",
+    "faq": {
+      "title": "FAQ du programme de fidélité",
+      "q1": "Comment gagner des points ?",
+      "a1": "Gagnez des points à chaque réservation.",
+      "q2": "Quand les points expirent-ils ?",
+      "a2": "Les points sont valables 12 mois.",
+      "q3": "Comment échanger mes points ?",
+      "a3": "Vous pouvez échanger vos points contre des réductions, des surclassements et d'autres récompenses lors de votre réservation.",
+      "q4": "Y a-t-il des frais d'adhésion ?",
+      "a4": "Non, notre programme de fidélité est entièrement gratuit.",
+      "q5": "Comment passer au niveau supérieur ?",
+      "a5": "Les niveaux sont automatiquement mis à jour une fois le nombre de locations requis atteint dans l'année.",
+      "q6": "Quels événements exclusifs sont disponibles ?",
+      "a6": "Les membres Gold et Platine reçoivent des invitations aux lancements exclusifs et événements partenaires de luxe.",
+      "q7": "Puis-je transférer mes points ?",
+      "a7": "Non, les points de fidélité ne peuvent pas être transférés d'un compte à un autre.",
+      "q8": "Y a-t-il des frais d'adhésion ?",
+      "a8": "Non, notre programme de fidélité est entièrement gratuit et commence dès votre première réservation.",
+      "q9": "Comment vérifier mon statut ?",
+      "a9": "Vous pouvez consulter votre statut et solde de points en vous connectant à votre compte ou en contactant notre service client.",
+      "q10": "Que se passe-t-il si je ne remplis pas les conditions ?",
+      "a10": "Si vous ne remplissez pas les conditions de maintien de votre niveau actuel, vous serez reclassé au niveau inférieur."
+    },
+    "journey": "Votre parcours Platine"
   },
   "personalizedOffers": {
-    "title": "Vos Offres Exclusives",
-    "subtitle": "Offres personnalisées juste pour vous",
+    "title": "Offres personnalisées",
+    "subtitle": "Des offres sur mesure pour vous",
     "ai": "Optimisé par l'IA",
     "welcome": {
       "validFor": "Valable pour :",
       "copyCode": "Copier le Code",
       "terms": "Termes appliqués",
-      "useOffer": "Utiliser cette Offre"
+      "useOffer": "Utiliser cette Offre",
+      "description": "En tant que client privilégié, voici une offre spéciale pour vous :",
+      "title": "Bienvenue, {name} !"
     },
     "notFound": {
       "title": "Aucune offre disponible",
       "subtitle": "Revenez bientôt pour des offres exclusives",
       "chat": "Discuter avec nous",
-      "quote": "Obtenir un devis"
-    }
+      "quote": "Obtenir un devis",
+      "description": "Nous n'avons pas trouvé d'offres spéciales pour vous actuellement. Veuillez revenir plus tard."
+    },
+    "description": "Répondez à quelques questions et nous créerons une offre personnalisée pour votre prochaine expérience Rolls-Royce.",
+    "occasion": "Quelle est l'occasion ?",
+    "wedding": "Mariage",
+    "business": "Affaires",
+    "leisure": "Loisirs",
+    "specialEvent": "Événement spécial",
+    "carPreference": "Modèle préféré",
+    "getOffer": "Obtenir mon offre"
   },
   "tripPlanner": {
     "title": "Planifiez Votre Voyage",
@@ -1326,65 +1771,115 @@
     "selected": "sélectionné",
     "recommended": "Recommandé",
     "generatePlan": "Générer le plan",
-    "recommendedStops": "Arrêts recommandés"
+    "recommendedStops": "Arrêts recommandés",
+    "selectVehicle": "Sélectionnez un véhicule",
+    "selectDate": "Sélectionnez une date",
+    "selectTime": "Sélectionnez l'heure",
+    "pickupLocation": "Lieu de prise en charge",
+    "dropoffLocation": "Lieu de dépose",
+    "addStop": "Ajouter un arrêt",
+    "removeStop": "Supprimer l'arrêt",
+    "estimatedCost": "Coût estimé",
+    "duration": "Durée",
+    "distance": "Distance",
+    "planTrip": "Planifier le trajet",
+    "yourItinerary": "Votre itinéraire",
+    "adventure": "Aventure",
+    "art": "Art et culture",
+    "description": "Planifiez votre itinéraire de luxe à Dubaï",
+    "dining": "Gastronomie",
+    "interests": "Vos intérêts",
+    "plan": "Planifier",
+    "recommendation": "Recommandation",
+    "relaxation": "Détente",
+    "shopping": "Shopping",
+    "sightseeing": "Tourisme"
   },
   "offers": {
     "weekend": {
       "title": "Offre week-end",
       "discount": "20% de réduction",
-      "description": "Réservez pour le week-end et bénéficiez de 20% de réduction"
+      "description": "Réservez pour le week-end et bénéficiez de 20% de réduction",
+      "code": "WEEKEND10"
     },
     "firstTime": {
       "title": "Nouveau client",
       "discount": "15% de réduction",
-      "description": "Réduction spéciale pour les nouveaux clients"
+      "description": "Réduction spéciale pour les nouveaux clients",
+      "code": "FIRSTROLLS"
     },
     "monthly": {
       "title": "Location mensuelle",
       "discount": "30% de réduction",
-      "description": "Grosses économies sur les locations mensuelles"
+      "description": "Grosses économies sur les locations mensuelles",
+      "code": "MONTHLYLUX"
     },
     "chauffeur": {
       "title": "Chauffeur gratuit",
       "discount": "Chauffeur gratuit",
-      "description": "Obtenez un chauffeur gratuit pour les réservations de 3 jours ou plus"
-    }
+      "description": "Obtenez un chauffeur gratuit pour les réservations de 3 jours ou plus",
+      "code": "CHAUFFEUR10"
+    },
+    "viewAll": "Voir toutes les offres",
+    "bookOffer": "Réserver l'offre",
+    "title": "Nos offres",
+    "subtitle": "Offres exclusives sur la location Rolls-Royce"
   },
   "testimonialSubmission": {
     "shareExperience": {
       "title": "Partagez Votre Expérience",
-      "description": "Racontez-nous votre voyage en Rolls-Royce"
+      "description": "Nous aimerions en savoir plus sur votre expérience avec nous. Vos retours nous aident à nous améliorer."
     },
     "stories": {
       "story1": {
         "name": "Sarah & Michael Johnson",
         "location": "Londres, UK",
         "occasion": "Jour de Mariage",
-        "story": "La Phantom a rendu notre jour de mariage absolument parfait. De l'intérieur décoré au chauffeur professionnel, chaque détail était impeccable."
+        "story": "La Phantom était absolument parfaite pour notre mariage. Le service était impeccable.",
+        "author": "La famille Al-Khateeb",
+        "quote": "Le plus mémorable anniversaire grâce à la magnifique Rolls-Royce Dawn."
       },
       "story2": {
         "name": "Alexander Petrov",
         "location": "Moscou, Russie",
         "occasion": "Conférence d'Affaires",
-        "story": "Arriver à la conférence en Ghost a fait une forte impression. Le service était impeccable et a aidé à conclure un partenariat important."
+        "story": "Besoin d'une voiture de luxe fiable pour des réunions clients. La Ghost a dépassé toutes les attentes.",
+        "author": "PDG, Global Innovations Inc.",
+        "quote": "Notre événement d'entreprise fut un énorme succès. La flotte de Ghost a impressionné tous nos clients."
       },
       "story3": {
-        "name": "La Famille Chen",
-        "location": "Pékin, Chine",
-        "occasion": "Célébration d'Anniversaire",
-        "story": "Nous avons célébré notre 25e anniversaire en visitant Dubaï en Dawn. L'expérience du cabriolet au coucher du soleil était inoubliable. Vraiment magique!"
-      }
+        "name": "Maria Santos",
+        "location": "Madrid, Espagne",
+        "occasion": "Voyage d'anniversaire",
+        "story": "La Dawn cabriolet a rendu notre voyage d'anniversaire à Dubaï magique.",
+        "author": "M. et Mme Gupta",
+        "quote": "Un rêve devenu réalité pour la remise des diplômes de mon fils."
+      },
+      "title": "Histoires inspirantes"
+    },
+    "form": {
+      "name": "Nom",
+      "email": "Email",
+      "vehicle": "Véhicule",
+      "rating": "Note",
+      "review": "Votre avis",
+      "submit": "Soumettre l'avis",
+      "success": "Merci pour votre retour !",
+      "message": "Votre témoignage",
+      "photo": "Télécharger une photo (optionnel)"
     }
   },
   "cookie": {
     "title": "Ce site utilise des cookies",
     "description": "Nous utilisons des cookies pour améliorer votre expérience sur notre site. En continuant à utiliser notre site, vous acceptez notre utilisation des cookies",
     "accept": "ACCEPTER",
-    "decline": "Refuser"
+    "decline": "Refuser",
+    "acceptAll": "Tout accepter",
+    "learnMore": "En savoir plus"
   },
   "checkAvailability": {
     "title": "Vérifier la disponibilité",
-    "subtitle": "Sélectionnez vos dates et votre voiture",
+    "subtitle": "Réservez votre modèle Rolls-Royce préféré aux dates souhaitées.",
     "selectCar": "Sélectionner une voiture",
     "bookingSummary": "Résumé de la réservation",
     "car": "Voiture",
@@ -1419,7 +1914,11 @@
       "available": "Disponible",
       "unavailable": "Indisponible",
       "selected": "Sélectionné",
-      "dateRange": "Plage de dates"
+      "dateRange": "Plage de dates",
+      "month": "Mois",
+      "selectDate": "Sélectionnez une date",
+      "today": "Aujourd'hui",
+      "year": "Année"
     },
     "selectYourRR": "Sélectionnez votre Rolls-Royce",
     "cars": {
@@ -1438,11 +1937,20 @@
       "wraith": {
         "name": "Rolls-Royce Wraith"
       }
-    }
+    },
+    "pickupDate": "Date de prise en charge",
+    "returnDate": "Date de retour",
+    "pickupLocation": "Lieu de prise en charge",
+    "returnLocation": "Lieu de retour",
+    "check": "Vérifier la disponibilité",
+    "availability": "Statut de disponibilité",
+    "available": "Disponible",
+    "notAvailable": "Non disponible",
+    "contactForDetails": "Contactez-nous pour plus de détails"
   },
   "videoGallery": {
-    "title": "Galerie Vidéo",
-    "subtitle": "Vivez le luxe à travers notre collection de vidéos exclusives",
+    "title": "Galerie vidéo",
+    "subtitle": "Regardez Rolls-Royce en action",
     "filters": {
       "all": "🎬 Toutes les vidéos",
       "exterior": "🚗 Extérieur",
@@ -1450,12 +1958,8 @@
       "experience": "🌟 Expérience",
       "virtualTour": "🎥 Visite virtuelle"
     },
-    "phantom": {
-      "title": "Rolls-Royce Phantom - Présentation extérieure"
-    },
-    "cullinan": {
-      "title": "Rolls-Royce Cullinan - Showcase extérieur"
-    },
+    "phantom": "L'emblématique Phantom",
+    "cullinan": "Le Cullinan tout-terrain",
     "interior": {
       "title": "Élégance intérieure Rolls-Royce"
     },
@@ -1501,7 +2005,37 @@
         "title": "Définir le luxe",
         "description": "Entrez dans le monde de Rolls-Royce et découvrez ce que signifie le vrai luxe"
       }
-    }
+    },
+    "categories": {
+      "all": "Tout",
+      "exterior": "Extérieur",
+      "interior": "Intérieur",
+      "driving": "Conduite",
+      "events": "Événements",
+      "reviews": "Avis"
+    },
+    "play": "Lecture",
+    "pause": "Pause",
+    "mute": "Couper le son",
+    "unmute": "Activer le son",
+    "fullscreen": "Plein écran",
+    "duration": "Durée",
+    "views": "Vues",
+    "watchMore": "Voir plus",
+    "loading": "Chargement...",
+    "dawn": "Rolls-Royce Dawn",
+    "description": "Découvrez notre flotte dans les plus beaux lieux de Dubaï",
+    "featured": "En vedette",
+    "ghost": "Rolls-Royce Ghost",
+    "loadMore": "Charger plus",
+    "modal": {
+      "close": "Fermer",
+      "share": "Partager",
+      "title": "En lecture"
+    },
+    "playlist": "Notre playlist vidéo",
+    "watch": "Regarder la vidéo",
+    "wraith": "Rolls-Royce Wraith"
   },
   "virtualShowroom": {
     "title": "Showroom virtuel",
@@ -1711,34 +2245,40 @@
         "stats": {
           "clients": "Clients d'entreprise",
           "retention": "Fidélisation des clients",
-          "support": "Support"
-        }
+          "support": "Support",
+          "chauffeurs": "Chauffeurs corporate",
+          "fortune500": "Clients Fortune 500",
+          "onTime": "Taux de ponctualité",
+          "satisfaction": "Satisfaction client"
+        },
+        "cta": "Demander un devis corporate",
+        "description": "Impressionnez vos clients et voyagez avec un style inégalé avec nos services de location corporate Rolls-Royce."
       },
       "whyChoose": {
-        "title": "Pourquoi choisir nos solutions d'entreprise ?",
+        "title": "Pourquoi nous choisir pour les voyages d'affaires ?",
         "image": {
           "title": "Image impeccable",
-          "description": "Faites une impression durable sur vos clients et partenaires."
+          "description": "Arrivez en réunion dans un véhicule qui reflète votre succès."
         },
         "productivity": {
-          "title": "Productivité maximale",
-          "description": "Utilisez le temps de trajet pour travailler ou vous détendre dans un environnement luxueux."
+          "title": "Productivité en déplacement",
+          "description": "Un environnement calme pour travailler ou téléphoner."
         },
         "privacy": {
-          "title": "Confidentialité et sécurité",
-          "description": "Nous garantissons une confidentialité totale pour vos déplacements professionnels."
+          "title": "Discrétion et confidentialité",
+          "description": "Nos chauffeurs sont formés pour une discrétion maximale."
         },
         "standards": {
-          "title": "Les plus hauts standards",
-          "description": "Notre service répond aux exigences les plus strictes des entreprises."
+          "title": "Fiabilité et hauts standards",
+          "description": "Ponctualité et véhicules impeccables garantis."
         }
       },
       "packages": {
-        "title": "Nos forfaits entreprise",
+        "title": "Forfaits corporate",
         "requestQuote": "Demander un devis",
         "executive": {
           "name": "Forfait Exécutif",
-          "description": "Idéal pour les cadres supérieurs et les VIP.",
+          "description": "Service meet-and-greet depuis tous les aéroports.",
           "features": [
             "Chauffeur personnel",
             "Wi-Fi et espace de travail",
@@ -1749,11 +2289,12 @@
             "Phantom",
             "Ghost"
           ],
-          "price": "À partir de 1500 AED/heure"
+          "price": "À partir de AED 800",
+          "title": "Transfert aéroport executive"
         },
         "conference": {
           "name": "Conférences et événements",
-          "description": "Transport pour les délégations et les participants à des événements.",
+          "description": "Transport coordonné pour événements.",
           "features": [
             "Coordination logistique",
             "Transferts de groupe",
@@ -1765,11 +2306,12 @@
             "Cullinan",
             "Minivans de luxe"
           ],
-          "price": "Sur demande"
+          "price": "Sur devis",
+          "title": "Navette conférence"
         },
         "roadshow": {
           "name": "Roadshows",
-          "description": "Planification et exécution efficaces d'itinéraires complexes.",
+          "description": "Itinéraires complexes gérés par notre équipe logistique.",
           "features": [
             "Horaires flexibles",
             "Chauffeurs expérimentés connaissant la ville",
@@ -1781,11 +2323,12 @@
             "Ghost",
             "Wraith"
           ],
-          "price": "À partir de 1800 AED/jour"
+          "price": "Tarifs jour/semaine",
+          "title": "Roadshows financiers"
         },
         "partnership": {
           "name": "Partenariat à long terme",
-          "description": "Solutions sur mesure pour les clients professionnels réguliers.",
+          "description": "Services continus sur contrat.",
           "features": [
             "Tarifs spéciaux",
             "Gestionnaire de compte dédié",
@@ -1795,7 +2338,8 @@
           "vehicles": [
             "Toute la flotte Rolls-Royce"
           ],
-          "price": "Personnalisé"
+          "price": "Sur demande",
+          "title": "Partenariat long terme"
         }
       },
       "clients": {
@@ -1808,61 +2352,68 @@
         "investment": "Investissement",
         "emaar": "Emaar",
         "development": "Développement",
-        "more": "et bien d'autres..."
+        "more": "et bien d'autres...",
+        "description": "Nous servons une clientèle corporate diversifiée."
       },
       "caseStudies": {
-        "title": "Exemples de collaborations réussies",
+        "title": "Témoignages de réussite",
         "bank": {
           "client": "Grande banque internationale",
-          "challenge": "Défi",
+          "challenge": "Transport fiable pour un roadshow de 5 jours.",
           "challengeText": "Assurer le transport d'une délégation VIP lors d'un forum financier à Dubaï.",
-          "solution": "Solution",
+          "solution": "Ghost dédiée avec chauffeur professionnel.",
           "solutionText": "Fourniture de véhicules Rolls-Royce Phantom avec chauffeurs professionnels, élaboration d'un plan logistique détaillé.",
-          "result": "Résultat",
-          "resultText": "Tous les transferts ont été exécutés sans faille, la délégation a souligné le plus grand confort et le niveau de service."
+          "result": "Le CEO a salué l'expérience fluide.",
+          "resultText": "Tous les transferts ont été exécutés sans faille, la délégation a souligné le plus grand confort et le niveau de service.",
+          "title": "Banque d'investissement mondiale"
         },
         "tech": {
           "client": "Entreprise technologique de premier plan",
-          "challenge": "Défi",
+          "challenge": "Transport VIP pour 20 intervenants.",
           "challengeText": "Organiser une série de voyages pour la haute direction lors d'un roadshow aux EAU.",
-          "solution": "Solution",
+          "solution": "Coordination de 10 Phantom et Ghost.",
           "solutionText": "Élaboration d'un calendrier flexible, fourniture de véhicules Rolls-Royce Ghost, assistance 24/7 assurée.",
-          "result": "Résultat",
-          "resultText": "Le roadshow a été un succès, toutes les réunions ont eu lieu à temps, les clients ont loué la fiabilité du service."
+          "result": "Tous les intervenants arrivés à l'heure.",
+          "resultText": "Le roadshow a été un succès, toutes les réunions ont eu lieu à temps, les clients ont loué la fiabilité du service.",
+          "title": "Conférence tech internationale"
         }
       },
       "benefits": {
-        "title": "Avantages du service aux entreprises",
+        "title": "Avantages pour votre entreprise",
         "financial": {
-          "title": "Financiers",
+          "title": "Avantages financiers",
           "items": [
             "Optimiser les coûts de transport",
             "Tarifs spéciaux pour les entreprises",
             "Système de reporting transparent"
-          ]
+          ],
+          "description": "Facturation consolidée, tarifs transparents et compétitifs."
         },
         "operational": {
-          "title": "Opérationnels",
+          "title": "Efficacité opérationnelle",
           "items": [
             "Gagner du temps sur l'organisation des voyages",
             "Disponibilité garantie des véhicules",
             "Support et coordination 24/7"
-          ]
+          ],
+          "description": "Gagnez du temps avec notre processus de réservation simple."
         },
         "service": {
-          "title": "Service",
+          "title": "Service amélioré",
           "items": [
             "Confort et sécurité optimaux",
             "Chauffeurs professionnels et discrets",
             "Approche individuelle pour chaque client"
-          ]
+          ],
+          "description": "Offrez une expérience de transport premium à vos clients."
         }
       },
       "cta": {
-        "title": "Élevez votre entreprise avec Rolls-Royce",
-        "description": "Contactez notre service aux entreprises pour discuter de vos besoins et recevoir une proposition sur mesure.",
+        "title": "Discutez de vos besoins corporate",
+        "description": "Contactez notre équipe pour une solution sur mesure.",
         "speakToTeam": "Parler à notre équipe",
-        "downloadBrochure": "Télécharger la brochure"
+        "downloadBrochure": "Télécharger la brochure",
+        "button": "Contacter les ventes corporate"
       },
       "quickInquiry": {
         "title": "Demande rapide",
@@ -1871,9 +2422,14 @@
           "executive": "Forfait Exécutif",
           "conference": "Conférences et événements",
           "roadshow": "Roadshows",
-          "partnership": "Partenariat à long terme"
+          "partnership": "Partenariat à long terme",
+          "daily": "Location journée",
+          "hourly": "Location horaire",
+          "event": "Transport événementiel",
+          "airport": "Transfert aéroport"
         },
-        "submitInquiry": "Envoyer la demande"
+        "submitInquiry": "Envoyer la demande",
+        "description": "Obtenez un devis rapide pour vos besoins corporate."
       }
     },
     "wedding": {
@@ -1881,80 +2437,92 @@
         "title": "Un Mariage Inoubliable avec Rolls-Royce",
         "subtitle": "Arrivez avec Style et Luxe Ultimes",
         "viewPackages": "Voir les Forfaits Mariage",
-        "consultation": "Demander une Consultation"
+        "consultation": "Demander une Consultation",
+        "cta": "Planifier votre transport de mariage",
+        "description": "Rendez votre jour spécial magique avec l'élégance intemporelle d'une Rolls-Royce."
       },
       "whyChoose": {
-        "title": "Pourquoi Nous Choisir pour Votre Mariage?",
+        "title": "La voiture de mariage parfaite",
         "bridal": {
-          "title": "Arrivée Parfaite de la Mariée",
-          "description": "Créez une entrée grandiose qui restera gravée dans les mémoires."
+          "title": "Arrivée élégante de la mariée",
+          "description": "Faites une entrée spectaculaire inoubliable."
         },
         "photo": {
-          "title": "Opportunités Photo Époustouflantes",
-          "description": "Nos voitures offrent une toile de fond magnifique pour vos photos de mariage."
+          "title": "Superbes opportunités photo",
+          "description": "Une Rolls-Royce offre un décor magnifique."
         },
         "reliability": {
-          "title": "Ponctualité et Fiabilité",
-          "description": "Nous assurons une arrivée à l'heure, pour que vous puissiez vous détendre et profiter de votre journée."
+          "title": "Service ponctuel et fiable",
+          "description": "Nos chauffeurs garantissent votre arrivée à l'heure."
         }
       },
       "packages": {
-        "title": "Nos Forfaits Mariage Exclusifs",
+        "title": "Nos forfaits mariage",
         "bookPackage": "Réserver ce Forfait",
         "classic": {
           "name": "Élégance Classique",
-          "duration": "4 Heures",
+          "duration": "3 heures",
           "features": [
-            "Chauffeur Professionnel",
-            "Service Tapis Rouge",
-            "Eau Gratuite",
-            "Décoration Florale de Base"
+            "Rolls-Royce Ghost",
+            "Chauffeur professionnel",
+            "Décoration ruban",
+            "Eau en bouteille"
           ],
-          "price": "À partir de 2 500 AED"
+          "price": "AED 2,500",
+          "title": "Élégance classique"
         },
         "royal": {
           "name": "Affaire Royale",
-          "duration": "6 Heures",
+          "duration": "5 heures",
           "features": [
-            "Tout inclus dans Élégance Classique",
-            "Playlist Musicale Personnalisée",
-            "Pétillant Offert (Sans Alcool)",
-            "Arrangements Floraux Personnalisés"
+            "Rolls-Royce Phantom",
+            "Service tapis rouge",
+            "Toast au champagne",
+            "Playlist musicale"
           ],
-          "price": "À partir de 4 000 AED"
+          "price": "AED 4,500",
+          "title": "Cérémonie royale"
         },
         "ultimate": {
           "name": "Luxe Ultime",
-          "duration": "Journée Complète (10 Heures)",
+          "duration": "8 heures",
           "features": [
-            "Tout inclus dans Affaire Royale",
-            "Option Cortège Multi-Voitures",
-            "Transport du Marié et des Garçons d'Honneur",
-            "Coordinateur de Mariage Personnel"
+            "Choix de toute Rolls-Royce",
+            "Transport des mariés",
+            "Transport des parents",
+            "Retour tardif"
           ],
-          "price": "À partir de 7 000 AED",
-          "premium": "Le Plus Populaire"
-        }
+          "price": "AED 7,000",
+          "premium": "Le Plus Populaire",
+          "title": "Luxe ultime"
+        },
+        "description": "Choisissez parmi nos forfaits ou laissez-nous créer une solution sur mesure.",
+        "custom": "Forfaits personnalisés disponibles sur demande."
       },
       "gallery": {
         "title": "Notre Flotte de Mariage en Action"
       },
       "testimonials": {
-        "title": "Ce que Disent les Couples Heureux",
+        "title": "Couples heureux",
         "sarah": {
           "name": "Sarah & Ahmed",
-          "text": "La Rolls-Royce a été le clou de notre mariage. Le service était impeccable et nous nous sommes sentis comme des rois. Merci d'avoir rendu notre journée si spéciale!"
+          "text": "La Rolls-Royce a été le clou de notre mariage. Le service était impeccable et nous nous sommes sentis comme des rois. Merci d'avoir rendu notre journée si spéciale!",
+          "couple": "Sarah et Ahmed",
+          "quote": "La Rolls-Royce a été le point fort de notre mariage !"
         },
         "fatima": {
           "name": "Fatima & Khalid",
-          "text": "Expérience absolument parfaite. La voiture était magnifique, le chauffeur incroyablement professionnel. C'était la touche parfaite pour notre journée parfaite."
+          "text": "Expérience absolument parfaite. La voiture était magnifique, le chauffeur incroyablement professionnel. C'était la touche parfaite pour notre journée parfaite.",
+          "couple": "Fatima et Khalid",
+          "quote": "Se sentir comme une reine en arrivant en Phantom. Photos absolument sublimes."
         }
       },
       "cta": {
-        "title": "Prêt à Planifier le Transport de Mariage de Vos Rêves?",
-        "description": "Contactez nos spécialistes du mariage dès aujourd'hui pour créer un forfait sur mesure qui correspond parfaitement à vos besoins.",
+        "title": "Réservez votre voiture de mariage de rêve",
+        "description": "Contactez-nous pour discuter de vos plans de mariage.",
         "call": "Appeler Notre Spécialiste Mariage",
-        "getQuote": "Obtenir un Devis Personnalisé"
+        "getQuote": "Obtenir un Devis Personnalisé",
+        "button": "Demander"
       }
     }
   },
@@ -1992,12 +2560,17 @@
       "performance": "Performance",
       "comfort": "Confort",
       "technology": "Technologie",
-      "value": "Valeur"
+      "value": "Valeur",
+      "space": "Space",
+      "presence": "Road Presence"
     },
     "featureCategories": {
       "luxury": "Luxe",
       "technology": "Technologie",
-      "comfort": "Confort"
+      "comfort": "Confort",
+      "bestFor": "Idéal pour",
+      "keyFeatures": "Caractéristiques clés",
+      "uniqueSellingPoint": "Argument clé"
     },
     "cars": {
       "phantom": {
@@ -2057,7 +2630,9 @@
           "performance": 85,
           "comfort": 100,
           "technology": 90,
-          "value": 80
+          "value": 80,
+          "space": 9,
+          "presence": 10
         },
         "tagline": "La limousine de luxe ultime",
         "category": "Berline ultra-luxe",
@@ -2070,22 +2645,23 @@
           "versatility": 70
         },
         "bestFor": [
-          "wedding",
+          "mariage",
           "business",
-          "photography"
+          "photographie"
         ],
         "uniqueFeatures": [
-          "Ciel étoilé avec 1,340 lumières à fibre optique",
+          "Ciel étoilé 1 340 fibres optiques",
           "Suspension Magic Carpet Ride",
-          "Compartiment arrière galerie",
-          "Refroidisseur de champagne et verres en cristal"
+          "Compartiment arrière Gallery",
+          "Refroidisseur à champagne"
         ],
         "standardFeatures": [
-          "Intérieur en cuir artisanal",
+          "Cuir fait main",
           "Système audio premium",
-          "Écrans de divertissement arrière",
-          "Système d'éclairage ambiant"
-        ]
+          "Écrans arrière",
+          "Éclairage d'ambiance"
+        ],
+        "usp": "L'emblématique 'Magic Carpet Ride' et habitacle silencieux."
       },
       "cullinan": {
         "id": "cullinan",
@@ -2144,10 +2720,12 @@
           "performance": 90,
           "comfort": 95,
           "technology": 95,
-          "value": 85
+          "value": 85,
+          "space": 10,
+          "presence": 9
         },
         "tagline": "Luxe sans compromis",
-        "category": "SUV ultra-luxe",
+        "category": "SUV Ultra-Luxe",
         "metrics": {
           "luxury": 98,
           "performance": 88,
@@ -2157,22 +2735,23 @@
           "versatility": 100
         },
         "bestFor": [
-          "family",
-          "leisure",
+          "famille",
+          "loisirs",
           "business"
         ],
         "uniqueFeatures": [
           "Capacité tout-terrain",
-          "Sièges de suite d'observation",
-          "Option verre de séparation",
-          "Module de loisirs"
+          "Viewing Suite",
+          "Cloison vitrée",
+          "Module loisirs"
         ],
         "standardFeatures": [
-          "Traction intégrale",
+          "Transmission intégrale",
           "Suspension pneumatique",
           "Toit panoramique",
-          "Système de caméra 360°"
-        ]
+          "Caméra 360°"
+        ],
+        "usp": "Luxe tout-terrain inégalé et design SUV imposant."
       },
       "ghost": {
         "id": "ghost",
@@ -2231,7 +2810,9 @@
           "performance": 95,
           "comfort": 92,
           "technology": 93,
-          "value": 90
+          "value": 90,
+          "presence": 8,
+          "space": 8
         },
         "tagline": "Performance sans effort",
         "category": "Berline de luxe",
@@ -2245,21 +2826,22 @@
         },
         "bestFor": [
           "business",
-          "airport",
-          "leisure"
+          "aéroport",
+          "loisirs"
         ],
         "uniqueFeatures": [
-          "Système de suspension planaire",
-          "Fascia illuminé",
-          "Purification de micro-environnement",
-          "Cabine ultra-silencieuse"
+          "Suspension Planar",
+          "Façade illuminée",
+          "Purification micro-environnement",
+          "Habitacle ultra-silencieux"
         ],
         "standardFeatures": [
-          "Système de traction intégrale",
-          "Régulateur de vitesse adaptatif",
+          "Transmission intégrale",
+          "Régulateur adaptatif",
           "Affichage tête haute",
-          "Panneau de charge sans fil"
-        ]
+          "Charge sans fil"
+        ],
+        "usp": "Luxe minimaliste avec le confort du tapis volant."
       },
       "dawn": {
         "id": "dawn",
@@ -2318,7 +2900,9 @@
           "performance": 88,
           "comfort": 85,
           "technology": 85,
-          "value": 82
+          "value": 82,
+          "presence": 9,
+          "space": 7
         },
         "tagline": "Grand tourer décapotable",
         "category": "Cabriolet de luxe",
@@ -2331,22 +2915,23 @@
           "versatility": 75
         },
         "bestFor": [
-          "wedding",
-          "photography",
-          "leisure"
+          "mariage",
+          "photographie",
+          "loisirs"
         ],
         "uniqueFeatures": [
-          "Fonctionnement silencieux de la capote souple",
-          "Réchauffeur de nuque Airscarf",
-          "Optimisation de l'espace coffre",
-          "Expérience de conduite à ciel ouvert"
+          "Toit silencieux",
+          "Airscarf chauffe-nuque",
+          "Coffre optimisé",
+          "Conduite à ciel ouvert"
         ],
         "standardFeatures": [
           "Phares adaptatifs",
-          "Système audio premium",
+          "Audio premium",
           "Climatisation",
-          "Intérieur en cuir"
-        ]
+          "Intérieur cuir"
+        ],
+        "usp": "Le cabriolet le plus luxueux et silencieux au monde."
       },
       "wraith": {
         "id": "wraith",
@@ -2405,10 +2990,12 @@
           "performance": 98,
           "comfort": 88,
           "technology": 88,
-          "value": 85
+          "value": 85,
+          "space": 7,
+          "presence": 10
         },
         "tagline": "Puissance et style",
-        "category": "Coupé grand tourer",
+        "category": "Grand Tourer Coupé",
         "metrics": {
           "luxury": 90,
           "performance": 100,
@@ -2419,21 +3006,22 @@
         },
         "bestFor": [
           "business",
-          "photography",
-          "leisure"
+          "photographie",
+          "loisirs"
         ],
         "uniqueFeatures": [
-          "Transmission assistée par satellite",
+          "Transmission satellite",
           "Ciel étoilé",
-          "Portes suicide",
+          "Portes antagonistes",
           "Rolls-Royce la plus puissante"
         ],
         "standardFeatures": [
-          "Transmission automatique 8 vitesses",
+          "Boîte auto 8 rapports",
           "Suspension adaptative",
-          "Système audio sur mesure",
-          "Système de navigation"
-        ]
+          "Audio Bespoke",
+          "Navigation"
+        ],
+        "usp": "La Rolls-Royce la plus puissante avec dynamique Grand Tourer."
       }
     },
     "description": "Comparez les caractéristiques, spécifications et prix pour choisir le véhicule idéal pour vos besoins",
@@ -2445,57 +3033,116 @@
     "closeModal": "Fermer la comparaison",
     "performance": "Performance et capacité",
     "luxury": "Caractéristiques de luxe",
-    "comfort": "Confort et commodité",
-    "technology": "Technologie et innovation",
-    "pricing": "Prix et forfaits",
+    "comfort": "Confort & Commodité",
+    "technology": "Technologie & Innovation",
+    "pricing": "Tarifs & Forfaits",
     "metrics": {
-      "luxury": "Expérience de luxe",
-      "performance": "Performance de conduite",
-      "comfort": "Confort des passagers",
-      "technology": "Innovation technologique",
-      "presence": "Présence sur route",
-      "versatility": "Polyvalence"
+      "luxury": "Expérience luxe",
+      "performance": "Performance conduite",
+      "comfort": "Confort passager",
+      "technology": "Innovation tech",
+      "presence": "Présence routière",
+      "versatility": "Polyvalence",
+      "key": "Métriques clés",
+      "acceleration": {
+        "label": "Accélération",
+        "unit": "s 0-100km/h"
+      },
+      "boot": {
+        "label": "Coffre",
+        "unit": "L"
+      },
+      "noise": {
+        "label": "Niveau sonore",
+        "unit": "dB"
+      },
+      "power": {
+        "label": "Puissance",
+        "unit": "ch"
+      },
+      "prestige": {
+        "label": "Prestige"
+      },
+      "range": {
+        "label": "Autonomie",
+        "unit": "km"
+      },
+      "topSpeed": {
+        "label": "Vitesse max",
+        "unit": "km/h"
+      },
+      "torque": {
+        "label": "Couple",
+        "unit": "Nm"
+      },
+      "value": {
+        "label": "Valeur"
+      }
     },
     "bestFor": {
       "title": "Idéal pour",
       "wedding": "Mariages et événements spéciaux",
-      "business": "Entreprises et affaires",
-      "leisure": "Loisirs et tourisme",
+      "business": "Corporate & Business",
+      "leisure": "Loisirs & Tourisme",
       "family": "Occasions familiales",
       "photography": "Séances photo",
       "airport": "Transferts aéroport"
     },
     "features": {
       "uniqueFeatures": "Caractéristiques uniques",
-      "standardFeatures": "Équipement standard",
+      "standardFeatures": "Équipement de série",
       "optionalFeatures": "Options supplémentaires"
     },
     "actions": {
-      "bookSelected": "Réserver le véhicule sélectionné",
-      "requestQuote": "Demander un devis personnalisé",
+      "bookSelected": "Réserver le véhicule",
+      "requestQuote": "Demander un devis",
       "viewFleet": "Voir toute la flotte",
       "contactUs": "Contacter notre équipe"
+    },
+    "clear": "Effacer",
+    "compare": "Comparer",
+    "selectAModel": "Sélectionnez un modèle",
+    "selectCars": "Sélectionnez jusqu'à 3 voitures",
+    "filters": {
+      "bodyType": "Type de carrosserie",
+      "drivetrain": "Transmission",
+      "features": "Caractéristiques",
+      "priceRange": "Gamme de prix",
+      "seats": "Places"
     }
   },
   "priceCalculator": {
     "title": "Calculateur de Prix",
     "subtitle": "Obtenez un devis instantané pour votre expérience de luxe",
     "selectCar": "Sélectionnez Votre Rolls-Royce",
-    "rentalDuration": "Durée de la Location (Jours)",
+    "rentalDuration": "Durée de location",
     "monthlyRate": "🎉 Tarif mensuel appliqué !",
     "weeklyRate": "🎉 Tarif hebdomadaire appliqué !",
     "dailyRate": "Tarif journalier",
-    "chauffeur": "Chauffeur Professionnel (+1,500 AED/jour)",
+    "chauffeur": "Chauffeur privé",
     "deliveryLocation": "Lieu de Livraison",
     "locations": {
-      "hotel": "Hôtel (Gratuit)",
+      "hotel": "Livraison à l'hôtel",
       "airport": "Aéroport (500 AED)",
-      "other": "Autre Lieu (350 AED)"
+      "other": "Autre Lieu (350 AED)",
+      "abuDhabi": "Aéroport international d'Abu Dhabi (AUH)",
+      "dubai": "Aéroport international de Dubaï (DXB)",
+      "sharjah": "Aéroport international de Sharjah (SHJ)"
     },
     "promoCode": "Code Promo",
     "calculateButton": "Calculer le Prix",
     "priceBreakdown": "Détail du Prix",
-    "vehicleRental": "Location de Véhicule"
+    "vehicleRental": "Location de Véhicule",
+    "selectVehicle": "Sélectionnez un véhicule",
+    "extras": "Suppléments",
+    "insurance": "Assurance complète",
+    "totalPrice": "Prix total",
+    "calculate": "Calculer le prix",
+    "delivery": "Livraison",
+    "disclaimer": "Les prix sont estimatifs et peuvent varier.",
+    "duration": "Durée de location (jours)",
+    "estimatedPrice": "Prix estimé",
+    "model": "Modèle"
   },
   "placeholders": {
     "loading": "Chargement...",
@@ -2504,7 +3151,12 @@
     "companyName": "Nom de l'entreprise",
     "businessEmail": "Email professionnel",
     "johnDoe": "Jean Dupont",
-    "rentalInquiry": "Demande de location"
+    "rentalInquiry": "Demande de location",
+    "fullName": "Nom complet",
+    "email": "Adresse email",
+    "phone": "Numéro de téléphone",
+    "message": "Votre message",
+    "name": "Nom"
   },
   "locations": {
     "downtownDubai": {
@@ -2514,62 +3166,62 @@
       "nav": "Dubai Marina",
       "hero": {
         "title": "Dubai Marina",
-        "subtitle": "Luxe en bord de mer",
-        "bookButton": "Réserver votre trajet",
-        "callButton": "Appeler",
+        "subtitle": "Vie de luxe en bord de mer",
+        "bookButton": "Réservez votre trajet",
+        "callButton": "Appelez",
         "freeDelivery": "Livraison gratuite Marina",
-        "deliveryTime": "Arrivée en 5 minutes",
-        "vipConcierge": "Service de conciergerie VIP"
+        "deliveryTime": "Arrivée en 5 min",
+        "vipConcierge": "Service conciergerie VIP"
       },
       "whyChoose": {
-        "title": "Pourquoi choisir Dubai Marina",
+        "title": "Pourquoi Dubai Marina",
         "beachside": {
-          "title": "Emplacement en bord de mer",
-          "description": "Accès direct aux plages immaculées et aux restaurants en bord de mer"
+          "title": "Emplacement côtier",
+          "description": "Accès direct aux plages et restaurants en bord de mer"
         },
         "nightlife": {
-          "title": "Vie nocturne vibrante",
-          "description": "District de divertissement premium avec des lieux de classe mondiale"
+          "title": "Vie nocturne animée",
+          "description": "Quartier de divertissement avec des lieux de classe mondiale"
         },
         "yacht": {
-          "title": "Accès au yacht club",
-          "description": "Accès exclusif aux yacht-clubs de luxe et marinas"
+          "title": "Accès yacht club",
+          "description": "Accès exclusif aux clubs nautiques de luxe"
         }
       },
       "deliveryLocations": {
-        "title": "Lieux de livraison gratuite",
-        "additional": "Et de nombreux autres endroits dans toute Dubai Marina"
+        "title": "Points de livraison gratuits",
+        "additional": "Et bien d'autres emplacements dans Dubai Marina"
       },
       "popularRoutes": {
-        "title": "Routes populaires de Marina",
+        "title": "Itinéraires populaires Marina",
         "distance": "Distance",
         "duration": "Durée",
         "highlights": "Points forts",
         "coastal": {
           "name": "Route côtière",
-          "description": "Route panoramique en bord de mer le long de la côte de Dubaï",
+          "description": "Itinéraire panoramique le long de la côte",
           "highlights": [
-            "Vues sur la plage JBR",
-            "Expérience Ain Dubai",
-            "Horizon de Marina"
+            "Vue sur le front de mer",
+            "Dubai Eye",
+            "Plage JBR"
           ]
         },
         "city": {
-          "name": "Connexion ville",
-          "description": "Connecter Marina aux principales attractions du centre de Dubaï",
+          "name": "Route de la ville",
+          "description": "Découvrez les points forts de Dubaï",
           "highlights": [
-            "Visite Burj Khalifa",
-            "Shopping Dubai Mall",
-            "Restaurants du centre"
+            "Burj Khalifa",
+            "Dubai Mall",
+            "Fontaine de Dubaï"
           ]
         },
         "shopping": {
-          "name": "Circuit shopping",
-          "description": "Visiter les destinations shopping premium de Dubaï",
+          "name": "Route shopping",
+          "description": "Les meilleures destinations shopping",
           "highlights": [
-            "Marina Mall",
             "Mall of the Emirates",
-            "Ibn Battuta Mall"
+            "Ibn Battuta Mall",
+            "Marina Mall"
           ]
         }
       },
@@ -2580,35 +3232,37 @@
         "type": "Type"
       },
       "testimonials": {
-        "title": "Expériences clients",
+        "title": "Avis clients",
         "rented": "Loué",
         "sarah": {
-          "location": "Résidente Marina",
-          "text": "Parfait pour notre soirée au Zero Gravity. Le Phantom a fait une sacrée impression à notre arrivée.",
-          "car": "Phantom"
+          "location": "Dubai Marina",
+          "text": "Expérience incroyable ! La Rolls-Royce est arrivée à l'heure et la croisière au coucher du soleil était inoubliable.",
+          "car": "Rolls-Royce Dawn"
         },
         "james": {
-          "location": "Visiteur JBR",
-          "text": "Service incroyable ! Le Ghost était idéal pour notre journée plage, et le chauffeur connaissait tous les meilleurs spots.",
-          "car": "Ghost"
+          "location": "Résident Marina",
+          "text": "J'utilise régulièrement leurs services pour les événements d'affaires. Toujours professionnel.",
+          "car": "Rolls-Royce Ghost"
         },
         "fatima": {
-          "location": "Invitée yacht club",
-          "text": "Arrivée au yacht club avec style dans le Cullinan. Le traitement VIP était exceptionnel.",
-          "car": "Cullinan"
+          "location": "Abu Dhabi",
+          "text": "J'ai réservé une Phantom pour le mariage de ma fille à la Marina. Service exceptionnel.",
+          "car": "Rolls-Royce Phantom"
         }
       },
       "fleet": {
-        "title": "Notre flotte à Marina"
+        "title": "Notre flotte à Dubai Marina"
       },
       "cta": {
-        "title": "Découvrez la vie Marina dans le luxe",
-        "subtitle": "Réservez votre Rolls-Royce pour l'expérience ultime de Dubai Marina",
+        "title": "Réservez une Rolls-Royce à Dubai Marina",
+        "subtitle": "Livraison gratuite partout dans la Marina",
         "callButton": "Appeler maintenant",
         "bookButton": "Réserver en ligne",
         "pickupPoint": "Point de prise en charge Marina",
         "pickupLocation": "Dubai Marina Walk, Bâtiment 6, Rez-de-chaussée",
-        "gps": "GPS: 25.0657, 55.1713"
+        "gps": "GPS: 25.0657, 55.1713",
+        "call": "Appelez : +971 55 816 4922",
+        "packages": "Voir les forfaits"
       },
       "stats": {
         "monthlyDeliveries": "400+",
@@ -2621,49 +3275,49 @@
         "satisfactionLabel": "Satisfaction client"
       },
       "experiences": {
-        "title": "Expériences Marina exclusives",
-        "subtitle": "Expériences de luxe sélectionnées dans le quartier balnéaire premier de Dubaï",
-        "bookExperience": "Réserver l'expérience",
+        "title": "Expériences exclusives Marina",
+        "subtitle": "Expériences de luxe au bord de l'eau",
+        "bookExperience": "Réserver",
         "sunset": {
-          "title": "Croisière Marina au coucher du soleil",
-          "description": "Arrivez avec style pour une expérience de yacht de luxe avec transferts Rolls-Royce",
+          "title": "Croisière au coucher du soleil",
+          "description": "Arrivez avec style pour une expérience yacht de luxe",
           "duration": "4 heures",
-          "price": "À partir de 8,500 AED",
+          "price": "À partir de 8 500 AED",
           "highlights": [
-            "Prise en charge Rolls-Royce à Marina",
-            "Embarquement VIP sur yacht",
-            "Croisière coucher de soleil avec dîner gastronomique",
-            "Transfert retour vers votre destination"
+            "Prise en charge Rolls-Royce",
+            "Embarquement VIP yacht",
+            "Croisière avec dîner gastronomique",
+            "Transfert retour"
           ]
         },
         "beachClub": {
-          "title": "Circuit Elite Beach Club",
-          "description": "Accès VIP aux beach clubs les plus exclusifs de Marina avec transport de luxe",
+          "title": "Circuit beach clubs élite",
+          "description": "Accès VIP aux beach clubs les plus exclusifs",
           "duration": "Journée complète",
-          "price": "À partir de 6,500 AED",
+          "price": "À partir de 6 500 AED",
           "highlights": [
-            "Accès club sans file d'attente",
+            "Accès prioritaire",
             "Cabanas premium réservées",
-            "Service chauffeur en attente",
+            "Chauffeur en attente",
             "Transferts multi-lieux"
           ]
         },
         "dining": {
-          "title": "Expérience gastronomique bord de mer",
-          "description": "Tour gastronomique étoilé Michelin le long des meilleurs restaurants de Dubai Marina",
+          "title": "Dîner en bord de mer",
+          "description": "Tour gastronomique des meilleurs restaurants",
           "duration": "Soirée",
-          "price": "À partir de 7,200 AED",
+          "price": "À partir de 7 200 AED",
           "highlights": [
-            "Service voiturier restaurant",
-            "Réservations table du chef",
-            "Expériences accord vins",
-            "Transport de luxe nocturne tardif"
+            "Service voiturier",
+            "Table du chef",
+            "Accords mets et vins",
+            "Transport nocturne"
           ]
         }
       },
       "beachClubs": {
-        "title": "Beach clubs et lieux partenaires",
-        "subtitle": "Accès exclusif et traitement VIP dans les meilleurs établissements de Marina",
+        "title": "Beach clubs & lieux partenaires",
+        "subtitle": "Accès exclusif et traitement VIP",
         "clubs": [
           {
             "name": "Zero Gravity",
@@ -2679,7 +3333,7 @@
           },
           {
             "name": "Azure Beach",
-            "type": "Club de jour",
+            "type": "Day club",
             "feature": "Parking VIP réservé",
             "distance": "5 min"
           },
@@ -2696,13 +3350,14 @@
       "nav": "Palm Jumeirah",
       "hero": {
         "title": "Palm Jumeirah",
-        "subtitle": "La plus grande île artificielle du monde",
+        "subtitle": "L'icône du luxe",
         "badge": "Merveille artificielle iconique",
-        "bookButton": "Réserver votre expérience",
-        "exploreButton": "Explorer les expériences"
+        "bookButton": "Réservez",
+        "exploreButton": "Explorer les expériences",
+        "callButton": "Appelez"
       },
       "whyChoose": {
-        "title": "Pourquoi choisir Palm Jumeirah",
+        "title": "Pourquoi Palm Jumeirah",
         "beach": {
           "title": "Plages privées",
           "description": "Accès exclusif aux plages privées immaculées et eaux cristallines"
@@ -2714,16 +3369,35 @@
         "villas": {
           "title": "Villas premium",
           "description": "Villas exquises en bord de mer avec vues époustouflantes et intimité"
+        },
+        "iconic": {
+          "title": "Île iconique",
+          "description": "L'île artificielle la plus célèbre au monde"
+        },
+        "resorts": {
+          "title": "Resorts de classe mondiale",
+          "description": "Les plus beaux resorts et hôtels"
+        },
+        "views": {
+          "title": "Vues spectaculaires",
+          "description": "Panoramas sur la skyline de Dubaï"
         }
       },
       "stats": {
         "deliveries": "Livraisons mensuelles",
         "deliveryTime": "Réponse moyenne",
         "concierge": "Service de conciergerie",
-        "satisfaction": "Satisfaction client"
+        "satisfaction": "4.9/5",
+        "hotelPartners": "20+",
+        "hotelPartnersLabel": "Hôtels partenaires",
+        "satisfactionLabel": "Satisfaction client",
+        "yachtTransfers": "150+",
+        "yachtTransfersLabel": "Transferts yacht mensuels",
+        "sunnyDays": "350+",
+        "sunnyDaysLabel": "Jours ensoleillés par an"
       },
       "partnerHotels": {
-        "title": "Hôtels et complexes partenaires",
+        "title": "Hôtels partenaires",
         "additional": "Service de voiturier gratuit dans tous les emplacements partenaires",
         "atlantis": {
           "category": "Complexe ultra-luxe",
@@ -2748,21 +3422,45 @@
         "w": {
           "category": "Hôtel lifestyle",
           "feature": "Luxe moderne avec accès plage"
-        }
+        },
+        "subtitle": "Livraison directe aux meilleurs hôtels",
+        "hotels": [
+          {
+            "name": "Atlantis The Royal",
+            "type": "Resort de luxe",
+            "feature": "Entrée VIP"
+          },
+          {
+            "name": "One&Only The Palm",
+            "type": "Resort boutique",
+            "feature": "Service privé"
+          },
+          {
+            "name": "Jumeirah Zabeel Saray",
+            "type": "Resort de luxe",
+            "feature": "Voiturier privé"
+          },
+          {
+            "name": "FIVE Palm Jumeirah",
+            "type": "Hôtel de luxe",
+            "feature": "Accès VIP"
+          }
+        ]
       },
       "drivingRoutes": {
-        "title": "Routes panoramiques",
+        "title": "Routes de conduite",
         "highlights": "Points forts de l'itinéraire",
         "duration": "Durée",
         "bestCar": "Meilleur véhicule",
         "crescent": {
-          "name": "Route du croissant",
-          "description": "Découvrez le croissant complet de Palm Jumeirah avec vues panoramiques",
+          "name": "Le Croissant",
+          "description": "Tour du croissant avec vues panoramiques",
           "highlights": [
             "Vues sur Atlantis",
             "Accès plage privée",
             "Quartiers de villas"
-          ]
+          ],
+          "duration": "30 minutes"
         },
         "full": {
           "name": "Tour complet de l'île",
@@ -2781,10 +3479,15 @@
             "Atlantis illuminé",
             "Vues sur l'horizon"
           ]
+        },
+        "trunk": {
+          "name": "Le Trunk",
+          "description": "Conduite le long du trunk principal",
+          "duration": "20 minutes"
         }
       },
       "exclusiveExperiences": {
-        "title": "Expériences exclusives Palm",
+        "title": "Expériences exclusives",
         "bookButton": "Réserver l'expérience",
         "beachClub": {
           "title": "Accès club de plage élite",
@@ -2818,10 +3521,21 @@
             "Location de yacht et accès aux sports nautiques"
           ],
           "price": "15 000 AED par jour"
+        },
+        "subtitle": "Expériences de luxe à Palm Jumeirah",
+        "aquaventure": {
+          "title": "Aventure Aquaventure",
+          "description": "Accès VIP au plus grand parc aquatique",
+          "price": "À partir de 5 500 AED"
+        },
+        "dining": {
+          "title": "Dîner gastronomique",
+          "description": "Les meilleurs restaurants de Palm Jumeirah",
+          "price": "À partir de 7 000 AED"
         }
       },
       "attractions": {
-        "title": "Principales attractions",
+        "title": "Attractions",
         "distance": "Distance",
         "bestTime": "Meilleur moment",
         "thePointe": {
@@ -2846,55 +3560,59 @@
         }
       },
       "weather": {
-        "title": "Expériences parfaites pour la météo"
+        "title": "Meilleur moment pour visiter",
+        "description": "Palm Jumeirah est magnifique toute l'année"
       },
       "fleet": {
-        "title": "Notre flotte Palm"
+        "title": "Notre flotte à Palm Jumeirah"
       },
       "cta": {
-        "title": "Vivez Palm Jumeirah dans le luxe ultime",
-        "subtitle": "Réservez votre Rolls-Royce pour une expérience inoubliable de Palm Jumeirah",
+        "title": "Réservez à Palm Jumeirah",
+        "subtitle": "Livraison gratuite à tous les hôtels et resorts",
         "callButton": "Appeler maintenant",
         "bookButton": "Réserver l'expérience",
         "freeDelivery": "Livraison resort gratuite",
         "response": "Réponse 15 min",
-        "support": "Support 24/7"
+        "support": "Support 24/7",
+        "call": "Appelez : +971 55 816 4922",
+        "packages": "Voir les forfaits"
       }
     },
     "businessBay": {
       "nav": "Business Bay",
       "hero": {
         "title": "Business Bay",
-        "subtitle": "Premier district d'affaires de Dubaï",
-        "badge": "Centre d'excellence corporative",
+        "subtitle": "Le centre d'affaires de Dubaï",
+        "badge": "Premier quartier d'affaires",
         "cta": {
-          "book": "Réserver service exécutif",
-          "corporate": "Forfaits corporatifs"
+          "book": "Réservez",
+          "corporate": "Forfaits entreprise"
         }
       },
       "whyHere": {
-        "title": "Pourquoi Business Bay ?"
+        "title": "Pourquoi Business Bay"
       },
       "advantages": {
         "businessHub": {
           "title": "Centre d'affaires",
-          "description": "Emplacement central avec grandes entreprises et institutions financières"
+          "description": "Cœur du quartier commercial"
         },
         "connectivity": {
-          "title": "Connectivité premium",
-          "description": "Accès direct au DIFC, Downtown et autoroutes principales"
+          "title": "Connectivité",
+          "description": "Accès facile aux zones clés"
         },
         "dining": {
-          "title": "Restaurants exécutifs",
-          "description": "Restaurants de classe mondiale parfaits pour les réunions d'affaires"
+          "title": "Restaurants de luxe",
+          "description": "Les meilleurs restaurants"
         },
         "hotels": {
-          "title": "Hôtels de luxe",
-          "description": "Hôtels d'affaires premium et installations de conférence"
-        }
+          "title": "Hôtels 5 étoiles",
+          "description": "Les meilleurs hôtels"
+        },
+        "title": "Avantages"
       },
       "towers": {
-        "title": "Tours d'affaires principales",
+        "title": "Tours emblématiques",
         "commercial": "Tour commerciale",
         "mixedUse": "Développement à usage mixte",
         "officeComplex": "Complexe de bureaux",
@@ -2911,119 +3629,128 @@
         }
       },
       "services": {
-        "title": "Services corporatifs",
-        "inquire": "Demander maintenant",
+        "title": "Services entreprise",
+        "inquire": "Renseignez-vous",
         "executive": {
           "title": "Transport exécutif",
-          "description": "Transport quotidien pour dirigeants et direction générale",
+          "description": "Service quotidien pour dirigeants",
           "features": {
-            "morning": "Service de prise en charge matinal",
-            "evening": "Service de retour en soirée",
-            "flexible": "Planification flexible"
+            "morning": "Service matinal",
+            "evening": "Service du soir",
+            "flexible": "Horaires flexibles"
           },
-          "price": "À partir de 1 500 AED/jour"
+          "price": "À partir de 800 AED/h"
         },
         "conference": {
-          "title": "Conférences et événements",
-          "description": "Services de flotte pour conférences d'affaires et événements corporatifs",
+          "title": "Service conférence",
+          "description": "Transport luxe pour événements",
           "features": {
-            "fleet": "Coordination de véhicules multiples",
+            "fleet": "Flotte complète",
             "chauffeurs": "Chauffeurs professionnels",
-            "vip": "Transport VIP pour invités"
+            "vip": "Service VIP"
           },
-          "price": "À partir de 2 000 AED/événement"
+          "price": "À partir de 3 000 AED"
         },
         "monthly": {
-          "title": "Corporatif mensuel",
-          "description": "Forfaits mensuels complets pour entreprises et dirigeants",
+          "title": "Abonnement mensuel",
+          "description": "Forfait mensuel pour clients réguliers",
           "features": {
-            "dedicated": "Véhicule et chauffeur dédiés",
-            "account": "Gestion de compte corporatif",
-            "priority": "Réservation et service prioritaires"
+            "dedicated": "Véhicule dédié",
+            "account": "Gestionnaire de compte",
+            "priority": "Réservation prioritaire"
           },
-          "price": "À partir de 25 000 AED/mois"
+          "price": "À partir de 15 000 AED/mois"
         }
       },
       "destinations": {
-        "title": "Destinations d'affaires clés",
+        "title": "Destinations depuis Business Bay",
         "header": {
           "destination": "Destination",
-          "time": "Temps de trajet",
-          "purpose": "Objectif commercial"
+          "time": "Temps",
+          "purpose": "Objet"
         },
         "dubaiMall": {
           "distance": "8 minutes",
-          "purpose": "Divertissement clients, shopping de luxe"
+          "purpose": "Shopping"
         },
         "difc": {
           "distance": "5 minutes",
-          "purpose": "Services financiers, réunions bancaires"
+          "purpose": "Affaires"
         },
         "canal": {
           "distance": "3 minutes",
-          "purpose": "Restaurants en bord de mer, divertissement d'affaires"
+          "purpose": "Loisirs"
         },
         "laMer": {
           "distance": "15 minutes",
-          "purpose": "Réunions de plage, repas d'affaires décontractés"
+          "purpose": "Plage & loisirs"
         },
         "cityWalk": {
           "distance": "10 minutes",
-          "purpose": "Partenariats de vente au détail, réunions d'affaires informelles"
+          "purpose": "Shopping & loisirs"
         },
         "airport": {
           "distance": "20 minutes",
-          "purpose": "Prise en charge clients internationaux, départs"
+          "purpose": "Voyage"
         }
       },
       "benefits": {
-        "title": "Avantages commerciaux",
+        "title": "Avantages du service",
         "client": {
-          "title": "Impression client",
-          "point1": "Arriver avec style aux réunions importantes",
-          "point2": "Créer des impressions durables avec transport de luxe",
-          "point3": "Démontrer le succès et l'attention aux détails",
-          "point4": "Construire la confiance grâce aux standards de service premium"
+          "title": "Impressionner les clients",
+          "point1": "Première impression mémorable",
+          "point2": "Transport de luxe",
+          "point3": "Service professionnel",
+          "point4": "Flexibilité totale"
         },
         "productivity": {
-          "title": "Productivité exécutive",
-          "point1": "Travailler de manière productive pendant les trajets",
-          "point2": "Voyage sans stress entre les réunions",
-          "point3": "Intimité pour les appels confidentiels",
-          "point4": "Arrivée ponctuelle à tous les rendez-vous"
+          "title": "Productivité",
+          "point1": "Travail en déplacement",
+          "point2": "WiFi gratuit",
+          "point3": "Bureau mobile",
+          "point4": "Appels privés"
         }
       },
       "testimonials": {
-        "title": "Témoignages corporatifs"
+        "title": "Avis clients"
       },
       "fleet": {
-        "title": "Flotte corporative"
+        "title": "Notre flotte à Business Bay"
       },
       "cta": {
-        "title": "Élevez votre présence commerciale",
-        "subtitle": "Rejoignez 200+ entreprises qui nous font confiance pour le transport exécutif à Business Bay",
-        "call": "Appeler pour tarifs corporatifs",
-        "packages": "Voir forfaits corporatifs"
+        "title": "Service entreprise",
+        "subtitle": "Transport exécutif à Business Bay",
+        "call": "Appelez : +971 55 816 4922",
+        "packages": "Voir les forfaits"
       },
       "stats": {
-        "clients": "Clients corporatifs",
+        "clients": "500+",
         "delivery": "Livraison moyenne",
-        "support": "Support commercial"
+        "support": "Support commercial",
+        "clientsLabel": "Clients entreprise",
+        "onTime": "99%",
+        "onTimeLabel": "Ponctualité",
+        "vip": "200+",
+        "vipLabel": "Clients VIP mensuels",
+        "partners": "50+",
+        "partnersLabel": "Partenaires premium"
       }
     },
     "jbr": {
       "nav": "JBR",
       "hero": {
-        "title": "Luxe de plage JBR",
-        "subtitle": "Où la vie de plage rencontre l'excellence Rolls-Royce",
+        "title": "JBR",
+        "subtitle": "Destination plage et divertissement",
         "badge": "Première destination de plage de Dubaï",
         "cta": {
           "book": "Réserver livraison plage",
           "experiences": "Expériences plage"
-        }
+        },
+        "bookButton": "Réservez",
+        "callButton": "Appelez"
       },
       "whyChoose": {
-        "title": "Pourquoi choisir Rolls-Royce à JBR ?",
+        "title": "Pourquoi JBR",
         "features": {
           "beachfront": {
             "title": "Paradis en bord de mer",
@@ -3037,16 +3764,35 @@
             "title": "Promenades au coucher du soleil",
             "description": "Vivez des croisières magiques au coucher du soleil le long du boulevard de la plage en luxe décapotable"
           }
+        },
+        "beach": {
+          "title": "Plage magnifique",
+          "description": "Les plus belles plages publiques de Dubaï"
+        },
+        "walk": {
+          "title": "Promenade animée",
+          "description": "Restaurants, boutiques et attractions"
+        },
+        "entertainment": {
+          "title": "Divertissement varié",
+          "description": "Dubai Eye et activités nautiques"
         }
       },
       "stats": {
-        "deliveries": "Livraisons JBR mensuelles",
+        "deliveries": "350+",
         "arrival": "Temps d'arrivée plage",
         "service": "Service bord de mer",
-        "rating": "Note client"
+        "rating": "Note client",
+        "deliveriesLabel": "Livraisons mensuelles",
+        "responseTime": "4 min",
+        "responseTimeLabel": "Temps de réponse",
+        "beachClubs": "10+",
+        "beachClubsLabel": "Beach clubs partenaires",
+        "satisfaction": "4.8/5",
+        "satisfactionLabel": "Satisfaction client"
       },
       "beachClubs": {
-        "title": "Accès direct aux clubs de plage premium",
+        "title": "Beach clubs partenaires",
         "clubs": {
           "zeroGravity": {
             "name": "Zero Gravity",
@@ -3081,7 +3827,7 @@
         }
       },
       "experiences": {
-        "title": "Expériences exclusives JBR",
+        "title": "Expériences exclusives à JBR",
         "sunset": {
           "title": "Promenade plage coucher soleil",
           "description": "Croisière le long de la plage JBR pendant l'heure dorée",
@@ -3124,7 +3870,7 @@
         "recommended": "Recommandé :"
       },
       "dining": {
-        "title": "Destinations gastronomiques",
+        "title": "Restaurants de luxe",
         "headers": {
           "restaurant": "Restaurant",
           "cuisine": "Cuisine",
@@ -3165,7 +3911,7 @@
         "note": "Coordination parking valet dans tous les restaurants premium"
       },
       "attractions": {
-        "title": "Explorer au-delà de JBR",
+        "title": "Attractions à proximité",
         "list": {
           "theWalk": {
             "name": "The Walk JBR",
@@ -3200,10 +3946,10 @@
         }
       },
       "weather": {
-        "title": "Meilleurs moments pour croisières plage"
+        "title": "Meilleur moment pour visiter"
       },
       "residential": {
-        "title": "Résidents des tours JBR",
+        "title": "Zone résidentielle",
         "description": "Livraison gratuite à toutes les tours résidentielles JBR incluant :",
         "towers": [
           "Amwaj Suites",
@@ -3216,12 +3962,12 @@
         "note": "+ Toutes les tours JBR avec accès parking sous-sol"
       },
       "fleet": {
-        "title": "Choisissez votre compagnon de plage"
+        "title": "Notre flotte à JBR"
       },
       "cta": {
-        "title": "Vivez JBR dans le style Rolls-Royce",
-        "subtitle": "Des promenades plage au lever du soleil aux arrivées dîner au coucher du soleil, rendez chaque moment à JBR extraordinaire",
-        "call": "Appeler équipe JBR",
+        "title": "Réservez à JBR",
+        "subtitle": "Livraison gratuite partout à JBR",
+        "call": "Appelez : +971 55 816 4922",
         "book": "Réserver en ligne",
         "pickupPoints": {
           "title": "Points de prise en charge JBR",
@@ -3233,24 +3979,35 @@
             "title": "Livraison tour",
             "location": "Tous parkings sous-sol JBR"
           }
-        }
+        },
+        "packages": "Voir les forfaits"
       }
     },
     "difc": {
       "nav": "DIFC",
       "hero": {
         "title": "DIFC",
-        "subtitle": "Centre financier international de Dubaï",
-        "description": "Découvrez des services de transport de luxe inégalés au cœur du district financier de Dubaï. Notre flotte Rolls-Royce premium sert les dirigeants et professionnels avec discrétion et excellence."
+        "subtitle": "Le cœur de la finance",
+        "description": "Découvrez des services de transport de luxe inégalés au cœur du district financier de Dubaï. Notre flotte Rolls-Royce premium sert les dirigeants et professionnels avec discrétion et excellence.",
+        "bookButton": "Réservez",
+        "callButton": "Appelez"
       },
       "stats": {
         "clients": "Clients financiers",
         "service": "Service premium",
         "response": "Temps de réponse",
-        "confidential": "Confidentialité"
+        "confidential": "Confidentialité",
+        "corporateClients": "300+",
+        "corporateClientsLabel": "Clients entreprise",
+        "onTime": "99.5%",
+        "onTimeLabel": "Ponctualité",
+        "partners": "40+",
+        "partnersLabel": "Partenaires institutionnels",
+        "satisfaction": "4.9/5",
+        "satisfactionLabel": "Satisfaction client"
       },
       "corporateServices": {
-        "title": "Services corporatifs",
+        "title": "Services entreprise au DIFC",
         "subtitle": "Solutions de transport de luxe sur mesure pour la communauté financière et d'affaires de DIFC",
         "executive": {
           "title": "Transport exécutif",
@@ -3290,7 +4047,7 @@
         }
       },
       "amenities": {
-        "title": "Équipements d'affaires",
+        "title": "Équipements et services",
         "wifi": "WiFi haut débit",
         "privacy": "Cloisons d'intimité",
         "office": "Configuration bureau mobile",
@@ -3301,7 +4058,7 @@
         "security": "Protocoles de sécurité renforcés"
       },
       "fleet": {
-        "title": "Flotte DIFC",
+        "title": "Notre flotte au DIFC",
         "viewDetails": "Voir les détails",
         "phantom": {
           "features": [
@@ -3326,7 +4083,7 @@
         }
       },
       "landmarks": {
-        "title": "Points de repère DIFC",
+        "title": "Points d'intérêt au DIFC",
         "subtitle": "Emplacement stratégique",
         "description": "Positionné au cœur du district financier de Dubaï, DIFC offre un accès inégalé à l'écosystème commercial de la ville et aux destinations de luxe.",
         "away": "{{distance}} de distance",
@@ -3347,12 +4104,12 @@
         }
       },
       "map": {
-        "title": "Emplacement DIFC",
+        "title": "Plan du DIFC",
         "coordinates": "25.2110°N, 55.2796°E",
         "viewOnMap": "Voir sur Google Maps"
       },
       "packages": {
-        "title": "Forfaits corporatifs",
+        "title": "Forfaits DIFC",
         "monthlyPackage": "Forfait mensuel",
         "popular": "Le plus populaire",
         "selectPackage": "Sélectionner le forfait",
@@ -3389,7 +4146,7 @@
         }
       },
       "testimonials": {
-        "title": "Témoignages clients",
+        "title": "Avis clients DIFC",
         "ahmed": {
           "name": "Ahmed Al-Rashid",
           "title": "Directeur général, Banque régionale",
@@ -3402,12 +4159,14 @@
         }
       },
       "cta": {
-        "title": "Découvrez DIFC dans le luxe",
-        "subtitle": "Rejoignez l'élite financière de Dubaï avec nos services de transport premium",
+        "title": "Service DIFC",
+        "subtitle": "Transport exécutif de luxe au DIFC",
         "bookButton": "Réserver maintenant",
         "exploreButton": "Explorer les services corporatifs",
         "hotline": "Hotline DIFC 24/7 : +971 4 234 5678",
-        "email": "difc@rollsroycedubai.com"
+        "email": "difc@rollsroycedubai.com",
+        "call": "Appelez : +971 55 816 4922",
+        "packages": "Voir les forfaits"
       }
     },
     "downtown": {
@@ -3533,6 +4292,16 @@
         "callButton": "Appeler maintenant",
         "bookButton": "Réserver en ligne"
       }
+    },
+    "title": "Nos emplacements",
+    "subtitle": "Desserte de toutes les zones principales de Dubaï",
+    "marina": "Dubai Marina",
+    "jumeirah": "Palm Jumeirah",
+    "viewOnMap": "Voir sur la carte",
+    "cta": {
+      "title": "Nous livrons chez vous",
+      "description": "Où que vous soyez à Dubaï, nous offrons la livraison et la récupération gratuites de votre Rolls-Royce.",
+      "button": "Réservez votre livraison"
     }
   },
   "blog": {
@@ -3604,32 +4373,32 @@
         "title": "Guide du shopping de luxe : Les meilleurs centres commerciaux à visiter avec votre Rolls-Royce à Dubaï",
         "excerpt": "Découvrez les destinations shopping les plus prestigieuses de Dubaï et comment arriver avec style avec votre location Rolls-Royce.",
         "author": "Layla Al-Mansouri",
-        "date": "16 janvier 2025",
+        "date": "16 janvier 2026",
         "readTime": "10 min de lecture"
       },
       "article9": {
         "title": "Rolls-Royce Dawn : Le cabriolet parfait pour le climat doré de Dubaï",
         "excerpt": "Explorez pourquoi la Rolls-Royce Dawn est le cabriolet ultime pour découvrir le climat parfait de Dubaï et son horizon époustouflant.",
         "author": "Omar Al-Rashid",
-        "date": "18 janvier 2025",
+        "date": "18 janvier 2026",
         "readTime": "8 min de lecture"
       },
       "article10": {
         "title": "L'Art d'Arriver avec Style : Rolls-Royce pour Événements Spéciaux à Dubaï",
         "excerpt": "Découvrez comment faire des entrées inoubliables aux galas, événements tapis rouge, fonctions corporatives et célébrations avec les voitures de luxe les plus prestigieuses de Dubaï.",
         "author": "Layla Al-Mansouri",
-        "date": "1 octobre 2025",
+        "date": "1 octobre 2026",
         "readTime": "10 min de lecture"
       },
       "article11": {
         "title": "Dubaï Après la Tombée de la Nuit : Le Guide Ultime de l'Expérience Nocturne Rolls-Royce",
         "excerpt": "Découvrez les destinations et expériences nocturnes les plus spectaculaires de Dubaï, des horizons illuminés aux lieux exclusifs, tout cela depuis le luxe de votre Rolls-Royce.",
         "author": "Khalid Al-Mansoori",
-        "date": "4 octobre 2025",
+        "date": "4 octobre 2026",
         "readTime": "12 min de lecture"
       },
       "first-time-dubai-luxury-guide": {
-        "title": "Première Fois à Dubaï? Votre Guide Complet des Voitures de Luxe 2025",
+        "title": "Première Fois à Dubaï? Votre Guide Complet des Voitures de Luxe 2026",
         "description": "Le guide ultime pour les nouveaux visiteurs à Dubaï explorant la location de voitures de luxe",
         "readTime": "18 min de lecture",
         "category": "Guides",
@@ -4155,7 +4924,7 @@
       },
       "message": {
         "label": "Message",
-        "placeholder": "Parlez-nous de vos exigences..."
+        "placeholder": "Décrivez-nous vos besoins..."
       },
       "preferredContact": {
         "label": "Méthode de contact préférée",
@@ -4173,7 +4942,8 @@
       "submit": "Envoyer le message",
       "submitting": "Envoi en cours...",
       "success": "✓ Message envoyé avec succès!",
-      "error": "✗ Échec de l'envoi. Veuillez réessayer."
+      "error": "✗ Échec de l'envoi. Veuillez réessayer.",
+      "sending": "Envoi en cours..."
     },
     "businessHours": {
       "title": "Heures d'ouverture",
@@ -4206,7 +4976,17 @@
         "question": "L'assurance est-elle incluse?",
         "answer": "Oui, une assurance complète est incluse dans tous nos forfaits de location."
       }
-    }
+    },
+    "info": {
+      "hours": "Ouvert 24h/24",
+      "address": "123 Luxury Lane, Downtown Dubai, EAU",
+      "phone": "+971 55 816 4922",
+      "email": "info@rollsroycedubai.com",
+      "title": "Nos informations"
+    },
+    "map": "Our Location",
+    "subtitle": "Contactez nos experts en location de luxe",
+    "title": "Contactez-nous"
   },
   "privacy": {
     "hero": {
@@ -4414,10 +5194,10 @@
   "terms": {
     "hero": {
       "title": "Conditions générales",
-      "lastUpdated": "Dernière mise à jour : 1er janvier 2025"
+      "lastUpdated": "Dernière mise à jour : 1er janvier 2026"
     },
     "introduction": "Bienvenue chez Rolls-Royce Dubai. Ces conditions générales établissent les règles et réglementations pour l'utilisation de nos services de location de voitures de luxe. En accédant à nos services et en louant un véhicule, vous acceptez pleinement ces conditions générales. Si vous n'êtes pas d'accord avec une partie de ces termes, veuillez ne pas utiliser nos services.",
-    "lastUpdated": "1er janvier 2025",
+    "lastUpdated": "1er janvier 2026",
     "sections": {
       "rentalAgreement": {
         "title": "1. Contrat de location",
@@ -4912,5 +5692,174 @@
       "whatsappButton": "WhatsApp",
       "emailButton": "Email"
     }
+  },
+  "navigation": {
+    "fleet": "Flotte",
+    "services": "Services",
+    "locations": "Emplacements",
+    "pricing": "Tarifs"
+  },
+  "search": {
+    "title": "Recherche",
+    "subtitle": "Trouvez le service de location de voiture de luxe idéal",
+    "placeholder": "Rechercher des voitures, services, emplacements...",
+    "search": "Rechercher",
+    "searching": "Recherche en cours...",
+    "resultsFor": "Résultats pour",
+    "noResults": "Aucun résultat trouvé",
+    "noResultsDesc": "Essayez de rechercher avec d'autres mots-clés ou parcourez nos catégories principales :",
+    "popular": "Recherches populaires"
+  },
+  "reviews": {
+    "title": "Avis clients",
+    "subtitle": "Ce que disent nos clients",
+    "rating": "Note",
+    "reviews": "Avis",
+    "verified": "Client vérifié",
+    "readAll": "Lire tous les avis",
+    "writeReview": "Écrire un avis",
+    "averageRating": "Note moyenne",
+    "totalReviews": "Nombre total d'avis",
+    "recommended": "Nous recommandent",
+    "basedOn": "Basé sur",
+    "googleReviews": "Avis Google",
+    "response": "Réponse",
+    "helpful": "Utile",
+    "date": "Date",
+    "service": "Service",
+    "overallRating": "Note globale",
+    "reviewsCount": "Nombre d'avis",
+    "review1": {
+      "name": "Ahmed Al-Rashid",
+      "rating": 5,
+      "text": "Phantom réservée pour notre mariage. Expérience absolument magnifique !",
+      "date": "Janvier 2026",
+      "service": "Mariage",
+      "location": "Abu Dhabi, EAU",
+      "review": "La meilleure expérience de location à Dubaï. La Phantom était impeccable et le service de première classe. Hautement recommandé."
+    },
+    "review2": {
+      "name": "Sara Al-Mansouri",
+      "rating": 5,
+      "text": "Service exceptionnel pour notre événement d'entreprise.",
+      "date": "Décembre 2025",
+      "service": "Entreprise",
+      "location": "Doha, Qatar",
+      "review": "Loué la Cullinan pour un voyage en famille. Voiture spacieuse et luxueuse, chauffeur très professionnel."
+    },
+    "review3": {
+      "name": "Jean Dupont",
+      "rating": 5,
+      "text": "Service excellent et voitures impeccables. Je recommande vivement !",
+      "date": "Novembre 2025",
+      "service": "Location personnelle",
+      "location": "Londres, Royaume-Uni",
+      "review": "Service exceptionnel du début à la fin. L'équipe a été très accommodante pour ma réservation de dernière minute."
+    },
+    "review4": {
+      "name": "Marie Laurent",
+      "rating": 5,
+      "text": "Cullinan réservée pour un voyage en famille. Expérience formidable.",
+      "date": "Octobre 2025",
+      "service": "Tours",
+      "location": "Shanghai, Chine",
+      "review": "Loué une flotte de Rolls-Royce pour un événement d'entreprise. Les voitures étaient superbes et la logistique parfaite."
+    },
+    "review5": {
+      "name": "Pierre Martin",
+      "rating": 5,
+      "text": "Le meilleur service de location de luxe à Dubaï.",
+      "date": "Septembre 2025",
+      "service": "Chauffeur",
+      "location": "Riyad, Arabie Saoudite",
+      "review": "La Dawn était parfaite pour un week-end à Dubaï. L'expérience cabriolet était inoubliable. Excellent service."
+    },
+    "review6": {
+      "name": "Sophie Dubois",
+      "rating": 5,
+      "text": "La Phantom était parfaite pour notre mariage.",
+      "date": "Août 2025",
+      "service": "Mariage",
+      "location": "Moscou, Russie",
+      "review": "Client régulier et jamais déçu. Les voitures sont toujours en état impeccable et le personnel très professionnel."
+    },
+    "review7": {
+      "name": "Thomas Bernard",
+      "rating": 5,
+      "text": "Excellente expérience avec la Ghost. Livraison à l'heure.",
+      "date": "Juillet 2025",
+      "service": "Aéroport",
+      "location": "Munich, Allemagne",
+      "review": "L'attention aux détails les distingue. De la réservation à la livraison, tout était fluide."
+    },
+    "review8": {
+      "name": "Isabelle Moreau",
+      "rating": 5,
+      "text": "Support client exceptionnel 24h/24.",
+      "date": "Juin 2025",
+      "service": "Événements",
+      "location": "Mumbai, Inde",
+      "review": "Nous avons loué la Phantom pour notre mariage. La touche parfaite de luxe pour notre journée spéciale."
+    },
+    "review9": {
+      "name": "Nicolas Petit",
+      "rating": 5,
+      "text": "Dawn louée pour une séance photo. Résultats incroyables !",
+      "date": "Mai 2025",
+      "service": "Photoshoot",
+      "location": "Taipei, Taïwan",
+      "review": "La Wraith est une bête ! L'équipe Rolls-Royce Dubai a rendu le processus si simple. Je reviendrai."
+    },
+    "review10": {
+      "name": "Camille Roux",
+      "rating": 5,
+      "text": "Wraith louée pour un tour de Dubaï. Mémorable !",
+      "date": "Avril 2025",
+      "service": "Tours",
+      "location": "Koweït, Koweït",
+      "review": "J'ai loué chez de nombreuses entreprises à Dubaï, mais celle-ci est de loin la meilleure. Leur flotte est inégalée."
+    }
+  },
+  "phantomPage": {
+    "heroSubtitle": "Vivez le summum du luxe avec le véhicule le plus prestigieux de Dubaï. La Phantom offre une combinaison inégalée de savoir-faire, de technologie et de confort.",
+    "instantBooking": "Réservation instantanée",
+    "freeCancellation": "Annulation gratuite",
+    "bestPriceGuarantee": "Garantie meilleur prix",
+    "happyClients": "Clients satisfaits",
+    "googleRating": "Note Google",
+    "support": "Support",
+    "deliveryTime": "Délai de livraison",
+    "since2010": "Depuis 2010",
+    "inBusiness": "En activité",
+    "pricingTitle": "Tarification transparente & disponibilité instantanée",
+    "kmIncluded250": "250km inclus",
+    "kmIncluded1750": "1 750km inclus",
+    "kmIncluded5000": "5 000km inclus",
+    "mostPopular": "LE PLUS POPULAIRE",
+    "availableNow": "Disponible maintenant - Confirmation instantanée",
+    "checkAvailability": "Vérifier la disponibilité en temps réel",
+    "insuranceIncluded": "Assurance incluse",
+    "vatIncluded": "TVA incluse",
+    "noHiddenFees": "Sans frais cachés",
+    "freeDelivery": "Livraison gratuite",
+    "featuresSubtitle": "Chaque détail perfectionné, chaque caractéristique conçue pour votre confort ultime",
+    "chatPhone": "Chat : +971 55 816 4922"
+  },
+  "ui": {
+    "clubName": "Nom du club",
+    "type": "Type",
+    "feature": "Caractéristique",
+    "distance": "Distance",
+    "from": "Départ",
+    "to": "Arrivée",
+    "duration": "Durée",
+    "startingPrice": "Prix à partir de",
+    "route": "Itinéraire",
+    "price": "Prix",
+    "backgroundVerified": "Vérifié",
+    "multilingual": "Multilingue",
+    "available247": "Disponible 24h/24",
+    "popularAirportRoutes": "Itinéraires aéroport populaires",
+    "popularChauffeurRoutes": "Itinéraires chauffeur populaires"
   }
 }

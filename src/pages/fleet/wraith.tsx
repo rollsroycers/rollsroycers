@@ -11,6 +11,8 @@ import ComparisonTool from '@/components/ComparisonTool'
 import VirtualTour from '@/components/VirtualTour'
 import WhatsAppButton from '@/components/WhatsAppButton'
 import SEO from '@/components/SEO'
+import GEOOptimizer from '@/components/GEOOptimizer'
+import EntitySchema from '@/components/EntitySchema'
 import { createWhatsAppLinkProps } from '@/utils/whatsapp'
 
 export default function WraithPage() {
@@ -84,6 +86,27 @@ export default function WraithPage() {
   return (
     <>
       <SEO pageKey="fleet.wraith" />
+      <GEOOptimizer
+        pageKey="fleet.wraith"
+        title="Rent Rolls-Royce Wraith Dubai 2026"
+        description="Rent Rolls-Royce Wraith in Dubai from AED 5,000/day. The fastest Rolls-Royce with 624hp."
+        entityType="Vehicle"
+        primaryTopic="Rolls-Royce Wraith Rental Dubai"
+        contentSummary="The Rolls-Royce Wraith is the most powerful and dynamic Rolls-Royce ever built. Available for rent in Dubai from AED 5,000/day. 624hp grand tourer with Starlight headliner. Perfect for special occasions and photoshoots."
+        facts={[
+          'Rolls-Royce Wraith rental from AED 5,000/day',
+          '6.6L Twin-Turbo V12 with 624 HP — fastest Rolls-Royce',
+          'Starlight headliner with 1,340 fiber optic lights',
+          'Grand Tourer coupe design',
+          'Satellite-aided transmission',
+          'Professional chauffeur included'
+        ]}
+        faqs={[
+          { question: 'How much does it cost to rent a Rolls-Royce Wraith in Dubai?', answer: 'The Rolls-Royce Wraith rental starts from AED 5,000 per day. It is the fastest Rolls-Royce with 624 HP, ideal for those who want performance with ultimate luxury.' },
+          { question: 'Is the Wraith good for photoshoots?', answer: 'Yes, the Wraith\'s dramatic coupe silhouette, Starlight headliner, and coach doors make it one of the most photogenic luxury cars in Dubai. Hourly photoshoot packages available.' }
+        ]}
+      />
+      <EntitySchema pageType="fleet" carModel="wraith" />
       <Layout>
         {/* Hero Section */}
         <section className="relative h-screen flex items-center justify-center overflow-hidden">

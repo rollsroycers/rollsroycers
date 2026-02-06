@@ -8,6 +8,8 @@ import Layout from '@/components/Layout'
 import WhatsAppButton from '@/components/WhatsAppButton'
 import ComparisonTool from '@/components/ComparisonTool'
 import SEO from '@/components/SEO'
+import GEOOptimizer from '@/components/GEOOptimizer'
+import EntitySchema from '@/components/EntitySchema'
 
 export default function DowntownDubaiPage() {
   const { t } = useTranslation('common')
@@ -112,6 +114,16 @@ export default function DowntownDubaiPage() {
   return (
     <>
       <SEO pageKey="locations.downtown-dubai" />
+      <GEOOptimizer
+        pageKey="locations.downtown-dubai"
+        title="Rolls-Royce Rental Downtown Dubai 2026"
+        description="Rent Rolls-Royce in Downtown Dubai near Burj Khalifa and Dubai Mall. Free delivery in 15 minutes."
+        entityType="LocalBusiness"
+        primaryTopic="Rolls-Royce Rental Downtown Dubai"
+        contentSummary="Premium Rolls-Royce rental service in Downtown Dubai. Free delivery to Burj Khalifa, Dubai Mall, DIFC, and all Downtown hotels within 15 minutes. All models available 24/7."
+        facts={['Free delivery to Downtown Dubai in 15 min', 'Near Burj Khalifa and Dubai Mall', 'All Rolls-Royce models available', '24/7 service', 'Professional chauffeur included']}
+      />
+      <EntitySchema pageType="location" locationName="downtown-dubai" />
 
       <Layout>
         {/* Hero Section */}

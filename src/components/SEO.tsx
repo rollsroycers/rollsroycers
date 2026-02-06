@@ -145,9 +145,11 @@ export default function SEO({ pageKey, title: titleProp, description: descriptio
           }
         },
         "sameAs": [
-          "https://facebook.com/rollsroycedubai",
-          "https://instagram.com/rollsroycedubai",
-          "https://twitter.com/rollsroycedubai"
+          "https://www.facebook.com/rollsroycersdubai",
+          "https://www.instagram.com/rollsroycersdubai",
+          "https://twitter.com/rollsroycersdxb",
+          "https://www.linkedin.com/company/rollsroycersdubai",
+          "https://www.youtube.com/rollsroycersdubai"
         ]
       },
       // LocalBusiness Schema
@@ -340,7 +342,7 @@ export default function SEO({ pageKey, title: titleProp, description: descriptio
       <meta property="twitter:title" content={title} />
       <meta property="twitter:description" content={description} />
       <meta property="twitter:image" content={`${baseUrl}/images/twitter-image.jpg`} />
-      <meta property="twitter:site" content="@rollsroycers" />
+      <meta property="twitter:site" content="@rollsroycersdxb" />
       
       {/* Additional SEO Tags */}
       <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />

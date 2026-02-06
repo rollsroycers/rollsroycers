@@ -2837,20 +2837,6 @@
     "subtitle": "Serving all major areas in Dubai",
     "marina": "Dubai Marina",
     "downtown": {
-      "0": "D",
-      "1": "o",
-      "2": "w",
-      "3": "n",
-      "4": "t",
-      "5": "o",
-      "6": "w",
-      "7": "n",
-      "8": " ",
-      "9": "D",
-      "10": "u",
-      "11": "b",
-      "12": "a",
-      "13": "i",
       "hero": {
         "title": "Downtown Dubai",
         "subtitle": "The Heart of Luxury",
@@ -4071,32 +4057,32 @@
         "title": "Luxury Shopping Guide: Best Malls to Visit with Your Rolls-Royce in Dubai",
         "excerpt": "Discover Dubai's most prestigious shopping destinations and how to arrive in style with your Rolls-Royce rental.",
         "author": "Layla Al-Mansouri",
-        "date": "January 16, 2025",
+        "date": "January 16, 2026",
         "readTime": "10 min read"
       },
       "article9": {
         "title": "Rolls-Royce Dawn: The Perfect Convertible for Dubai's Golden Weather",
         "excerpt": "Explore why the Rolls-Royce Dawn is the ultimate convertible for experiencing Dubai's perfect climate and stunning skyline.",
         "author": "Omar Al-Rashid",
-        "date": "January 18, 2025",
+        "date": "January 18, 2026",
         "readTime": "8 min read"
       },
       "article10": {
         "title": "The Art of Arriving in Style: Rolls-Royce for Special Events in Dubai",
         "excerpt": "Discover how to make unforgettable entrances at galas, red carpet events, corporate functions, and celebrations with Dubai's most prestigious luxury cars.",
         "author": "Layla Al-Mansouri",
-        "date": "October 1, 2025",
+        "date": "October 1, 2026",
         "readTime": "10 min read"
       },
       "article11": {
         "title": "Dubai After Dark: The Ultimate Rolls-Royce Night Experience Guide",
         "excerpt": "Discover Dubai's most spectacular nighttime destinations and experiences, from illuminated skylines to exclusive venues, all from the luxury of your Rolls-Royce.",
         "author": "Khalid Al-Mansoori",
-        "date": "October 4, 2025",
+        "date": "October 4, 2026",
         "readTime": "12 min read"
       },
       "first-time-dubai-luxury-guide": {
-        "title": "First Time in Dubai? Your Complete Luxury Car Guide 2025",
+        "title": "First Time in Dubai? Your Complete Luxury Car Guide 2026",
         "description": "The ultimate guide for first-time visitors to Dubai exploring luxury car rentals",
         "readTime": "18 min read",
         "category": "Guides",
@@ -4147,9 +4133,9 @@
   "compare": {
     "hero": {
       "title": "Compare Luxury Cars",
-      "subtitle": "Make an Informed Decision",
+      "subtitle": "The Ultimate Luxury Car Comparison for Dubai",
       "description": "Explore detailed comparisons between Rolls-Royce and other luxury brands to find the perfect vehicle for your needs",
-      "imageAlt": "Luxury car comparison showcase"
+      "bentleyAlt": "Bentley luxury car in Dubai"
     },
     "stats": {
       "comparisons": {
@@ -4414,12 +4400,6 @@
       "whyChooseBentley": "Why Choose Bentley?",
       "bookRollsRoyce": "Book Rolls-Royce",
       "inquireBentley": "Inquire About Bentley"
-    },
-    "hero": {
-      "title": "Compare Luxury Cars",
-      "subtitle": "The Ultimate Luxury Car Comparison for Dubai",
-      "description": "Explore detailed comparisons between Rolls-Royce and other luxury brands to find the perfect vehicle for your needs",
-      "bentleyAlt": "Bentley luxury car in Dubai"
     },
     "quickSummary": {
       "rollsRoyce": {
@@ -4787,10 +4767,10 @@
   "terms": {
     "hero": {
       "title": "Terms and Conditions",
-      "lastUpdated": "Last updated: January 1, 2025"
+      "lastUpdated": "Last updated: January 1, 2026"
     },
     "introduction": "Welcome to Rolls-Royce Dubai. These Terms and Conditions set forth the rules and regulations for the use of our luxury car rental services. By accessing our services and renting a vehicle, you accept these Terms and Conditions in full. If you disagree with any part of these terms, please do not use our services.",
-    "lastUpdated": "January 1, 2025",
+    "lastUpdated": "January 1, 2026",
     "sections": {
       "rentalAgreement": {
         "title": "1. Rental Agreement",
@@ -5302,5 +5282,47 @@
     "services": "Services",
     "locations": "Locations",
     "pricing": "Pricing"
+  },
+  "phantomPage": {
+    "heroSubtitle": "Experience the pinnacle of luxury with Dubai's most prestigious vehicle. The Phantom delivers an unparalleled combination of craftsmanship, technology, and comfort.",
+    "instantBooking": "Instant Booking",
+    "freeCancellation": "Free Cancellation",
+    "bestPriceGuarantee": "Best Price Guarantee",
+    "happyClients": "Happy Clients",
+    "googleRating": "Google Rating",
+    "support": "Support",
+    "deliveryTime": "Delivery Time",
+    "since2010": "Since 2010",
+    "inBusiness": "In Business",
+    "pricingTitle": "Transparent Pricing & Instant Availability",
+    "kmIncluded250": "250km included",
+    "kmIncluded1750": "1,750km included",
+    "kmIncluded5000": "5,000km included",
+    "mostPopular": "MOST POPULAR",
+    "availableNow": "Available Now - Instant Confirmation",
+    "checkAvailability": "Check Real-Time Availability",
+    "insuranceIncluded": "Insurance Included",
+    "vatIncluded": "VAT Included",
+    "noHiddenFees": "No Hidden Fees",
+    "freeDelivery": "Free Delivery",
+    "featuresSubtitle": "Every detail crafted to perfection, every feature designed for your ultimate comfort",
+    "chatPhone": "Chat: +971 55 816 4922"
+  },
+  "ui": {
+    "clubName": "Club Name",
+    "type": "Type",
+    "feature": "Feature",
+    "distance": "Distance",
+    "from": "From",
+    "to": "To",
+    "duration": "Duration",
+    "startingPrice": "Starting Price",
+    "route": "Route",
+    "price": "Price",
+    "backgroundVerified": "Background Verified",
+    "multilingual": "Multilingual",
+    "available247": "24/7 Available",
+    "popularAirportRoutes": "Popular Airport Routes",
+    "popularChauffeurRoutes": "Popular Chauffeur Routes"
   }
 }

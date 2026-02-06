@@ -1,7 +1,7 @@
 {
   "pages": {
     "home": {
-      "title": "Location de Rolls-Royce à Dubaï | Voitures de luxe avec chauffeur | RR Dubai 2025",
+      "title": "Location de Rolls-Royce à Dubaï | Voitures de luxe avec chauffeur | RR Dubai 2026",
       "description": "Louez une Rolls-Royce exclusive à Dubaï. Notre flotte comprend les modèles Phantom, Cullinan, Ghost, Dawn et Wraith. Nous proposons des services de chauffeur professionnel, des transferts VIP depuis l'aéroport et des voitures de mariage. Contactez-nous 24/7 au +971558164922 pour toute réservation.",
       "keywords": "location Rolls-Royce Dubaï, location de voitures de luxe à Dubaï, Rolls-Royce avec chauffeur, location de Phantom à Dubaï, Cullinan à louer à Dubaï, transfert VIP aéroport de Dubaï, Rolls-Royce de mariage à Dubaï, location de voitures de luxe",
       "aiKeywords": [
@@ -10,39 +10,85 @@
         "location voiture luxe dubai",
         "rolls royce avec chauffeur dubai",
         "service chauffeur rolls royce dubai"
+      ],
+      "longTailKeywords": [
+        "location rolls royce pas cher dubai",
+        "louer rolls royce à la journée dubai",
+        "rolls royce avec chauffeur prix horaire dubai",
+        "location rolls royce dubai sans caution",
+        "location voiture luxe près burj khalifa",
+        "meilleure location rolls royce dubai 2026",
+        "louer rolls royce dubai touriste"
+      ],
+      "voiceSearchOptimized": [
+        "Combien coûte la location d'une Rolls-Royce à Dubaï ?",
+        "Où louer une Rolls-Royce près de moi à Dubaï ?",
+        "Quelle est la Rolls-Royce la moins chère à louer ?",
+        "Puis-je louer une Rolls-Royce pour une journée ?",
+        "Réserver Rolls-Royce avec chauffeur Dubaï"
       ]
     },
     "fleet": {
       "index": {
         "title": "Flotte Rolls-Royce de Luxe Dubaï | Voir Tous les Modèles | Phantom, Ghost, Cullinan",
         "description": "Explorez notre flotte complète de Rolls-Royce à Dubaï. Choisissez parmi Phantom, Ghost, Cullinan, Dawn et Wraith. Service de chauffeur professionnel, disponibilité 24/7. Meilleurs prix à partir de 3 800 AED/jour. Voir tous les modèles, comparer les caractéristiques et réserver instantanément.",
-        "keywords": "flotte rolls royce dubaï, tous les modèles rolls royce dubaï, collection rolls royce dubaï, flotte voitures de luxe dubaï, phantom ghost cullinan dubaï, flotte location rolls royce, voir tous les rolls royce dubaï, comparer modèles rolls royce, location flotte luxe dubaï, showroom rolls royce dubaï"
+        "keywords": "flotte rolls royce dubaï, tous les modèles rolls royce dubaï, collection rolls royce dubaï, flotte voitures de luxe dubaï, phantom ghost cullinan dubaï, flotte location rolls royce, voir tous les rolls royce dubaï, comparer modèles rolls royce, location flotte luxe dubaï, showroom rolls royce dubaï",
+        "longTailKeywords": [
+          "tous modèles rolls royce location dubai",
+          "comparer prix location rolls royce dubai"
+        ],
+        "voiceSearchOptimized": [
+          "Montrez-moi tous les modèles Rolls-Royce à Dubaï",
+          "Quel modèle Rolls-Royce louer ?"
+        ],
+        "aiKeywords": [
+          "flotte rolls royce dubai",
+          "tous modèles location dubai",
+          "comparer rolls royce dubai"
+        ]
       },
       "phantom": {
-        "title": "Location Rolls-Royce Phantom Dubaï 2025 | 5 800 AED/Jour | Meilleure Voiture de Luxe | Service N°1",
-        "description": "Louez une Rolls-Royce Phantom à Dubaï à partir de 5 800 AED/jour avec chauffeur professionnel. Modèle 2025 à empattement long, parfait pour mariages, transferts VIP et événements d'entreprise. ⭐ Note 4,9/5 sur 1 247 avis. Livraison gratuite, réservation instantanée, support 24/7. Vivez le summum du luxe - Réservez maintenant!",
-        "keywords": "location rolls royce phantom dubai, prix location rolls royce phantom dubai, phantom location dubai 2025, location voiture luxe dubai phantom, phantom avec chauffeur dubai, rolls royce phantom voiture mariage dubai, transfert aéroport phantom dubai, location phantom entreprise dubai, phantom vip dubai, location phantom heure dubai, phantom empattement long dubai, meilleure location phantom dubai, service chauffeur phantom dubai, location phantom journée dubai, location phantom mensuelle dubai",
-        "aiKeywords": [],
-        "longTailKeywords": [],
-        "voiceSearchOptimized": [],
-        "schema": {},
+        "title": "Location Rolls-Royce Phantom Dubaï 2026 | 5 800 AED/Jour | Meilleure Voiture de Luxe | Service N°1",
+        "description": "Louez une Rolls-Royce Phantom à Dubaï à partir de 5 800 AED/jour avec chauffeur professionnel. Modèle 2026 à empattement long, parfait pour mariages, transferts VIP et événements d'entreprise. ⭐ Note 4,9/5 sur 1 247 avis. Livraison gratuite, réservation instantanée, support 24/7. Vivez le summum du luxe - Réservez maintenant!",
+        "keywords": "location rolls royce phantom dubai, prix location rolls royce phantom dubai, phantom location dubai 2026, location voiture luxe dubai phantom, phantom avec chauffeur dubai, rolls royce phantom voiture mariage dubai, transfert aéroport phantom dubai, location phantom entreprise dubai, phantom vip dubai, location phantom heure dubai, phantom empattement long dubai, meilleure location phantom dubai, service chauffeur phantom dubai, location phantom journée dubai, location phantom mensuelle dubai",
+        "aiKeywords": [
+          "location phantom dubai prix",
+          "phantom mariage dubai",
+          "phantom chauffeur dubai"
+        ],
+        "longTailKeywords": [
+          "rolls royce phantom blanche mariage dubai",
+          "prix location phantom rallongée dubai",
+          "phantom vs maybach location dubai"
+        ],
+        "voiceSearchOptimized": [
+          "Combien coûte une Phantom par jour à Dubaï ?",
+          "Puis-je louer un Phantom blanc pour mon mariage ?"
+        ],
+        "schema": {
+          "availability": "InStock",
+          "breadcrumb": "Home > Fleet > Rolls-Royce Phantom",
+          "priceRange": "AED 5,800 - 116,000",
+          "reviewCount": "1247",
+          "rating": "4.9"
+        },
         "og": {
-          "title": "Location Rolls-Royce Phantom Dubaï 2025 | 5 800 AED/Jour | Meilleure Voiture de Luxe | Service N°1",
-          "description": "Louez une Rolls-Royce Phantom à Dubaï à partir de 5 800 AED/jour avec chauffeur professionnel. Modèle 2025 à empattement long, parfait pour mariages, transferts VIP et événements d'entreprise. ⭐ Note 4,9/5 sur 1 247 avis. Livraison gratuite, réservation instantanée, support 24/7. Vivez le summum du luxe - Réservez maintenant!",
-          "image": "https://www.rollsroycers.com/images/Rolls-royce-phantom.jpg",
-          "url": "https://www.rollsroycers.com/fr/fleet/phantom"
+          "title": "Location Rolls-Royce Phantom Dubaï 2026 | 5 800 AED/Jour | Meilleure Voiture de Luxe | Service N°1",
+          "description": "Louez une Rolls-Royce Phantom à Dubaï à partir de 5 800 AED/jour avec chauffeur professionnel. Modèle 2026 à empattement long, parfait pour mariages, transferts VIP et événements d'entreprise. ⭐ Note 4,9/5 sur 1 247 avis. Livraison gratuite, réservation instantanée, support 24/7. Vivez le summum du luxe - Réservez maintenant!",
+          "image": "https://rollsroycers.com/images/Rolls-royce-phantom.jpg",
+          "url": "https://rollsroycers.com/fr/fleet/phantom"
         },
         "twitter": {
           "card": "summary_large_image",
-          "title": "Location Rolls-Royce Phantom Dubaï 2025 | 5 800 AED/Jour | Meilleure Voiture de Luxe | Service N°1",
-          "description": "Louez une Rolls-Royce Phantom à Dubaï à partir de 5 800 AED/jour avec chauffeur professionnel. Modèle 2025 à empattement long, parfait pour mariages, transferts VIP et événements d'entreprise. ⭐ Note 4,9/5 sur 1 247 avis. Livraison gratuite, réservation instantanée, support 24/7. Vivez le summum du luxe - Réservez maintenant!",
-          "image": "https://www.rollsroycers.com/images/Rolls-royce-phantom.jpg"
+          "title": "Location Rolls-Royce Phantom Dubaï 2026 | 5 800 AED/Jour | Meilleure Voiture de Luxe | Service N°1",
+          "description": "Louez une Rolls-Royce Phantom à Dubaï à partir de 5 800 AED/jour avec chauffeur professionnel. Modèle 2026 à empattement long, parfait pour mariages, transferts VIP et événements d'entreprise. ⭐ Note 4,9/5 sur 1 247 avis. Livraison gratuite, réservation instantanée, support 24/7. Vivez le summum du luxe - Réservez maintenant!",
+          "image": "https://rollsroycers.com/images/Rolls-royce-phantom.jpg"
         }
       },
       "ghost": {
-        "title": "Location Rolls-Royce Ghost 2025 Dubaï | Black Badge | Dès 3 800 AED/Jour",
-        "description": "Découvrez la Rolls-Royce Ghost Series II 2025 à Dubaï. Suspension Planar révolutionnaire, tableau de bord illuminé et habitacle silencieux. Choisissez l'édition standard ou Black Badge. Parfaite pour les réunions au DIFC, les balades à la Marina ou les événements VIP. Chauffeur professionnel inclus.",
-        "keywords": "location Rolls-Royce Ghost 2025 Dubaï, louer Ghost Black Badge Dubaï, location Ghost Series II, berline de direction Dubaï Marina, voiture d'affaires DIFC, Ghost avec chauffeur Downtown, expérience tableau de bord illuminé Ghost, suspension Planar",
+        "title": "Location Rolls-Royce Ghost 2026 Dubaï | Black Badge | Dès 3 800 AED/Jour",
+        "description": "Découvrez la Rolls-Royce Ghost Series II 2026 à Dubaï. Suspension Planar révolutionnaire, tableau de bord illuminé et habitacle silencieux. Choisissez l'édition standard ou Black Badge. Parfaite pour les réunions au DIFC, les balades à la Marina ou les événements VIP. Chauffeur professionnel inclus.",
+        "keywords": "location Rolls-Royce Ghost 2026 Dubaï, louer Ghost Black Badge Dubaï, location Ghost Series II, berline de direction Dubaï Marina, voiture d'affaires DIFC, Ghost avec chauffeur Downtown, expérience tableau de bord illuminé Ghost, suspension Planar",
         "aiKeywords": [
           "location rolls royce dubai",
           "louer rolls royce dubai",
@@ -52,12 +98,21 @@
           "rolls royce ghost dubai",
           "ghost rental dubai",
           "rent ghost dubai"
+        ],
+        "longTailKeywords": [
+          "location ghost black badge dubai",
+          "ghost série 2 tarif journalier dubai",
+          "location ghost pas chère dubai"
+        ],
+        "voiceSearchOptimized": [
+          "Combien coûte un Ghost par jour à Dubaï ?",
+          "Le Ghost Black Badge est-il disponible ?"
         ]
       },
       "cullinan": {
-        "title": "Location Rolls-Royce Cullinan 2025 Dubaï | SUV Black Badge | Dès 4 500 AED",
-        "description": "Louez le majestueux SUV Rolls-Royce Cullinan 2025 à Dubaï. Découvrez la Viewing Suite, ses capacités tout-terrain et son confort suprême. Disponible en version standard ou Black Badge. Idéal pour les voyages en famille à Hatta, les safaris de luxe dans le désert ou les croisières à Palm Jumeirah.",
-        "keywords": "location Rolls-Royce Cullinan 2025 Dubaï, location SUV Cullinan Black Badge, location SUV de luxe 7 places Dubaï, réservation safari Cullinan désert, voiture de luxe familiale JBR, expérience Viewing Suite Dubaï, location Rolls-Royce tout-terrain",
+        "title": "Location Rolls-Royce Cullinan 2026 Dubaï | SUV Black Badge | Dès 4 500 AED",
+        "description": "Louez le majestueux SUV Rolls-Royce Cullinan 2026 à Dubaï. Découvrez la Viewing Suite, ses capacités tout-terrain et son confort suprême. Disponible en version standard ou Black Badge. Idéal pour les voyages en famille à Hatta, les safaris de luxe dans le désert ou les croisières à Palm Jumeirah.",
+        "keywords": "location Rolls-Royce Cullinan 2026 Dubaï, location SUV Cullinan Black Badge, location SUV de luxe 7 places Dubaï, réservation safari Cullinan désert, voiture de luxe familiale JBR, expérience Viewing Suite Dubaï, location Rolls-Royce tout-terrain",
         "aiKeywords": [
           "location rolls royce dubai",
           "louer rolls royce dubai",
@@ -67,12 +122,21 @@
           "rolls royce cullinan dubai",
           "cullinan rental dubai",
           "rent cullinan dubai"
+        ],
+        "longTailKeywords": [
+          "location cullinan suv famille dubai",
+          "cullinan safari désert dubai",
+          "suv luxe 7 places location dubai"
+        ],
+        "voiceSearchOptimized": [
+          "Combien pour louer un Cullinan à Dubaï ?",
+          "Le Cullinan est-il bon pour les familles ?"
         ]
       },
       "dawn": {
-        "title": "Location Rolls-Royce Dawn 2025 Dubaï | Cabriolet de Luxe | 4 200 AED/Jour",
-        "description": "Offrez-vous la Rolls-Royce Dawn 2025, le cabriolet le plus silencieux au monde. Découvrez le mécanisme de toit silencieux et l'audio sur mesure. Parfait pour les promenades sur la plage de JBR, les dîners romantiques à Pierchic ou les croisières au coucher du soleil vers le Burj Al Arab. Réservez avec chauffeur professionnel.",
-        "keywords": "Rolls-Royce Dawn 2025 cabriolet Dubaï, louer Dawn drophead Dubaï Marina, cabriolet de luxe plage JBR, mécanisme de toit silencieux Dawn, location voiture romantique Dubaï, promenade coucher de soleil Jumeirah, réservation Rolls-Royce décapotable",
+        "title": "Location Rolls-Royce Dawn 2026 Dubaï | Cabriolet de Luxe | 4 200 AED/Jour",
+        "description": "Offrez-vous la Rolls-Royce Dawn 2026, le cabriolet le plus silencieux au monde. Découvrez le mécanisme de toit silencieux et l'audio sur mesure. Parfait pour les promenades sur la plage de JBR, les dîners romantiques à Pierchic ou les croisières au coucher du soleil vers le Burj Al Arab. Réservez avec chauffeur professionnel.",
+        "keywords": "Rolls-Royce Dawn 2026 cabriolet Dubaï, louer Dawn drophead Dubaï Marina, cabriolet de luxe plage JBR, mécanisme de toit silencieux Dawn, location voiture romantique Dubaï, promenade coucher de soleil Jumeirah, réservation Rolls-Royce décapotable",
         "aiKeywords": [
           "location rolls royce dubai",
           "louer rolls royce dubai",
@@ -82,12 +146,20 @@
           "rolls royce dawn dubai",
           "dawn rental dubai",
           "rent dawn dubai"
+        ],
+        "longTailKeywords": [
+          "location dawn décapotable dubai marina",
+          "rolls royce cabriolet plage jbr dubai"
+        ],
+        "voiceSearchOptimized": [
+          "Combien pour louer une Dawn à Dubaï ?",
+          "Louer une décapotable Rolls-Royce à Dubaï"
         ]
       },
       "wraith": {
-        "title": "Location Rolls-Royce Wraith 2025 Dubaï | Coupé Luxe 624ch | Dès 4 000 AED",
-        "description": "Conduisez la plus puissante des Rolls-Royce - la Wraith 2025 avec son moteur V12 de 624ch. Dotée d'une transmission assistée par satellite, d'un ciel de toit étoilé et d'un design fastback distinctif. Parfaite pour cruiser sur Sheikh Zayed Road, les réunions à Business Bay ou les événements exclusifs.",
-        "keywords": "location Rolls-Royce Wraith 2025 Dubaï, louer coupé Wraith Black Badge, voiture de luxe 624ch Dubaï, location Rolls-Royce fastback, transmission satellite Wraith, coupé puissant Sheikh Zayed Road, location sport luxe Downtown",
+        "title": "Location Rolls-Royce Wraith 2026 Dubaï | Coupé Luxe 624ch | Dès 4 000 AED",
+        "description": "Conduisez la plus puissante des Rolls-Royce - la Wraith 2026 avec son moteur V12 de 624ch. Dotée d'une transmission assistée par satellite, d'un ciel de toit étoilé et d'un design fastback distinctif. Parfaite pour cruiser sur Sheikh Zayed Road, les réunions à Business Bay ou les événements exclusifs.",
+        "keywords": "location Rolls-Royce Wraith 2026 Dubaï, louer coupé Wraith Black Badge, voiture de luxe 624ch Dubaï, location Rolls-Royce fastback, transmission satellite Wraith, coupé puissant Sheikh Zayed Road, location sport luxe Downtown",
         "aiKeywords": [
           "location rolls royce dubai",
           "louer rolls royce dubai",
@@ -97,6 +169,15 @@
           "rolls royce wraith dubai",
           "wraith rental dubai",
           "rent wraith dubai"
+        ],
+        "longTailKeywords": [
+          "location wraith coupé dubai",
+          "rolls royce la plus rapide à louer dubai",
+          "wraith starlight dubai"
+        ],
+        "voiceSearchOptimized": [
+          "Combien coûte une Wraith par jour ?",
+          "La Wraith est-elle la plus rapide ?"
         ]
       }
     },
@@ -114,6 +195,13 @@
           "rolls royce wedding dubai",
           "luxury wedding dubai",
           "vip wedding dubai"
+        ],
+        "longTailKeywords": [
+          "voiture mariage rolls royce blanche dubai",
+          "forfait mariage luxe voiture dubai 2026"
+        ],
+        "voiceSearchOptimized": [
+          "Combien coûte une voiture de mariage Rolls-Royce ?"
         ]
       },
       "corporate": {
@@ -129,6 +217,13 @@
           "rolls royce corporate dubai",
           "luxury corporate dubai",
           "vip corporate dubai"
+        ],
+        "longTailKeywords": [
+          "forfait entreprise rolls royce mensuel difc",
+          "transport PDG rolls royce dubai"
+        ],
+        "voiceSearchOptimized": [
+          "Avez-vous des forfaits entreprise ?"
         ]
       },
       "airport-transfer": {
@@ -144,6 +239,13 @@
           "rolls royce airport-transfer dubai",
           "luxury airport-transfer dubai",
           "vip airport-transfer dubai"
+        ],
+        "longTailKeywords": [
+          "transfert aéroport rolls royce dxb dubai",
+          "transport vip aéroport hôtel dubai"
+        ],
+        "voiceSearchOptimized": [
+          "Réserver transfert aéroport Rolls-Royce"
         ]
       },
       "chauffeur": {
@@ -159,6 +261,13 @@
           "rolls royce chauffeur dubai",
           "luxury chauffeur dubai",
           "vip chauffeur dubai"
+        ],
+        "longTailKeywords": [
+          "chauffeur rolls royce à l'heure dubai",
+          "chauffeur multilingue rolls royce dubai"
+        ],
+        "voiceSearchOptimized": [
+          "Combien coûte le chauffeur à l'heure ?"
         ]
       },
       "events": {
@@ -174,6 +283,13 @@
           "rolls royce events dubai",
           "luxury events dubai",
           "vip events dubai"
+        ],
+        "longTailKeywords": [
+          "rolls royce pour gala dubai",
+          "flotte voitures luxe événement dubai"
+        ],
+        "voiceSearchOptimized": [
+          "Réserver Rolls-Royce pour événement"
         ]
       },
       "photoshoot": {
@@ -189,6 +305,13 @@
           "rolls royce photoshoot dubai",
           "luxury photoshoot dubai",
           "vip photoshoot dubai"
+        ],
+        "longTailKeywords": [
+          "rolls royce séance photo instagram dubai",
+          "location rolls royce clip vidéo dubai"
+        ],
+        "voiceSearchOptimized": [
+          "Combien pour louer une Rolls-Royce pour photo ?"
         ]
       },
       "tours": {
@@ -204,6 +327,13 @@
           "rolls royce tours dubai",
           "luxury tours dubai",
           "vip tours dubai"
+        ],
+        "longTailKeywords": [
+          "visite privée dubai en rolls royce",
+          "tour dubai luxe avec chauffeur guide"
+        ],
+        "voiceSearchOptimized": [
+          "Réserver une visite de Dubaï en Rolls-Royce"
         ]
       }
     },
@@ -221,6 +351,12 @@
           "rolls royce downtown-dubai",
           "luxury car rental downtown-dubai",
           "chauffeur service downtown-dubai"
+        ],
+        "longTailKeywords": [
+          "location rolls royce près burj khalifa"
+        ],
+        "voiceSearchOptimized": [
+          "Livrer Rolls-Royce Downtown Dubai"
         ]
       },
       "dubai-marina": {
@@ -236,6 +372,12 @@
           "rolls royce dubai-marina",
           "luxury car rental dubai-marina",
           "chauffeur service dubai-marina"
+        ],
+        "longTailKeywords": [
+          "location décapotable dubai marina"
+        ],
+        "voiceSearchOptimized": [
+          "Louer Rolls-Royce à Dubai Marina"
         ]
       },
       "palm-jumeirah": {
@@ -251,6 +393,12 @@
           "rolls royce palm-jumeirah",
           "luxury car rental palm-jumeirah",
           "chauffeur service palm-jumeirah"
+        ],
+        "longTailKeywords": [
+          "livraison rolls royce atlantis palm"
+        ],
+        "voiceSearchOptimized": [
+          "Livrer Rolls-Royce Palm Jumeirah"
         ]
       },
       "business-bay": {
@@ -266,6 +414,12 @@
           "rolls royce business-bay",
           "luxury car rental business-bay",
           "chauffeur service business-bay"
+        ],
+        "longTailKeywords": [
+          "rolls royce business bay entreprise"
+        ],
+        "voiceSearchOptimized": [
+          "Location Rolls-Royce Business Bay"
         ]
       },
       "jbr": {
@@ -281,6 +435,12 @@
           "rolls royce jbr",
           "luxury car rental jbr",
           "chauffeur service jbr"
+        ],
+        "longTailKeywords": [
+          "location rolls royce jbr plage"
+        ],
+        "voiceSearchOptimized": [
+          "Louer Rolls-Royce JBR"
         ]
       },
       "difc": {
@@ -296,6 +456,12 @@
           "rolls royce difc",
           "luxury car rental difc",
           "chauffeur service difc"
+        ],
+        "longTailKeywords": [
+          "location rolls royce difc financier"
+        ],
+        "voiceSearchOptimized": [
+          "Location Rolls-Royce DIFC"
         ]
       }
     },
@@ -303,72 +469,331 @@
       "about": {
         "title": "À propos de Rolls-Royce Dubaï | Location de voitures de luxe depuis 2010 | Notre histoire",
         "description": "La première société de location de Rolls-Royce à Dubaï depuis 2010. Plus de 50 véhicules de luxe, plus de 10 000 clients satisfaits et un service primé. Découvrez notre parcours.",
-        "keywords": "à propos de Rolls-Royce Dubaï, société de location de voitures de luxe, histoire de la location de voitures à Dubaï, service de location premium, fondée en 2010"
+        "keywords": "à propos de Rolls-Royce Dubaï, société de location de voitures de luxe, histoire de la location de voitures à Dubaï, service de location premium, fondée en 2010",
+        "longTailKeywords": [
+          "à propos rolls roycers dubai"
+        ],
+        "voiceSearchOptimized": [
+          "Qui est Rolls Roycers Dubai ?"
+        ],
+        "aiKeywords": [
+          "société rolls roycers dubai",
+          "location voiture luxe entreprise dubai"
+        ]
       },
       "contact": {
         "title": "Contacter Rolls-Royce Dubaï | Assistance 24/7 | WhatsApp +971558164922",
         "description": "Contactez-nous pour louer une Rolls-Royce à Dubaï. Appelez le +971558164922 ou envoyez-nous un message sur WhatsApp. Notre showroom se trouve à Downtown Dubaï. Devis instantanés et service client 24/7.",
-        "keywords": "contacter Rolls-Royce Dubaï, numéro de téléphone de location de voitures de luxe, réserver une voiture via WhatsApp, emplacement du showroom à Dubaï, assistance 24/7"
+        "keywords": "contacter Rolls-Royce Dubaï, numéro de téléphone de location de voitures de luxe, réserver une voiture via WhatsApp, emplacement du showroom à Dubaï, assistance 24/7",
+        "longTailKeywords": [
+          "contact location rolls royce dubai whatsapp"
+        ],
+        "voiceSearchOptimized": [
+          "Appelez Rolls Roycers Dubai"
+        ],
+        "aiKeywords": [
+          "contact rolls roycers dubai",
+          "téléphone location rolls royce"
+        ]
       },
       "gallery": {
         "title": "Galerie Rolls-Royce Dubaï | Photos et vidéos de notre flotte | Visite virtuelle",
         "description": "Parcourez notre galerie de la collection Rolls-Royce. Photos haute résolution, vues à 360°, détails intérieurs et visites vidéo. Découvrez notre flotte de luxe avant de réserver.",
-        "keywords": "galerie Rolls-Royce Dubaï, photos de voitures de luxe, images de la flotte à Dubaï, vidéos de Rolls-Royce, visite virtuelle de voiture"
+        "keywords": "galerie Rolls-Royce Dubaï, photos de voitures de luxe, images de la flotte à Dubaï, vidéos de Rolls-Royce, visite virtuelle de voiture",
+        "longTailKeywords": [
+          "photos flotte rolls royce dubai"
+        ],
+        "voiceSearchOptimized": [
+          "Montrez-moi les photos de la flotte"
+        ],
+        "aiKeywords": [
+          "photos rolls royce dubai",
+          "galerie voitures luxe"
+        ]
       },
       "testimonials": {
         "title": "Avis location Rolls-Royce Dubaï | Meilleur endroit pour louer | 5 étoiles",
         "description": "Lisez les avis avant de louer une Rolls-Royce à Dubaï. Meilleur endroit pour louer Rolls-Royce avec plus de 1200 avis vérifiés. Voyez pourquoi nous sommes n°1 en location de voitures de luxe.",
-        "keywords": "avis location Rolls-Royce Dubaï, meilleur endroit pour louer Rolls-Royce Dubaï, avis location Rolls-Royce, témoignages clients Dubaï, location voiture luxe 5 étoiles"
+        "keywords": "avis location Rolls-Royce Dubaï, meilleur endroit pour louer Rolls-Royce Dubaï, avis location Rolls-Royce, témoignages clients Dubaï, location voiture luxe 5 étoiles",
+        "longTailKeywords": [
+          "avis clients location rolls royce dubai"
+        ],
+        "voiceSearchOptimized": [
+          "Que disent les clients ?"
+        ],
+        "aiKeywords": [
+          "avis location rolls royce dubai",
+          "témoignages clients"
+        ]
       },
       "pricing": {
         "title": "Location Rolls-Royce Dubaï Prix | Tarifs et Coûts | À partir de 3,800 AED",
         "description": "Découvrez les prix de location Rolls-Royce à Dubaï. Comparez les tarifs Phantom, Ghost, Cullinan. Tarifs journaliers abordables, location horaire disponible. Devis instantanés en ligne.",
-        "keywords": "prix location Rolls-Royce Dubaï, coût location Rolls-Royce Dubaï, combien louer Rolls-Royce Dubaï, location Rolls-Royce pas cher Dubaï, location Rolls-Royce horaire Dubaï, tarifs voitures de luxe"
+        "keywords": "prix location Rolls-Royce Dubaï, coût location Rolls-Royce Dubaï, combien louer Rolls-Royce Dubaï, location Rolls-Royce pas cher Dubaï, location Rolls-Royce horaire Dubaï, tarifs voitures de luxe",
+        "longTailKeywords": [
+          "tarifs location rolls royce dubai 2026"
+        ],
+        "voiceSearchOptimized": [
+          "Quels sont les prix de location ?"
+        ],
+        "aiKeywords": [
+          "prix location rolls royce dubai 2026",
+          "tarif journalier rolls royce"
+        ]
       },
       "faq": {
-        "title": "Comment et Où Louer Rolls-Royce à Dubaï | Puis-je Louer? | FAQ 2025",
+        "title": "Comment et Où Louer Rolls-Royce à Dubaï | Puis-je Louer? | FAQ 2026",
         "description": "Apprenez comment louer Rolls-Royce à Dubaï, où louer près de moi, exigences et processus. Puis-je louer Rolls-Royce sans chauffeur? Toutes les questions répondues.",
-        "keywords": "comment louer Rolls-Royce Dubaï, où louer Rolls-Royce Dubaï, puis-je louer Rolls-Royce Dubaï, location Rolls-Royce près de moi Dubaï, location sans chauffeur Dubaï"
+        "keywords": "comment louer Rolls-Royce Dubaï, où louer Rolls-Royce Dubaï, puis-je louer Rolls-Royce Dubaï, location Rolls-Royce près de moi Dubaï, location sans chauffeur Dubaï",
+        "longTailKeywords": [
+          "faq location rolls royce dubai"
+        ],
+        "voiceSearchOptimized": [
+          "Que faut-il pour louer une Rolls-Royce ?"
+        ],
+        "aiKeywords": [
+          "faq location rolls royce",
+          "questions fréquentes voiture luxe"
+        ]
       },
       "blog": {
         "title": "Blog Rolls-Royce Dubaï | Style de Vie Luxueux, Conseils et Guides",
         "description": "Aperçus sur les voitures de luxe, guides de conduite pour Dubaï, actualités Rolls-Royce, couverture d'événements et locations de célébrités. Votre guide de l'automobile de luxe à Dubaï.",
-        "keywords": "blog Rolls-Royce Dubaï, articles voitures de luxe, conseils conduite Dubaï, actualités automobiles, blog style de vie luxueux"
+        "keywords": "blog Rolls-Royce Dubaï, articles voitures de luxe, conseils conduite Dubaï, actualités automobiles, blog style de vie luxueux",
+        "longTailKeywords": [
+          "blog location rolls royce dubai conseils"
+        ],
+        "voiceSearchOptimized": [
+          "Lire le blog Rolls-Royce Dubai"
+        ],
+        "aiKeywords": [
+          "blog rolls royce dubai",
+          "conseils location luxe"
+        ]
       },
       "booking": {
-        "title": "Louer Rolls-Royce Dubaï en ligne 2025 | Réserver maintenant | Confirmation instantanée",
-        "description": "Louer Rolls-Royce Dubaï en ligne avec réservation instantanée. Meilleurs prix 2025, disponibilité en temps réel. Réservez Phantom, Ghost, Cullinan en ligne. Paiement sécurisé, support 24/7.",
-        "keywords": "louer Rolls-Royce Dubaï en ligne, réserver Rolls-Royce en ligne Dubaï 2025, location Rolls-Royce en ligne Dubaï, réservation instantanée Dubaï, louer voiture de luxe en ligne"
+        "title": "Louer Rolls-Royce Dubaï en ligne 2026 | Réserver maintenant | Confirmation instantanée",
+        "description": "Louer Rolls-Royce Dubaï en ligne avec réservation instantanée. Meilleurs prix 2026, disponibilité en temps réel. Réservez Phantom, Ghost, Cullinan en ligne. Paiement sécurisé, support 24/7.",
+        "keywords": "louer Rolls-Royce Dubaï en ligne, réserver Rolls-Royce en ligne Dubaï 2026, location Rolls-Royce en ligne Dubaï, réservation instantanée Dubaï, louer voiture de luxe en ligne",
+        "longTailKeywords": [
+          "réserver rolls royce en ligne dubai"
+        ],
+        "voiceSearchOptimized": [
+          "Réserver une Rolls-Royce maintenant"
+        ],
+        "aiKeywords": [
+          "réserver rolls royce en ligne",
+          "réservation instantanée voiture luxe"
+        ]
       },
       "privacy": {
         "title": "Politique de confidentialité | Rolls-Royce Dubaï | Protection et sécurité des données",
         "description": "Politique de confidentialité de Rolls-Royce Dubaï. Comment nous protégeons vos données, utilisons vos informations et assurons leur sécurité. Nous sommes conformes au RGPD et suivons des pratiques transparentes.",
-        "keywords": "politique de confidentialité Rolls-Royce Dubaï, protection des données, conformité RGPD, sécurité des informations, confidentialité de la location"
+        "keywords": "politique de confidentialité Rolls-Royce Dubaï, protection des données, conformité RGPD, sécurité des informations, confidentialité de la location",
+        "longTailKeywords": [
+          "politique confidentialité rolls roycers"
+        ],
+        "voiceSearchOptimized": [],
+        "aiKeywords": [
+          "politique confidentialité rolls roycers"
+        ]
       },
       "terms": {
         "title": "Conditions générales | Contrat de location de Rolls-Royce à Dubaï | Politiques",
         "description": "Les conditions générales de location d'une Rolls-Royce à Dubaï. Exigences d'âge, assurance, cautions, politiques d'utilisation et responsabilité en cas de dommages. Veuillez lire avant de réserver.",
-        "keywords": "conditions générales Rolls-Royce Dubaï, contrat de location, politiques de location de voitures, conditions d'utilisation, assurance responsabilité civile"
+        "keywords": "conditions générales Rolls-Royce Dubaï, contrat de location, politiques de location de voitures, conditions d'utilisation, assurance responsabilité civile",
+        "longTailKeywords": [
+          "conditions générales rolls roycers"
+        ],
+        "voiceSearchOptimized": [],
+        "aiKeywords": [
+          "conditions location rolls royce"
+        ]
       },
       "cookie-policy": {
-        "title": "Politique des cookies | Rolls-Royce Dubaï | Confidentialité des données et cookies 2025",
+        "title": "Politique des cookies | Rolls-Royce Dubaï | Confidentialité des données et cookies 2026",
         "description": "Politique des cookies de Rolls-Royce Dubaï. Comment nous utilisons les cookies, types de cookies, cookies tiers, gestion des préférences. Pratiques de données transparentes, conforme RGPD. Votre vie privée nous importe.",
-        "keywords": "politique des cookies rolls royce dubaï, cookies de site web, confidentialité des données, conformité rgpd, consentement aux cookies, cookies tiers, préférences de confidentialité, paramètres du navigateur, gestion des cookies, protection des données"
+        "keywords": "politique des cookies rolls royce dubaï, cookies de site web, confidentialité des données, conformité rgpd, consentement aux cookies, cookies tiers, préférences de confidentialité, paramètres du navigateur, gestion des cookies, protection des données",
+        "longTailKeywords": [
+          "politique cookies rolls roycers"
+        ],
+        "voiceSearchOptimized": [],
+        "aiKeywords": [
+          "politique cookies rolls roycers"
+        ]
+      },
+      "locations": {
+        "longTailKeywords": [
+          "rolls royce delivery locations dubai all areas",
+          "where does rolls roycers deliver in dubai",
+          "rolls royce rental areas coverage dubai"
+        ],
+        "palm": {
+          "keywords": "rolls royce palm jumeirah, atlantis car service dubai, palm island luxury transport, the pointe chauffeur service, nakheel mall transport, palm west beach car, one and only palm rolls royce, luxury island transport dubai",
+          "title": "Rolls-Royce Palm Jumeirah | Atlantis & Luxury Resort Service | Island Transport",
+          "description": "Premium Rolls-Royce service on Palm Jumeirah. Perfect for Atlantis events, beach clubs, luxury resorts. Exclusive island transportation with professional chauffeurs. Book Palm luxury service."
+        },
+        "businessBay": {
+          "keywords": "rolls royce business bay, dubai canal car service, business bay chauffeur, corporate transport dubai, executive towers car service, bay avenue luxury transport, jw marriott marquis rolls royce, business district car dubai",
+          "title": "Business Bay Rolls-Royce Service | Corporate Transport | Dubai Canal",
+          "description": "Professional Rolls-Royce service in Business Bay. Ideal for corporate meetings, Dubai Canal views, executive towers. 5km from Downtown, quick business transport. Book corporate luxury service."
+        },
+        "difc": {
+          "description": "Elite Rolls-Royce service in Dubai International Financial Centre. Essential for banking executives, Gate Building meetings, Emirates Towers. Premium financial district transport.",
+          "title": "DIFC Rolls-Royce Service | Financial District Transport | Gate Building",
+          "keywords": "rolls royce difc, dubai financial centre car, gate building chauffeur, emirates towers transport, difc art nights car, gate avenue luxury, financial district rolls royce, banking executive transport dubai"
+        },
+        "downtown": {
+          "description": "Premium Rolls-Royce service in Downtown Dubai. Perfect for Burj Khalifa visits, Dubai Mall shopping, Dubai Fountain shows. Professional chauffeurs, instant availability. Central location service from AED 250.",
+          "keywords": "rolls royce downtown dubai, burj khalifa car service, dubai mall chauffeur, downtown dubai luxury car, dubai fountain transport, souk al bahar rolls royce, dubai opera car service, downtown dubai vip transport",
+          "title": "Rolls-Royce Downtown Dubai | Burj Khalifa & Dubai Mall Service | Book Now"
+        },
+        "main": {
+          "description": "Premium Rolls-Royce service across all Dubai locations. From Downtown Dubai to Palm Jumeirah, Dubai Marina to DIFC. Quick 15-minute response time, 24/7 availability. Book luxury car service from any location +971558164922.",
+          "keywords": "rolls royce locations dubai, luxury car service downtown dubai, rolls royce marina dubai, palm jumeirah car service, business bay chauffeur, jbr luxury transport, difc executive car, dubai service areas, rolls royce near me, luxury car coverage dubai",
+          "title": "Rolls-Royce Service Locations Dubai | Downtown, Marina, Palm | 24/7 Coverage"
+        },
+        "aiKeywords": [
+          "rolls royce delivery dubai locations",
+          "dubai areas luxury car rental",
+          "rolls royce coverage map dubai"
+        ],
+        "voiceSearchOptimized": [
+          "Where do you deliver in Dubai?",
+          "Which areas can I get a Rolls-Royce delivered?"
+        ],
+        "marina": {
+          "keywords": "rolls royce dubai marina, marina walk car service, dubai marina chauffeur, pier 7 luxury transport, yacht club car service, marina mall transport, waterfront luxury car dubai, marina beach rolls royce",
+          "description": "Exclusive Rolls-Royce service in Dubai Marina. Ideal for Marina Walk, yacht club events, waterfront dining at Pier 7. 25km from Downtown, professional drivers. Book Marina luxury transport.",
+          "title": "Rolls-Royce Dubai Marina | Waterfront Luxury Service | Marina Walk & JBR"
+        },
+        "jbr": {
+          "keywords": "rolls royce jbr dubai, the walk car service, jbr beach chauffeur, ain dubai transport, bluewaters island car, the beach jbr luxury, roxy cinema transport, beachfront rolls royce dubai",
+          "description": "Luxury Rolls-Royce service at JBR and The Walk. Perfect for beach events, Ain Dubai visits, Bluewaters Island. Beachfront premium transportation. Book JBR luxury car service.",
+          "title": "JBR Rolls-Royce Service | The Walk & Beach | Ain Dubai Transport"
+        }
+      },
+      "services": {
+        "tours": {
+          "description": "Explore Dubai in ultimate luxury with Rolls-Royce tours. Custom itineraries, professional guides, premium refreshments. Visit Burj Khalifa, Palm Jumeirah, Dubai Marina. From AED 4,000. Full day and half-day tours available.",
+          "title": "Luxury Tours Dubai | Rolls-Royce City Tours | Custom Itineraries",
+          "keywords": "luxury tours dubai, rolls royce tour dubai, private tour dubai, city tour rolls royce, dubai sightseeing luxury car, vip tour dubai, custom tour dubai, guided tour rolls royce, premium tour service dubai, exclusive dubai tours"
+        },
+        "corporate": {
+          "keywords": "corporate car service dubai, executive car rental dubai, business car hire dubai, rolls royce corporate dubai, company car service dubai, ceo car rental dubai, board meeting transportation dubai, roadshow car service dubai, conference transportation dubai, vip business car dubai",
+          "description": "Elevate your business with corporate Rolls-Royce services in Dubai. Executive packages from AED 1,200/day. Professional chauffeurs, flexible scheduling, corporate billing. Trusted by 500+ companies including Emirates NBD, DAMAC. 24/7 support.",
+          "title": "Corporate Rolls-Royce Service Dubai | Executive Car Rental | Business Packages"
+        },
+        "chauffeur": {
+          "keywords": "chauffeur service dubai, rolls royce with driver dubai, hourly chauffeur dubai, daily driver service dubai, professional driver dubai, luxury chauffeur service, multilingual chauffeur dubai, personal driver dubai, private chauffeur dubai, vip driver service dubai",
+          "title": "Professional Chauffeur Service Dubai | Rolls-Royce with Driver | Hourly & Daily",
+          "description": "Elite chauffeur service with Rolls-Royce in Dubai. From AED 800/hour. 500+ professional multilingual drivers, 24/7 availability. Hourly, daily, or custom arrangements. Perfect for shopping, business meetings, city tours. Book now."
+        },
+        "main": {
+          "description": "Premium Rolls-Royce services in Dubai. Wedding cars from AED 2,500, corporate packages from AED 1,200/day, airport transfers 24/7. Professional chauffeurs, 10,000+ satisfied clients. Book luxury car services online or call +971558164922.",
+          "title": "Rolls-Royce Services Dubai | Wedding, Corporate, Airport Transfer | Best Prices 2026",
+          "keywords": "rolls royce services dubai, luxury car services dubai, wedding car rental dubai, corporate car service dubai, airport transfer dubai, chauffeur service dubai, event transportation dubai, photoshoot car rental dubai, luxury tours dubai, rolls royce with driver dubai, vip car service dubai, executive car rental dubai"
+        },
+        "photoshoot": {
+          "title": "Rolls-Royce Photoshoot & Film Dubai | Commercial Shoots | From AED 5,000",
+          "keywords": "rolls royce photoshoot dubai, car rental for photoshoot dubai, film car rental dubai, commercial shoot car dubai, fashion photoshoot car dubai, music video car rental dubai, media production car dubai, luxury car photoshoot, photography car rental dubai, rolls royce filming dubai",
+          "description": "Premium Rolls-Royce vehicles for photoshoots and filming in Dubai. Perfect for fashion, commercials, music videos. Multiple locations, permit assistance, vehicle styling. From AED 5,000. Professional support for media productions."
+        },
+        "airportTransfer": {
+          "title": "Rolls-Royce Airport Transfer Dubai | DXB DWC AUH | 24/7 Service",
+          "keywords": "rolls royce airport transfer dubai, luxury airport transfer dubai, dxb airport transfer rolls royce, dwc airport transfer, abu dhabi airport transfer, vip airport service dubai, chauffeur airport transfer, meet and greet dubai airport, private airport transfer dubai, executive airport service dubai",
+          "description": "Premium Rolls-Royce airport transfer service in Dubai. From AED 1,200 to DXB, DWC, AUH airports. Meet & greet, flight tracking, 60 min free waiting. Professional chauffeurs, fixed prices. Book luxury airport transfer +971558164922."
+        },
+        "wedding": {
+          "description": "Make your wedding unforgettable with Rolls-Royce wedding cars in Dubai. White Phantom & Ghost with decoration, red carpet service. Professional chauffeur in formal attire. Book the perfect wedding car from AED 2,500. Free consultation +971558164922.",
+          "title": "Rolls-Royce Wedding Car Dubai | White Phantom & Ghost | From AED 2,500",
+          "keywords": "rolls royce wedding car dubai, white rolls royce rental dubai, wedding car hire dubai, phantom wedding car dubai, ghost wedding car dubai, luxury wedding transportation dubai, bridal car dubai, wedding car with decoration dubai, red carpet car service dubai, just married car dubai"
+        },
+        "voiceSearchOptimized": [
+          "What services does Rolls Roycers offer?",
+          "List all Rolls-Royce services in Dubai"
+        ],
+        "events": {
+          "description": "Make a grand entrance with Rolls-Royce event transportation in Dubai. Perfect for galas, premieres, fashion shows, awards ceremonies. Red carpet service, event coordination. From AED 3,000. Professional chauffeurs in formal attire.",
+          "keywords": "event transportation dubai, gala car service dubai, premiere car rental dubai, red carpet car service dubai, fashion show transportation dubai, awards ceremony car dubai, vip event transport dubai, luxury event car dubai, special occasion car rental dubai, rolls royce events dubai",
+          "title": "Event Transportation Dubai | Rolls-Royce for Galas & Premieres | Red Carpet Service"
+        },
+        "aiKeywords": [
+          "rolls royce services dubai",
+          "luxury car rental services",
+          "chauffeur wedding corporate tour dubai"
+        ],
+        "longTailKeywords": [
+          "all rolls royce services dubai 2026",
+          "luxury car services dubai complete list",
+          "rolls royce rental service options"
+        ]
+      },
+      "compare": {
+        "aiKeywords": [
+          "luxury car comparison dubai",
+          "rolls royce vs competitors rental",
+          "best luxury car to rent dubai"
+        ],
+        "phantom_vs_maybach": {
+          "og_title": "Phantom vs Maybach: The Ultimate Luxury Comparison in Dubai",
+          "title": "Rolls-Royce Phantom vs Mercedes-Maybach 2026 | Dubai Luxury Car Comparison",
+          "aiKeywords": [
+            "phantom vs maybach",
+            "rolls royce vs mercedes maybach",
+            "luxury car comparison dubai",
+            "phantom maybach rental",
+            "ultra luxury sedan dubai",
+            "phantom or maybach",
+            "british vs german luxury car",
+            "best luxury car dubai"
+          ],
+          "keywords": "rolls royce phantom vs maybach dubai, phantom maybach comparison, luxury car comparison dubai, phantom vs maybach s class, which is better phantom or maybach, rolls royce vs mercedes maybach price, phantom maybach rental dubai, ultra luxury sedan comparison, british vs german luxury, phantom or maybach for wedding",
+          "description": "Compare Rolls-Royce Phantom vs Mercedes-Maybach S-Class in Dubai. Detailed comparison of features, performance, luxury, and rental prices. Phantom from AED 3,500/day vs Maybach from AED 3,000/day. Which ultra-luxury sedan is right for you?",
+          "og_description": "Detailed comparison of Rolls-Royce Phantom and Mercedes-Maybach S-Class. Performance, luxury, technology, and pricing compared. Book your preferred ultra-luxury sedan in Dubai."
+        },
+        "voiceSearchOptimized": [
+          "Compare Rolls-Royce with other luxury cars in Dubai"
+        ],
+        "longTailKeywords": [
+          "compare rolls royce with luxury cars dubai",
+          "rolls royce vs bentley vs ferrari dubai rental"
+        ]
       }
     },
     "compare": {
       "index": {
-        "title": "Comparer les Voitures de Luxe Dubaï 2025 | Rolls-Royce vs Bentley, Ferrari, Mercedes",
+        "title": "Comparer les Voitures de Luxe Dubaï 2026 | Rolls-Royce vs Bentley, Ferrari, Mercedes",
         "description": "Comparez Rolls-Royce avec Bentley, Ferrari, Mercedes et Maybach à Dubaï. Comparaisons complètes de voitures de luxe couvrant les performances, le confort, la technologie, l'héritage et la valeur. Analyse d'experts pour vous aider à choisir la location de luxe parfaite.",
-        "keywords": "comparer voitures de luxe dubaï, rolls royce vs bentley, rolls royce vs ferrari, rolls royce vs mercedes, comparaison voitures de luxe dubaï, phantom vs maybach, comparaison location luxe, guide comparaison voitures dubaï, meilleure voiture luxe dubaï, comparaison expert voiture"
+        "keywords": "comparer voitures de luxe dubaï, rolls royce vs bentley, rolls royce vs ferrari, rolls royce vs mercedes, comparaison voitures de luxe dubaï, phantom vs maybach, comparaison location luxe, guide comparaison voitures dubaï, meilleure voiture luxe dubaï, comparaison expert voiture",
+        "longTailKeywords": [
+          "comparer voitures luxe location dubai"
+        ],
+        "voiceSearchOptimized": [
+          "Comparer Rolls-Royce avec d'autres marques"
+        ],
+        "aiKeywords": [
+          "comparer voitures luxe dubai",
+          "rolls royce vs autres marques"
+        ]
       },
       "rolls-royce-vs-bentley": {
         "title": "Comparaison Rolls-Royce vs Bentley Dubaï | Guide de Location de Voitures de Luxe",
         "description": "Comparez les voitures de luxe Rolls-Royce vs Bentley à Dubaï. Comparaison détaillée des caractéristiques, performances, héritage et prix de location pour vous aider à choisir.",
-        "keywords": "Rolls Royce vs Bentley, comparaison voitures de luxe Dubaï, Phantom vs Mulsanne, Ghost vs Flying Spur, Cullinan vs Bentayga"
+        "keywords": "Rolls Royce vs Bentley, comparaison voitures de luxe Dubaï, Phantom vs Mulsanne, Ghost vs Flying Spur, Cullinan vs Bentayga",
+        "longTailKeywords": [
+          "rolls royce ou bentley location prix dubai"
+        ],
+        "voiceSearchOptimized": [
+          "Rolls-Royce ou Bentley à louer ?"
+        ],
+        "aiKeywords": [
+          "rolls royce vs bentley dubai location",
+          "phantom vs flying spur"
+        ]
       },
       "rolls-royce-vs-mercedes": {
-        "title": "Rolls-Royce vs Mercedes-Benz Dubaï 2025 | Comparaison Ultime de Luxe | Britannique vs Allemand",
+        "title": "Rolls-Royce vs Mercedes-Benz Dubaï 2026 | Comparaison Ultime de Luxe | Britannique vs Allemand",
         "description": "Comparez Rolls-Royce vs Mercedes-Benz à Dubaï. Phantom vs Maybach S-Class, Ghost vs S-Class, Cullinan vs GLS. L'artisanat britannique sur mesure rencontre l'excellence de l'ingénierie allemande. Guide de comparaison expert avec prix, caractéristiques, technologie.",
         "keywords": "rolls royce vs mercedes dubaï, comparaison voitures de luxe dubaï, phantom vs maybach dubaï, ghost vs classe s dubaï, cullinan vs gls dubaï, luxe britannique vs allemand, comparaison location dubaï, mercedes maybach vs rolls royce, guide choix luxe dubaï, avis comparaison expert",
         "aiKeywords": [
@@ -380,6 +805,12 @@
           "comparaison location voitures luxe dubaï",
           "maybach vs rolls royce dubaï",
           "meilleure voiture luxe dubaï"
+        ],
+        "longTailKeywords": [
+          "phantom ou maybach s classe location"
+        ],
+        "voiceSearchOptimized": [
+          "Rolls-Royce ou Mercedes Maybach ?"
         ]
       }
     },
@@ -394,11 +825,16 @@
       "title": "Blog Rolls-Royce Dubaï | Style de Vie Luxueux, Conseils et Guides",
       "description": "Aperçus sur les voitures de luxe, guides de conduite pour Dubaï, actualités Rolls-Royce, couverture d'événements et locations de célébrités. Votre guide de l'automobile de luxe à Dubaï.",
       "keywords": "blog Rolls-Royce Dubaï, articles voitures de luxe, conseils conduite Dubaï, actualités automobiles, blog style de vie luxueux"
+    },
+    "dubai-luxury-car-guide-2026": {
+      "title": "2026 Dubai Luxury Car Guide: Rolls-Royce vs Bentley, Ferrari, Lamborghini | Best Rental Comparison",
+      "description": "Ultimate 2026 Dubai luxury car rental guide. Compare Rolls-Royce vs Bentley, Ferrari, Lamborghini with pricing, features & expert tips. Why Rolls-Royce reigns supreme in Dubai's luxury market.",
+      "keywords": "dubai luxury car guide 2026, rolls royce vs bentley dubai, luxury car rental comparison dubai, best luxury cars dubai 2026, rolls royce rental dubai 2026, bentley vs ferrari dubai, lamborghini rental dubai, luxury car market dubai 2026, premium car comparison dubai, dubai exotic car rental guide"
     }
   },
   "fleet": {
     "index": {
-      "title": "Flotte Rolls-Royce Dubaï 2025 | Location Phantom, Ghost, Cullinan, Dawn et Wraith",
+      "title": "Flotte Rolls-Royce Dubaï 2026 | Location Phantom, Ghost, Cullinan, Dawn et Wraith",
       "description": "Explorez notre exceptionnelle flotte Rolls-Royce à Dubaï. Phantom, Ghost, Cullinan SUV, Dawn cabriolet et Wraith coupé disponibles. Collection premium avec chauffeurs professionnels. Réservez votre expérience de luxe dès aujourd'hui.",
       "keywords": "flotte rolls royce dubai, flotte voitures de luxe dubai, location phantom ghost cullinan dubai, collection rolls royce dubai, flotte location premium, options véhicules de luxe dubai, modèles rolls royce dubai, location flotte exécutive"
     }
@@ -409,7 +845,7 @@
       "description": "Comparez la location Rolls-Royce vs Ferrari à Dubaï. Découvrez pourquoi Rolls-Royce offre une valeur, un confort et un prestige supérieurs pour la location de voitures de luxe. Tarifs tout compris, service de chauffeur professionnel et expérience de luxe inégalée."
     },
     "phantom_vs_maybach": {
-      "title": "Rolls-Royce Phantom vs Mercedes-Maybach 2025 | Comparaison Voitures de Luxe Dubaï",
+      "title": "Rolls-Royce Phantom vs Mercedes-Maybach 2026 | Comparaison Voitures de Luxe Dubaï",
       "description": "Comparez Rolls-Royce Phantom vs Mercedes-Maybach Classe S à Dubaï. Comparaison détaillée des caractéristiques, performances, luxe et prix de location. Phantom à partir de 3 500 AED/jour vs Maybach à partir de 3 000 AED/jour. Quelle berline ultra-luxe vous convient?",
       "keywords": "rolls royce phantom vs maybach dubai, comparaison phantom maybach, comparaison voiture luxe dubai, phantom vs maybach classe s, lequel est meilleur phantom ou maybach, rolls royce vs mercedes maybach prix, location phantom maybach dubai, comparaison berline ultra luxe, luxe britannique vs allemand, phantom ou maybach pour mariage",
       "og_title": "Phantom vs Maybach : La Comparaison de Luxe Ultime à Dubaï",
@@ -429,7 +865,7 @@
   "blog.dubai-luxury-hotels-guide.title": "Les Hôtels Les Plus Luxueux de Dubaï : Arriver avec Style en Rolls-Royce",
   "blog.dubai-luxury-hotels-guide.description": "Explorez les meilleurs hôtels et complexes 5 étoiles de Dubaï. Découvrez l'association parfaite entre hébergement de luxe et services de chauffeur Rolls-Royce.",
   "blog.dubai-luxury-hotels-guide.keywords": "hôtels de luxe Dubaï, hôtels 5 étoiles Dubaï, transfert hôtel Rolls-Royce, Burj Al Arab, Atlantis The Palm, hébergement de luxe Dubaï, service de chauffeur hôtel",
-  "blog.first-time-dubai-luxury-guide.title": "Première Fois à Dubaï? Votre Guide Complet des Voitures de Luxe 2025",
+  "blog.first-time-dubai-luxury-guide.title": "Première Fois à Dubaï? Votre Guide Complet des Voitures de Luxe 2026",
   "blog.first-time-dubai-luxury-guide.description": "Le guide ultime pour les nouveaux visiteurs à Dubaï explorant la location de voitures de luxe. Tout ce que vous devez savoir sur l'expérience de Dubaï en Rolls-Royce, des exigences aux conseils d'initiés et destinations incontournables.",
   "blog.first-time-dubai-luxury-guide.keywords": "première fois Dubaï, guide luxe Dubaï, guide location Rolls-Royce Dubaï, guide visiteurs Dubaï, location voitures luxe Dubaï débutants, tourisme Dubaï voitures luxe, premier voyage Dubaï, conseils voyage Dubaï, expérience luxe Dubaï, guide location voitures Dubaï"
 }

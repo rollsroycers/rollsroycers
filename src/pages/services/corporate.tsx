@@ -8,6 +8,8 @@ import { useState } from 'react'
 import Layout from '@/components/Layout'
 import WhatsAppButton from '@/components/WhatsAppButton'
 import SEO from '@/components/SEO'
+import GEOOptimizer from '@/components/GEOOptimizer'
+import EntitySchema from '@/components/EntitySchema'
 
 export default function CorporateServicesPage() {
   const { t } = useTranslation('services')
@@ -97,6 +99,20 @@ export default function CorporateServicesPage() {
   return (
     <>
       <SEO pageKey="services.corporate" />
+      <GEOOptimizer
+        pageKey="services.corporate"
+        title="Corporate Rolls-Royce Service Dubai 2026"
+        description="Executive Rolls-Royce corporate transportation in Dubai from AED 1,200/day. CEO transfers, client entertainment, business events."
+        entityType="Service"
+        primaryTopic="Corporate Rolls-Royce Dubai"
+        contentSummary="Executive Rolls-Royce corporate transportation for Dubai businesses. Ghost and Phantom for CEO transfers, client entertainment, and corporate events. Monthly packages available. Multilingual chauffeurs."
+        facts={['Corporate packages from AED 1,200/day', 'Monthly executive packages available', 'Multilingual professional chauffeurs', 'DIFC and Business Bay specialist', 'Corporate account billing']}
+        faqs={[
+          { question: 'Do you offer corporate monthly packages?', answer: 'Yes, we offer corporate monthly packages with dedicated vehicles and chauffeurs. Packages include priority booking, corporate billing, and customized reporting.' },
+          { question: 'Which Rolls-Royce is best for corporate use?', answer: 'The Ghost Series II is our most popular corporate vehicle — it combines understated elegance with supreme comfort. The Phantom is ideal for VIP client entertainment.' }
+        ]}
+      />
+      <EntitySchema pageType="service" serviceType="corporate" />
       <Layout>
         {/* Hero Section */}
         <section className="relative h-screen flex items-center justify-center overflow-hidden">

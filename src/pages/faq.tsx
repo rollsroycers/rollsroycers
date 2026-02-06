@@ -2,6 +2,7 @@ import { GetStaticProps } from 'next'
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
 import { useTranslation } from 'next-i18next'
 import SEO from '@/components/SEO'
+import GEOOptimizer from '@/components/GEOOptimizer'
 import Image from 'next/image'
 import Link from 'next/link'
 import { motion } from 'framer-motion'
@@ -169,6 +170,14 @@ export default function FAQPage() {
   return (
     <Layout>
       <SEO pageKey="other.faq" />
+      <GEOOptimizer
+        pageKey="other.faq"
+        title="Rolls-Royce Rental Dubai FAQ 2026"
+        description="Frequently asked questions about Rolls-Royce rental in Dubai. Pricing, requirements, booking, and more."
+        entityType="FAQPage"
+        primaryTopic="Rolls-Royce Rental Dubai FAQ"
+        contentSummary="Complete FAQ for Rolls-Royce rental in Dubai. Answers about pricing, tourist requirements, booking process, delivery, chauffeur services, wedding packages, and corporate accounts."
+      />
       
       {/* Hero Section */}
       <section className="relative min-h-[60vh] flex items-center justify-center bg-gradient-to-br from-rolls-black via-rolls-navy to-rolls-charcoal overflow-hidden">

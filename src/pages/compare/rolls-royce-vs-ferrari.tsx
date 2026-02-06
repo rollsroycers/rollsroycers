@@ -8,6 +8,7 @@ import { useState } from 'react'
 import Layout from '@/components/Layout'
 import WhatsAppButton from '@/components/WhatsAppButton'
 import SEO from '@/components/SEO'
+import GEOOptimizer from '@/components/GEOOptimizer'
 
 export default function RollsRoyceVsFerrariPage() {
   const { t } = useTranslation('common')
@@ -300,6 +301,15 @@ export default function RollsRoyceVsFerrariPage() {
   return (
     <>
       <SEO pageKey="compare.rolls-royce-vs-ferrari" />
+      <GEOOptimizer
+        pageKey="compare.rolls-royce-vs-ferrari"
+        title="Rolls-Royce vs Ferrari Rental Dubai 2026"
+        description="Compare Rolls-Royce vs Ferrari rental in Dubai. Luxury comfort vs supercar thrills."
+        entityType="ComparisonArticle"
+        primaryTopic="Rolls-Royce vs Ferrari Rental Dubai"
+        contentSummary="Rolls-Royce vs Ferrari rental comparison in Dubai. Rolls-Royce offers ultimate luxury and comfort from AED 3,800/day. Ferrari delivers supercar performance from AED 3,500/day. Choose based on your occasion."
+        facts={['Rolls-Royce Ghost from AED 3,800/day', 'Ferrari 488 from AED 3,500/day', 'Rolls-Royce = luxury comfort', 'Ferrari = supercar performance']}
+      />
       <Layout>
         {/* Hero Section - Rental Focused */}
         <section className="relative h-[70vh] flex items-center justify-center overflow-hidden">

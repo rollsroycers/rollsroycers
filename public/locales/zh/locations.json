@@ -182,5 +182,55 @@
         "luxury": "纯粹奢华"
       }
     }
+  },
+  "locationsPages": {
+    "downtown": {
+      "hero": {
+        "title": "迪拜市中心劳斯莱斯服务",
+        "subtitle": "迪拜核心区豪华交通",
+        "description": "迪拜市中心高级劳斯莱斯服务，毗邻哈利法塔、迪拜购物中心和迪拜喷泉。适合商务会议、购物出行和特殊场合。",
+        "bookNow": "预订市中心服务"
+      }
+    },
+    "marina": {
+      "hero": {
+        "title": "迪拜码头劳斯莱斯服务",
+        "subtitle": "海滨豪华交通",
+        "description": "迪拜码头高级劳斯莱斯服务。适合游艇俱乐部活动、海滨餐饮和码头步行街兜风。",
+        "bookNow": "预订码头服务"
+      }
+    },
+    "palm": {
+      "hero": {
+        "title": "棕榈岛劳斯莱斯服务",
+        "subtitle": "岛屿天堂豪华交通",
+        "description": "棕榈岛专属劳斯莱斯服务。适合亚特兰蒂斯活动、沙滩俱乐部和豪华度假村接送。",
+        "bookNow": "预订棕榈岛服务"
+      }
+    },
+    "businessBay": {
+      "hero": {
+        "title": "商业湾劳斯莱斯服务",
+        "subtitle": "企业卓越交通",
+        "description": "商业湾专业劳斯莱斯服务。适合企业会议、商务会议和迪拜运河沿线行政交通。",
+        "bookNow": "预订商业湾服务"
+      }
+    },
+    "jbr": {
+      "hero": {
+        "title": "JBR劳斯莱斯服务",
+        "subtitle": "海滨豪华交通",
+        "description": "JBR和步行街高级劳斯莱斯服务。适合海滩活动、娱乐场所和餐饮。",
+        "bookNow": "预订JBR服务"
+      }
+    },
+    "difc": {
+      "hero": {
+        "title": "DIFC劳斯莱斯服务",
+        "subtitle": "金融区高端交通",
+        "description": "迪拜国际金融中心精英劳斯莱斯服务。银行高管、金融会议和企业活动必备。",
+        "bookNow": "预订DIFC服务"
+      }
+    }
   }
 }

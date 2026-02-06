@@ -7,6 +7,7 @@ import { motion } from 'framer-motion'
 import { useState } from 'react'
 import Layout from '@/components/Layout'
 import SEO from '@/components/SEO'
+import GEOOptimizer from '@/components/GEOOptimizer'
 import WhatsAppButton from '@/components/WhatsAppButton'
 import PriceCalculator from '@/components/PriceCalculator'
 import { createWhatsAppLinkProps } from '@/utils/whatsapp'
@@ -202,6 +203,29 @@ export default function PricingPage() {
   return (
     <>
       <SEO pageKey="other.pricing" />
+      <GEOOptimizer
+        pageKey="other.pricing"
+        title="Rolls-Royce Rental Prices Dubai 2026"
+        description="Rolls-Royce rental prices in Dubai 2026. Ghost from AED 3,800/day, Phantom AED 5,800/day, Cullinan AED 6,500/day."
+        entityType="PriceList"
+        primaryTopic="Rolls-Royce Rental Price Dubai 2026"
+        contentSummary="Complete Rolls-Royce rental pricing for Dubai 2026. Ghost from AED 3,800/day, Wraith AED 5,000/day, Dawn AED 5,500/day, Phantom AED 5,800/day, Cullinan AED 6,500/day. All prices include chauffeur, insurance, and 24/7 support."
+        pricing={{
+          currency: 'AED',
+          items: [
+            { name: 'Rolls-Royce Ghost', price: '3800', unit: 'DAY' },
+            { name: 'Rolls-Royce Wraith', price: '5000', unit: 'DAY' },
+            { name: 'Rolls-Royce Dawn', price: '5500', unit: 'DAY' },
+            { name: 'Rolls-Royce Phantom', price: '5800', unit: 'DAY' },
+            { name: 'Rolls-Royce Cullinan', price: '6500', unit: 'DAY' }
+          ]
+        }}
+        facts={['Ghost from AED 3,800/day', 'Phantom from AED 5,800/day', 'Cullinan SUV from AED 6,500/day', 'All prices include chauffeur', 'Weekly & monthly discounts available']}
+        faqs={[
+          { question: 'How much does it cost to rent a Rolls-Royce in Dubai 2026?', answer: 'Rolls-Royce rental in Dubai starts from AED 3,800/day for the Ghost. Phantom AED 5,800/day, Cullinan AED 6,500/day. Weekly rates offer 15% discount, monthly rates 40% discount.' },
+          { question: 'What is included in the rental price?', answer: 'All rental prices include professional chauffeur, comprehensive insurance, 24/7 roadside assistance, complimentary water and WiFi, and free delivery anywhere in Dubai.' }
+        ]}
+      />
 
       <Layout>
         {/* Hero Section */}

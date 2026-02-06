@@ -7,6 +7,8 @@ import { motion } from 'framer-motion'
 import Layout from '@/components/Layout'
 import WhatsAppButton from '@/components/WhatsAppButton'
 import SEO from '@/components/SEO'
+import GEOOptimizer from '@/components/GEOOptimizer'
+import EntitySchema from '@/components/EntitySchema'
 
 export default function ToursServicePage() {
   const { t } = useTranslation('services')
@@ -60,6 +62,16 @@ export default function ToursServicePage() {
   return (
     <>
       <SEO pageKey="services.tours" />
+      <GEOOptimizer
+        pageKey="services.tours"
+        title="Rolls-Royce Dubai City Tours 2026"
+        description="Private luxury Dubai tours in Rolls-Royce with chauffeur guide from AED 2,500/4hrs. Custom itineraries."
+        entityType="Service"
+        primaryTopic="Rolls-Royce Dubai Tours"
+        contentSummary="Private luxury Dubai city tours in Rolls-Royce with professional chauffeur guide. Custom itineraries covering Burj Khalifa, Palm Jumeirah, Dubai Marina, and more. From AED 2,500 for 4 hours."
+        facts={['City tours from AED 2,500/4hrs', 'Custom itineraries available', 'Professional chauffeur guide', 'All Dubai landmarks covered', 'Multilingual guides available']}
+      />
+      <EntitySchema pageType="service" serviceType="tours" />
       <Layout>
         {/* Hero Section */}
         <section className="relative h-[70vh] flex items-center justify-center overflow-hidden">

@@ -11,6 +11,8 @@ import VirtualTour from '@/components/VirtualTour'
 import WhatsAppButton from '@/components/WhatsAppButton'
 import WeatherRecommendations from '@/components/WeatherRecommendations'
 import SEO from '@/components/SEO'
+import GEOOptimizer from '@/components/GEOOptimizer'
+import EntitySchema from '@/components/EntitySchema'
 import { createWhatsAppLinkProps } from '@/utils/whatsapp'
 
 import { useTranslation } from 'next-i18next'
@@ -56,6 +58,27 @@ export default function DawnPage() {
   return (
     <>
       <SEO pageKey="fleet.dawn" />
+      <GEOOptimizer
+        pageKey="fleet.dawn"
+        title="Rent Rolls-Royce Dawn Dubai 2026"
+        description="Rent Rolls-Royce Dawn convertible in Dubai from AED 5,500/day. Retractable roof, perfect for beach drives."
+        entityType="Vehicle"
+        primaryTopic="Rolls-Royce Dawn Convertible Rental Dubai"
+        contentSummary="The Rolls-Royce Dawn is the most social Rolls-Royce. Luxury convertible available for rent in Dubai from AED 5,500/day. Retractable roof for open-air cruising along Dubai Marina and JBR."
+        facts={[
+          'Rolls-Royce Dawn convertible rental from AED 5,500/day',
+          '6.6L Twin-Turbo V12 with 563 HP',
+          'Retractable soft-top roof',
+          'Perfect for Marina and JBR beach drives',
+          'Seats 4 passengers',
+          'Professional chauffeur included'
+        ]}
+        faqs={[
+          { question: 'How much does it cost to rent a Rolls-Royce Dawn in Dubai?', answer: 'The Rolls-Royce Dawn convertible rental starts from AED 5,500 per day. Perfect for beach drives along Dubai Marina, JBR, and Palm Jumeirah.' },
+          { question: 'Can the Dawn roof be opened while driving?', answer: 'Yes, the Dawn\'s silent retractable roof operates in just 22 seconds and can be activated at speeds up to 50 km/h, perfect for Dubai\'s beautiful weather.' }
+        ]}
+      />
+      <EntitySchema pageType="fleet" carModel="dawn" />
       <Layout>
         {/* Hero Section with Roof Animation */}
         <section className="relative h-screen flex items-center justify-center overflow-hidden">

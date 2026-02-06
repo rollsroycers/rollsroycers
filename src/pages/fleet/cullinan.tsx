@@ -10,6 +10,8 @@ import ComparisonTool from '@/components/ComparisonTool'
 import VirtualTour from '@/components/VirtualTour'
 import WhatsAppButton from '@/components/WhatsAppButton'
 import SEO from '@/components/SEO'
+import GEOOptimizer from '@/components/GEOOptimizer'
+import EntitySchema from '@/components/EntitySchema'
 import { createWhatsAppLinkProps } from '@/utils/whatsapp'
 
 import { useTranslation } from 'next-i18next'
@@ -73,6 +75,27 @@ export default function CullinanPage() {
   return (
     <>
       <SEO pageKey="fleet.cullinan" />
+      <GEOOptimizer
+        pageKey="fleet.cullinan"
+        title="Rent Rolls-Royce Cullinan Dubai 2026"
+        description="Rent Rolls-Royce Cullinan luxury SUV in Dubai from AED 6,500/day. 7-seater configuration with professional chauffeur."
+        entityType="Vehicle"
+        primaryTopic="Rolls-Royce Cullinan Rental Dubai"
+        contentSummary="The Rolls-Royce Cullinan is the ultimate luxury SUV. Available for rent in Dubai from AED 6,500/day with 7-seater configuration. Perfect for family trips, desert tours, and VIP transport."
+        facts={[
+          'Rolls-Royce Cullinan SUV rental from AED 6,500/day',
+          '6.75L Twin-Turbo V12 with 563 HP',
+          '7-seater configuration available',
+          'All-wheel drive luxury SUV',
+          'Perfect for desert tours and family trips',
+          'Professional chauffeur included'
+        ]}
+        faqs={[
+          { question: 'How much does it cost to rent a Rolls-Royce Cullinan in Dubai?', answer: 'The Rolls-Royce Cullinan rental starts from AED 6,500 per day. Weekly rates from AED 39,000 and monthly from AED 130,000. All prices include professional chauffeur and insurance.' },
+          { question: 'Is the Cullinan good for desert tours?', answer: 'Yes, the Cullinan is Rolls-Royce\'s first SUV with all-wheel drive, making it ideal for desert safaris while maintaining supreme luxury and comfort.' }
+        ]}
+      />
+      <EntitySchema pageType="fleet" carModel="cullinan" />
       <Layout>
         {/* Hero Section */}
         <section className="relative h-screen flex items-center justify-center overflow-hidden">

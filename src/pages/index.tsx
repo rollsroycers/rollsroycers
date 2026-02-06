@@ -24,6 +24,8 @@ import TestimonialSubmission from '@/components/TestimonialSubmission'
 import LoyaltyProgram from '@/components/LoyaltyProgram'
 import PersonalizedOffers from '@/components/PersonalizedOffers'
 import TripPlanner from '@/components/TripPlanner'
+import GEOOptimizer from '@/components/GEOOptimizer'
+import EntitySchema from '@/components/EntitySchema'
 
 export default function Home() {
   const { t, i18n } = useTranslation('common')
@@ -123,6 +125,43 @@ export default function Home() {
   return (
     <>
       <SEO pageKey="home" />
+      <GEOOptimizer
+        pageKey="home"
+        title="Rent Rolls-Royce Dubai 2026"
+        description="Premium Rolls-Royce rental service in Dubai from AED 3,800/day. Phantom, Ghost, Cullinan, Dawn, Wraith with professional chauffeur."
+        entityType="CarRentalBusiness"
+        primaryTopic="Rolls-Royce Rental Dubai"
+        contentSummary="Rolls Roycers Dubai is the #1 luxury Rolls-Royce car rental service in Dubai, UAE. Fleet includes Phantom, Ghost, Cullinan, Dawn, and Wraith. Prices start from AED 3,800/day with professional chauffeur. Available 24/7 with free delivery across Dubai."
+        facts={[
+          'Rolls-Royce Ghost rental from AED 3,800/day',
+          'Rolls-Royce Phantom rental from AED 5,800/day',
+          'Rolls-Royce Cullinan SUV rental from AED 6,500/day',
+          'Professional chauffeur included in all rentals',
+          '24/7 availability with 15-minute delivery across Dubai',
+          'Over 1,200 five-star reviews',
+          'Serving Dubai since 2010'
+        ]}
+        pricing={{
+          currency: 'AED',
+          items: [
+            { name: 'Rolls-Royce Ghost', price: '3800', unit: 'DAY' },
+            { name: 'Rolls-Royce Wraith', price: '5000', unit: 'DAY' },
+            { name: 'Rolls-Royce Dawn', price: '5500', unit: 'DAY' },
+            { name: 'Rolls-Royce Phantom', price: '5800', unit: 'DAY' },
+            { name: 'Rolls-Royce Cullinan', price: '6500', unit: 'DAY' }
+          ]
+        }}
+        howTo={{
+          name: 'How to Rent a Rolls-Royce in Dubai',
+          steps: [
+            { name: 'Choose Your Model', text: 'Browse our fleet of Phantom, Ghost, Cullinan, Dawn, and Wraith models.' },
+            { name: 'Select Date & Duration', text: 'Pick your rental dates. Hourly, daily, weekly, and monthly options available.' },
+            { name: 'Book Online or Call', text: 'Book instantly at rollsroycers.com or call/WhatsApp +971558164922.' },
+            { name: 'Enjoy Free Delivery', text: 'We deliver your Rolls-Royce to any location in Dubai within 15-30 minutes.' }
+          ]
+        }}
+      />
+      <EntitySchema pageType="home" />
 
       <Layout>
         <Hero />

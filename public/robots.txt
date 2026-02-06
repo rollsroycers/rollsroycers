@@ -1,17 +1,47 @@
 User-agent: *
 Allow: /
-
-# Disallow duplicate content
-Disallow: /en/
-Disallow: /*?*
-Disallow: /#
-
-# Allow all languages and pages
 Allow: /ar/
 Allow: /zh/
 Allow: /fr/
 Allow: /ru/
 Allow: /hi/
+
+# Disallow duplicate/internal content
+Disallow: /api/
+Disallow: /_next/
+Disallow: /*?*
+Disallow: /#
+
+# AI Search Engine Crawlers - Full Access
+User-agent: GPTBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Amazonbot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: Bytespider
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: cohere-ai
+Allow: /
 
 # Sitemap locations
 Sitemap: https://rollsroycers.com/sitemap.xml
@@ -22,6 +52,3 @@ Sitemap: https://rollsroycers.com/sitemap-zh.xml
 Sitemap: https://rollsroycers.com/sitemap-fr.xml
 Sitemap: https://rollsroycers.com/sitemap-ru.xml
 Sitemap: https://rollsroycers.com/sitemap-hi.xml
-
-# Crawl-delay for better server performance
-Crawl-delay: 1

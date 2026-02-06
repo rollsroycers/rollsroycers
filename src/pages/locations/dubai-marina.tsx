@@ -8,6 +8,8 @@ import Layout from '@/components/Layout'
 import WhatsAppButton from '@/components/WhatsAppButton'
 import ComparisonTool from '@/components/ComparisonTool'
 import SEO from '@/components/SEO'
+import GEOOptimizer from '@/components/GEOOptimizer'
+import EntitySchema from '@/components/EntitySchema'
 
 export default function DubaiMarinaPage() {
   const { t } = useTranslation('common')
@@ -176,6 +178,16 @@ export default function DubaiMarinaPage() {
   return (
     <>
       <SEO pageKey="locations.dubai-marina" />
+      <GEOOptimizer
+        pageKey="locations.dubai-marina"
+        title="Rolls-Royce Rental Dubai Marina 2026"
+        description="Rent Rolls-Royce in Dubai Marina. Dawn convertible perfect for waterfront drives. Free delivery."
+        entityType="LocalBusiness"
+        primaryTopic="Rolls-Royce Rental Dubai Marina"
+        contentSummary="Luxury Rolls-Royce rental in Dubai Marina. Dawn convertible ideal for waterfront cruises. Free delivery to The Walk, JBR Beach, yacht clubs. All models available."
+        facts={['Free delivery to Dubai Marina', 'Dawn convertible for waterfront drives', 'Near The Walk and yacht clubs', '24/7 availability', 'Professional chauffeur included']}
+      />
+      <EntitySchema pageType="location" locationName="dubai-marina" />
       <Layout>
         {/* Hero Section */}
         <section className="relative h-screen flex items-center justify-center overflow-hidden">
@@ -378,10 +390,10 @@ export default function DubaiMarinaPage() {
             <div className="max-w-4xl mx-auto">
               <div className="bg-rolls-black/50 backdrop-blur-sm border border-rolls-gold/20 rounded-lg overflow-hidden">
                 <div className="grid grid-cols-4 gap-4 p-4 bg-rolls-gold/10 font-semibold text-white text-sm">
-                  <div>Club Name</div>
-                  <div>Type</div>
-                  <div>Feature</div>
-                  <div>Distance</div>
+                  <div>{t('ui.clubName')}</div>
+                  <div>{t('ui.type')}</div>
+                  <div>{t('ui.feature')}</div>
+                  <div>{t('ui.distance')}</div>
                 </div>
                 {beachClubs.map((club, index) => (
                   <motion.div

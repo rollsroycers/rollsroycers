@@ -2,6 +2,7 @@ import { GetStaticProps } from 'next'
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
 import { useTranslation } from 'next-i18next'
 import SEO from '@/components/SEO'
+import GEOOptimizer from '@/components/GEOOptimizer'
 import Image from 'next/image'
 import Link from 'next/link'
 import { motion } from 'framer-motion'
@@ -73,6 +74,23 @@ export default function BookingPage() {
   return (
     <>
       <SEO pageKey="other.booking" />
+      <GEOOptimizer
+        pageKey="other.booking"
+        title="Book Rolls-Royce Dubai Online 2026"
+        description="Book your Rolls-Royce in Dubai online. Instant confirmation, free cancellation up to 48 hours."
+        entityType="BookingService"
+        primaryTopic="Book Rolls-Royce Dubai"
+        contentSummary="Book your Rolls-Royce online at rollsroycers.com. Choose model, date, and services. Instant confirmation, free cancellation up to 48 hours. Free delivery within 15-30 minutes anywhere in Dubai."
+        howTo={{
+          name: 'How to Book a Rolls-Royce in Dubai',
+          steps: [
+            { name: 'Choose Your Model', text: 'Select from Phantom, Ghost, Cullinan, Dawn, or Wraith.' },
+            { name: 'Pick Your Dates', text: 'Select pickup date, time, and rental duration. Hourly, daily, weekly, or monthly.' },
+            { name: 'Add Services', text: 'Choose optional services: airport pickup, wedding decoration, photographer, custom itinerary.' },
+            { name: 'Confirm Booking', text: 'Review your booking and confirm. Instant confirmation via email and WhatsApp. Free cancellation up to 48 hours.' }
+          ]
+        }}
+      />
 
       <Layout>
         {/* Hero Section */}

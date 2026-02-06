@@ -1,7 +1,7 @@
 {
   "pages": {
     "home": {
-      "title": "Аренда Rolls-Royce в Дубае | Элитные автомобили с водителем | RR Dubai 2025",
+      "title": "Аренда Rolls-Royce в Дубае | Элитные автомобили с водителем | RR Dubai 2026",
       "description": "Возьмите в аренду эксклюзивный Rolls-Royce в Дубае. Наш автопарк включает Phantom, Cullinan, Ghost, Dawn и Wraith. Предлагаем услуги профессионального водителя, VIP-трансфер из аэропорта и автомобили для свадеб. Свяжитесь с нами 24/7 по телефону +971558164922 для бронирования.",
       "keywords": "аренда Rolls-Royce Дубай, прокат элитных авто Дубай, Rolls-Royce с водителем, аренда Phantom Дубай, Cullinan в аренду Дубай, VIP трансфер аэропорт Дубай, свадебный Rolls-Royce Дубай, прокат люксовых автомобилей",
       "aiKeywords": [
@@ -10,39 +10,85 @@
         "аренда люкс авто дубай",
         "rolls royce с водителем дубай",
         "услуги водителя rolls royce дубай"
+      ],
+      "longTailKeywords": [
+        "дешевая аренда роллс ройс дубай",
+        "арендовать роллс ройс на день дубай",
+        "роллс ройс с водителем цена за час дубай",
+        "аренда роллс ройс дубай без залога",
+        "аренда люкс авто рядом бурдж халифа",
+        "лучшая компания аренды роллс ройс дубай 2026",
+        "аренда роллс ройс для туриста дубай"
+      ],
+      "voiceSearchOptimized": [
+        "Сколько стоит аренда Роллс-Ройс в Дубае?",
+        "Где арендовать Роллс-Ройс рядом со мной?",
+        "Какой самый дешевый Роллс-Ройс в аренду?",
+        "Можно ли арендовать Роллс-Ройс на день?",
+        "Забронировать Роллс-Ройс с водителем в Дубае"
       ]
     },
     "fleet": {
       "index": {
         "title": "Роскошный автопарк Rolls-Royce в Дубае | Все модели | Phantom, Ghost, Cullinan",
         "description": "Откройте для себя наш полный парк Rolls-Royce в Дубае. Выбирайте из Phantom, Ghost, Cullinan, Dawn и Wraith. Профессиональный водитель, доступность 24/7. Лучшие цены от 3,800 AED/день. Посмотрите все модели, сравните характеристики и забронируйте мгновенно.",
-        "keywords": "автопарк rolls royce дубай, все модели rolls royce дубай, коллекция rolls royce дубай, парк люксовых авто дубай, phantom ghost cullinan дубай, парк аренды rolls royce, посмотреть все rolls royce дубай, сравнить модели rolls royce, аренда люкс парка дубай, шоурум rolls royce дубай"
+        "keywords": "автопарк rolls royce дубай, все модели rolls royce дубай, коллекция rolls royce дубай, парк люксовых авто дубай, phantom ghost cullinan дубай, парк аренды rolls royce, посмотреть все rolls royce дубай, сравнить модели rolls royce, аренда люкс парка дубай, шоурум rolls royce дубай",
+        "longTailKeywords": [
+          "все модели роллс ройс аренда дубай",
+          "сравнить цены роллс ройс дубай"
+        ],
+        "voiceSearchOptimized": [
+          "Покажите все модели Роллс-Ройс в Дубае",
+          "Какой Роллс-Ройс лучше арендовать?"
+        ],
+        "aiKeywords": [
+          "автопарк роллс ройс дубай",
+          "все модели аренда дубай",
+          "сравнение роллс ройс дубай"
+        ]
       },
       "phantom": {
-        "title": "Аренда Rolls-Royce Phantom Дубай 2025 | 5,800 AED/День | Лучший Люксовый Автомобиль | Сервис №1",
-        "description": "Арендуйте Rolls-Royce Phantom в Дубае от 5,800 AED/день с профессиональным водителем. Модель 2025 с удлиненной колесной базой, идеально для свадеб, VIP-трансферов и корпоративных мероприятий. ⭐ Рейтинг 4.9/5 из 1,247 отзывов. Бесплатная доставка, мгновенное бронирование, поддержка 24/7. Испытайте вершину роскоши - Забронируйте сейчас!",
-        "keywords": "аренда rolls royce phantom дубай, цена аренды rolls royce phantom дубай, phantom аренда дубай 2025, аренда люксовых авто дубай phantom, phantom с водителем дубай, rolls royce phantom свадебный автомобиль дубай, трансфер аэропорт phantom дубай, корпоративная аренда phantom дубай, vip phantom дубай, почасовая аренда phantom дубай, phantom удлиненная база дубай, лучшая аренда phantom дубай, услуги шофера phantom дубай, дневная аренда phantom дубай, месячная аренда phantom дубай",
-        "aiKeywords": [],
-        "longTailKeywords": [],
-        "voiceSearchOptimized": [],
-        "schema": {},
+        "title": "Аренда Rolls-Royce Phantom Дубай 2026 | 5,800 AED/День | Лучший Люксовый Автомобиль | Сервис №1",
+        "description": "Арендуйте Rolls-Royce Phantom в Дубае от 5,800 AED/день с профессиональным водителем. Модель 2026 с удлиненной колесной базой, идеально для свадеб, VIP-трансферов и корпоративных мероприятий. ⭐ Рейтинг 4.9/5 из 1,247 отзывов. Бесплатная доставка, мгновенное бронирование, поддержка 24/7. Испытайте вершину роскоши - Забронируйте сейчас!",
+        "keywords": "аренда rolls royce phantom дубай, цена аренды rolls royce phantom дубай, phantom аренда дубай 2026, аренда люксовых авто дубай phantom, phantom с водителем дубай, rolls royce phantom свадебный автомобиль дубай, трансфер аэропорт phantom дубай, корпоративная аренда phantom дубай, vip phantom дубай, почасовая аренда phantom дубай, phantom удлиненная база дубай, лучшая аренда phantom дубай, услуги шофера phantom дубай, дневная аренда phantom дубай, месячная аренда phantom дубай",
+        "aiKeywords": [
+          "аренда фантом дубай цена",
+          "фантом свадьба дубай",
+          "фантом с водителем дубай"
+        ],
+        "longTailKeywords": [
+          "белый фантом для свадьбы дубай",
+          "аренда фантом удлиненная база цена",
+          "фантом или майбах аренда дубай"
+        ],
+        "voiceSearchOptimized": [
+          "Сколько стоит Фантом в день в Дубае?",
+          "Есть белый Фантом для свадьбы?"
+        ],
+        "schema": {
+          "availability": "InStock",
+          "breadcrumb": "Home > Fleet > Rolls-Royce Phantom",
+          "priceRange": "AED 5,800 - 116,000",
+          "reviewCount": "1247",
+          "rating": "4.9"
+        },
         "og": {
-          "title": "Аренда Rolls-Royce Phantom Дубай 2025 | 5,800 AED/День | Лучший Люксовый Автомобиль | Сервис №1",
-          "description": "Арендуйте Rolls-Royce Phantom в Дубае от 5,800 AED/день с профессиональным водителем. Модель 2025 с удлиненной колесной базой, идеально для свадеб, VIP-трансферов и корпоративных мероприятий. ⭐ Рейтинг 4.9/5 из 1,247 отзывов. Бесплатная доставка, мгновенное бронирование, поддержка 24/7. Испытайте вершину роскоши - Забронируйте сейчас!",
-          "image": "https://www.rollsroycers.com/images/Rolls-royce-phantom.jpg",
-          "url": "https://www.rollsroycers.com/ru/fleet/phantom"
+          "title": "Аренда Rolls-Royce Phantom Дубай 2026 | 5,800 AED/День | Лучший Люксовый Автомобиль | Сервис №1",
+          "description": "Арендуйте Rolls-Royce Phantom в Дубае от 5,800 AED/день с профессиональным водителем. Модель 2026 с удлиненной колесной базой, идеально для свадеб, VIP-трансферов и корпоративных мероприятий. ⭐ Рейтинг 4.9/5 из 1,247 отзывов. Бесплатная доставка, мгновенное бронирование, поддержка 24/7. Испытайте вершину роскоши - Забронируйте сейчас!",
+          "image": "https://rollsroycers.com/images/Rolls-royce-phantom.jpg",
+          "url": "https://rollsroycers.com/ru/fleet/phantom"
         },
         "twitter": {
           "card": "summary_large_image",
-          "title": "Аренда Rolls-Royce Phantom Дубай 2025 | 5,800 AED/День | Лучший Люксовый Автомобиль | Сервис №1",
-          "description": "Арендуйте Rolls-Royce Phantom в Дубае от 5,800 AED/день с профессиональным водителем. Модель 2025 с удлиненной колесной базой, идеально для свадеб, VIP-трансферов и корпоративных мероприятий. ⭐ Рейтинг 4.9/5 из 1,247 отзывов. Бесплатная доставка, мгновенное бронирование, поддержка 24/7. Испытайте вершину роскоши - Забронируйте сейчас!",
-          "image": "https://www.rollsroycers.com/images/Rolls-royce-phantom.jpg"
+          "title": "Аренда Rolls-Royce Phantom Дубай 2026 | 5,800 AED/День | Лучший Люксовый Автомобиль | Сервис №1",
+          "description": "Арендуйте Rolls-Royce Phantom в Дубае от 5,800 AED/день с профессиональным водителем. Модель 2026 с удлиненной колесной базой, идеально для свадеб, VIP-трансферов и корпоративных мероприятий. ⭐ Рейтинг 4.9/5 из 1,247 отзывов. Бесплатная доставка, мгновенное бронирование, поддержка 24/7. Испытайте вершину роскоши - Забронируйте сейчас!",
+          "image": "https://rollsroycers.com/images/Rolls-royce-phantom.jpg"
         }
       },
       "ghost": {
-        "title": "Аренда Rolls-Royce Ghost 2025 в Дубае | Black Badge | от 3,800 AED/день",
-        "description": "Испытайте Rolls-Royce Ghost Series II 2025 года в Дубае. Революционная подвеска Planar, светящаяся приборная панель и бесшумный салон. Выберите стандартную версию или Black Badge. Идеально для встреч в DIFC, поездок по Марине или VIP-мероприятий. Включает профессионального водителя.",
-        "keywords": "аренда Rolls-Royce Ghost 2025 Дубай, аренда Ghost Black Badge Дубай, прокат Ghost Series II, аренда представительского седана Дубай Марина, бизнес-автомобиль DIFC, Ghost с водителем в центре, опыт светящейся панели Ghost, подвеска Planar",
+        "title": "Аренда Rolls-Royce Ghost 2026 в Дубае | Black Badge | от 3,800 AED/день",
+        "description": "Испытайте Rolls-Royce Ghost Series II 2026 года в Дубае. Революционная подвеска Planar, светящаяся приборная панель и бесшумный салон. Выберите стандартную версию или Black Badge. Идеально для встреч в DIFC, поездок по Марине или VIP-мероприятий. Включает профессионального водителя.",
+        "keywords": "аренда Rolls-Royce Ghost 2026 Дубай, аренда Ghost Black Badge Дубай, прокат Ghost Series II, аренда представительского седана Дубай Марина, бизнес-автомобиль DIFC, Ghost с водителем в центре, опыт светящейся панели Ghost, подвеска Planar",
         "aiKeywords": [
           "аренда rolls royce дубай",
           "прокат rolls royce дубай",
@@ -52,12 +98,21 @@
           "rolls royce ghost dubai",
           "ghost rental dubai",
           "rent ghost dubai"
+        ],
+        "longTailKeywords": [
+          "аренда гост блэк бэдж дубай",
+          "гост серия 2 цена за день",
+          "самая дешевая аренда гост дубай"
+        ],
+        "voiceSearchOptimized": [
+          "Сколько стоит Гост в день?",
+          "Есть Гост Блэк Бэдж в аренду?"
         ]
       },
       "cullinan": {
-        "title": "Аренда Rolls-Royce Cullinan 2025 в Дубае | Внедорожник Black Badge | от 4,500 AED",
-        "description": "Арендуйте величественный внедорожник Rolls-Royce Cullinan 2025 года в Дубае. Оцените Viewing Suite, внедорожные возможности и высочайший комфорт. Доступен в стандартной версии или Black Badge. Идеально для семейных поездок в Хатту, роскошных сафари по пустыне или круизов по Пальме Джумейра.",
-        "keywords": "аренда Rolls-Royce Cullinan 2025 Дубай, аренда внедорожника Cullinan Black Badge, аренда 7-местного внедорожника класса люкс Дубай, бронирование сафари на Cullinan, семейный автомобиль класса люкс JBR, опыт Viewing Suite Дубай, аренда внедорожника Rolls-Royce",
+        "title": "Аренда Rolls-Royce Cullinan 2026 в Дубае | Внедорожник Black Badge | от 4,500 AED",
+        "description": "Арендуйте величественный внедорожник Rolls-Royce Cullinan 2026 года в Дубае. Оцените Viewing Suite, внедорожные возможности и высочайший комфорт. Доступен в стандартной версии или Black Badge. Идеально для семейных поездок в Хатту, роскошных сафари по пустыне или круизов по Пальме Джумейра.",
+        "keywords": "аренда Rolls-Royce Cullinan 2026 Дубай, аренда внедорожника Cullinan Black Badge, аренда 7-местного внедорожника класса люкс Дубай, бронирование сафари на Cullinan, семейный автомобиль класса люкс JBR, опыт Viewing Suite Дубай, аренда внедорожника Rolls-Royce",
         "aiKeywords": [
           "аренда rolls royce дубай",
           "прокат rolls royce дубай",
@@ -67,12 +122,21 @@
           "rolls royce cullinan dubai",
           "cullinan rental dubai",
           "rent cullinan dubai"
+        ],
+        "longTailKeywords": [
+          "аренда куллинан внедорожник семейный дубай",
+          "куллинан сафари пустыня дубай",
+          "люкс внедорожник 7 мест аренда"
+        ],
+        "voiceSearchOptimized": [
+          "Сколько стоит Куллинан в аренду?",
+          "Подходит ли Куллинан для семей?"
         ]
       },
       "dawn": {
-        "title": "Аренда Rolls-Royce Dawn 2025 в Дубае | Роскошный кабриолет | 4,200 AED/день",
-        "description": "Насладитесь Rolls-Royce Dawn 2025 года, самым тихим кабриолетом в мире. Оцените бесшумный механизм крыши и аудиосистему на заказ. Идеально для поездок по пляжу JBR, романтических ужинов в Pierchic или круизов на закате к Бурдж-эль-Араб. Бронируйте с профессиональным водителем.",
-        "keywords": "кабриолет Rolls-Royce Dawn 2025 Дубай, аренда Dawn drophead Дубай Марина, роскошный кабриолет пляж JBR, бесшумный механизм крыши Dawn, аренда романтического автомобиля Дубай, поездка на закате Джумейра, бронирование Rolls-Royce с открытым верхом",
+        "title": "Аренда Rolls-Royce Dawn 2026 в Дубае | Роскошный кабриолет | 4,200 AED/день",
+        "description": "Насладитесь Rolls-Royce Dawn 2026 года, самым тихим кабриолетом в мире. Оцените бесшумный механизм крыши и аудиосистему на заказ. Идеально для поездок по пляжу JBR, романтических ужинов в Pierchic или круизов на закате к Бурдж-эль-Араб. Бронируйте с профессиональным водителем.",
+        "keywords": "кабриолет Rolls-Royce Dawn 2026 Дубай, аренда Dawn drophead Дубай Марина, роскошный кабриолет пляж JBR, бесшумный механизм крыши Dawn, аренда романтического автомобиля Дубай, поездка на закате Джумейра, бронирование Rolls-Royce с открытым верхом",
         "aiKeywords": [
           "аренда rolls royce дубай",
           "прокат rolls royce дубай",
@@ -82,12 +146,20 @@
           "rolls royce dawn dubai",
           "dawn rental dubai",
           "rent dawn dubai"
+        ],
+        "longTailKeywords": [
+          "аренда даун кабриолет дубай марина",
+          "роллс ройс кабриолет пляж джбр"
+        ],
+        "voiceSearchOptimized": [
+          "Сколько стоит Даун в аренду?",
+          "Арендовать кабриолет Роллс-Ройс"
         ]
       },
       "wraith": {
-        "title": "Аренда Rolls-Royce Wraith 2025 в Дубае | Купе 624 л.с. | от 4,000 AED",
-        "description": "Управляйте самым мощным Rolls-Royce - Wraith 2025 года с двигателем V12 мощностью 624 л.с. Оснащен спутниковой трансмиссией, потолком 'звездное небо' и характерным дизайном фастбэк. Идеально для круизов по Шейх Заед Роуд, встреч в Business Bay или эксклюзивных мероприятий.",
-        "keywords": "аренда Rolls-Royce Wraith 2025 Дубай, аренда купе Wraith Black Badge, автомобиль класса люкс 624 л.с. Дубай, аренда Rolls-Royce фастбэк, спутниковая трансмиссия Wraith, мощное купе Шейх Заед Роуд, аренда спортивного люкса в центре",
+        "title": "Аренда Rolls-Royce Wraith 2026 в Дубае | Купе 624 л.с. | от 4,000 AED",
+        "description": "Управляйте самым мощным Rolls-Royce - Wraith 2026 года с двигателем V12 мощностью 624 л.с. Оснащен спутниковой трансмиссией, потолком 'звездное небо' и характерным дизайном фастбэк. Идеально для круизов по Шейх Заед Роуд, встреч в Business Bay или эксклюзивных мероприятий.",
+        "keywords": "аренда Rolls-Royce Wraith 2026 Дубай, аренда купе Wraith Black Badge, автомобиль класса люкс 624 л.с. Дубай, аренда Rolls-Royce фастбэк, спутниковая трансмиссия Wraith, мощное купе Шейх Заед Роуд, аренда спортивного люкса в центре",
         "aiKeywords": [
           "аренда rolls royce дубай",
           "прокат rolls royce дубай",
@@ -97,6 +169,15 @@
           "rolls royce wraith dubai",
           "wraith rental dubai",
           "rent wraith dubai"
+        ],
+        "longTailKeywords": [
+          "аренда рейт купе дубай",
+          "самый быстрый роллс ройс аренда",
+          "рейт звездное небо дубай"
+        ],
+        "voiceSearchOptimized": [
+          "Сколько стоит Рейт в день?",
+          "Рейт самый быстрый Роллс-Ройс?"
         ]
       }
     },
@@ -114,6 +195,13 @@
           "rolls royce wedding dubai",
           "luxury wedding dubai",
           "vip wedding dubai"
+        ],
+        "longTailKeywords": [
+          "белый роллс ройс для свадьбы дубай",
+          "свадебный пакет люкс авто дубай 2026"
+        ],
+        "voiceSearchOptimized": [
+          "Сколько стоит свадебный Роллс-Ройс?"
         ]
       },
       "corporate": {
@@ -129,6 +217,13 @@
           "rolls royce corporate dubai",
           "luxury corporate dubai",
           "vip corporate dubai"
+        ],
+        "longTailKeywords": [
+          "корпоративный пакет роллс ройс месячный",
+          "транспорт для руководителя дубай"
+        ],
+        "voiceSearchOptimized": [
+          "Есть корпоративные пакеты?"
         ]
       },
       "airport-transfer": {
@@ -144,6 +239,13 @@
           "rolls royce airport-transfer dubai",
           "luxury airport-transfer dubai",
           "vip airport-transfer dubai"
+        ],
+        "longTailKeywords": [
+          "трансфер аэропорт роллс ройс дубай",
+          "вип встреча аэропорт дубай"
+        ],
+        "voiceSearchOptimized": [
+          "Забронировать трансфер из аэропорта"
         ]
       },
       "chauffeur": {
@@ -159,6 +261,13 @@
           "rolls royce chauffeur dubai",
           "luxury chauffeur dubai",
           "vip chauffeur dubai"
+        ],
+        "longTailKeywords": [
+          "водитель роллс ройс почасовая дубай",
+          "русскоговорящий водитель роллс ройс"
+        ],
+        "voiceSearchOptimized": [
+          "Сколько стоит водитель в час?"
         ]
       },
       "events": {
@@ -174,6 +283,13 @@
           "rolls royce events dubai",
           "luxury events dubai",
           "vip events dubai"
+        ],
+        "longTailKeywords": [
+          "роллс ройс для гала ужина дубай",
+          "автопарк люкс для мероприятия"
+        ],
+        "voiceSearchOptimized": [
+          "Забронировать Роллс-Ройс для мероприятия"
         ]
       },
       "photoshoot": {
@@ -189,6 +305,13 @@
           "rolls royce photoshoot dubai",
           "luxury photoshoot dubai",
           "vip photoshoot dubai"
+        ],
+        "longTailKeywords": [
+          "роллс ройс для фотосессии инстаграм дубай",
+          "аренда для клипа дубай"
+        ],
+        "voiceSearchOptimized": [
+          "Сколько стоит аренда для фотосессии?"
         ]
       },
       "tours": {
@@ -204,6 +327,13 @@
           "rolls royce tours dubai",
           "luxury tours dubai",
           "vip tours dubai"
+        ],
+        "longTailKeywords": [
+          "частный тур дубай на роллс ройс",
+          "экскурсия дубай люкс с водителем"
+        ],
+        "voiceSearchOptimized": [
+          "Забронировать тур по Дубаю на Роллс-Ройс"
         ]
       }
     },
@@ -221,6 +351,12 @@
           "rolls royce downtown-dubai",
           "luxury car rental downtown-dubai",
           "chauffeur service downtown-dubai"
+        ],
+        "longTailKeywords": [
+          "аренда роллс ройс рядом бурдж халифа"
+        ],
+        "voiceSearchOptimized": [
+          "Доставить Роллс-Ройс в Даунтаун Дубай"
         ]
       },
       "dubai-marina": {
@@ -236,6 +372,12 @@
           "rolls royce dubai-marina",
           "luxury car rental dubai-marina",
           "chauffeur service dubai-marina"
+        ],
+        "longTailKeywords": [
+          "аренда кабриолет дубай марина"
+        ],
+        "voiceSearchOptimized": [
+          "Арендовать Роллс-Ройс в Дубай Марине"
         ]
       },
       "palm-jumeirah": {
@@ -251,6 +393,12 @@
           "rolls royce palm-jumeirah",
           "luxury car rental palm-jumeirah",
           "chauffeur service palm-jumeirah"
+        ],
+        "longTailKeywords": [
+          "доставка роллс ройс атлантис палм"
+        ],
+        "voiceSearchOptimized": [
+          "Доставить Роллс-Ройс на Палм Джумейра"
         ]
       },
       "business-bay": {
@@ -266,6 +414,12 @@
           "rolls royce business-bay",
           "luxury car rental business-bay",
           "chauffeur service business-bay"
+        ],
+        "longTailKeywords": [
+          "роллс ройс бизнес бей корпоративный"
+        ],
+        "voiceSearchOptimized": [
+          "Аренда в Бизнес Бей"
         ]
       },
       "jbr": {
@@ -281,6 +435,12 @@
           "rolls royce jbr",
           "luxury car rental jbr",
           "chauffeur service jbr"
+        ],
+        "longTailKeywords": [
+          "аренда роллс ройс джбр пляж"
+        ],
+        "voiceSearchOptimized": [
+          "Арендовать на JBR"
         ]
       },
       "difc": {
@@ -296,6 +456,12 @@
           "rolls royce difc",
           "luxury car rental difc",
           "chauffeur service difc"
+        ],
+        "longTailKeywords": [
+          "аренда роллс ройс дифк финансовый"
+        ],
+        "voiceSearchOptimized": [
+          "Аренда в DIFC"
         ]
       }
     },
@@ -303,72 +469,330 @@
       "about": {
         "title": "О Rolls-Royce Dubai | Аренда люксовых авто с 2010 года | Наша история",
         "description": "Ведущая компания по аренде Rolls-Royce в Дубае с 2010 года. Более 50 люксовых автомобилей, свыше 10 000 довольных клиентов и отмеченный наградами сервис. Узнайте больше о нашем пути.",
-        "keywords": "о Rolls-Royce Dubai, компания по аренде люксовых авто, история аренды автомобилей в Дубае, премиальный сервис аренды, основана в 2010 году"
+        "keywords": "о Rolls-Royce Dubai, компания по аренде люксовых авто, история аренды автомобилей в Дубае, премиальный сервис аренды, основана в 2010 году",
+        "longTailKeywords": [
+          "о компании роллс ройсерз дубай"
+        ],
+        "voiceSearchOptimized": [
+          "Расскажите о компании"
+        ],
+        "aiKeywords": [
+          "компания роллс ройсерз дубай",
+          "аренда люкс авто компания дубай"
+        ]
       },
       "contact": {
         "title": "Контакты Rolls-Royce Dubai | Поддержка 24/7 | WhatsApp +971558164922",
         "description": "Свяжитесь с нами для аренды Rolls-Royce в Дубае. Звоните по номеру +971558164922, пишите в WhatsApp. Наш шоурум находится в Даунтаун Дубай. Мгновенные расчеты и круглосуточная поддержка клиентов.",
-        "keywords": "контакты Rolls-Royce Dubai, телефон аренды люксовых авто, бронирование авто через WhatsApp, расположение шоурума в Дубае, поддержка 24/7"
+        "keywords": "контакты Rolls-Royce Dubai, телефон аренды люксовых авто, бронирование авто через WhatsApp, расположение шоурума в Дубае, поддержка 24/7",
+        "longTailKeywords": [
+          "связаться аренда роллс ройс дубай ватсап"
+        ],
+        "voiceSearchOptimized": [
+          "Позвоните в Роллс Ройсерз Дубай"
+        ],
+        "aiKeywords": [
+          "контакты роллс ройсерз дубай"
+        ]
       },
       "gallery": {
         "title": "Галерея Rolls-Royce Dubai | Фото и видео нашего автопарка | Виртуальный тур",
         "description": "Ознакомьтесь с нашей галереей коллекции Rolls-Royce. Фотографии высокого разрешения, обзоры 360°, детали интерьера и видео-туры. Посмотрите наш роскошный автопарк перед бронированием.",
-        "keywords": "галерея Rolls-Royce Dubai, фото люксовых авто, изображения автопарка в Дубае, видео Rolls-Royce, виртуальный тур по автомобилю"
+        "keywords": "галерея Rolls-Royce Dubai, фото люксовых авто, изображения автопарка в Дубае, видео Rolls-Royce, виртуальный тур по автомобилю",
+        "longTailKeywords": [
+          "фото автопарка роллс ройс дубай"
+        ],
+        "voiceSearchOptimized": [
+          "Покажите фото автопарка"
+        ],
+        "aiKeywords": [
+          "фото роллс ройс дубай",
+          "галерея люкс авто"
+        ]
       },
       "testimonials": {
         "title": "Отзывы аренда Rolls-Royce Дубай | Лучшее место для аренды | 5 звезд",
         "description": "Читайте отзывы перед арендой Rolls-Royce в Дубае. Лучшее место для аренды Rolls-Royce с 1200+ проверенными отзывами. Смотрите почему мы №1 в аренде люксовых авто.",
-        "keywords": "отзывы аренда Rolls-Royce Дубай, лучшее место арендовать Rolls-Royce Дубай, отзывы об аренде Rolls-Royce, отзывы клиентов Дубай, 5-звездочная аренда люксовых авто"
+        "keywords": "отзывы аренда Rolls-Royce Дубай, лучшее место арендовать Rolls-Royce Дубай, отзывы об аренде Rolls-Royce, отзывы клиентов Дубай, 5-звездочная аренда люксовых авто",
+        "longTailKeywords": [
+          "отзывы аренда роллс ройс дубай"
+        ],
+        "voiceSearchOptimized": [
+          "Что говорят клиенты?"
+        ],
+        "aiKeywords": [
+          "отзывы аренда роллс ройс",
+          "рейтинг роллс ройсерз"
+        ]
       },
       "pricing": {
         "title": "Аренда Роллс-Ройс Дубай Цены | Стоимость Проката | От 3,800 AED",
         "description": "Узнайте стоимость аренды Роллс-Ройс в Дубае. Сравните цены на Phantom, Ghost, Cullinan. Выгодные дневные тарифы, почасовая аренда. Мгновенные онлайн-расчеты.",
-        "keywords": "аренда Роллс-Ройс Дубай цена, стоимость проката Роллс-Ройс Дубай, сколько стоит арендовать Роллс-Ройс Дубай, дешевая аренда Роллс-Ройс Дубай, почасовая аренда Роллс-Ройс Дубай, тарифы люкс авто"
+        "keywords": "аренда Роллс-Ройс Дубай цена, стоимость проката Роллс-Ройс Дубай, сколько стоит арендовать Роллс-Ройс Дубай, дешевая аренда Роллс-Ройс Дубай, почасовая аренда Роллс-Ройс Дубай, тарифы люкс авто",
+        "longTailKeywords": [
+          "прайс лист роллс ройс дубай 2026"
+        ],
+        "voiceSearchOptimized": [
+          "Какие цены на аренду?"
+        ],
+        "aiKeywords": [
+          "цены аренда роллс ройс дубай 2026",
+          "стоимость в день роллс ройс"
+        ]
       },
       "faq": {
-        "title": "Как и Где Арендовать Роллс-Ройс в Дубае | Могу ли Арендовать? | FAQ 2025",
+        "title": "Как и Где Арендовать Роллс-Ройс в Дубае | Могу ли Арендовать? | FAQ 2026",
         "description": "Узнайте как арендовать Роллс-Ройс в Дубае, где арендовать рядом со мной, требования и процесс. Можно ли арендовать Роллс-Ройс без водителя? Все вопросы с ответами.",
-        "keywords": "как арендовать Роллс-Ройс Дубай, где арендовать Роллс-Ройс Дубай, могу ли арендовать Роллс-Ройс Дубай, аренда Роллс-Ройс рядом Дубай, аренда без водителя Дубай"
+        "keywords": "как арендовать Роллс-Ройс Дубай, где арендовать Роллс-Ройс Дубай, могу ли арендовать Роллс-Ройс Дубай, аренда Роллс-Ройс рядом Дубай, аренда без водителя Дубай",
+        "longTailKeywords": [
+          "часто задаваемые вопросы аренда дубай"
+        ],
+        "voiceSearchOptimized": [
+          "Что нужно для аренды?"
+        ],
+        "aiKeywords": [
+          "часто задаваемые вопросы аренда",
+          "вопросы ответы люкс авто дубай"
+        ]
       },
       "blog": {
         "title": "Блог Роллс-Ройс Дубай | Роскошный Образ Жизни, Советы и Гиды",
         "description": "Инсайты о роскошных автомобилях, гиды по вождению в Дубае, новости Роллс-Ройс, освещение событий и аренда знаменитостей. Ваш гид по роскошным автомобилям в Дубае.",
-        "keywords": "блог Роллс-Ройс Дубай, статьи о роскошных автомобилях, советы по вождению в Дубае, автомобильные новости, блог роскошного образа жизни"
+        "keywords": "блог Роллс-Ройс Дубай, статьи о роскошных автомобилях, советы по вождению в Дубае, автомобильные новости, блог роскошного образа жизни",
+        "longTailKeywords": [
+          "блог аренда роллс ройс дубай советы"
+        ],
+        "voiceSearchOptimized": [
+          "Читать блог Роллс-Ройс Дубай"
+        ],
+        "aiKeywords": [
+          "блог роллс ройс дубай",
+          "советы аренда люкс"
+        ]
       },
       "booking": {
-        "title": "Арендовать Rolls-Royce Дубай онлайн 2025 | Забронировать сейчас | Мгновенное подтверждение",
-        "description": "Арендовать Rolls-Royce Дубай онлайн с мгновенным бронированием. Лучшие цены 2025, доступность в реальном времени. Забронируйте Phantom, Ghost, Cullinan онлайн. Безопасная оплата, поддержка 24/7.",
-        "keywords": "арендовать Rolls-Royce Дубай онлайн, забронировать Rolls-Royce онлайн Дубай 2025, онлайн аренда Rolls-Royce Дубай, мгновенное бронирование Дубай, арендовать люксовое авто онлайн"
+        "title": "Арендовать Rolls-Royce Дубай онлайн 2026 | Забронировать сейчас | Мгновенное подтверждение",
+        "description": "Арендовать Rolls-Royce Дубай онлайн с мгновенным бронированием. Лучшие цены 2026, доступность в реальном времени. Забронируйте Phantom, Ghost, Cullinan онлайн. Безопасная оплата, поддержка 24/7.",
+        "keywords": "арендовать Rolls-Royce Дубай онлайн, забронировать Rolls-Royce онлайн Дубай 2026, онлайн аренда Rolls-Royce Дубай, мгновенное бронирование Дубай, арендовать люксовое авто онлайн",
+        "longTailKeywords": [
+          "забронировать роллс ройс онлайн дубай"
+        ],
+        "voiceSearchOptimized": [
+          "Забронировать Роллс-Ройс сейчас"
+        ],
+        "aiKeywords": [
+          "забронировать роллс ройс онлайн",
+          "мгновенное бронирование люкс авто"
+        ]
       },
       "privacy": {
         "title": "Политика конфиденциальности | Rolls-Royce Dubai | Защита и безопасность данных",
         "description": "Политика конфиденциальности Rolls-Royce Dubai. Как мы защищаем ваши данные, используем информацию и обеспечиваем безопасность. Соответствие GDPR и прозрачные методы работы.",
-        "keywords": "политика конфиденциальности Rolls-Royce Dubai, защита данных, соответствие GDPR, информационная безопасность, конфиденциальность при аренде"
+        "keywords": "политика конфиденциальности Rolls-Royce Dubai, защита данных, соответствие GDPR, информационная безопасность, конфиденциальность при аренде",
+        "longTailKeywords": [
+          "политика конфиденциальности роллс ройсерз"
+        ],
+        "voiceSearchOptimized": [],
+        "aiKeywords": [
+          "политика конфиденциальности роллс ройсерз"
+        ]
       },
       "terms": {
         "title": "Условия и положения | Договор аренды Rolls-Royce Dubai | Правила",
         "description": "Условия аренды Rolls-Royce в Дубае. Возрастные требования, страхование, депозиты, правила использования и ответственность за ущерб. Пожалуйста, ознакомьтесь перед бронированием.",
-        "keywords": "условия Rolls-Royce Dubai, договор аренды, правила аренды авто, условия использования, страховая ответственность"
+        "keywords": "условия Rolls-Royce Dubai, договор аренды, правила аренды авто, условия использования, страховая ответственность",
+        "longTailKeywords": [
+          "условия аренды роллс ройсерз"
+        ],
+        "voiceSearchOptimized": [],
+        "aiKeywords": [
+          "условия аренда роллс ройс"
+        ]
       },
       "cookie-policy": {
-        "title": "Политика использования файлов cookie | Rolls-Royce Dubai | Конфиденциальность данных 2025",
+        "title": "Политика использования файлов cookie | Rolls-Royce Dubai | Конфиденциальность данных 2026",
         "description": "Политика использования файлов cookie Rolls-Royce Dubai. Как мы используем cookie, типы cookie, сторонние cookie, управление настройками. Прозрачные практики работы с данными, соответствие GDPR. Ваша конфиденциальность важна для нас.",
-        "keywords": "политика cookie rolls royce dubai, файлы cookie сайта, конфиденциальность данных, соответствие gdpr, согласие на cookie, сторонние cookie, настройки конфиденциальности, настройки браузера, управление cookie, защита данных"
+        "keywords": "политика cookie rolls royce dubai, файлы cookie сайта, конфиденциальность данных, соответствие gdpr, согласие на cookie, сторонние cookie, настройки конфиденциальности, настройки браузера, управление cookie, защита данных",
+        "longTailKeywords": [
+          "политика файлов cookie"
+        ],
+        "voiceSearchOptimized": [],
+        "aiKeywords": [
+          "политика cookie роллс ройсерз"
+        ]
+      },
+      "locations": {
+        "longTailKeywords": [
+          "rolls royce delivery locations dubai all areas",
+          "where does rolls roycers deliver in dubai",
+          "rolls royce rental areas coverage dubai"
+        ],
+        "palm": {
+          "keywords": "rolls royce palm jumeirah, atlantis car service dubai, palm island luxury transport, the pointe chauffeur service, nakheel mall transport, palm west beach car, one and only palm rolls royce, luxury island transport dubai",
+          "title": "Rolls-Royce Palm Jumeirah | Atlantis & Luxury Resort Service | Island Transport",
+          "description": "Premium Rolls-Royce service on Palm Jumeirah. Perfect for Atlantis events, beach clubs, luxury resorts. Exclusive island transportation with professional chauffeurs. Book Palm luxury service."
+        },
+        "businessBay": {
+          "keywords": "rolls royce business bay, dubai canal car service, business bay chauffeur, corporate transport dubai, executive towers car service, bay avenue luxury transport, jw marriott marquis rolls royce, business district car dubai",
+          "title": "Business Bay Rolls-Royce Service | Corporate Transport | Dubai Canal",
+          "description": "Professional Rolls-Royce service in Business Bay. Ideal for corporate meetings, Dubai Canal views, executive towers. 5km from Downtown, quick business transport. Book corporate luxury service."
+        },
+        "difc": {
+          "description": "Elite Rolls-Royce service in Dubai International Financial Centre. Essential for banking executives, Gate Building meetings, Emirates Towers. Premium financial district transport.",
+          "title": "DIFC Rolls-Royce Service | Financial District Transport | Gate Building",
+          "keywords": "rolls royce difc, dubai financial centre car, gate building chauffeur, emirates towers transport, difc art nights car, gate avenue luxury, financial district rolls royce, banking executive transport dubai"
+        },
+        "downtown": {
+          "description": "Premium Rolls-Royce service in Downtown Dubai. Perfect for Burj Khalifa visits, Dubai Mall shopping, Dubai Fountain shows. Professional chauffeurs, instant availability. Central location service from AED 250.",
+          "keywords": "rolls royce downtown dubai, burj khalifa car service, dubai mall chauffeur, downtown dubai luxury car, dubai fountain transport, souk al bahar rolls royce, dubai opera car service, downtown dubai vip transport",
+          "title": "Rolls-Royce Downtown Dubai | Burj Khalifa & Dubai Mall Service | Book Now"
+        },
+        "main": {
+          "description": "Premium Rolls-Royce service across all Dubai locations. From Downtown Dubai to Palm Jumeirah, Dubai Marina to DIFC. Quick 15-minute response time, 24/7 availability. Book luxury car service from any location +971558164922.",
+          "keywords": "rolls royce locations dubai, luxury car service downtown dubai, rolls royce marina dubai, palm jumeirah car service, business bay chauffeur, jbr luxury transport, difc executive car, dubai service areas, rolls royce near me, luxury car coverage dubai",
+          "title": "Rolls-Royce Service Locations Dubai | Downtown, Marina, Palm | 24/7 Coverage"
+        },
+        "aiKeywords": [
+          "rolls royce delivery dubai locations",
+          "dubai areas luxury car rental",
+          "rolls royce coverage map dubai"
+        ],
+        "voiceSearchOptimized": [
+          "Where do you deliver in Dubai?",
+          "Which areas can I get a Rolls-Royce delivered?"
+        ],
+        "marina": {
+          "keywords": "rolls royce dubai marina, marina walk car service, dubai marina chauffeur, pier 7 luxury transport, yacht club car service, marina mall transport, waterfront luxury car dubai, marina beach rolls royce",
+          "description": "Exclusive Rolls-Royce service in Dubai Marina. Ideal for Marina Walk, yacht club events, waterfront dining at Pier 7. 25km from Downtown, professional drivers. Book Marina luxury transport.",
+          "title": "Rolls-Royce Dubai Marina | Waterfront Luxury Service | Marina Walk & JBR"
+        },
+        "jbr": {
+          "keywords": "rolls royce jbr dubai, the walk car service, jbr beach chauffeur, ain dubai transport, bluewaters island car, the beach jbr luxury, roxy cinema transport, beachfront rolls royce dubai",
+          "description": "Luxury Rolls-Royce service at JBR and The Walk. Perfect for beach events, Ain Dubai visits, Bluewaters Island. Beachfront premium transportation. Book JBR luxury car service.",
+          "title": "JBR Rolls-Royce Service | The Walk & Beach | Ain Dubai Transport"
+        }
+      },
+      "services": {
+        "tours": {
+          "description": "Explore Dubai in ultimate luxury with Rolls-Royce tours. Custom itineraries, professional guides, premium refreshments. Visit Burj Khalifa, Palm Jumeirah, Dubai Marina. From AED 4,000. Full day and half-day tours available.",
+          "title": "Luxury Tours Dubai | Rolls-Royce City Tours | Custom Itineraries",
+          "keywords": "luxury tours dubai, rolls royce tour dubai, private tour dubai, city tour rolls royce, dubai sightseeing luxury car, vip tour dubai, custom tour dubai, guided tour rolls royce, premium tour service dubai, exclusive dubai tours"
+        },
+        "corporate": {
+          "keywords": "corporate car service dubai, executive car rental dubai, business car hire dubai, rolls royce corporate dubai, company car service dubai, ceo car rental dubai, board meeting transportation dubai, roadshow car service dubai, conference transportation dubai, vip business car dubai",
+          "description": "Elevate your business with corporate Rolls-Royce services in Dubai. Executive packages from AED 1,200/day. Professional chauffeurs, flexible scheduling, corporate billing. Trusted by 500+ companies including Emirates NBD, DAMAC. 24/7 support.",
+          "title": "Corporate Rolls-Royce Service Dubai | Executive Car Rental | Business Packages"
+        },
+        "chauffeur": {
+          "keywords": "chauffeur service dubai, rolls royce with driver dubai, hourly chauffeur dubai, daily driver service dubai, professional driver dubai, luxury chauffeur service, multilingual chauffeur dubai, personal driver dubai, private chauffeur dubai, vip driver service dubai",
+          "title": "Professional Chauffeur Service Dubai | Rolls-Royce with Driver | Hourly & Daily",
+          "description": "Elite chauffeur service with Rolls-Royce in Dubai. From AED 800/hour. 500+ professional multilingual drivers, 24/7 availability. Hourly, daily, or custom arrangements. Perfect for shopping, business meetings, city tours. Book now."
+        },
+        "main": {
+          "description": "Premium Rolls-Royce services in Dubai. Wedding cars from AED 2,500, corporate packages from AED 1,200/day, airport transfers 24/7. Professional chauffeurs, 10,000+ satisfied clients. Book luxury car services online or call +971558164922.",
+          "title": "Rolls-Royce Services Dubai | Wedding, Corporate, Airport Transfer | Best Prices 2026",
+          "keywords": "rolls royce services dubai, luxury car services dubai, wedding car rental dubai, corporate car service dubai, airport transfer dubai, chauffeur service dubai, event transportation dubai, photoshoot car rental dubai, luxury tours dubai, rolls royce with driver dubai, vip car service dubai, executive car rental dubai"
+        },
+        "photoshoot": {
+          "title": "Rolls-Royce Photoshoot & Film Dubai | Commercial Shoots | From AED 5,000",
+          "keywords": "rolls royce photoshoot dubai, car rental for photoshoot dubai, film car rental dubai, commercial shoot car dubai, fashion photoshoot car dubai, music video car rental dubai, media production car dubai, luxury car photoshoot, photography car rental dubai, rolls royce filming dubai",
+          "description": "Premium Rolls-Royce vehicles for photoshoots and filming in Dubai. Perfect for fashion, commercials, music videos. Multiple locations, permit assistance, vehicle styling. From AED 5,000. Professional support for media productions."
+        },
+        "airportTransfer": {
+          "title": "Rolls-Royce Airport Transfer Dubai | DXB DWC AUH | 24/7 Service",
+          "keywords": "rolls royce airport transfer dubai, luxury airport transfer dubai, dxb airport transfer rolls royce, dwc airport transfer, abu dhabi airport transfer, vip airport service dubai, chauffeur airport transfer, meet and greet dubai airport, private airport transfer dubai, executive airport service dubai",
+          "description": "Premium Rolls-Royce airport transfer service in Dubai. From AED 1,200 to DXB, DWC, AUH airports. Meet & greet, flight tracking, 60 min free waiting. Professional chauffeurs, fixed prices. Book luxury airport transfer +971558164922."
+        },
+        "wedding": {
+          "description": "Make your wedding unforgettable with Rolls-Royce wedding cars in Dubai. White Phantom & Ghost with decoration, red carpet service. Professional chauffeur in formal attire. Book the perfect wedding car from AED 2,500. Free consultation +971558164922.",
+          "title": "Rolls-Royce Wedding Car Dubai | White Phantom & Ghost | From AED 2,500",
+          "keywords": "rolls royce wedding car dubai, white rolls royce rental dubai, wedding car hire dubai, phantom wedding car dubai, ghost wedding car dubai, luxury wedding transportation dubai, bridal car dubai, wedding car with decoration dubai, red carpet car service dubai, just married car dubai"
+        },
+        "voiceSearchOptimized": [
+          "What services does Rolls Roycers offer?",
+          "List all Rolls-Royce services in Dubai"
+        ],
+        "events": {
+          "description": "Make a grand entrance with Rolls-Royce event transportation in Dubai. Perfect for galas, premieres, fashion shows, awards ceremonies. Red carpet service, event coordination. From AED 3,000. Professional chauffeurs in formal attire.",
+          "keywords": "event transportation dubai, gala car service dubai, premiere car rental dubai, red carpet car service dubai, fashion show transportation dubai, awards ceremony car dubai, vip event transport dubai, luxury event car dubai, special occasion car rental dubai, rolls royce events dubai",
+          "title": "Event Transportation Dubai | Rolls-Royce for Galas & Premieres | Red Carpet Service"
+        },
+        "aiKeywords": [
+          "rolls royce services dubai",
+          "luxury car rental services",
+          "chauffeur wedding corporate tour dubai"
+        ],
+        "longTailKeywords": [
+          "all rolls royce services dubai 2026",
+          "luxury car services dubai complete list",
+          "rolls royce rental service options"
+        ]
+      },
+      "compare": {
+        "aiKeywords": [
+          "luxury car comparison dubai",
+          "rolls royce vs competitors rental",
+          "best luxury car to rent dubai"
+        ],
+        "phantom_vs_maybach": {
+          "og_title": "Phantom vs Maybach: The Ultimate Luxury Comparison in Dubai",
+          "title": "Rolls-Royce Phantom vs Mercedes-Maybach 2026 | Dubai Luxury Car Comparison",
+          "aiKeywords": [
+            "phantom vs maybach",
+            "rolls royce vs mercedes maybach",
+            "luxury car comparison dubai",
+            "phantom maybach rental",
+            "ultra luxury sedan dubai",
+            "phantom or maybach",
+            "british vs german luxury car",
+            "best luxury car dubai"
+          ],
+          "keywords": "rolls royce phantom vs maybach dubai, phantom maybach comparison, luxury car comparison dubai, phantom vs maybach s class, which is better phantom or maybach, rolls royce vs mercedes maybach price, phantom maybach rental dubai, ultra luxury sedan comparison, british vs german luxury, phantom or maybach for wedding",
+          "description": "Compare Rolls-Royce Phantom vs Mercedes-Maybach S-Class in Dubai. Detailed comparison of features, performance, luxury, and rental prices. Phantom from AED 3,500/day vs Maybach from AED 3,000/day. Which ultra-luxury sedan is right for you?",
+          "og_description": "Detailed comparison of Rolls-Royce Phantom and Mercedes-Maybach S-Class. Performance, luxury, technology, and pricing compared. Book your preferred ultra-luxury sedan in Dubai."
+        },
+        "voiceSearchOptimized": [
+          "Compare Rolls-Royce with other luxury cars in Dubai"
+        ],
+        "longTailKeywords": [
+          "compare rolls royce with luxury cars dubai",
+          "rolls royce vs bentley vs ferrari dubai rental"
+        ]
       }
     },
     "compare": {
       "index": {
-        "title": "Сравнение Роскошных Автомобилей Дубай 2025 | Rolls-Royce против Bentley, Ferrari, Mercedes",
+        "title": "Сравнение Роскошных Автомобилей Дубай 2026 | Rolls-Royce против Bentley, Ferrari, Mercedes",
         "description": "Сравните Rolls-Royce с Bentley, Ferrari, Mercedes и Maybach в Дубае. Комплексные сравнения роскошных автомобилей, охватывающие производительность, комфорт, технологии, наследие и ценность. Экспертный анализ, чтобы помочь вам выбрать идеальную роскошную аренду.",
-        "keywords": "сравнение роскошных автомобилей дубай, rolls royce против bentley, rolls royce против ferrari, rolls royce против mercedes, сравнение роскошных автомобилей дубай, phantom против maybach, сравнение роскошной аренды, руководство по сравнению автомобилей дубай, лучший роскошный автомобиль дубай, экспертное сравнение автомобилей"
+        "keywords": "сравнение роскошных автомобилей дубай, rolls royce против bentley, rolls royce против ferrari, rolls royce против mercedes, сравнение роскошных автомобилей дубай, phantom против maybach, сравнение роскошной аренды, руководство по сравнению автомобилей дубай, лучший роскошный автомобиль дубай, экспертное сравнение автомобилей",
+        "longTailKeywords": [
+          "сравнить люкс авто аренда дубай"
+        ],
+        "voiceSearchOptimized": [
+          "Сравнить Роллс-Ройс с другими"
+        ],
+        "aiKeywords": [
+          "сравнить люкс авто дубай",
+          "роллс ройс против других марок"
+        ]
       },
       "rolls-royce-vs-bentley": {
         "title": "Сравнение Роллс-Ройс против Бентли Дубай | Гид по Аренде Роскошных Автомобилей",
         "description": "Сравните роскошные автомобили Роллс-Ройс против Бентли в Дубае. Подробное сравнение функций, производительности, наследия и цен аренды, чтобы помочь вам выбрать.",
-        "keywords": "Роллс Ройс против Бентли, сравнение роскошных автомобилей Дубай, Фантом против Мульсан, Гост против Флайинг Спур, Куллинан против Бентайга"
+        "keywords": "Роллс Ройс против Бентли, сравнение роскошных автомобилей Дубай, Фантом против Мульсан, Гост против Флайинг Спур, Куллинан против Бентайга",
+        "longTailKeywords": [
+          "роллс ройс или бентли аренда цена"
+        ],
+        "voiceSearchOptimized": [
+          "Роллс-Ройс или Бентли?"
+        ],
+        "aiKeywords": [
+          "роллс ройс против бентли дубай",
+          "фантом против флаинг спер"
+        ]
       },
       "rolls-royce-vs-mercedes": {
-        "title": "Роллс-Ройс против Мерседес-Бенц Дубай 2025 | Окончательное Сравнение Роскоши | Британский против Немецкого",
+        "title": "Роллс-Ройс против Мерседес-Бенц Дубай 2026 | Окончательное Сравнение Роскоши | Британский против Немецкого",
         "description": "Сравните Роллс-Ройс против Мерседес-Бенц в Дубае. Фантом против Майбах S-Класс, Гост против S-Класс, Куллинан против GLS. Британское индивидуальное мастерство встречается с немецким инженерным совершенством. Экспертное руководство по сравнению с ценами, характеристиками, технологиями.",
         "keywords": "роллс ройс против мерседес дубай, сравнение роскошных автомобилей дубай, фантом против майбах дубай, гост против s класс дубай, куллинан против gls дубай, британская против немецкой роскоши, сравнение аренды дубай, мерседес майбах против роллс ройс, руководство по выбору роскоши дубай, экспертный обзор сравнения",
         "aiKeywords": [
@@ -380,6 +804,12 @@
           "сравнение аренды роскошных автомобилей дубай",
           "майбах против роллс ройс дубай",
           "лучший роскошный автомобиль дубай"
+        ],
+        "longTailKeywords": [
+          "фантом или майбах с класс аренда"
+        ],
+        "voiceSearchOptimized": [
+          "Роллс-Ройс или Мерседес Майбах?"
         ]
       }
     },
@@ -394,11 +824,16 @@
       "title": "Блог Роллс-Ройс Дубай | Роскошный Образ Жизни, Советы и Гиды",
       "description": "Инсайты о роскошных автомобилях, гиды по вождению в Дубае, новости Роллс-Ройс, освещение событий и аренда знаменитостей. Ваш гид по роскошным автомобилям в Дубае.",
       "keywords": "блог Роллс-Ройс Дубай, статьи о роскошных автомобилях, советы по вождению в Дубае, автомобильные новости, блог роскошного образа жизни"
+    },
+    "dubai-luxury-car-guide-2026": {
+      "title": "2026 Dubai Luxury Car Guide: Rolls-Royce vs Bentley, Ferrari, Lamborghini | Best Rental Comparison",
+      "description": "Ultimate 2026 Dubai luxury car rental guide. Compare Rolls-Royce vs Bentley, Ferrari, Lamborghini with pricing, features & expert tips. Why Rolls-Royce reigns supreme in Dubai's luxury market.",
+      "keywords": "dubai luxury car guide 2026, rolls royce vs bentley dubai, luxury car rental comparison dubai, best luxury cars dubai 2026, rolls royce rental dubai 2026, bentley vs ferrari dubai, lamborghini rental dubai, luxury car market dubai 2026, premium car comparison dubai, dubai exotic car rental guide"
     }
   },
   "fleet": {
     "index": {
-      "title": "Автопарк Rolls-Royce Дубай 2025 | Аренда Phantom, Ghost, Cullinan, Dawn и Wraith",
+      "title": "Автопарк Rolls-Royce Дубай 2026 | Аренда Phantom, Ghost, Cullinan, Dawn и Wraith",
       "description": "Изучите наш исключительный автопарк Rolls-Royce в Дубае. Phantom, Ghost, Cullinan SUV, Dawn кабриолет и Wraith купе доступны. Премиальная коллекция с профессиональными водителями. Забронируйте свой роскошный опыт сегодня.",
       "keywords": "автопарк rolls royce дубай, автопарк роскошных автомобилей дубай, аренда phantom ghost cullinan дубай, коллекция rolls royce дубай, премиальный автопарк аренды, варианты роскошных автомобилей дубай, модели rolls royce дубай, аренда исполнительного автопарка"
     }
@@ -409,7 +844,7 @@
       "description": "Сравните аренду Rolls-Royce и Ferrari в Дубае. Узнайте, почему Rolls-Royce предлагает превосходную ценность, комфорт и престиж для аренды роскошных автомобилей. Цены «все включено», профессиональная служба шофера и непревзойденный опыт роскоши."
     },
     "phantom_vs_maybach": {
-      "title": "Rolls-Royce Phantom против Mercedes-Maybach 2025 | Сравнение роскошных автомобилей Дубай",
+      "title": "Rolls-Royce Phantom против Mercedes-Maybach 2026 | Сравнение роскошных автомобилей Дубай",
       "description": "Сравните Rolls-Royce Phantom с Mercedes-Maybach S-Class в Дубае. Детальное сравнение характеристик, производительности, роскоши и цен аренды. Phantom от 3,500 AED/день против Maybach от 3,000 AED/день. Какой ультра-люксовый седан подходит вам?",
       "keywords": "rolls royce phantom против maybach дубай, сравнение phantom maybach, сравнение роскошных авто дубай, phantom против maybach s class, что лучше phantom или maybach, rolls royce против mercedes maybach цена, аренда phantom maybach дубай, сравнение ультра люкс седан, британская против немецкой роскоши, phantom или maybach для свадьбы",
       "og_title": "Phantom против Maybach: Окончательное сравнение роскоши в Дубае",
@@ -429,7 +864,7 @@
   "blog.dubai-luxury-hotels-guide.title": "Самые Роскошные Отели Дубая: Прибытие с Шиком на Rolls-Royce",
   "blog.dubai-luxury-hotels-guide.description": "Исследуйте лучшие 5-звездочные отели и курорты Дубая. Откройте для себя идеальное сочетание роскошного размещения с услугами шофера Rolls-Royce.",
   "blog.dubai-luxury-hotels-guide.keywords": "роскошные отели Дубая, 5-звездочные отели Дубай, трансфер Rolls-Royce отель, Burj Al Arab, Atlantis The Palm, роскошное размещение Дубай, услуги шофера отеля",
-  "blog.first-time-dubai-luxury-guide.title": "Впервые в Дубае? Ваш Полный Гид по Роскошным Автомобилям 2025",
+  "blog.first-time-dubai-luxury-guide.title": "Впервые в Дубае? Ваш Полный Гид по Роскошным Автомобилям 2026",
   "blog.first-time-dubai-luxury-guide.description": "Полное руководство для первых посетителей Дубая по аренде роскошных автомобилей. Все, что нужно знать об опыте Дубая на Rolls-Royce, от требований до инсайдерских советов и обязательных мест для посещения.",
   "blog.first-time-dubai-luxury-guide.keywords": "впервые в Дубае, гид по роскоши Дубая, руководство по аренде Rolls-Royce Дубай, гид для посетителей Дубая, аренда роскошных авто Дубай для начинающих, туризм Дубай роскошные автомобили, первая поездка в Дубай, советы путешествия Дубай, роскошный опыт Дубай, руководство по аренде авто Дубай"
 }

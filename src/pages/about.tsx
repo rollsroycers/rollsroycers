@@ -5,6 +5,7 @@ import Link from 'next/link'
 import { motion } from 'framer-motion'
 import Layout from '@/components/Layout'
 import SEO from '@/components/SEO'
+import GEOOptimizer from '@/components/GEOOptimizer'
 import WhatsAppButton from '@/components/WhatsAppButton'
 import { useTranslation } from 'next-i18next'
 import { createWhatsAppLinkProps } from '@/utils/whatsapp'
@@ -82,6 +83,15 @@ export default function AboutPage() {
   return (
     <>
       <SEO pageKey="other.about" />
+      <GEOOptimizer
+        pageKey="other.about"
+        title="About Rolls Roycers Dubai 2026"
+        description="Leading Rolls-Royce rental in Dubai since 2010. 10,000+ clients, 1,200+ five-star reviews, 24/7 service."
+        entityType="Organization"
+        primaryTopic="Rolls Roycers Dubai Company"
+        contentSummary="Rolls Roycers Dubai is the premier Rolls-Royce rental service in Dubai since 2010. Over 10,000 satisfied clients, 1,200+ five-star reviews, fleet of 5 models, 50+ professional multilingual chauffeurs. Available 24/7 across Dubai."
+        facts={['Established in 2010', '10,000+ satisfied clients', '1,200+ five-star reviews', '50+ professional chauffeurs', '5 Rolls-Royce models', '24/7 service across Dubai']}
+      />
 
       <Layout>
         {/* Hero Section */}

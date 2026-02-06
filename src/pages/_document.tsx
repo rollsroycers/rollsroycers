@@ -1,9 +1,19 @@
-import { Html, Head, Main, NextScript } from 'next/document'
-import Script from 'next/script'
+import { Html, Head, Main, NextScript, DocumentContext, DocumentInitialProps } from 'next/document'
+import Document from 'next/document'
 
-export default function Document() {
-  return (
-    <Html lang="en">
+class MyDocument extends Document {
+  static async getInitialProps(ctx: DocumentContext): Promise<DocumentInitialProps & { locale: string }> {
+    const initialProps = await Document.getInitialProps(ctx)
+    const locale = ctx.locale || 'en'
+    return { ...initialProps, locale }
+  }
+
+  render() {
+    const { locale } = this.props as any
+    const dir = locale === 'ar' ? 'rtl' : 'ltr'
+    
+    return (
+      <Html lang={locale} dir={dir}>
       <Head>
         {/* Essential Mobile Meta Tags */}
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, minimum-scale=1.0" />
@@ -142,5 +152,8 @@ export default function Document() {
         <NextScript />
       </body>
     </Html>
-  )
+    )
+  }
 }
+
+export default MyDocument

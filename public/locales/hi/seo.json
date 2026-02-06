@@ -1,7 +1,7 @@
 {
   "pages": {
     "home": {
-      "title": "दुबई में रोल्स-रॉयस किराए पर लें | ड्राइवर के साथ लक्जरी कारें | RR Dubai 2025",
+      "title": "दुबई में रोल्स-रॉयस किराए पर लें | ड्राइवर के साथ लक्जरी कारें | RR Dubai 2026",
       "description": "दुबई में एक विशेष रोल्स-रॉयस किराए पर लें। हमारे बेड़े में फैंटम, कलिनन, घोस्ट, डॉन और रैथ शामिल हैं। हम पेशेवर चौफर सेवाएं, वीआईपी हवाई अड्डे के स्थानांतरण और शादी की कारें प्रदान करते हैं। बुकिंग के लिए +971558164922 पर 24/7 हमसे संपर्क करें।",
       "keywords": "दुबई में रोल्स-रॉयस किराए पर, दुबई में लक्जरी कार किराए पर, ड्राइवर के साथ रोल्स-रॉयस, दुबई में फैंटम किराए पर, दुबई में कलिनन किराए पर, दुबई में वीआईपी हवाई अड्डे का स्थानांतरण, दुबई में शादी की रोल्स-रॉयस, लक्जरी कार किराए पर",
       "aiKeywords": [
@@ -10,39 +10,85 @@
         "दुबई लक्जरी कार रेंटल",
         "ड्राइवर के साथ रोल्स रॉयस दुबई",
         "रोल्स रॉयस चालक सेवा दुबई"
+      ],
+      "longTailKeywords": [
+        "दुबई में सबसे सस्ता रोल्स रॉयस किराया",
+        "दुबई में एक दिन के लिए रोल्स रॉयस",
+        "दुबई में ड्राइवर के साथ रोल्स रॉयस प्रति घंटे की कीमत",
+        "दुबई में बिना जमा रोल्स रॉयस किराया",
+        "बुर्ज खलीफा के पास लक्जरी कार किराया",
+        "2026 दुबई सबसे अच्छी रोल्स रॉयस किराया कंपनी",
+        "दुबई में पर्यटक रोल्स रॉयस किराया"
+      ],
+      "voiceSearchOptimized": [
+        "दुबई में रोल्स रॉयस किराए पर कितने का है?",
+        "दुबई में मेरे पास रोल्स रॉयस कहां मिलेगा?",
+        "दुबई में सबसे सस्ता रोल्स रॉयस कौन सा है?",
+        "क्या मैं एक दिन के लिए रोल्स रॉयस ले सकता हूं?",
+        "दुबई में ड्राइवर के साथ रोल्स रॉयस बुक करो"
       ]
     },
     "fleet": {
       "index": {
         "title": "दुबई में लक्जरी रोल्स-रॉयस फ्लीट | सभी मॉडल देखें | फैंटम, घोस्ट, कुलिनन",
         "description": "दुबई में हमारे संपूर्ण रोल्स-रॉयस फ्लीट का अन्वेषण करें। फैंटम, घोस्ट, कुलिनन, डॉन और रेथ में से चुनें। पेशेवर चालक सेवा, 24/7 उपलब्धता। 3,800 AED/दिन से शुरू होने वाली सर्वोत्तम कीमतें। सभी मॉडल देखें, सुविधाओं की तुलना करें और तुरंत बुक करें।",
-        "keywords": "रोल्स रॉयस फ्लीट दुबई, सभी रोल्स रॉयस मॉडल दुबई, रोल्स रॉयस संग्रह दुबई, लक्जरी कार फ्लीट दुबई, फैंटम घोस्ट कुलिनन दुबई, रोल्स रॉयस रेंटल फ्लीट, सभी रोल्स रॉयस देखें दुबई, रोल्स रॉयस मॉडल की तुलना करें, लक्जरी फ्लीट रेंटल दुबई, रोल्स रॉयस शोरूम दुबई"
+        "keywords": "रोल्स रॉयस फ्लीट दुबई, सभी रोल्स रॉयस मॉडल दुबई, रोल्स रॉयस संग्रह दुबई, लक्जरी कार फ्लीट दुबई, फैंटम घोस्ट कुलिनन दुबई, रोल्स रॉयस रेंटल फ्लीट, सभी रोल्स रॉयस देखें दुबई, रोल्स रॉयस मॉडल की तुलना करें, लक्जरी फ्लीट रेंटल दुबई, रोल्स रॉयस शोरूम दुबई",
+        "longTailKeywords": [
+          "दुबई में सभी रोल्स रॉयस मॉडल किराये पर",
+          "दुबई रोल्स रॉयस किराया कीमतों की तुलना"
+        ],
+        "voiceSearchOptimized": [
+          "दुबई में सभी रोल्स रॉयस मॉडल दिखाओ",
+          "कौन सा रोल्स रॉयस किराये पर लेना बेहतर है?"
+        ],
+        "aiKeywords": [
+          "दुबई रोल्स रॉयस बेड़ा",
+          "सभी मॉडल किराया दुबई",
+          "रोल्स रॉयस तुलना दुबई"
+        ]
       },
       "phantom": {
-        "title": "दुबई में रोल्स-रॉयस फैंटम किराए पर लें 2025 | 5,800 AED/दिन | सर्वश्रेष्ठ लक्जरी कार | #1 सेवा",
-        "description": "दुबई में रोल्स-रॉयस फैंटम 5,800 AED/दिन से किराए पर लें, पेशेवर चालक के साथ। 2025 एक्सटेंडेड व्हीलबेस मॉडल, शादियों, VIP ट्रांसफर और कॉर्पोरेट कार्यक्रमों के लिए एकदम सही। ⭐ 1,247 समीक्षाओं से 4.9/5 रेटिंग। मुफ्त डिलीवरी, तत्काल बुकिंग, 24/7 समर्थन। विलासिता के शिखर का अनुभव करें - अभी बुक करें!",
-        "keywords": "दुबई में रोल्स रॉयस फैंटम किराए पर, दुबई रोल्स रॉयस फैंटम किराया मूल्य, फैंटम किराया दुबई 2025, दुबई लक्जरी कार किराया फैंटम, ड्राइवर के साथ फैंटम दुबई, रोल्स रॉयस फैंटम शादी की कार दुबई, फैंटम एयरपोर्ट ट्रांसफर दुबई, कॉर्पोरेट फैंटम किराया दुबई, वीआईपी फैंटम दुबई, फैंटम घंटे का किराया दुबई, फैंटम विस्तारित व्हीलबेस दुबई, सर्वश्रेष्ठ फैंटम किराया दुबई, फैंटम चालक सेवा दुबई, फैंटम दैनिक किराया दुबई, फैंटम मासिक किराया दुबई",
-        "aiKeywords": [],
-        "longTailKeywords": [],
-        "voiceSearchOptimized": [],
-        "schema": {},
+        "title": "दुबई में रोल्स-रॉयस फैंटम किराए पर लें 2026 | 5,800 AED/दिन | सर्वश्रेष्ठ लक्जरी कार | #1 सेवा",
+        "description": "दुबई में रोल्स-रॉयस फैंटम 5,800 AED/दिन से किराए पर लें, पेशेवर चालक के साथ। 2026 एक्सटेंडेड व्हीलबेस मॉडल, शादियों, VIP ट्रांसफर और कॉर्पोरेट कार्यक्रमों के लिए एकदम सही। ⭐ 1,247 समीक्षाओं से 4.9/5 रेटिंग। मुफ्त डिलीवरी, तत्काल बुकिंग, 24/7 समर्थन। विलासिता के शिखर का अनुभव करें - अभी बुक करें!",
+        "keywords": "दुबई में रोल्स रॉयस फैंटम किराए पर, दुबई रोल्स रॉयस फैंटम किराया मूल्य, फैंटम किराया दुबई 2026, दुबई लक्जरी कार किराया फैंटम, ड्राइवर के साथ फैंटम दुबई, रोल्स रॉयस फैंटम शादी की कार दुबई, फैंटम एयरपोर्ट ट्रांसफर दुबई, कॉर्पोरेट फैंटम किराया दुबई, वीआईपी फैंटम दुबई, फैंटम घंटे का किराया दुबई, फैंटम विस्तारित व्हीलबेस दुबई, सर्वश्रेष्ठ फैंटम किराया दुबई, फैंटम चालक सेवा दुबई, फैंटम दैनिक किराया दुबई, फैंटम मासिक किराया दुबई",
+        "aiKeywords": [
+          "दुबई फैंटम किराया कीमत",
+          "फैंटम शादी दुबई",
+          "फैंटम ड्राइवर के साथ"
+        ],
+        "longTailKeywords": [
+          "दुबई में सफेद फैंटम शादी की कार",
+          "फैंटम एक्सटेंडेड व्हीलबेस किराया कीमत",
+          "फैंटम vs मैबैक किराया दुबई"
+        ],
+        "voiceSearchOptimized": [
+          "दुबई में फैंटम एक दिन का कितना है?",
+          "क्या शादी के लिए सफेद फैंटम मिलेगा?"
+        ],
+        "schema": {
+          "availability": "InStock",
+          "breadcrumb": "Home > Fleet > Rolls-Royce Phantom",
+          "priceRange": "AED 5,800 - 116,000",
+          "reviewCount": "1247",
+          "rating": "4.9"
+        },
         "og": {
-          "title": "दुबई में रोल्स-रॉयस फैंटम किराए पर लें 2025 | 5,800 AED/दिन | सर्वश्रेष्ठ लक्जरी कार | #1 सेवा",
-          "description": "दुबई में रोल्स-रॉयस फैंटम 5,800 AED/दिन से किराए पर लें, पेशेवर चालक के साथ। 2025 एक्सटेंडेड व्हीलबेस मॉडल, शादियों, VIP ट्रांसफर और कॉर्पोरेट कार्यक्रमों के लिए एकदम सही। ⭐ 1,247 समीक्षाओं से 4.9/5 रेटिंग। मुफ्त डिलीवरी, तत्काल बुकिंग, 24/7 समर्थन। विलासिता के शिखर का अनुभव करें - अभी बुक करें!",
-          "image": "https://www.rollsroycers.com/images/Rolls-royce-phantom.jpg",
-          "url": "https://www.rollsroycers.com/hi/fleet/phantom"
+          "title": "दुबई में रोल्स-रॉयस फैंटम किराए पर लें 2026 | 5,800 AED/दिन | सर्वश्रेष्ठ लक्जरी कार | #1 सेवा",
+          "description": "दुबई में रोल्स-रॉयस फैंटम 5,800 AED/दिन से किराए पर लें, पेशेवर चालक के साथ। 2026 एक्सटेंडेड व्हीलबेस मॉडल, शादियों, VIP ट्रांसफर और कॉर्पोरेट कार्यक्रमों के लिए एकदम सही। ⭐ 1,247 समीक्षाओं से 4.9/5 रेटिंग। मुफ्त डिलीवरी, तत्काल बुकिंग, 24/7 समर्थन। विलासिता के शिखर का अनुभव करें - अभी बुक करें!",
+          "image": "https://rollsroycers.com/images/Rolls-royce-phantom.jpg",
+          "url": "https://rollsroycers.com/hi/fleet/phantom"
         },
         "twitter": {
           "card": "summary_large_image",
-          "title": "दुबई में रोल्स-रॉयस फैंटम किराए पर लें 2025 | 5,800 AED/दिन | सर्वश्रेष्ठ लक्जरी कार | #1 सेवा",
-          "description": "दुबई में रोल्स-रॉयस फैंटम 5,800 AED/दिन से किराए पर लें, पेशेवर चालक के साथ। 2025 एक्सटेंडेड व्हीलबेस मॉडल, शादियों, VIP ट्रांसफर और कॉर्पोरेट कार्यक्रमों के लिए एकदम सही। ⭐ 1,247 समीक्षाओं से 4.9/5 रेटिंग। मुफ्त डिलीवरी, तत्काल बुकिंग, 24/7 समर्थन। विलासिता के शिखर का अनुभव करें - अभी बुक करें!",
-          "image": "https://www.rollsroycers.com/images/Rolls-royce-phantom.jpg"
+          "title": "दुबई में रोल्स-रॉयस फैंटम किराए पर लें 2026 | 5,800 AED/दिन | सर्वश्रेष्ठ लक्जरी कार | #1 सेवा",
+          "description": "दुबई में रोल्स-रॉयस फैंटम 5,800 AED/दिन से किराए पर लें, पेशेवर चालक के साथ। 2026 एक्सटेंडेड व्हीलबेस मॉडल, शादियों, VIP ट्रांसफर और कॉर्पोरेट कार्यक्रमों के लिए एकदम सही। ⭐ 1,247 समीक्षाओं से 4.9/5 रेटिंग। मुफ्त डिलीवरी, तत्काल बुकिंग, 24/7 समर्थन। विलासिता के शिखर का अनुभव करें - अभी बुक करें!",
+          "image": "https://rollsroycers.com/images/Rolls-royce-phantom.jpg"
         }
       },
       "ghost": {
-        "title": "रेंट रोल्स-रॉयस घोस्ट 2025 दुबई | ब्लैक बैज उपलब्ध | AED 3,800/दिन",
-        "description": "दुबई में 2025 रोल्स-रॉयस घोस्ट सीरीज II का अनुभव करें। क्रांतिकारी प्लानर सस्पेंशन, प्रबुद्ध प्रावरणी, और कानाफूसी-शांत केबिन। मानक या ब्लैक बैज संस्करण चुनें। DIFC बैठकों, मरीना ड्राइव, या वीआईपी कार्यक्रमों के लिए बिल्कुल सही। पेशेवर चौफर शामिल।",
-        "keywords": "रोल्स-रॉयस घोस्ट 2025 रेंटल दुबई, रेंट घोस्ट ब्लैक बैज दुबई, घोस्ट सीरीज II किराया, कार्यकारी सेडान रेंटल दुबई मरीना, बिजनेस कार DIFC, ड्राइवर के साथ लक्जरी घोस्ट डाउनटाउन, प्रबुद्ध प्रावरणी घोस्ट अनुभव, प्लानर सस्पेंशन",
+        "title": "रेंट रोल्स-रॉयस घोस्ट 2026 दुबई | ब्लैक बैज उपलब्ध | AED 3,800/दिन",
+        "description": "दुबई में 2026 रोल्स-रॉयस घोस्ट सीरीज II का अनुभव करें। क्रांतिकारी प्लानर सस्पेंशन, प्रबुद्ध प्रावरणी, और कानाफूसी-शांत केबिन। मानक या ब्लैक बैज संस्करण चुनें। DIFC बैठकों, मरीना ड्राइव, या वीआईपी कार्यक्रमों के लिए बिल्कुल सही। पेशेवर चौफर शामिल।",
+        "keywords": "रोल्स-रॉयस घोस्ट 2026 रेंटल दुबई, रेंट घोस्ट ब्लैक बैज दुबई, घोस्ट सीरीज II किराया, कार्यकारी सेडान रेंटल दुबई मरीना, बिजनेस कार DIFC, ड्राइवर के साथ लक्जरी घोस्ट डाउनटाउन, प्रबुद्ध प्रावरणी घोस्ट अनुभव, प्लानर सस्पेंशन",
         "aiKeywords": [
           "दुबई में रोल्स रॉयस किराए पर लें",
           "दुबई रोल्स रॉयस रेंटल",
@@ -52,12 +98,21 @@
           "rolls royce ghost dubai",
           "ghost rental dubai",
           "rent ghost dubai"
+        ],
+        "longTailKeywords": [
+          "दुबई गोस्ट ब्लैक बैज किराया",
+          "गोस्ट सीरीज 2 दैनिक दर",
+          "सबसे सस्ता गोस्ट किराया दुबई"
+        ],
+        "voiceSearchOptimized": [
+          "गोस्ट एक दिन का कितना है?",
+          "क्या गोस्ट ब्लैक बैज उपलब्ध है?"
         ]
       },
       "cullinan": {
-        "title": "रोल्स-रॉयस कलिनन 2025 रेंटल दुबई | ब्लैक बैज एसयूवी | AED 4,500 से",
-        "description": "दुबई में राजसी 2025 रोल्स-रॉयस कलिनन एसयूवी किराए पर लें। व्यूइंग सूट, ऑल-टेरेन क्षमता और सर्वोच्च आराम का अनुभव करें। मानक या ब्लैक बैज में उपलब्ध है। हट्टा की पारिवारिक यात्राओं, लक्जरी रेगिस्तानी सफारी, या पाम जुमेराह परिभ्रमण के लिए आदर्श।",
-        "keywords": "रेंट रोल्स-रॉयस कलिनन 2025 दुबई, कलिनन ब्लैक बैज एसयूवी रेंटल, लक्जरी 7-सीटर एसयूवी दुबई, कलिनन डेजर्ट सफारी बुकिंग, फैमिली लक्जरी कार JBR, व्यूइंग सूट अनुभव दुबई, ऑल-टेरेन रोल्स-रॉयस किराया",
+        "title": "रोल्स-रॉयस कलिनन 2026 रेंटल दुबई | ब्लैक बैज एसयूवी | AED 4,500 से",
+        "description": "दुबई में राजसी 2026 रोल्स-रॉयस कलिनन एसयूवी किराए पर लें। व्यूइंग सूट, ऑल-टेरेन क्षमता और सर्वोच्च आराम का अनुभव करें। मानक या ब्लैक बैज में उपलब्ध है। हट्टा की पारिवारिक यात्राओं, लक्जरी रेगिस्तानी सफारी, या पाम जुमेराह परिभ्रमण के लिए आदर्श।",
+        "keywords": "रेंट रोल्स-रॉयस कलिनन 2026 दुबई, कलिनन ब्लैक बैज एसयूवी रेंटल, लक्जरी 7-सीटर एसयूवी दुबई, कलिनन डेजर्ट सफारी बुकिंग, फैमिली लक्जरी कार JBR, व्यूइंग सूट अनुभव दुबई, ऑल-टेरेन रोल्स-रॉयस किराया",
         "aiKeywords": [
           "दुबई में रोल्स रॉयस किराए पर लें",
           "दुबई रोल्स रॉयस रेंटल",
@@ -67,12 +122,21 @@
           "rolls royce cullinan dubai",
           "cullinan rental dubai",
           "rent cullinan dubai"
+        ],
+        "longTailKeywords": [
+          "दुबई कुलिनन SUV परिवार किराया",
+          "कुलिनन रेगिस्तान सफारी दुबई",
+          "7 सीट लक्जरी SUV किराया"
+        ],
+        "voiceSearchOptimized": [
+          "कुलिनन किराये पर कितने का है?",
+          "क्या कुलिनन परिवारों के लिए अच्छा है?"
         ]
       },
       "dawn": {
-        "title": "रोल्स-रॉयस डॉन 2025 दुबई रेंटल | कन्वर्टिबल लक्ज़री | AED 4,200/दिन",
-        "description": "2025 रोल्स-रॉयस डॉन का आनंद लें, जो दुनिया की सबसे शांत कन्वर्टिबल है। साइलेंट बैले रूफ मैकेनिज्म और बीस्पोक ऑडियो का अनुभव करें। JBR बीच ड्राइव, पियरचिक में रोमांटिक डिनर, या बुर्ज अल अरब के लिए सूर्यास्त परिभ्रमण के लिए बिल्कुल सही। पेशेवर चौफर के साथ बुक करें।",
-        "keywords": "रोल्स-रॉयस डॉन 2025 कन्वर्टिबल दुबई, रेंट डॉन ड्रॉपहेड दुबई मरीना, लक्जरी कन्वर्टिबल JBR बीच, साइलेंट रूफ मैकेनिज्म डॉन, रोमांटिक कार रेंटल दुबई, सनसेट ड्राइव जुमेराह, ओपन-टॉप रोल्स-रॉयस बुकिंग",
+        "title": "रोल्स-रॉयस डॉन 2026 दुबई रेंटल | कन्वर्टिबल लक्ज़री | AED 4,200/दिन",
+        "description": "2026 रोल्स-रॉयस डॉन का आनंद लें, जो दुनिया की सबसे शांत कन्वर्टिबल है। साइलेंट बैले रूफ मैकेनिज्म और बीस्पोक ऑडियो का अनुभव करें। JBR बीच ड्राइव, पियरचिक में रोमांटिक डिनर, या बुर्ज अल अरब के लिए सूर्यास्त परिभ्रमण के लिए बिल्कुल सही। पेशेवर चौफर के साथ बुक करें।",
+        "keywords": "रोल्स-रॉयस डॉन 2026 कन्वर्टिबल दुबई, रेंट डॉन ड्रॉपहेड दुबई मरीना, लक्जरी कन्वर्टिबल JBR बीच, साइलेंट रूफ मैकेनिज्म डॉन, रोमांटिक कार रेंटल दुबई, सनसेट ड्राइव जुमेराह, ओपन-टॉप रोल्स-रॉयस बुकिंग",
         "aiKeywords": [
           "दुबई में रोल्स रॉयस किराए पर लें",
           "दुबई रोल्स रॉयस रेंटल",
@@ -82,12 +146,20 @@
           "rolls royce dawn dubai",
           "dawn rental dubai",
           "rent dawn dubai"
+        ],
+        "longTailKeywords": [
+          "दुबई मरीना डॉन कन्वर्टिबल किराया",
+          "रोल्स रॉयस कन्वर्टिबल बीच JBR"
+        ],
+        "voiceSearchOptimized": [
+          "डॉन किराये पर कितना है?",
+          "दुबई में कन्वर्टिबल कहां चलाएं?"
         ]
       },
       "wraith": {
-        "title": "रेंट रोल्स-रॉयस रैथ 2025 दुबई | 624HP लक्ज़री कूप | AED 4,000 से",
-        "description": "सबसे शक्तिशाली रोल्स-रॉयस चलाएं - 2025 रैथ 624HP V12 इंजन के साथ। सैटेलाइट-एडेड ट्रांसमिशन, स्टारलाइट हेडलाइनर और विशिष्ट फास्टबैक डिज़ाइन की सुविधा है। शेख जायद रोड पर परिभ्रमण, बिजनेस बे बैठकों, या विशेष कार्यक्रमों के लिए बिल्कुल सही।",
-        "keywords": "रोल्स-रॉयस रैथ 2025 रेंटल दुबई, रेंट रैथ ब्लैक बैज कूप, 624HP लक्जरी कार दुबई, फास्टबैक रोल्स-रॉयस किराया, सैटेलाइट ट्रांसमिशन रैथ, शक्तिशाली कूप शेख जायद रोड, स्पोर्ट्स लक्जरी रेंटल डाउनटाउन",
+        "title": "रेंट रोल्स-रॉयस रैथ 2026 दुबई | 624HP लक्ज़री कूप | AED 4,000 से",
+        "description": "सबसे शक्तिशाली रोल्स-रॉयस चलाएं - 2026 रैथ 624HP V12 इंजन के साथ। सैटेलाइट-एडेड ट्रांसमिशन, स्टारलाइट हेडलाइनर और विशिष्ट फास्टबैक डिज़ाइन की सुविधा है। शेख जायद रोड पर परिभ्रमण, बिजनेस बे बैठकों, या विशेष कार्यक्रमों के लिए बिल्कुल सही।",
+        "keywords": "रोल्स-रॉयस रैथ 2026 रेंटल दुबई, रेंट रैथ ब्लैक बैज कूप, 624HP लक्जरी कार दुबई, फास्टबैक रोल्स-रॉयस किराया, सैटेलाइट ट्रांसमिशन रैथ, शक्तिशाली कूप शेख जायद रोड, स्पोर्ट्स लक्जरी रेंटल डाउनटाउन",
         "aiKeywords": [
           "दुबई में रोल्स रॉयस किराए पर लें",
           "दुबई रोल्स रॉयस रेंटल",
@@ -97,6 +169,15 @@
           "rolls royce wraith dubai",
           "wraith rental dubai",
           "rent wraith dubai"
+        ],
+        "longTailKeywords": [
+          "दुबई रेथ कूपे किराया",
+          "सबसे तेज रोल्स रॉयस किराया",
+          "रेथ स्टारलाइट दुबई"
+        ],
+        "voiceSearchOptimized": [
+          "रेथ एक दिन का कितना है?",
+          "क्या रेथ सबसे तेज है?"
         ]
       }
     },
@@ -114,6 +195,13 @@
           "rolls royce wedding dubai",
           "luxury wedding dubai",
           "vip wedding dubai"
+        ],
+        "longTailKeywords": [
+          "दुबई सफेद रोल्स रॉयस शादी कार",
+          "दुबई लक्जरी शादी कार पैकेज 2026"
+        ],
+        "voiceSearchOptimized": [
+          "शादी की रोल्स रॉयस कितने की है?"
         ]
       },
       "corporate": {
@@ -129,6 +217,13 @@
           "rolls royce corporate dubai",
           "luxury corporate dubai",
           "vip corporate dubai"
+        ],
+        "longTailKeywords": [
+          "कॉर्पोरेट रोल्स रॉयस मासिक पैकेज",
+          "CEO ट्रांसपोर्ट दुबई"
+        ],
+        "voiceSearchOptimized": [
+          "क्या कॉर्पोरेट पैकेज हैं?"
         ]
       },
       "airport-transfer": {
@@ -144,6 +239,13 @@
           "rolls royce airport-transfer dubai",
           "luxury airport-transfer dubai",
           "vip airport-transfer dubai"
+        ],
+        "longTailKeywords": [
+          "दुबई एयरपोर्ट रोल्स रॉयस पिकअप DXB",
+          "VIP एयरपोर्ट ट्रांसफर दुबई"
+        ],
+        "voiceSearchOptimized": [
+          "एयरपोर्ट पिकअप बुक करो"
         ]
       },
       "chauffeur": {
@@ -159,6 +261,13 @@
           "rolls royce chauffeur dubai",
           "luxury chauffeur dubai",
           "vip chauffeur dubai"
+        ],
+        "longTailKeywords": [
+          "दुबई रोल्स रॉयस प्रति घंटा ड्राइवर",
+          "हिंदी बोलने वाला ड्राइवर रोल्स रॉयस"
+        ],
+        "voiceSearchOptimized": [
+          "ड्राइवर प्रति घंटा कितना है?"
         ]
       },
       "events": {
@@ -174,6 +283,13 @@
           "rolls royce events dubai",
           "luxury events dubai",
           "vip events dubai"
+        ],
+        "longTailKeywords": [
+          "दुबई गाला डिनर रोल्स रॉयस",
+          "इवेंट लक्जरी कार फ्लीट दुबई"
+        ],
+        "voiceSearchOptimized": [
+          "इवेंट के लिए रोल्स रॉयस बुक करो"
         ]
       },
       "photoshoot": {
@@ -189,6 +305,13 @@
           "rolls royce photoshoot dubai",
           "luxury photoshoot dubai",
           "vip photoshoot dubai"
+        ],
+        "longTailKeywords": [
+          "दुबई रोल्स रॉयस इंस्टाग्राम फोटोशूट",
+          "म्यूजिक वीडियो रोल्स रॉयस किराया"
+        ],
+        "voiceSearchOptimized": [
+          "फोटोशूट के लिए कितना है?"
         ]
       },
       "tours": {
@@ -204,6 +327,13 @@
           "rolls royce tours dubai",
           "luxury tours dubai",
           "vip tours dubai"
+        ],
+        "longTailKeywords": [
+          "रोल्स रॉयस दुबई प्राइवेट सिटी टूर",
+          "लक्जरी कार गाइड टूर दुबई"
+        ],
+        "voiceSearchOptimized": [
+          "रोल्स रॉयस में दुबई टूर बुक करो"
         ]
       }
     },
@@ -221,6 +351,12 @@
           "rolls royce downtown-dubai",
           "luxury car rental downtown-dubai",
           "chauffeur service downtown-dubai"
+        ],
+        "longTailKeywords": [
+          "बुर्ज खलीफा के पास रोल्स रॉयस किराया"
+        ],
+        "voiceSearchOptimized": [
+          "डाउनटाउन दुबई में रोल्स रॉयस भेजो"
         ]
       },
       "dubai-marina": {
@@ -236,6 +372,12 @@
           "rolls royce dubai-marina",
           "luxury car rental dubai-marina",
           "chauffeur service dubai-marina"
+        ],
+        "longTailKeywords": [
+          "दुबई मरीना कन्वर्टिबल किराया"
+        ],
+        "voiceSearchOptimized": [
+          "दुबई मरीना में किराये पर लो"
         ]
       },
       "palm-jumeirah": {
@@ -251,6 +393,12 @@
           "rolls royce palm-jumeirah",
           "luxury car rental palm-jumeirah",
           "chauffeur service palm-jumeirah"
+        ],
+        "longTailKeywords": [
+          "अटलांटिस पाम जुमेराह डिलीवरी"
+        ],
+        "voiceSearchOptimized": [
+          "पाम जुमेराह पर डिलीवरी"
         ]
       },
       "business-bay": {
@@ -266,6 +414,12 @@
           "rolls royce business-bay",
           "luxury car rental business-bay",
           "chauffeur service business-bay"
+        ],
+        "longTailKeywords": [
+          "बिजनेस बे कॉर्पोरेट रोल्स रॉयस"
+        ],
+        "voiceSearchOptimized": [
+          "बिजनेस बे में किराया"
         ]
       },
       "jbr": {
@@ -281,6 +435,12 @@
           "rolls royce jbr",
           "luxury car rental jbr",
           "chauffeur service jbr"
+        ],
+        "longTailKeywords": [
+          "JBR बीच रोल्स रॉयस किराया"
+        ],
+        "voiceSearchOptimized": [
+          "JBR में किराये पर लो"
         ]
       },
       "difc": {
@@ -296,6 +456,12 @@
           "rolls royce difc",
           "luxury car rental difc",
           "chauffeur service difc"
+        ],
+        "longTailKeywords": [
+          "DIFC फाइनेंशियल सेंटर रोल्स रॉयस"
+        ],
+        "voiceSearchOptimized": [
+          "DIFC में किराया"
         ]
       }
     },
@@ -303,72 +469,327 @@
       "about": {
         "title": "दुबई रोल्स-रॉयस के बारे में | 2010 से लक्जरी कार किराए पर | हमारी कहानी",
         "description": "2010 से दुबई में अग्रणी रोल्स-रॉयस किराए पर लेने वाली कंपनी। 50 से अधिक लक्जरी वाहन, 10,000 से अधिक संतुष्ट ग्राहक और पुरस्कार विजेता सेवा। हमारी यात्रा के बारे में जानें।",
-        "keywords": "दुबई रोल्स-रॉयस के बारे में, लक्जरी कार किराए पर लेने वाली कंपनी, दुबई में कार किराए पर लेने का इतिहास, प्रीमियम किराए पर लेने की सेवा, 2010 में स्थापित"
+        "keywords": "दुबई रोल्स-रॉयस के बारे में, लक्जरी कार किराए पर लेने वाली कंपनी, दुबई में कार किराए पर लेने का इतिहास, प्रीमियम किराए पर लेने की सेवा, 2010 में स्थापित",
+        "longTailKeywords": [
+          "रोल्स रॉयसर्स दुबई के बारे में"
+        ],
+        "voiceSearchOptimized": [
+          "कंपनी के बारे में बताओ"
+        ],
+        "aiKeywords": [
+          "रोल्स रॉयसर्स दुबई कंपनी",
+          "लक्जरी कार किराया कंपनी दुबई"
+        ]
       },
       "contact": {
         "title": "दुबई रोल्स-रॉयस से संपर्क करें | 24/7 सहायता | व्हाट्सएप +971558164922",
         "description": "दुबई में रोल्स-रॉयस किराए पर लेने के लिए हमसे संपर्क करें। +971558164922 पर कॉल करें या हमें व्हाट्सएप पर संदेश भेजें। हमारा शोरूम डाउनटाउन दुबई में है। तत्काल उद्धरण और 24/7 ग्राहक सेवा।",
-        "keywords": "दुबई रोल्स-रॉयस से संपर्क करें, लक्जरी कार किराए पर लेने का फोन नंबर, व्हाट्सएप के माध्यम से कार बुक करें, दुबई में शोरूम का स्थान, 24/7 सहायता"
+        "keywords": "दुबई रोल्स-रॉयस से संपर्क करें, लक्जरी कार किराए पर लेने का फोन नंबर, व्हाट्सएप के माध्यम से कार बुक करें, दुबई में शोरूम का स्थान, 24/7 सहायता",
+        "longTailKeywords": [
+          "रोल्स रॉयस दुबई से संपर्क WhatsApp"
+        ],
+        "voiceSearchOptimized": [
+          "रोल्स रॉयसर्स दुबई को कॉल करो"
+        ],
+        "aiKeywords": [
+          "संपर्क रोल्स रॉयसर्स दुबई"
+        ]
       },
       "gallery": {
         "title": "दुबई रोल्स-रॉयस गैलरी | हमारे बेड़े की तस्वीरें और वीडियो | वर्चुअल टूर",
         "description": "रोल्स-रॉयस संग्रह की हमारी गैलरी ब्राउज़ करें। उच्च-रिज़ॉल्यूशन तस्वीरें, 360° दृश्य, आंतरिक विवरण और वीडियो टूर। बुक करने से पहले हमारे लक्जरी बेड़े को देखें।",
-        "keywords": "दुबई रोल्स-रॉयस गैलरी, लक्जरी कार की तस्वीरें, दुबई में बेड़े की छवियां, रोल्स-रॉयस वीडियो, वर्चुअल कार टूर"
+        "keywords": "दुबई रोल्स-रॉयस गैलरी, लक्जरी कार की तस्वीरें, दुबई में बेड़े की छवियां, रोल्स-रॉयस वीडियो, वर्चुअल कार टूर",
+        "longTailKeywords": [
+          "दुबई रोल्स रॉयस बेड़ा फोटो"
+        ],
+        "voiceSearchOptimized": [
+          "बेड़े की फोटो दिखाओ"
+        ],
+        "aiKeywords": [
+          "रोल्स रॉयस फोटो दुबई"
+        ]
       },
       "testimonials": {
         "title": "रोल्स-रॉयस किराया दुबई समीक्षाएं | किराए के लिए सबसे अच्छी जगह | 5 सितारे",
         "description": "दुबई में रोल्स-रॉयस किराए पर लेने से पहले समीक्षाएं पढ़ें। 1200+ सत्यापित समीक्षाओं के साथ रोल्स-रॉयस किराए के लिए सबसे अच्छी जगह। देखें कि हम लक्जरी कार किराए में नंबर 1 क्यों हैं।",
-        "keywords": "रोल्स-रॉयस किराया दुबई समीक्षाएं, दुबई में रोल्स-रॉयस किराए के लिए सबसे अच्छी जगह, रोल्स-रॉयस किराया समीक्षाएं, ग्राहक प्रशंसापत्र दुबई, 5-सितारा लक्जरी कार किराया"
+        "keywords": "रोल्स-रॉयस किराया दुबई समीक्षाएं, दुबई में रोल्स-रॉयस किराए के लिए सबसे अच्छी जगह, रोल्स-रॉयस किराया समीक्षाएं, ग्राहक प्रशंसापत्र दुबई, 5-सितारा लक्जरी कार किराया",
+        "longTailKeywords": [
+          "दुबई रोल्स रॉयस किराया ग्राहक समीक्षा"
+        ],
+        "voiceSearchOptimized": [
+          "ग्राहक क्या कहते हैं?"
+        ],
+        "aiKeywords": [
+          "रोल्स रॉयस किराया समीक्षा"
+        ]
       },
       "pricing": {
         "title": "दुबई रोल्स-रॉयस किराया मूल्य | लागत और दरें | 3,800 AED से शुरू",
         "description": "दुबई में रोल्स-रॉयस किराए की कीमतें जानें। फैंटम, घोस्ट, कुलिनन की दरों की तुलना करें। किफायती दैनिक दरें, घंटे के हिसाब से किराया उपलब्ध। तुरंत ऑनलाइन कोट्स पाएं।",
-        "keywords": "दुबई रोल्स-रॉयस किराया मूल्य, दुबई रोल्स-रॉयस किराए की लागत, दुबई में रोल्स-रॉयस किराए पर कितना खर्च, दुबई सस्ता रोल्स-रॉयस किराया, दुबई घंटे के हिसाब से रोल्स-रॉयस किराया, लक्जरी कार किराया दरें"
+        "keywords": "दुबई रोल्स-रॉयस किराया मूल्य, दुबई रोल्स-रॉयस किराए की लागत, दुबई में रोल्स-रॉयस किराए पर कितना खर्च, दुबई सस्ता रोल्स-रॉयस किराया, दुबई घंटे के हिसाब से रोल्स-रॉयस किराया, लक्जरी कार किराया दरें",
+        "longTailKeywords": [
+          "2026 दुबई रोल्स रॉयस किराया मूल्य सूची"
+        ],
+        "voiceSearchOptimized": [
+          "किराया कीमत क्या है?"
+        ],
+        "aiKeywords": [
+          "2026 दुबई रोल्स रॉयस किराया कीमत",
+          "प्रति दिन कितना रोल्स रॉयस"
+        ]
       },
       "faq": {
-        "title": "दुबई में रोल्स-रॉयस कैसे और कहाँ किराए पर लें | क्या मैं किराए पर ले सकता हूं? | FAQ 2025",
+        "title": "दुबई में रोल्स-रॉयस कैसे और कहाँ किराए पर लें | क्या मैं किराए पर ले सकता हूं? | FAQ 2026",
         "description": "सीखें कि दुबई में रोल्स-रॉयस कैसे किराए पर लें, मेरे पास कहाँ किराए पर लें, आवश्यकताएं, और प्रक्रिया। क्या मैं बिना ड्राइवर के रोल्स-रॉयस किराए पर ले सकता हूं? सभी सवालों के जवाब।",
-        "keywords": "दुबई में रोल्स-रॉयस कैसे किराए पर लें, दुबई में रोल्स-रॉयस कहाँ किराए पर लें, क्या मैं दुबई में रोल्स-रॉयस किराए पर ले सकता हूं, मेरे पास रोल्स-रॉयस किराया दुबई, बिना ड्राइवर किराया दुबई"
+        "keywords": "दुबई में रोल्स-रॉयस कैसे किराए पर लें, दुबई में रोल्स-रॉयस कहाँ किराए पर लें, क्या मैं दुबई में रोल्स-रॉयस किराए पर ले सकता हूं, मेरे पास रोल्स-रॉयस किराया दुबई, बिना ड्राइवर किराया दुबई",
+        "longTailKeywords": [
+          "दुबई रोल्स रॉयस किराया अक्सर पूछे जाने वाले प्रश्न"
+        ],
+        "voiceSearchOptimized": [
+          "किराये के लिए क्या चाहिए?"
+        ],
+        "aiKeywords": [
+          "अक्सर पूछे जाने वाले प्रश्न किराया",
+          "लक्जरी कार किराया प्रश्नोत्तर"
+        ]
       },
       "blog": {
         "title": "रोल्स-रॉयस दुबई ब्लॉग | लक्जरी लाइफस्टाइल, टिप्स और गाइड्स",
         "description": "लक्जरी कारों पर इनसाइट्स, दुबई के लिए ड्राइविंग गाइड्स, रोल्स-रॉयस न्यूज, इवेंट कवरेज, और सेलिब्रिटी रेंटल्स। दुबई में लक्जरी मोटरिंग के लिए आपका गाइड।",
-        "keywords": "रोल्स-रॉयस ब्लॉग दुबई, लक्जरी कार आर्टिकल्स, दुबई ड्राइविंग टिप्स, ऑटोमोटिव न्यूज, लक्जरी लाइफस्टाइल ब्लॉग"
+        "keywords": "रोल्स-रॉयस ब्लॉग दुबई, लक्जरी कार आर्टिकल्स, दुबई ड्राइविंग टिप्स, ऑटोमोटिव न्यूज, लक्जरी लाइफस्टाइल ब्लॉग",
+        "longTailKeywords": [
+          "रोल्स रॉयस दुबई किराया ब्लॉग टिप्स"
+        ],
+        "voiceSearchOptimized": [
+          "रोल्स रॉयस दुबई ब्लॉग पढ़ो"
+        ],
+        "aiKeywords": [
+          "रोल्स रॉयस ब्लॉग दुबई"
+        ]
       },
       "booking": {
-        "title": "दुबई में रोल्स-रॉयस ऑनलाइन किराया 2025 | अभी बुक करें | तत्काल पुष्टि",
-        "description": "दुबई में रोल्स-रॉयस ऑनलाइन किराए पर लें तत्काल बुकिंग के साथ। 2025 की सर्वोत्तम कीमतें, वास्तविक समय उपलब्धता। फैंटम, घोस्ट, कलिनन ऑनलाइन बुक करें। सुरक्षित भुगतान, 24/7 सपोर्ट।",
-        "keywords": "दुबई में रोल्स-रॉयस ऑनलाइन किराया, रोल्स-रॉयस ऑनलाइन बुक करें दुबई 2025, ऑनलाइन रोल्स-रॉयस किराया दुबई, तत्काल बुकिंग दुबई, लक्जरी कार ऑनलाइन किराया"
+        "title": "दुबई में रोल्स-रॉयस ऑनलाइन किराया 2026 | अभी बुक करें | तत्काल पुष्टि",
+        "description": "दुबई में रोल्स-रॉयस ऑनलाइन किराए पर लें तत्काल बुकिंग के साथ। 2026 की सर्वोत्तम कीमतें, वास्तविक समय उपलब्धता। फैंटम, घोस्ट, कलिनन ऑनलाइन बुक करें। सुरक्षित भुगतान, 24/7 सपोर्ट।",
+        "keywords": "दुबई में रोल्स-रॉयस ऑनलाइन किराया, रोल्स-रॉयस ऑनलाइन बुक करें दुबई 2026, ऑनलाइन रोल्स-रॉयस किराया दुबई, तत्काल बुकिंग दुबई, लक्जरी कार ऑनलाइन किराया",
+        "longTailKeywords": [
+          "ऑनलाइन रोल्स रॉयस बुक करो दुबई"
+        ],
+        "voiceSearchOptimized": [
+          "अभी रोल्स रॉयस बुक करो"
+        ],
+        "aiKeywords": [
+          "ऑनलाइन रोल्स रॉयस बुक करो",
+          "तुरंत बुकिंग लक्जरी कार"
+        ]
       },
       "privacy": {
         "title": "गोपनीयता नीति | दुबई रोल्स-रॉयस | डेटा संरक्षण और सुरक्षा",
         "description": "दुबई रोल्स-रॉयस की गोपनीयता नीति। हम आपके डेटा की सुरक्षा कैसे करते हैं, आपकी जानकारी का उपयोग कैसे करते हैं और इसकी सुरक्षा कैसे सुनिश्चित करते हैं। हम जीडीपीआर के अनुरूप हैं और पारदर्शी प्रथाओं का पालन करते हैं।",
-        "keywords": "गोपनीयता नीति दुबई रोल्स-रॉयस, डेटा संरक्षण, जीडीपीआर अनुपालन, सूचना सुरक्षा, किराए की गोपनीयता"
+        "keywords": "गोपनीयता नीति दुबई रोल्स-रॉयस, डेटा संरक्षण, जीडीपीआर अनुपालन, सूचना सुरक्षा, किराए की गोपनीयता",
+        "longTailKeywords": [
+          "रोल्स रॉयसर्स गोपनीयता नीति"
+        ],
+        "voiceSearchOptimized": [],
+        "aiKeywords": [
+          "गोपनीयता नीति रोल्स रॉयसर्स"
+        ]
       },
       "terms": {
         "title": "नियम और शर्तें | दुबई रोल्स-रॉयस किराया समझौता | नीतियां",
         "description": "दुबई में रोल्स-रॉयस किराए पर लेने के नियम और शर्तें। आयु की आवश्यकताएं, बीमा, जमा, उपयोग नीतियां और क्षति के लिए देयता। कृपया बुकिंग से पहले पढ़ें।",
-        "keywords": "नियम और शर्तें दुबई रोल्स-रॉयस, किराया समझौता, कार किराए पर लेने की नीतियां, उपयोग की शर्तें, देयता बीमा"
+        "keywords": "नियम और शर्तें दुबई रोल्स-रॉयस, किराया समझौता, कार किराए पर लेने की नीतियां, उपयोग की शर्तें, देयता बीमा",
+        "longTailKeywords": [
+          "रोल्स रॉयसर्स नियम शर्तें"
+        ],
+        "voiceSearchOptimized": [],
+        "aiKeywords": [
+          "किराया शर्तें रोल्स रॉयस"
+        ]
       },
       "cookie-policy": {
-        "title": "कुकी नीति | रोल्स-रॉयस दुबई | डेटा गोपनीयता और वेबसाइट कुकीज़ 2025",
+        "title": "कुकी नीति | रोल्स-रॉयस दुबई | डेटा गोपनीयता और वेबसाइट कुकीज़ 2026",
         "description": "रोल्स-रॉयस दुबई की कुकी नीति। हम कुकीज़ का उपयोग कैसे करते हैं, कुकीज़ के प्रकार, तृतीय पक्ष कुकीज़, वरीयताओं का प्रबंधन। पारदर्शी डेटा प्रथाएं, GDPR अनुपालित। आपकी गोपनीयता हमारे लिए महत्वपूर्ण है।",
-        "keywords": "कुकी नीति रोल्स रॉयस दुबई, वेबसाइट कुकीज़, डेटा गोपनीयता, gdpr अनुपालन, कुकी सहमति, तृतीय पक्ष कुकीज़, गोपनीयता वरीयताएं, ब्राउज़र सेटिंग्स, कुकी प्रबंधन, डेटा सुरक्षा"
+        "keywords": "कुकी नीति रोल्स रॉयस दुबई, वेबसाइट कुकीज़, डेटा गोपनीयता, gdpr अनुपालन, कुकी सहमति, तृतीय पक्ष कुकीज़, गोपनीयता वरीयताएं, ब्राउज़र सेटिंग्स, कुकी प्रबंधन, डेटा सुरक्षा",
+        "longTailKeywords": [
+          "कुकी नीति"
+        ],
+        "voiceSearchOptimized": [],
+        "aiKeywords": [
+          "कुकी नीति रोल्स रॉयसर्स"
+        ]
+      },
+      "locations": {
+        "longTailKeywords": [
+          "rolls royce delivery locations dubai all areas",
+          "where does rolls roycers deliver in dubai",
+          "rolls royce rental areas coverage dubai"
+        ],
+        "palm": {
+          "keywords": "rolls royce palm jumeirah, atlantis car service dubai, palm island luxury transport, the pointe chauffeur service, nakheel mall transport, palm west beach car, one and only palm rolls royce, luxury island transport dubai",
+          "title": "Rolls-Royce Palm Jumeirah | Atlantis & Luxury Resort Service | Island Transport",
+          "description": "Premium Rolls-Royce service on Palm Jumeirah. Perfect for Atlantis events, beach clubs, luxury resorts. Exclusive island transportation with professional chauffeurs. Book Palm luxury service."
+        },
+        "businessBay": {
+          "keywords": "rolls royce business bay, dubai canal car service, business bay chauffeur, corporate transport dubai, executive towers car service, bay avenue luxury transport, jw marriott marquis rolls royce, business district car dubai",
+          "title": "Business Bay Rolls-Royce Service | Corporate Transport | Dubai Canal",
+          "description": "Professional Rolls-Royce service in Business Bay. Ideal for corporate meetings, Dubai Canal views, executive towers. 5km from Downtown, quick business transport. Book corporate luxury service."
+        },
+        "difc": {
+          "description": "Elite Rolls-Royce service in Dubai International Financial Centre. Essential for banking executives, Gate Building meetings, Emirates Towers. Premium financial district transport.",
+          "title": "DIFC Rolls-Royce Service | Financial District Transport | Gate Building",
+          "keywords": "rolls royce difc, dubai financial centre car, gate building chauffeur, emirates towers transport, difc art nights car, gate avenue luxury, financial district rolls royce, banking executive transport dubai"
+        },
+        "downtown": {
+          "description": "Premium Rolls-Royce service in Downtown Dubai. Perfect for Burj Khalifa visits, Dubai Mall shopping, Dubai Fountain shows. Professional chauffeurs, instant availability. Central location service from AED 250.",
+          "keywords": "rolls royce downtown dubai, burj khalifa car service, dubai mall chauffeur, downtown dubai luxury car, dubai fountain transport, souk al bahar rolls royce, dubai opera car service, downtown dubai vip transport",
+          "title": "Rolls-Royce Downtown Dubai | Burj Khalifa & Dubai Mall Service | Book Now"
+        },
+        "main": {
+          "description": "Premium Rolls-Royce service across all Dubai locations. From Downtown Dubai to Palm Jumeirah, Dubai Marina to DIFC. Quick 15-minute response time, 24/7 availability. Book luxury car service from any location +971558164922.",
+          "keywords": "rolls royce locations dubai, luxury car service downtown dubai, rolls royce marina dubai, palm jumeirah car service, business bay chauffeur, jbr luxury transport, difc executive car, dubai service areas, rolls royce near me, luxury car coverage dubai",
+          "title": "Rolls-Royce Service Locations Dubai | Downtown, Marina, Palm | 24/7 Coverage"
+        },
+        "aiKeywords": [
+          "rolls royce delivery dubai locations",
+          "dubai areas luxury car rental",
+          "rolls royce coverage map dubai"
+        ],
+        "voiceSearchOptimized": [
+          "Where do you deliver in Dubai?",
+          "Which areas can I get a Rolls-Royce delivered?"
+        ],
+        "marina": {
+          "keywords": "rolls royce dubai marina, marina walk car service, dubai marina chauffeur, pier 7 luxury transport, yacht club car service, marina mall transport, waterfront luxury car dubai, marina beach rolls royce",
+          "description": "Exclusive Rolls-Royce service in Dubai Marina. Ideal for Marina Walk, yacht club events, waterfront dining at Pier 7. 25km from Downtown, professional drivers. Book Marina luxury transport.",
+          "title": "Rolls-Royce Dubai Marina | Waterfront Luxury Service | Marina Walk & JBR"
+        },
+        "jbr": {
+          "keywords": "rolls royce jbr dubai, the walk car service, jbr beach chauffeur, ain dubai transport, bluewaters island car, the beach jbr luxury, roxy cinema transport, beachfront rolls royce dubai",
+          "description": "Luxury Rolls-Royce service at JBR and The Walk. Perfect for beach events, Ain Dubai visits, Bluewaters Island. Beachfront premium transportation. Book JBR luxury car service.",
+          "title": "JBR Rolls-Royce Service | The Walk & Beach | Ain Dubai Transport"
+        }
+      },
+      "services": {
+        "tours": {
+          "description": "Explore Dubai in ultimate luxury with Rolls-Royce tours. Custom itineraries, professional guides, premium refreshments. Visit Burj Khalifa, Palm Jumeirah, Dubai Marina. From AED 4,000. Full day and half-day tours available.",
+          "title": "Luxury Tours Dubai | Rolls-Royce City Tours | Custom Itineraries",
+          "keywords": "luxury tours dubai, rolls royce tour dubai, private tour dubai, city tour rolls royce, dubai sightseeing luxury car, vip tour dubai, custom tour dubai, guided tour rolls royce, premium tour service dubai, exclusive dubai tours"
+        },
+        "corporate": {
+          "keywords": "corporate car service dubai, executive car rental dubai, business car hire dubai, rolls royce corporate dubai, company car service dubai, ceo car rental dubai, board meeting transportation dubai, roadshow car service dubai, conference transportation dubai, vip business car dubai",
+          "description": "Elevate your business with corporate Rolls-Royce services in Dubai. Executive packages from AED 1,200/day. Professional chauffeurs, flexible scheduling, corporate billing. Trusted by 500+ companies including Emirates NBD, DAMAC. 24/7 support.",
+          "title": "Corporate Rolls-Royce Service Dubai | Executive Car Rental | Business Packages"
+        },
+        "chauffeur": {
+          "keywords": "chauffeur service dubai, rolls royce with driver dubai, hourly chauffeur dubai, daily driver service dubai, professional driver dubai, luxury chauffeur service, multilingual chauffeur dubai, personal driver dubai, private chauffeur dubai, vip driver service dubai",
+          "title": "Professional Chauffeur Service Dubai | Rolls-Royce with Driver | Hourly & Daily",
+          "description": "Elite chauffeur service with Rolls-Royce in Dubai. From AED 800/hour. 500+ professional multilingual drivers, 24/7 availability. Hourly, daily, or custom arrangements. Perfect for shopping, business meetings, city tours. Book now."
+        },
+        "main": {
+          "description": "Premium Rolls-Royce services in Dubai. Wedding cars from AED 2,500, corporate packages from AED 1,200/day, airport transfers 24/7. Professional chauffeurs, 10,000+ satisfied clients. Book luxury car services online or call +971558164922.",
+          "title": "Rolls-Royce Services Dubai | Wedding, Corporate, Airport Transfer | Best Prices 2026",
+          "keywords": "rolls royce services dubai, luxury car services dubai, wedding car rental dubai, corporate car service dubai, airport transfer dubai, chauffeur service dubai, event transportation dubai, photoshoot car rental dubai, luxury tours dubai, rolls royce with driver dubai, vip car service dubai, executive car rental dubai"
+        },
+        "photoshoot": {
+          "title": "Rolls-Royce Photoshoot & Film Dubai | Commercial Shoots | From AED 5,000",
+          "keywords": "rolls royce photoshoot dubai, car rental for photoshoot dubai, film car rental dubai, commercial shoot car dubai, fashion photoshoot car dubai, music video car rental dubai, media production car dubai, luxury car photoshoot, photography car rental dubai, rolls royce filming dubai",
+          "description": "Premium Rolls-Royce vehicles for photoshoots and filming in Dubai. Perfect for fashion, commercials, music videos. Multiple locations, permit assistance, vehicle styling. From AED 5,000. Professional support for media productions."
+        },
+        "airportTransfer": {
+          "title": "Rolls-Royce Airport Transfer Dubai | DXB DWC AUH | 24/7 Service",
+          "keywords": "rolls royce airport transfer dubai, luxury airport transfer dubai, dxb airport transfer rolls royce, dwc airport transfer, abu dhabi airport transfer, vip airport service dubai, chauffeur airport transfer, meet and greet dubai airport, private airport transfer dubai, executive airport service dubai",
+          "description": "Premium Rolls-Royce airport transfer service in Dubai. From AED 1,200 to DXB, DWC, AUH airports. Meet & greet, flight tracking, 60 min free waiting. Professional chauffeurs, fixed prices. Book luxury airport transfer +971558164922."
+        },
+        "wedding": {
+          "description": "Make your wedding unforgettable with Rolls-Royce wedding cars in Dubai. White Phantom & Ghost with decoration, red carpet service. Professional chauffeur in formal attire. Book the perfect wedding car from AED 2,500. Free consultation +971558164922.",
+          "title": "Rolls-Royce Wedding Car Dubai | White Phantom & Ghost | From AED 2,500",
+          "keywords": "rolls royce wedding car dubai, white rolls royce rental dubai, wedding car hire dubai, phantom wedding car dubai, ghost wedding car dubai, luxury wedding transportation dubai, bridal car dubai, wedding car with decoration dubai, red carpet car service dubai, just married car dubai"
+        },
+        "voiceSearchOptimized": [
+          "What services does Rolls Roycers offer?",
+          "List all Rolls-Royce services in Dubai"
+        ],
+        "events": {
+          "description": "Make a grand entrance with Rolls-Royce event transportation in Dubai. Perfect for galas, premieres, fashion shows, awards ceremonies. Red carpet service, event coordination. From AED 3,000. Professional chauffeurs in formal attire.",
+          "keywords": "event transportation dubai, gala car service dubai, premiere car rental dubai, red carpet car service dubai, fashion show transportation dubai, awards ceremony car dubai, vip event transport dubai, luxury event car dubai, special occasion car rental dubai, rolls royce events dubai",
+          "title": "Event Transportation Dubai | Rolls-Royce for Galas & Premieres | Red Carpet Service"
+        },
+        "aiKeywords": [
+          "rolls royce services dubai",
+          "luxury car rental services",
+          "chauffeur wedding corporate tour dubai"
+        ],
+        "longTailKeywords": [
+          "all rolls royce services dubai 2026",
+          "luxury car services dubai complete list",
+          "rolls royce rental service options"
+        ]
+      },
+      "compare": {
+        "aiKeywords": [
+          "luxury car comparison dubai",
+          "rolls royce vs competitors rental",
+          "best luxury car to rent dubai"
+        ],
+        "phantom_vs_maybach": {
+          "og_title": "Phantom vs Maybach: The Ultimate Luxury Comparison in Dubai",
+          "title": "Rolls-Royce Phantom vs Mercedes-Maybach 2026 | Dubai Luxury Car Comparison",
+          "aiKeywords": [
+            "phantom vs maybach",
+            "rolls royce vs mercedes maybach",
+            "luxury car comparison dubai",
+            "phantom maybach rental",
+            "ultra luxury sedan dubai",
+            "phantom or maybach",
+            "british vs german luxury car",
+            "best luxury car dubai"
+          ],
+          "keywords": "rolls royce phantom vs maybach dubai, phantom maybach comparison, luxury car comparison dubai, phantom vs maybach s class, which is better phantom or maybach, rolls royce vs mercedes maybach price, phantom maybach rental dubai, ultra luxury sedan comparison, british vs german luxury, phantom or maybach for wedding",
+          "description": "Compare Rolls-Royce Phantom vs Mercedes-Maybach S-Class in Dubai. Detailed comparison of features, performance, luxury, and rental prices. Phantom from AED 3,500/day vs Maybach from AED 3,000/day. Which ultra-luxury sedan is right for you?",
+          "og_description": "Detailed comparison of Rolls-Royce Phantom and Mercedes-Maybach S-Class. Performance, luxury, technology, and pricing compared. Book your preferred ultra-luxury sedan in Dubai."
+        },
+        "voiceSearchOptimized": [
+          "Compare Rolls-Royce with other luxury cars in Dubai"
+        ],
+        "longTailKeywords": [
+          "compare rolls royce with luxury cars dubai",
+          "rolls royce vs bentley vs ferrari dubai rental"
+        ]
       }
     },
     "compare": {
       "index": {
-        "title": "लक्जरी कारों की तुलना दुबई 2025 | रोल्स-रॉयस बनाम बेंटले, फेरारी, मर्सिडीज",
+        "title": "लक्जरी कारों की तुलना दुबई 2026 | रोल्स-रॉयस बनाम बेंटले, फेरारी, मर्सिडीज",
         "description": "दुबई में रोल्स-रॉयस की तुलना बेंटले, फेरारी, मर्सिडीज और मेबैक से करें। प्रदर्शन, आराम, प्रौद्योगिकी, विरासत और मूल्य को कवर करने वाली व्यापक लक्जरी कार तुलनाएं। सही लक्जरी किराये का चयन करने में आपकी मदद के लिए विशेषज्ञ विश्लेषण।",
-        "keywords": "लक्जरी कारों की तुलना दुबई, रोल्स रॉयस बनाम बेंटले, रोल्स रॉयस बनाम फेरारी, रोल्स रॉयस बनाम मर्सिडीज, लक्जरी कार तुलना दुबई, फैंटम बनाम मेबैक, लक्जरी किराये की तुलना, दुबई कार तुलना गाइड, दुबई सर्वश्रेष्ठ लक्जरी कार, विशेषज्ञ कार तुलना"
+        "keywords": "लक्जरी कारों की तुलना दुबई, रोल्स रॉयस बनाम बेंटले, रोल्स रॉयस बनाम फेरारी, रोल्स रॉयस बनाम मर्सिडीज, लक्जरी कार तुलना दुबई, फैंटम बनाम मेबैक, लक्जरी किराये की तुलना, दुबई कार तुलना गाइड, दुबई सर्वश्रेष्ठ लक्जरी कार, विशेषज्ञ कार तुलना",
+        "longTailKeywords": [
+          "दुबई लक्जरी कार किराया तुलना"
+        ],
+        "voiceSearchOptimized": [
+          "रोल्स रॉयस की तुलना करो"
+        ],
+        "aiKeywords": [
+          "लक्जरी कार तुलना दुबई",
+          "रोल्स रॉयस बनाम अन्य ब्रांड"
+        ]
       },
       "rolls-royce-vs-bentley": {
         "title": "रोल्स-रॉयस बनाम बेंटले दुबई तुलना | लक्जरी कार किराया गाइड",
         "description": "दुबई में रोल्स-रॉयस बनाम बेंटले लक्जरी कारों की तुलना करें। आपको चुनने में मदद करने के लिए सुविधाओं, प्रदर्शन, विरासत और किराया कीमतों की विस्तृत तुलना।",
-        "keywords": "रोल्स रॉयस बनाम बेंटले, दुबई लक्जरी कार तुलना, फैंटम बनाम मुल्सैन, घोस्ट बनाम फ्लाइंग स्पर, कुलिनन बनाम बेंटायगा"
+        "keywords": "रोल्स रॉयस बनाम बेंटले, दुबई लक्जरी कार तुलना, फैंटम बनाम मुल्सैन, घोस्ट बनाम फ्लाइंग स्पर, कुलिनन बनाम बेंटायगा",
+        "longTailKeywords": [
+          "रोल्स रॉयस या बेंटली किराया कीमत"
+        ],
+        "voiceSearchOptimized": [
+          "रोल्स रॉयस या बेंटली?"
+        ],
+        "aiKeywords": [
+          "रोल्स रॉयस बनाम बेंटली दुबई",
+          "फैंटम बनाम फ्लाइंग स्पर"
+        ]
       },
       "rolls-royce-vs-mercedes": {
-        "title": "रोल्स-रॉयस बनाम मर्सिडीज-बेंज दुबई 2025 | अंतिम लक्जरी तुलना | ब्रिटिश बनाम जर्मन",
+        "title": "रोल्स-रॉयस बनाम मर्सिडीज-बेंज दुबई 2026 | अंतिम लक्जरी तुलना | ब्रिटिश बनाम जर्मन",
         "description": "दुबई में रोल्स-रॉयस बनाम मर्सिडीज-बेंज की तुलना करें। फैंटम बनाम मेबैक एस-क्लास, घोस्ट बनाम एस-क्लास, कुलिनन बनाम जीएलएस। ब्रिटिश बेस्पोक शिल्प कला जर्मन इंजीनियरिंग उत्कृष्टता से मिलती है। कीमतों, सुविधाओं, प्रौद्योगिकी के साथ विशेषज्ञ तुलना गाइड।",
         "keywords": "रोल्स रॉयस बनाम मर्सिडीज दुबई, लक्जरी कार तुलना दुबई, फैंटम बनाम मेबैक दुबई, घोस्ट बनाम एस क्लास दुबई, कुलिनन बनाम जीएलएस दुबई, ब्रिटिश बनाम जर्मन लक्जरी, किराया तुलना दुबई, मर्सिडीज मेबैक बनाम रोल्स रॉयस, लक्जरी चयन गाइड दुबई, विशेषज्ञ तुलना समीक्षा",
         "aiKeywords": [
@@ -380,6 +801,12 @@
           "दुबई लक्जरी कार किराया तुलना",
           "मेबैक बनाम रोल्स रॉयस दुबई",
           "सर्वश्रेष्ठ लक्जरी कार दुबई"
+        ],
+        "longTailKeywords": [
+          "फैंटम या मैबैक S क्लास किराया"
+        ],
+        "voiceSearchOptimized": [
+          "रोल्स रॉयस या मर्सिडीज मैबैक?"
         ]
       }
     },
@@ -394,11 +821,16 @@
       "title": "रोल्स-रॉयस दुबई ब्लॉग | लक्जरी लाइफस्टाइल, टिप्स और गाइड्स",
       "description": "लक्जरी कारों पर इनसाइट्स, दुबई के लिए ड्राइविंग गाइड्स, रोल्स-रॉयस न्यूज, इवेंट कवरेज, और सेलिब्रिटी रेंटल्स। दुबई में लक्जरी मोटरिंग के लिए आपका गाइड।",
       "keywords": "रोल्स-रॉयस ब्लॉग दुबई, लक्जरी कार आर्टिकल्स, दुबई ड्राइविंग टिप्स, ऑटोमोटिव न्यूज, लक्जरी लाइफस्टाइल ब्लॉग"
+    },
+    "dubai-luxury-car-guide-2026": {
+      "title": "2026 Dubai Luxury Car Guide: Rolls-Royce vs Bentley, Ferrari, Lamborghini | Best Rental Comparison",
+      "description": "Ultimate 2026 Dubai luxury car rental guide. Compare Rolls-Royce vs Bentley, Ferrari, Lamborghini with pricing, features & expert tips. Why Rolls-Royce reigns supreme in Dubai's luxury market.",
+      "keywords": "dubai luxury car guide 2026, rolls royce vs bentley dubai, luxury car rental comparison dubai, best luxury cars dubai 2026, rolls royce rental dubai 2026, bentley vs ferrari dubai, lamborghini rental dubai, luxury car market dubai 2026, premium car comparison dubai, dubai exotic car rental guide"
     }
   },
   "fleet": {
     "index": {
-      "title": "दुबई रोल्स-रॉयस फ्लीट 2025 | फैंटम, घोस्ट, कुलिनन, डॉन और रेथ रेंटल",
+      "title": "दुबई रोल्स-रॉयस फ्लीट 2026 | फैंटम, घोस्ट, कुलिनन, डॉन और रेथ रेंटल",
       "description": "दुबई में हमारे असाधारण रोल्स-रॉयस फ्लीट का अन्वेषण करें। फैंटम, घोस्ट, कुलिनन SUV, डॉन कन्वर्टिबल और रेथ कूपे उपलब्ध। पेशेवर ड्राइवरों के साथ प्रीमियम संग्रह। आज ही अपना लक्जरी अनुभव बुक करें।",
       "keywords": "दुबई रोल्स रॉयस फ्लीट, दुबई लक्जरी कार फ्लीट, दुबई फैंटम घोस्ट कुलिनन रेंटल, दुबई रोल्स रॉयस संग्रह, प्रीमियम कार रेंटल फ्लीट, दुबई लक्जरी वाहन विकल्प, दुबई रोल्स रॉयस मॉडल, एक्जीक्यूटिव कार फ्लीट रेंटल"
     }
@@ -412,7 +844,7 @@
   "blog.dubai-luxury-hotels-guide.title": "दुबई के सबसे शानदार होटल: रोल्स-रॉयस के साथ शैली में पहुंचना",
   "blog.dubai-luxury-hotels-guide.description": "दुबई के बेहतरीन 5-सितारा होटल और रिसॉर्ट्स का अन्वेषण करें। लक्जरी आवास और रोल्स-रॉयस चालक सेवाओं के परफेक्ट जोड़ी की खोज करें।",
   "blog.dubai-luxury-hotels-guide.keywords": "दुबई लक्जरी होटल, 5-सितारा होटल दुबई, रोल्स-रॉयस होटल ट्रांसफर, बुर्ज अल अरब, अटलांटिस द पाम, लक्जरी आवास दुबई, होटल चालक सेवा",
-  "blog.first-time-dubai-luxury-guide.title": "दुबई में पहली बार? आपका संपूर्ण लक्जरी कार गाइड 2025",
+  "blog.first-time-dubai-luxury-guide.title": "दुबई में पहली बार? आपका संपूर्ण लक्जरी कार गाइड 2026",
   "blog.first-time-dubai-luxury-guide.description": "दुबई में पहली बार आने वाले आगंतुकों के लिए लक्जरी कार रेंटल की खोज करने का अंतिम गाइड। रोल्स-रॉयस में दुबई का अनुभव करने के बारे में सब कुछ, आवश्यकताओं से लेकर इनसाइडर टिप्स और अवश्य देखने योग्य स्थलों तक।",
   "blog.first-time-dubai-luxury-guide.keywords": "पहली बार दुबई, दुबई लक्जरी गाइड, रोल्स-रॉयस रेंटल गाइड दुबई, दुबई विज़िटर गाइड, लक्जरी कार रेंटल दुबई शुरुआती, दुबई पर्यटन लक्जरी कारें, पहली दुबई यात्रा, दुबई यात्रा टिप्स, लक्जरी अनुभव दुबई, दुबई कार रेंटल गाइड"
 }

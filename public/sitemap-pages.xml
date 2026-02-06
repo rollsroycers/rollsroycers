@@ -4,7 +4,7 @@
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://rollsroycers.com/</loc>
-    <lastmod>2025-10-05</lastmod>
+    <lastmod>2026-02-06</lastmod>
     <changefreq>daily</changefreq>
     <priority>1</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://rollsroycers.com/en/"/>
@@ -17,7 +17,7 @@
   </url>
   <url>
     <loc>https://rollsroycers.com/booking</loc>
-    <lastmod>2025-10-05</lastmod>
+    <lastmod>2026-02-06</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.95</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://rollsroycers.com/en/booking"/>
@@ -30,7 +30,7 @@
   </url>
   <url>
     <loc>https://rollsroycers.com/pricing</loc>
-    <lastmod>2025-10-05</lastmod>
+    <lastmod>2026-02-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://rollsroycers.com/en/pricing"/>
@@ -43,7 +43,7 @@
   </url>
   <url>
     <loc>https://rollsroycers.com/contact</loc>
-    <lastmod>2025-10-05</lastmod>
+    <lastmod>2026-02-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://rollsroycers.com/en/contact"/>
@@ -56,7 +56,7 @@
   </url>
   <url>
     <loc>https://rollsroycers.com/fleet/phantom</loc>
-    <lastmod>2025-10-05</lastmod>
+    <lastmod>2026-02-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://rollsroycers.com/en/fleet/phantom"/>
@@ -73,7 +73,7 @@
   </url>
   <url>
     <loc>https://rollsroycers.com/fleet/ghost</loc>
-    <lastmod>2025-10-05</lastmod>
+    <lastmod>2026-02-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://rollsroycers.com/en/fleet/ghost"/>
@@ -90,7 +90,7 @@
   </url>
   <url>
     <loc>https://rollsroycers.com/fleet/cullinan</loc>
-    <lastmod>2025-10-05</lastmod>
+    <lastmod>2026-02-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://rollsroycers.com/en/fleet/cullinan"/>
@@ -107,7 +107,7 @@
   </url>
   <url>
     <loc>https://rollsroycers.com/fleet/dawn</loc>
-    <lastmod>2025-10-05</lastmod>
+    <lastmod>2026-02-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://rollsroycers.com/en/fleet/dawn"/>
@@ -124,7 +124,7 @@
   </url>
   <url>
     <loc>https://rollsroycers.com/fleet/wraith</loc>
-    <lastmod>2025-10-05</lastmod>
+    <lastmod>2026-02-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://rollsroycers.com/en/fleet/wraith"/>
@@ -141,7 +141,7 @@
   </url>
   <url>
     <loc>https://rollsroycers.com/services/wedding</loc>
-    <lastmod>2025-10-05</lastmod>
+    <lastmod>2026-02-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://rollsroycers.com/en/services/wedding"/>
@@ -154,7 +154,7 @@
   </url>
   <url>
     <loc>https://rollsroycers.com/services/corporate</loc>
-    <lastmod>2025-10-05</lastmod>
+    <lastmod>2026-02-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://rollsroycers.com/en/services/corporate"/>
@@ -167,7 +167,7 @@
   </url>
   <url>
     <loc>https://rollsroycers.com/services/airport-transfer</loc>
-    <lastmod>2025-10-05</lastmod>
+    <lastmod>2026-02-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://rollsroycers.com/en/services/airport-transfer"/>
@@ -180,7 +180,7 @@
   </url>
   <url>
     <loc>https://rollsroycers.com/services/chauffeur</loc>
-    <lastmod>2025-10-05</lastmod>
+    <lastmod>2026-02-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://rollsroycers.com/en/services/chauffeur"/>
@@ -193,7 +193,7 @@
   </url>
   <url>
     <loc>https://rollsroycers.com/services/events</loc>
-    <lastmod>2025-10-05</lastmod>
+    <lastmod>2026-02-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://rollsroycers.com/en/services/events"/>
@@ -206,7 +206,7 @@
   </url>
   <url>
     <loc>https://rollsroycers.com/services/photoshoot</loc>
-    <lastmod>2025-10-05</lastmod>
+    <lastmod>2026-02-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.75</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://rollsroycers.com/en/services/photoshoot"/>
@@ -219,7 +219,7 @@
   </url>
   <url>
     <loc>https://rollsroycers.com/services/tours</loc>
-    <lastmod>2025-10-05</lastmod>
+    <lastmod>2026-02-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.75</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://rollsroycers.com/en/services/tours"/>
@@ -232,7 +232,7 @@
   </url>
   <url>
     <loc>https://rollsroycers.com/locations/downtown-dubai</loc>
-    <lastmod>2025-10-05</lastmod>
+    <lastmod>2026-02-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://rollsroycers.com/en/locations/downtown-dubai"/>
@@ -245,7 +245,7 @@
   </url>
   <url>
     <loc>https://rollsroycers.com/locations/dubai-marina</loc>
-    <lastmod>2025-10-05</lastmod>
+    <lastmod>2026-02-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://rollsroycers.com/en/locations/dubai-marina"/>
@@ -258,7 +258,7 @@
   </url>
   <url>
     <loc>https://rollsroycers.com/locations/palm-jumeirah</loc>
-    <lastmod>2025-10-05</lastmod>
+    <lastmod>2026-02-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.75</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://rollsroycers.com/en/locations/palm-jumeirah"/>
@@ -271,7 +271,7 @@
   </url>
   <url>
     <loc>https://rollsroycers.com/locations/business-bay</loc>
-    <lastmod>2025-10-05</lastmod>
+    <lastmod>2026-02-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.75</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://rollsroycers.com/en/locations/business-bay"/>
@@ -284,7 +284,7 @@
   </url>
   <url>
     <loc>https://rollsroycers.com/locations/jbr</loc>
-    <lastmod>2025-10-05</lastmod>
+    <lastmod>2026-02-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.75</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://rollsroycers.com/en/locations/jbr"/>
@@ -297,7 +297,7 @@
   </url>
   <url>
     <loc>https://rollsroycers.com/locations/difc</loc>
-    <lastmod>2025-10-05</lastmod>
+    <lastmod>2026-02-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.75</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://rollsroycers.com/en/locations/difc"/>
@@ -310,7 +310,7 @@
   </url>
   <url>
     <loc>https://rollsroycers.com/about</loc>
-    <lastmod>2025-10-05</lastmod>
+    <lastmod>2026-02-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://rollsroycers.com/en/about"/>
@@ -323,7 +323,7 @@
   </url>
   <url>
     <loc>https://rollsroycers.com/gallery</loc>
-    <lastmod>2025-10-05</lastmod>
+    <lastmod>2026-02-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://rollsroycers.com/en/gallery"/>
@@ -336,7 +336,7 @@
   </url>
   <url>
     <loc>https://rollsroycers.com/testimonials</loc>
-    <lastmod>2025-10-05</lastmod>
+    <lastmod>2026-02-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://rollsroycers.com/en/testimonials"/>
@@ -349,7 +349,7 @@
   </url>
   <url>
     <loc>https://rollsroycers.com/faq</loc>
-    <lastmod>2025-10-05</lastmod>
+    <lastmod>2026-02-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://rollsroycers.com/en/faq"/>
@@ -362,7 +362,7 @@
   </url>
   <url>
     <loc>https://rollsroycers.com/blog</loc>
-    <lastmod>2025-10-05</lastmod>
+    <lastmod>2026-02-06</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://rollsroycers.com/en/blog"/>
@@ -375,7 +375,7 @@
   </url>
   <url>
     <loc>https://rollsroycers.com/blog/ultimate-guide-rolls-royce-rental-dubai</loc>
-    <lastmod>2025-10-05</lastmod>
+    <lastmod>2026-02-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.65</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://rollsroycers.com/en/blog/ultimate-guide-rolls-royce-rental-dubai"/>
@@ -388,7 +388,7 @@
   </url>
   <url>
     <loc>https://rollsroycers.com/blog/top-scenic-drives-dubai</loc>
-    <lastmod>2025-10-05</lastmod>
+    <lastmod>2026-02-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://rollsroycers.com/en/blog/top-scenic-drives-dubai"/>
@@ -401,7 +401,7 @@
   </url>
   <url>
     <loc>https://rollsroycers.com/blog/rolls-royce-wedding-car-dubai</loc>
-    <lastmod>2025-10-05</lastmod>
+    <lastmod>2026-02-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.65</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://rollsroycers.com/en/blog/rolls-royce-wedding-car-dubai"/>
@@ -414,7 +414,7 @@
   </url>
   <url>
     <loc>https://rollsroycers.com/blog/business-travel-rolls-royce</loc>
-    <lastmod>2025-10-05</lastmod>
+    <lastmod>2026-02-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://rollsroycers.com/en/blog/business-travel-rolls-royce"/>
@@ -427,7 +427,7 @@
   </url>
   <url>
     <loc>https://rollsroycers.com/blog/luxury-shopping-dubai-rolls-royce</loc>
-    <lastmod>2025-10-05</lastmod>
+    <lastmod>2026-02-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.65</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://rollsroycers.com/en/blog/luxury-shopping-dubai-rolls-royce"/>
@@ -440,7 +440,7 @@
   </url>
   <url>
     <loc>https://rollsroycers.com/blog/rolls-royce-dawn-convertible-dubai</loc>
-    <lastmod>2025-10-05</lastmod>
+    <lastmod>2026-02-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.65</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://rollsroycers.com/en/blog/rolls-royce-dawn-convertible-dubai"/>
@@ -453,7 +453,7 @@
   </url>
   <url>
     <loc>https://rollsroycers.com/compare/rolls-royce-vs-bentley</loc>
-    <lastmod>2025-10-05</lastmod>
+    <lastmod>2026-02-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.65</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://rollsroycers.com/en/compare/rolls-royce-vs-bentley"/>
@@ -466,7 +466,7 @@
   </url>
   <url>
     <loc>https://rollsroycers.com/terms</loc>
-    <lastmod>2025-10-05</lastmod>
+    <lastmod>2026-02-06</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://rollsroycers.com/en/terms"/>
@@ -479,7 +479,7 @@
   </url>
   <url>
     <loc>https://rollsroycers.com/privacy</loc>
-    <lastmod>2025-10-05</lastmod>
+    <lastmod>2026-02-06</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://rollsroycers.com/en/privacy"/>

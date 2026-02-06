@@ -1,182 +1,57 @@
 import { GetStaticProps } from 'next'
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
+import { useTranslation } from 'next-i18next'
 import Image from 'next/image'
 import Link from 'next/link'
 import { motion } from 'framer-motion'
 import Layout from '@/components/Layout'
 import WhatsAppButton from '@/components/WhatsAppButton'
 import SEO from '@/components/SEO'
+import GEOOptimizer from '@/components/GEOOptimizer'
+import EntitySchema from '@/components/EntitySchema'
 
 export default function PhotoshootServicePage() {
-  const photoshootTypes = [
-    {
-      title: 'Fashion Photography',
-      description: 'High-end fashion shoots with ultimate luxury backdrop',
-      image: '/images/fashion-photoshoot.jpg',
-      features: [
-        'Model transportation included',
-        'Multiple location changes',
-        'Styling coordination',
-        'Behind-the-scenes access'
-      ]
-    },
-    {
-      title: 'Wedding Photography',
-      description: 'Capture your special day with Rolls-Royce elegance',
-      image: '/images/wedding-photoshoot.jpg',
-      features: [
-        'Bridal party photos',
-        'Romantic couple shots',
-        'Family portraits',
-        'Reception arrivals'
-      ]
-    },
-    {
-      title: 'Commercial Shoots',
-      description: 'Professional advertising and marketing campaigns',
-      image: '/images/commercial-shoot.jpg',
-      features: [
-        'Brand integration',
-        'Product placement',
-        'Video production',
-        'Digital content creation'
-      ]
-    },
-    {
-      title: 'Lifestyle Photography',
-      description: 'Luxury lifestyle and social media content',
-      image: '/images/lifestyle-shoot.jpg',
-      features: [
-        'Instagram worthy shots',
-        'Influencer collaborations',
-        'Personal branding',
-        'Travel photography'
-      ]
-    },
-    {
-      title: 'Music Videos',
-      description: 'Premium vehicles for music video productions',
-      image: '/images/music-video.jpg',
-      features: [
-        'Dynamic shots',
-        'Moving sequences',
-        'Multiple takes',
-        'Night shoots available'
-      ]
-    },
-    {
-      title: 'Corporate Photography',
-      description: 'Executive portraits and company profiles',
-      image: '/images/corporate-photoshoot.jpg',
-      features: [
-        'CEO portraits',
-        'Team photos',
-        'Annual reports',
-        'Marketing materials'
-      ]
-    }
-  ]
+  const { t } = useTranslation('services')
 
-  const photoshootPackages = [
-    {
-      name: 'Basic Shoot',
-      duration: '2 Hours',
-      price: 'AED 5,500',
-      features: [
-        'One Rolls-Royce vehicle',
-        'Stationary positioning',
-        'Basic cleaning & prep',
-        'Location of choice'
-      ]
-    },
-    {
-      name: 'Premium Shoot',
-      duration: '4 Hours',
-      price: 'AED 10,500',
-      features: [
-        'Choice of any vehicle',
-        'Multiple locations',
-        'Professional detailing',
-        'Driver for repositioning',
-        'Props coordination'
-      ]
-    },
-    {
-      name: 'Production Package',
-      duration: 'Full Day',
-      price: 'AED 18,000',
-      features: [
-        'Multiple vehicles available',
-        'Unlimited locations',
-        'Dedicated coordinator',
-        'Moving shots included',
-        'Extended hours option'
-      ]
-    }
-  ]
+  const getTranslatedArray = (key: string): any[] => {
+    const translation = t(key, { returnObjects: true });
+    return Array.isArray(translation) ? translation : [];
+  };
 
-  const popularLocations = [
-    {
-      name: 'Burj Khalifa Background',
-      description: 'Iconic Dubai skyline shots',
-      bestTime: 'Golden hour'
-    },
-    {
-      name: 'Palm Jumeirah',
-      description: 'Luxury beachfront settings',
-      bestTime: 'Sunset'
-    },
-    {
-      name: 'Dubai Marina',
-      description: 'Modern urban backdrop',
-      bestTime: 'Blue hour'
-    },
-    {
-      name: 'Desert Dunes',
-      description: 'Classic Arabian desert scenes',
-      bestTime: 'Early morning'
-    },
-    {
-      name: 'Jumeirah Beach Road',
-      description: 'Coastal drives and beach views',
-      bestTime: 'Late afternoon'
-    },
-    {
-      name: 'Old Dubai / Gold Souk',
-      description: 'Traditional meets luxury',
-      bestTime: 'Morning'
-    }
+  const typeImages = [
+    '/images/fashion-photoshoot.jpg',
+    '/images/wedding-photoshoot.jpg',
+    '/images/commercial-shoot.jpg',
+    '/images/lifestyle-shoot.jpg',
+    '/images/music-video.jpg',
+    '/images/corporate-photoshoot.jpg'
   ]
+  const photoshootTypes = getTranslatedArray('servicesPages.photoshoot.photoshootTypes.types').map((type: any, i: number) => ({
+    ...type,
+    image: typeImages[i] || '/images/fashion-photoshoot.jpg'
+  }))
 
-  const photoTips = [
-    {
-      tip: 'Best Lighting',
-      advice: 'Golden hour (sunrise/sunset) provides the most flattering light for both the car and subjects'
-    },
-    {
-      tip: 'Angle Selection',
-      advice: 'Three-quarter front angle showcases the iconic Rolls-Royce grille and Spirit of Ecstasy'
-    },
-    {
-      tip: 'Color Coordination',
-      advice: 'Choose outfits that complement the vehicle color for cohesive imagery'
-    },
-    {
-      tip: 'Detail Shots',
-      advice: 'Capture unique features like the starlight headliner, embroidered headrests, and dashboard'
-    }
-  ]
+  const photoshootPackages = getTranslatedArray('servicesPages.photoshoot.packages.packages')
 
-  const photographerPartners = [
-    'Dubai Fashion Photographers',
-    'Emirates Wedding Studios',
-    'Luxury Lifestyle Media',
-    'Commercial Production Houses'
-  ]
+  const popularLocations = getTranslatedArray('servicesPages.photoshoot.locations.locations')
+
+  const photoTips = getTranslatedArray('servicesPages.photoshoot.photoTips.tips')
+
+  const photographerPartners = getTranslatedArray('servicesPages.photoshoot.partners.partners')
 
   return (
     <>
       <SEO pageKey="services.photoshoot" />
+      <GEOOptimizer
+        pageKey="services.photoshoot"
+        title="Rolls-Royce Photoshoot Dubai 2026"
+        description="Rolls-Royce for fashion shoots, music videos, and Instagram content in Dubai from AED 1,200/hour."
+        entityType="Service"
+        primaryTopic="Rolls-Royce Photoshoot Dubai"
+        contentSummary="Premium Rolls-Royce vehicles for photoshoots in Dubai. Fashion photography, music videos, Instagram content, and commercial shoots. Hourly from AED 1,200. Multiple models and locations available."
+        facts={['Photoshoot packages from AED 1,200/hour', 'Fashion, music video, Instagram shoots', 'Multiple Rolls-Royce models available', 'Iconic Dubai location access', 'Flexible timing including sunset shoots']}
+      />
+      <EntitySchema pageType="service" serviceType="photoshoot" />
       <Layout>
         {/* Hero Section */}
         <section className="relative h-[70vh] flex items-center justify-center overflow-hidden">
@@ -199,21 +74,20 @@ export default function PhotoshootServicePage() {
               className="text-center"
             >
               <h1 className="text-5xl md:text-7xl font-bold text-white mb-6">
-                Picture Perfect Luxury
+                {t('servicesPages.photoshoot.hero.title')}
               </h1>
               <p className="text-2xl text-rolls-gold mb-8">
-                Professional Photoshoot Services with Rolls-Royce
+                {t('servicesPages.photoshoot.hero.subtitle')}
               </p>
               <p className="text-xl text-gray-300 max-w-3xl mx-auto mb-8">
-                Elevate your photography with the world's most prestigious automobiles. 
-                From fashion shoots to wedding photography, create stunning visuals with our fleet.
+                {t('servicesPages.photoshoot.hero.description')}
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Link href="/booking" className="btn-primary">
-                  Book Photoshoot
+                  {t('servicesPages.photoshoot.hero.bookPhotoshoot')}
                 </Link>
                 <Link href="#packages" className="btn-secondary">
-                  View Packages
+                  {t('servicesPages.photoshoot.hero.viewPackages')}
                 </Link>
               </div>
             </motion.div>
@@ -229,8 +103,8 @@ export default function PhotoshootServicePage() {
                 whileInView={{ opacity: 1, y: 0 }}
                 className="text-center"
               >
-                <p className="text-4xl font-bold text-rolls-gold">1000+</p>
-                <p className="text-gray-300">Photoshoots</p>
+                <p className="text-4xl font-bold text-rolls-gold">{t('servicesPages.photoshoot.stats.photoshoots')}</p>
+                <p className="text-gray-300">{t('servicesPages.photoshoot.stats.photoshootsLabel')}</p>
               </motion.div>
               <motion.div
                 initial={{ opacity: 0, y: 20 }}
@@ -238,8 +112,8 @@ export default function PhotoshootServicePage() {
                 transition={{ delay: 0.1 }}
                 className="text-center"
               >
-                <p className="text-4xl font-bold text-rolls-gold">50+</p>
-                <p className="text-gray-300">Magazine Features</p>
+                <p className="text-4xl font-bold text-rolls-gold">{t('servicesPages.photoshoot.stats.magazineFeatures')}</p>
+                <p className="text-gray-300">{t('servicesPages.photoshoot.stats.magazineFeaturesLabel')}</p>
               </motion.div>
               <motion.div
                 initial={{ opacity: 0, y: 20 }}
@@ -247,8 +121,8 @@ export default function PhotoshootServicePage() {
                 transition={{ delay: 0.2 }}
                 className="text-center"
               >
-                <p className="text-4xl font-bold text-rolls-gold">100+</p>
-                <p className="text-gray-300">Brand Collaborations</p>
+                <p className="text-4xl font-bold text-rolls-gold">{t('servicesPages.photoshoot.stats.brandCollaborations')}</p>
+                <p className="text-gray-300">{t('servicesPages.photoshoot.stats.brandCollaborationsLabel')}</p>
               </motion.div>
               <motion.div
                 initial={{ opacity: 0, y: 20 }}
@@ -256,8 +130,8 @@ export default function PhotoshootServicePage() {
                 transition={{ delay: 0.3 }}
                 className="text-center"
               >
-                <p className="text-4xl font-bold text-rolls-gold">24/7</p>
-                <p className="text-gray-300">Availability</p>
+                <p className="text-4xl font-bold text-rolls-gold">{t('servicesPages.photoshoot.stats.availability')}</p>
+                <p className="text-gray-300">{t('servicesPages.photoshoot.stats.availabilityLabel')}</p>
               </motion.div>
             </div>
           </div>
@@ -267,7 +141,7 @@ export default function PhotoshootServicePage() {
         <section className="py-20 bg-gradient-to-b from-rolls-navy to-rolls-black">
           <div className="container mx-auto px-4">
             <h2 className="text-4xl font-bold text-white text-center mb-12">
-              Photography Services We Offer
+              {t('servicesPages.photoshoot.photoshootTypes.title')}
             </h2>
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
               {photoshootTypes.map((type, index) => (
@@ -291,7 +165,7 @@ export default function PhotoshootServicePage() {
                     <h3 className="text-2xl font-bold text-white mb-2">{type.title}</h3>
                     <p className="text-gray-300 mb-4">{type.description}</p>
                     <ul className="space-y-2">
-                      {type.features.map((feature, idx) => (
+                      {(type.features || []).map((feature: string, idx: number) => (
                         <li key={idx} className="flex items-center text-gray-300 text-sm">
                           <svg className="w-4 h-4 text-rolls-gold mr-2 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
                             <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
@@ -311,7 +185,7 @@ export default function PhotoshootServicePage() {
         <section id="packages" className="py-20 bg-gradient-to-b from-rolls-black to-rolls-navy">
           <div className="container mx-auto px-4">
             <h2 className="text-4xl font-bold text-white text-center mb-12">
-              Photoshoot Packages
+              {t('servicesPages.photoshoot.packages.title')}
             </h2>
             <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
               {photoshootPackages.map((pkg, index) => (
@@ -326,14 +200,14 @@ export default function PhotoshootServicePage() {
                 >
                   {index === 1 && (
                     <div className="absolute -top-4 left-1/2 transform -translate-x-1/2 bg-rolls-gold text-rolls-black px-4 py-1 rounded-full text-sm font-bold">
-                      MOST POPULAR
+                      {pkg.mostPopular || 'MOST POPULAR'}
                     </div>
                   )}
                   <h3 className="text-2xl font-bold text-white mb-2">{pkg.name}</h3>
                   <p className="text-gray-400 mb-4">{pkg.duration}</p>
                   <p className="text-3xl font-bold text-rolls-gold mb-6">{pkg.price}</p>
                   <ul className="space-y-3 mb-8 text-left">
-                    {pkg.features.map((feature, idx) => (
+                    {(pkg.features || []).map((feature: string, idx: number) => (
                       <li key={idx} className="flex items-center text-gray-300">
                         <svg className="w-5 h-5 text-rolls-gold mr-3 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
                           <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
@@ -346,13 +220,13 @@ export default function PhotoshootServicePage() {
                     href="/booking" 
                     className={index === 1 ? 'btn-primary w-full' : 'btn-secondary w-full'}
                   >
-                    Book This Package
+                    {t('servicesPages.photoshoot.packages.bookThisPackage')}
                   </Link>
                 </motion.div>
               ))}
             </div>
             <p className="text-center text-gray-400 mt-8">
-              Custom packages available for extended productions and special requirements
+              {t('servicesPages.photoshoot.packages.customPackages')}
             </p>
           </div>
         </section>
@@ -361,7 +235,7 @@ export default function PhotoshootServicePage() {
         <section className="py-20 bg-gradient-to-b from-rolls-navy to-rolls-black">
           <div className="container mx-auto px-4">
             <h2 className="text-4xl font-bold text-white text-center mb-12">
-              Top Photoshoot Locations in Dubai
+              {t('servicesPages.photoshoot.locations.title')}
             </h2>
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-5xl mx-auto">
               {popularLocations.map((location, index) => (
@@ -378,7 +252,7 @@ export default function PhotoshootServicePage() {
                     <svg className="w-4 h-4 inline mr-1" fill="currentColor" viewBox="0 0 20 20">
                       <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z" clipRule="evenodd" />
                     </svg>
-                    Best time: {location.bestTime}
+                    {t('servicesPages.photoshoot.locations.bestTimeLabel')} {location.bestTime}
                   </p>
                 </motion.div>
               ))}
@@ -390,7 +264,7 @@ export default function PhotoshootServicePage() {
         <section className="py-20 bg-gradient-to-b from-rolls-black to-rolls-navy">
           <div className="container mx-auto px-4">
             <h2 className="text-4xl font-bold text-white text-center mb-12">
-              Professional Photography Tips
+              {t('servicesPages.photoshoot.photoTips.title')}
             </h2>
             <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
               {photoTips.map((item, index) => (
@@ -415,11 +289,11 @@ export default function PhotoshootServicePage() {
         <section className="py-20 bg-gradient-to-b from-rolls-navy to-rolls-black">
           <div className="container mx-auto px-4">
             <h2 className="text-4xl font-bold text-white text-center mb-12">
-              Recommended Photographer Partners
+              {t('servicesPages.photoshoot.partners.title')}
             </h2>
             <div className="max-w-4xl mx-auto">
               <p className="text-center text-gray-300 mb-8">
-                We work with Dubai's premier photographers and production houses
+                {t('servicesPages.photoshoot.partners.description')}
               </p>
               <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
                 {photographerPartners.map((partner, index) => (
@@ -435,7 +309,7 @@ export default function PhotoshootServicePage() {
                 ))}
               </div>
               <p className="text-center text-gray-400 mt-6">
-                Or bring your own photographer - we're happy to work with your creative team
+                {t('servicesPages.photoshoot.partners.bringYourOwn')}
               </p>
             </div>
           </div>
@@ -445,7 +319,7 @@ export default function PhotoshootServicePage() {
         <section className="py-20 bg-gradient-to-b from-rolls-black to-rolls-navy">
           <div className="container mx-auto px-4">
             <h2 className="text-4xl font-bold text-white text-center mb-12">
-              Recent Photoshoots
+              {t('servicesPages.photoshoot.gallery.title')}
             </h2>
             <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 max-w-6xl mx-auto">
               {[1, 2, 3, 4, 5, 6, 7, 8].map((num) => (
@@ -463,7 +337,7 @@ export default function PhotoshootServicePage() {
                     className="object-cover group-hover:scale-110 transition-transform duration-500"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-rolls-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-4">
-                    <p className="text-white text-sm">View Full Gallery</p>
+                    <p className="text-white text-sm">{t('servicesPages.photoshoot.gallery.viewFullGallery')}</p>
                   </div>
                 </motion.div>
               ))}
@@ -488,12 +362,10 @@ export default function PhotoshootServicePage() {
                   ))}
                 </div>
                 <p className="text-2xl text-gray-300 mb-6 italic">
-                  "The Rolls-Royce Ghost was the perfect addition to our fashion campaign. 
-                  The team was professional, the car was immaculate, and the results were 
-                  absolutely stunning. Highly recommend for any luxury shoot!"
+                  "{t('servicesPages.photoshoot.testimonial.text')}"
                 </p>
-                <p className="text-xl text-white font-semibold">Maria Rodriguez</p>
-                <p className="text-gray-400">Fashion Photographer, Vogue Arabia</p>
+                <p className="text-xl text-white font-semibold">{t('servicesPages.photoshoot.testimonial.name')}</p>
+                <p className="text-gray-400">{t('servicesPages.photoshoot.testimonial.role')}</p>
               </motion.div>
             </div>
           </div>
@@ -507,30 +379,29 @@ export default function PhotoshootServicePage() {
               whileInView={{ opacity: 1, y: 0 }}
             >
               <h2 className="text-4xl font-bold text-white mb-6">
-                Ready to Create Something Spectacular?
+                {t('servicesPages.photoshoot.cta.title')}
               </h2>
               <p className="text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
-                Book your Rolls-Royce photoshoot today and capture luxury at its finest
+                {t('servicesPages.photoshoot.cta.description')}
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Link href="/booking" className="btn-primary">
-                  Book Your Photoshoot
+                  {t('servicesPages.photoshoot.cta.bookYourPhotoshoot')}
                 </Link>
                 <a
                   href="tel:+971558164922"
                   className="btn-secondary"
                 >
-                  Call: +971 55 816 4922
+                  {t('servicesPages.photoshoot.cta.call')}
                 </a>
               </div>
               
               <div className="mt-12 p-8 bg-rolls-black/50 backdrop-blur-sm border border-rolls-gold/20 rounded-lg max-w-2xl mx-auto">
-                <h3 className="text-2xl font-bold text-white mb-4">Quick Booking Tips</h3>
+                <h3 className="text-2xl font-bold text-white mb-4">{t('servicesPages.photoshoot.cta.bookingTips.title')}</h3>
                 <ul className="text-left space-y-2 text-gray-300">
-                  <li>• Book at least 48 hours in advance for best availability</li>
-                  <li>• Golden hour slots (sunrise/sunset) book quickly</li>
-                  <li>• Weekend rates may apply for Friday-Saturday shoots</li>
-                  <li>• Special rates for multiple day bookings</li>
+                  {getTranslatedArray('servicesPages.photoshoot.cta.bookingTips.tips').map((tip: string, i: number) => (
+                    <li key={i}>• {tip}</li>
+                  ))}
                 </ul>
               </div>
             </motion.div>

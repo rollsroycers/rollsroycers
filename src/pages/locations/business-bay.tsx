@@ -8,6 +8,8 @@ import Layout from '@/components/Layout'
 import WhatsAppButton from '@/components/WhatsAppButton'
 import ComparisonTool from '@/components/ComparisonTool'
 import SEO from '@/components/SEO'
+import GEOOptimizer from '@/components/GEOOptimizer'
+import EntitySchema from '@/components/EntitySchema'
 
 export default function BusinessBayPage() {
   const { t } = useTranslation('common')
@@ -109,6 +111,16 @@ export default function BusinessBayPage() {
   return (
     <>
       <SEO pageKey="locations.business-bay" />
+      <GEOOptimizer
+        pageKey="locations.business-bay"
+        title="Rolls-Royce Rental Business Bay 2026"
+        description="Professional Rolls-Royce rental in Business Bay for corporate clients. Ghost for executive meetings."
+        entityType="LocalBusiness"
+        primaryTopic="Rolls-Royce Rental Business Bay"
+        contentSummary="Professional Rolls-Royce rental in Business Bay, Dubai. Ghost Series II ideal for corporate meetings along Dubai Canal. Corporate monthly packages available."
+        facts={['Business Bay corporate specialist', 'Ghost ideal for executive meetings', 'Dubai Canal area coverage', 'Corporate monthly packages', '15-min delivery']}
+      />
+      <EntitySchema pageType="location" locationName="business-bay" />
       <Layout>
         {/* Hero Section */}
         <section className="relative h-screen flex items-center justify-center overflow-hidden">

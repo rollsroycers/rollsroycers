@@ -1,0 +1,470 @@
+{
+  "checkAvailability": {
+    "checkAvailability.calendar.month": "Month",
+    "checkAvailability.calendar.selectDate": "Select a date",
+    "checkAvailability.calendar.today": "Today",
+    "checkAvailability.calendar.year": "Year"
+  },
+  "compareFleet": {
+    "compareFleet.cars.cullinan.ratings.presence": 9,
+    "compareFleet.cars.cullinan.ratings.space": 10,
+    "compareFleet.cars.cullinan.usp": "The only Rolls-Royce SUV, combining luxury with off-road capability.",
+    "compareFleet.cars.dawn.ratings.presence": 9,
+    "compareFleet.cars.dawn.ratings.space": 7,
+    "compareFleet.cars.dawn.usp": "The world's quietest convertible, offering a true open-air luxury experience.",
+    "compareFleet.cars.ghost.ratings.presence": 8,
+    "compareFleet.cars.ghost.ratings.space": 8,
+    "compareFleet.cars.ghost.usp": "'Post-Opulent' design and advanced Planar Suspension System.",
+    "compareFleet.cars.phantom.ratings.presence": 10,
+    "compareFleet.cars.phantom.ratings.space": 9,
+    "compareFleet.cars.phantom.usp": "The iconic 'Magic Carpet Ride' and silent cabin.",
+    "compareFleet.cars.wraith.ratings.presence": 10,
+    "compareFleet.cars.wraith.ratings.space": 7,
+    "compareFleet.cars.wraith.usp": "The most powerful Rolls-Royce ever, with a dramatic fastback design.",
+    "compareFleet.featureCategories.bestFor": "Best For",
+    "compareFleet.featureCategories.keyFeatures": "Key Features",
+    "compareFleet.featureCategories.uniqueSellingPoint": "Unique Selling Point",
+    "compareFleet.ratingsItems.presence": "Road Presence",
+    "compareFleet.ratingsItems.space": "Space"
+  },
+  "contact": {
+    "contact.info.address": "123 Luxury Lane, Downtown Dubai, UAE",
+    "contact.info.email": "info@rollsroycedubai.com",
+    "contact.info.hours": "Open 24/7",
+    "contact.info.phone": "+971 55 816 4922",
+    "contact.info.title": "Our Information",
+    "contact.map": "Our Location"
+  },
+  "fleet": {
+    "fleet.dawn.idealOccasions.celebrations.icon": "🎊",
+    "fleet.dawn.idealOccasions.palm.description": "Cruise the iconic Palm with the roof down",
+    "fleet.dawn.idealOccasions.palm.icon": "🌴",
+    "fleet.dawn.idealOccasions.palm.title": "Palm Jumeirah Tours",
+    "fleet.dawn.idealOccasions.photoshoots.icon": "📸",
+    "fleet.dawn.idealOccasions.sunrise.description": "Experience Dubai's golden hour along Jumeirah Beach Road",
+    "fleet.dawn.idealOccasions.sunrise.icon": "🌅",
+    "fleet.dawn.idealOccasions.sunrise.title": "Sunrise Drives",
+    "fleet.dawn.keyFeatures.audio.description": "Perfectly tuned for both open and closed driving",
+    "fleet.dawn.keyFeatures.audio.title": "Bespoke Audio",
+    "fleet.dawn.keyFeatures.weather.description": "6-layer fabric roof provides exceptional insulation",
+    "fleet.dawn.keyFeatures.weather.title": "All-Weather",
+    "fleet.dawn.routes.coastal.bestTime": "Sunset",
+    "fleet.dawn.routes.coastal.distance": "25 km",
+    "fleet.dawn.routes.coastal.duration": "45 minutes",
+    "fleet.dawn.routes.coastal.highlights": "Beach views, Burj Al Arab",
+    "fleet.dawn.routes.coastal.path": "Jumeirah Beach Road → La Mer → City Walk → Downtown Dubai",
+    "fleet.dawn.routes.coastal.title": "Coastal Drive",
+    "fleet.dawn.routes.desert.bestTime": "Early morning",
+    "fleet.dawn.routes.desert.path": "Dubai → Al Qudra Lakes → Desert Conservation Reserve",
+    "fleet.dawn.routes.desert.title": "Desert Escape",
+    "fleet.dawn.sections.comparison.title": "Compare Our Fleet",
+    "fleet.dawn.sections.cta.availability": "Check Availability",
+    "fleet.dawn.sections.cta.call": "Call: +971 55 816 4922",
+    "fleet.dawn.sections.cta.subtitle": "Book now and receive a complimentary sunset drive route map and professional photography session",
+    "fleet.dawn.sections.cta.title": "Feel the Dubai Breeze in a Dawn",
+    "fleet.dawn.sections.experience.title": "360° Dawn Experience",
+    "fleet.dawn.sections.features.allWeather.description": "6-layer fabric roof provides exceptional insulation",
+    "fleet.dawn.sections.features.allWeather.title": "All-Weather",
+    "fleet.dawn.sections.features.bespokeAudio.description": "Perfectly tuned for both open and closed driving",
+    "fleet.dawn.sections.features.bespokeAudio.title": "Bespoke Audio",
+    "fleet.dawn.sections.features.seconds.description": "Smooth roof operation even while driving up to 50 km/h",
+    "fleet.dawn.sections.features.seconds.title": "22 Seconds",
+    "fleet.dawn.sections.features.silentBallet.description": "The quietest convertible roof mechanism in the world",
+    "fleet.dawn.sections.features.silentBallet.title": "Silent Ballet",
+    "fleet.dawn.sections.rentalPackages.title": "Dawn Rental Packages",
+    "fleet.dawn.sections.routes.title": "Recommended Dubai Routes",
+    "fleet.dawn.specs.convertible.acousticInsulation.label": "Acoustic Insulation",
+    "fleet.dawn.specs.convertible.acousticInsulation.value": "Library Quiet",
+    "fleet.dawn.specs.convertible.openingTime.label": "Opening Time",
+    "fleet.dawn.specs.convertible.openingTime.value": "22 seconds",
+    "fleet.dawn.specs.convertible.operationSpeed.label": "Operation Speed",
+    "fleet.dawn.specs.convertible.operationSpeed.value": "Up to 50 km/h",
+    "fleet.dawn.specs.convertible.roofMaterial.label": "Roof Material",
+    "fleet.dawn.specs.convertible.roofMaterial.value": "Fabric (6 layers)",
+    "fleet.dawn.specs.convertible.roofOperation.label": "Roof Operation",
+    "fleet.dawn.specs.convertible.roofOperation.value": "Fully Automatic",
+    "fleet.ghost.businessFeatures.connected.description": "With onboard Wi-Fi and advanced connectivity, the Ghost is your mobile office.",
+    "fleet.ghost.businessFeatures.connected.title": "Always Connected",
+    "fleet.ghost.businessFeatures.excellence.description": "The Ghost is the definitive choice for executives who demand sophistication and performance.",
+    "fleet.ghost.businessFeatures.excellence.title": "Corporate Excellence",
+    "fleet.ghost.businessFeatures.quiet.description": "Conduct meetings or relax in a serene environment, shielded from the city's hustle.",
+    "fleet.ghost.businessFeatures.quiet.title": "Whisper-Quiet Cabin",
+    "fleet.ghost.businessFeatures.safety.description": "Advanced driver-assistance systems ensure a safe and secure journey every time.",
+    "fleet.ghost.businessFeatures.safety.title": "Uncompromised Safety",
+    "fleet.ghost.rentalPackages.daily.duration": "Daily Rental",
+    "fleet.ghost.rentalPackages.daily.includes": [
+      "250km mileage",
+      "Insurance",
+      "24/7 Support"
+    ],
+    "fleet.ghost.rentalPackages.daily.price": "AED 3,800",
+    "fleet.ghost.rentalPackages.monthly.duration": "Monthly Rental",
+    "fleet.ghost.rentalPackages.monthly.includes": [
+      "Unlimited Mileage",
+      "Full Maintenance",
+      "Custom Terms"
+    ],
+    "fleet.ghost.rentalPackages.monthly.price": "Contact Us",
+    "fleet.ghost.rentalPackages.weekend.duration": "Weekend Package",
+    "fleet.ghost.rentalPackages.weekend.includes": [
+      "500km mileage",
+      "Full Insurance",
+      "VIP Concierge"
+    ],
+    "fleet.ghost.rentalPackages.weekend.price": "AED 7,200",
+    "fleet.ghost.rentalPackages.weekly.duration": "Weekly Rental",
+    "fleet.ghost.rentalPackages.weekly.includes": [
+      "1500km mileage",
+      "Full Insurance",
+      "Dedicated Manager"
+    ],
+    "fleet.ghost.rentalPackages.weekly.price": "AED 25,000",
+    "fleet.virtualTourSpots.cullinan": [
+      {
+        "id": "steering-wheel",
+        "name": "Heated Steering Wheel",
+        "description": "Experience comfort in every touch with the heated, hand-stitched leather steering wheel.",
+        "position": {
+          "x": 50,
+          "y": 60
+        },
+        "details": [
+          "Full-grain leather",
+          "Multi-function controls",
+          "Adjustable temperature",
+          "Classic Rolls-Royce insignia"
+        ]
+      },
+      {
+        "id": "dashboard",
+        "name": "Glass-Fascia Dashboard",
+        "description": "A seamless digital display integrated behind a single pane of glass for a clean, modern aesthetic.",
+        "position": {
+          "x": 65,
+          "y": 45
+        },
+        "details": [
+          "12.3-inch digital instrument cluster",
+          "Central infotainment screen",
+          "Bespoke wood or carbon fibre trim",
+          "Spirit of Ecstasy clock"
+        ]
+      },
+      {
+        "id": "starlight-headliner",
+        "name": "Shooting Starlight Headliner",
+        "description": "An enchanting celestial canopy with dynamic shooting stars that arc across the roof.",
+        "position": {
+          "x": 50,
+          "y": 20
+        },
+        "details": [
+          "Over 1,600 fiber-optic lights",
+          "Eight randomly-sequenced shooting stars",
+          "Customizable constellations",
+          "Adjustable brightness and animation speed"
+        ]
+      }
+    ],
+    "fleet.virtualTourSpots.phantom": [
+      {
+        "id": "dashboard",
+        "name": "Bespoke Dashboard",
+        "description": "Hand-crafted luxury at your fingertips",
+        "position": {
+          "x": 50,
+          "y": 60
+        },
+        "details": [
+          "Gallery wood veneer",
+          "Precision timepiece",
+          "Customizable ambient lighting",
+          "Gold-plated controls"
+        ]
+      },
+      {
+        "id": "starlight",
+        "name": "Starlight Headliner",
+        "description": "1,340 fiber optic lights creating a celestial scene",
+        "position": {
+          "x": 50,
+          "y": 20
+        },
+        "details": [
+          "Hand-woven constellation",
+          "Shooting star feature",
+          "Adjustable brightness",
+          "Bespoke patterns available"
+        ]
+      },
+      {
+        "id": "seats",
+        "name": "Lounge Seating",
+        "description": "Supreme comfort with massage functions",
+        "position": {
+          "x": 30,
+          "y": 70
+        },
+        "details": [
+          "Lambswool carpets",
+          "Heated & ventilated seats",
+          "10-point massage",
+          "Memory settings"
+        ]
+      },
+      {
+        "id": "spirit",
+        "name": "Spirit of Ecstasy",
+        "description": "The iconic symbol of luxury",
+        "position": {
+          "x": 70,
+          "y": 40
+        },
+        "details": [
+          "Retractable mechanism",
+          "Illuminated crystal",
+          "Anti-theft protection",
+          "Customizable finish"
+        ]
+      }
+    ],
+    "fleet.wraith.drivingExperiences.desertHighway.description": "Experience the raw power of the V12 on long, open desert roads.",
+    "fleet.wraith.drivingExperiences.desertHighway.icon": "🏜️",
+    "fleet.wraith.drivingExperiences.desertHighway.route": "Dubai-Al Ain Road",
+    "fleet.wraith.drivingExperiences.desertHighway.title": "Desert Highway",
+    "fleet.wraith.drivingExperiences.nightCruising.description": "Command the city's attention with a dramatic presence under the Dubai skyline.",
+    "fleet.wraith.drivingExperiences.nightCruising.icon": "🌃",
+    "fleet.wraith.drivingExperiences.nightCruising.route": "Sheikh Zayed Road Night Drive",
+    "fleet.wraith.drivingExperiences.nightCruising.title": "Night Cruising",
+    "fleet.wraith.drivingExperiences.trackExperience.description": "Unleash the full potential of the Wraith at the Dubai Autodrome.",
+    "fleet.wraith.drivingExperiences.trackExperience.icon": "🏁",
+    "fleet.wraith.drivingExperiences.trackExperience.route": "Dubai Autodrome Circuit",
+    "fleet.wraith.drivingExperiences.trackExperience.title": "Track Experience",
+    "fleet.wraith.featureTabs.design.stats.coachDoors.label": "Door Opening",
+    "fleet.wraith.featureTabs.design.stats.coachDoors.value": "83°",
+    "fleet.wraith.featureTabs.design.stats.drag.label": "Drag Co-efficient",
+    "fleet.wraith.featureTabs.design.stats.drag.value": "0.33",
+    "fleet.wraith.featureTabs.design.stats.fastback.label": "Roof Angle",
+    "fleet.wraith.featureTabs.design.stats.fastback.value": "24°",
+    "fleet.wraith.featureTabs.design.stats.paintLayers.label": "Paint Layers",
+    "fleet.wraith.featureTabs.design.stats.paintLayers.value": "20",
+    "fleet.wraith.featureTabs.experience.description": "The Wraith is designed to be driven. Discover the perfect Dubai routes to experience its full potential.",
+    "fleet.wraith.featureTabs.technology.description": "Advanced technology is seamlessly integrated to enhance the driving experience without complication.",
+    "fleet.wraith.featureTabs.technology.items.audio.description": "18 speakers and 1300W of power create a perfect acoustic environment, tuned by Rolls-Royce engineers.",
+    "fleet.wraith.featureTabs.technology.items.audio.title": "Bespoke Audio System",
+    "fleet.wraith.featureTabs.technology.items.headliner.description": "A celestial canopy of fiber-optic lights that can be customized to your personal star-sign.",
+    "fleet.wraith.featureTabs.technology.items.headliner.title": "Starlight Headliner",
+    "fleet.wraith.featureTabs.technology.items.transmission.description": "Uses GPS data to predict the road ahead and select the optimal gear for upcoming corners and terrain.",
+    "fleet.wraith.featureTabs.technology.items.transmission.title": "Satellite Aided Transmission",
+    "fleet.wraith.featureTabs.technology.items.vision.description": "Infrared camera detects pedestrians and animals up to 300m away, enhancing safety at night.",
+    "fleet.wraith.featureTabs.technology.items.vision.title": "Night Vision",
+    "fleet.wraith.rentalPackages.daily.duration": "Daily",
+    "fleet.wraith.rentalPackages.daily.includes": [
+      "250 km daily allowance",
+      "Professional chauffeur",
+      "Comprehensive insurance",
+      "Complimentary fuel"
+    ],
+    "fleet.wraith.rentalPackages.daily.price": "AED 3,500",
+    "fleet.wraith.rentalPackages.monthly.duration": "Monthly",
+    "fleet.wraith.rentalPackages.monthly.includes": [
+      "5,000 km monthly allowance",
+      "Flexible chauffeur hours",
+      "Premium insurance",
+      "Monthly detailing"
+    ],
+    "fleet.wraith.rentalPackages.monthly.price": "AED 75,000",
+    "fleet.wraith.specs.dimensions.doors.label": "Doors",
+    "fleet.wraith.specs.dimensions.doors.value": "2 (Coach doors)",
+    "fleet.wraith.virtualTourSpots.wraith": [
+      {
+        "id": "coach-doors",
+        "name": "Iconic Coach Doors",
+        "description": "Effortless entry and exit with rear-hinged doors, a signature Rolls-Royce design feature.",
+        "position": {
+          "x": 30,
+          "y": 55
+        },
+        "details": [
+          "Power-closing mechanism",
+          "Wide aperture for easy access",
+          "Frameless windows",
+          "Integrated umbrella"
+        ]
+      },
+      {
+        "id": "infotainment",
+        "name": "Rotary Controller",
+        "description": "Intuitive control of the infotainment system with a Spirit of Ecstasy-crested rotary dial.",
+        "position": {
+          "x": 55,
+          "y": 48
+        },
+        "details": [
+          "Touchpad for character input",
+          "Hand-crafted glass finish",
+          "Quick access buttons",
+          "Ergonomic design"
+        ]
+      },
+      {
+        "id": "starlight-headliner",
+        "name": "Bespoke Starlight Headliner",
+        "description": "A celestial experience tailored to your desires, with customizable constellations.",
+        "position": {
+          "x": 50,
+          "y": 25
+        },
+        "details": [
+          "1,340 individual fiber optic lights",
+          "Hand-woven into the leather roof lining",
+          "Adjustable brightness",
+          "Shooting star animations available"
+        ]
+      }
+    ]
+  },
+  "footer": {
+    "footer.contact.title": "Contact Us",
+    "footer.links.about": "About Us",
+    "footer.links.blog": "Blog",
+    "footer.links.contact": "Contact",
+    "footer.links.faq": "FAQ",
+    "footer.links.fleet": "Fleet",
+    "footer.links.home": "Home",
+    "footer.links.services": "Services",
+    "footer.links.title": "Quick Links",
+    "footer.social.title": "Follow Us"
+  },
+  "home": {
+    "home.premiumServices.title": "Our Premium Services",
+    "home.premiumServices.viewAll": "View All Services"
+  },
+  "locations": {
+    "locations.downtown.0": "D",
+    "locations.downtown.1": "o",
+    "locations.downtown.10": "u",
+    "locations.downtown.11": "b",
+    "locations.downtown.12": "a",
+    "locations.downtown.13": "i",
+    "locations.downtown.2": "w",
+    "locations.downtown.3": "n",
+    "locations.downtown.4": "t",
+    "locations.downtown.5": "o",
+    "locations.downtown.6": "w",
+    "locations.downtown.7": "n",
+    "locations.downtown.8": " ",
+    "locations.downtown.9": "D"
+  },
+  "loyalty": {
+    "loyalty.faq.a10": "If you don't meet the requirements to maintain your current tier status, you will be adjusted to the next lower tier.",
+    "loyalty.faq.a3": "You can redeem your points for discounts, upgrades, and other rewards when you make a booking.",
+    "loyalty.faq.a4": "No, our loyalty program is completely free to join.",
+    "loyalty.faq.a5": "Tiers are automatically upgraded once you complete the required number of rentals within a calendar year.",
+    "loyalty.faq.a6": "Gold and Platinum members receive invitations to exclusive car launches, luxury partner events, and more.",
+    "loyalty.faq.a7": "No, loyalty points cannot be transferred from one account to another.",
+    "loyalty.faq.a8": "No, our loyalty program is completely free and starts with your first booking.",
+    "loyalty.faq.a9": "You can view your status and points balance by logging into your account on our website or contacting our customer service team.",
+    "loyalty.faq.q10": "What happens if I don't meet tier requirements?",
+    "loyalty.faq.q3": "How do I redeem my points?",
+    "loyalty.faq.q4": "Is there a membership fee?",
+    "loyalty.faq.q5": "How do I upgrade my tier level?",
+    "loyalty.faq.q6": "What exclusive events are available?",
+    "loyalty.faq.q7": "Can I transfer points?",
+    "loyalty.faq.q8": "Is there a membership fee?",
+    "loyalty.faq.q9": "How do I check my status?",
+    "loyalty.journey": "Your Platinum Journey"
+  },
+  "offers": {
+    "offers.chauffeur.code": "CHAUFFEUR10",
+    "offers.firstTime.code": "FIRSTROLLS",
+    "offers.monthly.code": "MONTHLYLUX",
+    "offers.weekend.code": "WEEKEND10"
+  },
+  "personalizedOffers": {
+    "personalizedOffers.notFound.description": "We couldn't find any special offers for you at the moment. Please check back later.",
+    "personalizedOffers.welcome.description": "As a valued client, here's a special offer just for you:",
+    "personalizedOffers.welcome.title": "Welcome Back, {name}!"
+  },
+  "priceCalculator": {
+    "priceCalculator.duration": "Rental Duration (days)",
+    "priceCalculator.locations.abuDhabi": "Abu Dhabi International Airport (AUH)",
+    "priceCalculator.locations.dubai": "Dubai International Airport (DXB)",
+    "priceCalculator.locations.sharjah": "Sharjah International Airport (SHJ)"
+  },
+  "reviews": {
+    "reviews.review1.location": "Abu Dhabi, UAE",
+    "reviews.review1.review": "The best car rental experience I've had in Dubai. The Phantom was immaculate and the service was first-class. Highly recommended.",
+    "reviews.review10.location": "Kuwait City, Kuwait",
+    "reviews.review10.review": "I have rented from many luxury car companies in Dubai, but this is by far the best. Their fleet is unmatched.",
+    "reviews.review2.location": "Doha, Qatar",
+    "reviews.review2.review": "Rented the Cullinan for a family trip. The car was spacious and luxurious, and the chauffeur was very professional and knowledgeable.",
+    "reviews.review3.location": "London, UK",
+    "reviews.review3.review": "Exceptional service from start to finish. The team was very accommodating with my last-minute booking. The Ghost was a dream to drive.",
+    "reviews.review4.location": "Shanghai, China",
+    "reviews.review4.review": "We hired a fleet of Rolls-Royce cars for a corporate event. The cars were stunning and the logistics were handled perfectly. Impressive.",
+    "reviews.review5.location": "Riyadh, KSA",
+    "reviews.review5.review": "The Dawn was the perfect car for a weekend getaway in Dubai. The convertible experience was unforgettable. Excellent service.",
+    "reviews.review6.location": "Moscow, Russia",
+    "reviews.review6.review": "I am a regular customer and they never disappoint. The cars are always in pristine condition and the staff is very professional.",
+    "reviews.review7.location": "Munich, Germany",
+    "reviews.review7.review": "The attention to detail is what sets them apart. From the booking process to the car delivery, everything was seamless.",
+    "reviews.review8.location": "Mumbai, India",
+    "reviews.review8.review": "We rented the Phantom for our wedding. It was the perfect touch of luxury for our special day. The chauffeur was amazing.",
+    "reviews.review9.location": "Taipei, Taiwan",
+    "reviews.review9.review": "The Wraith is a beast! What a car. The team at Rolls-Royce Dubai made the entire process so easy. Will be back for more."
+  },
+  "servicesPages": {
+    "servicesPages.corporate.benefits.financial.description": "Consolidated invoicing, transparent pricing, and competitive corporate rates.",
+    "servicesPages.corporate.benefits.operational.description": "Save time with our easy booking process and reliable, punctual service.",
+    "servicesPages.corporate.benefits.service.description": "Offer a premium transportation experience to your clients and employees.",
+    "servicesPages.corporate.caseStudies.bank.title": "Global Investment Bank",
+    "servicesPages.corporate.caseStudies.tech.title": "International Tech Conference",
+    "servicesPages.corporate.clients.description": "We are proud to serve a diverse range of corporate clients, from global enterprises to local startups.",
+    "servicesPages.corporate.cta.button": "Contact Corporate Sales",
+    "servicesPages.corporate.hero.cta": "Request Corporate Quote",
+    "servicesPages.corporate.hero.description": "Impress clients, reward executives, and travel in unparalleled style with our corporate Rolls-Royce rental services. We provide reliable, discreet, and luxurious transportation solutions for businesses of all sizes.",
+    "servicesPages.corporate.hero.stats.chauffeurs": "Corporate Chauffeurs",
+    "servicesPages.corporate.hero.stats.fortune500": "Fortune 500 Clients",
+    "servicesPages.corporate.hero.stats.onTime": "On-Time Arrival Rate",
+    "servicesPages.corporate.hero.stats.satisfaction": "Client Satisfaction",
+    "servicesPages.corporate.packages.conference.title": "Conference & Event Shuttle",
+    "servicesPages.corporate.packages.executive.title": "Executive Airport Transfer",
+    "servicesPages.corporate.packages.partnership.title": "Long-Term Corporate Partnership",
+    "servicesPages.corporate.packages.roadshow.title": "Financial Roadshows",
+    "servicesPages.corporate.quickInquiry.description": "Get a fast quote for your corporate rental needs.",
+    "servicesPages.corporate.quickInquiry.packages.airport": "Airport Transfer",
+    "servicesPages.corporate.quickInquiry.packages.daily": "Full Day Hire",
+    "servicesPages.corporate.quickInquiry.packages.event": "Event Transportation",
+    "servicesPages.corporate.quickInquiry.packages.hourly": "Hourly As-Directed",
+    "servicesPages.wedding.cta.button": "Inquire Now",
+    "servicesPages.wedding.hero.cta": "Plan Your Wedding Transport",
+    "servicesPages.wedding.hero.description": "Make your special day truly magical with the timeless elegance of a Rolls-Royce. Our wedding car hire service provides the ultimate touch of luxury and sophistication for your wedding in Dubai.",
+    "servicesPages.wedding.packages.classic.title": "Classic Elegance",
+    "servicesPages.wedding.packages.custom": "Custom packages available upon request.",
+    "servicesPages.wedding.packages.description": "Choose from our curated packages or let us create a custom solution for you.",
+    "servicesPages.wedding.packages.royal.title": "Royal Affair",
+    "servicesPages.wedding.packages.ultimate.title": "Ultimate Luxury",
+    "servicesPages.wedding.testimonials.fatima.couple": "Fatima & Khalid",
+    "servicesPages.wedding.testimonials.fatima.quote": "Felt like royalty arriving in the Phantom. It made our photos look absolutely stunning.",
+    "servicesPages.wedding.testimonials.sarah.couple": "Sarah & Ahmed",
+    "servicesPages.wedding.testimonials.sarah.quote": "The Rolls-Royce was the highlight of our wedding. The service was impeccable!"
+  },
+  "testimonialSubmission": {
+    "testimonialSubmission.form.message": "Your Testimonial",
+    "testimonialSubmission.form.photo": "Upload a Photo (Optional)",
+    "testimonialSubmission.stories.story1.author": "The Al-Khateeb Family",
+    "testimonialSubmission.stories.story1.quote": "The most memorable anniversary drive, thanks to the stunning Rolls-Royce Dawn.",
+    "testimonialSubmission.stories.story2.author": "CEO, Global Innovations Inc.",
+    "testimonialSubmission.stories.story2.quote": "Our corporate event was a huge success. The fleet of Ghosts impressed all our international clients.",
+    "testimonialSubmission.stories.story3.author": "Mr. & Mrs. Gupta",
+    "testimonialSubmission.stories.story3.quote": "A dream come true for my son's graduation. The look on his face was priceless.",
+    "testimonialSubmission.stories.title": "Inspiring Stories"
+  },
+  "videoGallery": {
+    "videoGallery.cullinan": "The All-Terrain Cullinan",
+    "videoGallery.modal.title": "Now Playing",
+    "videoGallery.phantom": "The Iconic Phantom",
+    "videoGallery.playlist": "Our Video Playlist"
+  }
+}

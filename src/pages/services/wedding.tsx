@@ -7,6 +7,8 @@ import { motion } from 'framer-motion'
 import Layout from '@/components/Layout'
 import WhatsAppButton from '@/components/WhatsAppButton'
 import SEO from '@/components/SEO'
+import GEOOptimizer from '@/components/GEOOptimizer'
+import EntitySchema from '@/components/EntitySchema'
 
 export default function WeddingServicePage() {
   const { t } = useTranslation('services')
@@ -51,6 +53,20 @@ export default function WeddingServicePage() {
   return (
     <>
       <SEO pageKey="services.wedding" />
+      <GEOOptimizer
+        pageKey="services.wedding"
+        title="Rolls-Royce Wedding Car Dubai 2026"
+        description="Luxury Rolls-Royce wedding car rental in Dubai from AED 2,500. White Phantom & Ghost with decoration and professional chauffeur."
+        entityType="Service"
+        primaryTopic="Rolls-Royce Wedding Car Dubai"
+        contentSummary="Premium Rolls-Royce wedding car service in Dubai. White Phantom and Ghost with floral decoration, red carpet, and professional chauffeur. Packages from AED 2,500. Over 500 weddings served."
+        facts={['Wedding car packages from AED 2,500', 'White Phantom & Ghost available', 'Floral decoration included', 'Professional chauffeur in formal attire', 'Free photographer for 4+ hour bookings', 'Over 500 weddings served in Dubai']}
+        faqs={[
+          { question: 'How much is a Rolls-Royce wedding car in Dubai?', answer: 'Rolls-Royce wedding car packages start from AED 2,500 including decoration, red carpet, and professional chauffeur. Premium packages with photographer from AED 4,500.' },
+          { question: 'Can I get a white Rolls-Royce for my wedding?', answer: 'Yes, we have white Phantom and Ghost models specifically maintained for weddings with custom floral arrangements and Just Married signage.' }
+        ]}
+      />
+      <EntitySchema pageType="service" serviceType="wedding" />
       <Layout>
         {/* Hero Section */}
         <section className="relative h-screen flex items-center justify-center overflow-hidden">

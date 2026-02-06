@@ -11,6 +11,8 @@ import ComparisonTool from '@/components/ComparisonTool'
 import VirtualTour from '@/components/VirtualTour'
 import WhatsAppButton from '@/components/WhatsAppButton'
 import SEO from '@/components/SEO'
+import GEOOptimizer from '@/components/GEOOptimizer'
+import EntitySchema from '@/components/EntitySchema'
 import { createWhatsAppLinkProps } from '@/utils/whatsapp'
 
 export default function GhostPage() {
@@ -49,6 +51,27 @@ export default function GhostPage() {
   return (
     <>
       <SEO pageKey="fleet.ghost" />
+      <GEOOptimizer
+        pageKey="fleet.ghost"
+        title="Rent Rolls-Royce Ghost Dubai 2026"
+        description="Rent Rolls-Royce Ghost in Dubai from AED 3,800/day. Series II & Black Badge available with professional chauffeur."
+        entityType="Vehicle"
+        primaryTopic="Rolls-Royce Ghost Rental Dubai"
+        contentSummary="The Rolls-Royce Ghost is the perfect balance of luxury and driving dynamics. Available for rent in Dubai from AED 3,800/day. Series II with Planar suspension, illuminated fascia. Ideal for business meetings and leisure drives."
+        facts={[
+          'Rolls-Royce Ghost rental from AED 3,800/day',
+          '6.75L Twin-Turbo V12 with 563 HP',
+          'Planar suspension system',
+          'Illuminated fascia dashboard',
+          'Black Badge edition available',
+          'Professional chauffeur included'
+        ]}
+        faqs={[
+          { question: 'How much does it cost to rent a Rolls-Royce Ghost in Dubai?', answer: 'The Rolls-Royce Ghost rental starts from AED 3,800 per day, making it the most affordable Rolls-Royce in our fleet. Weekly and monthly rates available with significant discounts.' },
+          { question: 'What is the difference between Ghost and Ghost Black Badge?', answer: 'The Black Badge is the darker, more powerful variant with enhanced performance, blacked-out chrome, and exclusive interior finishes. It costs approximately 20% more than the standard Ghost.' }
+        ]}
+      />
+      <EntitySchema pageType="fleet" carModel="ghost" />
       <Layout>
         {/* Hero Section */}
         <section className="relative h-screen flex items-center justify-center overflow-hidden">

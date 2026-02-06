@@ -1,5 +1,6 @@
 import { GetStaticProps } from 'next'
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
+import { useTranslation } from 'next-i18next'
 import Image from 'next/image'
 import Link from 'next/link'
 import { motion } from 'framer-motion'
@@ -7,172 +8,71 @@ import Layout from '@/components/Layout'
 import WhatsAppButton from '@/components/WhatsAppButton'
 import PriceCalculator from '@/components/PriceCalculator'
 import SEO from '@/components/SEO'
+import GEOOptimizer from '@/components/GEOOptimizer'
+import EntitySchema from '@/components/EntitySchema'
 
 export default function EventsServicePage() {
-  const eventTypes = [
-    {
-      title: 'Gala Dinners',
-      description: 'Make a grand entrance at prestigious gala events',
-      image: '/images/gala-event.jpg',
-      features: [
-        'Red carpet arrivals',
-        'Coordinated fleet options',
-        'Professional chauffeurs in formal attire',
-        'VIP valet service'
-      ]
-    },
-    {
-      title: 'Product Launches',
-      description: 'Elevate your brand with luxury transportation',
-      image: '/images/product-launch.jpg',
-      features: [
-        'Brand coordination',
-        'Multiple vehicle arrangements',
-        'Media-ready presentation',
-        'Timed arrivals'
-      ]
-    },
-    {
-      title: 'Film & TV Productions',
-      description: 'Premium vehicles for productions and shoots',
-      image: '/images/film-production.jpg',
-      features: [
-        'Flexible scheduling',
-        'Multiple takes accommodation',
-        'Production insurance coverage',
-        'Specialized drivers'
-      ]
-    },
-    {
-      title: 'Fashion Shows',
-      description: 'Complement haute couture with ultimate luxury',
-      image: '/images/fashion-show.jpg',
-      features: [
-        'Model transportation',
-        'VIP guest shuttles',
-        'Backstage accessibility',
-        'Style coordination'
-      ]
-    },
-    {
-      title: 'Award Ceremonies',
-      description: 'Arrive like a star at prestigious ceremonies',
-      image: '/images/award-ceremony.jpg',
-      features: [
-        'Celebrity transportation',
-        'Paparazzi-ready arrivals',
-        'Security coordination',
-        'After-party transfers'
-      ]
-    },
-    {
-      title: 'Private Parties',
-      description: 'Exclusive transportation for intimate gatherings',
-      image: '/images/private-party.jpg',
-      features: [
-        'Birthday celebrations',
-        'Anniversary parties',
-        'Yacht transfers',
-        'Night club arrivals'
-      ]
-    }
-  ]
+  const { t } = useTranslation('services')
 
-  const eventPackages = [
-    {
-      name: 'Single Vehicle',
-      price: 'From AED 8,000',
-      duration: 'Per Event',
-      features: [
-        'One Rolls-Royce of choice',
-        'Professional chauffeur',
-        '4-hour minimum',
-        'Red carpet service'
-      ]
-    },
-    {
-      name: 'Fleet Package',
-      price: 'From AED 24,000',
-      duration: 'Per Event',
-      features: [
-        '3-5 vehicles',
-        'Coordinated arrivals',
-        'Lead car designation',
-        'Event coordinator'
-      ]
-    },
-    {
-      name: 'Premium Production',
-      price: 'From AED 35,000',
-      duration: 'Per Project',
-      features: [
-        'Unlimited vehicles',
-        'Flexible scheduling',
-        'Production support',
-        'Dedicated account manager'
-      ]
-    }
-  ]
+  const getTranslatedArray = (key: string): any[] => {
+    const translation = t(key, { returnObjects: true });
+    return Array.isArray(translation) ? translation : [];
+  };
 
-  const pastEvents = [
-    {
-      event: 'Dubai International Film Festival',
-      role: 'Official Transportation Partner',
-      vehicles: '12 Rolls-Royce vehicles'
-    },
-    {
-      event: 'Fashion Forward Dubai',
-      role: 'VIP Guest Transportation',
-      vehicles: '8 vehicles including Phantom & Ghost'
-    },
-    {
-      event: 'Emirates Golf Club Gala',
-      role: 'Exclusive Vehicle Provider',
-      vehicles: '6 Rolls-Royce Dawn convertibles'
-    },
-    {
-      event: 'Burj Al Arab Private Event',
-      role: 'Guest Shuttle Service',
-      vehicles: '10 vehicle rotating fleet'
-    }
-  ]
+  const eventTypeKeys = ['gala', 'product', 'film', 'fashion', 'awards', 'private'] as const
+  const eventTypeImages: Record<string, string> = {
+    gala: '/images/gala-event.jpg',
+    product: '/images/product-launch.jpg',
+    film: '/images/film-production.jpg',
+    fashion: '/images/fashion-show.jpg',
+    awards: '/images/award-ceremony.jpg',
+    private: '/images/private-party.jpg'
+  }
+  const eventTypes = eventTypeKeys.map(key => ({
+    title: t(`servicesPages.events.eventTypes.${key}.title`),
+    description: t(`servicesPages.events.eventTypes.${key}.description`),
+    image: eventTypeImages[key],
+    features: getTranslatedArray(`servicesPages.events.eventTypes.${key}.features`)
+  }))
 
-  const eventFeatures = [
-    {
-      icon: '🎭',
-      title: 'Event Coordination',
-      description: 'Dedicated event manager for seamless execution'
-    },
-    {
-      icon: '⏰',
-      title: 'Precise Timing',
-      description: 'Choreographed arrivals and departures'
-    },
-    {
-      icon: '🎬',
-      title: 'Media Ready',
-      description: 'Vehicles prepared for photography and filming'
-    },
-    {
-      icon: '👥',
-      title: 'Fleet Options',
-      description: 'Multiple vehicles for large group transportation'
-    },
-    {
-      icon: '🌟',
-      title: 'VIP Treatment',
-      description: 'Red carpet service and special arrangements'
-    },
-    {
-      icon: '🔒',
-      title: 'Discretion',
-      description: 'Complete confidentiality for high-profile events'
-    }
-  ]
+  const packageKeys = ['single', 'fleet', 'premium'] as const
+  const eventPackages = packageKeys.map(key => ({
+    name: t(`servicesPages.events.packages.${key}.name`),
+    price: t(`servicesPages.events.packages.${key}.price`),
+    duration: t(`servicesPages.events.packages.${key}.duration`),
+    features: getTranslatedArray(`servicesPages.events.packages.${key}.features`)
+  }))
+
+  const pastEventKeys = ['filmFestival', 'fashionForward', 'golfClub', 'burjAlArab'] as const
+  const pastEvents = pastEventKeys.map(key => ({
+    event: t(`servicesPages.events.pastEvents.${key}.event`),
+    role: t(`servicesPages.events.pastEvents.${key}.role`),
+    vehicles: t(`servicesPages.events.pastEvents.${key}.vehicles`)
+  }))
+
+  const featureKeys = ['coordination', 'timing', 'media', 'fleet', 'vip', 'discretion'] as const
+  const featureIcons: Record<string, string> = {
+    coordination: '�', timing: '⏰', media: '🎬', fleet: '👥', vip: '🌟', discretion: '🔒'
+  }
+  const eventFeatures = featureKeys.map(key => ({
+    icon: featureIcons[key],
+    title: t(`servicesPages.events.features.${key}.title`),
+    description: t(`servicesPages.events.features.${key}.description`)
+  }))
 
   return (
     <>
       <SEO pageKey="services.events" />
+      <GEOOptimizer
+        pageKey="services.events"
+        title="Rolls-Royce Events & Red Carpet Dubai 2026"
+        description="Luxury Rolls-Royce for galas, premieres, and VIP events in Dubai from AED 3,000. Multi-car fleet packages."
+        entityType="Service"
+        primaryTopic="Rolls-Royce Events Service Dubai"
+        contentSummary="Luxury Rolls-Royce fleet for events in Dubai. Red carpet arrivals, gala dinners, premieres, and VIP occasions. Multi-car packages from AED 3,000. Coordinated fleet available."
+        facts={['Event packages from AED 3,000', 'Multi-car fleet coordination', 'Red carpet arrivals', 'Gala and premiere specialist', 'Professional chauffeurs in formal attire']}
+      />
+      <EntitySchema pageType="service" serviceType="events" />
       <Layout>
         {/* Hero Section */}
         <section className="relative h-[70vh] flex items-center justify-center overflow-hidden">
@@ -195,21 +95,20 @@ export default function EventsServicePage() {
               className="text-center"
             >
               <h1 className="text-5xl md:text-7xl font-bold text-white mb-6">
-                Event Excellence
+                {t('servicesPages.events.hero.title')}
               </h1>
               <p className="text-2xl text-rolls-gold mb-8">
-                Elevate Your Special Occasions with Rolls-Royce
+                {t('servicesPages.events.hero.subtitle')}
               </p>
               <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-                From red carpet galas to exclusive product launches, make every arrival unforgettable 
-                with our premium event transportation service in Dubai.
+                {t('servicesPages.events.hero.description')}
               </p>
               <div className="mt-8 flex flex-col sm:flex-row gap-4 justify-center">
                 <Link href="/booking" className="btn-primary">
-                  Book Event Service
+                  {t('servicesPages.events.hero.bookEvent')}
                 </Link>
                 <a href="#packages" className="btn-secondary">
-                  View Packages
+                  {t('servicesPages.events.hero.viewPackages')}
                 </a>
               </div>
             </motion.div>
@@ -220,7 +119,7 @@ export default function EventsServicePage() {
         <section className="py-20 bg-gradient-to-b from-rolls-black to-rolls-navy">
           <div className="container mx-auto px-4">
             <h2 className="text-4xl font-bold text-white text-center mb-12">
-              Why Choose Rolls-Royce for Your Event
+              {t('servicesPages.events.features.title')}
             </h2>
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
               {eventFeatures.map((feature, index) => (
@@ -244,7 +143,7 @@ export default function EventsServicePage() {
         <section className="py-20 bg-gradient-to-b from-rolls-navy to-rolls-black">
           <div className="container mx-auto px-4">
             <h2 className="text-4xl font-bold text-white text-center mb-12">
-              Events We Specialize In
+              {t('servicesPages.events.eventTypes.title')}
             </h2>
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
               {eventTypes.map((event, index) => (
@@ -288,7 +187,7 @@ export default function EventsServicePage() {
         <section id="packages" className="py-20 bg-gradient-to-b from-rolls-black to-rolls-navy">
           <div className="container mx-auto px-4">
             <h2 className="text-4xl font-bold text-white text-center mb-12">
-              Event Packages
+              {t('servicesPages.events.packages.title')}
             </h2>
             <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
               {eventPackages.map((pkg, index) => (
@@ -303,7 +202,7 @@ export default function EventsServicePage() {
                 >
                   {index === 1 && (
                     <div className="absolute -top-4 left-1/2 transform -translate-x-1/2 bg-rolls-gold text-rolls-black px-4 py-1 rounded-full text-sm font-bold">
-                      MOST POPULAR
+                      {t('servicesPages.events.packages.fleet.popular')}
                     </div>
                   )}
                   <h3 className="text-2xl font-bold text-white mb-4">{pkg.name}</h3>
@@ -323,7 +222,7 @@ export default function EventsServicePage() {
                     href="/booking" 
                     className={index === 1 ? 'btn-primary w-full' : 'btn-secondary w-full'}
                   >
-                    Select Package
+                    {t('servicesPages.events.packages.bookPackage')}
                   </Link>
                 </motion.div>
               ))}
@@ -335,7 +234,7 @@ export default function EventsServicePage() {
         <section className="py-20 bg-gradient-to-b from-rolls-navy to-rolls-black">
           <div className="container mx-auto px-4">
             <h2 className="text-4xl font-bold text-white text-center mb-12">
-              Trusted by Dubai's Premier Events
+              {t('servicesPages.events.pastEvents.title')}
             </h2>
             <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
               {pastEvents.map((event, index) => (
@@ -359,37 +258,11 @@ export default function EventsServicePage() {
         <section className="py-20 bg-gradient-to-b from-rolls-black to-rolls-navy">
           <div className="container mx-auto px-4">
             <h2 className="text-4xl font-bold text-white text-center mb-12">
-              Your Event, Perfectly Executed
+              {t('servicesPages.events.process.title')}
             </h2>
             <div className="max-w-4xl mx-auto">
               <div className="space-y-8">
-                {[
-                  {
-                    step: '01',
-                    title: 'Initial Consultation',
-                    description: 'Discuss your event requirements, vehicle preferences, and logistics'
-                  },
-                  {
-                    step: '02',
-                    title: 'Custom Proposal',
-                    description: 'Receive a tailored package with vehicle selection and pricing'
-                  },
-                  {
-                    step: '03',
-                    title: 'Event Coordination',
-                    description: 'Work with our event manager to plan every detail'
-                  },
-                  {
-                    step: '04',
-                    title: 'Vehicle Preparation',
-                    description: 'Cars detailed and prepared to perfection for your event'
-                  },
-                  {
-                    step: '05',
-                    title: 'Flawless Execution',
-                    description: 'Professional chauffeurs deliver exceptional service on event day'
-                  }
-                ].map((item, index) => (
+                {getTranslatedArray('servicesPages.events.process.steps').map((item: any, index: number) => (
                   <motion.div
                     key={index}
                     initial={{ opacity: 0, x: -20 }}
@@ -428,12 +301,10 @@ export default function EventsServicePage() {
                   ))}
                 </div>
                 <p className="text-2xl text-gray-300 mb-6 italic">
-                  "The Rolls-Royce fleet made our product launch absolutely spectacular. 
-                  The coordination was flawless and our guests were thoroughly impressed. 
-                  It added the perfect touch of luxury to our event."
+                  "{t('servicesPages.events.testimonial.text')}"
                 </p>
-                <p className="text-xl text-white font-semibold">Alexandra Chen</p>
-                <p className="text-gray-400">Marketing Director, Luxury Fashion House</p>
+                <p className="text-xl text-white font-semibold">{t('servicesPages.events.testimonial.name')}</p>
+                <p className="text-gray-400">{t('servicesPages.events.testimonial.role')}</p>
               </motion.div>
             </div>
           </div>
@@ -443,7 +314,7 @@ export default function EventsServicePage() {
         <section className="py-20 bg-gradient-to-b from-rolls-black to-rolls-navy">
           <div className="container mx-auto px-4">
             <h2 className="text-4xl font-bold text-white text-center mb-12">
-              Event Gallery
+              {t('servicesPages.events.gallery.title')}
             </h2>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-6xl mx-auto">
               {[1, 2, 3, 4, 5, 6, 7, 8].map((num) => (
@@ -465,7 +336,7 @@ export default function EventsServicePage() {
             </div>
             <div className="text-center mt-8">
               <Link href="/gallery" className="text-rolls-gold hover:text-white transition-colors">
-                View Full Gallery →
+                {t('servicesPages.events.gallery.viewFull')}
               </Link>
             </div>
           </div>
@@ -479,14 +350,14 @@ export default function EventsServicePage() {
               whileInView={{ opacity: 1, y: 0 }}
             >
               <h2 className="text-4xl font-bold text-white mb-6">
-                Make Your Event Unforgettable
+                {t('servicesPages.events.cta.title')}
               </h2>
               <p className="text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
-                Let's discuss how Rolls-Royce can elevate your next special occasion
+                {t('servicesPages.events.cta.description')}
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Link href="/booking" className="btn-primary">
-                  Start Planning Your Event
+                  {t('servicesPages.events.cta.startPlanning')}
                 </Link>
                 <a
                   href="https://wa.me/971558164922?text=I'm interested in Rolls-Royce event services"
@@ -494,22 +365,22 @@ export default function EventsServicePage() {
                   rel="noopener noreferrer"
                   className="btn-secondary"
                 >
-                  WhatsApp Consultation
+                  {t('servicesPages.events.cta.whatsapp')}
                 </a>
               </div>
               
               <div className="mt-12 grid md:grid-cols-3 gap-8 max-w-3xl mx-auto">
                 <div className="text-center">
                   <p className="text-4xl font-bold text-rolls-gold mb-2">500+</p>
-                  <p className="text-gray-400">Events Serviced</p>
+                  <p className="text-gray-400">{t('servicesPages.events.cta.stats.events')}</p>
                 </div>
                 <div className="text-center">
                   <p className="text-4xl font-bold text-rolls-gold mb-2">98%</p>
-                  <p className="text-gray-400">Client Satisfaction</p>
+                  <p className="text-gray-400">{t('servicesPages.events.cta.stats.satisfaction')}</p>
                 </div>
                 <div className="text-center">
                   <p className="text-4xl font-bold text-rolls-gold mb-2">24/7</p>
-                  <p className="text-gray-400">Event Support</p>
+                  <p className="text-gray-400">{t('servicesPages.events.cta.stats.support')}</p>
                 </div>
               </div>
             </motion.div>
