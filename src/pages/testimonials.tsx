@@ -98,7 +98,7 @@ export default function TestimonialsPage() {
       rating: 5,
       category: 'tourism',
       vehicle: 'Dawn',
-      image: '/images/reviews/Antoine-Lefèvre_.jpg',
+      image: '/images/reviews/Julien-Dubois_.jpg',
       date: '2024-09-20',
       title: 'Une Expérience Inoubliable',
       review: 'Nous avons loué la Dawn pour notre anniversaire à Dubaï. La voiture décapotable était parfaite pour les soirées. Le service était impeccable, avec du champagne et des roses pour notre célébration. Les photos au coucher du soleil sur Palm Jumeirah sont magnifiques! (We rented the Dawn for our anniversary in Dubai. The convertible was perfect for the evenings. Impeccable service with champagne and roses. The sunset photos on Palm Jumeirah are magnificent!)',

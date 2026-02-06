@@ -56,7 +56,7 @@ export default function TestimonialSubmission() {
       occasion: t('testimonialSubmission.stories.story3.occasion'),
       story: t('testimonialSubmission.stories.story3.story'),
       rating: 5,
-      image: "/images/reviews/Antoine-Lefèvre_.jpg",
+      image: "/images/reviews/Julien-Dubois_.jpg",
       verified: true
     }
   ]

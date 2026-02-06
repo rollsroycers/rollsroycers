@@ -251,7 +251,7 @@ export default function EnhancedSEO({
       {/* Additional SEO Tags */}
       <meta name="referrer" content="origin-when-cross-origin" />
       <meta name="format-detection" content="telephone=yes" />
-      <meta name="apple-mobile-web-app-capable" content="yes" />
+      <meta name="mobile-web-app-capable" content="yes" />
       <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
       
       {/* Preconnect to external domains */}

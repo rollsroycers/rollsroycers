@@ -59,7 +59,7 @@ export default function Reviews() {
     {
       id: 4,
       name: t('reviews.review4.name'),
-      image: "/images/reviews/Antoine-Lefèvre_.jpg",
+      image: "/images/reviews/Julien-Dubois_.jpg",
       rating: 5,
       date: t('reviews.review4.date'),
       car: t('reviews.review4.car'),
