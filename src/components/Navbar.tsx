@@ -66,7 +66,7 @@ export default function Navbar() {
     { href: '/pricing', label: t('nav.pricing'), icon: '💰' },
     { href: '/faq', label: t('nav.faq'), icon: '❓' },
     { href: '/blog', label: t('nav.blog'), icon: '📖' },
-    { href: '/compare/rolls-royce-vs-bentley', label: t('home.explore.compare.title'), icon: '⚖️' }
+    { href: '/compare/rolls-royce-vs-bentley', label: t('nav.compare'), icon: '⚖️' }
   ]
 
   const handleLanguageChange = (langCode: string) => {
