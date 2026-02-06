@@ -382,8 +382,6 @@ const nextConfig = {
   // Trailing slash handling for SEO consistency
   trailingSlash: false,
   
-  // Output optimization
-  output: 'standalone',
   
   // Build optimization
   productionBrowserSourceMaps: false, // Disable source maps in production
@@ -396,3 +394,8 @@ const nextConfig = {
 }
 
 module.exports = nextConfig
+
+if (process.env.NODE_ENV === 'development') {
+  const { initOpenNextCloudflareForDev } = require('@opennextjs/cloudflare')
+  initOpenNextCloudflareForDev()
+}
