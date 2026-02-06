@@ -1,4 +1,5 @@
 import { serverSideTranslations as _serverSideTranslations } from 'next-i18next/serverSideTranslations'
+import path from 'path'
 
 const i18nConfig = {
   i18n: {
@@ -7,7 +8,7 @@ const i18nConfig = {
     localeDetection: false,
   },
   defaultNS: 'common',
-  localePath: './public/locales',
+  localePath: path.resolve('./public/locales'),
   reloadOnPrerender: false,
   react: { useSuspense: false },
 }
