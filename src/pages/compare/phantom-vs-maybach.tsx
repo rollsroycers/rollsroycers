@@ -3,7 +3,7 @@ import { GetStaticProps } from 'next';
 import { useTranslation } from 'next-i18next';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import { useRouter } from 'next/router';
-import Head from 'next/head';
+import SEO from '../../components/SEO';
 import Image from 'next/image';
 import Link from 'next/link';
 import { motion } from 'framer-motion';
@@ -129,20 +129,7 @@ const PhantomVsMaybach: React.FC = () => {
 
   return (
     <>
-      <Head>
-        <title>{t('seo:compare.phantom_vs_maybach.title')}</title>
-        <meta name="description" content={t('seo:compare.phantom_vs_maybach.description')} />
-        <meta name="keywords" content={t('seo:compare.phantom_vs_maybach.keywords')} />
-        <meta property="og:title" content={t('seo:compare.phantom_vs_maybach.og_title')} />
-        <meta property="og:description" content={t('seo:compare.phantom_vs_maybach.og_description')} />
-        <meta property="og:type" content="website" />
-        <meta property="og:url" content={`https://rollsroycers.com${router.asPath}`} />
-        <meta property="og:image" content="https://rollsroycers.com/images/compare-phantom-maybach.jpg" />
-        <link rel="canonical" href={`https://rollsroycers.com${router.pathname}`} />
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content={t('seo:compare.phantom_vs_maybach.title')} />
-        <meta name="twitter:description" content={t('seo:compare.phantom_vs_maybach.description')} />
-      </Head>
+      <SEO pageKey="compare.phantom-vs-maybach" />
 
       <ComparisonStructuredData
         vehicle1={{

@@ -335,6 +335,11 @@
         "voiceSearchOptimized": [
           "Забронировать тур по Дубаю на Роллс-Ройс"
         ]
+      },
+      "main": {
+        "title": "Услуги Rolls-Royce Дубай | Свадьба, Корпоратив, Трансфер | Лучшие Цены 2026",
+        "description": "Премиальные услуги Rolls-Royce в Дубае. Свадебные авто от 2 500 AED, корпоративные пакеты от 1 200 AED/день, трансфер в аэропорт 24/7. Профессиональные водители, более 10 000 довольных клиентов.",
+        "keywords": "услуги rolls royce дубай, люксовые автоуслуги дубай, аренда свадебного авто дубай, корпоративный автосервис дубай, трансфер аэропорт дубай"
       }
     },
     "locations": {
@@ -463,6 +468,11 @@
         "voiceSearchOptimized": [
           "Аренда в DIFC"
         ]
+      },
+      "main": {
+        "title": "Локации Rolls-Royce Дубай | Даунтаун, Марина, Палм | Покрытие 24/7",
+        "description": "Премиум-сервис Rolls-Royce во всех районах Дубая. От Даунтаун Дубай до Палм Джумейра, Дубай Марина до ДИFC. Время отклика 15 минут, доступность 24/7.",
+        "keywords": "локации rolls royce дубай, люксовое авто даунтаун дубай, rolls royce марина дубай, автосервис палм джумейра"
       }
     },
     "other": {
@@ -811,6 +821,28 @@
         "voiceSearchOptimized": [
           "Роллс-Ройс или Мерседес Майбах?"
         ]
+      },
+      "rolls-royce-vs-ferrari": {
+        "title": "Rolls-Royce vs Ferrari Дубай 2026 | Сравнение Люксовых Авто | Арендуйте Лучшее",
+        "description": "Сравните Rolls-Royce и Ferrari для аренды в Дубае. Phantom vs Roma, Cullinan vs Purosangue. Цены, характеристики, роскошь. Экспертный гид по выбору идеального люксового автомобиля в Дубае.",
+        "keywords": "rolls royce vs ferrari дубай, сравнение люксовых авто, phantom vs roma, cullinan vs purosangue, аренда rolls royce дубай, аренда ferrari дубай"
+      },
+      "phantom-vs-maybach": {
+        "og_title": "Phantom vs Maybach: The Ultimate Luxury Comparison in Dubai",
+        "title": "Rolls-Royce Phantom vs Mercedes-Maybach 2026 | Dubai Luxury Car Comparison",
+        "aiKeywords": [
+          "phantom vs maybach",
+          "rolls royce vs mercedes maybach",
+          "luxury car comparison dubai",
+          "phantom maybach rental",
+          "ultra luxury sedan dubai",
+          "phantom or maybach",
+          "british vs german luxury car",
+          "best luxury car dubai"
+        ],
+        "keywords": "rolls royce phantom vs maybach dubai, phantom maybach comparison, luxury car comparison dubai, phantom vs maybach s class, which is better phantom or maybach, rolls royce vs mercedes maybach price, phantom maybach rental dubai, ultra luxury sedan comparison, british vs german luxury, phantom or maybach for wedding",
+        "description": "Compare Rolls-Royce Phantom vs Mercedes-Maybach S-Class in Dubai. Detailed comparison of features, performance, luxury, and rental prices. Phantom from AED 3,500/day vs Maybach from AED 3,000/day. Which ultra-luxury sedan is right for you?",
+        "og_description": "Detailed comparison of Rolls-Royce Phantom and Mercedes-Maybach S-Class. Performance, luxury, technology, and pricing compared. Book your preferred ultra-luxury sedan in Dubai."
       }
     },
     "cookie-policy": {
@@ -826,9 +858,9 @@
       "keywords": "блог Роллс-Ройс Дубай, статьи о роскошных автомобилях, советы по вождению в Дубае, автомобильные новости, блог роскошного образа жизни"
     },
     "dubai-luxury-car-guide-2026": {
-      "title": "2026 Dubai Luxury Car Guide: Rolls-Royce vs Bentley, Ferrari, Lamborghini | Best Rental Comparison",
-      "description": "Ultimate 2026 Dubai luxury car rental guide. Compare Rolls-Royce vs Bentley, Ferrari, Lamborghini with pricing, features & expert tips. Why Rolls-Royce reigns supreme in Dubai's luxury market.",
-      "keywords": "dubai luxury car guide 2026, rolls royce vs bentley dubai, luxury car rental comparison dubai, best luxury cars dubai 2026, rolls royce rental dubai 2026, bentley vs ferrari dubai, lamborghini rental dubai, luxury car market dubai 2026, premium car comparison dubai, dubai exotic car rental guide"
+      "title": "Гид по Люксовым Авто Дубая 2026: Rolls-Royce vs Bentley, Ferrari, Lamborghini | Лучшее Сравнение",
+      "description": "Полный гид по аренде люксовых автомобилей в Дубае 2026. Сравнение Rolls-Royce, Bentley, Ferrari и Lamborghini. Цены, характеристики и лучшие варианты для туристов и бизнесменов.",
+      "keywords": "гид люксовые авто дубай 2026, rolls royce vs bentley дубай, сравнение аренды люксовых авто, лучший люксовый авто аренда дубай"
     }
   },
   "fleet": {

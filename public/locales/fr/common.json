@@ -183,8 +183,8 @@
       ],
       "specs": {
         "engine": "V12 bi-turbo de 6,75 L",
-        "power": "563 ch à 5 000 tr/min",
-        "torque": "900 Nm à 1 700 tr/min",
+        "power": "563 ch @ 5 000 tr/min",
+        "torque": "900 Nm @ 1 700 tr/min",
         "acceleration": "0-100 km/h en 5,3 s",
         "topSpeed": "250 km/h (limitée)",
         "seats": "4-5",
@@ -395,12 +395,12 @@
       "highlights": {
         "acceleration": "4.8s jusqu'à 100km/h",
         "quiet": "Silencieux comme un murmure",
-        "engine": "V12 563 CV"
+        "engine": "563 CH V12"
       },
       "tabs": {
         "overview": "Aperçu",
         "specifications": "Spécifications",
-        "business": "Business",
+        "business": "Affaires",
         "gallery": "Galerie",
         "booking": "Réservation"
       },
@@ -685,12 +685,12 @@
           "description": "Climatisation, sièges chauffants et déflecteurs de vent assurent le confort dans le climat de Dubaï."
         },
         "weather": {
-          "title": "All-Weather",
-          "description": "6-layer fabric roof provides exceptional insulation"
+          "title": "Tout Temps",
+          "description": "Le toit en tissu 6 couches offre une isolation exceptionnelle"
         },
         "audio": {
-          "title": "Bespoke Audio",
-          "description": "Perfectly tuned for both open and closed driving"
+          "title": "Audio Sur Mesure",
+          "description": "Parfaitement accordé pour la conduite ouverte et fermée"
         }
       },
       "idealOccasions": {
@@ -717,13 +717,13 @@
           "icon": "🎊"
         },
         "sunrise": {
-          "title": "Sunrise Drives",
+          "title": "Promenades au Lever du Soleil",
           "icon": "🌅",
-          "description": "Experience Dubai's golden hour along Jumeirah Beach Road"
+          "description": "Découvrez l'heure dorée de Dubai le long de Jumeirah Beach Road"
         },
         "palm": {
-          "description": "Cruise the iconic Palm with the roof down",
-          "title": "Palm Jumeirah Tours",
+          "description": "Parcourez l'emblématique Palm avec le toit baissé",
+          "title": "Excursions Palm Jumeirah",
           "icon": "🌴"
         }
       },
@@ -942,8 +942,8 @@
       "description": "La Rolls-Royce la plus puissante et dynamique jamais conçue - une grand tourer fastback.",
       "features": [
         "Design Fastback",
-        "Transmission Assistée par Satellite",
-        "Ciel de Toit Étoilé",
+        "Transmission Satellite",
+        "Ciel Étoilé",
         "Audio Sur Mesure"
       ],
       "images": {
@@ -1206,48 +1206,18 @@
         "wraith": [
           {
             "id": "coach-doors",
-            "name": "Iconic Coach Doors",
-            "description": "Effortless entry and exit with rear-hinged doors, a signature Rolls-Royce design feature.",
-            "position": {
-              "x": 30,
-              "y": 55
-            },
-            "details": [
-              "Power-closing mechanism",
-              "Wide aperture for easy access",
-              "Frameless windows",
-              "Integrated umbrella"
-            ]
+            "name": "Portes Coach Iconiques",
+            "description": "Entrée et sortie sans effort avec ces portes emblématiques"
           },
           {
-            "id": "infotainment",
-            "name": "Rotary Controller",
-            "description": "Intuitive control of the infotainment system with a Spirit of Ecstasy-crested rotary dial.",
-            "position": {
-              "x": 55,
-              "y": 48
-            },
-            "details": [
-              "Touchpad for character input",
-              "Hand-crafted glass finish",
-              "Quick access buttons",
-              "Ergonomic design"
-            ]
+            "id": "starlight",
+            "name": "Ciel Étoilé",
+            "description": "Personnalisé selon votre constellation de naissance"
           },
           {
-            "id": "starlight-headliner",
-            "name": "Bespoke Starlight Headliner",
-            "description": "A celestial experience tailored to your desires, with customizable constellations.",
-            "position": {
-              "x": 50,
-              "y": 25
-            },
-            "details": [
-              "1,340 individual fiber optic lights",
-              "Hand-woven into the leather roof lining",
-              "Adjustable brightness",
-              "Shooting star animations available"
-            ]
+            "id": "fastback",
+            "name": "Profil Fastback",
+            "description": "Design aérodynamique pour une conduite sportive"
           }
         ]
       }
@@ -1265,110 +1235,35 @@
       "cullinan": [
         {
           "id": "steering-wheel",
-          "name": "Heated Steering Wheel",
-          "description": "Experience comfort in every touch with the heated, hand-stitched leather steering wheel.",
-          "position": {
-            "x": 50,
-            "y": 60
-          },
-          "details": [
-            "Full-grain leather",
-            "Multi-function controls",
-            "Adjustable temperature",
-            "Classic Rolls-Royce insignia"
-          ]
+          "name": "Volant Chauffant",
+          "description": "Confort par tous les temps"
         },
         {
-          "id": "dashboard",
-          "name": "Glass-Fascia Dashboard",
-          "description": "A seamless digital display integrated behind a single pane of glass for a clean, modern aesthetic.",
-          "position": {
-            "x": 65,
-            "y": 45
-          },
-          "details": [
-            "12.3-inch digital instrument cluster",
-            "Central infotainment screen",
-            "Bespoke wood or carbon fibre trim",
-            "Spirit of Ecstasy clock"
-          ]
+          "id": "rear-lounge",
+          "name": "Salon Arrière",
+          "description": "Configuration lounge avec réfrigérateur intégré"
         },
         {
-          "id": "starlight-headliner",
-          "name": "Shooting Starlight Headliner",
-          "description": "An enchanting celestial canopy with dynamic shooting stars that arc across the roof.",
-          "position": {
-            "x": 50,
-            "y": 20
-          },
-          "details": [
-            "Over 1,600 fiber-optic lights",
-            "Eight randomly-sequenced shooting stars",
-            "Customizable constellations",
-            "Adjustable brightness and animation speed"
-          ]
+          "id": "boot-space",
+          "name": "Espace de Coffre",
+          "description": "Coffre spacieux avec séparation motorisée"
         }
       ],
       "phantom": [
         {
           "id": "dashboard",
-          "name": "Bespoke Dashboard",
-          "description": "Hand-crafted luxury at your fingertips",
-          "position": {
-            "x": 50,
-            "y": 60
-          },
-          "details": [
-            "Gallery wood veneer",
-            "Precision timepiece",
-            "Customizable ambient lighting",
-            "Gold-plated controls"
-          ]
+          "name": "Tableau de Bord Sur Mesure",
+          "description": "Luxe artisanal à portée de main"
         },
         {
           "id": "starlight",
-          "name": "Starlight Headliner",
-          "description": "1,340 fiber optic lights creating a celestial scene",
-          "position": {
-            "x": 50,
-            "y": 20
-          },
-          "details": [
-            "Hand-woven constellation",
-            "Shooting star feature",
-            "Adjustable brightness",
-            "Bespoke patterns available"
-          ]
+          "name": "Ciel Étoilé",
+          "description": "1,344 fibres optiques créent une voûte céleste"
         },
         {
-          "id": "seats",
-          "name": "Lounge Seating",
-          "description": "Supreme comfort with massage functions",
-          "position": {
-            "x": 30,
-            "y": 70
-          },
-          "details": [
-            "Lambswool carpets",
-            "Heated & ventilated seats",
-            "10-point massage",
-            "Memory settings"
-          ]
-        },
-        {
-          "id": "spirit",
-          "name": "Spirit of Ecstasy",
-          "description": "The iconic symbol of luxury",
-          "position": {
-            "x": 70,
-            "y": 40
-          },
-          "details": [
-            "Retractable mechanism",
-            "Illuminated crystal",
-            "Anti-theft protection",
-            "Customizable finish"
-          ]
+          "id": "rear-suite",
+          "name": "Suite Arrière",
+          "description": "Places arrière de classe exécutive avec champagne réfrigéré"
         }
       ]
     }
@@ -1844,7 +1739,7 @@
         "location": "Moscou, Russie",
         "occasion": "Conférence d'Affaires",
         "story": "Besoin d'une voiture de luxe fiable pour des réunions clients. La Ghost a dépassé toutes les attentes.",
-        "author": "PDG, Global Innovations Inc.",
+        "author": "CEO, Global Innovations Inc.",
         "quote": "Notre événement d'entreprise fut un énorme succès. La flotte de Ghost a impressionné tous nos clients."
       },
       "story3": {
@@ -1946,7 +1841,24 @@
     "availability": "Statut de disponibilité",
     "available": "Disponible",
     "notAvailable": "Non disponible",
-    "contactForDetails": "Contactez-nous pour plus de détails"
+    "contactForDetails": "Contactez-nous pour plus de détails",
+    "vehicles": {
+      "phantom": {
+        "name": "Rolls-Royce Phantom"
+      },
+      "ghost": {
+        "name": "Rolls-Royce Ghost"
+      },
+      "cullinan": {
+        "name": "Rolls-Royce Cullinan"
+      },
+      "dawn": {
+        "name": "Rolls-Royce Dawn"
+      },
+      "wraith": {
+        "name": "Rolls-Royce Wraith"
+      }
+    }
   },
   "videoGallery": {
     "title": "Galerie vidéo",
@@ -2210,25 +2122,25 @@
     "selected": "Sélectionné",
     "verifiedCustomer": "Client vérifié",
     "shareYourStory": "Partagez votre histoire",
-    "rollsRoyceRental": "Rolls-Royce Rental",
-    "luxuryCarRental": "Luxury Car Rental",
-    "learnMore": "Learn More",
-    "viewDetails": "View Details",
-    "contactUs": "Contact Us",
-    "getQuote": "Get a Quote",
-    "reserveNow": "Reserve Now",
-    "explore": "Explore",
-    "submit": "Submit",
-    "send": "Send Message",
-    "call": "Call Us",
+    "rollsRoyceRental": "Location Rolls-Royce",
+    "luxuryCarRental": "Location de Voiture de Luxe",
+    "learnMore": "En Savoir Plus",
+    "viewDetails": "Voir les Détails",
+    "contactUs": "Contactez-Nous",
+    "getQuote": "Obtenir un Devis",
+    "reserveNow": "Réserver Maintenant",
+    "explore": "Explorer",
+    "submit": "Soumettre",
+    "send": "Envoyer le Message",
+    "call": "Appelez-Nous",
     "whatsapp": "WhatsApp Us",
     "email": "Email Us",
-    "address": "Our Address",
-    "loading": "Loading...",
-    "error": "An error occurred. Please try again.",
-    "success": "Success!",
+    "address": "Notre Adresse",
+    "loading": "Chargement...",
+    "error": "Une erreur est survenue. Veuillez réessayer.",
+    "success": "Succès !",
     "all": "All",
-    "select": "Select",
+    "select": "Sélectionner",
     "optional": "Optional",
     "required": "Required",
     "of": "of",
@@ -2562,7 +2474,7 @@
       "technology": "Technologie",
       "value": "Valeur",
       "space": "Space",
-      "presence": "Road Presence"
+      "presence": "Présence Routière"
     },
     "featureCategories": {
       "luxury": "Luxe",
@@ -3082,7 +2994,7 @@
     "bestFor": {
       "title": "Idéal pour",
       "wedding": "Mariages et événements spéciaux",
-      "business": "Corporate & Business",
+      "business": "Corporate & Affaires",
       "leisure": "Loisirs & Tourisme",
       "family": "Occasions familiales",
       "photography": "Séances photo",
@@ -3109,6 +3021,23 @@
       "features": "Caractéristiques",
       "priceRange": "Gamme de prix",
       "seats": "Places"
+    },
+    "comparison": {
+      "phantom": {
+        "name": "Rolls-Royce Phantom"
+      },
+      "ghost": {
+        "name": "Rolls-Royce Ghost"
+      },
+      "cullinan": {
+        "name": "Rolls-Royce Cullinan"
+      },
+      "dawn": {
+        "name": "Rolls-Royce Dawn"
+      },
+      "wraith": {
+        "name": "Rolls-Royce Wraith"
+      }
     }
   },
   "priceCalculator": {
@@ -3837,7 +3766,7 @@
             "Arrêts aux points de vue panoramiques",
             "Photographie professionnelle disponible"
           ],
-          "bestCar": "Dawn Décapotable",
+          "bestCar": "Dawn Cabriolet",
           "price": "À partir de 7 000 AED",
           "cta": "Réserver l'expérience"
         },
@@ -4984,7 +4913,7 @@
       "email": "info@rollsroycedubai.com",
       "title": "Nos informations"
     },
-    "map": "Our Location",
+    "map": "Notre Emplacement",
     "subtitle": "Contactez nos experts en location de luxe",
     "title": "Contactez-nous"
   },
@@ -5453,7 +5382,7 @@
         ]
       },
       "wraith": {
-        "tagline": "Grand Tourer",
+        "tagline": "Grand Tourisme",
         "features": [
           "Design fastback",
           "Ciel étoilé",
@@ -5827,7 +5756,7 @@
     "bestPriceGuarantee": "Garantie meilleur prix",
     "happyClients": "Clients satisfaits",
     "googleRating": "Note Google",
-    "support": "Support",
+    "support": "Assistance",
     "deliveryTime": "Délai de livraison",
     "since2010": "Depuis 2010",
     "inBusiness": "En activité",

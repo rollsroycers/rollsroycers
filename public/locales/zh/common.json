@@ -223,8 +223,8 @@
       ],
       "specs": {
         "engine": "6.75升双涡轮增压V12发动机",
-        "power": "563马力 @ 5000转/分",
-        "torque": "900牛·米 @ 1700转/分",
+        "power": "563马力 @ 5,000转/分",
+        "torque": "900牛·米 @ 1,700转/分",
         "acceleration": "0-100公里/小时 5.3秒",
         "topSpeed": "250公里/小时（电子限速）",
         "seats": "4-5",
@@ -287,7 +287,7 @@
       "highlights": {
         "acceleration": "4.8秒破百",
         "quiet": "静谧如耳语",
-        "engine": "V12 563马力"
+        "engine": "563马力 V12"
       },
       "tabs": {
         "overview": "概览",
@@ -672,7 +672,7 @@
       ]
     },
     "dawn": {
-      "name": "劳斯莱斯曙光",
+      "name": "劳斯莱斯黎明",
       "description": "世界上最安静、最奢华的敞篷车。",
       "hero": {
         "title": "曙光",
@@ -759,12 +759,12 @@
           "description": "气候控制、加热座椅和挡风板确保在迪拜气候下的舒适体验。"
         },
         "weather": {
-          "title": "All-Weather",
-          "description": "6-layer fabric roof provides exceptional insulation"
+          "title": "全天候",
+          "description": "6层织物车顶提供卓越的隔热效果"
         },
         "audio": {
-          "title": "Bespoke Audio",
-          "description": "Perfectly tuned for both open and closed driving"
+          "title": "定制音响",
+          "description": "专为敞篷和封闭驾驶精心调校"
         }
       },
       "idealOccasions": {
@@ -791,13 +791,13 @@
           "icon": "🎊"
         },
         "sunrise": {
-          "title": "Sunrise Drives",
+          "title": "日出之旅",
           "icon": "🌅",
-          "description": "Experience Dubai's golden hour along Jumeirah Beach Road"
+          "description": "沿着朱美拉海滩路体验迪拜的黄金时刻"
         },
         "palm": {
-          "description": "Cruise the iconic Palm with the roof down",
-          "title": "Palm Jumeirah Tours",
+          "description": "敞篷畅游标志性的棕榈岛",
+          "title": "棕榈岛之旅",
           "icon": "🌴"
         }
       },
@@ -930,7 +930,7 @@
           "bestTime": "日落",
           "highlights": "海滩景观，帆船酒店",
           "path": "朱美拉海滩路 → La Mer → City Walk → 迪拜市中心",
-          "duration": "45 minutes",
+          "duration": "45分钟",
           "distance": "25 km"
         }
       },
@@ -1011,10 +1011,10 @@
         "description": "迪拜最佳敞篷车体验 - 无垠天空与无与伦比奢华的完美邂逅。"
       },
       "features": [
-        "Silent Roof",
-        "Bespoke Audio",
-        "Luxurious Materials",
-        "Dynamic Handling"
+        "静音车顶",
+        "定制音响",
+        "奢华材质",
+        "动态操控"
       ]
     },
     "wraith": {
@@ -1161,7 +1161,7 @@
         ]
       },
       "blackBadge": {
-        "title": "魅影黑标版",
+        "title": "魅影 Black Badge",
         "subtitle": "改变你的视角",
         "description": "魅影最强大的表达，增强动力和暗黑美学。",
         "features": [
@@ -1280,56 +1280,26 @@
         "wraith": [
           {
             "id": "coach-doors",
-            "name": "Iconic Coach Doors",
-            "description": "Effortless entry and exit with rear-hinged doors, a signature Rolls-Royce design feature.",
-            "position": {
-              "x": 30,
-              "y": 55
-            },
-            "details": [
-              "Power-closing mechanism",
-              "Wide aperture for easy access",
-              "Frameless windows",
-              "Integrated umbrella"
-            ]
+            "name": "标志性对开门",
+            "description": "轻松优雅的进出体验"
           },
           {
-            "id": "infotainment",
-            "name": "Rotary Controller",
-            "description": "Intuitive control of the infotainment system with a Spirit of Ecstasy-crested rotary dial.",
-            "position": {
-              "x": 55,
-              "y": 48
-            },
-            "details": [
-              "Touchpad for character input",
-              "Hand-crafted glass finish",
-              "Quick access buttons",
-              "Ergonomic design"
-            ]
+            "id": "starlight",
+            "name": "星空顶",
+            "description": "根据您的星座定制"
           },
           {
-            "id": "starlight-headliner",
-            "name": "Bespoke Starlight Headliner",
-            "description": "A celestial experience tailored to your desires, with customizable constellations.",
-            "position": {
-              "x": 50,
-              "y": 25
-            },
-            "details": [
-              "1,340 individual fiber optic lights",
-              "Hand-woven into the leather roof lining",
-              "Adjustable brightness",
-              "Shooting star animations available"
-            ]
+            "id": "fastback",
+            "name": "Fastback轮廓",
+            "description": "空气动力学设计，运动驾驶"
           }
         ]
       },
       "features": [
-        "Fastback Design",
-        "Satellite-Aided Transmission",
-        "Starlight Headliner",
-        "Bespoke Audio"
+        "Fastback设计",
+        "卫星辅助变速箱",
+        "星空顶",
+        "定制音响"
       ]
     },
     "aed": "迪拉姆",
@@ -1345,110 +1315,35 @@
       "cullinan": [
         {
           "id": "steering-wheel",
-          "name": "Heated Steering Wheel",
-          "description": "Experience comfort in every touch with the heated, hand-stitched leather steering wheel.",
-          "position": {
-            "x": 50,
-            "y": 60
-          },
-          "details": [
-            "Full-grain leather",
-            "Multi-function controls",
-            "Adjustable temperature",
-            "Classic Rolls-Royce insignia"
-          ]
+          "name": "加热方向盘",
+          "description": "全天候舒适体验"
         },
         {
-          "id": "dashboard",
-          "name": "Glass-Fascia Dashboard",
-          "description": "A seamless digital display integrated behind a single pane of glass for a clean, modern aesthetic.",
-          "position": {
-            "x": 65,
-            "y": 45
-          },
-          "details": [
-            "12.3-inch digital instrument cluster",
-            "Central infotainment screen",
-            "Bespoke wood or carbon fibre trim",
-            "Spirit of Ecstasy clock"
-          ]
+          "id": "rear-lounge",
+          "name": "后排休息室",
+          "description": "休息室配置配内置冰箱"
         },
         {
-          "id": "starlight-headliner",
-          "name": "Shooting Starlight Headliner",
-          "description": "An enchanting celestial canopy with dynamic shooting stars that arc across the roof.",
-          "position": {
-            "x": 50,
-            "y": 20
-          },
-          "details": [
-            "Over 1,600 fiber-optic lights",
-            "Eight randomly-sequenced shooting stars",
-            "Customizable constellations",
-            "Adjustable brightness and animation speed"
-          ]
+          "id": "boot-space",
+          "name": "行李空间",
+          "description": "宽敞行李箱配电动隔板"
         }
       ],
       "phantom": [
         {
           "id": "dashboard",
-          "name": "Bespoke Dashboard",
-          "description": "Hand-crafted luxury at your fingertips",
-          "position": {
-            "x": 50,
-            "y": 60
-          },
-          "details": [
-            "Gallery wood veneer",
-            "Precision timepiece",
-            "Customizable ambient lighting",
-            "Gold-plated controls"
-          ]
+          "name": "定制仪表盘",
+          "description": "触手可及的手工奢华"
         },
         {
           "id": "starlight",
-          "name": "Starlight Headliner",
-          "description": "1,340 fiber optic lights creating a celestial scene",
-          "position": {
-            "x": 50,
-            "y": 20
-          },
-          "details": [
-            "Hand-woven constellation",
-            "Shooting star feature",
-            "Adjustable brightness",
-            "Bespoke patterns available"
-          ]
+          "name": "星空顶",
+          "description": "1,344根光纤打造璀璨星空"
         },
         {
-          "id": "seats",
-          "name": "Lounge Seating",
-          "description": "Supreme comfort with massage functions",
-          "position": {
-            "x": 30,
-            "y": 70
-          },
-          "details": [
-            "Lambswool carpets",
-            "Heated & ventilated seats",
-            "10-point massage",
-            "Memory settings"
-          ]
-        },
-        {
-          "id": "spirit",
-          "name": "Spirit of Ecstasy",
-          "description": "The iconic symbol of luxury",
-          "position": {
-            "x": 70,
-            "y": 40
-          },
-          "details": [
-            "Retractable mechanism",
-            "Illuminated crystal",
-            "Anti-theft protection",
-            "Customizable finish"
-          ]
+          "id": "rear-suite",
+          "name": "后排套间",
+          "description": "商务级后排座椅配冷藏香槟"
         }
       ]
     }
@@ -1532,7 +1427,7 @@
       "phantom": "劳斯莱斯幻影",
       "ghost": "劳斯莱斯古思特",
       "cullinan": "劳斯莱斯库里南",
-      "dawn": "劳斯莱斯曜影",
+      "dawn": "劳斯莱斯黎明",
       "wraith": "劳斯莱斯魅影"
     },
     "serviceSelection": {
@@ -1572,8 +1467,8 @@
     "locations": {
       "downtownDubai": "迪拜市中心",
       "dubaiMarina": "迪拜码头",
-      "palmJumeirah": "朱美拉棕榈岛",
-      "businessBay": "商务湾",
+      "palmJumeirah": "棕榈岛",
+      "businessBay": "商业湾",
       "jbr": "朱美拉海滩",
       "difc": "迪拜国际金融中心",
       "dxbAirport": "迪拜国际机场 (DXB)",
@@ -1641,7 +1536,7 @@
       "about": "关于我们",
       "fleet": "车队",
       "services": "服务",
-      "contact": "联系",
+      "contact": "联系我们",
       "blog": "博客",
       "faq": "常见问题",
       "terms": "条款",
@@ -1782,7 +1677,24 @@
     "availability": "可用状态",
     "available": "可用",
     "notAvailable": "不可用",
-    "contactForDetails": "联系我们了解详情"
+    "contactForDetails": "联系我们了解详情",
+    "vehicles": {
+      "phantom": {
+        "name": "劳斯莱斯幻影"
+      },
+      "ghost": {
+        "name": "劳斯莱斯古思特"
+      },
+      "cullinan": {
+        "name": "劳斯莱斯库里南"
+      },
+      "dawn": {
+        "name": "劳斯莱斯黎明"
+      },
+      "wraith": {
+        "name": "劳斯莱斯魅影"
+      }
+    }
   },
   "videoGallery": {
     "title": "视频画廊",
@@ -2151,7 +2063,7 @@
       }
     },
     "palmJumeirah": {
-      "nav": "朱美拉棕榈岛",
+      "nav": "棕榈岛",
       "hero": {
         "title": "棕榈岛",
         "subtitle": "奢华标志",
@@ -2624,7 +2536,7 @@
             "feature": "VIP入口"
           },
           "theBeach": {
-            "name": "The Beach at JBR",
+            "name": "JBR海滩",
             "type": "公共海滩",
             "feature": "多个入口点"
           }
@@ -2641,7 +2553,7 @@
             "在风景点停留",
             "提供专业摄影"
           ],
-          "bestCar": "Dawn敞篷车",
+          "bestCar": "Dawn 敞篷车",
           "price": "从7,000迪拉姆起",
           "cta": "预订体验"
         },
@@ -2684,7 +2596,7 @@
           "zuma": {
             "name": "Zuma",
             "cuisine": "日式",
-            "location": "DIFC（10分钟）"
+            "location": "DIFC (10分钟)"
           },
           "laPetite": {
             "name": "La Petite Maison",
@@ -2693,13 +2605,13 @@
           },
           "stk": {
             "name": "STK",
-            "cuisine": "牛排餐厅",
-            "location": "JBR Walk"
+            "cuisine": "牛排馆",
+            "location": "JBR步行街"
           },
           "seafire": {
             "name": "Seafire Steakhouse",
             "cuisine": "美式",
-            "location": "Atlantis（15分钟）"
+            "location": "亚特兰蒂斯 (15分钟)"
           },
           "ilBorro": {
             "name": "Il Borro",
@@ -2709,7 +2621,7 @@
           "nobu": {
             "name": "Nobu",
             "cuisine": "日式融合",
-            "location": "Atlantis（15分钟）"
+            "location": "亚特兰蒂斯 (15分钟)"
           }
         },
         "note": "所有高端餐厅代客泊车协调"
@@ -2718,32 +2630,32 @@
         "title": "附近景点",
         "list": {
           "theWalk": {
-            "name": "The Walk JBR",
+            "name": "JBR步行街",
             "distance": "就在现场",
             "type": "购物和餐饮"
           },
           "marina": {
-            "name": "Dubai Marina",
+            "name": "迪拜码头",
             "distance": "5分钟",
             "type": "海滨区"
           },
           "ainDubai": {
-            "name": "Ain Dubai",
+            "name": "迪拜之眼",
             "distance": "10分钟",
             "type": "观景摩天轮"
           },
           "palm": {
-            "name": "Palm Jumeirah",
+            "name": "棕榈岛",
             "distance": "15分钟",
             "type": "标志性岛屿"
           },
           "skydive": {
-            "name": "Skydive Dubai",
+            "name": "迪拜跳伞",
             "distance": "3分钟",
             "type": "冒险运动"
           },
           "marinaMall": {
-            "name": "Dubai Marina Mall",
+            "name": "迪拜码头商场",
             "distance": "7分钟",
             "type": "购物"
           }
@@ -2952,12 +2864,12 @@
       "testimonials": {
         "title": "DIFC客户评价",
         "ahmed": {
-          "name": "艾哈迈德·拉希德",
+          "name": "Ahmed Al-Rashid",
           "title": "总经理，地区银行",
           "text": "提供的专业水平和谨慎正是我们董事会会议所需要的。幻影为我们的国际合作伙伴创造了正确的印象。"
         },
         "sarah": {
-          "name": "萨拉·汤普森",
+          "name": "Sarah Thompson",
           "title": "投资基金经理",
           "text": "可靠性在我们的业务中至关重要。在DIFC拥有专门的劳斯莱斯服务给了我们重要客户会议所需的安心。"
         }
@@ -3427,7 +3339,7 @@
       },
       "dawn": {
         "id": "dawn",
-        "name": "劳斯莱斯曜影",
+        "name": "劳斯莱斯黎明",
         "image": "/images/Rolls-Royce_Dawn.jpg",
         "price": 5500,
         "specs": {
@@ -3664,7 +3576,7 @@
     "bestFor": {
       "title": "最适合",
       "wedding": "婚礼和特殊活动",
-      "business": "企业商务",
+      "business": "企业与商务",
       "leisure": "休闲旅游",
       "family": "家庭场合",
       "photography": "摄影拍摄",
@@ -3691,6 +3603,23 @@
       "features": "特色配置",
       "priceRange": "价格区间",
       "seats": "座位数"
+    },
+    "comparison": {
+      "phantom": {
+        "name": "劳斯莱斯幻影"
+      },
+      "ghost": {
+        "name": "劳斯莱斯古思特"
+      },
+      "cullinan": {
+        "name": "劳斯莱斯库里南"
+      },
+      "dawn": {
+        "name": "劳斯莱斯黎明"
+      },
+      "wraith": {
+        "name": "劳斯莱斯魅影"
+      }
     }
   },
   "common": {
@@ -3726,30 +3655,30 @@
     "sendInquiry": "发送询问",
     "phone": "电话",
     "callUsDirectly": "直接致电我们获得即时帮助",
-    "address": "地址",
+    "address": "我们的地址",
     "dubaiUAE": "阿联酋迪拜",
     "days": "天",
     "hours": "小时",
     "minutes": "分钟",
     "seconds": "秒",
-    "rollsRoyceRental": "Rolls-Royce Rental",
-    "luxuryCarRental": "Luxury Car Rental",
-    "learnMore": "Learn More",
-    "viewDetails": "View Details",
-    "contactUs": "Contact Us",
-    "getQuote": "Get a Quote",
-    "reserveNow": "Reserve Now",
-    "explore": "Explore",
-    "submit": "Submit",
-    "send": "Send Message",
-    "call": "Call Us",
+    "rollsRoyceRental": "劳斯莱斯租赁",
+    "luxuryCarRental": "豪华车租赁",
+    "learnMore": "了解更多",
+    "viewDetails": "查看详情",
+    "contactUs": "联系我们",
+    "getQuote": "获取报价",
+    "reserveNow": "立即预订",
+    "explore": "探索",
+    "submit": "提交",
+    "send": "发送消息",
+    "call": "致电我们",
     "whatsapp": "WhatsApp Us",
     "email": "Email Us",
-    "loading": "Loading...",
-    "error": "An error occurred. Please try again.",
-    "success": "Success!",
+    "loading": "加载中...",
+    "error": "发生错误，请重试。",
+    "success": "成功！",
     "all": "All",
-    "select": "Select",
+    "select": "选择",
     "optional": "Optional",
     "required": "Required",
     "of": "of"
@@ -4269,7 +4198,7 @@
       "title": "精选比较",
       "subtitle": "探索我们全面的豪华汽车比较，为您的生活方式做出最佳选择",
       "rolls-royce-vs-bentley": {
-        "title": "劳斯莱斯对比宾利",
+        "title": "劳斯莱斯 vs 宾利",
         "subtitle": "英国豪华对决",
         "description": "比较英国豪华汽车工程的两大巨头，每个都有其独特的终极精致方法",
         "highlights": [
@@ -4280,7 +4209,7 @@
         ]
       },
       "rolls-royce-vs-ferrari": {
-        "title": "劳斯莱斯对比法拉利",
+        "title": "劳斯莱斯 vs 法拉利",
         "subtitle": "豪华对比性能",
         "description": "发现这些标志性品牌中终极豪华与终极性能之间的差异",
         "highlights": [
@@ -4291,7 +4220,7 @@
         ]
       },
       "rolls-royce-vs-mercedes": {
-        "title": "劳斯莱斯对比梅赛德斯",
+        "title": "劳斯莱斯 vs 奔驰",
         "subtitle": "经典对比现代豪华",
         "description": "比较传统英国豪华与德国工程卓越和创新",
         "highlights": [
@@ -4302,7 +4231,7 @@
         ]
       },
       "phantom-vs-maybach": {
-        "title": "幻影对比迈巴赫",
+        "title": "幻影 vs 迈巴赫",
         "subtitle": "终极旗舰之战",
         "description": "世界上最豪华的两款旗舰轿车之间的终极比较",
         "highlights": [
@@ -4711,7 +4640,7 @@
         "placeholder": "租赁咨询"
       },
       "message": {
-        "label": "消息",
+        "label": "留言",
         "placeholder": "告诉我们您的需求..."
       },
       "preferredContact": {
@@ -4736,11 +4665,11 @@
     "businessHours": {
       "title": "营业时间",
       "monday": "周一 - 周五",
-      "mondayHours": "9:00 AM - 8:00 PM",
+      "mondayHours": "上午9:00 - 下午8:00",
       "saturday": "周六",
-      "saturdayHours": "9:00 AM - 6:00 PM",
+      "saturdayHours": "上午9:00 - 下午6:00",
       "sunday": "周日",
-      "sundayHours": "10:00 AM - 5:00 PM",
+      "sundayHours": "上午10:00 - 下午5:00",
       "emergency": "📞 24/7紧急支持"
     },
     "socialMedia": {
@@ -5156,7 +5085,7 @@
       "exterior": "令人惊叹的外观",
       "interior": "奢华内饰",
       "details": "精致细节特写",
-      "premium": "尊享"
+      "premium": "高端"
     },
     "videos": {
       "experience": "体验奢华",
@@ -5241,7 +5170,7 @@
         ]
       },
       "wraith": {
-        "tagline": "大巡航车",
+        "tagline": "豪华旅行车",
         "features": [
           "快背式设计",
           "星空车顶",
@@ -5515,7 +5444,7 @@
       "phantom": "劳斯莱斯幻影",
       "ghost": "劳斯莱斯古思特",
       "cullinan": "劳斯莱斯库里南",
-      "dawn": "劳斯莱斯曜影",
+      "dawn": "劳斯莱斯黎明",
       "wraith": "劳斯莱斯魅影",
       "weddingPackage": "婚礼套餐",
       "specialOffers": "特别优惠",
@@ -5526,7 +5455,7 @@
       "dubaiMarina": "迪拜码头",
       "jumeirah": "朱美拉, 迪拜",
       "downtown": "迪拜市中心",
-      "palmJumeirah": "朱美拉棕榈岛",
+      "palmJumeirah": "棕榈岛",
       "difc": "迪拜国际金融中心",
       "abuDhabi": "阿布扎比",
       "uae": "阿联酋"
@@ -5810,7 +5739,7 @@
     "bestPriceGuarantee": "最优价格保证",
     "happyClients": "满意客户",
     "googleRating": "谷歌评分",
-    "support": "全天支持",
+    "support": "支持",
     "deliveryTime": "送车时间",
     "since2010": "始于2010",
     "inBusiness": "持续运营",

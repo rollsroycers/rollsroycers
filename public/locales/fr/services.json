@@ -10,7 +10,7 @@
     "stats": {
       "clients": "Clients Satisfaits",
       "events": "Événements Servis",
-      "support": "Support",
+      "support": "Assistance",
       "satisfaction": "Satisfaction"
     },
     "categories": {
@@ -523,7 +523,7 @@
         "bookTransfer": "Réserver Transfert Aéroport",
         "hotline": "Hotline 24/7: +971 55 816 4922",
         "stats": {
-          "transfers": "5,000+",
+          "transfers": "5 000+",
           "transfersLabel": "Transferts Aéroport",
           "availability": "24/7",
           "availabilityLabel": "Disponibilité",
@@ -1149,7 +1149,7 @@
       },
       "stats": {
         "photoshoots": "1000+",
-        "photoshootsLabel": "Photoshoots",
+        "photoshootsLabel": "Séances Photo",
         "magazineFeatures": "50+",
         "magazineFeaturesLabel": "Publications Magazine",
         "brandCollaborations": "100+",

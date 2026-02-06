@@ -44,12 +44,12 @@
     },
     "locations": {
       "businessBay": "الخليج التجاري، دبي",
-      "dubaiMarina": "دبي مارينا",
+      "dubaiMarina": "مارينا دبي",
       "jumeirah": "جميرا، دبي",
       "downtown": "وسط دبي",
       "palmJumeirah": "نخلة جميرا",
       "difc": "مركز دبي المالي العالمي",
-      "abuDhabi": "أبوظبي",
+      "abuDhabi": "أبو ظبي",
       "uae": "الإمارات"
     },
     "time": {
@@ -403,7 +403,7 @@
       },
       "tabs": {
         "booking": "الحجز",
-        "business": "الأعمال",
+        "business": "أعمال",
         "gallery": "المعرض",
         "overview": "نظرة عامة",
         "specifications": "المواصفات"
@@ -857,8 +857,8 @@
           "title": "إدارة تدفق الهواء"
         },
         "audio": {
-          "description": "مضبوط بشكل مثالي للقيادة المفتوحة والمغلقة",
-          "title": "صوت مخصص"
+          "description": "مضبوط بدقة للقيادة المفتوحة والمغلقة",
+          "title": "نظام صوتي مخصص"
         },
         "ballet": {
           "description": "أهدأ آلية سقف مكشوف في العالم - تتحول في 22 ثانية فقط بسرعات تصل إلى 50 كم/س.",
@@ -885,7 +885,7 @@
           "title": "احتفالات خاصة"
         },
         "palm": {
-          "description": "تجول في نخلة جميرا الأيقونية مع السقف المفتوح",
+          "description": "تجول في نخلة جميرا الشهيرة مع السقف المفتوح",
           "icon": "🌴",
           "title": "جولات نخلة جميرا"
         },
@@ -898,10 +898,10 @@
         "sunrise": {
           "description": "استمتع بالساعة الذهبية في دبي على طول شارع جميرا بيتش",
           "icon": "🌅",
-          "title": "رحلات الشروق"
+          "title": "رحلات شروق الشمس"
         },
         "sunset": {
-          "bestTime": "5:00 م - 7:00 م",
+          "bestTime": "5:00 مساءً - 7:00 مساءً",
           "description": "مثالي لالتقاط الساعة الذهبية على الساحل",
           "title": "رحلات الغروب"
         },
@@ -918,7 +918,7 @@
           "distance": "25 كم",
           "duration": "45 دقيقة",
           "highlights": "إطلالات الشاطئ، برج العرب",
-          "path": "شارع جميرا بيتش → لا مير → سيتي ووك → وسط دبي"
+          "path": "شارع جميرا بيتش → لامير → سيتي ووك → داون تاون دبي"
         },
         "corniche": {
           "description": "طريق ساحلي خلاب مثالي للتجول بالمكشوفة",
@@ -1111,48 +1111,18 @@
         "wraith": [
           {
             "id": "coach-doors",
-            "name": "Iconic Coach Doors",
-            "description": "Effortless entry and exit with rear-hinged doors, a signature Rolls-Royce design feature.",
-            "position": {
-              "x": 30,
-              "y": 55
-            },
-            "details": [
-              "Power-closing mechanism",
-              "Wide aperture for easy access",
-              "Frameless windows",
-              "Integrated umbrella"
-            ]
+            "name": "أبواب كوتش الأيقونية",
+            "description": "دخول وخروج بسلاسة مع هذه الأبواب المميزة"
           },
           {
-            "id": "infotainment",
-            "name": "Rotary Controller",
-            "description": "Intuitive control of the infotainment system with a Spirit of Ecstasy-crested rotary dial.",
-            "position": {
-              "x": 55,
-              "y": 48
-            },
-            "details": [
-              "Touchpad for character input",
-              "Hand-crafted glass finish",
-              "Quick access buttons",
-              "Ergonomic design"
-            ]
+            "id": "starlight",
+            "name": "سقف النجوم",
+            "description": "مخصص حسب كوكبة ميلادك"
           },
           {
-            "id": "starlight-headliner",
-            "name": "Bespoke Starlight Headliner",
-            "description": "A celestial experience tailored to your desires, with customizable constellations.",
-            "position": {
-              "x": 50,
-              "y": 25
-            },
-            "details": [
-              "1,340 individual fiber optic lights",
-              "Hand-woven into the leather roof lining",
-              "Adjustable brightness",
-              "Shooting star animations available"
-            ]
+            "id": "fastback",
+            "name": "تصميم فاست باك",
+            "description": "تصميم انسيابي للقيادة الرياضية"
           }
         ]
       },
@@ -1239,15 +1209,15 @@
         }
       },
       "features": [
-        "تصميم فاستباك",
-        "ناقل حركة بالأقمار الصناعية",
+        "تصميم فاست باك",
+        "ناقل حركة بالقمر الصناعي",
         "سقف النجوم",
-        "صوت مخصص"
+        "نظام صوتي مخصص"
       ],
       "blackBadge": {
         "description": "التعبير الأقوى لرايث مع قوة معززة وجماليات داكنة.",
         "subtitle": "غيّر منظورك",
-        "title": "رايث بلاك بادج",
+        "title": "Wraith Black Badge",
         "features": [
           "محرك V12 توربو مزدوج بقوة 632 حصان",
           "تفاصيل كروم أسود مميزة",
@@ -1314,110 +1284,35 @@
       "cullinan": [
         {
           "id": "steering-wheel",
-          "name": "Heated Steering Wheel",
-          "description": "Experience comfort in every touch with the heated, hand-stitched leather steering wheel.",
-          "position": {
-            "x": 50,
-            "y": 60
-          },
-          "details": [
-            "Full-grain leather",
-            "Multi-function controls",
-            "Adjustable temperature",
-            "Classic Rolls-Royce insignia"
-          ]
+          "name": "مقود مُدفأ",
+          "description": "راحة في جميع الظروف الجوية"
         },
         {
-          "id": "dashboard",
-          "name": "Glass-Fascia Dashboard",
-          "description": "A seamless digital display integrated behind a single pane of glass for a clean, modern aesthetic.",
-          "position": {
-            "x": 65,
-            "y": 45
-          },
-          "details": [
-            "12.3-inch digital instrument cluster",
-            "Central infotainment screen",
-            "Bespoke wood or carbon fibre trim",
-            "Spirit of Ecstasy clock"
-          ]
+          "id": "rear-lounge",
+          "name": "صالة خلفية",
+          "description": "تكوين صالة مع ثلاجة مدمجة"
         },
         {
-          "id": "starlight-headliner",
-          "name": "Shooting Starlight Headliner",
-          "description": "An enchanting celestial canopy with dynamic shooting stars that arc across the roof.",
-          "position": {
-            "x": 50,
-            "y": 20
-          },
-          "details": [
-            "Over 1,600 fiber-optic lights",
-            "Eight randomly-sequenced shooting stars",
-            "Customizable constellations",
-            "Adjustable brightness and animation speed"
-          ]
+          "id": "boot-space",
+          "name": "مساحة الأمتعة",
+          "description": "صندوق واسع مع حاجز كهربائي"
         }
       ],
       "phantom": [
         {
           "id": "dashboard",
-          "name": "Bespoke Dashboard",
-          "description": "Hand-crafted luxury at your fingertips",
-          "position": {
-            "x": 50,
-            "y": 60
-          },
-          "details": [
-            "Gallery wood veneer",
-            "Precision timepiece",
-            "Customizable ambient lighting",
-            "Gold-plated controls"
-          ]
+          "name": "لوحة قيادة مخصصة",
+          "description": "فخامة يدوية الصنع في متناول يدك"
         },
         {
           "id": "starlight",
-          "name": "Starlight Headliner",
-          "description": "1,340 fiber optic lights creating a celestial scene",
-          "position": {
-            "x": 50,
-            "y": 20
-          },
-          "details": [
-            "Hand-woven constellation",
-            "Shooting star feature",
-            "Adjustable brightness",
-            "Bespoke patterns available"
-          ]
+          "name": "سقف النجوم",
+          "description": "1,344 ألياف ضوئية تخلق سماء مرصعة بالنجوم"
         },
         {
-          "id": "seats",
-          "name": "Lounge Seating",
-          "description": "Supreme comfort with massage functions",
-          "position": {
-            "x": 30,
-            "y": 70
-          },
-          "details": [
-            "Lambswool carpets",
-            "Heated & ventilated seats",
-            "10-point massage",
-            "Memory settings"
-          ]
-        },
-        {
-          "id": "spirit",
-          "name": "Spirit of Ecstasy",
-          "description": "The iconic symbol of luxury",
-          "position": {
-            "x": 70,
-            "y": 40
-          },
-          "details": [
-            "Retractable mechanism",
-            "Illuminated crystal",
-            "Anti-theft protection",
-            "Customizable finish"
-          ]
+          "id": "rear-suite",
+          "name": "الجناح الخلفي",
+          "description": "مقاعد خلفية بدرجة رجال الأعمال مع شمبانيا مبردة"
         }
       ]
     }
@@ -1458,7 +1353,7 @@
     "optional": "اختياري",
     "required": "مطلوب",
     "of": "من",
-    "rollsRoyceRental": "تأجير رولز رويس",
+    "rollsRoyceRental": "إيجار رولز رويس",
     "luxuryCarRental": "تأجير سيارات فاخرة",
     "offersEndIn": "تنتهي العروض في",
     "useCode": "استخدم الرمز",
@@ -1523,7 +1418,7 @@
       "events": "الأفضل للفعاليات",
       "family": "الأفضل للعائلات",
       "title": "الأفضل لـ",
-      "business": "الشركات والأعمال",
+      "business": "شركات وأعمال",
       "leisure": "الترفيه والسياحة",
       "photography": "جلسات التصوير"
     },
@@ -1533,11 +1428,11 @@
         "tagline": "قمة الفخامة",
         "features": [
           {
-            "name": "Starlight Headliner",
+            "name": "سقف النجوم",
             "available": true
           },
           {
-            "name": "Coach Doors",
+            "name": "أبواب كوتش",
             "available": false
           },
           {
@@ -1618,11 +1513,11 @@
         },
         "features": [
           {
-            "name": "Starlight Headliner",
+            "name": "سقف النجوم",
             "available": true
           },
           {
-            "name": "Coach Doors",
+            "name": "أبواب كوتش",
             "available": false
           },
           {
@@ -1703,11 +1598,11 @@
         },
         "features": [
           {
-            "name": "Starlight Headliner",
+            "name": "سقف النجوم",
             "available": true
           },
           {
-            "name": "Coach Doors",
+            "name": "أبواب كوتش",
             "available": false
           },
           {
@@ -1766,11 +1661,11 @@
         },
         "features": [
           {
-            "name": "Starlight Headliner",
+            "name": "سقف النجوم",
             "available": false
           },
           {
-            "name": "Coach Doors",
+            "name": "أبواب كوتش",
             "available": true
           },
           {
@@ -1843,11 +1738,11 @@
         },
         "features": [
           {
-            "name": "Starlight Headliner",
+            "name": "سقف النجوم",
             "available": true
           },
           {
-            "name": "Coach Doors",
+            "name": "أبواب كوتش",
             "available": true
           },
           {
@@ -1951,6 +1846,23 @@
       "features": "الميزات",
       "priceRange": "نطاق السعر",
       "seats": "المقاعد"
+    },
+    "comparison": {
+      "phantom": {
+        "name": "رولز رويس فانتوم"
+      },
+      "ghost": {
+        "name": "رولز رويس غوست"
+      },
+      "cullinan": {
+        "name": "رولز رويس كولينان"
+      },
+      "dawn": {
+        "name": "رولز رويس داون"
+      },
+      "wraith": {
+        "name": "رولز رويس رايث"
+      }
     }
   },
   "offers": {
@@ -2207,9 +2119,9 @@
       "nav": "وسط دبي"
     },
     "dubaiMarina": {
-      "nav": "دبي مارينا",
+      "nav": "مارينا دبي",
       "hero": {
-        "title": "دبي مارينا",
+        "title": "مارينا دبي",
         "subtitle": "حياة فاخرة على الواجهة البحرية",
         "bookButton": "احجز رحلتك",
         "callButton": "اتصل الآن",
@@ -2352,7 +2264,7 @@
       },
       "nearbyAttractions": {
         "title": "معالم قريبة",
-        "attraction": "المعلم",
+        "attraction": "معلم سياحي",
         "distance": "المسافة",
         "type": "النوع"
       },
@@ -2623,9 +2535,9 @@
       }
     },
     "businessBay": {
-      "nav": "الخليج التجاري",
+      "nav": "بزنس باي",
       "hero": {
-        "title": "الخليج التجاري",
+        "title": "بزنس باي",
         "subtitle": "مركز الأعمال في دبي",
         "badge": "المنطقة التجارية الأولى",
         "cta": {
@@ -2839,32 +2751,32 @@
         "title": "نوادي الشاطئ الشريكة",
         "clubs": {
           "azure": {
-            "name": "Azure Beach",
+            "name": "أزور بيتش",
             "type": "شاطئ متميز",
             "feature": "مدخل VIP"
           },
           "barasti": {
-            "name": "Barasti Beach",
+            "name": "باراستي بيتش",
             "type": "بار شاطئي",
             "feature": "وصول مباشر"
           },
           "cove": {
-            "name": "Cove Beach",
+            "name": "كوف بيتش",
             "type": "نادي نهاري",
             "feature": "موقف محجوز"
           },
           "nikki": {
-            "name": "Nikki Beach",
+            "name": "نيكي بيتش",
             "type": "نادي شاطئي فاخر",
             "feature": "خدمة صف سيارات"
           },
           "theBeach": {
-            "name": "The Beach at JBR",
+            "name": "ذا بيتش في جي بي آر",
             "type": "شاطئ عام",
             "feature": "نقاط وصول متعددة"
           },
           "zeroGravity": {
-            "name": "Zero Gravity",
+            "name": "زيرو غرافيتي",
             "type": "نادي شاطئي",
             "feature": "كبائن VIP"
           }
@@ -2876,7 +2788,7 @@
           "price": "من AED 7,000",
           "title": "رحلة شاطئ الغروب",
           "description": "تجول على شاطئ JBR خلال الساعة الذهبية",
-          "bestCar": "Dawn Convertible",
+          "bestCar": "Dawn المكشوفة",
           "cta": "احجز التجربة",
           "highlights": [
             "إضاءة مثالية للصور",
@@ -2918,19 +2830,19 @@
         "headers": {
           "cuisine": "المطبخ",
           "location": "الموقع",
-          "restaurant": "المطعم"
+          "restaurant": "مطعم"
         },
         "note": "تنسيق صف السيارات في جميع المطاعم المتميزة",
         "restaurants": {
           "ilBorro": {
-            "name": "Il Borro",
+            "name": "إل بورو",
             "cuisine": "إيطالي",
             "location": "JBR"
           },
           "laPetite": {
-            "name": "La Petite Maison",
+            "name": "لا بيتيت ميزون",
             "cuisine": "فرنسي",
-            "location": "Gate Village"
+            "location": "غيت فيليج"
           },
           "nobu": {
             "name": "Nobu",
@@ -2938,19 +2850,19 @@
             "location": "أتلانتس (15 دقيقة)"
           },
           "seafire": {
-            "name": "Seafire Steakhouse",
+            "name": "سيفاير ستيك هاوس",
             "cuisine": "أمريكي",
             "location": "أتلانتس (15 دقيقة)"
           },
           "stk": {
             "name": "STK",
             "cuisine": "ستيك هاوس",
-            "location": "JBR Walk"
+            "location": "ممشى جي بي آر"
           },
           "zuma": {
             "name": "Zuma",
             "cuisine": "ياباني",
-            "location": "DIFC (10 دقائق)"
+            "location": "المركز المالي (10 دقائق)"
           }
         }
       },
@@ -2983,7 +2895,7 @@
             "distance": "3 دقائق"
           },
           "theWalk": {
-            "name": "ذا ووك JBR",
+            "name": "ممشى جي بي آر",
             "type": "تسوق ومطاعم",
             "distance": "في الموقع"
           }
@@ -2997,7 +2909,7 @@
         "description": "توصيل مجاني لجميع أبراج JBR السكنية بما في ذلك:",
         "note": "+ جميع أبراج JBR مع مواقف تحت الأرض",
         "towers": [
-          "أمواج سويتس",
+          "أجنحة أموج",
           "أبراج بحر",
           "أبراج رمال",
           "أبراج شمس",
@@ -3215,7 +3127,7 @@
     },
     "title": "مواقعنا",
     "subtitle": "نخدم جميع المناطق الرئيسية في دبي",
-    "marina": "دبي مارينا",
+    "marina": "مارينا دبي",
     "jumeirah": "نخلة جميرا",
     "viewOnMap": "عرض على الخريطة",
     "cta": {
@@ -3500,7 +3412,7 @@
       "downtownDubai": "وسط دبي",
       "dubaiMarina": "دبي مارينا",
       "palmJumeirah": "نخلة جميرا",
-      "businessBay": "الخليج التجاري",
+      "businessBay": "بزنس باي",
       "jbr": "جي بي آر",
       "difc": "مركز دبي المالي",
       "dxbAirport": "مطار دبي الدولي (DXB)",
@@ -3596,7 +3508,7 @@
         ]
       },
       "wraith": {
-        "tagline": "سيارة جراند تورر",
+        "tagline": "جراند تورير",
         "features": [
           "تصميم فاستباك",
           "بطانة السقف النجمية",
@@ -3769,7 +3681,7 @@
       "stats": {
         "support": "دعم العملاء",
         "hiddenFees": "رسوم خفية",
-        "satisfaction": "رضا"
+        "satisfaction": "رضا العملاء"
       }
     }
   },
@@ -3941,7 +3853,7 @@
   "blog": {
     "categories": {
       "all": "جميع المقالات",
-      "guides": "أدلة إرشادية",
+      "guides": "أدلة",
       "luxury": "نمط الحياة الفاخر",
       "events": "الأحداث والأخبار",
       "tips": "نصائح وإرشادات"
@@ -4311,7 +4223,7 @@
           "type": "سيدان فاخرة"
         },
         "bentley": {
-          "model": "فلايينغ سبير",
+          "model": "فلاينغ سبير",
           "price": "3,500 درهم/يوم",
           "type": "سيدان رياضية"
         }
@@ -4653,7 +4565,7 @@
         "placeholder": "استفسار عن التأجير"
       },
       "message": {
-        "label": "الرسالة",
+        "label": "رسالة",
         "placeholder": "أخبرنا عن احتياجاتك..."
       },
       "submit": "إرسال الرسالة",
@@ -4796,7 +4708,7 @@
       "details": "لقطة تفاصيل رائعة",
       "exterior": "إطلالة خارجية مذهلة",
       "interior": "إطلالة داخلية فاخرة",
-      "premium": "بريميوم"
+      "premium": "فاخر"
     },
     "vehicles": {
       "phantom": "فانتوم",
@@ -4856,7 +4768,24 @@
         "name": "رولز رويس رايث"
       }
     },
-    "selectYourRR": "اختر رولز رويس المفضلة لديك"
+    "selectYourRR": "اختر رولز رويس المفضلة لديك",
+    "vehicles": {
+      "phantom": {
+        "name": "رولز رويس فانتوم"
+      },
+      "ghost": {
+        "name": "رولز رويس غوست"
+      },
+      "cullinan": {
+        "name": "رولز رويس كولينان"
+      },
+      "dawn": {
+        "name": "رولز رويس داون"
+      },
+      "wraith": {
+        "name": "رولز رويس رايث"
+      }
+    }
   },
   "virtualShowroom": {
     "title": "تجربة صالة العرض الافتراضية",
@@ -5010,7 +4939,7 @@
       },
       "story2": {
         "quote": "حدثنا المؤسسي كان ناجحاً بشكل كبير. أسطول غوست أبهر جميع عملائنا الدوليين.",
-        "author": "الرئيس التنفيذي، شركة الابتكارات العالمية",
+        "author": "الرئيس التنفيذي، Global Innovations Inc.",
         "name": "سارة المنصوري",
         "location": "أبوظبي، الإمارات",
         "occasion": "حدث تجاري",

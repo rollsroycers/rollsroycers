@@ -335,6 +335,11 @@
         "voiceSearchOptimized": [
           "预订劳斯莱斯迪拜之旅"
         ]
+      },
+      "main": {
+        "title": "劳斯莱斯服务迪拜 | 婚礼、企业、机场接送 | 2026最优价格",
+        "description": "迪拜顶级劳斯莱斯服务。婚礼用车2,500迪拉姆起，企业套餐1,200迪拉姆/天起，24/7机场接送。专业司机，超过10,000位满意客户。",
+        "keywords": "劳斯莱斯服务迪拜, 豪华车服务迪拜, 婚礼租车迪拜, 企业用车迪拜, 机场接送迪拜"
       }
     },
     "locations": {
@@ -463,6 +468,11 @@
         "voiceSearchOptimized": [
           "DIFC租车"
         ]
+      },
+      "main": {
+        "title": "劳斯莱斯迪拜服务区域 | 市中心、码头、棕榈岛 | 24/7全覆盖",
+        "description": "迪拜全区域劳斯莱斯顶级服务。从迪拜市中心到棕榈岛，迪拜码头到国际金融中心。15分钟快速响应，24/7全天候服务。",
+        "keywords": "劳斯莱斯迪拜区域, 豪华车服务迪拜市中心, 劳斯莱斯码头迪拜, 棕榈岛用车服务"
       }
     },
     "other": {
@@ -812,6 +822,28 @@
         "voiceSearchOptimized": [
           "劳斯莱斯还是奔驰迈巴赫？"
         ]
+      },
+      "rolls-royce-vs-ferrari": {
+        "title": "劳斯莱斯 vs 法拉利 迪拜 2026 | 豪华车对比 | 租赁最佳选择",
+        "description": "比较劳斯莱斯与法拉利迪拜租赁。幻影 vs Roma，库里南 vs Purosangue。价格、性能、豪华特性。专家指南帮您在迪拜选择完美豪车。",
+        "keywords": "劳斯莱斯vs法拉利迪拜, 豪华车对比, 幻影vs Roma, 库里南vs Purosangue, 劳斯莱斯租赁迪拜, 法拉利租赁迪拜"
+      },
+      "phantom-vs-maybach": {
+        "og_title": "Phantom vs Maybach: The Ultimate Luxury Comparison in Dubai",
+        "title": "Rolls-Royce Phantom vs Mercedes-Maybach 2026 | Dubai Luxury Car Comparison",
+        "aiKeywords": [
+          "phantom vs maybach",
+          "rolls royce vs mercedes maybach",
+          "luxury car comparison dubai",
+          "phantom maybach rental",
+          "ultra luxury sedan dubai",
+          "phantom or maybach",
+          "british vs german luxury car",
+          "best luxury car dubai"
+        ],
+        "keywords": "rolls royce phantom vs maybach dubai, phantom maybach comparison, luxury car comparison dubai, phantom vs maybach s class, which is better phantom or maybach, rolls royce vs mercedes maybach price, phantom maybach rental dubai, ultra luxury sedan comparison, british vs german luxury, phantom or maybach for wedding",
+        "description": "Compare Rolls-Royce Phantom vs Mercedes-Maybach S-Class in Dubai. Detailed comparison of features, performance, luxury, and rental prices. Phantom from AED 3,500/day vs Maybach from AED 3,000/day. Which ultra-luxury sedan is right for you?",
+        "og_description": "Detailed comparison of Rolls-Royce Phantom and Mercedes-Maybach S-Class. Performance, luxury, technology, and pricing compared. Book your preferred ultra-luxury sedan in Dubai."
       }
     },
     "cookie-policy": {
@@ -827,9 +859,9 @@
       "keywords": "迪拜劳斯莱斯博客，豪华车文章，迪拜驾驶技巧，汽车新闻，奢华生活方式博客"
     },
     "dubai-luxury-car-guide-2026": {
-      "title": "2026 Dubai Luxury Car Guide: Rolls-Royce vs Bentley, Ferrari, Lamborghini | Best Rental Comparison",
-      "description": "Ultimate 2026 Dubai luxury car rental guide. Compare Rolls-Royce vs Bentley, Ferrari, Lamborghini with pricing, features & expert tips. Why Rolls-Royce reigns supreme in Dubai's luxury market.",
-      "keywords": "dubai luxury car guide 2026, rolls royce vs bentley dubai, luxury car rental comparison dubai, best luxury cars dubai 2026, rolls royce rental dubai 2026, bentley vs ferrari dubai, lamborghini rental dubai, luxury car market dubai 2026, premium car comparison dubai, dubai exotic car rental guide"
+      "title": "2026迪拜豪华车指南：劳斯莱斯 vs 宾利、法拉利、兰博基尼 | 最全对比",
+      "description": "2026迪拜豪华车租赁终极指南。对比劳斯莱斯、宾利、法拉利和兰博基尼。价格、规格以及游客和商务人士的最佳选择。",
+      "keywords": "迪拜豪华车指南2026, 劳斯莱斯vs宾利迪拜, 豪华车租赁对比, 迪拜最佳豪华车租赁"
     }
   },
   "fleet": {
