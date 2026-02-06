@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import { useTranslation } from 'next-i18next'
-import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
+import { serverSideTranslations } from '@/lib/serverSideTranslations'
 
 export default function OfflinePage() {
   const { t } = useTranslation('common')

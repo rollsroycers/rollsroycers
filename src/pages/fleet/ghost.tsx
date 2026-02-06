@@ -1,5 +1,5 @@
 import { GetStaticProps } from 'next'
-import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
+import { serverSideTranslations } from '@/lib/serverSideTranslations'
 import { useTranslation } from 'next-i18next'
 import Image from 'next/image'
 import Link from 'next/link'
@@ -39,8 +39,8 @@ export default function GhostPage() {
   ];
 
   const specifications = {
-    performance: Object.values(t('fleet.ghost.specs.performance', { returnObjects: true })),
-    dimensions: Object.values(t('fleet.ghost.specs.dimensions', { returnObjects: true })),
+    performance: Object.values(t('fleet.ghost.specs.performance', { returnObjects: true })) as any[],
+    dimensions: Object.values(t('fleet.ghost.specs.dimensions', { returnObjects: true })) as any[],
     technology: t('fleet.ghost.specs.technology', { returnObjects: true }) as string[]
   };
 

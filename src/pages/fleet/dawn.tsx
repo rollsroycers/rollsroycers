@@ -1,5 +1,5 @@
 import { GetStaticProps } from 'next'
-import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
+import { serverSideTranslations } from '@/lib/serverSideTranslations'
 import Image from 'next/image'
 import Link from 'next/link'
 import { motion } from 'framer-motion'
@@ -41,8 +41,8 @@ export default function DawnPage() {
   ]
 
   const specifications = {
-    performance: Object.values(t('fleet.dawn.specs.performance', { returnObjects: true })),
-    convertible: Object.values(t('fleet.dawn.specs.convertible', { returnObjects: true })),
+    performance: Object.values(t('fleet.dawn.specs.performance', { returnObjects: true })) as any[],
+    convertible: Object.values(t('fleet.dawn.specs.convertible', { returnObjects: true })) as any[],
     features: t('fleet.dawn.specs.features', { returnObjects: true }) as string[]
   }
 

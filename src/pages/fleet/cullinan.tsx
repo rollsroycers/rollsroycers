@@ -1,5 +1,5 @@
 import { GetStaticProps } from 'next'
-import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
+import { serverSideTranslations } from '@/lib/serverSideTranslations'
 import Image from 'next/image'
 import Link from 'next/link'
 import { motion } from 'framer-motion'
@@ -34,8 +34,8 @@ export default function CullinanPage() {
   ]
 
   const specifications = {
-    performance: Object.values(t('fleet.cullinan.specs.performance', { returnObjects: true })),
-    dimensions: Object.values(t('fleet.cullinan.specs.dimensions', { returnObjects: true })),
+    performance: Object.values(t('fleet.cullinan.specs.performance', { returnObjects: true })) as any[],
+    dimensions: Object.values(t('fleet.cullinan.specs.dimensions', { returnObjects: true })) as any[],
     features: t('fleet.cullinan.specs.features', { returnObjects: true }) as string[]
   }
 

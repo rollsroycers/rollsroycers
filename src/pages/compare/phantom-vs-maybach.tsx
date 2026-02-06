@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { GetStaticProps } from 'next';
 import { useTranslation } from 'next-i18next';
-import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
+import { serverSideTranslations } from '@/lib/serverSideTranslations';
 import { useRouter } from 'next/router';
 import SEO from '../../components/SEO';
 import Image from 'next/image';

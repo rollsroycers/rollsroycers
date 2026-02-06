@@ -1,5 +1,5 @@
 import { GetStaticProps } from 'next'
-import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
+import { serverSideTranslations } from '@/lib/serverSideTranslations'
 import { useTranslation } from 'next-i18next'
 import Image from 'next/image'
 import Link from 'next/link'
@@ -46,8 +46,8 @@ export default function WraithPage() {
   ]
 
   const specifications = {
-    performance: Object.values(t('fleet.wraith.specs.performance', { returnObjects: true })),
-    dimensions: Object.values(t('fleet.wraith.specs.dimensions', { returnObjects: true })),
+    performance: Object.values(t('fleet.wraith.specs.performance', { returnObjects: true })) as any[],
+    dimensions: Object.values(t('fleet.wraith.specs.dimensions', { returnObjects: true })) as any[],
     exclusive: t('fleet.wraith.specs.exclusive', { returnObjects: true }) as string[]
   }
 

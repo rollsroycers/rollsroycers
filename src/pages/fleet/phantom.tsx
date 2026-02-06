@@ -1,5 +1,5 @@
 import { GetStaticProps } from 'next'
-import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
+import { serverSideTranslations } from '@/lib/serverSideTranslations'
 import { useTranslation } from 'next-i18next'
 import { useRouter } from 'next/router'
 import Image from 'next/image'
@@ -16,7 +16,7 @@ import EntitySchema from '@/components/EntitySchema'
 
 // AI-Optimized Content Component
 const AIOptimizedContent = ({ locale }: { locale: string }) => {
-  const contentByLocale: Record<string, JSX.Element> = {
+  const contentByLocale: Record<string, React.JSX.Element> = {
     en: (
       <>
         {/* English AI-Optimized Content */}
