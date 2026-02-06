@@ -5,15 +5,15 @@ import CookieConsent from './CookieConsent'
 import SocialProofNotifications from './SocialProofNotifications'
 import VoiceSearch from './VoiceSearch'
 import Breadcrumbs from './Breadcrumbs'
-import { useTranslation } from 'next-i18next'
+import { useRouter } from 'next/router'
 
 interface LayoutProps {
   children: ReactNode
 }
 
 export default function Layout({ children }: LayoutProps) {
-  const { i18n } = useTranslation()
-  const dir = i18n.dir()
+  const { locale } = useRouter()
+  const dir = locale === 'ar' ? 'rtl' : 'ltr'
 
   return (
     <div className="min-h-screen flex flex-col" dir={dir}>

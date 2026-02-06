@@ -1,5 +1,6 @@
 import '@/styles/globals.css'
 import type { AppProps } from 'next/app'
+import { appWithTranslation } from 'next-i18next'
 import { useEffect, useState } from 'react'
 import { optimizeForMobile, setMobileViewportHeight } from '@/utils/mobileOptimizations'
 import { getPerformanceMonitor } from '@/utils/performanceMonitor'
@@ -74,6 +75,4 @@ export function reportWebVitals(metric: any) {
   }
 }
 
-// Export directly without appWithTranslation for Cloudflare Workers compatibility
-// Translations are already baked into SSG pages at build time
-export default MyApp
+export default appWithTranslation(MyApp)
