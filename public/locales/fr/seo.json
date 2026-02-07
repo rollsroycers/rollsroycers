@@ -1,15 +1,19 @@
 {
   "pages": {
     "home": {
-      "title": "Location de Rolls-Royce à Dubaï | Voitures de luxe avec chauffeur | RR Dubai 2026",
-      "description": "Louez une Rolls-Royce exclusive à Dubaï. Notre flotte comprend les modèles Phantom, Cullinan, Ghost, Dawn et Wraith. Nous proposons des services de chauffeur professionnel, des transferts VIP depuis l'aéroport et des voitures de mariage. Contactez-nous 24/7 au +971558164922 pour toute réservation.",
-      "keywords": "location Rolls-Royce Dubaï, location de voitures de luxe à Dubaï, Rolls-Royce avec chauffeur, location de Phantom à Dubaï, Cullinan à louer à Dubaï, transfert VIP aéroport de Dubaï, Rolls-Royce de mariage à Dubaï, location de voitures de luxe",
+      "title": "Location Rolls-Royce Dubaï 2026 | Phantom Ghost Cullinan Spectre | Dès 3 800 AED/Jour",
+      "description": "Louez une Rolls-Royce exclusive à Dubaï. Flotte complète: Phantom, Ghost, Cullinan, Dawn, Wraith & NOUVEAU Spectre Électrique. Chauffeur professionnel, transferts VIP aéroport, voitures de mariage. Meilleurs prix dès 3 800 AED/jour. Réservation 24/7 au +971558164922.",
+      "keywords": "location Rolls-Royce Dubaï, location de voitures de luxe à Dubaï, Rolls-Royce avec chauffeur, location de Phantom à Dubaï, Cullinan à louer à Dubaï, transfert VIP aéroport de Dubaï, Rolls-Royce de mariage à Dubaï, location de voitures de luxe, location voiture de prestige dubaï, location supercar dubaï, location voiture exotique dubaï, rolls royce spectre électrique location dubaï, location voiture vip dubaï",
       "aiKeywords": [
         "location rolls royce dubai",
         "louer rolls royce dubai",
         "location voiture luxe dubai",
         "rolls royce avec chauffeur dubai",
-        "service chauffeur rolls royce dubai"
+        "service chauffeur rolls royce dubai",
+        "location voiture prestige dubai",
+        "location supercar dubai",
+        "location voiture exotique dubai",
+        "voiture vip location dubai"
       ],
       "longTailKeywords": [
         "location rolls royce pas cher dubai",
@@ -30,9 +34,9 @@
     },
     "fleet": {
       "index": {
-        "title": "Flotte Rolls-Royce de Luxe Dubaï | Voir Tous les Modèles | Phantom, Ghost, Cullinan",
-        "description": "Explorez notre flotte complète de Rolls-Royce à Dubaï. Choisissez parmi Phantom, Ghost, Cullinan, Dawn et Wraith. Service de chauffeur professionnel, disponibilité 24/7. Meilleurs prix à partir de 3 800 AED/jour. Voir tous les modèles, comparer les caractéristiques et réserver instantanément.",
-        "keywords": "flotte rolls royce dubaï, tous les modèles rolls royce dubaï, collection rolls royce dubaï, flotte voitures de luxe dubaï, phantom ghost cullinan dubaï, flotte location rolls royce, voir tous les rolls royce dubaï, comparer modèles rolls royce, location flotte luxe dubaï, showroom rolls royce dubaï",
+        "title": "Flotte Rolls-Royce Dubaï 2026 | 6 Modèles | Phantom Ghost Cullinan Spectre | Dès 3 800 AED",
+        "description": "Explorez notre flotte complète de 6 Rolls-Royce à Dubaï 2026. Phantom, Ghost, Cullinan, Dawn, Wraith & NOUVEAU Spectre Électrique. Chauffeur professionnel, disponibilité 24/7. Dès 3 800 AED/jour. Comparez tous les modèles et réservez instantanément. +971558164922.",
+        "keywords": "flotte rolls royce dubaï, tous les modèles rolls royce dubaï, collection rolls royce dubaï, flotte voitures de luxe dubaï, phantom ghost cullinan dawn wraith spectre dubaï, flotte location rolls royce, voir tous les rolls royce dubaï, comparer modèles rolls royce, location flotte luxe dubaï, showroom rolls royce dubaï, rolls royce spectre électrique dubaï, modèles rolls royce disponibles location, flotte voitures exotiques dubaï",
         "longTailKeywords": [
           "tous modèles rolls royce location dubai",
           "comparer prix location rolls royce dubai"
@@ -179,6 +183,36 @@
           "Combien coûte une Wraith par jour ?",
           "La Wraith est-elle la plus rapide ?"
         ]
+      },
+      "spectre": {
+        "title": "Location Rolls-Royce Spectre Dubaï 2026 | Première RR Électrique | 7 500 AED/Jour | Luxe Zéro Émission",
+        "description": "Louez la première Rolls-Royce entièrement électrique - Spectre à Dubaï dès 7 500 AED/jour. 577ch, 520km d'autonomie, 0-100 en 4,5s. Coupé ultra-luxe zéro émission avec chauffeur professionnel. Réservez la voiture la plus innovante de Dubaï. Service 24/7 +971558164922.",
+        "keywords": "location Rolls-Royce Spectre Dubaï, louer Spectre Dubaï prix, Rolls-Royce électrique Dubaï, location voiture électrique luxe Dubaï, Spectre avec chauffeur, coupé électrique luxe, Spectre location horaire, voiture luxe zéro émission Dubaï, meilleure voiture électrique location Dubaï, Rolls-Royce électrique 2026",
+        "aiKeywords": [
+          "location rolls royce spectre dubai",
+          "louer rolls royce électrique dubai",
+          "prix spectre par jour dubai",
+          "voiture électrique luxe dubai",
+          "rolls royce ev location dubai"
+        ],
+        "longTailKeywords": [
+          "location rolls royce spectre électrique dubai 2026",
+          "première rolls royce électrique à louer dubai",
+          "voiture luxe zéro émission avec chauffeur dubai",
+          "rolls royce spectre événement corporate dubai"
+        ],
+        "voiceSearchOptimized": [
+          "Combien coûte la location d'une Rolls-Royce Spectre à Dubaï ?",
+          "Y a-t-il une Rolls-Royce électrique à louer ?",
+          "Quelle est l'autonomie de la Spectre ?",
+          "Réserver une Rolls-Royce électrique avec chauffeur"
+        ],
+        "og": {
+          "title": "Location Rolls-Royce Spectre Dubaï 2026 | Première RR Électrique | 7 500 AED/Jour",
+          "description": "Louez la première Rolls-Royce entièrement électrique à Dubaï dès 7 500 AED/jour. 577ch, 520km d'autonomie, luxe zéro émission avec chauffeur professionnel.",
+          "image": "https://rollsroycers.com/images/2024_Rolls-Royce_Spectre.jpg",
+          "url": "https://rollsroycers.com/fr/fleet/spectre"
+        }
       }
     },
     "services": {

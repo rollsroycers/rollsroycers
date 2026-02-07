@@ -33,11 +33,11 @@ export default function FleetPage() {
   }, [heroImages.length])
 
   const categories = [
-    { id: 'all', name: t('fleet:categories.all'), count: '5' },
+    { id: 'all', name: t('fleet:categories.all'), count: '6' },
     { id: 'sedan', name: t('fleet:categories.sedan'), count: '2' },
     { id: 'suv', name: t('fleet:categories.suv'), count: '1' },
     { id: 'convertible', name: t('fleet:categories.convertible'), count: '1' },
-    { id: 'coupe', name: t('fleet:categories.coupe'), count: '1' }
+    { id: 'coupe', name: t('fleet:categories.coupe'), count: '2' }
   ]
 
   const fleetData = [
@@ -149,6 +149,26 @@ export default function FleetPage() {
       href: '/fleet/wraith',
       badge: t('fleet:badges.grand_tourer'),
       popular: false
+    },
+    {
+      id: 'spectre',
+      name: t('fleet:vehicles.spectre.name'),
+      category: 'coupe',
+      tagline: t('fleet:vehicles.spectre.tagline'),
+      description: t('fleet:vehicles.spectre.description'),
+      price: 'AED 7,500',
+      originalPrice: 'AED 8,500',
+      image: '/images/2024_Rolls-Royce_Spectre.jpg',
+      gallery: [
+        '/images/2024_Rolls-Royce_Spectre.jpg'
+      ],
+      features: Array.isArray(t('fleet:vehicles.spectre.features', { returnObjects: true })) 
+        ? t('fleet:vehicles.spectre.features', { returnObjects: true }) as string[]
+        : [],
+      specifications: t('fleet:vehicles.spectre.specifications', { returnObjects: true }),
+      href: '/fleet/spectre',
+      badge: t('fleet:badges.electric'),
+      popular: true
     }
   ]
 
@@ -157,7 +177,7 @@ export default function FleetPage() {
     : fleetData.filter(vehicle => vehicle.category === selectedCategory)
 
   const stats = [
-    { number: '5', label: t('fleet:stats.models') },
+    { number: '6', label: t('fleet:stats.models') },
     { number: '24/7', label: t('fleet:stats.availability') },
     { number: '1200+', label: t('fleet:stats.satisfied_clients') },
     { number: '15', label: t('fleet:stats.years_experience') }

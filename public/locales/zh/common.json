@@ -1306,9 +1306,50 @@
     "perDay": "/天",
     "rentNow": "立即预订",
     "from": "起价",
+    "spectre": {
+      "name": "劳斯莱斯闪灵",
+      "tagline": "超豪华的未来",
+      "description": "首款全电动劳斯莱斯。体验无声豪华——577马力瞬时扭矩、520+公里续航、零排放。",
+      "features": [
+        { "icon": "⚡", "title": "双电机", "desc": "577马力瞬时无声动力" },
+        { "icon": "🔋", "title": "520+公里续航", "desc": "102千瓦时电池，全天豪华之旅" },
+        { "icon": "🤫", "title": "极致静谧", "desc": "史上最安静的劳斯莱斯" },
+        { "icon": "✨", "title": "星空车顶", "desc": "1,340颗光纤灯打造您的私人星空" },
+        { "icon": "🏎️", "title": "溜背设计", "desc": "充满戏剧性的轿跑轮廓与空气动力学优雅" },
+        { "icon": "🎵", "title": "定制音响", "desc": "18扬声器系统，专为电动静谧调校" },
+        { "icon": "🌟", "title": "发光飞天女神", "desc": "标志性飞天女神，现已点亮" },
+        { "icon": "🔒", "title": "先进悬挂", "desc": "Planar系统，电动优化减震" }
+      ],
+      "badges": { "electric": "100%电动", "zeroemissions": "零排放", "chauffeur": "含专业司机" },
+      "stats": { "power": "电动力", "range": "续航", "acceleration": "0-100公里/时", "emissions": "排放", "support": "支持" },
+      "pricing": {
+        "title": "透明定价 即时可用",
+        "daily": "每天", "dailyNote": "含250公里",
+        "weekly": "每周", "weeklyNote": "含1,750公里",
+        "monthly": "每月", "monthlyNote": "含5,000公里",
+        "popular": "最受欢迎",
+        "available": "现在可用 - 满电就绪",
+        "bookNow": "立即预订闪灵",
+        "includes": { "insurance": "含保险", "vat": "含增值税", "chauffeur": "含司机", "delivery": "免费送车" }
+      },
+      "featuresTitle": "革命性电动特性",
+      "featuresSubtitle": "首款超豪华电动车，尖端科技与劳斯莱斯永恒工艺的完美融合",
+      "specsTitle": "技术规格",
+      "specs": { "engine": "双电机", "power": "577马力", "torque": "900牛·米", "acceleration": "0-100公里/时 4.5秒", "topSpeed": "250公里/时（限速）", "range": "520+公里（WLTP）", "battery": "102千瓦时", "seats": "4位乘客" },
+      "specLabels": { "engine": "动力系统", "power": "功率", "torque": "扭矩", "acceleration": "加速", "topSpeed": "最高速度", "range": "续航", "battery": "电池", "seats": "座位" },
+      "galleryTitle": "闪灵画廊",
+      "gallery": { "exteriorAlt": "劳斯莱斯闪灵外观 - 迪拜电动豪华轿跑", "interiorAlt": "劳斯莱斯闪灵内饰 - 超豪华电动座舱" },
+      "cta": { "title": "体验豪华的未来", "subtitle": "成为迪拜最早驾驶世界最豪华电动车的人之一。立即预订您的闪灵体验。", "chat": "联系: +971 55 816 4922", "book": "在线预订" }
+    },
     "performance": "性能",
     "convertibleTech": "敞篷技术",
     "luxuryFeatures": "奢华功能",
+    "cullinanBlackBadge": {
+      "name": "Cullinan Black Badge"
+    },
+    "ghostBlackBadge": {
+      "name": "Ghost Black Badge"
+    },
     "virtualTourSpots": {
       "title": "虚拟导览点",
       "description": "探索内饰细节",
@@ -1393,6 +1434,10 @@
     "hourly": {
       "title": "按小时租赁",
       "description": "满足您特定需求的灵活租赁。"
+    },
+    "birthday": {
+      "title": "生日套餐",
+      "description": "乘坐装饰过的劳斯莱斯奢华庆祝。"
     }
   },
   "booking": {
@@ -3012,7 +3057,12 @@
     "title": "我们的地点",
     "subtitle": "覆盖迪拜所有主要区域",
     "marina": "迪拜码头",
-    "jumeirah": "棕榈岛",
+    "jumeirah": {
+      "nav": "朱美拉"
+    },
+    "deira": {
+      "nav": "德拉"
+    },
     "viewOnMap": "在地图上查看",
     "cta": {
       "title": "我们送车上门",
@@ -5777,5 +5827,130 @@
     "available247": "24/7全天候",
     "popularAirportRoutes": "热门机场路线",
     "popularChauffeurRoutes": "热门专车路线"
+  },
+  "birthdayPage": {
+    "badge": "奢华庆祝",
+    "title": "生日",
+    "titleHighlight": "劳斯莱斯",
+    "titleSuffix": "迪拜",
+    "subtitle": "让生日难忘。乘坐装饰过的劳斯莱斯，配备香槟、鲜花和专业司机。",
+    "price": "套餐从3,500迪拉姆起",
+    "bookBtn": "预订生日套餐",
+    "customBtn": "定制请求",
+    "packages": {
+      "title": "生日套餐",
+      "subtitle": "选择完美的庆祝套餐",
+      "mostPopular": "最受欢迎",
+      "vehicles": "车辆",
+      "bookNow": "立即预订",
+      "silver": { "name": "银色生日", "duration": "4小时", "price": "3,500迪拉姆" },
+      "gold": { "name": "金色生日", "duration": "8小时", "price": "6,500迪拉姆" },
+      "platinum": { "name": "铂金生日", "duration": "全天", "price": "12,000迪拉姆" }
+    },
+    "silverFeatures": ["专业司机", "红毯到达", "车上生日横幅", "赠送香槟", "拍照停靠点"],
+    "goldFeatures": ["专业司机", "红毯到达", "定制生日装饰", "香槟和鲜花", "包含迪拜之旅", "社交媒体拍照点", "气球布置"],
+    "platinumFeatures": ["多辆车可用", "专业司机", "完整生日装饰", "高级香槟和蛋糕", "专业摄影师(2小时)", "定制迪拜行程", "每站红毯", "VIP餐厅预订"],
+    "howItWorks": {
+      "title": "如何运作",
+      "step1": { "title": "选择套餐", "desc": "选择银色、金色或铂金生日套餐。" },
+      "step2": { "title": "定制", "desc": "告诉我们寿星的姓名、年龄和偏好。" },
+      "step3": { "title": "我们装饰", "desc": "我们的团队用定制装饰和香槟准备车辆。" },
+      "step4": { "title": "惊喜到达", "desc": "装饰好的劳斯莱斯到达指定地点。" }
+    },
+    "bestModels": {
+      "title": "最佳生日车型",
+      "subtitle": "最受欢迎的庆祝车辆",
+      "phantom": { "desc": "终极生日用车。星空顶营造魔幻氛围。最令人印象深刻的入场。", "price": "每天5,800迪拉姆起" },
+      "dawn": { "desc": "敞篷生日巡游。白天庆祝的完美选择，以迪拜天际线为背景。", "price": "每天5,500迪拉姆起" },
+      "cullinan": { "desc": "可容纳整个派对。7座奢华空间，适合团体生日庆祝。", "price": "每天6,500迪拉姆起" }
+    },
+    "relatedServices": "相关服务"
+  },
+  "hourlyPage": {
+    "badge": "灵活奢华",
+    "title": "按时",
+    "titleHighlight": "劳斯莱斯",
+    "titleSuffix": "租赁",
+    "subtitle": "按您的时间表享受奢华。按小时租赁任何劳斯莱斯，配专业司机。最少2小时。",
+    "price": "每小时800迪拉姆起",
+    "bookBtn": "预订按时租赁",
+    "pricingBtn": "查看完整价格",
+    "rates": {
+      "title": "小时费率",
+      "subtitle": "所有费率包含专业司机",
+      "perHour": "每小时",
+      "min": "最少",
+      "fullDay": "全天",
+      "book": "预订"
+    },
+    "useCases": {
+      "title": "适用场景",
+      "subtitle": "热门按时租赁场合",
+      "business": { "title": "商务会议", "desc": "乘劳斯莱斯抵达DIFC或商务湾会议。2-3小时预订适合客户印象。" },
+      "restaurant": { "title": "餐厅到达", "desc": "华丽抵达迪拜顶级餐厅。Zuma、Nobu、La Petite Maison——惊艳入场。" },
+      "shopping": { "title": "购物之旅", "desc": "乘劳斯莱斯游览迪拜购物中心或阿联酋购物中心，司机随时等候。" },
+      "date": { "title": "约会之夜", "desc": "劳斯莱斯约会之夜令人印象深刻。Dawn敞篷车棕榈岛日落巡游。" },
+      "social": { "title": "社交媒体内容", "desc": "快速内容创作。2小时套餐适合Instagram Reels和TikTok拍摄。" },
+      "hotel": { "title": "酒店接送", "desc": "迪拜酒店、场地和住所之间的豪华接送。最少2小时预订。" }
+    },
+    "howItWorks": {
+      "title": "按时租赁流程",
+      "step1": { "title": "选择车型", "desc": "从6款劳斯莱斯中选择。" },
+      "step2": { "title": "设定时长", "desc": "最少2小时。按小时费率最多6小时。" },
+      "step3": { "title": "选择地点", "desc": "30分钟内送达迪拜任何地点。" },
+      "step4": { "title": "享受", "desc": "司机驾驶。您放松享受。" }
+    },
+    "moreServices": "探索更多服务"
+  },
+  "jumeirahPage": {
+    "location": "朱美拉，迪拜",
+    "title": "劳斯莱斯租赁",
+    "titleHighlight": "朱美拉",
+    "subtitle": "迪拜最负盛名的海滨区。免费送至帆船酒店、卓美亚古堡及所有豪华海滩度假村。",
+    "delivery": "15分钟免费送达",
+    "bookBtn": "在朱美拉预订",
+    "fleetBtn": "查看车队",
+    "landmarks": { "title": "附近地标", "subtitle": "我们送达朱美拉所有地标", "deliverySuffix": "送达" },
+    "experiences": {
+      "title": "朱美拉体验",
+      "subtitle": "在朱美拉享受劳斯莱斯的热门方式",
+      "recommended": "推荐",
+      "burjArab": { "title": "帆船酒店到达", "desc": "在世界最具标志性的酒店做出终极亮相。我们的劳斯莱斯完美匹配帆船酒店的传奇奢华。" },
+      "beachRoad": { "title": "朱美拉海滩路巡游", "desc": "从朱美拉到迪拜码头的海岸风景路线提供壮丽的海湾美景。Dawn敞篷车是完美选择。" },
+      "madinat": { "title": "卓美亚古堡晚餐", "desc": "乘劳斯莱斯抵达卓美亚古堡的获奖餐厅。Pierchic、Pai Thai和Rockfish等待您。" },
+      "kiteBeach": { "title": "风筝海滩日落", "desc": "在风筝海滩体验黄金时刻，劳斯莱斯停在海滨长廊。拍照的完美选择。" }
+    },
+    "hotels": { "title": "服务酒店", "subtitle": "免费送达朱美拉所有酒店" },
+    "models": { "title": "可用车型", "subtitle": "所有车型均可送达朱美拉" },
+    "services": "我们的服务"
+  },
+  "deiraPage": {
+    "location": "德拉，迪拜",
+    "title": "劳斯莱斯租赁",
+    "titleHighlight": "德拉",
+    "subtitle": "迪拜的历史中心。距DXB机场10分钟。免费送达黄金市场、迪拜河及所有德拉酒店。",
+    "delivery": "10分钟免费送达",
+    "bookBtn": "在德拉预订",
+    "airportBtn": "机场接送",
+    "airport": {
+      "title": "最近迪拜机场",
+      "desc": "德拉是距迪拜国际机场(DXB)最近的主要区域。您的劳斯莱斯可在10分钟内到达航站楼等候。VIP迎接服务。",
+      "terminal1": { "title": "1号航站楼", "time": "8分钟", "desc": "阿联酋航空和主要国际航空公司" },
+      "terminal3": { "title": "3号航站楼", "time": "10分钟", "desc": "阿联酋航空专属航站楼" },
+      "vip": { "title": "VIP航站楼", "time": "7分钟", "desc": "私人飞机和头等舱到达" }
+    },
+    "landmarks": { "title": "附近地标", "subtitle": "我们送达德拉所有地标", "deliverySuffix": "送达" },
+    "experiences": {
+      "title": "德拉体验",
+      "subtitle": "在德拉享受劳斯莱斯的热门方式",
+      "recommended": "推荐",
+      "goldSouk": { "title": "黄金市场与遗产之旅", "desc": "乘劳斯莱斯探索传奇的黄金市场和香料市场。传统与极致奢华的完美结合。" },
+      "creek": { "title": "迪拜河日落", "desc": "日落时沿历史悠久的迪拜河驾驶。传统帆船与现代奢华的对比创造难忘回忆。" },
+      "dxb": { "title": "DXB机场接送", "desc": "德拉是距迪拜国际机场最近的区域。乘劳斯莱斯VIP接送，10分钟内优雅抵达或出发。" },
+      "oldDubai": { "title": "老迪拜夜游", "desc": "夜晚体验老迪拜的魅力。从Al Seef滨海到Baniyas广场，灯火辉煌的遗产区令人着迷。" }
+    },
+    "hotels": { "title": "服务酒店", "subtitle": "免费送达德拉所有酒店" },
+    "models": { "title": "可用车型", "subtitle": "所有车型均可送达德拉" },
+    "services": "我们的服务"
   }
 }

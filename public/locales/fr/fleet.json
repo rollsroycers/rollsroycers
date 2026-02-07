@@ -138,6 +138,31 @@
         "seating": "4 Passagers",
         "trunk": "295 Litres"
       }
+    },
+    "spectre": {
+      "name": "Spectre",
+      "tagline": "Le Futur de l'Ultra-Luxe",
+      "description": "La Rolls-Royce Spectre est un jalon historique — la première Rolls-Royce entièrement électrique jamais construite. Avec 577ch de couple instantané, un fonctionnement silencieux et plus de 520km d'autonomie, la Spectre redéfinit l'automobile de luxe pour un avenir durable.",
+      "features": [
+        "Moteurs Électriques Doubles - 577 ch",
+        "Batterie 102 kWh - Autonomie 520+ km",
+        "Conduite Électrique Silencieuse",
+        "Ciel Étoilé Starlight",
+        "Design Coupé Fastback",
+        "Spirit of Ecstasy Illuminé",
+        "Jantes Alliage 23 pouces",
+        "Suspension Pneumatique Avancée"
+      ],
+      "specifications": {
+        "engine": "Moteurs Électriques Doubles",
+        "power": "577 ch / 900 Nm",
+        "acceleration": "0-100 km/h en 4,5s",
+        "top_speed": "250 km/h",
+        "seating": "4 Passagers",
+        "range": "520+ km (WLTP)",
+        "battery": "102 kWh",
+        "charging": "Charge Rapide DC"
+      }
     }
   },
   "badges": {
@@ -146,6 +171,7 @@
     "best_value": "Meilleur Rapport",
     "convertible": "Cabriolet",
     "grand_tourer": "Grand Tourisme",
+    "electric": "100% Électrique",
     "popular": "Plus Populaire"
   },
   "why_choose": {
@@ -202,6 +228,100 @@
     "aed": "AED",
     "perDay": "/jour",
     "rentNow": "LOUER"
+  },
+  "cullinanBlackBadge": {
+    "badge": "ÉDITION BLACK BADGE",
+    "title": "Cullinan",
+    "titleHighlight": "Black Badge",
+    "subtitle": "L'Expression la Plus Sombre de Rolls-Royce. 600 ch de Puissance Absolue.",
+    "price": "À partir de 8 500 AED / Jour",
+    "bookBtn": "Réserver Black Badge",
+    "compareBtn": "Comparer le Cullinan Standard",
+    "whatIs": {
+      "title": "Qu'est-ce que Black Badge ?",
+      "desc": "Black Badge est l'alter ego de Rolls-Royce — créé pour ceux qui rejettent la conformité. Chaque élément est amplifié : plus de puissance, une esthétique plus sombre, un caractère plus audacieux. Le Cullinan Black Badge est le SUV le plus imposant au monde."
+    },
+    "features": [
+      { "title": "Spirit of Ecstasy Assombri", "desc": "Spirit of Ecstasy en chrome noir brillant avec entourage sombre — la signature de l'exclusivité Black Badge." },
+      { "title": "Spirit of Ecstasy en Fibre de Carbone", "desc": "Spirit of Ecstasy en composite de fibre de carbone optionnel, la version la plus avancée jamais créée." },
+      { "title": "Jantes Forgées 22\"", "desc": "Jantes en alliage forgé 22 pouces à finition sombre avec caches centraux Black Badge." },
+      { "title": "Chrome Extérieur Plus Sombre", "desc": "Toutes les surfaces chromées remplacées par du chrome sombre — calandre, entourages de vitres et prises d'air." },
+      { "title": "Intérieur Sur Mesure", "desc": "Placage en fibre de carbone technique avec motif tissé, tableau de bord illuminé et coutures Forge Yellow." },
+      { "title": "Son d'Échappement Amélioré", "desc": "Système d'échappement réaccordé offrant une sonorité plus grave et affirmée, digne du caractère Black Badge." }
+    ],
+    "specs": {
+      "title": "Spécifications de Performance",
+      "engine": "Moteur", "engineVal": "6,75L V12 Biturbo",
+      "power": "Puissance", "powerVal": "600 ch (+29 ch)",
+      "torque": "Couple", "torqueVal": "900 Nm (+50 Nm)",
+      "accel": "0-100 km/h", "accelVal": "5,0 secondes",
+      "drive": "Transmission", "driveVal": "4 roues motrices",
+      "seats": "Places", "seatsVal": "5 (Salon)",
+      "trans": "Boîte", "transVal": "Automatique ZF 8 vitesses",
+      "topSpeed": "Vitesse max", "topSpeedVal": "250 km/h"
+    },
+    "pricing": {
+      "title": "Tarifs Location Black Badge",
+      "daily": "Journalier", "dailyPrice": "8 500 AED", "dailyNote": "250km et assurance inclus",
+      "weekly": "Hebdomadaire", "weeklyPrice": "49 000 AED", "weeklyNote": "7 jours, 1 750km inclus",
+      "monthly": "Mensuel", "monthlyPrice": "170 000 AED", "monthlyNote": "30 jours, 5 000km inclus",
+      "bookBtn": "Réserver Cullinan Black Badge"
+    },
+    "related": {
+      "title": "Services Associés",
+      "subtitle": "Vivez le Black Badge avec nos services premium",
+      "events": { "title": "Événements & Tapis Rouge", "desc": "Le Black Badge capte tous les regards. Faites sensation lors de galas et premières." },
+      "corporate": { "title": "Service Corporate", "desc": "Pour les dirigeants exigeants. Le Black Badge projette puissance et ambition." },
+      "photoshoot": { "title": "Service Photo", "desc": "L'esthétique sombre du Black Badge crée un contenu visuel saisissant." },
+      "exploreMore": "Explorer Plus de Modèles"
+    }
+  },
+  "ghostBlackBadge": {
+    "badge": "ÉDITION BLACK BADGE",
+    "title": "Ghost",
+    "titleHighlight": "Black Badge",
+    "subtitle": "La Rolls-Royce la Plus Dynamique. 592 ch. Tableau de Bord Illuminé. Jantes Fibre de Carbone.",
+    "price": "À partir de 5 500 AED / Jour",
+    "bookBtn": "Réserver Black Badge",
+    "compareBtn": "Comparer le Ghost Standard",
+    "whatIs": {
+      "title": "Qu'est-ce que Black Badge ?",
+      "desc": "Black Badge représente l'alter ego sombre et rebelle de Rolls-Royce. Le Ghost Black Badge prend la voiture super-luxe la plus avancée et amplifie chaque dimension — plus de puissance, une esthétique plus sombre, un caractère plus dynamique."
+    },
+    "features": [
+      { "title": "Spirit of Ecstasy Assombri", "desc": "Spirit of Ecstasy en chrome noir brillant — la signature incontestable de la rébellion Black Badge." },
+      { "title": "Tableau de Bord Illuminé", "desc": "Le Ghost Black Badge présente un tableau illuminé de 850 étoiles créant un effet de constellation." },
+      { "title": "Jantes Composites 21\"", "desc": "Jantes en composite de fibre de carbone — les plus avancées jamais montées sur une Rolls-Royce, 4kg de moins par jante." },
+      { "title": "Éléments Extérieurs Sombres", "desc": "Chrome sombre pour la calandre, entourages de vitres, prises d'air et sorties d'échappement." },
+      { "title": "Audio Sur Mesure", "desc": "Système audio 18 haut-parleurs, 1 300W avec excitation individuelle pour une qualité sonore de salle de concert." },
+      { "title": "Suspension Planar Réglée", "desc": "Suspension Planar réglée Black Badge avec système Flagbearer pour une conduite plus connectée et dynamique." }
+    ],
+    "specs": {
+      "title": "Spécifications de Performance",
+      "engine": "Moteur", "engineVal": "6,75L V12 Biturbo",
+      "power": "Puissance", "powerVal": "592 ch (+29 ch)",
+      "torque": "Couple", "torqueVal": "900 Nm (+50 Nm)",
+      "accel": "0-100 km/h", "accelVal": "4,7 secondes",
+      "drive": "Transmission", "driveVal": "4 roues motrices",
+      "seats": "Places", "seatsVal": "5",
+      "trans": "Boîte", "transVal": "Automatique ZF 8 vitesses",
+      "topSpeed": "Vitesse max", "topSpeedVal": "250 km/h"
+    },
+    "pricing": {
+      "title": "Tarifs Location Black Badge",
+      "daily": "Journalier", "dailyPrice": "5 500 AED", "dailyNote": "250km et assurance inclus",
+      "weekly": "Hebdomadaire", "weeklyPrice": "32 000 AED", "weeklyNote": "7 jours, 1 750km inclus",
+      "monthly": "Mensuel", "monthlyPrice": "110 000 AED", "monthlyNote": "30 jours, 5 000km inclus",
+      "bookBtn": "Réserver Ghost Black Badge"
+    },
+    "related": {
+      "title": "Services Associés",
+      "subtitle": "Vivez le Black Badge avec nos services premium",
+      "corporate": { "title": "Service Corporate", "desc": "Le Ghost Black Badge est la voiture executive ultime. Élégance sombre pour le DIFC et Business Bay." },
+      "chauffeur": { "title": "Service Chauffeur", "desc": "Chauffeur professionnel avec votre Black Badge. La façon la plus sophistiquée de voyager à Dubaï." },
+      "airport": { "title": "Transfert Aéroport", "desc": "Arrivée VIP en Ghost Black Badge. Présence inégalée à DXB et DWC." },
+      "exploreMore": "Explorer Plus de Modèles"
+    }
   },
   "phantom": {
     "name": "Rolls-Royce Phantom",

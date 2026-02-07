@@ -12,6 +12,7 @@ import WhatsAppButton from '@/components/WhatsAppButton'
 import AvailabilityCalendar from '@/components/AvailabilityCalendar'
 import PriceCalculator from '@/components/PriceCalculator'
 import { createWhatsAppLinkProps } from '@/utils/whatsapp'
+import Script from 'next/script'
 
 export default function BookingPage() {
   const { t } = useTranslation('common')
@@ -32,7 +33,8 @@ export default function BookingPage() {
     { id: 'ghost', name: t('booking.vehicles.ghost'), price: 'AED 4,800/day' },
     { id: 'cullinan', name: t('booking.vehicles.cullinan'), price: 'AED 6,500/day' },
     { id: 'dawn', name: t('booking.vehicles.dawn'), price: 'AED 5,500/day' },
-    { id: 'wraith', name: t('booking.vehicles.wraith'), price: 'AED 5,000/day' }
+    { id: 'wraith', name: t('booking.vehicles.wraith'), price: 'AED 5,000/day' },
+    { id: 'spectre', name: 'Rolls-Royce Spectre', price: 'AED 7,500/day' }
   ]);
 
   const services = ensureArray([
@@ -74,6 +76,20 @@ export default function BookingPage() {
   return (
     <>
       <SEO pageKey="other.booking" />
+      <Script id="booking-howto-schema" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "HowTo",
+        "name": "How to Book a Rolls-Royce in Dubai Online",
+        "description": "Complete step-by-step guide to booking a Rolls-Royce rental in Dubai. Book in under 5 minutes with instant confirmation.",
+        "totalTime": "PT5M",
+        "estimatedCost": { "@type": "MonetaryAmount", "currency": "AED", "value": "3800" },
+        "step": [
+          { "@type": "HowToStep", "position": 1, "name": "Choose Your Rolls-Royce Model", "text": "Browse 6 models: Phantom (AED 5,800/day), Ghost (AED 3,800/day), Cullinan (AED 6,500/day), Dawn (AED 5,500/day), Wraith (AED 5,000/day), Spectre Electric (AED 7,500/day).", "url": "https://rollsroycers.com/fleet" },
+          { "@type": "HowToStep", "position": 2, "name": "Select Dates and Service Type", "text": "Pick rental dates and choose self-drive, chauffeur, airport transfer, wedding, or corporate hire. Hourly, daily, weekly, and monthly rates available." },
+          { "@type": "HowToStep", "position": 3, "name": "Choose Pickup Location", "text": "Select delivery location anywhere in Dubai: hotel, airport, residence, or office. Free delivery within 15-30 minutes." },
+          { "@type": "HowToStep", "position": 4, "name": "Confirm Booking", "text": "Review and confirm. Instant confirmation via email and WhatsApp. Free cancellation up to 48 hours. Pay on delivery or online." }
+        ]
+      }) }} />
       <GEOOptimizer
         pageKey="other.booking"
         title="Book Rolls-Royce Dubai Online 2026"

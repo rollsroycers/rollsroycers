@@ -38,7 +38,10 @@ export default function Navbar() {
     { href: '/fleet/ghost', label: t('fleet.ghost.name'), icon: '🌟' },
     { href: '/fleet/cullinan', label: t('fleet.cullinan.name'), icon: '🏔️' },
     { href: '/fleet/dawn', label: t('fleet.dawn.name'), icon: '☀️' },
-    { href: '/fleet/wraith', label: t('fleet.wraith.name'), icon: '⚡' }
+    { href: '/fleet/wraith', label: t('fleet.wraith.name'), icon: '⚡' },
+    { href: '/fleet/spectre', label: t('fleet.spectre.name'), icon: '🔋' },
+    { href: '/fleet/cullinan-black-badge', label: t('fleet.cullinanBlackBadge.name'), icon: '🖤' },
+    { href: '/fleet/ghost-black-badge', label: t('fleet.ghostBlackBadge.name'), icon: '🖤' }
   ]
 
   const serviceItems = [
@@ -48,7 +51,9 @@ export default function Navbar() {
     { href: '/services/chauffeur', label: t('services.chauffeur.title'), icon: '🎩' },
     { href: '/services/events', label: t('services.events.title'), icon: '🎭' },
     { href: '/services/photoshoot', label: t('services.photoshoot.title'), icon: '📸' },
-    { href: '/services/tours', label: t('services.tours.title'), icon: '🗺️' }
+    { href: '/services/tours', label: t('services.tours.title'), icon: '🗺️' },
+    { href: '/services/birthday', label: t('services.birthday.title'), icon: '🎂' },
+    { href: '/services/hourly-rental', label: t('services.hourly.title'), icon: '⏰' }
   ]
 
   const locationItems = [
@@ -57,7 +62,9 @@ export default function Navbar() {
     { href: '/locations/palm-jumeirah', label: t('locations.palmJumeirah.nav'), icon: '🌴' },
     { href: '/locations/business-bay', label: t('locations.businessBay.nav'), icon: '🏢' },
     { href: '/locations/jbr', label: t('locations.jbr.nav'), icon: '🏖️' },
-    { href: '/locations/difc', label: t('locations.difc.nav'), icon: '🏦' }
+    { href: '/locations/difc', label: t('locations.difc.nav'), icon: '🏦' },
+    { href: '/locations/jumeirah', label: t('locations.jumeirah.nav'), icon: '🏨' },
+    { href: '/locations/deira', label: t('locations.deira.nav'), icon: '🔶' }
   ]
 
   const moreItems = [

@@ -9,6 +9,7 @@ import WhatsAppButton from '@/components/WhatsAppButton'
 import SEO from '@/components/SEO'
 import GEOOptimizer from '@/components/GEOOptimizer'
 import EntitySchema from '@/components/EntitySchema'
+import Script from 'next/script'
 
 export default function ToursServicePage() {
   const { t } = useTranslation('services')
@@ -59,6 +60,37 @@ export default function ToursServicePage() {
 
   const faqItems = getTranslatedArray('servicesPages.tours.faq.questions')
 
+  const faqStructuredData = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "How much is a private Rolls-Royce tour in Dubai?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Private Rolls-Royce city tours start from AED 2,500 for 4 hours. Full-day tours from AED 5,000. Custom itineraries available covering Burj Khalifa, Palm Jumeirah, Dubai Marina, and desert experiences."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Can I customize the Dubai tour itinerary?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes, all our tours are fully customizable. Choose your preferred landmarks, restaurants, and experiences. Our professional chauffeur guides can recommend the best routes and hidden gems based on your interests."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Do your tour chauffeurs speak multiple languages?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes, our chauffeur guides are fluent in English, Arabic, Russian, French, Chinese, and Hindi. We match the guide language to your preference for a personalized experience."
+        }
+      }
+    ]
+  }
+
   return (
     <>
       <SEO pageKey="services.tours" />
@@ -72,6 +104,7 @@ export default function ToursServicePage() {
         facts={['City tours from AED 2,500/4hrs', 'Custom itineraries available', 'Professional chauffeur guide', 'All Dubai landmarks covered', 'Multilingual guides available']}
       />
       <EntitySchema pageType="service" serviceType="tours" />
+      <Script id="tours-faq-data" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqStructuredData) }} />
       <Layout>
         {/* Hero Section */}
         <section className="relative h-[70vh] flex items-center justify-center overflow-hidden">
@@ -386,6 +419,40 @@ export default function ToursServicePage() {
                 <p className="text-gray-400 text-sm mt-4">Terms and conditions apply</p>
               </div>
             </motion.div>
+          </div>
+        </section>
+
+        {/* Recommended Models & Related Services */}
+        <section className="py-20 bg-rolls-black">
+          <div className="container mx-auto px-4">
+            <h2 className="text-3xl font-bold text-white text-center mb-4">Best Models for Dubai Tours</h2>
+            <p className="text-rolls-gold/70 text-center mb-12">Choose your touring companion</p>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-16">
+              {[
+                { href: '/fleet/cullinan', name: 'Cullinan', desc: 'Our #1 tour vehicle. All-terrain SUV capability for city tours and desert excursions with 7 seats of comfort.', price: 'From AED 6,500/day' },
+                { href: '/fleet/dawn', name: 'Dawn', desc: 'Open-top touring at its finest. Cruise Palm Jumeirah and Dubai Marina with the wind in your hair.', price: 'From AED 5,500/day' },
+                { href: '/fleet/ghost', name: 'Ghost', desc: 'Smooth and serene city touring. The Planar suspension makes even the longest routes feel effortless.', price: 'From AED 3,800/day' },
+              ].map((model) => (
+                <Link key={model.href} href={model.href} className="group bg-white/5 border border-white/10 rounded-xl p-6 hover:border-rolls-gold/50 transition-all duration-300">
+                  <h3 className="text-lg font-semibold text-white group-hover:text-rolls-gold transition-colors mb-2">{model.name}</h3>
+                  <p className="text-gray-400 text-sm mb-3">{model.desc}</p>
+                  <p className="text-rolls-gold font-semibold text-sm">{model.price}</p>
+                </Link>
+              ))}
+            </div>
+            <h3 className="text-2xl font-bold text-white text-center mb-8">Explore More Services</h3>
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+              {[
+                { href: '/services/chauffeur', name: 'Chauffeur Service' },
+                { href: '/services/airport-transfer', name: 'Airport Transfer' },
+                { href: '/services/photoshoot', name: 'Photoshoot' },
+                { href: '/services/events', name: 'Events & Galas' },
+              ].map((s) => (
+                <Link key={s.href} href={s.href} className="group text-center bg-white/5 border border-white/10 rounded-lg p-4 hover:border-rolls-gold/50 transition-all">
+                  <p className="text-white font-semibold group-hover:text-rolls-gold transition-colors">{s.name}</p>
+                </Link>
+              ))}
+            </div>
           </div>
         </section>
 

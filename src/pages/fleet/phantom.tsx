@@ -908,6 +908,41 @@ export default function PhantomPage() {
           </div>
         </section>
 
+        {/* Related Services & Fleet */}
+        <section className="py-20 bg-rolls-black">
+          <div className="container mx-auto px-4">
+            <h2 className="text-3xl font-bold text-white text-center mb-4">Related Services</h2>
+            <p className="text-rolls-gold/70 text-center mb-12">Experience the Phantom with our premium services</p>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-16">
+              {[
+                { href: '/services/wedding', title: 'Wedding Service', desc: 'The Phantom is the world\'s most prestigious wedding car. White Extended Wheelbase with floral decoration and red carpet.' },
+                { href: '/services/corporate', title: 'Corporate Service', desc: 'Impress clients and VIPs with the flagship Phantom. Perfect for board-level transport and executive entertainment.' },
+                { href: '/services/airport-transfer', title: 'Airport Transfer', desc: 'First-class airport arrival in the Phantom. Meet & greet at DXB with flight tracking and complimentary waiting.' },
+              ].map((service) => (
+                <Link key={service.href} href={service.href} className="group bg-white/5 border border-white/10 rounded-xl p-6 hover:border-rolls-gold/50 transition-all duration-300">
+                  <h3 className="text-lg font-semibold text-white group-hover:text-rolls-gold transition-colors mb-2">{service.title}</h3>
+                  <p className="text-gray-400 text-sm">{service.desc}</p>
+                </Link>
+              ))}
+            </div>
+            <h3 className="text-2xl font-bold text-white text-center mb-8">Explore More Models</h3>
+            <div className="grid grid-cols-2 md:grid-cols-5 gap-4">
+              {[
+                { href: '/fleet/ghost', name: 'Ghost', price: 'AED 3,800/day' },
+                { href: '/fleet/cullinan', name: 'Cullinan', price: 'AED 6,500/day' },
+                { href: '/fleet/dawn', name: 'Dawn', price: 'AED 5,500/day' },
+                { href: '/fleet/wraith', name: 'Wraith', price: 'AED 5,000/day' },
+                { href: '/fleet/spectre', name: 'Spectre', price: 'AED 7,500/day' },
+              ].map((model) => (
+                <Link key={model.href} href={model.href} className="group text-center bg-white/5 border border-white/10 rounded-lg p-4 hover:border-rolls-gold/50 transition-all">
+                  <p className="text-white font-semibold group-hover:text-rolls-gold transition-colors">{model.name}</p>
+                  <p className="text-rolls-gold/70 text-sm mt-1">{model.price}</p>
+                </Link>
+              ))}
+            </div>
+          </div>
+        </section>
+
         <WhatsAppButton />
       </Layout>
     </>

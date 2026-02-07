@@ -138,6 +138,31 @@
         "seating": "4 Passengers",
         "trunk": "295 Liters"
       }
+    },
+    "spectre": {
+      "name": "Spectre",
+      "tagline": "The Future of Ultra-Luxury",
+      "description": "The Rolls-Royce Spectre is a historic milestone — the first fully electric Rolls-Royce ever built. With 577hp of instant torque, whisper-silent operation, and over 520km of range, the Spectre redefines luxury motoring for a sustainable future.",
+      "features": [
+        "Dual Electric Motors - 577 hp",
+        "102 kWh Battery - 520+ km Range",
+        "Whisper-Silent Electric Drive",
+        "Starlight Headliner",
+        "Fastback Coupé Design",
+        "Spirit of Ecstasy Illuminated",
+        "23-inch Alloy Wheels",
+        "Advanced Air Suspension"
+      ],
+      "specifications": {
+        "engine": "Dual Electric Motors",
+        "power": "577 hp / 900 Nm",
+        "acceleration": "0-100 km/h in 4.5s",
+        "top_speed": "250 km/h",
+        "seating": "4 Passengers",
+        "range": "520+ km (WLTP)",
+        "battery": "102 kWh",
+        "charging": "DC Fast Charging"
+      }
     }
   },
   "badges": {
@@ -146,6 +171,7 @@
     "best_value": "Best Value",
     "convertible": "Convertible",
     "grand_tourer": "Grand Tourer",
+    "electric": "100% Electric",
     "popular": "Most Popular"
   },
   "why_choose": {
@@ -202,6 +228,128 @@
     "aed": "AED",
     "perDay": "/day",
     "rentNow": "RENT NOW"
+  },
+  "cullinanBlackBadge": {
+    "badge": "BLACK BADGE EDITION",
+    "title": "Cullinan",
+    "titleHighlight": "Black Badge",
+    "subtitle": "The Darkest Expression of Rolls-Royce. 600 HP of Uncompromising Power.",
+    "price": "From AED 8,500 / Day",
+    "bookBtn": "Book Black Badge Now",
+    "compareBtn": "Compare Standard Cullinan",
+    "whatIs": {
+      "title": "What is Black Badge?",
+      "desc": "Black Badge is the alter ego of Rolls-Royce — created for those who reject conformity. Every element is amplified: more power, darker aesthetics, bolder character. The Cullinan Black Badge is the most commanding SUV on Earth."
+    },
+    "features": [
+      { "title": "Darkened Spirit of Ecstasy", "desc": "High-gloss black chrome Spirit of Ecstasy with dark surround — the hallmark of Black Badge exclusivity." },
+      { "title": "Carbon Fibre Spirit of Ecstasy", "desc": "Optional carbon fibre composite Spirit of Ecstasy, the most technically advanced version ever created." },
+      { "title": "22\" Forged Alloy Wheels", "desc": "Bespoke 22-inch dark-finish forged alloy wheels with Black Badge center caps." },
+      { "title": "Darker Exterior Chrome", "desc": "All exterior chrome surfaces replaced with dark chrome — grille, window surrounds, and lower air intakes." },
+      { "title": "Bespoke Interior", "desc": "Technical carbon fibre veneer with woven pattern, illuminated fascia, and Forge Yellow accent stitching." },
+      { "title": "Enhanced Exhaust Note", "desc": "Retuned exhaust system delivering a more assertive, deeper tone befitting the Black Badge character." }
+    ],
+    "specs": {
+      "title": "Performance Specifications",
+      "engine": "Engine",
+      "engineVal": "6.75L Twin-Turbo V12",
+      "power": "Power",
+      "powerVal": "600 HP (+29 HP)",
+      "torque": "Torque",
+      "torqueVal": "900 Nm (+50 Nm)",
+      "accel": "0-100 km/h",
+      "accelVal": "5.0 seconds",
+      "drive": "Drivetrain",
+      "driveVal": "All-Wheel Drive",
+      "seats": "Seats",
+      "seatsVal": "5 (Lounge Seating)",
+      "trans": "Transmission",
+      "transVal": "8-Speed ZF Auto",
+      "topSpeed": "Top Speed",
+      "topSpeedVal": "250 km/h"
+    },
+    "pricing": {
+      "title": "Black Badge Rental Rates",
+      "daily": "Daily",
+      "dailyPrice": "AED 8,500",
+      "dailyNote": "Includes 250km, insurance",
+      "weekly": "Weekly",
+      "weeklyPrice": "AED 49,000",
+      "weeklyNote": "7 days, 1,750km included",
+      "monthly": "Monthly",
+      "monthlyPrice": "AED 170,000",
+      "monthlyNote": "30 days, 5,000km included",
+      "bookBtn": "Book Cullinan Black Badge"
+    },
+    "related": {
+      "title": "Related Services",
+      "subtitle": "Experience the Black Badge with our premium services",
+      "events": { "title": "Events & Red Carpet", "desc": "The Black Badge commands attention at every event. Make the ultimate statement at galas and premieres." },
+      "corporate": { "title": "Corporate Service", "desc": "For executives who demand more. The Black Badge projects power and ambition for high-stakes business." },
+      "photoshoot": { "title": "Photoshoot Service", "desc": "The dark aesthetic of Black Badge creates stunning visual content for editorial and commercial shoots." },
+      "exploreMore": "Explore More Models"
+    }
+  },
+  "ghostBlackBadge": {
+    "badge": "BLACK BADGE EDITION",
+    "title": "Ghost",
+    "titleHighlight": "Black Badge",
+    "subtitle": "The Most Driver-Focused Rolls-Royce. 592 HP. Illuminated Fascia. Carbon Fibre Wheels.",
+    "price": "From AED 5,500 / Day",
+    "bookBtn": "Book Black Badge Now",
+    "compareBtn": "Compare Standard Ghost",
+    "whatIs": {
+      "title": "What is Black Badge?",
+      "desc": "Black Badge represents the dark, rebellious alter ego of Rolls-Royce. The Ghost Black Badge takes the world's most technologically advanced super-luxury car and amplifies every dimension — more power, darker aesthetics, a more dynamic character."
+    },
+    "features": [
+      { "title": "Darkened Spirit of Ecstasy", "desc": "High-gloss black chrome Spirit of Ecstasy — the unmistakable signature of Black Badge rebellion." },
+      { "title": "Illuminated Fascia", "desc": "The Black Badge Ghost features an illuminated fascia with 850 stars that create a constellation effect behind the dashboard veneer." },
+      { "title": "21\" Composite Wheels", "desc": "Carbon fibre composite wheels — the most technically advanced wheels ever fitted to a Rolls-Royce, saving 4kg per wheel." },
+      { "title": "Darker Exterior Elements", "desc": "Dark chrome grille, window surrounds, lower air intakes, and exhaust finishers replace the standard silver chrome." },
+      { "title": "Bespoke Audio", "desc": "18-speaker, 1,300W Bespoke Audio system with individual speaker excitation for concert-hall sound quality." },
+      { "title": "Planar Suspension Tuned", "desc": "Black Badge-tuned Planar suspension with Flagbearer system for a more connected, dynamic driving experience." }
+    ],
+    "specs": {
+      "title": "Performance Specifications",
+      "engine": "Engine",
+      "engineVal": "6.75L Twin-Turbo V12",
+      "power": "Power",
+      "powerVal": "592 HP (+29 HP)",
+      "torque": "Torque",
+      "torqueVal": "900 Nm (+50 Nm)",
+      "accel": "0-100 km/h",
+      "accelVal": "4.7 seconds",
+      "drive": "Drivetrain",
+      "driveVal": "All-Wheel Drive",
+      "seats": "Seats",
+      "seatsVal": "5",
+      "trans": "Transmission",
+      "transVal": "8-Speed ZF Auto",
+      "topSpeed": "Top Speed",
+      "topSpeedVal": "250 km/h"
+    },
+    "pricing": {
+      "title": "Black Badge Rental Rates",
+      "daily": "Daily",
+      "dailyPrice": "AED 5,500",
+      "dailyNote": "Includes 250km, insurance",
+      "weekly": "Weekly",
+      "weeklyPrice": "AED 32,000",
+      "weeklyNote": "7 days, 1,750km included",
+      "monthly": "Monthly",
+      "monthlyPrice": "AED 110,000",
+      "monthlyNote": "30 days, 5,000km included",
+      "bookBtn": "Book Ghost Black Badge"
+    },
+    "related": {
+      "title": "Related Services",
+      "subtitle": "Experience the Black Badge with our premium services",
+      "corporate": { "title": "Corporate Service", "desc": "The Ghost Black Badge is the ultimate executive car. Dark elegance for DIFC and Business Bay." },
+      "chauffeur": { "title": "Chauffeur Service", "desc": "Professional chauffeur with your Black Badge. The most sophisticated way to travel Dubai." },
+      "airport": { "title": "Airport Transfer", "desc": "VIP airport arrival in the Ghost Black Badge. Unmatched presence at DXB and DWC." },
+      "exploreMore": "Explore More Models"
+    }
   },
   "phantom": {
     "name": "Rolls-Royce Phantom",

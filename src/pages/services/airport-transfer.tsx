@@ -10,6 +10,7 @@ import WhatsAppButton from '@/components/WhatsAppButton'
 import SEO from '@/components/SEO'
 import GEOOptimizer from '@/components/GEOOptimizer'
 import EntitySchema from '@/components/EntitySchema'
+import Script from 'next/script'
 
 export default function AirportTransferPage() {
   const { t } = useTranslation(['services', 'common'])
@@ -50,6 +51,37 @@ export default function AirportTransferPage() {
 
   const popularRoutes = getTranslatedArray('servicesPages.airportTransfer.popularRoutes.routes')
 
+  const faqStructuredData = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "How much is a Rolls-Royce airport transfer in Dubai?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Rolls-Royce airport transfer starts from AED 1,500 one-way. Round trip packages available at discounted rates. Price includes meet & greet, flight tracking, and 30-minute complimentary waiting time."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How do I book a Rolls-Royce airport pickup in Dubai?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Book online at rollsroycers.com or WhatsApp +971558164922 with your flight details. We track your flight automatically and adjust pickup time. Meet & greet at arrivals included."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Which Dubai airports do you cover for Rolls-Royce transfers?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "We cover all UAE airports: DXB (Dubai International), DWC (Al Maktoum), AUH (Abu Dhabi), and SHJ (Sharjah). All terminals served with meet & greet at arrivals."
+        }
+      }
+    ]
+  }
+
   return (
     <>
       <SEO pageKey="services.airport-transfer" />
@@ -67,6 +99,7 @@ export default function AirportTransferPage() {
         ]}
       />
       <EntitySchema pageType="service" serviceType="airport-transfer" />
+      <Script id="airport-faq-data" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqStructuredData) }} />
       <Layout>
         {/* Hero Section */}
         <section className="relative h-screen flex items-center justify-center overflow-hidden">
@@ -323,6 +356,40 @@ export default function AirportTransferPage() {
             <p className="text-gray-400 mt-6">
               {t('servicesPages.airportTransfer.cta.waitingTime')}
             </p>
+          </div>
+        </section>
+
+        {/* Recommended Models & Related Services */}
+        <section className="py-20 bg-rolls-black">
+          <div className="container mx-auto px-4">
+            <h2 className="text-3xl font-bold text-white text-center mb-4">Popular Airport Transfer Vehicles</h2>
+            <p className="text-rolls-gold/70 text-center mb-12">Arrive in style from DXB, DWC, or AUH</p>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-16">
+              {[
+                { href: '/fleet/ghost', name: 'Ghost', desc: 'Our most booked airport car. Effortless comfort and understated luxury for the discerning traveller.', price: 'From AED 3,800/day' },
+                { href: '/fleet/cullinan', name: 'Cullinan', desc: 'Perfect for families and groups. Generous luggage space and 7 seats make airport transfers seamless.', price: 'From AED 6,500/day' },
+                { href: '/fleet/phantom', name: 'Phantom', desc: 'First-class arrival in the flagship. Extended Wheelbase with privacy glass for the ultimate VIP transfer.', price: 'From AED 5,800/day' },
+              ].map((model) => (
+                <Link key={model.href} href={model.href} className="group bg-white/5 border border-white/10 rounded-xl p-6 hover:border-rolls-gold/50 transition-all duration-300">
+                  <h3 className="text-lg font-semibold text-white group-hover:text-rolls-gold transition-colors mb-2">{model.name}</h3>
+                  <p className="text-gray-400 text-sm mb-3">{model.desc}</p>
+                  <p className="text-rolls-gold font-semibold text-sm">{model.price}</p>
+                </Link>
+              ))}
+            </div>
+            <h3 className="text-2xl font-bold text-white text-center mb-8">Explore More Services</h3>
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+              {[
+                { href: '/services/chauffeur', name: 'Chauffeur Service' },
+                { href: '/services/corporate', name: 'Corporate Service' },
+                { href: '/services/tours', name: 'Dubai Tours' },
+                { href: '/services/events', name: 'Events & Galas' },
+              ].map((s) => (
+                <Link key={s.href} href={s.href} className="group text-center bg-white/5 border border-white/10 rounded-lg p-4 hover:border-rolls-gold/50 transition-all">
+                  <p className="text-white font-semibold group-hover:text-rolls-gold transition-colors">{s.name}</p>
+                </Link>
+              ))}
+            </div>
           </div>
         </section>
 

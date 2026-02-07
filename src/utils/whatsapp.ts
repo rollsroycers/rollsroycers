@@ -17,6 +17,7 @@ export const WhatsAppMessages = {
   cullinan: 'Hello! I am interested in the Rolls-Royce Cullinan SUV. Could you share availability and rates?',
   dawn: 'Hello! I would like to rent the Rolls-Royce Dawn convertible. Please provide pricing information.',
   wraith: 'Hello! I am interested in the Rolls-Royce Wraith. Could you please share availability and rates?',
+  spectre: 'Hello! I am interested in the Rolls-Royce Spectre electric coupe. Could you please share pricing and availability?',
   
   // Service-specific messages
   booking: 'Hello! I would like to make a reservation for a Rolls-Royce rental in Dubai. Please assist me with the booking process.',

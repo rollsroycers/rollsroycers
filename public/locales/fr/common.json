@@ -1227,9 +1227,50 @@
     "perDay": "/jour",
     "rentNow": "RÉSERVER",
     "aed": "AED",
+    "spectre": {
+      "name": "Rolls-Royce Spectre",
+      "tagline": "Le Futur de l'Ultra-Luxe",
+      "description": "La première Rolls-Royce entièrement électrique. Vivez un luxe silencieux avec 577ch de couple instantané, 520+ km d'autonomie et zéro émission.",
+      "features": [
+        { "icon": "⚡", "title": "Moteurs Électriques Doubles", "desc": "577 ch de puissance instantanée et silencieuse" },
+        { "icon": "🔋", "title": "Autonomie 520+ km", "desc": "Batterie 102 kWh pour des tours de luxe toute la journée" },
+        { "icon": "🤫", "title": "Silence Absolu", "desc": "La Rolls-Royce la plus silencieuse jamais créée" },
+        { "icon": "✨", "title": "Ciel Étoilé", "desc": "1 340 fibres optiques dans votre ciel personnel" },
+        { "icon": "🏎️", "title": "Design Fastback", "desc": "Silhouette coupé dramatique à l'élégance aérodynamique" },
+        { "icon": "🎵", "title": "Audio Sur Mesure", "desc": "Système 18 haut-parleurs optimisé pour le silence électrique" },
+        { "icon": "🌟", "title": "Spirit Illuminé", "desc": "L'iconique Spirit of Ecstasy, désormais illuminée" },
+        { "icon": "🔒", "title": "Suspension Avancée", "desc": "Système Planar optimisé pour la conduite électrique" }
+      ],
+      "badges": { "electric": "100% Électrique", "zeroemissions": "Zéro Émission", "chauffeur": "Chauffeur Inclus" },
+      "stats": { "power": "Puissance Électrique", "range": "Autonomie", "acceleration": "0-100 km/h", "emissions": "Émissions", "support": "Support" },
+      "pricing": {
+        "title": "Tarifs Transparents & Disponibilité Immédiate",
+        "daily": "Par Jour", "dailyNote": "250km inclus",
+        "weekly": "Par Semaine", "weeklyNote": "1 750km inclus",
+        "monthly": "Par Mois", "monthlyNote": "5 000km inclus",
+        "popular": "LE PLUS POPULAIRE",
+        "available": "Disponible Maintenant - Chargée et Prête",
+        "bookNow": "Réserver Spectre",
+        "includes": { "insurance": "Assurance Incluse", "vat": "TVA Incluse", "chauffeur": "Chauffeur Inclus", "delivery": "Livraison Gratuite" }
+      },
+      "featuresTitle": "Caractéristiques Électriques Révolutionnaires",
+      "featuresSubtitle": "La première voiture électrique ultra-luxe, où la technologie de pointe rencontre le savoir-faire intemporel de Rolls-Royce",
+      "specsTitle": "Spécifications Techniques",
+      "specs": { "engine": "Moteurs Électriques Doubles", "power": "577 ch", "torque": "900 Nm", "acceleration": "0-100 km/h en 4,5s", "topSpeed": "250 km/h (limitée)", "range": "520+ km (WLTP)", "battery": "102 kWh", "seats": "4 Passagers" },
+      "specLabels": { "engine": "Motorisation", "power": "Puissance", "torque": "Couple", "acceleration": "Accélération", "topSpeed": "Vitesse Max", "range": "Autonomie", "battery": "Batterie", "seats": "Places" },
+      "galleryTitle": "Galerie Spectre",
+      "gallery": { "exteriorAlt": "Rolls-Royce Spectre Extérieur - Coupé Électrique de Luxe Dubaï", "interiorAlt": "Rolls-Royce Spectre Intérieur - Cabine Électrique Ultra-Luxe" },
+      "cta": { "title": "Vivez le Futur du Luxe", "subtitle": "Soyez parmi les premiers à conduire la voiture électrique la plus luxueuse au monde à Dubaï.", "chat": "Chat: +971 55 816 4922", "book": "Réserver en Ligne" }
+    },
     "performance": "Performance",
     "convertibleTech": "Technologie cabriolet",
     "luxuryFeatures": "Caractéristiques de Luxe",
+    "cullinanBlackBadge": {
+      "name": "Cullinan Black Badge"
+    },
+    "ghostBlackBadge": {
+      "name": "Ghost Black Badge"
+    },
     "virtualTourSpots": {
       "title": "Points du tour virtuel",
       "description": "Explorez l'intérieur en détail",
@@ -1311,6 +1352,10 @@
     "delivery": {
       "title": "Livraison & Collecte",
       "description": "Nous livrons et collectons depuis n'importe quel endroit à Dubaï."
+    },
+    "birthday": {
+      "title": "Forfait Anniversaire",
+      "description": "Célébrez en luxe avec une Rolls-Royce décorée."
     }
   },
   "booking": {
@@ -4240,7 +4285,12 @@
     "title": "Nos emplacements",
     "subtitle": "Desserte de toutes les zones principales de Dubaï",
     "marina": "Dubai Marina",
-    "jumeirah": "Palm Jumeirah",
+    "jumeirah": {
+      "nav": "Jumeirah"
+    },
+    "deira": {
+      "nav": "Deira"
+    },
     "viewOnMap": "Voir sur la carte",
     "cta": {
       "title": "Nous livrons chez vous",
@@ -5825,5 +5875,130 @@
     "available247": "Disponible 24h/24",
     "popularAirportRoutes": "Itinéraires aéroport populaires",
     "popularChauffeurRoutes": "Itinéraires chauffeur populaires"
+  },
+  "birthdayPage": {
+    "badge": "CÉLÉBREZ AVEC LUXE",
+    "title": "Anniversaire",
+    "titleHighlight": "Rolls-Royce",
+    "titleSuffix": "Dubaï",
+    "subtitle": "Rendez leur anniversaire inoubliable. Arrivée dans une Rolls-Royce décorée avec champagne, fleurs et chauffeur professionnel.",
+    "price": "Forfaits à partir de 3 500 AED",
+    "bookBtn": "Réserver Forfait Anniversaire",
+    "customBtn": "Demande Personnalisée",
+    "packages": {
+      "title": "Forfaits Anniversaire",
+      "subtitle": "Choisissez le forfait de célébration parfait",
+      "mostPopular": "PLUS POPULAIRE",
+      "vehicles": "Véhicules",
+      "bookNow": "Réserver",
+      "silver": { "name": "Anniversaire Argent", "duration": "4 Heures", "price": "3 500 AED" },
+      "gold": { "name": "Anniversaire Or", "duration": "8 Heures", "price": "6 500 AED" },
+      "platinum": { "name": "Anniversaire Platine", "duration": "Journée Complète", "price": "12 000 AED" }
+    },
+    "silverFeatures": ["Chauffeur professionnel", "Arrivée tapis rouge", "Bannière anniversaire", "Champagne offert", "Arrêts photo"],
+    "goldFeatures": ["Chauffeur professionnel", "Arrivée tapis rouge", "Décoration personnalisée", "Champagne & fleurs", "Tour de Dubaï inclus", "Arrêts photo réseaux sociaux", "Installation ballons"],
+    "platinumFeatures": ["Plusieurs véhicules disponibles", "Chauffeur professionnel", "Décoration complète", "Champagne premium & gâteau", "Photographe professionnel (2h)", "Itinéraire Dubaï personnalisé", "Tapis rouge à chaque arrêt", "Réservations restaurants VIP"],
+    "howItWorks": {
+      "title": "Comment Ça Marche",
+      "step1": { "title": "Choisir le Forfait", "desc": "Sélectionnez le forfait Argent, Or ou Platine." },
+      "step2": { "title": "Personnaliser", "desc": "Dites-nous le nom, l'âge et les préférences de la personne." },
+      "step3": { "title": "On Décore", "desc": "Notre équipe prépare la voiture avec décoration et champagne." },
+      "step4": { "title": "Arrivée Surprise", "desc": "La Rolls-Royce décorée arrive à l'endroit spécifié." }
+    },
+    "bestModels": {
+      "title": "Meilleurs Modèles pour Anniversaires",
+      "subtitle": "Nos voitures de célébration les plus populaires",
+      "phantom": { "desc": "La voiture d'anniversaire ultime. Le Ciel Étoilé crée une atmosphère magique.", "price": "À partir de 5 800 AED/jour" },
+      "dawn": { "desc": "Croisière anniversaire décapotable. Parfait pour les célébrations en journée.", "price": "À partir de 5 500 AED/jour" },
+      "cullinan": { "desc": "Place pour toute la fête. 7 sièges de luxe pour les célébrations de groupe.", "price": "À partir de 6 500 AED/jour" }
+    },
+    "relatedServices": "Services Associés"
+  },
+  "hourlyPage": {
+    "badge": "LUXE FLEXIBLE",
+    "title": "Location",
+    "titleHighlight": "Rolls-Royce",
+    "titleSuffix": "à l'Heure",
+    "subtitle": "Le luxe selon votre emploi du temps. Louez n'importe quelle Rolls-Royce à l'heure avec chauffeur. Minimum 2 heures.",
+    "price": "À partir de 800 AED / Heure",
+    "bookBtn": "Réserver à l'Heure",
+    "pricingBtn": "Voir Tous les Tarifs",
+    "rates": {
+      "title": "Tarifs Horaires",
+      "subtitle": "Tous les tarifs incluent un chauffeur professionnel",
+      "perHour": "par heure",
+      "min": "Min",
+      "fullDay": "Journée",
+      "book": "Réserver"
+    },
+    "useCases": {
+      "title": "Parfait Pour",
+      "subtitle": "Occasions populaires de location à l'heure",
+      "business": { "title": "Réunions d'Affaires", "desc": "Arrivez aux réunions du DIFC ou Business Bay en Rolls-Royce. Réservations 2-3h idéales." },
+      "restaurant": { "title": "Arrivées Restaurant", "desc": "Arrivée grandiose dans les meilleurs restaurants de Dubaï. Zuma, Nobu, La Petite Maison." },
+      "shopping": { "title": "Shopping", "desc": "Parcourez Dubai Mall ou Mall of the Emirates avec Rolls-Royce et chauffeur." },
+      "date": { "title": "Soirées Romantiques", "desc": "Impressionnez avec une soirée Rolls-Royce. Croisière au coucher du soleil sur Palm Jumeirah." },
+      "social": { "title": "Contenu Réseaux Sociaux", "desc": "Sessions de création de contenu rapides. Forfaits 2h parfaits pour Instagram et TikTok." },
+      "hotel": { "title": "Transferts Hôtel", "desc": "Transfert de luxe entre hôtels et résidences à Dubaï. Minimum 2 heures." }
+    },
+    "howItWorks": {
+      "title": "Comment Fonctionne la Location Horaire",
+      "step1": { "title": "Choisir le Modèle", "desc": "Sélectionnez parmi 6 modèles Rolls-Royce." },
+      "step2": { "title": "Définir la Durée", "desc": "Minimum 2 heures. Jusqu'à 6 heures au tarif horaire." },
+      "step3": { "title": "Choisir le Lieu", "desc": "Livraison partout à Dubaï en 30 minutes." },
+      "step4": { "title": "Profiter", "desc": "Votre chauffeur conduit. Vous vous détendez." }
+    },
+    "moreServices": "Explorer Plus de Services"
+  },
+  "jumeirahPage": {
+    "location": "Jumeirah, Dubaï",
+    "title": "Location Rolls-Royce",
+    "titleHighlight": "Jumeirah",
+    "subtitle": "Le quartier balnéaire le plus prestigieux de Dubaï. Livraison gratuite au Burj Al Arab, Madinat Jumeirah et tous les resorts.",
+    "delivery": "Livraison Gratuite en 15 Minutes",
+    "bookBtn": "Réserver à Jumeirah",
+    "fleetBtn": "Voir la Flotte",
+    "landmarks": { "title": "Sites à Proximité", "subtitle": "Nous livrons à tous les sites de Jumeirah", "deliverySuffix": "livraison" },
+    "experiences": {
+      "title": "Expériences Jumeirah",
+      "subtitle": "Façons populaires de profiter d'une Rolls-Royce à Jumeirah",
+      "recommended": "Recommandé",
+      "burjArab": { "title": "Arrivée Burj Al Arab", "desc": "Faites l'entrée ultime au plus iconique hôtel du monde. Notre Rolls-Royce complète parfaitement le luxe légendaire du Burj Al Arab." },
+      "beachRoad": { "title": "Croisière Jumeirah Beach Road", "desc": "La route côtière de Jumeirah à Dubai Marina offre des vues magnifiques sur le Golfe. La Dawn décapotable est le choix parfait." },
+      "madinat": { "title": "Dîner Madinat Jumeirah", "desc": "Arrivez aux restaurants primés de Madinat Jumeirah en Rolls-Royce. Pierchic, Pai Thai et Rockfish vous attendent." },
+      "kiteBeach": { "title": "Coucher de Soleil Kite Beach", "desc": "Vivez l'heure dorée à Kite Beach avec une Rolls-Royce. Parfait pour les séances photo." }
+    },
+    "hotels": { "title": "Hôtels Desservis", "subtitle": "Livraison gratuite à tous les hôtels de Jumeirah" },
+    "models": { "title": "Modèles Disponibles", "subtitle": "Tous les modèles disponibles pour livraison à Jumeirah" },
+    "services": "Nos Services"
+  },
+  "deiraPage": {
+    "location": "Deira, Dubaï",
+    "title": "Location Rolls-Royce",
+    "titleHighlight": "Deira",
+    "subtitle": "Le cœur historique de Dubaï. 10 minutes de l'aéroport DXB. Livraison gratuite au Gold Souk, Dubai Creek et tous les hôtels.",
+    "delivery": "Livraison Gratuite en 10 Minutes",
+    "bookBtn": "Réserver à Deira",
+    "airportBtn": "Transfert Aéroport",
+    "airport": {
+      "title": "Le Plus Proche de l'Aéroport",
+      "desc": "Deira est le quartier principal le plus proche de l'aéroport international de Dubaï (DXB). Votre Rolls-Royce peut attendre au terminal en moins de 10 minutes.",
+      "terminal1": { "title": "Terminal 1", "time": "8 min", "desc": "Emirates et compagnies internationales majeures" },
+      "terminal3": { "title": "Terminal 3", "time": "10 min", "desc": "Terminal exclusif Emirates" },
+      "vip": { "title": "Terminal VIP", "time": "7 min", "desc": "Jets privés et première classe" }
+    },
+    "landmarks": { "title": "Sites à Proximité", "subtitle": "Nous livrons à tous les sites de Deira", "deliverySuffix": "livraison" },
+    "experiences": {
+      "title": "Expériences Deira",
+      "subtitle": "Façons populaires de profiter d'une Rolls-Royce à Deira",
+      "recommended": "Recommandé",
+      "goldSouk": { "title": "Tour Gold Souk & Patrimoine", "desc": "Explorez le légendaire Gold Souk et Spice Souk en Rolls-Royce. Tradition et luxe ultime combinés." },
+      "creek": { "title": "Coucher de Soleil Dubai Creek", "desc": "Longez le Dubai Creek historique au coucher du soleil. Le contraste entre boutres et luxe moderne crée des souvenirs inoubliables." },
+      "dxb": { "title": "Transfert Aéroport DXB", "desc": "Deira est la zone la plus proche de l'aéroport. Arrivez ou partez en style avec un transfert VIP en moins de 10 minutes." },
+      "oldDubai": { "title": "Balade Nocturne Vieux Dubaï", "desc": "Découvrez le charme du Vieux Dubaï la nuit. D'Al Seef à Baniyas Square, le quartier historique illuminé est magique." }
+    },
+    "hotels": { "title": "Hôtels Desservis", "subtitle": "Livraison gratuite à tous les hôtels de Deira" },
+    "models": { "title": "Modèles Disponibles", "subtitle": "Tous les modèles disponibles pour livraison à Deira" },
+    "services": "Nos Services"
   }
 }

@@ -7,6 +7,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { motion } from 'framer-motion'
 import { useState } from 'react'
+import Head from 'next/head'
 import Layout from '@/components/Layout'
 import WhatsAppButton from '@/components/WhatsAppButton'
 
@@ -167,9 +168,76 @@ export default function FAQPage() {
     setOpenQuestion(openQuestion === questionId ? null : questionId)
   }
 
+  // HowTo JSON-LD structured data for booking process
+  const howToSchema = {
+    "@context": "https://schema.org",
+    "@type": "HowTo",
+    "name": "How to Rent a Rolls-Royce in Dubai",
+    "description": "Step-by-step guide to renting a Rolls-Royce in Dubai from rollsroycers.com. Book online or via WhatsApp in under 5 minutes.",
+    "totalTime": "PT5M",
+    "estimatedCost": {
+      "@type": "MonetaryAmount",
+      "currency": "AED",
+      "value": "3800"
+    },
+    "step": [
+      {
+        "@type": "HowToStep",
+        "position": 1,
+        "name": "Choose Your Rolls-Royce Model",
+        "text": "Browse our fleet of 6 models: Phantom, Ghost, Cullinan, Dawn, Wraith, and the new Spectre Electric. Compare specifications, prices, and availability.",
+        "url": "https://rollsroycers.com/fleet"
+      },
+      {
+        "@type": "HowToStep",
+        "position": 2,
+        "name": "Select Your Dates and Service",
+        "text": "Pick your rental dates and choose from self-drive, chauffeur service, airport transfer, wedding package, or corporate hire. Hourly, daily, weekly, and monthly rates available.",
+        "url": "https://rollsroycers.com/booking"
+      },
+      {
+        "@type": "HowToStep",
+        "position": 3,
+        "name": "Add Optional Services",
+        "text": "Customize your rental with optional add-ons: professional photographer, floral decoration, custom itinerary, extra mileage, or multilingual chauffeur."
+      },
+      {
+        "@type": "HowToStep",
+        "position": 4,
+        "name": "Confirm and Receive Your Car",
+        "text": "Confirm your booking online or via WhatsApp at +971558164922. Receive instant confirmation. Free delivery anywhere in Dubai within 15-30 minutes. Free cancellation up to 48 hours before pickup.",
+        "url": "https://rollsroycers.com/contact"
+      }
+    ]
+  }
+
+  // FAQPage JSON-LD structured data for rich results
+  const faqSchema = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": faqs.map(faq => ({
+      "@type": "Question",
+      "name": faq.question,
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": faq.answer
+      }
+    }))
+  }
+
   return (
     <Layout>
       <SEO pageKey="other.faq" />
+      <Head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(howToSchema) }}
+        />
+      </Head>
       <GEOOptimizer
         pageKey="other.faq"
         title="Rolls-Royce Rental Dubai FAQ 2026"

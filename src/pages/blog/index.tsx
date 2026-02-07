@@ -187,6 +187,94 @@ export default function BlogPage() {
       readTime: t('blog.articles.article11.readTime', '12 min read'),
       image: '/images/Rolls-Royce-black.jpg',
       slug: 'dubai-night-experience-rolls-royce'
+    },
+    {
+      id: 16,
+      title: 'Rolls-Royce Spectre: The World\'s First Ultra-Luxury Electric Car Now in Dubai',
+      excerpt: 'Rent the all-electric Rolls-Royce Spectre in Dubai from AED 7,500/day. 577 HP, 530km range, zero emissions luxury.',
+      category: 'guides',
+      author: 'Ahmed Salem',
+      date: 'Feb 1, 2026',
+      readTime: '8 min read',
+      image: '/images/2024_Rolls-Royce_Spectre.jpg',
+      slug: 'rolls-royce-spectre-electric-dubai'
+    },
+    {
+      id: 17,
+      title: 'Rolls-Royce Black Badge Dubai: The Dark Side of Luxury',
+      excerpt: 'Rent Black Badge editions in Dubai. Cullinan BB from AED 8,500/day, Ghost BB from AED 5,500/day. Darker, more powerful.',
+      category: 'guides',
+      author: 'Ahmed Salem',
+      date: 'Feb 2, 2026',
+      readTime: '9 min read',
+      image: '/images/2024_Rolls-Royce_Cullinan_Black_Badge.jpg',
+      slug: 'rolls-royce-black-badge-dubai'
+    },
+    {
+      id: 18,
+      title: 'Rolls-Royce Birthday Car Rental Dubai: Make It Unforgettable',
+      excerpt: 'Surprise birthday celebrations with a decorated Rolls-Royce. Packages from AED 3,500 with champagne and chauffeur.',
+      category: 'tips',
+      author: 'Fatima Al Rashid',
+      date: 'Feb 3, 2026',
+      readTime: '7 min read',
+      image: '/images/Rolls-Royce-white.jpg',
+      slug: 'rolls-royce-birthday-car-dubai'
+    },
+    {
+      id: 19,
+      title: 'Hourly Rolls-Royce Rental in Dubai: Luxury on Your Schedule',
+      excerpt: 'Rent a Rolls-Royce by the hour from AED 800/hr. All 6 models with chauffeur. Minimum 2-hour booking.',
+      category: 'guides',
+      author: 'James Thompson',
+      date: 'Feb 4, 2026',
+      readTime: '6 min read',
+      image: '/images/Rolls-royce-with-chauffeur.jpg',
+      slug: 'hourly-rolls-royce-rental-dubai'
+    },
+    {
+      id: 20,
+      title: 'Rolls-Royce Cullinan vs Bentley Bentayga: Dubai Luxury SUV Comparison',
+      excerpt: 'Comparing the two most luxurious SUVs for rent in Dubai. Cullinan from AED 6,500/day. Specs, comfort, and pricing.',
+      category: 'guides',
+      author: 'Sarah Mitchell',
+      date: 'Jan 25, 2026',
+      readTime: '10 min read',
+      image: '/images/2024_Rolls-Royce_Cullinan.jpg',
+      slug: 'rolls-royce-cullinan-vs-bentley-bentayga'
+    },
+    {
+      id: 21,
+      title: 'Rolls-Royce Photoshoot Guide Dubai: Best Locations, Models & Tips',
+      excerpt: 'Complete guide to Rolls-Royce photoshoots. Best locations, recommended models, and pro tips from AED 1,200/hour.',
+      category: 'tips',
+      author: 'Layla Al-Mansouri',
+      date: 'Jan 28, 2026',
+      readTime: '8 min read',
+      image: '/images/Rolls-Royce_Dawn.jpg',
+      slug: 'rolls-royce-photoshoot-dubai-guide'
+    },
+    {
+      id: 22,
+      title: 'Dubai New Year\'s Eve 2026: Rolls-Royce Rental for the Ultimate Celebration',
+      excerpt: 'Ring in 2026 in a Rolls-Royce. NYE packages with fireworks viewing, chauffeur, and champagne from AED 8,000.',
+      category: 'events',
+      author: 'Ahmed Salem',
+      date: 'Jan 20, 2026',
+      readTime: '7 min read',
+      image: '/images/downtown-hero.jpg',
+      slug: 'dubai-new-year-luxury-car-rental'
+    },
+    {
+      id: 23,
+      title: 'Rolls-Royce Phantom vs Ghost: Which Should You Rent in Dubai?',
+      excerpt: 'Detailed comparison of Phantom (AED 5,800/day) vs Ghost (AED 3,800/day). Specs, comfort, and best use cases.',
+      category: 'guides',
+      author: 'James Thompson',
+      date: 'Jan 22, 2026',
+      readTime: '9 min read',
+      image: '/images/rolls-royce-phantom.jpg',
+      slug: 'rolls-royce-phantom-vs-ghost-comparison'
     }
   ]
 

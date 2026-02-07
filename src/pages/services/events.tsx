@@ -10,6 +10,7 @@ import PriceCalculator from '@/components/PriceCalculator'
 import SEO from '@/components/SEO'
 import GEOOptimizer from '@/components/GEOOptimizer'
 import EntitySchema from '@/components/EntitySchema'
+import Script from 'next/script'
 
 export default function EventsServicePage() {
   const { t } = useTranslation('services')
@@ -48,11 +49,42 @@ export default function EventsServicePage() {
     event: t(`servicesPages.events.pastEvents.${key}.event`),
     role: t(`servicesPages.events.pastEvents.${key}.role`),
     vehicles: t(`servicesPages.events.pastEvents.${key}.vehicles`)
-  }))
+  }));
+
+  const faqStructuredData = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Can I book multiple Rolls-Royce cars for an event in Dubai?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes, we provide multi-car fleet coordination for galas, premieres, corporate events, and VIP occasions. Up to 6 Rolls-Royce vehicles available simultaneously with coordinated arrivals."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How much does a Rolls-Royce red carpet arrival cost in Dubai?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Red carpet arrival packages start from AED 3,000 including professional chauffeur in formal attire, red carpet setup, and coordinated arrival timing at your venue."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Do you provide Rolls-Royce for film and commercial productions?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes, we supply Rolls-Royce vehicles for film productions, TV commercials, music videos, and media events in Dubai. Special hourly rates for production use with flexible scheduling."
+        }
+      }
+    ]
+  }
 
   const featureKeys = ['coordination', 'timing', 'media', 'fleet', 'vip', 'discretion'] as const
   const featureIcons: Record<string, string> = {
-    coordination: '�', timing: '⏰', media: '🎬', fleet: '👥', vip: '🌟', discretion: '🔒'
+    coordination: '', timing: '', media: '', fleet: '', vip: '', discretion: ''
   }
   const eventFeatures = featureKeys.map(key => ({
     icon: featureIcons[key],
@@ -73,6 +105,7 @@ export default function EventsServicePage() {
         facts={['Event packages from AED 3,000', 'Multi-car fleet coordination', 'Red carpet arrivals', 'Gala and premiere specialist', 'Professional chauffeurs in formal attire']}
       />
       <EntitySchema pageType="service" serviceType="events" />
+      <Script id="events-faq-data" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqStructuredData) }} />
       <Layout>
         {/* Hero Section */}
         <section className="relative h-[70vh] flex items-center justify-center overflow-hidden">
@@ -384,6 +417,40 @@ export default function EventsServicePage() {
                 </div>
               </div>
             </motion.div>
+          </div>
+        </section>
+
+        {/* Recommended Models & Related Services */}
+        <section className="py-20 bg-rolls-black">
+          <div className="container mx-auto px-4">
+            <h2 className="text-3xl font-bold text-white text-center mb-4">Best Models for Events</h2>
+            <p className="text-rolls-gold/70 text-center mb-12">Make a statement at your next event</p>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-16">
+              {[
+                { href: '/fleet/phantom', name: 'Phantom', desc: 'The ultimate red carpet car. Commanding presence and Starlight Headliner for VIP galas and premieres.', price: 'From AED 5,800/day' },
+                { href: '/fleet/wraith', name: 'Wraith', desc: 'Dramatic fastback silhouette. The most powerful Rolls-Royce makes a bold statement at any event.', price: 'From AED 5,000/day' },
+                { href: '/fleet/spectre', name: 'Spectre', desc: 'The future of luxury. Arrive in the world\'s first ultra-luxury electric car — a true conversation starter.', price: 'From AED 7,500/day' },
+              ].map((model) => (
+                <Link key={model.href} href={model.href} className="group bg-white/5 border border-white/10 rounded-xl p-6 hover:border-rolls-gold/50 transition-all duration-300">
+                  <h3 className="text-lg font-semibold text-white group-hover:text-rolls-gold transition-colors mb-2">{model.name}</h3>
+                  <p className="text-gray-400 text-sm mb-3">{model.desc}</p>
+                  <p className="text-rolls-gold font-semibold text-sm">{model.price}</p>
+                </Link>
+              ))}
+            </div>
+            <h3 className="text-2xl font-bold text-white text-center mb-8">Explore More Services</h3>
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+              {[
+                { href: '/services/wedding', name: 'Wedding Service' },
+                { href: '/services/corporate', name: 'Corporate Service' },
+                { href: '/services/photoshoot', name: 'Photoshoot' },
+                { href: '/services/chauffeur', name: 'Chauffeur Service' },
+              ].map((s) => (
+                <Link key={s.href} href={s.href} className="group text-center bg-white/5 border border-white/10 rounded-lg p-4 hover:border-rolls-gold/50 transition-all">
+                  <p className="text-white font-semibold group-hover:text-rolls-gold transition-colors">{s.name}</p>
+                </Link>
+              ))}
+            </div>
           </div>
         </section>
 

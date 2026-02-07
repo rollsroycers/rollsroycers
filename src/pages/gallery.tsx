@@ -8,6 +8,7 @@ import { motion } from 'framer-motion'
 import { useState } from 'react'
 import Layout from '@/components/Layout'
 import WhatsAppButton from '@/components/WhatsAppButton'
+import Script from 'next/script'
 
 export default function GalleryPage() {
   const { t } = useTranslation('common')
@@ -384,9 +385,68 @@ export default function GalleryPage() {
     { id: 6, image: '/images/instagram-6.jpg', likes: 6789, comments: 456 }
   ]
 
+  const videoSchemaData = {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "name": "Rolls-Royce Dubai Video Gallery",
+    "itemListElement": [
+      {
+        "@type": "VideoObject",
+        "position": 1,
+        "name": "Luxury Millionaire Aesthetic Lifestyle - Rolls-Royce Dubai",
+        "description": "Experience the ultimate luxury lifestyle with Rolls-Royce in Dubai. Premium car rental showcasing the finest automobiles.",
+        "thumbnailUrl": "https://rollsroycers.com/images/videos/Luxury_Millionaire_Aesthetic_Lifestyle-thumb.jpg",
+        "contentUrl": "https://rollsroycers.com/images/videos/Luxury_Millionaire_Aesthetic_Lifestyle.mp4",
+        "uploadDate": "2026-01-15",
+        "duration": "PT1M30S"
+      },
+      {
+        "@type": "VideoObject",
+        "position": 2,
+        "name": "Mansory Black Badge Rolls-Royce Cullinan Dubai",
+        "description": "Mansory Black Badge Rolls-Royce Cullinan for rent in Dubai. Custom luxury SUV with exclusive modifications.",
+        "thumbnailUrl": "https://rollsroycers.com/images/videos/Mansory_Black_Badge_Rolls_Royce_Cullinan-thumb.jpg",
+        "contentUrl": "https://rollsroycers.com/images/videos/Mansory_Black_Badge_Rolls_Royce_Cullinan.mp4",
+        "uploadDate": "2026-01-15",
+        "duration": "PT1M"
+      },
+      {
+        "@type": "VideoObject",
+        "position": 3,
+        "name": "Rolls-Royce Cullinan Rental Dubai",
+        "description": "Rolls-Royce Cullinan luxury SUV available for rent in Dubai. Experience the king of SUVs on Dubai roads.",
+        "thumbnailUrl": "https://rollsroycers.com/images/videos/Rolls-Royce-Cullinan_-thumb.jpg",
+        "contentUrl": "https://rollsroycers.com/images/videos/Rolls-Royce-Cullinan_.mp4",
+        "uploadDate": "2026-01-15",
+        "duration": "PT1M"
+      },
+      {
+        "@type": "VideoObject",
+        "position": 4,
+        "name": "Rolls-Royce Phantom Rental Dubai",
+        "description": "The flagship Rolls-Royce Phantom for rent in Dubai. The pinnacle of luxury motoring available for daily and chauffeur hire.",
+        "thumbnailUrl": "https://rollsroycers.com/images/videos/Rolls-royce-phantom-thumb.jpg",
+        "contentUrl": "https://rollsroycers.com/images/videos/Rolls-royce-phantom.mp4",
+        "uploadDate": "2026-01-15",
+        "duration": "PT1M"
+      },
+      {
+        "@type": "VideoObject",
+        "position": 5,
+        "name": "Rolls-Royce Defines What Luxury Cars Mean",
+        "description": "Discover what defines true luxury with Rolls-Royce. Available for rent in Dubai with chauffeur and self-drive options.",
+        "thumbnailUrl": "https://rollsroycers.com/images/videos/Rolls_Royce_defines_what_Luxury_cars_mean-thumb.jpg",
+        "contentUrl": "https://rollsroycers.com/images/videos/Rolls_Royce_defines_what_Luxury_cars_mean.mp4",
+        "uploadDate": "2026-01-15",
+        "duration": "PT1M30S"
+      }
+    ]
+  }
+
   return (
     <Layout>
       <SEO pageKey="other.gallery" />
+      <Script id="gallery-video-schema" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(videoSchemaData) }} />
 
       <div className="min-h-screen bg-gray-900 pt-20">
         {/* Hero Section */}

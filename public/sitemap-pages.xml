@@ -140,6 +140,57 @@
     </image:image>
   </url>
   <url>
+    <loc>https://rollsroycers.com/fleet/spectre</loc>
+    <lastmod>2026-02-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://rollsroycers.com/en/fleet/spectre"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://rollsroycers.com/ar/fleet/spectre"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://rollsroycers.com/zh/fleet/spectre"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://rollsroycers.com/fr/fleet/spectre"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://rollsroycers.com/ru/fleet/spectre"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://rollsroycers.com/hi/fleet/spectre"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://rollsroycers.com/en/fleet/spectre"/>
+    <image:image>
+      <image:loc>https://rollsroycers.com/images/2024_Rolls-Royce_Spectre.jpg</image:loc>
+      <image:caption>Rolls-Royce Spectre electric luxury coupe for rent in Dubai</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://rollsroycers.com/fleet/cullinan-black-badge</loc>
+    <lastmod>2026-02-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://rollsroycers.com/en/fleet/cullinan-black-badge"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://rollsroycers.com/ar/fleet/cullinan-black-badge"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://rollsroycers.com/zh/fleet/cullinan-black-badge"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://rollsroycers.com/fr/fleet/cullinan-black-badge"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://rollsroycers.com/ru/fleet/cullinan-black-badge"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://rollsroycers.com/hi/fleet/cullinan-black-badge"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://rollsroycers.com/en/fleet/cullinan-black-badge"/>
+    <image:image>
+      <image:loc>https://rollsroycers.com/images/2024_Rolls-Royce_Cullinan_Black_Badge.jpg</image:loc>
+      <image:caption>Rolls-Royce Cullinan Black Badge for rent in Dubai</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://rollsroycers.com/fleet/ghost-black-badge</loc>
+    <lastmod>2026-02-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://rollsroycers.com/en/fleet/ghost-black-badge"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://rollsroycers.com/ar/fleet/ghost-black-badge"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://rollsroycers.com/zh/fleet/ghost-black-badge"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://rollsroycers.com/fr/fleet/ghost-black-badge"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://rollsroycers.com/ru/fleet/ghost-black-badge"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://rollsroycers.com/hi/fleet/ghost-black-badge"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://rollsroycers.com/en/fleet/ghost-black-badge"/>
+    <image:image>
+      <image:loc>https://rollsroycers.com/images/Rolls-Royce-Ghost-Black-Badge.jpg</image:loc>
+      <image:caption>Rolls-Royce Ghost Black Badge for rent in Dubai</image:caption>
+    </image:image>
+  </url>
+  <url>
     <loc>https://rollsroycers.com/services/wedding</loc>
     <lastmod>2026-02-06</lastmod>
     <changefreq>weekly</changefreq>
@@ -307,6 +358,58 @@
     <xhtml:link rel="alternate" hreflang="ru" href="https://rollsroycers.com/ru/locations/difc"/>
     <xhtml:link rel="alternate" hreflang="hi" href="https://rollsroycers.com/hi/locations/difc"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://rollsroycers.com/en/locations/difc"/>
+  </url>
+  <url>
+    <loc>https://rollsroycers.com/locations/jumeirah</loc>
+    <lastmod>2026-02-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://rollsroycers.com/en/locations/jumeirah"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://rollsroycers.com/ar/locations/jumeirah"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://rollsroycers.com/zh/locations/jumeirah"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://rollsroycers.com/fr/locations/jumeirah"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://rollsroycers.com/ru/locations/jumeirah"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://rollsroycers.com/hi/locations/jumeirah"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://rollsroycers.com/en/locations/jumeirah"/>
+  </url>
+  <url>
+    <loc>https://rollsroycers.com/locations/deira</loc>
+    <lastmod>2026-02-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://rollsroycers.com/en/locations/deira"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://rollsroycers.com/ar/locations/deira"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://rollsroycers.com/zh/locations/deira"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://rollsroycers.com/fr/locations/deira"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://rollsroycers.com/ru/locations/deira"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://rollsroycers.com/hi/locations/deira"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://rollsroycers.com/en/locations/deira"/>
+  </url>
+  <url>
+    <loc>https://rollsroycers.com/services/birthday</loc>
+    <lastmod>2026-02-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://rollsroycers.com/en/services/birthday"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://rollsroycers.com/ar/services/birthday"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://rollsroycers.com/zh/services/birthday"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://rollsroycers.com/fr/services/birthday"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://rollsroycers.com/ru/services/birthday"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://rollsroycers.com/hi/services/birthday"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://rollsroycers.com/en/services/birthday"/>
+  </url>
+  <url>
+    <loc>https://rollsroycers.com/services/hourly-rental</loc>
+    <lastmod>2026-02-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://rollsroycers.com/en/services/hourly-rental"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://rollsroycers.com/ar/services/hourly-rental"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://rollsroycers.com/zh/services/hourly-rental"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://rollsroycers.com/fr/services/hourly-rental"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://rollsroycers.com/ru/services/hourly-rental"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://rollsroycers.com/hi/services/hourly-rental"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://rollsroycers.com/en/services/hourly-rental"/>
   </url>
   <url>
     <loc>https://rollsroycers.com/about</loc>

@@ -9,6 +9,7 @@ import WhatsAppButton from '@/components/WhatsAppButton'
 import SEO from '@/components/SEO'
 import GEOOptimizer from '@/components/GEOOptimizer'
 import EntitySchema from '@/components/EntitySchema'
+import Script from 'next/script'
 
 export default function PhotoshootServicePage() {
   const { t } = useTranslation('services')
@@ -39,6 +40,37 @@ export default function PhotoshootServicePage() {
 
   const photographerPartners = getTranslatedArray('servicesPages.photoshoot.partners.partners')
 
+  const faqStructuredData = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "How much does a Rolls-Royce photoshoot cost in Dubai?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Rolls-Royce photoshoot packages start from AED 1,200/hour. Includes vehicle, professional chauffeur, and access to iconic Dubai locations. Full-day packages available at discounted rates."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Can I rent a Rolls-Royce for Instagram content in Dubai?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes, we offer special Instagram and social media content creation packages. Choose from Phantom, Ghost, Cullinan, Dawn, Wraith, or the new Spectre. Popular locations include Palm Jumeirah, Burj Al Arab, and Dubai Marina."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Which Rolls-Royce is best for photoshoots?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The Dawn convertible is most popular for outdoor shoots, the Wraith for dramatic coupe shots, and the Phantom for editorial luxury content. We recommend matching the vehicle to your creative vision."
+        }
+      }
+    ]
+  }
+
   return (
     <>
       <SEO pageKey="services.photoshoot" />
@@ -52,6 +84,7 @@ export default function PhotoshootServicePage() {
         facts={['Photoshoot packages from AED 1,200/hour', 'Fashion, music video, Instagram shoots', 'Multiple Rolls-Royce models available', 'Iconic Dubai location access', 'Flexible timing including sunset shoots']}
       />
       <EntitySchema pageType="service" serviceType="photoshoot" />
+      <Script id="photoshoot-faq-data" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqStructuredData) }} />
       <Layout>
         {/* Hero Section */}
         <section className="relative h-[70vh] flex items-center justify-center overflow-hidden">
@@ -405,6 +438,40 @@ export default function PhotoshootServicePage() {
                 </ul>
               </div>
             </motion.div>
+          </div>
+        </section>
+
+        {/* Recommended Models & Related Services */}
+        <section className="py-20 bg-rolls-black">
+          <div className="container mx-auto px-4">
+            <h2 className="text-3xl font-bold text-white text-center mb-4">Best Models for Photoshoots</h2>
+            <p className="text-rolls-gold/70 text-center mb-12">Choose the perfect Rolls-Royce for your creative vision</p>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-16">
+              {[
+                { href: '/fleet/dawn', name: 'Dawn', desc: 'Our #1 photoshoot car. The convertible offers open-air beauty perfect for outdoor fashion, lifestyle, and Instagram content.', price: 'From AED 5,500/day' },
+                { href: '/fleet/wraith', name: 'Wraith', desc: 'Bold coupe silhouette with Starlight Headliner. Ideal for dramatic editorial shots and music video productions.', price: 'From AED 5,000/day' },
+                { href: '/fleet/spectre', name: 'Spectre', desc: 'Futuristic electric design with split headlights. The most visually striking choice for commercial and editorial shoots.', price: 'From AED 7,500/day' },
+              ].map((model) => (
+                <Link key={model.href} href={model.href} className="group bg-white/5 border border-white/10 rounded-xl p-6 hover:border-rolls-gold/50 transition-all duration-300">
+                  <h3 className="text-lg font-semibold text-white group-hover:text-rolls-gold transition-colors mb-2">{model.name}</h3>
+                  <p className="text-gray-400 text-sm mb-3">{model.desc}</p>
+                  <p className="text-rolls-gold font-semibold text-sm">{model.price}</p>
+                </Link>
+              ))}
+            </div>
+            <h3 className="text-2xl font-bold text-white text-center mb-8">Explore More Services</h3>
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+              {[
+                { href: '/services/events', name: 'Events & Galas' },
+                { href: '/services/tours', name: 'Dubai Tours' },
+                { href: '/services/wedding', name: 'Wedding Service' },
+                { href: '/services/chauffeur', name: 'Chauffeur Service' },
+              ].map((s) => (
+                <Link key={s.href} href={s.href} className="group text-center bg-white/5 border border-white/10 rounded-lg p-4 hover:border-rolls-gold/50 transition-all">
+                  <p className="text-white font-semibold group-hover:text-rolls-gold transition-colors">{s.name}</p>
+                </Link>
+              ))}
+            </div>
           </div>
         </section>
 

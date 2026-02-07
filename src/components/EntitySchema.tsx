@@ -120,7 +120,8 @@ export default function EntitySchema({
           "name": "Convertibles & Coupes",
           "itemListElement": [
             createVehicleOffer("Rolls-Royce Dawn", "Dawn", "Convertible", "5500", "V12", 563),
-            createVehicleOffer("Rolls-Royce Wraith", "Wraith", "Coupe", "5000", "V12", 624)
+            createVehicleOffer("Rolls-Royce Wraith", "Wraith", "Coupe", "5000", "V12", 624),
+            createVehicleOffer("Rolls-Royce Spectre", "Spectre", "Electric Coupe", "7500", "Electric", 577)
           ]
         }
       ]
@@ -269,8 +270,23 @@ function createDetailedVehicleSchema(model: string, lang: string, localePath: st
       hp: 624,
       doors: 2,
       seats: 4,
+      fuelType: "Petrol",
+      engineType: "6.75L Twin-Turbo V12",
       description: "The most powerful and dynamic Rolls-Royce. Wraith with 624hp and Starlight headliner, a true grand tourer for special occasions in Dubai.",
       image: "https://rollsroycers.com/images/Rolls-royce-Wraith.jpg"
+    },
+    spectre: {
+      name: "Rolls-Royce Spectre",
+      model: "Spectre",
+      config: "Electric Luxury Coupe",
+      price: "7500",
+      hp: 577,
+      doors: 2,
+      seats: 4,
+      fuelType: "Electric",
+      engineType: "Dual Electric Motors",
+      description: "The first fully electric Rolls-Royce. Spectre with 577hp instant torque, 520+ km range, and zero emissions — the future of ultra-luxury motoring in Dubai.",
+      image: "https://rollsroycers.com/images/2024_Rolls-Royce_Spectre.jpg"
     }
   }
 
@@ -289,11 +305,11 @@ function createDetailedVehicleSchema(model: string, lang: string, localePath: st
     "vehicleModelDate": "2026",
     "numberOfDoors": v.doors,
     "seatingCapacity": v.seats,
-    "fuelType": "Petrol",
+    "fuelType": v.fuelType || "Petrol",
     "driveWheelConfiguration": "AllWheelDriveConfiguration",
     "vehicleEngine": {
       "@type": "EngineSpecification",
-      "engineType": "6.75L Twin-Turbo V12",
+      "engineType": v.engineType || "6.75L Twin-Turbo V12",
       "enginePower": { "@type": "QuantitativeValue", "value": v.hp, "unitCode": "BHP" }
     },
     "description": v.description,

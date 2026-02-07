@@ -14,6 +14,7 @@ import SEO from '@/components/SEO'
 import GEOOptimizer from '@/components/GEOOptimizer'
 import EntitySchema from '@/components/EntitySchema'
 import { createWhatsAppLinkProps } from '@/utils/whatsapp'
+import Script from 'next/script'
 
 export default function WraithPage() {
   const { t } = useTranslation('common')
@@ -83,6 +84,89 @@ export default function WraithPage() {
     ]
   };
 
+  // Product Structured Data
+  const structuredData = {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    "name": "Rolls-Royce Wraith Rental Dubai",
+    "image": [
+      "https://www.rollsroycers.com/images/wraith-coupe.jpg",
+      "https://www.rollsroycers.com/images/Rolls-Royce-black.jpg"
+    ],
+    "description": "Rent Rolls-Royce Wraith in Dubai from AED 5,000/day. The most powerful Rolls-Royce with 624hp V12, Starlight headliner, grand tourer coupe.",
+    "brand": { "@type": "Brand", "name": "Rolls-Royce" },
+    "offers": {
+      "@type": "AggregateOffer",
+      "url": "https://www.rollsroycers.com/fleet/wraith",
+      "priceCurrency": "AED",
+      "lowPrice": "5000",
+      "highPrice": "100000",
+      "offerCount": "3",
+      "availability": "https://schema.org/InStock",
+      "seller": {
+        "@type": "Organization",
+        "name": "Rolls Roycers Dubai",
+        "telephone": "+971558164922"
+      }
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.9",
+      "reviewCount": "1247",
+      "bestRating": "5",
+      "worstRating": "1"
+    }
+  }
+
+  const vehicleStructuredData = {
+    "@context": "https://schema.org",
+    "@type": "Car",
+    "name": "Rolls-Royce Wraith",
+    "manufacturer": { "@type": "Organization", "name": "Rolls-Royce Motor Cars" },
+    "model": "Wraith",
+    "vehicleConfiguration": "Grand Tourer Coupe",
+    "vehicleEngine": {
+      "@type": "EngineSpecification",
+      "name": "6.6L V12 Twin-Turbo",
+      "enginePower": { "@type": "QuantitativeValue", "value": "624", "unitCode": "HP" }
+    },
+    "vehicleSeatingCapacity": 4,
+    "fuelType": "Petrol",
+    "vehicleTransmission": "8-Speed Automatic",
+    "speed": { "@type": "QuantitativeValue", "value": "250", "unitCode": "KMH" }
+  }
+
+  const faqStructuredData = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "How much does it cost to rent a Rolls-Royce Wraith in Dubai?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Wraith rental starts from AED 5,000 per day. Weekly rates at AED 30,000 and monthly at AED 100,000. All prices include insurance, VAT, and professional chauffeur service."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Is the Wraith the fastest Rolls-Royce?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes, with 624 HP from its 6.6L Twin-Turbo V12, the Wraith is the most powerful and dynamic Rolls-Royce. It reaches 0-100 km/h in 4.6 seconds, making it a true grand tourer."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Is the Wraith good for photoshoots in Dubai?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The Wraith's dramatic fastback coupe silhouette, Starlight headliner with 1,340 fiber optic lights, and coach doors make it one of the most photogenic luxury cars in Dubai. Hourly photoshoot packages available."
+        }
+      }
+    ]
+  }
+
   return (
     <>
       <SEO pageKey="fleet.wraith" />
@@ -107,6 +191,12 @@ export default function WraithPage() {
         ]}
       />
       <EntitySchema pageType="fleet" carModel="wraith" />
+
+      {/* Structured Data Scripts */}
+      <Script id="wraith-structured-data" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }} />
+      <Script id="wraith-vehicle-data" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(vehicleStructuredData) }} />
+      <Script id="wraith-faq-data" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqStructuredData) }} />
+
       <Layout>
         {/* Hero Section */}
         <section className="relative h-screen flex items-center justify-center overflow-hidden">
@@ -476,6 +566,41 @@ export default function WraithPage() {
               Compare Our Fleet
             </h2>
             <ComparisonTool />
+          </div>
+        </section>
+
+        {/* Related Services & Fleet */}
+        <section className="py-20 bg-rolls-black">
+          <div className="container mx-auto px-4">
+            <h2 className="text-3xl font-bold text-white text-center mb-4">Related Services</h2>
+            <p className="text-rolls-gold/70 text-center mb-12">Experience the Wraith with our premium services</p>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-16">
+              {[
+                { href: '/services/events', title: 'Events & Red Carpet', desc: 'The Wraith\'s dramatic fastback silhouette makes it the ultimate statement car for galas and premieres.' },
+                { href: '/services/photoshoot', title: 'Photoshoot Service', desc: 'The Wraith\'s Starlight Headliner and bold coupe lines are perfect for dramatic editorial and fashion shoots.' },
+                { href: '/services/chauffeur', title: 'Chauffeur Service', desc: 'Professional chauffeur with the fastest Rolls-Royce. Hourly and daily packages available.' },
+              ].map((service) => (
+                <Link key={service.href} href={service.href} className="group bg-white/5 border border-white/10 rounded-xl p-6 hover:border-rolls-gold/50 transition-all duration-300">
+                  <h3 className="text-lg font-semibold text-white group-hover:text-rolls-gold transition-colors mb-2">{service.title}</h3>
+                  <p className="text-gray-400 text-sm">{service.desc}</p>
+                </Link>
+              ))}
+            </div>
+            <h3 className="text-2xl font-bold text-white text-center mb-8">Explore More Models</h3>
+            <div className="grid grid-cols-2 md:grid-cols-5 gap-4">
+              {[
+                { href: '/fleet/phantom', name: 'Phantom', price: 'AED 5,800/day' },
+                { href: '/fleet/ghost', name: 'Ghost', price: 'AED 3,800/day' },
+                { href: '/fleet/cullinan', name: 'Cullinan', price: 'AED 6,500/day' },
+                { href: '/fleet/dawn', name: 'Dawn', price: 'AED 5,500/day' },
+                { href: '/fleet/spectre', name: 'Spectre', price: 'AED 7,500/day' },
+              ].map((model) => (
+                <Link key={model.href} href={model.href} className="group text-center bg-white/5 border border-white/10 rounded-lg p-4 hover:border-rolls-gold/50 transition-all">
+                  <p className="text-white font-semibold group-hover:text-rolls-gold transition-colors">{model.name}</p>
+                  <p className="text-rolls-gold/70 text-sm mt-1">{model.price}</p>
+                </Link>
+              ))}
+            </div>
           </div>
         </section>
 

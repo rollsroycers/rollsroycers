@@ -10,6 +10,7 @@ import WhatsAppButton from '@/components/WhatsAppButton'
 import SEO from '@/components/SEO'
 import GEOOptimizer from '@/components/GEOOptimizer'
 import EntitySchema from '@/components/EntitySchema'
+import Script from 'next/script'
 
 export default function CorporateServicesPage() {
   const { t } = useTranslation('services')
@@ -96,6 +97,37 @@ export default function CorporateServicesPage() {
     }
   ]
 
+  const faqStructuredData = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Do you offer corporate monthly Rolls-Royce packages in Dubai?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes, we offer corporate monthly packages with dedicated vehicles and chauffeurs starting from AED 25,000/month. Includes priority booking, corporate billing, and customized reporting."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Which Rolls-Royce is best for corporate use in Dubai?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The Ghost Series II is our most popular corporate vehicle — it combines understated elegance with supreme comfort and Planar suspension. The Phantom is ideal for VIP client entertainment and board-level transport."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Can I book a Rolls-Royce for a corporate event or conference in Dubai?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes, we provide full fleet coordination for corporate events, conferences, and roadshows. Multiple vehicles with multilingual chauffeurs, branded welcome signage, and coordinated logistics at DIFC, Business Bay, and all Dubai venues."
+        }
+      }
+    ]
+  }
+
   return (
     <>
       <SEO pageKey="services.corporate" />
@@ -113,6 +145,7 @@ export default function CorporateServicesPage() {
         ]}
       />
       <EntitySchema pageType="service" serviceType="corporate" />
+      <Script id="corporate-faq-data" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqStructuredData) }} />
       <Layout>
         {/* Hero Section */}
         <section className="relative h-screen flex items-center justify-center overflow-hidden">
@@ -415,6 +448,40 @@ export default function CorporateServicesPage() {
                   {t('servicesPages.corporate.quickInquiry.submitInquiry')}
                 </button>
               </form>
+            </div>
+          </div>
+        </section>
+
+        {/* Recommended Models & Related Services */}
+        <section className="py-20 bg-rolls-black">
+          <div className="container mx-auto px-4">
+            <h2 className="text-3xl font-bold text-white text-center mb-4">Recommended Corporate Vehicles</h2>
+            <p className="text-rolls-gold/70 text-center mb-12">Our top picks for executive and business use</p>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-16">
+              {[
+                { href: '/fleet/ghost', name: 'Ghost', desc: 'Our #1 corporate choice. Understated elegance with Planar suspension — perfect for daily executive transport in DIFC.', price: 'From AED 3,800/day' },
+                { href: '/fleet/phantom', name: 'Phantom', desc: 'The flagship for VIP client entertainment and board-level transport. Extended Wheelbase for maximum rear comfort.', price: 'From AED 5,800/day' },
+                { href: '/fleet/spectre', name: 'Spectre', desc: 'Zero-emission luxury. Silent electric performance for environmentally conscious corporate clients.', price: 'From AED 7,500/day' },
+              ].map((model) => (
+                <Link key={model.href} href={model.href} className="group bg-white/5 border border-white/10 rounded-xl p-6 hover:border-rolls-gold/50 transition-all duration-300">
+                  <h3 className="text-lg font-semibold text-white group-hover:text-rolls-gold transition-colors mb-2">{model.name}</h3>
+                  <p className="text-gray-400 text-sm mb-3">{model.desc}</p>
+                  <p className="text-rolls-gold font-semibold text-sm">{model.price}</p>
+                </Link>
+              ))}
+            </div>
+            <h3 className="text-2xl font-bold text-white text-center mb-8">Explore More Services</h3>
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+              {[
+                { href: '/services/chauffeur', name: 'Chauffeur Service' },
+                { href: '/services/airport-transfer', name: 'Airport Transfer' },
+                { href: '/services/events', name: 'Events & Galas' },
+                { href: '/services/wedding', name: 'Wedding Service' },
+              ].map((s) => (
+                <Link key={s.href} href={s.href} className="group text-center bg-white/5 border border-white/10 rounded-lg p-4 hover:border-rolls-gold/50 transition-all">
+                  <p className="text-white font-semibold group-hover:text-rolls-gold transition-colors">{s.name}</p>
+                </Link>
+              ))}
             </div>
           </div>
         </section>

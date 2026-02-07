@@ -2730,6 +2730,196 @@ const blogArticles: Record<string, BlogArticle> = {
       'dubai-motor-show-2024',
       'dubai-luxury-car-guide-2025'
     ]
+  },
+  'rolls-royce-spectre-electric-dubai': {
+    title: 'Rolls-Royce Spectre: The World\'s First Ultra-Luxury Electric Car Now in Dubai',
+    description: 'Rent the all-electric Rolls-Royce Spectre in Dubai from AED 7,500/day. 577 HP, 530km range, zero emissions luxury.',
+    author: 'Ahmed Salem',
+    date: '2026-02-01',
+    readTime: '8 min read',
+    category: 'Guides',
+    image: '/images/2024_Rolls-Royce_Spectre.jpg',
+    content: [
+      { type: 'paragraph', text: 'The Rolls-Royce Spectre has arrived in Dubai, marking a new chapter in ultra-luxury motoring. As the first fully electric Rolls-Royce, the Spectre combines 577 HP of instant torque with the legendary silence and refinement that defines the marque — now amplified by electric power.' },
+      { type: 'heading', text: 'Why the Spectre Changes Everything' },
+      { type: 'paragraph', text: 'Charles Rolls himself prophesied in 1900 that the electric car was perfectly noiseless and clean. Over 120 years later, the Spectre fulfils that vision with the most technologically advanced Rolls-Royce ever created.' },
+      { type: 'image', src: '/images/2024_Rolls-Royce_Spectre.jpg', alt: 'Rolls-Royce Spectre in Dubai', caption: 'The Spectre: 577 HP of silent electric luxury' },
+      { type: 'heading', text: 'Key Specifications' },
+      { type: 'list', items: ['<strong>Power:</strong> 577 HP / 900 Nm instant torque', '<strong>Range:</strong> 530 km on a single charge', '<strong>0-100 km/h:</strong> 4.5 seconds', '<strong>Architecture:</strong> 700V electrical system on Architecture of Luxury platform', '<strong>Weight:</strong> 2,975 kg — the heaviest Rolls-Royce ever, contributing to that magic carpet ride', '<strong>Doors:</strong> Coach doors with powered opening and closing'] },
+      { type: 'heading', text: 'The Dubai Electric Advantage' },
+      { type: 'paragraph', text: 'Dubai is the perfect city for the Spectre. With extensive EV charging infrastructure, smooth highway driving, and year-round warm weather that optimizes battery performance, the Spectre thrives here. The city\'s commitment to sustainability through the Dubai Clean Energy Strategy 2050 makes the Spectre culturally relevant too.' },
+      { type: 'heading', text: 'Rental Rates' },
+      { type: 'list', items: ['<strong>Daily:</strong> AED 7,500 (includes 250km)', '<strong>Weekly:</strong> AED 42,000 (1,750km included)', '<strong>Monthly:</strong> AED 150,000 (5,000km included)', '<strong>Hourly:</strong> AED 1,500 (minimum 2 hours with chauffeur)'] },
+      { type: 'heading', text: 'Who Should Rent the Spectre?' },
+      { type: 'paragraph', text: 'The Spectre is ideal for tech executives, sustainability-conscious luxury travellers, content creators seeking unique visuals, and anyone who wants to experience the future of Rolls-Royce. Its split headlight design and fastback silhouette guarantee attention at every venue.' },
+      { type: 'cta', text: 'Experience the future of luxury. The Spectre is available for immediate booking.', buttonText: 'Book the Spectre', buttonLink: '/fleet/spectre' }
+    ],
+    relatedArticles: ['ultimate-guide-rolls-royce-rental-dubai', 'rolls-royce-black-badge-dubai', 'business-travel-rolls-royce']
+  },
+  'rolls-royce-black-badge-dubai': {
+    title: 'Rolls-Royce Black Badge Dubai: The Dark Side of Luxury',
+    description: 'Rent Black Badge editions in Dubai. Cullinan BB from AED 8,500/day, Ghost BB from AED 5,500/day. Darker, more powerful, more exclusive.',
+    author: 'Ahmed Salem',
+    date: '2026-02-02',
+    readTime: '9 min read',
+    category: 'Guides',
+    image: '/images/2024_Rolls-Royce_Cullinan_Black_Badge.jpg',
+    content: [
+      { type: 'paragraph', text: 'Black Badge represents the rebellious alter ego of Rolls-Royce — created for those who reject conformity and demand more from their luxury experience. In Dubai, where standing out is a lifestyle, Black Badge models are the ultimate expression of bold luxury.' },
+      { type: 'heading', text: 'What Makes Black Badge Different?' },
+      { type: 'list', items: ['<strong>More Power:</strong> +29 HP over standard models with retuned engines', '<strong>Darker Aesthetics:</strong> All chrome replaced with dark chrome finish', '<strong>Darkened Spirit of Ecstasy:</strong> High-gloss black chrome mascot', '<strong>Bespoke Wheels:</strong> Dark-finish forged alloy or carbon fibre composite wheels', '<strong>Enhanced Exhaust:</strong> More assertive, deeper exhaust note', '<strong>Unique Interior:</strong> Technical carbon fibre veneer with Forge Yellow accents'] },
+      { type: 'image', src: '/images/2024_Rolls-Royce_Cullinan_Black_Badge.jpg', alt: 'Rolls-Royce Cullinan Black Badge Dubai', caption: 'Cullinan Black Badge: The darkest, most powerful SUV on Earth' },
+      { type: 'heading', text: 'Cullinan Black Badge: AED 8,500/day' },
+      { type: 'paragraph', text: 'The Cullinan Black Badge takes the world\'s most luxurious SUV and amplifies every dimension. With 600 HP (up from 571), 22-inch dark forged wheels, and a completely transformed interior with carbon fibre and Forge Yellow details, it commands the road like nothing else.' },
+      { type: 'heading', text: 'Ghost Black Badge: AED 5,500/day' },
+      { type: 'paragraph', text: 'The Ghost Black Badge features the iconic illuminated fascia with 850 stars behind the dashboard, carbon fibre composite wheels (saving 4kg per wheel), and Black Badge-tuned Planar suspension. It\'s the most driver-focused Ghost ever — perfect for executives who demand a darker edge.' },
+      { type: 'heading', text: 'Black Badge vs Standard: Side by Side' },
+      { type: 'list', items: ['<strong>Cullinan BB:</strong> 600 HP vs 571 HP standard | AED 8,500 vs AED 6,500/day', '<strong>Ghost BB:</strong> 592 HP vs 563 HP standard | AED 5,500 vs AED 3,800/day', '<strong>Visual:</strong> Dark chrome vs silver chrome on all exterior elements', '<strong>Interior:</strong> Carbon fibre + Forge Yellow vs wood veneer'] },
+      { type: 'heading', text: 'When to Choose Black Badge' },
+      { type: 'paragraph', text: 'Choose Black Badge for nightlife events, fashion shows, music video productions, corporate power statements, and any occasion where you want to project boldness over tradition. The dark aesthetic photographs exceptionally well for social media and editorial content.' },
+      { type: 'cta', text: 'Embrace the dark side of luxury. Book your Black Badge experience now.', buttonText: 'Explore Black Badge Fleet', buttonLink: '/fleet/cullinan-black-badge' }
+    ],
+    relatedArticles: ['rolls-royce-spectre-electric-dubai', 'ultimate-guide-rolls-royce-rental-dubai', 'luxury-car-photography-spots-dubai']
+  },
+  'rolls-royce-birthday-car-dubai': {
+    title: 'Rolls-Royce Birthday Car Rental Dubai: Make It Unforgettable',
+    description: 'Surprise birthday celebrations with a decorated Rolls-Royce in Dubai. Packages from AED 3,500 with champagne and chauffeur.',
+    author: 'Fatima Al Rashid',
+    date: '2026-02-03',
+    readTime: '7 min read',
+    category: 'Tips',
+    image: '/images/Rolls-Royce-white.jpg',
+    content: [
+      { type: 'paragraph', text: 'Nothing says "Happy Birthday" quite like a surprise Rolls-Royce arrival at their door. In Dubai, where celebrations are taken to the next level, a birthday Rolls-Royce rental transforms an ordinary day into an extraordinary memory.' },
+      { type: 'heading', text: 'Birthday Packages' },
+      { type: 'list', items: ['<strong>Silver (AED 3,500):</strong> 4 hours with Ghost, chauffeur, birthday banner, champagne, photo stops', '<strong>Gold (AED 6,500):</strong> 8 hours with Phantom/Ghost, custom decoration, flowers, balloon setup, Dubai tour', '<strong>Platinum (AED 12,000):</strong> Full day, any model, professional photographer (2hrs), custom itinerary, VIP restaurant reservations'] },
+      { type: 'heading', text: 'How the Surprise Works' },
+      { type: 'list', ordered: true, items: ['You book and share the birthday person\'s details', 'Our team decorates the car with custom birthday theme', 'Chauffeur arrives at the surprise location on time', 'Birthday person discovers the decorated Rolls-Royce', 'Enjoy a luxury Dubai tour with champagne and photo stops'] },
+      { type: 'image', src: '/images/Rolls-royce-phantom.jpg', alt: 'Birthday Rolls-Royce Phantom Dubai', caption: 'The Phantom: the most popular birthday surprise car' },
+      { type: 'heading', text: 'Best Models for Birthdays' },
+      { type: 'paragraph', text: 'The Phantom with its Starlight Headliner creates a magical atmosphere after dark. The Dawn convertible is perfect for daytime celebrations. The Cullinan fits groups of up to 7 for a night out with friends.' },
+      { type: 'heading', text: 'Popular Birthday Itineraries' },
+      { type: 'list', items: ['<strong>Sunset Cruise:</strong> Palm Jumeirah in the Dawn at golden hour', '<strong>Night Out:</strong> DIFC restaurants → Dubai Marina → Ain Dubai', '<strong>Instagram Tour:</strong> Museum of the Future → Frame → Burj Al Arab photo stops', '<strong>Desert Dinner:</strong> Al Marmoom desert drive → Bab Al Shams dinner'] },
+      { type: 'cta', text: 'Plan the perfect birthday surprise. Book your decorated Rolls-Royce now.', buttonText: 'Book Birthday Package', buttonLink: '/services/birthday' }
+    ],
+    relatedArticles: ['ultimate-guide-rolls-royce-rental-dubai', 'luxury-shopping-dubai-rolls-royce', 'top-scenic-drives-dubai']
+  },
+  'hourly-rolls-royce-rental-dubai': {
+    title: 'Hourly Rolls-Royce Rental in Dubai: Luxury on Your Schedule',
+    description: 'Rent a Rolls-Royce by the hour in Dubai from AED 800/hr. All 6 models with chauffeur. Minimum 2-hour booking.',
+    author: 'James Thompson',
+    date: '2026-02-04',
+    readTime: '6 min read',
+    category: 'Guides',
+    image: '/images/Rolls-royce-with-chauffeur.jpg',
+    content: [
+      { type: 'paragraph', text: 'Not everyone needs a Rolls-Royce for a full day. Sometimes, 2-3 hours of luxury is all you need — a business meeting, a restaurant arrival, a date night, or a quick content shoot. Our hourly rental service makes Rolls-Royce luxury accessible on your schedule.' },
+      { type: 'heading', text: 'Hourly Rates by Model' },
+      { type: 'list', items: ['<strong>Ghost:</strong> AED 800/hour — best value for business meetings', '<strong>Wraith:</strong> AED 1,000/hour — bold statement for events', '<strong>Dawn:</strong> AED 1,100/hour — open-air for photoshoots', '<strong>Phantom:</strong> AED 1,200/hour — ultimate luxury for VIP occasions', '<strong>Cullinan:</strong> AED 1,300/hour — groups and families', '<strong>Spectre:</strong> AED 1,500/hour — electric luxury for the future-forward'] },
+      { type: 'heading', text: 'How It Works' },
+      { type: 'list', ordered: true, items: ['Choose your model and number of hours (minimum 2)', 'Select pickup location anywhere in Dubai', 'Professional chauffeur arrives within 30 minutes', 'Your chauffeur waits at each stop — you enjoy', 'After 6 hours, daily rate applies automatically'] },
+      { type: 'image', src: '/images/Rolls-royce-Ghost.jpg', alt: 'Rolls-Royce Ghost hourly rental Dubai', caption: 'The Ghost: our most popular hourly rental choice' },
+      { type: 'heading', text: 'Popular Hourly Use Cases' },
+      { type: 'list', items: ['<strong>Business:</strong> 2-3 hour DIFC meeting arrivals', '<strong>Dining:</strong> Grand arrival at Zuma, Nobu, or La Petite Maison', '<strong>Content:</strong> 2-hour Instagram/TikTok shooting session', '<strong>Date Night:</strong> 3-hour sunset cruise + dinner arrival', '<strong>Shopping:</strong> 3-hour Dubai Mall or Fashion Avenue experience'] },
+      { type: 'heading', text: 'Hourly vs Daily: Which to Choose?' },
+      { type: 'paragraph', text: 'If you need the car for under 5 hours, hourly is more cost-effective. For example, a 3-hour Ghost rental costs AED 2,400 hourly vs AED 3,800 daily. At 5+ hours, the daily rate becomes better value.' },
+      { type: 'cta', text: 'Luxury on your schedule. Book your hourly Rolls-Royce now.', buttonText: 'Book Hourly Rental', buttonLink: '/services/hourly-rental' }
+    ],
+    relatedArticles: ['ultimate-guide-rolls-royce-rental-dubai', 'business-travel-rolls-royce', 'rolls-royce-birthday-car-dubai']
+  },
+  'rolls-royce-cullinan-vs-bentley-bentayga': {
+    title: 'Rolls-Royce Cullinan vs Bentley Bentayga: Dubai Luxury SUV Comparison',
+    description: 'Comparing the two most luxurious SUVs available for rent in Dubai. Cullinan from AED 6,500/day vs Bentayga.',
+    author: 'Sarah Mitchell',
+    date: '2026-01-25',
+    readTime: '10 min read',
+    category: 'Guides',
+    image: '/images/2024_Rolls-Royce_Cullinan.jpg',
+    content: [
+      { type: 'paragraph', text: 'When it comes to ultra-luxury SUVs in Dubai, two names dominate: the Rolls-Royce Cullinan and the Bentley Bentayga. Both offer extraordinary luxury, but they cater to different tastes. Here\'s a comprehensive comparison to help you choose the right one for your Dubai experience.' },
+      { type: 'heading', text: 'Design Philosophy' },
+      { type: 'paragraph', text: 'The Cullinan commands attention with its imposing presence, signature Pantheon grille, and coach doors that open backwards for dramatic entrances. The Bentayga is more sporting, with matrix LED headlights and a more aggressive stance. In Dubai, where making an entrance matters, the Cullinan\'s 5.3-metre length and upright posture give it an undeniable advantage.' },
+      { type: 'image', src: '/images/2024_Rolls-Royce_Cullinan.jpg', alt: 'Rolls-Royce Cullinan Dubai', caption: 'The Cullinan: unmatched presence on Dubai roads' },
+      { type: 'heading', text: 'Specifications Comparison' },
+      { type: 'list', items: ['<strong>Engine:</strong> Cullinan 6.75L V12 (571 HP) vs Bentayga 4.0L V8 (550 HP)', '<strong>Torque:</strong> Cullinan 850 Nm vs Bentayga 770 Nm', '<strong>0-100 km/h:</strong> Cullinan 5.2s vs Bentayga 4.5s', '<strong>Seats:</strong> Cullinan 5-7 vs Bentayga 4-7', '<strong>Doors:</strong> Cullinan has coach (suicide) doors — unique to Rolls-Royce', '<strong>Boot:</strong> Cullinan 560L vs Bentayga 484L'] },
+      { type: 'heading', text: 'Interior & Comfort' },
+      { type: 'paragraph', text: 'The Cullinan offers the "Viewing Suite" — two rear-facing leather chairs and a cocktail table that fold out from the boot. Nothing else in the SUV world comes close. The interior uses Phantom-grade materials, lamb\'s wool carpets, and the Starlight Headliner is available. The Bentayga counters with its rotating display and diamond-knurled controls, but the Cullinan\'s rear lounge seating is in a class of its own.' },
+      { type: 'heading', text: 'Dubai Rental Pricing' },
+      { type: 'list', items: ['<strong>Cullinan:</strong> AED 6,500/day | AED 38,000/week | AED 130,000/month', '<strong>Cullinan Black Badge:</strong> AED 8,500/day', '<strong>Bentayga:</strong> AED 4,000-5,000/day (at other rental companies)'] },
+      { type: 'heading', text: 'The Verdict' },
+      { type: 'paragraph', text: 'If you want the most luxurious, most prestigious SUV experience in Dubai — the one that turns heads at every hotel entrance and commands valet attention — the Cullinan is the clear winner. The Bentayga is sportier and slightly faster, but the Cullinan is Rolls-Royce. And in Dubai, that distinction matters.' },
+      { type: 'cta', text: 'Experience the king of luxury SUVs. Book the Cullinan today.', buttonText: 'Book Cullinan', buttonLink: '/fleet/cullinan' }
+    ],
+    relatedArticles: ['ultimate-guide-rolls-royce-rental-dubai', 'rolls-royce-black-badge-dubai', 'top-scenic-drives-dubai']
+  },
+  'rolls-royce-photoshoot-dubai-guide': {
+    title: 'Rolls-Royce Photoshoot Guide Dubai: Best Locations, Models & Tips',
+    description: 'Complete guide to Rolls-Royce photoshoots in Dubai. Best locations, recommended models, and pro tips from AED 1,200/hour.',
+    author: 'Layla Al-Mansouri',
+    date: '2026-01-28',
+    readTime: '8 min read',
+    category: 'Tips',
+    image: '/images/Rolls-Royce_Dawn.jpg',
+    content: [
+      { type: 'paragraph', text: 'Dubai is the world\'s playground for luxury content creation, and nothing elevates a photoshoot like a Rolls-Royce. Whether you\'re shooting fashion editorials, music videos, Instagram content, or commercial campaigns, here\'s your complete guide to Rolls-Royce photoshoots in Dubai.' },
+      { type: 'heading', text: 'Best Models for Different Shoots' },
+      { type: 'list', items: ['<strong>Dawn:</strong> #1 for outdoor fashion. The convertible offers clean lines and open-air beauty. Best at golden hour.', '<strong>Wraith:</strong> Best for dramatic editorial. Fastback coupe silhouette with Starlight Headliner for night shoots.', '<strong>Spectre:</strong> Futuristic design for commercial and tech-brand content. Split headlights create unique visuals.', '<strong>Phantom:</strong> Classic luxury editorial. The grille and Spirit of Ecstasy are iconic compositional elements.', '<strong>Cullinan Black Badge:</strong> Dark, menacing aesthetic for music videos and urban content.'] },
+      { type: 'image', src: '/images/Rolls-Royce_Dawn.jpg', alt: 'Rolls-Royce Dawn photoshoot Dubai', caption: 'The Dawn: Dubai\'s most photographed Rolls-Royce' },
+      { type: 'heading', text: 'Top 10 Photoshoot Locations' },
+      { type: 'list', ordered: true, items: ['Museum of the Future — futuristic architecture backdrop', 'Al Qudra Desert — sand dunes contrast with luxury', 'DIFC Gate Village — urban sophistication', 'Palm Jumeirah boardwalk — ocean and skyline', 'Burj Al Arab — iconic sail silhouette', 'Dubai Frame — gold architecture', 'Alserkal Avenue — artistic industrial setting', 'Jumeirah Beach — sunrise/sunset with Burj Al Arab', 'Business Bay bridges — nighttime reflections', 'Hatta Mountains — dramatic elevation and winding roads'] },
+      { type: 'heading', text: 'Pricing' },
+      { type: 'list', items: ['<strong>Hourly:</strong> From AED 1,200/hour (minimum 2 hours)', '<strong>Half-day:</strong> AED 3,500 (4 hours)', '<strong>Full-day:</strong> From AED 5,000-7,500 depending on model'] },
+      { type: 'heading', text: 'Pro Tips' },
+      { type: 'list', items: ['Shoot during golden hour (6-7am or 5-6pm) for best lighting', 'The Dawn roof takes 22 seconds to open — capture the sequence', 'Use the Spirit of Ecstasy as a foreground element with bokeh background', 'Night shoots with Starlight Headliner visible through the roof glass are trending', 'Always clean the car before shooting — we provide detailing'] },
+      { type: 'cta', text: 'Create stunning content with a Rolls-Royce. Book your photoshoot package now.', buttonText: 'Book Photoshoot', buttonLink: '/services/photoshoot' }
+    ],
+    relatedArticles: ['luxury-car-photography-spots-dubai', 'rolls-royce-black-badge-dubai', 'top-scenic-drives-dubai']
+  },
+  'dubai-new-year-luxury-car-rental': {
+    title: 'Dubai New Year\'s Eve 2026: Rolls-Royce Rental for the Ultimate Celebration',
+    description: 'Ring in 2026 in a Rolls-Royce. NYE packages with fireworks viewing, chauffeur, and champagne from AED 8,000.',
+    author: 'Ahmed Salem',
+    date: '2026-01-20',
+    readTime: '7 min read',
+    category: 'Events',
+    image: '/images/downtown-hero.jpg',
+    content: [
+      { type: 'paragraph', text: 'Dubai\'s New Year\'s Eve celebration is one of the world\'s most spectacular events, with the Burj Khalifa fireworks attracting millions of viewers. Experiencing it from the comfort of a Rolls-Royce takes the celebration to another level entirely.' },
+      { type: 'heading', text: 'NYE Rolls-Royce Packages' },
+      { type: 'list', items: ['<strong>Fireworks Viewing (AED 8,000):</strong> 6-hour chauffeur service, premium viewing position, champagne, Phantom or Ghost', '<strong>Full NYE Experience (AED 15,000):</strong> Full evening service from 7pm-2am, dinner transfer, fireworks viewing, after-party transport, any model', '<strong>Multi-Car Party (AED 35,000):</strong> 3 vehicles for group celebration, full coordination, photographer for 2 hours'] },
+      { type: 'heading', text: 'Best Fireworks Viewing Spots by Car' },
+      { type: 'list', items: ['<strong>Business Bay Canal:</strong> Front-row Burj Khalifa views from the car — our #1 recommended spot', '<strong>Palm Jumeirah:</strong> Atlantis fireworks from the Dawn convertible with the roof down', '<strong>Dubai Marina:</strong> JBR fireworks over the water, perfect in the Cullinan', '<strong>Dubai Frame area:</strong> Dual views of old and new Dubai celebrations'] },
+      { type: 'image', src: '/images/downtown-hero.jpg', alt: 'Dubai New Year Rolls-Royce', caption: 'Burj Khalifa fireworks viewed from a Rolls-Royce — the ultimate NYE' },
+      { type: 'heading', text: 'Booking Tips for NYE' },
+      { type: 'list', ordered: true, items: ['Book at least 4-6 weeks in advance — NYE is our busiest period', 'Choose the Dawn for open-air fireworks viewing (weather permitting)', 'Phantom EWB for the most comfortable viewing with rear lounge', 'Request specific positioning — our chauffeurs know the best spots', 'Consider midnight champagne toast service add-on'] },
+      { type: 'cta', text: 'Secure your Rolls-Royce for Dubai\'s biggest night. Limited availability.', buttonText: 'Book NYE Package', buttonLink: '/booking' }
+    ],
+    relatedArticles: ['ultimate-guide-rolls-royce-rental-dubai', 'top-scenic-drives-dubai', 'rolls-royce-birthday-car-dubai']
+  },
+  'rolls-royce-phantom-vs-ghost-comparison': {
+    title: 'Rolls-Royce Phantom vs Ghost: Which Should You Rent in Dubai?',
+    description: 'Detailed comparison of Phantom (AED 5,800/day) vs Ghost (AED 3,800/day) for Dubai rental. Specs, comfort, and use cases.',
+    author: 'James Thompson',
+    date: '2026-01-22',
+    readTime: '9 min read',
+    category: 'Guides',
+    image: '/images/rolls-royce-phantom.jpg',
+    content: [
+      { type: 'paragraph', text: 'The Phantom and Ghost are the two pillars of the Rolls-Royce sedan lineup, but they serve different purposes. Understanding the difference helps you choose the perfect car for your Dubai experience — and potentially save AED 2,000/day in the process.' },
+      { type: 'heading', text: 'The Fundamental Difference' },
+      { type: 'paragraph', text: 'The Phantom is designed to be driven in. It\'s the ultimate chauffeured car — the pinnacle of rear-seat luxury. The Ghost is designed to be driven. It\'s for those who want to command the road themselves while enjoying supreme comfort. This distinction shapes every aspect of the cars.' },
+      { type: 'image', src: '/images/rolls-royce-phantom.jpg', alt: 'Rolls-Royce Phantom Dubai', caption: 'The Phantom: the undisputed king of luxury sedans' },
+      { type: 'heading', text: 'Specifications Comparison' },
+      { type: 'list', items: ['<strong>Engine:</strong> Both 6.75L Twin-Turbo V12', '<strong>Phantom:</strong> 563 HP, 900 Nm | <strong>Ghost:</strong> 563 HP, 850 Nm', '<strong>Length:</strong> Phantom 5.76m (EWB: 5.98m) | Ghost 5.55m', '<strong>0-100:</strong> Phantom 5.4s | Ghost 4.8s', '<strong>Weight:</strong> Phantom 2,560 kg | Ghost 2,490 kg', '<strong>Unique to Phantom:</strong> Gallery dashboard (bespoke art behind glass), partition glass, rear theatre configuration', '<strong>Unique to Ghost:</strong> Planar suspension, illuminated fascia, more agile handling'] },
+      { type: 'heading', text: 'When to Choose the Phantom' },
+      { type: 'list', items: ['Weddings — the most prestigious wedding car in the world', 'VIP client entertainment — rear seat is a private lounge', 'Maximum visual impact — the Phantom commands every entrance', 'When you want to be driven by a chauffeur', 'Budget is not the primary concern (AED 5,800/day)'] },
+      { type: 'heading', text: 'When to Choose the Ghost' },
+      { type: 'list', items: ['Corporate daily use — understated elegance for DIFC and Business Bay', 'Self-drive experience — more connected, dynamic driving', 'Extended rentals — AED 2,000/day cheaper adds up on weekly/monthly', 'Modern aesthetic preference — the Ghost is more contemporary', 'Best value Rolls-Royce experience (AED 3,800/day)'] },
+      { type: 'heading', text: 'The Verdict' },
+      { type: 'paragraph', text: 'For weddings, VIP occasions, and maximum impact: choose the Phantom. For daily luxury, corporate use, and self-driving pleasure: choose the Ghost. Both are unmistakably Rolls-Royce, and neither will disappoint. The Ghost is our most rented model for a reason — it offers the core Rolls-Royce experience at a more accessible price point.' },
+      { type: 'cta', text: 'Still undecided? Our team can help match the perfect model to your needs.', buttonText: 'Chat With Us', buttonLink: '/contact' }
+    ],
+    relatedArticles: ['ultimate-guide-rolls-royce-rental-dubai', 'rolls-royce-cullinan-vs-bentley-bentayga', 'business-travel-rolls-royce']
   }
 }
 
@@ -4048,7 +4238,7 @@ export default function BlogArticlePage() {
 
 export const getStaticPaths: GetStaticPaths = async () => {
   const baseSlugs = Object.keys(blogArticles)
-  const newSlugs = ['rolls-royce-chauffeur-dubai-guide','rolls-royce-airport-transfer-dubai','dubai-luxury-car-guide-2025','first-time-dubai-luxury-guide','dubai-luxury-hotels-guide','dubai-motor-show-2024']
+  const newSlugs = ['rolls-royce-chauffeur-dubai-guide','rolls-royce-airport-transfer-dubai','dubai-luxury-car-guide-2025','first-time-dubai-luxury-guide','dubai-luxury-hotels-guide','dubai-motor-show-2024','rolls-royce-spectre-electric-dubai','rolls-royce-black-badge-dubai','rolls-royce-birthday-car-dubai','hourly-rolls-royce-rental-dubai','rolls-royce-cullinan-vs-bentley-bentayga','rolls-royce-photoshoot-dubai-guide','dubai-new-year-luxury-car-rental','rolls-royce-phantom-vs-ghost-comparison']
   const unique = Array.from(new Set([...baseSlugs, ...newSlugs]))
   
   // Generate paths for all locales

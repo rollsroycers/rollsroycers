@@ -11,6 +11,7 @@ import SEO from '@/components/SEO'
 import GEOOptimizer from '@/components/GEOOptimizer'
 import EntitySchema from '@/components/EntitySchema'
 import { createWhatsAppLinkProps } from '@/utils/whatsapp'
+import Script from 'next/script'
 
 export default function ChauffeurServicesPage() {
   const { t } = useTranslation(['services', 'common'])
@@ -44,6 +45,37 @@ export default function ChauffeurServicesPage() {
 
   const testimonials = getTranslatedArray('servicesPages.chauffeur.testimonials')
 
+  const faqStructuredData = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "How much is a Rolls-Royce chauffeur service in Dubai per hour?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Hourly Rolls-Royce chauffeur service starts from AED 800/hour with a minimum 2-hour booking. Daily rates from AED 3,800 offer better value for extended use."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Are your Rolls-Royce chauffeurs multilingual?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes, our professional chauffeurs speak English, Arabic, Russian, French, Chinese, and Hindi. We match the chauffeur language to your preference for a seamless experience."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Can I hire a Rolls-Royce with driver for a full day in Dubai?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes, daily chauffeur packages include up to 10 hours of service with a dedicated driver and vehicle. Extended hours available at an additional rate. Includes fuel, insurance, and 250km."
+        }
+      }
+    ]
+  }
+
   return (
     <>
       <SEO pageKey="services.chauffeur" />
@@ -61,6 +93,7 @@ export default function ChauffeurServicesPage() {
         ]}
       />
       <EntitySchema pageType="service" serviceType="chauffeur" />
+      <Script id="chauffeur-faq-data" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqStructuredData) }} />
       <Layout>
         {/* Hero Section */}
         <section className="relative h-screen flex items-center justify-center overflow-hidden">
@@ -376,6 +409,40 @@ export default function ChauffeurServicesPage() {
                 <div className="text-3xl font-bold text-rolls-gold">4.9/5</div>
                 <div className="text-sm text-gray-400">{t('servicesPages.chauffeur.cta.stats.rating')}</div>
               </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Recommended Models & Related Services */}
+        <section className="py-20 bg-rolls-black">
+          <div className="container mx-auto px-4">
+            <h2 className="text-3xl font-bold text-white text-center mb-4">Popular Chauffeur Vehicles</h2>
+            <p className="text-rolls-gold/70 text-center mb-12">Choose your preferred Rolls-Royce with professional driver</p>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-16">
+              {[
+                { href: '/fleet/ghost', name: 'Ghost', desc: 'Most popular chauffeur car. Smooth Planar suspension and refined cabin make every journey effortless.', price: 'From AED 3,800/day' },
+                { href: '/fleet/phantom', name: 'Phantom', desc: 'The pinnacle of chauffeured luxury. Extended Wheelbase rear suite with privacy glass and starlight ceiling.', price: 'From AED 5,800/day' },
+                { href: '/fleet/cullinan', name: 'Cullinan', desc: 'SUV chauffeur service for families and groups. 7 seats of luxury with ample luggage space.', price: 'From AED 6,500/day' },
+              ].map((model) => (
+                <Link key={model.href} href={model.href} className="group bg-white/5 border border-white/10 rounded-xl p-6 hover:border-rolls-gold/50 transition-all duration-300">
+                  <h3 className="text-lg font-semibold text-white group-hover:text-rolls-gold transition-colors mb-2">{model.name}</h3>
+                  <p className="text-gray-400 text-sm mb-3">{model.desc}</p>
+                  <p className="text-rolls-gold font-semibold text-sm">{model.price}</p>
+                </Link>
+              ))}
+            </div>
+            <h3 className="text-2xl font-bold text-white text-center mb-8">Explore More Services</h3>
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+              {[
+                { href: '/services/airport-transfer', name: 'Airport Transfer' },
+                { href: '/services/corporate', name: 'Corporate Service' },
+                { href: '/services/tours', name: 'Dubai Tours' },
+                { href: '/services/wedding', name: 'Wedding Service' },
+              ].map((s) => (
+                <Link key={s.href} href={s.href} className="group text-center bg-white/5 border border-white/10 rounded-lg p-4 hover:border-rolls-gold/50 transition-all">
+                  <p className="text-white font-semibold group-hover:text-rolls-gold transition-colors">{s.name}</p>
+                </Link>
+              ))}
             </div>
           </div>
         </section>

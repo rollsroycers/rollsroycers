@@ -3,13 +3,18 @@
     "home": {
       "title": "Rent Rolls-Royce Dubai 2026 | Best Place to Rent Rolls Royce in Dubai | Instant Booking",
       "description": "Rent Rolls-Royce in Dubai from AED 3,800/day. Phantom, Ghost, Cullinan available with driver. Best Rolls-Royce rental Dubai with 1200+ reviews. How much to rent? Book online now! 24/7 service +971558164922. Where to rent Rolls-Royce near me.",
-      "keywords": "rent rolls royce dubai, rolls royce rental dubai, rent rolls royce dubai price, how much to rent rolls royce dubai, where to rent rolls royce dubai, best place to rent rolls royce dubai, rolls royce with driver dubai, rent rolls royce phantom dubai, rolls royce cullinan rental dubai, cheapest rolls royce rental dubai, rolls royce wedding car dubai, rolls royce hourly rental dubai, can I rent rolls royce dubai, rent rolls royce near me dubai, rolls royce ghost rental dubai price",
+      "keywords": "rent rolls royce dubai, rolls royce rental dubai, rent rolls royce dubai price, how much to rent rolls royce dubai, where to rent rolls royce dubai, best place to rent rolls royce dubai, rolls royce with driver dubai, rent rolls royce phantom dubai, rolls royce cullinan rental dubai, cheapest rolls royce rental dubai, rolls royce wedding car dubai, rolls royce hourly rental dubai, can I rent rolls royce dubai, rent rolls royce near me dubai, rolls royce ghost rental dubai price, exotic car rental dubai, luxury car hire dubai, supercar rental dubai, rolls royce hire dubai, rolls royce spectre electric rental dubai, luxury car rental dubai with driver, vip car service dubai",
       "aiKeywords": [
         "rent rolls royce dubai",
         "rolls royce rental dubai",
         "luxury car rental dubai",
         "rolls royce with driver dubai",
-        "rolls royce chauffeur service dubai"
+        "rolls royce chauffeur service dubai",
+        "exotic car rental dubai",
+        "luxury car hire dubai",
+        "supercar rental dubai",
+        "rolls royce hire dubai",
+        "vip car rental dubai"
       ],
       "longTailKeywords": [
         "cheapest rolls royce rental dubai",
@@ -36,9 +41,9 @@
     },
     "fleet": {
       "index": {
-        "title": "Luxury Rolls-Royce Fleet Dubai | View All Models | Phantom, Ghost, Cullinan",
-        "description": "Explore our complete Rolls-Royce fleet in Dubai. Choose from Phantom, Ghost, Cullinan, Dawn, and Wraith. Professional chauffeur service, 24/7 availability. Best prices from AED 3,800/day. View all models, compare features, and book instantly.",
-        "keywords": "rolls royce fleet dubai, all rolls royce models dubai, rolls royce collection dubai, luxury car fleet dubai, phantom ghost cullinan dubai, rolls royce rental fleet, view all rolls royce dubai, compare rolls royce models, luxury fleet rental dubai, rolls royce showroom dubai",
+        "title": "Rent Rolls-Royce Fleet Dubai 2026 | Phantom Ghost Cullinan Spectre | From AED 3,800/Day",
+        "description": "Explore our complete Rolls-Royce fleet in Dubai 2026. Choose from Phantom, Ghost, Cullinan, Dawn, Wraith & NEW Spectre Electric. Professional chauffeur, 24/7 availability. Best prices from AED 3,800/day. Compare all 6 models and book instantly. +971558164922.",
+        "keywords": "rolls royce fleet dubai, all rolls royce models dubai, rolls royce collection dubai, luxury car fleet dubai, phantom ghost cullinan dawn wraith spectre dubai, rolls royce rental fleet, view all rolls royce dubai, compare rolls royce models, luxury fleet rental dubai, rolls royce showroom dubai, rolls royce spectre electric dubai, rolls royce models available rent, exotic car fleet dubai",
         "longTailKeywords": [
           "all rolls royce models available for rent dubai",
           "compare rolls royce rental prices dubai",
@@ -226,6 +231,61 @@
           "Rent a Rolls-Royce Wraith for a special occasion",
           "Book Wraith with Starlight headliner Dubai"
         ]
+      },
+      "spectre": {
+        "title": "Rent Rolls-Royce Spectre Dubai 2026 | First Electric RR | AED 7,500/Day | Zero Emissions Luxury",
+        "description": "Rent the first fully electric Rolls-Royce Spectre in Dubai from AED 7,500/day. 577hp, 520km range, 0-100 in 4.5s. Zero emissions ultra-luxury coupé with professional chauffeur. Book Dubai's most innovative luxury car. 24/7 service +971558164922.",
+        "keywords": "rent rolls royce spectre dubai, spectre rental dubai price, electric rolls royce dubai, rolls royce ev rental, spectre with driver dubai, electric luxury car rental dubai, spectre hourly rental, zero emissions luxury car dubai, rolls royce spectre hire dubai, best electric car rental dubai, spectre coupe rental, rolls royce electric dubai 2026, green luxury car dubai, sustainable luxury rental, spectre chauffeur service dubai",
+        "aiKeywords": [
+          "rent rolls royce spectre dubai",
+          "electric rolls royce rental dubai",
+          "rolls royce spectre price per day",
+          "where to rent electric rolls royce",
+          "spectre vs phantom which to rent",
+          "zero emissions luxury car dubai",
+          "rolls royce ev hire dubai",
+          "spectre availability dubai",
+          "electric luxury car with driver dubai",
+          "rolls royce spectre review rental"
+        ],
+        "longTailKeywords": [
+          "rent electric rolls royce spectre dubai 2026",
+          "rolls royce spectre coupe rental price per day",
+          "first electric rolls royce for rent in dubai",
+          "zero emissions luxury car hire dubai chauffeur",
+          "rolls royce spectre corporate event dubai",
+          "spectre photoshoot rental dubai marina",
+          "electric luxury car rental palm jumeirah",
+          "rolls royce spectre monthly rental dubai",
+          "sustainable luxury car rental dubai tourist",
+          "rolls royce spectre vs tesla model s dubai"
+        ],
+        "voiceSearchOptimized": [
+          "How much does it cost to rent a Rolls-Royce Spectre in Dubai?",
+          "Is there an electric Rolls-Royce for rent in Dubai?",
+          "What is the range of the Rolls-Royce Spectre?",
+          "Book an electric Rolls-Royce with driver in Dubai",
+          "Where can I rent the new Rolls-Royce Spectre?"
+        ],
+        "schema": {
+          "breadcrumb": "Home > Fleet > Rolls-Royce Spectre",
+          "priceRange": "AED 7,500 - 150,000",
+          "availability": "InStock",
+          "rating": "4.9",
+          "reviewCount": "187"
+        },
+        "og": {
+          "title": "Rent Rolls-Royce Spectre Dubai 2026 | First Electric RR | AED 7,500/Day",
+          "description": "Rent the first fully electric Rolls-Royce Spectre in Dubai from AED 7,500/day. 577hp, 520km range, zero emissions luxury with professional chauffeur. Book now!",
+          "image": "https://rollsroycers.com/images/2024_Rolls-Royce_Spectre.jpg",
+          "url": "https://rollsroycers.com/en/fleet/spectre"
+        },
+        "twitter": {
+          "card": "summary_large_image",
+          "title": "Rent Rolls-Royce Spectre Dubai 2026 | First Electric RR | AED 7,500/Day",
+          "description": "Rent the first fully electric Rolls-Royce Spectre in Dubai from AED 7,500/day. 577hp, 520km range, zero emissions luxury with professional chauffeur. Book now!",
+          "image": "https://rollsroycers.com/images/2024_Rolls-Royce_Spectre.jpg"
+        }
       }
     },
     "services": {

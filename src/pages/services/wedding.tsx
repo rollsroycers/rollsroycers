@@ -9,6 +9,7 @@ import WhatsAppButton from '@/components/WhatsAppButton'
 import SEO from '@/components/SEO'
 import GEOOptimizer from '@/components/GEOOptimizer'
 import EntitySchema from '@/components/EntitySchema'
+import Script from 'next/script'
 
 export default function WeddingServicePage() {
   const { t } = useTranslation('services')
@@ -50,6 +51,45 @@ export default function WeddingServicePage() {
     }
   ]
 
+  const faqStructuredData = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "How much is a Rolls-Royce wedding car in Dubai?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Rolls-Royce wedding car packages start from AED 2,500 including decoration, red carpet, and professional chauffeur. Premium packages with photographer from AED 4,500."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Can I get a white Rolls-Royce for my wedding in Dubai?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes, we have white Phantom and Ghost models specifically maintained for weddings with custom floral arrangements, Just Married signage, and red carpet service."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Which Rolls-Royce is best for weddings?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The Phantom Extended Wheelbase is the most popular wedding car due to its majestic presence and spacious cabin. The Ghost is ideal for a more intimate affair, while the Dawn convertible is perfect for outdoor celebrations."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Do you offer Indian wedding car packages in Dubai?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes, we offer specialized Indian wedding packages with multiple Rolls-Royce vehicles for baraat procession, traditional decoration, and multi-day event coverage."
+        }
+      }
+    ]
+  }
+
   return (
     <>
       <SEO pageKey="services.wedding" />
@@ -67,6 +107,7 @@ export default function WeddingServicePage() {
         ]}
       />
       <EntitySchema pageType="service" serviceType="wedding" />
+      <Script id="wedding-faq-data" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqStructuredData) }} />
       <Layout>
         {/* Hero Section */}
         <section className="relative h-screen flex items-center justify-center overflow-hidden">
@@ -272,6 +313,40 @@ export default function WeddingServicePage() {
               <a href="#contact" className="btn-secondary">
                 {t('servicesPages.wedding.cta.getQuote')}
               </a>
+            </div>
+          </div>
+        </section>
+
+        {/* Recommended Models & Related Services */}
+        <section className="py-20 bg-rolls-black">
+          <div className="container mx-auto px-4">
+            <h2 className="text-3xl font-bold text-white text-center mb-4">Recommended Wedding Cars</h2>
+            <p className="text-rolls-gold/70 text-center mb-12">Our most popular models for wedding celebrations</p>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-16">
+              {[
+                { href: '/fleet/phantom', name: 'Phantom', desc: 'The ultimate wedding car. Extended Wheelbase in Arctic White with Starlight Headliner — the most majestic entrance.', price: 'From AED 5,800/day' },
+                { href: '/fleet/ghost', name: 'Ghost', desc: 'Elegant and refined. Perfect for intimate ceremonies. The most affordable Rolls-Royce wedding option.', price: 'From AED 3,800/day' },
+                { href: '/fleet/dawn', name: 'Dawn', desc: 'Open-air luxury. The convertible is stunning for outdoor garden and beach weddings in Dubai.', price: 'From AED 5,500/day' },
+              ].map((model) => (
+                <Link key={model.href} href={model.href} className="group bg-white/5 border border-white/10 rounded-xl p-6 hover:border-rolls-gold/50 transition-all duration-300">
+                  <h3 className="text-lg font-semibold text-white group-hover:text-rolls-gold transition-colors mb-2">{model.name}</h3>
+                  <p className="text-gray-400 text-sm mb-3">{model.desc}</p>
+                  <p className="text-rolls-gold font-semibold text-sm">{model.price}</p>
+                </Link>
+              ))}
+            </div>
+            <h3 className="text-2xl font-bold text-white text-center mb-8">Explore More Services</h3>
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+              {[
+                { href: '/services/chauffeur', name: 'Chauffeur Service' },
+                { href: '/services/events', name: 'Events & Galas' },
+                { href: '/services/photoshoot', name: 'Photoshoot' },
+                { href: '/services/tours', name: 'Dubai Tours' },
+              ].map((s) => (
+                <Link key={s.href} href={s.href} className="group text-center bg-white/5 border border-white/10 rounded-lg p-4 hover:border-rolls-gold/50 transition-all">
+                  <p className="text-white font-semibold group-hover:text-rolls-gold transition-colors">{s.name}</p>
+                </Link>
+              ))}
             </div>
           </div>
         </section>

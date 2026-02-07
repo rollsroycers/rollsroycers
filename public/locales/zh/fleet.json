@@ -138,6 +138,31 @@
         "seating": "4名乘客",
         "trunk": "295升"
       }
+    },
+    "spectre": {
+      "name": "闪灵",
+      "tagline": "超豪华的未来",
+      "description": "劳斯莱斯闪灵是一个历史性里程碑——史上首款全电动劳斯莱斯。577马力瞬时扭矩、无声运行、520+公里续航，闪灵为可持续未来重新定义豪华驾驶。",
+      "features": [
+        "双电机 - 577马力",
+        "102千瓦时电池 - 520+公里续航",
+        "无声电动驾驶",
+        "星空车顶",
+        "溜背轿跑设计",
+        "发光飞天女神",
+        "23英寸合金轮毂",
+        "先进空气悬挂"
+      ],
+      "specifications": {
+        "engine": "双电机",
+        "power": "577马力 / 900牛·米",
+        "acceleration": "0-100公里/小时 4.5秒",
+        "top_speed": "250公里/小时",
+        "seating": "4名乘客",
+        "range": "520+公里 (WLTP)",
+        "battery": "102千瓦时",
+        "charging": "直流快充"
+      }
     }
   },
   "badges": {
@@ -146,6 +171,7 @@
     "best_value": "超值选择",
     "convertible": "敞篷车",
     "grand_tourer": "豪华GT",
+    "electric": "100%纯电动",
     "popular": "最受欢迎"
   },
   "why_choose": {
@@ -202,6 +228,100 @@
     "aed": "AED",
     "perDay": "/天",
     "rentNow": "立即租赁"
+  },
+  "cullinanBlackBadge": {
+    "badge": "BLACK BADGE 版",
+    "title": "库里南",
+    "titleHighlight": "Black Badge",
+    "subtitle": "劳斯莱斯最暗黑的表达。600马力的绝对力量。",
+    "price": "每天8,500迪拉姆起",
+    "bookBtn": "预订Black Badge",
+    "compareBtn": "对比标准库里南",
+    "whatIs": {
+      "title": "什么是Black Badge？",
+      "desc": "Black Badge是劳斯莱斯的另一面——为拒绝平庸的人而生。每个元素都被强化：更强的动力、更暗的美学、更大胆的性格。库里南Black Badge是地球上最霸气的SUV。"
+    },
+    "features": [
+      { "title": "暗黑飞天女神", "desc": "高光泽黑色镀铬飞天女神配暗色底座——Black Badge专属标志。" },
+      { "title": "碳纤维飞天女神", "desc": "可选碳纤维复合材料飞天女神，有史以来技术最先进的版本。" },
+      { "title": "22英寸锻造轮毂", "desc": "定制22英寸暗色锻造合金轮毂配Black Badge中心盖。" },
+      { "title": "暗色外部镀铬", "desc": "所有外部镀铬表面替换为暗色镀铬——格栅、车窗饰条和进气口。" },
+      { "title": "定制内饰", "desc": "技术碳纤维饰板配编织纹理、发光面板和Forge Yellow缝线。" },
+      { "title": "增强排气声浪", "desc": "重新调校的排气系统，呈现更深沉、更有力的声浪，彰显Black Badge气质。" }
+    ],
+    "specs": {
+      "title": "性能参数",
+      "engine": "发动机", "engineVal": "6.75升V12双涡轮",
+      "power": "功率", "powerVal": "600马力 (+29马力)",
+      "torque": "扭矩", "torqueVal": "900牛米 (+50牛米)",
+      "accel": "0-100公里/时", "accelVal": "5.0秒",
+      "drive": "驱动", "driveVal": "全轮驱动",
+      "seats": "座位", "seatsVal": "5座（豪华沙发）",
+      "trans": "变速箱", "transVal": "ZF 8速自动",
+      "topSpeed": "最高时速", "topSpeedVal": "250公里/时"
+    },
+    "pricing": {
+      "title": "Black Badge租赁价格",
+      "daily": "日租", "dailyPrice": "8,500迪拉姆", "dailyNote": "含250公里和保险",
+      "weekly": "周租", "weeklyPrice": "49,000迪拉姆", "weeklyNote": "7天，含1,750公里",
+      "monthly": "月租", "monthlyPrice": "170,000迪拉姆", "monthlyNote": "30天，含5,000公里",
+      "bookBtn": "预订库里南Black Badge"
+    },
+    "related": {
+      "title": "相关服务",
+      "subtitle": "以我们的优质服务体验Black Badge",
+      "events": { "title": "活动与红毯", "desc": "Black Badge在每个活动中都引人瞩目。在晚宴和首映式上留下最深刻的印象。" },
+      "corporate": { "title": "企业服务", "desc": "为要求更高的高管而设。Black Badge彰显力量与野心。" },
+      "photoshoot": { "title": "拍摄服务", "desc": "Black Badge的暗黑美学为编辑和商业拍摄创造令人惊叹的视觉内容。" },
+      "exploreMore": "探索更多车型"
+    }
+  },
+  "ghostBlackBadge": {
+    "badge": "BLACK BADGE 版",
+    "title": "古思特",
+    "titleHighlight": "Black Badge",
+    "subtitle": "最具驾驶感的劳斯莱斯。592马力。发光面板。碳纤维轮毂。",
+    "price": "每天5,500迪拉姆起",
+    "bookBtn": "预订Black Badge",
+    "compareBtn": "对比标准古思特",
+    "whatIs": {
+      "title": "什么是Black Badge？",
+      "desc": "Black Badge代表劳斯莱斯暗黑、叛逆的另一面。古思特Black Badge将世界上技术最先进的超豪华轿车推向极致——更强动力、更暗美学、更动感的性格。"
+    },
+    "features": [
+      { "title": "暗黑飞天女神", "desc": "高光泽黑色镀铬飞天女神——Black Badge叛逆精神的标志。" },
+      { "title": "发光面板", "desc": "古思特Black Badge配备850颗星光发光面板，在仪表板饰板后营造星座效果。" },
+      { "title": "21英寸复合轮毂", "desc": "碳纤维复合材料轮毂——劳斯莱斯史上技术最先进的轮毂，每个轮毂减重4公斤。" },
+      { "title": "暗色外部元素", "desc": "暗色镀铬格栅、车窗饰条、进气口和排气管替代标准银色镀铬。" },
+      { "title": "定制音响", "desc": "18扬声器、1,300瓦定制音响系统，具有音乐厅级音质。" },
+      { "title": "Planar调校悬挂", "desc": "Black Badge专属调校的Planar悬挂配Flagbearer系统，提供更具连接感的动态驾驶体验。" }
+    ],
+    "specs": {
+      "title": "性能参数",
+      "engine": "发动机", "engineVal": "6.75升V12双涡轮",
+      "power": "功率", "powerVal": "592马力 (+29马力)",
+      "torque": "扭矩", "torqueVal": "900牛米 (+50牛米)",
+      "accel": "0-100公里/时", "accelVal": "4.7秒",
+      "drive": "驱动", "driveVal": "全轮驱动",
+      "seats": "座位", "seatsVal": "5",
+      "trans": "变速箱", "transVal": "ZF 8速自动",
+      "topSpeed": "最高时速", "topSpeedVal": "250公里/时"
+    },
+    "pricing": {
+      "title": "Black Badge租赁价格",
+      "daily": "日租", "dailyPrice": "5,500迪拉姆", "dailyNote": "含250公里和保险",
+      "weekly": "周租", "weeklyPrice": "32,000迪拉姆", "weeklyNote": "7天，含1,750公里",
+      "monthly": "月租", "monthlyPrice": "110,000迪拉姆", "monthlyNote": "30天，含5,000公里",
+      "bookBtn": "预订古思特Black Badge"
+    },
+    "related": {
+      "title": "相关服务",
+      "subtitle": "以我们的优质服务体验Black Badge",
+      "corporate": { "title": "企业服务", "desc": "古思特Black Badge是终极行政座驾。为DIFC和商务湾带来暗黑优雅。" },
+      "chauffeur": { "title": "司机服务", "desc": "专业司机配Black Badge。迪拜最精致的出行方式。" },
+      "airport": { "title": "机场接送", "desc": "乘古思特Black Badge VIP抵达。在DXB和DWC无与伦比的气场。" },
+      "exploreMore": "探索更多车型"
+    }
   },
   "phantom": {
     "name": "劳斯莱斯幻影",

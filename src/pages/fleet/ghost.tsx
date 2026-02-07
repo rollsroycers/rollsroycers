@@ -14,6 +14,7 @@ import SEO from '@/components/SEO'
 import GEOOptimizer from '@/components/GEOOptimizer'
 import EntitySchema from '@/components/EntitySchema'
 import { createWhatsAppLinkProps } from '@/utils/whatsapp'
+import Script from 'next/script'
 
 export default function GhostPage() {
   const { t } = useTranslation('common');
@@ -48,6 +49,89 @@ export default function GhostPage() {
 
   const businessFeatures: BusinessFeature[] = Object.values(t('fleet.ghost.businessFeatures', { returnObjects: true }));
 
+  // Product Structured Data
+  const structuredData = {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    "name": "Rolls-Royce Ghost Rental Dubai",
+    "image": [
+      "https://www.rollsroycers.com/images/Rolls-Royce_Ghost_Black_Badge.jpg",
+      "https://www.rollsroycers.com/images/Black_Rolls_Royce_Ghost.jpg"
+    ],
+    "description": "Rent Rolls-Royce Ghost in Dubai from AED 3,800/day. 2026 Series II & Black Badge available with professional chauffeur. Planar suspension, illuminated fascia.",
+    "brand": { "@type": "Brand", "name": "Rolls-Royce" },
+    "offers": {
+      "@type": "AggregateOffer",
+      "url": "https://www.rollsroycers.com/fleet/ghost",
+      "priceCurrency": "AED",
+      "lowPrice": "3800",
+      "highPrice": "76000",
+      "offerCount": "3",
+      "availability": "https://schema.org/InStock",
+      "seller": {
+        "@type": "Organization",
+        "name": "Rolls Roycers Dubai",
+        "telephone": "+971558164922"
+      }
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.9",
+      "reviewCount": "1247",
+      "bestRating": "5",
+      "worstRating": "1"
+    }
+  }
+
+  const vehicleStructuredData = {
+    "@context": "https://schema.org",
+    "@type": "Car",
+    "name": "Rolls-Royce Ghost Series II",
+    "manufacturer": { "@type": "Organization", "name": "Rolls-Royce Motor Cars" },
+    "model": "Ghost",
+    "vehicleConfiguration": "Series II",
+    "vehicleEngine": {
+      "@type": "EngineSpecification",
+      "name": "6.75L V12 Twin-Turbo",
+      "enginePower": { "@type": "QuantitativeValue", "value": "563", "unitCode": "HP" }
+    },
+    "vehicleSeatingCapacity": 5,
+    "fuelType": "Petrol",
+    "vehicleTransmission": "8-Speed Automatic",
+    "speed": { "@type": "QuantitativeValue", "value": "250", "unitCode": "KMH" }
+  }
+
+  const faqStructuredData = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "How much does it cost to rent a Rolls-Royce Ghost in Dubai?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Ghost rental starts from AED 3,800 per day, making it the most affordable Rolls-Royce in our fleet. Weekly rates at AED 22,800 and monthly at AED 76,000. All prices include insurance, VAT, and chauffeur service."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What is the difference between the Ghost and Ghost Black Badge?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The Black Badge is the darker, more powerful variant with enhanced performance, blacked-out chrome, and exclusive interior finishes. It costs approximately 20% more than the standard Ghost."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Is the Ghost good for business trips in Dubai?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The Ghost is the perfect business Rolls-Royce. With its refined character, Planar suspension, and illuminated fascia, it combines executive presence with supreme comfort for corporate meetings and client entertainment."
+        }
+      }
+    ]
+  }
+
   return (
     <>
       <SEO pageKey="fleet.ghost" />
@@ -72,6 +156,12 @@ export default function GhostPage() {
         ]}
       />
       <EntitySchema pageType="fleet" carModel="ghost" />
+
+      {/* Structured Data Scripts */}
+      <Script id="ghost-structured-data" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }} />
+      <Script id="ghost-vehicle-data" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(vehicleStructuredData) }} />
+      <Script id="ghost-faq-data" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqStructuredData) }} />
+
       <Layout>
         {/* Hero Section */}
         <section className="relative h-screen flex items-center justify-center overflow-hidden">
@@ -397,6 +487,41 @@ export default function GhostPage() {
               {t('compareFleet.title')}
             </h2>
             <ComparisonTool />
+          </div>
+        </section>
+
+        {/* Related Services & Fleet */}
+        <section className="py-20 bg-rolls-black">
+          <div className="container mx-auto px-4">
+            <h2 className="text-3xl font-bold text-white text-center mb-4">Related Services</h2>
+            <p className="text-rolls-gold/70 text-center mb-12">Experience the Ghost with our premium services</p>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-16">
+              {[
+                { href: '/services/corporate', title: 'Corporate Service', desc: 'The Ghost is our #1 choice for executive transport and CEO transfers in DIFC & Business Bay.' },
+                { href: '/services/chauffeur', title: 'Chauffeur Service', desc: 'Professional multilingual chauffeur with your Ghost rental. Hourly from AED 800.' },
+                { href: '/services/airport-transfer', title: 'Airport Transfer', desc: 'VIP airport pickup in a Ghost. Meet & greet at DXB with flight tracking included.' },
+              ].map((service) => (
+                <Link key={service.href} href={service.href} className="group bg-white/5 border border-white/10 rounded-xl p-6 hover:border-rolls-gold/50 transition-all duration-300">
+                  <h3 className="text-lg font-semibold text-white group-hover:text-rolls-gold transition-colors mb-2">{service.title}</h3>
+                  <p className="text-gray-400 text-sm">{service.desc}</p>
+                </Link>
+              ))}
+            </div>
+            <h3 className="text-2xl font-bold text-white text-center mb-8">Explore More Models</h3>
+            <div className="grid grid-cols-2 md:grid-cols-5 gap-4">
+              {[
+                { href: '/fleet/phantom', name: 'Phantom', price: 'AED 5,800/day' },
+                { href: '/fleet/cullinan', name: 'Cullinan', price: 'AED 6,500/day' },
+                { href: '/fleet/dawn', name: 'Dawn', price: 'AED 5,500/day' },
+                { href: '/fleet/wraith', name: 'Wraith', price: 'AED 5,000/day' },
+                { href: '/fleet/spectre', name: 'Spectre', price: 'AED 7,500/day' },
+              ].map((model) => (
+                <Link key={model.href} href={model.href} className="group text-center bg-white/5 border border-white/10 rounded-lg p-4 hover:border-rolls-gold/50 transition-all">
+                  <p className="text-white font-semibold group-hover:text-rolls-gold transition-colors">{model.name}</p>
+                  <p className="text-rolls-gold/70 text-sm mt-1">{model.price}</p>
+                </Link>
+              ))}
+            </div>
           </div>
         </section>
 

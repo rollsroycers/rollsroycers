@@ -14,6 +14,7 @@ import SEO from '@/components/SEO'
 import GEOOptimizer from '@/components/GEOOptimizer'
 import EntitySchema from '@/components/EntitySchema'
 import { createWhatsAppLinkProps } from '@/utils/whatsapp'
+import Script from 'next/script'
 
 import { useTranslation } from 'next-i18next'
 
@@ -55,6 +56,90 @@ export default function DawnPage() {
   const routes = Object.values(t('fleet.dawn.routes', { returnObjects: true }));
   const tourSpots = t('virtualTourSpots', { returnObjects: true }) as Record<string, any[]>;
 
+  // Product Structured Data
+  const structuredData = {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    "name": "Rolls-Royce Dawn Convertible Rental Dubai",
+    "image": [
+      "https://www.rollsroycers.com/images/Rolls-Royce_Dawn.jpg",
+      "https://www.rollsroycers.com/images/Rolls-Royce_Dawn_Convertible-2.jpg"
+    ],
+    "description": "Rent Rolls-Royce Dawn convertible in Dubai from AED 5,500/day. Retractable soft-top roof, 6.6L V12, perfect for Marina and beach drives.",
+    "brand": { "@type": "Brand", "name": "Rolls-Royce" },
+    "offers": {
+      "@type": "AggregateOffer",
+      "url": "https://www.rollsroycers.com/fleet/dawn",
+      "priceCurrency": "AED",
+      "lowPrice": "5500",
+      "highPrice": "110000",
+      "offerCount": "3",
+      "availability": "https://schema.org/InStock",
+      "seller": {
+        "@type": "Organization",
+        "name": "Rolls Roycers Dubai",
+        "telephone": "+971558164922"
+      }
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.9",
+      "reviewCount": "1247",
+      "bestRating": "5",
+      "worstRating": "1"
+    }
+  }
+
+  const vehicleStructuredData = {
+    "@context": "https://schema.org",
+    "@type": "Car",
+    "name": "Rolls-Royce Dawn",
+    "manufacturer": { "@type": "Organization", "name": "Rolls-Royce Motor Cars" },
+    "model": "Dawn",
+    "vehicleConfiguration": "Luxury Convertible",
+    "vehicleEngine": {
+      "@type": "EngineSpecification",
+      "name": "6.6L V12 Twin-Turbo",
+      "enginePower": { "@type": "QuantitativeValue", "value": "563", "unitCode": "HP" }
+    },
+    "vehicleSeatingCapacity": 4,
+    "fuelType": "Petrol",
+    "vehicleTransmission": "8-Speed Automatic",
+    "bodyType": "Convertible",
+    "speed": { "@type": "QuantitativeValue", "value": "250", "unitCode": "KMH" }
+  }
+
+  const faqStructuredData = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "How much does it cost to rent a Rolls-Royce Dawn in Dubai?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Dawn convertible rental starts from AED 5,500 per day. Weekly rates at AED 33,000 and monthly at AED 110,000. All prices include insurance, VAT, and professional chauffeur."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Can the Dawn roof be opened while driving?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes, the Dawn's silent retractable roof operates in just 22 seconds and can be activated at speeds up to 50 km/h, perfect for Dubai's beautiful weather and beach drives."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Is the Dawn good for photoshoots and content creation?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The Dawn is the most photogenic Rolls-Royce with its open-top design. Popular for Instagram content, fashion shoots, and music videos at iconic Dubai locations like Palm Jumeirah, Marina, and Burj Al Arab."
+        }
+      }
+    ]
+  }
+
   return (
     <>
       <SEO pageKey="fleet.dawn" />
@@ -79,6 +164,12 @@ export default function DawnPage() {
         ]}
       />
       <EntitySchema pageType="fleet" carModel="dawn" />
+
+      {/* Structured Data Scripts */}
+      <Script id="dawn-structured-data" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }} />
+      <Script id="dawn-vehicle-data" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(vehicleStructuredData) }} />
+      <Script id="dawn-faq-data" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqStructuredData) }} />
+
       <Layout>
         {/* Hero Section with Roof Animation */}
         <section className="relative h-screen flex items-center justify-center overflow-hidden">
@@ -349,6 +440,41 @@ export default function DawnPage() {
               Compare Our Fleet
             </h2>
             <ComparisonTool />
+          </div>
+        </section>
+
+        {/* Related Services & Fleet */}
+        <section className="py-20 bg-rolls-black">
+          <div className="container mx-auto px-4">
+            <h2 className="text-3xl font-bold text-white text-center mb-4">Related Services</h2>
+            <p className="text-rolls-gold/70 text-center mb-12">Experience the Dawn with our premium services</p>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-16">
+              {[
+                { href: '/services/photoshoot', title: 'Photoshoot Service', desc: 'The Dawn convertible is our #1 pick for outdoor fashion shoots, music videos, and Instagram content in Dubai.' },
+                { href: '/services/tours', title: 'Dubai Tours', desc: 'Cruise Palm Jumeirah and Dubai Marina with the roof down. The ultimate open-air luxury tour experience.' },
+                { href: '/services/events', title: 'Events & Red Carpet', desc: 'Make a grand entrance at galas and premieres. The Dawn convertible guarantees all eyes on you.' },
+              ].map((service) => (
+                <Link key={service.href} href={service.href} className="group bg-white/5 border border-white/10 rounded-xl p-6 hover:border-rolls-gold/50 transition-all duration-300">
+                  <h3 className="text-lg font-semibold text-white group-hover:text-rolls-gold transition-colors mb-2">{service.title}</h3>
+                  <p className="text-gray-400 text-sm">{service.desc}</p>
+                </Link>
+              ))}
+            </div>
+            <h3 className="text-2xl font-bold text-white text-center mb-8">Explore More Models</h3>
+            <div className="grid grid-cols-2 md:grid-cols-5 gap-4">
+              {[
+                { href: '/fleet/phantom', name: 'Phantom', price: 'AED 5,800/day' },
+                { href: '/fleet/ghost', name: 'Ghost', price: 'AED 3,800/day' },
+                { href: '/fleet/cullinan', name: 'Cullinan', price: 'AED 6,500/day' },
+                { href: '/fleet/wraith', name: 'Wraith', price: 'AED 5,000/day' },
+                { href: '/fleet/spectre', name: 'Spectre', price: 'AED 7,500/day' },
+              ].map((model) => (
+                <Link key={model.href} href={model.href} className="group text-center bg-white/5 border border-white/10 rounded-lg p-4 hover:border-rolls-gold/50 transition-all">
+                  <p className="text-white font-semibold group-hover:text-rolls-gold transition-colors">{model.name}</p>
+                  <p className="text-rolls-gold/70 text-sm mt-1">{model.price}</p>
+                </Link>
+              ))}
+            </div>
           </div>
         </section>
 
