@@ -1577,6 +1577,90 @@
     },
     "viewAllServices": "Посмотреть Все Услуги"
   },
+  "fleetPage": {
+    "completeSpecs": "Полные Характеристики",
+    "performance": "Производительность",
+    "dimensions": "Габариты",
+    "exclusiveFeatures": "Эксклюзивные Функции",
+    "technology": "Технологии",
+    "compareFleet": "Сравните Наш Автопарк",
+    "relatedServices": "Связанные Услуги",
+    "exploreModels": "Другие Модели",
+    "horsepower": "Лошадиных сил",
+    "twinTurbo": "Твин-Турбо",
+    "perDay": "/день",
+    "blackBadgeLabel": "Black Badge",
+    "blackBadgeTagline": "Альтер Эго Rolls-Royce",
+    "inquireBlackBadge": "Узнать о Black Badge",
+    "wraith": {
+      "heroTitle": "WRAITH",
+      "heroTagline": "Самый Мощный Rolls-Royce",
+      "reserveBtn": "Забронировать Wraith",
+      "exploreBlackBadge": "Узнать о Black Badge",
+      "discoverTitle": "Откройте Совершенство Wraith",
+      "tabs": { "performance": "Производительность", "design": "Дизайн", "technology": "Технологии", "experience": "Впечатления" },
+      "rentalTitle": "Пакеты Аренды Wraith",
+      "tourTitle": "360° Тур по Wraith",
+      "cta": { "title": "Управляйте Самым Мощным Rolls-Royce", "description": "Испытайте идеальный баланс роскоши и производительности Wraith. Забронируйте сейчас.", "callBtn": "Звонок: +971 55 816 4922", "configureBtn": "Настройте Ваш Wraith" },
+      "relatedSubtitle": "Испытайте Wraith с нашими премиум-услугами",
+      "services": {
+        "events": { "title": "Мероприятия и Красная Дорожка", "desc": "Драматичный силуэт фастбэк Wraith делает её идеальной для гала-вечеров и премьер." },
+        "photoshoot": { "title": "Фотосессии", "desc": "Звёздное небо и смелые линии купе Wraith идеальны для редакционных и модных съёмок." },
+        "chauffeur": { "title": "Услуги Шофёра", "desc": "Профессиональный шофёр с самым быстрым Rolls-Royce. Почасовые и дневные пакеты." }
+      },
+      "models": { "phantom": { "price": "5 800 AED/день" }, "ghost": { "price": "3 800 AED/день" }, "cullinan": { "price": "6 500 AED/день" }, "dawn": { "price": "5 500 AED/день" }, "spectre": { "price": "7 500 AED/день" } }
+    },
+    "phantom": {
+      "relatedSubtitle": "Испытайте Phantom с нашими премиум-услугами",
+      "services": {
+        "wedding": { "title": "Свадебный Сервис", "desc": "Phantom — самый престижный свадебный автомобиль. Белый удлинённый кузов с цветочным декором." },
+        "corporate": { "title": "Корпоративный Сервис", "desc": "Впечатлите клиентов флагманским Phantom. Транспорт уровня совета директоров." },
+        "airport": { "title": "Трансфер в Аэропорт", "desc": "Прибытие первого класса в Phantom. Встреча в DXB с отслеживанием рейса." }
+      },
+      "models": { "ghost": { "price": "3 800 AED/день" }, "cullinan": { "price": "6 500 AED/день" }, "dawn": { "price": "5 500 AED/день" }, "wraith": { "price": "5 000 AED/день" }, "spectre": { "price": "7 500 AED/день" } }
+    },
+    "ghost": {
+      "relatedSubtitle": "Испытайте Ghost с нашими премиум-услугами",
+      "services": {
+        "corporate": { "title": "Корпоративный Сервис", "desc": "Ghost — наш выбор №1 для бизнес-перевозок в DIFC и Business Bay." },
+        "chauffeur": { "title": "Услуги Шофёра", "desc": "Профессиональный многоязычный шофёр. Почасово от 800 AED." },
+        "airport": { "title": "Трансфер в Аэропорт", "desc": "VIP-трансфер в Ghost. Встреча в DXB с отслеживанием рейса." }
+      },
+      "models": { "phantom": { "price": "5 800 AED/день" }, "cullinan": { "price": "6 500 AED/день" }, "dawn": { "price": "5 500 AED/день" }, "wraith": { "price": "5 000 AED/день" }, "spectre": { "price": "7 500 AED/день" } }
+    },
+    "cullinan": {
+      "relatedSubtitle": "Испытайте Cullinan с нашими премиум-услугами",
+      "services": {
+        "tours": { "title": "Сафари по Пустыне", "desc": "Cullinan — роскошный внедорожник для пустынных приключений по ОАЭ." },
+        "corporate": { "title": "Корпоративный Сервис", "desc": "Впечатлите самым роскошным SUV в мире." },
+        "chauffeur": { "title": "Услуги Шофёра", "desc": "Профессиональный шофёр с Cullinan. Просторная роскошь для семей." }
+      },
+      "models": { "phantom": { "price": "5 800 AED/день" }, "ghost": { "price": "3 800 AED/день" }, "dawn": { "price": "5 500 AED/день" }, "wraith": { "price": "5 000 AED/день" }, "spectre": { "price": "7 500 AED/день" } }
+    },
+    "dawn": {
+      "rentalTitle": "Пакеты Аренды Dawn",
+      "tourTitle": "360° Тур по Dawn",
+      "routesTitle": "Рекомендуемые Маршруты по Дубаю",
+      "routeLabels": { "distance": "Расстояние", "duration": "Продолжительность", "bestTime": "Лучшее Время", "highlights": "Достопримечательности" },
+      "cta": { "title": "Почувствуйте Бриз Дубая в Dawn", "description": "Забронируйте и получите карту маршрута на закате и профессиональную фотосессию.", "callBtn": "Звонок: +971 55 816 4922", "checkAvailability": "Проверить Наличие" },
+      "relatedSubtitle": "Испытайте Dawn с нашими премиум-услугами",
+      "services": {
+        "photoshoot": { "title": "Фотосессии", "desc": "Кабриолет Dawn идеален для фотосессий на побережье Дубая." },
+        "tours": { "title": "Городские Туры", "desc": "Исследуйте достопримечательности Дубая в кабриолете Dawn." },
+        "wedding": { "title": "Свадебный Сервис", "desc": "Кабриолет Dawn добавляет волшебства на свежем воздухе." }
+      },
+      "models": { "phantom": { "price": "5 800 AED/день" }, "ghost": { "price": "3 800 AED/день" }, "cullinan": { "price": "6 500 AED/день" }, "wraith": { "price": "5 000 AED/день" }, "spectre": { "price": "7 500 AED/день" } }
+    },
+    "spectre": {
+      "relatedSubtitle": "Испытайте Spectre с нашими премиум-услугами",
+      "services": {
+        "corporate": { "title": "Корпоративный Сервис", "desc": "Произведите впечатление первым электрическим ультра-люкс автомобилем." },
+        "tours": { "title": "Бесшумные Туры", "desc": "Откройте Дубай в шёпотной роскоши Spectre." },
+        "chauffeur": { "title": "Услуги Шофёра", "desc": "Шофёр с электрическим Spectre. Ноль выбросов, максимум роскоши." }
+      },
+      "models": { "phantom": { "price": "5 800 AED/день" }, "ghost": { "price": "3 800 AED/день" }, "cullinan": { "price": "6 500 AED/день" }, "dawn": { "price": "5 500 AED/день" }, "wraith": { "price": "5 000 AED/день" } }
+    }
+  },
   "services": {
     "title": "Наши Исключительные Услуги",
     "subtitle": "Индивидуальные решения для ваших нужд",
@@ -5567,9 +5651,9 @@
         "usp": "Легендарная плавность хода и бесшумный салон.",
         "category": "Ультра-люкс седан",
         "bestFor": [
-          "свадьба",
-          "бизнес",
-          "фотосессия"
+          "wedding",
+          "business",
+          "photography"
         ],
         "standardFeatures": [
           "Кожаный салон ручной работы",
@@ -5637,9 +5721,9 @@
         "usp": "Минималистичная роскошь с комфортом «ковра-самолёта».",
         "category": "Люксовый седан",
         "bestFor": [
-          "бизнес",
-          "аэропорт",
-          "отдых"
+          "business",
+          "airport",
+          "leisure"
         ],
         "standardFeatures": [
           "Полный привод",
@@ -5707,9 +5791,9 @@
         "usp": "Непревзойдённая внедорожная роскошь и величественный дизайн SUV.",
         "category": "Ультра-люкс внедорожник",
         "bestFor": [
-          "семья",
-          "отдых",
-          "бизнес"
+          "family",
+          "leisure",
+          "business"
         ],
         "standardFeatures": [
           "Полный привод",
@@ -5777,9 +5861,9 @@
         "usp": "Самый роскошный и тихий кабриолет в мире.",
         "category": "Люксовый кабриолет",
         "bestFor": [
-          "свадьба",
-          "фотосессия",
-          "отдых"
+          "wedding",
+          "photography",
+          "leisure"
         ],
         "standardFeatures": [
           "Адаптивные фары",
@@ -5847,9 +5931,9 @@
         "usp": "Самый мощный Rolls-Royce с динамикой гранд-турера.",
         "category": "Гранд-турер купе",
         "bestFor": [
-          "бизнес",
-          "фотосессия",
-          "отдых"
+          "business",
+          "photography",
+          "leisure"
         ],
         "standardFeatures": [
           "8-ст. автомат",

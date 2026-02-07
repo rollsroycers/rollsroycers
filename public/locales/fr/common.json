@@ -1310,6 +1310,90 @@
       ]
     }
   },
+  "fleetPage": {
+    "completeSpecs": "Spécifications Complètes",
+    "performance": "Performance",
+    "dimensions": "Dimensions",
+    "exclusiveFeatures": "Caractéristiques Exclusives",
+    "technology": "Technologie",
+    "compareFleet": "Comparez Notre Flotte",
+    "relatedServices": "Services Associés",
+    "exploreModels": "Découvrez Plus de Modèles",
+    "horsepower": "Chevaux",
+    "twinTurbo": "Twin-Turbo",
+    "perDay": "/jour",
+    "blackBadgeLabel": "Black Badge",
+    "blackBadgeTagline": "L'Alter Ego de Rolls-Royce",
+    "inquireBlackBadge": "Renseignez-vous sur Black Badge",
+    "wraith": {
+      "heroTitle": "WRAITH",
+      "heroTagline": "La Rolls-Royce La Plus Puissante",
+      "reserveBtn": "Réserver la Wraith",
+      "exploreBlackBadge": "Découvrir Black Badge",
+      "discoverTitle": "Découvrez l'Excellence Wraith",
+      "tabs": { "performance": "Performance", "design": "Design", "technology": "Technologie", "experience": "Expérience" },
+      "rentalTitle": "Forfaits Location Wraith",
+      "tourTitle": "Visite 360° Wraith",
+      "cta": { "title": "Commandez la Rolls-Royce La Plus Puissante", "description": "Vivez l'équilibre parfait entre luxe et performance. Réservez maintenant.", "callBtn": "Appel: +971 55 816 4922", "configureBtn": "Configurez Votre Wraith" },
+      "relatedSubtitle": "Découvrez la Wraith avec nos services premium",
+      "services": {
+        "events": { "title": "Événements & Tapis Rouge", "desc": "La silhouette fastback de la Wraith en fait la voiture idéale pour les galas et premières." },
+        "photoshoot": { "title": "Service Photo", "desc": "Le ciel étoilé et les lignes coupé de la Wraith sont parfaits pour les shootings éditoriaux." },
+        "chauffeur": { "title": "Service Chauffeur", "desc": "Chauffeur professionnel avec la Rolls-Royce la plus rapide. Forfaits horaires et journaliers." }
+      },
+      "models": { "phantom": { "price": "5 800 AED/jour" }, "ghost": { "price": "3 800 AED/jour" }, "cullinan": { "price": "6 500 AED/jour" }, "dawn": { "price": "5 500 AED/jour" }, "spectre": { "price": "7 500 AED/jour" } }
+    },
+    "phantom": {
+      "relatedSubtitle": "Découvrez la Phantom avec nos services premium",
+      "services": {
+        "wedding": { "title": "Service Mariage", "desc": "La Phantom est la voiture de mariage la plus prestigieuse. Empattement allongé blanc avec décoration florale." },
+        "corporate": { "title": "Service Entreprise", "desc": "Impressionnez vos clients avec la Phantom. Transport de direction et divertissement exécutif." },
+        "airport": { "title": "Transfert Aéroport", "desc": "Arrivée première classe en Phantom. Accueil à DXB avec suivi de vol." }
+      },
+      "models": { "ghost": { "price": "3 800 AED/jour" }, "cullinan": { "price": "6 500 AED/jour" }, "dawn": { "price": "5 500 AED/jour" }, "wraith": { "price": "5 000 AED/jour" }, "spectre": { "price": "7 500 AED/jour" } }
+    },
+    "ghost": {
+      "relatedSubtitle": "Découvrez la Ghost avec nos services premium",
+      "services": {
+        "corporate": { "title": "Service Entreprise", "desc": "La Ghost est notre choix n°1 pour le transport exécutif au DIFC et Business Bay." },
+        "chauffeur": { "title": "Service Chauffeur", "desc": "Chauffeur multilingue professionnel. À l'heure à partir de 800 AED." },
+        "airport": { "title": "Transfert Aéroport", "desc": "Prise en charge VIP en Ghost. Accueil à DXB avec suivi de vol inclus." }
+      },
+      "models": { "phantom": { "price": "5 800 AED/jour" }, "cullinan": { "price": "6 500 AED/jour" }, "dawn": { "price": "5 500 AED/jour" }, "wraith": { "price": "5 000 AED/jour" }, "spectre": { "price": "7 500 AED/jour" } }
+    },
+    "cullinan": {
+      "relatedSubtitle": "Découvrez le Cullinan avec nos services premium",
+      "services": {
+        "tours": { "title": "Safaris Désert", "desc": "Le Cullinan est le SUV de luxe ultime pour les aventures dans le désert." },
+        "corporate": { "title": "Service Entreprise", "desc": "Impressionnez avec le SUV le plus luxueux au monde." },
+        "chauffeur": { "title": "Service Chauffeur", "desc": "Chauffeur professionnel avec le Cullinan. Luxe spacieux pour familles." }
+      },
+      "models": { "phantom": { "price": "5 800 AED/jour" }, "ghost": { "price": "3 800 AED/jour" }, "dawn": { "price": "5 500 AED/jour" }, "wraith": { "price": "5 000 AED/jour" }, "spectre": { "price": "7 500 AED/jour" } }
+    },
+    "dawn": {
+      "rentalTitle": "Forfaits Location Dawn",
+      "tourTitle": "Expérience Dawn 360°",
+      "routesTitle": "Itinéraires Recommandés à Dubaï",
+      "routeLabels": { "distance": "Distance", "duration": "Durée", "bestTime": "Meilleur Moment", "highlights": "Points Forts" },
+      "cta": { "title": "Ressentez la Brise de Dubaï en Dawn", "description": "Réservez et recevez une carte d'itinéraire au coucher du soleil et une séance photo professionnelle.", "callBtn": "Appel: +971 55 816 4922", "checkAvailability": "Vérifier la Disponibilité" },
+      "relatedSubtitle": "Découvrez la Dawn avec nos services premium",
+      "services": {
+        "photoshoot": { "title": "Service Photo", "desc": "L'élégance décapotable de la Dawn est parfaite pour les shootings sur la côte de Dubaï." },
+        "tours": { "title": "Visites de la Ville", "desc": "Explorez les monuments de Dubaï en Dawn décapotable." },
+        "wedding": { "title": "Service Mariage", "desc": "La Dawn décapotable ajoute une touche magique en plein air." }
+      },
+      "models": { "phantom": { "price": "5 800 AED/jour" }, "ghost": { "price": "3 800 AED/jour" }, "cullinan": { "price": "6 500 AED/jour" }, "wraith": { "price": "5 000 AED/jour" }, "spectre": { "price": "7 500 AED/jour" } }
+    },
+    "spectre": {
+      "relatedSubtitle": "Découvrez la Spectre avec nos services premium",
+      "services": {
+        "corporate": { "title": "Service Entreprise", "desc": "Faites sensation avec la première voiture électrique ultra-luxe." },
+        "tours": { "title": "Visites Silencieuses", "desc": "Découvrez Dubaï dans un luxe silencieux avec la Spectre." },
+        "chauffeur": { "title": "Service Chauffeur", "desc": "Chauffeur avec la Spectre électrique. Zéro émission, luxe maximum." }
+      },
+      "models": { "phantom": { "price": "5 800 AED/jour" }, "ghost": { "price": "3 800 AED/jour" }, "cullinan": { "price": "6 500 AED/jour" }, "dawn": { "price": "5 500 AED/jour" }, "wraith": { "price": "5 000 AED/jour" } }
+    }
+  },
   "services": {
     "title": "Services Exceptionnels",
     "subtitle": "Adaptés à Vos Besoins",
@@ -2617,9 +2701,9 @@
           "versatility": 70
         },
         "bestFor": [
-          "mariage",
+          "wedding",
           "business",
-          "photographie"
+          "photography"
         ],
         "uniqueFeatures": [
           "Ciel étoilé 1 340 fibres optiques",
@@ -2707,8 +2791,8 @@
           "versatility": 100
         },
         "bestFor": [
-          "famille",
-          "loisirs",
+          "family",
+          "leisure",
           "business"
         ],
         "uniqueFeatures": [
@@ -2798,8 +2882,8 @@
         },
         "bestFor": [
           "business",
-          "aéroport",
-          "loisirs"
+          "airport",
+          "leisure"
         ],
         "uniqueFeatures": [
           "Suspension Planar",
@@ -2887,9 +2971,9 @@
           "versatility": 75
         },
         "bestFor": [
-          "mariage",
-          "photographie",
-          "loisirs"
+          "wedding",
+          "photography",
+          "leisure"
         ],
         "uniqueFeatures": [
           "Toit silencieux",
@@ -2978,8 +3062,8 @@
         },
         "bestFor": [
           "business",
-          "photographie",
-          "loisirs"
+          "photography",
+          "leisure"
         ],
         "uniqueFeatures": [
           "Transmission satellite",

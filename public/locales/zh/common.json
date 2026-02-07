@@ -1389,6 +1389,90 @@
       ]
     }
   },
+  "fleetPage": {
+    "completeSpecs": "完整规格",
+    "performance": "性能",
+    "dimensions": "尺寸",
+    "exclusiveFeatures": "专属特性",
+    "technology": "科技",
+    "compareFleet": "比较我们的车队",
+    "relatedServices": "相关服务",
+    "exploreModels": "探索更多车型",
+    "horsepower": "马力",
+    "twinTurbo": "双涡轮",
+    "perDay": "/天",
+    "blackBadgeLabel": "Black Badge",
+    "blackBadgeTagline": "劳斯莱斯的另一面",
+    "inquireBlackBadge": "咨询 Black Badge",
+    "wraith": {
+      "heroTitle": "魅影",
+      "heroTagline": "最强劲的劳斯莱斯",
+      "reserveBtn": "预订魅影",
+      "exploreBlackBadge": "探索 Black Badge",
+      "discoverTitle": "探索魅影卓越",
+      "tabs": { "performance": "性能", "design": "设计", "technology": "科技", "experience": "体验" },
+      "rentalTitle": "魅影租赁套餐",
+      "tourTitle": "360° 魅影之旅",
+      "cta": { "title": "驾驭最强劲的劳斯莱斯", "description": "体验魅影在奢华与性能之间的完美平衡。立即预订。", "callBtn": "致电: +971 55 816 4922", "configureBtn": "定制您的魅影" },
+      "relatedSubtitle": "通过我们的优质服务体验魅影",
+      "services": {
+        "events": { "title": "活动与红毯", "desc": "魅影的溜背轮廓使其成为晚宴和首映礼的完美座驾。" },
+        "photoshoot": { "title": "摄影服务", "desc": "魅影的星空顶和大胆的轿跑线条非常适合时尚和编辑拍摄。" },
+        "chauffeur": { "title": "专属司机", "desc": "配备最快劳斯莱斯的专业司机。提供小时和日租套餐。" }
+      },
+      "models": { "phantom": { "price": "5,800迪拉姆/天" }, "ghost": { "price": "3,800迪拉姆/天" }, "cullinan": { "price": "6,500迪拉姆/天" }, "dawn": { "price": "5,500迪拉姆/天" }, "spectre": { "price": "7,500迪拉姆/天" } }
+    },
+    "phantom": {
+      "relatedSubtitle": "通过我们的优质服务体验幻影",
+      "services": {
+        "wedding": { "title": "婚礼服务", "desc": "幻影是世界上最负盛名的婚车。白色加长版配花卉装饰和红地毯。" },
+        "corporate": { "title": "企业服务", "desc": "用旗舰幻影打动您的客户。完美的董事级接送。" },
+        "airport": { "title": "机场接送", "desc": "乘坐幻影的头等舱到达。DXB迎宾含航班追踪。" }
+      },
+      "models": { "ghost": { "price": "3,800迪拉姆/天" }, "cullinan": { "price": "6,500迪拉姆/天" }, "dawn": { "price": "5,500迪拉姆/天" }, "wraith": { "price": "5,000迪拉姆/天" }, "spectre": { "price": "7,500迪拉姆/天" } }
+    },
+    "ghost": {
+      "relatedSubtitle": "通过我们的优质服务体验古思特",
+      "services": {
+        "corporate": { "title": "企业服务", "desc": "古思特是DIFC和商业湾行政接送的首选。" },
+        "chauffeur": { "title": "专属司机", "desc": "配备多语种专业司机。每小时800迪拉姆起。" },
+        "airport": { "title": "机场接送", "desc": "古思特VIP机场接送。DXB迎宾含航班追踪。" }
+      },
+      "models": { "phantom": { "price": "5,800迪拉姆/天" }, "cullinan": { "price": "6,500迪拉姆/天" }, "dawn": { "price": "5,500迪拉姆/天" }, "wraith": { "price": "5,000迪拉姆/天" }, "spectre": { "price": "7,500迪拉姆/天" } }
+    },
+    "cullinan": {
+      "relatedSubtitle": "通过我们的优质服务体验库里南",
+      "services": {
+        "tours": { "title": "沙漠之旅", "desc": "库里南是阿联酋沙漠探险和风景之旅的终极豪华SUV。" },
+        "corporate": { "title": "企业服务", "desc": "用世界上最豪华的SUV给人留下深刻印象。" },
+        "chauffeur": { "title": "专属司机", "desc": "配备库里南的专业司机。为家庭和团体提供宽敞奢华。" }
+      },
+      "models": { "phantom": { "price": "5,800迪拉姆/天" }, "ghost": { "price": "3,800迪拉姆/天" }, "dawn": { "price": "5,500迪拉姆/天" }, "wraith": { "price": "5,000迪拉姆/天" }, "spectre": { "price": "7,500迪拉姆/天" } }
+    },
+    "dawn": {
+      "rentalTitle": "曜影租赁套餐",
+      "tourTitle": "360° 曜影体验",
+      "routesTitle": "推荐迪拜路线",
+      "routeLabels": { "distance": "距离", "duration": "时长", "bestTime": "最佳时间", "highlights": "亮点" },
+      "cta": { "title": "在曜影中感受迪拜微风", "description": "立即预订，获赠日落驾驶路线图和专业摄影服务。", "callBtn": "致电: +971 55 816 4922", "checkAvailability": "查看可用性" },
+      "relatedSubtitle": "通过我们的优质服务体验曜影",
+      "services": {
+        "photoshoot": { "title": "摄影服务", "desc": "曜影敞篷的优雅非常适合在迪拜海岸线上的时尚拍摄。" },
+        "tours": { "title": "城市之旅", "desc": "在曜影敞篷中探索迪拜的壮丽地标。终极观光体验。" },
+        "wedding": { "title": "婚礼服务", "desc": "曜影敞篷为露天婚礼庆典增添魔幻色彩。" }
+      },
+      "models": { "phantom": { "price": "5,800迪拉姆/天" }, "ghost": { "price": "3,800迪拉姆/天" }, "cullinan": { "price": "6,500迪拉姆/天" }, "wraith": { "price": "5,000迪拉姆/天" }, "spectre": { "price": "7,500迪拉姆/天" } }
+    },
+    "spectre": {
+      "relatedSubtitle": "通过我们的优质服务体验闪灵",
+      "services": {
+        "corporate": { "title": "企业服务", "desc": "用世界首款超豪华电动车彰显品味。适合注重环保的高管。" },
+        "tours": { "title": "静音之旅", "desc": "在闪灵的低语奢华中探索迪拜。最安静的城市探索方式。" },
+        "chauffeur": { "title": "专属司机", "desc": "配备电动闪灵的专业司机。零排放，极致奢华。" }
+      },
+      "models": { "phantom": { "price": "5,800迪拉姆/天" }, "ghost": { "price": "3,800迪拉姆/天" }, "cullinan": { "price": "6,500迪拉姆/天" }, "dawn": { "price": "5,500迪拉姆/天" }, "wraith": { "price": "5,000迪拉姆/天" } }
+    }
+  },
   "services": {
     "title": "我们的尊贵服务",
     "subtitle": "为每个场合定制解决方案",
@@ -3189,9 +3273,9 @@
           "versatility": 70
         },
         "bestFor": [
-          "婚礼",
-          "商务",
-          "摄影"
+          "wedding",
+          "business",
+          "photography"
         ],
         "uniqueFeatures": [
           "1,340颗光纤星光顶",
@@ -3279,9 +3363,9 @@
           "versatility": 100
         },
         "bestFor": [
-          "家庭",
-          "休闲",
-          "商务"
+          "family",
+          "leisure",
+          "business"
         ],
         "uniqueFeatures": [
           "全地形能力",
@@ -3369,9 +3453,9 @@
           "versatility": 85
         },
         "bestFor": [
-          "商务",
-          "机场",
-          "休闲"
+          "business",
+          "airport",
+          "leisure"
         ],
         "uniqueFeatures": [
           "Planar悬挂系统",
@@ -3459,9 +3543,9 @@
           "versatility": 75
         },
         "bestFor": [
-          "婚礼",
-          "摄影",
-          "休闲"
+          "wedding",
+          "photography",
+          "leisure"
         ],
         "uniqueFeatures": [
           "静音软顶操作",
@@ -3549,9 +3633,9 @@
           "versatility": 70
         },
         "bestFor": [
-          "商务",
-          "摄影",
-          "休闲"
+          "business",
+          "photography",
+          "leisure"
         ],
         "uniqueFeatures": [
           "卫星辅助变速箱",

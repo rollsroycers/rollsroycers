@@ -344,7 +344,7 @@ export default function DawnPage() {
         <section className="py-20 bg-gradient-to-b from-rolls-black to-rolls-navy">
           <div className="container mx-auto px-4">
             <h2 className="text-4xl font-bold text-white text-center mb-12">
-              Dawn Rental Packages
+              {t('fleetPage.dawn.rentalTitle')}
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-6xl mx-auto mb-12">
               {rentalPackages.map((pkg, index) => (
@@ -377,7 +377,7 @@ export default function DawnPage() {
         <section className="py-20 bg-gradient-to-b from-rolls-navy to-rolls-black">
           <div className="container mx-auto px-4">
             <h2 className="text-4xl font-bold text-white text-center mb-12">
-              360° Dawn Experience
+              {t('fleetPage.dawn.tourTitle')}
             </h2>
             <VirtualTour tourSpots={tourSpots} />
           </div>
@@ -387,7 +387,7 @@ export default function DawnPage() {
         <section className="py-20 bg-gradient-to-b from-rolls-black to-rolls-navy">
           <div className="container mx-auto px-4">
             <h2 className="text-4xl font-bold text-white text-center mb-12">
-              Recommended Dubai Routes
+              {t('fleetPage.dawn.routesTitle')}
             </h2>
             <div className="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
               {routes.map((route: any, index: number) => (
@@ -397,10 +397,10 @@ export default function DawnPage() {
                     {route.path}
                   </p>
                   <ul className="space-y-2 text-sm text-gray-400">
-                    <li>• Distance: {route.distance}</li>
-                    <li>• Duration: {route.duration}</li>
-                    <li>• Best Time: {route.bestTime}</li>
-                    <li>• Highlights: {route.highlights}</li>
+                    <li>• {t('fleetPage.dawn.routeLabels.distance')}: {route.distance}</li>
+                    <li>• {t('fleetPage.dawn.routeLabels.duration')}: {route.duration}</li>
+                    <li>• {t('fleetPage.dawn.routeLabels.bestTime')}: {route.bestTime}</li>
+                    <li>• {t('fleetPage.dawn.routeLabels.highlights')}: {route.highlights}</li>
                   </ul>
                 </div>
               ))}
@@ -412,10 +412,10 @@ export default function DawnPage() {
         <section className="py-20 bg-gradient-to-b from-rolls-navy to-rolls-black">
           <div className="container mx-auto px-4 text-center">
             <h2 className="text-4xl font-bold text-white mb-6">
-              Feel the Dubai Breeze in a Dawn
+              {t('fleetPage.dawn.cta.title')}
             </h2>
             <p className="text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
-              Book now and receive a complimentary sunset drive route map and professional photography session
+              {t('fleetPage.dawn.cta.description')}
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <motion.a
@@ -424,10 +424,10 @@ export default function DawnPage() {
                 whileTap={{ scale: 0.95 }}
                 className="btn-primary"
               >
-                Call: +971 55 816 4922
+                {t('fleetPage.dawn.cta.callBtn')}
               </motion.a>
               <Link href="/booking" className="btn-secondary">
-                Check Availability
+                {t('fleetPage.dawn.cta.checkAvailability')}
               </Link>
             </div>
           </div>
@@ -437,7 +437,7 @@ export default function DawnPage() {
         <section className="py-20 bg-gradient-to-b from-rolls-black to-rolls-navy">
           <div className="container mx-auto px-4">
             <h2 className="text-4xl font-bold text-white text-center mb-12">
-              Compare Our Fleet
+              {t('fleetPage.compareFleet')}
             </h2>
             <ComparisonTool />
           </div>
@@ -446,13 +446,13 @@ export default function DawnPage() {
         {/* Related Services & Fleet */}
         <section className="py-20 bg-rolls-black">
           <div className="container mx-auto px-4">
-            <h2 className="text-3xl font-bold text-white text-center mb-4">Related Services</h2>
-            <p className="text-rolls-gold/70 text-center mb-12">Experience the Dawn with our premium services</p>
+            <h2 className="text-3xl font-bold text-white text-center mb-4">{t('fleetPage.relatedServices')}</h2>
+            <p className="text-rolls-gold/70 text-center mb-12">{t('fleetPage.dawn.relatedSubtitle')}</p>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-16">
               {[
-                { href: '/services/photoshoot', title: 'Photoshoot Service', desc: 'The Dawn convertible is our #1 pick for outdoor fashion shoots, music videos, and Instagram content in Dubai.' },
-                { href: '/services/tours', title: 'Dubai Tours', desc: 'Cruise Palm Jumeirah and Dubai Marina with the roof down. The ultimate open-air luxury tour experience.' },
-                { href: '/services/events', title: 'Events & Red Carpet', desc: 'Make a grand entrance at galas and premieres. The Dawn convertible guarantees all eyes on you.' },
+                { href: '/services/photoshoot', title: t('fleetPage.dawn.services.photoshoot.title'), desc: t('fleetPage.dawn.services.photoshoot.desc') },
+                { href: '/services/tours', title: t('fleetPage.dawn.services.tours.title'), desc: t('fleetPage.dawn.services.tours.desc') },
+                { href: '/services/wedding', title: t('fleetPage.dawn.services.wedding.title'), desc: t('fleetPage.dawn.services.wedding.desc') },
               ].map((service) => (
                 <Link key={service.href} href={service.href} className="group bg-white/5 border border-white/10 rounded-xl p-6 hover:border-rolls-gold/50 transition-all duration-300">
                   <h3 className="text-lg font-semibold text-white group-hover:text-rolls-gold transition-colors mb-2">{service.title}</h3>
@@ -460,14 +460,14 @@ export default function DawnPage() {
                 </Link>
               ))}
             </div>
-            <h3 className="text-2xl font-bold text-white text-center mb-8">Explore More Models</h3>
+            <h3 className="text-2xl font-bold text-white text-center mb-8">{t('fleetPage.exploreModels')}</h3>
             <div className="grid grid-cols-2 md:grid-cols-5 gap-4">
               {[
-                { href: '/fleet/phantom', name: 'Phantom', price: 'AED 5,800/day' },
-                { href: '/fleet/ghost', name: 'Ghost', price: 'AED 3,800/day' },
-                { href: '/fleet/cullinan', name: 'Cullinan', price: 'AED 6,500/day' },
-                { href: '/fleet/wraith', name: 'Wraith', price: 'AED 5,000/day' },
-                { href: '/fleet/spectre', name: 'Spectre', price: 'AED 7,500/day' },
+                { href: '/fleet/phantom', name: t('fleet.phantom.name'), price: t('fleetPage.dawn.models.phantom.price') },
+                { href: '/fleet/ghost', name: t('fleet.ghost.name'), price: t('fleetPage.dawn.models.ghost.price') },
+                { href: '/fleet/cullinan', name: t('fleet.cullinan.name'), price: t('fleetPage.dawn.models.cullinan.price') },
+                { href: '/fleet/wraith', name: t('fleet.wraith.name'), price: t('fleetPage.dawn.models.wraith.price') },
+                { href: '/fleet/spectre', name: t('fleet.spectre.name'), price: t('fleetPage.dawn.models.spectre.price') },
               ].map((model) => (
                 <Link key={model.href} href={model.href} className="group text-center bg-white/5 border border-white/10 rounded-lg p-4 hover:border-rolls-gold/50 transition-all">
                   <p className="text-white font-semibold group-hover:text-rolls-gold transition-colors">{model.name}</p>

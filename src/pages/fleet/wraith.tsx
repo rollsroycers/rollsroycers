@@ -221,10 +221,10 @@ export default function WraithPage() {
               className="text-center"
             >
               <h1 className="text-6xl md:text-8xl font-bold text-white mb-4">
-                WRAITH
+                {t('fleetPage.wraith.heroTitle')}
               </h1>
               <p className="text-2xl text-rolls-gold mb-8">
-                The Most Powerful Rolls-Royce Ever
+                {t('fleetPage.wraith.heroTagline')}
               </p>
               
               {/* Power Indicator */}
@@ -236,7 +236,7 @@ export default function WraithPage() {
                   className="text-center"
                 >
                   <div className="text-4xl font-bold text-rolls-gold">624</div>
-                  <div className="text-sm text-gray-400 uppercase">Horsepower</div>
+                  <div className="text-sm text-gray-400 uppercase">{t('fleetPage.horsepower')}</div>
                 </motion.div>
                 <motion.div
                   initial={{ scale: 0 }}
@@ -254,7 +254,7 @@ export default function WraithPage() {
                   className="text-center"
                 >
                   <div className="text-4xl font-bold text-rolls-gold">V12</div>
-                  <div className="text-sm text-gray-400 uppercase">Twin-Turbo</div>
+                  <div className="text-sm text-gray-400 uppercase">{t('fleetPage.twinTurbo')}</div>
                 </motion.div>
               </div>
 
@@ -264,10 +264,10 @@ export default function WraithPage() {
                   whileTap={{ scale: 0.95 }}
                   className="btn-primary"
                 >
-                  Reserve Wraith Now
+                  {t('fleetPage.wraith.reserveBtn')}
                 </motion.button>
                 <Link href="#black-badge" className="btn-secondary">
-                  Explore Black Badge
+                  {t('fleetPage.wraith.exploreBlackBadge')}
                 </Link>
               </div>
             </motion.div>
@@ -278,12 +278,12 @@ export default function WraithPage() {
         <section className="py-20 bg-gradient-to-b from-rolls-black to-rolls-navy">
           <div className="container mx-auto px-4">
             <h2 className="text-4xl font-bold text-white text-center mb-12">
-              Discover Wraith Excellence
+              {t('fleetPage.wraith.discoverTitle')}
             </h2>
             
             {/* Feature Tabs */}
             <div className="flex justify-center gap-4 mb-12 flex-wrap">
-              {['performance', 'design', 'technology', 'experience'].map((feature) => (
+              {(['performance', 'design', 'technology', 'experience'] as const).map((feature) => (
                 <button
                   key={feature}
                   onClick={() => setSelectedFeature(feature)}
@@ -293,7 +293,7 @@ export default function WraithPage() {
                       : 'bg-rolls-black/50 text-white border border-rolls-gold/20'
                   }`}
                 >
-                  {feature}
+                  {t(`fleetPage.wraith.tabs.${feature}`)}
                 </button>
               ))}
             </div>
@@ -422,7 +422,7 @@ export default function WraithPage() {
                     ))}
                   </ul>
                   <button className="btn-primary mt-8">
-                    Inquire About Black Badge
+                    {t('fleetPage.inquireBlackBadge')}
                   </button>
                 </div>
                 <div className="relative h-96 rounded-lg overflow-hidden">
@@ -434,8 +434,8 @@ export default function WraithPage() {
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-rolls-black/80 to-transparent"></div>
                   <div className="absolute bottom-6 left-6 right-6">
-                    <p className="text-white font-semibold text-lg">Black Badge</p>
-                    <p className="text-gray-300">The Alter Ego of Rolls-Royce</p>
+                    <p className="text-white font-semibold text-lg">{t('fleetPage.blackBadgeLabel')}</p>
+                    <p className="text-gray-300">{t('fleetPage.blackBadgeTagline')}</p>
                   </div>
                 </div>
               </div>
@@ -447,11 +447,11 @@ export default function WraithPage() {
         <section className="py-20 bg-gradient-to-b from-rolls-black to-rolls-navy">
           <div className="container mx-auto px-4">
             <h2 className="text-4xl font-bold text-white text-center mb-12">
-              Complete Specifications
+              {t('fleetPage.completeSpecs')}
             </h2>
             <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
               <div className="bg-rolls-black/50 backdrop-blur-sm border border-rolls-gold/20 rounded-lg p-8">
-                <h3 className="text-2xl font-semibold text-rolls-gold mb-6">Performance</h3>
+                <h3 className="text-2xl font-semibold text-rolls-gold mb-6">{t('fleetPage.performance')}</h3>
                 <div className="space-y-4">
                   {specifications.performance.map((spec, index) => (
                     <div key={index} className="flex justify-between items-center">
@@ -463,7 +463,7 @@ export default function WraithPage() {
               </div>
 
               <div className="bg-rolls-black/50 backdrop-blur-sm border border-rolls-gold/20 rounded-lg p-8">
-                <h3 className="text-2xl font-semibold text-rolls-gold mb-6">Dimensions</h3>
+                <h3 className="text-2xl font-semibold text-rolls-gold mb-6">{t('fleetPage.dimensions')}</h3>
                 <div className="space-y-4">
                   {specifications.dimensions.map((spec, index) => (
                     <div key={index} className="flex justify-between items-center">
@@ -475,7 +475,7 @@ export default function WraithPage() {
               </div>
 
               <div className="bg-rolls-black/50 backdrop-blur-sm border border-rolls-gold/20 rounded-lg p-8">
-                <h3 className="text-2xl font-semibold text-rolls-gold mb-6">Exclusive Features</h3>
+                <h3 className="text-2xl font-semibold text-rolls-gold mb-6">{t('fleetPage.exclusiveFeatures')}</h3>
                 <ul className="space-y-3">
                   {specifications.exclusive.map((feature, index) => (
                     <li key={index} className="flex items-start text-gray-300">
@@ -495,7 +495,7 @@ export default function WraithPage() {
         <section className="py-20 bg-gradient-to-b from-rolls-navy to-rolls-black">
           <div className="container mx-auto px-4">
             <h2 className="text-4xl font-bold text-white text-center mb-12">
-              Wraith Rental Packages
+              {t('fleetPage.wraith.rentalTitle')}
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-6xl mx-auto mb-12">
               {rentalPackages.map((pkg, index) => (
@@ -528,7 +528,7 @@ export default function WraithPage() {
         <section className="py-20 bg-gradient-to-b from-rolls-black to-rolls-navy">
           <div className="container mx-auto px-4">
             <h2 className="text-4xl font-bold text-white text-center mb-12">
-              360° Wraith Tour
+              {t('fleetPage.wraith.tourTitle')}
             </h2>
             <VirtualTour tourSpots={tourSpots} />
           </div>
@@ -538,10 +538,10 @@ export default function WraithPage() {
         <section className="py-20 bg-gradient-to-b from-rolls-navy to-rolls-black">
           <div className="container mx-auto px-4 text-center">
             <h2 className="text-4xl font-bold text-white mb-6">
-              Command the Most Powerful Rolls-Royce
+              {t('fleetPage.wraith.cta.title')}
             </h2>
             <p className="text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
-              Experience the Wraith's perfect balance of luxury and performance. Book now for exclusive track day access.
+              {t('fleetPage.wraith.cta.description')}
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <motion.a
@@ -550,10 +550,10 @@ export default function WraithPage() {
                 whileTap={{ scale: 0.95 }}
                 className="btn-primary"
               >
-                Call: +971 55 816 4922
+                {t('fleetPage.wraith.cta.callBtn')}
               </motion.a>
               <Link href="/booking" className="btn-secondary">
-                Configure Your Wraith
+                {t('fleetPage.wraith.cta.configureBtn')}
               </Link>
             </div>
           </div>
@@ -563,7 +563,7 @@ export default function WraithPage() {
         <section className="py-20 bg-gradient-to-b from-rolls-black to-rolls-navy">
           <div className="container mx-auto px-4">
             <h2 className="text-4xl font-bold text-white text-center mb-12">
-              Compare Our Fleet
+              {t('fleetPage.compareFleet')}
             </h2>
             <ComparisonTool />
           </div>
@@ -572,13 +572,13 @@ export default function WraithPage() {
         {/* Related Services & Fleet */}
         <section className="py-20 bg-rolls-black">
           <div className="container mx-auto px-4">
-            <h2 className="text-3xl font-bold text-white text-center mb-4">Related Services</h2>
-            <p className="text-rolls-gold/70 text-center mb-12">Experience the Wraith with our premium services</p>
+            <h2 className="text-3xl font-bold text-white text-center mb-4">{t('fleetPage.relatedServices')}</h2>
+            <p className="text-rolls-gold/70 text-center mb-12">{t('fleetPage.wraith.relatedSubtitle')}</p>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-16">
               {[
-                { href: '/services/events', title: 'Events & Red Carpet', desc: 'The Wraith\'s dramatic fastback silhouette makes it the ultimate statement car for galas and premieres.' },
-                { href: '/services/photoshoot', title: 'Photoshoot Service', desc: 'The Wraith\'s Starlight Headliner and bold coupe lines are perfect for dramatic editorial and fashion shoots.' },
-                { href: '/services/chauffeur', title: 'Chauffeur Service', desc: 'Professional chauffeur with the fastest Rolls-Royce. Hourly and daily packages available.' },
+                { href: '/services/events', title: t('fleetPage.wraith.services.events.title'), desc: t('fleetPage.wraith.services.events.desc') },
+                { href: '/services/photoshoot', title: t('fleetPage.wraith.services.photoshoot.title'), desc: t('fleetPage.wraith.services.photoshoot.desc') },
+                { href: '/services/chauffeur', title: t('fleetPage.wraith.services.chauffeur.title'), desc: t('fleetPage.wraith.services.chauffeur.desc') },
               ].map((service) => (
                 <Link key={service.href} href={service.href} className="group bg-white/5 border border-white/10 rounded-xl p-6 hover:border-rolls-gold/50 transition-all duration-300">
                   <h3 className="text-lg font-semibold text-white group-hover:text-rolls-gold transition-colors mb-2">{service.title}</h3>
@@ -586,14 +586,14 @@ export default function WraithPage() {
                 </Link>
               ))}
             </div>
-            <h3 className="text-2xl font-bold text-white text-center mb-8">Explore More Models</h3>
+            <h3 className="text-2xl font-bold text-white text-center mb-8">{t('fleetPage.exploreModels')}</h3>
             <div className="grid grid-cols-2 md:grid-cols-5 gap-4">
               {[
-                { href: '/fleet/phantom', name: 'Phantom', price: 'AED 5,800/day' },
-                { href: '/fleet/ghost', name: 'Ghost', price: 'AED 3,800/day' },
-                { href: '/fleet/cullinan', name: 'Cullinan', price: 'AED 6,500/day' },
-                { href: '/fleet/dawn', name: 'Dawn', price: 'AED 5,500/day' },
-                { href: '/fleet/spectre', name: 'Spectre', price: 'AED 7,500/day' },
+                { href: '/fleet/phantom', name: t('fleet.phantom.name'), price: t('fleetPage.wraith.models.phantom.price') },
+                { href: '/fleet/ghost', name: t('fleet.ghost.name'), price: t('fleetPage.wraith.models.ghost.price') },
+                { href: '/fleet/cullinan', name: t('fleet.cullinan.name'), price: t('fleetPage.wraith.models.cullinan.price') },
+                { href: '/fleet/dawn', name: t('fleet.dawn.name'), price: t('fleetPage.wraith.models.dawn.price') },
+                { href: '/fleet/spectre', name: t('fleet.spectre.name'), price: t('fleetPage.wraith.models.spectre.price') },
               ].map((model) => (
                 <Link key={model.href} href={model.href} className="group text-center bg-white/5 border border-white/10 rounded-lg p-4 hover:border-rolls-gold/50 transition-all">
                   <p className="text-white font-semibold group-hover:text-rolls-gold transition-colors">{model.name}</p>
