@@ -6,6 +6,18 @@ import { optimizeForMobile, setMobileViewportHeight } from '@/utils/mobileOptimi
 import { getPerformanceMonitor } from '@/utils/performanceMonitor'
 import { initializePerformanceOptimizations } from '@/utils/performanceOptimizations'
 
+// i18n config passed explicitly — required for Cloudflare Workers where
+// auto-resolving next-i18next.config.js at runtime is not possible
+const i18nConfig = {
+  i18n: {
+    defaultLocale: 'en',
+    locales: ['en', 'ar', 'ru', 'fr', 'zh', 'hi'],
+    localeDetection: false,
+  },
+  defaultNS: 'common',
+  react: { useSuspense: false },
+}
+
 // Minimal app with React 18 compatibility
 function MyApp({ Component, pageProps }: AppProps) {
   const [isMounted, setIsMounted] = useState(false)
@@ -75,4 +87,4 @@ export function reportWebVitals(metric: any) {
   }
 }
 
-export default appWithTranslation(MyApp)
+export default appWithTranslation(MyApp, i18nConfig as any)
