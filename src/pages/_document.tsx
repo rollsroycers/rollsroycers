@@ -120,9 +120,9 @@ class MyDocument extends Document {
               window.addEventListener('load', function() {
                 var idle = window.requestIdleCallback || function(cb) { setTimeout(cb, 2000); };
                 idle(function() {
-                  var sc_project=13143252;
-                  var sc_invisible=1;
-                  var sc_security="e91ea536";
+                  window.sc_project=13143252;
+                  window.sc_invisible=1;
+                  window.sc_security="e91ea536";
                   var s=document.createElement('script');
                   s.type='text/javascript';
                   s.async=true;

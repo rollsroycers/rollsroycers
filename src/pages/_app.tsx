@@ -1,7 +1,7 @@
 import '@/styles/globals.css'
 import type { AppProps } from 'next/app'
 import { appWithTranslation } from 'next-i18next'
-import { useEffect, useState } from 'react'
+import { useEffect } from 'react'
 import { Playfair_Display, Montserrat, Noto_Sans_Arabic } from 'next/font/google'
 import { optimizeForMobile, setMobileViewportHeight } from '@/utils/mobileOptimizations'
 import { getPerformanceMonitor } from '@/utils/performanceMonitor'
@@ -42,11 +42,7 @@ const i18nConfig = {
 
 // Minimal app with React 18 compatibility
 function MyApp({ Component, pageProps }: AppProps) {
-  const [isMounted, setIsMounted] = useState(false)
-
   useEffect(() => {
-    setIsMounted(true)
-
     // Critical: Initialize mobile optimizations immediately
     optimizeForMobile()
     setMobileViewportHeight()
@@ -65,11 +61,6 @@ function MyApp({ Component, pageProps }: AppProps) {
   }, [])
 
   const fontClasses = `${playfairDisplay.variable} ${montserrat.variable} ${notoSansArabic.variable}`
-
-  // During SSR, render minimal component
-  if (!isMounted) {
-    return <div className={fontClasses}><Component {...pageProps} /></div>
-  }
 
   return <div className={fontClasses}><Component {...pageProps} /></div>
 }

@@ -47,7 +47,7 @@ const nextConfig = {
     dangerouslyAllowSVG: true,
     contentDispositionType: 'attachment',
     // Lazy load images outside viewport
-    loader: 'default',
+    unoptimized: true,
     // Disable static imports for better performance
     disableStaticImages: false,
   },
@@ -84,7 +84,7 @@ const nextConfig = {
           },
           {
             key: 'Content-Security-Policy',
-            value: "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://www.googletagmanager.com https://www.google-analytics.com https://statcounter.com https://*.statcounter.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; img-src 'self' data: blob: https: http:; font-src 'self' https://fonts.gstatic.com; connect-src 'self' https://www.google-analytics.com https://*.statcounter.com https://api.indexnow.org; frame-src 'self' https://www.youtube.com https://www.google.com; media-src 'self' blob:; object-src 'none'; base-uri 'self'; form-action 'self';"
+            value: "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://www.googletagmanager.com https://www.google-analytics.com https://statcounter.com https://*.statcounter.com https://static.cloudflareinsights.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; img-src 'self' data: blob: https: http:; font-src 'self' data: https://fonts.gstatic.com; connect-src 'self' https://www.google-analytics.com https://*.statcounter.com https://api.indexnow.org https://cloudflareinsights.com; frame-src 'self' https://www.youtube.com https://www.google.com; media-src 'self' blob:; object-src 'none'; base-uri 'self'; form-action 'self';"
           }
         ]
       },
@@ -280,57 +280,6 @@ const nextConfig = {
       if (!isServer) {
         // Add ModuleConcatenationPlugin for better tree shaking
         config.plugins.push(new webpack.optimize.ModuleConcatenationPlugin())
-        
-        config.optimization = {
-          ...config.optimization,
-          minimize: true,
-          runtimeChunk: false, // Disabled for Cloudflare Workers compatibility
-          moduleIds: 'deterministic',
-          usedExports: true,
-          splitChunks: {
-            ...config.optimization.splitChunks,
-            chunks: 'all',
-            maxAsyncRequests: 15,
-            maxInitialRequests: 15,
-            minSize: 20000,
-            cacheGroups: {
-              ...(config.optimization.splitChunks && config.optimization.splitChunks.cacheGroups || {}),
-              framework: {
-                test: /[\/]node_modules[\/](react|react-dom|scheduler)[\/]/,
-                name: 'framework',
-                chunks: 'all',
-                priority: 40,
-                enforce: true,
-              },
-              framerMotion: {
-                test: /[\/]node_modules[\/]framer-motion[\/]/,
-                name: 'framer-motion',
-                chunks: 'all',
-                priority: 35,
-              },
-              i18n: {
-                test: /[\/]node_modules[\/](i18next|react-i18next|next-i18next)[\/]/,
-                name: 'i18n',
-                chunks: 'all',
-                priority: 30,
-              },
-              lib: {
-                test: /[\/]node_modules[\/]/,
-                name: 'lib',
-                chunks: 'all',
-                priority: 20,
-                reuseExistingChunk: true,
-              },
-              commons: {
-                name: 'commons',
-                chunks: 'all',
-                minChunks: 2,
-                priority: 10,
-                reuseExistingChunk: true,
-              },
-            },
-          },
-        };
 
         // Replace React with Preact in production (optional - for even smaller bundles)
         if (process.env.USE_PREACT === 'true') {
