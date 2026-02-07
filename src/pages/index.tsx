@@ -381,8 +381,8 @@ export default function Home() {
               
               <Link href="/compare/rolls-royce-vs-bentley" className="bg-rolls-black/50 backdrop-blur-sm border border-rolls-gold/20 rounded-lg p-6 hover:border-rolls-gold/40 transition-all text-center group">
                 <div className="text-4xl mb-3">⚖️</div>
-                <h3 className="text-white font-semibold group-hover:text-rolls-gold transition-colors">{t('home.explore.compare.title')}</h3>
-                <p className="text-gray-400 text-sm mt-2">{t('home.explore.compare.subtitle')}</p>
+                <h3 className="text-white font-semibold group-hover:text-rolls-gold transition-colors">{t('home.explore.comparison.title')}</h3>
+                <p className="text-gray-400 text-sm mt-2">{t('home.explore.comparison.subtitle')}</p>
               </Link>
             </div>
           </div>

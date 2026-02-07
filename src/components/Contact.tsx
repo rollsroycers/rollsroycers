@@ -73,7 +73,7 @@ export default function Contact() {
                     name="name"
                     value={formData.name}
                     onChange={handleChange}
-                    placeholder={t('contact.form.name')}
+                    placeholder={t('contact.form.name.placeholder')}
                     required
                     className="w-full px-6 py-4 bg-rolls-navy/50 border border-rolls-gold/20 rounded-sm text-white placeholder-gray-400 focus:border-rolls-gold focus:outline-none transition-colors"
                   />
@@ -84,7 +84,7 @@ export default function Contact() {
                     name="email"
                     value={formData.email}
                     onChange={handleChange}
-                    placeholder={t('contact.form.email')}
+                    placeholder={t('contact.form.email.placeholder')}
                     required
                     className="w-full px-6 py-4 bg-rolls-navy/50 border border-rolls-gold/20 rounded-sm text-white placeholder-gray-400 focus:border-rolls-gold focus:outline-none transition-colors"
                   />
@@ -98,7 +98,7 @@ export default function Contact() {
                     name="phone"
                     value={formData.phone}
                     onChange={handleChange}
-                    placeholder={t('contact.form.phone')}
+                    placeholder={t('contact.form.phone.placeholder')}
                     required
                     className="w-full px-6 py-4 bg-rolls-navy/50 border border-rolls-gold/20 rounded-sm text-white placeholder-gray-400 focus:border-rolls-gold focus:outline-none transition-colors"
                   />
@@ -151,7 +151,7 @@ export default function Contact() {
                   name="message"
                   value={formData.message}
                   onChange={handleChange}
-                  placeholder={t('contact.form.message')}
+                  placeholder={t('contact.form.message.placeholder')}
                   rows={4}
                   className="w-full px-6 py-4 bg-rolls-navy/50 border border-rolls-gold/20 rounded-sm text-white placeholder-gray-400 focus:border-rolls-gold focus:outline-none transition-colors resize-none"
                 />

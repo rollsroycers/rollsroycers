@@ -1574,7 +1574,21 @@
           "Accès prioritaire aux réservations",
           "Livraison gratuite de voiture à Dubaï",
           "Rafraîchissements gratuits"
-        ]
+        ],
+        "instagram": {
+          "followJourney": "Suivez notre parcours",
+          "account": "@rollsroycers",
+          "post1": "Arrivée luxueuse avec élégance",
+          "post2": "Ambiance coucher de soleil",
+          "post3": "Prêt pour l'aventure du désert",
+          "post4": "Élégance urbaine",
+          "post5": "Objectifs week-end",
+          "post6": "Rêves de skyline de Dubaï",
+          "joinCommunity": "Rejoignez notre communauté",
+          "communityDesc": "Suivez-nous pour du contenu exclusif et de l'inspiration lifestyle luxe.",
+          "follow": "Suivez-nous",
+          "notifications": "Activer les notifications"
+        }
       },
       "gold": {
         "name": "Membre Or",
@@ -4877,7 +4891,10 @@
       "submitting": "Envoi en cours...",
       "success": "✓ Message envoyé avec succès!",
       "error": "✗ Échec de l'envoi. Veuillez réessayer.",
-      "sending": "Envoi en cours..."
+      "sending": "Envoi en cours...",
+      "car": "Sélectionner le véhicule",
+      "duration": "Durée de location (ex: 3 jours)",
+      "date": "Sélectionner la date"
     },
     "businessHours": {
       "title": "Heures d'ouverture",
@@ -4918,6 +4935,7 @@
       "email": "info@rollsroycedubai.com",
       "title": "Nos informations"
     },
+    "cta": "Disponible 24/7 - Appelez ou envoyez un WhatsApp",
     "map": "Notre Emplacement",
     "subtitle": "Contactez nos experts en location de luxe",
     "title": "Contactez-nous"
@@ -5650,6 +5668,8 @@
     "rating": "Note",
     "reviews": "Avis",
     "verified": "Client vérifié",
+    "readMore": "Lire la suite",
+    "showLess": "Voir moins",
     "readAll": "Lire tous les avis",
     "writeReview": "Écrire un avis",
     "averageRating": "Note moyenne",
@@ -5670,7 +5690,8 @@
       "date": "Janvier 2026",
       "service": "Mariage",
       "location": "Abu Dhabi, EAU",
-      "review": "La meilleure expérience de location à Dubaï. La Phantom était impeccable et le service de première classe. Hautement recommandé."
+      "review": "La meilleure expérience de location à Dubaï. La Phantom était impeccable et le service de première classe. Hautement recommandé.",
+      "car": "Rolls-Royce Phantom"
     },
     "review2": {
       "name": "Sara Al-Mansouri",
@@ -5679,7 +5700,8 @@
       "date": "Décembre 2025",
       "service": "Entreprise",
       "location": "Doha, Qatar",
-      "review": "Loué la Cullinan pour un voyage en famille. Voiture spacieuse et luxueuse, chauffeur très professionnel."
+      "review": "Loué la Cullinan pour un voyage en famille. Voiture spacieuse et luxueuse, chauffeur très professionnel.",
+      "car": "Rolls-Royce Cullinan"
     },
     "review3": {
       "name": "Jean Dupont",
@@ -5688,7 +5710,8 @@
       "date": "Novembre 2025",
       "service": "Location personnelle",
       "location": "Londres, Royaume-Uni",
-      "review": "Service exceptionnel du début à la fin. L'équipe a été très accommodante pour ma réservation de dernière minute."
+      "review": "Service exceptionnel du début à la fin. L'équipe a été très accommodante pour ma réservation de dernière minute.",
+      "car": "Rolls-Royce Ghost"
     },
     "review4": {
       "name": "Marie Laurent",
@@ -5697,7 +5720,8 @@
       "date": "Octobre 2025",
       "service": "Tours",
       "location": "Shanghai, Chine",
-      "review": "Loué une flotte de Rolls-Royce pour un événement d'entreprise. Les voitures étaient superbes et la logistique parfaite."
+      "review": "Loué une flotte de Rolls-Royce pour un événement d'entreprise. Les voitures étaient superbes et la logistique parfaite.",
+      "car": "Rolls-Royce Ghost"
     },
     "review5": {
       "name": "Pierre Martin",
@@ -5706,7 +5730,8 @@
       "date": "Septembre 2025",
       "service": "Chauffeur",
       "location": "Riyad, Arabie Saoudite",
-      "review": "La Dawn était parfaite pour un week-end à Dubaï. L'expérience cabriolet était inoubliable. Excellent service."
+      "review": "La Dawn était parfaite pour un week-end à Dubaï. L'expérience cabriolet était inoubliable. Excellent service.",
+      "car": "Rolls-Royce Dawn"
     },
     "review6": {
       "name": "Sophie Dubois",
@@ -5715,7 +5740,8 @@
       "date": "Août 2025",
       "service": "Mariage",
       "location": "Moscou, Russie",
-      "review": "Client régulier et jamais déçu. Les voitures sont toujours en état impeccable et le personnel très professionnel."
+      "review": "Client régulier et jamais déçu. Les voitures sont toujours en état impeccable et le personnel très professionnel.",
+      "car": "Rolls-Royce Cullinan"
     },
     "review7": {
       "name": "Thomas Bernard",
@@ -5724,7 +5750,8 @@
       "date": "Juillet 2025",
       "service": "Aéroport",
       "location": "Munich, Allemagne",
-      "review": "L'attention aux détails les distingue. De la réservation à la livraison, tout était fluide."
+      "review": "L'attention aux détails les distingue. De la réservation à la livraison, tout était fluide.",
+      "car": "Rolls-Royce Phantom"
     },
     "review8": {
       "name": "Isabelle Moreau",
@@ -5733,7 +5760,8 @@
       "date": "Juin 2025",
       "service": "Événements",
       "location": "Mumbai, Inde",
-      "review": "Nous avons loué la Phantom pour notre mariage. La touche parfaite de luxe pour notre journée spéciale."
+      "review": "Nous avons loué la Phantom pour notre mariage. La touche parfaite de luxe pour notre journée spéciale.",
+      "car": "Rolls-Royce Phantom"
     },
     "review9": {
       "name": "Nicolas Petit",
@@ -5742,7 +5770,8 @@
       "date": "Mai 2025",
       "service": "Photoshoot",
       "location": "Taipei, Taïwan",
-      "review": "La Wraith est une bête ! L'équipe Rolls-Royce Dubai a rendu le processus si simple. Je reviendrai."
+      "review": "La Wraith est une bête ! L'équipe Rolls-Royce Dubai a rendu le processus si simple. Je reviendrai.",
+      "car": "Rolls-Royce Wraith"
     },
     "review10": {
       "name": "Camille Roux",
@@ -5751,7 +5780,8 @@
       "date": "Avril 2025",
       "service": "Tours",
       "location": "Koweït, Koweït",
-      "review": "J'ai loué chez de nombreuses entreprises à Dubaï, mais celle-ci est de loin la meilleure. Leur flotte est inégalée."
+      "review": "J'ai loué chez de nombreuses entreprises à Dubaï, mais celle-ci est de loin la meilleure. Leur flotte est inégalée.",
+      "car": "Rolls-Royce Ghost"
     }
   },
   "phantomPage": {

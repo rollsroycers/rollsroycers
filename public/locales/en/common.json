@@ -1588,7 +1588,9 @@
     "shareYourStory": "Share Your Story",
     "claimYourOffer": "Claim Your Offer",
     "termsApply": "*Terms and conditions apply",
-    "aed": "AED"
+    "aed": "AED",
+    "excellent": "Excellent",
+    "basedOnReviews": "Based on {{count}} reviews"
   },
   "cookie": {
     "title": "This website uses cookies",
@@ -1620,7 +1622,8 @@
     "monthly": {
       "title": "Monthly Rental",
       "description": "Get a special discounted rate for rentals of 30 days or more.",
-      "code": "MONTHLYLUX"
+      "code": "MONTHLYLUX",
+      "discount": "30% OFF"
     },
     "chauffeur": {
       "title": "Chauffeur Package",
@@ -1679,65 +1682,89 @@
     "overallRating": "Overall Rating",
     "basedOn": "Based on",
     "reviewsCount": "reviews",
+    "rating": "5.0",
+    "verified": "Verified Customer",
+    "readMore": "Read More",
+    "showLess": "Show Less",
     "review1": {
       "name": "Ahmed Al-Mansoori",
       "location": "Abu Dhabi, UAE",
       "review": "The best car rental experience I've had in Dubai. The Phantom was immaculate and the service was first-class. Highly recommended.",
-      "rating": 5
+      "rating": 5,
+      "date": "January 2025",
+      "car": "Rolls-Royce Phantom"
     },
     "review2": {
       "name": "Fatima Al-Fahim",
       "location": "Doha, Qatar",
       "review": "Rented the Cullinan for a family trip. The car was spacious and luxurious, and the chauffeur was very professional and knowledgeable.",
-      "rating": 5
+      "rating": 5,
+      "date": "December 2024",
+      "car": "Rolls-Royce Cullinan"
     },
     "review3": {
       "name": "John Smith",
       "location": "London, UK",
       "review": "Exceptional service from start to finish. The team was very accommodating with my last-minute booking. The Ghost was a dream to drive.",
-      "rating": 5
+      "rating": 5,
+      "date": "November 2024",
+      "car": "Rolls-Royce Ghost"
     },
     "review4": {
       "name": "Li Wei",
       "location": "Shanghai, China",
       "review": "We hired a fleet of Rolls-Royce cars for a corporate event. The cars were stunning and the logistics were handled perfectly. Impressive.",
-      "rating": 5
+      "rating": 5,
+      "date": "October 2024",
+      "car": "Rolls-Royce Ghost"
     },
     "review5": {
       "name": "Abdullah Al-Saud",
       "location": "Riyadh, KSA",
       "review": "The Dawn was the perfect car for a weekend getaway in Dubai. The convertible experience was unforgettable. Excellent service.",
-      "rating": 5
+      "rating": 5,
+      "date": "September 2024",
+      "car": "Rolls-Royce Dawn"
     },
     "review6": {
       "name": "Sergey Ivanov",
       "location": "Moscow, Russia",
       "review": "I am a regular customer and they never disappoint. The cars are always in pristine condition and the staff is very professional.",
-      "rating": 5
+      "rating": 5,
+      "date": "August 2024",
+      "car": "Rolls-Royce Cullinan"
     },
     "review7": {
       "name": "Hans Müller",
       "location": "Munich, Germany",
       "review": "The attention to detail is what sets them apart. From the booking process to the car delivery, everything was seamless.",
-      "rating": 5
+      "rating": 5,
+      "date": "July 2024",
+      "car": "Rolls-Royce Phantom"
     },
     "review8": {
       "name": "Aisha Khan",
       "location": "Mumbai, India",
       "review": "We rented the Phantom for our wedding. It was the perfect touch of luxury for our special day. The chauffeur was amazing.",
-      "rating": 5
+      "rating": 5,
+      "date": "June 2024",
+      "car": "Rolls-Royce Phantom"
     },
     "review9": {
       "name": "David Chen",
       "location": "Taipei, Taiwan",
       "review": "The Wraith is a beast! What a car. The team at Rolls-Royce Dubai made the entire process so easy. Will be back for more.",
-      "rating": 5
+      "rating": 5,
+      "date": "May 2024",
+      "car": "Rolls-Royce Wraith"
     },
     "review10": {
       "name": "Mohammed Al-Jaber",
       "location": "Kuwait City, Kuwait",
       "review": "I have rented from many luxury car companies in Dubai, but this is by far the best. Their fleet is unmatched.",
-      "rating": 5
+      "rating": 5,
+      "date": "April 2024",
+      "car": "Rolls-Royce Ghost"
     }
   },
   "loyalty": {
@@ -1788,7 +1815,21 @@
           "Priority booking access",
           "Free car delivery within Dubai",
           "Complimentary refreshments"
-        ]
+        ],
+        "instagram": {
+          "followJourney": "Follow Our Journey",
+          "account": "@rollsroycers",
+          "post1": "Luxury arrival in style",
+          "post2": "Sunset cruise vibes",
+          "post3": "Desert adventure ready",
+          "post4": "City lights elegance",
+          "post5": "Weekend getaway goals",
+          "post6": "Dubai skyline dreams",
+          "joinCommunity": "Join Our Community",
+          "communityDesc": "Follow us for exclusive content, behind-the-scenes access, and luxury lifestyle inspiration.",
+          "follow": "Follow Us",
+          "notifications": "Turn on notifications"
+        }
       },
       "gold": {
         "name": "Gold Member",
@@ -1954,6 +1995,7 @@
       "terms": "*Terms apply",
       "useOffer": "USE THIS OFFER"
     },
+    "ai": "AI-Powered",
     "notFound": {
       "title": "No offers found",
       "description": "We couldn't find any special offers for you at the moment. Please check back later.",
@@ -2071,6 +2113,9 @@
         "evening": "Evening (5PM - 8PM)",
         "anytime": "Anytime"
       },
+      "car": "Select Vehicle",
+      "duration": "Rental Duration (e.g., 3 days)",
+      "date": "Select Date",
       "submit": "Send Message",
       "submitting": "Sending...",
       "success": "✓ Message sent successfully!",
@@ -2083,6 +2128,7 @@
       "email": "info@rollsroycedubai.com",
       "hours": "Open 24/7"
     },
+    "cta": "Available 24/7 - Call or WhatsApp anytime",
     "map": "Our Location",
     "hero": {
       "title": "Get in Touch",

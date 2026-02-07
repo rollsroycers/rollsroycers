@@ -34,7 +34,7 @@ export default function Reviews() {
       date: t('reviews.review1.date'),
       car: t('reviews.review1.car'),
       review: t('reviews.review1.review'),
-      nationality: t('reviews.review1.nationality')
+      nationality: t('reviews.review1.location')
     },
     {
       id: 2,
@@ -44,7 +44,7 @@ export default function Reviews() {
       date: t('reviews.review2.date'),
       car: t('reviews.review2.car'),
       review: t('reviews.review2.review'),
-      nationality: t('reviews.review2.nationality')
+      nationality: t('reviews.review2.location')
     },
     {
       id: 3,
@@ -54,7 +54,7 @@ export default function Reviews() {
       date: t('reviews.review3.date'),
       car: t('reviews.review3.car'),
       review: t('reviews.review3.review'),
-      nationality: t('reviews.review3.nationality')
+      nationality: t('reviews.review3.location')
     },
     {
       id: 4,
@@ -64,7 +64,7 @@ export default function Reviews() {
       date: t('reviews.review4.date'),
       car: t('reviews.review4.car'),
       review: t('reviews.review4.review'),
-      nationality: t('reviews.review4.nationality')
+      nationality: t('reviews.review4.location')
     },
     {
       id: 5,
@@ -74,7 +74,7 @@ export default function Reviews() {
       date: t('reviews.review5.date'),
       car: t('reviews.review5.car'),
       review: t('reviews.review5.review'),
-      nationality: t('reviews.review5.nationality')
+      nationality: t('reviews.review5.location')
     },
     {
       id: 6,
@@ -84,7 +84,7 @@ export default function Reviews() {
       date: t('reviews.review6.date'),
       car: t('reviews.review6.car'),
       review: t('reviews.review6.review'),
-      nationality: t('reviews.review6.nationality')
+      nationality: t('reviews.review6.location')
     },
     {
       id: 7,
@@ -94,7 +94,7 @@ export default function Reviews() {
       date: t('reviews.review7.date'),
       car: t('reviews.review7.car'),
       review: t('reviews.review7.review'),
-      nationality: t('reviews.review7.nationality')
+      nationality: t('reviews.review7.location')
     },
     {
       id: 8,
@@ -104,7 +104,7 @@ export default function Reviews() {
       date: t('reviews.review8.date'),
       car: t('reviews.review8.car'),
       review: t('reviews.review8.review'),
-      nationality: t('reviews.review8.nationality')
+      nationality: t('reviews.review8.location')
     },
     {
       id: 9,
@@ -114,7 +114,7 @@ export default function Reviews() {
       date: t('reviews.review9.date'),
       car: t('reviews.review9.car'),
       review: t('reviews.review9.review'),
-      nationality: t('reviews.review9.nationality')
+      nationality: t('reviews.review9.location')
     },
     {
       id: 10,
@@ -124,7 +124,7 @@ export default function Reviews() {
       date: t('reviews.review10.date'),
       car: t('reviews.review10.car'),
       review: t('reviews.review10.review'),
-      nationality: t('reviews.review10.nationality')
+      nationality: t('reviews.review10.location')
     }
   ]
 
