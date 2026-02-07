@@ -90,22 +90,27 @@ export const serverSideTranslations = async (
   locale: string,
   namespaces?: string[]
 ) => {
-  // Try native next-i18next (works locally with filesystem access)
-  try {
-    return await _serverSideTranslations(locale, namespaces, i18nConfig as any)
-  } catch (error) {
-    console.error('[i18n] Filesystem load failed, using bundled translations:', error)
-  }
-
-  // Fallback: construct props from bundled translations (Cloudflare Workers)
   const ns = namespaces || ['common']
   const lang = locale || 'en'
+
+  // In development, use filesystem via next-i18next for hot reload support
+  if (process.env.NODE_ENV === 'development') {
+    try {
+      return await _serverSideTranslations(locale, ns, i18nConfig as any)
+    } catch (error) {
+      console.error('[i18n] Filesystem load failed in dev:', error)
+    }
+  }
+
+  // In production (and as dev fallback), always use bundled translations.
+  // This is required for Cloudflare Workers where fs.readFileSync is unavailable.
+  // The require() calls above are resolved by webpack at build time, so the JSON
+  // data is embedded directly in the JS bundle — no filesystem access needed.
   const localeResources = bundled[lang] || bundled['en']
   const defaultResources = bundled['en']
 
   const store: Record<string, Record<string, any>> = {}
 
-  // Load requested locale
   store[lang] = {}
   for (const n of ns) {
     store[lang][n] = localeResources[n] || {}
