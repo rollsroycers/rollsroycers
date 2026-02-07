@@ -126,6 +126,7 @@ export default function Custom404() {
       <Head>
         <title>404 - Page Not Found | Rolls-Royce Dubai</title>
         <meta name="description" content="The page you're looking for doesn't exist. Explore our luxury Rolls-Royce fleet or contact us for assistance." />
+        <meta name="robots" content="noindex, follow" />
       </Head>
 
       <div className="min-h-screen bg-gray-900 flex items-center justify-center px-4">

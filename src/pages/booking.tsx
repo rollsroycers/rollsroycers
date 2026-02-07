@@ -30,7 +30,7 @@ export default function BookingPage() {
   
   const vehicles = ensureArray([
     { id: 'phantom', name: t('booking.vehicles.phantom'), price: 'AED 5,800/day' },
-    { id: 'ghost', name: t('booking.vehicles.ghost'), price: 'AED 4,800/day' },
+    { id: 'ghost', name: t('booking.vehicles.ghost'), price: 'AED 3,800/day' },
     { id: 'cullinan', name: t('booking.vehicles.cullinan'), price: 'AED 6,500/day' },
     { id: 'dawn', name: t('booking.vehicles.dawn'), price: 'AED 5,500/day' },
     { id: 'wraith', name: t('booking.vehicles.wraith'), price: 'AED 5,000/day' },

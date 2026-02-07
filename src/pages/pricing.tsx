@@ -46,9 +46,9 @@ export default function PricingPage() {
       tagline: 'Effortless Everywhere',
       image: '/images/Black_Rolls_Royce_Ghost.jpg',
       prices: {
-        daily: 4800,
-        weekly: 28800,
-        monthly: 96000
+        daily: 3800,
+        weekly: 22800,
+        monthly: 76000
       },
       features: [
         'Illuminated fascia',

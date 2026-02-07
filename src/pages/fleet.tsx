@@ -1,6 +1,7 @@
 import { GetStaticProps } from 'next'
 import { serverSideTranslations } from '@/lib/serverSideTranslations'
 import { useTranslation } from 'next-i18next'
+import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
 import { motion } from 'framer-motion'
@@ -8,6 +9,8 @@ import { useState, useEffect } from 'react'
 import Layout from '@/components/Layout'
 import WhatsAppButton from '@/components/WhatsAppButton'
 import SEO from '@/components/SEO'
+import GEOOptimizer from '@/components/GEOOptimizer'
+import EntitySchema from '@/components/EntitySchema'
 import ComparisonTool from '@/components/ComparisonTool'
 import { createWhatsAppLinkProps } from '@/utils/whatsapp'
 
@@ -91,8 +94,8 @@ export default function FleetPage() {
       category: 'sedan',
       tagline: t('fleet:vehicles.ghost.tagline'),
       description: t('fleet:vehicles.ghost.description'),
-      price: 'AED 4,800',
-      originalPrice: 'AED 5,200',
+      price: 'AED 3,800',
+      originalPrice: 'AED 4,200',
       image: '/images/Rolls-Royce_Ghost_Black_Badge.jpg',
       gallery: [
         '/images/Rolls-Royce_Ghost_Black_Badge.jpg',
@@ -186,6 +189,44 @@ export default function FleetPage() {
   return (
     <>
       <SEO pageKey="fleet.index" />
+      <GEOOptimizer
+        pageKey="fleet.index"
+        title="Rolls-Royce Fleet Dubai 2026 — All Models Available"
+        description="Browse the complete Rolls-Royce rental fleet in Dubai. Phantom, Ghost, Cullinan, Dawn, Wraith, Spectre with chauffeur from AED 3,800/day."
+        entityType="ItemList"
+        primaryTopic="Rolls-Royce Fleet Dubai"
+        contentSummary="Complete Rolls-Royce rental fleet in Dubai: Phantom from AED 5,800/day, Ghost from AED 3,800/day, Cullinan from AED 6,500/day, Dawn from AED 5,500/day, Wraith from AED 5,000/day, Spectre from AED 7,500/day. All include chauffeur, insurance, and free delivery."
+        facts={['6 Rolls-Royce models available','Ghost from AED 3,800/day','Phantom from AED 5,800/day','Cullinan SUV from AED 6,500/day','Spectre EV from AED 7,500/day','All rentals include chauffeur and insurance']}
+        pricing={{ currency: 'AED', items: [
+          { name: 'Rolls-Royce Ghost', price: '3800', unit: 'DAY' },
+          { name: 'Rolls-Royce Wraith', price: '5000', unit: 'DAY' },
+          { name: 'Rolls-Royce Dawn', price: '5500', unit: 'DAY' },
+          { name: 'Rolls-Royce Phantom', price: '5800', unit: 'DAY' },
+          { name: 'Rolls-Royce Cullinan', price: '6500', unit: 'DAY' },
+          { name: 'Rolls-Royce Spectre', price: '7500', unit: 'DAY' }
+        ]}}
+      />
+      <EntitySchema pageType="fleet" />
+      <Head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "ItemList",
+            "name": "Rolls-Royce Fleet Dubai",
+            "description": "Complete Rolls-Royce rental fleet available in Dubai",
+            "numberOfItems": 6,
+            "itemListElement": [
+              { "@type": "ListItem", "position": 1, "name": "Rolls-Royce Phantom", "url": "https://rollsroycers.com/fleet/phantom" },
+              { "@type": "ListItem", "position": 2, "name": "Rolls-Royce Cullinan", "url": "https://rollsroycers.com/fleet/cullinan" },
+              { "@type": "ListItem", "position": 3, "name": "Rolls-Royce Ghost", "url": "https://rollsroycers.com/fleet/ghost" },
+              { "@type": "ListItem", "position": 4, "name": "Rolls-Royce Dawn", "url": "https://rollsroycers.com/fleet/dawn" },
+              { "@type": "ListItem", "position": 5, "name": "Rolls-Royce Wraith", "url": "https://rollsroycers.com/fleet/wraith" },
+              { "@type": "ListItem", "position": 6, "name": "Rolls-Royce Spectre", "url": "https://rollsroycers.com/fleet/spectre" }
+            ]
+          }) }}
+        />
+      </Head>
       <Layout>
         {/* Hero Section */}
         <section className="relative h-screen flex items-center justify-center overflow-hidden">

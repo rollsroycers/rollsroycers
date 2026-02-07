@@ -36,8 +36,7 @@ export default function handler(req: NextApiRequest, res: NextApiResponse) {
           loc: '/images/Rolls-royce-phantom.jpg',
           title: 'Luxury Rolls-Royce Fleet Dubai',
           caption: 'Premium Rolls-Royce cars available for rent in Dubai',
-          geo_location: 'Dubai, United Arab Emirates',
-          license: 'https://rollsroycers.com/terms'
+          geo_location: 'Dubai, United Arab Emirates'
         },
         {
           loc: '/images/Rolls-royce-dubai.jpg',
@@ -56,16 +55,18 @@ export default function handler(req: NextApiRequest, res: NextApiResponse) {
         }
       ]
     },
-    { url: '/about', changefreq: 'monthly', priority: '0.8', lastmod: '2025-01-06' },
-    { url: '/contact', changefreq: 'monthly', priority: '0.7', lastmod: '2025-01-06' },
+    { url: '/fleet', changefreq: 'weekly', priority: '0.9', lastmod: currentDate },
+    { url: '/services', changefreq: 'weekly', priority: '0.9', lastmod: currentDate },
+    { url: '/locations', changefreq: 'weekly', priority: '0.9', lastmod: currentDate },
+    { url: '/about', changefreq: 'monthly', priority: '0.8', lastmod: currentDate },
+    { url: '/contact', changefreq: 'monthly', priority: '0.7', lastmod: currentDate },
     { url: '/booking', changefreq: 'weekly', priority: '0.9', lastmod: currentDate },
     { url: '/blog', changefreq: 'daily', priority: '0.8', lastmod: currentDate },
-    { url: '/gallery', changefreq: 'weekly', priority: '0.8', lastmod: '2025-01-06' },
-    { url: '/faq', changefreq: 'monthly', priority: '0.7', lastmod: '2025-01-06' },
+    { url: '/gallery', changefreq: 'weekly', priority: '0.8', lastmod: currentDate },
+    { url: '/faq', changefreq: 'monthly', priority: '0.7', lastmod: currentDate },
     { url: '/testimonials', changefreq: 'weekly', priority: '0.8', lastmod: currentDate },
     { url: '/pricing', changefreq: 'weekly', priority: '0.9', lastmod: currentDate },
-    { url: '/terms', changefreq: 'yearly', priority: '0.3', lastmod: '2025-01-06' },
-    { url: '/privacy', changefreq: 'yearly', priority: '0.3', lastmod: '2025-01-06' },
+    { url: '/privacy', changefreq: 'yearly', priority: '0.3', lastmod: currentDate },
   ]
 
   const fleetPages: SitemapPage[] = [
@@ -73,7 +74,7 @@ export default function handler(req: NextApiRequest, res: NextApiResponse) {
       url: '/fleet/phantom',
       changefreq: 'weekly',
       priority: '0.9',
-      lastmod: '2025-01-06',
+      lastmod: currentDate,
       images: [
         {
           loc: '/images/Rolls-Royce_Phantom_Extended_Series_II.jpg',
@@ -86,7 +87,7 @@ export default function handler(req: NextApiRequest, res: NextApiResponse) {
       url: '/fleet/ghost',
       changefreq: 'weekly',
       priority: '0.9',
-      lastmod: '2025-01-06',
+      lastmod: currentDate,
       images: [
         {
           loc: '/images/Rolls-Royce_Ghost_Black_Badge.jpg',
@@ -99,7 +100,7 @@ export default function handler(req: NextApiRequest, res: NextApiResponse) {
       url: '/fleet/cullinan',
       changefreq: 'weekly',
       priority: '0.9',
-      lastmod: '2025-01-06',
+      lastmod: currentDate,
       images: [
         {
           loc: '/images/2024_Rolls-Royce_Cullinan.jpg',
@@ -112,7 +113,7 @@ export default function handler(req: NextApiRequest, res: NextApiResponse) {
       url: '/fleet/dawn',
       changefreq: 'weekly',
       priority: '0.9',
-      lastmod: '2025-01-06',
+      lastmod: currentDate,
       images: [
         {
           loc: '/images/Rolls-Royce_Dawn.jpg',
@@ -121,39 +122,86 @@ export default function handler(req: NextApiRequest, res: NextApiResponse) {
         }
       ]
     },
-    { url: '/fleet/wraith', changefreq: 'weekly', priority: '0.9', lastmod: '2025-01-06' },
+    { url: '/fleet/wraith', changefreq: 'weekly', priority: '0.9', lastmod: currentDate },
+    {
+      url: '/fleet/spectre',
+      changefreq: 'weekly',
+      priority: '0.9',
+      lastmod: currentDate,
+      images: [
+        {
+          loc: '/images/2024_Rolls-Royce_Spectre.jpg',
+          title: 'Rolls-Royce Spectre Electric',
+          caption: 'Luxury Rolls-Royce Spectre electric coupe rental Dubai'
+        }
+      ]
+    },
+    {
+      url: '/fleet/cullinan-black-badge',
+      changefreq: 'weekly',
+      priority: '0.85',
+      lastmod: currentDate,
+      images: [
+        {
+          loc: '/images/2024_Rolls-Royce_Cullinan_Black_Badge.jpg',
+          title: 'Rolls-Royce Cullinan Black Badge',
+          caption: 'Rolls-Royce Cullinan Black Badge rental Dubai'
+        }
+      ]
+    },
+    {
+      url: '/fleet/ghost-black-badge',
+      changefreq: 'weekly',
+      priority: '0.85',
+      lastmod: currentDate,
+      images: [
+        {
+          loc: '/images/Rolls-Royce-Ghost-Black-Badge.jpg',
+          title: 'Rolls-Royce Ghost Black Badge',
+          caption: 'Rolls-Royce Ghost Black Badge rental Dubai'
+        }
+      ]
+    },
   ]
 
   const servicePages: SitemapPage[] = [
-    { url: '/services/wedding', changefreq: 'weekly', priority: '0.8', lastmod: '2025-01-06' },
-    { url: '/services/airport-transfer', changefreq: 'weekly', priority: '0.8', lastmod: '2025-01-06' },
-    { url: '/services/corporate', changefreq: 'weekly', priority: '0.8', lastmod: '2025-01-06' },
-    { url: '/services/chauffeur', changefreq: 'weekly', priority: '0.8', lastmod: '2025-01-06' },
-    { url: '/services/events', changefreq: 'weekly', priority: '0.8', lastmod: '2025-01-06' },
-    { url: '/services/photoshoot', changefreq: 'weekly', priority: '0.8', lastmod: '2025-01-06' },
-    { url: '/services/tours', changefreq: 'weekly', priority: '0.8', lastmod: '2025-01-06' },
+    { url: '/services/wedding', changefreq: 'weekly', priority: '0.8', lastmod: currentDate },
+    { url: '/services/airport-transfer', changefreq: 'weekly', priority: '0.8', lastmod: currentDate },
+    { url: '/services/corporate', changefreq: 'weekly', priority: '0.8', lastmod: currentDate },
+    { url: '/services/chauffeur', changefreq: 'weekly', priority: '0.8', lastmod: currentDate },
+    { url: '/services/events', changefreq: 'weekly', priority: '0.8', lastmod: currentDate },
+    { url: '/services/photoshoot', changefreq: 'weekly', priority: '0.8', lastmod: currentDate },
+    { url: '/services/tours', changefreq: 'weekly', priority: '0.8', lastmod: currentDate },
+    { url: '/services/birthday', changefreq: 'weekly', priority: '0.75', lastmod: currentDate },
+    { url: '/services/hourly-rental', changefreq: 'weekly', priority: '0.75', lastmod: currentDate },
   ]
 
   const locationPages: SitemapPage[] = [
-    { url: '/locations/downtown-dubai', changefreq: 'weekly', priority: '0.8', lastmod: '2025-01-06' },
-    { url: '/locations/dubai-marina', changefreq: 'weekly', priority: '0.8', lastmod: '2025-01-06' },
-    { url: '/locations/palm-jumeirah', changefreq: 'weekly', priority: '0.7', lastmod: '2025-01-06' },
-    { url: '/locations/business-bay', changefreq: 'weekly', priority: '0.7', lastmod: '2025-01-06' },
-    { url: '/locations/jbr', changefreq: 'weekly', priority: '0.7', lastmod: '2025-01-06' },
-    { url: '/locations/difc', changefreq: 'weekly', priority: '0.8', lastmod: '2025-01-06' },
+    { url: '/locations/downtown-dubai', changefreq: 'weekly', priority: '0.8', lastmod: currentDate },
+    { url: '/locations/dubai-marina', changefreq: 'weekly', priority: '0.8', lastmod: currentDate },
+    { url: '/locations/palm-jumeirah', changefreq: 'weekly', priority: '0.7', lastmod: currentDate },
+    { url: '/locations/business-bay', changefreq: 'weekly', priority: '0.7', lastmod: currentDate },
+    { url: '/locations/jbr', changefreq: 'weekly', priority: '0.7', lastmod: currentDate },
+    { url: '/locations/difc', changefreq: 'weekly', priority: '0.8', lastmod: currentDate },
+    { url: '/locations/jumeirah', changefreq: 'weekly', priority: '0.7', lastmod: currentDate },
+    { url: '/locations/deira', changefreq: 'weekly', priority: '0.7', lastmod: currentDate },
   ]
 
   const blogPages: SitemapPage[] = [
-    { url: '/blog/ultimate-guide-rolls-royce-rental-dubai', changefreq: 'monthly', priority: '0.7', lastmod: '2025-01-06' },
-    { url: '/blog/top-scenic-drives-dubai', changefreq: 'monthly', priority: '0.6', lastmod: '2025-01-06' },
-    { url: '/blog/rolls-royce-wedding-car-dubai', changefreq: 'monthly', priority: '0.6', lastmod: '2025-01-06' },
-    { url: '/blog/business-travel-rolls-royce', changefreq: 'monthly', priority: '0.6', lastmod: '2025-01-06' },
+    { url: '/blog/ultimate-guide-rolls-royce-rental-dubai', changefreq: 'monthly', priority: '0.7', lastmod: currentDate },
+    { url: '/blog/top-scenic-drives-dubai', changefreq: 'monthly', priority: '0.6', lastmod: currentDate },
+    { url: '/blog/rolls-royce-wedding-car-dubai', changefreq: 'monthly', priority: '0.6', lastmod: currentDate },
+    { url: '/blog/business-travel-rolls-royce', changefreq: 'monthly', priority: '0.6', lastmod: currentDate },
     { url: '/blog/rolls-royce-chauffeur-dubai-guide', changefreq: 'monthly', priority: '0.7', lastmod: currentDate },
     { url: '/blog/rolls-royce-airport-transfer-dubai', changefreq: 'monthly', priority: '0.7', lastmod: currentDate },
   ]
 
   const comparisonPages: SitemapPage[] = [
-    { url: '/compare/rolls-royce-vs-bentley', changefreq: 'monthly', priority: '0.7', lastmod: '2025-01-06' },
+    { url: '/compare', changefreq: 'monthly', priority: '0.7', lastmod: currentDate },
+    { url: '/compare/rolls-royce-vs-bentley', changefreq: 'monthly', priority: '0.7', lastmod: currentDate },
+    { url: '/compare/phantom-vs-maybach', changefreq: 'monthly', priority: '0.7', lastmod: currentDate },
+    { url: '/compare/rolls-royce-vs-ferrari', changefreq: 'monthly', priority: '0.7', lastmod: currentDate },
+    { url: '/compare/rolls-royce-vs-mercedes', changefreq: 'monthly', priority: '0.7', lastmod: currentDate },
   ]
 
   const languages = ['en', 'ar', 'ru', 'fr', 'zh', 'hi']

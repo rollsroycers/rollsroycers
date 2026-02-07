@@ -35,7 +35,11 @@ export default function GEOOptimizer({
   const currentLang = i18n.language || 'en'
   const baseUrl = 'https://rollsroycers.com'
 
-  const cleanPath = (router.asPath || '/').split('#')[0].split('?')[0]
+  const rawPath = (router.asPath || '/').split('#')[0].split('?')[0]
+  // Strip any locale prefix from the path
+  const cleanPath = rawPath
+    .replace(/^\/(en|ar|zh|fr|ru|hi)(\/|$)/, '/$2')
+    .replace(/^\/+$/, '/')
   const localePath = currentLang === 'en' ? '' : `/${currentLang}`
   const canonicalUrl = `${baseUrl}${localePath}${cleanPath === '/' ? '' : cleanPath}`
 

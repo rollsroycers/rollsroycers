@@ -41,7 +41,7 @@ export default function AvailabilityCalendar() {
   const cars = ensureArray([
     { id: 'phantom', name: 'Rolls-Royce Phantom', price: 5800, image: '/images/Rolls-royce-phantom.jpg' },
     { id: 'cullinan', name: 'Rolls-Royce Cullinan', price: 6500, image: '/images/Rolls-Royce-Cullinan_.jpg' },
-    { id: 'ghost', name: 'Rolls-Royce Ghost', price: 4800, image: '/images/Rolls-Royce-black.jpg' },
+    { id: 'ghost', name: 'Rolls-Royce Ghost', price: 3800, image: '/images/Rolls-Royce-black.jpg' },
     { id: 'dawn', name: 'Rolls-Royce Dawn', price: 5500, image: '/images/Rolls-Royce-white.jpg' },
     { id: 'wraith', name: 'Rolls-Royce Wraith', price: 5000, image: '/images/Rolls-Royce-front.jpg' }
   ])

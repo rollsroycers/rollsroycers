@@ -25,17 +25,21 @@ function MyApp({ Component, pageProps }: AppProps) {
   useEffect(() => {
     setIsMounted(true)
 
-    // Initialize mobile optimizations
+    // Critical: Initialize mobile optimizations immediately
     optimizeForMobile()
-
-    // Set up mobile-safe viewport height
     setMobileViewportHeight()
 
-    // Initialize performance monitoring
-    getPerformanceMonitor()
+    // Defer non-critical initializations to avoid blocking FCP/LCP
+    const deferNonCritical = () => {
+      getPerformanceMonitor()
+      initializePerformanceOptimizations()
+    }
 
-    // Initialize general performance optimizations
-    initializePerformanceOptimizations()
+    if ('requestIdleCallback' in window) {
+      (window as any).requestIdleCallback(deferNonCritical, { timeout: 3000 })
+    } else {
+      setTimeout(deferNonCritical, 2000)
+    }
   }, [])
 
   // During SSR, render minimal component

@@ -24,7 +24,7 @@ export default function EntitySchema({
   const autoRentalSchema = {
     "@context": "https://schema.org",
     "@type": "AutoRental",
-    "@id": `${baseUrl}/#autorental`,
+    "@id": `${baseUrl}/#organization`,
     "name": "Rolls Roycers Dubai",
     "alternateName": ["Rolls Royce Rental Dubai", "Rolls-Royce Dubai", "تأجير رولز رويس دبي"],
     "url": baseUrl,

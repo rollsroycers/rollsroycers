@@ -1,6 +1,7 @@
 import { GetStaticProps } from 'next'
 import { serverSideTranslations } from '@/lib/serverSideTranslations'
 import { useTranslation } from 'next-i18next'
+import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
 import { motion } from 'framer-motion'
@@ -95,6 +96,27 @@ export default function EventsServicePage() {
   return (
     <>
       <SEO pageKey="services.events" />
+      <Head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Service",
+            "name": "Rolls-Royce Events & Red Carpet Service Dubai",
+            "description": "Premium Rolls-Royce rental for events, galas, premieres, award ceremonies, and VIP occasions in Dubai.",
+            "url": "https://rollsroycers.com/services/events",
+            "provider": { "@id": "https://rollsroycers.com/#organization" },
+            "areaServed": { "@type": "City", "name": "Dubai" },
+            "serviceType": "Event Car Rental",
+            "offers": {
+              "@type": "Offer",
+              "priceCurrency": "AED",
+              "price": "3800",
+              "description": "Starting from AED 3,800 per event"
+            }
+          }) }}
+        />
+      </Head>
       <GEOOptimizer
         pageKey="services.events"
         title="Rolls-Royce Events & Red Carpet Dubai 2026"

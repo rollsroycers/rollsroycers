@@ -1,5 +1,6 @@
 import { GetStaticProps, GetStaticPaths } from 'next'
 import { serverSideTranslations } from '@/lib/serverSideTranslations'
+import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
 import { motion } from 'framer-motion'
@@ -3927,22 +3928,14 @@ interface BlogArticle {
   relatedArticles: string[]
 }
 
-export default function BlogArticlePage() {
+interface BlogPageProps {
+  article: BlogArticle | null
+  relatedArticlesData: { slug: string; title: string; image: string; category: string; readTime: string }[]
+}
+
+export default function BlogArticlePage({ article, relatedArticlesData }: BlogPageProps) {
   const router = useRouter()
   const { slug } = router.query
-  
-  const article = (() => {
-    const s = (slug as string) || ''
-    const locale = (router.locale as string) || 'en'
-    // Prefer localized article if available
-    const byLocale = localizedArticles[locale] && localizedArticles[locale][s]
-    if (byLocale) return byLocale
-    // Fallback to English localized if exists
-    const enLocale = localizedArticles['en'] && localizedArticles['en'][s]
-    if (enLocale) return enLocale
-    // Fallback to legacy English articles
-    return s ? blogArticles[s] : null
-  })()
 
   if (!article) {
     return (
@@ -4058,6 +4051,31 @@ export default function BlogArticlePage() {
         title={article.title}
         description={article.description}
       />
+      <Head>
+        <meta property="article:published_time" content={article.date} />
+        <meta property="article:modified_time" content={article.date} />
+        <meta property="article:author" content={article.author} />
+        <meta property="article:section" content={article.category} />
+        <meta property="article:tag" content="Rolls-Royce" />
+        <meta property="article:tag" content="Dubai" />
+        <meta property="article:tag" content="Luxury Car Rental" />
+        <meta property="article:tag" content={article.category} />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Article",
+            "headline": article.title,
+            "description": article.description,
+            "image": `https://rollsroycers.com${article.image}`,
+            "author": { "@type": "Person", "name": article.author },
+            "publisher": { "@id": "https://rollsroycers.com/#organization" },
+            "datePublished": article.date,
+            "dateModified": article.date,
+            "mainEntityOfPage": { "@type": "WebPage", "@id": `https://rollsroycers.com/blog/${slug}` }
+          }) }}
+        />
+      </Head>
       <Layout>
         {/* Hero Section */}
         <section className="relative h-[60vh] flex items-center justify-center overflow-hidden">
@@ -4173,19 +4191,18 @@ export default function BlogArticlePage() {
               Related Articles
             </h2>
             <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
-              {article.relatedArticles.map((relatedSlug: string, index: number) => {
-                const related = blogArticles[relatedSlug]
+              {relatedArticlesData.map((related, index: number) => {
                 if (!related) return null
                 
                 return (
                   <motion.div
-                    key={relatedSlug}
+                    key={related.slug}
                     initial={{ opacity: 0, y: 20 }}
                     whileInView={{ opacity: 1, y: 0 }}
                     transition={{ delay: index * 0.1 }}
                   >
                     <Link
-                      href={`/blog/${relatedSlug}`}
+                      href={`/blog/${related.slug}`}
                       className="block bg-rolls-black/50 backdrop-blur-sm border border-rolls-gold/20 rounded-lg overflow-hidden hover:border-rolls-gold/40 transition-all"
                     >
                       <div className="aspect-video relative">
@@ -4260,10 +4277,30 @@ export const getStaticPaths: GetStaticPaths = async () => {
   }
 }
 
-export const getStaticProps: GetStaticProps = async ({ locale }) => {
+export const getStaticProps: GetStaticProps = async ({ params, locale }) => {
+  const slug = params?.slug as string
+  const currentLocale = locale || 'en'
+  
+  // Resolve article: prefer localized, fallback to English localized, fallback to legacy
+  const article = (
+    (localizedArticles[currentLocale] && localizedArticles[currentLocale][slug]) ||
+    (localizedArticles['en'] && localizedArticles['en'][slug]) ||
+    blogArticles[slug] ||
+    null
+  )
+  
+  // Resolve related articles data (only send minimal data to client)
+  const relatedArticlesData = article?.relatedArticles?.map((relSlug: string) => {
+    const rel = blogArticles[relSlug]
+    if (!rel) return null
+    return { slug: relSlug, title: rel.title, image: rel.image, category: rel.category, readTime: rel.readTime }
+  }).filter(Boolean) || []
+  
   return {
     props: {
-      ...(await serverSideTranslations(locale || 'en', ["common","seo","navigation"])),
+      ...(await serverSideTranslations(currentLocale, ["common","seo","navigation"])),
+      article: article ? JSON.parse(JSON.stringify(article)) : null,
+      relatedArticlesData,
     },
   }
 }

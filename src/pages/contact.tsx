@@ -1,5 +1,6 @@
 import { GetStaticProps } from 'next'
 import { serverSideTranslations } from '@/lib/serverSideTranslations'
+import Head from 'next/head'
 import SEO from '@/components/SEO'
 import Image from 'next/image'
 import Link from 'next/link'
@@ -94,6 +95,39 @@ export default function ContactPage() {
   return (
     <Layout>
       <SEO pageKey="other.contact" />
+      <Head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "ContactPage",
+            "name": "Contact Rolls Roycers Dubai",
+            "description": "Get in touch with Rolls Roycers Dubai for luxury car rental inquiries, bookings, and support.",
+            "url": "https://rollsroycers.com/contact",
+            "mainEntity": {
+              "@type": "Organization",
+              "@id": "https://rollsroycers.com/#organization",
+              "name": "Rolls Roycers Dubai",
+              "telephone": "+971558164922",
+              "email": "info@rollsroycers.com",
+              "contactPoint": [
+                {
+                  "@type": "ContactPoint",
+                  "telephone": "+971558164922",
+                  "contactType": "customer service",
+                  "availableLanguage": ["English", "Arabic", "French", "Russian", "Chinese", "Hindi"],
+                  "hoursAvailable": {
+                    "@type": "OpeningHoursSpecification",
+                    "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+                    "opens": "00:00",
+                    "closes": "23:59"
+                  }
+                }
+              ]
+            }
+          }) }}
+        />
+      </Head>
 
       <div className="min-h-screen bg-gray-900 pt-20">
         {/* Hero Section */}

@@ -1,6 +1,7 @@
 import { GetStaticProps } from 'next'
 import { serverSideTranslations } from '@/lib/serverSideTranslations'
 import { useTranslation } from 'next-i18next'
+import Head from 'next/head'
 import SEO from '@/components/SEO'
 import Image from 'next/image'
 import Link from 'next/link'
@@ -446,6 +447,20 @@ export default function GalleryPage() {
   return (
     <Layout>
       <SEO pageKey="other.gallery" />
+      <Head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "ImageGallery",
+            "name": "Rolls-Royce Dubai Photo Gallery",
+            "description": "Premium photo gallery showcasing luxury Rolls-Royce vehicles available for rent in Dubai",
+            "url": "https://rollsroycers.com/gallery",
+            "about": { "@id": "https://rollsroycers.com/#organization" },
+            "numberOfItems": galleryImages.length
+          }) }}
+        />
+      </Head>
       <Script id="gallery-video-schema" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(videoSchemaData) }} />
 
       <div className="min-h-screen bg-gray-900 pt-20">

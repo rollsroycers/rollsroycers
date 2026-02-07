@@ -34,9 +34,7 @@ const CACHE_STRATEGIES = {
   ],
   staleWhileRevalidate: [
     /^\/images\//,
-    /\.(png|jpg|jpeg|svg|gif|webp|avif)$/,
-    /^\/$/,
-    /^\/[^\/]+$/  // Top-level pages
+    /\.(png|jpg|jpeg|svg|gif|webp|avif)$/
   ]
 };
 
@@ -94,7 +92,14 @@ self.addEventListener('fetch', (event) => {
     return;
   }
   
-  // Determine caching strategy
+  // Always use network-first for HTML navigation requests
+  // This ensures search engine bots always get fresh content
+  if (request.mode === 'navigate' || request.headers.get('accept')?.includes('text/html')) {
+    event.respondWith(networkFirst(request));
+    return;
+  }
+  
+  // Determine caching strategy for non-HTML resources
   const strategy = getCachingStrategy(url.pathname);
   
   switch (strategy) {

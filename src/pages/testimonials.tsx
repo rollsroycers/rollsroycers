@@ -1,6 +1,7 @@
 import { GetStaticProps } from 'next'
 import { serverSideTranslations } from '@/lib/serverSideTranslations'
 import { useTranslation } from 'next-i18next'
+import Head from 'next/head'
 import SEO from '@/components/SEO'
 import Image from 'next/image'
 import Link from 'next/link'
@@ -377,6 +378,47 @@ export default function TestimonialsPage() {
   return (
     <>
       <SEO pageKey="other.testimonials" />
+      <Head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "LocalBusiness",
+            "@id": "https://rollsroycers.com/#localbusiness",
+            "name": "Rolls Roycers Dubai",
+            "aggregateRating": {
+              "@type": "AggregateRating",
+              "ratingValue": "4.9",
+              "reviewCount": "25",
+              "bestRating": "5",
+              "worstRating": "1"
+            },
+            "review": [
+              {
+                "@type": "Review",
+                "author": { "@type": "Person", "name": "Ahmed & Fatima Al-Rashid" },
+                "datePublished": "2024-12-15",
+                "reviewBody": "Our wedding day was made absolutely magical with the Rolls-Royce fleet.",
+                "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" }
+              },
+              {
+                "@type": "Review",
+                "author": { "@type": "Person", "name": "Sarah Mitchell" },
+                "datePublished": "2024-11-20",
+                "reviewBody": "The Dawn convertible was the perfect choice for our beach wedding at Jumeirah.",
+                "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" }
+              },
+              {
+                "@type": "Review",
+                "author": { "@type": "Person", "name": "Mohamed Hassan" },
+                "datePublished": "2024-10-08",
+                "reviewBody": "Professional service for our corporate events in Dubai.",
+                "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" }
+              }
+            ]
+          }) }}
+        />
+      </Head>
 
       <Layout>
         {/* Hero Section */}

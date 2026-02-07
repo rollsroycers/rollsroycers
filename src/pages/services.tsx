@@ -7,6 +7,7 @@ import { motion } from 'framer-motion'
 import Layout from '@/components/Layout'
 import WhatsAppButton from '@/components/WhatsAppButton'
 import SEO from '@/components/SEO'
+import GEOOptimizer from '@/components/GEOOptimizer'
 import ServiceStructuredData from '@/components/ServiceStructuredData'
 import { useState } from 'react'
 
@@ -145,6 +146,15 @@ export default function ServicesPage() {
   return (
     <>
       <SEO pageKey="services.main" />
+      <GEOOptimizer
+        pageKey="services.main"
+        title="Rolls-Royce Services Dubai 2026 — Wedding, Corporate, Airport & More"
+        description="Premium Rolls-Royce services in Dubai: wedding car rental, corporate transportation, airport transfers, chauffeur service, events, photoshoots, tours."
+        entityType="Service"
+        primaryTopic="Rolls-Royce Services Dubai"
+        contentSummary="9 premium Rolls-Royce services in Dubai: Wedding Car Rental from AED 2,500, Corporate Transportation from AED 1,200/day, Airport Transfer from AED 1,500, Chauffeur Service from AED 800/hour, Events & Red Carpet, Photoshoot & Film from AED 1,200/hour, Dubai City Tours from AED 2,500/4hrs, Birthday Celebrations from AED 2,000, Hourly Rental from AED 800/hour."
+        facts={['9 specialized luxury services','Wedding car from AED 2,500','Airport transfer from AED 1,500','Chauffeur service from AED 800/hour','24/7 availability across Dubai','Professional multilingual chauffeurs']}
+      />
       <ServiceStructuredData
         serviceName="Premium Rolls-Royce Services Dubai"
         serviceType="main"

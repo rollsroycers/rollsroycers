@@ -138,7 +138,7 @@ export default function Navbar() {
                         href={item.href}
                         className="flex items-center space-x-3 px-4 py-3 text-white hover:bg-rolls-gold/20 hover:text-rolls-gold transition-all"
                       >
-                        <span className="text-xl">{item.icon}</span>
+                        <span className="text-xl" role="img" aria-hidden="true">{item.icon}</span>
                         <span>{item.label}</span>
                       </Link>
                     ))}
@@ -176,7 +176,7 @@ export default function Navbar() {
                         href={item.href}
                         className="flex items-center space-x-3 px-4 py-3 text-white hover:bg-rolls-gold/20 hover:text-rolls-gold transition-all"
                       >
-                        <span className="text-xl">{item.icon}</span>
+                        <span className="text-xl" role="img" aria-hidden="true">{item.icon}</span>
                         <span>{item.label}</span>
                       </Link>
                     ))}
@@ -214,7 +214,7 @@ export default function Navbar() {
                         href={item.href}
                         className="flex items-center space-x-3 px-4 py-3 text-white hover:bg-rolls-gold/20 hover:text-rolls-gold transition-all"
                       >
-                        <span className="text-xl">{item.icon}</span>
+                        <span className="text-xl" role="img" aria-hidden="true">{item.icon}</span>
                         <span>{item.label}</span>
                       </Link>
                     ))}
@@ -247,7 +247,7 @@ export default function Navbar() {
                     href={item.href}
                     className="flex items-center space-x-3 px-4 py-3 text-white hover:bg-rolls-gold/20 hover:text-rolls-gold transition-all"
                   >
-                    <span className="text-xl">{item.icon}</span>
+                    <span className="text-xl" role="img" aria-hidden="true">{item.icon}</span>
                     <span>{item.label}</span>
                   </Link>
                 ))}
@@ -364,7 +364,7 @@ export default function Navbar() {
                             className="flex items-center space-x-3 px-4 py-3 text-gray-300 hover:text-rolls-gold rounded-md transition-all touch-action-manipulation min-h-[44px]"
                             onClick={() => setIsOpen(false)}
                           >
-                            <span>{item.icon}</span>
+                            <span role="img" aria-hidden="true">{item.icon}</span>
                             <span>{item.label}</span>
                           </Link>
                         ))}
@@ -405,7 +405,7 @@ export default function Navbar() {
                             className="flex items-center space-x-2 px-3 py-2 text-gray-300 hover:text-rolls-gold rounded-md transition-all"
                             onClick={() => setIsOpen(false)}
                           >
-                            <span>{item.icon}</span>
+                            <span role="img" aria-hidden="true">{item.icon}</span>
                             <span>{item.label}</span>
                           </Link>
                         ))}
@@ -446,7 +446,7 @@ export default function Navbar() {
                             className="flex items-center space-x-2 px-3 py-2 text-gray-300 hover:text-rolls-gold rounded-md transition-all"
                             onClick={() => setIsOpen(false)}
                           >
-                            <span>{item.icon}</span>
+                            <span role="img" aria-hidden="true">{item.icon}</span>
                             <span>{item.label}</span>
                           </Link>
                         ))}
@@ -480,7 +480,7 @@ export default function Navbar() {
                       className="flex items-center space-x-2 px-3 py-2 text-white hover:bg-rolls-gold/20 hover:text-rolls-gold rounded-md transition-all"
                       onClick={() => setIsOpen(false)}
                     >
-                      <span>{item.icon}</span>
+                      <span role="img" aria-hidden="true">{item.icon}</span>
                       <span>{item.label}</span>
                     </Link>
                   ))}

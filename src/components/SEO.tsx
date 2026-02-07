@@ -121,6 +121,23 @@ export default function SEO({ pageKey, title: titleProp, description: descriptio
   // Generate Schema.org structured data
   const generateSchema = () => {
     const schemas: any[] = [
+      // SiteNavigationElement Schema
+      {
+        "@context": "https://schema.org",
+        "@type": "SiteNavigationElement",
+        "name": "Main Navigation",
+        "url": baseUrl,
+        "hasPart": [
+          { "@type": "WebPage", "name": "Fleet", "url": `${baseUrl}/fleet` },
+          { "@type": "WebPage", "name": "Services", "url": `${baseUrl}/services` },
+          { "@type": "WebPage", "name": "Locations", "url": `${baseUrl}/locations` },
+          { "@type": "WebPage", "name": "Pricing", "url": `${baseUrl}/pricing` },
+          { "@type": "WebPage", "name": "About", "url": `${baseUrl}/about` },
+          { "@type": "WebPage", "name": "Contact", "url": `${baseUrl}/contact` },
+          { "@type": "WebPage", "name": "Blog", "url": `${baseUrl}/blog` },
+          { "@type": "WebPage", "name": "FAQ", "url": `${baseUrl}/faq` }
+        ]
+      },
       // Organization Schema
       {
         "@context": "https://schema.org",
@@ -130,9 +147,9 @@ export default function SEO({ pageKey, title: titleProp, description: descriptio
         "url": baseUrl,
         "logo": {
           "@type": "ImageObject",
-          "url": `${baseUrl}/logo.png`,
-          "width": 600,
-          "height": 400
+          "url": `${baseUrl}/images/logo-512.png`,
+          "width": 512,
+          "height": 512
         },
         "contactPoint": {
           "@type": "ContactPoint",
@@ -158,7 +175,7 @@ export default function SEO({ pageKey, title: titleProp, description: descriptio
         "@type": "LocalBusiness",
         "@id": `${baseUrl}/#localbusiness`,
         "name": "Rolls-Royce Dubai Rental",
-        "image": `${baseUrl}/images/showroom.jpg`,
+        "image": `${baseUrl}/images/Rolls-royce-official.jpg`,
         "priceRange": "AED 3,800 - AED 10,000 per day",
         "address": {
           "@type": "PostalAddress",
@@ -251,38 +268,83 @@ export default function SEO({ pageKey, title: titleProp, description: descriptio
       });
     } else if (pageKey.startsWith('fleet.')) {
       const carModel = pageKey.split('.')[1];
+      const carImageMap: Record<string, string[]> = {
+        'phantom': [`${baseUrl}/images/Phantom_Extended.jpg`, `${baseUrl}/images/Rolls-Royce_Phantom_Extended_Series_II.jpg`],
+        'ghost': [`${baseUrl}/images/Rolls-Royce_Ghost_Black_Badge.jpg`, `${baseUrl}/images/Black_Rolls_Royce_Ghost.jpg`],
+        'cullinan': [`${baseUrl}/images/2024_Rolls-Royce_Cullinan.jpg`, `${baseUrl}/images/Rolls-Royce_Cullinan_Majestic_Aurora_.jpg`],
+        'dawn': [`${baseUrl}/images/Rolls-Royce_Dawn_Convertible-2.jpg`, `${baseUrl}/images/Rolls-Royce_Dawn.jpg`],
+        'wraith': [`${baseUrl}/images/Rolls-Royce-front.jpg`, `${baseUrl}/images/Rolls-Royce-black.jpg`],
+        'spectre': [`${baseUrl}/images/2024_Rolls-Royce_Spectre.jpg`],
+        'cullinan-black-badge': [`${baseUrl}/images/2024_Rolls-Royce_Cullinan_Black_Badge.jpg`],
+        'ghost-black-badge': [`${baseUrl}/images/2025_Rolls-Royce_Ghost_Black_Badge_Idealist.jpg`],
+      };
+      const carPriceMap: Record<string, number> = {
+        'phantom': 5800, 'ghost': 3800, 'cullinan': 6500, 'dawn': 5500,
+        'wraith': 5000, 'spectre': 7500, 'cullinan-black-badge': 7000, 'ghost-black-badge': 4500,
+      };
       schemas.push({
         "@context": "https://schema.org",
         "@type": "Product",
         "@id": `${canonicalUrl}#product`,
         "name": title,
         "description": description,
-        "image": [`${baseUrl}/images/fleet/${carModel}.jpg`],
+        "image": carImageMap[carModel] || [`${baseUrl}/images/Rolls-royce-official.jpg`],
         "brand": {
           "@type": "Brand",
           "name": "Rolls-Royce"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "25",
+          "bestRating": "5"
         },
         "offers": {
           "@type": "Offer",
           "url": canonicalUrl,
           "priceCurrency": "AED",
+          "price": carPriceMap[carModel] || 3800,
           "availability": "https://schema.org/InStock",
           "priceValidUntil": new Date(new Date().setFullYear(new Date().getFullYear() + 1)).toISOString().split('T')[0]
         }
       });
     } else if (pageKey.startsWith('services.')) {
+      const serviceTypeMap: Record<string, string> = {
+        'services.wedding': 'Wedding Car Rental',
+        'services.corporate': 'Corporate Transportation',
+        'services.airport': 'Airport Transfer',
+        'services.chauffeur': 'Chauffeur Service',
+        'services.events': 'Event Transportation',
+        'services.photoshoot': 'Photoshoot Car Rental',
+        'services.tours': 'City Tour Service',
+        'services.birthday': 'Birthday Car Rental',
+        'services.hourly': 'Hourly Car Rental',
+        'services.main': 'Luxury Car Rental Services'
+      };
       schemas.push({
         "@context": "https://schema.org",
         "@type": "Service",
         "@id": `${canonicalUrl}#service`,
         "name": title,
         "description": description,
+        "serviceType": serviceTypeMap[pageKey] || "Luxury Car Rental",
         "provider": {
           "@id": `${baseUrl}/#localbusiness`
         },
         "areaServed": {
           "@type": "City",
           "name": "Dubai"
+        },
+        "serviceOutput": {
+          "@type": "Product",
+          "name": "Luxury Rolls-Royce Vehicle with Professional Chauffeur"
+        },
+        "termsOfService": `${baseUrl}/terms`,
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "1200",
+          "bestRating": "5"
         },
         "hasOfferCatalog": {
           "@type": "OfferCatalog",
@@ -325,23 +387,34 @@ export default function SEO({ pageKey, title: titleProp, description: descriptio
       <link rel="alternate" hrefLang="x-default" href={buildLangUrl(defaultLocale)} />
       
       {/* Open Graph / Facebook */}
-      <meta property="og:type" content="website" />
+      <meta property="og:type" content={pageKey.startsWith('fleet.') ? 'product' : 'website'} />
       <meta property="og:url" content={canonicalUrl} />
       <meta property="og:title" content={title} />
       <meta property="og:description" content={description} />
-      <meta property="og:image" content={`${baseUrl}/images/og-image.jpg`} />
+      <meta property="og:image" content={`${baseUrl}/images/Rolls-royce-official.jpg`} />
       <meta property="og:locale" content={localeMap[currentLang]} />
       {alternateUrls.map(({ lang }) => (
         <meta key={lang} property="og:locale:alternate" content={localeMap[lang]} />
       ))}
       <meta property="og:site_name" content="Rolls-Royce Dubai" />
+      {pageKey.startsWith('fleet.') && (
+        <>
+          <meta property="product:price:amount" content={String(({
+            'phantom': 5800, 'ghost': 3800, 'cullinan': 6500, 'dawn': 5500,
+            'wraith': 5000, 'spectre': 7500, 'cullinan-black-badge': 7000, 'ghost-black-badge': 4500,
+          } as Record<string, number>)[pageKey.split('.')[1]] || 3800)} />
+          <meta property="product:price:currency" content="AED" />
+          <meta property="product:availability" content="in stock" />
+          <meta property="product:brand" content="Rolls-Royce" />
+        </>
+      )}
       
       {/* Twitter */}
       <meta property="twitter:card" content="summary_large_image" />
       <meta property="twitter:url" content={canonicalUrl} />
       <meta property="twitter:title" content={title} />
       <meta property="twitter:description" content={description} />
-      <meta property="twitter:image" content={`${baseUrl}/images/twitter-image.jpg`} />
+      <meta property="twitter:image" content={`${baseUrl}/images/Rolls-royce-official.jpg`} />
       <meta property="twitter:site" content="@rollsroycersdxb" />
       
       {/* Additional SEO Tags */}

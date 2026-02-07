@@ -86,10 +86,13 @@ const nextConfig = {
             key: 'Permissions-Policy',
             value: 'camera=(), microphone=(), geolocation=(self)'
           },
-          // Optimize resource loading - removed duplicate preconnect hints to avoid conflicts with _document.tsx
           {
-            key: 'X-UA-Compatible',
-            value: 'IE=edge'
+            key: 'Strict-Transport-Security',
+            value: 'max-age=63072000; includeSubDomains; preload'
+          },
+          {
+            key: 'Content-Security-Policy',
+            value: "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://www.googletagmanager.com https://www.google-analytics.com https://statcounter.com https://*.statcounter.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; img-src 'self' data: blob: https: http:; font-src 'self' https://fonts.gstatic.com; connect-src 'self' https://www.google-analytics.com https://*.statcounter.com https://api.indexnow.org; frame-src 'self' https://www.youtube.com https://www.google.com; media-src 'self' blob:; object-src 'none'; base-uri 'self'; form-action 'self';"
           }
         ]
       },
@@ -243,12 +246,6 @@ const nextConfig = {
         permanent: false,
       },
       
-      // === Redirect testimonials to appropriate page ===
-      {
-        source: '/testimonials',
-        destination: '/faq#testimonials',
-        permanent: true,
-      },
       
       // === Fix for terms page (redirect to privacy if terms doesn't exist) ===
       {
@@ -268,11 +265,6 @@ const nextConfig = {
         destination: '/pricing',
         permanent: true,
       },
-      {
-        source: '/search',
-        destination: '/search',
-        permanent: false,
-      }
     ]
   },
   

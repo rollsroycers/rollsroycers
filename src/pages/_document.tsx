@@ -15,8 +15,21 @@ class MyDocument extends Document {
     return (
       <Html lang={locale} dir={dir}>
       <Head>
-        {/* Essential Mobile Meta Tags */}
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, minimum-scale=1.0" />
+        {/* Google Search Console Verification - Replace YOUR_GSC_VERIFICATION_CODE with your actual code */}
+        <meta name="google-site-verification" content="YOUR_GSC_VERIFICATION_CODE" />
+        
+        {/* Google Tag Manager */}
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+              new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+              j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+              'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+              })(window,document,'script','dataLayer','GTM-XXXXXXX');
+            `,
+          }}
+        />
         
         {/* Preconnect to external domains */}
         <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -25,6 +38,12 @@ class MyDocument extends Document {
         <link rel="dns-prefetch" href="https://www.google-analytics.com" />
         <link rel="dns-prefetch" href="https://www.statcounter.com" />
         <link rel="dns-prefetch" href="https://c.statcounter.com" />
+        
+        {/* Google Fonts - non-render-blocking with display=swap */}
+        <link
+          rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Montserrat:wght@300;400;500;600;700&family=Noto+Sans+Arabic:wght@300;400;500;600;700&display=swap"
+        />
         
         {/* Critical CSS - inline for fastest render */}
         <style
@@ -99,12 +118,6 @@ class MyDocument extends Document {
           }}
         />
         
-        {/* Load fonts properly with correct crossorigin */}
-        <link
-          rel="stylesheet"
-          href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
-        />
-        
         {/* PWA manifest */}
         <link rel="manifest" href="/manifest.json" />
         
@@ -148,6 +161,15 @@ class MyDocument extends Document {
         </noscript>
       </Head>
       <body>
+        {/* Google Tag Manager (noscript) */}
+        <noscript>
+          <iframe
+            src="https://www.googletagmanager.com/ns.html?id=GTM-XXXXXXX"
+            height="0"
+            width="0"
+            style={{ display: 'none', visibility: 'hidden' }}
+          />
+        </noscript>
         <Main />
         <NextScript />
       </body>

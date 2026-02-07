@@ -1,6 +1,7 @@
 import { GetStaticProps } from 'next'
 import { serverSideTranslations } from '@/lib/serverSideTranslations'
 import { useTranslation } from 'next-i18next'
+import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
 import { motion } from 'framer-motion'
@@ -8,6 +9,7 @@ import { useState } from 'react'
 import Layout from '@/components/Layout'
 import WhatsAppButton from '@/components/WhatsAppButton'
 import SEO from '@/components/SEO'
+import GEOOptimizer from '@/components/GEOOptimizer'
 
 export default function BlogPage() {
   const { t } = useTranslation('common')
@@ -285,6 +287,40 @@ export default function BlogPage() {
   return (
     <>
       <SEO pageKey="blog.index" />
+      <GEOOptimizer
+        pageKey="blog.index"
+        title="Rolls-Royce Dubai Blog — Luxury Insights & Guides"
+        description="Expert guides, tips, and insights about Rolls-Royce rental in Dubai. Wedding, corporate, scenic drives, model comparisons, and more."
+        entityType="Blog"
+        primaryTopic="Rolls-Royce Blog Dubai"
+        contentSummary="Expert blog covering Rolls-Royce rental in Dubai: model comparison guides, wedding car tips, scenic drive routes, corporate transportation advice, photography location guides, and luxury lifestyle insights."
+        facts={['20+ in-depth articles','Model comparison guides','Wedding car rental tips','Scenic drive routes in Dubai','Corporate transportation advice']}
+      />
+      <Head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "CollectionPage",
+            "name": "Rolls-Royce Dubai Blog",
+            "description": "Expert guides and insights about luxury Rolls-Royce rental in Dubai.",
+            "url": "https://rollsroycers.com/blog",
+            "publisher": { "@id": "https://rollsroycers.com/#organization" },
+            "mainEntity": {
+              "@type": "Blog",
+              "name": "Rolls-Royce Dubai Blog",
+              "description": "Luxury car rental guides, tips, and insights for Dubai",
+              "blogPost": [
+                { "@type": "BlogPosting", "headline": "The Ultimate Guide to Rolls-Royce Rental in Dubai", "url": "https://rollsroycers.com/blog/ultimate-guide-rolls-royce-rental-dubai" },
+                { "@type": "BlogPosting", "headline": "Top 10 Scenic Drives in Dubai with a Rolls-Royce", "url": "https://rollsroycers.com/blog/top-scenic-drives-dubai" },
+                { "@type": "BlogPosting", "headline": "Why Rolls-Royce is the Perfect Wedding Car in Dubai", "url": "https://rollsroycers.com/blog/rolls-royce-wedding-car-dubai" },
+                { "@type": "BlogPosting", "headline": "Rolls-Royce for Business: Making the Right Impression", "url": "https://rollsroycers.com/blog/business-travel-rolls-royce" },
+                { "@type": "BlogPosting", "headline": "Rolls-Royce Phantom vs Ghost: Which Should You Rent?", "url": "https://rollsroycers.com/blog/rolls-royce-phantom-vs-ghost-comparison" }
+              ]
+            }
+          }) }}
+        />
+      </Head>
       <Layout>
         {/* Hero Section */}
         <section className="relative h-[60vh] flex items-center justify-center overflow-hidden">

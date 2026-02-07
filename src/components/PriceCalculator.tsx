@@ -25,7 +25,7 @@ export default function PriceCalculator() {
   const carPrices = {
     phantom: { daily: 5800, weekly: 34800, monthly: 116000 },
     cullinan: { daily: 6500, weekly: 39000, monthly: 130000 },
-    ghost: { daily: 4800, weekly: 28800, monthly: 96000 },
+    ghost: { daily: 3800, weekly: 22800, monthly: 76000 },
     dawn: { daily: 5500, weekly: 33000, monthly: 110000 },
     wraith: { daily: 5000, weekly: 30000, monthly: 100000 }
   }

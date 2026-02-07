@@ -1,5 +1,6 @@
 import { GetStaticProps } from 'next'
 import { serverSideTranslations } from '@/lib/serverSideTranslations'
+import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
 import { motion } from 'framer-motion'
@@ -83,6 +84,19 @@ export default function AboutPage() {
   return (
     <>
       <SEO pageKey="other.about" />
+      <Head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "AboutPage",
+            "name": "About Rolls Roycers Dubai",
+            "description": "Learn about Rolls Roycers Dubai, the premier luxury Rolls-Royce rental service in Dubai with 15+ years of experience.",
+            "url": "https://rollsroycers.com/about",
+            "mainEntity": { "@id": "https://rollsroycers.com/#organization" }
+          }) }}
+        />
+      </Head>
       <GEOOptimizer
         pageKey="other.about"
         title="About Rolls Roycers Dubai 2026"
