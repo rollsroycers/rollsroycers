@@ -2,9 +2,31 @@ import '@/styles/globals.css'
 import type { AppProps } from 'next/app'
 import { appWithTranslation } from 'next-i18next'
 import { useEffect, useState } from 'react'
+import { Playfair_Display, Montserrat, Noto_Sans_Arabic } from 'next/font/google'
 import { optimizeForMobile, setMobileViewportHeight } from '@/utils/mobileOptimizations'
 import { getPerformanceMonitor } from '@/utils/performanceMonitor'
 import { initializePerformanceOptimizations } from '@/utils/performanceOptimizations'
+
+const playfairDisplay = Playfair_Display({
+  subsets: ['latin'],
+  weight: ['400', '700', '900'],
+  display: 'swap',
+  variable: '--font-display',
+})
+
+const montserrat = Montserrat({
+  subsets: ['latin'],
+  weight: ['300', '400', '500', '600', '700'],
+  display: 'swap',
+  variable: '--font-body',
+})
+
+const notoSansArabic = Noto_Sans_Arabic({
+  subsets: ['arabic'],
+  weight: ['300', '400', '500', '600', '700'],
+  display: 'swap',
+  variable: '--font-arabic',
+})
 
 // i18n config passed explicitly — required for Cloudflare Workers where
 // auto-resolving next-i18next.config.js at runtime is not possible
@@ -42,12 +64,14 @@ function MyApp({ Component, pageProps }: AppProps) {
     }
   }, [])
 
+  const fontClasses = `${playfairDisplay.variable} ${montserrat.variable} ${notoSansArabic.variable}`
+
   // During SSR, render minimal component
   if (!isMounted) {
-    return <Component {...pageProps} />
+    return <div className={fontClasses}><Component {...pageProps} /></div>
   }
 
-  return <Component {...pageProps} />
+  return <div className={fontClasses}><Component {...pageProps} /></div>
 }
 
 // Use Next.js built-in web vitals reporting

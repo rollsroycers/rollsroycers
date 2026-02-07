@@ -1,4 +1,3 @@
-import { motion } from 'framer-motion'
 import { useState, useEffect } from 'react'
 
 export default function WhatsAppButton() {
@@ -17,17 +16,14 @@ export default function WhatsAppButton() {
   }
 
   return (
-    <motion.div
-      initial={{ scale: 0, opacity: 0 }}
-      animate={{ scale: isVisible ? 1 : 0, opacity: isVisible ? 1 : 0 }}
-      transition={{ duration: 0.3, type: 'spring' }}
-      className="fixed bottom-6 right-6 z-50"
+    <div
+      className={`fixed bottom-6 right-6 z-50 transition-all duration-300 ${
+        isVisible ? 'scale-100 opacity-100' : 'scale-0 opacity-0'
+      }`}
     >
-      <motion.button
+      <button
         onClick={handleClick}
-        whileHover={{ scale: 1.1 }}
-        whileTap={{ scale: 0.9 }}
-        className="bg-green-500 hover:bg-green-600 text-white rounded-full p-4 shadow-lg flex items-center space-x-2 group"
+        className="bg-green-500 hover:bg-green-600 hover:scale-110 active:scale-90 text-white rounded-full p-4 shadow-lg flex items-center space-x-2 group transition-transform duration-200"
       >
         <svg
           className="w-8 h-8"
@@ -39,15 +35,21 @@ export default function WhatsAppButton() {
         <span className="hidden group-hover:inline-block text-sm font-medium">
           Chat with us
         </span>
-      </motion.button>
+      </button>
       
-      {/* Pulse Animation */}
-      <motion.div
-        className="absolute inset-0 bg-green-500 rounded-full -z-10"
-        animate={{ scale: [1, 1.2, 1] }}
-        transition={{ duration: 2, repeat: Infinity }}
-        style={{ opacity: 0.3 }}
+      {/* Pulse Animation - pure CSS */}
+      <div
+        className="absolute inset-0 bg-green-500 rounded-full -z-10 opacity-30 animate-whatsapp-pulse"
       />
-    </motion.div>
+      <style jsx>{`
+        @keyframes whatsapp-pulse {
+          0%, 100% { transform: scale(1); }
+          50% { transform: scale(1.2); }
+        }
+        .animate-whatsapp-pulse {
+          animation: whatsapp-pulse 2s ease-in-out infinite;
+        }
+      `}</style>
+    </div>
   )
 }

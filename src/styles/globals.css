@@ -151,6 +151,22 @@
     -webkit-tap-highlight-color: rgba(196, 165, 112, 0.3);
   }
 
+  /* Reduce backdrop-blur on mobile for better GPU performance */
+  @media (max-width: 768px) {
+    .backdrop-blur-lg {
+      backdrop-filter: blur(4px) !important;
+      -webkit-backdrop-filter: blur(4px) !important;
+    }
+    .backdrop-blur-md {
+      backdrop-filter: blur(4px) !important;
+      -webkit-backdrop-filter: blur(4px) !important;
+    }
+    .backdrop-blur-sm {
+      backdrop-filter: blur(2px) !important;
+      -webkit-backdrop-filter: blur(2px) !important;
+    }
+  }
+
   /* Low-end device fallbacks */
   .low-end-device .glass-effect {
     background: rgba(10, 10, 10, 0.9) !important;

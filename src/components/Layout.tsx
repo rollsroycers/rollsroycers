@@ -1,11 +1,13 @@
 import { ReactNode } from 'react'
+import dynamic from 'next/dynamic'
 import Navbar from './Navbar'
 import Footer from './Footer'
-import CookieConsent from './CookieConsent'
-import SocialProofNotifications from './SocialProofNotifications'
-import VoiceSearch from './VoiceSearch'
 import Breadcrumbs from './Breadcrumbs'
 import { useRouter } from 'next/router'
+
+const CookieConsent = dynamic(() => import('./CookieConsent'), { ssr: false })
+const SocialProofNotifications = dynamic(() => import('./SocialProofNotifications'), { ssr: false })
+const VoiceSearch = dynamic(() => import('./VoiceSearch'), { ssr: false })
 
 interface LayoutProps {
   children: ReactNode

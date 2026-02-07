@@ -3,29 +3,34 @@ import { serverSideTranslations } from '@/lib/serverSideTranslations'
 import { useTranslation } from 'next-i18next'
 import Image from 'next/image'
 import Link from 'next/link'
+import dynamic from 'next/dynamic'
 import { motion } from 'framer-motion'
 import { useState, useEffect } from 'react'
 import Layout from '@/components/Layout'
 import SEO from '@/components/SEO'
 import Hero from '@/components/Hero'
 import Fleet from '@/components/Fleet'
-import Services from '@/components/Services'
-import About from '@/components/About'
-import Reviews from '@/components/Reviews'
-import Contact from '@/components/Contact'
-import InstagramFeed from '@/components/InstagramFeed'
-import WhatsAppButton from '@/components/WhatsAppButton'
-import SpecialOffers from '@/components/SpecialOffers'
-import FAQ from '@/components/FAQ'
-import AvailabilityCalendar from '@/components/AvailabilityCalendar'
-import ComparisonTool from '@/components/ComparisonTool'
-import VideoGallery from '@/components/VideoGallery'
-import TestimonialSubmission from '@/components/TestimonialSubmission'
-import LoyaltyProgram from '@/components/LoyaltyProgram'
-import PersonalizedOffers from '@/components/PersonalizedOffers'
-import TripPlanner from '@/components/TripPlanner'
 import GEOOptimizer from '@/components/GEOOptimizer'
 import EntitySchema from '@/components/EntitySchema'
+
+// Below-fold components — dynamically imported to reduce initial bundle
+const Services = dynamic(() => import('@/components/Services'), { ssr: true })
+const About = dynamic(() => import('@/components/About'), { ssr: true })
+const Reviews = dynamic(() => import('@/components/Reviews'), { ssr: true })
+const Contact = dynamic(() => import('@/components/Contact'), { ssr: true })
+const InstagramFeed = dynamic(() => import('@/components/InstagramFeed'), { ssr: false })
+const WhatsAppButton = dynamic(() => import('@/components/WhatsAppButton'), { ssr: false })
+const SpecialOffers = dynamic(() => import('@/components/SpecialOffers'), { ssr: true })
+const FAQ = dynamic(() => import('@/components/FAQ'), { ssr: true })
+
+// Far below-fold components — client-only, loaded on demand
+const AvailabilityCalendar = dynamic(() => import('@/components/AvailabilityCalendar'), { ssr: false })
+const ComparisonTool = dynamic(() => import('@/components/ComparisonTool'), { ssr: false })
+const VideoGallery = dynamic(() => import('@/components/VideoGallery'), { ssr: false })
+const TestimonialSubmission = dynamic(() => import('@/components/TestimonialSubmission'), { ssr: false })
+const LoyaltyProgram = dynamic(() => import('@/components/LoyaltyProgram'), { ssr: false })
+const PersonalizedOffers = dynamic(() => import('@/components/PersonalizedOffers'), { ssr: false })
+const TripPlanner = dynamic(() => import('@/components/TripPlanner'), { ssr: false })
 
 export default function Home() {
   const { t, i18n } = useTranslation('common')

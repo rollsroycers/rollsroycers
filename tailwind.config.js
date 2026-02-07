@@ -16,9 +16,9 @@ module.exports = {
         'rolls-cream': '#F5F5DC',
       },
       fontFamily: {
-        'display': ['Playfair Display', 'serif'],
-        'body': ['Montserrat', 'sans-serif'],
-        'arabic': ['Noto Sans Arabic', 'sans-serif'],
+        'display': ['var(--font-display)', 'Playfair Display', 'serif'],
+        'body': ['var(--font-body)', 'Montserrat', 'sans-serif'],
+        'arabic': ['var(--font-arabic)', 'Noto Sans Arabic', 'sans-serif'],
       },
       animation: {
         'fade-in': 'fadeIn 0.5s ease-in-out',

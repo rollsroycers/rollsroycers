@@ -1,7 +1,6 @@
 import Link from 'next/link'
 import Image from 'next/image'
 import { useTranslation } from 'next-i18next'
-import { motion } from 'framer-motion'
 import { useState, useEffect } from 'react'
 import { createWhatsAppLinkProps } from '@/utils/whatsapp'
 
@@ -22,7 +21,6 @@ export default function Footer() {
         day: 'numeric',
         hour: '2-digit',
         minute: '2-digit',
-        second: '2-digit',
         hour12: true
       }).format(now)
       setDubaiTime(dubaiDate)
@@ -31,8 +29,8 @@ export default function Footer() {
     // Update immediately
     updateDubaiTime()
 
-    // Update every second
-    const interval = setInterval(updateDubaiTime, 1000)
+    // Update every 60 seconds (no need for second-level precision)
+    const interval = setInterval(updateDubaiTime, 60000)
 
     return () => clearInterval(interval)
   }, [])
@@ -149,18 +147,16 @@ export default function Footer() {
             {/* Social Links - Mobile Optimized */}
             <div className="flex space-x-3">
               {socialLinks.map((social) => (
-                <motion.a
+                <a
                   key={social.label}
                   href={social.href}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="w-10 h-10 bg-rolls-gold/10 rounded-full flex items-center justify-center hover:bg-rolls-gold hover:text-rolls-black transition-all"
-                  whileHover={{ scale: 1.1 }}
-                  whileTap={{ scale: 0.95 }}
+                  className="w-10 h-10 bg-rolls-gold/10 rounded-full flex items-center justify-center hover:bg-rolls-gold hover:text-rolls-black hover:scale-110 active:scale-95 transition-all duration-200"
                   aria-label={social.label}
                 >
                   {social.icon}
-                </motion.a>
+                </a>
               ))}
             </div>
           </div>

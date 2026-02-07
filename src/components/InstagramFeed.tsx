@@ -2,6 +2,7 @@ import { useState } from 'react'
 import { motion } from 'framer-motion'
 import { useInView } from 'react-intersection-observer'
 import { useTranslation } from 'next-i18next'
+import Image from 'next/image'
 
 interface InstagramPost {
   id: string
@@ -140,10 +141,12 @@ export default function InstagramFeed() {
               onClick={() => setSelectedPost(post)}
               className="relative group cursor-pointer overflow-hidden rounded-lg aspect-square"
             >
-              <img
+              <Image
                 src={post.image}
                 alt={post.caption}
-                className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                fill
+                sizes="(max-width: 768px) 50vw, 33vw"
+                className="object-cover group-hover:scale-110 transition-transform duration-500"
               />
               
               {/* Overlay on hover */}
@@ -240,11 +243,15 @@ export default function InstagramFeed() {
               onClick={(e) => e.stopPropagation()}
             >
               <div className="grid grid-cols-1 md:grid-cols-2">
-                <img
-                  src={selectedPost.image}
-                  alt={selectedPost.caption}
-                  className="w-full h-96 md:h-full object-cover"
-                />
+                <div className="relative w-full h-96 md:h-full min-h-[300px]">
+                  <Image
+                    src={selectedPost.image}
+                    alt={selectedPost.caption}
+                    fill
+                    sizes="(max-width: 768px) 100vw, 50vw"
+                    className="object-cover"
+                  />
+                </div>
                 <div className="p-6 space-y-4">
                   <div className="flex items-center justify-between">
                     <h3 className="text-xl font-semibold text-white">@rollsroycers</h3>

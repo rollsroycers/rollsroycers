@@ -1,6 +1,6 @@
 import { useTranslation } from 'next-i18next'
 import { motion } from 'framer-motion'
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useRef } from 'react'
 import Image from 'next/image'
 
 export default function Hero() {
@@ -20,6 +20,18 @@ export default function Hero() {
     }, 5000)
     return () => clearInterval(interval)
   }, [heroImages.length])
+
+  const [statsVisible, setStatsVisible] = useState(false)
+  const statsRef = useRef<HTMLDivElement>(null)
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      ([entry]) => { if (entry.isIntersecting) setStatsVisible(true) },
+      { threshold: 0.1 }
+    )
+    if (statsRef.current) observer.observe(statsRef.current)
+    return () => observer.disconnect()
+  }, [])
 
   const stats = [
     { value: '20+', label: t('hero.stats.cars') },
@@ -47,6 +59,9 @@ export default function Hero() {
               sizes="100vw"
               className="object-cover"
               priority={index === 0}
+              loading={index === 0 ? 'eager' : 'lazy'}
+              quality={index === 0 ? 85 : 75}
+              {...(index === 0 ? { fetchPriority: 'high' as const } : {})}
             />
             <div className="absolute inset-0 bg-gradient-to-b from-rolls-black/50 via-rolls-black/30 to-rolls-black/70" />
           </motion.div>
@@ -110,22 +125,18 @@ export default function Hero() {
             </motion.div>
           </motion.div>
 
-          {/* Stats */}
-          <motion.div 
-            className="absolute bottom-5 sm:bottom-10 left-0 right-0"
-            initial={{ opacity: 0, y: 30 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 1, delay: 1.5 }}
+          {/* Stats — CSS animated on intersection */}
+          <div 
+            ref={statsRef}
+            className={`absolute bottom-5 sm:bottom-10 left-0 right-0 transition-all duration-700 ${statsVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}
           >
             <div className="container mx-auto px-4 sm:px-6 lg:px-8">
               <div className="grid grid-cols-2 md:grid-cols-4 gap-4 sm:gap-8">
                 {stats.map((stat, index) => (
-                  <motion.div
+                  <div
                     key={stat.label}
-                    className="text-center"
-                    initial={{ opacity: 0, scale: 0.8 }}
-                    animate={{ opacity: 1, scale: 1 }}
-                    transition={{ duration: 0.5, delay: 1.7 + index * 0.1 }}
+                    className={`text-center transition-all duration-500 ${statsVisible ? 'opacity-100 scale-100' : 'opacity-0 scale-90'}`}
+                    style={{ transitionDelay: statsVisible ? `${index * 100}ms` : '0ms' }}
                   >
                     <div className="text-2xl sm:text-3xl lg:text-4xl font-bold text-rolls-gold mb-1 sm:mb-2">
                       {stat.value}
@@ -133,31 +144,31 @@ export default function Hero() {
                     <div className="text-xs sm:text-sm text-gray-400 uppercase tracking-wider">
                       {stat.label}
                     </div>
-                  </motion.div>
+                  </div>
                 ))}
               </div>
             </div>
-          </motion.div>
+          </div>
         </div>
       </div>
 
-      {/* Scroll Indicator */}
-      <motion.div
-        className="absolute bottom-8 left-1/2 transform -translate-x-1/2"
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ duration: 1, delay: 2 }}
-      >
-        <motion.div
-          animate={{ y: [0, 10, 0] }}
-          transition={{ duration: 1.5, repeat: Infinity }}
-          className="text-rolls-gold"
-        >
+      {/* Scroll Indicator — pure CSS animation */}
+      <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-fade-in-delay">
+        <div className="text-rolls-gold animate-bounce">
           <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 14l-7 7m0 0l-7-7m7 7V3" />
           </svg>
-        </motion.div>
-      </motion.div>
+        </div>
+      </div>
+      <style jsx>{`
+        .animate-fade-in-delay {
+          animation: fadeInDelay 1s ease-out 2s both;
+        }
+        @keyframes fadeInDelay {
+          from { opacity: 0; }
+          to { opacity: 1; }
+        }
+      `}</style>
     </section>
   )
 }

@@ -26,15 +26,7 @@ const nextConfig = {
     // All experimental features disabled for debugging
   },
   
-  // Temporarily disable modular imports for debugging
-  // modularizeImports: {
-  //   'framer-motion': {
-  //     transform: 'framer-motion/{{member}}',
-  //   },
-  //   'lodash': {
-  //     transform: 'lodash/{{member}}',
-  //   },
-  // },
+  // Note: framer-motion v12 uses single entry point, tree-shaking via usedExports instead
   
   // Image optimization with lazy loading by default
   images: {
@@ -289,24 +281,42 @@ const nextConfig = {
         // Add ModuleConcatenationPlugin for better tree shaking
         config.plugins.push(new webpack.optimize.ModuleConcatenationPlugin())
         
-        // Simplified optimization to prevent runtime chunk errors
         config.optimization = {
           ...config.optimization,
           minimize: true,
-          runtimeChunk: false, // Disable runtime chunk splitting temporarily
+          runtimeChunk: false, // Disabled for Cloudflare Workers compatibility
           moduleIds: 'deterministic',
           usedExports: true,
-          sideEffects: false,
           splitChunks: {
+            ...config.optimization.splitChunks,
             chunks: 'all',
-            maxAsyncRequests: 10,
-            maxInitialRequests: 10,
-            minSize: 50000,
+            maxAsyncRequests: 15,
+            maxInitialRequests: 15,
+            minSize: 20000,
             cacheGroups: {
-              default: false,
-              vendors: {
-                test: /[\\/]node_modules[\\/]/,
-                name: 'vendors',
+              ...(config.optimization.splitChunks && config.optimization.splitChunks.cacheGroups || {}),
+              framework: {
+                test: /[\/]node_modules[\/](react|react-dom|scheduler)[\/]/,
+                name: 'framework',
+                chunks: 'all',
+                priority: 40,
+                enforce: true,
+              },
+              framerMotion: {
+                test: /[\/]node_modules[\/]framer-motion[\/]/,
+                name: 'framer-motion',
+                chunks: 'all',
+                priority: 35,
+              },
+              i18n: {
+                test: /[\/]node_modules[\/](i18next|react-i18next|next-i18next)[\/]/,
+                name: 'i18n',
+                chunks: 'all',
+                priority: 30,
+              },
+              lib: {
+                test: /[\/]node_modules[\/]/,
+                name: 'lib',
                 chunks: 'all',
                 priority: 20,
                 reuseExistingChunk: true,
