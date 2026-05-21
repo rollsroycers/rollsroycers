@@ -161,7 +161,7 @@ export default function LocationsPage() {
                 >
                   {t('locations.hero.viewLocations')}
                 </motion.a>
-                <a href="tel:+971558164922" className="btn-secondary">
+                <a href="https://wa.me/971558164922" target="_blank" rel="noopener noreferrer" className="btn-secondary">
                   {t('locations.hero.bookNow')}: +971 55 816 4922
                 </a>
               </div>
@@ -547,7 +547,7 @@ export default function LocationsPage() {
               {t('locations.cta.description')}
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
-              <a href="tel:+971558164922" className="btn-primary">
+              <a href="https://wa.me/971558164922" target="_blank" rel="noopener noreferrer" className="btn-primary">
                 {t('locations.cta.call')}: +971 55 816 4922
               </a>
               <a href="https://wa.me/971558164922" className="btn-secondary">

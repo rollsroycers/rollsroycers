@@ -2,6 +2,7 @@ import { useState } from 'react'
 import { motion } from 'framer-motion'
 import { useInView } from 'react-intersection-observer'
 import { useTranslation } from 'next-i18next'
+import { generateWhatsAppURL } from '@/utils/whatsapp'
 
 interface AvailableDate {
   date: Date
@@ -341,11 +342,17 @@ export default function AvailabilityCalendar() {
 
               <div className="flex space-x-4">
                 <motion.a
-                  href="#contact"
+                  href={generateWhatsAppURL('booking', `Hello! I would like to book:\n\nVehicle: ${bookingDetails.car}\nDates: ${bookingDetails.startDate?.toLocaleDateString()} - ${bookingDetails.endDate?.toLocaleDateString()}\nTotal Days: ${bookingDetails.totalDays}\nTotal Price: AED ${bookingDetails.totalPrice.toLocaleString()}`)}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                   className="btn-primary flex-1 text-center"
-                  onClick={() => setShowBookingForm(false)}
+                  onClick={(e: React.MouseEvent) => {
+                    e.preventDefault()
+                    window.open((e.currentTarget as HTMLAnchorElement).href, '_blank', 'noopener,noreferrer')
+                    setShowBookingForm(false)
+                  }}
                 >
                   {t('bookingForm.bookNow')}
                 </motion.a>

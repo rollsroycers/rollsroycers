@@ -2,6 +2,7 @@ import { useState } from 'react'
 import { motion } from 'framer-motion'
 import { useInView } from 'react-intersection-observer'
 import { useTranslation } from 'next-i18next'
+import { generateWhatsAppURL } from '@/utils/whatsapp'
 
 interface PriceBreakdown {
   basePrice: number
@@ -235,7 +236,9 @@ export default function PriceCalculator() {
                     </div>
                     
                     <motion.a
-                      href="#contact"
+                      href={generateWhatsAppURL('quote', `Hello! I would like to book:\n\nVehicle: Rolls-Royce ${selectedCar.charAt(0).toUpperCase() + selectedCar.slice(1)}\nDuration: ${days} day(s)\n${withChauffeur ? 'With Chauffeur\n' : ''}Total: AED ${breakdown.total.toLocaleString()}`)}
+                      target="_blank"
+                      rel="noopener noreferrer"
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
                       className="btn-secondary w-full mt-6 block text-center"

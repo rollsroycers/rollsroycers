@@ -10,6 +10,7 @@ import SEO from '@/components/SEO'
 import GEOOptimizer from '@/components/GEOOptimizer'
 import ServiceStructuredData from '@/components/ServiceStructuredData'
 import { useState } from 'react'
+import { generateWhatsAppURL } from '@/utils/whatsapp'
 
 export default function ServicesPage() {
   const { t } = useTranslation('services')
@@ -199,7 +200,7 @@ export default function ServicesPage() {
                 >
                   {t('services.hero.exploreServices')}
                 </motion.a>
-                <a href="tel:+971558164922" className="btn-secondary">
+                <a href={generateWhatsAppURL('general')} target="_blank" rel="noopener noreferrer" className="btn-secondary">
                   {t('services.hero.callNow')}: +971 55 816 4922
                 </a>
               </div>
@@ -416,9 +417,11 @@ export default function ServicesPage() {
                   <li className="text-gray-300">✓ {t('services.packages.daily.feature3')}</li>
                   <li className="text-gray-300">✓ {t('services.packages.daily.feature4')}</li>
                 </ul>
-                <button className="btn-secondary w-full">
-                  {t('services.packages.bookNow')}
-                </button>
+                <a href={generateWhatsAppURL('booking')} target="_blank" rel="noopener noreferrer">
+                  <button className="btn-secondary w-full">
+                    {t('services.packages.bookNow')}
+                  </button>
+                </a>
               </motion.div>
 
               <motion.div
@@ -443,9 +446,11 @@ export default function ServicesPage() {
                   <li className="text-gray-300">✓ {t('services.packages.weekly.feature4')}</li>
                   <li className="text-gray-300">✓ {t('services.packages.weekly.feature5')}</li>
                 </ul>
-                <button className="btn-primary w-full">
-                  {t('services.packages.bookNow')}
-                </button>
+                <a href={generateWhatsAppURL('booking')} target="_blank" rel="noopener noreferrer">
+                  <button className="btn-primary w-full">
+                    {t('services.packages.bookNow')}
+                  </button>
+                </a>
               </motion.div>
 
               <motion.div
@@ -468,9 +473,11 @@ export default function ServicesPage() {
                   <li className="text-gray-300">✓ {t('services.packages.monthly.feature5')}</li>
                   <li className="text-gray-300">✓ {t('services.packages.monthly.feature6')}</li>
                 </ul>
-                <button className="btn-secondary w-full">
-                  {t('services.packages.contactUs')}
-                </button>
+                <a href={generateWhatsAppURL('quote')} target="_blank" rel="noopener noreferrer">
+                  <button className="btn-secondary w-full">
+                    {t('services.packages.contactUs')}
+                  </button>
+                </a>
               </motion.div>
             </div>
           </div>
@@ -574,7 +581,7 @@ export default function ServicesPage() {
               {t('services.cta.description')}
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a href="tel:+971558164922" className="btn-primary">
+              <a href={generateWhatsAppURL('general')} target="_blank" rel="noopener noreferrer" className="btn-primary">
                 {t('services.cta.call')}: +971 55 816 4922
               </a>
               <a href="https://wa.me/971558164922" className="btn-secondary">

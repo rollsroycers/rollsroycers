@@ -467,7 +467,7 @@ export default function JBRPage() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
               <motion.a
-                href="tel:+971558164922"
+                href="https://wa.me/971558164922" target="_blank" rel="noopener noreferrer"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 className="btn-primary"

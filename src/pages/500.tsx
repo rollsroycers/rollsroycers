@@ -63,7 +63,7 @@ export default function Custom500() {
                   Need Immediate Assistance?
                 </h3>
                 <div className="space-y-2 text-gray-300">
-                  <p>📞 <a href="tel:+971558164922" className="text-rolls-gold hover:text-white transition-colors">+971 55 816 4922</a></p>
+                  <p>📞 <a href="https://wa.me/971558164922" target="_blank" rel="noopener noreferrer" className="text-rolls-gold hover:text-white transition-colors">+971 55 816 4922</a></p>
                   <p>📧 <a href="mailto:info@rollsroycers.com" className="text-rolls-gold hover:text-white transition-colors">info@rollsroycers.com</a></p>
                 </div>
               </div>

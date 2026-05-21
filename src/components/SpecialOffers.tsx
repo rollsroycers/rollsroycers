@@ -2,6 +2,7 @@ import { motion } from 'framer-motion'
 import { useInView } from 'react-intersection-observer'
 import { useTranslation } from 'next-i18next'
 import { useState, useEffect } from 'react'
+import { generateWhatsAppURL } from '@/utils/whatsapp'
 
 export default function SpecialOffers() {
   const { t } = useTranslation('common')
@@ -157,7 +158,7 @@ export default function SpecialOffers() {
           transition={{ duration: 0.8, delay: 0.6 }}
           className="text-center mt-12"
         >
-          <a href="#contact">
+          <a href={generateWhatsAppURL('quote')} target="_blank" rel="noopener noreferrer">
             <button className="btn-primary text-lg px-10 py-5 group">
               Claim Your Offer
               <svg className="inline-block w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">

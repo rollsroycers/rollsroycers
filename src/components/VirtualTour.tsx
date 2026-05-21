@@ -2,6 +2,7 @@ import { useState } from 'react'
 import { motion } from 'framer-motion'
 import { useInView } from 'react-intersection-observer'
 import { useTranslation } from 'next-i18next'
+import { generateWhatsAppURL } from '@/utils/whatsapp'
 
 interface TourSpot {
   id: string
@@ -223,7 +224,9 @@ export default function VirtualTour({ tourSpots }: VirtualTourProps) {
           >
             <p className="text-gray-400 mb-4">{t('virtualTour.cta.question')}</p>
             <motion.a
-              href="#contact"
+              href={generateWhatsAppURL('general')}
+              target="_blank"
+              rel="noopener noreferrer"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
               className="btn-primary inline-block"

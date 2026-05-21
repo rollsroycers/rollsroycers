@@ -2,6 +2,7 @@ import { useState } from 'react'
 import { motion } from 'framer-motion'
 import { useInView } from 'react-intersection-observer'
 import { useTranslation } from 'next-i18next'
+import { WHATSAPP_NUMBER } from '@/utils/whatsapp'
 
 interface Tier {
   name: string
@@ -79,9 +80,18 @@ export default function LoyaltyProgram() {
 
   const handleEnroll = (e: React.FormEvent) => {
     e.preventDefault()
-    // Simulate enrollment
+    // Redirect to WhatsApp with enrollment details
+    const lines = [
+      `Hello! I would like to join the Rolls-Royce Elite Club.`,
+      ``,
+      `Name: ${enrollData.name}`,
+      `Email: ${enrollData.email}`,
+      `Phone: ${enrollData.phone}`,
+      enrollData.preferredCar ? `Preferred Car: ${enrollData.preferredCar}` : '',
+    ].filter(Boolean).join('\n')
+    const encodedMessage = encodeURIComponent(lines)
+    window.open(`https://wa.me/${WHATSAPP_NUMBER}?text=${encodedMessage}`, '_blank', 'noopener,noreferrer')
     setShowEnrollForm(false)
-    alert('Welcome to Rolls-Royce Elite Club! Check your email for membership details.')
   }
 
   return (

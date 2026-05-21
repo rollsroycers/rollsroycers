@@ -616,7 +616,7 @@ export default function RollsRoyceVsMercedesPage() {
                 <p className="text-gray-300 mb-6">
                   {t('compare.mercedes.finalCta.callNow', 'Call Now for Instant Booking')}
                 </p>
-                <a href="tel:+971558164922" className="text-3xl font-bold text-white hover:text-rolls-gold transition-colors">
+                <a href="https://wa.me/971558164922" target="_blank" rel="noopener noreferrer" className="text-3xl font-bold text-white hover:text-rolls-gold transition-colors">
                   +971 55 816 4922
                 </a>
               </div>

@@ -3,6 +3,7 @@ import { motion } from 'framer-motion'
 import { useInView } from 'react-intersection-observer'
 import Image from 'next/image'
 import { useState } from 'react'
+import { generateWhatsAppURL } from '@/utils/whatsapp'
 
 import { TFunction } from 'next-i18next'
 
@@ -145,7 +146,7 @@ export default function Fleet({ t }: { t: TFunction }) {
                       {car.price} <span className="text-xs sm:text-sm font-normal">{t('fleet.perDay')}</span>
                     </div>
                   </div>
-                  <a href="#contact" className="w-full sm:w-auto">
+                  <a href={generateWhatsAppURL('general', `Hello! I am interested in renting the ${car.name}. Could you please share pricing and availability?`)} target="_blank" rel="noopener noreferrer" className="w-full sm:w-auto">
                     <button className="w-full sm:w-auto btn-secondary group-hover:bg-rolls-gold group-hover:text-rolls-black touch-action-manipulation">
                       {t('fleet.rentNow')}
                     </button>

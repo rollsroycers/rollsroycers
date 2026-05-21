@@ -365,7 +365,7 @@ export default function FAQPage() {
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link
-                href="tel:+971558164922"
+                href="https://wa.me/971558164922" target="_blank" rel="noopener noreferrer"
                 className="inline-flex items-center px-8 py-4 bg-rolls-black text-white rounded-lg hover:bg-rolls-charcoal transition-colors duration-300 font-semibold"
               >
                 📞 {t('faqPage.contactCta.callButton')}

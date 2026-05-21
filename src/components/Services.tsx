@@ -1,6 +1,7 @@
 import { useTranslation } from 'next-i18next'
 import { motion } from 'framer-motion'
 import { useInView } from 'react-intersection-observer'
+import { generateWhatsAppURL } from '@/utils/whatsapp'
 
 export default function Services() {
   const { t } = useTranslation('common')
@@ -117,7 +118,7 @@ export default function Services() {
           transition={{ duration: 0.8, delay: 0.6 }}
           className="text-center mt-16"
         >
-          <a href="#contact">
+          <a href={generateWhatsAppURL('booking')} target="_blank" rel="noopener noreferrer">
             <button className="btn-primary text-lg px-10 py-5">
               {t('nav.book')}
             </button>

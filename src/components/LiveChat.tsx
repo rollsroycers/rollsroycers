@@ -41,7 +41,7 @@ export default function LiveChat() {
   const quickResponses = {
     pricing: "Our Rolls-Royce vehicles start from AED 4,800 per day. Would you like to use our price calculator for a detailed quote?",
     availability: "We have a full fleet available for immediate booking. Which model are you interested in?",
-    booking: "You can book directly through our website or call us at +971 55 816 4922. Would you like me to help you start a booking?",
+    booking: "You can book directly via WhatsApp for instant confirmation! Click the green WhatsApp button below, or call us at +971 55 816 4922.",
     models: "We offer Phantom, Cullinan, Ghost, Dawn, and Wraith models. Each provides a unique luxury experience. Which would you like to know more about?",
     airport: "Yes, we offer complimentary airport pickup for bookings over 3 days. For shorter rentals, there's a AED 500 delivery fee.",
     chauffeur: "Professional chauffeur service is available at AED 800 per day. All our chauffeurs are certified and speak multiple languages.",
@@ -183,6 +183,14 @@ export default function LiveChat() {
                     className="text-xs px-3 py-1 bg-rolls-black/50 text-rolls-gold border border-rolls-gold/30 rounded-full hover:bg-rolls-gold/20 transition-colors"
                   >
                     Airport Service
+                  </button>
+                  <button
+                    onClick={() => {
+                      window.open(`https://wa.me/971558164922?text=${encodeURIComponent('Hello! I would like to book a Rolls-Royce in Dubai.')}`, '_blank', 'noopener,noreferrer')
+                    }}
+                    className="text-xs px-3 py-1 bg-green-600 text-white border border-green-500 rounded-full hover:bg-green-700 transition-colors"
+                  >
+                    💬 WhatsApp
                   </button>
                 </div>
               </div>

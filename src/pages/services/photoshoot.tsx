@@ -10,6 +10,7 @@ import SEO from '@/components/SEO'
 import GEOOptimizer from '@/components/GEOOptimizer'
 import EntitySchema from '@/components/EntitySchema'
 import Script from 'next/script'
+import { generateWhatsAppURL } from '@/utils/whatsapp'
 
 export default function PhotoshootServicePage() {
   const { t } = useTranslation('services')
@@ -116,9 +117,9 @@ export default function PhotoshootServicePage() {
                 {t('servicesPages.photoshoot.hero.description')}
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <Link href="/booking" className="btn-primary">
+                <a href={generateWhatsAppURL('booking', 'Hello! I would like to book a Rolls-Royce for a photoshoot.')} target="_blank" rel="noopener noreferrer" className="btn-primary">
                   {t('servicesPages.photoshoot.hero.bookPhotoshoot')}
-                </Link>
+                </a>
                 <Link href="#packages" className="btn-secondary">
                   {t('servicesPages.photoshoot.hero.viewPackages')}
                 </Link>
@@ -249,12 +250,14 @@ export default function PhotoshootServicePage() {
                       </li>
                     ))}
                   </ul>
-                  <Link 
-                    href="/booking" 
+                  <a 
+                    href={generateWhatsAppURL('booking', `Hello! I would like to book the ${pkg.name} photoshoot package (${pkg.price}).`)}
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className={index === 1 ? 'btn-primary w-full' : 'btn-secondary w-full'}
                   >
                     {t('servicesPages.photoshoot.packages.bookThisPackage')}
-                  </Link>
+                  </a>
                 </motion.div>
               ))}
             </div>
@@ -418,11 +421,13 @@ export default function PhotoshootServicePage() {
                 {t('servicesPages.photoshoot.cta.description')}
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <Link href="/booking" className="btn-primary">
+                <a href={generateWhatsAppURL('booking', 'Hello! I would like to book a Rolls-Royce photoshoot.')} target="_blank" rel="noopener noreferrer" className="btn-primary">
                   {t('servicesPages.photoshoot.cta.bookYourPhotoshoot')}
-                </Link>
+                </a>
                 <a
-                  href="tel:+971558164922"
+                  href={generateWhatsAppURL('booking', 'Hello! I would like a custom Rolls-Royce photoshoot quote.')}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="btn-secondary"
                 >
                   {t('servicesPages.photoshoot.cta.call')}

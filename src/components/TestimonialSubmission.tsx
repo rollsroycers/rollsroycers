@@ -2,6 +2,7 @@ import { useState } from 'react'
 import { motion } from 'framer-motion'
 import { useInView } from 'react-intersection-observer'
 import { useTranslation } from 'next-i18next'
+import { WHATSAPP_NUMBER } from '@/utils/whatsapp'
 
 interface SuccessStory {
   id: number
@@ -63,11 +64,20 @@ export default function TestimonialSubmission() {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault()
-    // Simulate submission
-    setTimeout(() => {
-      setSubmitted(true)
-      setShowForm(false)
-    }, 1000)
+    // Redirect to WhatsApp with testimonial details
+    const lines = [
+      `Hello! I would like to share my experience.`,
+      ``,
+      `Name: ${formData.name}`,
+      `Email: ${formData.email}`,
+      `Occasion: ${formData.occasion}`,
+      `Rating: ${'⭐'.repeat(formData.rating)}`,
+      `Testimonial: ${formData.testimonial}`,
+    ].filter(Boolean).join('\n')
+    const encodedMessage = encodeURIComponent(lines)
+    window.open(`https://wa.me/${WHATSAPP_NUMBER}?text=${encodedMessage}`, '_blank', 'noopener,noreferrer')
+    setSubmitted(true)
+    setShowForm(false)
   }
 
   return (

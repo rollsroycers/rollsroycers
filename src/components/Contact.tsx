@@ -2,6 +2,7 @@ import { useTranslation } from 'next-i18next'
 import { motion } from 'framer-motion'
 import { useInView } from 'react-intersection-observer'
 import { useState } from 'react'
+import { WHATSAPP_NUMBER } from '@/utils/whatsapp'
 
 export default function Contact() {
   const { t } = useTranslation('common')
@@ -19,22 +20,22 @@ export default function Contact() {
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
-    setStatus('loading')
     
-    // Simulate form submission
-    setTimeout(() => {
-      setStatus('success')
-      setFormData({
-        name: '',
-        email: '',
-        phone: '',
-        car: '',
-        date: '',
-        duration: '',
-        message: ''
-      })
-      setTimeout(() => setStatus('idle'), 5000)
-    }, 1000)
+    // Build WhatsApp message from form data
+    const lines = [
+      `Hello! I would like to book a Rolls-Royce.`,
+      ``,
+      `Name: ${formData.name}`,
+      `Email: ${formData.email}`,
+      `Phone: ${formData.phone}`,
+      formData.car ? `Vehicle: Rolls-Royce ${formData.car.charAt(0).toUpperCase() + formData.car.slice(1)}` : '',
+      formData.date ? `Date: ${formData.date}` : '',
+      formData.duration ? `Duration: ${formData.duration}` : '',
+      formData.message ? `Message: ${formData.message}` : '',
+    ].filter(Boolean).join('\n')
+    
+    const encodedMessage = encodeURIComponent(lines)
+    window.open(`https://wa.me/${WHATSAPP_NUMBER}?text=${encodedMessage}`, '_blank', 'noopener,noreferrer')
   }
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
@@ -209,7 +210,7 @@ export default function Contact() {
                 {t('contact.info.phone')}
               </h3>
               <a
-                href="tel:+971558164922"
+                href="https://wa.me/971558164922" target="_blank" rel="noopener noreferrer"
                 className="text-3xl font-bold text-rolls-gold hover:text-rolls-gold/80 transition-colors"
               >
                 +971 55 816 4922

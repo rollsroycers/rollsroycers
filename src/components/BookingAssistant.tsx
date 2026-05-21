@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { useInView } from 'react-intersection-observer'
+import { generateWhatsAppURL } from '@/utils/whatsapp'
 
 interface BookingStep {
   id: number
@@ -298,7 +299,9 @@ Would you like me to confirm this booking? I just need your contact details to p
               <div className="p-4 border-t border-rolls-gold/20">
                 <div className="flex space-x-2">
                   <motion.a
-                    href="#contact"
+                    href={generateWhatsAppURL('booking', generateBookingSummary())}
+                    target="_blank"
+                    rel="noopener noreferrer"
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.95 }}
                     className="btn-primary flex-1 text-center"

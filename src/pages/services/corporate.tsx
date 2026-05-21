@@ -11,6 +11,7 @@ import SEO from '@/components/SEO'
 import GEOOptimizer from '@/components/GEOOptimizer'
 import EntitySchema from '@/components/EntitySchema'
 import Script from 'next/script'
+import { generateWhatsAppURL, WHATSAPP_NUMBER } from '@/utils/whatsapp'
 
 export default function CorporateServicesPage() {
   const { t } = useTranslation('services')
@@ -173,13 +174,16 @@ export default function CorporateServicesPage() {
                 {t('servicesPages.corporate.hero.subtitle')}
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
-                <motion.button
+                <motion.a
+                  href={generateWhatsAppURL('quote', 'Hello! I would like a corporate Rolls-Royce service quote.')}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                   className="btn-primary"
                 >
                   {t('servicesPages.corporate.hero.getQuote')}
-                </motion.button>
+                </motion.a>
                 <a href="#packages" className="btn-secondary">
                   {t('servicesPages.corporate.hero.viewPackages')}
                 </a>
@@ -297,9 +301,11 @@ export default function CorporateServicesPage() {
                           {corporatePackages[selectedPackage as keyof typeof corporatePackages].startingPrice}
                         </p>
                       </div>
-                      <button className="btn-primary w-full mt-6">
-                        {t('servicesPages.corporate.packages.requestQuote')}
-                      </button>
+                      <a href={generateWhatsAppURL('quote', `Hello! I am interested in the ${corporatePackages[selectedPackage as keyof typeof corporatePackages].name} corporate package.`)} target="_blank" rel="noopener noreferrer">
+                        <button className="btn-primary w-full mt-6">
+                          {t('servicesPages.corporate.packages.requestQuote')}
+                        </button>
+                      </a>
                     </div>
                   </div>
                 </div>
@@ -411,7 +417,9 @@ export default function CorporateServicesPage() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-8">
               <motion.a
-                href="tel:+971558164922"
+                href={generateWhatsAppURL('quote', 'Hello! I would like to discuss corporate Rolls-Royce services.')}
+                target="_blank"
+                rel="noopener noreferrer"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 className="btn-primary"
@@ -426,18 +434,28 @@ export default function CorporateServicesPage() {
             {/* Contact Form Preview */}
             <div className="max-w-md mx-auto bg-rolls-black/50 backdrop-blur-sm border border-rolls-gold/20 rounded-lg p-6">
               <h3 className="text-lg font-semibold text-white mb-4">{t('servicesPages.corporate.quickInquiry.title')}</h3>
-              <form className="space-y-4">
+              <form className="space-y-4" onSubmit={(e) => {
+                e.preventDefault()
+                const form = e.currentTarget
+                const company = (form.elements.namedItem('company') as HTMLInputElement)?.value || ''
+                const email = (form.elements.namedItem('email') as HTMLInputElement)?.value || ''
+                const pkg = (form.elements.namedItem('package') as HTMLSelectElement)?.value || ''
+                const msg = `Hello! Corporate inquiry:\n\nCompany: ${company}\nEmail: ${email}\nPackage: ${pkg}`
+                window.open(`https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(msg)}`, '_blank', 'noopener,noreferrer')
+              }}>
                 <input
+                  name="company"
                   type="text"
                   placeholder={t('placeholders.companyName')}
                   className="w-full px-4 py-2 bg-rolls-black/30 border border-rolls-gold/20 rounded text-white placeholder-gray-500"
                 />
                 <input
+                  name="email"
                   type="email"
                   placeholder={t('placeholders.businessEmail')}
                   className="w-full px-4 py-2 bg-rolls-black/30 border border-rolls-gold/20 rounded text-white placeholder-gray-500"
                 />
-                <select className="w-full px-4 py-2 bg-rolls-black/30 border border-rolls-gold/20 rounded text-white">
+                <select name="package" className="w-full px-4 py-2 bg-rolls-black/30 border border-rolls-gold/20 rounded text-white">
                   <option>{t('servicesPages.corporate.quickInquiry.selectPackage')}</option>
                   <option>{t('servicesPages.corporate.quickInquiry.packages.executive')}</option>
                   <option>{t('servicesPages.corporate.quickInquiry.packages.conference')}</option>

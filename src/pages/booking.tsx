@@ -11,7 +11,7 @@ import Layout from '@/components/Layout'
 import WhatsAppButton from '@/components/WhatsAppButton'
 import AvailabilityCalendar from '@/components/AvailabilityCalendar'
 import PriceCalculator from '@/components/PriceCalculator'
-import { createWhatsAppLinkProps } from '@/utils/whatsapp'
+import { createWhatsAppLinkProps, WHATSAPP_NUMBER } from '@/utils/whatsapp'
 import Script from 'next/script'
 
 export default function BookingPage() {
@@ -383,7 +383,26 @@ export default function BookingPage() {
                   transition={{ delay: 0.4 }}
                   className="text-center"
                 >
-                  <button type="submit" className="btn-primary text-lg px-12 py-4">
+                  <button
+                    type="button"
+                    className="btn-primary text-lg px-12 py-4"
+                    onClick={() => {
+                      const vehicleName = selectedVehicle ? vehicles.find((v: any) => v.id === selectedVehicle)?.name || selectedVehicle : 'Not selected';
+                      const serviceName = selectedService ? services.find((s: any) => s.id === selectedService)?.name || selectedService : 'Not selected';
+                      const lines = [
+                        `Hello! I would like to make a booking.`,
+                        ``,
+                        `Vehicle: ${vehicleName}`,
+                        `Service: ${serviceName}`,
+                        pickupLocation ? `Pickup: ${pickupLocation}` : '',
+                        dropoffLocation ? `Dropoff: ${dropoffLocation}` : '',
+                        pickupDate ? `Pickup Date: ${pickupDate}` : '',
+                        dropoffDate ? `Return Date: ${dropoffDate}` : '',
+                      ].filter(Boolean).join('\n');
+                      const encodedMessage = encodeURIComponent(lines);
+                      window.open(`https://wa.me/${WHATSAPP_NUMBER}?text=${encodedMessage}`, '_blank', 'noopener,noreferrer');
+                    }}
+                  >
                     {t('booking.submit.button')}
                   </button>
                   <p className="text-gray-400 mt-4">

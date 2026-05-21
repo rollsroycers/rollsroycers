@@ -11,6 +11,7 @@ import SEO from '@/components/SEO'
 import GEOOptimizer from '@/components/GEOOptimizer'
 import EntitySchema from '@/components/EntitySchema'
 import Script from 'next/script'
+import { generateWhatsAppURL } from '@/utils/whatsapp'
 
 export default function AirportTransferPage() {
   const { t } = useTranslation(['services', 'common'])
@@ -127,14 +128,17 @@ export default function AirportTransferPage() {
                 {t('servicesPages.airportTransfer.hero.subtitle')}
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <motion.button
+                <motion.a
+                  href={generateWhatsAppURL('booking', 'Hello! I would like to book a Rolls-Royce airport transfer.')}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                   className="btn-primary"
                 >
                   {t('servicesPages.airportTransfer.hero.bookTransfer')}
-                </motion.button>
-                <a href="tel:+971558164922" className="btn-secondary">
+                </motion.a>
+                <a href={generateWhatsAppURL('booking', 'Hello! I need urgent Rolls-Royce airport transfer.')} target="_blank" rel="noopener noreferrer" className="btn-secondary">
                   {t('servicesPages.airportTransfer.hero.hotline')}
                 </a>
               </div>
@@ -268,9 +272,11 @@ export default function AirportTransferPage() {
                       </li>
                     ))}
                   </ul>
-                  <button className="btn-primary w-full">
-                    {t('servicesPages.airportTransfer.packages.selectPackage')}
-                  </button>
+                  <a href={generateWhatsAppURL('booking', `Hello! I would like to book the ${pkg.type} airport transfer package.`)} target="_blank" rel="noopener noreferrer">
+                    <button className="btn-primary w-full">
+                      {t('servicesPages.airportTransfer.packages.selectPackage')}
+                    </button>
+                  </a>
                 </motion.div>
               ))}
             </div>
@@ -346,7 +352,7 @@ export default function AirportTransferPage() {
               {t('servicesPages.airportTransfer.cta.description')}
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a href="tel:+971558164922" className="btn-primary">
+              <a href={generateWhatsAppURL('booking', 'Hello! I would like to book a Rolls-Royce airport transfer.')} target="_blank" rel="noopener noreferrer" className="btn-primary">
                 {t('servicesPages.airportTransfer.cta.call')}
               </a>
               <Link href="/booking" className="btn-secondary">

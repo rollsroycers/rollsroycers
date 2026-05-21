@@ -2,6 +2,7 @@ import { useState } from 'react'
 import { motion } from 'framer-motion'
 import { useInView } from 'react-intersection-observer'
 import { useTranslation } from 'next-i18next'
+import { generateWhatsAppURL } from '@/utils/whatsapp'
 
 interface Destination {
   id: string
@@ -383,7 +384,9 @@ export default function TripPlanner() {
 
               <div className="mt-8 flex flex-col sm:flex-row gap-4">
                 <motion.a
-                  href="#contact"
+                  href={generateWhatsAppURL('tours', `Hello! I would like to book a Dubai trip:\n\nVehicle: Rolls-Royce ${carOptions.find(c => c.id === tripPlan.car)?.name}\nDestinations: ${tripPlan.destinations.map(d => destinations.find(dest => dest.id === d)?.name).join(', ')}\nTotal Distance: ${tripPlan.totalDistance} km\nEstimated Time: ${tripPlan.estimatedTime}`)}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                   className="btn-primary flex-1 text-center"

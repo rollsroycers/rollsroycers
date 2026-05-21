@@ -10,6 +10,7 @@ import SEO from '@/components/SEO'
 import GEOOptimizer from '@/components/GEOOptimizer'
 import EntitySchema from '@/components/EntitySchema'
 import Script from 'next/script'
+import { generateWhatsAppURL } from '@/utils/whatsapp'
 
 export default function WeddingServicePage() {
   const { t } = useTranslation('services')
@@ -143,7 +144,7 @@ export default function WeddingServicePage() {
                 >
                   {t('servicesPages.wedding.hero.viewPackages')}
                 </motion.a>
-                <a href="tel:+971558164922" className="btn-secondary">
+                <a href={generateWhatsAppURL('booking', 'Hello! I am interested in a Rolls-Royce wedding car package.')} target="_blank" rel="noopener noreferrer" className="btn-secondary">
                   {t('servicesPages.wedding.hero.consultation')}
                 </a>
               </div>
@@ -225,9 +226,11 @@ export default function WeddingServicePage() {
                       </li>
                     ))}
                   </ul>
-                  <button className="btn-primary w-full">
-                    {t('servicesPages.wedding.packages.bookPackage')}
-                  </button>
+                  <a href={generateWhatsAppURL('booking', `Hello! I would like to book the ${pkg.name} wedding package (${pkg.price}).`)} target="_blank" rel="noopener noreferrer">
+                    <button className="btn-primary w-full">
+                      {t('servicesPages.wedding.packages.bookPackage')}
+                    </button>
+                  </a>
                 </motion.div>
               ))}
             </div>
@@ -307,10 +310,10 @@ export default function WeddingServicePage() {
               {t('servicesPages.wedding.cta.description')}
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a href="tel:+971558164922" className="btn-primary">
+              <a href={generateWhatsAppURL('booking', 'Hello! I would like to book a Rolls-Royce for my wedding.')} target="_blank" rel="noopener noreferrer" className="btn-primary">
                 {t('servicesPages.wedding.cta.call')}: +971 55 816 4922
               </a>
-              <a href="#contact" className="btn-secondary">
+              <a href={generateWhatsAppURL('quote', 'Hello! I would like a wedding car quote.')} target="_blank" rel="noopener noreferrer" className="btn-secondary">
                 {t('servicesPages.wedding.cta.getQuote')}
               </a>
             </div>

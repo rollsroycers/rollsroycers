@@ -748,10 +748,10 @@ export default function RollsRoyceVsFerrariPage() {
                 </p>
               </div>
               <div className="flex flex-col sm:flex-row gap-4">
-                <a href="tel:+971501234567" className="bg-rolls-black text-white px-6 py-3 rounded-full font-semibold hover:bg-rolls-navy transition-colors">
+                <a href="https://wa.me/971558164922" target="_blank" rel="noopener noreferrer" className="bg-rolls-black text-white px-6 py-3 rounded-full font-semibold hover:bg-rolls-navy transition-colors">
                   📞 +971 50 123 4567
                 </a>
-                <a href="https://wa.me/971501234567" className="bg-green-600 text-white px-6 py-3 rounded-full font-semibold hover:bg-green-700 transition-colors">
+                <a href="https://wa.me/971558164922" target="_blank" rel="noopener noreferrer" className="bg-green-600 text-white px-6 py-3 rounded-full font-semibold hover:bg-green-700 transition-colors">
                   💬 WhatsApp Now
                 </a>
               </div>

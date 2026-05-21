@@ -9,6 +9,7 @@ import { useState } from 'react'
 import Layout from '@/components/Layout'
 import WhatsAppButton from '@/components/WhatsAppButton'
 import { useTranslation } from 'next-i18next'
+import { WHATSAPP_NUMBER } from '@/utils/whatsapp'
 
 export default function ContactPage() {
   const { t } = useTranslation('common')
@@ -26,27 +27,22 @@ export default function ContactPage() {
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
-    setIsSubmitting(true)
-    setSubmitStatus('idle')
-
-    try {
-      // Simulate API call
-      await new Promise(resolve => setTimeout(resolve, 2000))
-      setSubmitStatus('success')
-      setFormData({
-        name: '',
-        email: '',
-        phone: '',
-        subject: '',
-        message: '',
-        preferredContact: 'phone',
-        bestTime: 'morning'
-      })
-    } catch (error) {
-      setSubmitStatus('error')
-    } finally {
-      setIsSubmitting(false)
-    }
+    
+    // Build WhatsApp message from form data
+    const lines = [
+      `Hello! I would like to get in touch.`,
+      ``,
+      `Name: ${formData.name}`,
+      `Email: ${formData.email}`,
+      `Phone: ${formData.phone}`,
+      formData.subject ? `Subject: ${formData.subject}` : '',
+      formData.message ? `Message: ${formData.message}` : '',
+      `Preferred Contact: ${formData.preferredContact}`,
+      `Best Time: ${formData.bestTime}`,
+    ].filter(Boolean).join('\n')
+    
+    const encodedMessage = encodeURIComponent(lines)
+    window.open(`https://wa.me/${WHATSAPP_NUMBER}?text=${encodedMessage}`, '_blank', 'noopener,noreferrer')
   }
 
   const contactMethods = [
