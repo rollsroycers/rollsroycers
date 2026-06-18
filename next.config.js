@@ -237,15 +237,12 @@ const nextConfig = {
         destination: '/cookie-policy',
         permanent: false,
       },
-      
-      
-      // === Fix for terms page (redirect to privacy if terms doesn't exist) ===
-      {
-        source: '/terms',
-        destination: '/privacy#terms',
-        permanent: true,
-      },
-      
+
+      // NOTE: /terms and /testimonials are intentionally NOT redirected — they are real,
+      // fully-translated, internally-linked pages (terms.tsx, testimonials.tsx) and are
+      // listed in sitemap-pages.xml. The old /terms -> /privacy#terms redirect was removed
+      // to end the page-vs-redirect conflict (the #terms anchor never existed on /privacy).
+
       // === Fix Google Search Console 404 errors ===
       {
         source: '/week',

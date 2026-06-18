@@ -11,7 +11,9 @@ class MyDocument extends Document {
   render() {
     const { locale } = this.props as any
     const dir = locale === 'ar' ? 'rtl' : 'ltr'
-    
+    // GTM container id from env — render GTM only when configured (avoids the broken GTM-XXXXXXX placeholder)
+    const gtmId = process.env.NEXT_PUBLIC_GOOGLE_TAG_MANAGER_ID
+
     return (
       <Html lang={locale} dir={dir}>
       <Head>
@@ -65,7 +67,7 @@ class MyDocument extends Document {
         <meta name="theme-color" content="#1a1a1a" />
         
         {/* Apple touch icon */}
-        <link rel="apple-touch-icon" href="/icon-192x192.png" />
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
         
         {/* Favicon */}
         <link rel="icon" href="/favicon.ico" />
@@ -86,33 +88,37 @@ class MyDocument extends Document {
         </noscript>
       </Head>
       <body>
-        {/* Google Tag Manager (noscript) */}
-        <noscript>
-          <iframe
-            src="https://www.googletagmanager.com/ns.html?id=GTM-XXXXXXX"
-            height="0"
-            width="0"
-            style={{ display: 'none', visibility: 'hidden' }}
-          />
-        </noscript>
+        {/* Google Tag Manager (noscript) — only when a real container id is configured */}
+        {gtmId && (
+          <noscript>
+            <iframe
+              src={`https://www.googletagmanager.com/ns.html?id=${gtmId}`}
+              height="0"
+              width="0"
+              style={{ display: 'none', visibility: 'hidden' }}
+            />
+          </noscript>
+        )}
         <Main />
         <NextScript />
-        {/* GTM - deferred to after page content loads */}
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `
-              window.addEventListener('load', function() {
-                setTimeout(function() {
-                  (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-                  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-                  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-                  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-                  })(window,document,'script','dataLayer','GTM-XXXXXXX');
-                }, 1500);
-              });
-            `,
-          }}
-        />
+        {/* GTM - deferred to after page content loads; only when a real container id is configured */}
+        {gtmId && (
+          <script
+            dangerouslySetInnerHTML={{
+              __html: `
+                window.addEventListener('load', function() {
+                  setTimeout(function() {
+                    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+                    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+                    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+                    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+                    })(window,document,'script','dataLayer','${gtmId}');
+                  }, 1500);
+                });
+              `,
+            }}
+          />
+        )}
         {/* StatCounter - deferred to idle */}
         <script
           dangerouslySetInnerHTML={{
