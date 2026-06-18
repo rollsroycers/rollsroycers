@@ -213,6 +213,16 @@
           "image": "https://rollsroycers.com/images/2024_Rolls-Royce_Spectre.jpg",
           "url": "https://rollsroycers.com/fr/fleet/spectre"
         }
+      },
+      "cullinan-black-badge": {
+        "title": "Location Rolls-Royce Cullinan Black Badge Dubaï | 7 000 AED/J",
+        "description": "Louez le Rolls-Royce Cullinan Black Badge à Dubaï — SUV de luxe 600 ch avec chauffeur dès 7 000 AED/jour. Livraison le jour même. Réservez sur WhatsApp.",
+        "keywords": "location rolls royce cullinan black badge dubai, cullinan black badge prix, cullinan noir dubai"
+      },
+      "ghost-black-badge": {
+        "title": "Location Rolls-Royce Ghost Black Badge Dubaï | 4 500 AED/J",
+        "description": "Louez le Rolls-Royce Ghost Black Badge à Dubaï — la Ghost la plus puissante et sombre, avec chauffeur dès 4 500 AED/jour. Livraison le jour même. WhatsApp.",
+        "keywords": "location rolls royce ghost black badge dubai, ghost black badge prix, ghost noire dubai"
       }
     },
     "services": {
@@ -374,6 +384,16 @@
         "title": "Services Rolls-Royce Dubai | Mariage, Corporate, Transfert Aéroport | Meilleurs Prix 2026",
         "description": "Services premium Rolls-Royce à Dubai. Voitures de mariage à partir de 2 500 AED, forfaits corporate à partir de 1 200 AED/jour, transferts aéroport 24/7. Chauffeurs professionnels, plus de 10 000 clients satisfaits.",
         "keywords": "services rolls royce dubai, services voiture luxe dubai, location voiture mariage dubai, service voiture corporate dubai, transfert aéroport dubai"
+      },
+      "birthday": {
+        "title": "Location Rolls-Royce Anniversaire Dubaï | Dès 3 500 AED",
+        "description": "Un anniversaire inoubliable en Rolls-Royce à Dubaï. Décoration, champagne et arrivée surprise dès 3 500 AED. Phantom, Ghost, Cullinan. Réservez sur WhatsApp.",
+        "keywords": "location rolls royce anniversaire dubai, voiture anniversaire luxe dubai, surprise anniversaire dubai"
+      },
+      "hourly": {
+        "title": "Location Rolls-Royce à l'heure Dubaï | Chauffeur dès 800 AED",
+        "description": "Louez une Rolls-Royce à l'heure à Dubaï avec chauffeur dès 800 AED/heure. Réservations flexibles, tous modèles. Livraison le jour même. Réservez sur WhatsApp.",
+        "keywords": "location rolls royce a l'heure dubai, rolls royce par heure dubai, chauffeur rolls royce heure"
       }
     },
     "locations": {
@@ -507,6 +527,16 @@
         "title": "Emplacements Rolls-Royce Dubai | Downtown, Marina, Palm | Couverture 24/7",
         "description": "Service premium Rolls-Royce dans tous les quartiers de Dubai. De Downtown Dubai à Palm Jumeirah, Dubai Marina à DIFC. Temps de réponse de 15 minutes, disponibilité 24/7.",
         "keywords": "emplacements rolls royce dubai, service voiture luxe downtown dubai, rolls royce marina dubai, service voiture palm jumeirah"
+      },
+      "deira": {
+        "title": "Location Rolls-Royce à Deira Dubaï | Souk de l'Or & DXB",
+        "description": "Louez une Rolls-Royce à Deira, Dubaï avec livraison gratuite au Souk de l'Or, Deira City Centre et l'aéroport (DXB). Chauffeur inclus. WhatsApp.",
+        "keywords": "location rolls royce deira dubai, voiture luxe deira, rolls royce souk de l'or, rolls royce aeroport dxb"
+      },
+      "jumeirah": {
+        "title": "Location Rolls-Royce à Jumeirah Dubaï | Burj Al Arab",
+        "description": "Louez une Rolls-Royce à Jumeirah, Dubaï avec livraison gratuite au Burj Al Arab, Madinat Jumeirah et la plage de Jumeirah. Chauffeur inclus. WhatsApp.",
+        "keywords": "location rolls royce jumeirah dubai, voiture luxe jumeirah, rolls royce burj al arab, rolls royce plage jumeirah"
       }
     },
     "other": {

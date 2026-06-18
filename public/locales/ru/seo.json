@@ -213,6 +213,16 @@
           "image": "https://rollsroycers.com/images/2024_Rolls-Royce_Spectre.jpg",
           "url": "https://rollsroycers.com/ru/fleet/spectre"
         }
+      },
+      "cullinan-black-badge": {
+        "title": "Аренда Rolls-Royce Cullinan Black Badge Дубай | 7 000 AED/д",
+        "description": "Арендуйте Rolls-Royce Cullinan Black Badge в Дубае — роскошный внедорожник 600 л.с. с водителем от 7 000 AED/день. Доставка в тот же день. WhatsApp.",
+        "keywords": "аренда rolls royce cullinan black badge дубай, культинан блэк бэдж цена, тёмный культинан"
+      },
+      "ghost-black-badge": {
+        "title": "Аренда Rolls-Royce Ghost Black Badge Дубай | 4 500 AED/д",
+        "description": "Арендуйте Rolls-Royce Ghost Black Badge в Дубае — самый мощный и тёмный Ghost, с водителем от 4 500 AED/день. Доставка в тот же день. WhatsApp.",
+        "keywords": "аренда rolls royce ghost black badge дубай, гост блэк бэдж цена, тёмный гост"
       }
     },
     "services": {
@@ -374,6 +384,16 @@
         "title": "Услуги Rolls-Royce Дубай | Свадьба, Корпоратив, Трансфер | Лучшие Цены 2026",
         "description": "Премиальные услуги Rolls-Royce в Дубае. Свадебные авто от 2 500 AED, корпоративные пакеты от 1 200 AED/день, трансфер в аэропорт 24/7. Профессиональные водители, более 10 000 довольных клиентов.",
         "keywords": "услуги rolls royce дубай, люксовые автоуслуги дубай, аренда свадебного авто дубай, корпоративный автосервис дубай, трансфер аэропорт дубай"
+      },
+      "birthday": {
+        "title": "Аренда Rolls-Royce на день рождения Дубай | от 3 500 AED",
+        "description": "Незабываемый день рождения в Rolls-Royce в Дубае. Украшение, шампанское и сюрприз-подача от 3 500 AED. Phantom, Ghost, Cullinan. Бронь в WhatsApp.",
+        "keywords": "rolls royce на день рождения дубай, аренда авто на день рождения, сюрприз день рождения дубай"
+      },
+      "hourly": {
+        "title": "Почасовая аренда Rolls-Royce Дубай | водитель от 800 AED",
+        "description": "Арендуйте Rolls-Royce на час в Дубае с водителем от 800 AED/час. Гибкое бронирование, все модели. Доставка в тот же день. Бронь в WhatsApp.",
+        "keywords": "почасовая аренда rolls royce дубай, rolls royce на час, водитель rolls royce час"
       }
     },
     "locations": {
@@ -507,6 +527,16 @@
         "title": "Локации Rolls-Royce Дубай | Даунтаун, Марина, Палм | Покрытие 24/7",
         "description": "Премиум-сервис Rolls-Royce во всех районах Дубая. От Даунтаун Дубай до Палм Джумейра, Дубай Марина до ДИFC. Время отклика 15 минут, доступность 24/7.",
         "keywords": "локации rolls royce дубай, люксовое авто даунтаун дубай, rolls royce марина дубай, автосервис палм джумейра"
+      },
+      "deira": {
+        "title": "Аренда Rolls-Royce в Дейре Дубай | Золотой рынок и DXB",
+        "description": "Арендуйте Rolls-Royce в Дейре, Дубай с бесплатной доставкой к Золотому рынку, Deira City Centre и аэропорту (DXB). Водитель включён. WhatsApp.",
+        "keywords": "аренда rolls royce дейра дубай, прокат авто дейра, rolls royce золотой рынок, rolls royce аэропорт dxb"
+      },
+      "jumeirah": {
+        "title": "Аренда Rolls-Royce в Джумейре Дубай | Burj Al Arab",
+        "description": "Арендуйте Rolls-Royce в Джумейре, Дубай с бесплатной доставкой к Burj Al Arab, Madinat Jumeirah и пляжу Джумейра. Водитель включён. WhatsApp.",
+        "keywords": "аренда rolls royce джумейра дубай, прокат авто джумейра, rolls royce burj al arab, rolls royce пляж джумейра"
       }
     },
     "other": {

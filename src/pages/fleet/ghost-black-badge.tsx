@@ -74,9 +74,9 @@ export default function GhostBlackBadgePage() {
 
   return (
     <>
-      <SEO pageKey="fleet.ghost" />
+      <SEO pageKey="fleet.ghost-black-badge" />
       <GEOOptimizer
-        pageKey="fleet.ghost"
+        pageKey="fleet.ghost-black-badge"
         title="Rolls-Royce Ghost Black Badge Rental Dubai 2026"
         description="Rent the Ghost Black Badge in Dubai from AED 5,500/day. 592 HP, illuminated fascia, carbon fibre wheels."
         entityType="Vehicle"

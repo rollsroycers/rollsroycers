@@ -85,9 +85,9 @@ export default function JumeirahPage() {
 
   return (
     <>
-      <SEO pageKey="locations.palm-jumeirah" />
+      <SEO pageKey="locations.jumeirah" />
       <GEOOptimizer
-        pageKey="locations.palm-jumeirah"
+        pageKey="locations.jumeirah"
         title="Rolls-Royce Rental Jumeirah Dubai 2026 | Burj Al Arab Delivery"
         description="Rent Rolls-Royce in Jumeirah near Burj Al Arab. Free delivery in 15 min to all beach hotels. From AED 3,800/day."
         entityType="LocalBusiness"

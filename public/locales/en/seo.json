@@ -286,6 +286,16 @@
           "description": "Rent the first fully electric Rolls-Royce Spectre in Dubai from AED 7,500/day. 577hp, 520km range, zero emissions luxury with professional chauffeur. Book now!",
           "image": "https://rollsroycers.com/images/2024_Rolls-Royce_Spectre.jpg"
         }
+      },
+      "cullinan-black-badge": {
+        "title": "Rent Rolls-Royce Cullinan Black Badge Dubai | AED 7,000/Day",
+        "description": "Hire the darkened Rolls-Royce Cullinan Black Badge in Dubai — 600HP luxury SUV with chauffeur from AED 7,000/day. Same-day delivery. Book on WhatsApp.",
+        "keywords": "rolls royce cullinan black badge dubai, black badge cullinan rental, dark cullinan dubai, cullinan black badge price"
+      },
+      "ghost-black-badge": {
+        "title": "Rent Rolls-Royce Ghost Black Badge Dubai | AED 4,500/Day",
+        "description": "Hire the Rolls-Royce Ghost Black Badge in Dubai — the darkest, most powerful Ghost, with chauffeur from AED 4,500/day. Same-day delivery. Book on WhatsApp.",
+        "keywords": "rolls royce ghost black badge dubai, black badge ghost rental, dark ghost dubai, ghost black badge price"
       }
     },
     "services": {
@@ -482,6 +492,16 @@
         "title": "Rolls-Royce Services Dubai | Wedding, Corporate, Airport Transfer | Best Prices 2026",
         "description": "Premium Rolls-Royce services in Dubai. Wedding cars from AED 2,500, corporate packages from AED 1,200/day, airport transfers 24/7. Professional chauffeurs, 10,000+ satisfied clients. Book luxury car services online or call +971558164922.",
         "keywords": "rolls royce services dubai, luxury car services dubai, wedding car rental dubai, corporate car service dubai, airport transfer dubai, chauffeur service dubai, event transportation dubai, photoshoot car rental dubai, luxury tours dubai, rolls royce with driver dubai, vip car service dubai, executive car rental dubai"
+      },
+      "birthday": {
+        "title": "Rolls-Royce Birthday Car Rental Dubai | From AED 3,500",
+        "description": "Make a birthday unforgettable in a Rolls-Royce in Dubai. Decoration, champagne & surprise pickup from AED 3,500. Phantom, Ghost, Cullinan. Book on WhatsApp.",
+        "keywords": "rolls royce birthday car dubai, birthday car rental dubai, luxury birthday surprise dubai, rolls royce with decoration"
+      },
+      "hourly": {
+        "title": "Hourly Rolls-Royce Rental Dubai | Chauffeur from AED 800/hr",
+        "description": "Rent a Rolls-Royce by the hour in Dubai with professional chauffeur from AED 800/hour. Flexible bookings, all models. Same-day delivery. Book on WhatsApp.",
+        "keywords": "hourly rolls royce rental dubai, rolls royce per hour dubai, rolls royce chauffeur hourly, luxury car hourly dubai"
       }
     },
     "locations": {
@@ -633,6 +653,16 @@
         "title": "Rolls-Royce Service Locations Dubai | Downtown, Marina, Palm | 24/7 Coverage",
         "description": "Premium Rolls-Royce service across all Dubai locations. From Downtown Dubai to Palm Jumeirah, Dubai Marina to DIFC. Quick 15-minute response time, 24/7 availability. Book luxury car service from any location +971558164922.",
         "keywords": "rolls royce locations dubai, luxury car service downtown dubai, rolls royce marina dubai, palm jumeirah car service, business bay chauffeur, jbr luxury transport, difc executive car, dubai service areas, rolls royce near me, luxury car coverage dubai"
+      },
+      "deira": {
+        "title": "Rent Rolls-Royce in Deira Dubai | Gold Souk & DXB Delivery",
+        "description": "Rent a Rolls-Royce in Deira, Dubai with free delivery to the Gold Souk, Deira City Centre & Dubai Airport (DXB). Chauffeur included. Book on WhatsApp.",
+        "keywords": "rent rolls royce deira dubai, deira luxury car rental, rolls royce gold souk, rolls royce near dxb airport"
+      },
+      "jumeirah": {
+        "title": "Rent Rolls-Royce in Jumeirah Dubai | Burj Al Arab Delivery",
+        "description": "Rent a Rolls-Royce in Jumeirah, Dubai with free delivery to Burj Al Arab, Madinat Jumeirah & Jumeirah Beach. Chauffeur included. Book on WhatsApp.",
+        "keywords": "rent rolls royce jumeirah dubai, jumeirah luxury car rental, rolls royce burj al arab, rolls royce jumeirah beach"
       }
     },
     "other": {

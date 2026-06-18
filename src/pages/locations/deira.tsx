@@ -85,9 +85,9 @@ export default function DeiraPage() {
 
   return (
     <>
-      <SEO pageKey="locations.downtown-dubai" />
+      <SEO pageKey="locations.deira" />
       <GEOOptimizer
-        pageKey="locations.downtown-dubai"
+        pageKey="locations.deira"
         title="Rolls-Royce Rental Deira Dubai 2026 | Near DXB Airport & Gold Souk"
         description="Rent Rolls-Royce in Deira near Dubai Airport. Free delivery in 10 min to DXB, Gold Souk, and Creek. From AED 3,800/day."
         entityType="LocalBusiness"

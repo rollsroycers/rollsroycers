@@ -83,9 +83,9 @@ export default function BirthdayServicePage() {
 
   return (
     <>
-      <SEO pageKey="other.booking" />
+      <SEO pageKey="services.birthday" />
       <GEOOptimizer
-        pageKey="other.booking"
+        pageKey="services.birthday"
         title="Rolls-Royce Birthday Car Rental Dubai 2026"
         description="Celebrate in a Rolls-Royce! Birthday car packages from AED 3,500 with decoration, chauffeur & champagne."
         entityType="Service"
