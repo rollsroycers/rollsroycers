@@ -8,6 +8,7 @@ import { useRouter } from 'next/router'
 import Layout from '@/components/Layout'
 import WhatsAppButton from '@/components/WhatsAppButton'
 import SEO from '@/components/SEO'
+import blogSlugs from '@/data/blogSlugs.json'
 
 // Blog articles data - في الإنتاج يمكن نقلها لـ CMS
 const blogArticles: Record<string, BlogArticle> = {
@@ -4254,9 +4255,10 @@ export default function BlogArticlePage({ article, relatedArticlesData }: BlogPa
 }
 
 export const getStaticPaths: GetStaticPaths = async () => {
+  // Single source of truth for blog slugs — shared with the sitemap generator
+  // (scripts/generate-sitemap.mjs) so the sitemap can never list an unbuilt slug.
   const baseSlugs = Object.keys(blogArticles)
-  const newSlugs = ['rolls-royce-chauffeur-dubai-guide','rolls-royce-airport-transfer-dubai','dubai-luxury-car-guide-2025','first-time-dubai-luxury-guide','dubai-luxury-hotels-guide','dubai-motor-show-2024','rolls-royce-spectre-electric-dubai','rolls-royce-black-badge-dubai','rolls-royce-birthday-car-dubai','hourly-rolls-royce-rental-dubai','rolls-royce-cullinan-vs-bentley-bentayga','rolls-royce-photoshoot-dubai-guide','dubai-new-year-luxury-car-rental','rolls-royce-phantom-vs-ghost-comparison']
-  const unique = Array.from(new Set([...baseSlugs, ...newSlugs]))
+  const unique = Array.from(new Set([...baseSlugs, ...blogSlugs]))
   
   // Generate paths for all locales
   const locales = ['en', 'ar', 'fr', 'ru', 'zh', 'hi']
