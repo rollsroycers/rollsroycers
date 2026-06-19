@@ -16,6 +16,9 @@ class MyDocument extends Document {
     // GSC HTML-tag verification — only render when a real code is set (was a hardcoded
     // YOUR_GSC_VERIFICATION_CODE placeholder). If you verify via Cloudflare DNS, leave it unset.
     const gscVerification = process.env.NEXT_PUBLIC_GSC_VERIFICATION
+    // GA4 Measurement ID (G-XXXXXXXXXX) — loads gtag.js directly; reportWebVitals (in _app.tsx)
+    // forwards LCP/INP/CLS to window.gtag, so Core Web Vitals flow to GA4 automatically.
+    const gaId = process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS_ID
 
     return (
       <Html lang={locale} dir={dir}>
@@ -121,6 +124,22 @@ class MyDocument extends Document {
               `,
             }}
           />
+        )}
+        {/* Google Analytics 4 (gtag.js) — deferred; only when a real Measurement ID is configured */}
+        {gaId && (
+          <>
+            <script async src={`https://www.googletagmanager.com/gtag/js?id=${gaId}`} />
+            <script
+              dangerouslySetInnerHTML={{
+                __html: `
+                  window.dataLayer = window.dataLayer || [];
+                  function gtag(){dataLayer.push(arguments);}
+                  gtag('js', new Date());
+                  gtag('config', '${gaId}', { anonymize_ip: true });
+                `,
+              }}
+            />
+          </>
         )}
         {/* StatCounter - deferred to idle */}
         <script
