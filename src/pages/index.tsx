@@ -454,6 +454,7 @@ export default function Home() {
                 src={selectedVideo}
                 controls
                 autoPlay
+                playsInline
                 className="w-full rounded-lg"
               />
             </motion.div>
