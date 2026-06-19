@@ -4002,7 +4002,7 @@ export default function BlogArticlePage({ article, relatedArticlesData }: BlogPa
         
         case 'image':
           return (
-            <motion.div
+            <motion.figure
               key={index}
               initial={{ opacity: 0, scale: 0.9 }}
               whileInView={{ opacity: 1, scale: 1 }}
@@ -4018,9 +4018,9 @@ export default function BlogArticlePage({ article, relatedArticlesData }: BlogPa
                 />
               </div>
               {block.caption && (
-                <p className="text-center text-gray-400 text-sm mt-2">{block.caption}</p>
+                <figcaption className="text-center text-gray-400 text-sm mt-2">{block.caption}</figcaption>
               )}
-            </motion.div>
+            </motion.figure>
           )
         
         case 'cta':
@@ -4069,7 +4069,12 @@ export default function BlogArticlePage({ article, relatedArticlesData }: BlogPa
             "headline": article.title,
             "description": article.description,
             "image": `https://rollsroycers.com${article.image}`,
-            "author": { "@type": "Person", "name": article.author },
+            "author": {
+              "@type": "Person",
+              "name": article.author,
+              "jobTitle": "Luxury Automotive Specialist",
+              "worksFor": { "@id": "https://rollsroycers.com/#organization" }
+            },
             "publisher": { "@id": "https://rollsroycers.com/#organization" },
             "datePublished": article.date,
             "dateModified": article.date,
@@ -4078,6 +4083,9 @@ export default function BlogArticlePage({ article, relatedArticlesData }: BlogPa
         />
       </Head>
       <Layout>
+        {/* <article> wraps the hero header + body so AI/search engines can isolate the
+            citable unit. Related Articles below is intentionally outside <article>. */}
+        <article>
         {/* Hero Section */}
         <section className="relative h-[60vh] flex items-center justify-center overflow-hidden">
           <div className="absolute inset-0">
@@ -4097,21 +4105,23 @@ export default function BlogArticlePage({ article, relatedArticlesData }: BlogPa
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 1 }}
             >
-              <p className="text-rolls-gold mb-4">{article.category}</p>
-              <h1 className="text-4xl md:text-6xl font-bold text-white mb-6 max-w-4xl mx-auto">
-                {article.title}
-              </h1>
-              <div className="flex items-center justify-center space-x-6 text-gray-300">
-                <span>{article.author}</span>
-                <span>•</span>
-                <span>{new Date(article.date).toLocaleDateString('en-US', { 
-                  year: 'numeric', 
-                  month: 'long', 
-                  day: 'numeric' 
-                })}</span>
-                <span>•</span>
-                <span>{article.readTime}</span>
-              </div>
+              <header>
+                <p className="text-rolls-gold mb-4">{article.category}</p>
+                <h1 className="text-4xl md:text-6xl font-bold text-white mb-6 max-w-4xl mx-auto">
+                  {article.title}
+                </h1>
+                <div className="flex items-center justify-center space-x-6 text-gray-300">
+                  <span>{article.author}</span>
+                  <span>•</span>
+                  <time dateTime={article.date}>{new Date(article.date).toLocaleDateString('en-US', {
+                    year: 'numeric',
+                    month: 'long',
+                    day: 'numeric'
+                  })}</time>
+                  <span>•</span>
+                  <span>{article.readTime}</span>
+                </div>
+              </header>
             </motion.div>
           </div>
         </section>
@@ -4184,6 +4194,7 @@ export default function BlogArticlePage({ article, relatedArticlesData }: BlogPa
             </div>
           </div>
         </section>
+        </article>
 
         {/* Related Articles */}
         <section className="py-20 bg-gradient-to-b from-rolls-navy to-rolls-black">
