@@ -426,7 +426,7 @@ const blogArticles: Record<string, BlogArticle> = {
     ]
   },
   'business-travel-rolls-royce': {
-    title: 'Rolls-Royce for Business: Making the Right Impression in Dubai',
+    title: 'Rolls-Royce for Business in Dubai: The Right Impression',
     description: 'How luxury transportation elevates your business presence in Dubai\'s competitive market.',
     author: 'James Thompson',
     date: '2025-01-03',
@@ -535,7 +535,7 @@ const blogArticles: Record<string, BlogArticle> = {
     ]
   },
   'luxury-shopping-dubai-rolls-royce': {
-    title: 'Luxury Shopping Guide: Best Malls to Visit with Your Rolls-Royce in Dubai',
+    title: 'Rolls-Royce Luxury Shopping Guide: Best Dubai Malls',
     description: 'Discover Dubai\'s most prestigious shopping destinations and how to arrive in style with your Rolls-Royce rental.',
     author: 'Layla Al-Mansouri',
     date: '2025-01-16',
@@ -627,7 +627,7 @@ const blogArticles: Record<string, BlogArticle> = {
     ]
   },
   'rolls-royce-dawn-convertible-dubai': {
-    title: 'Rolls-Royce Dawn: The Perfect Convertible for Dubai\'s Golden Weather',
+    title: 'Rolls-Royce Dawn: Perfect Convertible for Dubai Weather',
     description: 'Explore why the Rolls-Royce Dawn is the ultimate convertible for experiencing Dubai\'s perfect climate and stunning skyline.',
     author: 'Omar Al-Rashid',
     date: '2025-01-18',
@@ -719,8 +719,8 @@ const blogArticles: Record<string, BlogArticle> = {
     ]
   },
   'dubai-luxury-car-guide-2025': {
-    title: '2025 Dubai Luxury Car Experience Guide: Why Rolls-Royce Reigns Supreme',
-    description: 'The ultimate 2025 guide to luxury car rentals in Dubai. Compare Rolls-Royce vs Bentley, Ferrari, Lamborghini with pricing, features, and insider tips for the perfect Dubai experience.',
+    title: '2025 Dubai Luxury Car Guide: Why Rolls-Royce Reigns',
+    description: 'The ultimate 2025 guide to luxury car rentals in Dubai. Compare Rolls-Royce vs Bentley, Ferrari and Lamborghini with pricing, features and insider tips.',
     author: 'Editorial Team',
     date: '2025-01-20',
     readTime: '15 min read',
@@ -976,7 +976,7 @@ const blogArticles: Record<string, BlogArticle> = {
   },
   'first-time-dubai-luxury-guide': {
     title: 'First Time in Dubai? Your Complete Luxury Car Guide 2025',
-    description: 'The ultimate guide for first-time visitors to Dubai exploring luxury car rentals. Everything you need to know about experiencing Dubai in a Rolls-Royce, from requirements to insider tips and must-visit destinations.',
+    description: 'Renting a luxury car in Dubai for the first time? Your complete 2025 guide to experiencing Dubai in a Rolls-Royce: requirements, tips and top destinations.',
     author: 'Editorial Team',
     date: '2025-01-25',
     readTime: '18 min read',
@@ -1355,8 +1355,8 @@ const blogArticles: Record<string, BlogArticle> = {
     ]
   },
   'dubai-luxury-hotels-guide': {
-    title: 'Dubai\'s Most Luxurious Hotels: Arriving in Style with Rolls-Royce',
-    description: 'Explore Dubai\'s finest 5-star hotels and resorts. Discover the perfect pairing of luxury accommodation with Rolls-Royce chauffeur services for the ultimate Dubai experience.',
+    title: 'Dubai\'s Most Luxurious Hotels: Arrive in Style',
+    description: 'Explore Dubai\'s finest 5-star hotels and resorts, and discover the perfect pairing of luxury accommodation with Rolls-Royce chauffeur services.',
     author: 'Editorial Team',
     date: '2025-01-28',
     readTime: '20 min read',
@@ -1934,8 +1934,8 @@ const blogArticles: Record<string, BlogArticle> = {
     ]
   },
   'dubai-motor-show-2024': {
-    title: 'Dubai International Motor Show 2024: Rolls-Royce Steals the Spotlight',
-    description: 'Experience the grandeur of Dubai International Motor Show 2024. Exclusive Rolls-Royce unveilings, new models, live demonstrations, and the future of luxury automotive excellence in the Middle East.',
+    title: 'Dubai Motor Show 2024: Rolls-Royce Steals the Spotlight',
+    description: 'Dubai International Motor Show 2024: exclusive Rolls-Royce unveilings, new models, live demos and the future of luxury automotive in the Middle East.',
     author: 'Editorial Team',
     date: '2024-11-15',
     readTime: '22 min read',
@@ -2459,8 +2459,8 @@ const blogArticles: Record<string, BlogArticle> = {
     ]
   },
   'evolution-rolls-royce-history': {
-    title: 'The Evolution of Rolls-Royce: A Century of Luxury and Innovation',
-    description: 'Journey through 120 years of Rolls-Royce history, from the meeting of two visionaries to becoming the pinnacle of automotive luxury. Discover milestones, iconic models, and the craftsmanship that defines excellence.',
+    title: 'Evolution of Rolls-Royce: A Century of Luxury',
+    description: 'Journey through 120 years of Rolls-Royce history, from two visionaries to the pinnacle of automotive luxury. Milestones, iconic models and craftsmanship.',
     author: 'Editorial Team',
     date: '2025-02-01',
     readTime: '25 min read',
@@ -2734,7 +2734,7 @@ const blogArticles: Record<string, BlogArticle> = {
     ]
   },
   'rolls-royce-spectre-electric-dubai': {
-    title: 'Rolls-Royce Spectre: The World\'s First Ultra-Luxury Electric Car Now in Dubai',
+    title: 'Rolls-Royce Spectre: First Electric Luxury Car in Dubai',
     description: 'Rent the all-electric Rolls-Royce Spectre in Dubai from AED 7,500/day. 577 HP, 530km range, zero emissions luxury.',
     author: 'Ahmed Salem',
     date: '2026-02-01',
@@ -2830,7 +2830,7 @@ const blogArticles: Record<string, BlogArticle> = {
     relatedArticles: ['ultimate-guide-rolls-royce-rental-dubai', 'business-travel-rolls-royce', 'rolls-royce-birthday-car-dubai']
   },
   'rolls-royce-cullinan-vs-bentley-bentayga': {
-    title: 'Rolls-Royce Cullinan vs Bentley Bentayga: Dubai Luxury SUV Comparison',
+    title: 'Rolls-Royce Cullinan vs Bentley Bentayga in Dubai',
     description: 'Comparing the two most luxurious SUVs available for rent in Dubai. Cullinan from AED 6,500/day vs Bentayga.',
     author: 'Sarah Mitchell',
     date: '2026-01-25',
@@ -2855,7 +2855,7 @@ const blogArticles: Record<string, BlogArticle> = {
     relatedArticles: ['ultimate-guide-rolls-royce-rental-dubai', 'rolls-royce-black-badge-dubai', 'top-scenic-drives-dubai']
   },
   'rolls-royce-photoshoot-dubai-guide': {
-    title: 'Rolls-Royce Photoshoot Guide Dubai: Best Locations, Models & Tips',
+    title: 'Rolls-Royce Photoshoot Guide Dubai: Locations & Tips',
     description: 'Complete guide to Rolls-Royce photoshoots in Dubai. Best locations, recommended models, and pro tips from AED 1,200/hour.',
     author: 'Layla Al-Mansouri',
     date: '2026-01-28',
@@ -2878,7 +2878,7 @@ const blogArticles: Record<string, BlogArticle> = {
     relatedArticles: ['luxury-car-photography-spots-dubai', 'rolls-royce-black-badge-dubai', 'top-scenic-drives-dubai']
   },
   'dubai-new-year-luxury-car-rental': {
-    title: 'Dubai New Year\'s Eve 2026: Rolls-Royce Rental for the Ultimate Celebration',
+    title: 'Dubai New Year\'s Eve 2026: Rolls-Royce Rental',
     description: 'Ring in 2026 in a Rolls-Royce. NYE packages with fireworks viewing, chauffeur, and champagne from AED 8,000.',
     author: 'Ahmed Salem',
     date: '2026-01-20',
@@ -2899,7 +2899,7 @@ const blogArticles: Record<string, BlogArticle> = {
     relatedArticles: ['ultimate-guide-rolls-royce-rental-dubai', 'top-scenic-drives-dubai', 'rolls-royce-birthday-car-dubai']
   },
   'rolls-royce-phantom-vs-ghost-comparison': {
-    title: 'Rolls-Royce Phantom vs Ghost: Which Should You Rent in Dubai?',
+    title: 'Rolls-Royce Phantom vs Ghost: Which to Rent in Dubai?',
     description: 'Detailed comparison of Phantom (AED 5,800/day) vs Ghost (AED 3,800/day) for Dubai rental. Specs, comfort, and use cases.',
     author: 'James Thompson',
     date: '2026-01-22',
@@ -2933,8 +2933,8 @@ const localizedArticles: Record<string, Record<string, BlogArticle>> = {
     'dubai-motor-show-2024': blogArticles['dubai-motor-show-2024'],
     'evolution-rolls-royce-history': blogArticles['evolution-rolls-royce-history'],
     'dubai-luxury-car-guide-2025': {
-      title: '2025 Dubai Luxury Car Experience Guide: Why Rolls-Royce Reigns Supreme',
-      description: 'The ultimate 2025 guide to luxury car rentals in Dubai. Compare Rolls-Royce vs Bentley, Ferrari, Lamborghini with pricing, features, and insider tips for the perfect Dubai experience.',
+      title: '2025 Dubai Luxury Car Guide: Why Rolls-Royce Reigns',
+      description: 'The ultimate 2025 guide to luxury car rentals in Dubai. Compare Rolls-Royce vs Bentley, Ferrari and Lamborghini with pricing, features and insider tips.',
       author: 'Editorial Team',
       date: '2025-01-20',
       readTime: '15 min read',
@@ -2992,7 +2992,7 @@ const localizedArticles: Record<string, Record<string, BlogArticle>> = {
       relatedArticles: ['business-travel-rolls-royce','ultimate-guide-rolls-royce-rental-dubai']
     },
     'rolls-royce-airport-transfer-dubai': {
-      title: 'Rolls-Royce Airport Transfer Dubai: Seamless Arrivals & Departures',
+      title: 'Rolls-Royce Airport Transfer Dubai: Seamless Arrivals',
       description: 'From gate to boardroom: how to plan a flawless Rolls-Royce airport transfer in Dubai with timing, routes, terminals, and baggage support.',
       author: 'Editorial Team',
       date: '2025-08-08',
@@ -3069,7 +3069,7 @@ const localizedArticles: Record<string, Record<string, BlogArticle>> = {
       relatedArticles: ['ultimate-guide-rolls-royce-rental-dubai', 'dubai-luxury-car-guide-2025', 'rolls-royce-wedding-car-dubai']
     },
     'dubai-luxury-car-guide-2025': {
-      title: 'دليل تجربة السيارات الفاخرة في دبي 2025: لماذا تتربع رولز رويس على العرش؟',
+      title: 'دليل السيارات الفاخرة في دبي 2025: لماذا تتربع رولز رويس',
       description: 'الدليل النهائي لاستئجار السيارات الفاخرة في دبي 2025. مقارنة شاملة بين رولز رويس وبنتلي وفيراري ولامبورغيني مع الأسعار والمواصفات ونصائح الخبراء.',
       author: 'فريق التحرير',
       date: '2025-01-20',
@@ -3158,7 +3158,7 @@ const localizedArticles: Record<string, Record<string, BlogArticle>> = {
     },
     'evolution-rolls-royce-history': {
       title: 'تطور تاريخ رولز رويس: قرن من الفخامة والابتكار',
-      description: 'رحلة عبر 120 عاماً من تاريخ رولز رويس، من لقاء رجلين صاحبي رؤية إلى قمة الفخامة في عالم السيارات. اكتشف المحطات المهمة والموديلات الأيقونية والحرفية التي تُعرّف التميز.',
+      description: 'رحلة عبر 120 عاماً من تاريخ رولز رويس، من لقاء رجلين صاحبي رؤية إلى قمة الفخامة. اكتشف المحطات المهمة والموديلات الأيقونية والحرفية التي تُعرّف التميز.',
       author: 'فريق التحرير',
       date: '2025-02-01',
       readTime: '25 دقيقة قراءة',
@@ -3297,7 +3297,7 @@ const localizedArticles: Record<string, Record<string, BlogArticle>> = {
   },
   fr: {
     'evolution-rolls-royce-history': {
-      title: "L'Évolution de Rolls-Royce : Un Siècle de Luxe et d'Innovation",
+      title: "Rolls-Royce : Un Siècle de Luxe et d'Innovation",
       description: "Parcourez 120 ans d'histoire Rolls-Royce, de la rencontre de deux visionnaires à devenir le summum du luxe automobile.",
       author: 'Équipe éditoriale',
       date: '2025-02-01',
@@ -3308,7 +3308,7 @@ const localizedArticles: Record<string, Record<string, BlogArticle>> = {
       relatedArticles: ['ultimate-guide-rolls-royce-rental-dubai', 'dubai-motor-show-2024', 'dubai-luxury-car-guide-2025']
     },
     'dubai-motor-show-2024': {
-      title: 'Salon International de l\'Automobile de Dubaï 2024: Rolls-Royce Vole la Vedette',
+      title: 'Salon de l\'Auto de Dubaï 2024 : Rolls-Royce en Vedette',
       description: 'Découvrez la grandeur du Salon de l\'Auto de Dubaï 2024. Dévoilements exclusifs Rolls-Royce, nouveaux modèles et l\'avenir du luxe automobile au Moyen-Orient.',
       author: 'Équipe éditoriale',
       date: '2024-11-15',
@@ -3337,8 +3337,8 @@ const localizedArticles: Record<string, Record<string, BlogArticle>> = {
       relatedArticles: ['ultimate-guide-rolls-royce-rental-dubai', 'dubai-luxury-car-guide-2025', 'rolls-royce-wedding-car-dubai']
     },
     'dubai-luxury-car-guide-2025': {
-      title: 'Guide des voitures de luxe à Dubaï 2025 : Pourquoi Rolls‑Royce règne en maître',
-      description: 'Le guide ultime 2025 de la location de voitures de luxe à Dubaï. Comparaison Rolls‑Royce vs Bentley, Ferrari, Lamborghini avec prix, caractéristiques et conseils d\'experts.',
+      title: 'Voitures de luxe à Dubaï 2025 : Rolls-Royce en maître',
+      description: 'Le guide ultime 2025 de la location de voitures de luxe à Dubaï. Rolls-Royce vs Bentley, Ferrari, Lamborghini : prix, caractéristiques et conseils d\'experts.',
       author: 'Rédaction',
       date: '2025-01-20',
       readTime: '15 min',
@@ -3411,8 +3411,8 @@ const localizedArticles: Record<string, Record<string, BlogArticle>> = {
   },
   ru: {
     'dubai-luxury-car-guide-2025': {
-      title: 'Гид по роскошным автомобилям Дубая 2025: Почему Rolls‑Royce правит балом',
-      description: 'Полный гид 2025 по аренде роскошных автомобилей в Дубае. Сравнение Rolls‑Royce vs Bentley, Ferrari, Lamborghini с ценами, характеристиками и экспертными советами.',
+      title: 'Роскошные авто Дубая 2025: почему Rolls-Royce — лидер',
+      description: 'Полный гид 2025 по аренде роскошных авто в Дубае. Сравнение Rolls-Royce vs Bentley, Ferrari, Lamborghini: цены, характеристики и советы экспертов.',
       author: 'Редакция',
       date: '2025-01-20',
       readTime: '15 мин чтения',
@@ -3434,7 +3434,7 @@ const localizedArticles: Record<string, Record<string, BlogArticle>> = {
       relatedArticles: ['ultimate-guide-rolls-royce-rental-dubai','rolls-royce-chauffeur-dubai-guide','luxury-shopping-dubai-rolls-royce']
     },
     'rolls-royce-chauffeur-dubai-guide': {
-      title: 'Услуга шофёра на Rolls‑Royce в Дубае: исполнительный гид 2025',
+      title: 'Шофёр на Rolls-Royce в Дубае: исполнительный гид 2025',
       description: 'Тарифы, кейсы использования, маршруты и этикет премиального сервиса с личным водителем.',
       author: 'Редакция',
       date: '2025-08-08',
@@ -3454,7 +3454,7 @@ const localizedArticles: Record<string, Record<string, BlogArticle>> = {
       relatedArticles: ['business-travel-rolls-royce','ultimate-guide-rolls-royce-rental-dubai']
     },
     'rolls-royce-airport-transfer-dubai': {
-      title: 'Аэропорт‑трансфер на Rolls‑Royce в Дубае: безупречные прилёты',
+      title: 'Аэропорт-трансфер на Rolls-Royce в Дубае',
       description: 'Планирование идеального трансфера: тайминг, маршруты, терминалы, багаж.',
       author: 'Редакция',
       date: '2025-08-08',
@@ -3564,7 +3564,7 @@ const localizedArticles: Record<string, Record<string, BlogArticle>> = {
       relatedArticles: ['ultimate-guide-rolls-royce-rental-dubai', 'dubai-motor-show-2024', 'dubai-luxury-car-guide-2025']
     },
     'dubai-luxury-car-guide-2025': {
-      title: 'दुबई लक्जरी कार एक्सपीरियंस गाइड 2025: रोल्स‑रॉयस क्यों है बादशाह',
+      title: 'दुबई लक्जरी कार गाइड 2025: रोल्स‑रॉयस क्यों है बादशाह',
       description: 'दुबई में लक्जरी कार रेंटल की 2025 की संपूर्ण गाइड। रोल्स‑रॉयस vs बेंटले, फेरारी, लैम्बोर्गिनी की तुलना, कीमतें और एक्सपर्ट टिप्स।',
       author: 'संपादकीय टीम',
       date: '2025-01-20',
@@ -3617,7 +3617,7 @@ const localizedArticles: Record<string, Record<string, BlogArticle>> = {
       relatedArticles: ['ultimate-guide-rolls-royce-rental-dubai','top-scenic-drives-dubai']
     },
     'dubai-luxury-hotels-guide': {
-      title: 'Dubai\'s Most Luxurious Hotels: Arriving in Style with Rolls-Royce',
+      title: 'Dubai\'s Most Luxurious Hotels: Arrive in Style',
       description: 'Explore Dubai\'s finest 5-star hotels and resorts. Discover the perfect pairing of luxury accommodation with Rolls-Royce chauffeur services.',
       author: 'Sarah Mitchell',
       date: '2025-01-25',
