@@ -1,6 +1,8 @@
 import '@/styles/globals.css'
 import type { AppProps } from 'next/app'
+import Head from 'next/head'
 import { appWithTranslation } from 'next-i18next'
+import { MotionConfig } from 'framer-motion'
 import { useEffect } from 'react'
 import { Playfair_Display, Montserrat, Noto_Sans_Arabic } from 'next/font/google'
 import { optimizeForMobile, setMobileViewportHeight } from '@/utils/mobileOptimizations'
@@ -58,11 +60,28 @@ function MyApp({ Component, pageProps }: AppProps) {
     } else {
       setTimeout(deferNonCritical, 2000)
     }
+
+    // Register the service worker (public/sw.js was shipped but never registered,
+    // so the PWA / offline support / runtime caching were all dead).
+    if (process.env.NODE_ENV === 'production' && 'serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('/sw.js').catch(() => {})
+      })
+    }
   }, [])
 
   const fontClasses = `${playfairDisplay.variable} ${montserrat.variable} ${notoSansArabic.variable}`
 
-  return <div className={fontClasses}><Component {...pageProps} /></div>
+  return (
+    // reducedMotion="user" makes framer-motion honor prefers-reduced-motion (the CSS-only
+    // override did not stop JS-driven whileInView/animate transforms).
+    <MotionConfig reducedMotion="user">
+      <Head>
+        <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+      </Head>
+      <div className={fontClasses}><Component {...pageProps} /></div>
+    </MotionConfig>
+  )
 }
 
 // Use Next.js built-in web vitals reporting

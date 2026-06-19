@@ -343,7 +343,7 @@ export default function Footer() {
           
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <p className="text-sm text-gray-400 text-center md:text-left">
-              © 2025 Rolls-Royce Dubai. {t('footer.rights')}
+              © {new Date().getFullYear()} Rolls-Royce Dubai. {t('footer.rights')}
             </p>
             <div className="flex space-x-6">
               <Link href="/privacy" className="text-sm text-gray-400 hover:text-rolls-gold transition-colors">
