@@ -325,14 +325,12 @@ const DubaiLocalSEO: React.FC<DubaiLocalSEOProps> = ({ location, title, descript
                   "@context": "https://schema.org",
                   "@type": "LocalBusiness",
                   "name": `Rolls-Royce Rental ${locationData.name}`,
-                  "image": "https://rollsroycers.com/images/showroom.jpg",
+                  "image": "https://rollsroycers.com/images/Rolls-royce-official.jpg",
                   "telephone": "+971558164922",
                   "address": {
                     "@type": "PostalAddress",
-                    "streetAddress": "Sheikh Mohammed bin Rashid Blvd",
                     "addressLocality": locationData.name,
                     "addressRegion": "Dubai",
-                    "postalCode": "00000",
                     "addressCountry": "AE"
                   },
                   "geo": {

@@ -144,6 +144,12 @@ export default function SEO({ pageKey, title: titleProp, description: descriptio
         "@type": "Organization",
         "@id": `${baseUrl}/#organization`,
         "name": "Rolls-Royce Dubai",
+        "legalName": "Naqra FZE",
+        "identifier": {
+          "@type": "PropertyValue",
+          "name": "Trade License (Sharjah Publishing City Free Zone)",
+          "value": "4425576.01"
+        },
         "url": baseUrl,
         "logo": {
           "@type": "ImageObject",
@@ -179,7 +185,6 @@ export default function SEO({ pageKey, title: titleProp, description: descriptio
         "priceRange": "AED 3,800 - AED 10,000 per day",
         "address": {
           "@type": "PostalAddress",
-          "streetAddress": "Downtown Dubai",
           "addressLocality": "Dubai",
           "addressCountry": "AE"
         },
@@ -392,10 +397,8 @@ export default function SEO({ pageKey, title: titleProp, description: descriptio
       <meta name="ICBM" content="25.2048, 55.2708" />
       
       {/* Business Information */}
-      <meta name="business:contact_data:street_address" content="Downtown Dubai" />
       <meta name="business:contact_data:locality" content="Dubai" />
       <meta name="business:contact_data:country_name" content="United Arab Emirates" />
-      <meta name="business:contact_data:postal_code" content="00000" />
       <meta name="business:contact_data:phone_number" content="+971558164922" />
       
       {/* Schema.org Structured Data */}

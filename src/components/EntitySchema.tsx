@@ -34,6 +34,12 @@ export default function EntitySchema({
     "inLanguage": currentLang,
     "telephone": "+971558164922",
     "email": "info@rollsroycers.com",
+    "legalName": "Naqra FZE",
+    "identifier": {
+      "@type": "PropertyValue",
+      "name": "Trade License (Sharjah Publishing City Free Zone)",
+      "value": "4425576.01"
+    },
     "foundingDate": "2010",
     "numberOfEmployees": {
       "@type": "QuantitativeValue",
@@ -42,10 +48,8 @@ export default function EntitySchema({
     },
     "address": {
       "@type": "PostalAddress",
-      "streetAddress": "Sheikh Zayed Road",
       "addressLocality": "Dubai",
       "addressRegion": "Dubai",
-      "postalCode": "00000",
       "addressCountry": "AE"
     },
     "geo": {
