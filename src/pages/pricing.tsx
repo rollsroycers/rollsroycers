@@ -8,6 +8,7 @@ import { useState } from 'react'
 import Layout from '@/components/Layout'
 import SEO from '@/components/SEO'
 import GEOOptimizer from '@/components/GEOOptimizer'
+import SeoContentBlock from '@/components/SeoContentBlock'
 import WhatsAppButton from '@/components/WhatsAppButton'
 import PriceCalculator from '@/components/PriceCalculator'
 import { createWhatsAppLinkProps } from '@/utils/whatsapp'
@@ -221,10 +222,7 @@ export default function PricingPage() {
           ]
         }}
         facts={['Ghost from AED 3,800/day', 'Phantom from AED 5,800/day', 'Cullinan SUV from AED 6,500/day', 'All prices include chauffeur', 'Weekly & monthly discounts available']}
-        faqs={[
-          { question: 'How much does it cost to rent a Rolls-Royce in Dubai 2026?', answer: 'Rolls-Royce rental in Dubai starts from AED 3,800/day for the Ghost. Phantom AED 5,800/day, Cullinan AED 6,500/day. Weekly rates offer 15% discount, monthly rates 40% discount.' },
-          { question: 'What is included in the rental price?', answer: 'All rental prices include professional chauffeur, comprehensive insurance, 24/7 roadside assistance, complimentary water and WiFi, and free delivery anywhere in Dubai.' }
-        ]}
+        faqs={[]}
       />
 
       <Layout>
@@ -619,6 +617,7 @@ export default function PricingPage() {
         </section>
 
         <WhatsAppButton />
+        <SeoContentBlock blockKey="pricing" />
       </Layout>
     </>
   )

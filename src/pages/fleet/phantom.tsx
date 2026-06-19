@@ -12,6 +12,7 @@ import { translateSpec } from '@/utils/translations'
 import { createWhatsAppLinkProps } from '@/utils/whatsapp'
 import Script from 'next/script'
 import GEOOptimizer from '@/components/GEOOptimizer'
+import SeoContentBlock from '@/components/SeoContentBlock'
 import EntitySchema from '@/components/EntitySchema'
 
 // AI-Optimized Content Component
@@ -609,12 +610,7 @@ export default function PhantomPage() {
           'Professional chauffeur included',
           '4.9/5 rating from 1,247 reviews'
         ]}
-        faqs={[
-          { question: 'How much does it cost to rent a Rolls-Royce Phantom in Dubai?', answer: 'The Rolls-Royce Phantom rental starts from AED 5,800 per day. Weekly rates from AED 34,800 and monthly from AED 116,000. All prices include professional chauffeur, insurance, and 24/7 support.' },
-          { question: 'Is the Phantom good for weddings in Dubai?', answer: 'Yes, the Phantom Extended Wheelbase is the most popular wedding car in Dubai. White Phantom available with floral decoration, red carpet, and professional chauffeur in formal attire.' },
-          { question: 'What is included in Phantom rental?', answer: 'Phantom rental includes professional multilingual chauffeur, comprehensive insurance, 24/7 roadside assistance, complimentary water and WiFi, and free delivery to any Dubai location.' },
-          { question: 'Can tourists rent a Rolls-Royce Phantom in Dubai?', answer: 'Yes! Tourists can rent with a valid passport, international driving license, and credit card. Most clients prefer our chauffeur service for the ultimate luxury experience.' }
-        ]}
+        faqs={[]}
       />
       <EntitySchema pageType="fleet" carModel="phantom" />
       
@@ -888,6 +884,7 @@ export default function PhantomPage() {
         </section>
 
         <WhatsAppButton />
+        <SeoContentBlock blockKey="fleet-phantom" />
       </Layout>
     </>
   )

@@ -11,6 +11,7 @@ import VirtualTour from '@/components/VirtualTour'
 import WhatsAppButton from '@/components/WhatsAppButton'
 import SEO from '@/components/SEO'
 import GEOOptimizer from '@/components/GEOOptimizer'
+import SeoContentBlock from '@/components/SeoContentBlock'
 import EntitySchema from '@/components/EntitySchema'
 import { createWhatsAppLinkProps } from '@/utils/whatsapp'
 import Script from 'next/script'
@@ -137,11 +138,7 @@ export default function CullinanPage() {
           'Perfect for desert tours and family trips',
           'Professional chauffeur included'
         ]}
-        faqs={[
-          { question: 'How much does it cost to rent a Rolls-Royce Cullinan in Dubai?', answer: 'The Rolls-Royce Cullinan rental starts from AED 6,500 per day. Weekly rates from AED 39,000 and monthly from AED 130,000. All prices include professional chauffeur and insurance.' },
-          { question: 'Is the Cullinan good for desert tours?', answer: 'Yes, the Cullinan is Rolls-Royce\'s first SUV with all-wheel drive, making it ideal for desert safaris while maintaining supreme luxury and comfort.' },
-          { question: 'How many passengers can the Cullinan seat?', answer: 'The Cullinan offers up to 7-seater configuration, making it the most spacious Rolls-Royce and perfect for families, groups, and corporate delegations visiting Dubai.' }
-        ]}
+        faqs={[]}
       />
       <EntitySchema pageType="fleet" carModel="cullinan" />
 
@@ -393,6 +390,7 @@ export default function CullinanPage() {
         </section>
 
         <WhatsAppButton />
+        <SeoContentBlock blockKey="fleet-cullinan" />
       </Layout>
     </>
   )

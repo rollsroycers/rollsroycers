@@ -8,6 +8,7 @@ import Layout from '@/components/Layout'
 import WhatsAppButton from '@/components/WhatsAppButton'
 import SEO from '@/components/SEO'
 import GEOOptimizer from '@/components/GEOOptimizer'
+import SeoContentBlock from '@/components/SeoContentBlock'
 import EntitySchema from '@/components/EntitySchema'
 import { generateWhatsAppURL } from '@/utils/whatsapp'
 
@@ -62,12 +63,7 @@ export default function WeddingServicePage() {
         primaryTopic="Rolls-Royce Wedding Car Dubai"
         contentSummary="Premium Rolls-Royce wedding car service in Dubai. White Phantom and Ghost with floral decoration, red carpet, and professional chauffeur. Packages from AED 2,500. Over 500 weddings served."
         facts={['Wedding car packages from AED 2,500', 'White Phantom & Ghost available', 'Floral decoration included', 'Professional chauffeur in formal attire', 'Free photographer for 4+ hour bookings', 'Over 500 weddings served in Dubai']}
-        faqs={[
-          { question: 'How much is a Rolls-Royce wedding car in Dubai?', answer: 'Rolls-Royce wedding car packages start from AED 2,500 including decoration, red carpet, and professional chauffeur. Premium packages with photographer from AED 4,500.' },
-          { question: 'Can I get a white Rolls-Royce for my wedding?', answer: 'Yes, we have white Phantom and Ghost models specifically maintained for weddings with custom floral arrangements and Just Married signage.' },
-          { question: 'Which Rolls-Royce is best for weddings?', answer: 'The Phantom Extended Wheelbase is the most popular wedding car due to its majestic presence and spacious cabin. The Ghost is ideal for a more intimate affair, while the Dawn convertible is perfect for outdoor celebrations.' },
-          { question: 'Do you offer Indian wedding car packages in Dubai?', answer: 'Yes, we offer specialized Indian wedding packages with multiple Rolls-Royce vehicles for baraat procession, traditional decoration, and multi-day event coverage.' }
-        ]}
+        faqs={[]}
       />
       <EntitySchema pageType="service" serviceType="wedding" />
       <Layout>
@@ -316,6 +312,7 @@ export default function WeddingServicePage() {
         </section>
 
         <WhatsAppButton />
+        <SeoContentBlock blockKey="services-wedding" />
       </Layout>
     </>
   )

@@ -11,6 +11,7 @@ import SEO from '@/components/SEO'
 import Hero from '@/components/Hero'
 import Fleet from '@/components/Fleet'
 import GEOOptimizer from '@/components/GEOOptimizer'
+import SeoContentBlock from '@/components/SeoContentBlock'
 import EntitySchema from '@/components/EntitySchema'
 
 // Below-fold components — dynamically imported to reduce initial bundle
@@ -471,6 +472,7 @@ export default function Home() {
         <LoyaltyProgram />
         <PersonalizedOffers />
         <TripPlanner />
+        <SeoContentBlock blockKey="home" />
       </Layout>
     </>
   )

@@ -8,6 +8,7 @@ import Layout from '@/components/Layout'
 import WhatsAppButton from '@/components/WhatsAppButton'
 import SEO from '@/components/SEO'
 import GEOOptimizer from '@/components/GEOOptimizer'
+import SeoContentBlock from '@/components/SeoContentBlock'
 import EntitySchema from '@/components/EntitySchema'
 import Script from 'next/script'
 import { createWhatsAppLinkProps } from '@/utils/whatsapp'
@@ -231,6 +232,7 @@ export default function HourlyRentalPage() {
         </section>
 
         <WhatsAppButton />
+        <SeoContentBlock blockKey="services-hourly" />
       </Layout>
     </>
   )

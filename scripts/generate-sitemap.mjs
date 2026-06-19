@@ -31,6 +31,7 @@ const routes = [
   { path: '/about', file: 'src/pages/about.tsx', priority: '0.7', changefreq: 'monthly' },
   { path: '/fleet', file: 'src/pages/fleet.tsx', priority: '0.9', changefreq: 'weekly' },
   { path: '/services', file: 'src/pages/services.tsx', priority: '0.9', changefreq: 'weekly' },
+  { path: '/luxury-car-rental-dubai', file: 'src/pages/luxury-car-rental-dubai.tsx', priority: '0.9', changefreq: 'weekly' },
   { path: '/locations', file: 'src/pages/locations.tsx', priority: '0.9', changefreq: 'weekly' },
   { path: '/compare', file: 'src/pages/compare/index.tsx', priority: '0.8', changefreq: 'monthly' },
   { path: '/gallery', file: 'src/pages/gallery.tsx', priority: '0.7', changefreq: 'monthly' },

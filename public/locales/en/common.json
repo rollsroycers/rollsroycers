@@ -1503,14 +1503,46 @@
       "tagline": "The Future of Ultra-Luxury",
       "description": "The first fully electric Rolls-Royce. Experience whisper-silent luxury with 577hp instant torque, 520+ km range, and zero emissions.",
       "features": [
-        { "icon": "⚡", "title": "Dual Electric Motors", "desc": "577 HP of instant, whisper-silent power" },
-        { "icon": "🔋", "title": "520+ km Range", "desc": "102 kWh battery for all-day luxury touring" },
-        { "icon": "🤫", "title": "Whisper Silent", "desc": "The quietest Rolls-Royce ever created" },
-        { "icon": "✨", "title": "Starlight Headliner", "desc": "1,340 fiber optic lights in your personal night sky" },
-        { "icon": "🏎️", "title": "Fastback Design", "desc": "Dramatic coupé silhouette with aerodynamic elegance" },
-        { "icon": "🎵", "title": "Bespoke Audio", "desc": "18-speaker system tuned for electric silence" },
-        { "icon": "🌟", "title": "Illuminated Spirit", "desc": "The iconic Spirit of Ecstasy, now illuminated" },
-        { "icon": "🔒", "title": "Advanced Suspension", "desc": "Planar system with electric-optimized damping" }
+        {
+          "icon": "⚡",
+          "title": "Dual Electric Motors",
+          "desc": "577 HP of instant, whisper-silent power"
+        },
+        {
+          "icon": "🔋",
+          "title": "520+ km Range",
+          "desc": "102 kWh battery for all-day luxury touring"
+        },
+        {
+          "icon": "🤫",
+          "title": "Whisper Silent",
+          "desc": "The quietest Rolls-Royce ever created"
+        },
+        {
+          "icon": "✨",
+          "title": "Starlight Headliner",
+          "desc": "1,340 fiber optic lights in your personal night sky"
+        },
+        {
+          "icon": "🏎️",
+          "title": "Fastback Design",
+          "desc": "Dramatic coupé silhouette with aerodynamic elegance"
+        },
+        {
+          "icon": "🎵",
+          "title": "Bespoke Audio",
+          "desc": "18-speaker system tuned for electric silence"
+        },
+        {
+          "icon": "🌟",
+          "title": "Illuminated Spirit",
+          "desc": "The iconic Spirit of Ecstasy, now illuminated"
+        },
+        {
+          "icon": "🔒",
+          "title": "Advanced Suspension",
+          "desc": "Planar system with electric-optimized damping"
+        }
       ],
       "badges": {
         "electric": "100% Electric",
@@ -1628,68 +1660,149 @@
       },
       "relatedSubtitle": "Experience the Wraith with our premium services",
       "services": {
-        "events": { "title": "Events & Red Carpet", "desc": "The Wraith's dramatic fastback silhouette makes it the ultimate statement car for galas and premieres." },
-        "photoshoot": { "title": "Photoshoot Service", "desc": "The Wraith's Starlight Headliner and bold coupe lines are perfect for dramatic editorial and fashion shoots." },
-        "chauffeur": { "title": "Chauffeur Service", "desc": "Professional chauffeur with the fastest Rolls-Royce. Hourly and daily packages available." }
+        "events": {
+          "title": "Events & Red Carpet",
+          "desc": "The Wraith's dramatic fastback silhouette makes it the ultimate statement car for galas and premieres."
+        },
+        "photoshoot": {
+          "title": "Photoshoot Service",
+          "desc": "The Wraith's Starlight Headliner and bold coupe lines are perfect for dramatic editorial and fashion shoots."
+        },
+        "chauffeur": {
+          "title": "Chauffeur Service",
+          "desc": "Professional chauffeur with the fastest Rolls-Royce. Hourly and daily packages available."
+        }
       },
       "models": {
-        "phantom": { "price": "AED 5,800/day" },
-        "ghost": { "price": "AED 3,800/day" },
-        "cullinan": { "price": "AED 6,500/day" },
-        "dawn": { "price": "AED 5,500/day" },
-        "spectre": { "price": "AED 7,500/day" }
+        "phantom": {
+          "price": "AED 5,800/day"
+        },
+        "ghost": {
+          "price": "AED 3,800/day"
+        },
+        "cullinan": {
+          "price": "AED 6,500/day"
+        },
+        "dawn": {
+          "price": "AED 5,500/day"
+        },
+        "spectre": {
+          "price": "AED 7,500/day"
+        }
       }
     },
     "phantom": {
       "relatedSubtitle": "Experience the Phantom with our premium services",
       "services": {
-        "wedding": { "title": "Wedding Service", "desc": "The Phantom is the world's most prestigious wedding car. White Extended Wheelbase with floral decoration and red carpet." },
-        "corporate": { "title": "Corporate Service", "desc": "Impress clients and VIPs with the flagship Phantom. Perfect for board-level transport and executive entertainment." },
-        "airport": { "title": "Airport Transfer", "desc": "First-class airport arrival in the Phantom. Meet & greet at DXB with flight tracking and complimentary waiting." }
+        "wedding": {
+          "title": "Wedding Service",
+          "desc": "The Phantom is the world's most prestigious wedding car. White Extended Wheelbase with floral decoration and red carpet."
+        },
+        "corporate": {
+          "title": "Corporate Service",
+          "desc": "Impress clients and VIPs with the flagship Phantom. Perfect for board-level transport and executive entertainment."
+        },
+        "airport": {
+          "title": "Airport Transfer",
+          "desc": "First-class airport arrival in the Phantom. Meet & greet at DXB with flight tracking and complimentary waiting."
+        }
       },
       "models": {
-        "ghost": { "price": "AED 3,800/day" },
-        "cullinan": { "price": "AED 6,500/day" },
-        "dawn": { "price": "AED 5,500/day" },
-        "wraith": { "price": "AED 5,000/day" },
-        "spectre": { "price": "AED 7,500/day" }
+        "ghost": {
+          "price": "AED 3,800/day"
+        },
+        "cullinan": {
+          "price": "AED 6,500/day"
+        },
+        "dawn": {
+          "price": "AED 5,500/day"
+        },
+        "wraith": {
+          "price": "AED 5,000/day"
+        },
+        "spectre": {
+          "price": "AED 7,500/day"
+        }
       }
     },
     "ghost": {
       "relatedSubtitle": "Experience the Ghost with our premium services",
       "services": {
-        "corporate": { "title": "Corporate Service", "desc": "The Ghost is our #1 choice for executive transport and CEO transfers in DIFC & Business Bay." },
-        "chauffeur": { "title": "Chauffeur Service", "desc": "Professional multilingual chauffeur with your Ghost rental. Hourly from AED 800." },
-        "airport": { "title": "Airport Transfer", "desc": "VIP airport pickup in a Ghost. Meet & greet at DXB with flight tracking included." }
+        "corporate": {
+          "title": "Corporate Service",
+          "desc": "The Ghost is our #1 choice for executive transport and CEO transfers in DIFC & Business Bay."
+        },
+        "chauffeur": {
+          "title": "Chauffeur Service",
+          "desc": "Professional multilingual chauffeur with your Ghost rental. Hourly from AED 800."
+        },
+        "airport": {
+          "title": "Airport Transfer",
+          "desc": "VIP airport pickup in a Ghost. Meet & greet at DXB with flight tracking included."
+        }
       },
       "models": {
-        "phantom": { "price": "AED 5,800/day" },
-        "cullinan": { "price": "AED 6,500/day" },
-        "dawn": { "price": "AED 5,500/day" },
-        "wraith": { "price": "AED 5,000/day" },
-        "spectre": { "price": "AED 7,500/day" }
+        "phantom": {
+          "price": "AED 5,800/day"
+        },
+        "cullinan": {
+          "price": "AED 6,500/day"
+        },
+        "dawn": {
+          "price": "AED 5,500/day"
+        },
+        "wraith": {
+          "price": "AED 5,000/day"
+        },
+        "spectre": {
+          "price": "AED 7,500/day"
+        }
       }
     },
     "cullinan": {
       "relatedSubtitle": "Experience the Cullinan with our premium services",
       "services": {
-        "tours": { "title": "Desert Safari Tours", "desc": "The Cullinan is the ultimate luxury SUV for desert adventures and scenic tours across the UAE." },
-        "corporate": { "title": "Corporate Service", "desc": "Impress with the world's most luxurious SUV. Perfect for executive transport and VIP guests." },
-        "chauffeur": { "title": "Chauffeur Service", "desc": "Professional chauffeur with the Cullinan. Spacious luxury for families and groups." }
+        "tours": {
+          "title": "Desert Safari Tours",
+          "desc": "The Cullinan is the ultimate luxury SUV for desert adventures and scenic tours across the UAE."
+        },
+        "corporate": {
+          "title": "Corporate Service",
+          "desc": "Impress with the world's most luxurious SUV. Perfect for executive transport and VIP guests."
+        },
+        "chauffeur": {
+          "title": "Chauffeur Service",
+          "desc": "Professional chauffeur with the Cullinan. Spacious luxury for families and groups."
+        }
       },
       "models": {
-        "phantom": { "price": "AED 5,800/day" },
-        "ghost": { "price": "AED 3,800/day" },
-        "dawn": { "price": "AED 5,500/day" },
-        "wraith": { "price": "AED 5,000/day" },
-        "spectre": { "price": "AED 7,500/day" }
+        "phantom": {
+          "price": "AED 5,800/day"
+        },
+        "ghost": {
+          "price": "AED 3,800/day"
+        },
+        "dawn": {
+          "price": "AED 5,500/day"
+        },
+        "wraith": {
+          "price": "AED 5,000/day"
+        },
+        "spectre": {
+          "price": "AED 7,500/day"
+        }
       }
     },
     "dawn": {
       "rentalTitle": "Dawn Rental Packages",
       "tourTitle": "360° Dawn Experience",
       "routesTitle": "Recommended Dubai Routes",
-      "routeLabels": { "distance": "Distance", "duration": "Duration", "bestTime": "Best Time", "highlights": "Highlights" },
+      "routeLabels": {
+        "distance": "Distance",
+        "duration": "Duration",
+        "bestTime": "Best Time",
+        "highlights": "Highlights"
+      },
       "cta": {
         "title": "Feel the Dubai Breeze in a Dawn",
         "description": "Book now and receive a complimentary sunset drive route map and professional photography session",
@@ -1698,31 +1811,69 @@
       },
       "relatedSubtitle": "Experience the Dawn with our premium services",
       "services": {
-        "photoshoot": { "title": "Photoshoot Service", "desc": "The Dawn's open-top elegance is perfect for fashion shoots and content creation along Dubai's coastline." },
-        "tours": { "title": "City Tours", "desc": "Explore Dubai's stunning landmarks in the open-top Dawn. The ultimate sightseeing experience." },
-        "wedding": { "title": "Wedding Service", "desc": "The Dawn convertible adds a magical open-air touch to wedding celebrations." }
+        "photoshoot": {
+          "title": "Photoshoot Service",
+          "desc": "The Dawn's open-top elegance is perfect for fashion shoots and content creation along Dubai's coastline."
+        },
+        "tours": {
+          "title": "City Tours",
+          "desc": "Explore Dubai's stunning landmarks in the open-top Dawn. The ultimate sightseeing experience."
+        },
+        "wedding": {
+          "title": "Wedding Service",
+          "desc": "The Dawn convertible adds a magical open-air touch to wedding celebrations."
+        }
       },
       "models": {
-        "phantom": { "price": "AED 5,800/day" },
-        "ghost": { "price": "AED 3,800/day" },
-        "cullinan": { "price": "AED 6,500/day" },
-        "wraith": { "price": "AED 5,000/day" },
-        "spectre": { "price": "AED 7,500/day" }
+        "phantom": {
+          "price": "AED 5,800/day"
+        },
+        "ghost": {
+          "price": "AED 3,800/day"
+        },
+        "cullinan": {
+          "price": "AED 6,500/day"
+        },
+        "wraith": {
+          "price": "AED 5,000/day"
+        },
+        "spectre": {
+          "price": "AED 7,500/day"
+        }
       }
     },
     "spectre": {
       "relatedSubtitle": "Experience the Spectre with our premium services",
       "services": {
-        "corporate": { "title": "Corporate Service", "desc": "Make a statement with the world's first ultra-luxury electric car. Perfect for eco-conscious executives." },
-        "tours": { "title": "Silent City Tours", "desc": "Experience Dubai in whisper-silent luxury. The Spectre offers the quietest way to explore the city." },
-        "chauffeur": { "title": "Chauffeur Service", "desc": "Professional chauffeur with the electric Spectre. Zero emissions, maximum luxury." }
+        "corporate": {
+          "title": "Corporate Service",
+          "desc": "Make a statement with the world's first ultra-luxury electric car. Perfect for eco-conscious executives."
+        },
+        "tours": {
+          "title": "Silent City Tours",
+          "desc": "Experience Dubai in whisper-silent luxury. The Spectre offers the quietest way to explore the city."
+        },
+        "chauffeur": {
+          "title": "Chauffeur Service",
+          "desc": "Professional chauffeur with the electric Spectre. Zero emissions, maximum luxury."
+        }
       },
       "models": {
-        "phantom": { "price": "AED 5,800/day" },
-        "ghost": { "price": "AED 3,800/day" },
-        "cullinan": { "price": "AED 6,500/day" },
-        "dawn": { "price": "AED 5,500/day" },
-        "wraith": { "price": "AED 5,000/day" }
+        "phantom": {
+          "price": "AED 5,800/day"
+        },
+        "ghost": {
+          "price": "AED 3,800/day"
+        },
+        "cullinan": {
+          "price": "AED 6,500/day"
+        },
+        "dawn": {
+          "price": "AED 5,500/day"
+        },
+        "wraith": {
+          "price": "AED 5,000/day"
+        }
       }
     }
   },
@@ -5620,26 +5771,82 @@
       "mostPopular": "MOST POPULAR",
       "vehicles": "Vehicles",
       "bookNow": "Book Now",
-      "silver": { "name": "Silver Birthday", "duration": "4 Hours", "price": "AED 3,500" },
-      "gold": { "name": "Gold Birthday", "duration": "8 Hours", "price": "AED 6,500" },
-      "platinum": { "name": "Platinum Birthday", "duration": "Full Day", "price": "AED 12,000" }
+      "silver": {
+        "name": "Silver Birthday",
+        "duration": "4 Hours",
+        "price": "AED 3,500"
+      },
+      "gold": {
+        "name": "Gold Birthday",
+        "duration": "8 Hours",
+        "price": "AED 6,500"
+      },
+      "platinum": {
+        "name": "Platinum Birthday",
+        "duration": "Full Day",
+        "price": "AED 12,000"
+      }
     },
-    "silverFeatures": ["Professional chauffeur", "Red carpet arrival", "Birthday banner on car", "Complimentary champagne", "Photo opportunity stops"],
-    "goldFeatures": ["Professional chauffeur", "Red carpet arrival", "Custom birthday decoration", "Champagne & flowers", "Dubai tour included", "Social media photo stops", "Balloon setup"],
-    "platinumFeatures": ["Multiple vehicles available", "Professional chauffeur", "Complete birthday decoration", "Premium champagne & cake", "Professional photographer (2hrs)", "Custom Dubai itinerary", "Red carpet at every stop", "VIP restaurant reservations"],
+    "silverFeatures": [
+      "Professional chauffeur",
+      "Red carpet arrival",
+      "Birthday banner on car",
+      "Complimentary champagne",
+      "Photo opportunity stops"
+    ],
+    "goldFeatures": [
+      "Professional chauffeur",
+      "Red carpet arrival",
+      "Custom birthday decoration",
+      "Champagne & flowers",
+      "Dubai tour included",
+      "Social media photo stops",
+      "Balloon setup"
+    ],
+    "platinumFeatures": [
+      "Multiple vehicles available",
+      "Professional chauffeur",
+      "Complete birthday decoration",
+      "Premium champagne & cake",
+      "Professional photographer (2hrs)",
+      "Custom Dubai itinerary",
+      "Red carpet at every stop",
+      "VIP restaurant reservations"
+    ],
     "howItWorks": {
       "title": "How It Works",
-      "step1": { "title": "Choose Package", "desc": "Select Silver, Gold, or Platinum birthday package." },
-      "step2": { "title": "Customize", "desc": "Tell us the birthday person's name, age, and preferences." },
-      "step3": { "title": "We Decorate", "desc": "Our team prepares the car with custom decoration and champagne." },
-      "step4": { "title": "Surprise Arrival", "desc": "The decorated Rolls-Royce arrives at the specified location." }
+      "step1": {
+        "title": "Choose Package",
+        "desc": "Select Silver, Gold, or Platinum birthday package."
+      },
+      "step2": {
+        "title": "Customize",
+        "desc": "Tell us the birthday person's name, age, and preferences."
+      },
+      "step3": {
+        "title": "We Decorate",
+        "desc": "Our team prepares the car with custom decoration and champagne."
+      },
+      "step4": {
+        "title": "Surprise Arrival",
+        "desc": "The decorated Rolls-Royce arrives at the specified location."
+      }
     },
     "bestModels": {
       "title": "Best Models for Birthdays",
       "subtitle": "Our most popular birthday celebration cars",
-      "phantom": { "desc": "The ultimate birthday car. Starlight Headliner creates a magical atmosphere. The most impressive entrance.", "price": "From AED 5,800/day" },
-      "dawn": { "desc": "Open-top birthday cruise. Perfect for daytime celebrations with the Dubai skyline as your backdrop.", "price": "From AED 5,500/day" },
-      "cullinan": { "desc": "Room for the whole party. 7 seats of luxury for group birthday celebrations and night-out adventures.", "price": "From AED 6,500/day" }
+      "phantom": {
+        "desc": "The ultimate birthday car. Starlight Headliner creates a magical atmosphere. The most impressive entrance.",
+        "price": "From AED 5,800/day"
+      },
+      "dawn": {
+        "desc": "Open-top birthday cruise. Perfect for daytime celebrations with the Dubai skyline as your backdrop.",
+        "price": "From AED 5,500/day"
+      },
+      "cullinan": {
+        "desc": "Room for the whole party. 7 seats of luxury for group birthday celebrations and night-out adventures.",
+        "price": "From AED 6,500/day"
+      }
     },
     "relatedServices": "Related Services"
   },
@@ -5663,19 +5870,49 @@
     "useCases": {
       "title": "Perfect For",
       "subtitle": "Popular hourly rental occasions",
-      "business": { "title": "Business Meetings", "desc": "Arrive at DIFC or Business Bay meetings in a Rolls-Royce. 2-3 hour bookings ideal for client impressions." },
-      "restaurant": { "title": "Restaurant Arrivals", "desc": "Grand arrival at Dubai's finest restaurants. Zuma, Nobu, La Petite Maison — make an entrance." },
-      "shopping": { "title": "Shopping Trips", "desc": "Cruise Dubai Mall, Mall of the Emirates, or Galleria with a Rolls-Royce and chauffeur waiting." },
-      "date": { "title": "Date Nights", "desc": "Impress with a Rolls-Royce date night. Sunset cruise on Palm Jumeirah in the Dawn convertible." },
-      "social": { "title": "Social Media Content", "desc": "Quick content creation sessions. 2-hour packages perfect for Instagram reels and TikTok shoots." },
-      "hotel": { "title": "Hotel Transfers", "desc": "Luxury transfer between hotels, venues, or residences across Dubai. Minimum 2-hour booking." }
+      "business": {
+        "title": "Business Meetings",
+        "desc": "Arrive at DIFC or Business Bay meetings in a Rolls-Royce. 2-3 hour bookings ideal for client impressions."
+      },
+      "restaurant": {
+        "title": "Restaurant Arrivals",
+        "desc": "Grand arrival at Dubai's finest restaurants. Zuma, Nobu, La Petite Maison — make an entrance."
+      },
+      "shopping": {
+        "title": "Shopping Trips",
+        "desc": "Cruise Dubai Mall, Mall of the Emirates, or Galleria with a Rolls-Royce and chauffeur waiting."
+      },
+      "date": {
+        "title": "Date Nights",
+        "desc": "Impress with a Rolls-Royce date night. Sunset cruise on Palm Jumeirah in the Dawn convertible."
+      },
+      "social": {
+        "title": "Social Media Content",
+        "desc": "Quick content creation sessions. 2-hour packages perfect for Instagram reels and TikTok shoots."
+      },
+      "hotel": {
+        "title": "Hotel Transfers",
+        "desc": "Luxury transfer between hotels, venues, or residences across Dubai. Minimum 2-hour booking."
+      }
     },
     "howItWorks": {
       "title": "How Hourly Rental Works",
-      "step1": { "title": "Choose Model", "desc": "Select from 6 Rolls-Royce models." },
-      "step2": { "title": "Set Duration", "desc": "Minimum 2 hours. Up to 6 hours at hourly rate." },
-      "step3": { "title": "Pick Location", "desc": "We deliver anywhere in Dubai within 30 minutes." },
-      "step4": { "title": "Enjoy", "desc": "Your chauffeur drives. You relax and enjoy." }
+      "step1": {
+        "title": "Choose Model",
+        "desc": "Select from 6 Rolls-Royce models."
+      },
+      "step2": {
+        "title": "Set Duration",
+        "desc": "Minimum 2 hours. Up to 6 hours at hourly rate."
+      },
+      "step3": {
+        "title": "Pick Location",
+        "desc": "We deliver anywhere in Dubai within 30 minutes."
+      },
+      "step4": {
+        "title": "Enjoy",
+        "desc": "Your chauffeur drives. You relax and enjoy."
+      }
     },
     "moreServices": "Explore More Services"
   },
@@ -5696,10 +5933,22 @@
       "title": "Jumeirah Experiences",
       "subtitle": "Popular ways to enjoy a Rolls-Royce in Jumeirah",
       "recommended": "Recommended",
-      "burjArab": { "title": "Burj Al Arab Arrival", "desc": "Make the ultimate entrance at the world's most iconic hotel. Our Rolls-Royce perfectly complements the Burj Al Arab's legendary luxury." },
-      "beachRoad": { "title": "Jumeirah Beach Road Cruise", "desc": "The scenic coastal road from Jumeirah to Dubai Marina offers stunning Gulf views. The Dawn convertible is the perfect choice." },
-      "madinat": { "title": "Madinat Jumeirah Dinner", "desc": "Arrive at Madinat Jumeirah's award-winning restaurants in a Rolls-Royce. Pierchic, Pai Thai, and Rockfish await." },
-      "kiteBeach": { "title": "Kite Beach Sunset", "desc": "Experience the golden hour at Kite Beach with a Rolls-Royce parked on the promenade. Perfect for photoshoots." }
+      "burjArab": {
+        "title": "Burj Al Arab Arrival",
+        "desc": "Make the ultimate entrance at the world's most iconic hotel. Our Rolls-Royce perfectly complements the Burj Al Arab's legendary luxury."
+      },
+      "beachRoad": {
+        "title": "Jumeirah Beach Road Cruise",
+        "desc": "The scenic coastal road from Jumeirah to Dubai Marina offers stunning Gulf views. The Dawn convertible is the perfect choice."
+      },
+      "madinat": {
+        "title": "Madinat Jumeirah Dinner",
+        "desc": "Arrive at Madinat Jumeirah's award-winning restaurants in a Rolls-Royce. Pierchic, Pai Thai, and Rockfish await."
+      },
+      "kiteBeach": {
+        "title": "Kite Beach Sunset",
+        "desc": "Experience the golden hour at Kite Beach with a Rolls-Royce parked on the promenade. Perfect for photoshoots."
+      }
     },
     "hotels": {
       "title": "Hotels We Serve",
@@ -5722,9 +5971,21 @@
     "airport": {
       "title": "Closest to Dubai Airport",
       "desc": "Deira is the closest major district to Dubai International Airport (DXB). Your Rolls-Royce can be waiting at the terminal in under 10 minutes. Perfect for VIP arrivals and departures with our meet & greet service.",
-      "terminal1": { "title": "Terminal 1", "time": "8 min", "desc": "Emirates and major international airlines" },
-      "terminal3": { "title": "Terminal 3", "time": "10 min", "desc": "Emirates exclusive terminal" },
-      "vip": { "title": "VIP Terminal", "time": "7 min", "desc": "Private jet and first class arrivals" }
+      "terminal1": {
+        "title": "Terminal 1",
+        "time": "8 min",
+        "desc": "Emirates and major international airlines"
+      },
+      "terminal3": {
+        "title": "Terminal 3",
+        "time": "10 min",
+        "desc": "Emirates exclusive terminal"
+      },
+      "vip": {
+        "title": "VIP Terminal",
+        "time": "7 min",
+        "desc": "Private jet and first class arrivals"
+      }
     },
     "landmarks": {
       "title": "Nearby Landmarks",
@@ -5735,10 +5996,22 @@
       "title": "Deira Experiences",
       "subtitle": "Popular ways to enjoy a Rolls-Royce in Deira",
       "recommended": "Recommended",
-      "goldSouk": { "title": "Gold Souk & Heritage Tour", "desc": "Explore the legendary Gold Souk and Spice Souk in a Rolls-Royce. Combine tradition with ultimate luxury on a cultural heritage tour." },
-      "creek": { "title": "Dubai Creek Sunset", "desc": "Drive along the historic Dubai Creek at sunset. The contrast of heritage dhows and modern luxury creates unforgettable memories." },
-      "dxb": { "title": "DXB Airport Transfer", "desc": "Deira is the closest area to Dubai International Airport. Arrive or depart in style with a VIP Rolls-Royce transfer in under 10 minutes." },
-      "oldDubai": { "title": "Old Dubai Night Drive", "desc": "Experience Old Dubai's charm at night. From Al Seef waterfront to Baniyas Square, the illuminated heritage district is magical." }
+      "goldSouk": {
+        "title": "Gold Souk & Heritage Tour",
+        "desc": "Explore the legendary Gold Souk and Spice Souk in a Rolls-Royce. Combine tradition with ultimate luxury on a cultural heritage tour."
+      },
+      "creek": {
+        "title": "Dubai Creek Sunset",
+        "desc": "Drive along the historic Dubai Creek at sunset. The contrast of heritage dhows and modern luxury creates unforgettable memories."
+      },
+      "dxb": {
+        "title": "DXB Airport Transfer",
+        "desc": "Deira is the closest area to Dubai International Airport. Arrive or depart in style with a VIP Rolls-Royce transfer in under 10 minutes."
+      },
+      "oldDubai": {
+        "title": "Old Dubai Night Drive",
+        "desc": "Experience Old Dubai's charm at night. From Al Seef waterfront to Baniyas Square, the illuminated heritage district is magical."
+      }
     },
     "hotels": {
       "title": "Hotels We Serve",
@@ -5749,5 +6022,524 @@
       "subtitle": "All models available for delivery to Deira"
     },
     "services": "Our Services"
+  },
+  "seoBlocks": {
+    "home": {
+      "heading": "Rolls-Royce Car Rental Dubai: Chauffeur-Driven Luxury From AED 3,800/Day",
+      "body": [
+        "Looking for Rolls-Royce car rental in Dubai? Naqra FZE puts the full fleet at your service, from the Ghost at AED 3,800/day and Cullinan at AED 6,500 to the all-electric Spectre at AED 7,500. Every booking includes a professional chauffeur and free delivery anywhere across Dubai, so your car arrives exactly where you need it.",
+        "Whether it is a wedding, a Downtown Dubai photoshoot, a business meeting in DIFC, or a smooth airport pickup, we tailor the journey to you. Book your Rolls-Royce rental in minutes over WhatsApp, 24/7, with multilingual support and transparent daily pricing. No hidden fees, just effortless luxury on the move."
+      ],
+      "faqs": [
+        {
+          "question": "How much does it cost to rent a Rolls-Royce in Dubai?",
+          "answer": "Rolls-Royce rental in Dubai starts at AED 3,800/day for the Ghost. The Wraith is AED 5,000, Dawn AED 5,500, Phantom AED 5,800, Cullinan AED 6,500 and the electric Spectre AED 7,500 per day. All rates include a professional chauffeur and free delivery across Dubai."
+        },
+        {
+          "question": "Can tourists rent a Rolls-Royce in Dubai?",
+          "answer": "Yes. Tourists can rent a Rolls-Royce in Dubai with a valid passport and either an International Driving Permit or, in most cases, by choosing our chauffeur option so no UAE licence is needed. We deliver to your hotel free of charge."
+        },
+        {
+          "question": "Do you offer Rolls-Royce rental with a driver in Dubai?",
+          "answer": "Yes. Every Rolls-Royce can be booked with a professional, multilingual chauffeur. Chauffeur-driven hire is ideal for weddings, airport transfers and VIP days out, with hourly, daily and monthly rates available."
+        },
+        {
+          "question": "Is free delivery included with Rolls-Royce hire in Dubai?",
+          "answer": "Yes. We offer free delivery and collection across Dubai, including Downtown, Marina, Palm Jumeirah, DIFC, Business Bay and both DXB and DWC airports, 24/7."
+        },
+        {
+          "question": "Where can I rent a Rolls-Royce near me in Dubai?",
+          "answer": "We serve all of Dubai and deliver to your location. Whether you are near Burj Khalifa, Dubai Marina, JBR or Palm Jumeirah, message us on WhatsApp at +971 55 816 4922 and we will bring the car to you."
+        }
+      ],
+      "related": [
+        {
+          "label": "View the full fleet",
+          "href": "/luxury-car-rental-dubai"
+        },
+        {
+          "label": "See daily prices",
+          "href": "/pricing"
+        },
+        {
+          "label": "Rolls-Royce wedding car",
+          "href": "/services/wedding"
+        },
+        {
+          "label": "Airport transfers in Dubai",
+          "href": "/services/airport-transfer"
+        }
+      ]
+    },
+    "pricing": {
+      "heading": "Rolls-Royce Rental Dubai Price: Transparent Daily, Hourly, Weekly & Monthly Rates",
+      "body": [
+        "Our Rolls-Royce rental Dubai price is clear and upfront, with no hidden fees. Daily rates start from AED 3,800 for the Ghost, AED 5,000 for the Wraith and AED 5,500 for the Dawn, while the Phantom is AED 5,800, the Cullinan AED 6,500 and the all-electric Spectre AED 7,500. Every booking includes a professional chauffeur and free delivery across Dubai.",
+        "Choose the term that fits your plans: hourly hire for a city tour, daily for a special occasion, or discounted weekly and monthly rates for longer stays. Whether you need an airport transfer to DXB, a wedding car in Downtown Dubai, or a Cullinan for the weekend, book in minutes over WhatsApp with multilingual support, 24/7."
+      ],
+      "faqs": [
+        {
+          "question": "How much does it cost to rent a Rolls-Royce in Dubai per day?",
+          "answer": "Daily rates start at AED 3,800 for the Ghost, with the Wraith at AED 5,000, Dawn AED 5,500, Phantom AED 5,800, Cullinan AED 6,500 and the electric Spectre at AED 7,500 per day. Every rate includes a chauffeur, insurance and free delivery in Dubai."
+        },
+        {
+          "question": "Which is the cheapest Rolls-Royce to rent in Dubai?",
+          "answer": "The Rolls-Royce Ghost is the most affordable model at AED 3,800 per day. Weekly bookings save about 15% and monthly bookings save up to 30%, making longer rentals the cheapest way to drive a Rolls-Royce in Dubai."
+        },
+        {
+          "question": "How much is a Rolls-Royce with a driver in Dubai?",
+          "answer": "All daily rates already include a professional multilingual chauffeur. For dedicated full-day or hourly chauffeur service the rate is shown at booking, and you can confirm an exact quote on WhatsApp at +971 55 816 4922."
+        },
+        {
+          "question": "Is delivery included in the Rolls-Royce rental price in Dubai?",
+          "answer": "Yes. Free delivery and collection are included anywhere within Dubai. Deliveries to other emirates are available on request for an additional fee, confirmed before you book."
+        },
+        {
+          "question": "Are Rolls-Royce rental prices in Dubai shown in AED, and are they all-inclusive?",
+          "answer": "Yes, all prices are quoted in UAE Dirhams (AED) and include the chauffeur, comprehensive insurance and 24/7 support. A refundable security deposit applies; there are no hidden fees beyond extra mileage above the daily allowance."
+        }
+      ],
+      "related": [
+        {
+          "label": "Phantom rates & details",
+          "href": "/fleet/phantom"
+        },
+        {
+          "label": "Cullinan rates & details",
+          "href": "/fleet/cullinan"
+        },
+        {
+          "label": "Reserve your Rolls-Royce",
+          "href": "/booking"
+        },
+        {
+          "label": "Hourly chauffeur rental",
+          "href": "/services/hourly-rental"
+        }
+      ]
+    },
+    "fleet-dawn": {
+      "heading": "Why Rent a Rolls-Royce Dawn in Dubai",
+      "body": [
+        "When you rent a Rolls-Royce Dawn in Dubai, you choose the ultimate open-top grand tourer. With prices from AED 5,500 per day, the Dawn convertible turns coastal drives along Jumeirah, Palm Jumeirah and Dubai Marina into unforgettable moments. Lower the roof, enjoy the warm air, and arrive in effortless style wherever the day takes you.",
+        "Every rental includes a professional chauffeur and free delivery anywhere across Dubai, so your Dawn arrives ready at your hotel, villa or DXB airport terminal. It is a favourite for weddings, anniversaries and special celebrations. Book 24/7 over WhatsApp with multilingual support, and confirm your dates in minutes."
+      ],
+      "faqs": [
+        {
+          "question": "How much does it cost to rent a Rolls-Royce Dawn in Dubai?",
+          "answer": "Rolls-Royce Dawn rental in Dubai starts at AED 5,500 per day. Multi-day and weekly rates lower the daily price, and chauffeur service can be added. Contact us on +971 55 816 4922 for a tailored quote."
+        },
+        {
+          "question": "Can I rent the Rolls-Royce Dawn convertible with a driver in Dubai?",
+          "answer": "Yes. You can hire the Dawn with a professional chauffeur or choose self-drive. With a driver you simply enjoy the open-top cruise; self-drive requires a valid licence (UAE or international) plus passport and a refundable deposit."
+        },
+        {
+          "question": "Is there free delivery for the Rolls-Royce Dawn rental in Dubai?",
+          "answer": "Yes. We deliver the Dawn free of charge to your hotel, residence or villa across Dubai, including Downtown, Marina, JBR and Palm Jumeirah, and collect it when your rental ends."
+        },
+        {
+          "question": "Is a white Rolls-Royce Dawn available to rent for weddings in Dubai?",
+          "answer": "Yes. The Dawn convertible is a favourite wedding and photoshoot car. Subject to availability we can arrange a white Dawn; tell us your date when booking so we can confirm the colour and add ribbons or styling on request."
+        },
+        {
+          "question": "What documents do I need to hire a Rolls-Royce Dawn in Dubai?",
+          "answer": "For self-drive you need a valid driving licence (UAE residents) or a foreign licence with an International Driving Permit (tourists), your passport or Emirates ID, and a refundable security deposit. Chauffeur-driven rentals need no licence."
+        }
+      ],
+      "related": [
+        {
+          "label": "Rolls-Royce Wraith rental",
+          "href": "/fleet/wraith"
+        },
+        {
+          "label": "Wedding car service",
+          "href": "/services/wedding"
+        },
+        {
+          "label": "View daily rental prices",
+          "href": "/pricing"
+        },
+        {
+          "label": "Book your Dawn now",
+          "href": "/booking"
+        }
+      ]
+    },
+    "fleet-wraith": {
+      "heading": "Why Rent the Rolls-Royce Wraith in Dubai",
+      "body": [
+        "The Rolls-Royce Wraith rental in Dubai pairs a 624hp twin-turbo V12 with the brand's most dramatic fastback coupe silhouette, making it the grand tourer of choice for drives along Sheikh Zayed Road, Palm Jumeirah and Downtown. Rates start from AED 5,000 per day, and every booking includes a professional chauffeur plus free delivery anywhere across Dubai.",
+        "Whether you want the Wraith for a photoshoot, a corporate arrival or a sweeping coastal cruise, the suicide-door coupe and starlight headliner turn every journey into an occasion. Reserve your Rolls-Royce Wraith rental in Dubai over WhatsApp 24/7, with multilingual support and airport pickup from DXB or DWC arranged on request."
+      ],
+      "faqs": [
+        {
+          "question": "How much does it cost to rent a Rolls-Royce Wraith in Dubai?",
+          "answer": "Rolls-Royce Wraith rental in Dubai starts at AED 5,000 per day. Multi-day and weekly rates are discounted, and chauffeur service plus free delivery within Dubai are included. Contact us on +971 55 816 4922 for a custom quote."
+        },
+        {
+          "question": "Can I rent a Rolls-Royce Wraith in Dubai with a driver?",
+          "answer": "Yes. Every Wraith rental can be booked with a professional chauffeur, or self-drive if you prefer. Chauffeur-driven hire is popular for weddings, business travel and photoshoots. Just tell us your preference when booking."
+        },
+        {
+          "question": "Is delivery of the Wraith free in Dubai?",
+          "answer": "Yes, we deliver the Rolls-Royce Wraith free of charge to your hotel, residence or Dubai International Airport. Delivery to other emirates can be arranged on request."
+        },
+        {
+          "question": "What do I need to rent a Rolls-Royce Wraith in Dubai?",
+          "answer": "For self-drive you need a valid driving licence (UAE licence or a passport plus International Driving Permit for visitors), Emirates ID or passport, and a refundable security deposit. Chauffeur bookings require no licence."
+        },
+        {
+          "question": "Does the Wraith have a Starlight headliner for photoshoots?",
+          "answer": "Yes. The Rolls-Royce Wraith features the iconic Starlight headliner, making it a favourite for photoshoots, weddings and special occasions in Dubai. Black Badge editions may be available on request."
+        }
+      ],
+      "related": [
+        {
+          "label": "View all-day pricing",
+          "href": "/pricing"
+        },
+        {
+          "label": "Book your Wraith now",
+          "href": "/booking"
+        },
+        {
+          "label": "Airport transfer service",
+          "href": "/services/airport-transfer"
+        },
+        {
+          "label": "Compare with the Rolls-Royce Dawn",
+          "href": "/fleet/dawn"
+        }
+      ]
+    },
+    "fleet-cullinan": {
+      "heading": "Why Rent a Rolls-Royce Cullinan in Dubai",
+      "body": [
+        "When you rent a Rolls-Royce Cullinan in Dubai, you get the only seven-seat luxury SUV that pairs commanding presence with effortless comfort. Priced from AED 6,500 per day with a professional chauffeur, it is ideal for family outings, desert escapes to Hatta, and arrivals at Downtown Dubai or Palm Jumeirah where space and prestige matter equally.",
+        "Every Cullinan booking includes free delivery anywhere across Dubai and round-the-clock WhatsApp support for fast, multilingual confirmation. Reserve it for a DXB airport transfer, a corporate roadshow along Sheikh Zayed Road, or a weekend in Dubai Marina. Tell us your schedule and we will have the chauffeur ready at your door, on time, every time."
+      ],
+      "faqs": [
+        {
+          "question": "How much does it cost to rent a Rolls-Royce Cullinan in Dubai?",
+          "answer": "Rolls-Royce Cullinan rental in Dubai starts from AED 6,500 per day. Weekly and monthly packages lower the daily rate, and every booking includes a professional chauffeur and insurance. Message us on WhatsApp at +971 55 816 4922 for a tailored quote."
+        },
+        {
+          "question": "Can I rent the Rolls-Royce Cullinan in Dubai with a driver?",
+          "answer": "Yes. Cullinan rental in Dubai is available with an experienced professional chauffeur, and self-drive can be arranged for qualifying renters. Chauffeur service is ideal for family trips, weddings and corporate transfers."
+        },
+        {
+          "question": "Do you deliver the Rolls-Royce Cullinan anywhere in Dubai?",
+          "answer": "Yes, we offer free delivery and collection across Dubai, including hotels, your residence, and Dubai International Airport. Just share your location when booking and we will bring the Cullinan to you."
+        },
+        {
+          "question": "Is the Rolls-Royce Cullinan good for families and desert tours?",
+          "answer": "Absolutely. The Cullinan is a 7-seater all-wheel-drive luxury SUV, making it perfect for families, group outings and comfortable desert tours around Dubai while keeping everyone in supreme comfort."
+        },
+        {
+          "question": "What do I need to rent a Rolls-Royce Cullinan in Dubai?",
+          "answer": "You need a valid passport, Emirates ID or visa, and a UAE or international driving licence for self-drive. A refundable security deposit applies. With chauffeur service, only valid ID is required."
+        }
+      ],
+      "related": [
+        {
+          "label": "View all rental prices",
+          "href": "/pricing"
+        },
+        {
+          "label": "Book your Cullinan now",
+          "href": "/booking"
+        },
+        {
+          "label": "Airport transfer service",
+          "href": "/services/airport-transfer"
+        },
+        {
+          "label": "Rolls-Royce Phantom rental",
+          "href": "/fleet/phantom"
+        }
+      ]
+    },
+    "fleet-ghost": {
+      "heading": "Rolls-Royce Ghost Rental in Dubai — Series II & Black Badge",
+      "body": [
+        "Book a Rolls-Royce Ghost rental in Dubai from AED 3,800 per day and glide through the city in the most driver-focused Rolls-Royce. Available in Series II and the bolder Black Badge, the Ghost pairs a whisper-quiet cabin with effortless presence — ideal for business meetings in DIFC, Downtown Dubai arrivals, and weekend escapes along Palm Jumeirah.",
+        "Every booking includes a professional chauffeur and free delivery anywhere in Dubai, so your Ghost is ready at your hotel, villa, or DXB and DWC airport terminal. Reserve in minutes over WhatsApp, 24/7, with multilingual support. Need it for a wedding, a corporate event, or an airport transfer? Message us and we will confirm availability right away."
+      ],
+      "faqs": [
+        {
+          "question": "How much does it cost to rent a Rolls-Royce Ghost in Dubai?",
+          "answer": "Rolls-Royce Ghost rental in Dubai starts at AED 3,800 per day, the most accessible price in our fleet. Weekly and monthly rates are discounted; message us on WhatsApp at +971 55 816 4922 for an exact quote."
+        },
+        {
+          "question": "Is the Rolls-Royce Ghost available for rent with a driver in Dubai?",
+          "answer": "Yes. Every Ghost rental can include a professional chauffeur, or you can self-drive. Chauffeur service suits weddings, corporate transfers and airport pickups; self-drive is available to qualifying renters with valid documents."
+        },
+        {
+          "question": "Do you deliver the Rolls-Royce Ghost across Dubai?",
+          "answer": "Yes, we offer free delivery across Dubai including Downtown, DIFC, Dubai Marina, Palm Jumeirah and DXB airport, so the Ghost reaches your hotel, villa or office at your chosen time."
+        },
+        {
+          "question": "Can I rent a white Rolls-Royce Ghost for a wedding in Dubai?",
+          "answer": "Yes. A white Ghost is a popular Dubai wedding car; subject to availability we can arrange ribbon decoration and a chauffeur. Book early for peak wedding dates to secure your preferred colour."
+        },
+        {
+          "question": "What do I need to rent a Rolls-Royce Ghost in Dubai?",
+          "answer": "You need a valid driving licence (UAE licence or passport plus International Driving Permit for visitors), Emirates ID or passport, and a refundable security deposit. Tourists are welcome to rent."
+        }
+      ],
+      "related": [
+        {
+          "label": "View all rental prices",
+          "href": "/pricing"
+        },
+        {
+          "label": "Book your Ghost now",
+          "href": "/booking"
+        },
+        {
+          "label": "Compare with the Rolls-Royce Phantom",
+          "href": "/fleet/phantom"
+        },
+        {
+          "label": "Airport transfer service",
+          "href": "/services/airport-transfer"
+        }
+      ]
+    },
+    "fleet-phantom": {
+      "heading": "Rolls-Royce Phantom Rental in Dubai: The Flagship Experience",
+      "body": [
+        "The Rolls-Royce Phantom is the flagship of the fleet and the definitive statement of arrival in Dubai. Our Rolls-Royce Phantom rental Dubai service starts from AED 5,800 per day and includes a professional chauffeur, so you simply step into the cabin and enjoy the ride. We offer free delivery across Dubai, from Downtown and DIFC to Palm Jumeirah and Business Bay.",
+        "Whether it is a wedding, a corporate event, a milestone celebration or a polished airport transfer from DXB or DWC, the Phantom carries an unmatched presence. Book your Rolls-Royce Phantom rental in Dubai 24/7 over WhatsApp with multilingual support, and our team will confirm your dates, route and delivery point in minutes."
+      ],
+      "faqs": [
+        {
+          "question": "How much does it cost to rent a Rolls-Royce Phantom in Dubai?",
+          "answer": "Rolls-Royce Phantom rental in Dubai starts at AED 5,800 per day, including comprehensive insurance and VAT. Weekly and monthly rates are available on request, and a professional chauffeur can be added."
+        },
+        {
+          "question": "Is the Rolls-Royce Phantom available for rent in Dubai with a driver?",
+          "answer": "Yes. You can rent the Phantom with a professional, multilingual chauffeur, or self-drive with a valid licence. Most clients choose the chauffeur option for weddings, corporate events and VIP transfers."
+        },
+        {
+          "question": "Can I rent a white Rolls-Royce Phantom for a wedding in Dubai?",
+          "answer": "Yes, a white Phantom is one of our most requested wedding cars in Dubai. It can be arranged with floral decoration, ribbon and a chauffeur in formal attire, subject to availability."
+        },
+        {
+          "question": "Do you offer free delivery for Phantom rentals in Dubai?",
+          "answer": "Yes, we deliver the Rolls-Royce Phantom free of charge to any location in Dubai, including hotels, residences and DXB airport. Just share your pickup point when booking on WhatsApp."
+        },
+        {
+          "question": "Can tourists rent a Rolls-Royce Phantom in Dubai?",
+          "answer": "Yes. Tourists can rent the Phantom with a valid passport, an international or home-country driving licence, and a credit card. A chauffeured booking removes the need for a UAE-recognised licence."
+        }
+      ],
+      "related": [
+        {
+          "label": "Phantom for weddings",
+          "href": "/services/wedding"
+        },
+        {
+          "label": "Airport transfer service",
+          "href": "/services/airport-transfer"
+        },
+        {
+          "label": "View rental pricing",
+          "href": "/pricing"
+        },
+        {
+          "label": "Book your Phantom now",
+          "href": "/booking"
+        }
+      ]
+    },
+    "services-wedding": {
+      "heading": "Wedding Car Rental Dubai: Arrive in a White Rolls-Royce",
+      "body": [
+        "Make your entrance unforgettable with our wedding car rental Dubai service, built around the pristine white Rolls-Royce Phantom and Ghost. Each bridal car arrives with elegant ribbon and floral decoration, a discreet professional chauffeur in formal attire, and free delivery anywhere across Dubai, from Palm Jumeirah villas to Downtown ballrooms and beachfront resorts.",
+        "Rates start from AED 3,800 per day for the Ghost and AED 5,800 for the flagship Phantom, so you can match your budget to your big day. We coordinate timings around the ceremony, photoshoot, and reception, and arrange seamless airport pickup for arriving guests. Book your wedding Rolls-Royce anytime over 24/7 WhatsApp with multilingual support."
+      ],
+      "faqs": [
+        {
+          "question": "How much is a wedding car rental in Dubai?",
+          "answer": "Rolls-Royce wedding car rental in Dubai starts at AED 3,800/day for the Ghost. The white Phantom is AED 5,800, Dawn convertible AED 5,500 and Cullinan AED 6,500. Every booking includes a uniformed chauffeur, bridal decoration and red carpet."
+        },
+        {
+          "question": "Can I get a white Rolls-Royce wedding car with a driver in Dubai?",
+          "answer": "Yes. Our white Phantom and Ghost are maintained specifically for weddings and always come with a professional chauffeur in formal attire, so you and your bridal party simply relax and enjoy the day."
+        },
+        {
+          "question": "Is decoration and delivery included in the wedding car rental?",
+          "answer": "Yes. Floral decoration, ribbons, a Just Married sign and a red carpet are included, and we deliver the car free of charge to your venue, hotel or home anywhere in Dubai."
+        },
+        {
+          "question": "Which white Rolls-Royce is best for a wedding in Dubai?",
+          "answer": "The Phantom Extended is the most popular for its grand presence and spacious cabin. The Ghost suits an intimate ceremony, while the Dawn convertible is ideal for outdoor photos and warm-evening celebrations."
+        },
+        {
+          "question": "How far in advance should I book a wedding car in Dubai?",
+          "answer": "We recommend booking 2–4 weeks ahead to secure your preferred white Rolls-Royce and date, especially in peak season. Last-minute bookings are welcome on WhatsApp at +971 55 816 4922, subject to availability."
+        }
+      ],
+      "related": [
+        {
+          "label": "White Phantom for the bride",
+          "href": "/fleet/phantom"
+        },
+        {
+          "label": "Elegant Ghost wedding car",
+          "href": "/fleet/ghost"
+        },
+        {
+          "label": "Wedding car prices",
+          "href": "/pricing"
+        },
+        {
+          "label": "Reserve your wedding car",
+          "href": "/booking"
+        }
+      ]
+    },
+    "services-airport-transfer": {
+      "heading": "Luxury Car Rental at Dubai Airport: Rolls-Royce Transfers with Chauffeur",
+      "body": [
+        "Land in style with our luxury car rental at Dubai airport, covering both DXB and DWC. Your professional chauffeur greets you on arrival with a personal meet & greet, handles your luggage, and drives you to Downtown Dubai, the Marina, or Palm Jumeirah in complete comfort. We track your flight, so delays never cost you a smooth pickup.",
+        "Choose a Ghost from AED 3,800/day or a Cullinan from AED 6,500/day, with free delivery across Dubai and 24/7 WhatsApp booking. Whether it is a business arrival, a family holiday, or a hotel transfer, our multilingual team makes your luxury car rental at Dubai airport effortless from the moment you touch down."
+      ],
+      "faqs": [
+        {
+          "question": "How much is a luxury car rental from Dubai airport?",
+          "answer": "A chauffeured Rolls-Royce airport transfer starts from AED 3,800/day for the Ghost; the Phantom is AED 5,800, Cullinan AED 6,500, Dawn AED 5,500, Wraith AED 5,000 and Spectre AED 7,500. One-way DXB transfers are quoted on request — WhatsApp +971 55 816 4922 with your route."
+        },
+        {
+          "question": "Does the Rolls-Royce airport transfer in Dubai come with a driver?",
+          "answer": "Yes. Every Dubai airport transfer includes a professional English-speaking chauffeur. He meets you at arrivals with a name sign, helps with luggage and drives you to your hotel or destination."
+        },
+        {
+          "question": "Do you offer meet and greet at DXB and DWC airports?",
+          "answer": "Yes. We provide VIP meet & greet at Dubai International (DXB) and Al Maktoum (DWC) airports, plus Abu Dhabi (AUH) and Sharjah (SHJ). We track your flight and adjust pickup time automatically, with complimentary waiting included."
+        },
+        {
+          "question": "How long does the transfer from Dubai airport to my hotel take?",
+          "answer": "From DXB it is roughly 15–20 minutes to Downtown Dubai, 25–35 minutes to Palm Jumeirah or Dubai Marina, and about 75–90 minutes to Abu Dhabi, depending on traffic. Your chauffeur plans the fastest route."
+        },
+        {
+          "question": "How do I book a luxury car pickup from Dubai airport?",
+          "answer": "Send your flight number, terminal, date and destination via WhatsApp to +971 55 816 4922 or book online. Confirmation includes your chauffeur's details and meet-point at arrivals."
+        }
+      ],
+      "related": [
+        {
+          "label": "Book your airport transfer",
+          "href": "/booking"
+        },
+        {
+          "label": "Rolls-Royce Cullinan",
+          "href": "/fleet/cullinan"
+        },
+        {
+          "label": "Rolls-Royce Phantom",
+          "href": "/fleet/phantom"
+        },
+        {
+          "label": "View rental prices",
+          "href": "/pricing"
+        }
+      ]
+    },
+    "services-hourly": {
+      "heading": "Long Term Luxury Car Rental Dubai: Hourly & Monthly Rolls-Royce Hire",
+      "body": [
+        "Looking for long term luxury car rental Dubai with the freedom to choose your own schedule? Naqra FZE offers Rolls-Royce by the hour or by the month, each booking with a professional chauffeur and free delivery anywhere in Dubai. Hire a Ghost from AED 3,800/day or a Cullinan from AED 6,500/day for business meetings, shopping in Downtown, or relaxed days along Jumeirah.",
+        "Our hourly service suits airport transfers, photo shoots, and special occasions, while monthly contracts give residents and visitors lasting value on long term luxury car rental Dubai. Reserve a Phantom, Dawn, Wraith, or Spectre 24/7 over WhatsApp, with multilingual support throughout. Tell us your dates and route, and we deliver the car ready to drive across Dubai and the wider UAE."
+      ],
+      "faqs": [
+        {
+          "question": "How much is a Rolls-Royce for a month in Dubai?",
+          "answer": "Monthly Rolls-Royce rental is priced from the daily rate with a long-term discount. The Ghost starts at AED 3,800/day, the Phantom at AED 5,800, and the Cullinan at AED 6,500. Tell us your dates on WhatsApp at +971 55 816 4922 and we will quote a fixed monthly rate including free delivery."
+        },
+        {
+          "question": "What does a weekly luxury car rental in Dubai cost?",
+          "answer": "Weekly Rolls-Royce rental is calculated from the daily rate (Ghost AED 3,800, Wraith AED 5,000, Dawn AED 5,500) with a reduced weekly rate for 7+ days. Mileage allowance and free delivery within Dubai are included."
+        },
+        {
+          "question": "Is long-term Rolls-Royce rental available with a driver?",
+          "answer": "Yes. Every model is available with a professional multilingual chauffeur for the full term, or self-drive for qualifying renters. Chauffeur cover can run weekly or monthly to suit business or residency needs."
+        },
+        {
+          "question": "How much is a Rolls-Royce rental in Dubai per hour?",
+          "answer": "Hourly rental starts at AED 800/hour for the Ghost with a 2-hour minimum and chauffeur included. After 6 hours the full-day rate applies, and longer stays move to discounted weekly and monthly rates."
+        },
+        {
+          "question": "What documents do I need for a long-term rental in Dubai?",
+          "answer": "Chauffeured rentals require only your passport or Emirates ID for the booking. Self-drive needs a valid UAE or international driving licence and passport. A refundable deposit applies; we confirm everything before delivery."
+        }
+      ],
+      "related": [
+        {
+          "label": "View Rolls-Royce Pricing",
+          "href": "/pricing"
+        },
+        {
+          "label": "Book Your Rolls-Royce",
+          "href": "/booking"
+        },
+        {
+          "label": "Chauffeur Service in Dubai",
+          "href": "/services/chauffeur"
+        },
+        {
+          "label": "Airport Transfer Service",
+          "href": "/services/airport-transfer"
+        }
+      ]
+    },
+    "luxury-car-rental-dubai": {
+      "heading": "Luxury Car Rental in Dubai: The Rolls-Royce Fleet at Its Pinnacle",
+      "body": [
+        "Looking for luxury car rental in Dubai? We put a curated Rolls-Royce fleet at the top of the lineup, from the Ghost at AED 3,800/day to the all-electric Spectre at AED 7,500/day. Every booking includes a professional chauffeur and free delivery anywhere in Dubai, so your car arrives ready at your villa, hotel, or Downtown address.",
+        "Whether you need an arrival at Dubai International Airport, a statement entrance on Sheikh Zayed Road, or a refined ride through Palm Jumeirah and DIFC, our team tailors the experience to the occasion. Book in minutes over 24/7 WhatsApp with multilingual support, and reserve the Phantom, Cullinan, or Dawn for weddings, business, and special events."
+      ],
+      "faqs": [
+        {
+          "question": "How much does luxury car rental in Dubai cost per day?",
+          "answer": "Our luxury fleet starts at AED 3,800/day for a Rolls-Royce Ghost, with the Phantom at 5,800, Dawn 5,500, Wraith 5,000, Cullinan 6,500 and Spectre 7,500. Prices include free delivery within Dubai; chauffeur service is available on request."
+        },
+        {
+          "question": "What is the cheapest luxury car to rent in Dubai?",
+          "answer": "Among our flagship fleet, the Rolls-Royce Ghost is the most affordable entry into true luxury at AED 3,800/day. For multi-day or weekly hires, contact us on WhatsApp at +971 55 816 4922 for the best available rate."
+        },
+        {
+          "question": "Can I rent a luxury car in Dubai with a driver?",
+          "answer": "Yes. Every car can be booked with a professional chauffeur or as a self-drive rental. Chauffeur-driven hire is popular for weddings, corporate VIP transfers and airport pick-ups across Dubai."
+        },
+        {
+          "question": "Do you deliver the luxury car to my hotel or the airport?",
+          "answer": "Yes. We offer free delivery and collection across Dubai, including Dubai Marina, Downtown, Palm Jumeirah and Dubai International Airport (DXB). Just share your location when you book."
+        },
+        {
+          "question": "What do I need to rent a luxury car in Dubai as a tourist?",
+          "answer": "Tourists need a valid passport, a home-country driving licence with an International Driving Permit, and a credit card for the security deposit. Our team confirms all requirements over WhatsApp before delivery."
+        }
+      ],
+      "related": [
+        {
+          "label": "View the full pricing list",
+          "href": "/pricing"
+        },
+        {
+          "label": "Rolls-Royce Phantom",
+          "href": "/fleet/phantom"
+        },
+        {
+          "label": "Rolls-Royce Cullinan SUV",
+          "href": "/fleet/cullinan"
+        },
+        {
+          "label": "Airport transfer service",
+          "href": "/services/airport-transfer"
+        }
+      ]
+    }
   }
 }

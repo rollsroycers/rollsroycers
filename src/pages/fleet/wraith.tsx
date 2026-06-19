@@ -12,6 +12,7 @@ import VirtualTour from '@/components/VirtualTour'
 import WhatsAppButton from '@/components/WhatsAppButton'
 import SEO from '@/components/SEO'
 import GEOOptimizer from '@/components/GEOOptimizer'
+import SeoContentBlock from '@/components/SeoContentBlock'
 import EntitySchema from '@/components/EntitySchema'
 import { createWhatsAppLinkProps } from '@/utils/whatsapp'
 import Script from 'next/script'
@@ -147,11 +148,7 @@ export default function WraithPage() {
           'Satellite-aided transmission',
           'Professional chauffeur included'
         ]}
-        faqs={[
-          { question: 'How much does it cost to rent a Rolls-Royce Wraith in Dubai?', answer: 'The Rolls-Royce Wraith rental starts from AED 5,000 per day. It is the fastest Rolls-Royce with 624 HP, ideal for those who want performance with ultimate luxury.' },
-          { question: 'Is the Wraith good for photoshoots?', answer: 'Yes, the Wraith\'s dramatic coupe silhouette, Starlight headliner, and coach doors make it one of the most photogenic luxury cars in Dubai. Hourly photoshoot packages available.' },
-          { question: 'Is the Wraith the fastest Rolls-Royce?', answer: 'Yes, with 624 HP from its 6.6L Twin-Turbo V12, the Wraith is the most powerful and dynamic Rolls-Royce. It reaches 0-100 km/h in 4.6 seconds, making it a true grand tourer.' }
-        ]}
+        faqs={[]}
       />
       <EntitySchema pageType="fleet" carModel="wraith" />
 
@@ -567,6 +564,7 @@ export default function WraithPage() {
         </section>
 
         <WhatsAppButton />
+        <SeoContentBlock blockKey="fleet-wraith" />
       </Layout>
     </>
   )
