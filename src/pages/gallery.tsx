@@ -315,7 +315,7 @@ export default function GalleryPage() {
         category: 'details',
         vehicle: 'Rolls-Royce',
         title: 'Rolls Royce Red Background',
-        image: '/images/Rolls-Royce-red-background_.png',
+        image: '/images/Rolls-Royce-red-background_.webp',
         description: `${t('gallery.descriptions.premium')} Rolls-Royce - ${t('gallery.descriptions.details')}`
     }
   ];
