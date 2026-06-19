@@ -13,13 +13,16 @@ class MyDocument extends Document {
     const dir = locale === 'ar' ? 'rtl' : 'ltr'
     // GTM container id from env — render GTM only when configured (avoids the broken GTM-XXXXXXX placeholder)
     const gtmId = process.env.NEXT_PUBLIC_GOOGLE_TAG_MANAGER_ID
+    // GSC HTML-tag verification — only render when a real code is set (was a hardcoded
+    // YOUR_GSC_VERIFICATION_CODE placeholder). If you verify via Cloudflare DNS, leave it unset.
+    const gscVerification = process.env.NEXT_PUBLIC_GSC_VERIFICATION
 
     return (
       <Html lang={locale} dir={dir}>
       <Head>
-        {/* Google Search Console Verification - Replace YOUR_GSC_VERIFICATION_CODE with your actual code */}
-        <meta name="google-site-verification" content="YOUR_GSC_VERIFICATION_CODE" />
-        
+        {/* Google Search Console Verification (set NEXT_PUBLIC_GSC_VERIFICATION, or verify via DNS) */}
+        {gscVerification && <meta name="google-site-verification" content={gscVerification} />}
+
         {/* DNS prefetch for third-party domains */}
         <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
         <link rel="dns-prefetch" href="https://www.google-analytics.com" />
