@@ -39,30 +39,18 @@ export default function WeddingServicePage() {
     }
   ]
 
-  const testimonials = [
-    {
-      name: t('servicesPages.wedding.testimonials.sarah.name'),
-      text: t('servicesPages.wedding.testimonials.sarah.text'),
-      rating: 5
-    },
-    {
-      name: t('servicesPages.wedding.testimonials.fatima.name'),
-      text: t('servicesPages.wedding.testimonials.fatima.text'),
-      rating: 5
-    }
-  ]
 
   return (
     <>
       <SEO pageKey="services.wedding" />
       <GEOOptimizer
         pageKey="services.wedding"
-        title="Rolls-Royce Wedding Car Dubai 2026"
-        description="Luxury Rolls-Royce wedding car rental in Dubai from AED 2,500. White Phantom & Ghost with decoration and professional chauffeur."
+        title="Rolls-Royce Wedding Car Dubai"
+        description="Luxury Rolls-Royce wedding car rental in Dubai — white Ghost from AED 3,800/day or Phantom AED 5,800/day, with floral decoration and a professional chauffeur."
         entityType="Service"
         primaryTopic="Rolls-Royce Wedding Car Dubai"
-        contentSummary="Premium Rolls-Royce wedding car service in Dubai. White Phantom and Ghost with floral decoration, red carpet, and professional chauffeur. Packages from AED 2,500. Over 500 weddings served."
-        facts={['Wedding car packages from AED 2,500', 'White Phantom & Ghost available', 'Floral decoration included', 'Professional chauffeur in formal attire', 'Free photographer for 4+ hour bookings', 'Over 500 weddings served in Dubai']}
+        contentSummary="Rolls-Royce wedding car service in Dubai: white Ghost (from AED 3,800/day), Phantom, Dawn and Cullinan with floral decoration and a professional chauffeur. Chauffeur-driven or self-drive for qualifying renters, free delivery across Dubai, 24/7 WhatsApp booking."
+        facts={['White Rolls-Royce wedding cars: Ghost from AED 3,800/day, Phantom AED 5,800/day', 'Floral decoration included', 'Professional chauffeur in formal attire, or self-drive for qualifying renters', 'Free delivery across Dubai', '24/7 WhatsApp booking +971 55 816 4922', 'Service in English, Arabic and Russian']}
         faqs={[]}
       />
       <EntitySchema pageType="service" serviceType="wedding" />
@@ -222,35 +210,6 @@ export default function WeddingServicePage() {
                     fill
                     className="object-cover hover:scale-110 transition-transform duration-500"
                   />
-                </motion.div>
-              ))}
-            </div>
-          </div>
-        </section>
-
-        {/* Testimonials */}
-        <section className="py-20 bg-gradient-to-b from-rolls-navy to-rolls-black">
-          <div className="container mx-auto px-4">
-            <h2 className="text-4xl font-bold text-white text-center mb-12">
-              {t('servicesPages.wedding.testimonials.title')}
-            </h2>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
-              {testimonials.map((testimonial, index) => (
-                <motion.div
-                  key={index}
-                  initial={{ opacity: 0, x: index % 2 === 0 ? -20 : 20 }}
-                  whileInView={{ opacity: 1, x: 0 }}
-                  className="bg-rolls-black/50 backdrop-blur-sm border border-rolls-gold/20 rounded-lg p-6"
-                >
-                  <div className="flex mb-4">
-                    {[...Array(testimonial.rating)].map((_, i) => (
-                      <svg key={i} className="w-5 h-5 text-rolls-gold" fill="currentColor" viewBox="0 0 20 20">
-                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
-                      </svg>
-                    ))}
-                  </div>
-                  <p className="text-gray-300 italic mb-4">"{testimonial.text}"</p>
-                  <p className="text-rolls-gold font-semibold">{testimonial.name}</p>
                 </motion.div>
               ))}
             </div>

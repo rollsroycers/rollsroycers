@@ -60,7 +60,7 @@
       "satisfaction": "Customer Satisfaction [From About Page Stats]",
       "availability": "24/7 Availability [From About Page Stats]",
       "experience": "Years of Experience [From About Page Stats]",
-      "rating": "5★ Rating [From About Page Stats]"
+      "rating": "Chauffeur or Self-Drive [From About Page Stats]"
     },
     "values": {
       "sectionTitle": "Our Core Values",
@@ -2022,7 +2022,7 @@
       "corporate": "Corporate inquiry for"
     },
     "review": {
-      "leftReview": "{{name}} left a 5-star review for"
+      "leftReview": "{{name}} is interested in"
     },
     "cars": {
       "phantom": "Rolls-Royce Phantom",
@@ -5723,7 +5723,7 @@
     "googleRating": "Google Rating",
     "support": "Support",
     "deliveryTime": "Delivery Time",
-    "since2010": "Since 2010",
+    "since2010": "24/7",
     "inBusiness": "In Business",
     "pricingTitle": "Transparent Pricing & Instant Availability",
     "kmIncluded250": "250km included",
