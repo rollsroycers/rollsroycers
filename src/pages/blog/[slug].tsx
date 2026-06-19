@@ -9,6 +9,7 @@ import Layout from '@/components/Layout'
 import WhatsAppButton from '@/components/WhatsAppButton'
 import SEO from '@/components/SEO'
 import blogSlugs from '@/data/blogSlugs.json'
+import blogTranslations from '@/data/blogTranslations.json'
 
 // Blog articles data - في الإنتاج يمكن نقلها لـ CMS
 const blogArticles: Record<string, BlogArticle> = {
@@ -3750,13 +3751,17 @@ export const getStaticProps: GetStaticProps = async ({ params, locale }) => {
   const slug = params?.slug as string
   const currentLocale = locale || 'en'
   
-  // Resolve article: prefer localized, fallback to English localized, fallback to legacy
-  const article = (
+  // Resolve article: English base + full ar/ru translation overrides when available.
+  const baseArticle = (
     (localizedArticles[currentLocale] && localizedArticles[currentLocale][slug]) ||
     (localizedArticles['en'] && localizedArticles['en'][slug]) ||
     blogArticles[slug] ||
     null
   )
+  const translatedArticle = currentLocale !== 'en'
+    ? (blogTranslations as Record<string, any>)[slug]?.[currentLocale]
+    : null
+  const article = baseArticle && translatedArticle ? { ...baseArticle, ...translatedArticle } : baseArticle
   
   // Resolve related articles data (only send minimal data to client)
   const relatedArticlesData = article?.relatedArticles?.map((relSlug: string) => {
