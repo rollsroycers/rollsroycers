@@ -398,8 +398,8 @@ export default function PhantomPage() {
           '6.75L Twin-Turbo V12 engine with 563 HP',
           'Extended Wheelbase available',
           'Starlight headliner ceiling',
-          'Professional chauffeur included',
-          '4.9/5 rating from 1,247 reviews'
+          'Professional chauffeur included, or self-drive for qualifying renters',
+          'Free delivery across Dubai, 24/7 WhatsApp booking'
         ]}
         faqs={[]}
       />
