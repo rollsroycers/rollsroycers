@@ -9,7 +9,6 @@ import WhatsAppButton from '@/components/WhatsAppButton'
 import SEO from '@/components/SEO'
 import GEOOptimizer from '@/components/GEOOptimizer'
 import EntitySchema from '@/components/EntitySchema'
-import Script from 'next/script'
 import { generateWhatsAppURL } from '@/utils/whatsapp'
 
 export default function WeddingServicePage() {
@@ -52,45 +51,6 @@ export default function WeddingServicePage() {
     }
   ]
 
-  const faqStructuredData = {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    "mainEntity": [
-      {
-        "@type": "Question",
-        "name": "How much is a Rolls-Royce wedding car in Dubai?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Rolls-Royce wedding car packages start from AED 2,500 including decoration, red carpet, and professional chauffeur. Premium packages with photographer from AED 4,500."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Can I get a white Rolls-Royce for my wedding in Dubai?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Yes, we have white Phantom and Ghost models specifically maintained for weddings with custom floral arrangements, Just Married signage, and red carpet service."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Which Rolls-Royce is best for weddings?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "The Phantom Extended Wheelbase is the most popular wedding car due to its majestic presence and spacious cabin. The Ghost is ideal for a more intimate affair, while the Dawn convertible is perfect for outdoor celebrations."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Do you offer Indian wedding car packages in Dubai?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Yes, we offer specialized Indian wedding packages with multiple Rolls-Royce vehicles for baraat procession, traditional decoration, and multi-day event coverage."
-        }
-      }
-    ]
-  }
-
   return (
     <>
       <SEO pageKey="services.wedding" />
@@ -104,11 +64,12 @@ export default function WeddingServicePage() {
         facts={['Wedding car packages from AED 2,500', 'White Phantom & Ghost available', 'Floral decoration included', 'Professional chauffeur in formal attire', 'Free photographer for 4+ hour bookings', 'Over 500 weddings served in Dubai']}
         faqs={[
           { question: 'How much is a Rolls-Royce wedding car in Dubai?', answer: 'Rolls-Royce wedding car packages start from AED 2,500 including decoration, red carpet, and professional chauffeur. Premium packages with photographer from AED 4,500.' },
-          { question: 'Can I get a white Rolls-Royce for my wedding?', answer: 'Yes, we have white Phantom and Ghost models specifically maintained for weddings with custom floral arrangements and Just Married signage.' }
+          { question: 'Can I get a white Rolls-Royce for my wedding?', answer: 'Yes, we have white Phantom and Ghost models specifically maintained for weddings with custom floral arrangements and Just Married signage.' },
+          { question: 'Which Rolls-Royce is best for weddings?', answer: 'The Phantom Extended Wheelbase is the most popular wedding car due to its majestic presence and spacious cabin. The Ghost is ideal for a more intimate affair, while the Dawn convertible is perfect for outdoor celebrations.' },
+          { question: 'Do you offer Indian wedding car packages in Dubai?', answer: 'Yes, we offer specialized Indian wedding packages with multiple Rolls-Royce vehicles for baraat procession, traditional decoration, and multi-day event coverage.' }
         ]}
       />
       <EntitySchema pageType="service" serviceType="wedding" />
-      <Script id="wedding-faq-data" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqStructuredData) }} />
       <Layout>
         {/* Hero Section */}
         <section className="relative h-screen flex items-center justify-center overflow-hidden">

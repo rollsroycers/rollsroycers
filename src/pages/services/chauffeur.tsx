@@ -11,7 +11,6 @@ import SEO from '@/components/SEO'
 import GEOOptimizer from '@/components/GEOOptimizer'
 import EntitySchema from '@/components/EntitySchema'
 import { createWhatsAppLinkProps } from '@/utils/whatsapp'
-import Script from 'next/script'
 
 export default function ChauffeurServicesPage() {
   const { t } = useTranslation(['services', 'common'])
@@ -45,37 +44,6 @@ export default function ChauffeurServicesPage() {
 
   const testimonials = getTranslatedArray('servicesPages.chauffeur.testimonials')
 
-  const faqStructuredData = {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    "mainEntity": [
-      {
-        "@type": "Question",
-        "name": "How much is a Rolls-Royce chauffeur service in Dubai per hour?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Hourly Rolls-Royce chauffeur service starts from AED 800/hour with a minimum 2-hour booking. Daily rates from AED 3,800 offer better value for extended use."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Are your Rolls-Royce chauffeurs multilingual?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Yes, our professional chauffeurs speak English, Arabic, Russian, French, Chinese, and Hindi. We match the chauffeur language to your preference for a seamless experience."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Can I hire a Rolls-Royce with driver for a full day in Dubai?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Yes, daily chauffeur packages include up to 10 hours of service with a dedicated driver and vehicle. Extended hours available at an additional rate. Includes fuel, insurance, and 250km."
-        }
-      }
-    ]
-  }
-
   return (
     <>
       <SEO pageKey="services.chauffeur" />
@@ -89,11 +57,11 @@ export default function ChauffeurServicesPage() {
         facts={['Hourly chauffeur from AED 800/hr', 'Daily chauffeur from AED 3,800', 'Multilingual drivers (6 languages)', 'Available 24/7 across Dubai', 'Corporate accounts available']}
         faqs={[
           { question: 'Are your chauffeurs multilingual?', answer: 'Yes, our professional chauffeurs speak English, Arabic, Russian, French, Chinese, and Hindi. We match the chauffeur language to your preference.' },
-          { question: 'How much is hourly chauffeur service?', answer: 'Hourly Rolls-Royce chauffeur service starts from AED 800/hour with a minimum 2-hour booking. Daily rates from AED 3,800 offer better value for extended use.' }
+          { question: 'How much is hourly chauffeur service?', answer: 'Hourly Rolls-Royce chauffeur service starts from AED 800/hour with a minimum 2-hour booking. Daily rates from AED 3,800 offer better value for extended use.' },
+          { question: 'Can I hire a Rolls-Royce with driver for a full day in Dubai?', answer: 'Yes, daily chauffeur packages include up to 10 hours of service with a dedicated driver and vehicle. Extended hours available at an additional rate. Includes fuel, insurance, and 250km.' }
         ]}
       />
       <EntitySchema pageType="service" serviceType="chauffeur" />
-      <Script id="chauffeur-faq-data" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqStructuredData) }} />
       <Layout>
         {/* Hero Section */}
         <section className="relative h-screen flex items-center justify-center overflow-hidden">

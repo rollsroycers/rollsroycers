@@ -119,37 +119,6 @@ export default function CullinanPage() {
     "speed": { "@type": "QuantitativeValue", "value": "250", "unitCode": "KMH" }
   }
 
-  const faqStructuredData = {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    "mainEntity": [
-      {
-        "@type": "Question",
-        "name": "How much does it cost to rent a Rolls-Royce Cullinan in Dubai?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Cullinan rental starts from AED 6,500 per day. Weekly rates at AED 39,000 and monthly at AED 130,000. All prices include insurance, VAT, and professional chauffeur service."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Is the Rolls-Royce Cullinan good for desert tours in Dubai?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Yes, the Cullinan is Rolls-Royce's first SUV with all-wheel drive, making it ideal for luxury desert safaris while maintaining supreme comfort and the signature Rolls-Royce magic carpet ride."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "How many passengers can the Cullinan seat?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "The Cullinan offers up to 7-seater configuration, making it the most spacious Rolls-Royce and perfect for families, groups, and corporate delegations visiting Dubai."
-        }
-      }
-    ]
-  }
-
   return (
     <>
       <SEO pageKey="fleet.cullinan" />
@@ -170,7 +139,8 @@ export default function CullinanPage() {
         ]}
         faqs={[
           { question: 'How much does it cost to rent a Rolls-Royce Cullinan in Dubai?', answer: 'The Rolls-Royce Cullinan rental starts from AED 6,500 per day. Weekly rates from AED 39,000 and monthly from AED 130,000. All prices include professional chauffeur and insurance.' },
-          { question: 'Is the Cullinan good for desert tours?', answer: 'Yes, the Cullinan is Rolls-Royce\'s first SUV with all-wheel drive, making it ideal for desert safaris while maintaining supreme luxury and comfort.' }
+          { question: 'Is the Cullinan good for desert tours?', answer: 'Yes, the Cullinan is Rolls-Royce\'s first SUV with all-wheel drive, making it ideal for desert safaris while maintaining supreme luxury and comfort.' },
+          { question: 'How many passengers can the Cullinan seat?', answer: 'The Cullinan offers up to 7-seater configuration, making it the most spacious Rolls-Royce and perfect for families, groups, and corporate delegations visiting Dubai.' }
         ]}
       />
       <EntitySchema pageType="fleet" carModel="cullinan" />
@@ -178,7 +148,6 @@ export default function CullinanPage() {
       {/* Structured Data Scripts */}
       <Script id="cullinan-structured-data" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }} />
       <Script id="cullinan-vehicle-data" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(vehicleStructuredData) }} />
-      <Script id="cullinan-faq-data" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqStructuredData) }} />
 
       <Layout>
         {/* Hero Section */}

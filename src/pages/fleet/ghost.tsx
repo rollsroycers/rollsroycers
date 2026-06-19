@@ -94,37 +94,6 @@ export default function GhostPage() {
     "speed": { "@type": "QuantitativeValue", "value": "250", "unitCode": "KMH" }
   }
 
-  const faqStructuredData = {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    "mainEntity": [
-      {
-        "@type": "Question",
-        "name": "How much does it cost to rent a Rolls-Royce Ghost in Dubai?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Ghost rental starts from AED 3,800 per day, making it the most affordable Rolls-Royce in our fleet. Weekly rates at AED 22,800 and monthly at AED 76,000. All prices include insurance, VAT, and chauffeur service."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "What is the difference between the Ghost and Ghost Black Badge?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "The Black Badge is the darker, more powerful variant with enhanced performance, blacked-out chrome, and exclusive interior finishes. It costs approximately 20% more than the standard Ghost."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Is the Ghost good for business trips in Dubai?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "The Ghost is the perfect business Rolls-Royce. With its refined character, Planar suspension, and illuminated fascia, it combines executive presence with supreme comfort for corporate meetings and client entertainment."
-        }
-      }
-    ]
-  }
-
   return (
     <>
       <SEO pageKey="fleet.ghost" />
@@ -145,7 +114,8 @@ export default function GhostPage() {
         ]}
         faqs={[
           { question: 'How much does it cost to rent a Rolls-Royce Ghost in Dubai?', answer: 'The Rolls-Royce Ghost rental starts from AED 3,800 per day, making it the most affordable Rolls-Royce in our fleet. Weekly and monthly rates available with significant discounts.' },
-          { question: 'What is the difference between Ghost and Ghost Black Badge?', answer: 'The Black Badge is the darker, more powerful variant with enhanced performance, blacked-out chrome, and exclusive interior finishes. It costs approximately 20% more than the standard Ghost.' }
+          { question: 'What is the difference between Ghost and Ghost Black Badge?', answer: 'The Black Badge is the darker, more powerful variant with enhanced performance, blacked-out chrome, and exclusive interior finishes. It costs approximately 20% more than the standard Ghost.' },
+          { question: 'Is the Ghost good for business trips in Dubai?', answer: 'The Ghost is the perfect business Rolls-Royce. With its refined character, Planar suspension, and illuminated fascia, it combines executive presence with supreme comfort for corporate meetings and client entertainment.' }
         ]}
       />
       <EntitySchema pageType="fleet" carModel="ghost" />
@@ -153,7 +123,6 @@ export default function GhostPage() {
       {/* Structured Data Scripts */}
       <Script id="ghost-structured-data" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }} />
       <Script id="ghost-vehicle-data" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(vehicleStructuredData) }} />
-      <Script id="ghost-faq-data" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqStructuredData) }} />
 
       <Layout>
         {/* Hero Section */}

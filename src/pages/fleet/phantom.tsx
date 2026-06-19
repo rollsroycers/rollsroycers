@@ -591,37 +591,6 @@ export default function PhantomPage() {
     }
   }
 
-  const faqStructuredData = {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    "mainEntity": [
-      {
-        "@type": "Question",
-        "name": "How much does it cost to rent a Rolls-Royce Phantom in Dubai?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Phantom rental starts from AED 5,800 per day, with weekly rates at AED 34,800 and monthly at AED 116,000. All prices include insurance, VAT, and basic chauffeur service."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Can tourists rent a Rolls-Royce Phantom in Dubai?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Yes! Tourists can rent with a valid passport, international driving license, and credit card. Most clients prefer our chauffeur service for the ultimate luxury experience."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "What's included in the Phantom rental?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Comprehensive insurance, 250km daily mileage, professional chauffeur (optional), 24/7 support, and complimentary delivery/pickup within Dubai city limits."
-        }
-      }
-    ]
-  }
-
   return (
     <>
       <SEO pageKey="fleet.phantom" />
@@ -643,7 +612,8 @@ export default function PhantomPage() {
         faqs={[
           { question: 'How much does it cost to rent a Rolls-Royce Phantom in Dubai?', answer: 'The Rolls-Royce Phantom rental starts from AED 5,800 per day. Weekly rates from AED 34,800 and monthly from AED 116,000. All prices include professional chauffeur, insurance, and 24/7 support.' },
           { question: 'Is the Phantom good for weddings in Dubai?', answer: 'Yes, the Phantom Extended Wheelbase is the most popular wedding car in Dubai. White Phantom available with floral decoration, red carpet, and professional chauffeur in formal attire.' },
-          { question: 'What is included in Phantom rental?', answer: 'Phantom rental includes professional multilingual chauffeur, comprehensive insurance, 24/7 roadside assistance, complimentary water and WiFi, and free delivery to any Dubai location.' }
+          { question: 'What is included in Phantom rental?', answer: 'Phantom rental includes professional multilingual chauffeur, comprehensive insurance, 24/7 roadside assistance, complimentary water and WiFi, and free delivery to any Dubai location.' },
+          { question: 'Can tourists rent a Rolls-Royce Phantom in Dubai?', answer: 'Yes! Tourists can rent with a valid passport, international driving license, and credit card. Most clients prefer our chauffeur service for the ultimate luxury experience.' }
         ]}
       />
       <EntitySchema pageType="fleet" carModel="phantom" />
@@ -658,11 +628,6 @@ export default function PhantomPage() {
         id="phantom-vehicle-data"
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(vehicleStructuredData) }}
-      />
-      <Script
-        id="phantom-faq-data"
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqStructuredData) }}
       />
 
       <Layout>

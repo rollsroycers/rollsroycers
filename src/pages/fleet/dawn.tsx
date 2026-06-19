@@ -102,37 +102,6 @@ export default function DawnPage() {
     "speed": { "@type": "QuantitativeValue", "value": "250", "unitCode": "KMH" }
   }
 
-  const faqStructuredData = {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    "mainEntity": [
-      {
-        "@type": "Question",
-        "name": "How much does it cost to rent a Rolls-Royce Dawn in Dubai?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Dawn convertible rental starts from AED 5,500 per day. Weekly rates at AED 33,000 and monthly at AED 110,000. All prices include insurance, VAT, and professional chauffeur."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Can the Dawn roof be opened while driving?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Yes, the Dawn's silent retractable roof operates in just 22 seconds and can be activated at speeds up to 50 km/h, perfect for Dubai's beautiful weather and beach drives."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Is the Dawn good for photoshoots and content creation?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "The Dawn is the most photogenic Rolls-Royce with its open-top design. Popular for Instagram content, fashion shoots, and music videos at iconic Dubai locations like Palm Jumeirah, Marina, and Burj Al Arab."
-        }
-      }
-    ]
-  }
-
   return (
     <>
       <SEO pageKey="fleet.dawn" />
@@ -153,7 +122,8 @@ export default function DawnPage() {
         ]}
         faqs={[
           { question: 'How much does it cost to rent a Rolls-Royce Dawn in Dubai?', answer: 'The Rolls-Royce Dawn convertible rental starts from AED 5,500 per day. Perfect for beach drives along Dubai Marina, JBR, and Palm Jumeirah.' },
-          { question: 'Can the Dawn roof be opened while driving?', answer: 'Yes, the Dawn\'s silent retractable roof operates in just 22 seconds and can be activated at speeds up to 50 km/h, perfect for Dubai\'s beautiful weather.' }
+          { question: 'Can the Dawn roof be opened while driving?', answer: 'Yes, the Dawn\'s silent retractable roof operates in just 22 seconds and can be activated at speeds up to 50 km/h, perfect for Dubai\'s beautiful weather.' },
+          { question: 'Is the Dawn good for photoshoots and content creation?', answer: 'The Dawn is the most photogenic Rolls-Royce with its open-top design. Popular for Instagram content, fashion shoots, and music videos at iconic Dubai locations like Palm Jumeirah, Marina, and Burj Al Arab.' }
         ]}
       />
       <EntitySchema pageType="fleet" carModel="dawn" />
@@ -161,7 +131,6 @@ export default function DawnPage() {
       {/* Structured Data Scripts */}
       <Script id="dawn-structured-data" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }} />
       <Script id="dawn-vehicle-data" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(vehicleStructuredData) }} />
-      <Script id="dawn-faq-data" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqStructuredData) }} />
 
       <Layout>
         {/* Hero Section with Roof Animation */}
