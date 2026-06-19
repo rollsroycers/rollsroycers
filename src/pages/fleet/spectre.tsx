@@ -412,12 +412,6 @@ export default function SpectrePage() {
         "name": "Rolls Roycers Dubai",
         "url": "https://rollsroycers.com"
       }
-    },
-    "aggregateRating": {
-      "@type": "AggregateRating",
-      "ratingValue": "4.9",
-      "reviewCount": "187",
-      "bestRating": "5"
     }
   }
 

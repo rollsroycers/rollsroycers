@@ -559,28 +559,7 @@ export default function PhantomPage() {
         "telephone": "+971558164922",
         "email": "info@rollsroycers.com"
       }
-    },
-    "aggregateRating": {
-      "@type": "AggregateRating",
-      "ratingValue": "4.9",
-      "reviewCount": "1247",
-      "bestRating": "5",
-      "worstRating": "1"
-    },
-    "review": [
-      {
-        "@type": "Review",
-        "author": {
-          "@type": "Person",
-          "name": "Sarah Ahmed"
-        },
-        "reviewRating": {
-          "@type": "Rating",
-          "ratingValue": "5"
-        },
-        "reviewBody": "The Phantom made our wedding absolutely magical. The attention to detail exceeded all expectations."
-      }
-    ]
+    }
   }
 
   const vehicleStructuredData = {

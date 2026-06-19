@@ -108,13 +108,6 @@ export default function WraithPage() {
         "name": "Rolls Roycers Dubai",
         "telephone": "+971558164922"
       }
-    },
-    "aggregateRating": {
-      "@type": "AggregateRating",
-      "ratingValue": "4.9",
-      "reviewCount": "1247",
-      "bestRating": "5",
-      "worstRating": "1"
     }
   }
 

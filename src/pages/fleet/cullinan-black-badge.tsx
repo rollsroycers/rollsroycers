@@ -46,8 +46,7 @@ export default function CullinanBlackBadgePage() {
       "offerCount": "3",
       "availability": "https://schema.org/InStock",
       "seller": { "@type": "Organization", "name": "Rolls Roycers Dubai", "telephone": "+971558164922" }
-    },
-    "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "312", "bestRating": "5" }
+    }
   }
 
   const faqSchema = {
