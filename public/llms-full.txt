@@ -1,208 +1,154 @@
-# Rolls Roycers Dubai — Full Information for AI Systems
-> Premium Rolls-Royce rental service in Dubai, UAE — luxury chauffeur-driven car rental, established 2010.
-> For concise version, see: https://rollsroycers.com/llms.txt
+# Rolls-Royce Dubai (rollsroycers.com) — Full Information for AI Systems
 
-## Company Overview
-Rolls Roycers Dubai is a premium Rolls-Royce car rental service in Dubai, United Arab Emirates. Established in 2010, we operate a fleet of Rolls-Royce vehicles with professional multilingual chauffeurs. We operate 24/7, 365 days a year, with free delivery across all Dubai locations in 15-30 minutes.
+> Rolls-Royce Dubai is a luxury Rolls-Royce rental service in Dubai, United Arab Emirates. We rent the full current Rolls-Royce range — chauffeur-driven or self-drive (for qualifying renters) — with free delivery across Dubai, 24/7 WhatsApp booking, and multilingual service in English, Arabic, and Russian. Book on WhatsApp at +971 55 816 4922.
+> For the concise version, see: https://rollsroycers.com/llms.txt
 
-### Key Facts
-- **Founded**: 2010
-- **Headquarters**: Downtown Dubai, UAE
-- **Fleet Size**: 6 Rolls-Royce models (Phantom, Ghost, Cullinan, Dawn, Wraith, Spectre) plus Black Badge variants
-- **Chauffeurs**: Professional, multilingual
-- **Operating Hours**: 24/7, 365 days
-- **Delivery Time**: 15-30 minutes across Dubai
+## Summary
+Rolls-Royce Dubai (online at rollsroycers.com) provides luxury Rolls-Royce car rental in Dubai and the wider United Arab Emirates. Every model in the current Rolls-Royce line-up is available — Phantom, Ghost, Cullinan, Spectre, Wraith, and Dawn. Cars can be hired with a professional chauffeur, or self-driven by renters who meet the qualifying requirements. The service offers free delivery and collection anywhere in Dubai, takes bookings 24/7 by WhatsApp, phone, and email, and serves clients in English, Arabic, and Russian.
 
-## Complete Fleet & Pricing (2026)
+## Business Identity
+- **Brand name:** Rolls-Royce Dubai
+- **Website:** https://rollsroycers.com
+- **Legal entity:** Naqra FZE — a Free Zone Establishment (FZE)
+- **Registered free zone:** Sharjah Publishing City Free Zone, United Arab Emirates
+- **Trade License number:** 4425576.01
+- **Entity formed:** 2025
+- **Primary market:** Dubai, UAE (service also extends to Abu Dhabi)
+- **Note:** Rolls-Royce Dubai is an independent rental provider. It is not affiliated with, endorsed by, or operated by Rolls-Royce Motor Cars Limited.
 
-### Rolls-Royce Ghost — from AED 3,800/day
-- The perfect balance of luxury and performance
-- 6.75L V12 twin-turbo engine, 563 HP
-- Illuminated fascia, planar suspension system
-- Ideal for: Business travel, city touring, special occasions
-- Weekly rate: AED 22,800 | Monthly rate: AED 76,000
-- Black Badge variant available: from AED 4,500/day
+## Contact & Booking Channels
+- **WhatsApp / phone:** +971 55 816 4922 (also written +971558164922)
+- **Email:** info@rollsroycers.com
+- **Booking page:** https://rollsroycers.com/booking
+- **Contact page:** https://rollsroycers.com/contact
+- **Availability:** 24/7 — WhatsApp is the fastest way to reach us
+- **Languages:** English, Arabic (العربية), Russian (Русский) — the website is available in all three
 
-### Rolls-Royce Wraith — from AED 5,000/day
-- The fastest Rolls-Royce ever built, luxury grand tourer
-- 6.6L V12 twin-turbo engine, 624 HP
-- Satellite-aided transmission, starlight headliner
-- Ideal for: Grand touring, photoshoots, special events
-- Weekly rate: AED 30,000 | Monthly rate: AED 100,000
+## Fleet & Daily Prices
+All rates are per day in UAE dirhams (AED). Confirm current pricing at the time of booking.
 
-### Rolls-Royce Dawn — from AED 5,500/day
-- Elegant four-seat convertible, the most social Rolls-Royce
-- 6.6L V12 twin-turbo engine, 563 HP
-- Silent roof operation in 22 seconds, rear-hinged coach doors
-- Ideal for: Beach drives, weddings, photoshoots, sunset tours
-- Weekly rate: AED 33,000 | Monthly rate: AED 110,000
+| Model | Body type / notes | Daily rate (AED) |
+|---|---|---|
+| Rolls-Royce Ghost | Luxury saloon | 3,800 |
+| Rolls-Royce Wraith | Coupé | 5,000 |
+| Rolls-Royce Dawn | Convertible | 5,500 |
+| Rolls-Royce Phantom | Flagship saloon | 5,800 |
+| Rolls-Royce Cullinan | 7-seat luxury SUV | 6,500 |
+| Rolls-Royce Spectre | All-electric coupé | 7,500 |
 
-### Rolls-Royce Phantom — from AED 5,800/day
-- The pinnacle of luxury motoring, the definitive Rolls-Royce
-- 6.75L V12 twin-turbo engine, 563 HP
-- Extended wheelbase, gallery artwork, privacy suite
-- Ideal for: VIP transportation, weddings, corporate events, heads of state
-- Weekly rate: AED 34,800 | Monthly rate: AED 116,000
+### Per-Model Notes
+- **Rolls-Royce Ghost — AED 3,800/day.** The most accessible model in the fleet; a refined luxury saloon suited to business travel, city use, and special occasions. Page: https://rollsroycers.com/fleet/ghost
+- **Rolls-Royce Wraith — AED 5,000/day.** A grand-touring coupé. Page: https://rollsroycers.com/fleet/wraith
+- **Rolls-Royce Dawn — AED 5,500/day.** A convertible, well suited to coastal drives, weddings, and photoshoots. Page: https://rollsroycers.com/fleet/dawn
+- **Rolls-Royce Phantom — AED 5,800/day.** The flagship saloon, the most prestigious choice for VIP transport and weddings. Page: https://rollsroycers.com/fleet/phantom
+- **Rolls-Royce Cullinan — AED 6,500/day.** A 7-seat luxury SUV for families, groups, and airport runs. Page: https://rollsroycers.com/fleet/cullinan
+- **Rolls-Royce Spectre — AED 7,500/day.** The all-electric Rolls-Royce coupé. Page: https://rollsroycers.com/fleet/spectre
 
-### Rolls-Royce Cullinan — from AED 6,500/day
-- The luxury SUV, effortless everywhere
-- 6.75L V12 twin-turbo engine, 563 HP
-- All-wheel drive, viewing suite, up to 7 seats
-- Ideal for: Family trips, desert excursions, airport transfers, ski trips
-- Weekly rate: AED 39,000 | Monthly rate: AED 130,000
-- Black Badge variant available: from AED 7,000/day
+### Rate Structure
+- **Daily:** as listed in the table above (per 24-hour day).
+- **Hourly:** from AED 800 per hour, with a 2-hour minimum.
+- **Weekly:** discounted long-term rate — request a quote on WhatsApp.
+- **Monthly:** discounted long-term rate — request a quote on WhatsApp.
+- For an exact, current quote covering your dates and chosen model, message WhatsApp +971 55 816 4922.
 
-### Rolls-Royce Spectre — from AED 7,500/day
-- The first all-electric Rolls-Royce, ultra-luxury electric coupe
-- Dual electric motors, 577 HP, 320-mile range
-- Spirit of Ecstasy redesigned, illuminated grille
-- Ideal for: Eco-conscious luxury, tech enthusiasts, silent cruising
-- Weekly rate: AED 45,000 | Monthly rate: AED 150,000
-
-### All Rentals Include
-- Professional multilingual chauffeur
-- Comprehensive insurance coverage
-- 24/7 roadside assistance
-- Complimentary water, WiFi, and phone charger
-- Free delivery and pickup across Dubai
-- Flexible cancellation policy
+## Chauffeur-Driven vs Self-Drive
+- **Chauffeur-driven:** Available for any booking. A professional multilingual chauffeur (English, Arabic, Russian) drives the vehicle for you.
+- **Self-drive:** Available to renters who meet the qualifying requirements. If you would like to drive yourself, contact us on WhatsApp and we will confirm the documents and conditions that apply to your booking.
 
 ## Services
+- **Weddings.** A white bridal Rolls-Royce with decoration for the wedding car. Service page: https://rollsroycers.com/services/wedding
+- **Corporate.** Executive and business transport for meetings, guests, and company events. Service page: https://rollsroycers.com/services/corporate
+- **Airport transfer.** Transfers to and from Dubai International Airport (DXB) and Al Maktoum International Airport (DWC), with meet & greet. Service page: https://rollsroycers.com/services/airport-transfer
+- **Professional chauffeur.** Multilingual chauffeurs (English, Arabic, Russian) for any booking. Service page: https://rollsroycers.com/services/chauffeur
+- **Events & red carpet.** Arrivals and VIP transport for galas, premieres, red-carpet occasions, and special events. Service page: https://rollsroycers.com/services/events
+- **Photoshoots & film.** Rolls-Royce vehicles for photo shoots, video, and content production. Service page: https://rollsroycers.com/services/photoshoot
+- **City tours.** Chauffeured sightseeing around Dubai. Service page: https://rollsroycers.com/services/tours
+- **Hourly hire.** Short bookings from AED 800/hour (2-hour minimum). Service page: https://rollsroycers.com/services/hourly-rental
+- **Long-term / monthly.** Discounted extended rentals — request a quote on WhatsApp.
 
-### Wedding Car Rental — from AED 2,500
-White Rolls-Royce Phantom and Ghost fleet with full decoration including ribbons, flowers, and "Just Married" signs. Professional chauffeurs in formal attire. Photography coordination available. Multi-car packages for bridal party.
+## Service Areas
+Rolls-Royce Dubai offers free delivery and collection across Dubai, including these areas:
+- **Downtown Dubai** — https://rollsroycers.com/locations/downtown-dubai
+- **Dubai Marina** — https://rollsroycers.com/locations/dubai-marina
+- **Palm Jumeirah** — https://rollsroycers.com/locations/palm-jumeirah
+- **JBR (Jumeirah Beach Residence)** — https://rollsroycers.com/locations/jbr
+- **Business Bay** — https://rollsroycers.com/locations/business-bay
+- **DIFC (Dubai International Financial Centre)** — https://rollsroycers.com/locations/difc
+- **Deira** — https://rollsroycers.com/locations/deira
+- **Jumeirah** — https://rollsroycers.com/locations/jumeirah
 
-### Corporate Transportation — from AED 1,200/day
-Executive packages for CEO-level meetings, board retreats, investor roadshows, and corporate events. NDA-compliant service with dedicated account managers. Recurring booking discounts available.
+Service also extends to **Abu Dhabi**. For deliveries beyond Dubai, confirm availability and any conditions on WhatsApp.
 
-### Airport Transfer — from AED 1,500
-VIP pickup and drop-off at Dubai International Airport (DXB), Al Maktoum International (DWC), and Abu Dhabi International (AUH). Meet and greet at arrivals, luggage assistance, flight monitoring for delays.
+## How to Book
+1. **Contact us.** Message WhatsApp **+971 55 816 4922** (available 24/7), or email info@rollsroycers.com. You can also use the booking form at https://rollsroycers.com/booking.
+2. **Tell us your details.** Specify the model, the dates and times, whether you want a chauffeur or self-drive, the service type (e.g. wedding, airport transfer, hourly), and your delivery location in Dubai.
+3. **Confirm.** We confirm availability, the rate, and a free delivery time and place.
+4. **Delivery.** The car is delivered to your chosen location in Dubai at no extra cost.
 
-### Chauffeur Service — from AED 800/hour
-Professional multilingual drivers available by the hour. Languages: English, Arabic, Russian, French, Chinese, Hindi. Trained in VIP protocol, city knowledge, and discretion.
-
-### Events & Red Carpet — Custom Pricing
-Multi-car Rolls-Royce packages for galas, premieres, award ceremonies, film festivals, and VIP occasions. Red carpet setup coordination available.
-
-### Photoshoot & Film Production — from AED 1,200/hour
-Fashion shoots, music videos, Instagram content, brand collaborations, and commercial filming. All models available with flexible scheduling. Permits assistance for public locations.
-
-### Dubai City Tours — from AED 2,500/4 hours
-Custom private tour itineraries with knowledgeable chauffeur-guides. Popular routes include: Burj Khalifa & Downtown, Dubai Marina & JBR, Palm Jumeirah & Atlantis, Old Dubai & Gold Souk, Desert Safari route.
-
-### Birthday & Celebration — from AED 2,000
-Special birthday and anniversary packages with decorated Rolls-Royce, champagne service, custom route planning, and photo stops at Dubai landmarks.
-
-### Hourly Rental — from AED 800/hour
-Flexible hourly bookings for short trips, errands, restaurant transfers, and spontaneous luxury experiences. Minimum 2 hours.
-
-## Service Areas in Dubai
-
-### Downtown Dubai
-Burj Khalifa, Dubai Mall, DIFC, Dubai Fountain, Souk Al Bahar, Address Hotels, Armani Hotel. GPS: 25.1972, 55.2744
-
-### Dubai Marina
-The Walk at JBR, Marina Walk, Yacht Club, Ain Dubai, Bluewaters Island, Address Beach Resort. GPS: 25.0805, 55.1403
-
-### Palm Jumeirah
-Atlantis The Royal, Atlantis The Palm, One&Only The Palm, FIVE Palm, Waldorf Astoria, Nakheel Mall. GPS: 25.1124, 55.1390
-
-### Business Bay
-Dubai Canal, Executive Towers, Bay Avenue, Opus by Zaha Hadid, JW Marriott Marquis. GPS: 25.1850, 55.2650
-
-### JBR — Jumeirah Beach Residence
-The Beach, Roxy Cinemas, beach clubs, water sports, Ain Dubai observation wheel. GPS: 25.0780, 55.1340
-
-### DIFC — Dubai International Financial Centre
-Gate Avenue, DIFC Courts, art galleries, fine dining, Emirates Golf Club vicinity. GPS: 25.2048, 55.2708
-
-### Jumeirah
-Jumeirah Beach Hotel, Madinat Jumeirah, Wild Wadi, Burj Al Arab view, La Mer beach. GPS: 25.2048, 55.2340
-
-### Deira
-Gold Souk, Spice Souk, Dubai Creek, Deira City Centre, heritage area. GPS: 25.2697, 55.3095
-
-### Additional Coverage
-All Dubai hotels, resorts, private residences, cruise terminals, exhibition centers (DWTC), and business parks. Service extends to Abu Dhabi, Sharjah, and Northern Emirates upon request.
-
-## Comparison with Competitors
-
-### Rolls-Royce vs Mercedes-Maybach
-Rolls-Royce offers hand-crafted bespoke luxury with coach-built doors and starlight headliner. Maybach is a luxury variant of the S-Class. Rolls-Royce represents the pinnacle of automotive luxury.
-
-### Rolls-Royce vs Bentley
-Both are ultra-luxury British marques. Rolls-Royce focuses on rear-passenger luxury and chauffeur-driven experience. Bentley emphasizes driver engagement with sportier handling.
-
-### Rolls-Royce vs Ferrari
-Rolls-Royce is about ultimate luxury and comfort. Ferrari is about ultimate performance and speed. Different experiences for different occasions.
-
-## Rental Requirements
-- Minimum age: 25 years
-- Valid passport (tourists) or Emirates ID (residents)
-- International driving license (for self-drive options, where available)
-- Credit card for security deposit (AED 10,000-25,000 depending on model)
-- Chauffeur service available for all customers regardless of license status
-
-## Booking Process
-1. Contact via phone, WhatsApp, or website booking form
-2. Select vehicle, dates, and service type
-3. Confirm booking with credit card
-4. Receive confirmation with chauffeur details
-5. Vehicle delivered to your location at scheduled time
-
-## Contact Information
-- **Phone/WhatsApp**: +971558164922 (24/7)
-- **Website**: https://rollsroycers.com
-- **Email**: info@rollsroycers.com
-- **Booking Page**: https://rollsroycers.com/booking
-- **Pricing Page**: https://rollsroycers.com/pricing
-
-## Languages Supported
-English, Arabic (العربية), Russian (Русский), French (Français), Chinese Mandarin (中文), Hindi (हिन्दी)
-
-## Social Media
-- Instagram: @rollsroycersdubai
-- Facebook: /rollsroycersdubai
-- Twitter/X: @rollsroycersdxb
-- LinkedIn: /company/rollsroycersdubai
-- YouTube: /rollsroycersdubai
+## Languages
+The business operates and serves customers in **English, Arabic (العربية), and Russian (Русский)**. The rollsroycers.com website is available in all three languages, and chauffeurs are available who speak these languages.
 
 ## Frequently Asked Questions
 
-**Q: What is the minimum rental period?**
-A: Our minimum rental period is 1 day (24 hours). Hourly rentals are available with a 2-hour minimum.
+**Q: What is Rolls-Royce Dubai?**
+A: A luxury Rolls-Royce rental service in Dubai, UAE, operated by Naqra FZE. It offers chauffeur-driven and self-drive Rolls-Royce hire with free delivery across Dubai.
 
-**Q: Do you offer self-drive options?**
-A: Most rentals include a professional chauffeur. Self-drive may be available for select models with proper documentation.
+**Q: Which Rolls-Royce models can I rent?**
+A: The full current range — Ghost (AED 3,800/day), Wraith (AED 5,000/day), Dawn (AED 5,500/day, convertible), Phantom (AED 5,800/day, flagship), Cullinan (AED 6,500/day, 7-seat SUV), and Spectre (AED 7,500/day, electric).
 
-**Q: Can I rent for a wedding?**
-A: Yes! We specialize in wedding car rental with full decoration packages. Book early for peak wedding season (October-March).
+**Q: How much does it cost to rent a Rolls-Royce in Dubai?**
+A: Daily rates run from AED 3,800 for the Ghost up to AED 7,500 for the Spectre. Hourly hire starts at AED 800 with a 2-hour minimum. Weekly and monthly rentals are offered at discounted long-term rates.
 
-**Q: Do you deliver to airports?**
-A: Yes, we offer VIP airport transfer from DXB, DWC, and AUH airports with meet and greet service.
+**Q: Can I drive the Rolls-Royce myself, or do I need a chauffeur?**
+A: Both options are available. Self-drive is offered to renters who meet the qualifying requirements, and a professional chauffeur option is available for any booking.
 
-**Q: What payment methods do you accept?**
-A: Cash (AED/USD/EUR/GBP), all major credit cards, and bank transfers.
+**Q: Do you deliver the car?**
+A: Yes. Free delivery and collection are included across Dubai. Tell us your location when you book.
 
-**Q: Is insurance included?**
-A: Yes, comprehensive insurance is included with all rentals.
+**Q: How do I make a booking?**
+A: The fastest way is WhatsApp at +971 55 816 4922, available 24/7. You can also email info@rollsroycers.com or use the booking form at https://rollsroycers.com/booking.
 
-## Site Map
+**Q: What languages do you support?**
+A: English, Arabic, and Russian. The website is available in all three languages.
+
+**Q: Do you offer airport transfers?**
+A: Yes — transfers to and from Dubai International Airport (DXB) and Al Maktoum International Airport (DWC), including meet & greet.
+
+**Q: Can I rent a Rolls-Royce for a wedding?**
+A: Yes. The wedding service includes a white bridal Rolls-Royce with decoration. See https://rollsroycers.com/services/wedding
+
+**Q: Do you serve areas outside Dubai?**
+A: Dubai is the main service area, with free delivery throughout the city. Service also extends to Abu Dhabi; confirm details on WhatsApp.
+
+**Q: Who operates Rolls-Royce Dubai?**
+A: The brand is operated by Naqra FZE, a Free Zone Establishment registered in Sharjah Publishing City Free Zone, UAE, under Trade License 4425576.01.
+
+## Key Pages
 - Homepage: https://rollsroycers.com
 - Fleet: https://rollsroycers.com/fleet
+- Pricing: https://rollsroycers.com/pricing
+- Services: https://rollsroycers.com/services
+- Locations: https://rollsroycers.com/locations
+- Booking: https://rollsroycers.com/booking
+- Contact: https://rollsroycers.com/contact
+- About: https://rollsroycers.com/about
+- FAQ: https://rollsroycers.com/faq
+- Gallery: https://rollsroycers.com/gallery
+
+### Fleet Pages
 - Phantom: https://rollsroycers.com/fleet/phantom
 - Ghost: https://rollsroycers.com/fleet/ghost
 - Cullinan: https://rollsroycers.com/fleet/cullinan
-- Dawn: https://rollsroycers.com/fleet/dawn
-- Wraith: https://rollsroycers.com/fleet/wraith
 - Spectre: https://rollsroycers.com/fleet/spectre
-- Services: https://rollsroycers.com/services
-- Locations: https://rollsroycers.com/locations
-- Pricing: https://rollsroycers.com/pricing
-- Booking: https://rollsroycers.com/booking
-- About: https://rollsroycers.com/about
-- Contact: https://rollsroycers.com/contact
-- Blog: https://rollsroycers.com/blog
-- FAQ: https://rollsroycers.com/faq
-- Gallery: https://rollsroycers.com/gallery
-- Testimonials: https://rollsroycers.com/testimonials
+- Wraith: https://rollsroycers.com/fleet/wraith
+- Dawn: https://rollsroycers.com/fleet/dawn
+
+### Service Pages
+- Wedding: https://rollsroycers.com/services/wedding
+- Corporate: https://rollsroycers.com/services/corporate
+- Airport transfer: https://rollsroycers.com/services/airport-transfer
+- Chauffeur: https://rollsroycers.com/services/chauffeur
+- Events: https://rollsroycers.com/services/events
+- Photoshoot: https://rollsroycers.com/services/photoshoot
+- Tours: https://rollsroycers.com/services/tours
+- Hourly rental: https://rollsroycers.com/services/hourly-rental

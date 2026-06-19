@@ -12,6 +12,7 @@ import VirtualTour from '@/components/VirtualTour'
 import WhatsAppButton from '@/components/WhatsAppButton'
 import SEO from '@/components/SEO'
 import GEOOptimizer from '@/components/GEOOptimizer'
+import SeoContentBlock from '@/components/SeoContentBlock'
 import EntitySchema from '@/components/EntitySchema'
 import { createWhatsAppLinkProps } from '@/utils/whatsapp'
 import Script from 'next/script'
@@ -112,11 +113,7 @@ export default function GhostPage() {
           'Black Badge edition available',
           'Professional chauffeur included'
         ]}
-        faqs={[
-          { question: 'How much does it cost to rent a Rolls-Royce Ghost in Dubai?', answer: 'The Rolls-Royce Ghost rental starts from AED 3,800 per day, making it the most affordable Rolls-Royce in our fleet. Weekly and monthly rates available with significant discounts.' },
-          { question: 'What is the difference between Ghost and Ghost Black Badge?', answer: 'The Black Badge is the darker, more powerful variant with enhanced performance, blacked-out chrome, and exclusive interior finishes. It costs approximately 20% more than the standard Ghost.' },
-          { question: 'Is the Ghost good for business trips in Dubai?', answer: 'The Ghost is the perfect business Rolls-Royce. With its refined character, Planar suspension, and illuminated fascia, it combines executive presence with supreme comfort for corporate meetings and client entertainment.' }
-        ]}
+        faqs={[]}
       />
       <EntitySchema pageType="fleet" carModel="ghost" />
 
@@ -488,6 +485,7 @@ export default function GhostPage() {
         </section>
 
         <WhatsAppButton />
+        <SeoContentBlock blockKey="fleet-ghost" />
       </Layout>
     </>
   )

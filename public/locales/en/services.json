@@ -33,7 +33,7 @@
         "photography": "Photography assistance",
         "redCarpet": "Red carpet service"
       },
-      "price": "From AED 2,500"
+      "price": "From AED 3,800/day"
     },
     "corporate": {
       "title": "Corporate Services",
@@ -103,11 +103,11 @@
       },
       "reliability": {
         "title": "Absolute Reliability",
-        "description": "98% on-time rate with backup vehicles ensuring seamless service"
+        "description": "Punctual chauffeurs and free delivery across Dubai for seamless, on-time service"
       },
       "experience": {
         "title": "Unmatched Experience",
-        "description": "10+ years serving Dubai's elite with over 10,000 satisfied clients"
+        "description": "Personal, discreet service for Dubai's most discerning clients, in English, Arabic and Russian"
       },
       "customized": {
         "title": "Customized Solutions",
@@ -291,7 +291,7 @@
         "investment": "Investment",
         "emaar": "Emaar Properties",
         "development": "Development",
-        "more": "And 500+ more companies trust our services",
+        "more": "Corporate accounts welcome — flexible billing and monthly plans",
         "title": "Trusted by Leading Businesses"
       },
       "caseStudies": {
@@ -312,7 +312,7 @@
           "solution": "Solution",
           "solutionText": "Coordinated a fleet of 5 Rolls-Royce vehicles with synchronized timing and logistics management.",
           "result": "Result",
-          "resultText": "Achieved 100% on-time arrival rate with zero scheduling conflicts, enhancing the company's professional image."
+          "resultText": "Delivered punctual, well-coordinated arrivals with no scheduling conflicts, enhancing the company's professional image."
         }
       },
       "hero": {
@@ -322,8 +322,8 @@
         "getQuote": "Get Corporate Quote",
         "viewPackages": "View Corporate Packages",
         "stats": {
-          "clients": "500+ Clients",
-          "retention": "98% Retention",
+          "clients": "Chauffeur or Self-Drive",
+          "retention": "Free Delivery",
           "support": "24/7 Support"
         }
       },
@@ -436,7 +436,7 @@
             "Just Married sign and ribbons",
             "Wedding photography assistance"
           ],
-          "price": "From AED 2,500"
+          "price": "From AED 3,800/day"
         },
         "royal": {
           "name": "Royal Wedding Package",
@@ -475,19 +475,7 @@
         "subtitle": "See How We Make Dreams Come True"
       },
       "testimonials": {
-        "title": "Happy Couples",
-        "sarah": {
-          "name": "Sarah & Ahmed",
-          "text": "The Rolls-Royce made our wedding day absolutely magical. Everything was perfect - from the pristine white Phantom to the professional chauffeur. The decoration was stunning and our photos are breathtaking. Highly recommended!"
-        },
-        "fatima": {
-          "name": "Fatima & Omar",
-          "text": "Exceptional service from start to finish! The car was beautifully decorated, the driver was incredibly professional, and the timing was perfect. It made our special day even more memorable. Thank you for making our dreams come true!"
-        },
-        "mariam": {
-          "name": "Mariam & Khalid",
-          "text": "We chose the Royal Package and it exceeded all our expectations. The coordination with our photographer was seamless, and the car looked absolutely stunning. Our families were so impressed. Worth every dirham!"
-        }
+        "title": "Happy Couples"
       },
       "cta": {
         "title": "Ready to Make Your Wedding Unforgettable?",
@@ -523,12 +511,12 @@
         "bookTransfer": "Book Airport Transfer",
         "hotline": "24/7 Hotline: +971 55 816 4922",
         "stats": {
-          "transfers": "5,000+",
-          "transfersLabel": "Airport Transfers",
+          "transfers": "DXB & DWC",
+          "transfersLabel": "Airports",
           "availability": "24/7",
           "availabilityLabel": "Availability",
-          "onTime": "98%",
-          "onTimeLabel": "On-Time Rate"
+          "onTime": "Meet & Greet",
+          "onTimeLabel": "Included"
         }
       },
       "airportSelector": {
@@ -729,9 +717,9 @@
         "bookNow": "Book Chauffeur Now",
         "viewServices": "View Services",
         "quickFeatures": [
-          "500+ Professional Chauffeurs",
-          "10,000+ Satisfied Clients",
-          "4.9/5 Average Rating"
+          "Professional Chauffeurs",
+          "EN / AR / RU",
+          "24/7 Availability"
         ]
       },
       "services": {
@@ -923,9 +911,9 @@
         "callButton": "Call: +971 55 816 4922",
         "bookButton": "Book Chauffeur Online",
         "stats": {
-          "chauffeurs": "500+ Professional Chauffeurs",
-          "clients": "10,000+ Satisfied Clients",
-          "rating": "4.9/5 Average Rating"
+          "chauffeurs": "Professional Chauffeurs",
+          "clients": "EN / AR / RU",
+          "rating": "24/7 Availability"
         }
       }
     },
@@ -1133,8 +1121,8 @@
         "startPlanning": "Start Planning Your Event",
         "whatsapp": "WhatsApp Consultation",
         "stats": {
-          "events": "500+ Events Serviced",
-          "satisfaction": "98% Client Satisfaction",
+          "events": "Red-Carpet Ready",
+          "satisfaction": "Multi-Car Fleet",
           "support": "24/7 Event Support"
         }
       }
@@ -1368,13 +1356,13 @@
         "exploreTours": "Explore Tours"
       },
       "highlights": {
-        "toursCompleted": "5000+",
-        "toursCompletedLabel": "Tours Completed",
-        "averageRating": "4.9/5",
-        "averageRatingLabel": "Average Rating",
-        "destinations": "50+",
-        "destinationsLabel": "Destinations",
-        "languages": "10",
+        "toursCompleted": "Chauffeur or Self-Drive",
+        "toursCompletedLabel": "Your Choice",
+        "averageRating": "Free Delivery",
+        "averageRatingLabel": "Across Dubai",
+        "destinations": "Custom Itineraries",
+        "destinationsLabel": "Tailored Routes",
+        "languages": "EN / AR / RU",
         "languagesLabel": "Languages"
       },
       "packages": {

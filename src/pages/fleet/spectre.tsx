@@ -220,40 +220,6 @@ const AIOptimizedContent = ({ locale }: { locale: string }) => {
         </section>
       </>
     ),
-    fr: (
-      <>
-        <section className="py-20 bg-gradient-to-b from-rolls-black to-rolls-navy">
-          <div className="container mx-auto px-4">
-            <div className="max-w-4xl mx-auto prose prose-invert">
-              <h2 className="text-3xl font-bold text-rolls-gold mb-8">
-                Pourquoi Louer la Rolls-Royce Spectre à Dubaï ?
-              </h2>
-              <p className="text-gray-300 leading-relaxed mb-6">
-                La Rolls-Royce Spectre est un jalon dans l&apos;histoire automobile — la première Rolls-Royce entièrement électrique.
-                En louant la Spectre à Dubaï, vous vivez le futur du luxe automobile : une puissance électrique silencieuse,
-                un couple instantané et la présence inimitable d&apos;une Rolls-Royce dans un design coupé fastback époustouflant.
-              </p>
-              <h3 className="text-2xl font-semibold text-white mt-8 mb-4">Performance Électrique Inégalée</h3>
-              <p className="text-gray-300 leading-relaxed mb-6">
-                Avec 577 chevaux et 900 Nm de couple instantané, la Spectre accélère de 0 à 100 km/h en seulement 4,5 secondes —
-                dans un silence total. La batterie de 102 kWh offre plus de 520 km d&apos;autonomie.
-              </p>
-              <div className="bg-rolls-gold/10 border border-rolls-gold/30 rounded-lg p-6 mt-8">
-                <h3 className="text-2xl font-semibold text-rolls-gold mb-4">Avantages Exclusifs à Dubaï</h3>
-                <ul className="space-y-2 text-gray-300">
-                  <li>🚗 Prise en charge gratuite depuis n&apos;importe quel lieu à Dubaï</li>
-                  <li>👨‍✈️ Chauffeur professionnel multilingue en tenue formelle</li>
-                  <li>🔋 Entièrement chargée et prête pour votre voyage</li>
-                  <li>📱 Service conciergerie 24h/24 et 7j/7</li>
-                  <li>🎯 Réservation flexible avec annulation gratuite jusqu&apos;à 48h</li>
-                  <li>🏆 Garantie meilleur prix</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </section>
-      </>
-    ),
     ru: (
       <>
         <section className="py-20 bg-gradient-to-b from-rolls-black to-rolls-navy">
@@ -281,74 +247,6 @@ const AIOptimizedContent = ({ locale }: { locale: string }) => {
                   <li>📱 Консьерж-сервис 24/7</li>
                   <li>🎯 Гибкое бронирование с бесплатной отменой за 48 часов</li>
                   <li>🏆 Гарантия лучшей цены</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </section>
-      </>
-    ),
-    zh: (
-      <>
-        <section className="py-20 bg-gradient-to-b from-rolls-black to-rolls-navy">
-          <div className="container mx-auto px-4">
-            <div className="max-w-4xl mx-auto prose prose-invert">
-              <h2 className="text-3xl font-bold text-rolls-gold mb-8">
-                为什么在迪拜租劳斯莱斯闪灵？
-              </h2>
-              <p className="text-gray-300 leading-relaxed mb-6">
-                劳斯莱斯闪灵是汽车历史上的里程碑——有史以来第一辆全电动劳斯莱斯。
-                在迪拜租用闪灵，您将体验超豪华汽车的未来：无声电力、瞬时扭矩，
-                以及劳斯莱斯独特的存在感，全部融入令人惊叹的fastback轿跑设计中。
-              </p>
-              <h3 className="text-2xl font-semibold text-white mt-8 mb-4">无与伦比的电动性能</h3>
-              <p className="text-gray-300 leading-relaxed mb-6">
-                拥有577马力和900牛·米的瞬时扭矩，闪灵仅需4.5秒即可从0加速至100公里/小时——
-                完全静音。102千瓦时电池提供超过520公里续航里程。
-              </p>
-              <div className="bg-rolls-gold/10 border border-rolls-gold/30 rounded-lg p-6 mt-8">
-                <h3 className="text-2xl font-semibold text-rolls-gold mb-4">迪拜独家优势</h3>
-                <ul className="space-y-2 text-gray-300">
-                  <li>🚗 迪拜任何地点免费接送</li>
-                  <li>👨‍✈️ 专业多语种司机正装服务</li>
-                  <li>🔋 满电出发，随时就绪</li>
-                  <li>📱 24/7礼宾服务支持</li>
-                  <li>🎯 灵活预订，48小时免费取消</li>
-                  <li>🏆 最优价格保证</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </section>
-      </>
-    ),
-    hi: (
-      <>
-        <section className="py-20 bg-gradient-to-b from-rolls-black to-rolls-navy">
-          <div className="container mx-auto px-4">
-            <div className="max-w-4xl mx-auto prose prose-invert">
-              <h2 className="text-3xl font-bold text-rolls-gold mb-8">
-                दुबई में रोल्स-रॉयस स्पेक्टर क्यों किराए पर लें?
-              </h2>
-              <p className="text-gray-300 leading-relaxed mb-6">
-                रोल्स-रॉयस स्पेक्टर ऑटोमोटिव इतिहास में एक मील का पत्थर है — अब तक की पहली पूर्ण इलेक्ट्रिक रोल्स-रॉयस।
-                दुबई में स्पेक्टर किराए पर लेकर, आप अल्ट्रा-लक्जरी मोटरिंग के भविष्य का अनुभव करते हैं: व्हिस्पर-साइलेंट इलेक्ट्रिक पावर,
-                तत्काल टॉर्क, और रोल्स-रॉयस की अचूक उपस्थिति।
-              </p>
-              <h3 className="text-2xl font-semibold text-white mt-8 mb-4">बेजोड़ इलेक्ट्रिक प्रदर्शन</h3>
-              <p className="text-gray-300 leading-relaxed mb-6">
-                577 हॉर्सपावर और 900 Nm इंस्टेंट टॉर्क के साथ, स्पेक्टर केवल 4.5 सेकंड में 0-100 km/h तक पहुंचती है —
-                पूर्ण शांति में। 102 kWh बैटरी 520 km से अधिक की रेंज प्रदान करती है।
-              </p>
-              <div className="bg-rolls-gold/10 border border-rolls-gold/30 rounded-lg p-6 mt-8">
-                <h3 className="text-2xl font-semibold text-rolls-gold mb-4">दुबई में विशेष लाभ</h3>
-                <ul className="space-y-2 text-gray-300">
-                  <li>🚗 दुबई में किसी भी स्थान से मुफ्त पिकअप</li>
-                  <li>👨‍✈️ फॉर्मल ड्रेस में प्रोफेशनल मल्टीलिंगुअल चालक</li>
-                  <li>🔋 पूरी तरह चार्ज और आपकी यात्रा के लिए तैयार</li>
-                  <li>📱 24/7 कंसीयज सपोर्ट</li>
-                  <li>🎯 48 घंटे तक मुफ्त कैंसलेशन के साथ फ्लेक्सिबल बुकिंग</li>
-                  <li>🏆 सर्वोत्तम मूल्य गारंटी</li>
                 </ul>
               </div>
             </div>

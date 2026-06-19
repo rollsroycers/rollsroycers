@@ -100,10 +100,7 @@ export function generateLocalizedMessage(
   const greetings = {
     en: 'Hello!',
     ar: 'مرحباً!',
-    fr: 'Bonjour!',
-    ru: 'Здравствуйте!',
-    zh: '您好！',
-    hi: 'नमस्ते!'
+    ru: 'Здравствуйте!'
   }
   
   const greeting = greetings[locale as keyof typeof greetings] || greetings.en

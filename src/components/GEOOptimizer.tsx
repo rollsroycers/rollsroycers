@@ -44,7 +44,7 @@ export default function GEOOptimizer({
   const canonicalUrl = `${baseUrl}${localePath}${cleanPath === '/' ? '' : cleanPath}`
 
   const langNameMap: Record<string, string> = {
-    en: 'English', ar: 'Arabic', fr: 'French', ru: 'Russian', zh: 'Chinese', hi: 'Hindi'
+    en: 'English', ar: 'Arabic', ru: 'Russian'
   }
 
   // Speakable Schema - tells AI which parts of the page are most useful to read aloud

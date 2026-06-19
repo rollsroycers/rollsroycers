@@ -103,11 +103,11 @@
       },
       "reliability": {
         "title": "موثوقية مطلقة",
-        "description": "98% معدل الالتزام بالمواعيد مع سيارات احتياطية لضمان خدمة سلسة"
+        "description": "التزام دقيق بالمواعيد مع سيارات احتياطية لضمان خدمة سلسة"
       },
       "experience": {
         "title": "خبرة لا مثيل لها",
-        "description": "أكثر من 10 سنوات في خدمة نخبة دبي مع أكثر من 10,000 عميل راضٍ"
+        "description": "خدمة مخصصة لنخبة دبي مع اهتمام بأدق التفاصيل في كل رحلة"
       },
       "customized": {
         "title": "حلول مخصصة",
@@ -291,8 +291,8 @@
         "investment": "الاستثمار",
         "emaar": "إعمار العقارية",
         "development": "التطوير",
-        "more": "وأكثر من 500 شركة تثق بخدماتنا",
-        "title": "موثوق به من قبل الشركات الرائدة"
+        "more": "حلول نقل مؤسسية مصممة لاحتياجات شركتك",
+        "title": "خدمات الشركات"
       },
       "caseStudies": {
         "title": "قصص النجاح",
@@ -312,7 +312,7 @@
           "solution": "الحل",
           "solutionText": "نسقنا أسطول من 5 مركبات رولز رويس مع توقيت متزامن وإدارة لوجستية.",
           "result": "النتيجة",
-          "resultText": "حققنا معدل وصول في الوقت المحدد 100% بدون تضارب في الجدولة، مما عزز الصورة المهنية للشركة."
+          "resultText": "حرصنا على الوصول في الوقت المحدد بدون تضارب في الجدولة، مما عزز الصورة المهنية للشركة."
         }
       },
       "hero": {
@@ -322,8 +322,8 @@
         "getQuote": "احصل على عرض سعر الشركات",
         "viewPackages": "عرض باقات الشركات",
         "stats": {
-          "clients": "+500 عميل",
-          "retention": "98% معدل الاحتفاظ",
+          "clients": "سائق أو قيادة ذاتية",
+          "retention": "فوترة مؤسسية",
           "support": "دعم 24/7"
         }
       },
@@ -523,12 +523,12 @@
         "bookTransfer": "احجز النقل من المطار",
         "hotline": "الخط الساخن 24/7: +971 55 816 4922",
         "stats": {
-          "transfers": "+5,000",
-          "transfersLabel": "نقلة مطار",
+          "transfers": "DXB وDWC",
+          "transfersLabel": "المطارات",
           "availability": "24/7",
           "availabilityLabel": "متاح",
-          "onTime": "98%",
-          "onTimeLabel": "معدل الدقة"
+          "onTime": "استقبال وترحيب",
+          "onTimeLabel": "مشمول"
         }
       },
       "airportSelector": {
@@ -729,9 +729,9 @@
         "bookNow": "احجز سائق الآن",
         "viewServices": "عرض الخدمات",
         "quickFeatures": [
-          "500+ سائق محترف",
-          "10,000+ عميل راضٍ",
-          "4.9/5 متوسط التقييم"
+          "سائقون محترفون",
+          "متعدد اللغات: إنجليزي وعربي وروسي",
+          "متاح 24/7 مع توصيل مجاني"
         ]
       },
       "services": {
@@ -923,9 +923,9 @@
         "callButton": "اتصل: +971 55 816 4922",
         "bookButton": "احجز سائق أونلاين",
         "stats": {
-          "chauffeurs": "500+ سائق محترف",
-          "clients": "10,000+ عميل راضٍ",
-          "rating": "4.9/5 متوسط التقييم"
+          "chauffeurs": "سائقون محترفون",
+          "clients": "متعدد اللغات: إنجليزي وعربي وروسي",
+          "rating": "متاح 24/7 مع توصيل مجاني"
         }
       }
     },
@@ -1133,8 +1133,8 @@
         "startPlanning": "ابدأ تخطيط مناسبتك",
         "whatsapp": "استشارة واتساب",
         "stats": {
-          "events": "500+ مناسبة تم تقديم الخدمة لها",
-          "satisfaction": "98% رضا العملاء",
+          "events": "وصول على السجادة الحمراء",
+          "satisfaction": "تنسيق متعدد السيارات",
           "support": "دعم المناسبات 24/7"
         }
       }
@@ -1148,12 +1148,12 @@
         "viewPackages": "عرض الباقات"
       },
       "stats": {
-        "photoshoots": "1000+",
-        "photoshootsLabel": "جلسة تصوير",
-        "magazineFeatures": "50+",
-        "magazineFeaturesLabel": "ظهور في المجلات",
-        "brandCollaborations": "100+",
-        "brandCollaborationsLabel": "تعاون مع العلامات التجارية",
+        "photoshoots": "أسطول رولز رويس",
+        "photoshootsLabel": "للتصوير الاحترافي",
+        "magazineFeatures": "مواقع متعددة",
+        "magazineFeaturesLabel": "في كل دبي",
+        "brandCollaborations": "توصيل مجاني",
+        "brandCollaborationsLabel": "إلى موقع التصوير",
         "availability": "24/7",
         "availabilityLabel": "متاح على مدار الساعة"
       },
@@ -1368,14 +1368,14 @@
         "exploreTours": "استكشف الجولات"
       },
       "highlights": {
-        "toursCompleted": "5000+",
-        "toursCompletedLabel": "جولة مكتملة",
-        "averageRating": "4.9/5",
-        "averageRatingLabel": "متوسط التقييم",
-        "destinations": "50+",
-        "destinationsLabel": "وجهة",
-        "languages": "10",
-        "languagesLabel": "لغات"
+        "toursCompleted": "سائق مرشد خاص",
+        "toursCompletedLabel": "جولات مع سائق",
+        "averageRating": "توصيل مجاني",
+        "averageRatingLabel": "في كل دبي",
+        "destinations": "برامج مخصصة",
+        "destinationsLabel": "حسب طلبك",
+        "languages": "إنجليزي / عربي / روسي",
+        "languagesLabel": "لغات السائقين"
       },
       "packages": {
         "title": "باقات الجولات المميزة",

@@ -34,6 +34,12 @@ export default function EntitySchema({
     "inLanguage": currentLang,
     "telephone": "+971558164922",
     "email": "info@rollsroycers.com",
+    "legalName": "Naqra FZE",
+    "identifier": {
+      "@type": "PropertyValue",
+      "name": "Trade License (Sharjah Publishing City Free Zone)",
+      "value": "4425576.01"
+    },
     "foundingDate": "2010",
     "numberOfEmployees": {
       "@type": "QuantitativeValue",
@@ -42,10 +48,8 @@ export default function EntitySchema({
     },
     "address": {
       "@type": "PostalAddress",
-      "streetAddress": "Sheikh Zayed Road",
       "addressLocality": "Dubai",
       "addressRegion": "Dubai",
-      "postalCode": "00000",
       "addressCountry": "AE"
     },
     "geo": {
@@ -76,12 +80,9 @@ export default function EntitySchema({
       "Airport Transfer Service",
       "Chauffeur Service"
     ],
-    "knowsLanguage": ["en", "ar", "ru", "fr", "zh", "hi"],
-    "brand": {
-      "@type": "Brand",
-      "name": "Rolls-Royce",
-      "url": "https://www.rolls-roycemotorcars.com"
-    },
+    "knowsLanguage": ["en", "ar", "ru"],
+    "brand": { "@id": "https://rollsroycers.com/#rolls-royce-brand" },
+    "provider": { "@id": "https://rollsroycers.com/#organization" },
     // aggregateRating removed: self-serving review rating on a business entity is
     // disallowed by Google for rich results and the count was unverifiable. Re-add
     // ONLY with real, individually-listed Review objects whose count matches.
@@ -204,10 +205,7 @@ function getBusinessDescription(lang: string): string {
   const descriptions: Record<string, string> = {
     en: 'Premium Rolls-Royce rental service in Dubai offering luxury chauffeur services, wedding cars, airport transfers, and corporate transportation. Available 24/7 with free delivery across Dubai.',
     ar: 'خدمة تأجير رولز رويس المتميزة في دبي تقدم خدمات السائق الفاخرة، سيارات الزفاف، النقل من المطار، والنقل للشركات. متاح 24/7 مع التوصيل المجاني في جميع أنحاء دبي.',
-    fr: 'Service premium de location Rolls-Royce à Dubaï offrant chauffeur de luxe, voitures de mariage, transferts aéroport et transport d\'entreprise. Disponible 24h/24 avec livraison gratuite dans tout Dubaï.',
-    ru: 'Премиальная аренда Rolls-Royce в Дубае с услугами водителя, свадебными автомобилями, трансферами из аэропорта и корпоративным транспортом. Доступно 24/7 с бесплатной доставкой по всему Дубаю.',
-    zh: '迪拜高级劳斯莱斯租赁服务，提供豪华司机服务、婚车、机场接送和企业交通。全天候24/7服务，迪拜全城免费送车。',
-    hi: 'दुबई में प्रीमियम रोल्स रॉयस किराया सेवा — लक्जरी ड्राइवर सेवाएं, शादी की कारें, एयरपोर्ट ट्रांसफर और कॉर्पोरेट ट्रांसपोर्टेशन। दुबई भर में मुफ्त डिलीवरी के साथ 24/7 उपलब्ध।'
+    ru: 'Премиальная аренда Rolls-Royce в Дубае с услугами водителя, свадебными автомобилями, трансферами из аэропорта и корпоративным транспортом. Доступно 24/7 с бесплатной доставкой по всему Дубаю.'
   }
   return descriptions[lang] || descriptions['en']
 }

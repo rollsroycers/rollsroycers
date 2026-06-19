@@ -11,7 +11,7 @@ import { dirname, join } from 'node:path'
 const __dirname = dirname(fileURLToPath(import.meta.url))
 const ROOT = join(__dirname, '..')
 const BASE = 'https://rollsroycers.com'
-const LOCALES = ['en', 'ar', 'zh', 'fr', 'ru', 'hi'] // 'en' = default (no prefix)
+const LOCALES = ['en', 'ar', 'ru'] // 'en' = default (no prefix)
 const DEFAULT_LOCALE = 'en'
 
 const blogSlugs = JSON.parse(readFileSync(join(ROOT, 'src/data/blogSlugs.json'), 'utf8'))
@@ -31,6 +31,7 @@ const routes = [
   { path: '/about', file: 'src/pages/about.tsx', priority: '0.7', changefreq: 'monthly' },
   { path: '/fleet', file: 'src/pages/fleet.tsx', priority: '0.9', changefreq: 'weekly' },
   { path: '/services', file: 'src/pages/services.tsx', priority: '0.9', changefreq: 'weekly' },
+  { path: '/luxury-car-rental-dubai', file: 'src/pages/luxury-car-rental-dubai.tsx', priority: '0.9', changefreq: 'weekly' },
   { path: '/locations', file: 'src/pages/locations.tsx', priority: '0.9', changefreq: 'weekly' },
   { path: '/compare', file: 'src/pages/compare/index.tsx', priority: '0.8', changefreq: 'monthly' },
   { path: '/gallery', file: 'src/pages/gallery.tsx', priority: '0.7', changefreq: 'monthly' },

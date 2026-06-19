@@ -9,6 +9,7 @@ import Layout from '@/components/Layout'
 import WhatsAppButton from '@/components/WhatsAppButton'
 import SEO from '@/components/SEO'
 import GEOOptimizer from '@/components/GEOOptimizer'
+import SeoContentBlock from '@/components/SeoContentBlock'
 import EntitySchema from '@/components/EntitySchema'
 import { generateWhatsAppURL } from '@/utils/whatsapp'
 
@@ -62,11 +63,7 @@ export default function AirportTransferPage() {
         primaryTopic="Rolls-Royce Airport Transfer Dubai"
         contentSummary="VIP Rolls-Royce airport pickup and drop-off service at DXB, DWC, and AUH airports. Meet and greet, flight tracking, complimentary waiting time. From AED 1,500."
         facts={['Airport transfer from AED 1,500', 'DXB, DWC, AUH airports covered', 'Meet & greet included', 'Flight tracking & free waiting', '15-20 min to Downtown Dubai']}
-        faqs={[
-          { question: 'How to book Rolls-Royce airport transfer in Dubai?', answer: 'Book online at rollsroycers.com or WhatsApp +971558164922 with your flight details. We track your flight and adjust pickup time automatically. Meet & greet at arrivals included.' },
-          { question: 'How much is Rolls-Royce airport pickup in Dubai?', answer: 'Airport transfer starts from AED 1,500 one-way. Round trip packages available at discounted rates. Price includes meet & greet, flight tracking, and 30-minute complimentary waiting.' },
-          { question: 'Which Dubai airports do you cover for Rolls-Royce transfers?', answer: 'We cover all UAE airports: DXB (Dubai International), DWC (Al Maktoum), AUH (Abu Dhabi), and SHJ (Sharjah). All terminals served with meet & greet at arrivals.' }
-        ]}
+        faqs={[]}
       />
       <EntitySchema pageType="service" serviceType="airport-transfer" />
       <Layout>
@@ -368,6 +365,7 @@ export default function AirportTransferPage() {
         </section>
 
         <WhatsAppButton />
+        <SeoContentBlock blockKey="services-airport-transfer" />
       </Layout>
     </>
   )

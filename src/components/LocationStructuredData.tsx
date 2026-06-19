@@ -239,7 +239,6 @@ const LocationStructuredData: React.FC<LocationStructuredDataProps> = ({
       "priceRange": "AED 250 - AED 8,500",
       "address": {
         "@type": "PostalAddress",
-        "streetAddress": getStreetAddress(locationType),
         "addressLocality": locationName,
         "addressRegion": "Dubai",
         "addressCountry": "AE"
@@ -259,19 +258,6 @@ const LocationStructuredData: React.FC<LocationStructuredDataProps> = ({
         "geoRadius": "50000"
       }
     }
-  }
-
-  const getStreetAddress = (type: string) => {
-    const addresses: any = {
-      downtown: "Sheikh Mohammed bin Rashid Blvd",
-      marina: "Marina Walk",
-      palm: "The Palm Jumeirah",
-      businessBay: "Al Khaleej Al Tejari 2",
-      jbr: "The Walk, JBR",
-      difc: "Gate District, DIFC",
-      main: "Sheikh Zayed Road"
-    }
-    return addresses[type] || addresses.main
   }
 
   const getFAQSchema = () => {

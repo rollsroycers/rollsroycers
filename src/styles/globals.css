@@ -20,16 +20,6 @@
     font-family: 'Noto Sans Arabic', sans-serif;
   }
 
-  /* Self-hosted Chinese (Simplified) & Hindi (Devanagari) fonts, scoped to those locales.
-     --font-sc / --font-deva are defined on .app-font-root (the _app font wrapper); the
-     font-family below is set on the same element so the CSS variable resolves. */
-  html[lang="zh"] .app-font-root {
-    font-family: var(--font-sc), var(--font-body), sans-serif;
-  }
-  html[lang="hi"] .app-font-root {
-    font-family: var(--font-deva), var(--font-body), sans-serif;
-  }
-
   /* Custom Scrollbar */
   ::-webkit-scrollbar {
     width: 10px;

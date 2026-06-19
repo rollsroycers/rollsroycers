@@ -38,7 +38,7 @@ const ServiceStructuredData: React.FC<ServiceStructuredDataProps> = ({
         "@type": "ServiceChannel",
         "serviceUrl": `${baseUrl}/services/${serviceType === 'main' ? '' : serviceType}`,
         "servicePhone": "+971558164922",
-        "availableLanguage": ["en", "ar", "fr", "zh", "ru", "hi"]
+        "availableLanguage": ["en", "ar", "ru"]
       }
     }
 
@@ -240,7 +240,6 @@ const ServiceStructuredData: React.FC<ServiceStructuredDataProps> = ({
       "priceRange": "AED 800 - AED 8,500",
       "address": {
         "@type": "PostalAddress",
-        "streetAddress": "Sheikh Zayed Road",
         "addressLocality": "Dubai",
         "addressCountry": "AE"
       },
@@ -262,13 +261,6 @@ const ServiceStructuredData: React.FC<ServiceStructuredDataProps> = ({
         ],
         "opens": "00:00",
         "closes": "23:59"
-      },
-      "aggregateRating": {
-        "@type": "AggregateRating",
-        "ratingValue": "4.9",
-        "reviewCount": "1200",
-        "bestRating": "5",
-        "worstRating": "1"
       }
     }
   }

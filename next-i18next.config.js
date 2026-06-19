@@ -1,7 +1,7 @@
 const config = {
   i18n: {
     defaultLocale: 'en',
-    locales: ['en', 'ar', 'ru', 'fr', 'zh', 'hi'],
+    locales: ['en', 'ar', 'ru'],
     localeDetection: false,
   },
   defaultNS: 'common',

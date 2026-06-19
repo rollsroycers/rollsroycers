@@ -236,6 +236,14 @@ const nextConfig = {
         destination: '/ar/:path*',
         permanent: true,
       },
+      // Site reduced to en/ar/ru — 301 the removed locales (fr/zh/hi) to their
+      // English equivalents so any indexed URLs pass equity instead of 404ing.
+      { source: '/fr', destination: '/', permanent: true, locale: false },
+      { source: '/fr/:path*', destination: '/:path*', permanent: true, locale: false },
+      { source: '/zh', destination: '/', permanent: true, locale: false },
+      { source: '/zh/:path*', destination: '/:path*', permanent: true, locale: false },
+      { source: '/hi', destination: '/', permanent: true, locale: false },
+      { source: '/hi/:path*', destination: '/:path*', permanent: true, locale: false },
       // Cookie policy alternative route (to avoid ad blocker issues)
       {
         source: '/cookies',

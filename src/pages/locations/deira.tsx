@@ -71,7 +71,6 @@ export default function DeiraPage() {
     "description": "Premium Rolls-Royce rental service in Deira, Dubai. Free delivery to Dubai Airport (DXB), Gold Souk, and all Deira hotels within 10-15 minutes.",
     "address": {
       "@type": "PostalAddress",
-      "streetAddress": "Al Rigga Road",
       "addressLocality": "Deira",
       "addressRegion": "Dubai",
       "addressCountry": "AE"

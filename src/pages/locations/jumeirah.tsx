@@ -71,7 +71,6 @@ export default function JumeirahPage() {
     "description": "Premium Rolls-Royce rental service in Jumeirah, Dubai. Free delivery to Burj Al Arab, Madinat Jumeirah, and all Jumeirah beach hotels within 15 minutes.",
     "address": {
       "@type": "PostalAddress",
-      "streetAddress": "Jumeirah Beach Road",
       "addressLocality": "Jumeirah",
       "addressRegion": "Dubai",
       "addressCountry": "AE"

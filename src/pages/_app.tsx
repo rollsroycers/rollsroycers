@@ -4,7 +4,7 @@ import Head from 'next/head'
 import { appWithTranslation } from 'next-i18next'
 import { MotionConfig } from 'framer-motion'
 import { useEffect } from 'react'
-import { Playfair_Display, Montserrat, Noto_Sans_Arabic, Noto_Sans_SC, Noto_Sans_Devanagari } from 'next/font/google'
+import { Playfair_Display, Montserrat, Noto_Sans_Arabic } from 'next/font/google'
 import { optimizeForMobile, setMobileViewportHeight } from '@/utils/mobileOptimizations'
 import { getPerformanceMonitor } from '@/utils/performanceMonitor'
 import { initializePerformanceOptimizations } from '@/utils/performanceOptimizations'
@@ -30,30 +30,12 @@ const notoSansArabic = Noto_Sans_Arabic({
   variable: '--font-arabic',
 })
 
-// Chinese (Simplified) and Hindi (Devanagari) — self-hosted via next/font, preload:false
-// so the large CJK/Devanagari glyph sets download on-demand only on /zh and /hi pages
-// (replaces the previously-broken /fonts/*.woff2 preloads). Applied via globals.css.
-const notoSansSC = Noto_Sans_SC({
-  weight: ['400', '500', '700'],
-  display: 'swap',
-  preload: false,
-  variable: '--font-sc',
-})
-
-const notoSansDevanagari = Noto_Sans_Devanagari({
-  subsets: ['devanagari'],
-  weight: ['400', '500', '700'],
-  display: 'swap',
-  preload: false,
-  variable: '--font-deva',
-})
-
 // i18n config passed explicitly — required for Cloudflare Workers where
 // auto-resolving next-i18next.config.js at runtime is not possible
 const i18nConfig = {
   i18n: {
     defaultLocale: 'en',
-    locales: ['en', 'ar', 'ru', 'fr', 'zh', 'hi'],
+    locales: ['en', 'ar', 'ru'],
     localeDetection: false,
   },
   defaultNS: 'common',
@@ -88,7 +70,7 @@ function MyApp({ Component, pageProps }: AppProps) {
     }
   }, [])
 
-  const fontClasses = `app-font-root ${playfairDisplay.variable} ${montserrat.variable} ${notoSansArabic.variable} ${notoSansSC.variable} ${notoSansDevanagari.variable}`
+  const fontClasses = `app-font-root ${playfairDisplay.variable} ${montserrat.variable} ${notoSansArabic.variable}`
 
   return (
     // reducedMotion="user" makes framer-motion honor prefers-reduced-motion (the CSS-only

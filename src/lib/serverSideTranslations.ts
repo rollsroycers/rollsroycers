@@ -4,7 +4,7 @@ import path from 'path'
 const i18nConfig = {
   i18n: {
     defaultLocale: 'en',
-    locales: ['en', 'ar', 'ru', 'fr', 'zh', 'hi'],
+    locales: ['en', 'ar', 'ru'],
     localeDetection: false,
   },
   defaultNS: 'common',
@@ -40,17 +40,6 @@ const bundled: Record<string, Record<string, any>> = {
     footer: require('../../public/locales/ar/footer.json'),
     pages: require('../../public/locales/ar/pages.json'),
   },
-  fr: {
-    common: require('../../public/locales/fr/common.json'),
-    seo: require('../../public/locales/fr/seo.json'),
-    navigation: require('../../public/locales/fr/navigation.json'),
-    services: require('../../public/locales/fr/services.json'),
-    fleet: require('../../public/locales/fr/fleet.json'),
-    locations: require('../../public/locales/fr/locations.json'),
-    compare: require('../../public/locales/fr/compare.json'),
-    footer: require('../../public/locales/fr/footer.json'),
-    pages: require('../../public/locales/fr/pages.json'),
-  },
   ru: {
     common: require('../../public/locales/ru/common.json'),
     seo: require('../../public/locales/ru/seo.json'),
@@ -61,28 +50,6 @@ const bundled: Record<string, Record<string, any>> = {
     compare: require('../../public/locales/ru/compare.json'),
     footer: require('../../public/locales/ru/footer.json'),
     pages: require('../../public/locales/ru/pages.json'),
-  },
-  zh: {
-    common: require('../../public/locales/zh/common.json'),
-    seo: require('../../public/locales/zh/seo.json'),
-    navigation: require('../../public/locales/zh/navigation.json'),
-    services: require('../../public/locales/zh/services.json'),
-    fleet: require('../../public/locales/zh/fleet.json'),
-    locations: require('../../public/locales/zh/locations.json'),
-    compare: require('../../public/locales/zh/compare.json'),
-    footer: require('../../public/locales/zh/footer.json'),
-    pages: require('../../public/locales/zh/pages.json'),
-  },
-  hi: {
-    common: require('../../public/locales/hi/common.json'),
-    seo: require('../../public/locales/hi/seo.json'),
-    navigation: require('../../public/locales/hi/navigation.json'),
-    services: require('../../public/locales/hi/services.json'),
-    fleet: require('../../public/locales/hi/fleet.json'),
-    locations: require('../../public/locales/hi/locations.json'),
-    compare: require('../../public/locales/hi/compare.json'),
-    footer: require('../../public/locales/hi/footer.json'),
-    pages: require('../../public/locales/hi/pages.json'),
   },
 }
 

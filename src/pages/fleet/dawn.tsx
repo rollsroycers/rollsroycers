@@ -12,6 +12,7 @@ import WhatsAppButton from '@/components/WhatsAppButton'
 import WeatherRecommendations from '@/components/WeatherRecommendations'
 import SEO from '@/components/SEO'
 import GEOOptimizer from '@/components/GEOOptimizer'
+import SeoContentBlock from '@/components/SeoContentBlock'
 import EntitySchema from '@/components/EntitySchema'
 import { createWhatsAppLinkProps } from '@/utils/whatsapp'
 import Script from 'next/script'
@@ -120,11 +121,7 @@ export default function DawnPage() {
           'Seats 4 passengers',
           'Professional chauffeur included'
         ]}
-        faqs={[
-          { question: 'How much does it cost to rent a Rolls-Royce Dawn in Dubai?', answer: 'The Rolls-Royce Dawn convertible rental starts from AED 5,500 per day. Perfect for beach drives along Dubai Marina, JBR, and Palm Jumeirah.' },
-          { question: 'Can the Dawn roof be opened while driving?', answer: 'Yes, the Dawn\'s silent retractable roof operates in just 22 seconds and can be activated at speeds up to 50 km/h, perfect for Dubai\'s beautiful weather.' },
-          { question: 'Is the Dawn good for photoshoots and content creation?', answer: 'The Dawn is the most photogenic Rolls-Royce with its open-top design. Popular for Instagram content, fashion shoots, and music videos at iconic Dubai locations like Palm Jumeirah, Marina, and Burj Al Arab.' }
-        ]}
+        faqs={[]}
       />
       <EntitySchema pageType="fleet" carModel="dawn" />
 
@@ -441,6 +438,7 @@ export default function DawnPage() {
         </section>
 
         <WhatsAppButton />
+        <SeoContentBlock blockKey="fleet-dawn" />
       </Layout>
     </>
   )
