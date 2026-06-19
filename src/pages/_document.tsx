@@ -16,9 +16,12 @@ class MyDocument extends Document {
     // GSC HTML-tag verification — only render when a real code is set (was a hardcoded
     // YOUR_GSC_VERIFICATION_CODE placeholder). If you verify via Cloudflare DNS, leave it unset.
     const gscVerification = process.env.NEXT_PUBLIC_GSC_VERIFICATION
-    // GA4 Measurement ID (G-XXXXXXXXXX) — loads gtag.js directly; reportWebVitals (in _app.tsx)
-    // forwards LCP/INP/CLS to window.gtag, so Core Web Vitals flow to GA4 automatically.
-    const gaId = process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS_ID
+    // GA4 Measurement ID — loads gtag.js directly; reportWebVitals (in _app.tsx) forwards
+    // LCP/INP/CLS to window.gtag, so Core Web Vitals flow to GA4 automatically. Defaults to the
+    // rollsroycers.com GA4 property (G-KSHWVFPK82, created on senatorever@gmail.com); a
+    // Measurement ID is public (it ships in the client), so committing it is safe and means GA
+    // works on deploy with no dashboard step. Override via NEXT_PUBLIC_GOOGLE_ANALYTICS_ID.
+    const gaId = process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS_ID || 'G-KSHWVFPK82'
 
     return (
       <Html lang={locale} dir={dir}>
