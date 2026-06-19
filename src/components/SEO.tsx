@@ -267,47 +267,11 @@ export default function SEO({ pageKey, title: titleProp, description: descriptio
         "inLanguage": currentLang
       });
     } else if (pageKey.startsWith('fleet.')) {
-      const carModel = pageKey.split('.')[1];
-      const carImageMap: Record<string, string[]> = {
-        'phantom': [`${baseUrl}/images/Phantom_Extended.jpg`, `${baseUrl}/images/Rolls-Royce_Phantom_Extended_Series_II.jpg`],
-        'ghost': [`${baseUrl}/images/Rolls-Royce_Ghost_Black_Badge.jpg`, `${baseUrl}/images/Black_Rolls_Royce_Ghost.jpg`],
-        'cullinan': [`${baseUrl}/images/2024_Rolls-Royce_Cullinan.jpg`, `${baseUrl}/images/Rolls-Royce_Cullinan_Majestic_Aurora_.jpg`],
-        'dawn': [`${baseUrl}/images/Rolls-Royce_Dawn_Convertible-2.jpg`, `${baseUrl}/images/Rolls-Royce_Dawn.jpg`],
-        'wraith': [`${baseUrl}/images/Rolls-Royce-front.jpg`, `${baseUrl}/images/Rolls-Royce-black.jpg`],
-        'spectre': [`${baseUrl}/images/2024_Rolls-Royce_Spectre.jpg`],
-        'cullinan-black-badge': [`${baseUrl}/images/2024_Rolls-Royce_Cullinan_Black_Badge.jpg`],
-        'ghost-black-badge': [`${baseUrl}/images/2025_Rolls-Royce_Ghost_Black_Badge_Idealist.jpg`],
-      };
-      const carPriceMap: Record<string, number> = {
-        'phantom': 5800, 'ghost': 3800, 'cullinan': 6500, 'dawn': 5500,
-        'wraith': 5000, 'spectre': 7500, 'cullinan-black-badge': 7000, 'ghost-black-badge': 4500,
-      };
-      schemas.push({
-        "@context": "https://schema.org",
-        "@type": "Product",
-        "@id": `${canonicalUrl}#product`,
-        "name": title,
-        "description": description,
-        "image": carImageMap[carModel] || [`${baseUrl}/images/Rolls-royce-official.jpg`],
-        "brand": {
-          "@type": "Brand",
-          "name": "Rolls-Royce"
-        },
-        "aggregateRating": {
-          "@type": "AggregateRating",
-          "ratingValue": "4.9",
-          "reviewCount": "25",
-          "bestRating": "5"
-        },
-        "offers": {
-          "@type": "Offer",
-          "url": canonicalUrl,
-          "priceCurrency": "AED",
-          "price": carPriceMap[carModel] || 3800,
-          "availability": "https://schema.org/InStock",
-          "priceValidUntil": new Date(new Date().setFullYear(new Date().getFullYear() + 1)).toISOString().split('T')[0]
-        }
-      });
+      // Fleet Product schema is emitted by each fleet page's own inline schema (richer,
+      // per-model, e.g. fleet/phantom.tsx). SEO.tsx no longer pushes a second, generic
+      // Product node — it previously created TWO Product nodes for the same URL with
+      // conflicting reviewCounts (25 here vs the inline per-model count), which makes
+      // Google drop the rich result. EntitySchema still adds a complementary Vehicle node.
     } else if (pageKey.startsWith('services.')) {
       const serviceTypeMap: Record<string, string> = {
         'services.wedding': 'Wedding Car Rental',
