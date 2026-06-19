@@ -231,7 +231,7 @@ const LocationStructuredData: React.FC<LocationStructuredDataProps> = ({
   const getLocalBusinessSchema = () => {
     return {
       "@context": "https://schema.org",
-      "@type": "LuxuryCarRental",
+      "@type": "AutoRental",
       "name": `Rolls-Royce ${locationName}`,
       "description": description,
       "url": `${baseUrl}/locations${locationType === 'main' ? '' : `/${locationType}`}`,
@@ -331,16 +331,15 @@ const LocationStructuredData: React.FC<LocationStructuredDataProps> = ({
     return null
   }
 
+  // BreadcrumbList is emitted site-wide by Breadcrumbs.tsx (removed here to avoid a
+  // duplicate). The old getServiceAreaSchema() used "@type":"ServiceArea", which is NOT
+  // a valid schema.org type (parsers ignore it) — dropped. getLocalBusinessSchema is now
+  // a valid AutoRental.
   const schemas: any[] = [
     getLocationSchema(),
-    getBreadcrumbSchema(),
     getLocalBusinessSchema()
   ]
-  
-  if (locationType === 'main') {
-    schemas.push(getServiceAreaSchema())
-  }
-  
+
   const faqSchema = getFAQSchema()
   if (faqSchema) {
     schemas.push(faqSchema)

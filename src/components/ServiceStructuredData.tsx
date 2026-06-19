@@ -24,22 +24,7 @@ const ServiceStructuredData: React.FC<ServiceStructuredDataProps> = ({
       "@type": "Service",
       "name": serviceName,
       "description": description,
-      "provider": {
-        "@type": "Organization",
-        "name": "Rolls-Royce Dubai",
-        "url": baseUrl,
-        "logo": `${baseUrl}/images/logo.jpg`,
-        "contactPoint": {
-          "@type": "ContactPoint",
-          "telephone": "+971558164922",
-          "contactType": "customer service",
-          "availableLanguage": ["en", "ar", "fr", "zh", "ru", "hi"],
-          "areaServed": {
-            "@type": "Place",
-            "name": "Dubai, UAE"
-          }
-        }
-      },
+      "provider": { "@id": `${baseUrl}/#organization` },
       "areaServed": {
         "@type": "City",
         "name": "Dubai",
@@ -367,12 +352,13 @@ const ServiceStructuredData: React.FC<ServiceStructuredDataProps> = ({
     return null
   }
 
+  // NOTE: BreadcrumbList is emitted site-wide by Breadcrumbs.tsx and LocalBusiness by
+  // SEO.tsx (#localbusiness); getBreadcrumbSchema()/getLocalBusinessSchema() are no longer
+  // emitted here to avoid duplicate BreadcrumbList and a duplicate self-serving LocalBusiness rating.
   const schemas: any[] = [
-    getServiceSchema(),
-    getBreadcrumbSchema(),
-    getLocalBusinessSchema()
+    getServiceSchema()
   ]
-  
+
   const faqSchema = getFAQSchema()
   if (faqSchema) {
     schemas.push(faqSchema)

@@ -49,11 +49,7 @@ const ComparisonStructuredData: React.FC<ComparisonStructuredDataProps> = ({ veh
                 "unitText": "DAY"
               },
               "availability": "https://schema.org/InStock",
-              "seller": {
-                "@type": "Organization",
-                "name": "Rolls-Royce Dubai",
-                "url": "https://rollsroycers.com"
-              }
+              "seller": { "@id": "https://rollsroycers.com/#organization" }
             }
           }
         },
@@ -81,11 +77,7 @@ const ComparisonStructuredData: React.FC<ComparisonStructuredDataProps> = ({ veh
                 "unitText": "DAY"
               },
               "availability": "https://schema.org/InStock",
-              "seller": {
-                "@type": "Organization",
-                "name": "Rolls-Royce Dubai",
-                "url": "https://rollsroycers.com"
-              }
+              "seller": { "@id": "https://rollsroycers.com/#organization" }
             }
           }
         }
@@ -93,6 +85,9 @@ const ComparisonStructuredData: React.FC<ComparisonStructuredDataProps> = ({ veh
     }
   };
 
+  // NOTE: this is the ONLY BreadcrumbList on the compare page — phantom-vs-maybach.tsx does
+  // not use the global Layout/Breadcrumbs, so this must stay. The hardcoded position-3 URL is
+  // correct because this component is used only on /compare/phantom-vs-maybach.
   const breadcrumbSchema = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
@@ -159,7 +154,7 @@ const ComparisonStructuredData: React.FC<ComparisonStructuredDataProps> = ({ veh
         "name": "Can I rent both cars for a comparison experience?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Yes, we offer special packages where you can experience both vehicles. Contact our luxury car specialists at +971 50 123 4567 to arrange a comparison rental package in Dubai."
+          "text": "Yes, we offer special packages where you can experience both vehicles. Contact our luxury car specialists at +971558164922 to arrange a comparison rental package in Dubai."
         }
       }
     ]
@@ -192,14 +187,8 @@ const ComparisonStructuredData: React.FC<ComparisonStructuredDataProps> = ({ veh
           "priceCurrency": vehicle2.currency
         }
       }
-    ],
-    "aggregateRating": {
-      "@type": "AggregateRating",
-      "ratingValue": "4.9",
-      "reviewCount": "287",
-      "bestRating": "5",
-      "worstRating": "1"
-    }
+    ]
+    // aggregateRating removed: self-serving Product rating with no offers/Review backing.
   };
 
   return (

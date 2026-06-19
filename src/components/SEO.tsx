@@ -340,12 +340,8 @@ export default function SEO({ pageKey, title: titleProp, description: descriptio
           "name": "Luxury Rolls-Royce Vehicle with Professional Chauffeur"
         },
         "termsOfService": `${baseUrl}/terms`,
-        "aggregateRating": {
-          "@type": "AggregateRating",
-          "ratingValue": "4.9",
-          "reviewCount": "1200",
-          "bestRating": "5"
-        },
+        // aggregateRating removed: Service is not eligible for review rich results and the
+        // self-serving 4.9/1200 count was unverifiable and inconsistent with other nodes.
         "hasOfferCatalog": {
           "@type": "OfferCatalog",
           "name": title
