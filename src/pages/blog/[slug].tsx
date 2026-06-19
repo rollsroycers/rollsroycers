@@ -4272,7 +4272,7 @@ export const getStaticPaths: GetStaticPaths = async () => {
   const unique = Array.from(new Set([...baseSlugs, ...blogSlugs]))
   
   // Generate paths for all locales
-  const locales = ['en', 'ar', 'fr', 'ru', 'zh', 'hi']
+  const locales = ['en', 'ar', 'ru']
   const paths = []
   
   for (const locale of locales) {

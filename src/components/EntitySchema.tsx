@@ -80,7 +80,7 @@ export default function EntitySchema({
       "Airport Transfer Service",
       "Chauffeur Service"
     ],
-    "knowsLanguage": ["en", "ar", "ru", "fr", "zh", "hi"],
+    "knowsLanguage": ["en", "ar", "ru"],
     "brand": {
       "@type": "Brand",
       "name": "Rolls-Royce",

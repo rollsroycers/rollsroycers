@@ -73,10 +73,7 @@ export default function SEO({ pageKey, title: titleProp, description: descriptio
     const pathWithoutLocale = path
       .replace(/^\/en(?=\/|$)/, '')
       .replace(/^\/ar(?=\/|$)/, '')
-      .replace(/^\/zh(?=\/|$)/, '')
-      .replace(/^\/fr(?=\/|$)/, '')
       .replace(/^\/ru(?=\/|$)/, '')
-      .replace(/^\/hi(?=\/|$)/, '')
     
     return pathWithoutLocale || '/'
   }
@@ -96,7 +93,7 @@ export default function SEO({ pageKey, title: titleProp, description: descriptio
   })()
 
   // Alternate language URLs - English has no prefix, other languages have prefix
-  const languages = ['en', 'ar', 'zh', 'fr', 'ru', 'hi']
+  const languages = ['en', 'ar', 'ru']
   const buildLangUrl = (lang: string) => {
     // Only non-English languages get locale prefix
     const prefix = lang === defaultLocale ? '' : `/${lang}`
@@ -109,10 +106,7 @@ export default function SEO({ pageKey, title: titleProp, description: descriptio
   const localeMap: { [key: string]: string } = {
     'en': 'en_US',
     'ar': 'ar_AE',
-    'zh': 'zh_CN',
-    'fr': 'fr_FR',
-    'ru': 'ru_RU',
-    'hi': 'hi_IN'
+    'ru': 'ru_RU'
   }
   
   // Direction for RTL languages
@@ -161,7 +155,7 @@ export default function SEO({ pageKey, title: titleProp, description: descriptio
           "@type": "ContactPoint",
           "telephone": "+971558164922",
           "contactType": "customer service",
-          "availableLanguage": ["en", "ar", "zh", "fr", "ru", "hi"],
+          "availableLanguage": ["en", "ar", "ru"],
           "areaServed": {
             "@type": "Place",
             "name": "Dubai, UAE"
@@ -250,7 +244,7 @@ export default function SEO({ pageKey, title: titleProp, description: descriptio
           },
           "query-input": "required name=search_term_string"
         },
-        "inLanguage": ["en", "ar", "zh", "fr", "ru", "hi"]
+        "inLanguage": ["en", "ar", "ru"]
       }
     ];
 

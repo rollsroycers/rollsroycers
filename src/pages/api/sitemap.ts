@@ -204,7 +204,7 @@ export default function handler(req: NextApiRequest, res: NextApiResponse) {
     { url: '/compare/rolls-royce-vs-mercedes', changefreq: 'monthly', priority: '0.7', lastmod: currentDate },
   ]
 
-  const languages = ['en', 'ar', 'ru', 'fr', 'zh', 'hi']
+  const languages = ['en', 'ar', 'ru']
 
   const allPages = [...staticPages, ...fleetPages, ...servicePages, ...locationPages, ...blogPages, ...comparisonPages]
 

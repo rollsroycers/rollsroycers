@@ -38,7 +38,7 @@ const ServiceStructuredData: React.FC<ServiceStructuredDataProps> = ({
         "@type": "ServiceChannel",
         "serviceUrl": `${baseUrl}/services/${serviceType === 'main' ? '' : serviceType}`,
         "servicePhone": "+971558164922",
-        "availableLanguage": ["en", "ar", "fr", "zh", "ru", "hi"]
+        "availableLanguage": ["en", "ar", "ru"]
       }
     }
 
