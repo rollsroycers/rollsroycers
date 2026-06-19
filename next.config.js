@@ -44,7 +44,7 @@ const nextConfig = {
     deviceSizes: [640, 750, 828, 1080, 1200, 1920, 2048, 3840],
     imageSizes: [16, 32, 48, 64, 96, 128, 256, 384],
     minimumCacheTTL: 60 * 60 * 24 * 365, // 1 year
-    dangerouslyAllowSVG: true,
+    dangerouslyAllowSVG: false, // no .svg is served via next/image (none exist in public/), so disabling closes the SVG-with-inline-script vector
     contentDispositionType: 'attachment',
     // Lazy load images outside viewport
     unoptimized: true,
