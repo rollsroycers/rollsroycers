@@ -463,13 +463,9 @@ export default function BlogPage() {
                 </motion.article>
               ))}
             </div>
-            
-            {/* Load More */}
-            <div className="text-center mt-12">
-              <button className="btn-secondary">
-                Load More Articles
-              </button>
-            </div>
+            {/* Removed the dead "Load More Articles" button: it had no onClick/pagination
+                and all articles are already rendered above it. Re-add only with real
+                progressive rendering (slice state) if the post count grows. */}
           </div>
         </section>
 
