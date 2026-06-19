@@ -101,6 +101,8 @@ export default function Fleet({ t }: { t: TFunction }) {
                     autoPlay
                     loop
                     muted
+                    playsInline
+                    poster={car.image}
                     className="w-full h-full object-cover"
                   >
                     <source src={car.video} type="video/mp4" />

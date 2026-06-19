@@ -267,47 +267,11 @@ export default function SEO({ pageKey, title: titleProp, description: descriptio
         "inLanguage": currentLang
       });
     } else if (pageKey.startsWith('fleet.')) {
-      const carModel = pageKey.split('.')[1];
-      const carImageMap: Record<string, string[]> = {
-        'phantom': [`${baseUrl}/images/Phantom_Extended.jpg`, `${baseUrl}/images/Rolls-Royce_Phantom_Extended_Series_II.jpg`],
-        'ghost': [`${baseUrl}/images/Rolls-Royce_Ghost_Black_Badge.jpg`, `${baseUrl}/images/Black_Rolls_Royce_Ghost.jpg`],
-        'cullinan': [`${baseUrl}/images/2024_Rolls-Royce_Cullinan.jpg`, `${baseUrl}/images/Rolls-Royce_Cullinan_Majestic_Aurora_.jpg`],
-        'dawn': [`${baseUrl}/images/Rolls-Royce_Dawn_Convertible-2.jpg`, `${baseUrl}/images/Rolls-Royce_Dawn.jpg`],
-        'wraith': [`${baseUrl}/images/Rolls-Royce-front.jpg`, `${baseUrl}/images/Rolls-Royce-black.jpg`],
-        'spectre': [`${baseUrl}/images/2024_Rolls-Royce_Spectre.jpg`],
-        'cullinan-black-badge': [`${baseUrl}/images/2024_Rolls-Royce_Cullinan_Black_Badge.jpg`],
-        'ghost-black-badge': [`${baseUrl}/images/2025_Rolls-Royce_Ghost_Black_Badge_Idealist.jpg`],
-      };
-      const carPriceMap: Record<string, number> = {
-        'phantom': 5800, 'ghost': 3800, 'cullinan': 6500, 'dawn': 5500,
-        'wraith': 5000, 'spectre': 7500, 'cullinan-black-badge': 7000, 'ghost-black-badge': 4500,
-      };
-      schemas.push({
-        "@context": "https://schema.org",
-        "@type": "Product",
-        "@id": `${canonicalUrl}#product`,
-        "name": title,
-        "description": description,
-        "image": carImageMap[carModel] || [`${baseUrl}/images/Rolls-royce-official.jpg`],
-        "brand": {
-          "@type": "Brand",
-          "name": "Rolls-Royce"
-        },
-        "aggregateRating": {
-          "@type": "AggregateRating",
-          "ratingValue": "4.9",
-          "reviewCount": "25",
-          "bestRating": "5"
-        },
-        "offers": {
-          "@type": "Offer",
-          "url": canonicalUrl,
-          "priceCurrency": "AED",
-          "price": carPriceMap[carModel] || 3800,
-          "availability": "https://schema.org/InStock",
-          "priceValidUntil": new Date(new Date().setFullYear(new Date().getFullYear() + 1)).toISOString().split('T')[0]
-        }
-      });
+      // Fleet Product schema is emitted by each fleet page's own inline schema (richer,
+      // per-model, e.g. fleet/phantom.tsx). SEO.tsx no longer pushes a second, generic
+      // Product node — it previously created TWO Product nodes for the same URL with
+      // conflicting reviewCounts (25 here vs the inline per-model count), which makes
+      // Google drop the rich result. EntitySchema still adds a complementary Vehicle node.
     } else if (pageKey.startsWith('services.')) {
       const serviceTypeMap: Record<string, string> = {
         'services.wedding': 'Wedding Car Rental',
@@ -340,12 +304,8 @@ export default function SEO({ pageKey, title: titleProp, description: descriptio
           "name": "Luxury Rolls-Royce Vehicle with Professional Chauffeur"
         },
         "termsOfService": `${baseUrl}/terms`,
-        "aggregateRating": {
-          "@type": "AggregateRating",
-          "ratingValue": "4.9",
-          "reviewCount": "1200",
-          "bestRating": "5"
-        },
+        // aggregateRating removed: Service is not eligible for review rich results and the
+        // self-serving 4.9/1200 count was unverifiable and inconsistent with other nodes.
         "hasOfferCatalog": {
           "@type": "OfferCatalog",
           "name": title
@@ -444,25 +404,12 @@ export default function SEO({ pageKey, title: titleProp, description: descriptio
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemas) }}
       />
       
-      {/* Language-specific fonts preload */}
-      {currentLang === 'zh' && (
-        <link
-          rel="preload"
-          href="/fonts/noto-sans-sc.woff2"
-          as="font"
-          type="font/woff2"
-          crossOrigin="anonymous"
-        />
-      )}
-      {currentLang === 'hi' && (
-        <link
-          rel="preload"
-          href="/fonts/noto-sans-devanagari.woff2"
-          as="font"
-          type="font/woff2"
-          crossOrigin="anonymous"
-        />
-      )}
+      {/* NOTE: removed broken <link rel=preload> for /fonts/noto-sans-sc.woff2 (zh) and
+          /fonts/noto-sans-devanagari.woff2 (hi). public/fonts/ does not exist, so these
+          404'd on every Chinese/Hindi page and wasted a render-critical request. zh/hi
+          currently fall back to system CJK/Devanagari fonts (fine). To self-host these,
+          add them via next/font/google in _app.tsx (as Noto_Sans_Arabic already is) — a
+          separate enhancement given the CJK payload size. */}
     </Head>
   )
 }

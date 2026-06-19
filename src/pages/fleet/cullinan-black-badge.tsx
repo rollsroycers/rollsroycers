@@ -46,8 +46,7 @@ export default function CullinanBlackBadgePage() {
       "offerCount": "3",
       "availability": "https://schema.org/InStock",
       "seller": { "@type": "Organization", "name": "Rolls Roycers Dubai", "telephone": "+971558164922" }
-    },
-    "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "312", "bestRating": "5" }
+    }
   }
 
   const faqSchema = {
@@ -74,9 +73,9 @@ export default function CullinanBlackBadgePage() {
 
   return (
     <>
-      <SEO pageKey="fleet.cullinan" />
+      <SEO pageKey="fleet.cullinan-black-badge" />
       <GEOOptimizer
-        pageKey="fleet.cullinan"
+        pageKey="fleet.cullinan-black-badge"
         title="Rolls-Royce Cullinan Black Badge Rental Dubai 2026"
         description="Rent the darkest Rolls-Royce ever. Cullinan Black Badge from AED 8,500/day. 600 HP, dark chrome, bespoke interior."
         entityType="Vehicle"

@@ -73,9 +73,9 @@ export default function HourlyRentalPage() {
 
   return (
     <>
-      <SEO pageKey="other.booking" />
+      <SEO pageKey="services.hourly" />
       <GEOOptimizer
-        pageKey="other.booking"
+        pageKey="services.hourly"
         title="Hourly Rolls-Royce Rental Dubai 2026 | From AED 800/Hour"
         description="Rent a Rolls-Royce by the hour in Dubai from AED 800/hr. All 6 models with chauffeur. 2-hour minimum."
         entityType="Service"

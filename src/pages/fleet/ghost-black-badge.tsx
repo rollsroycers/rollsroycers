@@ -46,8 +46,7 @@ export default function GhostBlackBadgePage() {
       "offerCount": "3",
       "availability": "https://schema.org/InStock",
       "seller": { "@type": "Organization", "name": "Rolls Roycers Dubai", "telephone": "+971558164922" }
-    },
-    "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "287", "bestRating": "5" }
+    }
   }
 
   const faqSchema = {
@@ -74,9 +73,9 @@ export default function GhostBlackBadgePage() {
 
   return (
     <>
-      <SEO pageKey="fleet.ghost" />
+      <SEO pageKey="fleet.ghost-black-badge" />
       <GEOOptimizer
-        pageKey="fleet.ghost"
+        pageKey="fleet.ghost-black-badge"
         title="Rolls-Royce Ghost Black Badge Rental Dubai 2026"
         description="Rent the Ghost Black Badge in Dubai from AED 5,500/day. 592 HP, illuminated fascia, carbon fibre wheels."
         entityType="Vehicle"

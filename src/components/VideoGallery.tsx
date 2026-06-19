@@ -185,6 +185,7 @@ export default function VideoGallery({ t }: { t: TFunction }) {
                 src={playingVideo.src}
                 controls
                 autoPlay
+                playsInline
                 className="w-full rounded-lg"
               />
               <h3 className="mt-4 text-xl font-semibold text-white">{playingVideo.title}</h3>

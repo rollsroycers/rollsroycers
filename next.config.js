@@ -44,7 +44,7 @@ const nextConfig = {
     deviceSizes: [640, 750, 828, 1080, 1200, 1920, 2048, 3840],
     imageSizes: [16, 32, 48, 64, 96, 128, 256, 384],
     minimumCacheTTL: 60 * 60 * 24 * 365, // 1 year
-    dangerouslyAllowSVG: true,
+    dangerouslyAllowSVG: false, // no .svg is served via next/image (none exist in public/), so disabling closes the SVG-with-inline-script vector
     contentDispositionType: 'attachment',
     // Lazy load images outside viewport
     unoptimized: true,
@@ -84,7 +84,12 @@ const nextConfig = {
           },
           {
             key: 'Content-Security-Policy',
-            value: "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://www.googletagmanager.com https://www.google-analytics.com https://statcounter.com https://*.statcounter.com https://static.cloudflareinsights.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; img-src 'self' data: blob: https: http:; font-src 'self' data: https://fonts.gstatic.com; connect-src 'self' https://www.google-analytics.com https://*.statcounter.com https://api.indexnow.org https://cloudflareinsights.com; frame-src 'self' https://www.youtube.com https://www.google.com; media-src 'self' blob:; object-src 'none'; base-uri 'self'; form-action 'self';"
+            // Hardened: dropped 'unsafe-eval' (not needed in production) and 'http:' from
+            // img-src (no mixed content); added frame-ancestors + upgrade-insecure-requests.
+            // 'unsafe-inline' is retained because _document.tsx ships inline GTM/StatCounter
+            // loader scripts; migrating those to nonces is a separate task. VERIFY in a
+            // Cloudflare preview that GTM/StatCounter/YouTube still load before deploying.
+            value: "default-src 'self'; script-src 'self' 'unsafe-inline' https://*.googletagmanager.com https://www.google-analytics.com https://statcounter.com https://*.statcounter.com https://static.cloudflareinsights.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; img-src 'self' data: blob: https:; font-src 'self' data: https://fonts.gstatic.com; connect-src 'self' https://*.google-analytics.com https://*.analytics.google.com https://*.googletagmanager.com https://*.statcounter.com https://api.indexnow.org https://cloudflareinsights.com; frame-src 'self' https://www.youtube.com https://www.google.com; media-src 'self' blob:; object-src 'none'; base-uri 'self'; form-action 'self'; frame-ancestors 'self'; upgrade-insecure-requests;"
           }
         ]
       },
@@ -237,15 +242,12 @@ const nextConfig = {
         destination: '/cookie-policy',
         permanent: false,
       },
-      
-      
-      // === Fix for terms page (redirect to privacy if terms doesn't exist) ===
-      {
-        source: '/terms',
-        destination: '/privacy#terms',
-        permanent: true,
-      },
-      
+
+      // NOTE: /terms and /testimonials are intentionally NOT redirected — they are real,
+      // fully-translated, internally-linked pages (terms.tsx, testimonials.tsx) and are
+      // listed in sitemap-pages.xml. The old /terms -> /privacy#terms redirect was removed
+      // to end the page-vs-redirect conflict (the #terms anchor never existed on /privacy).
+
       // === Fix Google Search Console 404 errors ===
       {
         source: '/week',

@@ -1,8 +1,10 @@
 import '@/styles/globals.css'
 import type { AppProps } from 'next/app'
+import Head from 'next/head'
 import { appWithTranslation } from 'next-i18next'
+import { MotionConfig } from 'framer-motion'
 import { useEffect } from 'react'
-import { Playfair_Display, Montserrat, Noto_Sans_Arabic } from 'next/font/google'
+import { Playfair_Display, Montserrat, Noto_Sans_Arabic, Noto_Sans_SC, Noto_Sans_Devanagari } from 'next/font/google'
 import { optimizeForMobile, setMobileViewportHeight } from '@/utils/mobileOptimizations'
 import { getPerformanceMonitor } from '@/utils/performanceMonitor'
 import { initializePerformanceOptimizations } from '@/utils/performanceOptimizations'
@@ -26,6 +28,24 @@ const notoSansArabic = Noto_Sans_Arabic({
   weight: ['300', '400', '500', '600', '700'],
   display: 'swap',
   variable: '--font-arabic',
+})
+
+// Chinese (Simplified) and Hindi (Devanagari) — self-hosted via next/font, preload:false
+// so the large CJK/Devanagari glyph sets download on-demand only on /zh and /hi pages
+// (replaces the previously-broken /fonts/*.woff2 preloads). Applied via globals.css.
+const notoSansSC = Noto_Sans_SC({
+  weight: ['400', '500', '700'],
+  display: 'swap',
+  preload: false,
+  variable: '--font-sc',
+})
+
+const notoSansDevanagari = Noto_Sans_Devanagari({
+  subsets: ['devanagari'],
+  weight: ['400', '500', '700'],
+  display: 'swap',
+  preload: false,
+  variable: '--font-deva',
 })
 
 // i18n config passed explicitly — required for Cloudflare Workers where
@@ -58,11 +78,28 @@ function MyApp({ Component, pageProps }: AppProps) {
     } else {
       setTimeout(deferNonCritical, 2000)
     }
+
+    // Register the service worker (public/sw.js was shipped but never registered,
+    // so the PWA / offline support / runtime caching were all dead).
+    if (process.env.NODE_ENV === 'production' && 'serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('/sw.js').catch(() => {})
+      })
+    }
   }, [])
 
-  const fontClasses = `${playfairDisplay.variable} ${montserrat.variable} ${notoSansArabic.variable}`
+  const fontClasses = `app-font-root ${playfairDisplay.variable} ${montserrat.variable} ${notoSansArabic.variable} ${notoSansSC.variable} ${notoSansDevanagari.variable}`
 
-  return <div className={fontClasses}><Component {...pageProps} /></div>
+  return (
+    // reducedMotion="user" makes framer-motion honor prefers-reduced-motion (the CSS-only
+    // override did not stop JS-driven whileInView/animate transforms).
+    <MotionConfig reducedMotion="user">
+      <Head>
+        <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+      </Head>
+      <div className={fontClasses}><Component {...pageProps} /></div>
+    </MotionConfig>
+  )
 }
 
 // Use Next.js built-in web vitals reporting

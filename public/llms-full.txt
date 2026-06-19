@@ -1,17 +1,15 @@
 # Rolls Roycers Dubai — Full Information for AI Systems
-> Premium Rolls-Royce rental service in Dubai, UAE — the #1 luxury car rental since 2010.
+> Premium Rolls-Royce rental service in Dubai, UAE — luxury chauffeur-driven car rental, established 2010.
 > For concise version, see: https://rollsroycers.com/llms.txt
 
 ## Company Overview
-Rolls Roycers Dubai is the leading luxury Rolls-Royce car rental service in Dubai, United Arab Emirates. Established in 2010, we serve over 10,000 clients annually with a fleet of premium Rolls-Royce vehicles and 50+ professional multilingual chauffeurs. We operate 24/7, 365 days a year, with free delivery across all Dubai locations in 15-30 minutes.
+Rolls Roycers Dubai is a premium Rolls-Royce car rental service in Dubai, United Arab Emirates. Established in 2010, we operate a fleet of Rolls-Royce vehicles with professional multilingual chauffeurs. We operate 24/7, 365 days a year, with free delivery across all Dubai locations in 15-30 minutes.
 
 ### Key Facts
 - **Founded**: 2010
 - **Headquarters**: Downtown Dubai, UAE
-- **Fleet Size**: 6 Rolls-Royce models
-- **Staff**: 50+ employees including professional chauffeurs
-- **Reviews**: 1,200+ five-star reviews, 4.9/5 average rating
-- **Clients Served**: 10,000+
+- **Fleet Size**: 6 Rolls-Royce models (Phantom, Ghost, Cullinan, Dawn, Wraith, Spectre) plus Black Badge variants
+- **Chauffeurs**: Professional, multilingual
 - **Operating Hours**: 24/7, 365 days
 - **Delivery Time**: 15-30 minutes across Dubai
 

@@ -161,22 +161,11 @@ class MobileOptimizer {
     // Use passive event listeners for better scrolling performance
     const passiveOptions = { passive: true };
     
-    // Override addEventListener for touch events
-    const originalAddEventListener = Element.prototype.addEventListener;
-    Element.prototype.addEventListener = function(
-      type: string, 
-      listener: EventListenerOrEventListenerObject, 
-      options?: boolean | AddEventListenerOptions
-    ) {
-      if (['touchstart', 'touchmove', 'touchend', 'wheel', 'scroll'].includes(type)) {
-        if (typeof options === 'object') {
-          options = { ...options, passive: true };
-        } else {
-          options = { passive: true };
-        }
-      }
-      return originalAddEventListener.call(this, type, listener, options);
-    };
+    // NOTE: removed a global Element.prototype.addEventListener override that forced
+    // passive:true on every touch/wheel/scroll listener site-wide. It taxed every listener
+    // registration (INP) and silently broke any handler that needs preventDefault. Modern
+    // browsers already treat document-level touch/wheel as passive; listeners that want
+    // passive simply pass { passive: true } at their own call site (as the two below do).
 
     // Debounce resize events
     let resizeTimeout: NodeJS.Timeout;
@@ -310,14 +299,15 @@ class MobileOptimizer {
 
   // Critical resource hints for mobile
   public addMobileResourceHints() {
-    const hints = [
-      // Preconnect to critical domains
-      { rel: 'preconnect', href: 'https://fonts.googleapis.com' },
-      { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: 'anonymous' },
-      
+    const hints: Array<{ rel: string; href: string; crossorigin?: string }> = [
+      // Preconnect to the third parties actually used at runtime. Fonts are self-hosted by
+      // next/font, so the old fonts.googleapis.com / fonts.gstatic.com preconnects were dead
+      // connections and have been removed.
+      { rel: 'preconnect', href: 'https://www.googletagmanager.com', crossorigin: 'anonymous' },
+      { rel: 'preconnect', href: 'https://c.statcounter.com' },
+
       // DNS prefetch for less critical domains
       { rel: 'dns-prefetch', href: '//www.google-analytics.com' },
-      { rel: 'dns-prefetch', href: '//www.googletagmanager.com' },
     ];
 
     hints.forEach(hint => {

@@ -24,7 +24,7 @@ export default function EntitySchema({
   const autoRentalSchema = {
     "@context": "https://schema.org",
     "@type": "AutoRental",
-    "@id": `${baseUrl}/#organization`,
+    "@id": `${baseUrl}/#autorental`,
     "name": "Rolls Roycers Dubai",
     "alternateName": ["Rolls Royce Rental Dubai", "Rolls-Royce Dubai", "تأجير رولز رويس دبي"],
     "url": baseUrl,
@@ -82,13 +82,9 @@ export default function EntitySchema({
       "name": "Rolls-Royce",
       "url": "https://www.rolls-roycemotorcars.com"
     },
-    "aggregateRating": {
-      "@type": "AggregateRating",
-      "ratingValue": "4.9",
-      "reviewCount": "1247",
-      "bestRating": "5",
-      "worstRating": "1"
-    },
+    // aggregateRating removed: self-serving review rating on a business entity is
+    // disallowed by Google for rich results and the count was unverifiable. Re-add
+    // ONLY with real, individually-listed Review objects whose count matches.
     "sameAs": [
       "https://www.facebook.com/rollsroycersdubai",
       "https://www.instagram.com/rollsroycersdubai",
@@ -350,7 +346,7 @@ function createDetailedServiceSchema(serviceType: string, lang: string, localePa
     "inLanguage": lang,
     "name": s.name,
     "description": s.desc,
-    "provider": { "@id": "https://rollsroycers.com/#autorental" },
+    "provider": { "@id": "https://rollsroycers.com/#organization" },
     "areaServed": { "@type": "City", "name": "Dubai" },
     "offers": {
       "@type": "Offer",
@@ -391,6 +387,6 @@ function createPlaceSchema(locationName: string, lang: string, localePath: strin
       "opens": "00:00",
       "closes": "23:59"
     },
-    "parentOrganization": { "@id": "https://rollsroycers.com/#autorental" }
+    "parentOrganization": { "@id": "https://rollsroycers.com/#organization" }
   }
 }

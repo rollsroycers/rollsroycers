@@ -412,12 +412,6 @@ export default function SpectrePage() {
         "name": "Rolls Roycers Dubai",
         "url": "https://rollsroycers.com"
       }
-    },
-    "aggregateRating": {
-      "@type": "AggregateRating",
-      "ratingValue": "4.9",
-      "reviewCount": "187",
-      "bestRating": "5"
     }
   }
 
@@ -446,37 +440,6 @@ export default function SpectrePage() {
     }
   }
 
-  const faqStructuredData = {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    "mainEntity": [
-      {
-        "@type": "Question",
-        "name": "How much does it cost to rent a Rolls-Royce Spectre in Dubai?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Spectre rental starts from AED 7,500 per day, with weekly rates at AED 45,000 and monthly at AED 150,000. All prices include insurance, VAT, and professional chauffeur service."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "What is the range of the Rolls-Royce Spectre?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "The Spectre has a WLTP range of over 520 km on a full charge, more than enough for a full day of luxury touring across Dubai."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Is the Rolls-Royce Spectre fully electric?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Yes, the Spectre is the first fully electric Rolls-Royce. It produces 577 HP and 900 Nm of torque with zero emissions, offering the quietest and smoothest Rolls-Royce experience ever."
-        }
-      }
-    ]
-  }
-
   return (
     <>
       <SEO pageKey="fleet.spectre" />
@@ -499,7 +462,8 @@ export default function SpectrePage() {
         faqs={[
           { question: 'How much does it cost to rent a Rolls-Royce Spectre in Dubai?', answer: 'The Rolls-Royce Spectre rental starts from AED 7,500 per day. Weekly rates from AED 45,000 and monthly from AED 150,000. All prices include professional chauffeur, insurance, and 24/7 support.' },
           { question: 'What is the range of the Spectre?', answer: 'The Spectre has over 520 km range on a full charge, more than enough for a full day of luxury touring across Dubai and beyond.' },
-          { question: 'Is the Spectre good for corporate events?', answer: 'Absolutely. The Spectre makes a powerful statement about innovation and sustainability, making it ideal for tech companies, corporate events, and forward-thinking brands.' }
+          { question: 'Is the Spectre good for corporate events?', answer: 'Absolutely. The Spectre makes a powerful statement about innovation and sustainability, making it ideal for tech companies, corporate events, and forward-thinking brands.' },
+          { question: 'Is the Rolls-Royce Spectre fully electric?', answer: 'Yes, the Spectre is the first fully electric Rolls-Royce. It produces 577 HP and 900 Nm of torque with zero emissions, offering the quietest and smoothest Rolls-Royce experience ever.' }
         ]}
       />
       <EntitySchema pageType="fleet" carModel="spectre" />
@@ -514,11 +478,6 @@ export default function SpectrePage() {
         id="spectre-vehicle-data"
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(vehicleStructuredData) }}
-      />
-      <Script
-        id="spectre-faq-data"
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqStructuredData) }}
       />
 
       <Layout>

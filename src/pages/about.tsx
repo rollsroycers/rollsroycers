@@ -100,11 +100,11 @@ export default function AboutPage() {
       <GEOOptimizer
         pageKey="other.about"
         title="About Rolls Roycers Dubai 2026"
-        description="Leading Rolls-Royce rental in Dubai since 2010. 10,000+ clients, 1,200+ five-star reviews, 24/7 service."
+        description="Premium Rolls-Royce rental in Dubai since 2010. Professional chauffeurs, free delivery, 24/7 service across Dubai."
         entityType="Organization"
         primaryTopic="Rolls Roycers Dubai Company"
-        contentSummary="Rolls Roycers Dubai is the premier Rolls-Royce rental service in Dubai since 2010. Over 10,000 satisfied clients, 1,200+ five-star reviews, fleet of 5 models, 50+ professional multilingual chauffeurs. Available 24/7 across Dubai."
-        facts={['Established in 2010', '10,000+ satisfied clients', '1,200+ five-star reviews', '50+ professional chauffeurs', '5 Rolls-Royce models', '24/7 service across Dubai']}
+        contentSummary="Rolls Roycers Dubai is a premium Rolls-Royce rental service in Dubai, established 2010. Fleet of 6 Rolls-Royce models (Phantom, Ghost, Cullinan, Dawn, Wraith, Spectre) plus Black Badge variants, professional multilingual chauffeurs, free delivery, available 24/7 across Dubai."
+        facts={['Established in 2010', '6 Rolls-Royce models + Black Badge variants', 'Professional multilingual chauffeurs', 'Free delivery across Dubai', '24/7 service']}
       />
 
       <Layout>

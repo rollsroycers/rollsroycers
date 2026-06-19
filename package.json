@@ -5,12 +5,14 @@
   "scripts": {
     "dev": "next dev",
     "build": "NODE_OPTIONS=--max-old-space-size=4096 next build",
+    "postbuild": "node scripts/generate-sitemap.mjs",
+    "sitemap": "node scripts/generate-sitemap.mjs",
     "start": "next start",
     "lint": "next lint",
     "analyze": "ANALYZE=true next build",
-    "preview": "opennextjs-cloudflare build && opennextjs-cloudflare preview",
-    "deploy": "opennextjs-cloudflare build && opennextjs-cloudflare deploy",
-    "cf:build": "opennextjs-cloudflare build"
+    "preview": "npm run sitemap && opennextjs-cloudflare build && opennextjs-cloudflare preview",
+    "deploy": "npm run sitemap && opennextjs-cloudflare build && opennextjs-cloudflare deploy",
+    "cf:build": "npm run sitemap && opennextjs-cloudflare build"
   },
   "dependencies": {
     "framer-motion": "^12.17.0",

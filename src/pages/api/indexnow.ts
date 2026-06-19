@@ -1,6 +1,9 @@
 import type { NextApiRequest, NextApiResponse } from 'next'
 
-const INDEXNOW_KEY = process.env.INDEXNOW_KEY || 'rollsroycers2026indexnow'
+// SECURITY: no hardcoded fallback. The key MUST come from the INDEXNOW_KEY env (wrangler secret).
+// The old default 'rollsroycers2026indexnow' was public (served at /rollsroycers2026indexnow.txt),
+// so anyone could authenticate. Rotate the key file to match the new secret.
+const INDEXNOW_KEY = process.env.INDEXNOW_KEY
 const HOST = 'rollsroycers.com'
 
 const ALL_URLS = [
@@ -56,6 +59,11 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
     return res.status(405).json({ error: 'Method not allowed. Use POST.' })
   }
 
+  // Fail closed if the key isn't configured (no public default anymore)
+  if (!INDEXNOW_KEY) {
+    return res.status(500).json({ error: 'IndexNow key not configured. Set the INDEXNOW_KEY secret.' })
+  }
+
   const authKey = req.headers['x-api-key'] || req.query.key
   if (authKey !== INDEXNOW_KEY) {
     return res.status(401).json({ error: 'Unauthorized' })
@@ -70,9 +78,15 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
     }
   }
 
-  // Specific URLs from request body (optional)
+  // Specific URLs from request body (optional) — validate to same-origin https URLs only,
+  // so a caller cannot attach arbitrary/spam URLs to our domain key. Cap the count.
   if (req.body?.urls && Array.isArray(req.body.urls)) {
-    urlsToSubmit.push(...req.body.urls)
+    const prefix = `https://${HOST}/`
+    const safe = (req.body.urls as unknown[])
+      .filter((u): u is string => typeof u === 'string')
+      .filter((u) => u === `https://${HOST}` || u.startsWith(prefix))
+      .slice(0, 1000)
+    urlsToSubmit.push(...safe)
   }
 
   const results: Record<string, any> = {}

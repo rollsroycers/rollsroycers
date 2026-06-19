@@ -10,7 +10,6 @@ import WhatsAppButton from '@/components/WhatsAppButton'
 import SEO from '@/components/SEO'
 import GEOOptimizer from '@/components/GEOOptimizer'
 import EntitySchema from '@/components/EntitySchema'
-import Script from 'next/script'
 import { generateWhatsAppURL, WHATSAPP_NUMBER } from '@/utils/whatsapp'
 
 export default function CorporateServicesPage() {
@@ -98,37 +97,6 @@ export default function CorporateServicesPage() {
     }
   ]
 
-  const faqStructuredData = {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    "mainEntity": [
-      {
-        "@type": "Question",
-        "name": "Do you offer corporate monthly Rolls-Royce packages in Dubai?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Yes, we offer corporate monthly packages with dedicated vehicles and chauffeurs starting from AED 25,000/month. Includes priority booking, corporate billing, and customized reporting."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Which Rolls-Royce is best for corporate use in Dubai?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "The Ghost Series II is our most popular corporate vehicle — it combines understated elegance with supreme comfort and Planar suspension. The Phantom is ideal for VIP client entertainment and board-level transport."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Can I book a Rolls-Royce for a corporate event or conference in Dubai?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Yes, we provide full fleet coordination for corporate events, conferences, and roadshows. Multiple vehicles with multilingual chauffeurs, branded welcome signage, and coordinated logistics at DIFC, Business Bay, and all Dubai venues."
-        }
-      }
-    ]
-  }
-
   return (
     <>
       <SEO pageKey="services.corporate" />
@@ -142,11 +110,11 @@ export default function CorporateServicesPage() {
         facts={['Corporate packages from AED 1,200/day', 'Monthly executive packages available', 'Multilingual professional chauffeurs', 'DIFC and Business Bay specialist', 'Corporate account billing']}
         faqs={[
           { question: 'Do you offer corporate monthly packages?', answer: 'Yes, we offer corporate monthly packages with dedicated vehicles and chauffeurs. Packages include priority booking, corporate billing, and customized reporting.' },
-          { question: 'Which Rolls-Royce is best for corporate use?', answer: 'The Ghost Series II is our most popular corporate vehicle — it combines understated elegance with supreme comfort. The Phantom is ideal for VIP client entertainment.' }
+          { question: 'Which Rolls-Royce is best for corporate use?', answer: 'The Ghost Series II is our most popular corporate vehicle — it combines understated elegance with supreme comfort. The Phantom is ideal for VIP client entertainment.' },
+          { question: 'Can I book a Rolls-Royce for a corporate event or conference in Dubai?', answer: 'Yes, we provide full fleet coordination for corporate events, conferences, and roadshows. Multiple vehicles with multilingual chauffeurs, branded welcome signage, and coordinated logistics at DIFC, Business Bay, and all Dubai venues.' }
         ]}
       />
       <EntitySchema pageType="service" serviceType="corporate" />
-      <Script id="corporate-faq-data" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqStructuredData) }} />
       <Layout>
         {/* Hero Section */}
         <section className="relative h-screen flex items-center justify-center overflow-hidden">

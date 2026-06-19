@@ -108,13 +108,6 @@ export default function WraithPage() {
         "name": "Rolls Roycers Dubai",
         "telephone": "+971558164922"
       }
-    },
-    "aggregateRating": {
-      "@type": "AggregateRating",
-      "ratingValue": "4.9",
-      "reviewCount": "1247",
-      "bestRating": "5",
-      "worstRating": "1"
     }
   }
 
@@ -134,37 +127,6 @@ export default function WraithPage() {
     "fuelType": "Petrol",
     "vehicleTransmission": "8-Speed Automatic",
     "speed": { "@type": "QuantitativeValue", "value": "250", "unitCode": "KMH" }
-  }
-
-  const faqStructuredData = {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    "mainEntity": [
-      {
-        "@type": "Question",
-        "name": "How much does it cost to rent a Rolls-Royce Wraith in Dubai?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Wraith rental starts from AED 5,000 per day. Weekly rates at AED 30,000 and monthly at AED 100,000. All prices include insurance, VAT, and professional chauffeur service."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Is the Wraith the fastest Rolls-Royce?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Yes, with 624 HP from its 6.6L Twin-Turbo V12, the Wraith is the most powerful and dynamic Rolls-Royce. It reaches 0-100 km/h in 4.6 seconds, making it a true grand tourer."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Is the Wraith good for photoshoots in Dubai?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "The Wraith's dramatic fastback coupe silhouette, Starlight headliner with 1,340 fiber optic lights, and coach doors make it one of the most photogenic luxury cars in Dubai. Hourly photoshoot packages available."
-        }
-      }
-    ]
   }
 
   return (
@@ -187,7 +149,8 @@ export default function WraithPage() {
         ]}
         faqs={[
           { question: 'How much does it cost to rent a Rolls-Royce Wraith in Dubai?', answer: 'The Rolls-Royce Wraith rental starts from AED 5,000 per day. It is the fastest Rolls-Royce with 624 HP, ideal for those who want performance with ultimate luxury.' },
-          { question: 'Is the Wraith good for photoshoots?', answer: 'Yes, the Wraith\'s dramatic coupe silhouette, Starlight headliner, and coach doors make it one of the most photogenic luxury cars in Dubai. Hourly photoshoot packages available.' }
+          { question: 'Is the Wraith good for photoshoots?', answer: 'Yes, the Wraith\'s dramatic coupe silhouette, Starlight headliner, and coach doors make it one of the most photogenic luxury cars in Dubai. Hourly photoshoot packages available.' },
+          { question: 'Is the Wraith the fastest Rolls-Royce?', answer: 'Yes, with 624 HP from its 6.6L Twin-Turbo V12, the Wraith is the most powerful and dynamic Rolls-Royce. It reaches 0-100 km/h in 4.6 seconds, making it a true grand tourer.' }
         ]}
       />
       <EntitySchema pageType="fleet" carModel="wraith" />
@@ -195,7 +158,6 @@ export default function WraithPage() {
       {/* Structured Data Scripts */}
       <Script id="wraith-structured-data" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }} />
       <Script id="wraith-vehicle-data" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(vehicleStructuredData) }} />
-      <Script id="wraith-faq-data" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqStructuredData) }} />
 
       <Layout>
         {/* Hero Section */}

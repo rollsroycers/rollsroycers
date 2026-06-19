@@ -107,11 +107,7 @@ User-agent: DataForSeoBot
 Disallow: /
 
 # === SITEMAPS ===
+# sitemap-pages.xml is the single source of truth (clean canonical URLs + hreflang).
+# The 6 legacy per-language sitemaps were removed (they listed non-canonical /en/ URLs).
 Sitemap: https://rollsroycers.com/sitemap.xml
 Sitemap: https://rollsroycers.com/sitemap-pages.xml
-Sitemap: https://rollsroycers.com/sitemap-en.xml
-Sitemap: https://rollsroycers.com/sitemap-ar.xml
-Sitemap: https://rollsroycers.com/sitemap-zh.xml
-Sitemap: https://rollsroycers.com/sitemap-fr.xml
-Sitemap: https://rollsroycers.com/sitemap-ru.xml
-Sitemap: https://rollsroycers.com/sitemap-hi.xml

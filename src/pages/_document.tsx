@@ -11,13 +11,24 @@ class MyDocument extends Document {
   render() {
     const { locale } = this.props as any
     const dir = locale === 'ar' ? 'rtl' : 'ltr'
-    
+    // GTM container id from env — render GTM only when configured (avoids the broken GTM-XXXXXXX placeholder)
+    const gtmId = process.env.NEXT_PUBLIC_GOOGLE_TAG_MANAGER_ID
+    // GSC HTML-tag verification — only render when a real code is set (was a hardcoded
+    // YOUR_GSC_VERIFICATION_CODE placeholder). If you verify via Cloudflare DNS, leave it unset.
+    const gscVerification = process.env.NEXT_PUBLIC_GSC_VERIFICATION
+    // GA4 Measurement ID — loads gtag.js directly; reportWebVitals (in _app.tsx) forwards
+    // LCP/INP/CLS to window.gtag, so Core Web Vitals flow to GA4 automatically. Defaults to the
+    // rollsroycers.com GA4 property (G-KSHWVFPK82, created on senatorever@gmail.com); a
+    // Measurement ID is public (it ships in the client), so committing it is safe and means GA
+    // works on deploy with no dashboard step. Override via NEXT_PUBLIC_GOOGLE_ANALYTICS_ID.
+    const gaId = process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS_ID || 'G-KSHWVFPK82'
+
     return (
       <Html lang={locale} dir={dir}>
       <Head>
-        {/* Google Search Console Verification - Replace YOUR_GSC_VERIFICATION_CODE with your actual code */}
-        <meta name="google-site-verification" content="YOUR_GSC_VERIFICATION_CODE" />
-        
+        {/* Google Search Console Verification (set NEXT_PUBLIC_GSC_VERIFICATION, or verify via DNS) */}
+        {gscVerification && <meta name="google-site-verification" content={gscVerification} />}
+
         {/* DNS prefetch for third-party domains */}
         <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
         <link rel="dns-prefetch" href="https://www.google-analytics.com" />
@@ -65,7 +76,7 @@ class MyDocument extends Document {
         <meta name="theme-color" content="#1a1a1a" />
         
         {/* Apple touch icon */}
-        <link rel="apple-touch-icon" href="/icon-192x192.png" />
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
         
         {/* Favicon */}
         <link rel="icon" href="/favicon.ico" />
@@ -86,33 +97,53 @@ class MyDocument extends Document {
         </noscript>
       </Head>
       <body>
-        {/* Google Tag Manager (noscript) */}
-        <noscript>
-          <iframe
-            src="https://www.googletagmanager.com/ns.html?id=GTM-XXXXXXX"
-            height="0"
-            width="0"
-            style={{ display: 'none', visibility: 'hidden' }}
-          />
-        </noscript>
+        {/* Google Tag Manager (noscript) — only when a real container id is configured */}
+        {gtmId && (
+          <noscript>
+            <iframe
+              src={`https://www.googletagmanager.com/ns.html?id=${gtmId}`}
+              height="0"
+              width="0"
+              style={{ display: 'none', visibility: 'hidden' }}
+            />
+          </noscript>
+        )}
         <Main />
         <NextScript />
-        {/* GTM - deferred to after page content loads */}
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `
-              window.addEventListener('load', function() {
-                setTimeout(function() {
-                  (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-                  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-                  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-                  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-                  })(window,document,'script','dataLayer','GTM-XXXXXXX');
-                }, 1500);
-              });
-            `,
-          }}
-        />
+        {/* GTM - deferred to after page content loads; only when a real container id is configured */}
+        {gtmId && (
+          <script
+            dangerouslySetInnerHTML={{
+              __html: `
+                window.addEventListener('load', function() {
+                  setTimeout(function() {
+                    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+                    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+                    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+                    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+                    })(window,document,'script','dataLayer','${gtmId}');
+                  }, 1500);
+                });
+              `,
+            }}
+          />
+        )}
+        {/* Google Analytics 4 (gtag.js) — deferred; only when a real Measurement ID is configured */}
+        {gaId && (
+          <>
+            <script async src={`https://www.googletagmanager.com/gtag/js?id=${gaId}`} />
+            <script
+              dangerouslySetInnerHTML={{
+                __html: `
+                  window.dataLayer = window.dataLayer || [];
+                  function gtag(){dataLayer.push(arguments);}
+                  gtag('js', new Date());
+                  gtag('config', '${gaId}', { anonymize_ip: true });
+                `,
+              }}
+            />
+          </>
+        )}
         {/* StatCounter - deferred to idle */}
         <script
           dangerouslySetInnerHTML={{
