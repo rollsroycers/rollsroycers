@@ -10,16 +10,18 @@ interface FaqItem { question: string; answer: string }
 interface RelatedLink { label: string; href: string }
 interface SeoBlock {
   heading?: string
+  quickAnswer?: string
+  keyFacts?: string[]
   body?: string[]
   faqs?: FaqItem[]
   related?: RelatedLink[]
 }
 
 // Section labels live here (3 locales) so the JSON content stays lean.
-const LABELS: Record<string, { faq: string; related: string }> = {
-  en: { faq: 'Frequently Asked Questions', related: 'Explore More' },
-  ar: { faq: 'الأسئلة الشائعة', related: 'استكشف المزيد' },
-  ru: { faq: 'Часто задаваемые вопросы', related: 'Смотрите также' },
+const LABELS: Record<string, { faq: string; related: string; keyFacts: string }> = {
+  en: { faq: 'Frequently Asked Questions', related: 'Explore More', keyFacts: 'Key Facts' },
+  ar: { faq: 'الأسئلة الشائعة', related: 'استكشف المزيد', keyFacts: 'حقائق سريعة' },
+  ru: { faq: 'Часто задаваемые вопросы', related: 'Смотрите также', keyFacts: 'Ключевые факты' },
 }
 
 /**
@@ -39,6 +41,8 @@ export default function SeoContentBlock({ blockKey }: SeoContentBlockProps) {
   const body = Array.isArray(block.body) ? block.body : []
   const faqs = Array.isArray(block.faqs) ? block.faqs : []
   const related = Array.isArray(block.related) ? block.related : []
+  const keyFacts = Array.isArray(block.keyFacts) ? block.keyFacts : []
+  const quickAnswer = typeof block.quickAnswer === 'string' ? block.quickAnswer : ''
 
   const faqSchema = faqs.length
     ? {
@@ -56,6 +60,28 @@ export default function SeoContentBlock({ blockKey }: SeoContentBlockProps) {
     <section className="py-16 bg-gradient-to-b from-rolls-black to-rolls-navy">
       <div className="container max-w-4xl">
         <h2 className="heading-2 text-white mb-6">{block.heading}</h2>
+
+        {/* Answer-first lead (AEO): a direct, quotable answer for AI engines */}
+        {quickAnswer && (
+          <p className="faq-answer text-lg text-white/90 leading-relaxed mb-6 ltr:border-l-4 rtl:border-r-4 border-rolls-gold ltr:pl-4 rtl:pr-4">
+            {quickAnswer}
+          </p>
+        )}
+
+        {keyFacts.length > 0 && (
+          <div className="mb-8 bg-white/5 border border-white/10 rounded-lg p-5">
+            <h3 className="text-rolls-gold font-semibold mb-3">{labels.keyFacts}</h3>
+            <ul className="space-y-2">
+              {keyFacts.map((f, i) => (
+                <li key={i} className="text-gray-300 flex gap-2">
+                  <span className="text-rolls-gold" aria-hidden="true">✓</span>
+                  <span>{f}</span>
+                </li>
+              ))}
+            </ul>
+          </div>
+        )}
+
         {body.map((p, i) => (
           <p key={i} className="text-gray-300 leading-relaxed mb-4">{p}</p>
         ))}

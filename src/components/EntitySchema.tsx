@@ -81,11 +81,8 @@ export default function EntitySchema({
       "Chauffeur Service"
     ],
     "knowsLanguage": ["en", "ar", "ru"],
-    "brand": {
-      "@type": "Brand",
-      "name": "Rolls-Royce",
-      "url": "https://www.rolls-roycemotorcars.com"
-    },
+    "brand": { "@id": "https://rollsroycers.com/#rolls-royce-brand" },
+    "provider": { "@id": "https://rollsroycers.com/#organization" },
     // aggregateRating removed: self-serving review rating on a business entity is
     // disallowed by Google for rich results and the count was unverifiable. Re-add
     // ONLY with real, individually-listed Review objects whose count matches.

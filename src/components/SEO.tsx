@@ -167,6 +167,29 @@ export default function SEO({ pageKey, title: titleProp, description: descriptio
           "https://twitter.com/rollsroycersdxb",
           "https://www.linkedin.com/company/rollsroycersdubai",
           "https://www.youtube.com/rollsroycersdubai"
+        ],
+        "brand": { "@id": `${baseUrl}/#rolls-royce-brand` },
+        "slogan": "Rent a Rolls-Royce in Dubai — chauffeur or self-drive, free delivery, 24/7.",
+        "knowsAbout": [
+          "Rolls-Royce", "Luxury Car Rental", "Chauffeur Service", "Wedding Car Rental",
+          "Airport Transfer Service", "VIP Transportation", "Long-term Car Rental", "Dubai Tourism"
+        ],
+        "areaServed": [
+          { "@type": "City", "name": "Dubai" },
+          { "@type": "City", "name": "Abu Dhabi" },
+          { "@type": "Country", "name": "United Arab Emirates" }
+        ]
+      },
+      // Rolls-Royce Brand entity — links the site to the canonical Rolls-Royce brand
+      // in the knowledge graph (Wikipedia) so AI/search resolve the entity correctly.
+      {
+        "@context": "https://schema.org",
+        "@type": "Brand",
+        "@id": `${baseUrl}/#rolls-royce-brand`,
+        "name": "Rolls-Royce",
+        "sameAs": [
+          "https://en.wikipedia.org/wiki/Rolls-Royce_Motor_Cars",
+          "https://www.rolls-roycemotorcars.com"
         ]
       },
       // LocalBusiness Schema
@@ -175,6 +198,8 @@ export default function SEO({ pageKey, title: titleProp, description: descriptio
         "@type": "LocalBusiness",
         "@id": `${baseUrl}/#localbusiness`,
         "name": "Rolls-Royce Dubai Rental",
+        "parentOrganization": { "@id": `${baseUrl}/#organization` },
+        "brand": { "@id": `${baseUrl}/#rolls-royce-brand` },
         "image": `${baseUrl}/images/Rolls-royce-official.jpg`,
         "priceRange": "AED 3,800 - AED 10,000 per day",
         "address": {
