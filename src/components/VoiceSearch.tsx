@@ -165,13 +165,15 @@ export default function VoiceSearch() {
         whileHover={{ scale: 1.1 }}
         whileTap={{ scale: 0.9 }}
         onClick={toggleListening}
+        aria-label={isListening ? 'Stop voice search' : 'Start voice search'}
+        aria-pressed={isListening}
         className={`fixed bottom-48 right-4 z-40 w-14 h-14 rounded-full shadow-lg flex items-center justify-center transition-all ${
-          isListening 
-            ? 'bg-red-500 animate-pulse' 
+          isListening
+            ? 'bg-red-500 animate-pulse'
             : 'bg-gradient-to-r from-rolls-gold to-yellow-600'
         }`}
       >
-        <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 11a7 7 0 01-7 7m0 0a7 7 0 01-7-7m7 7v4m0 0H8m4 0h4m-4-8a3 3 0 01-3-3V5a3 3 0 116 0v6a3 3 0 01-3 3z" />
         </svg>
       </motion.button>

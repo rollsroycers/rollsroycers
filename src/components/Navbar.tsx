@@ -259,8 +259,8 @@ export default function Navbar() {
           <div className="hidden lg:flex items-center space-x-4">
             {/* Language Selector */}
             <div className="relative group">
-              <button className="flex items-center space-x-2 text-white hover:text-rolls-gold transition-colors">
-                <span className="text-xl">{languages.find(lang => lang.code === i18n.language)?.flag}</span>
+              <button aria-label="Select language" aria-haspopup="true" className="flex items-center space-x-2 text-white hover:text-rolls-gold transition-colors">
+                <span className="text-xl" aria-hidden="true">{languages.find(lang => lang.code === i18n.language)?.flag}</span>
                 <span className="text-sm">{languages.find(lang => lang.code === i18n.language)?.code.toUpperCase()}</span>
               </button>
               
