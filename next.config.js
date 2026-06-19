@@ -84,7 +84,12 @@ const nextConfig = {
           },
           {
             key: 'Content-Security-Policy',
-            value: "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://www.googletagmanager.com https://www.google-analytics.com https://statcounter.com https://*.statcounter.com https://static.cloudflareinsights.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; img-src 'self' data: blob: https: http:; font-src 'self' data: https://fonts.gstatic.com; connect-src 'self' https://www.google-analytics.com https://*.statcounter.com https://api.indexnow.org https://cloudflareinsights.com; frame-src 'self' https://www.youtube.com https://www.google.com; media-src 'self' blob:; object-src 'none'; base-uri 'self'; form-action 'self';"
+            // Hardened: dropped 'unsafe-eval' (not needed in production) and 'http:' from
+            // img-src (no mixed content); added frame-ancestors + upgrade-insecure-requests.
+            // 'unsafe-inline' is retained because _document.tsx ships inline GTM/StatCounter
+            // loader scripts; migrating those to nonces is a separate task. VERIFY in a
+            // Cloudflare preview that GTM/StatCounter/YouTube still load before deploying.
+            value: "default-src 'self'; script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://www.google-analytics.com https://statcounter.com https://*.statcounter.com https://static.cloudflareinsights.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; img-src 'self' data: blob: https:; font-src 'self' data: https://fonts.gstatic.com; connect-src 'self' https://www.google-analytics.com https://*.statcounter.com https://api.indexnow.org https://cloudflareinsights.com; frame-src 'self' https://www.youtube.com https://www.google.com; media-src 'self' blob:; object-src 'none'; base-uri 'self'; form-action 'self'; frame-ancestors 'self'; upgrade-insecure-requests;"
           }
         ]
       },
