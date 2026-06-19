@@ -404,25 +404,12 @@ export default function SEO({ pageKey, title: titleProp, description: descriptio
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemas) }}
       />
       
-      {/* Language-specific fonts preload */}
-      {currentLang === 'zh' && (
-        <link
-          rel="preload"
-          href="/fonts/noto-sans-sc.woff2"
-          as="font"
-          type="font/woff2"
-          crossOrigin="anonymous"
-        />
-      )}
-      {currentLang === 'hi' && (
-        <link
-          rel="preload"
-          href="/fonts/noto-sans-devanagari.woff2"
-          as="font"
-          type="font/woff2"
-          crossOrigin="anonymous"
-        />
-      )}
+      {/* NOTE: removed broken <link rel=preload> for /fonts/noto-sans-sc.woff2 (zh) and
+          /fonts/noto-sans-devanagari.woff2 (hi). public/fonts/ does not exist, so these
+          404'd on every Chinese/Hindi page and wasted a render-critical request. zh/hi
+          currently fall back to system CJK/Devanagari fonts (fine). To self-host these,
+          add them via next/font/google in _app.tsx (as Noto_Sans_Arabic already is) — a
+          separate enhancement given the CJK payload size. */}
     </Head>
   )
 }
