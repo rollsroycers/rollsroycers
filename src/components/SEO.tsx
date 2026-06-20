@@ -361,7 +361,7 @@ export default function SEO({ pageKey, title: titleProp, description: descriptio
       {/* Alternate Language URLs with proper hreflang */}
       {alternateUrls.map(({ lang, url }) => (
         <link
-          key={lang}
+          key={`hreflang-${lang}`}
           rel="alternate"
           hrefLang={lang}
           href={url}
@@ -377,8 +377,8 @@ export default function SEO({ pageKey, title: titleProp, description: descriptio
       <meta property="og:description" content={description} />
       <meta property="og:image" content={`${baseUrl}/images/Rolls-royce-official.jpg`} />
       <meta property="og:locale" content={localeMap[currentLang]} />
-      {alternateUrls.map(({ lang }) => (
-        <meta key={lang} property="og:locale:alternate" content={localeMap[lang]} />
+      {alternateUrls.filter(({ lang }) => lang !== currentLang).map(({ lang }) => (
+        <meta key={`og-locale-alt-${lang}`} property="og:locale:alternate" content={localeMap[lang]} />
       ))}
       <meta property="og:site_name" content="Rolls-Royce Dubai" />
       {pageKey.startsWith('fleet.') && (
