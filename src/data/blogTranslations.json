@@ -126,7 +126,8 @@
           "buttonText": "احجز رولز رويس الآن",
           "buttonLink": "/booking"
         }
-      ]
+      ],
+      "author": "Ahmed Salem"
     },
     "ru": {
       "title": "Аренда Rolls-Royce в Дубае 2025: полный гид",
@@ -254,7 +255,8 @@
           "buttonText": "Забронировать Rolls-Royce",
           "buttonLink": "/booking"
         }
-      ]
+      ],
+      "author": "Ahmed Salem"
     }
   },
   "top-scenic-drives-dubai": {
@@ -380,7 +382,8 @@
           "buttonText": "احجز جولتك السياحية الآن",
           "buttonLink": "/booking"
         }
-      ]
+      ],
+      "author": "Sarah Mitchell"
     },
     "ru": {
       "title": "Топ-10 живописных маршрутов Дубая на Rolls-Royce",
@@ -504,7 +507,8 @@
           "buttonText": "Забронировать живописную поездку",
           "buttonLink": "/booking"
         }
-      ]
+      ],
+      "author": "Sarah Mitchell"
     }
   },
   "rolls-royce-wedding-car-dubai": {
@@ -640,7 +644,8 @@
           "buttonText": "خطّط لمواصلات زفافك الآن",
           "buttonLink": "/services/wedding"
         }
-      ]
+      ],
+      "author": "Fatima Al Rashid"
     },
     "ru": {
       "title": "Rolls-Royce на свадьбу в Дубае: аренда лучшего авто для невесты",
@@ -774,7 +779,8 @@
           "buttonText": "Спланировать свадебный трансфер",
           "buttonLink": "/services/wedding"
         }
-      ]
+      ],
+      "author": "Fatima Al Rashid"
     }
   },
   "business-travel-rolls-royce": {
@@ -876,7 +882,8 @@
           "buttonText": "اكتشف الحلول المؤسسية",
           "buttonLink": "/services/corporate"
         }
-      ]
+      ],
+      "author": "James Thompson"
     },
     "ru": {
       "title": "Rolls-Royce для бизнеса в Дубае: правильное впечатление",
@@ -976,7 +983,8 @@
           "buttonText": "Узнать о корпоративных решениях",
           "buttonLink": "/services/corporate"
         }
-      ]
+      ],
+      "author": "James Thompson"
     }
   },
   "luxury-shopping-dubai-rolls-royce": {
@@ -1062,7 +1070,8 @@
           "buttonText": "احجز رولز رويس الآن",
           "buttonLink": "/booking"
         }
-      ]
+      ],
+      "author": "Layla Al-Mansouri"
     },
     "ru": {
       "title": "Шопинг в Дубае на Rolls-Royce: гид по лучшим моллам",
@@ -1146,7 +1155,8 @@
           "buttonText": "Забронировать Rolls-Royce",
           "buttonLink": "/booking"
         }
-      ]
+      ],
+      "author": "Layla Al-Mansouri"
     }
   },
   "rolls-royce-dawn-convertible-dubai": {
@@ -1232,7 +1242,8 @@
           "buttonText": "استأجر رولز رويس داون",
           "buttonLink": "/fleet/dawn"
         }
-      ]
+      ],
+      "author": "Omar Al-Rashid"
     },
     "ru": {
       "title": "Rolls-Royce Dawn: кабриолет для погоды Дубая",
@@ -1316,7 +1327,8 @@
           "buttonText": "Арендовать Rolls-Royce Dawn",
           "buttonLink": "/fleet/dawn"
         }
-      ]
+      ],
+      "author": "Omar Al-Rashid"
     }
   },
   "dubai-luxury-car-guide-2025": {
@@ -1564,7 +1576,8 @@
           "buttonText": "استكشف مجموعتنا لعام 2025",
           "buttonLink": "/fleet"
         }
-      ]
+      ],
+      "author": "فريق التحرير"
     },
     "ru": {
       "title": "Гид по люксовым авто в Дубае 2025: почему Rolls-Royce — король",
@@ -1810,7 +1823,8 @@
           "buttonText": "Смотреть коллекцию 2025",
           "buttonLink": "/fleet"
         }
-      ]
+      ],
+      "author": "Редакция"
     }
   },
   "evolution-rolls-royce-history": {
@@ -2078,7 +2092,8 @@
           "buttonText": "استكشف أسطول التراث لدينا",
           "buttonLink": "/fleet"
         }
-      ]
+      ],
+      "author": "فريق التحرير"
     },
     "ru": {
       "title": "Эволюция Rolls-Royce: век роскоши и совершенства",
@@ -2344,7 +2359,8 @@
           "buttonText": "Откройте наш автопарк наследия",
           "buttonLink": "/fleet"
         }
-      ]
+      ],
+      "author": "Редакция"
     }
   },
   "rolls-royce-spectre-electric-dubai": {
@@ -2422,7 +2438,8 @@
           "buttonText": "احجز سبكتر",
           "buttonLink": "/fleet/spectre"
         }
-      ]
+      ],
+      "author": "Ahmed Salem"
     },
     "ru": {
       "title": "Rolls-Royce Spectre: первый электрический люкс-автомобиль в Дубае",
@@ -2498,7 +2515,8 @@
           "buttonText": "Забронировать Spectre",
           "buttonLink": "/fleet/spectre"
         }
-      ]
+      ],
+      "author": "Ahmed Salem"
     }
   },
   "rolls-royce-black-badge-dubai": {
@@ -2576,7 +2594,8 @@
           "buttonText": "استكشف أسطول Black Badge",
           "buttonLink": "/fleet/cullinan-black-badge"
         }
-      ]
+      ],
+      "author": "Ahmed Salem"
     },
     "ru": {
       "title": "Rolls-Royce Black Badge в Дубае: тёмная сторона роскоши",
@@ -2652,7 +2671,8 @@
           "buttonText": "Смотреть автопарк Black Badge",
           "buttonLink": "/fleet/cullinan-black-badge"
         }
-      ]
+      ],
+      "author": "Ahmed Salem"
     }
   },
   "rolls-royce-birthday-car-dubai": {
@@ -2725,7 +2745,8 @@
           "buttonText": "احجز باقة عيد الميلاد",
           "buttonLink": "/services/birthday"
         }
-      ]
+      ],
+      "author": "Fatima Al Rashid"
     },
     "ru": {
       "title": "Аренда Rolls-Royce на день рождения в Дубае: незабываемый сюрприз",
@@ -2796,7 +2817,8 @@
           "buttonText": "Забронировать пакет на день рождения",
           "buttonLink": "/services/birthday"
         }
-      ]
+      ],
+      "author": "Fatima Al Rashid"
     }
   },
   "hourly-rolls-royce-rental-dubai": {
@@ -2873,7 +2895,8 @@
           "buttonText": "احجز التأجير بالساعة",
           "buttonLink": "/services/hourly-rental"
         }
-      ]
+      ],
+      "author": "James Thompson"
     },
     "ru": {
       "title": "Аренда Rolls-Royce почасово в Дубае: роскошь по вашему графику",
@@ -2948,7 +2971,8 @@
           "buttonText": "Забронировать почасовую аренду",
           "buttonLink": "/services/hourly-rental"
         }
-      ]
+      ],
+      "author": "James Thompson"
     }
   },
   "rolls-royce-cullinan-vs-bentley-bentayga": {
@@ -3025,7 +3049,8 @@
           "buttonText": "احجز كولينان",
           "buttonLink": "/fleet/cullinan"
         }
-      ]
+      ],
+      "author": "Sarah Mitchell"
     },
     "ru": {
       "title": "Rolls-Royce Cullinan или Bentley Bentayga в Дубае: сравнение",
@@ -3100,7 +3125,8 @@
           "buttonText": "Забронировать Cullinan",
           "buttonLink": "/fleet/cullinan"
         }
-      ]
+      ],
+      "author": "Sarah Mitchell"
     }
   },
   "rolls-royce-photoshoot-dubai-guide": {
@@ -3186,7 +3212,8 @@
           "buttonText": "احجز جلسة تصوير",
           "buttonLink": "/services/photoshoot"
         }
-      ]
+      ],
+      "author": "Layla Al-Mansouri"
     },
     "ru": {
       "title": "Фотосессия с Rolls-Royce в Дубае: локации и советы",
@@ -3270,7 +3297,8 @@
           "buttonText": "Забронировать фотосессию",
           "buttonLink": "/services/photoshoot"
         }
-      ]
+      ],
+      "author": "Layla Al-Mansouri"
     }
   },
   "dubai-new-year-luxury-car-rental": {
@@ -3336,7 +3364,8 @@
           "buttonText": "احجز باقة رأس السنة",
           "buttonLink": "/booking"
         }
-      ]
+      ],
+      "author": "Ahmed Salem"
     },
     "ru": {
       "title": "Новый год 2026 в Дубае: аренда Rolls-Royce",
@@ -3400,7 +3429,8 @@
           "buttonText": "Забронировать новогодний пакет",
           "buttonLink": "/booking"
         }
-      ]
+      ],
+      "author": "Ahmed Salem"
     }
   },
   "rolls-royce-phantom-vs-ghost-comparison": {
@@ -3486,7 +3516,8 @@
           "buttonText": "تحدّث معنا",
           "buttonLink": "/contact"
         }
-      ]
+      ],
+      "author": "James Thompson"
     },
     "ru": {
       "title": "Rolls-Royce Phantom или Ghost: что арендовать в Дубае?",
@@ -3570,7 +3601,8 @@
           "buttonText": "Связаться с нами",
           "buttonLink": "/contact"
         }
-      ]
+      ],
+      "author": "James Thompson"
     }
   },
   "first-time-dubai-luxury-guide": {
@@ -3944,7 +3976,8 @@
           "buttonText": "ابدأ رحلتك في دبي",
           "buttonLink": "/booking"
         }
-      ]
+      ],
+      "author": "فريق التحرير"
     },
     "ru": {
       "title": "Впервые в Дубае? Полный гид по люксовым авто 2025",
@@ -4316,7 +4349,8 @@
           "buttonText": "Начать путешествие по Дубаю",
           "buttonLink": "/booking"
         }
-      ]
+      ],
+      "author": "Редакция"
     }
   },
   "dubai-motor-show-2024": {
@@ -4835,7 +4869,8 @@
           "buttonText": "احجز تجربة رولز رويس",
           "buttonLink": "/booking"
         }
-      ]
+      ],
+      "author": "فريق التحرير"
     },
     "ru": {
       "title": "Дубайский автосалон 2024: Rolls-Royce крадёт шоу",
@@ -5352,7 +5387,8 @@
           "buttonText": "Забронировать опыт Rolls-Royce",
           "buttonLink": "/booking"
         }
-      ]
+      ],
+      "author": "Редакция"
     }
   },
   "dubai-luxury-hotels-guide": {
@@ -5925,7 +5961,8 @@
           "buttonText": "خطّط لإقامتك الفاخرة",
           "buttonLink": "/booking"
         }
-      ]
+      ],
+      "author": "فريق التحرير"
     },
     "ru": {
       "title": "Самые роскошные отели Дубая: прибывайте со стилем",
@@ -6496,7 +6533,8 @@
           "buttonText": "Спланировать люксовый отдых",
           "buttonLink": "/booking"
         }
-      ]
+      ],
+      "author": "Редакция"
     }
   }
 }
