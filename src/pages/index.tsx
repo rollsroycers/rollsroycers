@@ -22,7 +22,6 @@ const Contact = dynamic(() => import('@/components/Contact'), { ssr: true })
 const InstagramFeed = dynamic(() => import('@/components/InstagramFeed'), { ssr: false })
 const WhatsAppButton = dynamic(() => import('@/components/WhatsAppButton'), { ssr: false })
 const SpecialOffers = dynamic(() => import('@/components/SpecialOffers'), { ssr: true })
-const FAQ = dynamic(() => import('@/components/FAQ'), { ssr: true })
 
 // Far below-fold components — client-only, loaded on demand
 const AvailabilityCalendar = dynamic(() => import('@/components/AvailabilityCalendar'), { ssr: false })
@@ -395,7 +394,6 @@ export default function Home() {
         </section>
 
         <Reviews />
-        <FAQ />
         <SpecialOffers />
         
         {/* CTA Section */}
