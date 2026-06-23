@@ -1,0 +1,202 @@
+{
+  "servicesPages": {
+    "corporate": {
+      "packages": {
+        "executive": {
+          "name": "Executive Package",
+          "description": "Premium executive transportation for business leaders and C-suite executives",
+          "features": [
+            "Dedicated professional chauffeur",
+            "Premium Rolls-Royce Ghost or Phantom",
+            "24/7 availability and support",
+            "Airport meet & greet service",
+            "Complimentary water and refreshments",
+            "WiFi connectivity and charging ports",
+            "Business newspapers and magazines",
+            "Flexible itinerary modifications"
+          ],
+          "vehicles": [
+            "Phantom",
+            "Ghost"
+          ],
+          "price": "From AED 1,200/day"
+        },
+        "conference": {
+          "name": "Conference Package",
+          "description": "Multi-day conference and event transportation for business delegations",
+          "features": [
+            "Multiple vehicle coordination",
+            "Event schedule management",
+            "VIP conference pickup/drop-off",
+            "Flexible timing adjustments",
+            "Dedicated account manager",
+            "Group transportation logistics",
+            "Meeting venue coordination",
+            "Real-time scheduling updates"
+          ],
+          "vehicles": [
+            "Ghost",
+            "Cullinan"
+          ],
+          "price": "From AED 800/day"
+        },
+        "roadshow": {
+          "name": "Roadshow Package",
+          "description": "Multi-city business roadshow transportation across UAE",
+          "features": [
+            "Inter-emirate travel coordination",
+            "Long-distance comfort optimization",
+            "Business meeting logistics",
+            "Flexible schedule accommodation",
+            "Professional route planning",
+            "Rest stop arrangements",
+            "Document storage facilities",
+            "Emergency support coverage"
+          ],
+          "vehicles": [
+            "Phantom",
+            "Cullinan"
+          ],
+          "price": "From AED 1,500/day"
+        },
+        "partnership": {
+          "name": "Partnership Package",
+          "description": "Long-term corporate partnership solutions with preferred rates",
+          "features": [
+            "Dedicated fleet allocation",
+            "Priority booking guarantee",
+            "Customized service protocols",
+            "Quarterly business reviews",
+            "Volume discount pricing",
+            "Consolidated billing systems",
+            "Corporate account management",
+            "SLA compliance monitoring"
+          ],
+          "vehicles": [
+            "All Models"
+          ],
+          "price": "Custom pricing available"
+        },
+        "requestQuote": "Request Quote",
+        "title": "Corporate Packages"
+      },
+      "clients": {
+        "emiratesNBD": "Emirates NBD",
+        "banking": "Banking Sector",
+        "damac": "DAMAC Properties",
+        "realEstate": "Real Estate",
+        "dubaiHolding": "Dubai Holding",
+        "investment": "Investment",
+        "emaar": "Emaar Properties",
+        "development": "Development",
+        "more": "Corporate accounts welcome — flexible billing and monthly plans",
+        "title": "Trusted by Leading Businesses"
+      },
+      "caseStudies": {
+        "title": "Success Stories",
+        "bank": {
+          "client": "Major UAE Bank",
+          "challenge": "Challenge",
+          "challengeText": "Needed reliable transport for a 5-day, multi-city financial roadshow for their CEO and board members.",
+          "solution": "Solution",
+          "solutionText": "Provided a dedicated Ghost with a professional chauffeur, managing a complex schedule flawlessly across Dubai, Abu Dhabi, and Sharjah.",
+          "result": "Result",
+          "resultText": "The CEO praised the seamless experience, allowing them to focus on critical business meetings and achieve their roadshow objectives."
+        },
+        "tech": {
+          "client": "International Tech Company",
+          "challenge": "Challenge",
+          "challengeText": "Required transportation for 50+ executives during a 3-day conference in Dubai with multiple venue changes.",
+          "solution": "Solution",
+          "solutionText": "Coordinated a fleet of 5 Rolls-Royce vehicles with synchronized timing and logistics management.",
+          "result": "Result",
+          "resultText": "Delivered punctual, well-coordinated arrivals with no scheduling conflicts, enhancing the company's professional image."
+        }
+      },
+      "hero": {
+        "title": "Corporate Rolls-Royce Rentals",
+        "subtitle": "Elevate Your Business Image in Dubai",
+        "description": "Elevate your business image with our premium Rolls-Royce corporate services. From executive meetings to client entertainment, we provide unmatched luxury transportation solutions.",
+        "getQuote": "Get Corporate Quote",
+        "viewPackages": "View Corporate Packages",
+        "stats": {
+          "clients": "Chauffeur or Self-Drive",
+          "retention": "Free Delivery",
+          "support": "24/7 Support"
+        }
+      },
+      "whyChoose": {
+        "title": "Why Choose Our Corporate Services",
+        "image": {
+          "title": "Professional Image",
+          "description": "Make a lasting impression with our prestigious Rolls-Royce fleet and enhance your business reputation"
+        },
+        "productivity": {
+          "title": "Enhanced Productivity",
+          "description": "Utilize travel time effectively in our quiet, comfortable vehicles equipped with business amenities"
+        },
+        "privacy": {
+          "title": "Confidential Environment",
+          "description": "Conduct sensitive business discussions in complete privacy with soundproof luxury interiors"
+        },
+        "standards": {
+          "title": "International Standards",
+          "description": "World-class service that meets global corporate expectations and compliance requirements"
+        }
+      },
+      "benefits": {
+        "title": "Corporate Benefits",
+        "financial": {
+          "title": "Financial Benefits",
+          "items": [
+            "Transparent corporate pricing",
+            "Volume discounts available",
+            "Consolidated monthly billing",
+            "No hidden fees or charges",
+            "Tax-deductible business expenses",
+            "Flexible payment terms"
+          ]
+        },
+        "operational": {
+          "title": "Operational Benefits",
+          "items": [
+            "Dedicated account manager",
+            "Priority booking guarantee",
+            "24/7 corporate hotline",
+            "Real-time booking confirmations",
+            "Fleet availability reports",
+            "Service quality monitoring"
+          ]
+        },
+        "service": {
+          "title": "Service Excellence",
+          "items": [
+            "Professional chauffeurs",
+            "Pristine vehicle fleet",
+            "Punctuality guarantee",
+            "Discreet and confidential",
+            "Multilingual drivers",
+            "Security-cleared personnel"
+          ]
+        }
+      },
+      "cta": {
+        "title": "Ready to Elevate Your Corporate Transportation?",
+        "description": "Contact our corporate team for customized business solutions and preferential rates. Let us handle your transportation needs while you focus on business growth.",
+        "speakToTeam": "Speak to Corporate Team",
+        "downloadBrochure": "Download Corporate Brochure"
+      },
+      "quickInquiry": {
+        "title": "Quick Corporate Inquiry",
+        "selectPackage": "Select Package",
+        "packages": {
+          "executive": "Executive Package",
+          "conference": "Conference Package",
+          "roadshow": "Roadshow Package",
+          "partnership": "Partnership Package"
+        },
+        "submitInquiry": "Submit Inquiry"
+      }
+    }
+  }
+}

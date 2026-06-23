@@ -454,7 +454,7 @@ export default function BusinessBayPage() {
 export const getStaticProps: GetStaticProps = async ({ locale }) => {
   return {
     props: {
-      ...(await serverSideTranslations(locale || 'en', ['common', 'comparecontent', 'loccontent', 'navigation', 'seo_locations'])),
+      ...(await serverSideTranslations(locale || 'en', ['common', 'comparecontent', 'lc_businessBay', 'lc_shared', 'navigation', 'seo_locations'])),
     },
   }
 }

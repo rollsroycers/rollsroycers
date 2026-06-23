@@ -1,0 +1,224 @@
+{
+  "servicesPages": {
+    "photoshoot": {
+      "hero": {
+        "title": "Picture Perfect Luxury",
+        "subtitle": "Professional Photoshoot Services with Rolls-Royce",
+        "description": "Elevate your photography with the world's most prestigious automobiles. From fashion shoots to wedding photography, create stunning visuals with our fleet.",
+        "bookPhotoshoot": "Book Photoshoot",
+        "viewPackages": "View Packages"
+      },
+      "stats": {
+        "photoshoots": "1000+",
+        "photoshootsLabel": "Photoshoots",
+        "magazineFeatures": "50+",
+        "magazineFeaturesLabel": "Magazine Features",
+        "brandCollaborations": "100+",
+        "brandCollaborationsLabel": "Brand Collaborations",
+        "availability": "24/7",
+        "availabilityLabel": "Availability"
+      },
+      "photoshootTypes": {
+        "title": "Photography Services We Offer",
+        "types": [
+          {
+            "title": "Fashion Photography",
+            "description": "High-end fashion shoots with ultimate luxury backdrop",
+            "features": [
+              "Model transportation included",
+              "Multiple location changes",
+              "Styling coordination",
+              "Behind-the-scenes access"
+            ]
+          },
+          {
+            "title": "Wedding Photography",
+            "description": "Capture your special day with Rolls-Royce elegance",
+            "features": [
+              "Bridal party photos",
+              "Romantic couple shots",
+              "Family portraits",
+              "Reception arrivals"
+            ]
+          },
+          {
+            "title": "Commercial Shoots",
+            "description": "Professional advertising and marketing campaigns",
+            "features": [
+              "Brand integration",
+              "Product placement",
+              "Video production",
+              "Digital content creation"
+            ]
+          },
+          {
+            "title": "Lifestyle Photography",
+            "description": "Luxury lifestyle and social media content",
+            "features": [
+              "Instagram worthy shots",
+              "Influencer collaborations",
+              "Personal branding",
+              "Travel photography"
+            ]
+          },
+          {
+            "title": "Music Videos",
+            "description": "Premium vehicles for music video productions",
+            "features": [
+              "Dynamic shots",
+              "Moving sequences",
+              "Multiple takes",
+              "Night shoots available"
+            ]
+          },
+          {
+            "title": "Corporate Photography",
+            "description": "Executive portraits and company profiles",
+            "features": [
+              "CEO portraits",
+              "Team photos",
+              "Annual reports",
+              "Marketing materials"
+            ]
+          }
+        ]
+      },
+      "packages": {
+        "title": "Photoshoot Packages",
+        "packages": [
+          {
+            "name": "Basic Shoot",
+            "duration": "2 Hours",
+            "price": "AED 5,500",
+            "features": [
+              "One Rolls-Royce vehicle",
+              "Stationary positioning",
+              "Basic cleaning & prep",
+              "Location of choice"
+            ]
+          },
+          {
+            "name": "Premium Shoot",
+            "duration": "4 Hours",
+            "price": "AED 10,500",
+            "mostPopular": "MOST POPULAR",
+            "features": [
+              "Choice of any vehicle",
+              "Multiple locations",
+              "Professional detailing",
+              "Driver for repositioning",
+              "Props coordination"
+            ]
+          },
+          {
+            "name": "Production Package",
+            "duration": "Full Day",
+            "price": "AED 18,000",
+            "features": [
+              "Multiple vehicles available",
+              "Unlimited locations",
+              "Dedicated coordinator",
+              "Moving shots included",
+              "Extended hours option"
+            ]
+          }
+        ],
+        "customPackages": "Custom packages available for extended productions and special requirements",
+        "bookThisPackage": "Book This Package"
+      },
+      "locations": {
+        "title": "Top Photoshoot Locations in Dubai",
+        "locations": [
+          {
+            "name": "Burj Khalifa Background",
+            "description": "Iconic Dubai skyline shots",
+            "bestTime": "Golden hour"
+          },
+          {
+            "name": "Palm Jumeirah",
+            "description": "Luxury beachfront settings",
+            "bestTime": "Sunset"
+          },
+          {
+            "name": "Dubai Marina",
+            "description": "Modern urban backdrop",
+            "bestTime": "Blue hour"
+          },
+          {
+            "name": "Desert Dunes",
+            "description": "Classic Arabian desert scenes",
+            "bestTime": "Early morning"
+          },
+          {
+            "name": "Jumeirah Beach Road",
+            "description": "Coastal drives and beach views",
+            "bestTime": "Late afternoon"
+          },
+          {
+            "name": "Old Dubai / Gold Souk",
+            "description": "Traditional meets luxury",
+            "bestTime": "Morning"
+          }
+        ],
+        "bestTimeLabel": "Best time:"
+      },
+      "photoTips": {
+        "title": "Professional Photography Tips",
+        "tips": [
+          {
+            "tip": "Best Lighting",
+            "advice": "Golden hour (sunrise/sunset) provides the most flattering light for both the car and subjects"
+          },
+          {
+            "tip": "Angle Selection",
+            "advice": "Three-quarter front angle showcases the iconic Rolls-Royce grille and Spirit of Ecstasy"
+          },
+          {
+            "tip": "Color Coordination",
+            "advice": "Choose outfits that complement the vehicle color for cohesive imagery"
+          },
+          {
+            "tip": "Detail Shots",
+            "advice": "Capture unique features like the starlight headliner, embroidered headrests, and dashboard"
+          }
+        ]
+      },
+      "partners": {
+        "title": "Recommended Photographer Partners",
+        "description": "We work with Dubai's premier photographers and production houses",
+        "partners": [
+          "Dubai Fashion Photographers",
+          "Emirates Wedding Studios",
+          "Luxury Lifestyle Media",
+          "Commercial Production Houses"
+        ],
+        "bringYourOwn": "Or bring your own photographer - we're happy to work with your creative team"
+      },
+      "gallery": {
+        "title": "Recent Photoshoots",
+        "viewFullGallery": "View Full Gallery"
+      },
+      "testimonial": {
+        "name": "Yasmin Al-Rashid",
+        "role": "Fashion Photographer & Creative Director",
+        "text": "Working with Rolls-Royce Dubai for our fashion shoots has been extraordinary. The vehicles are pristine, the service is impeccable, and they understand the creative process perfectly. Every shoot becomes a masterpiece.",
+        "rating": "Exceptional Experience"
+      },
+      "cta": {
+        "title": "Ready to Create Something Spectacular?",
+        "description": "Book your Rolls-Royce photoshoot today and capture luxury at its finest",
+        "bookYourPhotoshoot": "Book Your Photoshoot",
+        "call": "Call: +971 55 816 4922",
+        "bookingTips": {
+          "title": "Quick Booking Tips",
+          "tips": [
+            "Book at least 48 hours in advance for best availability",
+            "Golden hour slots (sunrise/sunset) book quickly",
+            "Weekend rates may apply for Friday-Saturday shoots",
+            "Special rates for multiple day bookings"
+          ]
+        }
+      }
+    }
+  }
+}

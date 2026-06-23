@@ -1,0 +1,350 @@
+{
+  "fleet": {
+    "dawn": {
+      "name": "Rolls-Royce Dawn",
+      "description": "The quietest and most luxurious convertible in the world.",
+      "features": [
+        "Silent Roof",
+        "Bespoke Audio",
+        "Luxurious Materials",
+        "Dynamic Handling"
+      ],
+      "images": {
+        "convertibleAlt": "Rolls-Royce Dawn convertible with roof down in Dubai",
+        "drivingAlt": "Dawn driving along Dubai's scenic coastline",
+        "interiorAlt": "Luxurious interior of the Dawn with premium craftsmanship",
+        "whiteAlt": "Pristine white Dawn against Dubai's modern skyline"
+      },
+      "specs": {
+        "performance": {
+          "engine": {
+            "label": "Engine",
+            "value": "6.6L Twin-Turbocharged V12"
+          },
+          "power": {
+            "label": "Power Output",
+            "value": "563 hp @ 5,250 rpm"
+          },
+          "torque": {
+            "label": "Peak Torque",
+            "value": "820 Nm @ 1,500 rpm"
+          },
+          "acceleration": {
+            "label": "0-100 km/h",
+            "value": "4.9 seconds"
+          },
+          "topSpeed": {
+            "label": "Top Speed",
+            "value": "250 km/h (electronically limited)"
+          }
+        },
+        "convertible": {
+          "roofOperation": {
+            "label": "Roof Operation",
+            "value": "Fully Automatic"
+          },
+          "openingTime": {
+            "label": "Opening Time",
+            "value": "22 seconds"
+          },
+          "operationSpeed": {
+            "label": "Operation Speed",
+            "value": "Up to 50 km/h"
+          },
+          "roofMaterial": {
+            "label": "Roof Material",
+            "value": "Fabric (6 layers)"
+          },
+          "acousticInsulation": {
+            "label": "Acoustic Insulation",
+            "value": "Library Quiet"
+          },
+          "roofTime": {
+            "label": "Roof Operation",
+            "value": "22 seconds (up to 50 km/h)"
+          },
+          "roofType": {
+            "label": "Roof Type",
+            "value": "6-layer insulated soft-top"
+          },
+          "windDeflector": {
+            "label": "Wind Management",
+            "value": "Automatic wind deflector system"
+          },
+          "storage": {
+            "label": "Boot Space",
+            "value": "358L (roof up) / 235L (roof down)"
+          },
+          "materials": {
+            "label": "Roof Materials",
+            "value": "Premium German textile with sound dampening"
+          }
+        },
+        "features": [
+          "Silent roof operation at any speed up to 50km/h",
+          "Advanced air management system",
+          "Climate-controlled seats with neck warmers",
+          "Automatic wind deflector deployment",
+          "Premium sound system optimized for open-air",
+          "UV-protective glass all around",
+          "Emergency roof operation via key fob",
+          "Weather sensing roof closure"
+        ]
+      },
+      "idealOccasions": {
+        "sunrise": {
+          "icon": "🌅",
+          "title": "Sunrise Drives",
+          "description": "Experience Dubai's golden hour along Jumeirah Beach Road"
+        },
+        "palm": {
+          "icon": "🌴",
+          "title": "Palm Jumeirah Tours",
+          "description": "Cruise the iconic Palm with the roof down"
+        },
+        "celebrations": {
+          "icon": "🎊",
+          "title": "Special Celebrations",
+          "description": "Make anniversaries and milestones unforgettable",
+          "bestTime": "Anytime"
+        },
+        "photoshoots": {
+          "icon": "📸",
+          "title": "Luxury Photoshoots",
+          "description": "Ultimate backdrop for fashion and lifestyle photography",
+          "bestTime": "Golden Hour"
+        },
+        "sunset": {
+          "title": "Sunset Drives",
+          "description": "Perfect for capturing Dubai's golden hour along the coastline",
+          "bestTime": "5:00 PM - 7:00 PM"
+        },
+        "weekends": {
+          "title": "Weekend Escapes",
+          "description": "Ideal for leisurely drives to Dubai's luxury destinations",
+          "bestTime": "Mornings & Evenings"
+        }
+      },
+      "rentalPackages": {
+        "daily": {
+          "duration": "Daily Experience",
+          "price": "AED 5,500",
+          "includes": [
+            "200km daily mileage",
+            "Convertible-specific insurance",
+            "Weather advisory service",
+            "Scenic route recommendations"
+          ]
+        },
+        "weekend": {
+          "duration": "Weekend Package",
+          "price": "AED 10,500",
+          "includes": [
+            "500km total mileage",
+            "Premium coverage for open-air driving",
+            "Beach route mapping",
+            "Photography spot guide"
+          ]
+        },
+        "weekly": {
+          "duration": "Weekly Luxury",
+          "price": "AED 33,000",
+          "includes": [
+            "1,500km total mileage",
+            "Full comprehensive insurance",
+            "VIP convertible support",
+            "Weather-based scheduling"
+          ]
+        },
+        "monthly": {
+          "duration": "Monthly Freedom",
+          "price": "AED 110,000",
+          "includes": [
+            "4,000km monthly allowance",
+            "Complete maintenance package",
+            "Seasonal roof care service",
+            "Flexible convertible terms"
+          ]
+        },
+        "hourly": {
+          "duration": "Hourly Rental",
+          "price": "AED 1,200",
+          "includes": [
+            "50km mileage included",
+            "Premium convertible insurance",
+            "Weather monitoring service",
+            "Concierge roof operation guide"
+          ]
+        }
+      },
+      "keyFeatures": {
+        "ballet": {
+          "title": "Silent Ballet",
+          "description": "The world's quietest convertible roof mechanism - transforms in just 22 seconds at speeds up to 50km/h."
+        },
+        "seconds": {
+          "title": "22 Seconds",
+          "description": "Seamless transformation from closed luxury to open-air freedom in mere moments."
+        },
+        "weather": {
+          "title": "All-Weather",
+          "description": "6-layer fabric roof provides exceptional insulation"
+        },
+        "audio": {
+          "title": "Bespoke Audio",
+          "description": "Perfectly tuned for both open and closed driving"
+        },
+        "airflow": {
+          "title": "Airflow Management",
+          "description": "Advanced air management system creates a serene cabin even with the roof down."
+        },
+        "comfort": {
+          "title": "Year-Round Comfort",
+          "description": "Climate control, heated seats, and wind deflectors ensure comfort in Dubai's climate."
+        }
+      },
+      "routes": {
+        "coastal": {
+          "title": "Coastal Drive",
+          "path": "Jumeirah Beach Road → La Mer → City Walk → Downtown Dubai",
+          "distance": "25 km",
+          "duration": "45 minutes",
+          "bestTime": "Sunset",
+          "highlights": "Beach views, Burj Al Arab"
+        },
+        "desert": {
+          "title": "Desert Escape",
+          "path": "Dubai → Al Qudra Lakes → Desert Conservation Reserve",
+          "distance": "45 km",
+          "duration": "90 minutes",
+          "bestTime": "Early morning",
+          "highlights": [
+            "Desert views",
+            "Camel sightings",
+            "Sunrise/sunset"
+          ],
+          "name": "Desert Edge Expedition",
+          "description": "Where city meets desert - a unique Dubai experience"
+        },
+        "corniche": {
+          "name": "Dubai Corniche Drive",
+          "description": "Scenic coastal route perfect for convertible cruising",
+          "distance": "15 km",
+          "duration": "45 minutes",
+          "highlights": [
+            "Burj Al Arab views",
+            "Beach scenery",
+            "Sunset spots"
+          ]
+        },
+        "downtown": {
+          "name": "Downtown Dubai Loop",
+          "description": "Experience the city's architectural marvels from above",
+          "distance": "12 km",
+          "duration": "30 minutes",
+          "highlights": [
+            "Burj Khalifa",
+            "Dubai Mall",
+            "Fountain views"
+          ]
+        },
+        "marina": {
+          "name": "Dubai Marina Circuit",
+          "description": "Luxury waterfront living at its finest",
+          "distance": "8 km",
+          "duration": "25 minutes",
+          "highlights": [
+            "Marina Walk",
+            "Yacht views",
+            "Skyline panorama"
+          ]
+        }
+      },
+      "hero": {
+        "title": "Dawn",
+        "subtitle": "Where luxury meets endless sky",
+        "roofStatus": {
+          "label": "Roof Status",
+          "open": "Open - Embrace Dubai's Perfect Weather",
+          "closed": "Closed - Supreme Comfort & Quiet"
+        },
+        "cta": {
+          "experience": "Experience Open-Air Luxury",
+          "weather": "Check Weather Recommendations"
+        }
+      },
+      "sections": {
+        "title": "Dawn Key Features",
+        "features": {
+          "silentBallet": {
+            "title": "Silent Ballet",
+            "description": "The quietest convertible roof mechanism in the world"
+          },
+          "seconds": {
+            "title": "22 Seconds",
+            "description": "Smooth roof operation even while driving up to 50 km/h"
+          },
+          "allWeather": {
+            "title": "All-Weather",
+            "description": "6-layer fabric roof provides exceptional insulation"
+          },
+          "bespokeAudio": {
+            "title": "Bespoke Audio",
+            "description": "Perfectly tuned for both open and closed driving"
+          }
+        },
+        "perfectMoments": {
+          "title": "Perfect Moments Await"
+        },
+        "weatherDriving": {
+          "title": "Weather-Perfect Driving"
+        },
+        "technicalExcellence": {
+          "title": "Convertible Excellence"
+        },
+        "rentalPackages": {
+          "title": "Dawn Rental Packages"
+        },
+        "experience": {
+          "title": "360° Dawn Experience"
+        },
+        "routes": {
+          "title": "Recommended Dubai Routes"
+        },
+        "cta": {
+          "title": "Feel the Dubai Breeze in a Dawn",
+          "subtitle": "Book now and receive a complimentary sunset drive route map and professional photography session",
+          "call": "Call: +971 55 816 4922",
+          "availability": "Check Availability"
+        },
+        "comparison": {
+          "title": "Compare Our Fleet"
+        }
+      },
+      "weatherRecommendations": {
+        "perfect": {
+          "conditions": "Perfect Convertible Weather",
+          "temperature": "22°C - 28°C",
+          "description": "Ideal conditions for open-air luxury driving",
+          "recommendation": "Roof down highly recommended"
+        },
+        "good": {
+          "conditions": "Good Convertible Conditions",
+          "temperature": "18°C - 32°C",
+          "description": "Comfortable for convertible driving with climate control",
+          "recommendation": "Roof down with climate comfort settings"
+        },
+        "mixed": {
+          "conditions": "Variable Conditions",
+          "temperature": "Below 18°C or Above 32°C",
+          "description": "Better enjoyed with roof up for maximum comfort",
+          "recommendation": "Roof up with luxury climate control"
+        }
+      },
+      "cta": {
+        "title": "Experience Dawn's Open-Air Luxury",
+        "description": "Dubai's finest convertible experience - where endless sky meets unparalleled luxury."
+      }
+    }
+  }
+}

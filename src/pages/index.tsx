@@ -479,7 +479,7 @@ export default function Home() {
 export const getStaticProps: GetStaticProps = async ({ locale }) => {
   return {
     props: {
-      ...(await serverSideTranslations(locale || 'en', ['common', 'comparecontent', 'fleetcontent', 'navigation', 'page_about', 'seo_home', 'sb_home'])),
+      ...(await serverSideTranslations(locale || 'en', ['common', 'comparecontent', 'fc_cullinan', 'fc_dawn', 'fc_ghost', 'fc_phantom', 'fc_shared', 'fc_spectre', 'fc_wraith', 'navigation', 'page_about', 'sb_home', 'seo_home'])),
     },
   }
 }

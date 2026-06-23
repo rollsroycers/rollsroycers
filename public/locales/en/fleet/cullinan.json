@@ -1,0 +1,188 @@
+{
+  "fleet": {
+    "cullinan": {
+      "name": "Rolls-Royce Cullinan",
+      "description": "The ultimate luxury SUV - Effortless, everywhere.",
+      "hero": {
+        "bookButton": "Book Cullinan Now",
+        "exploreButton": "Explore Features"
+      },
+      "whyChoose": {
+        "title": "Why Choose Cullinan in Dubai?"
+      },
+      "specs": {
+        "title": "Cullinan Technical Excellence",
+        "performanceTitle": "Performance Specifications",
+        "dimensionsTitle": "Dimensions & Capacity",
+        "featuresTitle": "Luxury Features",
+        "performance": {
+          "engine": {
+            "label": "Engine",
+            "value": "6.75L Twin-Turbocharged V12"
+          },
+          "power": {
+            "label": "Power Output",
+            "value": "563 hp @ 5,000 rpm"
+          },
+          "torque": {
+            "label": "Maximum Torque",
+            "value": "850 Nm @ 1,600 rpm"
+          },
+          "acceleration": {
+            "label": "0-100 km/h",
+            "value": "5.2 seconds"
+          },
+          "topSpeed": {
+            "label": "Top Speed",
+            "value": "250 km/h (electronically limited)"
+          }
+        },
+        "dimensions": {
+          "length": {
+            "label": "Length",
+            "value": "5,341 mm"
+          },
+          "width": {
+            "label": "Width",
+            "value": "2,164 mm"
+          },
+          "height": {
+            "label": "Height",
+            "value": "1,835 mm"
+          },
+          "wheelbase": {
+            "label": "Wheelbase",
+            "value": "3,295 mm"
+          },
+          "bootCapacity": {
+            "label": "Boot Capacity",
+            "value": "600L / 1,930L (seats folded)"
+          }
+        },
+        "features": [
+          "All-Wheel Drive with Off-Road Mode",
+          "Air Suspension with Multiple Settings",
+          "Viewing Suite Configuration",
+          "Recreation Module Storage",
+          "Night Vision with Thermal Imaging",
+          "Bespoke Picnic Tables",
+          "Starlight Headliner Available",
+          "Partition Glass for Privacy"
+        ]
+      },
+      "rentalPackages": {
+        "title": "Cullinan Rental Packages",
+        "daily": {
+          "duration": "Daily",
+          "price": "AED 6,500",
+          "includes": [
+            "200 km/day",
+            "Basic Insurance",
+            "Chauffeur Option"
+          ]
+        },
+        "weekend": {
+          "duration": "Weekend",
+          "price": "AED 12,000",
+          "includes": [
+            "500 km total",
+            "Premium Insurance",
+            "Airport Transfer"
+          ]
+        },
+        "weekly": {
+          "duration": "Weekly",
+          "price": "AED 39,000",
+          "includes": [
+            "1,500 km total",
+            "Full Coverage",
+            "Dedicated Concierge"
+          ]
+        },
+        "monthly": {
+          "duration": "Monthly",
+          "price": "AED 130,000",
+          "includes": [
+            "4,000 km total",
+            "VIP Support",
+            "Maintenance Included"
+          ]
+        },
+        "luxury": {
+          "duration": "Luxury Day Experience",
+          "price": "AED 7,200",
+          "includes": [
+            "350km daily mileage",
+            "Premium insurance coverage",
+            "Professional chauffeur included",
+            "Desert safari coordination available"
+          ]
+        },
+        "adventure": {
+          "duration": "Weekend Adventure",
+          "price": "AED 13,500",
+          "includes": [
+            "700km total mileage",
+            "Off-road driving briefing",
+            "Recreation module setup",
+            "VIP desert camp arrangements"
+          ]
+        },
+        "executive": {
+          "duration": "Executive Weekly",
+          "price": "AED 45,000",
+          "includes": [
+            "2500km weekly allowance",
+            "Business chauffeur service",
+            "Airport priority transfers",
+            "Corporate billing options"
+          ]
+        },
+        "bespoke": {
+          "duration": "Bespoke Monthly",
+          "price": "Contact for Pricing",
+          "includes": [
+            "Unlimited mileage",
+            "Custom configuration options",
+            "Dedicated vehicle assignment",
+            "Concierge lifestyle services"
+          ]
+        }
+      },
+      "keyFeatures": {
+        "mastery": {
+          "title": "All-Terrain Mastery",
+          "description": "Conquer Dubai's desert dunes or navigate city streets with equal luxury and capability."
+        },
+        "luxury": {
+          "title": "Spacious Luxury",
+          "description": "Accommodates 5 adults in supreme comfort, perfect for family adventures or executive transport."
+        },
+        "vision": {
+          "title": "Night Vision Excellence",
+          "description": "Advanced safety with thermal imaging for confident nighttime driving across UAE terrain."
+        },
+        "suite": {
+          "title": "Viewing Suite",
+          "description": "Unique rear seating configuration transforms into luxury outdoor viewing platform."
+        }
+      },
+      "cta": {
+        "title": "Experience Cullinan Luxury",
+        "description": "Dubai's ultimate luxury SUV for those who demand excellence in every terrain."
+      },
+      "features": [
+        "All-Terrain",
+        "Viewing Suite",
+        "Recreation Module",
+        "Night Vision"
+      ],
+      "images": {
+        "blackAlt": "Rolls-Royce Cullinan in sophisticated black in Dubai desert",
+        "frontAlt": "Front view of the majestic Rolls-Royce Cullinan",
+        "interiorAlt": "Luxurious leather interior of the Rolls-Royce Cullinan",
+        "roadAlt": "Rolls-Royce Cullinan driving through Dubai landmarks"
+      }
+    }
+  }
+}

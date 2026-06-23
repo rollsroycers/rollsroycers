@@ -1,0 +1,173 @@
+{
+  "locations": {
+    "palmJumeirah": {
+      "nav": "Palm Jumeirah",
+      "hero": {
+        "title": "Palm Jumeirah",
+        "subtitle": "The World's Largest Artificial Island",
+        "badge": "Iconic Man-Made Wonder",
+        "bookButton": "Book Your Experience",
+        "exploreButton": "Explore Experiences"
+      },
+      "whyChoose": {
+        "title": "Why Choose Palm Jumeirah",
+        "beach": {
+          "title": "Private Beaches",
+          "description": "Exclusive access to pristine private beaches and crystal-clear waters"
+        },
+        "hotels": {
+          "title": "Luxury Resorts",
+          "description": "World-renowned hotels offering unparalleled luxury and service"
+        },
+        "villas": {
+          "title": "Premium Villas",
+          "description": "Exquisite waterfront villas with stunning views and privacy"
+        }
+      },
+      "stats": {
+        "deliveries": "Monthly Deliveries",
+        "deliveryTime": "Average Response",
+        "concierge": "Concierge Service",
+        "satisfaction": "Guest Satisfaction"
+      },
+      "partnerHotels": {
+        "title": "Partner Hotels & Resorts",
+        "additional": "Free valet service at all partner locations",
+        "atlantis": {
+          "category": "Ultra-Luxury Resort",
+          "feature": "Underwater suites available"
+        },
+        "oneAndOnly": {
+          "category": "Beach Resort",
+          "feature": "Adults-only tranquil escape"
+        },
+        "waldorf": {
+          "category": "Luxury Hotel",
+          "feature": "Personalized butler service"
+        },
+        "five": {
+          "category": "Beach Resort",
+          "feature": "Vibrant beachfront location"
+        },
+        "anantara": {
+          "category": "Spa Resort",
+          "feature": "Over-water villas available"
+        },
+        "w": {
+          "category": "Lifestyle Hotel",
+          "feature": "Modern luxury with beach access"
+        }
+      },
+      "drivingRoutes": {
+        "title": "Scenic Driving Routes",
+        "highlights": "Route Highlights",
+        "duration": "Duration",
+        "bestCar": "Best Vehicle",
+        "crescent": {
+          "name": "Crescent Drive",
+          "description": "Experience the full crescent of Palm Jumeirah with panoramic views",
+          "highlights": [
+            "Atlantis views",
+            "Private beach access",
+            "Villa districts"
+          ]
+        },
+        "full": {
+          "name": "Full Island Tour",
+          "description": "Complete tour of the Palm from trunk to crescent tips",
+          "highlights": [
+            "Trunk entrance",
+            "Frond exploration",
+            "Crescent finale"
+          ]
+        },
+        "night": {
+          "name": "Sunset & Night Route",
+          "description": "Perfect timing for golden hour and illuminated landmarks",
+          "highlights": [
+            "Golden hour timing",
+            "Illuminated Atlantis",
+            "Skyline views"
+          ]
+        }
+      },
+      "exclusiveExperiences": {
+        "title": "Exclusive Palm Experiences",
+        "bookButton": "Book Experience",
+        "beachClub": {
+          "title": "Elite Beach Club Access",
+          "description": "VIP access to Palm's most exclusive beach clubs with Rolls-Royce arrival",
+          "includes": [
+            "VIP entrance with Rolls-Royce arrival",
+            "Reserved cabana or daybed",
+            "Complimentary drinks and gourmet dining",
+            "Professional photography session"
+          ],
+          "price": "AED 2,500 per day"
+        },
+        "atlantis": {
+          "title": "Atlantis Royal Experience",
+          "description": "Ultimate luxury at Atlantis with exclusive Rolls-Royce transfers",
+          "includes": [
+            "Rolls-Royce airport and hotel transfers",
+            "Suite upgrade at Atlantis Royal",
+            "Private dining at celebrity chef restaurants",
+            "VIP access to Aquaventure and Lost Chambers"
+          ],
+          "price": "AED 8,500 per day"
+        },
+        "villa": {
+          "title": "Private Villa Experience",
+          "description": "Exclusive access to luxury Palm villas with full concierge service",
+          "includes": [
+            "Private villa accommodation",
+            "Dedicated Rolls-Royce and chauffeur",
+            "Personal concierge and chef services",
+            "Yacht charter and water sports access"
+          ],
+          "price": "AED 15,000 per day"
+        }
+      },
+      "attractions": {
+        "title": "Top Attractions",
+        "distance": "Distance",
+        "bestTime": "Best Time",
+        "thePointe": {
+          "description": "Waterfront dining and entertainment destination with stunning fountain shows",
+          "distance": "Crescent tip",
+          "bestTime": "Evening for fountain shows"
+        },
+        "nakheelMall": {
+          "description": "Premium shopping destination with luxury brands and dining",
+          "distance": "Palm Gateway",
+          "bestTime": "Afternoon shopping"
+        },
+        "palmWestBeach": {
+          "description": "Public beach with water sports and beachfront dining options",
+          "distance": "West crescent",
+          "bestTime": "Morning and sunset"
+        },
+        "theView": {
+          "description": "52nd-floor observation deck offering 360-degree views of Palm and Dubai",
+          "distance": "West side",
+          "bestTime": "Clear weather days"
+        }
+      },
+      "weather": {
+        "title": "Weather-Perfect Experiences"
+      },
+      "fleet": {
+        "title": "Our Palm Fleet"
+      },
+      "cta": {
+        "title": "Experience Palm Jumeirah in Ultimate Luxury",
+        "subtitle": "Book your Rolls-Royce for an unforgettable Palm Jumeirah experience",
+        "callButton": "Call Now",
+        "bookButton": "Book Experience",
+        "freeDelivery": "Free Resort Delivery",
+        "response": "15-Min Response",
+        "support": "24/7 Support"
+      }
+    }
+  }
+}

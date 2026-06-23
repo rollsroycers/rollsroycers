@@ -573,7 +573,7 @@ export default function WraithPage() {
 export const getStaticProps: GetStaticProps = async ({ locale }) => {
   return {
     props: {
-      ...(await serverSideTranslations(locale || 'en', ['common', 'comparecontent', 'fleet', 'fleetcontent', 'navigation', 'seo_fleet', 'sb_fleet-wraith'])),
+      ...(await serverSideTranslations(locale || 'en', ['common', 'comparecontent', 'fc_shared', 'fc_wraith', 'fleet', 'navigation', 'sb_fleet-wraith', 'seo_fleet'])),
     },
   }
 }

@@ -1,0 +1,128 @@
+{
+  "locations": {
+    "downtown": {
+      "hero": {
+        "title": "Downtown Dubai",
+        "subtitle": "The Heart of Luxury",
+        "district": "Business & Entertainment District",
+        "bookButton": "Book Your Ride",
+        "exploreButton": "Explore Experiences"
+      },
+      "advantages": {
+        "title": "Why Choose Downtown Dubai",
+        "central": {
+          "title": "Central Location",
+          "description": "Heart of Dubai's business and entertainment district"
+        },
+        "delivery": {
+          "title": "Prime Delivery",
+          "description": "Direct delivery to Burj Khalifa, Dubai Mall, and DIFC"
+        },
+        "vip": {
+          "title": "VIP Access",
+          "description": "Exclusive entrances to luxury hotels and attractions"
+        },
+        "concierge": {
+          "title": "Concierge Service",
+          "description": "Personal assistance for reservations and arrangements"
+        }
+      },
+      "experiences": {
+        "title": "Downtown Experiences",
+        "recommendedVehicle": "Recommended Vehicle",
+        "burjKhalifa": {
+          "title": "Burj Khalifa Visit",
+          "description": "Arrive in style at the world's tallest building",
+          "features": [
+            "VIP valet parking",
+            "Skip-the-line access",
+            "Observation deck priority",
+            "Professional photography"
+          ],
+          "recommended": "Phantom"
+        },
+        "dubaiMall": {
+          "title": "Dubai Mall Shopping",
+          "description": "Luxury shopping experience at the world's largest mall",
+          "features": [
+            "VIP shopping assistant",
+            "Private fitting rooms",
+            "Personal shopper service",
+            "Luxury brand access"
+          ],
+          "recommended": "Ghost"
+        },
+        "business": {
+          "title": "Business Meetings",
+          "description": "Professional transport for DIFC and business districts",
+          "features": [
+            "Executive chauffeur",
+            "Business-class comfort",
+            "Mobile office setup",
+            "Punctual arrivals"
+          ],
+          "recommended": "Cullinan"
+        }
+      },
+      "landmarks": {
+        "title": "Nearby Landmarks"
+      },
+      "hotels": {
+        "title": "Luxury Hotels",
+        "subtitle": "Direct delivery to Dubai's finest accommodations",
+        "additional": "And many more luxury hotels in the area"
+      },
+      "routes": {
+        "title": "Popular Routes",
+        "duration": "Duration",
+        "stops": "Stops",
+        "bestTime": "Best Time",
+        "fountain": {
+          "name": "Dubai Fountain Circuit",
+          "duration": "45 minutes",
+          "bestTime": "Evening"
+        },
+        "architecture": {
+          "name": "Architecture Tour",
+          "duration": "1 hour",
+          "bestTime": "Afternoon"
+        },
+        "dining": {
+          "name": "Fine Dining Route",
+          "duration": "30 minutes",
+          "bestTime": "Evening"
+        }
+      },
+      "testimonials": {
+        "title": "Client Experiences",
+        "abdullah": {
+          "location": "DIFC Executive",
+          "text": "Perfect service for business meetings. The Phantom always arrives on time and makes the right impression."
+        },
+        "sophie": {
+          "location": "Dubai Mall Shopper",
+          "text": "Amazing experience! The Ghost was perfect for our shopping day, and the chauffeur helped with all our bags."
+        },
+        "david": {
+          "location": "Burj Khalifa Tourist",
+          "text": "Unforgettable visit to Burj Khalifa in the Cullinan. The VIP treatment made our Dubai trip extra special."
+        }
+      },
+      "stats": {
+        "time": "2 mins",
+        "avgDelivery": "Average Delivery",
+        "deliveries": "500+",
+        "availability": "Daily Deliveries"
+      },
+      "fleet": {
+        "title": "Our Fleet in Downtown"
+      },
+      "cta": {
+        "title": "Experience Downtown Dubai in Luxury",
+        "subtitle": "Book your Rolls-Royce for the ultimate Downtown Dubai experience",
+        "callButton": "Call Now",
+        "bookButton": "Book Online"
+      }
+    }
+  }
+}

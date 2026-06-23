@@ -424,7 +424,7 @@ export default function ChauffeurServicesPage() {
 export const getStaticProps: GetStaticProps = async ({ locale }) => {
   return {
     props: {
-      ...(await serverSideTranslations(locale || 'en', ['common', 'navigation', 'seo_services', 'services', 'servicespages'])),
+      ...(await serverSideTranslations(locale || 'en', ['common', 'navigation', 'seo_services', 'services', 'servicespages', 'sp_chauffeur'])),
     },
   }
 }

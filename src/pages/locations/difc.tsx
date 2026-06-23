@@ -636,7 +636,7 @@ export default function DIFCLocationPage() {
 export const getStaticProps: GetStaticProps = async ({ locale }) => {
   return {
     props: {
-      ...(await serverSideTranslations(locale || 'en', ['common', 'loccontent', 'navigation', 'seo_locations'])),
+      ...(await serverSideTranslations(locale || 'en', ['common', 'lc_difc', 'lc_shared', 'navigation', 'seo_locations'])),
     },
   }
 }

@@ -1,0 +1,129 @@
+{
+  "locations": {
+    "title": "Our Locations",
+    "subtitle": "Serving all major areas in Dubai",
+    "marina": "Dubai Marina",
+    "jumeirah": {
+      "nav": "Jumeirah"
+    },
+    "deira": {
+      "nav": "Deira"
+    },
+    "viewOnMap": "View on Map",
+    "cta": {
+      "title": "We Deliver To You",
+      "description": "No matter where you are in Dubai, we offer complimentary delivery and pickup of your Rolls-Royce rental.",
+      "button": "Book Your Delivery"
+    },
+    "downtownDubai": {
+      "nav": "Downtown Dubai"
+    }
+  },
+  "jumeirahPage": {
+    "location": "Jumeirah, Dubai",
+    "title": "Rolls-Royce Rental",
+    "titleHighlight": "Jumeirah",
+    "subtitle": "Dubai's most prestigious beachfront district. Free delivery to Burj Al Arab, Madinat Jumeirah, and all luxury beach resorts.",
+    "delivery": "Free Delivery in 15 Minutes",
+    "bookBtn": "Book in Jumeirah",
+    "fleetBtn": "View Fleet",
+    "landmarks": {
+      "title": "Nearby Landmarks",
+      "subtitle": "We deliver to all Jumeirah landmarks",
+      "deliverySuffix": "delivery"
+    },
+    "experiences": {
+      "title": "Jumeirah Experiences",
+      "subtitle": "Popular ways to enjoy a Rolls-Royce in Jumeirah",
+      "recommended": "Recommended",
+      "burjArab": {
+        "title": "Burj Al Arab Arrival",
+        "desc": "Make the ultimate entrance at the world's most iconic hotel. Our Rolls-Royce perfectly complements the Burj Al Arab's legendary luxury."
+      },
+      "beachRoad": {
+        "title": "Jumeirah Beach Road Cruise",
+        "desc": "The scenic coastal road from Jumeirah to Dubai Marina offers stunning Gulf views. The Dawn convertible is the perfect choice."
+      },
+      "madinat": {
+        "title": "Madinat Jumeirah Dinner",
+        "desc": "Arrive at Madinat Jumeirah's award-winning restaurants in a Rolls-Royce. Pierchic, Pai Thai, and Rockfish await."
+      },
+      "kiteBeach": {
+        "title": "Kite Beach Sunset",
+        "desc": "Experience the golden hour at Kite Beach with a Rolls-Royce parked on the promenade. Perfect for photoshoots."
+      }
+    },
+    "hotels": {
+      "title": "Hotels We Serve",
+      "subtitle": "Free delivery to all Jumeirah hotels"
+    },
+    "models": {
+      "title": "Available Models",
+      "subtitle": "All models available for delivery to Jumeirah"
+    },
+    "services": "Our Services"
+  },
+  "deiraPage": {
+    "location": "Deira, Dubai",
+    "title": "Rolls-Royce Rental",
+    "titleHighlight": "Deira",
+    "subtitle": "Dubai's historic heart. 10 minutes from DXB Airport. Free delivery to Gold Souk, Dubai Creek, and all Deira hotels.",
+    "delivery": "Free Delivery in 10 Minutes",
+    "bookBtn": "Book in Deira",
+    "airportBtn": "Airport Transfer",
+    "airport": {
+      "title": "Closest to Dubai Airport",
+      "desc": "Deira is the closest major district to Dubai International Airport (DXB). Your Rolls-Royce can be waiting at the terminal in under 10 minutes. Perfect for VIP arrivals and departures with our meet & greet service.",
+      "terminal1": {
+        "title": "Terminal 1",
+        "time": "8 min",
+        "desc": "Emirates and major international airlines"
+      },
+      "terminal3": {
+        "title": "Terminal 3",
+        "time": "10 min",
+        "desc": "Emirates exclusive terminal"
+      },
+      "vip": {
+        "title": "VIP Terminal",
+        "time": "7 min",
+        "desc": "Private jet and first class arrivals"
+      }
+    },
+    "landmarks": {
+      "title": "Nearby Landmarks",
+      "subtitle": "We deliver to all Deira landmarks",
+      "deliverySuffix": "delivery"
+    },
+    "experiences": {
+      "title": "Deira Experiences",
+      "subtitle": "Popular ways to enjoy a Rolls-Royce in Deira",
+      "recommended": "Recommended",
+      "goldSouk": {
+        "title": "Gold Souk & Heritage Tour",
+        "desc": "Explore the legendary Gold Souk and Spice Souk in a Rolls-Royce. Combine tradition with ultimate luxury on a cultural heritage tour."
+      },
+      "creek": {
+        "title": "Dubai Creek Sunset",
+        "desc": "Drive along the historic Dubai Creek at sunset. The contrast of heritage dhows and modern luxury creates unforgettable memories."
+      },
+      "dxb": {
+        "title": "DXB Airport Transfer",
+        "desc": "Deira is the closest area to Dubai International Airport. Arrive or depart in style with a VIP Rolls-Royce transfer in under 10 minutes."
+      },
+      "oldDubai": {
+        "title": "Old Dubai Night Drive",
+        "desc": "Experience Old Dubai's charm at night. From Al Seef waterfront to Baniyas Square, the illuminated heritage district is magical."
+      }
+    },
+    "hotels": {
+      "title": "Hotels We Serve",
+      "subtitle": "Free delivery to all Deira hotels"
+    },
+    "models": {
+      "title": "Available Models",
+      "subtitle": "All models available for delivery to Deira"
+    },
+    "services": "Our Services"
+  }
+}

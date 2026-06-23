@@ -1,0 +1,212 @@
+{
+  "servicesPages": {
+    "chauffeur": {
+      "hero": {
+        "title": "Professional Chauffeur Service",
+        "subtitle": "Experience Dubai with Elite Professional Drivers",
+        "description": "Experience luxury transportation with our elite professional chauffeurs. Available 24/7 across Dubai and UAE, our multilingual drivers provide unparalleled service, discretion, and local expertise.",
+        "bookNow": "Book Chauffeur Now",
+        "viewServices": "View Services",
+        "quickFeatures": [
+          "Professional Chauffeurs",
+          "EN / AR / RU",
+          "24/7 Availability"
+        ]
+      },
+      "services": {
+        "title": "Chauffeur Service Options",
+        "hourly": {
+          "name": "Hourly Chauffeur",
+          "description": "Flexible hourly service for multiple stops and waiting time",
+          "features": [
+            "Minimum 4 hours booking",
+            "Professional uniformed chauffeur",
+            "Unlimited stops within Dubai",
+            "Waiting time included",
+            "Multilingual drivers available",
+            "Real-time itinerary changes",
+            "Complimentary refreshments",
+            "WiFi & device charging"
+          ],
+          "pricing": "From AED 800/hour",
+          "ideal": "Shopping trips, business meetings, city tours"
+        },
+        "daily": {
+          "name": "Full Day Chauffeur",
+          "description": "Dedicated chauffeur service for 12 hours",
+          "features": [
+            "12-hour service window",
+            "Elite professional chauffeur",
+            "Unlimited mileage in Dubai",
+            "VIP meet & greet service",
+            "Route planning assistance",
+            "Restaurant reservations",
+            "Personal shopping assistance",
+            "Discrete security-trained drivers"
+          ],
+          "pricing": "From AED 6,500/day",
+          "ideal": "Business delegations, tourist groups, special events"
+        },
+        "transfer": {
+          "name": "Point-to-Point Transfer",
+          "description": "Direct transfer service between locations",
+          "features": [
+            "Fixed route pricing",
+            "No hidden charges",
+            "Flight monitoring (airports)",
+            "Meet & greet included",
+            "15 minutes free waiting",
+            "Luggage assistance",
+            "Child seats available",
+            "Pet-friendly options"
+          ],
+          "pricing": "From AED 600",
+          "ideal": "Airport transfers, hotel transfers, event transportation"
+        },
+        "events": {
+          "name": "Event Chauffeur",
+          "description": "Specialized service for weddings and special occasions",
+          "features": [
+            "Red carpet service",
+            "Formal attire chauffeurs",
+            "Decoration coordination",
+            "Multiple vehicle sync",
+            "Photography assistance",
+            "Guest transportation",
+            "Overnight availability",
+            "Emergency backup vehicles"
+          ],
+          "pricing": "From AED 8,000",
+          "ideal": "Weddings, galas, corporate events, premieres"
+        }
+      },
+      "qualities": {
+        "title": "Our Elite Chauffeurs",
+        "professional": {
+          "title": "Professional Excellence",
+          "points": [
+            "Minimum 5 years luxury driving experience",
+            "Advanced defensive driving certification",
+            "Impeccable presentation and grooming",
+            "Cultural awareness training"
+          ]
+        },
+        "language": {
+          "title": "Language Skills",
+          "points": [
+            "English (mandatory)",
+            "Arabic speakers available",
+            "Hindi/Urdu speakers",
+            "Russian, French, Chinese on request"
+          ]
+        },
+        "security": {
+          "title": "Security & Discretion",
+          "points": [
+            "Background verified drivers",
+            "Confidentiality agreements",
+            "VIP protection training",
+            "Emergency response protocols"
+          ]
+        },
+        "technology": {
+          "title": "Technology Enabled",
+          "points": [
+            "GPS tracked vehicles",
+            "Real-time communication",
+            "Digital trip reports",
+            "Mobile app connectivity"
+          ]
+        }
+      },
+      "routes": {
+        "title": "Popular Chauffeur Routes",
+        "headers": [
+          "Route",
+          "Duration",
+          "Type",
+          "Price"
+        ],
+        "popular": [
+          {
+            "route": "Dubai Mall → Gold Souk → Dubai Marina",
+            "duration": "4 hours",
+            "type": "Shopping Tour",
+            "price": "AED 3,200"
+          },
+          {
+            "route": "Hotel → DIFC → Business Bay → Airport",
+            "duration": "6 hours",
+            "type": "Business Circuit",
+            "price": "AED 4,800"
+          },
+          {
+            "route": "Full Day Dubai Highlights Tour",
+            "duration": "10 hours",
+            "type": "Tourist Special",
+            "price": "AED 7,200"
+          },
+          {
+            "route": "Dubai → Abu Dhabi → Dubai",
+            "duration": "8 hours",
+            "type": "Inter-Emirate",
+            "price": "AED 8,000"
+          }
+        ],
+        "note": "* Prices include vehicle, chauffeur, fuel, and basic refreshments"
+      },
+      "process": {
+        "title": "How It Works",
+        "steps": [
+          {
+            "title": "Choose Your Service",
+            "description": "Select from hourly, daily, transfer, or event chauffeur services based on your needs"
+          },
+          {
+            "title": "Select Your Vehicle",
+            "description": "Choose from our fleet of Phantom, Ghost, Cullinan, Dawn, or Wraith"
+          },
+          {
+            "title": "Meet Your Chauffeur",
+            "description": "Your professional chauffeur arrives 10 minutes early, impeccably dressed and ready"
+          },
+          {
+            "title": "Enjoy the Journey",
+            "description": "Relax in ultimate luxury while your chauffeur handles everything"
+          }
+        ]
+      },
+      "testimonials": [
+        {
+          "name": "Maria Fernandez",
+          "role": "CEO, Fashion House",
+          "text": "Our chauffeur Ahmed was exceptional. Professional, punctual, and knew Dubai inside out. Made my business trip seamless.",
+          "service": "Daily Chauffeur"
+        },
+        {
+          "name": "Sheikh Mohammed",
+          "role": "Local Business Owner",
+          "text": "I use their hourly service regularly. The flexibility and professionalism are unmatched. Highly recommend!",
+          "service": "Hourly Service"
+        },
+        {
+          "name": "Alexandra Petrova",
+          "role": "Tourist from Russia",
+          "text": "Our Russian-speaking chauffeur made our Dubai vacation perfect. He was like a personal tour guide!",
+          "service": "Full Day Tour"
+        }
+      ],
+      "cta": {
+        "title": "Experience Elite Chauffeur Service",
+        "description": "Professional chauffeurs available 24/7. Book now and travel Dubai in unparalleled comfort and style.",
+        "callButton": "Call: +971 55 816 4922",
+        "bookButton": "Book Chauffeur Online",
+        "stats": {
+          "chauffeurs": "Professional Chauffeurs",
+          "clients": "EN / AR / RU",
+          "rating": "24/7 Availability"
+        }
+      }
+    }
+  }
+}

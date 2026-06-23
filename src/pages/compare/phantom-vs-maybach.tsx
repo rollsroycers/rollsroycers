@@ -518,7 +518,7 @@ const PhantomVsMaybach: React.FC = () => {
 export const getStaticProps: GetStaticProps = async ({ locale }) => {
   return {
     props: {
-      ...(await serverSideTranslations(locale ?? 'en', ['common', 'compare', 'comparecontent', 'seo'])),
+      ...(await serverSideTranslations(locale ?? 'en', ['common', 'compare', 'comparecontent', 'seo_compare'])),
     },
   };
 };

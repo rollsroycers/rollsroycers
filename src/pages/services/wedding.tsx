@@ -280,7 +280,7 @@ export default function WeddingServicePage() {
 export const getStaticProps: GetStaticProps = async ({ locale }) => {
   return {
     props: {
-      ...(await serverSideTranslations(locale || 'en', ['common', 'navigation', 'seo_services', 'sb_services-wedding', 'services', 'servicespages'])),
+      ...(await serverSideTranslations(locale || 'en', ['common', 'navigation', 'sb_services-wedding', 'seo_services', 'services', 'servicespages', 'sp_wedding'])),
     },
   }
 }

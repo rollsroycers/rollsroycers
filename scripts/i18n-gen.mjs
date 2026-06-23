@@ -10,6 +10,9 @@ const ROOT = '/Users/ahmedsalem/Desktop/all my projects/rollsroycers.com'
 const seoblocks = JSON.parse(readFileSync('/tmp/seoblock-list.json', 'utf8'))
 // [ns, file, inFallbackNS]
 const SEO_SECTIONS = ['home', 'fleet', 'services', 'locations', 'compare', 'other']
+const SERVICES = ['corporate', 'wedding', 'airportTransfer', 'chauffeur', 'events', 'photoshoot', 'tours']
+const MODELS = ['phantom', 'ghost', 'cullinan', 'dawn', 'wraith', 'spectre']
+const LOCS = ['downtown', 'dubaiMarina', 'jbr', 'businessBay', 'difc', 'palmJumeirah']
 const MANIFEST = [
   ['common', 'common.json', true],
   ...SEO_SECTIONS.map((s) => ['seo_' + s, 'seo/' + s + '.json', true]),
@@ -20,10 +23,16 @@ const MANIFEST = [
   ['compare', 'compare.json', false],
   ['footer', 'footer.json', false],
   ['pages', 'pages.json', false],
-  ['fleetcontent', 'fleet-content.json', true],
-  ['loccontent', 'locations-content.json', true],
-  ['comparecontent', 'compare-content.json', true],
+  // C3: per-service (sp_* BEFORE servicespages so real service content wins over stale common dups)
+  ...SERVICES.map((s) => ['sp_' + s, 'services-pages/' + s + '.json', true]),
   ['servicespages', 'services-pages.json', true],
+  // C3: per-model fleet + shared
+  ...MODELS.map((m) => ['fc_' + m, 'fleet/' + m + '.json', true]),
+  ['fc_shared', 'fleet/_shared.json', true],
+  // C3: per-location + shared
+  ...LOCS.map((x) => ['lc_' + x, 'locations/' + x + '.json', true]),
+  ['lc_shared', 'locations/_shared.json', true],
+  ['comparecontent', 'compare-content.json', true],
   ['page_about', 'pages/about.json', true],
   ['page_blog', 'pages/blog.json', true],
   ['page_faq', 'pages/faq.json', true],
@@ -153,5 +162,35 @@ for (const f of pageFiles(PAGES_DIR)) {
   }
   if (next !== src) { writeFileSync(f, next); seoRepointed++ }
 }
-console.log(`namespaces: ${MANIFEST.length} | fallbackNS: ${fallbackNS.length} | seoblocks pages: ${repointed} | seo pages repointed: ${seoRepointed}`)
+// --- (5) C3: repoint fleetcontent/loccontent to per-item ns, add sp_<svc> to service pages ---
+const FC_ALL = [...MODELS.map((m) => 'fc_' + m), 'fc_shared']
+const LC_ALL = [...LOCS.map((x) => 'lc_' + x), 'lc_shared']
+const FLEET_PAGE = { 'fleet/phantom': ['fc_phantom'], 'fleet/ghost': ['fc_ghost'], 'fleet/cullinan': ['fc_cullinan'], 'fleet/dawn': ['fc_dawn'], 'fleet/wraith': ['fc_wraith'], 'fleet/spectre': ['fc_spectre'] }
+const FLEET_ALL_PAGES = ['index', 'fleet', 'booking']
+const LOC_PAGE = { 'locations/downtown-dubai': ['lc_downtown'], 'locations/dubai-marina': ['lc_dubaiMarina'], 'locations/jbr': ['lc_jbr'], 'locations/business-bay': ['lc_businessBay'], 'locations/difc': ['lc_difc'], 'locations/palm-jumeirah': ['lc_palmJumeirah'] }
+const LOC_SHARED_PAGE = ['locations/jumeirah', 'locations/deira'] // use jumeirahPage/deiraPage in lc_shared
+const LOC_ALL_PAGES = ['locations']
+const SVC_PAGE = { 'services/wedding': 'wedding', 'services/corporate': 'corporate', 'services/airport-transfer': 'airportTransfer', 'services/chauffeur': 'chauffeur', 'services/events': 'events', 'services/photoshoot': 'photoshoot', 'services/tours': 'tours' }
+
+const fcFor = (r) => FLEET_PAGE[r] ? [...FLEET_PAGE[r], 'fc_shared'] : FLEET_ALL_PAGES.includes(r) ? FC_ALL : null
+const lcFor = (r) => LOC_PAGE[r] ? [...LOC_PAGE[r], 'lc_shared'] : LOC_SHARED_PAGE.includes(r) ? ['lc_shared'] : LOC_ALL_PAGES.includes(r) ? LC_ALL : null
+let c3 = 0
+for (const f of pageFiles(PAGES_DIR)) {
+  let src = readFileSync(f, 'utf8')
+  const m = src.match(/serverSideTranslations\(\s*[^,]+,\s*\[([^\]]*)\]/)
+  if (!m) continue
+  const route = f.replace(PAGES_DIR + '/', '').replace(/\.tsx$/, '')
+  let nsList = m[1].split(',').map((s) => s.trim().replace(/['"]/g, '')).filter(Boolean)
+  const before = nsList.join(',')
+  if (nsList.includes('fleetcontent')) { nsList = nsList.filter((n) => n !== 'fleetcontent'); const add = fcFor(route) || FC_ALL; nsList.push(...add) }
+  if (nsList.includes('loccontent')) { nsList = nsList.filter((n) => n !== 'loccontent'); const add = lcFor(route) || LC_ALL; nsList.push(...add) }
+  if (SVC_PAGE[route]) nsList.push('sp_' + SVC_PAGE[route])
+  nsList = [...new Set(nsList)].sort((a, b) => (a === 'common' ? -1 : b === 'common' ? 1 : a.localeCompare(b)))
+  if (nsList.join(',') !== before) {
+    const arr = '[' + nsList.map((n) => `'${n}'`).join(', ') + ']'
+    src = src.replace(/(serverSideTranslations\(\s*[^,]+,\s*)\[[^\]]*\]/, `$1${arr}`)
+    writeFileSync(f, src); c3++
+  }
+}
+console.log(`namespaces: ${MANIFEST.length} | fallbackNS: ${fallbackNS.length} | seo pages: ${seoRepointed} | C3 pages repointed: ${c3}`)
 console.log('fallbackNS:', fbLiteral)

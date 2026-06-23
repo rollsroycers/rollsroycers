@@ -1,0 +1,186 @@
+{
+  "locations": {
+    "dubaiMarina": {
+      "nav": "Dubai Marina",
+      "hero": {
+        "title": "Dubai Marina",
+        "subtitle": "Waterfront Luxury Living",
+        "bookButton": "Book Your Ride",
+        "callButton": "Call Now",
+        "freeDelivery": "Free Marina Delivery",
+        "deliveryTime": "5-minute arrival",
+        "vipConcierge": "VIP Concierge Service"
+      },
+      "stats": {
+        "monthlyDeliveries": "400+",
+        "monthlyDeliveriesLabel": "Monthly Marina Deliveries",
+        "responseTime": "3 min",
+        "responseTimeLabel": "Average Response Time",
+        "beachClubs": "15+",
+        "beachClubsLabel": "Partner Beach Clubs",
+        "satisfaction": "4.9/5",
+        "satisfactionLabel": "Guest Satisfaction"
+      },
+      "whyChoose": {
+        "title": "Why Choose Dubai Marina",
+        "beachside": {
+          "title": "Beachside Location",
+          "description": "Direct access to pristine beaches and waterfront dining"
+        },
+        "nightlife": {
+          "title": "Vibrant Nightlife",
+          "description": "Premier entertainment district with world-class venues"
+        },
+        "yacht": {
+          "title": "Yacht Club Access",
+          "description": "Exclusive access to luxury yacht clubs and marinas"
+        }
+      },
+      "experiences": {
+        "title": "Exclusive Marina Experiences",
+        "subtitle": "Curated luxury experiences in Dubai's premier waterfront district",
+        "bookExperience": "Book Experience",
+        "sunset": {
+          "title": "Sunset Marina Cruise",
+          "description": "Arrive in style for a luxury yacht experience with Rolls-Royce transfers",
+          "duration": "4 hours",
+          "price": "From AED 8,500",
+          "highlights": [
+            "Rolls-Royce Marina pickup",
+            "VIP yacht boarding",
+            "Sunset cruise with gourmet dining",
+            "Return transfer to your destination"
+          ]
+        },
+        "beachClub": {
+          "title": "Elite Beach Club Circuit",
+          "description": "VIP access to Marina's most exclusive beach clubs with luxury transport",
+          "duration": "Full day",
+          "price": "From AED 6,500",
+          "highlights": [
+            "Skip-the-line club access",
+            "Reserved premium cabanas",
+            "Chauffeur standby service",
+            "Multiple venue transfers"
+          ]
+        },
+        "dining": {
+          "title": "Waterfront Dining Experience",
+          "description": "Michelin-starred dining tour along Dubai Marina's finest restaurants",
+          "duration": "Evening",
+          "price": "From AED 7,200",
+          "highlights": [
+            "Restaurant valet service",
+            "Chef's table reservations",
+            "Wine pairing experiences",
+            "Late-night luxury transport"
+          ]
+        }
+      },
+      "beachClubs": {
+        "title": "Partner Beach Clubs & Venues",
+        "subtitle": "Exclusive access and VIP treatment at Marina's finest establishments",
+        "clubs": [
+          {
+            "name": "Zero Gravity",
+            "type": "Premium Beach Club",
+            "feature": "VIP Cabana Access",
+            "distance": "2 min"
+          },
+          {
+            "name": "Barasti Beach",
+            "type": "Beachfront Bar",
+            "feature": "Direct Valet Service",
+            "distance": "3 min"
+          },
+          {
+            "name": "Azure Beach",
+            "type": "Day Club",
+            "feature": "Reserved VIP Parking",
+            "distance": "5 min"
+          },
+          {
+            "name": "Cove Beach",
+            "type": "Luxury Beach Club",
+            "feature": "Private Entrance",
+            "distance": "7 min"
+          }
+        ]
+      },
+      "deliveryLocations": {
+        "title": "Free Delivery Locations",
+        "additional": "And many more locations throughout Dubai Marina"
+      },
+      "popularRoutes": {
+        "title": "Popular Marina Routes",
+        "distance": "Distance",
+        "duration": "Duration",
+        "highlights": "Highlights",
+        "coastal": {
+          "name": "Coastal Drive",
+          "description": "Scenic waterfront route along Dubai's coastline",
+          "highlights": [
+            "JBR Beach views",
+            "Ain Dubai experience",
+            "Marina skyline"
+          ]
+        },
+        "city": {
+          "name": "City Connection",
+          "description": "Connect Marina to downtown Dubai's main attractions",
+          "highlights": [
+            "Burj Khalifa visit",
+            "Dubai Mall shopping",
+            "Downtown dining"
+          ]
+        },
+        "shopping": {
+          "name": "Shopping Circuit",
+          "description": "Visit Dubai's premier shopping destinations",
+          "highlights": [
+            "Marina Mall",
+            "Mall of Emirates",
+            "Ibn Battuta Mall"
+          ]
+        }
+      },
+      "nearbyAttractions": {
+        "title": "Nearby Attractions",
+        "attraction": "Attraction",
+        "distance": "Distance",
+        "type": "Type"
+      },
+      "testimonials": {
+        "title": "Client Experiences",
+        "rented": "Rented",
+        "sarah": {
+          "location": "Marina Resident",
+          "text": "Perfect for our evening at Zero Gravity. The Phantom made quite an impression when we arrived.",
+          "car": "Phantom"
+        },
+        "james": {
+          "location": "JBR Visitor",
+          "text": "Amazing service! The Ghost was ideal for our beach day, and the chauffeur knew all the best spots.",
+          "car": "Ghost"
+        },
+        "fatima": {
+          "location": "Yacht Club Guest",
+          "text": "Arrived at the yacht club in style with the Cullinan. The VIP treatment was exceptional.",
+          "car": "Cullinan"
+        }
+      },
+      "fleet": {
+        "title": "Our Marina Fleet"
+      },
+      "cta": {
+        "title": "Experience Marina Life in Luxury",
+        "subtitle": "Book your Rolls-Royce for the ultimate Dubai Marina experience",
+        "callButton": "Call Now",
+        "bookButton": "Book Online",
+        "pickupPoint": "Marina Pickup Point",
+        "pickupLocation": "Dubai Marina Walk, Building 6, Ground Floor",
+        "gps": "GPS: 25.0657, 55.1713"
+      }
+    }
+  }
+}

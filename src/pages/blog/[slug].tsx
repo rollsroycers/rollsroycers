@@ -3772,7 +3772,7 @@ export const getStaticProps: GetStaticProps = async ({ params, locale }) => {
   
   return {
     props: {
-      ...(await serverSideTranslations(currentLocale, ["common","seo_other","navigation"])),
+      ...(await serverSideTranslations(currentLocale, ['common', 'navigation', 'seo_other'])),
       article: article ? JSON.parse(JSON.stringify(article)) : null,
       relatedArticlesData,
     },

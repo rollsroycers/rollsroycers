@@ -447,7 +447,7 @@ export default function DawnPage() {
 export const getStaticProps: GetStaticProps = async ({ locale }) => {
   return {
     props: {
-      ...(await serverSideTranslations(locale || 'en', ['common', 'comparecontent', 'fleet', 'fleetcontent', 'navigation', 'seo_fleet', 'sb_fleet-dawn'])),
+      ...(await serverSideTranslations(locale || 'en', ['common', 'comparecontent', 'fc_dawn', 'fc_shared', 'fleet', 'navigation', 'sb_fleet-dawn', 'seo_fleet'])),
     },
   }
 }

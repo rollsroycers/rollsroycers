@@ -1,0 +1,211 @@
+{
+  "fleet": {
+    "ghost": {
+      "name": "Rolls-Royce Ghost",
+      "description": "The epitome of minimalist luxury and cutting-edge technology.",
+      "subtitle": "Post Opulence. The Essence of Simplicity",
+      "heroButtons": {
+        "reserve": "Reserve Ghost Now",
+        "business": "Business Solutions"
+      },
+      "highlights": {
+        "acceleration": "4.8s to 100km/h",
+        "quiet": "Whisper Quiet",
+        "engine": "563 HP V12"
+      },
+      "tabs": {
+        "overview": "Overview",
+        "specifications": "Specifications",
+        "business": "Business",
+        "gallery": "Gallery",
+        "booking": "Booking"
+      },
+      "features": [
+        {
+          "icon": "🔇",
+          "title": "Planar Suspension System",
+          "desc": "Revolutionary suspension technology delivering unparalleled ride quality."
+        },
+        {
+          "icon": "💎",
+          "title": "Illuminated Fascia",
+          "desc": "Stunning starlight effect with 850+ individual stars creating ethereal ambiance."
+        },
+        {
+          "icon": "🎭",
+          "title": "Micro-Environment",
+          "desc": "Advanced air purification system creating a sanctuary within the cabin."
+        },
+        {
+          "icon": "🌟",
+          "title": "Bespoke Audio Excellence",
+          "desc": "Concert-hall acoustics with crystalline clarity for immersive experience."
+        }
+      ],
+      "images": {
+        "blackAlt": "Rolls-Royce Ghost in sophisticated black finish in Dubai",
+        "chauffeurAlt": "Professional chauffeur with Rolls-Royce Ghost",
+        "interiorAlt": "Luxurious handcrafted interior of the Ghost",
+        "frontGrilleAlt": "Iconic Spirit of Ecstasy and front grille",
+        "interiorExcellenceAlt": "Ghost interior showcasing minimalist luxury"
+      },
+      "specs": {
+        "performance": {
+          "engine": {
+            "label": "Engine",
+            "value": "6.75L Twin-Turbocharged V12"
+          },
+          "power": {
+            "label": "Power Output",
+            "value": "563 hp @ 5,000 rpm"
+          },
+          "torque": {
+            "label": "Torque",
+            "value": "850 Nm @ 1,600 rpm"
+          },
+          "acceleration": {
+            "label": "0-100 km/h",
+            "value": "4.8 seconds"
+          },
+          "topSpeed": {
+            "label": "Top Speed",
+            "value": "250 km/h (limited)"
+          }
+        },
+        "dimensions": {
+          "length": {
+            "label": "Length",
+            "value": "5,546 mm"
+          },
+          "width": {
+            "label": "Width",
+            "value": "2,148 mm"
+          },
+          "height": {
+            "label": "Height",
+            "value": "1,571 mm"
+          },
+          "wheelbase": {
+            "label": "Wheelbase",
+            "value": "3,295 mm"
+          },
+          "seating": {
+            "label": "Seating",
+            "value": "4-5 passengers"
+          }
+        },
+        "technology": [
+          "Satellite Aided Transmission",
+          "Micro-Environment Purification System",
+          "Illuminated Fascia with 850+ Stars",
+          "Planar Suspension Technology",
+          "Bespoke Audio System"
+        ],
+        "title": "Ghost Specifications",
+        "performanceTitle": "Performance",
+        "dimensionsTitle": "Dimensions",
+        "technologyTitle": "Technology"
+      },
+      "rentalPackages": {
+        "daily": {
+          "duration": "Daily Rental",
+          "price": "AED 3,800",
+          "includes": [
+            "250km mileage",
+            "Insurance",
+            "24/7 Support"
+          ]
+        },
+        "weekend": {
+          "duration": "Weekend Package",
+          "price": "AED 7,200",
+          "includes": [
+            "500km mileage",
+            "Full Insurance",
+            "VIP Concierge"
+          ]
+        },
+        "weekly": {
+          "duration": "Weekly Rental",
+          "price": "AED 25,000",
+          "includes": [
+            "1500km mileage",
+            "Full Insurance",
+            "Dedicated Manager"
+          ]
+        },
+        "monthly": {
+          "duration": "Monthly Rental",
+          "price": "Contact Us",
+          "includes": [
+            "Unlimited Mileage",
+            "Full Maintenance",
+            "Custom Terms"
+          ]
+        }
+      },
+      "businessFeatures": {
+        "excellence": {
+          "title": "Corporate Excellence",
+          "description": "The Ghost is the definitive choice for executives who demand sophistication and performance."
+        },
+        "quiet": {
+          "title": "Whisper-Quiet Cabin",
+          "description": "Conduct meetings or relax in a serene environment, shielded from the city's hustle."
+        },
+        "connected": {
+          "title": "Always Connected",
+          "description": "With onboard Wi-Fi and advanced connectivity, the Ghost is your mobile office."
+        },
+        "safety": {
+          "title": "Uncompromised Safety",
+          "description": "Advanced driver-assistance systems ensure a safe and secure journey every time."
+        }
+      },
+      "overview": {
+        "title": "The Essence of Luxury Redefined",
+        "p1": "The Rolls-Royce Ghost represents a new chapter in luxury motoring with its minimalist 'Post Opulence' philosophy.",
+        "p2": "Perfect for Dubai's discerning executives, combining unparalleled tranquility with cutting-edge technology.",
+        "stat1": {
+          "value": "130db",
+          "label": "Quietest Cabin"
+        },
+        "stat2": {
+          "value": "100+",
+          "label": "Sound Deadening Materials"
+        }
+      },
+      "business": {
+        "title": "Ghost for Business Excellence",
+        "corporateSolutions": "Corporate Rental Solutions",
+        "executivePackage": {
+          "title": "Executive Business Package",
+          "features": [
+            "Dedicated account manager",
+            "Priority booking system",
+            "Corporate billing options",
+            "Volume discounts available"
+          ]
+        },
+        "vipServices": {
+          "title": "VIP Executive Services",
+          "features": [
+            "Professional airport meet & greet",
+            "Multilingual chauffeurs",
+            "Mobile office setup with Wi-Fi",
+            "24/7 concierge support"
+          ]
+        }
+      },
+      "gallery": {
+        "title": "Ghost Gallery - Minimalist Perfection"
+      },
+      "booking": {
+        "title": "Reserve Your Ghost Experience",
+        "readyToExperience": "Ready to Experience the Ghost?",
+        "callButton": "Call Now",
+        "bookOnlineButton": "Book Online"
+      }
+    }
+  }
+}

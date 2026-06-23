@@ -278,7 +278,7 @@ export default function JumeirahPage() {
 export const getStaticProps: GetStaticProps = async ({ locale }) => {
   return {
     props: {
-      ...(await serverSideTranslations(locale || 'en', ['common', 'loccontent', 'navigation', 'seo_locations'])),
+      ...(await serverSideTranslations(locale || 'en', ['common', 'lc_shared', 'navigation', 'seo_locations'])),
     },
   }
 }

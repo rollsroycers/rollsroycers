@@ -1,0 +1,229 @@
+{
+  "locations": {
+    "jbr": {
+      "nav": "JBR",
+      "hero": {
+        "title": "JBR Beach Luxury",
+        "subtitle": "Where Beach Life Meets Rolls-Royce Excellence",
+        "badge": "Dubai's Premier Beach Destination",
+        "cta": {
+          "book": "Book Beach Delivery",
+          "experiences": "Beach Experiences"
+        }
+      },
+      "whyChoose": {
+        "title": "Why Choose Rolls-Royce at JBR?",
+        "features": {
+          "beachfront": {
+            "title": "Beachfront Paradise",
+            "description": "Direct access to Dubai's most vibrant beach with premium parking at all venues"
+          },
+          "vip": {
+            "title": "Beach Club VIP",
+            "description": "Skip the lines at exclusive beach clubs with our VIP coordination service"
+          },
+          "sunset": {
+            "title": "Sunset Drives",
+            "description": "Experience magical sunset cruises along the beach boulevard in convertible luxury"
+          }
+        }
+      },
+      "stats": {
+        "deliveries": "Monthly JBR Deliveries",
+        "arrival": "Beach Arrival Time",
+        "service": "Beachside Service",
+        "rating": "Customer Rating"
+      },
+      "beachClubs": {
+        "title": "Direct Access to Premium Beach Clubs",
+        "clubs": {
+          "zeroGravity": {
+            "name": "Zero Gravity",
+            "type": "Beach Club",
+            "feature": "VIP Cabanas"
+          },
+          "nikki": {
+            "name": "Nikki Beach",
+            "type": "Luxury Beach Club",
+            "feature": "Valet Service"
+          },
+          "barasti": {
+            "name": "Barasti Beach",
+            "type": "Beach Bar",
+            "feature": "Direct Access"
+          },
+          "cove": {
+            "name": "Cove Beach",
+            "type": "Day Club",
+            "feature": "Reserved Parking"
+          },
+          "azure": {
+            "name": "Azure Beach",
+            "type": "Premium Beach",
+            "feature": "VIP Entrance"
+          },
+          "theBeach": {
+            "name": "The Beach at JBR",
+            "type": "Public Beach",
+            "feature": "Multiple Access Points"
+          }
+        }
+      },
+      "experiences": {
+        "title": "Exclusive JBR Experiences",
+        "sunset": {
+          "title": "Sunset Beach Drive",
+          "description": "Cruise along JBR beach during golden hour",
+          "highlights": [
+            "Perfect lighting for photos",
+            "Beach boulevard cruise",
+            "Stop at scenic viewpoints",
+            "Professional photography available"
+          ],
+          "bestCar": "Dawn Convertible",
+          "price": "From AED 7,000",
+          "cta": "Book Experience"
+        },
+        "beachClub": {
+          "title": "Beach Club Circuit",
+          "description": "VIP arrivals at Dubai's top beach clubs",
+          "highlights": [
+            "Skip-the-line access",
+            "Reserved VIP parking",
+            "Club table reservations",
+            "Chauffeur standby service"
+          ],
+          "bestCar": "Cullinan",
+          "price": "From AED 8,500",
+          "cta": "Book Experience"
+        },
+        "nightLife": {
+          "title": "Night Life Experience",
+          "description": "Evening entertainment in style",
+          "highlights": [
+            "Restaurant valet service",
+            "Bar hopping coordination",
+            "Late night chauffeur",
+            "Safe luxury transport"
+          ],
+          "bestCar": "Ghost",
+          "price": "From AED 6,200",
+          "cta": "Book Experience"
+        },
+        "recommended": "Recommended:"
+      },
+      "dining": {
+        "title": "Fine Dining Destinations",
+        "headers": {
+          "restaurant": "Restaurant",
+          "cuisine": "Cuisine",
+          "location": "Location"
+        },
+        "restaurants": {
+          "zuma": {
+            "name": "Zuma",
+            "cuisine": "Japanese",
+            "location": "DIFC (10 min)"
+          },
+          "laPetite": {
+            "name": "La Petite Maison",
+            "cuisine": "French",
+            "location": "Gate Village"
+          },
+          "stk": {
+            "name": "STK",
+            "cuisine": "Steakhouse",
+            "location": "JBR Walk"
+          },
+          "seafire": {
+            "name": "Seafire Steakhouse",
+            "cuisine": "American",
+            "location": "Atlantis (15 min)"
+          },
+          "ilBorro": {
+            "name": "Il Borro",
+            "cuisine": "Italian",
+            "location": "JBR"
+          },
+          "nobu": {
+            "name": "Nobu",
+            "cuisine": "Japanese Fusion",
+            "location": "Atlantis (15 min)"
+          }
+        },
+        "note": "Valet parking coordination at all premium restaurants"
+      },
+      "attractions": {
+        "title": "Explore Beyond JBR",
+        "list": {
+          "theWalk": {
+            "name": "The Walk JBR",
+            "distance": "On location",
+            "type": "Shopping & Dining"
+          },
+          "marina": {
+            "name": "Dubai Marina",
+            "distance": "5 minutes",
+            "type": "Waterfront District"
+          },
+          "ainDubai": {
+            "name": "Ain Dubai",
+            "distance": "10 minutes",
+            "type": "Observation Wheel"
+          },
+          "palm": {
+            "name": "Palm Jumeirah",
+            "distance": "15 minutes",
+            "type": "Iconic Island"
+          },
+          "skydive": {
+            "name": "Skydive Dubai",
+            "distance": "3 minutes",
+            "type": "Adventure Sport"
+          },
+          "marinaMall": {
+            "name": "Dubai Marina Mall",
+            "distance": "7 minutes",
+            "type": "Shopping"
+          }
+        }
+      },
+      "weather": {
+        "title": "Best Times for Beach Cruising"
+      },
+      "residential": {
+        "title": "JBR Tower Residents",
+        "description": "Complimentary delivery to all JBR residential towers including:",
+        "towers": [
+          "Amwaj Suites",
+          "Bahar Towers",
+          "Rimal Towers",
+          "Shams Towers",
+          "Murjan Towers",
+          "Sadaf Towers"
+        ],
+        "note": "+ All JBR towers with basement parking access"
+      },
+      "fleet": {
+        "title": "Choose Your Beach Companion"
+      },
+      "cta": {
+        "title": "Experience JBR in Rolls-Royce Style",
+        "subtitle": "From sunrise beach drives to sunset dinner arrivals, make every moment at JBR extraordinary",
+        "call": "Call JBR Team",
+        "book": "Book Online",
+        "pickupPoints": {
+          "title": "JBR Pickup Points",
+          "beach": {
+            "title": "Beach Access",
+            "location": "The Walk Main Entrance"
+          },
+          "tower": {
+            "title": "Tower Delivery",
+            "location": "All JBR Basement Parking"
+          }
+        }
+      }
+    }
+  }
+}

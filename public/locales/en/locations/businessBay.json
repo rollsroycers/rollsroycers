@@ -1,0 +1,154 @@
+{
+  "locations": {
+    "businessBay": {
+      "nav": "Business Bay",
+      "hero": {
+        "title": "Business Bay",
+        "subtitle": "Dubai's Premier Business District",
+        "badge": "Corporate Excellence Hub",
+        "cta": {
+          "book": "Book Executive Service",
+          "corporate": "Corporate Packages"
+        }
+      },
+      "whyHere": {
+        "title": "Why Business Bay?"
+      },
+      "advantages": {
+        "businessHub": {
+          "title": "Business Hub",
+          "description": "Central location with major corporations and financial institutions"
+        },
+        "connectivity": {
+          "title": "Prime Connectivity",
+          "description": "Direct access to DIFC, Downtown, and major highways"
+        },
+        "dining": {
+          "title": "Executive Dining",
+          "description": "World-class restaurants perfect for business meetings"
+        },
+        "hotels": {
+          "title": "Luxury Hotels",
+          "description": "Premium business hotels and conference facilities"
+        }
+      },
+      "towers": {
+        "title": "Major Business Towers",
+        "commercial": "Commercial Tower",
+        "mixedUse": "Mixed-Use Development",
+        "officeComplex": "Office Complex",
+        "businessHub": "Business Hub",
+        "businessCenter": "Business Center",
+        "note": "Free valet parking and building access at all major towers",
+        "features": {
+          "valetParking": "Complimentary valet parking",
+          "directAccess": "Direct building access",
+          "access247": "24/7 building access",
+          "vipEntrance": "VIP entrance service",
+          "basementParking": "Basement parking available",
+          "conciergeService": "Dedicated concierge service"
+        }
+      },
+      "services": {
+        "title": "Corporate Services",
+        "inquire": "Inquire Now",
+        "executive": {
+          "title": "Executive Transportation",
+          "description": "Daily transportation for C-suite executives and senior management",
+          "features": {
+            "morning": "Morning pickup service",
+            "evening": "Evening return service",
+            "flexible": "Flexible scheduling"
+          },
+          "price": "From AED 1,500/day"
+        },
+        "conference": {
+          "title": "Conference & Events",
+          "description": "Fleet services for business conferences and corporate events",
+          "features": {
+            "fleet": "Multiple vehicle coordination",
+            "chauffeurs": "Professional chauffeurs",
+            "vip": "VIP guest transportation"
+          },
+          "price": "From AED 2,000/event"
+        },
+        "monthly": {
+          "title": "Monthly Corporate",
+          "description": "Comprehensive monthly packages for businesses and executives",
+          "features": {
+            "dedicated": "Dedicated vehicle and chauffeur",
+            "account": "Corporate account management",
+            "priority": "Priority booking and service"
+          },
+          "price": "From AED 25,000/month"
+        }
+      },
+      "destinations": {
+        "title": "Key Business Destinations",
+        "header": {
+          "destination": "Destination",
+          "time": "Travel Time",
+          "purpose": "Business Purpose"
+        },
+        "dubaiMall": {
+          "distance": "8 minutes",
+          "purpose": "Client entertainment, luxury shopping"
+        },
+        "difc": {
+          "distance": "5 minutes",
+          "purpose": "Financial services, banking meetings"
+        },
+        "canal": {
+          "distance": "3 minutes",
+          "purpose": "Waterfront dining, business entertainment"
+        },
+        "laMer": {
+          "distance": "15 minutes",
+          "purpose": "Beach meetings, relaxed business dining"
+        },
+        "cityWalk": {
+          "distance": "10 minutes",
+          "purpose": "Retail partnerships, casual business meetings"
+        },
+        "airport": {
+          "distance": "20 minutes",
+          "purpose": "International client pickups, departures"
+        }
+      },
+      "benefits": {
+        "title": "Business Benefits",
+        "client": {
+          "title": "Client Impression",
+          "point1": "Arrive in style for important meetings",
+          "point2": "Create lasting impressions with luxury transport",
+          "point3": "Demonstrate success and attention to detail",
+          "point4": "Build trust through premium service standards"
+        },
+        "productivity": {
+          "title": "Executive Productivity",
+          "point1": "Work productively during commutes",
+          "point2": "Stress-free travel between meetings",
+          "point3": "Privacy for confidential calls",
+          "point4": "Punctual arrival for all appointments"
+        }
+      },
+      "testimonials": {
+        "title": "Corporate Testimonials"
+      },
+      "fleet": {
+        "title": "Corporate Fleet"
+      },
+      "cta": {
+        "title": "Elevate Your Business Presence",
+        "subtitle": "Join 200+ companies who trust us for executive transportation in Business Bay",
+        "call": "Call for Corporate Rates",
+        "packages": "View Corporate Packages"
+      },
+      "stats": {
+        "clients": "Corporate Clients",
+        "delivery": "Average Delivery",
+        "support": "Business Support"
+      }
+    }
+  }
+}

@@ -241,7 +241,7 @@ export default function HourlyRentalPage() {
 export const getStaticProps: GetStaticProps = async ({ locale }) => {
   return {
     props: {
-      ...(await serverSideTranslations(locale || 'en', ['common', 'navigation', 'seo_services', 'sb_services-hourly', 'services', 'servicespages'])),
+      ...(await serverSideTranslations(locale || 'en', ['common', 'navigation', 'sb_services-hourly', 'seo_services', 'services', 'servicespages'])),
     },
   }
 }

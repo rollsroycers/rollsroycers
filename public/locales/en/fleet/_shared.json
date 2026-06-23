@@ -1,0 +1,409 @@
+{
+  "fleet": {
+    "title": "Our Exclusive Fleet",
+    "subtitle": "Choose Your Rolls-Royce",
+    "aed": "AED",
+    "perDay": "/day",
+    "rentNow": "RENT NOW",
+    "from": "From",
+    "performance": "Performance",
+    "convertibleTech": "Convertible Technology",
+    "luxuryFeatures": "Luxury Features",
+    "virtualTourSpots": {
+      "phantom": [
+        {
+          "id": "dashboard",
+          "name": "Bespoke Dashboard",
+          "description": "Hand-crafted luxury at your fingertips",
+          "position": {
+            "x": 50,
+            "y": 60
+          },
+          "details": [
+            "Gallery wood veneer",
+            "Precision timepiece",
+            "Customizable ambient lighting",
+            "Gold-plated controls"
+          ]
+        },
+        {
+          "id": "starlight",
+          "name": "Starlight Headliner",
+          "description": "1,340 fiber optic lights creating a celestial scene",
+          "position": {
+            "x": 50,
+            "y": 20
+          },
+          "details": [
+            "Hand-woven constellation",
+            "Shooting star feature",
+            "Adjustable brightness",
+            "Bespoke patterns available"
+          ]
+        },
+        {
+          "id": "seats",
+          "name": "Lounge Seating",
+          "description": "Supreme comfort with massage functions",
+          "position": {
+            "x": 30,
+            "y": 70
+          },
+          "details": [
+            "Lambswool carpets",
+            "Heated & ventilated seats",
+            "10-point massage",
+            "Memory settings"
+          ]
+        },
+        {
+          "id": "spirit",
+          "name": "Spirit of Ecstasy",
+          "description": "The iconic symbol of luxury",
+          "position": {
+            "x": 70,
+            "y": 40
+          },
+          "details": [
+            "Retractable mechanism",
+            "Illuminated crystal",
+            "Anti-theft protection",
+            "Customizable finish"
+          ]
+        }
+      ],
+      "cullinan": [
+        {
+          "id": "steering-wheel",
+          "name": "Heated Steering Wheel",
+          "description": "Experience comfort in every touch with the heated, hand-stitched leather steering wheel.",
+          "position": {
+            "x": 50,
+            "y": 60
+          },
+          "details": [
+            "Full-grain leather",
+            "Multi-function controls",
+            "Adjustable temperature",
+            "Classic Rolls-Royce insignia"
+          ]
+        },
+        {
+          "id": "dashboard",
+          "name": "Glass-Fascia Dashboard",
+          "description": "A seamless digital display integrated behind a single pane of glass for a clean, modern aesthetic.",
+          "position": {
+            "x": 65,
+            "y": 45
+          },
+          "details": [
+            "12.3-inch digital instrument cluster",
+            "Central infotainment screen",
+            "Bespoke wood or carbon fibre trim",
+            "Spirit of Ecstasy clock"
+          ]
+        },
+        {
+          "id": "starlight-headliner",
+          "name": "Shooting Starlight Headliner",
+          "description": "An enchanting celestial canopy with dynamic shooting stars that arc across the roof.",
+          "position": {
+            "x": 50,
+            "y": 20
+          },
+          "details": [
+            "Over 1,600 fiber-optic lights",
+            "Eight randomly-sequenced shooting stars",
+            "Customizable constellations",
+            "Adjustable brightness and animation speed"
+          ]
+        }
+      ]
+    },
+    "cullinanBlackBadge": {
+      "name": "Cullinan Black Badge"
+    },
+    "ghostBlackBadge": {
+      "name": "Ghost Black Badge"
+    }
+  },
+  "fleetPage": {
+    "completeSpecs": "Complete Specifications",
+    "performance": "Performance",
+    "dimensions": "Dimensions",
+    "exclusiveFeatures": "Exclusive Features",
+    "technology": "Technology",
+    "compareFleet": "Compare Our Fleet",
+    "relatedServices": "Related Services",
+    "exploreModels": "Explore More Models",
+    "horsepower": "Horsepower",
+    "twinTurbo": "Twin-Turbo",
+    "perDay": "/day",
+    "blackBadgeLabel": "Black Badge",
+    "blackBadgeTagline": "The Alter Ego of Rolls-Royce",
+    "inquireBlackBadge": "Inquire About Black Badge",
+    "wraith": {
+      "heroTitle": "WRAITH",
+      "heroTagline": "The Most Powerful Rolls-Royce Ever",
+      "reserveBtn": "Reserve Wraith Now",
+      "exploreBlackBadge": "Explore Black Badge",
+      "discoverTitle": "Discover Wraith Excellence",
+      "tabs": {
+        "performance": "Performance",
+        "design": "Design",
+        "technology": "Technology",
+        "experience": "Experience"
+      },
+      "rentalTitle": "Wraith Rental Packages",
+      "tourTitle": "360° Wraith Tour",
+      "cta": {
+        "title": "Command the Most Powerful Rolls-Royce",
+        "description": "Experience the Wraith's perfect balance of luxury and performance. Book now for exclusive track day access.",
+        "callBtn": "Call: +971 55 816 4922",
+        "configureBtn": "Configure Your Wraith"
+      },
+      "relatedSubtitle": "Experience the Wraith with our premium services",
+      "services": {
+        "events": {
+          "title": "Events & Red Carpet",
+          "desc": "The Wraith's dramatic fastback silhouette makes it the ultimate statement car for galas and premieres."
+        },
+        "photoshoot": {
+          "title": "Photoshoot Service",
+          "desc": "The Wraith's Starlight Headliner and bold coupe lines are perfect for dramatic editorial and fashion shoots."
+        },
+        "chauffeur": {
+          "title": "Chauffeur Service",
+          "desc": "Professional chauffeur with the fastest Rolls-Royce. Hourly and daily packages available."
+        }
+      },
+      "models": {
+        "phantom": {
+          "price": "AED 5,800/day"
+        },
+        "ghost": {
+          "price": "AED 3,800/day"
+        },
+        "cullinan": {
+          "price": "AED 6,500/day"
+        },
+        "dawn": {
+          "price": "AED 5,500/day"
+        },
+        "spectre": {
+          "price": "AED 7,500/day"
+        }
+      }
+    },
+    "phantom": {
+      "relatedSubtitle": "Experience the Phantom with our premium services",
+      "services": {
+        "wedding": {
+          "title": "Wedding Service",
+          "desc": "The Phantom is the world's most prestigious wedding car. White Extended Wheelbase with floral decoration and red carpet."
+        },
+        "corporate": {
+          "title": "Corporate Service",
+          "desc": "Impress clients and VIPs with the flagship Phantom. Perfect for board-level transport and executive entertainment."
+        },
+        "airport": {
+          "title": "Airport Transfer",
+          "desc": "First-class airport arrival in the Phantom. Meet & greet at DXB with flight tracking and complimentary waiting."
+        }
+      },
+      "models": {
+        "ghost": {
+          "price": "AED 3,800/day"
+        },
+        "cullinan": {
+          "price": "AED 6,500/day"
+        },
+        "dawn": {
+          "price": "AED 5,500/day"
+        },
+        "wraith": {
+          "price": "AED 5,000/day"
+        },
+        "spectre": {
+          "price": "AED 7,500/day"
+        }
+      }
+    },
+    "ghost": {
+      "relatedSubtitle": "Experience the Ghost with our premium services",
+      "services": {
+        "corporate": {
+          "title": "Corporate Service",
+          "desc": "The Ghost is our #1 choice for executive transport and CEO transfers in DIFC & Business Bay."
+        },
+        "chauffeur": {
+          "title": "Chauffeur Service",
+          "desc": "Professional multilingual chauffeur with your Ghost rental. Hourly from AED 800."
+        },
+        "airport": {
+          "title": "Airport Transfer",
+          "desc": "VIP airport pickup in a Ghost. Meet & greet at DXB with flight tracking included."
+        }
+      },
+      "models": {
+        "phantom": {
+          "price": "AED 5,800/day"
+        },
+        "cullinan": {
+          "price": "AED 6,500/day"
+        },
+        "dawn": {
+          "price": "AED 5,500/day"
+        },
+        "wraith": {
+          "price": "AED 5,000/day"
+        },
+        "spectre": {
+          "price": "AED 7,500/day"
+        }
+      }
+    },
+    "cullinan": {
+      "relatedSubtitle": "Experience the Cullinan with our premium services",
+      "services": {
+        "tours": {
+          "title": "Desert Safari Tours",
+          "desc": "The Cullinan is the ultimate luxury SUV for desert adventures and scenic tours across the UAE."
+        },
+        "corporate": {
+          "title": "Corporate Service",
+          "desc": "Impress with the world's most luxurious SUV. Perfect for executive transport and VIP guests."
+        },
+        "chauffeur": {
+          "title": "Chauffeur Service",
+          "desc": "Professional chauffeur with the Cullinan. Spacious luxury for families and groups."
+        }
+      },
+      "models": {
+        "phantom": {
+          "price": "AED 5,800/day"
+        },
+        "ghost": {
+          "price": "AED 3,800/day"
+        },
+        "dawn": {
+          "price": "AED 5,500/day"
+        },
+        "wraith": {
+          "price": "AED 5,000/day"
+        },
+        "spectre": {
+          "price": "AED 7,500/day"
+        }
+      }
+    },
+    "dawn": {
+      "rentalTitle": "Dawn Rental Packages",
+      "tourTitle": "360° Dawn Experience",
+      "routesTitle": "Recommended Dubai Routes",
+      "routeLabels": {
+        "distance": "Distance",
+        "duration": "Duration",
+        "bestTime": "Best Time",
+        "highlights": "Highlights"
+      },
+      "cta": {
+        "title": "Feel the Dubai Breeze in a Dawn",
+        "description": "Book now and receive a complimentary sunset drive route map and professional photography session",
+        "callBtn": "Call: +971 55 816 4922",
+        "checkAvailability": "Check Availability"
+      },
+      "relatedSubtitle": "Experience the Dawn with our premium services",
+      "services": {
+        "photoshoot": {
+          "title": "Photoshoot Service",
+          "desc": "The Dawn's open-top elegance is perfect for fashion shoots and content creation along Dubai's coastline."
+        },
+        "tours": {
+          "title": "City Tours",
+          "desc": "Explore Dubai's stunning landmarks in the open-top Dawn. The ultimate sightseeing experience."
+        },
+        "wedding": {
+          "title": "Wedding Service",
+          "desc": "The Dawn convertible adds a magical open-air touch to wedding celebrations."
+        }
+      },
+      "models": {
+        "phantom": {
+          "price": "AED 5,800/day"
+        },
+        "ghost": {
+          "price": "AED 3,800/day"
+        },
+        "cullinan": {
+          "price": "AED 6,500/day"
+        },
+        "wraith": {
+          "price": "AED 5,000/day"
+        },
+        "spectre": {
+          "price": "AED 7,500/day"
+        }
+      }
+    },
+    "spectre": {
+      "relatedSubtitle": "Experience the Spectre with our premium services",
+      "services": {
+        "corporate": {
+          "title": "Corporate Service",
+          "desc": "Make a statement with the world's first ultra-luxury electric car. Perfect for eco-conscious executives."
+        },
+        "tours": {
+          "title": "Silent City Tours",
+          "desc": "Experience Dubai in whisper-silent luxury. The Spectre offers the quietest way to explore the city."
+        },
+        "chauffeur": {
+          "title": "Chauffeur Service",
+          "desc": "Professional chauffeur with the electric Spectre. Zero emissions, maximum luxury."
+        }
+      },
+      "models": {
+        "phantom": {
+          "price": "AED 5,800/day"
+        },
+        "ghost": {
+          "price": "AED 3,800/day"
+        },
+        "cullinan": {
+          "price": "AED 6,500/day"
+        },
+        "dawn": {
+          "price": "AED 5,500/day"
+        },
+        "wraith": {
+          "price": "AED 5,000/day"
+        }
+      }
+    }
+  },
+  "phantomPage": {
+    "heroSubtitle": "Experience the pinnacle of luxury with Dubai's most prestigious vehicle. The Phantom delivers an unparalleled combination of craftsmanship, technology, and comfort.",
+    "instantBooking": "Instant Booking",
+    "freeCancellation": "Free Cancellation",
+    "bestPriceGuarantee": "Best Price Guarantee",
+    "happyClients": "Happy Clients",
+    "googleRating": "Google Rating",
+    "support": "Support",
+    "deliveryTime": "Delivery Time",
+    "since2010": "24/7",
+    "inBusiness": "In Business",
+    "pricingTitle": "Transparent Pricing & Instant Availability",
+    "kmIncluded250": "250km included",
+    "kmIncluded1750": "1,750km included",
+    "kmIncluded5000": "5,000km included",
+    "mostPopular": "MOST POPULAR",
+    "availableNow": "Available Now - Instant Confirmation",
+    "checkAvailability": "Check Real-Time Availability",
+    "insuranceIncluded": "Insurance Included",
+    "vatIncluded": "VAT Included",
+    "noHiddenFees": "No Hidden Fees",
+    "freeDelivery": "Free Delivery",
+    "featuresSubtitle": "Every detail crafted to perfection, every feature designed for your ultimate comfort",
+    "chatPhone": "Chat: +971 55 816 4922"
+  }
+}

@@ -399,7 +399,7 @@ export default function CullinanPage() {
 export const getStaticProps: GetStaticProps = async ({ locale }) => {
   return {
     props: {
-      ...(await serverSideTranslations(locale || 'en', ['common', 'comparecontent', 'fleet', 'fleetcontent', 'navigation', 'page_booking', 'seo_fleet', 'sb_fleet-cullinan'])),
+      ...(await serverSideTranslations(locale || 'en', ['common', 'comparecontent', 'fc_cullinan', 'fc_shared', 'fleet', 'navigation', 'page_booking', 'sb_fleet-cullinan', 'seo_fleet'])),
     },
   }
 }
