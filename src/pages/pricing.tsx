@@ -626,7 +626,7 @@ export default function PricingPage() {
 export const getStaticProps: GetStaticProps = async ({ locale }) => {
   return {
     props: {
-      ...(await serverSideTranslations(locale || 'en', ['common', 'navigation', 'page_pricing', 'seo', 'seoblocks'])),
+      ...(await serverSideTranslations(locale || 'en', ['common', 'navigation', 'page_pricing', 'seo', 'sb_pricing'])),
     },
   }
 }

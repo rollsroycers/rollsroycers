@@ -1,0 +1,58 @@
+{
+  "seoBlocks": {
+    "luxury-car-rental-dubai": {
+      "heading": "Luxury Car Rental in Dubai: The Rolls-Royce Fleet at Its Pinnacle",
+      "quickAnswer": "Rolls-Royce Dubai offers VIP luxury car rental led by its Rolls-Royce fleet from AED 3,800/day — chauffeur-driven or self-drive, with free delivery across Dubai.",
+      "keyFacts": [
+        "VIP fleet led by Rolls-Royce: Ghost AED 3,800, Wraith 5,000, Dawn 5,500, Phantom 5,800, Cullinan 6,500 and electric Spectre 7,500 per day; hourly from AED 800 (2-hour minimum), with weekly and monthly rates.",
+        "Available chauffeur-driven or self-drive (for qualifying renters), with free delivery anywhere in Dubai and 24/7 multilingual booking in English, Arabic and Russian.",
+        "Covers weddings, airport transfers (DXB & DWC meet & greet), corporate, events, photoshoots and city tours across Downtown, Dubai Marina, Palm Jumeirah, JBR, Business Bay and DIFC.",
+        "Book 24/7 via WhatsApp +971 55 816 4922 or info@rollsroycers.com; operated by Naqra FZE (Sharjah Publishing City Free Zone, License 4425576.01)."
+      ],
+      "body": [
+        "Looking for luxury car rental in Dubai? We put a curated Rolls-Royce fleet at the top of the lineup, from the Ghost at AED 3,800/day to the all-electric Spectre at AED 7,500/day. Every booking includes a professional chauffeur and free delivery anywhere in Dubai, so your car arrives ready at your villa, hotel, or Downtown address.",
+        "Whether you need an arrival at Dubai International Airport, a statement entrance on Sheikh Zayed Road, or a refined ride through Palm Jumeirah and DIFC, our team tailors the experience to the occasion. Book in minutes over 24/7 WhatsApp with multilingual support, and reserve the Phantom, Cullinan, or Dawn for weddings, business, and special events."
+      ],
+      "faqs": [
+        {
+          "question": "How much does luxury car rental in Dubai cost per day?",
+          "answer": "Our luxury fleet starts at AED 3,800/day for a Rolls-Royce Ghost, with the Phantom at 5,800, Dawn 5,500, Wraith 5,000, Cullinan 6,500 and Spectre 7,500. Prices include free delivery within Dubai; chauffeur service is available on request."
+        },
+        {
+          "question": "What is the cheapest luxury car to rent in Dubai?",
+          "answer": "Among our flagship fleet, the Rolls-Royce Ghost is the most affordable entry into true luxury at AED 3,800/day. For multi-day or weekly hires, contact us on WhatsApp at +971 55 816 4922 for the best available rate."
+        },
+        {
+          "question": "Can I rent a luxury car in Dubai with a driver?",
+          "answer": "Yes. Every car can be booked with a professional chauffeur or as a self-drive rental. Chauffeur-driven hire is popular for weddings, corporate VIP transfers and airport pick-ups across Dubai."
+        },
+        {
+          "question": "Do you deliver the luxury car to my hotel or the airport?",
+          "answer": "Yes. We offer free delivery and collection across Dubai, including Dubai Marina, Downtown, Palm Jumeirah and Dubai International Airport (DXB). Just share your location when you book."
+        },
+        {
+          "question": "What do I need to rent a luxury car in Dubai as a tourist?",
+          "answer": "Tourists need a valid passport, a home-country driving licence with an International Driving Permit, and a credit card for the security deposit. Our team confirms all requirements over WhatsApp before delivery."
+        }
+      ],
+      "related": [
+        {
+          "label": "View the full pricing list",
+          "href": "/pricing"
+        },
+        {
+          "label": "Rolls-Royce Phantom",
+          "href": "/fleet/phantom"
+        },
+        {
+          "label": "Rolls-Royce Cullinan SUV",
+          "href": "/fleet/cullinan"
+        },
+        {
+          "label": "Airport transfer service",
+          "href": "/services/airport-transfer"
+        }
+      ]
+    }
+  }
+}
