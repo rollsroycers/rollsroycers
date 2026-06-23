@@ -164,11 +164,9 @@ export default function SEO({ pageKey, title: titleProp, description: descriptio
           }
         },
         "sameAs": [
-          "https://www.facebook.com/rollsroycersdubai",
-          "https://www.instagram.com/rollsroycersdubai",
-          "https://twitter.com/rollsroycersdxb",
-          "https://www.linkedin.com/company/rollsroycersdubai",
-          "https://www.youtube.com/rollsroycersdubai"
+          "https://facebook.com/rollsroycers",
+          "https://instagram.com/rollsroycers",
+          "https://youtube.com/rollsroycers"
         ],
         "brand": { "@id": `${baseUrl}/#rolls-royce-brand` },
         "slogan": "Rent a Rolls-Royce in Dubai — chauffeur or self-drive, free delivery, 24/7.",
@@ -401,8 +399,8 @@ export default function SEO({ pageKey, title: titleProp, description: descriptio
       <meta property="twitter:title" content={title} />
       <meta property="twitter:description" content={description} />
       <meta property="twitter:image" content={`${baseUrl}/images/Rolls-royce-official.jpg`} />
-      <meta property="twitter:site" content="@rollsroycersdxb" />
-      
+      {/* twitter:site omitted — no confirmed X/Twitter account (footer lists only FB/IG/YouTube) */}
+
       {/* Additional SEO Tags */}
       <meta name="robots" content={noindex ? 'noindex, follow' : 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1'} />
       <meta name="googlebot" content={noindex ? 'noindex, follow' : 'index, follow'} />

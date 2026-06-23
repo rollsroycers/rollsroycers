@@ -87,11 +87,9 @@ export default function EntitySchema({
     // disallowed by Google for rich results and the count was unverifiable. Re-add
     // ONLY with real, individually-listed Review objects whose count matches.
     "sameAs": [
-      "https://www.facebook.com/rollsroycersdubai",
-      "https://www.instagram.com/rollsroycersdubai",
-      "https://twitter.com/rollsroycersdxb",
-      "https://www.linkedin.com/company/rollsroycersdubai",
-      "https://www.youtube.com/rollsroycersdubai"
+      "https://facebook.com/rollsroycers",
+      "https://instagram.com/rollsroycers",
+      "https://youtube.com/rollsroycers"
     ],
     "hasOfferCatalog": {
       "@type": "OfferCatalog",
