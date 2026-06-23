@@ -1,0 +1,109 @@
+{
+  "booking": {
+    "title": "Complete Your Booking",
+    "hero": {
+      "title": "Book Your Rolls-Royce",
+      "subtitle": "Reserve Your Luxury Experience Online"
+    },
+    "steps": {
+      "step": "Step",
+      "vehicle": "Choose Vehicle",
+      "service": "Select Service",
+      "dates": "Pick Dates",
+      "confirm": "Confirm Details"
+    },
+    "vehicleSelection": {
+      "title": "1. Choose Your Vehicle",
+      "viewDetails": "View detailed vehicle information →"
+    },
+    "vehicles": {
+      "phantom": "Rolls-Royce Phantom",
+      "ghost": "Rolls-Royce Ghost",
+      "cullinan": "Rolls-Royce Cullinan",
+      "dawn": "Rolls-Royce Dawn",
+      "wraith": "Rolls-Royce Wraith"
+    },
+    "serviceSelection": {
+      "title": "2. Select Service Type"
+    },
+    "services": {
+      "selfDrive": {
+        "name": "Self Drive",
+        "description": "Drive yourself in luxury"
+      },
+      "chauffeur": {
+        "name": "With Chauffeur",
+        "description": "Professional driver included"
+      },
+      "hourly": {
+        "name": "Hourly Rental",
+        "description": "Flexible hourly packages"
+      },
+      "wedding": {
+        "name": "Wedding Service",
+        "description": "Special occasion package"
+      },
+      "corporate": {
+        "name": "Corporate",
+        "description": "Business solutions"
+      }
+    },
+    "locationDates": {
+      "title": "3. Pickup & Return Details",
+      "pickupLocation": "Pickup Location",
+      "selectLocation": "Select Location",
+      "pickupDateTime": "Pickup Date & Time",
+      "returnLocation": "Return Location",
+      "sameAsPickup": "Same as pickup",
+      "returnDateTime": "Return Date & Time"
+    },
+    "locations": {
+      "downtownDubai": "Downtown Dubai",
+      "dubaiMarina": "Dubai Marina",
+      "palmJumeirah": "Palm Jumeirah",
+      "businessBay": "Business Bay",
+      "jbr": "JBR",
+      "difc": "DIFC",
+      "dxbAirport": "Dubai International Airport (DXB)",
+      "dwcAirport": "Al Maktoum Airport (DWC)",
+      "hotelPickup": "Hotel Pickup",
+      "customLocation": "Custom Location"
+    },
+    "personalInfo": {
+      "title": "4. Your Information",
+      "nationality": "Nationality",
+      "specialRequests": "Any special requirements or requests..."
+    },
+    "submit": {
+      "button": "Proceed to Payment",
+      "redirect": "You will be redirected to secure payment gateway"
+    },
+    "availability": {
+      "title": "Check Vehicle Availability"
+    },
+    "calculator": {
+      "title": "Calculate Your Rental Cost"
+    },
+    "requirements": {
+      "title": "Rental Requirements",
+      "items": {
+        "license": "Valid UAE driving license or international permit",
+        "age": "Minimum age 25 years",
+        "credit": "Credit card for security deposit",
+        "passport": "Passport and visa copy",
+        "residence": "Proof of residence or hotel booking"
+      },
+      "viewTerms": "View complete terms and conditions →"
+    },
+    "phoneBooking": {
+      "title": "Prefer to Book by Phone?",
+      "description": "Our booking specialists are available 24/7 to assist you with your reservation",
+      "callButton": "Call: +971 55 816 4922",
+      "whatsappButton": "WhatsApp Booking"
+    },
+    "placeholders": {
+      "johnDoe": "John Doe",
+      "country": "Country/Nationality"
+    }
+  }
+}

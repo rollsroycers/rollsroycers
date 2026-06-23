@@ -1,0 +1,145 @@
+{
+  "terms": {
+    "hero": {
+      "title": "Terms and Conditions",
+      "lastUpdated": "Last updated: January 1, 2026"
+    },
+    "introduction": "Welcome to Rolls-Royce Dubai. These Terms and Conditions set forth the rules and regulations for the use of our luxury car rental services. By accessing our services and renting a vehicle, you accept these Terms and Conditions in full. If you disagree with any part of these terms, please do not use our services.",
+    "lastUpdated": "January 1, 2026",
+    "sections": {
+      "rentalAgreement": {
+        "title": "1. Rental Agreement",
+        "content": [
+          "Rental period begins upon vehicle delivery or pickup.",
+          "Extensions must be agreed upon 24 hours in advance.",
+          "Early return is subject to full rental period charges.",
+          "All rentals require signed agreement and valid documents."
+        ]
+      },
+      "driverRequirements": {
+        "title": "2. Driver Requirements",
+        "content": [
+          "Minimum age of 25 years for all luxury vehicles.",
+          "Valid UAE driving license or international driving license required.",
+          "Clean driving record with no major violations in the past 3 years.",
+          "Additional drivers must be pre-approved and meet all requirements."
+        ]
+      },
+      "securityDeposit": {
+        "title": "3. Security Deposit",
+        "content": [
+          "Security deposit of AED 10,000-25,000 depending on vehicle model.",
+          "Deposit is fully refundable upon safe return of vehicle.",
+          "Deposit refund processing time is 14-21 business days.",
+          "Deposit covers minor damages and traffic fines."
+        ]
+      },
+      "insuranceCoverage": {
+        "title": "4. Insurance Coverage",
+        "content": [
+          "Comprehensive insurance included with all rentals.",
+          "Additional liability of AED 5,000-15,000 depending on vehicle.",
+          "Insurance does not cover negligent or reckless driving.",
+          "Personal belongings are not covered under vehicle insurance."
+        ]
+      },
+      "usageRestrictions": {
+        "title": "5. Usage Restrictions",
+        "content": [
+          "Vehicles must not be used for racing, rallying, or any illegal activities.",
+          "Smoking is strictly prohibited in all vehicles.",
+          "Pets are not allowed without prior approval and additional fees.",
+          "Cross-border travel requires special permission and documentation."
+        ]
+      },
+      "fuelPolicy": {
+        "title": "6. Fuel Policy",
+        "content": [
+          "Vehicles are provided with a full tank of premium fuel.",
+          "Vehicles must be returned with the same fuel level.",
+          "Refueling charges apply at AED 10 per liter plus service fees.",
+          "Only premium fuel should be used (98 octane or higher)."
+        ]
+      },
+      "mileageAllowance": {
+        "title": "7. Mileage Allowance",
+        "content": [
+          "Daily rental includes 250km per day.",
+          "Weekly rental includes 1,500km per week.",
+          "Monthly rental includes 4,500km per month.",
+          "Excess mileage is charged at AED 15 per kilometer."
+        ]
+      },
+      "cancellationPolicy": {
+        "title": "8. Cancellation Policy",
+        "content": [
+          "Free cancellation up to 48 hours before rental start.",
+          "50% charge for cancellation within 24-48 hours.",
+          "Full charge for cancellation within 24 hours.",
+          "No-show results in forfeiture of full rental amount."
+        ]
+      },
+      "trafficFines": {
+        "title": "9. Traffic Fines and Violations",
+        "content": [
+          "Renter is responsible for all traffic fines during rental period.",
+          "Administrative fee of AED 250 per violation.",
+          "Fines will be deducted from security deposit or credit card.",
+          "Serious violations may result in immediate rental termination."
+        ]
+      },
+      "vehicleReturn": {
+        "title": "10. Vehicle Return",
+        "content": [
+          "Vehicles must be returned at agreed time and location.",
+          "Late return is charged hourly plus 50% additional fees.",
+          "Vehicle must be returned in same condition as delivered.",
+          "Cleaning fees apply for excessively dirty vehicles (AED 500+)."
+        ]
+      },
+      "liability": {
+        "title": "11. Liability and Indemnification",
+        "content": [
+          "Renter assumes full responsibility for vehicle during rental period.",
+          "Company is not liable for personal injury or property damage.",
+          "Renter indemnifies company against all claims and losses.",
+          "Maximum liability is limited to security deposit amount."
+        ]
+      },
+      "governingLaw": {
+        "title": "12. Governing Law",
+        "content": [
+          "These terms are governed by UAE federal laws and Dubai local laws.",
+          "Disputes are resolved through Dubai courts.",
+          "English version of terms prevails in case of translation conflict.",
+          "Invalid provisions do not affect other terms."
+        ]
+      }
+    },
+    "contact": {
+      "title": "Contact Information",
+      "description": "For questions about these Terms and Conditions, please contact us:",
+      "phone": "+971 55 816 4922",
+      "email": "legal@rollsroycers.com",
+      "address": "Downtown Dubai, UAE",
+      "officeHours": "24/7 Customer Service"
+    },
+    "acceptance": {
+      "title": "Acceptance of Terms",
+      "description": "By proceeding with rental, you acknowledge that you have:",
+      "items": [
+        "Read and understood these Terms and Conditions",
+        "Agree to comply with these terms",
+        "Meet all eligibility requirements",
+        "Will comply with all applicable laws and regulations"
+      ]
+    },
+    "cta": {
+      "title": "Ready to Experience Luxury?",
+      "description": "If you agree to our Terms and Conditions, continue to book your Rolls-Royce experience.",
+      "callButton": "Call: +971 55 816 4922",
+      "viewFleet": "View Our Fleet",
+      "disclaimer": "By booking, you agree to these Terms and Conditions"
+    }
+  }
+}

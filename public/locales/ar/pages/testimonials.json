@@ -1,0 +1,30 @@
+{
+  "testimonialsPage": {
+    "title": "آراء العملاء",
+    "subtitle": "اكتشف لماذا يختار عملاؤنا رولز رويس دبي لأهم لحظاتهم",
+    "stats": {
+      "averageRating": "متوسط التقييم",
+      "recommendationRate": "نسبة التوصية",
+      "countriesServed": "دول تم خدمتها"
+    },
+    "filters": {
+      "allReviews": "كل التقييمات",
+      "wedding": "زفاف",
+      "corporate": "شركات",
+      "tourism": "سياحة",
+      "events": "فعاليات"
+    },
+    "labels": {
+      "experienceHighlights": "أبرز التجارب",
+      "customerPhotos": "صور العملاء"
+    },
+    "cta": {
+      "title": "شارك تجربتك",
+      "description": "نود سماع قصتك معنا",
+      "button": "اكتب تقييم",
+      "bookButton": "احجز تجربتك",
+      "exploreButton": "استكشف أسطولنا",
+      "subtitle": "انضم لمئات العملاء الراضين الذين عاشوا قمة الفخامة مع رولز رويس دبي"
+    }
+  }
+}

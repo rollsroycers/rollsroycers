@@ -399,7 +399,7 @@ export default function FAQPage() {
 export const getStaticProps: GetStaticProps = async ({ locale }) => {
   return {
     props: {
-      ...(await serverSideTranslations(locale || 'en', ["common","seo","navigation"])),
+      ...(await serverSideTranslations(locale || 'en', ['common', 'navigation', 'page_faq', 'seo'])),
     },
   }
 }

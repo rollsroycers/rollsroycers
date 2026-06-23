@@ -588,7 +588,7 @@ export default function LocationsPage() {
 export const getStaticProps: GetStaticProps = async ({ locale }) => {
   return {
     props: {
-      ...(await serverSideTranslations(locale || 'en', ["common","seo","navigation","locations"])),
+      ...(await serverSideTranslations(locale || 'en', ['common', 'locations', 'loccontent', 'navigation', 'seo'])),
     },
   }
 }

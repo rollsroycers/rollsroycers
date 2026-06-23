@@ -1,0 +1,867 @@
+{
+  "compareFleet": {
+    "title": "Compare Our Fleet",
+    "subtitle": "Find the perfect Rolls-Royce for your luxury experience",
+    "description": "Compare features, specifications, and pricing to choose the ideal vehicle for your needs",
+    "selectCars": "Select up to 3 cars to compare",
+    "clear": "Clear Comparison",
+    "compare": "Compare Now",
+    "selectAModel": "Select a Model",
+    "specs": {
+      "engine": "Engine",
+      "power": "Power (HP)",
+      "torque": "Torque (Nm)",
+      "acceleration": "0-100 km/h",
+      "topSpeed": "Top Speed",
+      "seats": "Seating Capacity",
+      "doors": "Doors",
+      "length": "Length (mm)",
+      "width": "Width (mm)",
+      "height": "Height (mm)",
+      "wheelbase": "Wheelbase (mm)",
+      "fuelCapacity": "Fuel Capacity (L)",
+      "bootSpace": "Boot Space (L)"
+    },
+    "ratingsItems": {
+      "comfort": "Comfort",
+      "performance": "Performance",
+      "luxury": "Luxury",
+      "space": "Space",
+      "presence": "Road Presence"
+    },
+    "featureCategories": {
+      "keyFeatures": "Key Features",
+      "bestFor": "Best For",
+      "uniqueSellingPoint": "Unique Selling Point"
+    },
+    "cars": {
+      "phantom": {
+        "name": "Rolls-Royce Phantom",
+        "bestFor": [
+          "wedding",
+          "business",
+          "photography"
+        ],
+        "usp": "The iconic 'Magic Carpet Ride' and silent cabin.",
+        "specs": {
+          "engine": "6.75L V12 Twin-Turbo",
+          "power": 563,
+          "torque": 900,
+          "acceleration": "5.3 seconds",
+          "topSpeed": "250 km/h",
+          "seats": 4,
+          "doors": 4,
+          "length": 5982,
+          "width": 2018,
+          "height": 1656,
+          "wheelbase": 3772,
+          "fuelCapacity": 100,
+          "bootSpace": 548
+        },
+        "features": [
+          {
+            "name": "Starlight Headliner",
+            "available": true
+          },
+          {
+            "name": "Coach Doors",
+            "available": false
+          },
+          {
+            "name": "Viewing Suite",
+            "available": false
+          }
+        ],
+        "ratings": {
+          "comfort": 10,
+          "performance": 7,
+          "luxury": 10,
+          "space": 9,
+          "presence": 10
+        },
+        "id": "phantom",
+        "tagline": "The Ultimate Luxury Limousine",
+        "image": "/images/Rolls-Royce_Phantom_Extended_Series_II.jpg",
+        "price": 6500,
+        "category": "Ultra-Luxury Sedan",
+        "metrics": {
+          "luxury": 100,
+          "performance": 85,
+          "comfort": 98,
+          "technology": 90,
+          "presence": 100,
+          "versatility": 70
+        },
+        "uniqueFeatures": [
+          "Starlight Headliner with 1,340 fiber optic lights",
+          "Magic Carpet Ride suspension",
+          "Gallery rear compartment",
+          "Champagne cooler and crystal glasses"
+        ],
+        "standardFeatures": [
+          "Hand-crafted leather interior",
+          "Premium sound system",
+          "Rear entertainment screens",
+          "Ambient lighting system"
+        ]
+      },
+      "cullinan": {
+        "name": "Rolls-Royce Cullinan",
+        "bestFor": [
+          "family",
+          "leisure",
+          "business"
+        ],
+        "usp": "The only Rolls-Royce SUV, combining luxury with off-road capability.",
+        "specs": {
+          "engine": "6.75L V12 Twin-Turbo",
+          "power": 563,
+          "torque": 850,
+          "acceleration": "5.2 seconds",
+          "topSpeed": "250 km/h",
+          "seats": 5,
+          "doors": 4,
+          "length": 5341,
+          "width": 2000,
+          "height": 1835,
+          "wheelbase": 3295,
+          "fuelCapacity": 100,
+          "bootSpace": 560
+        },
+        "features": [
+          {
+            "name": "Starlight Headliner",
+            "available": true
+          },
+          {
+            "name": "Coach Doors",
+            "available": false
+          },
+          {
+            "name": "Viewing Suite",
+            "available": true
+          }
+        ],
+        "ratings": {
+          "comfort": 9,
+          "performance": 8,
+          "luxury": 9,
+          "space": 10,
+          "presence": 9
+        },
+        "id": "cullinan",
+        "tagline": "Luxury Without Compromise",
+        "image": "/images/Rolls-Royce_Cullinan_.jpg",
+        "price": 7200,
+        "category": "Ultra-Luxury SUV",
+        "metrics": {
+          "luxury": 98,
+          "performance": 88,
+          "comfort": 95,
+          "technology": 92,
+          "presence": 95,
+          "versatility": 100
+        },
+        "uniqueFeatures": [
+          "All-terrain capability",
+          "Viewing suite seating",
+          "Partition glass option",
+          "Recreation module"
+        ],
+        "standardFeatures": [
+          "All-wheel drive",
+          "Air suspension",
+          "Panoramic sunroof",
+          "360-degree camera system"
+        ]
+      },
+      "ghost": {
+        "name": "Rolls-Royce Ghost",
+        "bestFor": [
+          "business",
+          "airport",
+          "leisure"
+        ],
+        "usp": "'Post-Opulent' design and advanced Planar Suspension System.",
+        "specs": {
+          "engine": "6.75L V12 Twin-Turbo",
+          "power": 563,
+          "torque": 850,
+          "acceleration": "4.8 seconds",
+          "topSpeed": "250 km/h",
+          "seats": 5,
+          "doors": 4,
+          "length": 5546,
+          "width": 1978,
+          "height": 1571,
+          "wheelbase": 3295,
+          "fuelCapacity": 82,
+          "bootSpace": 490
+        },
+        "features": [
+          {
+            "name": "Starlight Headliner",
+            "available": true
+          },
+          {
+            "name": "Coach Doors",
+            "available": false
+          },
+          {
+            "name": "Viewing Suite",
+            "available": false
+          }
+        ],
+        "ratings": {
+          "comfort": 9,
+          "performance": 8,
+          "luxury": 8,
+          "space": 8,
+          "presence": 8
+        },
+        "id": "ghost",
+        "tagline": "Effortless Performance",
+        "image": "/images/Rolls-Royce_Ghost-2.jpg",
+        "price": 4800,
+        "category": "Luxury Sedan",
+        "metrics": {
+          "luxury": 95,
+          "performance": 90,
+          "comfort": 92,
+          "technology": 95,
+          "presence": 88,
+          "versatility": 85
+        },
+        "uniqueFeatures": [
+          "Planar suspension system",
+          "Illuminated fascia",
+          "Micro-environment purification",
+          "Whisper-quiet cabin"
+        ],
+        "standardFeatures": [
+          "All-wheel drive system",
+          "Adaptive cruise control",
+          "Head-up display",
+          "Wireless charging pad"
+        ]
+      },
+      "dawn": {
+        "name": "Rolls-Royce Dawn",
+        "bestFor": [
+          "wedding",
+          "photography",
+          "leisure"
+        ],
+        "usp": "The world's quietest convertible, offering a true open-air luxury experience.",
+        "specs": {
+          "engine": "6.6L V12 Twin-Turbo",
+          "power": 563,
+          "torque": 780,
+          "acceleration": "4.9 seconds",
+          "topSpeed": "250 km/h",
+          "seats": 4,
+          "doors": 2,
+          "length": 5285,
+          "width": 1947,
+          "height": 1502,
+          "wheelbase": 3112,
+          "fuelCapacity": 82,
+          "bootSpace": 358
+        },
+        "features": [
+          {
+            "name": "Starlight Headliner",
+            "available": false
+          },
+          {
+            "name": "Coach Doors",
+            "available": true
+          },
+          {
+            "name": "Viewing Suite",
+            "available": false
+          }
+        ],
+        "ratings": {
+          "comfort": 8,
+          "performance": 8,
+          "luxury": 9,
+          "space": 7,
+          "presence": 9
+        },
+        "id": "dawn",
+        "tagline": "Drophead Grand Tourer",
+        "image": "/images/Rolls-Royce_Dawn.jpg",
+        "price": 5500,
+        "category": "Luxury Convertible",
+        "metrics": {
+          "luxury": 92,
+          "performance": 88,
+          "comfort": 85,
+          "technology": 85,
+          "presence": 95,
+          "versatility": 75
+        },
+        "uniqueFeatures": [
+          "Silent soft-top operation",
+          "Airscarf neck warmer",
+          "Boot space optimization",
+          "Open-air motoring experience"
+        ],
+        "standardFeatures": [
+          "Adaptive headlights",
+          "Premium audio system",
+          "Climate control",
+          "Leather interior"
+        ]
+      },
+      "wraith": {
+        "name": "Rolls-Royce Wraith",
+        "bestFor": [
+          "business",
+          "photography",
+          "leisure"
+        ],
+        "usp": "The most powerful Rolls-Royce ever, with a dramatic fastback design.",
+        "specs": {
+          "engine": "6.6L V12 Twin-Turbo",
+          "power": 624,
+          "torque": 800,
+          "acceleration": "4.4 seconds",
+          "topSpeed": "250 km/h",
+          "seats": 4,
+          "doors": 2,
+          "length": 5285,
+          "width": 1947,
+          "height": 1507,
+          "wheelbase": 3112,
+          "fuelCapacity": 82,
+          "bootSpace": 470
+        },
+        "features": [
+          {
+            "name": "Starlight Headliner",
+            "available": true
+          },
+          {
+            "name": "Coach Doors",
+            "available": true
+          },
+          {
+            "name": "Viewing Suite",
+            "available": false
+          }
+        ],
+        "ratings": {
+          "comfort": 7,
+          "performance": 10,
+          "luxury": 8,
+          "space": 7,
+          "presence": 10
+        },
+        "id": "wraith",
+        "tagline": "Power and Style",
+        "image": "/images/Rolls-Royce-black.jpg",
+        "price": 5800,
+        "category": "Grand Tourer Coupe",
+        "metrics": {
+          "luxury": 90,
+          "performance": 100,
+          "comfort": 88,
+          "technology": 88,
+          "presence": 92,
+          "versatility": 70
+        },
+        "uniqueFeatures": [
+          "Satellite aided transmission",
+          "Starlight headliner",
+          "Suicide doors",
+          "Most powerful Rolls-Royce"
+        ],
+        "standardFeatures": [
+          "8-speed automatic transmission",
+          "Adaptive suspension",
+          "Bespoke audio system",
+          "Navigation system"
+        ]
+      }
+    },
+    "compareButton": "Compare Selected ({{count}})",
+    "selectUpTo": "Select up to 3 vehicles to compare",
+    "selectedCount": "{{count}} vehicles selected",
+    "resetSelection": "Reset Selection",
+    "viewDetails": "View Details",
+    "startComparison": "Start New Comparison",
+    "modalTitle": "Fleet Comparison",
+    "closeModal": "Close Comparison",
+    "specifications": "Technical Specifications",
+    "performance": "Performance & Capability",
+    "luxury": "Luxury Features",
+    "comfort": "Comfort & Convenience",
+    "technology": "Technology & Innovation",
+    "pricing": "Pricing & Packages",
+    "metrics": {
+      "luxury": "Luxury Experience",
+      "performance": "Driving Performance",
+      "comfort": "Passenger Comfort",
+      "technology": "Tech Innovation",
+      "presence": "Road Presence",
+      "versatility": "Versatility"
+    },
+    "bestFor": {
+      "title": "Best For",
+      "wedding": "Weddings & Special Events",
+      "business": "Corporate & Business",
+      "leisure": "Leisure & Tourism",
+      "family": "Family Occasions",
+      "photography": "Photo Shoots",
+      "airport": "Airport Transfers"
+    },
+    "features": {
+      "uniqueFeatures": "Unique Features",
+      "standardFeatures": "Standard Equipment",
+      "optionalFeatures": "Optional Extras"
+    },
+    "actions": {
+      "bookSelected": "Book Selected Vehicle",
+      "requestQuote": "Request Custom Quote",
+      "viewFleet": "View Full Fleet",
+      "contactUs": "Contact Our Team"
+    }
+  },
+  "compare": {
+    "hero": {
+      "title": {
+        "rollsRoyce": "Rolls-Royce",
+        "vs": "vs",
+        "bentley": "Bentley"
+      },
+      "subtitle": "The Ultimate Luxury Car Comparison for Dubai",
+      "description": "Explore detailed comparisons between Rolls-Royce and other luxury brands to find the perfect vehicle for your needs",
+      "bentleyAlt": "Bentley luxury car in Dubai"
+    },
+    "stats": {
+      "comparisons": {
+        "value": "4+",
+        "label": "Detailed Comparisons"
+      },
+      "brands": {
+        "value": "5",
+        "label": "Luxury Brands"
+      },
+      "features": {
+        "value": "20+",
+        "label": "Features Analyzed"
+      },
+      "experts": {
+        "value": "10+",
+        "label": "Expert Reviews"
+      }
+    },
+    "categories": {
+      "all": "All Comparisons",
+      "luxury": "Luxury Focus",
+      "performance": "Performance",
+      "heritage": "Heritage Brands"
+    },
+    "comparisons": {
+      "title": "Featured Comparisons",
+      "subtitle": "Explore our comprehensive luxury car comparisons to make the best choice for your lifestyle",
+      "rolls-royce-vs-bentley": {
+        "title": "Rolls-Royce vs Bentley",
+        "subtitle": "British Luxury Showdown",
+        "description": "Compare two titans of British luxury automotive engineering, each with their unique approach to ultimate refinement",
+        "highlights": [
+          "Heritage & craftsmanship comparison",
+          "Performance philosophy differences",
+          "Customization options analysis",
+          "Investment value assessment"
+        ]
+      },
+      "rolls-royce-vs-ferrari": {
+        "title": "Rolls-Royce vs Ferrari",
+        "subtitle": "Luxury vs Performance",
+        "description": "Discover the differences between ultimate luxury and ultimate performance in these iconic brands",
+        "highlights": [
+          "Comfort vs speed priorities",
+          "Brand prestige comparison",
+          "Driving experience analysis",
+          "Ownership experience differences"
+        ]
+      },
+      "rolls-royce-vs-mercedes": {
+        "title": "Rolls-Royce vs Mercedes",
+        "subtitle": "Classic vs Modern Luxury",
+        "description": "Compare traditional British luxury with German engineering excellence and innovation",
+        "highlights": [
+          "Technology integration comparison",
+          "Build quality assessment",
+          "Luxury features analysis",
+          "Service & maintenance comparison"
+        ]
+      },
+      "phantom-vs-maybach": {
+        "title": "Phantom vs Maybach",
+        "subtitle": "Ultimate Flagship Battle",
+        "description": "The ultimate comparison between two of the world's most luxurious flagship sedans",
+        "highlights": [
+          "Interior opulence comparison",
+          "Ride quality assessment",
+          "Exclusivity factor analysis",
+          "Price-to-value ratio"
+        ]
+      }
+    },
+    "whyCompare": {
+      "title": "Why Compare with Us?",
+      "subtitle": "Get expert insights and detailed analysis to make the perfect luxury car choice",
+      "reasons": {
+        "informed": {
+          "icon": "📊",
+          "title": "Informed Decisions",
+          "description": "Make confident choices with our comprehensive comparisons covering every aspect of luxury car ownership"
+        },
+        "comprehensive": {
+          "icon": "🔍",
+          "title": "Comprehensive Analysis",
+          "description": "We analyze performance, luxury, technology, heritage, and value to give you the complete picture"
+        },
+        "expert": {
+          "icon": "👨‍💼",
+          "title": "Expert Insights",
+          "description": "Benefit from years of experience in the luxury automotive industry with unbiased expert opinions"
+        }
+      }
+    },
+    "tool": {
+      "title": "Interactive Comparison Tool",
+      "subtitle": "Compare specifications, features, and pricing across our entire luxury fleet",
+      "cta": "Start Comparing"
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "q1": {
+        "question": "What makes Rolls-Royce unique compared to other luxury brands?",
+        "answer": "Rolls-Royce stands apart with its uncompromising commitment to craftsmanship, bespoke customization options, and the legendary 'Magic Carpet Ride' that provides unmatched comfort and refinement."
+      },
+      "q2": {
+        "question": "Which brand offers better value for money?",
+        "answer": "Value depends on your priorities. Rolls-Royce offers unparalleled luxury and exclusivity, while brands like Mercedes provide more technology at lower price points. Our comparisons help you determine what matters most to you."
+      },
+      "q3": {
+        "question": "Can I test drive multiple brands before deciding?",
+        "answer": "Yes! We offer test drive experiences for all vehicles in our fleet. Contact our team to arrange consecutive test drives for the best comparison experience."
+      },
+      "q4": {
+        "question": "Which brand is best for chauffeur services?",
+        "answer": "Rolls-Royce is traditionally the gold standard for chauffeur services, offering supreme rear-seat comfort and presence. However, Mercedes S-Class and Bentley also excel in this role with their own unique advantages."
+      }
+    },
+    "cta": {
+      "title": "Ready to Experience Excellence?",
+      "subtitle": "Choose your perfect luxury vehicle and begin your journey today",
+      "book": "Book Now",
+      "contact": "Contact Expert",
+      "viewComparison": "View Comparison"
+    },
+    "aspects": {
+      "overview": {
+        "name": "Overview"
+      },
+      "luxury": {
+        "name": "Luxury & Comfort"
+      },
+      "performance": {
+        "name": "Performance"
+      },
+      "technology": {
+        "name": "Technology"
+      },
+      "heritage": {
+        "name": "Heritage & Brand"
+      },
+      "price": {
+        "name": "Price & Value"
+      }
+    },
+    "overview": {
+      "rollsRoyce": {
+        "title": "The Pinnacle of Luxury",
+        "summary": "Rolls-Royce represents the absolute pinnacle of automotive luxury, where no compromise is made in the pursuit of perfection."
+      },
+      "bentley": {
+        "title": "Performance Luxury",
+        "summary": "Bentley offers a unique blend of luxury and performance, appealing to those who want to drive as much as be driven."
+      }
+    },
+    "luxury": {
+      "rollsRoyce": {
+        "title": "Unparalleled Opulence",
+        "summary": "Every Rolls-Royce is a masterpiece of craftsmanship, with attention to detail that borders on obsession."
+      },
+      "bentley": {
+        "title": "Contemporary Luxury",
+        "summary": "Bentley combines traditional craftsmanship with modern luxury, creating an environment that's both opulent and sporting."
+      }
+    },
+    "performance": {
+      "rollsRoyce": {
+        "title": "Effortless Power",
+        "summary": "Rolls-Royce prioritizes smooth, effortless power delivery over sporting performance, creating a serene driving experience."
+      },
+      "bentley": {
+        "title": "Exhilarating Performance",
+        "summary": "Bentley delivers supercar performance wrapped in luxury, appealing to enthusiasts who refuse to compromise."
+      }
+    },
+    "technology": {
+      "rollsRoyce": {
+        "title": "Invisible Technology",
+        "summary": "Rolls-Royce integrates cutting-edge technology seamlessly, maintaining a classic, uncluttered aesthetic."
+      },
+      "bentley": {
+        "title": "Modern Innovation",
+        "summary": "Bentley embraces modern technology more openly, offering a blend of traditional luxury and contemporary innovation."
+      }
+    },
+    "heritage": {
+      "rollsRoyce": {
+        "title": "120 Years of Excellence",
+        "summary": "Rolls-Royce has maintained its position as the ultimate luxury car manufacturer for over a century."
+      },
+      "bentley": {
+        "title": "Racing Pedigree",
+        "summary": "Bentley's racing heritage infuses every model with a sporting spirit that sets it apart from pure luxury brands."
+      }
+    },
+    "price": {
+      "rollsRoyce": {
+        "title": "Ultimate Investment",
+        "summary": "Rolls-Royce commands premium prices that reflect its position as the ultimate luxury automobile."
+      },
+      "bentley": {
+        "title": "Accessible Ultra-Luxury",
+        "summary": "Bentley offers a more accessible entry into the ultra-luxury segment while maintaining exclusivity."
+      }
+    },
+    "models": {
+      "phantom": {
+        "rollsRoyce": {
+          "model": "Phantom",
+          "price": "AED 5,800/day",
+          "type": "Ultra-Luxury Sedan"
+        },
+        "bentley": {
+          "model": "Mulsanne",
+          "price": "AED 4,200/day",
+          "type": "Luxury Sedan"
+        }
+      },
+      "ghost": {
+        "rollsRoyce": {
+          "model": "Ghost",
+          "price": "AED 4,800/day",
+          "type": "Luxury Sedan"
+        },
+        "bentley": {
+          "model": "Flying Spur",
+          "price": "AED 3,500/day",
+          "type": "Sports Sedan"
+        }
+      },
+      "cullinan": {
+        "rollsRoyce": {
+          "model": "Cullinan",
+          "price": "AED 6,500/day",
+          "type": "Ultra-Luxury SUV"
+        },
+        "bentley": {
+          "model": "Bentayga",
+          "price": "AED 4,800/day",
+          "type": "Luxury SUV"
+        }
+      }
+    },
+    "rental": {
+      "rollsRoyce": {
+        "title": "Rolls-Royce Rental",
+        "daily": "AED 3,500+",
+        "weekly": "AED 21,000+",
+        "monthly": "AED 75,000+"
+      },
+      "bentley": {
+        "title": "Bentley Rental",
+        "daily": "AED 2,800+",
+        "weekly": "AED 16,000+",
+        "monthly": "AED 55,000+"
+      },
+      "title": "Rental Pricing Comparison",
+      "dailyRate": "Daily Rate",
+      "weeklyRate": "Weekly Rate",
+      "monthlyRate": "Monthly Rate",
+      "whyChooseRollsRoyce": "Why Choose Rolls-Royce?",
+      "whyChooseBentley": "Why Choose Bentley?",
+      "bookRollsRoyce": "Book Rolls-Royce",
+      "inquireBentley": "Inquire About Bentley"
+    },
+    "quickSummary": {
+      "rollsRoyce": {
+        "title": "Rolls-Royce",
+        "point1": "Absolute pinnacle of luxury",
+        "point2": "Handcrafted perfection",
+        "point3": "Ultimate status symbol"
+      },
+      "bentley": {
+        "title": "Bentley",
+        "point1": "Performance meets luxury",
+        "point2": "Racing heritage",
+        "point3": "Driver-focused experience"
+      }
+    },
+    "summary": {
+      "rollsRoyce": {
+        "tagline": "The pinnacle of automotive excellence"
+      },
+      "bentley": {
+        "tagline": "Extraordinary performance in uncompromising luxury"
+      }
+    },
+    "detailed": {
+      "comparison": "Comparison",
+      "rollsRoyce": "Rolls-Royce",
+      "bentley": "Bentley"
+    },
+    "modelComparison": {
+      "title": "Model-by-Model Comparison"
+    },
+    "choice": {
+      "title": "Making Your Choice",
+      "rollsRoyce": {
+        "title": "Choose Rolls-Royce If:",
+        "point1": "You want the absolute pinnacle of luxury",
+        "point2": "Status and prestige are paramount",
+        "point3": "You prefer being driven over driving",
+        "point4": "You appreciate traditional craftsmanship",
+        "point5": "Budget is not a primary concern"
+      },
+      "bentley": {
+        "title": "Choose Bentley If:",
+        "point1": "You enjoy driving performance",
+        "point2": "You want luxury with sporting flair",
+        "point3": "Racing heritage appeals to you",
+        "point4": "You prefer more accessible pricing",
+        "point5": "You like modern luxury interpretation"
+      }
+    },
+    "verdict": {
+      "title": "The Verdict",
+      "p1": "Both Rolls-Royce and Bentley represent the pinnacle of automotive luxury, but they appeal to different sensibilities. Rolls-Royce is the ultimate choice for those who value absolute luxury, uncompromising comfort, and supreme status. It's for those who appreciate being driven in unparalleled opulence.",
+      "p2": "Bentley, on the other hand, offers a perfect blend of luxury and performance for those who don't want to choose between comfort and driving excitement. With its racing heritage and more accessible pricing, Bentley appeals to luxury enthusiasts who want to experience the thrill of driving while enjoying exceptional comfort and craftsmanship.",
+      "exploreFleet": "Explore Our Fleet",
+      "bookExperience": "Book Your Experience"
+    },
+    "related": {
+      "title": "Related Comparisons",
+      "mercedes": {
+        "title": "Rolls-Royce vs Mercedes-Maybach",
+        "subtitle": "British elegance meets German precision"
+      },
+      "comingSoon": "Coming Soon"
+    },
+    "mercedes": {
+      "hero": {
+        "title": {
+          "rollsRoyce": "Rolls-Royce",
+          "vs": "vs",
+          "mercedes": "Mercedes-Benz"
+        },
+        "subtitle": "Experience the Unmatched Excellence of British Bespoke Luxury",
+        "exploreFleet": "Explore Our Fleet",
+        "bookNow": "Book Rolls-Royce Now"
+      },
+      "quickSummary": {
+        "rollsRoyce": {
+          "title": "Rolls-Royce",
+          "point1": "Unparalleled bespoke customization",
+          "point2": "World's quietest and smoothest ride",
+          "point3": "Ultimate symbol of success and prestige"
+        },
+        "mercedes": {
+          "title": "Mercedes-Benz",
+          "point1": "Mass-produced luxury vehicles",
+          "point2": "Technology-focused approach",
+          "point3": "Corporate executive choice"
+        }
+      },
+      "cta": {
+        "title": "Experience True Luxury with Rolls-Royce",
+        "subtitle": "While Mercedes offers quality, Rolls-Royce delivers an incomparable experience",
+        "viewFleet": "View Rolls-Royce Fleet",
+        "bookNow": "Book Your Rolls-Royce"
+      },
+      "verdict": {
+        "title": "The Clear Choice for Ultimate Luxury",
+        "p1": "While Mercedes-Benz offers impressive German engineering and technology, Rolls-Royce remains in a league of its own.",
+        "p2": "Choose Rolls-Royce for an experience that transcends mere transportation."
+      }
+    },
+    "rolls-royce-vs-ferrari": {
+      "title": "Rolls-Royce vs Ferrari Rental in Dubai | Smart Luxury Choice",
+      "description": "Compare Rolls-Royce vs Ferrari rental in Dubai. Discover why Rolls-Royce offers superior value, comfort, and prestige for luxury car rental. All-inclusive rates, professional chauffeur service, and unmatched luxury experience."
+    },
+    "ferrari": {
+      "hero": {
+        "title": "Rolls-Royce vs Ferrari Rental in Dubai",
+        "subtitle": "Discover why Rolls-Royce is the intelligent choice for luxury car rental in Dubai",
+        "bookRollsRoyce": "Book Rolls-Royce Now",
+        "seeComparison": "See Full Comparison"
+      },
+      "aspects": {
+        "rental": {
+          "name": "Rental Experience"
+        },
+        "comfort": {
+          "name": "Comfort & Luxury"
+        },
+        "occasion": {
+          "name": "Perfect Occasions"
+        },
+        "service": {
+          "name": "Service & Support"
+        },
+        "value": {
+          "name": "Value Proposition"
+        },
+        "experience": {
+          "name": "Dubai Experience"
+        }
+      },
+      "winner": {
+        "title": "Why Smart Clients Choose Rolls-Royce",
+        "subtitle": "The numbers speak for themselves - Rolls-Royce delivers superior value, comfort, and prestige"
+      },
+      "detailed": {
+        "comparison": "Comparison"
+      },
+      "packages": {
+        "title": "Rental Packages - The Real Cost",
+        "summary": "Save up to 40% with Rolls-Royce all-inclusive rental",
+        "cta": "Book Smart - Choose Rolls-Royce"
+      },
+      "testimonials": {
+        "title": "What Our Clients Say"
+      },
+      "finalCta": {
+        "title": "The Smart Choice is Clear",
+        "message": "Join thousands of satisfied clients who choose Rolls-Royce for the ultimate luxury rental experience in Dubai.",
+        "bookNow": "Reserve Your Rolls-Royce",
+        "viewFleet": "View Our Fleet",
+        "urgency": "⏰ Limited availability - Book now to secure your dates"
+      },
+      "contact": {
+        "title": "Ready to Experience True Luxury?",
+        "subtitle": "Our team is available 24/7 to assist you"
+      }
+    }
+  }
+}

@@ -1,0 +1,144 @@
+{
+  "blog": {
+    "categories": {
+      "all": "All Articles",
+      "guides": "Guides",
+      "luxury": "Luxury Lifestyle",
+      "events": "Events & News",
+      "tips": "Tips & Advice"
+    },
+    "featured": {
+      "title": "Ultimate Guide to Rolls-Royce Rental in Dubai",
+      "excerpt": "Everything you need to know about renting a Rolls-Royce in Dubai, from choosing the right model to understanding pricing and requirements.",
+      "author": "Rolls-Royce Dubai Team",
+      "date": "December 15, 2024",
+      "readTime": "8 min read"
+    },
+    "articles": {
+      "article1": {
+        "title": "Top 10 Scenic Drives in Dubai with a Rolls-Royce",
+        "excerpt": "Discover the most beautiful routes in Dubai perfect for experiencing luxury driving in your Rolls-Royce rental.",
+        "author": "Ahmed Al-Rashid",
+        "date": "December 10, 2024",
+        "readTime": "6 min read"
+      },
+      "article2": {
+        "title": "Wedding Car Rental: Making Your Special Day Perfect",
+        "excerpt": "Complete guide to choosing the perfect Rolls-Royce for your wedding in Dubai, including decoration options and packages.",
+        "author": "Sarah Johnson",
+        "date": "December 8, 2024",
+        "readTime": "5 min read"
+      },
+      "article3": {
+        "title": "Corporate Car Rental: Elevating Business Travel",
+        "excerpt": "How luxury car rentals can enhance your corporate image and provide practical benefits for business travelers.",
+        "author": "David Chen",
+        "date": "December 5, 2024",
+        "readTime": "7 min read"
+      },
+      "article4": {
+        "title": "Rolls-Royce vs Bentley: A Luxury Comparison",
+        "excerpt": "An in-depth comparison of two luxury automotive icons to help you choose the perfect rental for your needs.",
+        "author": "Michael Thompson",
+        "date": "December 3, 2024",
+        "readTime": "9 min read"
+      },
+      "article5": {
+        "title": "Dubai's Luxury Car Culture: A Deep Dive",
+        "excerpt": "Exploring Dubai's fascination with luxury automobiles and why Rolls-Royce remains the ultimate status symbol.",
+        "author": "Fatima Al-Zahra",
+        "date": "November 30, 2024",
+        "readTime": "6 min read"
+      },
+      "article6": {
+        "title": "Maintenance and Care: Behind the Scenes",
+        "excerpt": "Discover how we maintain our Rolls-Royce fleet to ensure every vehicle meets the highest standards of luxury and performance.",
+        "author": "Technical Team",
+        "date": "November 28, 2024",
+        "readTime": "4 min read"
+      },
+      "article7": {
+        "title": "Photography Tips: Capturing Perfect Luxury Car Shots",
+        "excerpt": "Professional tips for photographing Rolls-Royce vehicles, whether for personal memories or professional shoots.",
+        "author": "James Rodriguez",
+        "date": "November 25, 2024",
+        "readTime": "5 min read"
+      },
+      "article8": {
+        "title": "Luxury Shopping Guide: Best Malls to Visit with Your Rolls-Royce in Dubai",
+        "excerpt": "Discover Dubai's most prestigious shopping destinations and how to arrive in style with your Rolls-Royce rental.",
+        "author": "Layla Al-Mansouri",
+        "date": "January 16, 2026",
+        "readTime": "10 min read"
+      },
+      "article9": {
+        "title": "Rolls-Royce Dawn: The Perfect Convertible for Dubai's Golden Weather",
+        "excerpt": "Explore why the Rolls-Royce Dawn is the ultimate convertible for experiencing Dubai's perfect climate and stunning skyline.",
+        "author": "Omar Al-Rashid",
+        "date": "January 18, 2026",
+        "readTime": "8 min read"
+      },
+      "article10": {
+        "title": "The Art of Arriving in Style: Rolls-Royce for Special Events in Dubai",
+        "excerpt": "Discover how to make unforgettable entrances at galas, red carpet events, corporate functions, and celebrations with Dubai's most prestigious luxury cars.",
+        "author": "Layla Al-Mansouri",
+        "date": "October 1, 2026",
+        "readTime": "10 min read"
+      },
+      "article11": {
+        "title": "Dubai After Dark: The Ultimate Rolls-Royce Night Experience Guide",
+        "excerpt": "Discover Dubai's most spectacular nighttime destinations and experiences, from illuminated skylines to exclusive venues, all from the luxury of your Rolls-Royce.",
+        "author": "Khalid Al-Mansoori",
+        "date": "October 4, 2026",
+        "readTime": "12 min read"
+      },
+      "first-time-dubai-luxury-guide": {
+        "title": "First Time in Dubai? Your Complete Luxury Car Guide 2026",
+        "description": "The ultimate guide for first-time visitors to Dubai exploring luxury car rentals",
+        "readTime": "18 min read",
+        "category": "Guides",
+        "author": "Editorial Team",
+        "cta": {
+          "text": "Ready to begin your Dubai luxury adventure? Our expert team is ready to match you with the perfect Rolls-Royce for your first Dubai experience.",
+          "buttonText": "Start Your Dubai Journey"
+        },
+        "sections": {
+          "whyDubai": "Why Dubai is the Ultimate Luxury Car Destination",
+          "first48Hours": "Your First 48 Hours: Essential Dubai Experiences with a Rolls-Royce",
+          "drivingGuide": "First-Timer's Guide to Dubai Roads and Driving",
+          "culturalEtiquette": "Cultural Etiquette for Luxury Car Renters",
+          "mustVisit": "Must-Visit Destinations for Your Rolls-Royce Experience",
+          "diningDestinations": "Dining Destinations Worth the Drive",
+          "shopping": "Shopping in Style: Where to Park Your Rolls-Royce",
+          "weatherConsiderations": "Weather Considerations for Luxury Driving",
+          "photographySpots": "Photography Hotspots for Your Rolls-Royce",
+          "businessTravel": "Business Travel: Making an Impression",
+          "eveningEntertainment": "Evening Entertainment and Nightlife",
+          "dayTrips": "Day Trips from Dubai in Your Rolls-Royce",
+          "rentalPackages": "Understanding Rental Packages and Pricing",
+          "healthSafety": "Health and Safety Considerations",
+          "makingMemories": "Making Memories: Beyond the Drive",
+          "practicalTips": "Practical Tips for First-Time Luxury Renters",
+          "rollsRoyceDifference": "The Rolls-Royce Difference: Why It Matters",
+          "dubaiStory": "Your Dubai Story Starts Here"
+        }
+      }
+    },
+    "pagination": {
+      "prev": "Previous",
+      "next": "Next",
+      "page": "Page"
+    },
+    "search": {
+      "placeholder": "Search articles...",
+      "noResults": "No articles found",
+      "resultsFor": "Results for"
+    },
+    "newsletter": {
+      "title": "Stay Updated",
+      "description": "Subscribe to our newsletter for the latest luxury car insights and exclusive offers.",
+      "subscribe": "Subscribe",
+      "email": "Enter your email"
+    }
+  }
+}

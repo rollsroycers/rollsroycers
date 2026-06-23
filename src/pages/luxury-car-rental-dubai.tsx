@@ -127,7 +127,7 @@ export default function LuxuryCarRentalDubaiPage() {
 export const getStaticProps: GetStaticProps = async ({ locale }) => {
   return {
     props: {
-      ...(await serverSideTranslations(locale || 'en', ['common', 'seo', 'navigation', 'fleet'])),
+      ...(await serverSideTranslations(locale || 'en', ['common', 'fleet', 'navigation', 'seo', 'seoblocks'])),
     },
   }
 }

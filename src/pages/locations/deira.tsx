@@ -310,7 +310,7 @@ export default function DeiraPage() {
 export const getStaticProps: GetStaticProps = async ({ locale }) => {
   return {
     props: {
-      ...(await serverSideTranslations(locale || 'en', ["common","seo","navigation"])),
+      ...(await serverSideTranslations(locale || 'en', ['common', 'loccontent', 'navigation', 'seo'])),
     },
   }
 }

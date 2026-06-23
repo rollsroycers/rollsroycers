@@ -39,6 +39,10 @@ const i18nConfig = {
     localeDetection: false,
   },
   defaultNS: 'common',
+  // Lets useTranslation('common') components resolve keys that now live in
+  // page/section-scoped namespaces (split out of common.json). Must stay in
+  // sync with the list in src/lib/serverSideTranslations.ts.
+  fallbackNS: ['common','seoblocks','fleetcontent','loccontent','comparecontent','servicespages','page_about','page_blog','page_faq','page_pricing','page_terms','page_privacy','page_booking','page_gallery','page_testimonials'],
   react: { useSuspense: false },
 }
 
