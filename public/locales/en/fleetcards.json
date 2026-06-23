@@ -1,0 +1,132 @@
+{
+  "fleet": {
+    "phantom": {
+      "name": "Rolls-Royce Phantom",
+      "description": "The pinnacle of luxury motoring, an icon of automotive excellence and bespoke craftsmanship.",
+      "features": [
+        {
+          "icon": "👑",
+          "title": "Magic Carpet Ride",
+          "desc": "Experience a serene and smooth journey with the state-of-the-art self-leveling air suspension that absorbs any road imperfections."
+        },
+        {
+          "icon": "🌟",
+          "title": "Starlight Headliner",
+          "desc": "Gaze upon a celestial dreamscape with a custom-made fiber optic roof, creating an illusion of a star-filled night sky."
+        },
+        {
+          "icon": "🎭",
+          "title": "Rear Theatre Configuration",
+          "desc": "Entertain your guests with dual 12-inch HD screens, a bespoke audio system, and a center console with a drinks cabinet."
+        },
+        {
+          "icon": "🔇",
+          "title": "The Silent Chamber",
+          "desc": "Enjoy unparalleled tranquility within the Phantom's cabin, thanks to over 130kg of sound insulation for a whisper-quiet ride."
+        }
+      ]
+    },
+    "ghost": {
+      "name": "Rolls-Royce Ghost",
+      "description": "The epitome of minimalist luxury and cutting-edge technology.",
+      "features": [
+        {
+          "icon": "🔇",
+          "title": "Planar Suspension System",
+          "desc": "Revolutionary suspension technology delivering unparalleled ride quality."
+        },
+        {
+          "icon": "💎",
+          "title": "Illuminated Fascia",
+          "desc": "Stunning starlight effect with 850+ individual stars creating ethereal ambiance."
+        },
+        {
+          "icon": "🎭",
+          "title": "Micro-Environment",
+          "desc": "Advanced air purification system creating a sanctuary within the cabin."
+        },
+        {
+          "icon": "🌟",
+          "title": "Bespoke Audio Excellence",
+          "desc": "Concert-hall acoustics with crystalline clarity for immersive experience."
+        }
+      ]
+    },
+    "cullinan": {
+      "name": "Rolls-Royce Cullinan",
+      "description": "The ultimate luxury SUV - Effortless, everywhere.",
+      "features": [
+        "All-Terrain",
+        "Viewing Suite",
+        "Recreation Module",
+        "Night Vision"
+      ]
+    },
+    "dawn": {
+      "name": "Rolls-Royce Dawn",
+      "description": "The quietest and most luxurious convertible in the world.",
+      "features": [
+        "Silent Roof",
+        "Bespoke Audio",
+        "Luxurious Materials",
+        "Dynamic Handling"
+      ]
+    },
+    "wraith": {
+      "name": "Rolls-Royce Wraith",
+      "description": "The most powerful and dynamic Rolls-Royce ever - a fastback grand tourer.",
+      "features": [
+        "Fastback Design",
+        "Satellite-Aided Transmission",
+        "Starlight Headliner",
+        "Bespoke Audio"
+      ]
+    },
+    "spectre": {
+      "name": "Rolls-Royce Spectre",
+      "description": "The first fully electric Rolls-Royce. Experience whisper-silent luxury with 577hp instant torque, 520+ km range, and zero emissions.",
+      "features": [
+        {
+          "icon": "⚡",
+          "title": "Dual Electric Motors",
+          "desc": "577 HP of instant, whisper-silent power"
+        },
+        {
+          "icon": "🔋",
+          "title": "520+ km Range",
+          "desc": "102 kWh battery for all-day luxury touring"
+        },
+        {
+          "icon": "🤫",
+          "title": "Whisper Silent",
+          "desc": "The quietest Rolls-Royce ever created"
+        },
+        {
+          "icon": "✨",
+          "title": "Starlight Headliner",
+          "desc": "1,340 fiber optic lights in your personal night sky"
+        },
+        {
+          "icon": "🏎️",
+          "title": "Fastback Design",
+          "desc": "Dramatic coupé silhouette with aerodynamic elegance"
+        },
+        {
+          "icon": "🎵",
+          "title": "Bespoke Audio",
+          "desc": "18-speaker system tuned for electric silence"
+        },
+        {
+          "icon": "🌟",
+          "title": "Illuminated Spirit",
+          "desc": "The iconic Spirit of Ecstasy, now illuminated"
+        },
+        {
+          "icon": "🔒",
+          "title": "Advanced Suspension",
+          "desc": "Planar system with electric-optimized damping"
+        }
+      ]
+    }
+  }
+}

@@ -32,7 +32,7 @@ export default function GhostBlackBadgePage() {
     "@context": "https://schema.org",
     "@type": "Product",
     "name": "Rolls-Royce Ghost Black Badge Rental Dubai",
-    "image": ["https://rollsroycers.com/images/Rolls-Royce-Ghost-Black-Badge.jpg"],
+    "image": ["https://rollsroycers.com/images/Rolls-Royce_Ghost_Black_Badge.jpg"],
     "description": "Rent the Rolls-Royce Ghost Black Badge in Dubai from AED 5,500/day. 592 HP, illuminated fascia, carbon fibre wheels, and dark chrome exterior.",
     "brand": { "@type": "Brand", "name": "Rolls-Royce" },
     "model": "Ghost Black Badge",
@@ -92,7 +92,7 @@ export default function GhostBlackBadgePage() {
         <section className="relative h-screen flex items-center justify-center overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/Rolls-Royce-Ghost-Black-Badge.jpg"
+              src="/images/Rolls-Royce_Ghost_Black_Badge.jpg"
               alt="Rolls-Royce Ghost Black Badge for Rent in Dubai"
               fill
               className="object-cover"

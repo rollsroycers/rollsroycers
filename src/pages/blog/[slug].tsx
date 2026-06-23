@@ -2821,7 +2821,7 @@ const blogArticles: Record<string, BlogArticle> = {
       { type: 'list', items: ['<strong>Ghost:</strong> AED 800/hour — best value for business meetings', '<strong>Wraith:</strong> AED 1,000/hour — bold statement for events', '<strong>Dawn:</strong> AED 1,100/hour — open-air for photoshoots', '<strong>Phantom:</strong> AED 1,200/hour — ultimate luxury for VIP occasions', '<strong>Cullinan:</strong> AED 1,300/hour — groups and families', '<strong>Spectre:</strong> AED 1,500/hour — electric luxury for the future-forward'] },
       { type: 'heading', text: 'How It Works' },
       { type: 'list', ordered: true, items: ['Choose your model and number of hours (minimum 2)', 'Select pickup location anywhere in Dubai', 'Professional chauffeur arrives within 30 minutes', 'Your chauffeur waits at each stop — you enjoy', 'After 6 hours, daily rate applies automatically'] },
-      { type: 'image', src: '/images/Rolls-royce-Ghost.jpg', alt: 'Rolls-Royce Ghost hourly rental Dubai', caption: 'The Ghost: our most popular hourly rental choice' },
+      { type: 'image', src: '/images/Rolls-Royce_Ghost-2.jpg', alt: 'Rolls-Royce Ghost hourly rental Dubai', caption: 'The Ghost: our most popular hourly rental choice' },
       { type: 'heading', text: 'Popular Hourly Use Cases' },
       { type: 'list', items: ['<strong>Business:</strong> 2-3 hour DIFC meeting arrivals', '<strong>Dining:</strong> Grand arrival at Zuma, Nobu, or La Petite Maison', '<strong>Content:</strong> 2-hour Instagram/TikTok shooting session', '<strong>Date Night:</strong> 3-hour sunset cruise + dinner arrival', '<strong>Shopping:</strong> 3-hour Dubai Mall or Fashion Avenue experience'] },
       { type: 'heading', text: 'Hourly vs Daily: Which to Choose?' },

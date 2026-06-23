@@ -29,6 +29,9 @@ const MANIFEST = [
   // C3: per-model fleet + shared
   ...MODELS.map((m) => ['fc_' + m, 'fleet/' + m + '.json', true]),
   ['fc_shared', 'fleet/_shared.json', true],
+  // light fleet data (name+description only) for pages that render fleet CARDS (home,
+  // fleet listing, booking) — they don't need the full per-model specs/features/gallery.
+  ['fleetcards', 'fleetcards.json', true],
   // C3: per-location + shared
   ...LOCS.map((x) => ['lc_' + x, 'locations/' + x + '.json', true]),
   ['lc_shared', 'locations/_shared.json', true],

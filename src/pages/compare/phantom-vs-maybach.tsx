@@ -139,7 +139,7 @@ const PhantomVsMaybach: React.FC = () => {
           year: 2024,
           pricePerDay: 3500,
           currency: 'AED',
-          image: 'https://rollsroycers.com/images/fleet/phantom.jpg',
+          image: 'https://rollsroycers.com/images/Rolls-royce-phantom.jpg',
         }}
         vehicle2={{
           name: 'Mercedes-Maybach S-Class',
@@ -148,7 +148,7 @@ const PhantomVsMaybach: React.FC = () => {
           year: 2024,
           pricePerDay: 3000,
           currency: 'AED',
-          image: 'https://rollsroycers.com/images/maybach-s-class.jpg',
+          image: 'https://rollsroycers.com/images/Mercedes_Maybach_GLS.jpeg',
         }}
       />
 

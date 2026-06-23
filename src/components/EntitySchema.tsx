@@ -232,7 +232,7 @@ function createDetailedVehicleSchema(model: string, lang: string, localePath: st
       doors: 4,
       seats: 5,
       description: "The perfect balance of luxury and driving dynamics. Ghost Series II with Planar suspension and illuminated fascia. Ideal for business and leisure in Dubai.",
-      image: "https://rollsroycers.com/images/Rolls-Royce-Ghost-Black-Badge.jpg"
+      image: "https://rollsroycers.com/images/Rolls-Royce_Ghost_Black_Badge.jpg"
     },
     cullinan: {
       name: "Rolls-Royce Cullinan",
@@ -254,7 +254,7 @@ function createDetailedVehicleSchema(model: string, lang: string, localePath: st
       doors: 2,
       seats: 4,
       description: "The most social Rolls-Royce. Dawn convertible with retractable roof, perfect for beach drives along Dubai Marina and JBR.",
-      image: "https://rollsroycers.com/images/Rolls-royce-dawn.jpg"
+      image: "https://rollsroycers.com/images/Rolls-Royce_Dawn.jpg"
     },
     wraith: {
       name: "Rolls-Royce Wraith",
@@ -267,7 +267,7 @@ function createDetailedVehicleSchema(model: string, lang: string, localePath: st
       fuelType: "Petrol",
       engineType: "6.75L Twin-Turbo V12",
       description: "The most powerful and dynamic Rolls-Royce. Wraith with 624hp and Starlight headliner, a true grand tourer for special occasions in Dubai.",
-      image: "https://rollsroycers.com/images/Rolls-royce-Wraith.jpg"
+      image: "https://rollsroycers.com/images/wraith-coupe.jpg"
     },
     spectre: {
       name: "Rolls-Royce Spectre",

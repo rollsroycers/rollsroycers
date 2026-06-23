@@ -17,11 +17,11 @@ export default function HourlyRentalPage() {
   const { t } = useTranslation('common')
 
   const hourlyRates = [
-    { model: 'Ghost', hourly: 'AED 800', min: '2 Hours', daily: 'AED 3,800', image: '/images/Rolls-royce-Ghost.jpg' },
+    { model: 'Ghost', hourly: 'AED 800', min: '2 Hours', daily: 'AED 3,800', image: '/images/Rolls-Royce_Ghost-2.jpg' },
     { model: 'Phantom', hourly: 'AED 1,200', min: '2 Hours', daily: 'AED 5,800', image: '/images/rolls-royce-phantom.jpg' },
     { model: 'Cullinan', hourly: 'AED 1,300', min: '2 Hours', daily: 'AED 6,500', image: '/images/2024_Rolls-Royce_Cullinan.jpg' },
-    { model: 'Dawn', hourly: 'AED 1,100', min: '2 Hours', daily: 'AED 5,500', image: '/images/Rolls-Royce-dawn.jpg' },
-    { model: 'Wraith', hourly: 'AED 1,000', min: '2 Hours', daily: 'AED 5,000', image: '/images/Rolls-royce-Wraith.jpg' },
+    { model: 'Dawn', hourly: 'AED 1,100', min: '2 Hours', daily: 'AED 5,500', image: '/images/Rolls-Royce_Dawn.jpg' },
+    { model: 'Wraith', hourly: 'AED 1,000', min: '2 Hours', daily: 'AED 5,000', image: '/images/wraith-coupe.jpg' },
     { model: 'Spectre', hourly: 'AED 1,500', min: '2 Hours', daily: 'AED 7,500', image: '/images/2024_Rolls-Royce_Spectre.jpg' },
   ]
 
