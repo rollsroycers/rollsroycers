@@ -65,12 +65,18 @@ function MyApp({ Component, pageProps }: AppProps) {
       setTimeout(deferNonCritical, 2000)
     }
 
-    // Register the service worker (public/sw.js was shipped but never registered,
-    // so the PWA / offline support / runtime caching were all dead).
-    if (process.env.NODE_ENV === 'production' && 'serviceWorker' in navigator) {
-      window.addEventListener('load', () => {
-        navigator.serviceWorker.register('/sw.js').catch(() => {})
-      })
+    // The previous custom service worker caused INTERMITTENT client-side navigation
+    // failures across deploys (cacheFirst on JS / _next chunks + cached HTML). It is
+    // no longer registered; public/sw.js is now a self-unregistering kill switch. Here
+    // we also proactively unregister any existing SW + clear its caches so returning
+    // visitors recover on their next load instead of being stuck on stale assets.
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.getRegistrations()
+        .then((regs) => regs.forEach((r) => r.unregister()))
+        .catch(() => {})
+      if (typeof caches !== 'undefined' && caches.keys) {
+        caches.keys().then((keys) => keys.forEach((k) => caches.delete(k))).catch(() => {})
+      }
     }
   }, [])
 
