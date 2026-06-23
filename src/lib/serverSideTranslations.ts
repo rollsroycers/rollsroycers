@@ -74,7 +74,6 @@ export const serverSideTranslations = async (
   // The require() calls above are resolved by webpack at build time, so the JSON
   // data is embedded directly in the JS bundle — no filesystem access needed.
   const localeResources = bundled[lang] || bundled['en']
-  const defaultResources = bundled['en']
 
   const store: Record<string, Record<string, any>> = {}
 
@@ -83,13 +82,11 @@ export const serverSideTranslations = async (
     store[lang][n] = localeResources[n] || {}
   }
 
-  // Also load default locale for fallback
-  if (lang !== 'en') {
-    store['en'] = {}
-    for (const n of ns) {
-      store['en'][n] = defaultResources[n] || {}
-    }
-  }
+  // NOTE: we intentionally do NOT serialize the English fallback copy into
+  // non-English pages. ar/ru have 100% key parity with en (verified by
+  // scripts/i18n-verify.mjs), so the fallback was pure dead weight — it
+  // doubled every ar/ru page's inlined i18n payload (~+40%) and was a primary
+  // driver of the Cloudflare Worker "1102 exceeded resource limits" errors.
 
   return {
     _nextI18Next: {
