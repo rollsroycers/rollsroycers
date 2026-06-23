@@ -36,6 +36,7 @@ const MANIFEST = [
   ...LOCS.map((x) => ['lc_' + x, 'locations/' + x + '.json', true]),
   ['lc_shared', 'locations/_shared.json', true],
   ['comparecontent', 'compare-content.json', true],
+  ['weatherrec', 'weatherrec.json', true],
   ['page_about', 'pages/about.json', true],
   ['page_blog', 'pages/blog.json', true],
   ['page_faq', 'pages/faq.json', true],

@@ -5,15 +5,17 @@ import { useState, useEffect } from 'react'
 import { createWhatsAppLinkProps } from '@/utils/whatsapp'
 
 export default function Footer() {
-  const { t } = useTranslation('common')
+  const { t, i18n } = useTranslation('common')
   const [dubaiTime, setDubaiTime] = useState('')
+  // Format the live Dubai time in the active locale (ar/ru/en) instead of always en-US.
+  const dateLocale = i18n.language === 'ar' ? 'ar-AE' : i18n.language === 'ru' ? 'ru-RU' : 'en-US'
 
   // Update Dubai time every second
   useEffect(() => {
     const updateDubaiTime = () => {
       const dubaiTimeZone = 'Asia/Dubai'
       const now = new Date()
-      const dubaiDate = new Intl.DateTimeFormat('en-US', {
+      const dubaiDate = new Intl.DateTimeFormat(dateLocale, {
         timeZone: dubaiTimeZone,
         weekday: 'short',
         year: 'numeric',
@@ -33,7 +35,7 @@ export default function Footer() {
     const interval = setInterval(updateDubaiTime, 60000)
 
     return () => clearInterval(interval)
-  }, [])
+  }, [dateLocale])
 
   const fleetLinks = [
     { href: '/fleet/phantom', label: t('fleet.phantom.name'), icon: '👑' },
@@ -338,7 +340,7 @@ export default function Footer() {
             <svg className="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
             </svg>
-            <span className="font-light">Dubai: {dubaiTime}</span>
+            <span className="font-light">{t('common.dubaiTimeLabel')} {dubaiTime}</span>
           </div>
           
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">

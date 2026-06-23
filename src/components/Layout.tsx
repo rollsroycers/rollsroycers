@@ -1,5 +1,6 @@
 import { ReactNode } from 'react'
 import dynamic from 'next/dynamic'
+import { useTranslation } from 'next-i18next'
 import Navbar from './Navbar'
 import Footer from './Footer'
 import Breadcrumbs from './Breadcrumbs'
@@ -15,6 +16,7 @@ interface LayoutProps {
 
 export default function Layout({ children }: LayoutProps) {
   const { locale } = useRouter()
+  const { t } = useTranslation('common')
   const dir = locale === 'ar' ? 'rtl' : 'ltr'
 
   return (
@@ -23,7 +25,7 @@ export default function Layout({ children }: LayoutProps) {
         href="#main-content"
         className="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 focus:z-[100] focus:px-4 focus:py-2 focus:bg-rolls-gold focus:text-black focus:rounded-lg focus:font-semibold"
       >
-        Skip to main content
+        {t('common.skipToContent')}
       </a>
       <Navbar />
       <Breadcrumbs />

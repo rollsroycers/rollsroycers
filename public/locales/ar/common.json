@@ -151,7 +151,21 @@
     "claimYourOffer": "احصل على عرضك",
     "termsApply": "*تطبق الشروط والأحكام",
     "excellent": "ممتاز",
-    "basedOnReviews": "بناءً على {{count}} تقييمات"
+    "basedOnReviews": "بناءً على {{count}} تقييمات",
+    "skipToContent": "تخطّي إلى المحتوى الرئيسي",
+    "dubaiTimeLabel": "دبي:",
+    "whatsappChat": "تواصل معنا",
+    "whatsappMessage": "مرحبًا! أنا مهتم باستئجار رولز رويس في دبي.",
+    "blog": {
+      "shareArticle": "شارك المقال",
+      "aboutAuthor": "عن الكاتب",
+      "relatedArticles": "مقالات ذات صلة",
+      "newsletterTitle": "ابقَ على اطّلاع بأحدث رؤى الفخامة",
+      "newsletterDesc": "اشترك لتصلك محتويات حصرية عن تأجير السيارات الفاخرة وتجارب دبي",
+      "emailPlaceholder": "أدخل بريدك الإلكتروني",
+      "subscribe": "اشترك في النشرة",
+      "authorBio": "{{author}} خبير في السيارات الفاخرة بخبرة واسعة في سوق تأجير السيارات الفاخرة بدبي، وشغوف بتقديم تجارب استثنائية عبر أرقى سيارات العالم."
+    }
   },
   "offers": {
     "weekend": {
@@ -1201,5 +1215,9 @@
     "available247": "متاح 24/7",
     "popularAirportRoutes": "مسارات المطار الشائعة",
     "popularChauffeurRoutes": "مسارات السائق الشائعة"
+  },
+  "locationPage": {
+    "exploreNearby": "استكشف المواقع القريبة",
+    "popularServices": "خدمات شائعة"
   }
 }

@@ -1,0 +1,100 @@
+{
+  "weatherRec": {
+    "title": "Weather-Smart Recommendation",
+    "subtitle": "The right Rolls-Royce for today's conditions",
+    "humidity": "Humidity",
+    "wind": "Wind",
+    "recommendedBadge": "Recommended for these conditions",
+    "featuresTitle": "Ideal features for these conditions:",
+    "bookNow": "Book the {{model}}",
+    "activitiesTitle": "Great things to do in your {{model}}",
+    "updateNote": "Recommendations based on typical Dubai conditions",
+    "conditions": {
+      "hot": "Hot",
+      "sunny": "Sunny",
+      "cloudy": "Cloudy",
+      "rainy": "Rainy",
+      "sandstorm": "Sandstorm"
+    },
+    "greetings": {
+      "morning": "Good morning!",
+      "afternoon": "Good afternoon!",
+      "evening": "Good evening!",
+      "night": "Good night!"
+    },
+    "recommendations": {
+      "hot": {
+        "model": "Rolls-Royce Cullinan",
+        "reason": "With {{temp}}°C heat, the Cullinan's superior climate control and spacious interior provide ultimate comfort",
+        "features": [
+          "Advanced 4-zone climate control",
+          "Cooled seats with massage",
+          "UV-protected panoramic roof",
+          "Refrigerated compartment"
+        ]
+      },
+      "rainy": {
+        "model": "Rolls-Royce Ghost",
+        "reason": "Ideal for rainy conditions with all-wheel drive and advanced safety systems",
+        "features": [
+          "All-wheel drive system",
+          "Rain-sensing wipers",
+          "Adaptive LED headlights",
+          "Enhanced traction control"
+        ]
+      },
+      "evening": {
+        "model": "Rolls-Royce Wraith",
+        "reason": "The perfect grand tourer for Dubai's stunning evening drives",
+        "features": [
+          "Starlight headliner",
+          "Night vision assist",
+          "Adaptive cruise control",
+          "Ambient interior lighting"
+        ]
+      },
+      "sunny": {
+        "model": "Rolls-Royce Dawn",
+        "reason": "Enjoy Dubai's beautiful weather in a luxury convertible",
+        "features": [
+          "Retractable soft-top",
+          "Wind deflector system",
+          "Neck warmers",
+          "Whisper-quiet roof"
+        ]
+      },
+      "default": {
+        "model": "Rolls-Royce Phantom",
+        "reason": "The ultimate luxury experience for any condition",
+        "features": [
+          "Magic Carpet Ride",
+          "Acoustic insulation",
+          "Lounge seating",
+          "Bespoke entertainment"
+        ]
+      }
+    },
+    "activities": {
+      "morning": [
+        "Business meetings in DIFC",
+        "Breakfast at Atlantis",
+        "Golf at Emirates Club"
+      ],
+      "afternoon": [
+        "Shopping at Dubai Mall",
+        "Lunch at Burj Al Arab",
+        "Beach time at JBR"
+      ],
+      "evening": [
+        "Sunset drive to Palm Jumeirah",
+        "Dinner at La Petite Maison",
+        "Dubai Fountain show"
+      ],
+      "night": [
+        "Night cityscape tour",
+        "Late dining at Zuma",
+        "Marina walk experience"
+      ]
+    }
+  }
+}

@@ -5,6 +5,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { m as motion } from 'framer-motion'
 import { useRouter } from 'next/router'
+import { useTranslation } from 'next-i18next'
 import Layout from '@/components/Layout'
 import WhatsAppButton from '@/components/WhatsAppButton'
 import SEO from '@/components/SEO'
@@ -3393,6 +3394,7 @@ interface BlogPageProps {
 
 export default function BlogArticlePage({ article, relatedArticlesData }: BlogPageProps) {
   const router = useRouter()
+  const { t } = useTranslation('common')
   const { slug } = router.query
 
   if (!article) {
@@ -3601,7 +3603,7 @@ export default function BlogArticlePage({ article, relatedArticlesData }: BlogPa
                 whileInView={{ opacity: 1, y: 0 }}
                 className="mt-12 pt-12 border-t border-rolls-gold/20"
               >
-                <h3 className="text-xl font-bold text-white mb-4">Share this article</h3>
+                <h3 className="text-xl font-bold text-white mb-4">{t('common.blog.shareArticle')}</h3>
                 <div className="flex space-x-4">
                   <a
                     href={`https://www.facebook.com/sharer/sharer.php?u=https://rollsroycers.com/blog/${slug}`}
@@ -3642,10 +3644,9 @@ export default function BlogArticlePage({ article, relatedArticlesData }: BlogPa
                 whileInView={{ opacity: 1, y: 0 }}
                 className="mt-12 bg-rolls-black/50 backdrop-blur-sm border border-rolls-gold/20 rounded-lg p-8"
               >
-                <h3 className="text-xl font-bold text-white mb-4">About the Author</h3>
+                <h3 className="text-xl font-bold text-white mb-4">{t('common.blog.aboutAuthor')}</h3>
                 <p className="text-gray-300">
-                  {article.author} is a luxury automotive expert with extensive experience in Dubai's premium car rental market. 
-                  Passionate about delivering exceptional experiences through the world's finest automobiles.
+                  {t('common.blog.authorBio', { author: article.author })}
                 </p>
               </motion.div>
             </div>
@@ -3656,9 +3657,7 @@ export default function BlogArticlePage({ article, relatedArticlesData }: BlogPa
         {/* Related Articles */}
         <section className="py-20 bg-gradient-to-b from-rolls-navy to-rolls-black">
           <div className="container mx-auto px-4">
-            <h2 className="text-4xl font-bold text-white text-center mb-12">
-              Related Articles
-            </h2>
+            <h2 className="text-4xl font-bold text-white text-center mb-12">{t('common.blog.relatedArticles')}</h2>
             <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
               {relatedArticlesData.map((related, index: number) => {
                 if (!related) return null
@@ -3703,15 +3702,11 @@ export default function BlogArticlePage({ article, relatedArticlesData }: BlogPa
               whileInView={{ opacity: 1, y: 0 }}
               className="max-w-2xl mx-auto"
             >
-              <h2 className="text-3xl font-bold text-white mb-6">
-                Stay Updated with Luxury Insights
-              </h2>
+              <h2 className="text-3xl font-bold text-white mb-6">{t('common.blog.newsletterTitle')}</h2>
               <p className="text-xl text-gray-300 mb-8">
-                Subscribe to receive exclusive content about luxury car rentals and Dubai experiences
+                {t('common.blog.newsletterDesc')}
               </p>
-              <Link href="/contact" className="btn-primary">
-                Subscribe to Newsletter
-              </Link>
+              <Link href="/contact" className="btn-primary">{t('common.blog.subscribe')}</Link>
             </motion.div>
           </div>
         </section>

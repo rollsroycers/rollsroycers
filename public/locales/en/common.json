@@ -287,7 +287,21 @@
     "termsApply": "*Terms and conditions apply",
     "aed": "AED",
     "excellent": "Excellent",
-    "basedOnReviews": "Based on {{count}} reviews"
+    "basedOnReviews": "Based on {{count}} reviews",
+    "skipToContent": "Skip to main content",
+    "dubaiTimeLabel": "Dubai:",
+    "whatsappChat": "Chat with us",
+    "whatsappMessage": "Hello! I am interested in renting a Rolls-Royce in Dubai.",
+    "blog": {
+      "shareArticle": "Share this article",
+      "aboutAuthor": "About the Author",
+      "relatedArticles": "Related Articles",
+      "newsletterTitle": "Stay Updated with Luxury Insights",
+      "newsletterDesc": "Subscribe to receive exclusive content about luxury car rentals and Dubai experiences",
+      "emailPlaceholder": "Enter your email",
+      "subscribe": "Subscribe to Newsletter",
+      "authorBio": "{{author}} is a luxury automotive expert with extensive experience in Dubai's premium car rental market. Passionate about delivering exceptional experiences through the world's finest automobiles."
+    }
   },
   "cookie": {
     "title": "This website uses cookies",
@@ -1044,5 +1058,9 @@
     "available247": "24/7 Available",
     "popularAirportRoutes": "Popular Airport Routes",
     "popularChauffeurRoutes": "Popular Chauffeur Routes"
+  },
+  "locationPage": {
+    "exploreNearby": "Explore Nearby Locations",
+    "popularServices": "Popular Services"
   }
 }

@@ -759,7 +759,21 @@
     "claimYourOffer": "Получить предложение",
     "termsApply": "*Действуют условия и положения",
     "excellent": "Отлично",
-    "basedOnReviews": "На основе {{count}} отзывов"
+    "basedOnReviews": "На основе {{count}} отзывов",
+    "skipToContent": "Перейти к основному содержанию",
+    "dubaiTimeLabel": "Дубай:",
+    "whatsappChat": "Напишите нам",
+    "whatsappMessage": "Здравствуйте! Я хочу арендовать Rolls-Royce в Дубае.",
+    "blog": {
+      "shareArticle": "Поделиться статьёй",
+      "aboutAuthor": "Об авторе",
+      "relatedArticles": "Похожие статьи",
+      "newsletterTitle": "Будьте в курсе роскошных новостей",
+      "newsletterDesc": "Подпишитесь, чтобы получать эксклюзивный контент об аренде люксовых авто и впечатлениях в Дубае",
+      "emailPlaceholder": "Введите ваш email",
+      "subscribe": "Подписаться на рассылку",
+      "authorBio": "{{author}} — эксперт по люксовым автомобилям с большим опытом на премиальном рынке аренды Дубая. Создаёт исключительные впечатления за рулём лучших автомобилей мира."
+    }
   },
   "locations": {
     "downtownDubai": {
@@ -1366,5 +1380,9 @@
     "available247": "Доступен 24/7",
     "popularAirportRoutes": "Популярные маршруты из аэропорта",
     "popularChauffeurRoutes": "Популярные маршруты с шофёром"
+  },
+  "locationPage": {
+    "exploreNearby": "Районы поблизости",
+    "popularServices": "Популярные услуги"
   }
 }

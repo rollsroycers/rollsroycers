@@ -257,10 +257,10 @@ export default function DeiraPage() {
             <h3 className="text-2xl font-bold text-white text-center mb-8">{t('deiraPage.services')}</h3>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-4xl mx-auto">
               {[
-                { href: '/services/airport-transfer', name: 'Airport Transfer' },
-                { href: '/services/chauffeur', name: 'Chauffeur Service' },
-                { href: '/services/tours', name: 'Dubai Tours' },
-                { href: '/services/corporate', name: 'Corporate Service' },
+                { href: '/services/airport-transfer', name: t(`services.airport.title`) },
+                { href: '/services/chauffeur', name: t(`services.chauffeur.title`) },
+                { href: '/services/tours', name: t(`services.tours.title`) },
+                { href: '/services/corporate', name: t(`services.corporate.title`) },
               ].map((s) => (
                 <Link key={s.href} href={s.href} className="group text-center bg-white/5 border border-white/10 rounded-lg p-4 hover:border-rolls-gold/50 transition-all">
                   <p className="text-white font-semibold group-hover:text-rolls-gold transition-colors">{s.name}</p>
@@ -273,25 +273,25 @@ export default function DeiraPage() {
         {/* Nearby Locations & Related Services */}
         <section className="py-16 bg-gradient-to-b from-rolls-navy to-rolls-black">
           <div className="container mx-auto px-4">
-            <h2 className="text-3xl font-bold text-white text-center mb-8">Explore Nearby Locations</h2>
+            <h2 className="text-3xl font-bold text-white text-center mb-8">{t('locationPage.exploreNearby')}</h2>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-12">
               {[
-                { href: '/locations/difc', name: 'DIFC' },
-                { href: '/locations/downtown-dubai', name: 'Downtown Dubai' },
-                { href: '/locations/business-bay', name: 'Business Bay' },
-                { href: '/locations/jumeirah', name: 'Jumeirah' },
+                { href: '/locations/difc', name: t(`locations.difc.nav`) },
+                { href: '/locations/downtown-dubai', name: t(`locations.downtownDubai.nav`) },
+                { href: '/locations/business-bay', name: t(`locations.businessBay.nav`) },
+                { href: '/locations/jumeirah', name: t(`locations.jumeirah.nav`) },
               ].map((loc) => (
                 <Link key={loc.href} href={loc.href} className="group text-center bg-white/5 border border-white/10 rounded-lg p-4 hover:border-rolls-gold/50 transition-all">
                   <p className="text-white font-semibold group-hover:text-rolls-gold transition-colors">{loc.name}</p>
                 </Link>
               ))}
             </div>
-            <h3 className="text-2xl font-bold text-white text-center mb-6">Popular Services in Deira</h3>
+            <h3 className="text-2xl font-bold text-white text-center mb-6">{t('locationPage.popularServices')}</h3>
             <div className="grid grid-cols-2 md:grid-cols-3 gap-4 max-w-3xl mx-auto">
               {[
-                { href: '/services/airport-transfer', name: 'Airport Transfer' },
-                { href: '/services/tours', name: 'Dubai City Tours' },
-                { href: '/services/chauffeur', name: 'Chauffeur Service' },
+                { href: '/services/airport-transfer', name: t(`services.airport.title`) },
+                { href: '/services/tours', name: t(`services.tours.title`) },
+                { href: '/services/chauffeur', name: t(`services.chauffeur.title`) },
               ].map((s) => (
                 <Link key={s.href} href={s.href} className="group text-center bg-white/5 border border-white/10 rounded-lg p-3 hover:border-rolls-gold/50 transition-all">
                   <p className="text-white text-sm font-semibold group-hover:text-rolls-gold transition-colors">{s.name}</p>
