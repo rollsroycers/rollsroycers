@@ -6,7 +6,7 @@ import { useRouter } from 'next/router';
 import SEO from '../../components/SEO';
 import Image from 'next/image';
 import Link from 'next/link';
-import { motion } from 'framer-motion';
+import { m as motion } from 'framer-motion';
 import Navbar from '../../components/Navbar';
 import Footer from '../../components/Footer';
 import ComparisonStructuredData from '../../components/ComparisonStructuredData';

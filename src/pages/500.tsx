@@ -5,7 +5,7 @@ import Head from 'next/head'
 import Layout from '@/components/Layout'
 import SEO from '@/components/SEO'
 import Link from 'next/link'
-import { motion } from 'framer-motion'
+import { m as motion } from 'framer-motion'
 
 export default function Custom500() {
   const { t } = useTranslation('common')

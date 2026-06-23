@@ -2,7 +2,7 @@ import '@/styles/globals.css'
 import type { AppProps } from 'next/app'
 import Head from 'next/head'
 import { appWithTranslation } from 'next-i18next'
-import { MotionConfig } from 'framer-motion'
+import { MotionConfig, LazyMotion, domAnimation } from 'framer-motion'
 import { useEffect } from 'react'
 import { Playfair_Display, Montserrat, Noto_Sans_Arabic } from 'next/font/google'
 import { optimizeForMobile, setMobileViewportHeight } from '@/utils/mobileOptimizations'
@@ -85,12 +85,17 @@ function MyApp({ Component, pageProps }: AppProps) {
   return (
     // reducedMotion="user" makes framer-motion honor prefers-reduced-motion (the CSS-only
     // override did not stop JS-driven whileInView/animate transforms).
-    <MotionConfig reducedMotion="user">
-      <Head>
-        <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
-      </Head>
-      <div className={fontClasses}><Component {...pageProps} /></div>
-    </MotionConfig>
+    // LazyMotion + domAnimation: components import `m as motion`, so framer-motion ships
+    // the lightweight `m` core + only the domAnimation features (animation/exit/inView/
+    // hover/tap/focus — everything used; no layout/drag) instead of the full motion bundle.
+    <LazyMotion features={domAnimation}>
+      <MotionConfig reducedMotion="user">
+        <Head>
+          <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+        </Head>
+        <div className={fontClasses}><Component {...pageProps} /></div>
+      </MotionConfig>
+    </LazyMotion>
   )
 }
 

@@ -1,5 +1,5 @@
 import { useTranslation } from 'next-i18next'
-import { motion } from 'framer-motion'
+import { m as motion } from 'framer-motion'
 import { useInView } from 'react-intersection-observer'
 import { useState } from 'react'
 import { WHATSAPP_NUMBER } from '@/utils/whatsapp'
