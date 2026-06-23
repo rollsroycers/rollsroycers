@@ -2,6 +2,7 @@ import '@/styles/globals.css'
 import type { AppProps } from 'next/app'
 import Head from 'next/head'
 import { appWithTranslation } from 'next-i18next'
+import { useRouter } from 'next/router'
 import { MotionConfig, LazyMotion, domAnimation } from 'framer-motion'
 import { useEffect } from 'react'
 import { Playfair_Display, Montserrat, Noto_Sans_Arabic } from 'next/font/google'
@@ -48,6 +49,22 @@ const i18nConfig = {
 
 // Minimal app with React 18 compatibility
 function MyApp({ Component, pageProps }: AppProps) {
+  const router = useRouter()
+
+  // Safety net for stale tabs after a deploy: if a client-side navigation fails
+  // (e.g. the page's buildId no longer matches the served worker, so /_next/data
+  // 503/404s), recover with a full navigation to the target so the user always lands
+  // on the current build instead of getting stuck. Now rare thanks to the deterministic
+  // git-SHA buildId (next.config.js), but this guarantees recovery on genuine code deploys.
+  useEffect(() => {
+    const onRouteError = (err: any, url: string) => {
+      if (err?.cancelled) return
+      window.location.assign(url)
+    }
+    router.events.on('routeChangeError', onRouteError)
+    return () => router.events.off('routeChangeError', onRouteError)
+  }, [router])
+
   useEffect(() => {
     // Critical: Initialize mobile optimizations immediately
     optimizeForMobile()

@@ -349,8 +349,19 @@ const nextConfig = {
   
   // Enable static exports for better performance
   generateBuildId: async () => {
-    // Generate a unique build ID based on timestamp
-    return `build-${Date.now()}`;
+    // Deterministic build ID from the git commit, NOT Date.now(). A timestamp id
+    // changed on every build, so each deploy purged the previous /_next/data/<id>/*
+    // paths and any open tab (or in-flight prefetch) 503'd on its now-missing data —
+    // surfacing as "sometimes doesn't navigate" + console 503s after a deploy.
+    // A content-based id only changes when the code changes, so redeploys of the same
+    // commit keep tabs valid and the id is identical across all edge worker instances.
+    try {
+      const sha = require('child_process')
+        .execSync('git rev-parse --short=12 HEAD', { stdio: ['ignore', 'pipe', 'ignore'] })
+        .toString().trim();
+      if (/^[0-9a-f]{7,40}$/.test(sha)) return `rrx-${sha}`;
+    } catch (_) { /* git unavailable (e.g. shallow CI) → fall through */ }
+    return process.env.NEXT_PUBLIC_BUILD_ID || 'rrx-stable';
   },
 }
 
