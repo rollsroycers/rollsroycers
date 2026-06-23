@@ -506,7 +506,7 @@ export default function BookingPage() {
 export const getStaticProps: GetStaticProps = async ({ locale }) => {
   return {
     props: {
-      ...(await serverSideTranslations(locale || 'en', ["common","seo","navigation"])),
+      ...(await serverSideTranslations(locale || 'en', ['common', 'fc_cullinan', 'fc_dawn', 'fc_ghost', 'fc_phantom', 'fc_shared', 'fc_spectre', 'fc_wraith', 'navigation', 'page_booking', 'seo_other'])),
     },
   }
 }

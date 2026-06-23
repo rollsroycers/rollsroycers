@@ -1,0 +1,109 @@
+{
+  "booking": {
+    "title": "أكمل حجزك",
+    "hero": {
+      "title": "احجز رولز رويس",
+      "subtitle": "احجز تجربتك الفاخرة عبر الإنترنت"
+    },
+    "steps": {
+      "step": "خطوة",
+      "vehicle": "اختر السيارة",
+      "service": "اختر الخدمة",
+      "dates": "حدد التواريخ",
+      "confirm": "تأكيد التفاصيل"
+    },
+    "vehicleSelection": {
+      "title": "1. اختر سيارتك",
+      "viewDetails": "عرض معلومات السيارة التفصيلية →"
+    },
+    "vehicles": {
+      "phantom": "رولز رويس فانتوم",
+      "ghost": "رولز رويس غوست",
+      "cullinan": "رولز رويس كولينان",
+      "dawn": "رولز رويس داون",
+      "wraith": "رولز رويس رايث"
+    },
+    "serviceSelection": {
+      "title": "2. اختر نوع الخدمة"
+    },
+    "services": {
+      "selfDrive": {
+        "name": "قيادة ذاتية",
+        "description": "قد بنفسك بفخامة"
+      },
+      "chauffeur": {
+        "name": "مع سائق",
+        "description": "سائق محترف مشمول"
+      },
+      "hourly": {
+        "name": "تأجير بالساعة",
+        "description": "باقات ساعية مرنة"
+      },
+      "wedding": {
+        "name": "خدمة الزفاف",
+        "description": "باقة المناسبات الخاصة"
+      },
+      "corporate": {
+        "name": "شركات",
+        "description": "حلول الأعمال"
+      }
+    },
+    "locationDates": {
+      "title": "3. تفاصيل الاستلام والإرجاع",
+      "pickupLocation": "موقع الاستلام",
+      "selectLocation": "اختر الموقع",
+      "pickupDateTime": "تاريخ ووقت الاستلام",
+      "returnLocation": "موقع الإرجاع",
+      "sameAsPickup": "نفس موقع الاستلام",
+      "returnDateTime": "تاريخ ووقت الإرجاع"
+    },
+    "locations": {
+      "downtownDubai": "وسط دبي",
+      "dubaiMarina": "دبي مارينا",
+      "palmJumeirah": "نخلة جميرا",
+      "businessBay": "بزنس باي",
+      "jbr": "جي بي آر",
+      "difc": "مركز دبي المالي",
+      "dxbAirport": "مطار دبي الدولي (DXB)",
+      "dwcAirport": "مطار آل مكتوم (DWC)",
+      "hotelPickup": "استلام من الفندق",
+      "customLocation": "موقع مخصص"
+    },
+    "personalInfo": {
+      "title": "4. معلوماتك",
+      "nationality": "الجنسية",
+      "specialRequests": "أي طلبات أو متطلبات خاصة..."
+    },
+    "submit": {
+      "button": "المتابعة للدفع",
+      "redirect": "سيتم توجيهك لبوابة الدفع الآمنة"
+    },
+    "availability": {
+      "title": "تحقق من توفر السيارة"
+    },
+    "calculator": {
+      "title": "احسب تكلفة التأجير"
+    },
+    "requirements": {
+      "title": "متطلبات التأجير",
+      "items": {
+        "license": "رخصة قيادة إماراتية سارية أو رخصة دولية",
+        "age": "الحد الأدنى للعمر 25 سنة",
+        "credit": "بطاقة ائتمان للتأمين",
+        "passport": "نسخة من جواز السفر والتأشيرة",
+        "residence": "إثبات الإقامة أو حجز الفندق"
+      },
+      "viewTerms": "عرض الشروط والأحكام الكاملة →"
+    },
+    "phoneBooking": {
+      "title": "تفضل الحجز عبر الهاتف؟",
+      "description": "متخصصو الحجز لدينا متاحون على مدار الساعة لمساعدتك",
+      "callButton": "اتصل: +971 55 816 4922",
+      "whatsappButton": "حجز واتساب"
+    },
+    "placeholders": {
+      "johnDoe": "أحمد محمد",
+      "country": "البلد/الجنسية"
+    }
+  }
+}

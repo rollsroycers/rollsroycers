@@ -512,7 +512,7 @@ export default function PalmJumeirahPage() {
 export const getStaticProps: GetStaticProps = async ({ locale }) => {
   return {
     props: {
-      ...(await serverSideTranslations(locale || 'en', ["common","seo","navigation"])),
+      ...(await serverSideTranslations(locale || 'en', ['common', 'comparecontent', 'lc_palmJumeirah', 'lc_shared', 'navigation', 'seo_locations'])),
     },
   }
 }

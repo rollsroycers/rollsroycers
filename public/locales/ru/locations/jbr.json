@@ -1,0 +1,251 @@
+{
+  "locations": {
+    "jbr": {
+      "nav": "JBR",
+      "hero": {
+        "title": "JBR",
+        "subtitle": "Пляж и развлечения",
+        "bookButton": "Забронировать",
+        "callButton": "Позвонить",
+        "badge": "Главный пляжный район Дубая",
+        "cta": {
+          "book": "Забронировать доставку на пляж",
+          "experiences": "Пляжные впечатления"
+        }
+      },
+      "stats": {
+        "deliveries": "350+",
+        "deliveriesLabel": "Доставок/мес",
+        "responseTime": "4 мин",
+        "responseTimeLabel": "Время ответа",
+        "beachClubs": "10+",
+        "beachClubsLabel": "Пляжных клубов",
+        "satisfaction": "4.8/5",
+        "satisfactionLabel": "Удовлетворённость",
+        "arrival": "Время прибытия на пляж",
+        "rating": "Оценка клиентов",
+        "service": "Пляжный сервис"
+      },
+      "whyChoose": {
+        "title": "Почему JBR",
+        "beach": {
+          "title": "Прекрасный пляж",
+          "description": "Лучшие публичные пляжи Дубая"
+        },
+        "walk": {
+          "title": "Оживлённая набережная",
+          "description": "Рестораны, магазины и аттракционы"
+        },
+        "entertainment": {
+          "title": "Развлечения",
+          "description": "Dubai Eye и водные виды спорта"
+        },
+        "features": {
+          "beachfront": {
+            "title": "Пляжный рай",
+            "description": "Прямой доступ к самому оживлённому пляжу Дубая с премиум-парковкой"
+          },
+          "sunset": {
+            "title": "Закатные поездки",
+            "description": "Волшебные закатные круизы по набережной в кабриолете"
+          },
+          "vip": {
+            "title": "VIP пляжного клуба",
+            "description": "Пропускайте очереди с нашей VIP-координацией"
+          }
+        }
+      },
+      "beachClubs": {
+        "title": "Партнёрские пляжные клубы",
+        "clubs": {
+          "azure": {
+            "name": "Azure Beach",
+            "type": "Премиум-пляж",
+            "feature": "VIP-вход"
+          },
+          "barasti": {
+            "name": "Barasti Beach",
+            "type": "Пляжный бар",
+            "feature": "Прямой доступ"
+          },
+          "cove": {
+            "name": "Cove Beach",
+            "type": "Дневной клуб",
+            "feature": "Зарезервированная парковка"
+          },
+          "nikki": {
+            "name": "Nikki Beach",
+            "type": "Люксовый пляжный клуб",
+            "feature": "Парковка с валетом"
+          },
+          "theBeach": {
+            "name": "The Beach at JBR",
+            "type": "Общественный пляж",
+            "feature": "Множество входов"
+          },
+          "zeroGravity": {
+            "name": "Zero Gravity",
+            "type": "Пляжный клуб",
+            "feature": "VIP-кабаны"
+          }
+        }
+      },
+      "experiences": {
+        "title": "Эксклюзивные впечатления JBR",
+        "sunset": {
+          "price": "от AED 7,000",
+          "title": "Закатная пляжная поездка",
+          "description": "Круиз по пляжу JBR в золотой час",
+          "bestCar": "Dawn Кабриолет",
+          "cta": "Забронировать",
+          "highlights": [
+            "Идеальный свет для фото",
+            "Круиз по набережной",
+            "Остановки у смотровых площадок",
+            "Профессиональная фотосъёмка"
+          ]
+        },
+        "nightLife": {
+          "price": "от AED 6,200",
+          "title": "Ночная жизнь",
+          "description": "Вечерние развлечения со стилем",
+          "bestCar": "Ghost",
+          "cta": "Забронировать",
+          "highlights": [
+            "Парковка с валетом у ресторанов",
+            "Координация барного тура",
+            "Ночной шофёр",
+            "Безопасный люксовый транспорт"
+          ]
+        },
+        "beachClub": {
+          "price": "от AED 8,500",
+          "title": "Тур по пляжным клубам",
+          "description": "VIP-прибытие в лучшие пляжные клубы Дубая",
+          "bestCar": "Cullinan",
+          "cta": "Забронировать",
+          "highlights": [
+            "Вход без очереди",
+            "Зарезервированная VIP-парковка",
+            "Бронирование столиков",
+            "Шофёр в режиме ожидания"
+          ]
+        },
+        "recommended": "Рекомендуем:"
+      },
+      "dining": {
+        "title": "Лучшие рестораны",
+        "headers": {
+          "cuisine": "Кухня",
+          "location": "Расположение",
+          "restaurant": "Ресторан"
+        },
+        "note": "Координация парковки с валетом во всех премиум-ресторанах",
+        "restaurants": {
+          "ilBorro": {
+            "name": "Il Borro",
+            "cuisine": "Итальянская",
+            "location": "JBR"
+          },
+          "laPetite": {
+            "name": "La Petite Maison",
+            "cuisine": "Французская",
+            "location": "Gate Village"
+          },
+          "nobu": {
+            "name": "Nobu",
+            "cuisine": "Японский фьюжн",
+            "location": "Atlantis (15 мин)"
+          },
+          "seafire": {
+            "name": "Seafire Steakhouse",
+            "cuisine": "Американская",
+            "location": "Atlantis (15 мин)"
+          },
+          "stk": {
+            "name": "STK",
+            "cuisine": "Стейкхаус",
+            "location": "JBR Walk"
+          },
+          "zuma": {
+            "name": "Zuma",
+            "cuisine": "Японская",
+            "location": "DIFC (10 мин)"
+          }
+        }
+      },
+      "attractions": {
+        "title": "Достопримечательности",
+        "list": {
+          "ainDubai": {
+            "name": "Ain Dubai",
+            "type": "Колесо обозрения",
+            "distance": "10 минут"
+          },
+          "marina": {
+            "name": "Дубай Марина",
+            "type": "Набережный район",
+            "distance": "5 минут"
+          },
+          "marinaMall": {
+            "name": "Dubai Marina Mall",
+            "type": "Шопинг",
+            "distance": "7 минут"
+          },
+          "palm": {
+            "name": "Палм Джумейра",
+            "type": "Легендарный остров",
+            "distance": "15 минут"
+          },
+          "skydive": {
+            "name": "Skydive Dubai",
+            "type": "Экстрим-спорт",
+            "distance": "3 минуты"
+          },
+          "theWalk": {
+            "name": "The Walk JBR",
+            "type": "Шопинг и рестораны",
+            "distance": "На месте"
+          }
+        }
+      },
+      "weather": {
+        "title": "Лучшее время для визита"
+      },
+      "residential": {
+        "title": "Жилой район",
+        "description": "Бесплатная доставка ко всем жилым башням JBR:",
+        "note": "+ Все башни JBR с подземной парковкой",
+        "towers": [
+          "Amwaj Suites",
+          "Bahar Towers",
+          "Rimal Towers",
+          "Shams Towers",
+          "Murjan Towers",
+          "Sadaf Towers"
+        ]
+      },
+      "fleet": {
+        "title": "Автопарк в JBR"
+      },
+      "cta": {
+        "title": "Rolls-Royce в JBR",
+        "subtitle": "Бесплатная доставка по всему JBR",
+        "call": "Звонок: +971 55 816 4922",
+        "packages": "Смотреть пакеты",
+        "book": "Забронировать онлайн",
+        "pickupPoints": {
+          "title": "Точки подачи JBR",
+          "beach": {
+            "title": "Пляжный доступ",
+            "location": "Главный вход The Walk"
+          },
+          "tower": {
+            "title": "Доставка в башню",
+            "location": "Все подземные парковки JBR"
+          }
+        }
+      }
+    }
+  }
+}

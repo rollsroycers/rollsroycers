@@ -1,0 +1,162 @@
+{
+  "locations": {
+    "businessBay": {
+      "nav": "بزنس باي",
+      "hero": {
+        "title": "بزنس باي",
+        "subtitle": "مركز الأعمال في دبي",
+        "badge": "المنطقة التجارية الأولى",
+        "cta": {
+          "book": "احجز رحلتك",
+          "corporate": "الباقات المؤسسية"
+        }
+      },
+      "stats": {
+        "clients": "500+",
+        "clientsLabel": "عملاء شركات",
+        "onTime": "99%",
+        "onTimeLabel": "توصيل في الموعد",
+        "vip": "200+",
+        "vipLabel": "عملاء VIP شهرياً",
+        "partners": "50+",
+        "partnersLabel": "شركاء مميزون",
+        "delivery": "متوسط التوصيل",
+        "support": "دعم الأعمال"
+      },
+      "whyHere": {
+        "title": "لماذا الخليج التجاري"
+      },
+      "advantages": {
+        "title": "مزايا الموقع",
+        "businessHub": {
+          "title": "مركز الأعمال",
+          "description": "قلب دبي التجاري"
+        },
+        "connectivity": {
+          "title": "اتصال ممتاز",
+          "description": "وصول سهل للمناطق الرئيسية"
+        },
+        "dining": {
+          "title": "مطاعم فاخرة",
+          "description": "أفخم المطاعم والمقاهي"
+        },
+        "hotels": {
+          "title": "فنادق 5 نجوم",
+          "description": "أفخم الفنادق في المنطقة"
+        }
+      },
+      "towers": {
+        "title": "أبراج بارزة",
+        "businessCenter": "مركز الأعمال",
+        "businessHub": "مركز الأعمال التجاري",
+        "commercial": "برج تجاري",
+        "mixedUse": "مجمع متعدد الاستخدامات",
+        "officeComplex": "مجمع مكاتب",
+        "note": "صف سيارات مجاني ووصول لجميع الأبراج الرئيسية",
+        "features": {
+          "access247": "دخول المبنى على مدار الساعة",
+          "basementParking": "موقف سيارات تحت الأرض متاح",
+          "conciergeService": "خدمة كونسيرج مخصصة",
+          "directAccess": "وصول مباشر للمبنى",
+          "valetParking": "صف سيارات مجاني",
+          "vipEntrance": "خدمة مدخل VIP"
+        }
+      },
+      "services": {
+        "title": "خدمات الشركات",
+        "inquire": "استفسر الآن",
+        "executive": {
+          "title": "النقل التنفيذي",
+          "description": "خدمة نقل يومية للمدراء",
+          "price": "من 800 درهم/ساعة",
+          "features": {
+            "morning": "خدمة صباحية",
+            "evening": "خدمة مسائية",
+            "flexible": "جدول مرن"
+          }
+        },
+        "conference": {
+          "title": "خدمة المؤتمرات",
+          "description": "نقل فاخر للمؤتمرات",
+          "price": "من 3,000 درهم",
+          "features": {
+            "fleet": "أسطول كامل",
+            "chauffeurs": "سائقون محترفون",
+            "vip": "خدمة VIP"
+          }
+        },
+        "monthly": {
+          "title": "الاشتراك الشهري",
+          "description": "باقة شهرية للعملاء الدائمين",
+          "price": "من 15,000 درهم/شهر",
+          "features": {
+            "dedicated": "سيارة مخصصة",
+            "priority": "أولوية الحجز",
+            "account": "مدير حساب"
+          }
+        }
+      },
+      "destinations": {
+        "title": "وجهات من الخليج التجاري",
+        "header": {
+          "destination": "الوجهة",
+          "time": "الوقت",
+          "purpose": "الغرض"
+        },
+        "dubaiMall": {
+          "purpose": "تسوق",
+          "distance": "8 دقائق"
+        },
+        "difc": {
+          "purpose": "أعمال",
+          "distance": "5 دقائق"
+        },
+        "airport": {
+          "purpose": "سفر",
+          "distance": "20 دقيقة"
+        },
+        "canal": {
+          "purpose": "ترفيه",
+          "distance": "3 دقائق"
+        },
+        "cityWalk": {
+          "purpose": "تسوق وترفيه",
+          "distance": "10 دقائق"
+        },
+        "laMer": {
+          "purpose": "شاطئ وترفيه",
+          "distance": "15 دقيقة"
+        }
+      },
+      "benefits": {
+        "title": "مزايا الخدمة",
+        "productivity": {
+          "title": "الإنتاجية",
+          "point1": "عمل أثناء التنقل",
+          "point2": "واي فاي مجاني",
+          "point3": "مكتب متنقل",
+          "point4": "مكالمات خاصة"
+        },
+        "client": {
+          "title": "إبهار العملاء",
+          "point1": "انطباع أول مميز",
+          "point2": "نقل فاخر",
+          "point3": "خدمة احترافية",
+          "point4": "مرونة كاملة"
+        }
+      },
+      "testimonials": {
+        "title": "آراء العملاء"
+      },
+      "fleet": {
+        "title": "أسطولنا في الخليج التجاري"
+      },
+      "cta": {
+        "title": "احجز خدمة الشركات",
+        "subtitle": "نقل تنفيذي في الخليج التجاري",
+        "call": "اتصل: +971 55 816 4922",
+        "packages": "عرض الباقات"
+      }
+    }
+  }
+}

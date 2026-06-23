@@ -1,0 +1,115 @@
+{
+  "fleet": {
+    "spectre": {
+      "name": "Rolls-Royce Spectre",
+      "tagline": "The Future of Ultra-Luxury",
+      "description": "The first fully electric Rolls-Royce. Experience whisper-silent luxury with 577hp instant torque, 520+ km range, and zero emissions.",
+      "features": [
+        {
+          "icon": "⚡",
+          "title": "Dual Electric Motors",
+          "desc": "577 HP of instant, whisper-silent power"
+        },
+        {
+          "icon": "🔋",
+          "title": "520+ km Range",
+          "desc": "102 kWh battery for all-day luxury touring"
+        },
+        {
+          "icon": "🤫",
+          "title": "Whisper Silent",
+          "desc": "The quietest Rolls-Royce ever created"
+        },
+        {
+          "icon": "✨",
+          "title": "Starlight Headliner",
+          "desc": "1,340 fiber optic lights in your personal night sky"
+        },
+        {
+          "icon": "🏎️",
+          "title": "Fastback Design",
+          "desc": "Dramatic coupé silhouette with aerodynamic elegance"
+        },
+        {
+          "icon": "🎵",
+          "title": "Bespoke Audio",
+          "desc": "18-speaker system tuned for electric silence"
+        },
+        {
+          "icon": "🌟",
+          "title": "Illuminated Spirit",
+          "desc": "The iconic Spirit of Ecstasy, now illuminated"
+        },
+        {
+          "icon": "🔒",
+          "title": "Advanced Suspension",
+          "desc": "Planar system with electric-optimized damping"
+        }
+      ],
+      "badges": {
+        "electric": "100% Electric",
+        "zeroemissions": "Zero Emissions",
+        "chauffeur": "Chauffeur Included"
+      },
+      "stats": {
+        "power": "Electric Power",
+        "range": "Range",
+        "acceleration": "0-100 km/h",
+        "emissions": "Emissions",
+        "support": "Support"
+      },
+      "pricing": {
+        "title": "Transparent Pricing & Instant Availability",
+        "daily": "Per Day",
+        "dailyNote": "250km included",
+        "weekly": "Per Week",
+        "weeklyNote": "1,750km included",
+        "monthly": "Per Month",
+        "monthlyNote": "5,000km included",
+        "popular": "MOST POPULAR",
+        "available": "Available Now - Fully Charged & Ready",
+        "bookNow": "Book Spectre Now",
+        "includes": {
+          "insurance": "Insurance Included",
+          "vat": "VAT Included",
+          "chauffeur": "Chauffeur Included",
+          "delivery": "Free Delivery"
+        }
+      },
+      "featuresTitle": "Revolutionary Electric Features",
+      "featuresSubtitle": "The first ultra-luxury electric car, where cutting-edge technology meets timeless Rolls-Royce craftsmanship",
+      "specsTitle": "Technical Specifications",
+      "specs": {
+        "engine": "Dual Electric Motors",
+        "power": "577 HP",
+        "torque": "900 Nm",
+        "acceleration": "0-100 km/h in 4.5s",
+        "topSpeed": "250 km/h (limited)",
+        "range": "520+ km (WLTP)",
+        "battery": "102 kWh",
+        "seats": "4 Passengers"
+      },
+      "specLabels": {
+        "engine": "Powertrain",
+        "power": "Power",
+        "torque": "Torque",
+        "acceleration": "Acceleration",
+        "topSpeed": "Top Speed",
+        "range": "Range",
+        "battery": "Battery",
+        "seats": "Seating"
+      },
+      "galleryTitle": "Spectre Gallery",
+      "gallery": {
+        "exteriorAlt": "Rolls-Royce Spectre Exterior - Electric Luxury Coupé Dubai",
+        "interiorAlt": "Rolls-Royce Spectre Interior - Ultra-Luxury Electric Cabin"
+      },
+      "cta": {
+        "title": "Experience the Future of Luxury",
+        "subtitle": "Be among the first to drive the world's most luxurious electric car in Dubai. Book your Spectre experience today.",
+        "chat": "Chat: +971 55 816 4922",
+        "book": "Book Online"
+      }
+    }
+  }
+}

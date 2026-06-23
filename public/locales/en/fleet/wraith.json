@@ -1,0 +1,319 @@
+{
+  "fleet": {
+    "wraith": {
+      "name": "Rolls-Royce Wraith",
+      "description": "The most powerful and dynamic Rolls-Royce ever - a fastback grand tourer.",
+      "features": [
+        "Fastback Design",
+        "Satellite-Aided Transmission",
+        "Starlight Headliner",
+        "Bespoke Audio"
+      ],
+      "images": {
+        "blackBadgeAlt": "Rolls-Royce Wraith Black Badge in dramatic Dubai setting",
+        "grandTourerAlt": "Wraith grand tourer cruising Dubai's luxury districts",
+        "starlightInteriorAlt": "Wraith starlight headliner interior luxury",
+        "frontDesignAlt": "Wraith distinctive front design and Spirit of Ecstasy"
+      },
+      "specs": {
+        "performance": {
+          "engine": {
+            "label": "Engine",
+            "value": "6.6L Twin-Turbocharged V12"
+          },
+          "power": {
+            "label": "Power Output",
+            "value": "632 hp @ 5,600 rpm"
+          },
+          "torque": {
+            "label": "Torque",
+            "value": "820 Nm @ 1,500 rpm"
+          },
+          "acceleration": {
+            "label": "0-100 km/h",
+            "value": "4.4 seconds"
+          },
+          "topSpeed": {
+            "label": "Top Speed",
+            "value": "250 km/h (electronically limited)"
+          }
+        },
+        "dimensions": {
+          "length": {
+            "label": "Length",
+            "value": "5,269 mm"
+          },
+          "width": {
+            "label": "Width",
+            "value": "1,947 mm"
+          },
+          "height": {
+            "label": "Height",
+            "value": "1,507 mm"
+          },
+          "wheelbase": {
+            "label": "Wheelbase",
+            "value": "3,112 mm"
+          },
+          "doors": {
+            "label": "Doors",
+            "value": "2 (Coach doors)"
+          }
+        },
+        "exclusive": [
+          "Satellite Aided Transmission with GPS pre-selection",
+          "Starlight Headliner with 1,340 fiber-optic lights",
+          "Coach doors with soft-close mechanism",
+          "Bespoke 18-speaker audio system"
+        ]
+      },
+      "blackBadge": {
+        "title": "Wraith Black Badge",
+        "description": "The most potent expression of Wraith with enhanced power and darkened aesthetic.",
+        "features": [
+          "Enhanced 632hp twin-turbocharged V12 engine",
+          "Distinctive black chrome exterior details",
+          "Black Badge interior with carbon fiber",
+          "Exclusive black Spirit of Ecstasy",
+          "Sport-tuned suspension dynamics",
+          "Bespoke exhaust note and performance"
+        ],
+        "subtitle": "Alter Your Perspective"
+      },
+      "virtualTourSpots": {
+        "wraith": [
+          {
+            "id": "coach-doors",
+            "name": "Iconic Coach Doors",
+            "description": "Effortless entry and exit with rear-hinged doors, a signature Rolls-Royce design feature.",
+            "position": {
+              "x": 30,
+              "y": 55
+            },
+            "details": [
+              "Power-closing mechanism",
+              "Wide aperture for easy access",
+              "Frameless windows",
+              "Integrated umbrella"
+            ]
+          },
+          {
+            "id": "infotainment",
+            "name": "Rotary Controller",
+            "description": "Intuitive control of the infotainment system with a Spirit of Ecstasy-crested rotary dial.",
+            "position": {
+              "x": 55,
+              "y": 48
+            },
+            "details": [
+              "Touchpad for character input",
+              "Hand-crafted glass finish",
+              "Quick access buttons",
+              "Ergonomic design"
+            ]
+          },
+          {
+            "id": "starlight-headliner",
+            "name": "Bespoke Starlight Headliner",
+            "description": "A celestial experience tailored to your desires, with customizable constellations.",
+            "position": {
+              "x": 50,
+              "y": 25
+            },
+            "details": [
+              "1,340 individual fiber optic lights",
+              "Hand-woven into the leather roof lining",
+              "Adjustable brightness",
+              "Shooting star animations available"
+            ]
+          }
+        ]
+      },
+      "rentalPackages": {
+        "daily": {
+          "duration": "Daily",
+          "price": "AED 3,500",
+          "includes": [
+            "250 km daily allowance",
+            "Professional chauffeur",
+            "Comprehensive insurance",
+            "Complimentary fuel"
+          ]
+        },
+        "weekend": {
+          "duration": "Grand Tour Weekend",
+          "price": "AED 15,000",
+          "includes": [
+            "600km total mileage",
+            "Inter-emirate travel approved",
+            "Scenic route recommendations",
+            "Luxury hotel partnerships"
+          ]
+        },
+        "weekly": {
+          "duration": "Executive Weekly",
+          "price": "AED 48,000",
+          "includes": [
+            "2,000km weekly allowance",
+            "Business chauffeur available",
+            "Corporate events coordination",
+            "Flexible terms"
+          ]
+        },
+        "monthly": {
+          "duration": "Monthly",
+          "price": "AED 75,000",
+          "includes": [
+            "5,000 km monthly allowance",
+            "Flexible chauffeur hours",
+            "Premium insurance",
+            "Monthly detailing"
+          ]
+        },
+        "performance": {
+          "duration": "Performance Day",
+          "price": "AED 6,500",
+          "includes": [
+            "250km daily allowance",
+            "Track day coordination",
+            "Performance driving briefing",
+            "Premium sports insurance"
+          ]
+        },
+        "luxury": {
+          "duration": "Luxury Experience",
+          "price": "AED 8,200",
+          "includes": [
+            "300km daily mileage",
+            "VIP concierge service",
+            "Professional photography session",
+            "Starlight headliner experience"
+          ]
+        }
+      },
+      "drivingExperiences": {
+        "grandTouring": {
+          "icon": "🏎️",
+          "title": "Grand Touring Excellence",
+          "description": "Perfect for long-distance luxury travel with supreme comfort and power",
+          "route": "Highway cruising, intercity travel",
+          "bestFor": "Highway cruising, intercity travel"
+        },
+        "nightCruising": {
+          "icon": "🌃",
+          "title": "Night Cruising",
+          "description": "Command the city's attention with a dramatic presence under the Dubai skyline.",
+          "route": "Sheikh Zayed Road Night Drive"
+        },
+        "desertHighway": {
+          "icon": "🏜️",
+          "title": "Desert Highway",
+          "description": "Experience the raw power of the V12 on long, open desert roads.",
+          "route": "Dubai-Al Ain Road"
+        },
+        "trackExperience": {
+          "icon": "🏁",
+          "title": "Track Experience",
+          "description": "Unleash the full potential of the Wraith at the Dubai Autodrome.",
+          "route": "Dubai Autodrome Circuit"
+        },
+        "cityLuxury": {
+          "title": "Urban Sophistication",
+          "description": "Command attention in Dubai's luxury districts with unmatched presence",
+          "bestFor": "City driving, business meetings",
+          "icon": "🏙️",
+          "route": "City driving, business meetings"
+        },
+        "performance": {
+          "title": "Dynamic Performance",
+          "description": "Experience the most powerful Rolls-Royce with thrilling acceleration",
+          "bestFor": "Spirited driving, track events",
+          "icon": "⚡",
+          "route": "Spirited driving, track events"
+        }
+      },
+      "featureTabs": {
+        "performance": {
+          "title": "Raw Power",
+          "description": "Experience 632 hp of pure Rolls-Royce power with satellite-aided transmission."
+        },
+        "design": {
+          "title": "Fastback Elegance",
+          "description": "The Wraith's dramatic fastback silhouette creates an unmistakably powerful presence.",
+          "stats": {
+            "fastback": {
+              "value": "24°",
+              "label": "Roof Angle"
+            },
+            "coachDoors": {
+              "value": "83°",
+              "label": "Door Opening"
+            },
+            "drag": {
+              "value": "0.33",
+              "label": "Drag Co-efficient"
+            },
+            "paintLayers": {
+              "value": "20",
+              "label": "Paint Layers"
+            },
+            "doors": {
+              "value": "2+2",
+              "label": "Coach Doors"
+            },
+            "length": {
+              "value": "5,269mm",
+              "label": "Overall Length"
+            },
+            "wheels": {
+              "value": "21-inch",
+              "label": "Alloy Wheels"
+            },
+            "presence": {
+              "value": "100%",
+              "label": "Road Presence"
+            }
+          }
+        },
+        "technology": {
+          "title": "Intelligent Luxury",
+          "description": "Advanced technology is seamlessly integrated to enhance the driving experience without complication.",
+          "items": {
+            "transmission": {
+              "title": "Satellite Aided Transmission",
+              "description": "Uses GPS data to predict the road ahead and select the optimal gear for upcoming corners and terrain."
+            },
+            "headliner": {
+              "title": "Starlight Headliner",
+              "description": "A celestial canopy of fiber-optic lights that can be customized to your personal star-sign."
+            },
+            "audio": {
+              "title": "Bespoke Audio System",
+              "description": "18 speakers and 1300W of power create a perfect acoustic environment, tuned by Rolls-Royce engineers."
+            },
+            "vision": {
+              "title": "Night Vision",
+              "description": "Infrared camera detects pedestrians and animals up to 300m away, enhancing safety at night."
+            },
+            "satellite": {
+              "title": "Satellite Aided Transmission",
+              "description": "Uses GPS data to pre-select optimal gears for seamless power delivery."
+            },
+            "bespoke": {
+              "title": "Bespoke Audio System",
+              "description": "18 speakers perfectly tuned for the Wraith's unique interior."
+            },
+            "starlight": {
+              "title": "Starlight Headliner",
+              "description": "1,340 fiber-optic lights create a personalized constellation."
+            }
+          }
+        },
+        "experience": {
+          "title": "Grand Touring Excellence",
+          "description": "The Wraith is designed to be driven. Discover the perfect Dubai routes to experience its full potential."
+        }
+      }
+    }
+  }
+}

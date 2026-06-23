@@ -432,7 +432,7 @@ export default function PrivacyPage() {
 export const getStaticProps: GetStaticProps = async ({ locale }) => {
   return {
     props: {
-      ...(await serverSideTranslations(locale || 'en', ["common","seo","navigation","pages"])),
+      ...(await serverSideTranslations(locale || 'en', ['common', 'navigation', 'pages', 'seo_other'])),
     },
   }
 }

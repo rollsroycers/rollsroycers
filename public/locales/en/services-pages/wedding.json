@@ -1,0 +1,107 @@
+{
+  "servicesPages": {
+    "wedding": {
+      "hero": {
+        "title": "Luxury Wedding Car Rental Dubai",
+        "subtitle": "Arrive in Unparalleled Style on Your Special Day",
+        "viewPackages": "View Wedding Packages",
+        "consultation": "Free Consultation"
+      },
+      "whyChoose": {
+        "title": "Why Choose Our Wedding Services",
+        "bridal": {
+          "title": "Bridal Elegance",
+          "description": "Our pristine white Rolls-Royce fleet provides the perfect complement to your wedding attire and creates unforgettable memories."
+        },
+        "photo": {
+          "title": "Photography Perfect",
+          "description": "Every angle is stunning - create magazine-worthy wedding photos with our photogenic luxury vehicles."
+        },
+        "reliability": {
+          "title": "Reliability You Can Trust",
+          "description": "Your wedding day is too important to leave to chance. We guarantee punctuality, perfection, and seamless service."
+        }
+      },
+      "packages": {
+        "title": "Wedding Packages",
+        "classic": {
+          "name": "Classic Wedding Package",
+          "duration": "4 hours",
+          "features": [
+            "White Rolls-Royce Phantom or Ghost",
+            "Professional chauffeur in formal attire",
+            "Red carpet service",
+            "Complimentary floral decorations",
+            "Champagne service for the couple",
+            "Just Married sign and ribbons",
+            "Wedding photography assistance"
+          ],
+          "price": "From AED 3,800/day"
+        },
+        "royal": {
+          "name": "Royal Wedding Package",
+          "duration": "6 hours",
+          "features": [
+            "Choice of any Rolls-Royce model",
+            "Multiple vehicle coordination for family",
+            "Custom bridal car decoration",
+            "Professional photography assistance",
+            "Extended service hours",
+            "VIP guest transport coordination",
+            "Wedding playlist preparation"
+          ],
+          "price": "From AED 4,200"
+        },
+        "ultimate": {
+          "name": "Ultimate Wedding Package",
+          "duration": "Full day",
+          "features": [
+            "Entire fleet at your disposal",
+            "Wedding planning coordination",
+            "Custom decoration themes",
+            "Professional wedding photographer car",
+            "VIP treatment throughout the day",
+            "Bridal suite preparation",
+            "Multi-location ceremony support",
+            "Backup vehicle guarantee"
+          ],
+          "price": "From AED 8,500",
+          "premium": "Most Popular"
+        },
+        "bookPackage": "Book This Package"
+      },
+      "gallery": {
+        "title": "Wedding Gallery",
+        "subtitle": "See How We Make Dreams Come True"
+      },
+      "testimonials": {
+        "title": "Happy Couples"
+      },
+      "cta": {
+        "title": "Ready to Make Your Wedding Unforgettable?",
+        "description": "Contact us today for a personalized wedding car package tailored to your special day. Our wedding specialists will help you choose the perfect package.",
+        "call": "Call Now",
+        "getQuote": "Get Wedding Quote"
+      },
+      "specialFeatures": {
+        "title": "Special Wedding Features",
+        "decorations": {
+          "title": "Custom Decorations",
+          "description": "Fresh flowers, ribbons, and personalized themes to match your wedding colors"
+        },
+        "photography": {
+          "title": "Photography Support",
+          "description": "Professional assistance for the perfect wedding shots with optimal car positioning"
+        },
+        "coordination": {
+          "title": "Event Coordination",
+          "description": "Seamless timing with your wedding planner and venue requirements"
+        },
+        "backup": {
+          "title": "Backup Guarantee",
+          "description": "Emergency backup vehicle on standby to ensure your day goes perfectly"
+        }
+      }
+    }
+  }
+}

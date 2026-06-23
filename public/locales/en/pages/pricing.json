@@ -1,0 +1,230 @@
+{
+  "pricingPage": {
+    "hero": {
+      "title": "Transparent Pricing",
+      "subtitle": "No Hidden Fees, Just Pure Luxury",
+      "description": "All prices include basic insurance, 250km daily mileage, and VAT"
+    },
+    "durationSelector": {
+      "daily": "Daily Rates",
+      "weekly": "Weekly Rates",
+      "monthly": "Monthly Rates",
+      "weeklyDiscount": "15% OFF",
+      "monthlyDiscount": "30% OFF"
+    },
+    "vehiclePricing": {
+      "phantom": {
+        "tagline": "The Ultimate Flagship",
+        "features": [
+          "Extended wheelbase available",
+          "Starlight headliner",
+          "Privacy suite option",
+          "Bespoke audio system"
+        ]
+      },
+      "ghost": {
+        "tagline": "Effortless Everywhere",
+        "features": [
+          "Illuminated fascia",
+          "Black Badge available",
+          "Planar suspension",
+          "Magic carpet ride"
+        ]
+      },
+      "cullinan": {
+        "tagline": "Luxury SUV Excellence",
+        "features": [
+          "All-terrain capability",
+          "Viewing suite option",
+          "Recreation module",
+          "Night vision system"
+        ]
+      },
+      "dawn": {
+        "tagline": "Social Convertible",
+        "features": [
+          "Convertible roof",
+          "Wind deflector",
+          "Bespoke audio tuning",
+          "Open-air luxury"
+        ]
+      },
+      "wraith": {
+        "tagline": "Grand Tourer",
+        "features": [
+          "Fastback design",
+          "Starlight headliner",
+          "Black Badge power",
+          "Dynamic performance"
+        ]
+      },
+      "labels": {
+        "perDay": "per day",
+        "perWeek": "per week",
+        "perMonth": "per month",
+        "mostPopular": "MOST POPULAR",
+        "viewDetailsBook": "View Details & Book"
+      }
+    },
+    "additionalServices": {
+      "title": "Additional Services & Fees",
+      "services": {
+        "chauffeur": {
+          "name": "Professional Chauffeur",
+          "price": "AED 1,500/day",
+          "description": "Experienced, multilingual drivers"
+        },
+        "airport": {
+          "name": "Airport Transfer",
+          "price": "AED 1,000",
+          "description": "One-way luxury transfer"
+        },
+        "wedding": {
+          "name": "Wedding Package",
+          "price": "From AED 8,500",
+          "description": "Decorated vehicle with chauffeur"
+        },
+        "hourly": {
+          "name": "Hourly Rental",
+          "price": "AED 2,000/hour",
+          "description": "Minimum 4 hours"
+        },
+        "mileage": {
+          "name": "Extra Mileage",
+          "price": "AED 20/km",
+          "description": "Beyond 250km daily allowance"
+        },
+        "delivery": {
+          "name": "Delivery & Collection",
+          "price": "AED 500 in Dubai",
+          "description": "Other emirates from AED 1,000"
+        }
+      }
+    },
+    "corporatePackages": {
+      "title": "Corporate & Long-Term Packages",
+      "packages": {
+        "executive": {
+          "name": "Executive",
+          "price": "AED 85,000/month",
+          "features": [
+            "20 days per month",
+            "Choice of Ghost or Wraith",
+            "Dedicated chauffeur",
+            "Airport transfers included"
+          ]
+        },
+        "chairman": {
+          "name": "Chairman",
+          "price": "AED 150,000/month",
+          "features": [
+            "Unlimited usage",
+            "Any vehicle from fleet",
+            "2 dedicated chauffeurs",
+            "Priority booking"
+          ]
+        },
+        "enterprise": {
+          "name": "Enterprise",
+          "price": "Custom Quote",
+          "features": [
+            "Multiple vehicles",
+            "Fleet management",
+            "Corporate branding",
+            "Dedicated account team"
+          ]
+        }
+      },
+      "recommended": "RECOMMENDED",
+      "learnMore": "Learn More"
+    },
+    "seasonalPricing": {
+      "title": "Seasonal Price Adjustments",
+      "tableHeaders": {
+        "season": "Season/Event",
+        "factor": "Price Factor",
+        "details": "Details"
+      },
+      "seasons": {
+        "peak": {
+          "name": "Peak Season (Nov-Mar)",
+          "factor": "+20%",
+          "description": "Dubai season & holidays"
+        },
+        "ramadan": {
+          "name": "Ramadan",
+          "factor": "+15%",
+          "description": "High demand period"
+        },
+        "summer": {
+          "name": "Summer (Jun-Aug)",
+          "factor": "-10%",
+          "description": "Special summer rates"
+        },
+        "events": {
+          "name": "Events & Exhibitions",
+          "factor": "+25%",
+          "description": "GITEX, Air Show, etc."
+        }
+      },
+      "disclaimer": "* Prices subject to availability and may vary during special events"
+    },
+    "priceCalculator": {
+      "title": "Calculate Your Total Cost",
+      "subtitle": "Use our calculator to estimate your rental cost including all services",
+      "openButton": "Open Price Calculator"
+    },
+    "priceGuarantee": {
+      "title": "Best Price Guarantee",
+      "subtitle": "Find a lower price for the same Rolls-Royce rental in Dubai? We'll match it and give you an additional 5% discount.",
+      "features": {
+        "priceMatch": {
+          "title": "Price Match",
+          "description": "We match any verified competitor price"
+        },
+        "extraDiscount": {
+          "title": "Extra 5% Off",
+          "description": "Additional discount on matched price"
+        },
+        "noHiddenFees": {
+          "title": "No Hidden Fees",
+          "description": "Transparent pricing always"
+        }
+      },
+      "cta": "Book with Confidence"
+    },
+    "faq": {
+      "title": "Pricing FAQs",
+      "questions": {
+        "included": {
+          "question": "What is included in the rental price?",
+          "answer": "All prices include comprehensive insurance, 250km daily mileage allowance, VAT, and 24/7 roadside assistance. Fuel is not included."
+        },
+        "deposit": {
+          "question": "Are there any security deposits?",
+          "answer": "Yes, a refundable security deposit of AED 5,000-10,000 is required depending on the vehicle model. This is held on your credit card."
+        },
+        "discounts": {
+          "question": "Can I get a discount for longer rentals?",
+          "answer": "Yes! Weekly rentals get 15% off, monthly rentals 30% off, and 3+ months up to 40% off the daily rate."
+        },
+        "holidays": {
+          "question": "Do prices change during holidays?",
+          "answer": "Prices may increase 20-25% during peak season (November-March) and major events. Book early for best rates."
+        }
+      },
+      "viewAllFaqs": "View all FAQs →"
+    },
+    "cta": {
+      "title": "Ready to Experience Luxury?",
+      "subtitle": "Book your Rolls-Royce today and enjoy the best rates in Dubai",
+      "bookNow": "Book Now",
+      "callForRates": "Call for Special Rates",
+      "stats": {
+        "support": "Customer Support",
+        "hiddenFees": "Hidden Fees",
+        "satisfaction": "Satisfaction"
+      }
+    }
+  }
+}

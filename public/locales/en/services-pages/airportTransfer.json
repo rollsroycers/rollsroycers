@@ -1,0 +1,210 @@
+{
+  "servicesPages": {
+    "airportTransfer": {
+      "hero": {
+        "title": "Airport Transfer Excellence",
+        "subtitle": "Arrive in Unparalleled Luxury",
+        "description": "Experience seamless luxury from touchdown to destination with our premium Rolls-Royce airport transfer service.",
+        "bookTransfer": "Book Airport Transfer",
+        "hotline": "24/7 Hotline: +971 55 816 4922",
+        "stats": {
+          "transfers": "DXB & DWC",
+          "transfersLabel": "Airports",
+          "availability": "24/7",
+          "availabilityLabel": "Availability",
+          "onTime": "Meet & Greet",
+          "onTimeLabel": "Included"
+        }
+      },
+      "airportSelector": {
+        "title": "Select Your Airport",
+        "dxb": {
+          "name": "Dubai International Airport (DXB)",
+          "terminals": [
+            "Terminal 1",
+            "Terminal 2",
+            "Terminal 3"
+          ],
+          "distance": "15 km from Downtown",
+          "transferTime": "20-30 minutes"
+        },
+        "dwc": {
+          "name": "Al Maktoum International Airport (DWC)",
+          "terminals": [
+            "Passenger Terminal"
+          ],
+          "distance": "37 km from Downtown",
+          "transferTime": "35-45 minutes"
+        },
+        "auh": {
+          "name": "Abu Dhabi International Airport (AUH)",
+          "terminals": [
+            "Terminal 1",
+            "Terminal 2",
+            "Terminal 3"
+          ],
+          "distance": "130 km from Dubai",
+          "transferTime": "90-120 minutes"
+        },
+        "shj": {
+          "name": "Sharjah International Airport (SHJ)",
+          "terminals": [
+            "Main Terminal"
+          ],
+          "distance": "28 km from Dubai",
+          "transferTime": "30-40 minutes"
+        },
+        "terminals": "Terminals",
+        "transferInfo": "Transfer Information",
+        "distance": "Distance",
+        "travelTime": "Travel Time"
+      },
+      "whyChoose": {
+        "title": "Why Choose Our Airport Service?",
+        "flightTracking": {
+          "title": "Real-Time Flight Tracking",
+          "description": "We monitor your flight status to ensure timely pickup, even with delays or early arrivals"
+        },
+        "professional": {
+          "title": "Professional Chauffeurs",
+          "description": "Experienced, multilingual drivers trained in VIP protocol and airport procedures"
+        },
+        "reliability": {
+          "title": "Reliability Guaranteed",
+          "description": "24/7 availability with backup vehicles for complete peace of mind"
+        },
+        "pricing": {
+          "title": "Fixed Pricing",
+          "description": "No surge pricing or hidden fees, transparent rates always with advance booking"
+        }
+      },
+      "packages": {
+        "title": "Transfer Packages",
+        "oneWay": {
+          "name": "One-Way Transfer",
+          "airports": [
+            "DXB",
+            "DWC"
+          ],
+          "vehicles": [
+            "Phantom",
+            "Ghost",
+            "Cullinan"
+          ],
+          "features": [
+            "Meet & Greet Service",
+            "Flight Monitoring",
+            "Luggage Assistance",
+            "Complimentary Water & Refreshments",
+            "Wi-Fi Available",
+            "Professional Chauffeur",
+            "Fixed Route Pricing"
+          ],
+          "price": "From AED 1,200"
+        },
+        "roundTrip": {
+          "name": "Round-Trip Package",
+          "airports": [
+            "DXB",
+            "DWC",
+            "AUH"
+          ],
+          "vehicles": [
+            "Full Fleet Available"
+          ],
+          "features": [
+            "Priority VIP Service",
+            "Dedicated Concierge",
+            "24/7 Flight Tracking",
+            "Flexible Timing",
+            "Multi-stop Options",
+            "Premium Amenities",
+            "Return Guarantee"
+          ],
+          "price": "From AED 2,200"
+        },
+        "business": {
+          "name": "Business Delegation",
+          "airports": [
+            "All Airports"
+          ],
+          "vehicles": [
+            "Multiple Vehicles"
+          ],
+          "features": [
+            "Fleet Coordination",
+            "Bilingual Chauffeurs",
+            "Corporate Billing",
+            "Executive Lounge Access",
+            "Meeting Setup in Vehicle",
+            "Security Arrangements",
+            "Group Logistics"
+          ],
+          "price": "From AED 3,500"
+        },
+        "availableAt": "Available at",
+        "vehicles": "Vehicles",
+        "selectPackage": "Select Package"
+      },
+      "popularRoutes": {
+        "title": "Popular Airport Routes",
+        "from": "From",
+        "to": "To",
+        "duration": "Duration",
+        "startingPrice": "Starting Price",
+        "routes": [
+          {
+            "from": "DXB Terminal 3",
+            "to": "Burj Khalifa/Downtown",
+            "time": "25 min",
+            "price": "AED 1,350"
+          },
+          {
+            "from": "DXB Terminal 1",
+            "to": "Dubai Marina",
+            "time": "35 min",
+            "price": "AED 1,550"
+          },
+          {
+            "from": "DWC",
+            "to": "Palm Jumeirah",
+            "time": "40 min",
+            "price": "AED 1,800"
+          },
+          {
+            "from": "AUH",
+            "to": "Dubai Downtown",
+            "time": "90 min",
+            "price": "AED 3,800"
+          }
+        ]
+      },
+      "howItWorks": {
+        "title": "How Airport Transfer Works",
+        "step1": {
+          "title": "Book Online",
+          "description": "Choose your vehicle and provide flight details for seamless coordination"
+        },
+        "step2": {
+          "title": "Flight Tracking",
+          "description": "We monitor your flight for delays or early arrival automatically"
+        },
+        "step3": {
+          "title": "Meet & Greet",
+          "description": "Your chauffeur awaits with a name board in the arrivals area"
+        },
+        "step4": {
+          "title": "Luxury Transfer",
+          "description": "Relax as we take you to your destination in complete comfort"
+        }
+      },
+      "cta": {
+        "title": "Book Your Airport Transfer Now",
+        "description": "Experience seamless luxury from touchdown to destination. Available 24/7 for all major airports in the UAE.",
+        "call": "Call: +971 55 816 4922",
+        "onlineBooking": "Online Booking",
+        "waitingTime": "Free waiting time: 60 minutes for international flights, 30 minutes for domestic"
+      }
+    }
+  }
+}

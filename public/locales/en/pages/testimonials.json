@@ -1,0 +1,27 @@
+{
+  "testimonialsPage": {
+    "title": "Customer Testimonials",
+    "subtitle": "Discover why our clients choose Rolls-Royce Dubai for their most important moments",
+    "stats": {
+      "averageRating": "Average Rating",
+      "recommendationRate": "Recommendation Rate",
+      "countriesServed": "Countries Served"
+    },
+    "filters": {
+      "allReviews": "All Reviews",
+      "wedding": "Wedding",
+      "corporate": "Corporate",
+      "tourism": "Tourism",
+      "events": "Events"
+    },
+    "labels": {
+      "experienceHighlights": "Experience Highlights"
+    },
+    "cta": {
+      "title": "Ready to Create Your Own Story?",
+      "subtitle": "Join hundreds of satisfied clients who have experienced the pinnacle of luxury with Rolls-Royce Dubai",
+      "bookButton": "Book Your Experience",
+      "exploreButton": "Explore Our Fleet"
+    }
+  }
+}

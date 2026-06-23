@@ -641,7 +641,7 @@ export default function RollsRoyceVsMercedesPage() {
 export const getStaticProps: GetStaticProps = async ({ locale }) => {
   return {
     props: {
-      ...(await serverSideTranslations(locale || 'en', ["common","seo","navigation"])),
+      ...(await serverSideTranslations(locale || 'en', ['common', 'comparecontent', 'navigation', 'seo_compare'])),
     },
   }
 }

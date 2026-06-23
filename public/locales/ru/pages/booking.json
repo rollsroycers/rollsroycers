@@ -1,0 +1,109 @@
+{
+  "booking": {
+    "title": "Завершите бронирование",
+    "hero": {
+      "title": "Забронируйте Rolls-Royce",
+      "subtitle": "Забронируйте люксовый опыт онлайн"
+    },
+    "steps": {
+      "step": "Шаг",
+      "vehicle": "Выбор авто",
+      "service": "Выбор услуги",
+      "dates": "Выбор дат",
+      "confirm": "Подтверждение"
+    },
+    "vehicleSelection": {
+      "title": "1. Выберите автомобиль",
+      "viewDetails": "Подробная информация об автомобиле →"
+    },
+    "vehicles": {
+      "phantom": "Rolls-Royce Phantom",
+      "ghost": "Rolls-Royce Ghost",
+      "cullinan": "Rolls-Royce Cullinan",
+      "dawn": "Rolls-Royce Dawn",
+      "wraith": "Rolls-Royce Wraith"
+    },
+    "serviceSelection": {
+      "title": "2. Выберите тип услуги"
+    },
+    "services": {
+      "selfDrive": {
+        "name": "Самостоятельное вождение",
+        "description": "Водите сами в роскоши"
+      },
+      "chauffeur": {
+        "name": "С водителем",
+        "description": "Профессиональный водитель включён"
+      },
+      "hourly": {
+        "name": "Почасовая аренда",
+        "description": "Гибкие почасовые пакеты"
+      },
+      "wedding": {
+        "name": "Свадебная услуга",
+        "description": "Пакет для особых случаев"
+      },
+      "corporate": {
+        "name": "Корпоративная",
+        "description": "Бизнес-решения"
+      }
+    },
+    "locationDates": {
+      "title": "3. Детали получения и возврата",
+      "pickupLocation": "Место получения",
+      "selectLocation": "Выберите место",
+      "pickupDateTime": "Дата и время получения",
+      "returnLocation": "Место возврата",
+      "sameAsPickup": "Там же",
+      "returnDateTime": "Дата и время возврата"
+    },
+    "locations": {
+      "downtownDubai": "Даунтаун Дубай",
+      "dubaiMarina": "Дубай Марина",
+      "palmJumeirah": "Палм Джумейра",
+      "businessBay": "Бизнес Бэй",
+      "jbr": "JBR",
+      "difc": "DIFC",
+      "dxbAirport": "Аэропорт Дубай (DXB)",
+      "dwcAirport": "Аэропорт Аль Мактум (DWC)",
+      "hotelPickup": "Получение в отеле",
+      "customLocation": "Другое место"
+    },
+    "personalInfo": {
+      "title": "4. Ваша информация",
+      "nationality": "Гражданство",
+      "specialRequests": "Особые пожелания..."
+    },
+    "submit": {
+      "button": "Перейти к оплате",
+      "redirect": "Вы будете перенаправлены на безопасный платёжный шлюз"
+    },
+    "availability": {
+      "title": "Проверить наличие"
+    },
+    "calculator": {
+      "title": "Рассчитать стоимость аренды"
+    },
+    "requirements": {
+      "title": "Требования к аренде",
+      "items": {
+        "license": "Водительские права ОАЭ или международные",
+        "age": "Минимальный возраст 25 лет",
+        "credit": "Кредитная карта для залога",
+        "passport": "Копия паспорта и визы",
+        "residence": "Подтверждение проживания или бронь отеля"
+      },
+      "viewTerms": "Полные условия и положения →"
+    },
+    "phoneBooking": {
+      "title": "Предпочитаете забронировать по телефону?",
+      "description": "Наши специалисты доступны 24/7",
+      "callButton": "Звонок: +971 55 816 4922",
+      "whatsappButton": "WhatsApp бронирование"
+    },
+    "placeholders": {
+      "johnDoe": "Иван Петров",
+      "country": "Страна/Гражданство"
+    }
+  }
+}

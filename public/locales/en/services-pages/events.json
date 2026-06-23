@@ -1,0 +1,214 @@
+{
+  "servicesPages": {
+    "events": {
+      "hero": {
+        "title": "Event Excellence",
+        "subtitle": "Elevate Your Special Occasions with Rolls-Royce",
+        "description": "From red carpet galas to exclusive product launches, make every arrival unforgettable with our premium event transportation service in Dubai.",
+        "bookEvent": "Book Event Service",
+        "viewPackages": "View Packages"
+      },
+      "features": {
+        "title": "Why Choose Rolls-Royce for Your Event",
+        "coordination": {
+          "title": "Event Coordination",
+          "description": "Dedicated event manager for seamless execution"
+        },
+        "timing": {
+          "title": "Precise Timing",
+          "description": "Choreographed arrivals and departures"
+        },
+        "media": {
+          "title": "Media Ready",
+          "description": "Vehicles prepared for photography and filming"
+        },
+        "fleet": {
+          "title": "Fleet Options",
+          "description": "Multiple vehicles for large group transportation"
+        },
+        "vip": {
+          "title": "VIP Treatment",
+          "description": "Red carpet service and special arrangements"
+        },
+        "discretion": {
+          "title": "Discretion",
+          "description": "Complete confidentiality for high-profile events"
+        }
+      },
+      "eventTypes": {
+        "title": "Events We Specialize In",
+        "gala": {
+          "title": "Gala Dinners",
+          "description": "Make a grand entrance at prestigious gala events",
+          "features": [
+            "Red carpet arrivals",
+            "Coordinated fleet options",
+            "Professional chauffeurs in formal attire",
+            "VIP valet service"
+          ]
+        },
+        "product": {
+          "title": "Product Launches",
+          "description": "Elevate your brand with luxury transportation",
+          "features": [
+            "Brand coordination",
+            "Multiple vehicle arrangements",
+            "Media-ready presentation",
+            "Timed arrivals"
+          ]
+        },
+        "film": {
+          "title": "Film & TV Productions",
+          "description": "Premium vehicles for productions and shoots",
+          "features": [
+            "Flexible scheduling",
+            "Multiple takes accommodation",
+            "Production insurance coverage",
+            "Specialized drivers"
+          ]
+        },
+        "fashion": {
+          "title": "Fashion Shows",
+          "description": "Complement haute couture with ultimate luxury",
+          "features": [
+            "Model transportation",
+            "VIP guest shuttles",
+            "Backstage accessibility",
+            "Style coordination"
+          ]
+        },
+        "awards": {
+          "title": "Award Ceremonies",
+          "description": "Arrive like a star at prestigious ceremonies",
+          "features": [
+            "Celebrity transportation",
+            "Paparazzi-ready arrivals",
+            "Security coordination",
+            "After-party transfers"
+          ]
+        },
+        "private": {
+          "title": "Private Parties",
+          "description": "Exclusive transportation for intimate gatherings",
+          "features": [
+            "Birthday celebrations",
+            "Anniversary parties",
+            "Yacht transfers",
+            "Night club arrivals"
+          ]
+        }
+      },
+      "packages": {
+        "title": "Event Packages",
+        "single": {
+          "name": "Single Vehicle",
+          "price": "From AED 8,000",
+          "duration": "Per Event",
+          "features": [
+            "One Rolls-Royce of choice",
+            "Professional chauffeur",
+            "4-hour minimum",
+            "Red carpet service"
+          ]
+        },
+        "fleet": {
+          "name": "Fleet Package",
+          "price": "From AED 24,000",
+          "duration": "Per Event",
+          "popular": "MOST POPULAR",
+          "features": [
+            "3-5 vehicles",
+            "Coordinated arrivals",
+            "Lead car designation",
+            "Event coordinator"
+          ]
+        },
+        "premium": {
+          "name": "Premium Production",
+          "price": "From AED 35,000",
+          "duration": "Per Project",
+          "features": [
+            "Unlimited vehicles",
+            "Flexible scheduling",
+            "Production support",
+            "Dedicated account manager"
+          ]
+        },
+        "bookPackage": "Book This Package"
+      },
+      "pastEvents": {
+        "title": "Trusted by Dubai's Premier Events",
+        "filmFestival": {
+          "event": "Dubai International Film Festival",
+          "role": "Official Transportation Partner",
+          "vehicles": "12 Rolls-Royce vehicles"
+        },
+        "fashionForward": {
+          "event": "Fashion Forward Dubai",
+          "role": "VIP Guest Transportation",
+          "vehicles": "8 vehicles including Phantom & Ghost"
+        },
+        "golfClub": {
+          "event": "Emirates Golf Club Gala",
+          "role": "Exclusive Vehicle Provider",
+          "vehicles": "6 Rolls-Royce Dawn convertibles"
+        },
+        "burjAlArab": {
+          "event": "Burj Al Arab Private Event",
+          "role": "Guest Shuttle Service",
+          "vehicles": "10 vehicle rotating fleet"
+        }
+      },
+      "process": {
+        "title": "Your Event, Perfectly Executed",
+        "steps": [
+          {
+            "step": "01",
+            "title": "Initial Consultation",
+            "description": "Discuss your event requirements, vehicle preferences, and logistics"
+          },
+          {
+            "step": "02",
+            "title": "Custom Proposal",
+            "description": "Receive a tailored package with vehicle selection and pricing"
+          },
+          {
+            "step": "03",
+            "title": "Event Coordination",
+            "description": "Work with our event manager to plan every detail"
+          },
+          {
+            "step": "04",
+            "title": "Vehicle Preparation",
+            "description": "Cars detailed and prepared to perfection for your event"
+          },
+          {
+            "step": "05",
+            "title": "Flawless Execution",
+            "description": "Professional chauffeurs deliver exceptional service on event day"
+          }
+        ]
+      },
+      "testimonial": {
+        "name": "Sarah Al-Mahmoud",
+        "role": "Event Director, Dubai Fashion Week",
+        "text": "Rolls-Royce elevated our entire fashion week experience. Their fleet coordination was flawless, and every model arrival felt like a red carpet moment. The professionalism and attention to detail exceeded our expectations. They truly understand the luxury event industry."
+      },
+      "gallery": {
+        "title": "Event Gallery",
+        "viewFull": "View Full Gallery →"
+      },
+      "cta": {
+        "title": "Make Your Event Unforgettable",
+        "description": "Let's discuss how Rolls-Royce can elevate your next special occasion",
+        "startPlanning": "Start Planning Your Event",
+        "whatsapp": "WhatsApp Consultation",
+        "stats": {
+          "events": "Red-Carpet Ready",
+          "satisfaction": "Multi-Car Fleet",
+          "support": "24/7 Event Support"
+        }
+      }
+    }
+  }
+}

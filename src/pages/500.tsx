@@ -78,7 +78,7 @@ export default function Custom500() {
 export const getStaticProps: GetStaticProps = async ({ locale }) => {
   return {
     props: {
-      ...(await serverSideTranslations(locale || 'en', ['common', 'seo', 'navigation'])),
+      ...(await serverSideTranslations(locale || 'en', ['common', 'navigation', 'seo_other'])),
     },
   }
 }

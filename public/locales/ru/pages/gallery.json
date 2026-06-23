@@ -1,0 +1,59 @@
+{
+  "gallery": {
+    "hero": {
+      "title": "Галерея",
+      "subtitle": "Погрузитесь в мир роскоши Rolls-Royce"
+    },
+    "categories": {
+      "all": "Все",
+      "exterior": "Экстерьер",
+      "interior": "Интерьер",
+      "details": "Детали",
+      "events": "Мероприятия",
+      "locations": "Локации",
+      "photoshoot": "Фотосессия",
+      "lifestyle": "Стиль жизни"
+    },
+    "videoGallery": {
+      "title": "Видеогалерея"
+    },
+    "instagram": {
+      "title": "Подписывайтесь в Instagram",
+      "handle": "@rollsroycers"
+    },
+    "virtualTour": {
+      "title": "360° Виртуальный тур",
+      "description": "Исследуйте наши автомобили со всех сторон"
+    },
+    "cta": {
+      "title": "Забронировать фотосессию",
+      "description": "Закажите эксклюзивную фотосессию с нашим автопарком",
+      "button": "Забронировать"
+    },
+    "descriptions": {
+      "phantom": "Rolls-Royce Phantom - вершина роскоши",
+      "ghost": "Rolls-Royce Ghost - современная элегантность",
+      "cullinan": "Rolls-Royce Cullinan - внедорожная роскошь",
+      "details": "Изысканный детальный снимок",
+      "exterior": "Потрясающий вид снаружи",
+      "interior": "Роскошный вид салона",
+      "premium": "Премиум"
+    },
+    "vehicles": {
+      "phantom": "Phantom",
+      "ghost": "Ghost",
+      "cullinan": "Cullinan",
+      "dawn": "Dawn",
+      "wraith": "Wraith",
+      "spectre": "Spectre"
+    },
+    "videos": {
+      "title": "Видео",
+      "description": "Смотрите наш автопарк в действии",
+      "defines": "Rolls Royce определяет значение люксовых автомобилей",
+      "experience": "Ощутите роскошь",
+      "mansory": "Mansory Black Badge Rolls-Royce Cullinan",
+      "millionaire": "Люксовый образ жизни миллионера"
+    }
+  }
+}

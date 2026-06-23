@@ -19,7 +19,7 @@ interface ComparisonMetric {
 }
 
 const PhantomVsMaybach: React.FC = () => {
-  const { t } = useTranslation(['compare', 'common', 'seo']);
+  const { t } = useTranslation(['compare', 'common', 'seo_compare']);
   const router = useRouter();
   const [activeCategory, setActiveCategory] = useState<string>('all');
 
@@ -518,7 +518,7 @@ const PhantomVsMaybach: React.FC = () => {
 export const getStaticProps: GetStaticProps = async ({ locale }) => {
   return {
     props: {
-      ...(await serverSideTranslations(locale ?? 'en', ['compare', 'common', 'seo'])),
+      ...(await serverSideTranslations(locale ?? 'en', ['common', 'compare', 'comparecontent', 'seo_compare'])),
     },
   };
 };

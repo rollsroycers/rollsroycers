@@ -1,0 +1,346 @@
+{
+  "servicesPages": {
+    "corporate": {
+      "hero": {
+        "title": "Corporate Rolls-Royce Rentals",
+        "subtitle": "Elevate Your Business Image in Dubai",
+        "description": "Impress clients, reward executives, and travel in unparalleled style with our corporate Rolls-Royce rental services. We provide reliable, discreet, and luxurious transportation solutions for businesses of all sizes.",
+        "cta": "Request Corporate Quote",
+        "stats": {
+          "fortune500": "Fortune 500 Clients",
+          "onTime": "On-Time Arrival Rate",
+          "chauffeurs": "Corporate Chauffeurs",
+          "satisfaction": "Client Satisfaction"
+        }
+      },
+      "whyChoose": {
+        "title": "Why Choose Us for Corporate Travel?",
+        "image": {
+          "title": "Impeccable Image",
+          "description": "Arrive at meetings and events in a vehicle that reflects your company's success and standards."
+        },
+        "productivity": {
+          "title": "On-the-Go Productivity",
+          "description": "Our vehicles provide a quiet, comfortable environment to work or take calls while traveling."
+        },
+        "privacy": {
+          "title": "Discretion & Privacy",
+          "description": "Our professional chauffeurs are trained to provide the utmost discretion for all our clients."
+        },
+        "standards": {
+          "title": "Reliability & High Standards",
+          "description": "Punctuality and pristine vehicles are guaranteed, ensuring a seamless experience every time."
+        }
+      },
+      "packages": {
+        "title": "Corporate Packages",
+        "executive": {
+          "title": "Executive Airport Transfer",
+          "description": "Seamless meet-and-greet service from all Dubai airports.",
+          "price": "From AED 800"
+        },
+        "conference": {
+          "title": "Conference & Event Shuttle",
+          "description": "Transport your team or clients to events in coordinated luxury.",
+          "price": "Custom Quote"
+        },
+        "roadshow": {
+          "title": "Financial Roadshows",
+          "description": "Complex, multi-stop itineraries managed by our expert logistics team.",
+          "price": "Daily/Weekly Rates"
+        },
+        "partnership": {
+          "title": "Long-Term Corporate Partnership",
+          "description": "Retainer-based services for ongoing executive transportation needs.",
+          "price": "Inquire for Details"
+        }
+      },
+      "clients": {
+        "title": "Trusted by Leading Businesses",
+        "description": "We are proud to serve a diverse range of corporate clients, from global enterprises to local startups."
+      },
+      "caseStudies": {
+        "title": "Success Stories",
+        "bank": {
+          "title": "Global Investment Bank",
+          "challenge": "Needed reliable transport for a 5-day, multi-city financial roadshow for their CEO.",
+          "solution": "Provided a dedicated Ghost with a professional chauffeur, managing a complex schedule flawlessly.",
+          "result": "The CEO praised the seamless experience, allowing them to focus on critical business meetings."
+        },
+        "tech": {
+          "title": "International Tech Conference",
+          "challenge": "Required VIP transport for 20 keynote speakers from the airport to hotels and the event venue.",
+          "solution": "Coordinated a fleet of 10 Phantoms and Ghosts with a central dispatcher for real-time updates.",
+          "result": "All speakers arrived on time and in comfort, enhancing the prestige of the event."
+        }
+      },
+      "benefits": {
+        "title": "Benefits for Your Business",
+        "financial": {
+          "title": "Financial Benefits",
+          "description": "Consolidated invoicing, transparent pricing, and competitive corporate rates."
+        },
+        "operational": {
+          "title": "Operational Efficiency",
+          "description": "Save time with our easy booking process and reliable, punctual service."
+        },
+        "service": {
+          "title": "Enhanced Service",
+          "description": "Offer a premium transportation experience to your clients and employees."
+        }
+      },
+      "cta": {
+        "title": "Discuss Your Corporate Needs",
+        "description": "Contact our corporate accounts team today to create a bespoke transportation solution for your business.",
+        "button": "Contact Corporate Sales"
+      },
+      "quickInquiry": {
+        "title": "Quick Inquiry",
+        "description": "Get a fast quote for your corporate rental needs.",
+        "packages": {
+          "airport": "Airport Transfer",
+          "hourly": "Hourly As-Directed",
+          "daily": "Full Day Hire",
+          "event": "Event Transportation"
+        }
+      }
+    },
+    "wedding": {
+      "hero": {
+        "title": "Wedding Rolls-Royce Hire",
+        "subtitle": "Unforgettable Moments, Unforgettable Journeys",
+        "description": "Make your special day truly magical with the timeless elegance of a Rolls-Royce. Our wedding car hire service provides the ultimate touch of luxury and sophistication for your wedding in Dubai.",
+        "cta": "Plan Your Wedding Transport"
+      },
+      "whyChoose": {
+        "title": "The Perfect Wedding Car",
+        "bridal": {
+          "title": "Elegant Bridal Arrival",
+          "description": "Make a breathtaking entrance that will be remembered forever."
+        },
+        "photo": {
+          "title": "Stunning Photo Opportunities",
+          "description": "A Rolls-Royce provides a magnificent backdrop for your wedding photos."
+        },
+        "reliability": {
+          "title": "Punctual & Reliable Service",
+          "description": "Our professional chauffeurs ensure you arrive on time and in style."
+        }
+      },
+      "packages": {
+        "title": "Our Wedding Packages",
+        "description": "Choose from our curated packages or let us create a custom solution for you.",
+        "classic": {
+          "title": "Classic Elegance",
+          "price": "AED 2,500",
+          "duration": "3 Hours",
+          "features": [
+            "Rolls-Royce Ghost",
+            "Professional Chauffeur",
+            "Ribbon Decoration",
+            "Bottled Water"
+          ]
+        },
+        "royal": {
+          "title": "Royal Affair",
+          "price": "AED 4,500",
+          "duration": "5 Hours",
+          "features": [
+            "Rolls-Royce Phantom",
+            "Red Carpet Service",
+            "Champagne Toast",
+            "Custom Music Playlist"
+          ]
+        },
+        "ultimate": {
+          "title": "Ultimate Luxury",
+          "price": "AED 7,000",
+          "duration": "8 Hours",
+          "features": [
+            "Choice of any Rolls-Royce",
+            "Bride & Groom Transport",
+            "Parents' Transport (2nd car)",
+            "Late Night Pickup"
+          ]
+        },
+        "custom": "Custom packages available upon request."
+      },
+      "testimonials": {
+        "title": "Happy Couples",
+        "sarah": {
+          "quote": "The Rolls-Royce was the highlight of our wedding. The service was impeccable!",
+          "couple": "Sarah & Ahmed"
+        },
+        "fatima": {
+          "quote": "Felt like royalty arriving in the Phantom. It made our photos look absolutely stunning.",
+          "couple": "Fatima & Khalid"
+        }
+      },
+      "cta": {
+        "title": "Book Your Dream Wedding Car",
+        "description": "Contact us to discuss your wedding plans and reserve the perfect Rolls-Royce for your big day.",
+        "button": "Inquire Now"
+      }
+    }
+  },
+  "birthdayPage": {
+    "badge": "CELEBRATE IN LUXURY",
+    "title": "Birthday",
+    "titleHighlight": "Rolls-Royce",
+    "titleSuffix": "Dubai",
+    "subtitle": "Make their birthday unforgettable. Arrive in a decorated Rolls-Royce with champagne, flowers, and a professional chauffeur.",
+    "price": "Packages from AED 3,500",
+    "bookBtn": "Book Birthday Package",
+    "customBtn": "Custom Request",
+    "packages": {
+      "title": "Birthday Packages",
+      "subtitle": "Choose the perfect celebration package",
+      "mostPopular": "MOST POPULAR",
+      "vehicles": "Vehicles",
+      "bookNow": "Book Now",
+      "silver": {
+        "name": "Silver Birthday",
+        "duration": "4 Hours",
+        "price": "AED 3,500"
+      },
+      "gold": {
+        "name": "Gold Birthday",
+        "duration": "8 Hours",
+        "price": "AED 6,500"
+      },
+      "platinum": {
+        "name": "Platinum Birthday",
+        "duration": "Full Day",
+        "price": "AED 12,000"
+      }
+    },
+    "silverFeatures": [
+      "Professional chauffeur",
+      "Red carpet arrival",
+      "Birthday banner on car",
+      "Complimentary champagne",
+      "Photo opportunity stops"
+    ],
+    "goldFeatures": [
+      "Professional chauffeur",
+      "Red carpet arrival",
+      "Custom birthday decoration",
+      "Champagne & flowers",
+      "Dubai tour included",
+      "Social media photo stops",
+      "Balloon setup"
+    ],
+    "platinumFeatures": [
+      "Multiple vehicles available",
+      "Professional chauffeur",
+      "Complete birthday decoration",
+      "Premium champagne & cake",
+      "Professional photographer (2hrs)",
+      "Custom Dubai itinerary",
+      "Red carpet at every stop",
+      "VIP restaurant reservations"
+    ],
+    "howItWorks": {
+      "title": "How It Works",
+      "step1": {
+        "title": "Choose Package",
+        "desc": "Select Silver, Gold, or Platinum birthday package."
+      },
+      "step2": {
+        "title": "Customize",
+        "desc": "Tell us the birthday person's name, age, and preferences."
+      },
+      "step3": {
+        "title": "We Decorate",
+        "desc": "Our team prepares the car with custom decoration and champagne."
+      },
+      "step4": {
+        "title": "Surprise Arrival",
+        "desc": "The decorated Rolls-Royce arrives at the specified location."
+      }
+    },
+    "bestModels": {
+      "title": "Best Models for Birthdays",
+      "subtitle": "Our most popular birthday celebration cars",
+      "phantom": {
+        "desc": "The ultimate birthday car. Starlight Headliner creates a magical atmosphere. The most impressive entrance.",
+        "price": "From AED 5,800/day"
+      },
+      "dawn": {
+        "desc": "Open-top birthday cruise. Perfect for daytime celebrations with the Dubai skyline as your backdrop.",
+        "price": "From AED 5,500/day"
+      },
+      "cullinan": {
+        "desc": "Room for the whole party. 7 seats of luxury for group birthday celebrations and night-out adventures.",
+        "price": "From AED 6,500/day"
+      }
+    },
+    "relatedServices": "Related Services"
+  },
+  "hourlyPage": {
+    "badge": "FLEXIBLE LUXURY",
+    "title": "Hourly",
+    "titleHighlight": "Rolls-Royce",
+    "titleSuffix": "Rental",
+    "subtitle": "Luxury on your schedule. Rent any Rolls-Royce by the hour with a professional chauffeur. Minimum 2 hours.",
+    "price": "From AED 800 / Hour",
+    "bookBtn": "Book Hourly Rental",
+    "pricingBtn": "View Full Pricing",
+    "rates": {
+      "title": "Hourly Rates",
+      "subtitle": "All rates include professional chauffeur",
+      "perHour": "per hour",
+      "min": "Min",
+      "fullDay": "Full day",
+      "book": "Book"
+    },
+    "useCases": {
+      "title": "Perfect For",
+      "subtitle": "Popular hourly rental occasions",
+      "business": {
+        "title": "Business Meetings",
+        "desc": "Arrive at DIFC or Business Bay meetings in a Rolls-Royce. 2-3 hour bookings ideal for client impressions."
+      },
+      "restaurant": {
+        "title": "Restaurant Arrivals",
+        "desc": "Grand arrival at Dubai's finest restaurants. Zuma, Nobu, La Petite Maison — make an entrance."
+      },
+      "shopping": {
+        "title": "Shopping Trips",
+        "desc": "Cruise Dubai Mall, Mall of the Emirates, or Galleria with a Rolls-Royce and chauffeur waiting."
+      },
+      "date": {
+        "title": "Date Nights",
+        "desc": "Impress with a Rolls-Royce date night. Sunset cruise on Palm Jumeirah in the Dawn convertible."
+      },
+      "social": {
+        "title": "Social Media Content",
+        "desc": "Quick content creation sessions. 2-hour packages perfect for Instagram reels and TikTok shoots."
+      },
+      "hotel": {
+        "title": "Hotel Transfers",
+        "desc": "Luxury transfer between hotels, venues, or residences across Dubai. Minimum 2-hour booking."
+      }
+    },
+    "howItWorks": {
+      "title": "How Hourly Rental Works",
+      "step1": {
+        "title": "Choose Model",
+        "desc": "Select from 6 Rolls-Royce models."
+      },
+      "step2": {
+        "title": "Set Duration",
+        "desc": "Minimum 2 hours. Up to 6 hours at hourly rate."
+      },
+      "step3": {
+        "title": "Pick Location",
+        "desc": "We deliver anywhere in Dubai within 30 minutes."
+      },
+      "step4": {
+        "title": "Enjoy",
+        "desc": "Your chauffeur drives. You relax and enjoy."
+      }
+    },
+    "moreServices": "Explore More Services"
+  }
+}

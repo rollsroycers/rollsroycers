@@ -465,7 +465,7 @@ export default function ToursServicePage() {
 export const getStaticProps: GetStaticProps = async ({ locale }) => {
   return {
     props: {
-      ...(await serverSideTranslations(locale || 'en', ["common","seo","navigation","services"])),
+      ...(await serverSideTranslations(locale || 'en', ['common', 'navigation', 'seo_services', 'services', 'servicespages', 'sp_tours'])),
     },
   }
 }

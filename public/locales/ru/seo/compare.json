@@ -1,0 +1,51 @@
+{
+  "pages": {
+    "compare": {
+      "index": {
+        "title": "Сравнение люкс авто Дубай | Rolls-Royce и конкуренты 2026",
+        "description": "Сравните Rolls-Royce с Bentley, Ferrari, Mercedes и Maybach для аренды в Дубае. Экспертный гид по цене, комфорту и мощности. Бронь в WhatsApp.",
+        "keywords": "сравнение роскошных автомобилей дубай, rolls royce против bentley, rolls royce против ferrari, rolls royce против mercedes, сравнение роскошных автомобилей дубай, phantom против maybach, сравнение роскошной аренды, руководство по сравнению автомобилей дубай, лучший роскошный автомобиль дубай, экспертное сравнение автомобилей",
+        "longTailKeywords": [
+          "сравнить люкс авто аренда дубай"
+        ],
+        "voiceSearchOptimized": [
+          "Сравнить Роллс-Ройс с другими"
+        ]
+      },
+      "rolls-royce-vs-bentley": {
+        "title": "Rolls-Royce против Bentley Дубай | что арендовать?",
+        "description": "Сравните Rolls-Royce и Bentley для аренды в Дубае: Phantom против Mulsanne, Ghost против Flying Spur, Cullinan против Bentayga. Цены и гид. Бронь в WhatsApp.",
+        "keywords": "Роллс Ройс против Бентли, сравнение роскошных автомобилей Дубай, Фантом против Мульсан, Гост против Флайинг Спур, Куллинан против Бентайга",
+        "longTailKeywords": [
+          "роллс ройс или бентли аренда цена"
+        ],
+        "voiceSearchOptimized": [
+          "Роллс-Ройс или Бентли?"
+        ]
+      },
+      "rolls-royce-vs-mercedes": {
+        "title": "Rolls-Royce против Mercedes-Benz Дубай | сравнение",
+        "description": "Сравните Rolls-Royce и Mercedes-Benz для аренды в Дубае: Phantom против Maybach, Ghost против S-Class, Cullinan против GLS. Британец и немец. Бронь в WhatsApp.",
+        "keywords": "роллс ройс против мерседес дубай, сравнение роскошных автомобилей дубай, фантом против майбах дубай, гост против s класс дубай, куллинан против gls дубай, британская против немецкой роскоши, сравнение аренды дубай, мерседес майбах против роллс ройс, руководство по выбору роскоши дубай, экспертный обзор сравнения",
+        "longTailKeywords": [
+          "фантом или майбах с класс аренда"
+        ],
+        "voiceSearchOptimized": [
+          "Роллс-Ройс или Мерседес Майбах?"
+        ]
+      },
+      "rolls-royce-vs-ferrari": {
+        "title": "Rolls-Royce против Ferrari Дубай | что арендовать?",
+        "description": "Сравните Rolls-Royce и Ferrari для аренды в Дубае: Phantom против Roma, Cullinan против Purosangue. Цена, комфорт и мощность. Бронь в WhatsApp.",
+        "keywords": "rolls royce vs ferrari дубай, сравнение люксовых авто, phantom vs roma, cullinan vs purosangue, аренда rolls royce дубай, аренда ferrari дубай"
+      },
+      "phantom-vs-maybach": {
+        "og_title": "Phantom vs Maybach: The Ultimate Luxury Comparison in Dubai",
+        "title": "Rolls-Royce Phantom против Maybach Дубай | что взять?",
+        "keywords": "rolls royce phantom vs maybach dubai, phantom maybach comparison, luxury car comparison dubai, phantom vs maybach s class, which is better phantom or maybach, rolls royce vs mercedes maybach price, phantom maybach rental dubai, ultra luxury sedan comparison, british vs german luxury, phantom or maybach for wedding",
+        "description": "Сравните Rolls-Royce Phantom и Mercedes-Maybach S-Class для аренды в Дубае. Характеристики, мощность и цены двух ультра-люкс седанов. Бронь в WhatsApp.",
+        "og_description": "Detailed comparison of Rolls-Royce Phantom and Mercedes-Maybach S-Class. Performance, luxury, technology, and pricing compared. Book your preferred ultra-luxury sedan in Dubai."
+      }
+    }
+  }
+}

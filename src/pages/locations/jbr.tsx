@@ -536,7 +536,7 @@ export default function JBRPage() {
 export const getStaticProps: GetStaticProps = async ({ locale }) => {
   return {
     props: {
-      ...(await serverSideTranslations(locale || 'en', ["common","seo","navigation"])),
+      ...(await serverSideTranslations(locale || 'en', ['common', 'comparecontent', 'lc_jbr', 'lc_shared', 'navigation', 'seo_locations'])),
     },
   }
 }

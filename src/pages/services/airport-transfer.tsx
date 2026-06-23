@@ -374,7 +374,7 @@ export default function AirportTransferPage() {
 export const getStaticProps: GetStaticProps = async ({ locale }) => {
   return {
     props: {
-      ...(await serverSideTranslations(locale || 'en', ["common","seo","navigation","services"])),
+      ...(await serverSideTranslations(locale || 'en', ['common', 'navigation', 'sb_services-airport-transfer', 'seo_services', 'services', 'servicespages', 'sp_airportTransfer'])),
     },
   }
 }

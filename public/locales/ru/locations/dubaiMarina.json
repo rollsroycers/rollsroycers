@@ -1,0 +1,188 @@
+{
+  "locations": {
+    "dubaiMarina": {
+      "nav": "Дубай Марина",
+      "hero": {
+        "title": "Дубай Марина",
+        "subtitle": "Роскошь на набережной",
+        "bookButton": "Забронировать",
+        "callButton": "Позвонить",
+        "freeDelivery": "Бесплатная доставка в Марину",
+        "deliveryTime": "Прибытие за 5 мин",
+        "vipConcierge": "VIP-консьерж"
+      },
+      "stats": {
+        "monthlyDeliveries": "400+",
+        "monthlyDeliveriesLabel": "Доставок в месяц",
+        "responseTime": "3 мин",
+        "responseTimeLabel": "Среднее время ответа",
+        "beachClubs": "15+",
+        "beachClubsLabel": "Партнёрских пляжных клубов",
+        "satisfaction": "4.9/5",
+        "satisfactionLabel": "Удовлетворённость"
+      },
+      "whyChoose": {
+        "title": "Почему Дубай Марина",
+        "beachside": {
+          "title": "У моря",
+          "description": "Прямой доступ к пляжам и ресторанам"
+        },
+        "nightlife": {
+          "title": "Ночная жизнь",
+          "description": "Лучшие развлекательные заведения"
+        },
+        "yacht": {
+          "title": "Яхт-клуб",
+          "description": "Эксклюзивный доступ к яхт-клубам"
+        }
+      },
+      "experiences": {
+        "title": "Эксклюзивные впечатления Марины",
+        "subtitle": "Люксовые впечатления на набережной",
+        "bookExperience": "Забронировать",
+        "sunset": {
+          "title": "Закатный круиз",
+          "description": "Прибытие с шиком на яхтенный круиз",
+          "duration": "4 часа",
+          "price": "От 8 500 AED",
+          "highlights": [
+            "Трансфер на Rolls-Royce",
+            "VIP-посадка на яхту",
+            "Круиз с ужином",
+            "Обратный трансфер"
+          ]
+        },
+        "beachClub": {
+          "title": "Тур по пляжным клубам",
+          "description": "VIP-доступ в эксклюзивные клубы",
+          "duration": "Весь день",
+          "price": "От 6 500 AED",
+          "highlights": [
+            "Вход без очереди",
+            "VIP-кабаны",
+            "Водитель на ожидании",
+            "Трансферы между клубами"
+          ]
+        },
+        "dining": {
+          "title": "Ужин на набережной",
+          "description": "Гастрономический тур по лучшим ресторанам",
+          "duration": "Вечер",
+          "price": "От 7 200 AED",
+          "highlights": [
+            "Парковка у ресторана",
+            "Столик шеф-повара",
+            "Винные дегустации",
+            "Ночной трансфер"
+          ]
+        }
+      },
+      "beachClubs": {
+        "title": "Партнёрские пляжные клубы",
+        "subtitle": "Эксклюзивный доступ и VIP-обслуживание",
+        "clubs": [
+          {
+            "name": "Zero Gravity",
+            "type": "Премиум-клуб",
+            "feature": "VIP-кабана",
+            "distance": "2 мин"
+          },
+          {
+            "name": "Barasti Beach",
+            "type": "Пляжный бар",
+            "feature": "Прямая парковка",
+            "distance": "3 мин"
+          },
+          {
+            "name": "Azure Beach",
+            "type": "Дневной клуб",
+            "feature": "VIP-парковка",
+            "distance": "5 мин"
+          },
+          {
+            "name": "Cove Beach",
+            "type": "Люкс-клуб",
+            "feature": "Отдельный вход",
+            "distance": "7 мин"
+          }
+        ]
+      },
+      "deliveryLocations": {
+        "title": "Точки бесплатной доставки",
+        "additional": "И многие другие точки по всей Марине"
+      },
+      "popularRoutes": {
+        "title": "Популярные маршруты Марины",
+        "distance": "Расстояние",
+        "duration": "Длительность",
+        "highlights": "Особенности",
+        "coastal": {
+          "name": "Прибрежный маршрут",
+          "description": "Живописная поездка вдоль побережья",
+          "highlights": [
+            "Вид на набережную",
+            "Dubai Eye",
+            "Пляж JBR"
+          ]
+        },
+        "city": {
+          "name": "Городской маршрут",
+          "description": "Достопримечательности Дубая",
+          "highlights": [
+            "Бурдж Халифа",
+            "Дубай Молл",
+            "Фонтан Дубая"
+          ]
+        },
+        "shopping": {
+          "name": "Шопинг-маршрут",
+          "description": "Лучшие торговые центры",
+          "highlights": [
+            "Mall of the Emirates",
+            "Ibn Battuta Mall",
+            "Marina Mall"
+          ]
+        }
+      },
+      "nearbyAttractions": {
+        "title": "Ближайшие достопримечательности",
+        "attraction": "Достопримечательность",
+        "distance": "Расстояние",
+        "type": "Тип"
+      },
+      "testimonials": {
+        "title": "Отзывы клиентов",
+        "sarah": {
+          "location": "Дубай Марина",
+          "text": "Потрясающе! Rolls-Royce прибыл вовремя, закатный круиз был незабываемым.",
+          "car": "Rolls-Royce Dawn"
+        },
+        "james": {
+          "location": "Резидент Марины",
+          "text": "Постоянно пользуюсь для деловых мероприятий. Всегда профессионально.",
+          "car": "Rolls-Royce Ghost"
+        },
+        "fatima": {
+          "location": "Абу-Даби",
+          "text": "Заказала Phantom для свадьбы дочери. Исключительный сервис.",
+          "car": "Rolls-Royce Phantom"
+        },
+        "rented": "Арендовал"
+      },
+      "fleet": {
+        "title": "Наш автопарк в Марине"
+      },
+      "cta": {
+        "title": "Rolls-Royce в Дубай Марине",
+        "subtitle": "Бесплатная доставка по всей Марине",
+        "call": "Звонок: +971 55 816 4922",
+        "packages": "Смотреть пакеты",
+        "gps": "GPS: 25.0657, 55.1713",
+        "bookButton": "Забронировать онлайн",
+        "callButton": "Позвонить",
+        "pickupLocation": "Dubai Marina Walk, Здание 6, цокольный этаж",
+        "pickupPoint": "Точка подачи Marina"
+      }
+    }
+  }
+}
