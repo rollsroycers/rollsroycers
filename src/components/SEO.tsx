@@ -6,12 +6,14 @@ interface SEOProps {
   pageKey: string
   title?: string
   description?: string
+  /** Emit a noindex robots directive (search-results / utility pages). Default false. */
+  noindex?: boolean
   dynamicParams?: {
     [key: string]: string
   }
 }
 
-export default function SEO({ pageKey, title: titleProp, description: descriptionProp, dynamicParams }: SEOProps) {
+export default function SEO({ pageKey, title: titleProp, description: descriptionProp, noindex = false, dynamicParams }: SEOProps) {
   const router = useRouter()
   const { t, i18n } = useTranslation('seo')
   
@@ -402,9 +404,9 @@ export default function SEO({ pageKey, title: titleProp, description: descriptio
       <meta property="twitter:site" content="@rollsroycersdxb" />
       
       {/* Additional SEO Tags */}
-      <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
-      <meta name="googlebot" content="index, follow" />
-      <meta name="bingbot" content="index, follow" />
+      <meta name="robots" content={noindex ? 'noindex, follow' : 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1'} />
+      <meta name="googlebot" content={noindex ? 'noindex, follow' : 'index, follow'} />
+      <meta name="bingbot" content={noindex ? 'noindex, follow' : 'index, follow'} />
       <meta name="mobile-web-app-capable" content="yes" />
       <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
       <meta name="format-detection" content="telephone=yes" />

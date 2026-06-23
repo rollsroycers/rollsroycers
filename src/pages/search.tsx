@@ -3,7 +3,6 @@ import { serverSideTranslations } from '@/lib/serverSideTranslations'
 import { useTranslation } from 'next-i18next'
 import { useRouter } from 'next/router'
 import { useEffect, useState } from 'react'
-import Head from 'next/head'
 import SEO from '@/components/SEO'
 
 interface SearchResult {
@@ -96,11 +95,9 @@ export default function SearchPage() {
 
   return (
     <>
-      <Head>
-        <meta name="robots" content="noindex, follow" />
-      </Head>
       <SEO
         pageKey="search"
+        noindex
         title={`Search Results${searchQuery ? ` - ${searchQuery}` : ''}`}
         description={`Search results for luxury car rental services in Dubai${searchQuery ? ` - ${searchQuery}` : ''}`}
       />
