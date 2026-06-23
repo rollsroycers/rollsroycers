@@ -127,6 +127,29 @@ export default function Home() {
     { number: '100%', label: t('home.stats.satisfactionRate') }
   ]);
 
+  // VideoObject schema for the homepage video showcase — lets Google/AI index the clips
+  // (matches the embedded video metadata from scripts/img-metadata.mjs).
+  const toIsoDuration = (d: string) => {
+    const [m, s] = d.split(':').map(Number)
+    return `PT${m ? `${m}M` : ''}${s ? `${s}S` : ''}` || 'PT0S'
+  }
+  const videoSchema = {
+    '@context': 'https://schema.org',
+    '@graph': videoShowcase.map((v: any) => ({
+      '@type': 'VideoObject',
+      name: v.title,
+      description: `${v.title} — luxury Rolls-Royce rental and chauffeur service in Dubai by rollsroycers.com`,
+      thumbnailUrl: `https://rollsroycers.com${v.thumbnail}`,
+      contentUrl: `https://rollsroycers.com${v.video}`,
+      uploadDate: '2026-01-15',
+      duration: toIsoDuration(v.duration),
+      publisher: { '@type': 'Organization', name: 'Rolls-Royce Dubai (Naqra FZE)', url: 'https://rollsroycers.com' },
+      copyrightHolder: { '@type': 'Organization', name: 'Naqra FZE' },
+      contentLocation: { '@type': 'Place', name: 'Dubai, United Arab Emirates' },
+      inLanguage: i18n.language || 'en',
+    })),
+  }
+
   return (
     <>
       <SEO pageKey="home" />
@@ -167,6 +190,7 @@ export default function Home() {
         }}
       />
       <EntitySchema pageType="home" />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(videoSchema) }} />
 
       <Layout>
         <Hero />

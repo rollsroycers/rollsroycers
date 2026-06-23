@@ -3,7 +3,7 @@
 // full hreflang/x-default), matching SEO.tsx's canonical scheme exactly:
 //   default locale 'en' => no path prefix; other locales => /<locale>/path.
 // Run via `npm run sitemap` or automatically as `postbuild`.
-import { writeFileSync, readFileSync } from 'node:fs'
+import { writeFileSync, readFileSync, existsSync } from 'node:fs'
 import { execSync } from 'node:child_process'
 import { fileURLToPath } from 'node:url'
 import { dirname, join } from 'node:path'
@@ -70,15 +70,34 @@ function urlFor(lang, path) {
   return `${BASE}${prefix}${path === '/' ? '' : path}`
 }
 
+// Image discovery for the sitemap. Each canonical <url> lists the images that page
+// renders so Google + AI crawlers find & attribute them (captions/license come from
+// the embedded IPTC metadata — see scripts/img-metadata.mjs). Components rendered on
+// the homepage have their images attributed to '/'.
+const HOME_COMPONENTS = ['Hero', 'Fleet', 'Services', 'About', 'Reviews', 'VideoGallery', 'SpecialOffers']
+const IMG_RE = /\/images\/[A-Za-z0-9_./-]+\.(?:jpe?g|png|webp|avif)/g
+const xmlEsc = (s) => s.replace(/&/g, '&amp;')
+function staticImages(content) { return content.match(IMG_RE) || [] }
+function imagesFor(file, path) {
+  const set = new Set()
+  try { staticImages(readFileSync(join(ROOT, file), 'utf8')).forEach((i) => set.add(i)) } catch {}
+  if (path === '/') for (const c of HOME_COMPONENTS) {
+    try { staticImages(readFileSync(join(ROOT, `src/components/${c}.tsx`), 'utf8')).forEach((i) => set.add(i)) } catch {}
+  }
+  return [...set].filter((i) => existsSync(join(ROOT, 'public', i)) && !i.includes('/reviews/')).slice(0, 250)
+}
+
 function urlBlock({ path, file, priority, changefreq }) {
   const alts = LOCALES.map((l) => `    <xhtml:link rel="alternate" hreflang="${l}" href="${urlFor(l, path)}"/>`).join('\n')
+  const imgs = imagesFor(file, path)
+    .map((i) => `    <image:image><image:loc>${xmlEsc(BASE + encodeURI(i))}</image:loc></image:image>`).join('\n')
   return `  <url>
     <loc>${urlFor(DEFAULT_LOCALE, path)}</loc>
     <lastmod>${lastmodFor(file)}</lastmod>
     <changefreq>${changefreq}</changefreq>
     <priority>${priority}</priority>
 ${alts}
-    <xhtml:link rel="alternate" hreflang="x-default" href="${urlFor(DEFAULT_LOCALE, path)}"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="${urlFor(DEFAULT_LOCALE, path)}"/>${imgs ? '\n' + imgs : ''}
   </url>`
 }
 
