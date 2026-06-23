@@ -513,7 +513,7 @@ export default function DowntownDubaiPage() {
 export const getStaticProps: GetStaticProps = async ({ locale }) => {
   return {
     props: {
-      ...(await serverSideTranslations(locale || 'en', ['common', 'comparecontent', 'loccontent', 'navigation', 'seo'])),
+      ...(await serverSideTranslations(locale || 'en', ['common', 'comparecontent', 'loccontent', 'navigation', 'seo_locations'])),
     },
   }
 }

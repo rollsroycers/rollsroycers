@@ -726,7 +726,7 @@ export default function TestimonialsPage() {
 export const getStaticProps: GetStaticProps = async ({ locale }) => {
   return {
     props: {
-      ...(await serverSideTranslations(locale || 'en', ['common', 'navigation', 'page_testimonials', 'seo'])),
+      ...(await serverSideTranslations(locale || 'en', ['common', 'navigation', 'page_testimonials', 'seo_other'])),
     },
   }
 }

@@ -724,7 +724,7 @@ export default function GalleryPage() {
 export const getStaticProps: GetStaticProps = async ({ locale }) => {
   return {
     props: {
-      ...(await serverSideTranslations(locale || 'en', ['common', 'navigation', 'page_gallery', 'seo'])),
+      ...(await serverSideTranslations(locale || 'en', ['common', 'navigation', 'page_gallery', 'seo_other'])),
     },
   }
 }

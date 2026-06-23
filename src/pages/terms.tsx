@@ -312,7 +312,7 @@ export default function TermsPage() {
 export const getStaticProps: GetStaticProps = async ({ locale }) => {
   return {
     props: {
-      ...(await serverSideTranslations(locale || 'en', ['common', 'navigation', 'page_terms', 'pages', 'seo'])),
+      ...(await serverSideTranslations(locale || 'en', ['common', 'navigation', 'page_terms', 'pages', 'seo_other'])),
     },
   }
 }

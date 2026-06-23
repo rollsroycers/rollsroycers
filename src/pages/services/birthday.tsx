@@ -233,7 +233,7 @@ export default function BirthdayServicePage() {
 export const getStaticProps: GetStaticProps = async ({ locale }) => {
   return {
     props: {
-      ...(await serverSideTranslations(locale || 'en', ['common', 'navigation', 'seo', 'services', 'servicespages'])),
+      ...(await serverSideTranslations(locale || 'en', ['common', 'navigation', 'seo_services', 'services', 'servicespages'])),
     },
   }
 }

@@ -622,7 +622,7 @@ export default function ServicesPage() {
 export const getStaticProps: GetStaticProps = async ({ locale }) => {
   return {
     props: {
-      ...(await serverSideTranslations(locale || 'en', ["common","seo","navigation","services"])),
+      ...(await serverSideTranslations(locale || 'en', ["common","seo_services","navigation","services"])),
     },
   }
 }

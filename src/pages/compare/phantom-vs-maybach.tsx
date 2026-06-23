@@ -19,7 +19,7 @@ interface ComparisonMetric {
 }
 
 const PhantomVsMaybach: React.FC = () => {
-  const { t } = useTranslation(['compare', 'common', 'seo']);
+  const { t } = useTranslation(['compare', 'common', 'seo_compare']);
   const router = useRouter();
   const [activeCategory, setActiveCategory] = useState<string>('all');
 

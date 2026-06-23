@@ -754,7 +754,7 @@ export default function RollsRoyceVsBentleyPage() {
 export const getStaticProps: GetStaticProps = async ({ locale }) => {
   return {
     props: {
-      ...(await serverSideTranslations(locale || 'en', ['common', 'comparecontent', 'navigation', 'seo'])),
+      ...(await serverSideTranslations(locale || 'en', ['common', 'comparecontent', 'navigation', 'seo_compare'])),
     },
   }
 }

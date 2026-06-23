@@ -494,7 +494,7 @@ export default function GhostPage() {
 export const getStaticProps: GetStaticProps = async ({ locale }) => {
   return {
     props: {
-      ...(await serverSideTranslations(locale || 'en', ['common', 'comparecontent', 'fleet', 'fleetcontent', 'navigation', 'seo', 'sb_fleet-ghost'])),
+      ...(await serverSideTranslations(locale || 'en', ['common', 'comparecontent', 'fleet', 'fleetcontent', 'navigation', 'seo_fleet', 'sb_fleet-ghost'])),
     },
   }
 }

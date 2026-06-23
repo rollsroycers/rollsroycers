@@ -426,7 +426,7 @@ export default function ComparePage() {
 export const getStaticProps: GetStaticProps = async ({ locale }) => {
   return {
     props: {
-      ...(await serverSideTranslations(locale || 'en', ['common', 'comparecontent', 'seo'])),
+      ...(await serverSideTranslations(locale || 'en', ['common', 'comparecontent', 'seo_compare'])),
     },
   }
 }

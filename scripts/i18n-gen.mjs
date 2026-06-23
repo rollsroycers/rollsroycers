@@ -3,15 +3,16 @@
 // require() map + fallbackNS in serverSideTranslations.ts, syncs fallbackNS into
 // _app.tsx and next-i18next.config.js, and repoints SeoContentBlock pages to their
 // per-block namespace. Re-runnable.
-import { readFileSync, writeFileSync } from 'node:fs'
+import { readFileSync, writeFileSync, readdirSync, statSync } from 'node:fs'
 import { join } from 'node:path'
 const ROOT = '/Users/ahmedsalem/Desktop/all my projects/rollsroycers.com'
 
 const seoblocks = JSON.parse(readFileSync('/tmp/seoblock-list.json', 'utf8'))
 // [ns, file, inFallbackNS]
+const SEO_SECTIONS = ['home', 'fleet', 'services', 'locations', 'compare', 'other']
 const MANIFEST = [
   ['common', 'common.json', true],
-  ['seo', 'seo.json', false],
+  ...SEO_SECTIONS.map((s) => ['seo_' + s, 'seo/' + s + '.json', true]),
   ['navigation', 'navigation.json', false],
   ['services', 'services.json', false],
   ['fleet', 'fleet.json', false],
@@ -120,7 +121,37 @@ for (const [pg, block] of Object.entries(PAGE_BLOCK)) {
   let src = readFileSync(p, 'utf8')
   if (src.includes("'seoblocks'")) { src = src.replace("'seoblocks'", `'sb_${block}'`); writeFileSync(p, src); repointed++ }
   else if (src.includes('"seoblocks"')) { src = src.replace('"seoblocks"', `"sb_${block}"`); writeFileSync(p, src); repointed++ }
-  else console.log('  WARN: no seoblocks ns in', pg)
+  else if (!src.includes(`sb_${block}`)) console.log('  WARN: no seoblocks ns in', pg)
 }
-console.log(`namespaces: ${MANIFEST.length} | fallbackNS: ${fallbackNS.length} | pages repointed: ${repointed}`)
+// --- (4) repoint every page that loads the 'seo' namespace to its seo_<section> ---
+const sectionFor = (route) => {
+  if (route === 'index') return 'home'
+  if (route === 'fleet' || route.startsWith('fleet/')) return 'fleet'
+  if (route === 'services' || route.startsWith('services/')) return 'services'
+  if (route === 'locations' || route.startsWith('locations/')) return 'locations'
+  if (route.startsWith('compare/')) return 'compare'
+  return 'other'
+}
+const PAGES_DIR = join(ROOT, 'src/pages')
+function pageFiles(dir, out = []) {
+  for (const e of readdirSync(dir)) {
+    const p = join(dir, e)
+    if (statSync(p).isDirectory()) pageFiles(p, out)
+    else if (/\.tsx$/.test(e) && !e.startsWith('_')) out.push(p)
+  }
+  return out
+}
+let seoRepointed = 0
+for (const f of pageFiles(PAGES_DIR)) {
+  let src = readFileSync(f, 'utf8')
+  if (!/serverSideTranslations/.test(src)) continue
+  const route = f.replace(PAGES_DIR + '/', '').replace(/\.tsx$/, '')
+  const sec = 'seo_' + sectionFor(route)
+  let next = src
+  if (/(\[[^\]]*)(['"])seo\2/.test(next)) {            // only the standalone 'seo' ns token in the array
+    next = next.replace(/(\[[^\]]*?)(['"])seo\2/, `$1$2${sec}$2`)
+  }
+  if (next !== src) { writeFileSync(f, next); seoRepointed++ }
+}
+console.log(`namespaces: ${MANIFEST.length} | fallbackNS: ${fallbackNS.length} | seoblocks pages: ${repointed} | seo pages repointed: ${seoRepointed}`)
 console.log('fallbackNS:', fbLiteral)
