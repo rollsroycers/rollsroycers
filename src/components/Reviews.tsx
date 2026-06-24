@@ -134,7 +134,12 @@ export default function Reviews() {
     if (!track) return
     const clamped = (i + reviews.length) % reviews.length
     const card = track.children[clamped] as HTMLElement | undefined
-    card?.scrollIntoView({ behavior: 'smooth', inline: 'start', block: 'nearest' })
+    if (!card) return
+    // Scroll ONLY the horizontal track — never the page. (scrollIntoView scrolls every
+    // ancestor incl. the document, which yanked the homepage down to the Reviews section
+    // on the first autoplay tick.) Delta from rects is direction-agnostic (RTL-safe).
+    const delta = card.getBoundingClientRect().left - track.getBoundingClientRect().left
+    track.scrollBy({ left: delta, behavior: 'smooth' })
   }, [reviews.length])
 
   // Keep the active dot in sync with whatever card is in view (manual swipe OR programmatic).
@@ -157,18 +162,15 @@ export default function Reviews() {
   }, [])
 
   // Autoplay every 5s; pauses on hover/touch and respects prefers-reduced-motion.
+  // Uses goTo (track-only scroll) so it never moves the page.
   useEffect(() => {
     if (typeof window !== 'undefined' && window.matchMedia('(prefers-reduced-motion: reduce)').matches) return
     const id = setInterval(() => {
       if (pausedRef.current) return
-      const track = trackRef.current
-      if (!track) return
-      const next = (activeIndex + 1) % reviews.length
-      const card = track.children[next] as HTMLElement | undefined
-      card?.scrollIntoView({ behavior: 'smooth', inline: 'start', block: 'nearest' })
+      goTo(activeIndex + 1)
     }, 5000)
     return () => clearInterval(id)
-  }, [activeIndex, reviews.length])
+  }, [activeIndex, goTo])
 
   const renderStars = (rating: number) => {
     return Array.from({ length: 5 }, (_, i) => (
