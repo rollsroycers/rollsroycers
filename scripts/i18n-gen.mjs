@@ -35,7 +35,8 @@ const MANIFEST = [
   // C3: per-location + shared
   ...LOCS.map((x) => ['lc_' + x, 'locations/' + x + '.json', true]),
   ['lc_shared', 'locations/_shared.json', true],
-  ['comparecontent', 'compare-content.json', true],
+  ['comparefleet', 'comparefleet.json', true],
+  ['comparemain', 'comparemain.json', true],
   ['weatherrec', 'weatherrec.json', true],
   ['page_about', 'pages/about.json', true],
   ['page_blog', 'pages/blog.json', true],

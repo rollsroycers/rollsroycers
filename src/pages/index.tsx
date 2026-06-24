@@ -503,7 +503,7 @@ export default function Home() {
 export const getStaticProps: GetStaticProps = async ({ locale }) => {
   return {
     props: {
-      ...(await serverSideTranslations(locale || 'en', ['common', 'comparecontent', 'fleetcards', 'navigation', 'page_about', 'sb_home', 'seo_home'])),
+      ...(await serverSideTranslations(locale || 'en', ['common', 'comparefleet', 'fleetcards', 'navigation', 'page_about', 'sb_home', 'seo_home'])),
     },
   }
 }

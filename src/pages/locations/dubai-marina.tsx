@@ -634,7 +634,7 @@ export default function DubaiMarinaPage() {
 export const getStaticProps: GetStaticProps = async ({ locale }) => {
   return {
     props: {
-      ...(await serverSideTranslations(locale || 'en', ['common', 'comparecontent', 'lc_dubaiMarina', 'lc_shared', 'navigation', 'seo_locations'])),
+      ...(await serverSideTranslations(locale || 'en', ['common', 'comparefleet', 'lc_dubaiMarina', 'lc_shared', 'navigation', 'seo_locations'])),
     },
   }
 }
