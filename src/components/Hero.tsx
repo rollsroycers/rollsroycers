@@ -6,6 +6,9 @@ import Image from 'next/image'
 export default function Hero() {
   const { t } = useTranslation('common')
   const [currentSlide, setCurrentSlide] = useState(0)
+  // Slide 0 is the LCP image and is always rendered. Slides 1–3 (~274KB of full-viewport
+  // images) are deferred until after first paint so they don't compete with the LCP.
+  const [slidesReady, setSlidesReady] = useState(false)
 
   const heroImages = [
     '/images/Rolls-Royce-front.jpg',
@@ -20,6 +23,17 @@ export default function Hero() {
     }, 5000)
     return () => clearInterval(interval)
   }, [heroImages.length])
+
+  useEffect(() => {
+    const w = window as any
+    const id = 'requestIdleCallback' in w
+      ? w.requestIdleCallback(() => setSlidesReady(true), { timeout: 2000 })
+      : setTimeout(() => setSlidesReady(true), 1200)
+    return () => {
+      if ('cancelIdleCallback' in w && typeof id === 'number') w.cancelIdleCallback(id)
+      else clearTimeout(id as any)
+    }
+  }, [])
 
   const [statsVisible, setStatsVisible] = useState(false)
   const statsRef = useRef<HTMLDivElement>(null)
@@ -44,7 +58,9 @@ export default function Hero() {
     <section id="home" className="relative min-h-mobile overflow-hidden pt-20">
       {/* Background Slideshow */}
       <div className="absolute inset-0">
-        {heroImages.map((image, index) => (
+        {heroImages.map((image, index) => {
+          if (index !== 0 && !slidesReady) return null
+          return (
           <motion.div
             key={image}
             className="absolute inset-0"
@@ -65,7 +81,8 @@ export default function Hero() {
             />
             <div className="absolute inset-0 bg-gradient-to-b from-rolls-black/50 via-rolls-black/30 to-rolls-black/70" />
           </motion.div>
-        ))}
+          )
+        })}
       </div>
 
       {/* Content */}

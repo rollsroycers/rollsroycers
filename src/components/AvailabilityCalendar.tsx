@@ -248,7 +248,7 @@ export default function AvailabilityCalendar() {
             {/* Selected dates display */}
             {(selectedStartDate || selectedEndDate) && (
               <div className="mt-6 p-4 bg-rolls-navy/50 rounded-lg">
-                <div className="flex items-center justify-between">
+                <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
                   <div>
                     <p className="text-sm text-gray-400">{t('checkAvailability.calendar.selectedDates')}</p>
                     <p className="text-white">

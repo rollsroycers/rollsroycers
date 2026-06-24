@@ -247,7 +247,9 @@ export default function TestimonialSubmission() {
                         key={rating}
                         type="button"
                         onClick={() => setFormData({...formData, rating})}
-                        className="focus:outline-none"
+                        aria-label={`${rating} star${rating > 1 ? 's' : ''}`}
+                        aria-pressed={rating === formData.rating}
+                        className="rounded focus:outline-none focus-visible:ring-2 focus-visible:ring-rolls-gold"
                       >
                         <svg
                           className={`w-8 h-8 ${rating <= formData.rating ? 'text-rolls-gold' : 'text-gray-600'} hover:text-rolls-gold transition-colors`}

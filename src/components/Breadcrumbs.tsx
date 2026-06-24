@@ -78,7 +78,9 @@ export default function Breadcrumbs() {
     })
   })
   
-  // Generate schema markup
+  // Generate schema markup. Prefix item URLs with the active locale so the breadcrumb
+  // JSON-LD on /ar and /ru pages points to the localized URLs (not the English ones).
+  const localePrefix = router.locale && router.locale !== router.defaultLocale ? `/${router.locale}` : ''
   const schema = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
@@ -86,7 +88,7 @@ export default function Breadcrumbs() {
       "@type": "ListItem",
       "position": index + 1,
       "name": crumb.name,
-      "item": `https://rollsroycers.com${crumb.href}`
+      "item": `https://rollsroycers.com${localePrefix}${crumb.href === '/' ? '' : crumb.href}`
     }))
   }
   
@@ -130,7 +132,7 @@ export default function Breadcrumbs() {
                 ) : (
                   <Link
                     href={crumb.href}
-                    className="text-rolls-gold hover:text-rolls-gold-dark transition-colors"
+                    className="text-rolls-gold-dark hover:text-rolls-gold dark:text-rolls-gold dark:hover:text-rolls-gold-dark transition-colors"
                   >
                     {crumb.name}
                   </Link>

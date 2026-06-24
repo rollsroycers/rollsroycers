@@ -9,6 +9,9 @@ module.exports = {
     extend: {
       colors: {
         'rolls-gold': '#C4A570',
+        // Darker gold for gold text/links on LIGHT backgrounds (gray-50/white/cream),
+        // where #C4A570 fails WCAG AA. #8A6D2F = 4.66:1 on gray-50. Use on light bars only.
+        'rolls-gold-dark': '#8A6D2F',
         'rolls-black': '#0A0A0A',
         'rolls-silver': '#C0C0C0',
         'rolls-navy': '#1A1A2E',

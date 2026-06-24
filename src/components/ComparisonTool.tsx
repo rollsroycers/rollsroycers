@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import { m as motion, AnimatePresence } from 'framer-motion'
 import { useInView } from 'react-intersection-observer'
 import { useTranslation } from 'next-i18next'
@@ -46,6 +46,17 @@ export default function ComparisonTool() {
   const [selectedCars, setSelectedCars] = useState<string[]>([])
   const [showComparison, setShowComparison] = useState(false)
   const [activeTab, setActiveTab] = useState('specs')
+  // On phones, shrink the comparison grid's fixed min-column widths so the table fits/
+  // scrolls inside the modal instead of forcing ~1100px of horizontal page overflow.
+  const [isMobile, setIsMobile] = useState(false)
+  useEffect(() => {
+    const mq = window.matchMedia('(max-width: 639px)')
+    const onChange = () => setIsMobile(mq.matches)
+    onChange()
+    mq.addEventListener('change', onChange)
+    return () => mq.removeEventListener('change', onChange)
+  }, [])
+  const colTemplate = `minmax(${isMobile ? '96px' : '200px'}, 1fr) repeat(${selectedCars.length}, minmax(${isMobile ? '120px' : '300px'}, 1fr))`
 
   const carSpecs: Record<string, CarSpec> = t('compareFleet.cars', { returnObjects: true }) as Record<string, CarSpec>
 
@@ -320,9 +331,9 @@ export default function ComparisonTool() {
                 </div>
 
                 {/* Content Area */}
-                <div className="p-6 max-h-[60vh] overflow-y-auto">
+                <div className="p-6 max-h-[60vh] overflow-y-auto overflow-x-auto">
                   {/* Vehicle Headers */}
-                  <div className="grid gap-6 mb-8" style={{ gridTemplateColumns: `minmax(200px, 1fr) repeat(${selectedCars.length}, minmax(300px, 1fr))` }}>
+                  <div className="grid gap-6 mb-8" style={{ gridTemplateColumns: colTemplate }}>
                     <div></div>
                     {getComparisonData().map((car) => (
                       <div key={car.id} className="text-center">
@@ -349,7 +360,7 @@ export default function ComparisonTool() {
                         'engine', 'power', 'torque', 'acceleration', 'topSpeed',
                         'seats', 'doors', 'length', 'width', 'height'
                       ].map((spec) => (
-                        <div key={spec} className="grid gap-6" style={{ gridTemplateColumns: `minmax(200px, 1fr) repeat(${selectedCars.length}, minmax(300px, 1fr))` }}>
+                        <div key={spec} className="grid gap-6" style={{ gridTemplateColumns: colTemplate }}>
                           <div className="flex items-center text-gray-300 font-medium">
                             {t(`compareFleet.specs.${spec}`)}
                           </div>
@@ -370,7 +381,7 @@ export default function ComparisonTool() {
                   {activeTab === 'metrics' && (
                     <div className="space-y-6">
                       {selectedCars.length > 0 && validCarSpecs[selectedCars[0]]?.metrics && Object.keys(validCarSpecs[selectedCars[0]].metrics).map((metric) => (
-                        <div key={metric} className="grid gap-6" style={{ gridTemplateColumns: `minmax(200px, 1fr) repeat(${selectedCars.length}, minmax(300px, 1fr))` }}>
+                        <div key={metric} className="grid gap-6" style={{ gridTemplateColumns: colTemplate }}>
                           <div className="flex items-center text-gray-300 font-medium">
                             {t(`compareFleet.metrics.${metric}`)}
                           </div>
@@ -390,7 +401,7 @@ export default function ComparisonTool() {
                     <div className="space-y-8">
                       <div>
                         <h5 className="text-lg font-semibold text-rolls-gold mb-4">{t('compareFleet.features.uniqueFeatures')}</h5>
-                        <div className="grid gap-6" style={{ gridTemplateColumns: `minmax(200px, 1fr) repeat(${selectedCars.length}, minmax(300px, 1fr))` }}>
+                        <div className="grid gap-6" style={{ gridTemplateColumns: colTemplate }}>
                           <div></div>
                           {getComparisonData().map((car) => (
                             <div key={car.id}>
@@ -411,7 +422,7 @@ export default function ComparisonTool() {
 
                       <div>
                         <h5 className="text-lg font-semibold text-rolls-gold mb-4">{t('compareFleet.bestFor.title')}</h5>
-                        <div className="grid gap-6" style={{ gridTemplateColumns: `minmax(200px, 1fr) repeat(${selectedCars.length}, minmax(300px, 1fr))` }}>
+                        <div className="grid gap-6" style={{ gridTemplateColumns: colTemplate }}>
                           <div></div>
                           {getComparisonData().map((car) => (
                             <div key={car.id}>

@@ -318,7 +318,7 @@ export default function Navbar() {
               initial={{ opacity: 0, height: 0 }}
               animate={{ opacity: 1, height: 'auto' }}
               exit={{ opacity: 0, height: 0 }}
-              className="lg:hidden bg-rolls-black/95 backdrop-blur-md"
+              className="lg:hidden bg-rolls-black/95 backdrop-blur-md max-h-[calc(100vh-5rem)] overflow-y-auto overscroll-contain"
             >
               <div className="px-2 pt-2 pb-3 space-y-1">
                 <Link

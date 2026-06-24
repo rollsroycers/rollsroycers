@@ -74,6 +74,7 @@ export default function Contact() {
                     name="name"
                     value={formData.name}
                     onChange={handleChange}
+                    aria-label={t('contact.form.name.placeholder')}
                     placeholder={t('contact.form.name.placeholder')}
                     required
                     className="w-full px-6 py-4 bg-rolls-navy/50 border border-rolls-gold/20 rounded-sm text-white placeholder-gray-400 focus:border-rolls-gold focus:outline-none transition-colors"
@@ -85,6 +86,7 @@ export default function Contact() {
                     name="email"
                     value={formData.email}
                     onChange={handleChange}
+                    aria-label={t('contact.form.email.placeholder')}
                     placeholder={t('contact.form.email.placeholder')}
                     required
                     className="w-full px-6 py-4 bg-rolls-navy/50 border border-rolls-gold/20 rounded-sm text-white placeholder-gray-400 focus:border-rolls-gold focus:outline-none transition-colors"
@@ -99,6 +101,7 @@ export default function Contact() {
                     name="phone"
                     value={formData.phone}
                     onChange={handleChange}
+                    aria-label={t('contact.form.phone.placeholder')}
                     placeholder={t('contact.form.phone.placeholder')}
                     required
                     className="w-full px-6 py-4 bg-rolls-navy/50 border border-rolls-gold/20 rounded-sm text-white placeholder-gray-400 focus:border-rolls-gold focus:outline-none transition-colors"
@@ -109,6 +112,7 @@ export default function Contact() {
                     name="car"
                     value={formData.car}
                     onChange={handleChange}
+                    aria-label={t('contact.form.car')}
                     required
                     className="w-full px-6 py-4 bg-rolls-navy/50 border border-rolls-gold/20 rounded-sm text-white placeholder-gray-400 focus:border-rolls-gold focus:outline-none transition-colors"
                   >
@@ -129,6 +133,7 @@ export default function Contact() {
                     name="date"
                     value={formData.date}
                     onChange={handleChange}
+                    aria-label={t('contact.form.date')}
                     placeholder={t('contact.form.date')}
                     required
                     className="w-full px-6 py-4 bg-rolls-navy/50 border border-rolls-gold/20 rounded-sm text-white placeholder-gray-400 focus:border-rolls-gold focus:outline-none transition-colors"
@@ -140,6 +145,7 @@ export default function Contact() {
                     name="duration"
                     value={formData.duration}
                     onChange={handleChange}
+                    aria-label={t('contact.form.duration')}
                     placeholder={t('contact.form.duration')}
                     required
                     className="w-full px-6 py-4 bg-rolls-navy/50 border border-rolls-gold/20 rounded-sm text-white placeholder-gray-400 focus:border-rolls-gold focus:outline-none transition-colors"
@@ -152,6 +158,7 @@ export default function Contact() {
                   name="message"
                   value={formData.message}
                   onChange={handleChange}
+                  aria-label={t('contact.form.message.placeholder')}
                   placeholder={t('contact.form.message.placeholder')}
                   rows={4}
                   className="w-full px-6 py-4 bg-rolls-navy/50 border border-rolls-gold/20 rounded-sm text-white placeholder-gray-400 focus:border-rolls-gold focus:outline-none transition-colors resize-none"

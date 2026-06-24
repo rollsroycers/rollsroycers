@@ -19,7 +19,7 @@ export default function WhatsAppButton() {
 
   return (
     <div
-      className={`fixed bottom-6 right-6 z-50 transition-all duration-300 ${
+      className={`fixed bottom-20 right-4 lg:bottom-6 lg:right-6 z-50 transition-all duration-300 ${
         isVisible ? 'scale-100 opacity-100' : 'scale-0 opacity-0'
       }`}
     >

@@ -437,7 +437,7 @@ export default function PhantomPage() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 1 }}
             >
-              <h1 className="text-5xl md:text-7xl font-bold text-white mb-6">
+              <h1 className="text-4xl sm:text-5xl md:text-7xl font-bold text-white mb-6">
                 {t('fleet.phantom.name')}
               </h1>
               <p className="text-2xl text-rolls-gold mb-4">
@@ -459,7 +459,7 @@ export default function PhantomPage() {
                   {t('nav.fleet')}
                 </Link>
               </div>
-              <div className="mt-6 flex justify-center gap-4 text-sm text-gray-400">
+              <div className="mt-6 flex flex-wrap justify-center gap-x-4 gap-y-2 text-sm text-gray-400">
                 <span>✓ {t('phantomPage.instantBooking')}</span>
                 <span>✓ {t('phantomPage.freeCancellation')}</span>
                 <span>✓ {t('phantomPage.bestPriceGuarantee')}</span>

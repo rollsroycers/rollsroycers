@@ -74,7 +74,7 @@ export default function WeddingServicePage() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 1 }}
             >
-              <h1 className="text-5xl md:text-7xl font-bold text-white mb-6">
+              <h1 className="text-4xl sm:text-5xl md:text-7xl font-bold text-white mb-6">
                 {t('servicesPages.wedding.hero.title')}
               </h1>
               <p className="text-2xl text-rolls-gold mb-8">

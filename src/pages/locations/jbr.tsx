@@ -179,7 +179,7 @@ export default function JBRPage() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 1 }}
             >
-              <h1 className="text-5xl md:text-7xl font-bold text-white mb-6">
+              <h1 className="text-4xl sm:text-5xl md:text-7xl font-bold text-white mb-6">
                 {t('locations.jbr.hero.title')}
               </h1>
               <p className="text-2xl text-rolls-gold mb-8">
@@ -353,7 +353,7 @@ export default function JBRPage() {
             </h2>
             <div className="max-w-4xl mx-auto">
               <div className="bg-rolls-black/50 backdrop-blur-sm border border-rolls-gold/20 rounded-lg overflow-hidden">
-                <div className="grid grid-cols-3 gap-4 p-4 bg-rolls-gold/10 font-semibold text-white">
+                <div className="grid grid-cols-3 gap-2 sm:gap-4 p-3 sm:p-4 bg-rolls-gold/10 font-semibold text-white text-xs sm:text-base">
                   <div>{t('locations.jbr.dining.headers.restaurant')}</div>
                   <div>{t('locations.jbr.dining.headers.cuisine')}</div>
                   <div>{t('locations.jbr.dining.headers.location')}</div>
@@ -364,7 +364,7 @@ export default function JBRPage() {
                     initial={{ opacity: 0, x: -20 }}
                     whileInView={{ opacity: 1, x: 0 }}
                     transition={{ delay: index * 0.05 }}
-                    className="grid grid-cols-3 gap-4 p-4 border-t border-rolls-gold/10"
+                    className="grid grid-cols-3 gap-2 sm:gap-4 p-3 sm:p-4 border-t border-rolls-gold/10 text-xs sm:text-base"
                   >
                     <div className="text-gray-300">{restaurant.name}</div>
                     <div className="text-rolls-gold">{restaurant.cuisine}</div>

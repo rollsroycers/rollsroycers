@@ -29,6 +29,9 @@ const notoSansArabic = Noto_Sans_Arabic({
   weight: ['300', '400', '500', '600', '700'],
   display: 'swap',
   variable: '--font-arabic',
+  // Don't <link rel=preload> the ~166KB Arabic font on every page — en/ru never render
+  // Arabic glyphs. It still loads on demand (with swap fallback) on /ar pages.
+  preload: false,
 })
 
 // i18n config passed explicitly — required for Cloudflare Workers where
