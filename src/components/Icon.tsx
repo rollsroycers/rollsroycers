@@ -21,6 +21,17 @@ const ICONS: Record<string, string> = {
   film: '🎬',
   awards: '🏆',
   party: '🎉',
+
+  // "Best for" use-cases (these were missing -> rendered as a red ❓ in the compare cards)
+  photography: '📸',
+  family: '👪',
+  leisure: '🍹',
+  tourism: '🧳',
+  shopping: '🛍️',
+  dining: '🍽️',
+  golf: '⛳',
+  nightlife: '🌃',
+  vip: '👑',
   
   // Vehicle Features
   phantom: '👑',
@@ -72,7 +83,7 @@ const SIZES = {
 }
 
 export default function Icon({ name, className = '', size = 'md' }: IconProps) {
-  const icon = ICONS[name] || '❓'
+  const icon = ICONS[name] || '✨'
   const sizeClass = SIZES[size]
   
   return (

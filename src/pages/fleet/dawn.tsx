@@ -53,6 +53,8 @@ export default function DawnPage() {
   const rentalPackages: RentalPackage[] = Object.values(t('fleet.dawn.rentalPackages', { returnObjects: true }));
 
   const keyFeatures = Object.values(t('fleet.dawn.keyFeatures', { returnObjects: true }));
+  // Emoji per key feature (the circles were empty placeholders before).
+  const featureIcons = ['🌡️', '🎭', '🎵', '💨', '🌦️', '⏱️', '✨', '☀️']
 
   const routes = Object.values(t('fleet.dawn.routes', { returnObjects: true }));
   const tourSpots = t('virtualTourSpots', { returnObjects: true }) as Record<string, any[]>;
@@ -206,8 +208,8 @@ export default function DawnPage() {
                   transition={{ delay: index * 0.1 }}
                   className="text-center"
                 >
-                  <div className="w-20 h-20 mx-auto mb-4 bg-rolls-gold/10 rounded-full flex items-center justify-center">
-                    {/* You can add icons here if you have them in your translation file */}
+                  <div className="w-20 h-20 mx-auto mb-4 bg-rolls-gold/10 rounded-full flex items-center justify-center text-4xl" aria-hidden="true">
+                    {featureIcons[index % featureIcons.length]}
                   </div>
                   <h3 className="text-xl font-semibold text-white mb-2">{feature.title}</h3>
                   <p className="text-gray-400">{feature.description}</p>

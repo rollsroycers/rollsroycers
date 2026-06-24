@@ -47,6 +47,7 @@ export default function CullinanPage() {
     .map(([, value]) => value as RentalPackage);
 
   const keyFeatures = Object.values(t('fleet.cullinan.keyFeatures', { returnObjects: true }));
+  const featureIcons = ['👑', '🏔️', '🛋️', '🔊', '🛡️', '💎', '✨', '⚙️']
 
   const tourSpots = {
     cullinan: [
@@ -217,8 +218,8 @@ export default function CullinanPage() {
                   transition={{ delay: index * 0.1 }}
                   className="text-center"
                 >
-                  <div className="w-20 h-20 mx-auto mb-4 bg-rolls-gold/10 rounded-full flex items-center justify-center">
-                    {/* You can add icons here if you have them in your translation file */}
+                  <div className="w-20 h-20 mx-auto mb-4 bg-rolls-gold/10 rounded-full flex items-center justify-center text-4xl" aria-hidden="true">
+                    {featureIcons[index % featureIcons.length]}
                   </div>
                   <h3 className="text-xl font-semibold text-white mb-2">{t(feature.title)}</h3>
                   <p className="text-gray-400">{t(feature.description)}</p>
