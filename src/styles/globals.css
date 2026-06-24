@@ -5,6 +5,9 @@
 @layer base {
   html {
     scroll-behavior: smooth;
+    /* Stop the viewport from scrolling horizontally on the few px of overflow from
+       full-bleed fixed elements (navbar/bottom-nav/cookie). `clip` is sticky-safe. */
+    overflow-x: clip;
   }
 
   body {
