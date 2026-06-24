@@ -55,7 +55,7 @@ export default function Hero() {
   ]
 
   return (
-    <section id="home" className="relative min-h-mobile overflow-hidden pt-20">
+    <section id="home" className="relative min-h-mobile overflow-hidden pt-20 flex flex-col">
       {/* Background Slideshow */}
       <div className="absolute inset-0">
         {heroImages.map((image, index) => {
@@ -86,7 +86,7 @@ export default function Hero() {
       </div>
 
       {/* Content */}
-      <div className="relative z-10 h-full flex items-center py-8 sm:py-16 lg:py-20">
+      <div className="relative z-10 flex-grow flex flex-col justify-center py-8 sm:py-12 pb-16">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
@@ -142,28 +142,28 @@ export default function Hero() {
             </motion.div>
           </motion.div>
 
-          {/* Stats — CSS animated on intersection */}
-          <div 
+          {/* Stats — in NORMAL FLOW below the hero copy. Previously absolute bottom-x,
+              which overlapped the description/CTA when the hero text was tall (the
+              reported overlap, on both Arabic and English). */}
+          <div
             ref={statsRef}
-            className={`absolute bottom-5 sm:bottom-10 left-0 right-0 transition-all duration-700 ${statsVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}
+            className={`mt-10 sm:mt-14 max-w-4xl transition-all duration-700 ${statsVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}
           >
-            <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-              <div className="grid grid-cols-2 md:grid-cols-4 gap-4 sm:gap-8">
-                {stats.map((stat, index) => (
-                  <div
-                    key={stat.label}
-                    className={`text-center transition-all duration-500 ${statsVisible ? 'opacity-100 scale-100' : 'opacity-0 scale-90'}`}
-                    style={{ transitionDelay: statsVisible ? `${index * 100}ms` : '0ms' }}
-                  >
-                    <div className="text-2xl sm:text-3xl lg:text-4xl font-bold text-rolls-gold mb-1 sm:mb-2">
-                      {stat.value}
-                    </div>
-                    <div className="text-xs sm:text-sm text-gray-400 uppercase tracking-wider">
-                      {stat.label}
-                    </div>
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-4 sm:gap-8">
+              {stats.map((stat, index) => (
+                <div
+                  key={stat.label}
+                  className={`text-center transition-all duration-500 ${statsVisible ? 'opacity-100 scale-100' : 'opacity-0 scale-90'}`}
+                  style={{ transitionDelay: statsVisible ? `${index * 100}ms` : '0ms' }}
+                >
+                  <div className="text-2xl sm:text-3xl lg:text-4xl font-bold text-rolls-gold mb-1 sm:mb-2">
+                    {stat.value}
                   </div>
-                ))}
-              </div>
+                  <div className="text-xs sm:text-sm text-gray-400 uppercase tracking-wider">
+                    {stat.label}
+                  </div>
+                </div>
+              ))}
             </div>
           </div>
         </div>
