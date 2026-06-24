@@ -31,6 +31,27 @@ const BASE = (getArg('base', 'https://rollsroycers.com')).replace(/\/$/, '')
 const MAX_RETRIES = parseInt(getArg('retries', '4'), 10)
 const CONCURRENCY = parseInt(getArg('concurrency', '4'), 10)
 
+// Locales: en is the default (no URL prefix), ar/ru are path-prefixed. The sitemap
+// lists ONLY the en-default URLs, but /ar/* and /ru/* are separately rendered pages
+// that ALSO go cold after a deploy. If we warm only en, an Arabic/Russian visitor (or
+// the in-app prefetch of their links) hits cold renders → 503s. So we expand every
+// en path into all three locale variants.
+const PREFIX_LOCALES = ['ar', 'ru']
+function expandLocales(urls) {
+  const out = new Set()
+  for (const u of urls) {
+    let path
+    try { path = new URL(u).pathname } catch { continue }
+    // skip anything already locale-prefixed (defensive — sitemap shouldn't have these)
+    if (/^\/(ar|ru)(\/|$)/.test(path)) { out.add(`${BASE}${path}`); continue }
+    out.add(`${BASE}${path}`) // en default
+    for (const loc of PREFIX_LOCALES) {
+      out.add(`${BASE}/${loc}${path === '/' ? '' : path}`)
+    }
+  }
+  return [...out]
+}
+
 // Source of truth = the sitemap we just generated, so warming always matches what we ship.
 function loadUrls() {
   const candidates = ['public/sitemap-pages.xml', 'public/sitemap.xml']
@@ -38,12 +59,12 @@ function loadUrls() {
     try {
       const xml = readFileSync(join(ROOT, rel), 'utf8')
       const locs = [...xml.matchAll(/<loc>([^<]+)<\/loc>/g)].map(m => m[1].trim())
-      if (locs.length) return [...new Set(locs)]
+      if (locs.length) return expandLocales([...new Set(locs)])
     } catch (_) { /* try next */ }
   }
   // Fallback: a minimal hot set if no sitemap is present.
-  const paths = ['/', '/ar', '/ru', '/fleet', '/services', '/booking', '/pricing']
-  return paths.map(p => `${BASE}${p}`)
+  const paths = ['/', '/fleet', '/services', '/booking', '/pricing']
+  return expandLocales(paths.map(p => `${BASE}${p}`))
 }
 
 const sleep = (ms) => new Promise(r => setTimeout(r, ms))

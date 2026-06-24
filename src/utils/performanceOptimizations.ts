@@ -24,26 +24,14 @@ const reduceLayoutShifts = () => {
   });
 };
 
-// Prefetch visible links for faster navigation
-const prefetchVisibleLinks = () => {
-  const links = document.querySelectorAll('a[href^="/"]');
-  const observer = new IntersectionObserver((entries) => {
-    entries.forEach(entry => {
-      if (entry.isIntersecting) {
-        const link = entry.target as HTMLAnchorElement;
-        const prefetchLink = document.createElement('link');
-        prefetchLink.rel = 'prefetch';
-        prefetchLink.href = link.href;
-        document.head.appendChild(prefetchLink);
-        observer.unobserve(link);
-      }
-    });
-  }, {
-    rootMargin: '0px 0px 200px 0px'
-  });
-
-  links.forEach(link => observer.observe(link));
-};
+// NOTE: a custom `prefetchVisibleLinks` used to live here. It injected
+// <link rel="prefetch" href="..."> for EVERY in-viewport internal link, pointing at
+// the FULL HTML page. Because the footer links to every page on the site, scrolling it
+// into view fired 30+ concurrent full-document GETs at once — a thundering herd that
+// hammered cold Cloudflare Worker renders (especially /ar/* and /ru/* right after a
+// deploy) and produced cascades of 503s. It was also redundant: Next.js <Link> already
+// prefetches navigations (data JSON only, throttled, queued). Removed deliberately —
+// do not reintroduce blanket rel=prefetch of full pages. Rely on Next <Link> prefetch.
 
 // Main initialization function
 export const initializePerformanceOptimizations = () => {
@@ -52,13 +40,6 @@ export const initializePerformanceOptimizations = () => {
   // Run lightweight optimizations
   optimizeCSSDelivery();
   reduceLayoutShifts();
-
-  // Defer link prefetching to idle time
-  if ('requestIdleCallback' in window) {
-    window.requestIdleCallback(prefetchVisibleLinks, { timeout: 5000 });
-  } else {
-    setTimeout(prefetchVisibleLinks, 3000);
-  }
 };
 
 // Export for use in _app.tsx
