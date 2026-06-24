@@ -107,11 +107,19 @@ export default function Navbar() {
             </Link>
 
             {/* Fleet Dropdown */}
-            <div className="relative group">
-              <button 
+            <div
+              className="relative group"
+              onBlur={(e) => { if (!e.currentTarget.contains(e.relatedTarget as Node)) setFleetOpen(false) }}
+              onKeyDown={(e) => { if (e.key === 'Escape') setFleetOpen(false) }}
+            >
+              <button
+                type="button"
                 className="text-white hover:text-rolls-gold transition-colors flex items-center space-x-1"
                 onMouseEnter={() => setFleetOpen(true)}
                 onMouseLeave={() => setFleetOpen(false)}
+                onClick={() => setFleetOpen((v) => !v)}
+                aria-expanded={fleetOpen}
+                aria-haspopup="true"
               >
                 <span>{t('nav.fleet')}</span>
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -145,11 +153,19 @@ export default function Navbar() {
             </div>
 
             {/* Services Dropdown */}
-            <div className="relative group">
-              <button 
+            <div
+              className="relative group"
+              onBlur={(e) => { if (!e.currentTarget.contains(e.relatedTarget as Node)) setServicesOpen(false) }}
+              onKeyDown={(e) => { if (e.key === 'Escape') setServicesOpen(false) }}
+            >
+              <button
+                type="button"
                 className="text-white hover:text-rolls-gold transition-colors flex items-center space-x-1"
                 onMouseEnter={() => setServicesOpen(true)}
                 onMouseLeave={() => setServicesOpen(false)}
+                onClick={() => setServicesOpen((v) => !v)}
+                aria-expanded={servicesOpen}
+                aria-haspopup="true"
               >
                 <span>{t('nav.services')}</span>
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -183,11 +199,19 @@ export default function Navbar() {
             </div>
 
             {/* Locations Dropdown */}
-            <div className="relative group">
-              <button 
+            <div
+              className="relative group"
+              onBlur={(e) => { if (!e.currentTarget.contains(e.relatedTarget as Node)) setLocationsOpen(false) }}
+              onKeyDown={(e) => { if (e.key === 'Escape') setLocationsOpen(false) }}
+            >
+              <button
+                type="button"
                 className="text-white hover:text-rolls-gold transition-colors flex items-center space-x-1"
                 onMouseEnter={() => setLocationsOpen(true)}
                 onMouseLeave={() => setLocationsOpen(false)}
+                onClick={() => setLocationsOpen((v) => !v)}
+                aria-expanded={locationsOpen}
+                aria-haspopup="true"
               >
                 <span>{t('nav.locations')}</span>
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -230,14 +254,14 @@ export default function Navbar() {
 
             {/* More Dropdown */}
             <div className="relative group">
-              <button className="text-white hover:text-rolls-gold transition-colors flex items-center space-x-1">
+              <button type="button" aria-haspopup="true" className="text-white hover:text-rolls-gold transition-colors flex items-center space-x-1">
                 <span>{t('nav.more')}</span>
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
                 </svg>
               </button>
               
-              <div className="absolute top-full right-0 mt-2 w-48 bg-rolls-black/95 backdrop-blur-md rounded-lg shadow-xl overflow-hidden opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all">
+              <div className="absolute top-full right-0 mt-2 w-48 bg-rolls-black/95 backdrop-blur-md rounded-lg shadow-xl overflow-hidden opacity-0 invisible group-hover:opacity-100 group-hover:visible group-focus-within:opacity-100 group-focus-within:visible transition-all">
                 {moreItems.map((item) => (
                   <Link
                     key={item.href}
@@ -261,7 +285,7 @@ export default function Navbar() {
                 <span className="text-sm">{languages.find(lang => lang.code === i18n.language)?.code.toUpperCase()}</span>
               </button>
               
-              <div className="absolute top-full right-0 mt-2 w-40 bg-rolls-black/95 backdrop-blur-md rounded-lg shadow-xl overflow-hidden opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all">
+              <div className="absolute top-full right-0 mt-2 w-40 bg-rolls-black/95 backdrop-blur-md rounded-lg shadow-xl overflow-hidden opacity-0 invisible group-hover:opacity-100 group-hover:visible group-focus-within:opacity-100 group-focus-within:visible transition-all">
                 {languages.map((lang) => (
                   <button
                     key={lang.code}
