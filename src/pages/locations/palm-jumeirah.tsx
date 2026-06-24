@@ -5,6 +5,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { m as motion } from 'framer-motion'
 import Layout from '@/components/Layout'
+import HeroBackgroundVideo from '@/components/HeroBackgroundVideo'
 import WhatsAppButton from '@/components/WhatsAppButton'
 import ComparisonTool from '@/components/ComparisonTool'
 import WeatherRecommendations from '@/components/WeatherRecommendations'
@@ -146,15 +147,11 @@ export default function PalmJumeirahPage() {
         {/* Hero Section */}
         <section className="relative h-screen flex items-center justify-center overflow-hidden">
           <div className="absolute inset-0">
-            <video
-              autoPlay
-              muted
-              loop
-              playsInline
+            <HeroBackgroundVideo
+              src="/images/videos/Luxury_Millionaire_Aesthetic_Lifestyle.mp4"
+              poster="/images/videos/Luxury_Millionaire_Aesthetic_Lifestyle-thumb.jpg"
               className="absolute inset-0 w-full h-full object-cover"
-            >
-              <source src="/images/videos/Luxury_Millionaire_Aesthetic_Lifestyle.mp4" type="video/mp4" />
-            </video>
+            />
             <div className="absolute inset-0 bg-gradient-to-b from-rolls-black/60 via-rolls-black/30 to-rolls-black"></div>
           </div>
           

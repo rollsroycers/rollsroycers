@@ -2,12 +2,7 @@ import { useTranslation } from 'next-i18next'
 import { m as motion } from 'framer-motion'
 import { useInView } from 'react-intersection-observer'
 import Image from 'next/image'
-import { useState } from 'react'
-import { Swiper, SwiperSlide } from 'swiper/react'
-import { Autoplay, Pagination, Navigation } from 'swiper/modules'
-import 'swiper/css'
-import 'swiper/css/pagination'
-import 'swiper/css/navigation'
+import { useState, useRef, useEffect, useCallback } from 'react'
 
 interface Review {
   id: number
@@ -24,6 +19,12 @@ export default function Reviews() {
   const { t } = useTranslation('common')
   const [ref, inView] = useInView({ triggerOnce: true, threshold: 0.1 })
   const [expandedReview, setExpandedReview] = useState<number | null>(null)
+
+  // Native CSS scroll-snap carousel (replaces Swiper — removes ~96KB of JS + its CSS).
+  // scrollIntoView is direction-agnostic, so this works in RTL (ar) without coordinate math.
+  const trackRef = useRef<HTMLDivElement>(null)
+  const [activeIndex, setActiveIndex] = useState(0)
+  const pausedRef = useRef(false)
 
   const reviews: Review[] = [
     {
@@ -128,6 +129,47 @@ export default function Reviews() {
     }
   ]
 
+  const goTo = useCallback((i: number) => {
+    const track = trackRef.current
+    if (!track) return
+    const clamped = (i + reviews.length) % reviews.length
+    const card = track.children[clamped] as HTMLElement | undefined
+    card?.scrollIntoView({ behavior: 'smooth', inline: 'start', block: 'nearest' })
+  }, [reviews.length])
+
+  // Keep the active dot in sync with whatever card is in view (manual swipe OR programmatic).
+  useEffect(() => {
+    const track = trackRef.current
+    if (!track) return
+    const obs = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((e) => {
+          if (e.isIntersecting && e.intersectionRatio >= 0.6) {
+            const idx = Number((e.target as HTMLElement).dataset.idx)
+            if (!Number.isNaN(idx)) setActiveIndex(idx)
+          }
+        })
+      },
+      { root: track, threshold: [0.6] }
+    )
+    Array.from(track.children).forEach((c) => obs.observe(c))
+    return () => obs.disconnect()
+  }, [])
+
+  // Autoplay every 5s; pauses on hover/touch and respects prefers-reduced-motion.
+  useEffect(() => {
+    if (typeof window !== 'undefined' && window.matchMedia('(prefers-reduced-motion: reduce)').matches) return
+    const id = setInterval(() => {
+      if (pausedRef.current) return
+      const track = trackRef.current
+      if (!track) return
+      const next = (activeIndex + 1) % reviews.length
+      const card = track.children[next] as HTMLElement | undefined
+      card?.scrollIntoView({ behavior: 'smooth', inline: 'start', block: 'nearest' })
+    }, 5000)
+    return () => clearInterval(id)
+  }, [activeIndex, reviews.length])
+
   const renderStars = (rating: number) => {
     return Array.from({ length: 5 }, (_, i) => (
       <svg
@@ -159,32 +201,25 @@ export default function Reviews() {
           initial={{ opacity: 0 }}
           animate={inView ? { opacity: 1 } : {}}
           transition={{ duration: 0.8, delay: 0.2 }}
+          className="relative"
+          onMouseEnter={() => { pausedRef.current = true }}
+          onMouseLeave={() => { pausedRef.current = false }}
+          onTouchStart={() => { pausedRef.current = true }}
         >
-          <Swiper
-            spaceBetween={30}
-            slidesPerView={1}
-            breakpoints={{
-              640: { slidesPerView: 1 },
-              768: { slidesPerView: 2 },
-              1024: { slidesPerView: 3 },
-            }}
-            autoplay={{
-              delay: 5000,
-              disableOnInteraction: false,
-            }}
-            pagination={{
-              clickable: true,
-              bulletActiveClass: 'swiper-pagination-bullet-active',
-            }}
-            navigation={true}
-            modules={[Autoplay, Pagination, Navigation]}
-            className="reviews-swiper"
+          {/* Scroll track */}
+          <div
+            ref={trackRef}
+            className="reviews-track flex gap-6 overflow-x-auto snap-x snap-mandatory pb-4 -mx-4 px-4"
           >
-            {reviews.map((review) => (
-              <SwiperSlide key={review.id}>
+            {reviews.map((review, i) => (
+              <div
+                key={review.id}
+                data-idx={i}
+                className="snap-start shrink-0 w-[88%] sm:w-[47%] lg:w-[31%]"
+              >
                 <div className="bg-rolls-black/50 rounded-lg p-6 glass-effect h-full flex flex-col">
                   {/* Header */}
-                  <div className="flex items-start space-x-4 mb-4">
+                  <div className="flex items-start gap-4 mb-4">
                     <div className="relative w-16 h-16 rounded-full overflow-hidden flex-shrink-0">
                       <Image
                         src={review.image}
@@ -194,10 +229,10 @@ export default function Reviews() {
                         className="object-cover"
                       />
                     </div>
-                    <div className="flex-grow">
+                    <div className="flex-grow min-w-0">
                       <h3 className="text-lg font-semibold text-white">{review.name}</h3>
                       <p className="text-sm text-gray-400">{review.nationality}</p>
-                      <div className="flex items-center space-x-2 mt-1">
+                      <div className="flex items-center gap-2 mt-1">
                         <div className="flex">{renderStars(review.rating)}</div>
                         <span className="text-xs text-gray-500">{review.date}</span>
                       </div>
@@ -205,8 +240,8 @@ export default function Reviews() {
                   </div>
 
                   {/* Car Badge */}
-                  <div className="inline-flex items-center bg-rolls-gold/20 text-rolls-gold px-3 py-1 rounded-full text-sm mb-4">
-                    <svg className="w-4 h-4 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <div className="inline-flex items-center bg-rolls-gold/20 text-rolls-gold px-3 py-1 rounded-full text-sm mb-4 self-start">
+                    <svg className="w-4 h-4 me-1 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
                     </svg>
                     {review.car}
@@ -230,16 +265,47 @@ export default function Reviews() {
                   {/* Verified Badge */}
                   <div className="flex items-center justify-between mt-4 pt-4 border-t border-rolls-gold/20">
                     <span className="text-xs text-gray-500 flex items-center">
-                      <svg className="w-4 h-4 text-green-500 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <svg className="w-4 h-4 text-green-500 me-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                       </svg>
                       {t('reviews.verified')}
                     </span>
                   </div>
                 </div>
-              </SwiperSlide>
+              </div>
             ))}
-          </Swiper>
+          </div>
+
+          {/* Prev / Next controls (hidden on touch where native swipe is primary) */}
+          <button
+            type="button"
+            onClick={() => goTo(activeIndex - 1)}
+            aria-label="Previous"
+            className="hidden md:flex absolute top-1/2 -translate-y-1/2 start-0 -ms-2 w-10 h-10 items-center justify-center rounded-full bg-rolls-black/70 text-rolls-gold hover:bg-rolls-black border border-rolls-gold/30 transition-colors z-10"
+          >
+            <svg className="w-5 h-5 rtl:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" /></svg>
+          </button>
+          <button
+            type="button"
+            onClick={() => goTo(activeIndex + 1)}
+            aria-label="Next"
+            className="hidden md:flex absolute top-1/2 -translate-y-1/2 end-0 -me-2 w-10 h-10 items-center justify-center rounded-full bg-rolls-black/70 text-rolls-gold hover:bg-rolls-black border border-rolls-gold/30 transition-colors z-10"
+          >
+            <svg className="w-5 h-5 rtl:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" /></svg>
+          </button>
+
+          {/* Pagination dots */}
+          <div className="flex justify-center gap-2 mt-6">
+            {reviews.map((_, i) => (
+              <button
+                key={i}
+                type="button"
+                onClick={() => goTo(i)}
+                aria-label={`Go to review ${i + 1}`}
+                className={`h-2.5 rounded-full transition-all ${i === activeIndex ? 'w-7 bg-rolls-gold' : 'w-2.5 bg-rolls-gold/30 hover:bg-rolls-gold/60'}`}
+              />
+            ))}
+          </div>
         </motion.div>
 
         {/* Overall Rating */}
@@ -250,11 +316,11 @@ export default function Reviews() {
           className="text-center mt-16"
         >
           <div className="inline-flex items-center bg-rolls-black/50 glass-effect px-8 py-4 rounded-lg">
-            <div className="text-center mr-8">
+            <div className="text-center me-8">
               <div className="text-4xl font-bold text-rolls-gold">5.0</div>
               <div className="flex mt-2">{renderStars(5)}</div>
             </div>
-            <div className="text-left">
+            <div className="text-start">
               <div className="text-2xl font-semibold text-white">{t('common.excellent')}</div>
               <div className="text-sm text-gray-400">{t('common.basedOnReviews', { count: reviews.length })}</div>
             </div>
@@ -262,31 +328,15 @@ export default function Reviews() {
         </motion.div>
       </div>
 
-      {/* Custom Swiper Styles */}
+      {/* Carousel styles: hide scrollbar (controls + native swipe drive it), keep line clamp */}
       <style jsx global>{`
-        .reviews-swiper {
-          padding-bottom: 50px;
+        .reviews-track {
+          scrollbar-width: none;
+          -ms-overflow-style: none;
+          scroll-padding-left: 1rem;
         }
-        .reviews-swiper .swiper-pagination-bullet {
-          background: rgba(196, 165, 112, 0.3);
-          width: 10px;
-          height: 10px;
-          opacity: 1;
-        }
-        .reviews-swiper .swiper-pagination-bullet-active {
-          background: #C4A570;
-          width: 30px;
-          border-radius: 5px;
-        }
-        .reviews-swiper .swiper-button-next,
-        .reviews-swiper .swiper-button-prev {
-          color: #C4A570;
-          width: 40px;
-          height: 40px;
-        }
-        .reviews-swiper .swiper-button-next:after,
-        .reviews-swiper .swiper-button-prev:after {
-          font-size: 20px;
+        .reviews-track::-webkit-scrollbar {
+          display: none;
         }
         .line-clamp-4 {
           display: -webkit-box;

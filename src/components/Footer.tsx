@@ -345,11 +345,10 @@ export default function Footer() {
           
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <p className="text-sm text-gray-400 text-center md:text-left">
-              {/* suppressHydrationWarning: the year is computed at RENDER time, so the
-                  build-time prerendered value can differ from the client's value across a
-                  year boundary (or when stale HTML is served from the edge cache after New
-                  Year). This guards against a React #418 text mismatch on that node. */}
-              © <span suppressHydrationWarning>{new Date().getFullYear()}</span> Rolls-Royce Dubai. {t('footer.rights')}
+              {/* Year is a build-time constant (next.config.js env.NEXT_PUBLIC_BUILD_YEAR),
+                  inlined identically into the prerendered HTML and the client bundle — so
+                  server and client text always match (no render-time new Date(), no #418). */}
+              © {process.env.NEXT_PUBLIC_BUILD_YEAR} Rolls-Royce Dubai. {t('footer.rights')}
             </p>
             <div className="flex space-x-6">
               <Link href="/privacy" className="text-sm text-gray-400 hover:text-rolls-gold transition-colors">

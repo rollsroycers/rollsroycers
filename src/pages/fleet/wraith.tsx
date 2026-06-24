@@ -6,6 +6,7 @@ import Link from 'next/link'
 import { m as motion } from 'framer-motion'
 import { useState } from 'react'
 import Layout from '@/components/Layout'
+import HeroBackgroundVideo from '@/components/HeroBackgroundVideo'
 import PriceCalculator from '@/components/PriceCalculator'
 import ComparisonTool from '@/components/ComparisonTool'
 import VirtualTour from '@/components/VirtualTour'
@@ -160,15 +161,11 @@ export default function WraithPage() {
         {/* Hero Section */}
         <section className="relative h-screen flex items-center justify-center overflow-hidden">
           <div className="absolute inset-0">
-            <video
-              autoPlay
-              muted
-              loop
-              playsInline
+            <HeroBackgroundVideo
+              src="/images/videos/Rolls-royce-phantom.mp4"
+              poster="/images/videos/Rolls-royce-phantom-thumb.jpg"
               className="absolute inset-0 w-full h-full object-cover"
-            >
-              <source src="/images/videos/Rolls-royce-phantom.mp4" type="video/mp4" />
-            </video>
+            />
             <div className="absolute inset-0 bg-gradient-to-b from-rolls-black/60 via-rolls-black/30 to-rolls-black"></div>
           </div>
           

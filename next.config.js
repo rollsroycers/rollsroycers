@@ -3,7 +3,15 @@ const i18n = require('./next-i18next.config.js').i18n
 
 const nextConfig = {
   reactStrictMode: true, // Re-enabled with React 18
-  
+
+  // Build-time constant inlined into BOTH the server prerender and the client bundle
+  // (identical literal on both sides). Used for the footer copyright year so it can
+  // never differ between prerendered HTML and client hydration → no React #418 across
+  // a year boundary. Evaluated once on the build machine when next.config.js loads.
+  env: {
+    NEXT_PUBLIC_BUILD_YEAR: String(new Date().getFullYear()),
+  },
+
   // Use the same i18n configuration
   i18n,
   
