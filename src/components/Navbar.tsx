@@ -85,9 +85,9 @@ export default function Navbar() {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
-          <Link href="/" className="flex items-center space-x-3">
+          <Link href="/" className="flex items-center gap-3">
             <Image
-              src="/images/logo.jpg"
+              src="/images/logo-square.jpg"
               alt="Rolls-Royce Dubai"
               width={40}
               height={40}
@@ -101,7 +101,7 @@ export default function Navbar() {
           </Link>
 
           {/* Desktop Menu */}
-          <div className="hidden lg:flex items-center space-x-8">
+          <div className="hidden lg:flex items-center gap-8">
             <Link href="/" className="text-white hover:text-rolls-gold transition-colors">
               {t('nav.home')}
             </Link>
@@ -114,7 +114,7 @@ export default function Navbar() {
             >
               <button
                 type="button"
-                className="text-white hover:text-rolls-gold transition-colors flex items-center space-x-1"
+                className="text-white hover:text-rolls-gold transition-colors flex items-center gap-1"
                 onMouseEnter={() => setFleetOpen(true)}
                 onMouseLeave={() => setFleetOpen(false)}
                 onClick={() => setFleetOpen((v) => !v)}
@@ -141,7 +141,7 @@ export default function Navbar() {
                       <Link
                         key={item.href}
                         href={item.href}
-                        className="flex items-center space-x-3 px-4 py-3 text-white hover:bg-rolls-gold/20 hover:text-rolls-gold transition-all"
+                        className="flex items-center gap-3 px-4 py-3 text-white hover:bg-rolls-gold/20 hover:text-rolls-gold transition-all"
                       >
                         <span className="text-xl" role="img" aria-hidden="true">{item.icon}</span>
                         <span>{item.label}</span>
@@ -160,7 +160,7 @@ export default function Navbar() {
             >
               <button
                 type="button"
-                className="text-white hover:text-rolls-gold transition-colors flex items-center space-x-1"
+                className="text-white hover:text-rolls-gold transition-colors flex items-center gap-1"
                 onMouseEnter={() => setServicesOpen(true)}
                 onMouseLeave={() => setServicesOpen(false)}
                 onClick={() => setServicesOpen((v) => !v)}
@@ -187,7 +187,7 @@ export default function Navbar() {
                       <Link
                         key={item.href}
                         href={item.href}
-                        className="flex items-center space-x-3 px-4 py-3 text-white hover:bg-rolls-gold/20 hover:text-rolls-gold transition-all"
+                        className="flex items-center gap-3 px-4 py-3 text-white hover:bg-rolls-gold/20 hover:text-rolls-gold transition-all"
                       >
                         <span className="text-xl" role="img" aria-hidden="true">{item.icon}</span>
                         <span>{item.label}</span>
@@ -206,7 +206,7 @@ export default function Navbar() {
             >
               <button
                 type="button"
-                className="text-white hover:text-rolls-gold transition-colors flex items-center space-x-1"
+                className="text-white hover:text-rolls-gold transition-colors flex items-center gap-1"
                 onMouseEnter={() => setLocationsOpen(true)}
                 onMouseLeave={() => setLocationsOpen(false)}
                 onClick={() => setLocationsOpen((v) => !v)}
@@ -233,7 +233,7 @@ export default function Navbar() {
                       <Link
                         key={item.href}
                         href={item.href}
-                        className="flex items-center space-x-3 px-4 py-3 text-white hover:bg-rolls-gold/20 hover:text-rolls-gold transition-all"
+                        className="flex items-center gap-3 px-4 py-3 text-white hover:bg-rolls-gold/20 hover:text-rolls-gold transition-all"
                       >
                         <span className="text-xl" role="img" aria-hidden="true">{item.icon}</span>
                         <span>{item.label}</span>
@@ -254,7 +254,7 @@ export default function Navbar() {
 
             {/* More Dropdown */}
             <div className="relative group">
-              <button type="button" aria-haspopup="true" className="text-white hover:text-rolls-gold transition-colors flex items-center space-x-1">
+              <button type="button" aria-haspopup="true" className="text-white hover:text-rolls-gold transition-colors flex items-center gap-1">
                 <span>{t('nav.more')}</span>
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
@@ -266,7 +266,7 @@ export default function Navbar() {
                   <Link
                     key={item.href}
                     href={item.href}
-                    className="flex items-center space-x-3 px-4 py-3 text-white hover:bg-rolls-gold/20 hover:text-rolls-gold transition-all"
+                    className="flex items-center gap-3 px-4 py-3 text-white hover:bg-rolls-gold/20 hover:text-rolls-gold transition-all"
                   >
                     <span className="text-xl" role="img" aria-hidden="true">{item.icon}</span>
                     <span>{item.label}</span>
@@ -277,10 +277,10 @@ export default function Navbar() {
           </div>
 
           {/* Right Side - Language & CTA */}
-          <div className="hidden lg:flex items-center space-x-4">
+          <div className="hidden lg:flex items-center gap-4">
             {/* Language Selector */}
             <div className="relative group">
-              <button aria-label="Select language" aria-haspopup="true" className="flex items-center space-x-2 text-white hover:text-rolls-gold transition-colors">
+              <button aria-label="Select language" aria-haspopup="true" className="flex items-center gap-2 text-white hover:text-rolls-gold transition-colors">
                 <span className="text-xl" aria-hidden="true">{languages.find(lang => lang.code === i18n.language)?.flag}</span>
                 <span className="text-sm">{languages.find(lang => lang.code === i18n.language)?.code.toUpperCase()}</span>
               </button>
@@ -290,7 +290,7 @@ export default function Navbar() {
                   <button
                     key={lang.code}
                     onClick={() => handleLanguageChange(lang.code)}
-                    className={`flex items-center space-x-3 px-4 py-3 text-white hover:bg-rolls-gold/20 hover:text-rolls-gold transition-all w-full text-left ${
+                    className={`flex items-center gap-3 px-4 py-3 text-white hover:bg-rolls-gold/20 hover:text-rolls-gold transition-all w-full text-left ${
                       i18n.language === lang.code ? 'bg-rolls-gold/10' : ''
                     }`}
                   >
@@ -304,7 +304,7 @@ export default function Navbar() {
             {/* CTA Button */}
             <Link
               href="/booking"
-              className="bg-rolls-gold text-rolls-black px-6 py-2 rounded-full font-semibold hover:bg-white transition-all flex items-center space-x-2"
+              className="bg-rolls-gold text-rolls-black px-6 py-2 rounded-full font-semibold hover:bg-white transition-all flex items-center gap-2"
             >
               <span>📅</span>
               <span>{t('nav.book')}</span>
@@ -382,7 +382,7 @@ export default function Navbar() {
                           <Link
                             key={item.href}
                             href={item.href}
-                            className="flex items-center space-x-3 px-4 py-3 text-gray-300 hover:text-rolls-gold rounded-md transition-all touch-action-manipulation min-h-[44px]"
+                            className="flex items-center gap-3 px-4 py-3 text-gray-300 hover:text-rolls-gold rounded-md transition-all touch-action-manipulation min-h-[44px]"
                             onClick={() => setIsOpen(false)}
                           >
                             <span role="img" aria-hidden="true">{item.icon}</span>
@@ -423,7 +423,7 @@ export default function Navbar() {
                           <Link
                             key={item.href}
                             href={item.href}
-                            className="flex items-center space-x-2 px-3 py-2 text-gray-300 hover:text-rolls-gold rounded-md transition-all"
+                            className="flex items-center gap-2 px-3 py-2 text-gray-300 hover:text-rolls-gold rounded-md transition-all"
                             onClick={() => setIsOpen(false)}
                           >
                             <span role="img" aria-hidden="true">{item.icon}</span>
@@ -464,7 +464,7 @@ export default function Navbar() {
                           <Link
                             key={item.href}
                             href={item.href}
-                            className="flex items-center space-x-2 px-3 py-2 text-gray-300 hover:text-rolls-gold rounded-md transition-all"
+                            className="flex items-center gap-2 px-3 py-2 text-gray-300 hover:text-rolls-gold rounded-md transition-all"
                             onClick={() => setIsOpen(false)}
                           >
                             <span role="img" aria-hidden="true">{item.icon}</span>
@@ -498,7 +498,7 @@ export default function Navbar() {
                     <Link
                       key={item.href}
                       href={item.href}
-                      className="flex items-center space-x-2 px-3 py-2 text-white hover:bg-rolls-gold/20 hover:text-rolls-gold rounded-md transition-all"
+                      className="flex items-center gap-2 px-3 py-2 text-white hover:bg-rolls-gold/20 hover:text-rolls-gold rounded-md transition-all"
                       onClick={() => setIsOpen(false)}
                     >
                       <span role="img" aria-hidden="true">{item.icon}</span>
@@ -518,7 +518,7 @@ export default function Navbar() {
                           handleLanguageChange(lang.code)
                           setIsOpen(false)
                         }}
-                        className={`flex items-center justify-center space-x-2 py-2 rounded-md transition-all ${
+                        className={`flex items-center justify-center gap-2 py-2 rounded-md transition-all ${
                           i18n.language === lang.code
                             ? 'bg-rolls-gold text-rolls-black'
                             : 'bg-rolls-gold/10 text-white hover:bg-rolls-gold/20'

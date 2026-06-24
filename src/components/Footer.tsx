@@ -130,7 +130,7 @@ export default function Footer() {
           <div className="lg:col-span-1">
             <Link href="/" className="flex items-center space-x-3 mb-4">
               <Image
-                src="/images/logo.jpg"
+                src="/images/logo-square.jpg"
                 alt="Rolls-Royce Dubai"
                 width={60}
                 height={60}

@@ -8,6 +8,26 @@ interface BreadcrumbItem {
   href: string
 }
 
+// Leaf URL segment → existing translation key (the SAME keys the Navbar uses, which
+// resolve on every page). Lets the breadcrumb show localized car/service/location names
+// (e.g. /ar/services/events → "الفعاليات" instead of "Events") instead of the raw slug.
+const LEAF_KEYS: Record<string, string> = {
+  // fleet models
+  'phantom': 'fleet.phantom.name', 'ghost': 'fleet.ghost.name', 'cullinan': 'fleet.cullinan.name',
+  'dawn': 'fleet.dawn.name', 'wraith': 'fleet.wraith.name', 'spectre': 'fleet.spectre.name',
+  'cullinan-black-badge': 'fleet.cullinanBlackBadge.name', 'ghost-black-badge': 'fleet.ghostBlackBadge.name',
+  // services
+  'wedding': 'services.wedding.title', 'corporate': 'services.corporate.title',
+  'airport-transfer': 'services.airport.title', 'chauffeur': 'services.chauffeur.title',
+  'events': 'services.events.title', 'photoshoot': 'services.photoshoot.title',
+  'tours': 'services.tours.title', 'birthday': 'services.birthday.title', 'hourly-rental': 'services.hourly.title',
+  // locations
+  'downtown-dubai': 'locations.downtownDubai.nav', 'dubai-marina': 'locations.dubaiMarina.nav',
+  'palm-jumeirah': 'locations.palmJumeirah.nav', 'business-bay': 'locations.businessBay.nav',
+  'jbr': 'locations.jbr.nav', 'difc': 'locations.difc.nav',
+  'jumeirah': 'locations.jumeirah.nav', 'deira': 'locations.deira.nav',
+}
+
 export default function Breadcrumbs() {
   const router = useRouter()
   const { t } = useTranslation('common')
@@ -64,12 +84,15 @@ export default function Breadcrumbs() {
       case 'testimonials':
         name = t('nav.testimonials')
         break
-      default:
-        // Capitalize and replace hyphens with spaces
-        name = segment
+      default: {
+        // Prettified slug as fallback (also guards against a raw key ever showing).
+        const pretty = segment
           .split('-')
           .map(word => word.charAt(0).toUpperCase() + word.slice(1))
           .join(' ')
+        const leafKey = LEAF_KEYS[segment]
+        name = leafKey ? t(leafKey, { defaultValue: pretty }) : pretty
+      }
     }
     
     breadcrumbs.push({
