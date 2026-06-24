@@ -11,7 +11,8 @@
     "lint": "next lint",
     "analyze": "ANALYZE=true next build",
     "preview": "npm run sitemap && opennextjs-cloudflare build && opennextjs-cloudflare preview",
-    "deploy": "npm run sitemap && opennextjs-cloudflare build && opennextjs-cloudflare deploy",
+    "deploy": "npm run sitemap && opennextjs-cloudflare build && opennextjs-cloudflare deploy && npm run warm",
+    "warm": "node scripts/warm-cache.mjs",
     "cf:build": "npm run sitemap && opennextjs-cloudflare build"
   },
   "dependencies": {
