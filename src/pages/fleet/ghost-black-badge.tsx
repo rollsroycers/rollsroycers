@@ -89,7 +89,7 @@ export default function GhostBlackBadgePage() {
 
       <Layout>
         {/* Hero Section */}
-        <section className="relative h-screen flex items-center justify-center overflow-hidden">
+        <section className="relative min-h-screen flex items-center justify-center overflow-hidden py-28 sm:py-24">
           <div className="absolute inset-0">
             <Image
               src="/images/Rolls-Royce_Ghost_Black_Badge.jpg"

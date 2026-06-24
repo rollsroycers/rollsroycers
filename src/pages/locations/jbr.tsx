@@ -163,7 +163,7 @@ export default function JBRPage() {
       <EntitySchema pageType="location" locationName="jbr" />
       <Layout>
         {/* Hero Section */}
-        <section className="relative h-screen flex items-center justify-center overflow-hidden">
+        <section className="relative min-h-screen flex items-center justify-center overflow-hidden py-28 sm:py-24">
           <div className="absolute inset-0">
             <HeroBackgroundVideo
               src="/images/videos/Rolls_Royce_defines_what_Luxury_cars_mean.mp4"

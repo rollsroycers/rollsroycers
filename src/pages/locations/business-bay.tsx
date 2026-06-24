@@ -123,7 +123,7 @@ export default function BusinessBayPage() {
       <EntitySchema pageType="location" locationName="business-bay" />
       <Layout>
         {/* Hero Section */}
-        <section className="relative h-screen flex items-center justify-center overflow-hidden">
+        <section className="relative min-h-screen flex items-center justify-center overflow-hidden py-28 sm:py-24">
           <div className="absolute inset-0">
             <Image
               src="/images/Rolls-royce-dubai.jpg"

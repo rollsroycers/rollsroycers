@@ -106,14 +106,14 @@ export default function Breadcrumbs() {
         />
       </Head>
       
-      <nav aria-label="Breadcrumb" className="bg-gray-50 dark:bg-gray-900 py-3 mt-20">
+      <nav aria-label="Breadcrumb" className="bg-transparent py-3 mt-20">
         <div className="container mx-auto px-4">
-          <ol className="flex items-center space-x-2 text-sm">
+          <ol className="flex items-center flex-wrap gap-y-1 space-x-2 text-sm">
             {breadcrumbs.map((crumb, index) => (
               <li key={crumb.href} className="flex items-center">
                 {index > 0 && (
                   <svg
-                    className="w-4 h-4 text-gray-400 mx-2"
+                    className="w-4 h-4 text-rolls-gold/50 mx-2 flex-shrink-0"
                     fill="currentColor"
                     viewBox="0 0 20 20"
                   >
@@ -126,13 +126,13 @@ export default function Breadcrumbs() {
                 )}
                 
                 {index === breadcrumbs.length - 1 ? (
-                  <span className="text-gray-500 dark:text-gray-400">
+                  <span className="text-gray-300" aria-current="page">
                     {crumb.name}
                   </span>
                 ) : (
                   <Link
                     href={crumb.href}
-                    className="text-rolls-gold-dark hover:text-rolls-gold dark:text-rolls-gold dark:hover:text-rolls-gold-dark transition-colors"
+                    className="text-rolls-gold hover:text-white transition-colors"
                   >
                     {crumb.name}
                   </Link>
