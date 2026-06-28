@@ -39,11 +39,11 @@ const LOCALES = [
 
 // --- file emitted verbatim from the spec (documentation / Pages portability) ---
 
-const REDIRECTS = `# Source of truth is src/static-worker.js. This file is for portability/docs
-# (Cloudflare Workers Static Assets does NOT process _redirects; Pages does).
-
-# www -> non-www
-https://www.rollsroycers.com/* https://rollsroycers.com/:splat 301
+const REDIRECTS = `# Processed by Cloudflare Workers Static Assets at the edge (RELATIVE URLs only;
+# absolute/host URLs are rejected with code 100324). These run BEFORE the worker
+# for every path, so redirects apply whether or not the worker is invoked.
+# www->non-www is intentionally omitted (absolute URL not allowed, and
+# www.rollsroycers.com has no DNS record). Add a zone Redirect Rule if www is added.
 
 # misspellings -> home
 /rent-rolls-royes-dubai / 301
