@@ -7,6 +7,15 @@ Allow: /
 Disallow: /api/
 Disallow: /_next/
 Disallow: /admin/
+Disallow: /search
+Disallow: /ar/search
+Disallow: /ru/search
+Disallow: /booking
+Disallow: /ar/booking
+Disallow: /ru/booking
+Disallow: /offline
+Disallow: /ar/offline
+Disallow: /ru/offline
 
 # === GOOGLE CRAWLERS ===
 User-agent: Googlebot

@@ -1,0 +1,37 @@
+{
+ "claim_generator": "rollsroycers.com/blog-img-metadata",
+ "title": "Chauffeur handing over a Rolls-Royce Ghost key on Sheikh Zayed Road, Dubai.",
+ "assertions": [
+  {
+   "label": "stds.schema-org.CreativeWork",
+   "data": {
+    "@context": "https://schema.org",
+    "@type": "ImageObject",
+    "author": [
+     {
+      "@type": "Organization",
+      "name": "Naqra FZE"
+     }
+    ],
+    "creditText": "rollsroycers.com",
+    "copyrightNotice": "© 2026 Naqra FZE (rollsroycers.com). All rights reserved.",
+    "contentLocation": {
+     "@type": "Place",
+     "name": "Dubai, United Arab Emirates"
+    }
+   }
+  },
+  {
+   "label": "c2pa.actions",
+   "data": {
+    "actions": [
+     {
+      "action": "c2pa.created",
+      "digitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
+      "softwareAgent": "Google Gemini (Nano Banana)"
+     }
+    ]
+   }
+  }
+ ]
+}
