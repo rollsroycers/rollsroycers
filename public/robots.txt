@@ -16,6 +16,8 @@ Disallow: /ru/booking
 Disallow: /offline
 Disallow: /ar/offline
 Disallow: /ru/offline
+Disallow: /llms.txt
+Disallow: /llms-full.txt
 
 # === GOOGLE CRAWLERS ===
 User-agent: Googlebot
