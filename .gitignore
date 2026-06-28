@@ -12,6 +12,7 @@
 /.next/
 /out/
 .open-next/
+.assets-dist/
 
 # production
 /build
