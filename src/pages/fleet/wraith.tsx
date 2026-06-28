@@ -60,31 +60,6 @@ export default function WraithPage() {
 
   const drivingExperiences: DrivingExperience[] = Object.values(t('fleet.wraith.drivingExperiences', { returnObjects: true }));
 
-  const tourSpots = {
-    wraith: [
-      {
-        id: 'coach-doors',
-        name: t('virtualTour.spots.wraith.coachDoors.name'),
-        description: t('virtualTour.spots.wraith.coachDoors.description'),
-        position: { x: 30, y: 55 },
-        details: t('virtualTour.spots.wraith.coachDoors.details', { returnObjects: true }) as string[]
-      },
-      {
-        id: 'infotainment',
-        name: t('virtualTour.spots.wraith.infotainment.name'),
-        description: t('virtualTour.spots.wraith.infotainment.description'),
-        position: { x: 55, y: 48 },
-        details: t('virtualTour.spots.wraith.infotainment.details', { returnObjects: true }) as string[]
-      },
-      {
-        id: 'starlight-headliner',
-        name: t('virtualTour.spots.wraith.starlightHeadliner.name'),
-        description: t('virtualTour.spots.wraith.starlightHeadliner.description'),
-        position: { x: 50, y: 25 },
-        details: t('virtualTour.spots.wraith.starlightHeadliner.details', { returnObjects: true }) as string[]
-      }
-    ]
-  };
 
   // Product Structured Data
   const structuredData = {
@@ -486,7 +461,7 @@ export default function WraithPage() {
             <h2 className="text-4xl font-bold text-white text-center mb-12">
               {t('fleetPage.wraith.tourTitle')}
             </h2>
-            <VirtualTour tourSpots={tourSpots} />
+            <VirtualTour />
           </div>
         </section>
 
@@ -570,7 +545,7 @@ export default function WraithPage() {
 export const getStaticProps: GetStaticProps = async ({ locale }) => {
   return {
     props: {
-      ...(await serverSideTranslations(locale || 'en', ['common', 'comparefleet', 'fc_shared', 'fc_wraith', 'fleet', 'navigation', 'sb_fleet-wraith', 'seo_fleet'])),
+      ...(await serverSideTranslations(locale || 'en', ['common', 'comparefleet', 'fc_shared', 'fc_wraith', 'navigation', 'sb_fleet-wraith', 'seo_fleet', 'virtualtour'])),
     },
   }
 }

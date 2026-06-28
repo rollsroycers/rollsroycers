@@ -3,7 +3,7 @@
 // full hreflang/x-default), matching SEO.tsx's canonical scheme exactly:
 //   default locale 'en' => no path prefix; other locales => /<locale>/path.
 // Run via `npm run sitemap` or automatically as `postbuild`.
-import { writeFileSync, readFileSync, existsSync } from 'node:fs'
+import { writeFileSync, readFileSync, existsSync, readdirSync } from 'node:fs'
 import { execSync } from 'node:child_process'
 import { fileURLToPath } from 'node:url'
 import { dirname, join } from 'node:path'
@@ -15,6 +15,24 @@ const LOCALES = ['en', 'ar', 'ru'] // 'en' = default (no prefix)
 const DEFAULT_LOCALE = 'en'
 
 const blogSlugs = JSON.parse(readFileSync(join(ROOT, 'src/data/blogSlugs.json'), 'utf8'))
+
+// Also include file-based blog posts (src/data/blog/<slug>.json) so the sitemap
+// matches getStaticPaths, which builds inline + blogSlugs + file-based slugs.
+let fileBlogSlugs = []
+try {
+  const now = Date.now()
+  fileBlogSlugs = readdirSync(join(ROOT, 'src/data/blog'))
+    .filter((f) => f.endsWith('.json'))
+    // scheduled publishing: only list articles whose publishAt has passed (matches getStaticPaths)
+    .filter((f) => {
+      try {
+        const data = JSON.parse(readFileSync(join(ROOT, 'src/data/blog', f), 'utf8'))
+        return process.env.PUBLISH_ALL === '1' || !data.publishAt || new Date(data.publishAt).getTime() <= now
+      } catch { return false }
+    })
+    .map((f) => f.replace(/\.json$/, ''))
+} catch {}
+const allBlogSlugs = Array.from(new Set([...blogSlugs, ...fileBlogSlugs]))
 
 // route → source file (for lastmod) + priority/changefreq. /search and /offline are
 // intentionally excluded (noindex). All listed routes are indexable 200 pages.
@@ -45,7 +63,7 @@ const routes = [
   ...services.map((s) => ({ path: `/services/${s}`, file: `src/pages/services/${s}.tsx`, priority: '0.8', changefreq: 'weekly' })),
   ...locations.map((s) => ({ path: `/locations/${s}`, file: `src/pages/locations/${s}.tsx`, priority: '0.8', changefreq: 'weekly' })),
   ...compares.map((s) => ({ path: `/compare/${s}`, file: `src/pages/compare/${s}.tsx`, priority: '0.7', changefreq: 'monthly' })),
-  ...blogSlugs.map((slug) => ({ path: `/blog/${slug}`, file: 'src/pages/blog/[slug].tsx', priority: '0.7', changefreq: 'monthly' })),
+  ...allBlogSlugs.map((slug) => ({ path: `/blog/${slug}`, file: 'src/pages/blog/[slug].tsx', priority: '0.7', changefreq: 'monthly' })),
 ]
 
 const today = new Date().toISOString().slice(0, 10)
@@ -111,4 +129,4 @@ ${routes.map(urlBlock).join('\n')}
 `
 
 writeFileSync(join(ROOT, 'public/sitemap-pages.xml'), xml)
-console.log(`✓ sitemap-pages.xml written: ${routes.length} URLs (${blogSlugs.length} blog posts, ${LOCALES.length} locales each)`)
+console.log(`✓ sitemap-pages.xml written: ${routes.length} URLs (${allBlogSlugs.length} blog posts, ${LOCALES.length} locales each)`)

@@ -649,7 +649,7 @@ export default function SpectrePage() {
 export const getStaticProps: GetStaticProps = async ({ locale }) => {
   return {
     props: {
-      ...(await serverSideTranslations(locale || 'en', ['common', 'fc_shared', 'fc_spectre', 'fleet', 'navigation', 'seo_fleet'])),
+      ...(await serverSideTranslations(locale || 'en', ['common', 'fc_shared', 'fc_spectre', 'navigation', 'seo_fleet'])),
     },
   }
 }

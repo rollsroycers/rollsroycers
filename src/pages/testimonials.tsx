@@ -167,7 +167,7 @@ export default function TestimonialsPage() {
       rating: 5,
       category: 'events',
       vehicle: 'Wraith Black Badge',
-      image: '/images/reviews/Nikolai-Sokolov .jpg',
+      image: '/images/reviews/Nikolai-Sokolov.jpg',
       date: '2024-04-15',
       title: 'Film Festival Red Carpet',
       review: 'Прибытие на кинофестиваль в Дубае на Wraith Black Badge произвело фурор. Черный автомобиль идеально подходил для красной дорожки. Водитель точно знал, где остановиться для фотографов. Это добавило гламура всему мероприятию. (Arriving at the Dubai Film Festival in the Wraith Black Badge caused a sensation. The black car was perfect for the red carpet. The driver knew exactly where to stop for photographers.)',

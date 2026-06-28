@@ -412,43 +412,43 @@
     "longDescription": "Rolls-Royce Phantom является высшим выражением роскошного вождения. С его командным присутствием, непревзойденным мастерством и революционными технологиями.",
     "features": [
       {
-        "title": "Magic Carpet Ride",
-        "desc": "Revolutionary suspension system for otherworldly comfort",
+        "title": "Поездка на «волшебном ковре»",
+        "desc": "Революционная подвеска для неземного комфорта",
         "icon": "🎯"
       },
       {
-        "title": "Starlight Headliner",
-        "desc": "1,340 fiber optic lights create your personal night sky",
+        "title": "Звёздное небо в потолке",
+        "desc": "1 340 оптоволоконных огней создают ваше личное ночное небо",
         "icon": "✨"
       },
       {
-        "title": "The Gallery",
-        "desc": "Bespoke artwork space across the dashboard",
+        "title": "Галерея",
+        "desc": "Индивидуальное художественное пространство на передней панели",
         "icon": "🎨"
       },
       {
-        "title": "Whisper Quiet",
-        "desc": "World's quietest car with 130kg of sound insulation",
+        "title": "Шёпотная тишина",
+        "desc": "Самый тихий автомобиль в мире со 130 кг звукоизоляции",
         "icon": "🔇"
       },
       {
-        "title": "Extended Wheelbase",
-        "desc": "Ultimate rear passenger space and comfort",
+        "title": "Удлинённая колёсная база",
+        "desc": "Максимум пространства и комфорта для задних пассажиров",
         "icon": "📏"
       },
       {
-        "title": "Bespoke Audio",
-        "desc": "18-speaker system tuned to perfection",
+        "title": "Аудиосистема на заказ",
+        "desc": "Система из 18 динамиков, настроенная до совершенства",
         "icon": "🎵"
       },
       {
-        "title": "Champagne Cooler",
-        "desc": "Integrated cooling for your celebrations",
+        "title": "Охладитель шампанского",
+        "desc": "Встроенное охлаждение для ваших торжеств",
         "icon": "🍾"
       },
       {
-        "title": "Privacy Suite",
-        "desc": "Electrochromatic glass for instant privacy",
+        "title": "Приватность",
+        "desc": "Электрохромное стекло для мгновенной приватности",
         "icon": "🔒"
       }
     ],
@@ -469,12 +469,12 @@
     "whyChoose": {
       "title": "Почему выбрать Phantom?",
       "reasons": [
-        "Unmatched presence and prestige",
-        "Revolutionary comfort technology",
-        "Bespoke craftsmanship",
-        "Perfect for special occasions",
-        "Professional chauffeur included",
-        "24/7 concierge support"
+        "Непревзойдённое присутствие и престиж",
+        "Революционные технологии комфорта",
+        "Индивидуальное мастерство",
+        "Идеально для особых случаев",
+        "Профессиональный водитель включён",
+        "Консьерж-поддержка 24/7"
       ]
     },
     "idealFor": [

@@ -57,7 +57,6 @@ export default function DawnPage() {
   const featureIcons = ['🌡️', '🎭', '🎵', '💨', '🌦️', '⏱️', '✨', '☀️']
 
   const routes = Object.values(t('fleet.dawn.routes', { returnObjects: true }));
-  const tourSpots = t('virtualTourSpots', { returnObjects: true }) as Record<string, any[]>;
 
   // Product Structured Data
   const structuredData = {
@@ -340,7 +339,7 @@ export default function DawnPage() {
             <h2 className="text-4xl font-bold text-white text-center mb-12">
               {t('fleetPage.dawn.tourTitle')}
             </h2>
-            <VirtualTour tourSpots={tourSpots} />
+            <VirtualTour />
           </div>
         </section>
 
@@ -449,7 +448,7 @@ export default function DawnPage() {
 export const getStaticProps: GetStaticProps = async ({ locale }) => {
   return {
     props: {
-      ...(await serverSideTranslations(locale || 'en', ['common', 'comparefleet', 'fc_dawn', 'fc_shared', 'fleet', 'navigation', 'sb_fleet-dawn', 'seo_fleet', 'weatherrec'])),
+      ...(await serverSideTranslations(locale || 'en', ['common', 'comparefleet', 'fc_dawn', 'fc_shared', 'navigation', 'sb_fleet-dawn', 'seo_fleet', 'weatherrec', 'virtualtour'])),
     },
   }
 }

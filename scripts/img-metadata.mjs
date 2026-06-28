@@ -38,8 +38,8 @@ function walk(d, o = []) { for (const e of readdirSync(d)) { const p = join(d, e
 const humanize = (f) => f.split('/').pop().replace(/\.[a-z0-9]+$/i, '')
   .replace(/[_]+/g, ' ').replace(/-(\d+)$/, ' $1').replace(/\s+/g, ' ').trim()
 
-// exclude reviews/ (customer headshots — business copyright + car caption would mislabel them)
-const files = walk(IMG).filter((f) => /\.(jpe?g|png|webp)$/i.test(f) && !f.includes('/reviews/')).slice(0, LIMIT)
+// exclude reviews/ and blog/ (blog has its own dedicated script rollsroycers-image-generation-manifest.json driven by blog-img-metadata.mjs)
+const files = walk(IMG).filter((f) => /\.(jpe?g|png|webp)$/i.test(f) && !f.includes('/reviews/') && !f.includes('/blog/')).slice(0, LIMIT)
 let done = 0
 for (const f of files) {
   const base = humanize(f)

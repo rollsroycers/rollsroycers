@@ -13,11 +13,12 @@ interface TourSpot {
 }
 
 interface VirtualTourProps {
-  tourSpots: Record<string, TourSpot[]>;
+  tourSpots?: Record<string, TourSpot[]>;
 }
 
-export default function VirtualTour({ tourSpots }: VirtualTourProps) {
-  const { t } = useTranslation('common')
+export default function VirtualTour({ tourSpots: propsTourSpots }: VirtualTourProps) {
+  const { t } = useTranslation('virtualtour')
+  const tourSpots = propsTourSpots || (t('virtualTourSpots', { returnObjects: true }) as Record<string, TourSpot[]>) || {}
   const [ref, inView] = useInView({ triggerOnce: true, threshold: 0.1 })
   const [activeCar, setActiveCar] = useState('phantom')
   const [activeSpot, setActiveSpot] = useState<string | null>(null)

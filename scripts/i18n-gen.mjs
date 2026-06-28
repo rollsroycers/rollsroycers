@@ -47,6 +47,7 @@ const MANIFEST = [
   ['page_booking', 'pages/booking.json', true],
   ['page_gallery', 'pages/gallery.json', true],
   ['page_testimonials', 'pages/testimonials.json', true],
+  ['virtualtour', 'virtualtour.json', true],
   ...seoblocks.map((b) => ['sb_' + b, 'seoblocks/' + b + '.json', true]),
 ]
 const fallbackNS = MANIFEST.filter((m) => m[2]).map((m) => m[0])

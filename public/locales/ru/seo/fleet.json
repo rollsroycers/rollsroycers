@@ -121,6 +121,17 @@
           "description": "Арендуйте первый полностью электрический Rolls-Royce Spectre в Дубае от 7 500 AED/день. 577 л.с., запас хода 520 км, люкс без выбросов с профессиональным водителем.",
           "image": "https://rollsroycers.com/images/2024_Rolls-Royce_Spectre.jpg",
           "url": "https://rollsroycers.com/ru/fleet/spectre"
+        },
+        "schema": {
+          "breadcrumb": "Главная > Автопарк > Rolls-Royce Spectre",
+          "priceRange": "AED 7,500 - 150,000",
+          "availability": "InStock"
+        },
+        "twitter": {
+          "card": "summary_large_image",
+          "title": "Аренда Rolls-Royce Spectre Дубай 2026 | Первый электрический RR | 7 500 AED/день",
+          "description": "Арендуйте первый полностью электрический Rolls-Royce Spectre в Дубае от 7 500 AED/день. 577 л.с., запас хода 520 км, роскошь без выбросов с профессиональным водителем. Забронируйте сейчас!",
+          "image": "https://rollsroycers.com/images/2024_Rolls-Royce_Spectre.jpg"
         }
       },
       "cullinan-black-badge": {

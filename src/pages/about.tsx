@@ -48,7 +48,7 @@ export default function AboutPage() {
       name: 'Ahmed Al Rashid',
       role: t('about.team.ceo.role'),
       bio: t('about.team.ceo.bio'),
-      image: '/images/team/ceo.jpg'
+      image: '/images/team/ceo.webp'
     },
     {
       name: 'Sarah Mitchell',

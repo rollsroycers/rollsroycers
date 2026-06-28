@@ -79,7 +79,7 @@
             "feature": "Парковка с валетом"
           },
           "theBeach": {
-            "name": "The Beach at JBR",
+            "name": "Пляж The Beach at JBR",
             "type": "Общественный пляж",
             "feature": "Множество входов"
           },
@@ -203,7 +203,7 @@
             "distance": "3 минуты"
           },
           "theWalk": {
-            "name": "The Walk JBR",
+            "name": "Набережная The Walk JBR",
             "type": "Шопинг и рестораны",
             "distance": "На месте"
           }

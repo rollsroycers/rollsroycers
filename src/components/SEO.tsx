@@ -355,7 +355,7 @@ export default function SEO({ pageKey, title: titleProp, description: descriptio
       {/* Language and Direction */}
       <meta httpEquiv="content-language" content={currentLang} />
       
-      {/* CANONICAL URL - Always points to English version for consistency */}
+      {/* CANONICAL URL - Self-referential canonical pointing to the localized version of this page */}
       <link rel="canonical" href={canonicalUrl} />
       
       {/* Alternate Language URLs with proper hreflang */}

@@ -357,7 +357,7 @@ export default function Home() {
                       className="rounded-full mr-4"
                     />
                     <div>
-                      <h4 className="text-white font-semibold">{testimonial.name}</h4>
+                      <h3 className="text-white font-semibold text-base">{testimonial.name}</h3>
                       <p className="text-gray-400 text-sm">{testimonial.location}</p>
                       <div className="flex mt-1">
                         {[...Array(testimonial.rating)].map((_, i) => (
@@ -374,7 +374,11 @@ export default function Home() {
             </div>
             
             <div className="text-center">
-              <Link href="/testimonials" className="btn-secondary">
+              <Link
+                href="/testimonials"
+                className="btn-secondary"
+                aria-label={t('reviews.readMoreAria', { defaultValue: 'Read more client testimonials' })}
+              >
                 {t('reviews.readMore')}
               </Link>
             </div>

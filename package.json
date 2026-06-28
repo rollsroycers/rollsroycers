@@ -13,7 +13,10 @@
     "preview": "npm run sitemap && opennextjs-cloudflare build && opennextjs-cloudflare preview",
     "deploy": "npm run sitemap && opennextjs-cloudflare build && opennextjs-cloudflare deploy && npm run warm",
     "warm": "node scripts/warm-cache.mjs",
-    "cf:build": "npm run sitemap && opennextjs-cloudflare build"
+    "cf:build": "npm run sitemap && opennextjs-cloudflare build",
+    "kw:blog": "node scripts/blog-keywords.mjs",
+    "index:blog": "node scripts/index-blog.mjs",
+    "verify:blog": "node scripts/blog-verify.mjs"
   },
   "dependencies": {
     "framer-motion": "^12.17.0",

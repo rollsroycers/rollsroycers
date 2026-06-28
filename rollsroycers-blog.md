@@ -70,9 +70,10 @@
 2. **اقرأ [`voice.md`](voice.md) ✅ (معتمد — إلزامي)** والتزم بشخصية «رجل العالم» (تهكّم بريطاني · فصحى راقية بلمسة خليجية)؛ §7 أدناه ملخّص فقط.
 3. **اقرأ [`content-laws.md`](content-laws.md)** (إلزامي — i18n Reversal + Trilingual Parity + Authority + Anti-AI)
 4. **اقرأ [`rollsroycers-blog-roadmap.md`](rollsroycers-blog-roadmap.md)** واعثر على أول موضوع غير منشور (⬜)
-5. نفّذ كامل الـ Workflow (الـ 18 خطوة أدناه) بدون توقف
-6. **نفّذ بوابة التدقيق §16-A** — `node scripts/i18n-verify.mjs` + عدّ الكلمات لكل لغة (en/ar/ru ≥ 1,500) + فحص تسريب البادئة قبل أي خطوة تالية
-7. شغّل `npm run deploy` للتحقق والبناء والنشر إلى Cloudflare مباشرةً (يتبعه postbuild → sitemap آلي + deploy + warm-cache)
+5. **كتابة المحتوى عبر 3 وكلاء (EN, AR, RU):** قم باستدعاء 3 وكلاء فرعيين متزامنين (`invoke_subagent` مع `TypeName: self`) لكتابة اللغات الثلاث بصورة احترافية وبطول ≥ 1,500 كلمة لكل منها، ثم ادمج المحتوى.
+6. نفّذ كامل الـ Workflow (الـ 18 خطوة أدناه) بدون توقف
+7. **نفّذ بوابة التدقيق §16-A** — `node scripts/i18n-verify.mjs` + عدّ الكلمات لكل لغة (en/ar/ru ≥ 1,500) + فحص تسريب البادئة قبل أي خطوة تالية
+8. شغّل `npm run deploy` للتحقق والبناء والنشر إلى Cloudflare مباشرةً (يتبعه postbuild → sitemap آلي + deploy + warm-cache)
 8. اعمل `commit` مباشرة على فرع `main`
 9. 🔴 **ارفع وانشر:** `git push origin main` مباشرةً لرفع التغييرات إلى GitHub دون انتظار موافقة.
 10. 🔍 **فهرس فورًا:** قدّم الـ URLs الثلاثة (en/ar/ru) في Google Search Console + IndexNow (§18)

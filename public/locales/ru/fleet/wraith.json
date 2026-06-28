@@ -265,25 +265,6 @@
           "route": "Трасса Dubai Autodrome",
           "title": "Трек-день"
         }
-      },
-      "virtualTourSpots": {
-        "wraith": [
-          {
-            "id": "coach-doors",
-            "name": "Культовые Двери Coach",
-            "description": "Лёгкий вход и выход с фирменными дверями"
-          },
-          {
-            "id": "starlight",
-            "name": "Звёздное Небо",
-            "description": "Персонализация по вашему созвездию"
-          },
-          {
-            "id": "fastback",
-            "name": "Профиль Фастбэк",
-            "description": "Аэродинамический дизайн для спортивной езды"
-          }
-        ]
       }
     }
   }

@@ -9,44 +9,6 @@
     "performance": "Характеристики",
     "convertibleTech": "Технология кабриолета",
     "luxuryFeatures": "Роскошные функции",
-    "virtualTourSpots": {
-      "title": "Точки виртуального тура",
-      "description": "Исследуйте интерьер в деталях",
-      "cullinan": [
-        {
-          "id": "steering-wheel",
-          "name": "Подогрев Руля",
-          "description": "Комфорт в любую погоду"
-        },
-        {
-          "id": "rear-lounge",
-          "name": "Задний Лаунж",
-          "description": "Лаунж-конфигурация со встроенным холодильником"
-        },
-        {
-          "id": "boot-space",
-          "name": "Багажное Отделение",
-          "description": "Просторный багажник с моторизированной перегородкой"
-        }
-      ],
-      "phantom": [
-        {
-          "id": "dashboard",
-          "name": "Приборная Панель Bespoke",
-          "description": "Ручная работа класса люкс"
-        },
-        {
-          "id": "starlight",
-          "name": "Звёздное Небо",
-          "description": "1 344 оптоволокна создают звёздный свод"
-        },
-        {
-          "id": "rear-suite",
-          "name": "Задний Люкс",
-          "description": "Задние сиденья бизнес-класса с охлаждённым шампанским"
-        }
-      ]
-    },
     "cullinanBlackBadge": {
       "name": "Cullinan Black Badge"
     },

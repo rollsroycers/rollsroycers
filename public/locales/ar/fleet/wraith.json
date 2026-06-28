@@ -118,25 +118,6 @@
           ]
         }
       },
-      "virtualTourSpots": {
-        "wraith": [
-          {
-            "id": "coach-doors",
-            "name": "أبواب كوتش الأيقونية",
-            "description": "دخول وخروج بسلاسة مع هذه الأبواب المميزة"
-          },
-          {
-            "id": "starlight",
-            "name": "سقف النجوم",
-            "description": "مخصص حسب كوكبة ميلادك"
-          },
-          {
-            "id": "fastback",
-            "name": "تصميم فاست باك",
-            "description": "تصميم انسيابي للقيادة الرياضية"
-          }
-        ]
-      },
       "featureTabs": {
         "design": {
           "stats": {

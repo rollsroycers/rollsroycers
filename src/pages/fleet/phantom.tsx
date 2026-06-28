@@ -684,7 +684,7 @@ export default function PhantomPage() {
 export const getStaticProps: GetStaticProps = async ({ locale }) => {
   return {
     props: {
-      ...(await serverSideTranslations(locale || 'en', ['common', 'fc_phantom', 'fc_shared', 'fleet', 'navigation', 'sb_fleet-phantom', 'seo_fleet'])),
+      ...(await serverSideTranslations(locale || 'en', ['common', 'fc_phantom', 'fc_shared', 'navigation', 'sb_fleet-phantom', 'seo_fleet'])),
     },
   }
 }

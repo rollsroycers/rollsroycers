@@ -1,5 +1,9 @@
 /** @type {import('next').NextConfig} */
 const i18n = require('./next-i18next.config.js').i18n
+// Edge image optimization via Cloudflare Image Resizing. Off by default (Workers
+// can't run the Next optimizer ⇒ unoptimized). Set NEXT_PUBLIC_CF_IMAGES=1 once
+// Cloudflare Image Resizing is enabled on the zone to serve sized/AVIF/WebP images.
+const USE_CF_IMAGES = process.env.NEXT_PUBLIC_CF_IMAGES === '1'
 
 const nextConfig = {
   reactStrictMode: true, // Re-enabled with React 18
@@ -54,8 +58,9 @@ const nextConfig = {
     minimumCacheTTL: 60 * 60 * 24 * 365, // 1 year
     dangerouslyAllowSVG: false, // no .svg is served via next/image (none exist in public/), so disabling closes the SVG-with-inline-script vector
     contentDispositionType: 'attachment',
-    // Lazy load images outside viewport
-    unoptimized: true,
+    // Lazy load images outside viewport. Raw by default; CF edge-resizing loader when enabled.
+    unoptimized: !USE_CF_IMAGES,
+    ...(USE_CF_IMAGES && { loader: 'custom', loaderFile: './image-loader.js' }),
     // Disable static imports for better performance
     disableStaticImages: false,
   },

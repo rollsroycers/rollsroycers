@@ -14,6 +14,10 @@ import GEOOptimizer from '@/components/GEOOptimizer'
 export default function BlogPage() {
   const { t } = useTranslation('common')
   const [selectedCategory, setSelectedCategory] = useState('all')
+  // Progressive rendering: only mount a window of article cards so the index never
+  // tries to load hundreds of cover images at once (critical as the blog scales to 700+).
+  const PAGE_SIZE = 12
+  const [visibleCount, setVisibleCount] = useState(PAGE_SIZE)
   
   const categories = [
     { id: 'all', name: t('blog.categories.all') },
@@ -262,9 +266,10 @@ export default function BlogPage() {
     }
   ]
 
-  const filteredArticles = selectedCategory === 'all' 
-    ? articles 
+  const filteredArticles = selectedCategory === 'all'
+    ? articles
     : articles.filter(article => article.category === selectedCategory)
+  const visibleArticles = filteredArticles.slice(0, visibleCount)
 
   return (
     <>
@@ -340,7 +345,7 @@ export default function BlogPage() {
               {categories.map((category) => (
                 <button
                   key={category.id}
-                  onClick={() => setSelectedCategory(category.id)}
+                  onClick={() => { setSelectedCategory(category.id); setVisibleCount(PAGE_SIZE) }}
                   className={`px-6 py-2 rounded-full transition-all ${
                     selectedCategory === category.id
                       ? 'bg-rolls-gold text-rolls-black font-semibold'
@@ -411,7 +416,7 @@ export default function BlogPage() {
               Latest Articles
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
-              {filteredArticles.map((article, index) => (
+              {visibleArticles.map((article, index) => (
                 <motion.article
                   key={article.id}
                   initial={{ opacity: 0, y: 20 }}
@@ -424,6 +429,7 @@ export default function BlogPage() {
                       src={article.image}
                       alt={article.title}
                       fill
+                      sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 400px"
                       className="object-cover"
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-rolls-black/80 to-transparent"></div>
@@ -463,9 +469,16 @@ export default function BlogPage() {
                 </motion.article>
               ))}
             </div>
-            {/* Removed the dead "Load More Articles" button: it had no onClick/pagination
-                and all articles are already rendered above it. Re-add only with real
-                progressive rendering (slice state) if the post count grows. */}
+            {visibleCount < filteredArticles.length && (
+              <div className="text-center mt-12">
+                <button
+                  onClick={() => setVisibleCount((c) => c + PAGE_SIZE)}
+                  className="px-8 py-3 rounded-full bg-rolls-gold text-rolls-black font-semibold hover:bg-white transition-all"
+                >
+                  Load more articles ({filteredArticles.length - visibleCount} more)
+                </button>
+              </div>
+            )}
           </div>
         </section>
 

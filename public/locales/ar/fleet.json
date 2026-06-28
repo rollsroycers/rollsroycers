@@ -412,43 +412,43 @@
     "longDescription": "تقف رولز رويس فانتوم كأقصى تعبير عن القيادة الفاخرة. مع حضورها المهيب وحرفيتها التي لا مثيل لها والتكنولوجيا الثورية، توفر فانتوم تجربة تتجاوز مجرد النقل. كل رحلة تصبح احتفالاً بالنجاح والرقي.",
     "features": [
       {
-        "title": "Magic Carpet Ride",
-        "desc": "Revolutionary suspension system for otherworldly comfort",
+        "title": "رحلة السجادة السحرية",
+        "desc": "نظام تعليق ثوري لراحة من عالم آخر",
         "icon": "🎯"
       },
       {
-        "title": "Starlight Headliner",
-        "desc": "1,340 fiber optic lights create your personal night sky",
+        "title": "سقف النجوم",
+        "desc": "1,340 من أضواء الألياف الضوئية تصنع سماءك الليلية الخاصة",
         "icon": "✨"
       },
       {
-        "title": "The Gallery",
-        "desc": "Bespoke artwork space across the dashboard",
+        "title": "المعرض",
+        "desc": "مساحة فنية مخصصة عبر لوحة القيادة",
         "icon": "🎨"
       },
       {
-        "title": "Whisper Quiet",
-        "desc": "World's quietest car with 130kg of sound insulation",
+        "title": "هدوء تام",
+        "desc": "أهدأ سيارة في العالم مع 130 كجم من العزل الصوتي",
         "icon": "🔇"
       },
       {
-        "title": "Extended Wheelbase",
-        "desc": "Ultimate rear passenger space and comfort",
+        "title": "قاعدة عجلات ممتدة",
+        "desc": "أقصى مساحة وراحة لركاب المقاعد الخلفية",
         "icon": "📏"
       },
       {
-        "title": "Bespoke Audio",
-        "desc": "18-speaker system tuned to perfection",
+        "title": "نظام صوتي مخصص",
+        "desc": "نظام من 18 مكبر صوت مضبوط إلى الكمال",
         "icon": "🎵"
       },
       {
-        "title": "Champagne Cooler",
-        "desc": "Integrated cooling for your celebrations",
+        "title": "مبرد الشمبانيا",
+        "desc": "تبريد مدمج لاحتفالاتك",
         "icon": "🍾"
       },
       {
-        "title": "Privacy Suite",
-        "desc": "Electrochromatic glass for instant privacy",
+        "title": "جناح الخصوصية",
+        "desc": "زجاج كهروكروماتي لخصوصية فورية",
         "icon": "🔒"
       }
     ],
@@ -469,12 +469,12 @@
     "whyChoose": {
       "title": "لماذا تختار فانتوم؟",
       "reasons": [
-        "Unmatched presence and prestige",
-        "Revolutionary comfort technology",
-        "Bespoke craftsmanship",
-        "Perfect for special occasions",
-        "Professional chauffeur included",
-        "24/7 concierge support"
+        "حضور وهيبة لا مثيل لهما",
+        "تقنية راحة ثورية",
+        "حرفية مصممة خصيصاً",
+        "مثالية للمناسبات الخاصة",
+        "سائق محترف مشمول",
+        "دعم كونسيرج على مدار الساعة"
       ]
     },
     "idealFor": [

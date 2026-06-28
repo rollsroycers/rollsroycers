@@ -9,44 +9,6 @@
     "performance": "الأداء",
     "convertibleTech": "تكنولوجيا الكابريوليه",
     "luxuryFeatures": "مميزات الفخامة",
-    "virtualTourSpots": {
-      "title": "نقاط الجولة الافتراضية",
-      "description": "استكشف التفاصيل الداخلية",
-      "cullinan": [
-        {
-          "id": "steering-wheel",
-          "name": "مقود مُدفأ",
-          "description": "راحة في جميع الظروف الجوية"
-        },
-        {
-          "id": "rear-lounge",
-          "name": "صالة خلفية",
-          "description": "تكوين صالة مع ثلاجة مدمجة"
-        },
-        {
-          "id": "boot-space",
-          "name": "مساحة الأمتعة",
-          "description": "صندوق واسع مع حاجز كهربائي"
-        }
-      ],
-      "phantom": [
-        {
-          "id": "dashboard",
-          "name": "لوحة قيادة مخصصة",
-          "description": "فخامة يدوية الصنع في متناول يدك"
-        },
-        {
-          "id": "starlight",
-          "name": "سقف النجوم",
-          "description": "1,344 ألياف ضوئية تخلق سماء مرصعة بالنجوم"
-        },
-        {
-          "id": "rear-suite",
-          "name": "الجناح الخلفي",
-          "description": "مقاعد خلفية بدرجة رجال الأعمال مع شمبانيا مبردة"
-        }
-      ]
-    },
     "cullinanBlackBadge": {
       "name": "كولينان بلاك بادج"
     },

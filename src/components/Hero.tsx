@@ -89,34 +89,36 @@ export default function Hero() {
       <div className="relative z-10 flex-grow flex flex-col justify-center py-8 sm:py-12 pb-16">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
-            initial={{ opacity: 0, y: 30 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 1, delay: 0.5 }}
+            initial={{ y: 20 }}
+            animate={{ y: 0 }}
+            transition={{ duration: 0.6 }}
             className="max-w-4xl"
           >
-            <motion.h1 
+            {/* LCP text: keep it visible (opacity:1) from first paint — slide via transform only.
+                Opacity entrance + long delays here previously pushed LCP render-delay to ~2.4s. */}
+            <motion.h1
               className="heading-1 text-white mb-4"
-              initial={{ opacity: 0, x: -30 }}
-              animate={{ opacity: 1, x: 0 }}
-              transition={{ duration: 1, delay: 0.7 }}
+              initial={{ x: -20 }}
+              animate={{ x: 0 }}
+              transition={{ duration: 0.5 }}
             >
               {t('hero.title')}
             </motion.h1>
-            
-            <motion.h2 
+
+            <motion.h2
               className="heading-3 text-gradient mb-6"
-              initial={{ opacity: 0, x: -30 }}
-              animate={{ opacity: 1, x: 0 }}
-              transition={{ duration: 1, delay: 0.9 }}
+              initial={{ x: -20 }}
+              animate={{ x: 0 }}
+              transition={{ duration: 0.5, delay: 0.05 }}
             >
               {t('hero.subtitle')}
             </motion.h2>
-            
-            <motion.p 
+
+            <motion.p
               className="text-xl text-gray-300 mb-8 max-w-2xl"
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              transition={{ duration: 1, delay: 1.1 }}
+              initial={{ y: 10 }}
+              animate={{ y: 0 }}
+              transition={{ duration: 0.4, delay: 0.1 }}
             >
               {t('hero.description')}
             </motion.p>
@@ -124,7 +126,7 @@ export default function Hero() {
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 1, delay: 1.3 }}
+              transition={{ duration: 0.5, delay: 0.2 }}
             >
               <a href="#fleet">
                 <button className="btn-primary group">
