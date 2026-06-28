@@ -1,0 +1,6309 @@
+{
+ "start": "2026-08-01",
+ "months": 9,
+ "seed": 7,
+ "tz": "+04:00",
+ "count": 700,
+ "schedule": [
+  {
+   "n": 1,
+   "slug": "owns-rolls-royce-dubais-most-coveted-car",
+   "role": "Pillar",
+   "cluster": "BRAND-INFO",
+   "pillar": "owns-rolls-royce-dubais-most-coveted-car",
+   "order": 0,
+   "publishAt": "2026-08-01T06:54:07+04:00"
+  },
+  {
+   "n": 95,
+   "slug": "rolls-royce-car-definition-automotive-luxury",
+   "role": "Pillar",
+   "cluster": "MODEL-INFO",
+   "pillar": "rolls-royce-car-definition-automotive-luxury",
+   "order": 1,
+   "publishAt": "2026-08-01T13:18:41+04:00"
+  },
+  {
+   "n": 30,
+   "slug": "most-luxurious-car-world-available-rent-dubai",
+   "role": "Pillar",
+   "cluster": "RENTAL-COMMERCIAL",
+   "pillar": "most-luxurious-car-world-available-rent-dubai",
+   "order": 2,
+   "publishAt": "2026-08-02T06:56:16+04:00"
+  },
+  {
+   "n": 33,
+   "slug": "rolls-royce-so-expensive-dubai-insiders-breakdown",
+   "role": "Pillar",
+   "cluster": "PRICE-INFO",
+   "pillar": "rolls-royce-so-expensive-dubai-insiders-breakdown",
+   "order": 3,
+   "publishAt": "2026-08-02T09:37:13+04:00"
+  },
+  {
+   "n": 78,
+   "slug": "makes-bentley-rolls-royce-two-marques-two-owners",
+   "role": "Pillar",
+   "cluster": "COMPARISON",
+   "pillar": "makes-bentley-rolls-royce-two-marques-two-owners",
+   "order": 4,
+   "publishAt": "2026-08-02T10:35:04+04:00"
+  },
+  {
+   "n": 6,
+   "slug": "owns-rolls-royce-company-ownership-history-legacy",
+   "role": "Pillar",
+   "cluster": "BRAND-INFO",
+   "pillar": "owns-rolls-royce-company-ownership-history-legacy",
+   "order": 5,
+   "publishAt": "2026-08-02T11:12:09+04:00"
+  },
+  {
+   "n": 116,
+   "slug": "fast-does-rolls-royce-go-power-luxury",
+   "role": "Pillar",
+   "cluster": "MODEL-INFO",
+   "pillar": "fast-does-rolls-royce-go-power-luxury",
+   "order": 6,
+   "publishAt": "2026-08-03T10:38:03+04:00"
+  },
+  {
+   "n": 50,
+   "slug": "most-luxurious-cars-rent-dubai-right-now",
+   "role": "Pillar",
+   "cluster": "RENTAL-COMMERCIAL",
+   "pillar": "most-luxurious-cars-rent-dubai-right-now",
+   "order": 7,
+   "publishAt": "2026-08-03T11:52:07+04:00"
+  },
+  {
+   "n": 45,
+   "slug": "rolls-royce-so-expensive-bespoke-truth-explained",
+   "role": "Pillar",
+   "cluster": "PRICE-INFO",
+   "pillar": "rolls-royce-so-expensive-bespoke-truth-explained",
+   "order": 8,
+   "publishAt": "2026-08-03T17:52:32+04:00"
+  },
+  {
+   "n": 89,
+   "slug": "owns-bentley-rolls-royce-ownership-split-explained",
+   "role": "Pillar",
+   "cluster": "COMPARISON",
+   "pillar": "owns-bentley-rolls-royce-ownership-split-explained",
+   "order": 9,
+   "publishAt": "2026-08-03T19:44:17+04:00"
+  },
+  {
+   "n": 9,
+   "slug": "owns-worlds-costliest-car-rolls-royce-ownership",
+   "role": "Pillar",
+   "cluster": "BRAND-INFO",
+   "pillar": "owns-worlds-costliest-car-rolls-royce-ownership",
+   "order": 10,
+   "publishAt": "2026-08-04T09:18:49+04:00"
+  },
+  {
+   "n": 130,
+   "slug": "rolls-royce-fast-performance-elegance",
+   "role": "Pillar",
+   "cluster": "MODEL-INFO",
+   "pillar": "rolls-royce-fast-performance-elegance",
+   "order": 11,
+   "publishAt": "2026-08-04T15:20:14+04:00"
+  },
+  {
+   "n": 91,
+   "slug": "most-luxurious-car-world-rent-dubai",
+   "role": "Pillar",
+   "cluster": "RENTAL-COMMERCIAL",
+   "pillar": "most-luxurious-car-world-rent-dubai",
+   "order": 12,
+   "publishAt": "2026-08-04T16:33:26+04:00"
+  },
+  {
+   "n": 72,
+   "slug": "rolls-royce-so-expensive-7-reasons-price",
+   "role": "Pillar",
+   "cluster": "PRICE-INFO",
+   "pillar": "rolls-royce-so-expensive-7-reasons-price",
+   "order": 13,
+   "publishAt": "2026-08-04T17:14:27+04:00"
+  },
+  {
+   "n": 113,
+   "slug": "owns-bentley-rolls-royce-surprising-split",
+   "role": "Pillar",
+   "cluster": "COMPARISON",
+   "pillar": "owns-bentley-rolls-royce-surprising-split",
+   "order": 14,
+   "publishAt": "2026-08-05T09:52:19+04:00"
+  },
+  {
+   "n": 11,
+   "slug": "owns-rolls-royce-ownership-renter",
+   "role": "Pillar",
+   "cluster": "BRAND-INFO",
+   "pillar": "owns-rolls-royce-ownership-renter",
+   "order": 15,
+   "publishAt": "2026-08-05T13:02:37+04:00"
+  },
+  {
+   "n": 132,
+   "slug": "fast-can-rolls-royce-go-top-speeds-didnt-expect",
+   "role": "Pillar",
+   "cluster": "MODEL-INFO",
+   "pillar": "fast-can-rolls-royce-go-top-speeds-didnt-expect",
+   "order": 16,
+   "publishAt": "2026-08-05T15:45:46+04:00"
+  },
+  {
+   "n": 99,
+   "slug": "can-rent-luxury-cars-dubai-start-rolls-royce",
+   "role": "Pillar",
+   "cluster": "RENTAL-COMMERCIAL",
+   "pillar": "can-rent-luxury-cars-dubai-start-rolls-royce",
+   "order": 17,
+   "publishAt": "2026-08-05T21:45:20+04:00"
+  },
+  {
+   "n": 106,
+   "slug": "rolls-royce-so-expensive-bespoke-reality",
+   "role": "Pillar",
+   "cluster": "PRICE-INFO",
+   "pillar": "rolls-royce-so-expensive-bespoke-reality",
+   "order": 18,
+   "publishAt": "2026-08-06T10:11:27+04:00"
+  },
+  {
+   "n": 136,
+   "slug": "rolls-royce-more-comfortable-than-maybach-dubai-verdict",
+   "role": "Pillar",
+   "cluster": "COMPARISON",
+   "pillar": "rolls-royce-more-comfortable-than-maybach-dubai-verdict",
+   "order": 19,
+   "publishAt": "2026-08-06T12:55:22+04:00"
+  },
+  {
+   "n": 14,
+   "slug": "makes-rolls-royce-craftsmanship-phantom",
+   "role": "Pillar",
+   "cluster": "BRAND-INFO",
+   "pillar": "makes-rolls-royce-craftsmanship-phantom",
+   "order": 20,
+   "publishAt": "2026-08-06T14:37:20+04:00"
+  },
+  {
+   "n": 258,
+   "slug": "rolls-royce-phantom-dubai-luxury-rental",
+   "role": "Pillar",
+   "cluster": "MODEL-INFO",
+   "pillar": "rolls-royce-phantom-dubai-luxury-rental",
+   "order": 21,
+   "publishAt": "2026-08-06T19:13:48+04:00"
+  },
+  {
+   "n": 226,
+   "slug": "rolls-royce-wraith-black-badge-dubais-boldest-renters-choose",
+   "role": "Pillar",
+   "cluster": "RENTAL-COMMERCIAL",
+   "pillar": "rolls-royce-wraith-black-badge-dubais-boldest-renters-choose",
+   "order": 22,
+   "publishAt": "2026-08-07T14:54:42+04:00"
+  },
+  {
+   "n": 107,
+   "slug": "rolls-royce-so-expensive-youre-really-paying",
+   "role": "Pillar",
+   "cluster": "PRICE-INFO",
+   "pillar": "rolls-royce-so-expensive-youre-really-paying",
+   "order": 23,
+   "publishAt": "2026-08-08T08:44:46+04:00"
+  },
+  {
+   "n": 151,
+   "slug": "rolls-royce-ghost-phantom-rent-dubai",
+   "role": "Pillar",
+   "cluster": "COMPARISON",
+   "pillar": "rolls-royce-ghost-phantom-rent-dubai",
+   "order": 24,
+   "publishAt": "2026-08-08T13:37:55+04:00"
+  },
+  {
+   "n": 17,
+   "slug": "owned-rolls-royce-timeline-royce-bmw",
+   "role": "Pillar",
+   "cluster": "BRAND-INFO",
+   "pillar": "owned-rolls-royce-timeline-royce-bmw",
+   "order": 25,
+   "publishAt": "2026-08-09T12:45:11+04:00"
+  },
+  {
+   "n": 269,
+   "slug": "rolls-royce-silver-wraith-classic-legacy-dubai-lovers",
+   "role": "Pillar",
+   "cluster": "MODEL-INFO",
+   "pillar": "rolls-royce-silver-wraith-classic-legacy-dubai-lovers",
+   "order": 26,
+   "publishAt": "2026-08-09T14:10:13+04:00"
+  },
+  {
+   "n": 236,
+   "slug": "phantom-interior-worth-renting-cabin-dubai",
+   "role": "Pillar",
+   "cluster": "RENTAL-COMMERCIAL",
+   "pillar": "phantom-interior-worth-renting-cabin-dubai",
+   "order": 27,
+   "publishAt": "2026-08-09T18:45:21+04:00"
+  },
+  {
+   "n": 264,
+   "slug": "rolls-royce-cullinan-black-badge-price-dubai-renters",
+   "role": "Pillar",
+   "cluster": "PRICE-INFO",
+   "pillar": "rolls-royce-cullinan-black-badge-price-dubai-renters",
+   "order": 28,
+   "publishAt": "2026-08-09T22:37:16+04:00"
+  },
+  {
+   "n": 163,
+   "slug": "rolls-royce-phantom-ghost-renters-comparison-dubai",
+   "role": "Pillar",
+   "cluster": "COMPARISON",
+   "pillar": "rolls-royce-phantom-ghost-renters-comparison-dubai",
+   "order": 29,
+   "publishAt": "2026-08-11T15:43:29+04:00"
+  },
+  {
+   "n": 20,
+   "slug": "rolls-royce-cars-made-goodwood-england",
+   "role": "Pillar",
+   "cluster": "BRAND-INFO",
+   "pillar": "rolls-royce-cars-made-goodwood-england",
+   "order": 30,
+   "publishAt": "2026-08-11T16:40:27+04:00"
+  },
+  {
+   "n": 2,
+   "slug": "owns-rolls-royce-dubai-insiders-brand",
+   "role": "Supporting",
+   "cluster": "BRAND-INFO",
+   "pillar": "owns-rolls-royce-dubais-most-coveted-car",
+   "order": 31,
+   "publishAt": "2026-08-12T01:15:46+04:00"
+  },
+  {
+   "n": 281,
+   "slug": "rolls-royce-ghost-right-dubai-rental",
+   "role": "Pillar",
+   "cluster": "MODEL-INFO",
+   "pillar": "rolls-royce-ghost-right-dubai-rental",
+   "order": 32,
+   "publishAt": "2026-08-12T09:01:21+04:00"
+  },
+  {
+   "n": 252,
+   "slug": "rolls-royce-cullinan-matte-black-dubais-boldest-suv-glow",
+   "role": "Pillar",
+   "cluster": "RENTAL-COMMERCIAL",
+   "pillar": "rolls-royce-cullinan-matte-black-dubais-boldest-suv-glow",
+   "order": 33,
+   "publishAt": "2026-08-12T10:11:21+04:00"
+  },
+  {
+   "n": 284,
+   "slug": "rolls-royce-cullinan-black-badge-price-2026-dubai",
+   "role": "Pillar",
+   "cluster": "PRICE-INFO",
+   "pillar": "rolls-royce-cullinan-black-badge-price-2026-dubai",
+   "order": 34,
+   "publishAt": "2026-08-12T13:34:04+04:00"
+  },
+  {
+   "n": 173,
+   "slug": "bentley-bentayga-rolls-royce-cullinan-rent",
+   "role": "Pillar",
+   "cluster": "COMPARISON",
+   "pillar": "bentley-bentayga-rolls-royce-cullinan-rent",
+   "order": 35,
+   "publishAt": "2026-08-13T11:25:54+04:00"
+  },
+  {
+   "n": 22,
+   "slug": "rolls-royce-made-home-bespoke-luxury",
+   "role": "Pillar",
+   "cluster": "BRAND-INFO",
+   "pillar": "rolls-royce-made-home-bespoke-luxury",
+   "order": 36,
+   "publishAt": "2026-08-13T19:52:31+04:00"
+  },
+  {
+   "n": 282,
+   "slug": "2025-rolls-royce-cullinan-black-badge-dubai-rental",
+   "role": "Pillar",
+   "cluster": "MODEL-INFO",
+   "pillar": "2025-rolls-royce-cullinan-black-badge-dubai-rental",
+   "order": 37,
+   "publishAt": "2026-08-15T14:24:46+04:00"
+  },
+  {
+   "n": 263,
+   "slug": "ghost-car-rent-one-dubai",
+   "role": "Pillar",
+   "cluster": "RENTAL-COMMERCIAL",
+   "pillar": "ghost-car-rent-one-dubai",
+   "order": 38,
+   "publishAt": "2026-08-17T01:14:29+04:00"
+  },
+  {
+   "n": 292,
+   "slug": "much-rolls-royce-ghost-daily-rental-rates-dubai",
+   "role": "Pillar",
+   "cluster": "PRICE-INFO",
+   "pillar": "much-rolls-royce-ghost-daily-rental-rates-dubai",
+   "order": 39,
+   "publishAt": "2026-08-17T09:25:10+04:00"
+  },
+  {
+   "n": 183,
+   "slug": "rolls-royce-cullinan-bentley-bentayga-rent-dubai",
+   "role": "Pillar",
+   "cluster": "COMPARISON",
+   "pillar": "rolls-royce-cullinan-bentley-bentayga-rent-dubai",
+   "order": 40,
+   "publishAt": "2026-08-17T15:04:48+04:00"
+  },
+  {
+   "n": 24,
+   "slug": "owns-rolls-royce-car-company-ownership-heritage-future",
+   "role": "Pillar",
+   "cluster": "BRAND-INFO",
+   "pillar": "owns-rolls-royce-car-company-ownership-heritage-future",
+   "order": 41,
+   "publishAt": "2026-08-17T16:36:35+04:00"
+  },
+  {
+   "n": 287,
+   "slug": "pictures-rolls-royce-phantom-see-before-renting-dubai",
+   "role": "Pillar",
+   "cluster": "MODEL-INFO",
+   "pillar": "pictures-rolls-royce-phantom-see-before-renting-dubai",
+   "order": 42,
+   "publishAt": "2026-08-18T08:10:27+04:00"
+  },
+  {
+   "n": 274,
+   "slug": "whats-phantom-worth-knowing-before-rent-dubai",
+   "role": "Pillar",
+   "cluster": "RENTAL-COMMERCIAL",
+   "pillar": "whats-phantom-worth-knowing-before-rent-dubai",
+   "order": 43,
+   "publishAt": "2026-08-18T09:08:05+04:00"
+  },
+  {
+   "n": 305,
+   "slug": "rolls-royce-ghost-black-badge-price-rent-smarter-dubai",
+   "role": "Pillar",
+   "cluster": "PRICE-INFO",
+   "pillar": "rolls-royce-ghost-black-badge-price-rent-smarter-dubai",
+   "order": 44,
+   "publishAt": "2026-08-18T10:04:45+04:00"
+  },
+  {
+   "n": 191,
+   "slug": "rolls-royce-ghost-2012-2017-reliability-compared",
+   "role": "Pillar",
+   "cluster": "COMPARISON",
+   "pillar": "rolls-royce-ghost-2012-2017-reliability-compared",
+   "order": 45,
+   "publishAt": "2026-08-18T17:54:27+04:00"
+  },
+  {
+   "n": 25,
+   "slug": "owns-rolls-royce-separating-cars-jet-engines",
+   "role": "Pillar",
+   "cluster": "BRAND-INFO",
+   "pillar": "owns-rolls-royce-separating-cars-jet-engines",
+   "order": 46,
+   "publishAt": "2026-08-19T09:24:27+04:00"
+  },
+  {
+   "n": 295,
+   "slug": "cullinan-rent-one-dubai",
+   "role": "Pillar",
+   "cluster": "MODEL-INFO",
+   "pillar": "cullinan-rent-one-dubai",
+   "order": 47,
+   "publishAt": "2026-08-19T12:45:05+04:00"
+  },
+  {
+   "n": 150,
+   "slug": "5-reasons-rolls-royce-out-comforts-maybach-dubai",
+   "role": "Supporting",
+   "cluster": "COMPARISON",
+   "pillar": "rolls-royce-more-comfortable-than-maybach-dubai-verdict",
+   "order": 48,
+   "publishAt": "2026-08-19T16:39:17+04:00"
+  },
+  {
+   "n": 335,
+   "slug": "can-phantom-be-rented-day-dubai-yes-heres",
+   "role": "Pillar",
+   "cluster": "RENTAL-COMMERCIAL",
+   "pillar": "can-phantom-be-rented-day-dubai-yes-heres",
+   "order": 49,
+   "publishAt": "2026-08-19T17:25:42+04:00"
+  },
+  {
+   "n": 307,
+   "slug": "rolls-royce-ghost-series-2-price-rent-own-dubai",
+   "role": "Pillar",
+   "cluster": "PRICE-INFO",
+   "pillar": "rolls-royce-ghost-series-2-price-rent-own-dubai",
+   "order": 50,
+   "publishAt": "2026-08-20T09:34:42+04:00"
+  },
+  {
+   "n": 198,
+   "slug": "rolls-royce-bentley-maybach-rent-dubai",
+   "role": "Pillar",
+   "cluster": "COMPARISON",
+   "pillar": "rolls-royce-bentley-maybach-rent-dubai",
+   "order": 51,
+   "publishAt": "2026-08-20T13:27:37+04:00"
+  },
+  {
+   "n": 28,
+   "slug": "rolls-royce-made-craft-spirit-ecstasy",
+   "role": "Pillar",
+   "cluster": "BRAND-INFO",
+   "pillar": "rolls-royce-made-craft-spirit-ecstasy",
+   "order": 52,
+   "publishAt": "2026-08-20T15:19:27+04:00"
+  },
+  {
+   "n": 296,
+   "slug": "black-rolls-royce-ghost-blue-interior-dubai-bespoke-pick",
+   "role": "Pillar",
+   "cluster": "MODEL-INFO",
+   "pillar": "black-rolls-royce-ghost-blue-interior-dubai-bespoke-pick",
+   "order": 53,
+   "publishAt": "2026-08-20T16:42:38+04:00"
+  },
+  {
+   "n": 117,
+   "slug": "fast-does-rolls-royce-go-top-speeds-across-fleet",
+   "role": "Supporting",
+   "cluster": "BRAND-INFO",
+   "pillar": "fast-does-rolls-royce-go-power-luxury",
+   "order": 54,
+   "publishAt": "2026-08-21T07:26:22+04:00"
+  },
+  {
+   "n": 337,
+   "slug": "car-phantom-rent-one-dubai",
+   "role": "Pillar",
+   "cluster": "RENTAL-COMMERCIAL",
+   "pillar": "car-phantom-rent-one-dubai",
+   "order": 55,
+   "publishAt": "2026-08-22T09:32:18+04:00"
+  },
+  {
+   "n": 309,
+   "slug": "phantom-price-india-dubai-place-rent-one",
+   "role": "Pillar",
+   "cluster": "PRICE-INFO",
+   "pillar": "phantom-price-india-dubai-place-rent-one",
+   "order": 56,
+   "publishAt": "2026-08-22T17:09:33+04:00"
+  },
+  {
+   "n": 205,
+   "slug": "rolls-royce-mercedes-better-rent-dubai",
+   "role": "Pillar",
+   "cluster": "COMPARISON",
+   "pillar": "rolls-royce-mercedes-better-rent-dubai",
+   "order": 57,
+   "publishAt": "2026-08-22T21:51:20+04:00"
+  },
+  {
+   "n": 3,
+   "slug": "owns-rolls-royce-bmw-heritage-cars-rent-dubai",
+   "role": "Supporting",
+   "cluster": "BRAND-INFO",
+   "pillar": "owns-rolls-royce-dubais-most-coveted-car",
+   "order": 58,
+   "publishAt": "2026-08-23T05:26:29+04:00"
+  },
+  {
+   "n": 31,
+   "slug": "rolls-royce-british-roots-dubai-favourite",
+   "role": "Pillar",
+   "cluster": "BRAND-INFO",
+   "pillar": "rolls-royce-british-roots-dubai-favourite",
+   "order": 59,
+   "publishAt": "2026-08-23T11:17:54+04:00"
+  },
+  {
+   "n": 298,
+   "slug": "7-seat-cullinan-dubai-families-interior-space-comfort",
+   "role": "Pillar",
+   "cluster": "MODEL-INFO",
+   "pillar": "7-seat-cullinan-dubai-families-interior-space-comfort",
+   "order": 60,
+   "publishAt": "2026-08-23T17:08:03+04:00"
+  },
+  {
+   "n": 403,
+   "slug": "much-does-rolls-royce-cost-day-costs-dubai",
+   "role": "Pillar",
+   "cluster": "RENTAL-COMMERCIAL",
+   "pillar": "much-does-rolls-royce-cost-day-costs-dubai",
+   "order": 61,
+   "publishAt": "2026-08-23T20:55:09+04:00"
+  },
+  {
+   "n": 310,
+   "slug": "phantom-price-usa-rent-flagship-dubai-instead",
+   "role": "Pillar",
+   "cluster": "PRICE-INFO",
+   "pillar": "phantom-price-usa-rent-flagship-dubai-instead",
+   "order": 62,
+   "publishAt": "2026-08-24T10:47:50+04:00"
+  },
+  {
+   "n": 167,
+   "slug": "choose-phantom-over-ghost-dubai",
+   "role": "Supporting",
+   "cluster": "COMPARISON",
+   "pillar": "rolls-royce-phantom-ghost-renters-comparison-dubai",
+   "order": 63,
+   "publishAt": "2026-08-24T12:15:12+04:00"
+  },
+  {
+   "n": 212,
+   "slug": "bentley-bentayga-rolls-royce-cullinan-specs-compared",
+   "role": "Pillar",
+   "cluster": "COMPARISON",
+   "pillar": "bentley-bentayga-rolls-royce-cullinan-specs-compared",
+   "order": 64,
+   "publishAt": "2026-08-24T13:23:22+04:00"
+  },
+  {
+   "n": 37,
+   "slug": "rolls-royce-reliable-honest-owner-renter-perspective",
+   "role": "Pillar",
+   "cluster": "BRAND-INFO",
+   "pillar": "rolls-royce-reliable-honest-owner-renter-perspective",
+   "order": 65,
+   "publishAt": "2026-08-25T10:13:53+04:00"
+  },
+  {
+   "n": 172,
+   "slug": "makes-phantom-more-imposing-than-ghost",
+   "role": "Supporting",
+   "cluster": "COMPARISON",
+   "pillar": "rolls-royce-phantom-ghost-renters-comparison-dubai",
+   "order": 66,
+   "publishAt": "2026-08-25T17:17:52+04:00"
+  },
+  {
+   "n": 302,
+   "slug": "car-ghost-rent-dubai",
+   "role": "Pillar",
+   "cluster": "MODEL-INFO",
+   "pillar": "car-ghost-rent-dubai",
+   "order": 67,
+   "publishAt": "2026-08-26T10:38:08+04:00"
+  },
+  {
+   "n": 422,
+   "slug": "much-most-expensive-rolls-royce-rent",
+   "role": "Pillar",
+   "cluster": "RENTAL-COMMERCIAL",
+   "pillar": "much-most-expensive-rolls-royce-rent",
+   "order": 68,
+   "publishAt": "2026-08-26T14:52:33+04:00"
+  },
+  {
+   "n": 49,
+   "slug": "makes-rolls-royce-most-luxurious-car-world",
+   "role": "Supporting",
+   "cluster": "MODEL-INFO",
+   "pillar": "most-luxurious-car-world-available-rent-dubai",
+   "order": 69,
+   "publishAt": "2026-08-26T20:27:19+04:00"
+  },
+  {
+   "n": 311,
+   "slug": "rolls-royce-phantom-price-india-rent-daily-dubai",
+   "role": "Pillar",
+   "cluster": "PRICE-INFO",
+   "pillar": "rolls-royce-phantom-price-india-rent-daily-dubai",
+   "order": 70,
+   "publishAt": "2026-08-26T22:07:10+04:00"
+  },
+  {
+   "n": 218,
+   "slug": "rolls-royce-ghost-2012-2017-differences-reliability",
+   "role": "Pillar",
+   "cluster": "COMPARISON",
+   "pillar": "rolls-royce-ghost-2012-2017-differences-reliability",
+   "order": 71,
+   "publishAt": "2026-08-27T11:40:08+04:00"
+  },
+  {
+   "n": 39,
+   "slug": "rolls-royce-built-goodwood-home-luxury",
+   "role": "Pillar",
+   "cluster": "BRAND-INFO",
+   "pillar": "rolls-royce-built-goodwood-home-luxury",
+   "order": 72,
+   "publishAt": "2026-08-27T14:49:42+04:00"
+  },
+  {
+   "n": 168,
+   "slug": "phantom-ghost-rolls-royce-fits-occasion",
+   "role": "Supporting",
+   "cluster": "COMPARISON",
+   "pillar": "rolls-royce-phantom-ghost-renters-comparison-dubai",
+   "order": 73,
+   "publishAt": "2026-08-27T22:30:28+04:00"
+  },
+  {
+   "n": 303,
+   "slug": "phantom-car-rent-one-dubai",
+   "role": "Pillar",
+   "cluster": "MODEL-INFO",
+   "pillar": "phantom-car-rent-one-dubai",
+   "order": 74,
+   "publishAt": "2026-08-28T10:53:34+04:00"
+  },
+  {
+   "n": 442,
+   "slug": "much-rolls-royce-ghost-dubai-hire-less",
+   "role": "Pillar",
+   "cluster": "RENTAL-COMMERCIAL",
+   "pillar": "much-rolls-royce-ghost-dubai-hire-less",
+   "order": 75,
+   "publishAt": "2026-08-28T18:57:42+04:00"
+  },
+  {
+   "n": 338,
+   "slug": "rolls-royce-black-badge-ghost-price-dubai-rental",
+   "role": "Pillar",
+   "cluster": "PRICE-INFO",
+   "pillar": "rolls-royce-black-badge-ghost-price-dubai-rental",
+   "order": 76,
+   "publishAt": "2026-08-29T06:41:45+04:00"
+  },
+  {
+   "n": 223,
+   "slug": "bentley-rolls-royce-same-company-myth-debunked",
+   "role": "Pillar",
+   "cluster": "COMPARISON",
+   "pillar": "bentley-rolls-royce-same-company-myth-debunked",
+   "order": 77,
+   "publishAt": "2026-08-29T23:19:22+04:00"
+  },
+  {
+   "n": 41,
+   "slug": "makes-rolls-royce-hands-hallmark",
+   "role": "Pillar",
+   "cluster": "BRAND-INFO",
+   "pillar": "makes-rolls-royce-hands-hallmark",
+   "order": 78,
+   "publishAt": "2026-08-30T04:03:11+04:00"
+  },
+  {
+   "n": 304,
+   "slug": "2025-rolls-royce-ghost-black-badge-dubai-rental",
+   "role": "Pillar",
+   "cluster": "MODEL-INFO",
+   "pillar": "2025-rolls-royce-ghost-black-badge-dubai-rental",
+   "order": 79,
+   "publishAt": "2026-08-30T09:43:44+04:00"
+  },
+  {
+   "n": 443,
+   "slug": "much-rolls-royce-phantom-rent-dubai-aed-3800",
+   "role": "Pillar",
+   "cluster": "RENTAL-COMMERCIAL",
+   "pillar": "much-rolls-royce-phantom-rent-dubai-aed-3800",
+   "order": 80,
+   "publishAt": "2026-08-30T11:35:48+04:00"
+  },
+  {
+   "n": 340,
+   "slug": "rolls-royce-cullinan-series-2-price-2026-dubai-rental",
+   "role": "Pillar",
+   "cluster": "PRICE-INFO",
+   "pillar": "rolls-royce-cullinan-series-2-price-2026-dubai-rental",
+   "order": 81,
+   "publishAt": "2026-08-30T23:13:08+04:00"
+  },
+  {
+   "n": 245,
+   "slug": "ghost-phantom-rolls-royce-rent-dubai",
+   "role": "Pillar",
+   "cluster": "COMPARISON",
+   "pillar": "ghost-phantom-rolls-royce-rent-dubai",
+   "order": 82,
+   "publishAt": "2026-08-31T08:45:44+04:00"
+  },
+  {
+   "n": 42,
+   "slug": "owned-rolls-royce-before-bmw-ownership-timeline",
+   "role": "Pillar",
+   "cluster": "BRAND-INFO",
+   "pillar": "owned-rolls-royce-before-bmw-ownership-timeline",
+   "order": 83,
+   "publishAt": "2026-08-31T09:55:44+04:00"
+  },
+  {
+   "n": 227,
+   "slug": "wraith-black-badge-worth-renting-dubai-honest-look",
+   "role": "Supporting",
+   "cluster": "RENTAL-COMMERCIAL",
+   "pillar": "rolls-royce-wraith-black-badge-dubais-boldest-renters-choose",
+   "order": 84,
+   "publishAt": "2026-08-31T12:37:03+04:00"
+  },
+  {
+   "n": 312,
+   "slug": "black-on-black-rolls-royce-wraith-dubais-most-sinister-pick",
+   "role": "Pillar",
+   "cluster": "MODEL-INFO",
+   "pillar": "black-on-black-rolls-royce-wraith-dubais-most-sinister-pick",
+   "order": 85,
+   "publishAt": "2026-08-31T18:06:53+04:00"
+  },
+  {
+   "n": 445,
+   "slug": "most-expensive-rolls-royce-can-rent-dubai",
+   "role": "Pillar",
+   "cluster": "RENTAL-COMMERCIAL",
+   "pillar": "most-expensive-rolls-royce-can-rent-dubai",
+   "order": 86,
+   "publishAt": "2026-09-01T03:13:18+04:00"
+  },
+  {
+   "n": 342,
+   "slug": "phantom-car-price-india-heres-dubai-rental-option",
+   "role": "Pillar",
+   "cluster": "PRICE-INFO",
+   "pillar": "phantom-car-price-india-heres-dubai-rental-option",
+   "order": 87,
+   "publishAt": "2026-09-01T17:26:14+04:00"
+  },
+  {
+   "n": 273,
+   "slug": "matte-black-white-best-phantom-colours-rent-dubai",
+   "role": "Pillar",
+   "cluster": "COMPARISON",
+   "pillar": "matte-black-white-best-phantom-colours-rent-dubai",
+   "order": 88,
+   "publishAt": "2026-09-02T10:31:36+04:00"
+  },
+  {
+   "n": 77,
+   "slug": "makes-rolls-royce-so-expensive-closer-look",
+   "role": "Supporting",
+   "cluster": "PRICE-INFO",
+   "pillar": "rolls-royce-so-expensive-7-reasons-price",
+   "order": 89,
+   "publishAt": "2026-09-02T13:25:04+04:00"
+  },
+  {
+   "n": 43,
+   "slug": "owns-rolls-royce-marque-clear-answer-renters",
+   "role": "Pillar",
+   "cluster": "BRAND-INFO",
+   "pillar": "owns-rolls-royce-marque-clear-answer-renters",
+   "order": 90,
+   "publishAt": "2026-09-02T14:36:51+04:00"
+  },
+  {
+   "n": 319,
+   "slug": "spectre-bailey-dog-inspired-design-dubai-first",
+   "role": "Pillar",
+   "cluster": "MODEL-INFO",
+   "pillar": "spectre-bailey-dog-inspired-design-dubai-first",
+   "order": 91,
+   "publishAt": "2026-09-02T19:10:23+04:00"
+  },
+  {
+   "n": 460,
+   "slug": "much-rolls-royce-phantom-skip-purchase-rent-dubai",
+   "role": "Pillar",
+   "cluster": "RENTAL-COMMERCIAL",
+   "pillar": "much-rolls-royce-phantom-skip-purchase-rent-dubai",
+   "order": 92,
+   "publishAt": "2026-09-03T00:20:10+04:00"
+  },
+  {
+   "n": 343,
+   "slug": "rolls-royce-phantom-price-india-rent-flagship-dubai",
+   "role": "Pillar",
+   "cluster": "PRICE-INFO",
+   "pillar": "rolls-royce-phantom-price-india-rent-flagship-dubai",
+   "order": 93,
+   "publishAt": "2026-09-03T17:36:21+04:00"
+  },
+  {
+   "n": 332,
+   "slug": "ghost-series-ii-series-rent-dubai",
+   "role": "Pillar",
+   "cluster": "COMPARISON",
+   "pillar": "ghost-series-ii-series-rent-dubai",
+   "order": 94,
+   "publishAt": "2026-09-03T19:10:42+04:00"
+  },
+  {
+   "n": 51,
+   "slug": "rolls-royce-british-heritage-marque",
+   "role": "Pillar",
+   "cluster": "BRAND-INFO",
+   "pillar": "rolls-royce-british-heritage-marque",
+   "order": 95,
+   "publishAt": "2026-09-04T19:25:11+04:00"
+  },
+  {
+   "n": 321,
+   "slug": "cullinan-rolls-royces-truck-luxury-hauling-dubai",
+   "role": "Pillar",
+   "cluster": "MODEL-INFO",
+   "pillar": "cullinan-rolls-royces-truck-luxury-hauling-dubai",
+   "order": 96,
+   "publishAt": "2026-09-04T20:32:20+04:00"
+  },
+  {
+   "n": 496,
+   "slug": "much-2025-rolls-royce-rent-dubai",
+   "role": "Pillar",
+   "cluster": "RENTAL-COMMERCIAL",
+   "pillar": "much-2025-rolls-royce-rent-dubai",
+   "order": 97,
+   "publishAt": "2026-09-05T12:32:32+04:00"
+  },
+  {
+   "n": 344,
+   "slug": "rolls-royce-spectre-black-badge-price-dubai-rental",
+   "role": "Pillar",
+   "cluster": "PRICE-INFO",
+   "pillar": "rolls-royce-spectre-black-badge-price-dubai-rental",
+   "order": 98,
+   "publishAt": "2026-09-06T14:21:04+04:00"
+  },
+  {
+   "n": 369,
+   "slug": "phantom-0-60-wraith-0-60-quicker-dubai",
+   "role": "Pillar",
+   "cluster": "COMPARISON",
+   "pillar": "phantom-0-60-wraith-0-60-quicker-dubai",
+   "order": 99,
+   "publishAt": "2026-09-06T17:16:57+04:00"
+  },
+  {
+   "n": 53,
+   "slug": "rolls-royce-cars-built-goodwood",
+   "role": "Pillar",
+   "cluster": "BRAND-INFO",
+   "pillar": "rolls-royce-cars-built-goodwood",
+   "order": 100,
+   "publishAt": "2026-09-07T09:20:44+04:00"
+  },
+  {
+   "n": 219,
+   "slug": "ghost-2012-2017-key-differences-reliability-compared",
+   "role": "Supporting",
+   "cluster": "COMPARISON",
+   "pillar": "rolls-royce-ghost-2012-2017-differences-reliability",
+   "order": 101,
+   "publishAt": "2026-09-07T12:06:03+04:00"
+  },
+  {
+   "n": 323,
+   "slug": "rolls-royce-spectre-news-december-2025-means-dubai",
+   "role": "Pillar",
+   "cluster": "MODEL-INFO",
+   "pillar": "rolls-royce-spectre-news-december-2025-means-dubai",
+   "order": 102,
+   "publishAt": "2026-09-07T14:52:55+04:00"
+  },
+  {
+   "n": 541,
+   "slug": "rent-nice-car-weekend-dubai-top-luxury-picks",
+   "role": "Pillar",
+   "cluster": "RENTAL-COMMERCIAL",
+   "pillar": "rent-nice-car-weekend-dubai-top-luxury-picks",
+   "order": 103,
+   "publishAt": "2026-09-08T06:39:07+04:00"
+  },
+  {
+   "n": 377,
+   "slug": "rolls-royce-spectre-black-badge-price-2026-dubai",
+   "role": "Pillar",
+   "cluster": "PRICE-INFO",
+   "pillar": "rolls-royce-spectre-black-badge-price-2026-dubai",
+   "order": 104,
+   "publishAt": "2026-09-08T07:14:10+04:00"
+  },
+  {
+   "n": 494,
+   "slug": "much-does-rolls-royce-cullinan-cost-rent-dubai",
+   "role": "Pillar",
+   "cluster": "COMPARISON",
+   "pillar": "much-does-rolls-royce-cullinan-cost-rent-dubai",
+   "order": 105,
+   "publishAt": "2026-09-08T08:29:11+04:00"
+  },
+  {
+   "n": 54,
+   "slug": "rolls-royce-manufactured-englands-atelier",
+   "role": "Pillar",
+   "cluster": "BRAND-INFO",
+   "pillar": "rolls-royce-manufactured-englands-atelier",
+   "order": 106,
+   "publishAt": "2026-09-09T10:03:48+04:00"
+  },
+  {
+   "n": 350,
+   "slug": "does-phantom-look-like-dubais-flagship-up-close",
+   "role": "Pillar",
+   "cluster": "MODEL-INFO",
+   "pillar": "does-phantom-look-like-dubais-flagship-up-close",
+   "order": 107,
+   "publishAt": "2026-09-09T11:37:07+04:00"
+  },
+  {
+   "n": 618,
+   "slug": "rent-rolls-royce-wedding-dubai-packages-models",
+   "role": "Pillar",
+   "cluster": "RENTAL-COMMERCIAL",
+   "pillar": "rent-rolls-royce-wedding-dubai-packages-models",
+   "order": 108,
+   "publishAt": "2026-09-09T13:59:09+04:00"
+  },
+  {
+   "n": 391,
+   "slug": "much-rolls-royce-smarter-way-drive-one-dubai",
+   "role": "Pillar",
+   "cluster": "PRICE-INFO",
+   "pillar": "much-rolls-royce-smarter-way-drive-one-dubai",
+   "order": 109,
+   "publishAt": "2026-09-10T09:35:30+04:00"
+  },
+  {
+   "n": 500,
+   "slug": "price-new-rolls-royce-renting-one-dubai",
+   "role": "Pillar",
+   "cluster": "COMPARISON",
+   "pillar": "price-new-rolls-royce-renting-one-dubai",
+   "order": 110,
+   "publishAt": "2026-09-10T15:31:53+04:00"
+  },
+  {
+   "n": 139,
+   "slug": "rolls-royce-maybach-rear-seat-comfort-comparison",
+   "role": "Supporting",
+   "cluster": "COMPARISON",
+   "pillar": "rolls-royce-more-comfortable-than-maybach-dubai-verdict",
+   "order": 111,
+   "publishAt": "2026-09-11T15:36:45+04:00"
+  },
+  {
+   "n": 55,
+   "slug": "owns-rolls-royce-motor-cars-definitive-answer",
+   "role": "Pillar",
+   "cluster": "BRAND-INFO",
+   "pillar": "owns-rolls-royce-motor-cars-definitive-answer",
+   "order": 112,
+   "publishAt": "2026-09-11T21:18:11+04:00"
+  },
+  {
+   "n": 221,
+   "slug": "rolls-royce-ghost-2012-2017-renters-difference",
+   "role": "Supporting",
+   "cluster": "COMPARISON",
+   "pillar": "rolls-royce-ghost-2012-2017-differences-reliability",
+   "order": 113,
+   "publishAt": "2026-09-13T03:28:37+04:00"
+  },
+  {
+   "n": 356,
+   "slug": "cullinan-black-badge-interior-dubais-dark-luxury",
+   "role": "Pillar",
+   "cluster": "MODEL-INFO",
+   "pillar": "cullinan-black-badge-interior-dubais-dark-luxury",
+   "order": 114,
+   "publishAt": "2026-09-13T12:03:05+04:00"
+  },
+  {
+   "n": 623,
+   "slug": "rent-rolls-royce-driver-dubai-chauffeur-service",
+   "role": "Pillar",
+   "cluster": "RENTAL-COMMERCIAL",
+   "pillar": "rent-rolls-royce-driver-dubai-chauffeur-service",
+   "order": 115,
+   "publishAt": "2026-09-13T16:37:13+04:00"
+  },
+  {
+   "n": 399,
+   "slug": "much-rolls-royce-sets-back-aed-3800/day-rent",
+   "role": "Pillar",
+   "cluster": "PRICE-INFO",
+   "pillar": "much-rolls-royce-sets-back-aed-3800/day-rent",
+   "order": 116,
+   "publishAt": "2026-09-14T10:32:18+04:00"
+  },
+  {
+   "n": 501,
+   "slug": "price-rolls-royce-convertible-renting-dawn-dubai",
+   "role": "Pillar",
+   "cluster": "COMPARISON",
+   "pillar": "price-rolls-royce-convertible-renting-dawn-dubai",
+   "order": 117,
+   "publishAt": "2026-09-14T15:40:24+04:00"
+  },
+  {
+   "n": 308,
+   "slug": "much-ghost-series-2-2026-dubai-price",
+   "role": "Supporting",
+   "cluster": "PRICE-INFO",
+   "pillar": "rolls-royce-ghost-series-2-price-rent-own-dubai",
+   "order": 118,
+   "publishAt": "2026-09-14T16:59:26+04:00"
+  },
+  {
+   "n": 56,
+   "slug": "rolls-royce-made-tour-goodwood-craftsmanship",
+   "role": "Pillar",
+   "cluster": "BRAND-INFO",
+   "pillar": "rolls-royce-made-tour-goodwood-craftsmanship",
+   "order": 119,
+   "publishAt": "2026-09-14T17:38:34+04:00"
+  },
+  {
+   "n": 294,
+   "slug": "much-rolls-royce-ghost-worth-dubai-rent-buy",
+   "role": "Supporting",
+   "cluster": "PRICE-INFO",
+   "pillar": "much-rolls-royce-ghost-daily-rental-rates-dubai",
+   "order": 120,
+   "publishAt": "2026-09-15T00:32:11+04:00"
+  },
+  {
+   "n": 359,
+   "slug": "cullinan-seatbelt-recall-explained-keep-dubai-renters-safe",
+   "role": "Pillar",
+   "cluster": "MODEL-INFO",
+   "pillar": "cullinan-seatbelt-recall-explained-keep-dubai-renters-safe",
+   "order": 121,
+   "publishAt": "2026-09-15T13:25:23+04:00"
+  },
+  {
+   "n": 699,
+   "slug": "much-rent-rolls-royce-prom-dubai-2026",
+   "role": "Pillar",
+   "cluster": "RENTAL-COMMERCIAL",
+   "pillar": "much-rent-rolls-royce-prom-dubai-2026",
+   "order": 122,
+   "publishAt": "2026-09-16T10:29:52+04:00"
+  },
+  {
+   "n": 411,
+   "slug": "much-rr-rent-dubai-buy-outright",
+   "role": "Pillar",
+   "cluster": "PRICE-INFO",
+   "pillar": "much-rr-rent-dubai-buy-outright",
+   "order": 123,
+   "publishAt": "2026-09-16T14:37:10+04:00"
+  },
+  {
+   "n": 61,
+   "slug": "rolls-royce-marque-defines-automotive-luxury",
+   "role": "Pillar",
+   "cluster": "BRAND-INFO",
+   "pillar": "rolls-royce-marque-defines-automotive-luxury",
+   "order": 124,
+   "publishAt": "2026-09-16T16:14:17+04:00"
+  },
+  {
+   "n": 361,
+   "slug": "silver-ghost-theft-recovery-rolls-royce-legend-dubai",
+   "role": "Pillar",
+   "cluster": "MODEL-INFO",
+   "pillar": "silver-ghost-theft-recovery-rolls-royce-legend-dubai",
+   "order": 125,
+   "publishAt": "2026-09-17T09:03:12+04:00"
+  },
+  {
+   "n": 429,
+   "slug": "much-does-rolls-royce-car-cost-2026-dubai",
+   "role": "Pillar",
+   "cluster": "PRICE-INFO",
+   "pillar": "much-does-rolls-royce-car-cost-2026-dubai",
+   "order": 126,
+   "publishAt": "2026-09-17T15:18:38+04:00"
+  },
+  {
+   "n": 63,
+   "slug": "most-expensive-car-company-rolls-royce",
+   "role": "Pillar",
+   "cluster": "BRAND-INFO",
+   "pillar": "most-expensive-car-company-rolls-royce",
+   "order": 127,
+   "publishAt": "2026-09-17T18:13:25+04:00"
+  },
+  {
+   "n": 368,
+   "slug": "2012-ghost-common-problems-flawless-dubai-rental",
+   "role": "Pillar",
+   "cluster": "MODEL-INFO",
+   "pillar": "2012-ghost-common-problems-flawless-dubai-rental",
+   "order": 128,
+   "publishAt": "2026-09-17T18:58:42+04:00"
+  },
+  {
+   "n": 431,
+   "slug": "much-does-rolls-royce-cost-2026-dubai-price-breakdown",
+   "role": "Pillar",
+   "cluster": "PRICE-INFO",
+   "pillar": "much-does-rolls-royce-cost-2026-dubai-price-breakdown",
+   "order": 129,
+   "publishAt": "2026-09-17T21:52:40+04:00"
+  },
+  {
+   "n": 65,
+   "slug": "was-rolls-royce-founded-1904-legend",
+   "role": "Pillar",
+   "cluster": "BRAND-INFO",
+   "pillar": "was-rolls-royce-founded-1904-legend",
+   "order": 130,
+   "publishAt": "2026-09-19T12:33:24+04:00"
+  },
+  {
+   "n": 370,
+   "slug": "phantom-mpg-other-flagships-real-costs-dubai-renters",
+   "role": "Pillar",
+   "cluster": "MODEL-INFO",
+   "pillar": "phantom-mpg-other-flagships-real-costs-dubai-renters",
+   "order": 131,
+   "publishAt": "2026-09-20T10:44:31+04:00"
+  },
+  {
+   "n": 439,
+   "slug": "average-cost-rolls-royce-renting-dubai-worth",
+   "role": "Pillar",
+   "cluster": "PRICE-INFO",
+   "pillar": "average-cost-rolls-royce-renting-dubai-worth",
+   "order": 132,
+   "publishAt": "2026-09-20T11:36:18+04:00"
+  },
+  {
+   "n": 67,
+   "slug": "rolls-royce-cars-manufactured-goodwood-atelier",
+   "role": "Pillar",
+   "cluster": "BRAND-INFO",
+   "pillar": "rolls-royce-cars-manufactured-goodwood-atelier",
+   "order": 133,
+   "publishAt": "2026-09-20T17:32:43+04:00"
+  },
+  {
+   "n": 371,
+   "slug": "2020-rolls-royce-cullinan-black-badge-still-worth-dubai",
+   "role": "Pillar",
+   "cluster": "MODEL-INFO",
+   "pillar": "2020-rolls-royce-cullinan-black-badge-still-worth-dubai",
+   "order": 134,
+   "publishAt": "2026-09-20T21:26:39+04:00"
+  },
+  {
+   "n": 444,
+   "slug": "much-new-rolls-royce-buy-new-rent-one-dubai",
+   "role": "Pillar",
+   "cluster": "PRICE-INFO",
+   "pillar": "much-new-rolls-royce-buy-new-rent-one-dubai",
+   "order": 135,
+   "publishAt": "2026-09-21T13:21:14+04:00"
+  },
+  {
+   "n": 73,
+   "slug": "rolls-royce-so-expensive-cost-true-bespoke",
+   "role": "Supporting",
+   "cluster": "PRICE-INFO",
+   "pillar": "rolls-royce-so-expensive-7-reasons-price",
+   "order": 136,
+   "publishAt": "2026-09-21T16:38:46+04:00"
+  },
+  {
+   "n": 68,
+   "slug": "rolls-royce-manufactured-look-englands-finest-plant",
+   "role": "Pillar",
+   "cluster": "BRAND-INFO",
+   "pillar": "rolls-royce-manufactured-look-englands-finest-plant",
+   "order": 137,
+   "publishAt": "2026-09-22T11:50:47+04:00"
+  },
+  {
+   "n": 372,
+   "slug": "2023-rolls-royce-ghost-black-badge-dubai-rental",
+   "role": "Pillar",
+   "cluster": "MODEL-INFO",
+   "pillar": "2023-rolls-royce-ghost-black-badge-dubai-rental",
+   "order": 138,
+   "publishAt": "2026-09-22T15:24:50+04:00"
+  },
+  {
+   "n": 404,
+   "slug": "much-does-rolls-royce-cost-2026-price-dubai",
+   "role": "Supporting",
+   "cluster": "PRICE-INFO",
+   "pillar": "much-does-rolls-royce-cost-day-costs-dubai",
+   "order": 139,
+   "publishAt": "2026-09-22T17:10:51+04:00"
+  },
+  {
+   "n": 452,
+   "slug": "cheapest-rolls-royce-best-value-rent-dubai",
+   "role": "Pillar",
+   "cluster": "PRICE-INFO",
+   "pillar": "cheapest-rolls-royce-best-value-rent-dubai",
+   "order": 140,
+   "publishAt": "2026-09-23T07:59:26+04:00"
+  },
+  {
+   "n": 18,
+   "slug": "owned-rolls-royce-through-history-ownership",
+   "role": "Supporting",
+   "cluster": "BRAND-INFO",
+   "pillar": "owned-rolls-royce-timeline-royce-bmw",
+   "order": 141,
+   "publishAt": "2026-09-23T11:07:12+04:00"
+  },
+  {
+   "n": 69,
+   "slug": "rolls-royce-made-goodwood-bespoke-beyond",
+   "role": "Pillar",
+   "cluster": "BRAND-INFO",
+   "pillar": "rolls-royce-made-goodwood-bespoke-beyond",
+   "order": 142,
+   "publishAt": "2026-09-24T11:19:12+04:00"
+  },
+  {
+   "n": 374,
+   "slug": "2025-rolls-royce-spectre-black-badge-electric-luxury-dubai",
+   "role": "Pillar",
+   "cluster": "MODEL-INFO",
+   "pillar": "2025-rolls-royce-spectre-black-badge-electric-luxury-dubai",
+   "order": 143,
+   "publishAt": "2026-09-24T13:36:29+04:00"
+  },
+  {
+   "n": 454,
+   "slug": "much-do-rolls-royce-cost-complete-2026-price",
+   "role": "Pillar",
+   "cluster": "PRICE-INFO",
+   "pillar": "much-do-rolls-royce-cost-complete-2026-price",
+   "order": 144,
+   "publishAt": "2026-09-25T13:24:42+04:00"
+  },
+  {
+   "n": 70,
+   "slug": "owns-rolls-royce-now-current-state-marque",
+   "role": "Pillar",
+   "cluster": "BRAND-INFO",
+   "pillar": "owns-rolls-royce-now-current-state-marque",
+   "order": 145,
+   "publishAt": "2026-09-26T10:47:16+04:00"
+  },
+  {
+   "n": 375,
+   "slug": "2025-rolls-royce-cullinan-black-badge-dubais-flagship-suv",
+   "role": "Pillar",
+   "cluster": "MODEL-INFO",
+   "pillar": "2025-rolls-royce-cullinan-black-badge-dubais-flagship-suv",
+   "order": 146,
+   "publishAt": "2026-09-26T16:25:56+04:00"
+  },
+  {
+   "n": 461,
+   "slug": "much-does-rolls-royce-cost-daily-hire-beats-buying-dubai",
+   "role": "Pillar",
+   "cluster": "PRICE-INFO",
+   "pillar": "much-does-rolls-royce-cost-daily-hire-beats-buying-dubai",
+   "order": 147,
+   "publishAt": "2026-09-27T01:51:36+04:00"
+  },
+  {
+   "n": 228,
+   "slug": "rent-wraith-black-badge-dubais-best-districts",
+   "role": "Supporting",
+   "cluster": "RENTAL-COMMERCIAL",
+   "pillar": "rolls-royce-wraith-black-badge-dubais-boldest-renters-choose",
+   "order": 148,
+   "publishAt": "2026-09-27T09:34:19+04:00"
+  },
+  {
+   "n": 185,
+   "slug": "cullinan-bentayga-grander-suv-dubai-streets",
+   "role": "Supporting",
+   "cluster": "COMPARISON",
+   "pillar": "rolls-royce-cullinan-bentley-bentayga-rent-dubai",
+   "order": 149,
+   "publishAt": "2026-09-27T11:05:42+04:00"
+  },
+  {
+   "n": 80,
+   "slug": "rolls-royce-before-rent",
+   "role": "Pillar",
+   "cluster": "BRAND-INFO",
+   "pillar": "rolls-royce-before-rent",
+   "order": 150,
+   "publishAt": "2026-09-27T12:47:22+04:00"
+  },
+  {
+   "n": 379,
+   "slug": "sinister-black-badge-wraith-dubais-boldest-rental",
+   "role": "Pillar",
+   "cluster": "MODEL-INFO",
+   "pillar": "sinister-black-badge-wraith-dubais-boldest-rental",
+   "order": 151,
+   "publishAt": "2026-09-28T15:43:17+04:00"
+  },
+  {
+   "n": 462,
+   "slug": "much-price-rolls-royce-2026-dubai-cost",
+   "role": "Pillar",
+   "cluster": "PRICE-INFO",
+   "pillar": "much-price-rolls-royce-2026-dubai-cost",
+   "order": 152,
+   "publishAt": "2026-09-28T17:54:23+04:00"
+  },
+  {
+   "n": 82,
+   "slug": "rolls-royce-british-origin",
+   "role": "Pillar",
+   "cluster": "BRAND-INFO",
+   "pillar": "rolls-royce-british-origin",
+   "order": 153,
+   "publishAt": "2026-09-28T22:52:21+04:00"
+  },
+  {
+   "n": 380,
+   "slug": "white-on-white-rolls-royce-ghost-dubais-cleanest-statement",
+   "role": "Pillar",
+   "cluster": "MODEL-INFO",
+   "pillar": "white-on-white-rolls-royce-ghost-dubais-cleanest-statement",
+   "order": 154,
+   "publishAt": "2026-09-29T10:19:46+04:00"
+  },
+  {
+   "n": 285,
+   "slug": "much-does-cullinan-black-badge-cost-rent-dubai",
+   "role": "Supporting",
+   "cluster": "PRICE-INFO",
+   "pillar": "rolls-royce-cullinan-black-badge-price-2026-dubai",
+   "order": 155,
+   "publishAt": "2026-09-29T15:21:12+04:00"
+  },
+  {
+   "n": 466,
+   "slug": "much-brand-new-rolls-royce-rent-latest-dubai",
+   "role": "Pillar",
+   "cluster": "PRICE-INFO",
+   "pillar": "much-brand-new-rolls-royce-rent-latest-dubai",
+   "order": 156,
+   "publishAt": "2026-09-29T17:26:29+04:00"
+  },
+  {
+   "n": 83,
+   "slug": "was-rolls-royce-made-manchester-goodwood",
+   "role": "Pillar",
+   "cluster": "BRAND-INFO",
+   "pillar": "was-rolls-royce-made-manchester-goodwood",
+   "order": 157,
+   "publishAt": "2026-09-30T02:17:57+04:00"
+  },
+  {
+   "n": 246,
+   "slug": "does-rolls-royce-ghost-look-like-dubai-visual",
+   "role": "Supporting",
+   "cluster": "MODEL-INFO",
+   "pillar": "ghost-phantom-rolls-royce-rent-dubai",
+   "order": 158,
+   "publishAt": "2026-09-30T16:54:32+04:00"
+  },
+  {
+   "n": 384,
+   "slug": "ghost-car-rolls-royces-sedan-explained-dubai",
+   "role": "Pillar",
+   "cluster": "MODEL-INFO",
+   "pillar": "ghost-car-rolls-royces-sedan-explained-dubai",
+   "order": 159,
+   "publishAt": "2026-09-30T21:39:50+04:00"
+  },
+  {
+   "n": 473,
+   "slug": "much-does-rolls-royce-cost-2026-dubai",
+   "role": "Pillar",
+   "cluster": "PRICE-INFO",
+   "pillar": "much-does-rolls-royce-cost-2026-dubai",
+   "order": 160,
+   "publishAt": "2026-10-01T09:06:38+04:00"
+  },
+  {
+   "n": 84,
+   "slug": "invented-rolls-royce-royce-rolls-partnership",
+   "role": "Pillar",
+   "cluster": "BRAND-INFO",
+   "pillar": "invented-rolls-royce-royce-rolls-partnership",
+   "order": 161,
+   "publishAt": "2026-10-01T12:59:09+04:00"
+  },
+  {
+   "n": 352,
+   "slug": "phantom-car-rolls-royces-flagship-dubai",
+   "role": "Supporting",
+   "cluster": "MODEL-INFO",
+   "pillar": "phantom-car-rent-one-dubai",
+   "order": 162,
+   "publishAt": "2026-10-02T09:40:32+04:00"
+  },
+  {
+   "n": 222,
+   "slug": "ghost-2012-2017-differences-reliability-rent",
+   "role": "Supporting",
+   "cluster": "COMPARISON",
+   "pillar": "rolls-royce-ghost-2012-2017-differences-reliability",
+   "order": 163,
+   "publishAt": "2026-10-03T03:50:04+04:00"
+  },
+  {
+   "n": 634,
+   "slug": "rent-rolls-royce-wedding-dubai-dawn-convertible",
+   "role": "Supporting",
+   "cluster": "RENTAL-COMMERCIAL",
+   "pillar": "rent-rolls-royce-wedding-dubai-packages-models",
+   "order": 164,
+   "publishAt": "2026-10-03T11:06:13+04:00"
+  },
+  {
+   "n": 189,
+   "slug": "cullinan-more-refined-suv-bentayga",
+   "role": "Supporting",
+   "cluster": "COMPARISON",
+   "pillar": "rolls-royce-cullinan-bentley-bentayga-rent-dubai",
+   "order": 165,
+   "publishAt": "2026-10-04T05:50:22+04:00"
+  },
+  {
+   "n": 388,
+   "slug": "images-rolls-royce-phantom-see-dubais-flagship-rental",
+   "role": "Pillar",
+   "cluster": "MODEL-INFO",
+   "pillar": "images-rolls-royce-phantom-see-dubais-flagship-rental",
+   "order": 166,
+   "publishAt": "2026-10-04T12:51:05+04:00"
+  },
+  {
+   "n": 477,
+   "slug": "expensive-rolls-royce-rental-alternative-dubai",
+   "role": "Pillar",
+   "cluster": "PRICE-INFO",
+   "pillar": "expensive-rolls-royce-rental-alternative-dubai",
+   "order": 167,
+   "publishAt": "2026-10-05T11:03:05+04:00"
+  },
+  {
+   "n": 86,
+   "slug": "made-rolls-royce-founders-automotive-legend",
+   "role": "Pillar",
+   "cluster": "BRAND-INFO",
+   "pillar": "made-rolls-royce-founders-automotive-legend",
+   "order": 168,
+   "publishAt": "2026-10-05T14:59:41+04:00"
+  },
+  {
+   "n": 390,
+   "slug": "pictures-rolls-royce-ghost-see-before-renting-dubai",
+   "role": "Pillar",
+   "cluster": "MODEL-INFO",
+   "pillar": "pictures-rolls-royce-ghost-see-before-renting-dubai",
+   "order": 169,
+   "publishAt": "2026-10-05T15:56:31+04:00"
+  },
+  {
+   "n": 478,
+   "slug": "much-rolls-royce-cars-rent-dubai",
+   "role": "Pillar",
+   "cluster": "PRICE-INFO",
+   "pillar": "much-rolls-royce-cars-rent-dubai",
+   "order": 170,
+   "publishAt": "2026-10-05T17:52:13+04:00"
+  },
+  {
+   "n": 35,
+   "slug": "rolls-royce-so-expensive-rent-one-dubai-see",
+   "role": "Supporting",
+   "cluster": "RENTAL-COMMERCIAL",
+   "pillar": "rolls-royce-so-expensive-dubai-insiders-breakdown",
+   "order": 171,
+   "publishAt": "2026-10-06T10:04:41+04:00"
+  },
+  {
+   "n": 88,
+   "slug": "owns-rolls-royce-car-company-ownership-made-clear",
+   "role": "Pillar",
+   "cluster": "BRAND-INFO",
+   "pillar": "owns-rolls-royce-car-company-ownership-made-clear",
+   "order": 172,
+   "publishAt": "2026-10-06T15:30:24+04:00"
+  },
+  {
+   "n": 410,
+   "slug": "much-rolls-royce-renting-dubai-makes-sense",
+   "role": "Pillar",
+   "cluster": "MODEL-INFO",
+   "pillar": "much-rolls-royce-renting-dubai-makes-sense",
+   "order": 173,
+   "publishAt": "2026-10-06T16:07:05+04:00"
+  },
+  {
+   "n": 76,
+   "slug": "makes-rolls-royce-most-expensive-car-company",
+   "role": "Supporting",
+   "cluster": "PRICE-INFO",
+   "pillar": "most-expensive-car-company-rolls-royce",
+   "order": 174,
+   "publishAt": "2026-10-06T22:39:39+04:00"
+  },
+  {
+   "n": 479,
+   "slug": "much-2025-rolls-royce-rent-newest-models-dubai",
+   "role": "Pillar",
+   "cluster": "PRICE-INFO",
+   "pillar": "much-2025-rolls-royce-rent-newest-models-dubai",
+   "order": 175,
+   "publishAt": "2026-10-07T08:19:41+04:00"
+  },
+  {
+   "n": 92,
+   "slug": "company-owns-rolls-royce-bmw-connection-explained",
+   "role": "Pillar",
+   "cluster": "BRAND-INFO",
+   "pillar": "company-owns-rolls-royce-bmw-connection-explained",
+   "order": 176,
+   "publishAt": "2026-10-07T10:24:15+04:00"
+  },
+  {
+   "n": 412,
+   "slug": "much-rolls-royce-phantom-own-rent-dubai",
+   "role": "Pillar",
+   "cluster": "MODEL-INFO",
+   "pillar": "much-rolls-royce-phantom-own-rent-dubai",
+   "order": 177,
+   "publishAt": "2026-10-07T14:38:13+04:00"
+  },
+  {
+   "n": 480,
+   "slug": "much-rolls-royce-car-buy-rent-dubai",
+   "role": "Pillar",
+   "cluster": "PRICE-INFO",
+   "pillar": "much-rolls-royce-car-buy-rent-dubai",
+   "order": 178,
+   "publishAt": "2026-10-09T07:33:35+04:00"
+  },
+  {
+   "n": 398,
+   "slug": "makes-rolls-royce-so-expensive-price-dubai-rental",
+   "role": "Supporting",
+   "cluster": "PRICE-INFO",
+   "pillar": "much-rolls-royce-smarter-way-drive-one-dubai",
+   "order": 179,
+   "publishAt": "2026-10-10T10:36:08+04:00"
+  },
+  {
+   "n": 94,
+   "slug": "country-rolls-royce-british-heritage-explained",
+   "role": "Pillar",
+   "cluster": "BRAND-INFO",
+   "pillar": "country-rolls-royce-british-heritage-explained",
+   "order": 180,
+   "publishAt": "2026-10-10T17:53:04+04:00"
+  },
+  {
+   "n": 382,
+   "slug": "2025-spectre-black-badge-dubais-first-electric-rolls-royce",
+   "role": "Supporting",
+   "cluster": "MODEL-INFO",
+   "pillar": "2025-rolls-royce-spectre-black-badge-electric-luxury-dubai",
+   "order": 181,
+   "publishAt": "2026-10-11T07:37:04+04:00"
+  },
+  {
+   "n": 417,
+   "slug": "much-rolls-royce-cheapest-way-drive-one-dubai",
+   "role": "Pillar",
+   "cluster": "MODEL-INFO",
+   "pillar": "much-rolls-royce-cheapest-way-drive-one-dubai",
+   "order": 182,
+   "publishAt": "2026-10-11T12:08:49+04:00"
+  },
+  {
+   "n": 490,
+   "slug": "whats-average-price-rolls-royce-2026",
+   "role": "Pillar",
+   "cluster": "PRICE-INFO",
+   "pillar": "whats-average-price-rolls-royce-2026",
+   "order": 183,
+   "publishAt": "2026-10-11T18:28:53+04:00"
+  },
+  {
+   "n": 23,
+   "slug": "rolls-royce-made-look-goodwood-plant",
+   "role": "Supporting",
+   "cluster": "BRAND-INFO",
+   "pillar": "rolls-royce-made-home-bespoke-luxury",
+   "order": 184,
+   "publishAt": "2026-10-12T08:36:24+04:00"
+  },
+  {
+   "n": 12,
+   "slug": "owns-rolls-royce-motor-cars-truth-marque",
+   "role": "Supporting",
+   "cluster": "BRAND-INFO",
+   "pillar": "owns-rolls-royce-ownership-renter",
+   "order": 185,
+   "publishAt": "2026-10-12T09:19:12+04:00"
+  },
+  {
+   "n": 559,
+   "slug": "renting-nice-car-weekend-dubai",
+   "role": "Supporting",
+   "cluster": "RENTAL-COMMERCIAL",
+   "pillar": "rent-nice-car-weekend-dubai-top-luxury-picks",
+   "order": 186,
+   "publishAt": "2026-10-12T10:40:26+04:00"
+  },
+  {
+   "n": 96,
+   "slug": "makes-rolls-royce-cars-goodwood-craft",
+   "role": "Pillar",
+   "cluster": "BRAND-INFO",
+   "pillar": "makes-rolls-royce-cars-goodwood-craft",
+   "order": 187,
+   "publishAt": "2026-10-12T13:33:10+04:00"
+  },
+  {
+   "n": 423,
+   "slug": "much-rolls-royce-suv-rent-dubai-own",
+   "role": "Pillar",
+   "cluster": "MODEL-INFO",
+   "pillar": "much-rolls-royce-suv-rent-dubai-own",
+   "order": 188,
+   "publishAt": "2026-10-13T07:32:41+04:00"
+  },
+  {
+   "n": 499,
+   "slug": "much-cheapest-rolls-royce-rent-dubai",
+   "role": "Pillar",
+   "cluster": "PRICE-INFO",
+   "pillar": "much-cheapest-rolls-royce-rent-dubai",
+   "order": 189,
+   "publishAt": "2026-10-13T10:10:44+04:00"
+  },
+  {
+   "n": 383,
+   "slug": "car-phantom-rolls-royces-flagship-explained-dubai",
+   "role": "Supporting",
+   "cluster": "MODEL-INFO",
+   "pillar": "car-phantom-rent-one-dubai",
+   "order": 190,
+   "publishAt": "2026-10-13T11:01:36+04:00"
+  },
+  {
+   "n": 101,
+   "slug": "did-rolls-royce-start-making-cars-early-years",
+   "role": "Pillar",
+   "cluster": "BRAND-INFO",
+   "pillar": "did-rolls-royce-start-making-cars-early-years",
+   "order": 191,
+   "publishAt": "2026-10-13T14:45:13+04:00"
+  },
+  {
+   "n": 40,
+   "slug": "rolls-royce-built-workshop-phantom",
+   "role": "Supporting",
+   "cluster": "MODEL-INFO",
+   "pillar": "rolls-royce-built-goodwood-home-luxury",
+   "order": 192,
+   "publishAt": "2026-10-14T11:03:44+04:00"
+  },
+  {
+   "n": 437,
+   "slug": "much-rolls-royce-cullinan-own-one-rent-dubai",
+   "role": "Pillar",
+   "cluster": "MODEL-INFO",
+   "pillar": "much-rolls-royce-cullinan-own-one-rent-dubai",
+   "order": 193,
+   "publishAt": "2026-10-14T12:29:26+04:00"
+  },
+  {
+   "n": 504,
+   "slug": "much-does-new-rolls-royce-cost-2026-price-breakdown",
+   "role": "Pillar",
+   "cluster": "PRICE-INFO",
+   "pillar": "much-does-new-rolls-royce-cost-2026-price-breakdown",
+   "order": 194,
+   "publishAt": "2026-10-15T09:02:24+04:00"
+  },
+  {
+   "n": 339,
+   "slug": "much-black-badge-ghost-rent-dubai",
+   "role": "Supporting",
+   "cluster": "PRICE-INFO",
+   "pillar": "rolls-royce-black-badge-ghost-price-dubai-rental",
+   "order": 195,
+   "publishAt": "2026-10-15T15:48:57+04:00"
+  },
+  {
+   "n": 103,
+   "slug": "rolls-royce-built-goodwood-home-luxury-2",
+   "role": "Pillar",
+   "cluster": "BRAND-INFO",
+   "pillar": "rolls-royce-built-goodwood-home-luxury-2",
+   "order": 196,
+   "publishAt": "2026-10-15T21:51:12+04:00"
+  },
+  {
+   "n": 438,
+   "slug": "much-rolls-royce-ghost-buy-rent-dubai",
+   "role": "Pillar",
+   "cluster": "MODEL-INFO",
+   "pillar": "much-rolls-royce-ghost-buy-rent-dubai",
+   "order": 197,
+   "publishAt": "2026-10-15T22:36:57+04:00"
+  },
+  {
+   "n": 512,
+   "slug": "much-rolls-royce-car-cost-2026-dubai-price",
+   "role": "Pillar",
+   "cluster": "PRICE-INFO",
+   "pillar": "much-rolls-royce-car-cost-2026-dubai-price",
+   "order": 198,
+   "publishAt": "2026-10-16T19:59:26+04:00"
+  },
+  {
+   "n": 464,
+   "slug": "cheapest-rolls-royce-entry-price-dubai-hire",
+   "role": "Supporting",
+   "cluster": "MODEL-INFO",
+   "pillar": "cheapest-rolls-royce-best-value-rent-dubai",
+   "order": 199,
+   "publishAt": "2026-10-17T08:59:11+04:00"
+  },
+  {
+   "n": 104,
+   "slug": "started-rolls-royce-1904-meeting-began-all",
+   "role": "Pillar",
+   "cluster": "BRAND-INFO",
+   "pillar": "started-rolls-royce-1904-meeting-began-all",
+   "order": 200,
+   "publishAt": "2026-10-17T13:46:07+04:00"
+  },
+  {
+   "n": 465,
+   "slug": "much-rolls-royce-ghost-cars-rent-dubai",
+   "role": "Pillar",
+   "cluster": "MODEL-INFO",
+   "pillar": "much-rolls-royce-ghost-cars-rent-dubai",
+   "order": 201,
+   "publishAt": "2026-10-18T00:47:28+04:00"
+  },
+  {
+   "n": 217,
+   "slug": "bentayga-cullinan-specs-before-rent",
+   "role": "Supporting",
+   "cluster": "COMPARISON",
+   "pillar": "bentley-bentayga-rolls-royce-cullinan-specs-compared",
+   "order": 202,
+   "publishAt": "2026-10-18T19:01:55+04:00"
+  },
+  {
+   "n": 516,
+   "slug": "expensive-rolls-royce-renting-buying-dubai",
+   "role": "Pillar",
+   "cluster": "PRICE-INFO",
+   "pillar": "expensive-rolls-royce-renting-buying-dubai",
+   "order": 203,
+   "publishAt": "2026-10-19T11:22:41+04:00"
+  },
+  {
+   "n": 166,
+   "slug": "phantom-ghost-presence-poise-dubais-roads",
+   "role": "Supporting",
+   "cluster": "COMPARISON",
+   "pillar": "rolls-royce-phantom-ghost-renters-comparison-dubai",
+   "order": 204,
+   "publishAt": "2026-10-19T15:32:26+04:00"
+  },
+  {
+   "n": 109,
+   "slug": "rolls-royce-german-untangling-bmw-ownership-myth",
+   "role": "Pillar",
+   "cluster": "BRAND-INFO",
+   "pillar": "rolls-royce-german-untangling-bmw-ownership-myth",
+   "order": 205,
+   "publishAt": "2026-10-19T16:50:34+04:00"
+  },
+  {
+   "n": 16,
+   "slug": "makes-rolls-royce-meet-marque-dubais-icons",
+   "role": "Supporting",
+   "cluster": "BRAND-INFO",
+   "pillar": "makes-rolls-royce-craftsmanship-phantom",
+   "order": 206,
+   "publishAt": "2026-10-19T19:11:04+04:00"
+  },
+  {
+   "n": 402,
+   "slug": "much-rolls-royce-costs-lineup-pricing-2026",
+   "role": "Supporting",
+   "cluster": "MODEL-INFO",
+   "pillar": "much-rolls-royce-sets-back-aed-3800/day-rent",
+   "order": 207,
+   "publishAt": "2026-10-20T06:04:04+04:00"
+  },
+  {
+   "n": 467,
+   "slug": "much-rolls-royce-spectre-rent-ev-dubai-2026",
+   "role": "Pillar",
+   "cluster": "MODEL-INFO",
+   "pillar": "much-rolls-royce-spectre-rent-ev-dubai-2026",
+   "order": 208,
+   "publishAt": "2026-10-20T09:13:48+04:00"
+  },
+  {
+   "n": 520,
+   "slug": "much-new-rolls-royce-renting-one-dubai",
+   "role": "Pillar",
+   "cluster": "PRICE-INFO",
+   "pillar": "much-new-rolls-royce-renting-one-dubai",
+   "order": 209,
+   "publishAt": "2026-10-20T17:25:11+04:00"
+  },
+  {
+   "n": 192,
+   "slug": "ghost-2012-2017-more-reliable-rolls-royce",
+   "role": "Supporting",
+   "cluster": "COMPARISON",
+   "pillar": "rolls-royce-ghost-2012-2017-reliability-compared",
+   "order": 210,
+   "publishAt": "2026-10-20T20:28:36+04:00"
+  },
+  {
+   "n": 208,
+   "slug": "rolls-royce-mercedes-renters-luxury-comparison",
+   "role": "Supporting",
+   "cluster": "COMPARISON",
+   "pillar": "rolls-royce-mercedes-better-rent-dubai",
+   "order": 211,
+   "publishAt": "2026-10-21T09:47:44+04:00"
+  },
+  {
+   "n": 111,
+   "slug": "does-rolls-royce-make-cars-bespoke-beyond",
+   "role": "Pillar",
+   "cluster": "BRAND-INFO",
+   "pillar": "does-rolls-royce-make-cars-bespoke-beyond",
+   "order": 212,
+   "publishAt": "2026-10-21T15:37:14+04:00"
+  },
+  {
+   "n": 213,
+   "slug": "bentayga-cullinan-specs-power-size-luxury-dubai",
+   "role": "Supporting",
+   "cluster": "COMPARISON",
+   "pillar": "bentley-bentayga-rolls-royce-cullinan-specs-compared",
+   "order": 213,
+   "publishAt": "2026-10-21T16:52:51+04:00"
+  },
+  {
+   "n": 468,
+   "slug": "much-rr-ghost-rent-dubai-buy",
+   "role": "Pillar",
+   "cluster": "MODEL-INFO",
+   "pillar": "much-rr-ghost-rent-dubai-buy",
+   "order": 214,
+   "publishAt": "2026-10-22T12:30:03+04:00"
+  },
+  {
+   "n": 46,
+   "slug": "rolls-royce-so-expensive-world-bespoke",
+   "role": "Supporting",
+   "cluster": "PRICE-INFO",
+   "pillar": "rolls-royce-so-expensive-bespoke-truth-explained",
+   "order": 215,
+   "publishAt": "2026-10-22T14:40:20+04:00"
+  },
+  {
+   "n": 220,
+   "slug": "changed-rolls-royce-ghost-2012-2017-differences",
+   "role": "Supporting",
+   "cluster": "COMPARISON",
+   "pillar": "rolls-royce-ghost-2012-2017-differences-reliability",
+   "order": 216,
+   "publishAt": "2026-10-22T20:20:29+04:00"
+  },
+  {
+   "n": 71,
+   "slug": "owns-rolls-royce-now-bmw-modern-era-explained",
+   "role": "Supporting",
+   "cluster": "BRAND-INFO",
+   "pillar": "owns-rolls-royce-now-current-state-marque",
+   "order": 217,
+   "publishAt": "2026-10-23T12:26:26+04:00"
+  },
+  {
+   "n": 521,
+   "slug": "much-royce-rolls-rent-dubai",
+   "role": "Pillar",
+   "cluster": "PRICE-INFO",
+   "pillar": "much-royce-rolls-rent-dubai",
+   "order": 218,
+   "publishAt": "2026-10-24T14:02:03+04:00"
+  },
+  {
+   "n": 118,
+   "slug": "rolls-royce-american-clearing-up-origin-confusion",
+   "role": "Pillar",
+   "cluster": "BRAND-INFO",
+   "pillar": "rolls-royce-american-clearing-up-origin-confusion",
+   "order": 219,
+   "publishAt": "2026-10-25T08:11:53+04:00"
+  },
+  {
+   "n": 469,
+   "slug": "much-electric-rolls-royce-rent-spectre-dubai",
+   "role": "Pillar",
+   "cluster": "MODEL-INFO",
+   "pillar": "much-electric-rolls-royce-rent-spectre-dubai",
+   "order": 220,
+   "publishAt": "2026-10-25T10:13:21+04:00"
+  },
+  {
+   "n": 522,
+   "slug": "much-new-rolls-royce-rent-latest-models-dubai",
+   "role": "Pillar",
+   "cluster": "PRICE-INFO",
+   "pillar": "much-new-rolls-royce-rent-latest-models-dubai",
+   "order": 221,
+   "publishAt": "2026-10-25T20:54:26+04:00"
+  },
+  {
+   "n": 119,
+   "slug": "country-made-rolls-royce-british-origin",
+   "role": "Pillar",
+   "cluster": "BRAND-INFO",
+   "pillar": "country-made-rolls-royce-british-origin",
+   "order": 222,
+   "publishAt": "2026-10-26T10:15:55+04:00"
+  },
+  {
+   "n": 38,
+   "slug": "rolls-royce-reliable-weve-learned-renting-them-dubai",
+   "role": "Supporting",
+   "cluster": "MODEL-INFO",
+   "pillar": "rolls-royce-reliable-honest-owner-renter-perspective",
+   "order": 223,
+   "publishAt": "2026-10-26T10:51:06+04:00"
+  },
+  {
+   "n": 255,
+   "slug": "rent-matte-black-cullinan-dubais-marina",
+   "role": "Supporting",
+   "cluster": "RENTAL-COMMERCIAL",
+   "pillar": "rolls-royce-cullinan-matte-black-dubais-boldest-suv-glow",
+   "order": 224,
+   "publishAt": "2026-10-26T15:32:49+04:00"
+  },
+  {
+   "n": 554,
+   "slug": "rent-nice-car-weekend-difc-dubai-top-choices",
+   "role": "Supporting",
+   "cluster": "RENTAL-COMMERCIAL",
+   "pillar": "rent-nice-car-weekend-dubai-top-luxury-picks",
+   "order": 225,
+   "publishAt": "2026-10-27T01:22:28+04:00"
+  },
+  {
+   "n": 470,
+   "slug": "price-rolls-royce-ghost-renting-wins-dubai",
+   "role": "Pillar",
+   "cluster": "MODEL-INFO",
+   "pillar": "price-rolls-royce-ghost-renting-wins-dubai",
+   "order": 226,
+   "publishAt": "2026-10-27T04:14:18+04:00"
+  },
+  {
+   "n": 524,
+   "slug": "price-rolls-royce-buy-rent-dubai",
+   "role": "Pillar",
+   "cluster": "PRICE-INFO",
+   "pillar": "price-rolls-royce-buy-rent-dubai",
+   "order": 227,
+   "publishAt": "2026-10-27T08:30:57+04:00"
+  },
+  {
+   "n": 457,
+   "slug": "much-rolls-royce-phantom-flagship-price-dubai-hire",
+   "role": "Supporting",
+   "cluster": "MODEL-INFO",
+   "pillar": "much-rolls-royce-phantom-rent-dubai-aed-3800",
+   "order": 228,
+   "publishAt": "2026-10-27T10:40:56+04:00"
+  },
+  {
+   "n": 120,
+   "slug": "country-makes-rolls-royce-englands-finest-marque",
+   "role": "Pillar",
+   "cluster": "BRAND-INFO",
+   "pillar": "country-makes-rolls-royce-englands-finest-marque",
+   "order": 229,
+   "publishAt": "2026-10-27T13:16:43+04:00"
+  },
+  {
+   "n": 44,
+   "slug": "owns-rolls-royce-cars-engines-bmw-connection",
+   "role": "Supporting",
+   "cluster": "BRAND-INFO",
+   "pillar": "owns-rolls-royce-marque-clear-answer-renters",
+   "order": 230,
+   "publishAt": "2026-10-29T08:25:44+04:00"
+  },
+  {
+   "n": 471,
+   "slug": "much-does-rolls-royce-phantom-cost-2026-price",
+   "role": "Pillar",
+   "cluster": "MODEL-INFO",
+   "pillar": "much-does-rolls-royce-phantom-cost-2026-price",
+   "order": 231,
+   "publishAt": "2026-10-29T10:51:10+04:00"
+  },
+  {
+   "n": 526,
+   "slug": "much-rolls-royce-costs-daily-rate-dubai",
+   "role": "Pillar",
+   "cluster": "PRICE-INFO",
+   "pillar": "much-rolls-royce-costs-daily-rate-dubai",
+   "order": 232,
+   "publishAt": "2026-10-29T11:39:48+04:00"
+  },
+  {
+   "n": 121,
+   "slug": "builds-rolls-royce-cars-goodwood-workshop",
+   "role": "Pillar",
+   "cluster": "BRAND-INFO",
+   "pillar": "builds-rolls-royce-cars-goodwood-workshop",
+   "order": 233,
+   "publishAt": "2026-10-29T13:02:45+04:00"
+  },
+  {
+   "n": 481,
+   "slug": "much-rolls-royce-phantom-rent-flagship-dubai",
+   "role": "Pillar",
+   "cluster": "MODEL-INFO",
+   "pillar": "much-rolls-royce-phantom-rent-flagship-dubai",
+   "order": 234,
+   "publishAt": "2026-10-30T08:16:31+04:00"
+  },
+  {
+   "n": 203,
+   "slug": "rolls-royce-bentley-maybach-dubai-wedding",
+   "role": "Supporting",
+   "cluster": "COMPARISON",
+   "pillar": "rolls-royce-bentley-maybach-rent-dubai",
+   "order": 235,
+   "publishAt": "2026-10-31T18:10:09+04:00"
+  },
+  {
+   "n": 560,
+   "slug": "much-rent-rolls-royce-dubai-2026-price",
+   "role": "Pillar",
+   "cluster": "PRICE-INFO",
+   "pillar": "much-rent-rolls-royce-dubai-2026-price",
+   "order": 236,
+   "publishAt": "2026-10-31T19:51:55+04:00"
+  },
+  {
+   "n": 318,
+   "slug": "black-ghost-blue-interior-stands-out-dubai",
+   "role": "Supporting",
+   "cluster": "MODEL-INFO",
+   "pillar": "black-rolls-royce-ghost-blue-interior-dubai-bespoke-pick",
+   "order": 237,
+   "publishAt": "2026-11-01T06:31:57+04:00"
+  },
+  {
+   "n": 122,
+   "slug": "created-rolls-royce-two-remarkable-men",
+   "role": "Pillar",
+   "cluster": "BRAND-INFO",
+   "pillar": "created-rolls-royce-two-remarkable-men",
+   "order": 238,
+   "publishAt": "2026-11-01T09:24:24+04:00"
+  },
+  {
+   "n": 482,
+   "slug": "much-rolls-royce-suv-buy-cullinan-rent-dubai",
+   "role": "Pillar",
+   "cluster": "MODEL-INFO",
+   "pillar": "much-rolls-royce-suv-buy-cullinan-rent-dubai",
+   "order": 239,
+   "publishAt": "2026-11-01T12:04:44+04:00"
+  },
+  {
+   "n": 576,
+   "slug": "much-rent-rolls-royce-dubai-2026-rates",
+   "role": "Pillar",
+   "cluster": "PRICE-INFO",
+   "pillar": "much-rent-rolls-royce-dubai-2026-rates",
+   "order": 240,
+   "publishAt": "2026-11-02T08:06:26+04:00"
+  },
+  {
+   "n": 123,
+   "slug": "founded-rolls-royce-charles-rolls-henry-royce-legend",
+   "role": "Pillar",
+   "cluster": "BRAND-INFO",
+   "pillar": "founded-rolls-royce-charles-rolls-henry-royce-legend",
+   "order": 241,
+   "publishAt": "2026-11-02T11:58:39+04:00"
+  },
+  {
+   "n": 484,
+   "slug": "much-does-rolls-royce-suv-cost-cullinan-price-2026",
+   "role": "Pillar",
+   "cluster": "MODEL-INFO",
+   "pillar": "much-does-rolls-royce-suv-cost-cullinan-price-2026",
+   "order": 242,
+   "publishAt": "2026-11-02T15:07:03+04:00"
+  },
+  {
+   "n": 583,
+   "slug": "much-does-cost-rent-rolls-royce-dubai-2026",
+   "role": "Pillar",
+   "cluster": "PRICE-INFO",
+   "pillar": "much-does-cost-rent-rolls-royce-dubai-2026",
+   "order": 243,
+   "publishAt": "2026-11-04T11:26:16+04:00"
+  },
+  {
+   "n": 125,
+   "slug": "makes-rolls-royce-engines-cars-aerospace-explained",
+   "role": "Pillar",
+   "cluster": "BRAND-INFO",
+   "pillar": "makes-rolls-royce-engines-cars-aerospace-explained",
+   "order": 244,
+   "publishAt": "2026-11-04T22:10:41+04:00"
+  },
+  {
+   "n": 242,
+   "slug": "rolls-royce-phantom-interior-dubai",
+   "role": "Supporting",
+   "cluster": "MODEL-INFO",
+   "pillar": "phantom-interior-worth-renting-cabin-dubai",
+   "order": 245,
+   "publishAt": "2026-11-05T11:28:10+04:00"
+  },
+  {
+   "n": 178,
+   "slug": "bentayga-cullinan-luxury-suv-rules-palm-jumeirah",
+   "role": "Supporting",
+   "cluster": "COMPARISON",
+   "pillar": "bentley-bentayga-rolls-royce-cullinan-rent",
+   "order": 246,
+   "publishAt": "2026-11-05T16:35:06+04:00"
+  },
+  {
+   "n": 306,
+   "slug": "much-ghost-black-badge-dubai-price",
+   "role": "Supporting",
+   "cluster": "PRICE-INFO",
+   "pillar": "rolls-royce-ghost-black-badge-price-rent-smarter-dubai",
+   "order": 247,
+   "publishAt": "2026-11-05T20:17:12+04:00"
+  },
+  {
+   "n": 493,
+   "slug": "much-rolls-royce-wraith-cars-rent-dubai",
+   "role": "Pillar",
+   "cluster": "MODEL-INFO",
+   "pillar": "much-rolls-royce-wraith-cars-rent-dubai",
+   "order": 248,
+   "publishAt": "2026-11-06T05:35:32+04:00"
+  },
+  {
+   "n": 268,
+   "slug": "cullinan-black-badge-price-2026-rent-buy-math-dubai",
+   "role": "Supporting",
+   "cluster": "PRICE-INFO",
+   "pillar": "rolls-royce-cullinan-black-badge-price-dubai-renters",
+   "order": 249,
+   "publishAt": "2026-11-06T19:03:09+04:00"
+  },
+  {
+   "n": 589,
+   "slug": "much-rent-rolls-royce-day-dubai-2026-rates",
+   "role": "Pillar",
+   "cluster": "PRICE-INFO",
+   "pillar": "much-rent-rolls-royce-day-dubai-2026-rates",
+   "order": 250,
+   "publishAt": "2026-11-07T18:14:03+04:00"
+  },
+  {
+   "n": 126,
+   "slug": "makes-rolls-royce-car-marque-badge",
+   "role": "Pillar",
+   "cluster": "BRAND-INFO",
+   "pillar": "makes-rolls-royce-car-marque-badge",
+   "order": 251,
+   "publishAt": "2026-11-08T10:05:26+04:00"
+  },
+  {
+   "n": 351,
+   "slug": "does-phantom-look-like-out-dubai",
+   "role": "Supporting",
+   "cluster": "MODEL-INFO",
+   "pillar": "does-phantom-look-like-dubais-flagship-up-close",
+   "order": 252,
+   "publishAt": "2026-11-08T11:44:19+04:00"
+  },
+  {
+   "n": 27,
+   "slug": "rolls-royce-cars-made",
+   "role": "Supporting",
+   "cluster": "BRAND-INFO",
+   "pillar": "rolls-royce-cars-made-goodwood-england",
+   "order": 253,
+   "publishAt": "2026-11-08T14:42:37+04:00"
+  },
+  {
+   "n": 495,
+   "slug": "much-rolls-royce-wraith-dubai-hire-aed-3800",
+   "role": "Pillar",
+   "cluster": "MODEL-INFO",
+   "pillar": "much-rolls-royce-wraith-dubai-hire-aed-3800",
+   "order": 254,
+   "publishAt": "2026-11-09T07:36:14+04:00"
+  },
+  {
+   "n": 425,
+   "slug": "much-rolls-royce-showroom-price-daily-rental",
+   "role": "Supporting",
+   "cluster": "PRICE-INFO",
+   "pillar": "much-rolls-royce-cheapest-way-drive-one-dubai",
+   "order": 255,
+   "publishAt": "2026-11-09T11:13:10+04:00"
+  },
+  {
+   "n": 614,
+   "slug": "rent-rolls-royce-day-dubai-models-rates-tips",
+   "role": "Pillar",
+   "cluster": "PRICE-INFO",
+   "pillar": "rent-rolls-royce-day-dubai-models-rates-tips",
+   "order": 256,
+   "publishAt": "2026-11-09T11:54:21+04:00"
+  },
+  {
+   "n": 127,
+   "slug": "owns-roll-royce-marques-ownership-made-simple",
+   "role": "Pillar",
+   "cluster": "BRAND-INFO",
+   "pillar": "owns-roll-royce-marques-ownership-made-simple",
+   "order": 257,
+   "publishAt": "2026-11-10T09:27:18+04:00"
+  },
+  {
+   "n": 497,
+   "slug": "much-phantom-rent-dubai-buy-outright",
+   "role": "Pillar",
+   "cluster": "MODEL-INFO",
+   "pillar": "much-phantom-rent-dubai-buy-outright",
+   "order": 258,
+   "publishAt": "2026-11-10T12:52:51+04:00"
+  },
+  {
+   "n": 626,
+   "slug": "rent-rolls-royce-driver-corporate-event-dubai",
+   "role": "Supporting",
+   "cluster": "RENTAL-COMMERCIAL",
+   "pillar": "rent-rolls-royce-driver-dubai-chauffeur-service",
+   "order": 259,
+   "publishAt": "2026-11-10T14:04:30+04:00"
+  },
+  {
+   "n": 627,
+   "slug": "can-lease-rolls-royce-dubai-long-term",
+   "role": "Pillar",
+   "cluster": "PRICE-INFO",
+   "pillar": "can-lease-rolls-royce-dubai-long-term",
+   "order": 260,
+   "publishAt": "2026-11-10T16:24:45+04:00"
+  },
+  {
+   "n": 459,
+   "slug": "most-expensive-rolls-royce-price-dubai-access",
+   "role": "Supporting",
+   "cluster": "PRICE-INFO",
+   "pillar": "most-expensive-rolls-royce-can-rent-dubai",
+   "order": 261,
+   "publishAt": "2026-11-11T13:08:50+04:00"
+  },
+  {
+   "n": 502,
+   "slug": "expensive-rolls-royce-really-2026-dubai-cost",
+   "role": "Supporting",
+   "cluster": "PRICE-INFO",
+   "pillar": "expensive-rolls-royce-rental-alternative-dubai",
+   "order": 262,
+   "publishAt": "2026-11-11T21:30:10+04:00"
+  },
+  {
+   "n": 128,
+   "slug": "owns-rolls-royce-cars-rolls-royce-engines-difference",
+   "role": "Pillar",
+   "cluster": "BRAND-INFO",
+   "pillar": "owns-rolls-royce-cars-rolls-royce-engines-difference",
+   "order": 263,
+   "publishAt": "2026-11-12T09:55:39+04:00"
+  },
+  {
+   "n": 498,
+   "slug": "much-rolls-royce-wraith-rent-coupe-dubai",
+   "role": "Pillar",
+   "cluster": "MODEL-INFO",
+   "pillar": "much-rolls-royce-wraith-rent-coupe-dubai",
+   "order": 264,
+   "publishAt": "2026-11-12T15:47:34+04:00"
+  },
+  {
+   "n": 628,
+   "slug": "much-lease-rolls-royce-dubai-2026",
+   "role": "Pillar",
+   "cluster": "PRICE-INFO",
+   "pillar": "much-lease-rolls-royce-dubai-2026",
+   "order": 265,
+   "publishAt": "2026-11-12T17:18:07+04:00"
+  },
+  {
+   "n": 115,
+   "slug": "most-luxurious-car-brand-world-dubai-view",
+   "role": "Supporting",
+   "cluster": "BRAND-INFO",
+   "pillar": "can-rent-luxury-cars-dubai-start-rolls-royce",
+   "order": 266,
+   "publishAt": "2026-11-12T20:30:30+04:00"
+  },
+  {
+   "n": 165,
+   "slug": "rolls-royce-phantom-ghost-definitive-dubai",
+   "role": "Supporting",
+   "cluster": "COMPARISON",
+   "pillar": "rolls-royce-phantom-ghost-renters-comparison-dubai",
+   "order": 267,
+   "publishAt": "2026-11-13T22:34:14+04:00"
+  },
+  {
+   "n": 133,
+   "slug": "long-does-take-build-rolls-royce-process",
+   "role": "Pillar",
+   "cluster": "BRAND-INFO",
+   "pillar": "long-does-take-build-rolls-royce-process",
+   "order": 268,
+   "publishAt": "2026-11-14T13:31:10+04:00"
+  },
+  {
+   "n": 214,
+   "slug": "bentayga-cullinan-spec-by-spec-dubai-renters",
+   "role": "Supporting",
+   "cluster": "COMPARISON",
+   "pillar": "bentley-bentayga-rolls-royce-cullinan-specs-compared",
+   "order": 269,
+   "publishAt": "2026-11-15T08:05:37+04:00"
+  },
+  {
+   "n": 293,
+   "slug": "much-rent-ghost-dubai-clear-price",
+   "role": "Supporting",
+   "cluster": "PRICE-INFO",
+   "pillar": "much-rolls-royce-ghost-daily-rental-rates-dubai",
+   "order": 270,
+   "publishAt": "2026-11-15T17:19:15+04:00"
+  },
+  {
+   "n": 506,
+   "slug": "much-does-rolls-royce-phantom-weigh-specs-figures",
+   "role": "Pillar",
+   "cluster": "MODEL-INFO",
+   "pillar": "much-does-rolls-royce-phantom-weigh-specs-figures",
+   "order": 271,
+   "publishAt": "2026-11-16T08:48:25+04:00"
+  },
+  {
+   "n": 389,
+   "slug": "phantom-image-gallery-detail-before-rent-dubai",
+   "role": "Supporting",
+   "cluster": "MODEL-INFO",
+   "pillar": "images-rolls-royce-phantom-see-dubais-flagship-rental",
+   "order": 272,
+   "publishAt": "2026-11-16T16:07:18+04:00"
+  },
+  {
+   "n": 630,
+   "slug": "much-lease-rolls-royce-dubai-monthly-cost",
+   "role": "Pillar",
+   "cluster": "PRICE-INFO",
+   "pillar": "much-lease-rolls-royce-dubai-monthly-cost",
+   "order": 273,
+   "publishAt": "2026-11-16T19:41:17+04:00"
+  },
+  {
+   "n": 153,
+   "slug": "rolls-royce-ghost-phantom-suits-dubai-day",
+   "role": "Supporting",
+   "cluster": "COMPARISON",
+   "pillar": "rolls-royce-ghost-phantom-rent-dubai",
+   "order": 274,
+   "publishAt": "2026-11-16T21:08:24+04:00"
+  },
+  {
+   "n": 135,
+   "slug": "rolls-royce-reliable-honest-verdict-after-years-renting",
+   "role": "Pillar",
+   "cluster": "BRAND-INFO",
+   "pillar": "rolls-royce-reliable-honest-verdict-after-years-renting",
+   "order": 275,
+   "publishAt": "2026-11-17T09:36:57+04:00"
+  },
+  {
+   "n": 100,
+   "slug": "most-luxurious-car-world-phantom",
+   "role": "Supporting",
+   "cluster": "MODEL-INFO",
+   "pillar": "most-luxurious-car-world-rent-dubai",
+   "order": 276,
+   "publishAt": "2026-11-17T14:35:29+04:00"
+  },
+  {
+   "n": 508,
+   "slug": "much-does-rolls-royce-phantom-weigh-spec-sheet-2026",
+   "role": "Pillar",
+   "cluster": "MODEL-INFO",
+   "pillar": "much-does-rolls-royce-phantom-weigh-spec-sheet-2026",
+   "order": 277,
+   "publishAt": "2026-11-18T01:25:32+04:00"
+  },
+  {
+   "n": 333,
+   "slug": "phantom-cost-india-dubai-drive-flagship",
+   "role": "Supporting",
+   "cluster": "PRICE-INFO",
+   "pillar": "phantom-price-india-dubai-place-rent-one",
+   "order": 278,
+   "publishAt": "2026-11-18T09:36:51+04:00"
+  },
+  {
+   "n": 688,
+   "slug": "much-rent-rolls-royce-hour-dubai",
+   "role": "Pillar",
+   "cluster": "PRICE-INFO",
+   "pillar": "much-rent-rolls-royce-hour-dubai",
+   "order": 279,
+   "publishAt": "2026-11-18T13:34:42+04:00"
+  },
+  {
+   "n": 386,
+   "slug": "made-rolls-royce-ghost-dubais-favourite",
+   "role": "Pillar",
+   "cluster": "BRAND-INFO",
+   "pillar": "made-rolls-royce-ghost-dubais-favourite",
+   "order": 280,
+   "publishAt": "2026-11-18T18:19:25+04:00"
+  },
+  {
+   "n": 517,
+   "slug": "much-does-rolls-royce-suv-cost-rent-dubai-2",
+   "role": "Pillar",
+   "cluster": "MODEL-INFO",
+   "pillar": "much-does-rolls-royce-suv-cost-rent-dubai-2",
+   "order": 281,
+   "publishAt": "2026-11-19T13:20:48+04:00"
+  },
+  {
+   "n": 426,
+   "slug": "much-rolls-royce-cars-model-by-model-prices-2026",
+   "role": "Pillar",
+   "cluster": "BRAND-INFO",
+   "pillar": "much-rolls-royce-cars-model-by-model-prices-2026",
+   "order": 282,
+   "publishAt": "2026-11-19T18:13:17+04:00"
+  },
+  {
+   "n": 408,
+   "slug": "rolls-royce-worth-price-buy-rent-dubai",
+   "role": "Supporting",
+   "cluster": "PRICE-INFO",
+   "pillar": "much-does-rolls-royce-cost-day-costs-dubai",
+   "order": 283,
+   "publishAt": "2026-11-19T20:14:28+04:00"
+  },
+  {
+   "n": 518,
+   "slug": "much-does-electric-rolls-royce-cost-rent-dubai",
+   "role": "Pillar",
+   "cluster": "MODEL-INFO",
+   "pillar": "much-does-electric-rolls-royce-cost-rent-dubai",
+   "order": 284,
+   "publishAt": "2026-11-19T21:52:52+04:00"
+  },
+  {
+   "n": 593,
+   "slug": "rent-high-end-cars-dubai-insider",
+   "role": "Pillar",
+   "cluster": "BRAND-INFO",
+   "pillar": "rent-high-end-cars-dubai-insider",
+   "order": 285,
+   "publishAt": "2026-11-20T19:50:19+04:00"
+  },
+  {
+   "n": 266,
+   "slug": "cullinan-black-badge-price-smarter-rent-dubai",
+   "role": "Supporting",
+   "cluster": "PRICE-INFO",
+   "pillar": "rolls-royce-cullinan-black-badge-price-dubai-renters",
+   "order": 286,
+   "publishAt": "2026-11-22T09:44:08+04:00"
+  },
+  {
+   "n": 519,
+   "slug": "much-does-rolls-royce-ghost-cost-rent-dubai",
+   "role": "Pillar",
+   "cluster": "MODEL-INFO",
+   "pillar": "much-does-rolls-royce-ghost-cost-rent-dubai",
+   "order": 287,
+   "publishAt": "2026-11-22T10:32:15+04:00"
+  },
+  {
+   "n": 639,
+   "slug": "rent-rolls-royce-driver-dubai-wedding-cortege",
+   "role": "Supporting",
+   "cluster": "RENTAL-COMMERCIAL",
+   "pillar": "rent-rolls-royce-driver-dubai-chauffeur-service",
+   "order": 288,
+   "publishAt": "2026-11-22T15:03:48+04:00"
+  },
+  {
+   "n": 603,
+   "slug": "can-rent-luxury-cars-dubai-top-fleet-picks",
+   "role": "Pillar",
+   "cluster": "BRAND-INFO",
+   "pillar": "can-rent-luxury-cars-dubai-top-fleet-picks",
+   "order": 289,
+   "publishAt": "2026-11-22T18:05:11+04:00"
+  },
+  {
+   "n": 523,
+   "slug": "much-rolls-royce-suv-rent-dubai",
+   "role": "Pillar",
+   "cluster": "MODEL-INFO",
+   "pillar": "much-rolls-royce-suv-rent-dubai",
+   "order": 290,
+   "publishAt": "2026-11-23T11:20:22+04:00"
+  },
+  {
+   "n": 611,
+   "slug": "rent-sports-car-dubai-luxury-exotic-picks",
+   "role": "Pillar",
+   "cluster": "BRAND-INFO",
+   "pillar": "rent-sports-car-dubai-luxury-exotic-picks",
+   "order": 291,
+   "publishAt": "2026-11-23T12:15:49+04:00"
+  },
+  {
+   "n": 587,
+   "slug": "much-does-cost-rent-rolls-royce-wedding",
+   "role": "Supporting",
+   "cluster": "RENTAL-COMMERCIAL",
+   "pillar": "much-does-cost-rent-rolls-royce-dubai-2026",
+   "order": 292,
+   "publishAt": "2026-11-23T15:43:52+04:00"
+  },
+  {
+   "n": 525,
+   "slug": "cost-rolls-royce-phantom-renting-one-dubai",
+   "role": "Pillar",
+   "cluster": "MODEL-INFO",
+   "pillar": "cost-rolls-royce-phantom-renting-one-dubai",
+   "order": 293,
+   "publishAt": "2026-11-24T10:28:32+04:00"
+  },
+  {
+   "n": 233,
+   "slug": "wraith-black-badge-power-presence-dubai-roads",
+   "role": "Supporting",
+   "cluster": "MODEL-INFO",
+   "pillar": "rolls-royce-wraith-black-badge-dubais-boldest-renters-choose",
+   "order": 294,
+   "publishAt": "2026-11-24T15:13:51+04:00"
+  },
+  {
+   "n": 661,
+   "slug": "can-rent-exotic-cars-dubai-2026-fleet",
+   "role": "Pillar",
+   "cluster": "BRAND-INFO",
+   "pillar": "can-rent-exotic-cars-dubai-2026-fleet",
+   "order": 295,
+   "publishAt": "2026-11-24T16:01:13+04:00"
+  },
+  {
+   "n": 247,
+   "slug": "does-ghost-look-like-up-close-see-dubai",
+   "role": "Supporting",
+   "cluster": "MODEL-INFO",
+   "pillar": "ghost-phantom-rolls-royce-rent-dubai",
+   "order": 296,
+   "publishAt": "2026-11-24T18:38:53+04:00"
+  },
+  {
+   "n": 530,
+   "slug": "much-does-rolls-royce-ghost-cost-2026-price-dubai-hire",
+   "role": "Pillar",
+   "cluster": "MODEL-INFO",
+   "pillar": "much-does-rolls-royce-ghost-cost-2026-price-dubai-hire",
+   "order": 297,
+   "publishAt": "2026-11-25T11:26:44+04:00"
+  },
+  {
+   "n": 449,
+   "slug": "much-rolls-royce-ghost-2026-cost-dubai",
+   "role": "Supporting",
+   "cluster": "MODEL-INFO",
+   "pillar": "much-rolls-royce-ghost-buy-rent-dubai",
+   "order": 298,
+   "publishAt": "2026-11-25T16:58:46+04:00"
+  },
+  {
+   "n": 472,
+   "slug": "much-does-rolls-royce-phantom-cost-rent-dubai",
+   "role": "Supporting",
+   "cluster": "MODEL-INFO",
+   "pillar": "much-does-rolls-royce-phantom-cost-2026-price",
+   "order": 299,
+   "publishAt": "2026-11-25T17:43:19+04:00"
+  },
+  {
+   "n": 664,
+   "slug": "rent-rolls-royce-dubai-models-rates-book",
+   "role": "Pillar",
+   "cluster": "BRAND-INFO",
+   "pillar": "rent-rolls-royce-dubai-models-rates-book",
+   "order": 300,
+   "publishAt": "2026-11-27T11:48:18+04:00"
+  },
+  {
+   "n": 32,
+   "slug": "rolls-royce-tracing-marques-english-origins",
+   "role": "Supporting",
+   "cluster": "BRAND-INFO",
+   "pillar": "rolls-royce-british-roots-dubai-favourite",
+   "order": 301,
+   "publishAt": "2026-11-28T18:01:32+04:00"
+  },
+  {
+   "n": 301,
+   "slug": "cullinan-other-suvs-dubais-luxury-choice",
+   "role": "Supporting",
+   "cluster": "COMPARISON",
+   "pillar": "cullinan-rent-one-dubai",
+   "order": 302,
+   "publishAt": "2026-11-28T19:59:30+04:00"
+  },
+  {
+   "n": 533,
+   "slug": "much-rolls-royce-wraith-2026-coupe-cost",
+   "role": "Pillar",
+   "cluster": "MODEL-INFO",
+   "pillar": "much-rolls-royce-wraith-2026-coupe-cost",
+   "order": 303,
+   "publishAt": "2026-11-30T09:29:05+04:00"
+  },
+  {
+   "n": 232,
+   "slug": "7-reasons-wraith-black-badge-rules-dubais-night-drives",
+   "role": "Supporting",
+   "cluster": "MODEL-INFO",
+   "pillar": "rolls-royce-wraith-black-badge-dubais-boldest-renters-choose",
+   "order": 304,
+   "publishAt": "2026-11-30T11:19:03+04:00"
+  },
+  {
+   "n": 413,
+   "slug": "much-rolls-royce-2026-pricing-dubai-hire-explained",
+   "role": "Supporting",
+   "cluster": "PRICE-INFO",
+   "pillar": "much-rolls-royce-renting-dubai-makes-sense",
+   "order": 305,
+   "publishAt": "2026-11-30T15:41:19+04:00"
+  },
+  {
+   "n": 8,
+   "slug": "marque-owns-rolls-royce-matters",
+   "role": "Supporting",
+   "cluster": "BRAND-INFO",
+   "pillar": "owns-rolls-royce-company-ownership-history-legacy",
+   "order": 306,
+   "publishAt": "2026-12-01T15:39:16+04:00"
+  },
+  {
+   "n": 653,
+   "slug": "rent-rolls-royce-day-dubai-event-entrance",
+   "role": "Supporting",
+   "cluster": "RENTAL-COMMERCIAL",
+   "pillar": "rent-rolls-royce-day-dubai-models-rates-tips",
+   "order": 307,
+   "publishAt": "2026-12-01T17:56:38+04:00"
+  },
+  {
+   "n": 668,
+   "slug": "best-car-rental-company-luxury-cars-dubai-look",
+   "role": "Pillar",
+   "cluster": "BRAND-INFO",
+   "pillar": "best-car-rental-company-luxury-cars-dubai-look",
+   "order": 308,
+   "publishAt": "2026-12-01T20:19:47+04:00"
+  },
+  {
+   "n": 691,
+   "slug": "rent-luxury-car-dubai-rolls-royce-fleet",
+   "role": "Pillar",
+   "cluster": "BRAND-INFO",
+   "pillar": "rent-luxury-car-dubai-rolls-royce-fleet",
+   "order": 309,
+   "publishAt": "2026-12-01T22:33:49+04:00"
+  },
+  {
+   "n": 632,
+   "slug": "rent-rolls-royce-driver-dubai-photoshoot",
+   "role": "Supporting",
+   "cluster": "RENTAL-COMMERCIAL",
+   "pillar": "rent-rolls-royce-driver-dubai-chauffeur-service",
+   "order": 310,
+   "publishAt": "2026-12-02T08:37:12+04:00"
+  },
+  {
+   "n": 436,
+   "slug": "much-rolls-royce-suv-cullinan-cost-decoded-dubai",
+   "role": "Supporting",
+   "cluster": "MODEL-INFO",
+   "pillar": "much-rolls-royce-suv-rent-dubai-own",
+   "order": 311,
+   "publishAt": "2026-12-02T14:48:37+04:00"
+  },
+  {
+   "n": 253,
+   "slug": "cullinan-matte-black-dubai-rental-statement",
+   "role": "Supporting",
+   "cluster": "RENTAL-COMMERCIAL",
+   "pillar": "rolls-royce-cullinan-matte-black-dubais-boldest-suv-glow",
+   "order": 312,
+   "publishAt": "2026-12-02T15:51:13+04:00"
+  },
+  {
+   "n": 455,
+   "slug": "much-do-rolls-royce-cost-buy-rent-dubai",
+   "role": "Supporting",
+   "cluster": "PRICE-INFO",
+   "pillar": "much-do-rolls-royce-cost-complete-2026-price",
+   "order": 313,
+   "publishAt": "2026-12-02T17:28:18+04:00"
+  },
+  {
+   "n": 256,
+   "slug": "matte-black-cullinan-gloss-glows-brighter-dubai",
+   "role": "Supporting",
+   "cluster": "COMPARISON",
+   "pillar": "rolls-royce-cullinan-matte-black-dubais-boldest-suv-glow",
+   "order": 314,
+   "publishAt": "2026-12-03T09:21:10+04:00"
+  },
+  {
+   "n": 488,
+   "slug": "much-rr-ghost-price-daily-rental-cost-dubai",
+   "role": "Supporting",
+   "cluster": "MODEL-INFO",
+   "pillar": "much-rr-ghost-rent-dubai-buy",
+   "order": 315,
+   "publishAt": "2026-12-03T10:44:31+04:00"
+  },
+  {
+   "n": 582,
+   "slug": "much-rent-rolls-royce-dubai-per-month",
+   "role": "Supporting",
+   "cluster": "PRICE-INFO",
+   "pillar": "much-rent-rolls-royce-dubai-2026-rates",
+   "order": 316,
+   "publishAt": "2026-12-03T13:23:49+04:00"
+  },
+  {
+   "n": 548,
+   "slug": "5-reasons-rent-nice-car-weekend-dubai",
+   "role": "Supporting",
+   "cluster": "RENTAL-COMMERCIAL",
+   "pillar": "rent-nice-car-weekend-dubai-top-luxury-picks",
+   "order": 317,
+   "publishAt": "2026-12-04T14:21:07+04:00"
+  },
+  {
+   "n": 542,
+   "slug": "rent-nice-car-weekend-rolls-royce-rates-dubai",
+   "role": "Supporting",
+   "cluster": "PRICE-INFO",
+   "pillar": "rent-nice-car-weekend-dubai-top-luxury-picks",
+   "order": 318,
+   "publishAt": "2026-12-05T08:35:08+04:00"
+  },
+  {
+   "n": 353,
+   "slug": "whats-new-2025-ghost-black-badge-dubai",
+   "role": "Supporting",
+   "cluster": "MODEL-INFO",
+   "pillar": "2025-rolls-royce-ghost-black-badge-dubai-rental",
+   "order": 319,
+   "publishAt": "2026-12-05T10:30:22+04:00"
+  },
+  {
+   "n": 440,
+   "slug": "rolls-royce-cullinan-phantom-costs-more-rent-dubai",
+   "role": "Supporting",
+   "cluster": "COMPARISON",
+   "pillar": "much-rolls-royce-cullinan-own-one-rent-dubai",
+   "order": 320,
+   "publishAt": "2026-12-06T09:19:20+04:00"
+  },
+  {
+   "n": 260,
+   "slug": "makes-phantom-pinnacle-luxury-dubai",
+   "role": "Supporting",
+   "cluster": "MODEL-INFO",
+   "pillar": "rolls-royce-phantom-dubai-luxury-rental",
+   "order": 321,
+   "publishAt": "2026-12-06T18:57:51+04:00"
+  },
+  {
+   "n": 291,
+   "slug": "ghost-best-rolls-royce-rent-dubai",
+   "role": "Supporting",
+   "cluster": "COMPARISON",
+   "pillar": "rolls-royce-ghost-right-dubai-rental",
+   "order": 322,
+   "publishAt": "2026-12-07T07:21:09+04:00"
+  },
+  {
+   "n": 568,
+   "slug": "much-rent-rolls-royce-dubai-graduation",
+   "role": "Supporting",
+   "cluster": "RENTAL-COMMERCIAL",
+   "pillar": "much-rent-rolls-royce-dubai-2026-price",
+   "order": 323,
+   "publishAt": "2026-12-07T20:21:19+04:00"
+  },
+  {
+   "n": 229,
+   "slug": "wraith-black-badge-standard-wraith-rent-dubai",
+   "role": "Supporting",
+   "cluster": "COMPARISON",
+   "pillar": "rolls-royce-wraith-black-badge-dubais-boldest-renters-choose",
+   "order": 324,
+   "publishAt": "2026-12-08T11:34:26+04:00"
+  },
+  {
+   "n": 486,
+   "slug": "much-brand-new-rolls-royce-2026-price-dubai-hire",
+   "role": "Supporting",
+   "cluster": "PRICE-INFO",
+   "pillar": "much-brand-new-rolls-royce-rent-latest-dubai",
+   "order": 325,
+   "publishAt": "2026-12-08T13:03:35+04:00"
+  },
+  {
+   "n": 651,
+   "slug": "rent-sports-car-dubai-photoshoot-event",
+   "role": "Supporting",
+   "cluster": "RENTAL-COMMERCIAL",
+   "pillar": "rent-sports-car-dubai-luxury-exotic-picks",
+   "order": 326,
+   "publishAt": "2026-12-09T16:57:26+04:00"
+  },
+  {
+   "n": 26,
+   "slug": "owns-rolls-royce-dubai-renter-understand",
+   "role": "Supporting",
+   "cluster": "RENTAL-COMMERCIAL",
+   "pillar": "owns-rolls-royce-separating-cars-jet-engines",
+   "order": 327,
+   "publishAt": "2026-12-09T20:26:37+04:00"
+  },
+  {
+   "n": 322,
+   "slug": "cullinan-rolls-royce-truck-suv-explained-dubai",
+   "role": "Supporting",
+   "cluster": "MODEL-INFO",
+   "pillar": "cullinan-rolls-royces-truck-luxury-hauling-dubai",
+   "order": 328,
+   "publishAt": "2026-12-09T22:31:31+04:00"
+  },
+  {
+   "n": 649,
+   "slug": "rent-rolls-royce-driver-dubai-event-arrival",
+   "role": "Supporting",
+   "cluster": "RENTAL-COMMERCIAL",
+   "pillar": "rent-rolls-royce-driver-dubai-chauffeur-service",
+   "order": 329,
+   "publishAt": "2026-12-10T16:04:39+04:00"
+  },
+  {
+   "n": 240,
+   "slug": "phantom-interior-starlight-headliner-bespoke-dubai-luxury",
+   "role": "Supporting",
+   "cluster": "MODEL-INFO",
+   "pillar": "phantom-interior-worth-renting-cabin-dubai",
+   "order": 330,
+   "publishAt": "2026-12-10T21:29:18+04:00"
+  },
+  {
+   "n": 395,
+   "slug": "much-rolls-royce-2026",
+   "role": "Supporting",
+   "cluster": "PRICE-INFO",
+   "pillar": "much-rolls-royce-smarter-way-drive-one-dubai",
+   "order": 331,
+   "publishAt": "2026-12-11T14:17:29+04:00"
+  },
+  {
+   "n": 102,
+   "slug": "did-rolls-royce-start-making-cars-brief-history",
+   "role": "Supporting",
+   "cluster": "BRAND-INFO",
+   "pillar": "did-rolls-royce-start-making-cars-early-years",
+   "order": 332,
+   "publishAt": "2026-12-12T18:43:48+04:00"
+  },
+  {
+   "n": 511,
+   "slug": "much-rolls-royce-car-2026-pricing-dubai-drivers",
+   "role": "Supporting",
+   "cluster": "PRICE-INFO",
+   "pillar": "much-rolls-royce-car-buy-rent-dubai",
+   "order": 333,
+   "publishAt": "2026-12-13T04:10:46+04:00"
+  },
+  {
+   "n": 87,
+   "slug": "makes-bentley-differs-rolls-royce",
+   "role": "Supporting",
+   "cluster": "COMPARISON",
+   "pillar": "makes-bentley-rolls-royce-two-marques-two-owners",
+   "order": 334,
+   "publishAt": "2026-12-13T07:33:42+04:00"
+  },
+  {
+   "n": 288,
+   "slug": "phantom-pictures-angle-dubais-flagship-rental",
+   "role": "Supporting",
+   "cluster": "MODEL-INFO",
+   "pillar": "pictures-rolls-royce-phantom-see-before-renting-dubai",
+   "order": 335,
+   "publishAt": "2026-12-13T11:23:48+04:00"
+  },
+  {
+   "n": 696,
+   "slug": "rent-luxury-car-dubai-wedding-procession",
+   "role": "Supporting",
+   "cluster": "RENTAL-COMMERCIAL",
+   "pillar": "rent-luxury-car-dubai-rolls-royce-fleet",
+   "order": 336,
+   "publishAt": "2026-12-13T12:14:43+04:00"
+  },
+  {
+   "n": 105,
+   "slug": "started-rolls-royce-founders-legend",
+   "role": "Supporting",
+   "cluster": "BRAND-INFO",
+   "pillar": "started-rolls-royce-1904-meeting-began-all",
+   "order": 337,
+   "publishAt": "2026-12-14T06:12:55+04:00"
+  },
+  {
+   "n": 393,
+   "slug": "much-rolls-royce-2026-buy-rent-dubai",
+   "role": "Supporting",
+   "cluster": "PRICE-INFO",
+   "pillar": "much-rolls-royce-smarter-way-drive-one-dubai",
+   "order": 338,
+   "publishAt": "2026-12-14T22:34:49+04:00"
+  },
+  {
+   "n": 190,
+   "slug": "cullinan-bentayga-before-rent",
+   "role": "Supporting",
+   "cluster": "COMPARISON",
+   "pillar": "rolls-royce-cullinan-bentley-bentayga-rent-dubai",
+   "order": 339,
+   "publishAt": "2026-12-15T07:06:51+04:00"
+  },
+  {
+   "n": 695,
+   "slug": "rent-luxury-car-dubai-photoshoot",
+   "role": "Supporting",
+   "cluster": "RENTAL-COMMERCIAL",
+   "pillar": "rent-luxury-car-dubai-rolls-royce-fleet",
+   "order": 340,
+   "publishAt": "2026-12-15T09:51:55+04:00"
+  },
+  {
+   "n": 160,
+   "slug": "rolls-royce-ghost-phantom-flagship-showdown",
+   "role": "Supporting",
+   "cluster": "COMPARISON",
+   "pillar": "rolls-royce-ghost-phantom-rent-dubai",
+   "order": 341,
+   "publishAt": "2026-12-15T21:46:44+04:00"
+  },
+  {
+   "n": 685,
+   "slug": "renting-rolls-royce-dubai-2026",
+   "role": "Supporting",
+   "cluster": "BRAND-INFO",
+   "pillar": "rent-rolls-royce-dubai-models-rates-book",
+   "order": 342,
+   "publishAt": "2026-12-16T08:12:07+04:00"
+  },
+  {
+   "n": 363,
+   "slug": "makes-phantom-look-unmistakable-dubais-streets",
+   "role": "Supporting",
+   "cluster": "MODEL-INFO",
+   "pillar": "does-phantom-look-like-dubais-flagship-up-close",
+   "order": 343,
+   "publishAt": "2026-12-16T16:59:22+04:00"
+  },
+  {
+   "n": 418,
+   "slug": "much-rolls-royce-phantom-costs-rent-dubai",
+   "role": "Supporting",
+   "cluster": "MODEL-INFO",
+   "pillar": "much-rolls-royce-phantom-own-rent-dubai",
+   "order": 344,
+   "publishAt": "2026-12-16T17:38:47+04:00"
+  },
+  {
+   "n": 507,
+   "slug": "much-does-rolls-royce-phantom-weigh-engineering",
+   "role": "Supporting",
+   "cluster": "MODEL-INFO",
+   "pillar": "much-does-rolls-royce-phantom-weigh-specs-figures",
+   "order": 345,
+   "publishAt": "2026-12-16T18:56:03+04:00"
+  },
+  {
+   "n": 10,
+   "slug": "owns-costliest-car-world-dubai-luxury",
+   "role": "Supporting",
+   "cluster": "BRAND-INFO",
+   "pillar": "owns-worlds-costliest-car-rolls-royce-ownership",
+   "order": 346,
+   "publishAt": "2026-12-17T08:53:40+04:00"
+  },
+  {
+   "n": 458,
+   "slug": "much-new-rolls-royce-2026-pricing-dubai-rental",
+   "role": "Supporting",
+   "cluster": "PRICE-INFO",
+   "pillar": "much-new-rolls-royce-buy-new-rent-one-dubai",
+   "order": 347,
+   "publishAt": "2026-12-17T17:46:07+04:00"
+  },
+  {
+   "n": 265,
+   "slug": "much-cullinan-black-badge-rent-buy-dubai",
+   "role": "Supporting",
+   "cluster": "PRICE-INFO",
+   "pillar": "rolls-royce-cullinan-black-badge-price-dubai-renters",
+   "order": 348,
+   "publishAt": "2026-12-17T18:56:10+04:00"
+  },
+  {
+   "n": 405,
+   "slug": "much-does-rolls-royce-cost-purchase-rental-dubai",
+   "role": "Supporting",
+   "cluster": "PRICE-INFO",
+   "pillar": "much-does-rolls-royce-cost-day-costs-dubai",
+   "order": 349,
+   "publishAt": "2026-12-17T23:54:30+04:00"
+  },
+  {
+   "n": 647,
+   "slug": "rent-rolls-royce-day-dubai-cullinan-suv-experience",
+   "role": "Supporting",
+   "cluster": "MODEL-INFO",
+   "pillar": "rent-rolls-royce-day-dubai-models-rates-tips",
+   "order": 350,
+   "publishAt": "2026-12-18T08:31:07+04:00"
+  },
+  {
+   "n": 277,
+   "slug": "ghost-car-rolls-royce-explained-dubai",
+   "role": "Supporting",
+   "cluster": "MODEL-INFO",
+   "pillar": "ghost-car-rent-one-dubai",
+   "order": 351,
+   "publishAt": "2026-12-18T11:48:17+04:00"
+  },
+  {
+   "n": 644,
+   "slug": "rent-rolls-royce-day-dubai-corporate-roadshow",
+   "role": "Supporting",
+   "cluster": "RENTAL-COMMERCIAL",
+   "pillar": "rent-rolls-royce-day-dubai-models-rates-tips",
+   "order": 352,
+   "publishAt": "2026-12-19T15:02:38+04:00"
+  },
+  {
+   "n": 432,
+   "slug": "much-does-rolls-royce-cost-buy-vs-rent-math-dubai",
+   "role": "Supporting",
+   "cluster": "PRICE-INFO",
+   "pillar": "much-does-rolls-royce-cost-2026-dubai-price-breakdown",
+   "order": 353,
+   "publishAt": "2026-12-19T21:16:55+04:00"
+  },
+  {
+   "n": 700,
+   "slug": "graduation-day-rolls-royce-much-rent-dubai",
+   "role": "Supporting",
+   "cluster": "RENTAL-COMMERCIAL",
+   "pillar": "much-rent-rolls-royce-prom-dubai-2026",
+   "order": 354,
+   "publishAt": "2026-12-20T07:06:06+04:00"
+  },
+  {
+   "n": 672,
+   "slug": "rent-rolls-royce-dubai-business-bay-corporate-day",
+   "role": "Supporting",
+   "cluster": "RENTAL-COMMERCIAL",
+   "pillar": "rent-rolls-royce-dubai-models-rates-book",
+   "order": 355,
+   "publishAt": "2026-12-20T09:02:47+04:00"
+  },
+  {
+   "n": 7,
+   "slug": "owns-rolls-royce-company-dubais-finest-fleet",
+   "role": "Supporting",
+   "cluster": "BRAND-INFO",
+   "pillar": "owns-rolls-royce-company-ownership-history-legacy",
+   "order": 356,
+   "publishAt": "2026-12-20T18:04:50+04:00"
+  },
+  {
+   "n": 643,
+   "slug": "rent-rolls-royce-driver-dubai-guided-city-tour",
+   "role": "Supporting",
+   "cluster": "RENTAL-COMMERCIAL",
+   "pillar": "rent-rolls-royce-driver-dubai-chauffeur-service",
+   "order": 357,
+   "publishAt": "2026-12-20T19:21:50+04:00"
+  },
+  {
+   "n": 387,
+   "slug": "made-ghost-matters-dubai-renters",
+   "role": "Supporting",
+   "cluster": "BRAND-INFO",
+   "pillar": "made-rolls-royce-ghost-dubais-favourite",
+   "order": 358,
+   "publishAt": "2026-12-21T11:16:07+04:00"
+  },
+  {
+   "n": 257,
+   "slug": "makes-cullinan-matte-black-glow-so-captivating-dubai",
+   "role": "Supporting",
+   "cluster": "MODEL-INFO",
+   "pillar": "rolls-royce-cullinan-matte-black-dubais-boldest-suv-glow",
+   "order": 359,
+   "publishAt": "2026-12-21T15:52:04+04:00"
+  },
+  {
+   "n": 230,
+   "slug": "makes-wraith-black-badge-dubai-status-symbol",
+   "role": "Supporting",
+   "cluster": "MODEL-INFO",
+   "pillar": "rolls-royce-wraith-black-badge-dubais-boldest-renters-choose",
+   "order": 360,
+   "publishAt": "2026-12-21T20:31:53+04:00"
+  },
+  {
+   "n": 540,
+   "slug": "price-rolls-royce-convertible-dawn-cost-dubai-hire",
+   "role": "Supporting",
+   "cluster": "MODEL-INFO",
+   "pillar": "price-rolls-royce-convertible-renting-dawn-dubai",
+   "order": 361,
+   "publishAt": "2026-12-21T21:41:18+04:00"
+  },
+  {
+   "n": 112,
+   "slug": "does-rolls-royce-make-model-lineup",
+   "role": "Supporting",
+   "cluster": "BRAND-INFO",
+   "pillar": "does-rolls-royce-make-cars-bespoke-beyond",
+   "order": 362,
+   "publishAt": "2026-12-22T01:03:32+04:00"
+  },
+  {
+   "n": 47,
+   "slug": "most-luxurious-car-world-rolls-royce",
+   "role": "Supporting",
+   "cluster": "MODEL-INFO",
+   "pillar": "most-luxurious-car-world-available-rent-dubai",
+   "order": 363,
+   "publishAt": "2026-12-22T12:42:37+04:00"
+  },
+  {
+   "n": 599,
+   "slug": "rent-high-end-cars-dubai-airport-arrivals",
+   "role": "Supporting",
+   "cluster": "RENTAL-COMMERCIAL",
+   "pillar": "rent-high-end-cars-dubai-insider",
+   "order": 364,
+   "publishAt": "2026-12-22T16:03:16+04:00"
+  },
+  {
+   "n": 678,
+   "slug": "can-rent-exotic-cars-dubai-weekend",
+   "role": "Supporting",
+   "cluster": "RENTAL-COMMERCIAL",
+   "pillar": "can-rent-exotic-cars-dubai-2026-fleet",
+   "order": 365,
+   "publishAt": "2026-12-22T20:29:18+04:00"
+  },
+  {
+   "n": 579,
+   "slug": "much-rent-rolls-royce-dubai-marina",
+   "role": "Supporting",
+   "cluster": "PRICE-INFO",
+   "pillar": "much-rent-rolls-royce-dubai-2026-rates",
+   "order": 366,
+   "publishAt": "2026-12-23T10:40:20+04:00"
+  },
+  {
+   "n": 215,
+   "slug": "bentley-bentayga-cullinan-engine-spec-breakdown",
+   "role": "Supporting",
+   "cluster": "COMPARISON",
+   "pillar": "bentley-bentayga-rolls-royce-cullinan-specs-compared",
+   "order": 367,
+   "publishAt": "2026-12-23T12:57:05+04:00"
+  },
+  {
+   "n": 152,
+   "slug": "ghost-phantom-rolls-royce-renters-comparison",
+   "role": "Supporting",
+   "cluster": "COMPARISON",
+   "pillar": "rolls-royce-ghost-phantom-rent-dubai",
+   "order": 368,
+   "publishAt": "2026-12-23T16:21:56+04:00"
+  },
+  {
+   "n": 581,
+   "slug": "much-rent-rolls-royce-dubai-photoshoot-2",
+   "role": "Supporting",
+   "cluster": "RENTAL-COMMERCIAL",
+   "pillar": "much-rent-rolls-royce-dubai-2026-rates",
+   "order": 369,
+   "publishAt": "2026-12-25T10:20:18+04:00"
+  },
+  {
+   "n": 601,
+   "slug": "rent-high-end-cars-dubai-city-tour",
+   "role": "Supporting",
+   "cluster": "RENTAL-COMMERCIAL",
+   "pillar": "rent-high-end-cars-dubai-insider",
+   "order": 370,
+   "publishAt": "2026-12-25T14:55:06+04:00"
+  },
+  {
+   "n": 140,
+   "slug": "rolls-royce-ride-softer-than-maybach",
+   "role": "Supporting",
+   "cluster": "COMPARISON",
+   "pillar": "rolls-royce-more-comfortable-than-maybach-dubai-verdict",
+   "order": 371,
+   "publishAt": "2026-12-26T07:09:44+04:00"
+  },
+  {
+   "n": 355,
+   "slug": "ghost-series-ii-2025-dubai-renters-take-note",
+   "role": "Supporting",
+   "cluster": "MODEL-INFO",
+   "pillar": "ghost-series-ii-series-rent-dubai",
+   "order": 372,
+   "publishAt": "2026-12-26T16:15:06+04:00"
+  },
+  {
+   "n": 131,
+   "slug": "rolls-royce-fast-speed-power-effortless-grace",
+   "role": "Supporting",
+   "cluster": "BRAND-INFO",
+   "pillar": "rolls-royce-fast-performance-elegance",
+   "order": 373,
+   "publishAt": "2026-12-27T07:42:32+04:00"
+  },
+  {
+   "n": 21,
+   "slug": "rolls-royce-cars-made-goodwood-dubais-roads",
+   "role": "Supporting",
+   "cluster": "MODEL-INFO",
+   "pillar": "rolls-royce-cars-made-goodwood-england",
+   "order": 374,
+   "publishAt": "2026-12-27T11:32:42+04:00"
+  },
+  {
+   "n": 336,
+   "slug": "can-rent-phantom-dubai-without-owning-one",
+   "role": "Supporting",
+   "cluster": "RENTAL-COMMERCIAL",
+   "pillar": "can-phantom-be-rented-day-dubai-yes-heres",
+   "order": 375,
+   "publishAt": "2026-12-28T06:15:35+04:00"
+  },
+  {
+   "n": 325,
+   "slug": "rolls-royce-spectre-dubais-first-fully-electric-experience",
+   "role": "Supporting",
+   "cluster": "MODEL-INFO",
+   "pillar": "rolls-royce-spectre-news-december-2025-means-dubai",
+   "order": 376,
+   "publishAt": "2026-12-28T11:19:49+04:00"
+  },
+  {
+   "n": 510,
+   "slug": "much-2025-rolls-royce-latest-prices-dubai-hire",
+   "role": "Supporting",
+   "cluster": "PRICE-INFO",
+   "pillar": "much-2025-rolls-royce-rent-newest-models-dubai",
+   "order": 377,
+   "publishAt": "2026-12-28T12:13:30+04:00"
+  },
+  {
+   "n": 243,
+   "slug": "5-phantom-interior-details-define-luxury-dubai",
+   "role": "Supporting",
+   "cluster": "MODEL-INFO",
+   "pillar": "phantom-interior-worth-renting-cabin-dubai",
+   "order": 378,
+   "publishAt": "2026-12-29T08:35:33+04:00"
+  },
+  {
+   "n": 13,
+   "slug": "rolls-royce-ownership",
+   "role": "Supporting",
+   "cluster": "BRAND-INFO",
+   "pillar": "owns-rolls-royce-ownership-renter",
+   "order": 379,
+   "publishAt": "2026-12-29T11:22:31+04:00"
+  },
+  {
+   "n": 552,
+   "slug": "rent-nice-car-weekend-jbr-dubai-top-models",
+   "role": "Supporting",
+   "cluster": "RENTAL-COMMERCIAL",
+   "pillar": "rent-nice-car-weekend-dubai-top-luxury-picks",
+   "order": 380,
+   "publishAt": "2026-12-29T16:38:22+04:00"
+  },
+  {
+   "n": 251,
+   "slug": "makes-ghost-look-effortlessly-elegant-dubai",
+   "role": "Supporting",
+   "cluster": "MODEL-INFO",
+   "pillar": "ghost-phantom-rolls-royce-rent-dubai",
+   "order": 381,
+   "publishAt": "2026-12-29T19:13:10+04:00"
+  },
+  {
+   "n": 238,
+   "slug": "makes-phantom-interior-so-special-dubai-renters",
+   "role": "Supporting",
+   "cluster": "MODEL-INFO",
+   "pillar": "phantom-interior-worth-renting-cabin-dubai",
+   "order": 382,
+   "publishAt": "2026-12-30T00:50:06+04:00"
+  },
+  {
+   "n": 74,
+   "slug": "makes-rolls-royce-craft-detail",
+   "role": "Supporting",
+   "cluster": "BRAND-INFO",
+   "pillar": "rolls-royce-marque-defines-automotive-luxury",
+   "order": 383,
+   "publishAt": "2026-12-30T08:20:22+04:00"
+  },
+  {
+   "n": 148,
+   "slug": "comfort-rolls-royce-maybach-suspension",
+   "role": "Supporting",
+   "cluster": "COMPARISON",
+   "pillar": "rolls-royce-more-comfortable-than-maybach-dubai-verdict",
+   "order": 384,
+   "publishAt": "2026-12-30T13:10:34+04:00"
+  },
+  {
+   "n": 187,
+   "slug": "cullinan-bentayga-suv-suits-dubai-wedding",
+   "role": "Supporting",
+   "cluster": "COMPARISON",
+   "pillar": "rolls-royce-cullinan-bentley-bentayga-rent-dubai",
+   "order": 385,
+   "publishAt": "2026-12-30T17:18:20+04:00"
+  },
+  {
+   "n": 373,
+   "slug": "2023-ghost-black-badge-worth-renting-dubai",
+   "role": "Supporting",
+   "cluster": "MODEL-INFO",
+   "pillar": "2023-rolls-royce-ghost-black-badge-dubai-rental",
+   "order": 386,
+   "publishAt": "2026-12-31T01:56:30+04:00"
+  },
+  {
+   "n": 447,
+   "slug": "much-rolls-royce-cullinan-2026-suv-price",
+   "role": "Supporting",
+   "cluster": "MODEL-INFO",
+   "pillar": "much-rolls-royce-cullinan-own-one-rent-dubai",
+   "order": 387,
+   "publishAt": "2026-12-31T18:10:23+04:00"
+  },
+  {
+   "n": 210,
+   "slug": "rolls-royce-outshines-mercedes-dubai-occasions",
+   "role": "Supporting",
+   "cluster": "COMPARISON",
+   "pillar": "rolls-royce-mercedes-better-rent-dubai",
+   "order": 388,
+   "publishAt": "2026-12-31T20:56:14+04:00"
+  },
+  {
+   "n": 202,
+   "slug": "reigns-dubai-rolls-royce-bentley-maybach",
+   "role": "Supporting",
+   "cluster": "COMPARISON",
+   "pillar": "rolls-royce-bentley-maybach-rent-dubai",
+   "order": 389,
+   "publishAt": "2027-01-01T11:51:55+04:00"
+  },
+  {
+   "n": 262,
+   "slug": "phantom-explained-whats-phantom-dubai-icon",
+   "role": "Supporting",
+   "cluster": "MODEL-INFO",
+   "pillar": "rolls-royce-phantom-dubai-luxury-rental",
+   "order": 390,
+   "publishAt": "2027-01-02T12:21:14+04:00"
+  },
+  {
+   "n": 267,
+   "slug": "cullinan-black-badge-worth-price-dubai",
+   "role": "Supporting",
+   "cluster": "PRICE-INFO",
+   "pillar": "rolls-royce-cullinan-black-badge-price-dubai-renters",
+   "order": 391,
+   "publishAt": "2027-01-03T10:40:26+04:00"
+  },
+  {
+   "n": 155,
+   "slug": "ghost-phantom-drivers-car-chauffeurs-car",
+   "role": "Supporting",
+   "cluster": "COMPARISON",
+   "pillar": "rolls-royce-ghost-phantom-rent-dubai",
+   "order": 392,
+   "publishAt": "2027-01-03T11:55:37+04:00"
+  },
+  {
+   "n": 216,
+   "slug": "bentayga-cullinan-specs-suv-leads-dubai",
+   "role": "Supporting",
+   "cluster": "COMPARISON",
+   "pillar": "bentley-bentayga-rolls-royce-cullinan-specs-compared",
+   "order": 393,
+   "publishAt": "2027-01-03T12:32:29+04:00"
+  },
+  {
+   "n": 648,
+   "slug": "rent-sports-car-dubai-corporate-roadshow",
+   "role": "Supporting",
+   "cluster": "RENTAL-COMMERCIAL",
+   "pillar": "rent-sports-car-dubai-luxury-exotic-picks",
+   "order": 394,
+   "publishAt": "2027-01-03T17:27:38+04:00"
+  },
+  {
+   "n": 158,
+   "slug": "ghost-phantom-worth-renting-dubai-wedding",
+   "role": "Supporting",
+   "cluster": "COMPARISON",
+   "pillar": "rolls-royce-ghost-phantom-rent-dubai",
+   "order": 395,
+   "publishAt": "2027-01-04T09:04:04+04:00"
+  },
+  {
+   "n": 571,
+   "slug": "much-rent-rolls-royce-dubai-tour-city",
+   "role": "Supporting",
+   "cluster": "RENTAL-COMMERCIAL",
+   "pillar": "much-rent-rolls-royce-dubai-2026-price",
+   "order": 396,
+   "publishAt": "2027-01-04T10:46:38+04:00"
+  },
+  {
+   "n": 573,
+   "slug": "much-rent-rolls-royce-dawn-dubai-wedding",
+   "role": "Supporting",
+   "cluster": "MODEL-INFO",
+   "pillar": "much-rent-rolls-royce-dubai-2026-price",
+   "order": 397,
+   "publishAt": "2027-01-04T15:01:32+04:00"
+  },
+  {
+   "n": 164,
+   "slug": "phantom-ghost-rolls-royce-rent",
+   "role": "Supporting",
+   "cluster": "COMPARISON",
+   "pillar": "rolls-royce-phantom-ghost-renters-comparison-dubai",
+   "order": 398,
+   "publishAt": "2027-01-04T15:40:25+04:00"
+  },
+  {
+   "n": 586,
+   "slug": "much-does-cost-rent-rolls-royce-driver",
+   "role": "Supporting",
+   "cluster": "RENTAL-COMMERCIAL",
+   "pillar": "much-does-cost-rent-rolls-royce-dubai-2026",
+   "order": 399,
+   "publishAt": "2027-01-06T07:39:52+04:00"
+  },
+  {
+   "n": 409,
+   "slug": "rolls-royce-prices-renting-one-dubai",
+   "role": "Supporting",
+   "cluster": "PRICE-INFO",
+   "pillar": "much-does-rolls-royce-cost-day-costs-dubai",
+   "order": 400,
+   "publishAt": "2027-01-06T11:18:06+04:00"
+  },
+  {
+   "n": 420,
+   "slug": "much-rolls-royce-phantom-flagship-cost-explained",
+   "role": "Supporting",
+   "cluster": "MODEL-INFO",
+   "pillar": "much-rolls-royce-phantom-own-rent-dubai",
+   "order": 401,
+   "publishAt": "2027-01-06T12:55:14+04:00"
+  },
+  {
+   "n": 241,
+   "slug": "phantom-interior-feels-like-first-class-dubai-roads",
+   "role": "Supporting",
+   "cluster": "MODEL-INFO",
+   "pillar": "phantom-interior-worth-renting-cabin-dubai",
+   "order": 402,
+   "publishAt": "2027-01-07T00:51:04+04:00"
+  },
+  {
+   "n": 546,
+   "slug": "weekend-escape-rent-rolls-royce-dubai-aed-3800",
+   "role": "Supporting",
+   "cluster": "PRICE-INFO",
+   "pillar": "rent-nice-car-weekend-dubai-top-luxury-picks",
+   "order": 403,
+   "publishAt": "2027-01-07T09:37:51+04:00"
+  },
+  {
+   "n": 692,
+   "slug": "rent-luxury-car-dubai-corporate-event",
+   "role": "Supporting",
+   "cluster": "RENTAL-COMMERCIAL",
+   "pillar": "rent-luxury-car-dubai-rolls-royce-fleet",
+   "order": 404,
+   "publishAt": "2027-01-07T12:15:17+04:00"
+  },
+  {
+   "n": 513,
+   "slug": "much-rolls-royce-car-cost-days-hire-dubai",
+   "role": "Supporting",
+   "cluster": "PRICE-INFO",
+   "pillar": "much-rolls-royce-car-cost-2026-dubai-price",
+   "order": 405,
+   "publishAt": "2027-01-07T18:24:27+04:00"
+  },
+  {
+   "n": 427,
+   "slug": "much-rolls-royce-cars-buy-rent-dubai",
+   "role": "Supporting",
+   "cluster": "PRICE-INFO",
+   "pillar": "much-rolls-royce-cars-model-by-model-prices-2026",
+   "order": 406,
+   "publishAt": "2027-01-08T11:36:56+04:00"
+  },
+  {
+   "n": 271,
+   "slug": "made-silver-wraith-iconic-heritage-meets-dubai",
+   "role": "Supporting",
+   "cluster": "MODEL-INFO",
+   "pillar": "rolls-royce-silver-wraith-classic-legacy-dubai-lovers",
+   "order": 407,
+   "publishAt": "2027-01-08T15:35:24+04:00"
+  },
+  {
+   "n": 676,
+   "slug": "rent-rolls-royce-dubai-photoshoot-studio-street",
+   "role": "Supporting",
+   "cluster": "RENTAL-COMMERCIAL",
+   "pillar": "rent-rolls-royce-dubai-models-rates-book",
+   "order": 408,
+   "publishAt": "2027-01-09T17:10:17+04:00"
+  },
+  {
+   "n": 145,
+   "slug": "rolls-royce-phantom-maybach-renters-comfort",
+   "role": "Supporting",
+   "cluster": "COMPARISON",
+   "pillar": "rolls-royce-more-comfortable-than-maybach-dubai-verdict",
+   "order": 409,
+   "publishAt": "2027-01-10T16:02:32+04:00"
+  },
+  {
+   "n": 551,
+   "slug": "rent-nice-car-weekend-downtown-dubai-driver",
+   "role": "Supporting",
+   "cluster": "RENTAL-COMMERCIAL",
+   "pillar": "rent-nice-car-weekend-dubai-top-luxury-picks",
+   "order": 410,
+   "publishAt": "2027-01-10T20:05:11+04:00"
+  },
+  {
+   "n": 211,
+   "slug": "rolls-royce-mercedes-makes-difference-dubai",
+   "role": "Supporting",
+   "cluster": "COMPARISON",
+   "pillar": "rolls-royce-mercedes-better-rent-dubai",
+   "order": 411,
+   "publishAt": "2027-01-10T21:46:27+04:00"
+  },
+  {
+   "n": 29,
+   "slug": "rolls-royce-made-englands-most-exclusive-factory",
+   "role": "Supporting",
+   "cluster": "MODEL-INFO",
+   "pillar": "rolls-royce-made-craft-spirit-ecstasy",
+   "order": 412,
+   "publishAt": "2027-01-11T06:36:22+04:00"
+  },
+  {
+   "n": 81,
+   "slug": "rolls-royce-hallmarks-worlds-finest-car",
+   "role": "Supporting",
+   "cluster": "MODEL-INFO",
+   "pillar": "rolls-royce-before-rent",
+   "order": 413,
+   "publishAt": "2027-01-11T16:15:46+04:00"
+  },
+  {
+   "n": 188,
+   "slug": "cullinan-bentayga-two-luxury-suvs-dubai",
+   "role": "Supporting",
+   "cluster": "COMPARISON",
+   "pillar": "rolls-royce-cullinan-bentley-bentayga-rent-dubai",
+   "order": 414,
+   "publishAt": "2027-01-12T09:01:43+04:00"
+  },
+  {
+   "n": 345,
+   "slug": "much-spectre-black-badge-rent-dubai",
+   "role": "Supporting",
+   "cluster": "PRICE-INFO",
+   "pillar": "rolls-royce-spectre-black-badge-price-dubai-rental",
+   "order": 415,
+   "publishAt": "2027-01-12T15:44:54+04:00"
+  },
+  {
+   "n": 435,
+   "slug": "much-rolls-royce-suv-2026-cullinan-cost",
+   "role": "Supporting",
+   "cluster": "MODEL-INFO",
+   "pillar": "much-rolls-royce-suv-rent-dubai-own",
+   "order": 416,
+   "publishAt": "2027-01-12T17:33:05+04:00"
+  },
+  {
+   "n": 364,
+   "slug": "black-on-black-wraith-makes-dubais-statement-car",
+   "role": "Supporting",
+   "cluster": "MODEL-INFO",
+   "pillar": "black-on-black-rolls-royce-wraith-dubais-most-sinister-pick",
+   "order": 417,
+   "publishAt": "2027-01-12T20:43:29+04:00"
+  },
+  {
+   "n": 98,
+   "slug": "badge-really-makes-rolls-royce-cars",
+   "role": "Supporting",
+   "cluster": "BRAND-INFO",
+   "pillar": "makes-rolls-royce-cars-goodwood-craft",
+   "order": 418,
+   "publishAt": "2027-01-13T09:03:48+04:00"
+  },
+  {
+   "n": 346,
+   "slug": "can-rent-phantom-dubai-wedding-heres",
+   "role": "Supporting",
+   "cluster": "RENTAL-COMMERCIAL",
+   "pillar": "can-phantom-be-rented-day-dubai-yes-heres",
+   "order": 419,
+   "publishAt": "2027-01-13T19:39:49+04:00"
+  },
+  {
+   "n": 276,
+   "slug": "color-phantom-choosing-shade-dubai",
+   "role": "Supporting",
+   "cluster": "MODEL-INFO",
+   "pillar": "matte-black-white-best-phantom-colours-rent-dubai",
+   "order": 420,
+   "publishAt": "2027-01-14T06:04:28+04:00"
+  },
+  {
+   "n": 400,
+   "slug": "much-rolls-royce-really-costs-drive-one-cheaper",
+   "role": "Supporting",
+   "cluster": "PRICE-INFO",
+   "pillar": "much-rolls-royce-sets-back-aed-3800/day-rent",
+   "order": 421,
+   "publishAt": "2027-01-14T07:03:40+04:00"
+  },
+  {
+   "n": 415,
+   "slug": "much-rr-rolls-royce-prices-dubai-rental-costs",
+   "role": "Supporting",
+   "cluster": "PRICE-INFO",
+   "pillar": "much-rr-rent-dubai-buy-outright",
+   "order": 422,
+   "publishAt": "2027-01-14T10:59:37+04:00"
+  },
+  {
+   "n": 686,
+   "slug": "choose-best-luxury-car-rental-company-dubai",
+   "role": "Supporting",
+   "cluster": "BRAND-INFO",
+   "pillar": "best-car-rental-company-luxury-cars-dubai-look",
+   "order": 423,
+   "publishAt": "2027-01-14T15:32:12+04:00"
+  },
+  {
+   "n": 175,
+   "slug": "bentley-bentayga-rolls-royce-cullinan-dubai-desert-trips",
+   "role": "Supporting",
+   "cluster": "COMPARISON",
+   "pillar": "bentley-bentayga-rolls-royce-cullinan-rent",
+   "order": 424,
+   "publishAt": "2027-01-15T10:42:42+04:00"
+  },
+  {
+   "n": 114,
+   "slug": "most-luxurious-car-brand-world-explained",
+   "role": "Supporting",
+   "cluster": "BRAND-INFO",
+   "pillar": "can-rent-luxury-cars-dubai-start-rolls-royce",
+   "order": 425,
+   "publishAt": "2027-01-16T12:02:21+04:00"
+  },
+  {
+   "n": 75,
+   "slug": "history-rolls-royce-was-founded-whom",
+   "role": "Supporting",
+   "cluster": "BRAND-INFO",
+   "pillar": "was-rolls-royce-founded-1904-legend",
+   "order": 426,
+   "publishAt": "2027-01-16T12:56:11+04:00"
+  },
+  {
+   "n": 209,
+   "slug": "rolls-royce-mercedes-maybach-book-dubai",
+   "role": "Supporting",
+   "cluster": "COMPARISON",
+   "pillar": "rolls-royce-mercedes-better-rent-dubai",
+   "order": 427,
+   "publishAt": "2027-01-17T08:11:23+04:00"
+  },
+  {
+   "n": 110,
+   "slug": "rolls-royce-german-british-real-answer",
+   "role": "Supporting",
+   "cluster": "BRAND-INFO",
+   "pillar": "rolls-royce-german-untangling-bmw-ownership-myth",
+   "order": 428,
+   "publishAt": "2027-01-17T11:51:45+04:00"
+  },
+  {
+   "n": 451,
+   "slug": "average-cost-rolls-royce-days-rental-dubai",
+   "role": "Supporting",
+   "cluster": "PRICE-INFO",
+   "pillar": "average-cost-rolls-royce-renting-dubai-worth",
+   "order": 429,
+   "publishAt": "2027-01-17T14:39:37+04:00"
+  },
+  {
+   "n": 687,
+   "slug": "makes-best-luxury-car-rental-company-dubai",
+   "role": "Supporting",
+   "cluster": "BRAND-INFO",
+   "pillar": "best-car-rental-company-luxury-cars-dubai-look",
+   "order": 430,
+   "publishAt": "2027-01-17T22:44:30+04:00"
+  },
+  {
+   "n": 629,
+   "slug": "much-lease-rolls-royce-ghost-dubai",
+   "role": "Supporting",
+   "cluster": "PRICE-INFO",
+   "pillar": "much-lease-rolls-royce-dubai-2026",
+   "order": 431,
+   "publishAt": "2027-01-18T05:16:38+04:00"
+  },
+  {
+   "n": 638,
+   "slug": "rent-rolls-royce-day-dubai-photoshoot",
+   "role": "Supporting",
+   "cluster": "RENTAL-COMMERCIAL",
+   "pillar": "rent-rolls-royce-day-dubai-models-rates-tips",
+   "order": 432,
+   "publishAt": "2027-01-18T11:31:35+04:00"
+  },
+  {
+   "n": 674,
+   "slug": "can-rent-exotic-cars-dubai-wedding-day",
+   "role": "Supporting",
+   "cluster": "RENTAL-COMMERCIAL",
+   "pillar": "can-rent-exotic-cars-dubai-2026-fleet",
+   "order": 433,
+   "publishAt": "2027-01-18T13:29:20+04:00"
+  },
+  {
+   "n": 204,
+   "slug": "rolls-royce-bentley-maybach",
+   "role": "Supporting",
+   "cluster": "COMPARISON",
+   "pillar": "rolls-royce-bentley-maybach-rent-dubai",
+   "order": 434,
+   "publishAt": "2027-01-18T16:06:23+04:00"
+  },
+  {
+   "n": 141,
+   "slug": "maybach-rolls-royce-feels-more-luxurious-dubai",
+   "role": "Supporting",
+   "cluster": "COMPARISON",
+   "pillar": "rolls-royce-more-comfortable-than-maybach-dubai-verdict",
+   "order": 435,
+   "publishAt": "2027-01-18T22:03:31+04:00"
+  },
+  {
+   "n": 174,
+   "slug": "bentayga-cullinan-luxury-suv-battle-dubai",
+   "role": "Supporting",
+   "cluster": "COMPARISON",
+   "pillar": "bentley-bentayga-rolls-royce-cullinan-rent",
+   "order": 436,
+   "publishAt": "2027-01-19T11:46:10+04:00"
+  },
+  {
+   "n": 543,
+   "slug": "rent-nice-car-weekend-dubai-2026",
+   "role": "Supporting",
+   "cluster": "RENTAL-COMMERCIAL",
+   "pillar": "rent-nice-car-weekend-dubai-top-luxury-picks",
+   "order": 437,
+   "publishAt": "2027-01-19T16:17:52+04:00"
+  },
+  {
+   "n": 171,
+   "slug": "phantom-ghost-grander-rolls-royce-dubai-events",
+   "role": "Supporting",
+   "cluster": "COMPARISON",
+   "pillar": "rolls-royce-phantom-ghost-renters-comparison-dubai",
+   "order": 438,
+   "publishAt": "2027-01-19T17:40:55+04:00"
+  },
+  {
+   "n": 161,
+   "slug": "can-tell-ghost-phantom-dubai-buyers",
+   "role": "Supporting",
+   "cluster": "COMPARISON",
+   "pillar": "rolls-royce-ghost-phantom-rent-dubai",
+   "order": 439,
+   "publishAt": "2027-01-20T09:39:43+04:00"
+  },
+  {
+   "n": 660,
+   "slug": "can-lease-rolls-royce-dubai-renting-smarter",
+   "role": "Supporting",
+   "cluster": "COMPARISON",
+   "pillar": "can-lease-rolls-royce-dubai-long-term",
+   "order": 440,
+   "publishAt": "2027-01-20T12:19:04+04:00"
+  },
+  {
+   "n": 137,
+   "slug": "rolls-royce-maybach-comfort-rent-dubai",
+   "role": "Supporting",
+   "cluster": "COMPARISON",
+   "pillar": "rolls-royce-more-comfortable-than-maybach-dubai-verdict",
+   "order": 441,
+   "publishAt": "2027-01-20T18:32:10+04:00"
+  },
+  {
+   "n": 182,
+   "slug": "bentley-bentayga-cullinan-family-luxury-suv-verdict",
+   "role": "Supporting",
+   "cluster": "COMPARISON",
+   "pillar": "bentley-bentayga-rolls-royce-cullinan-rent",
+   "order": 442,
+   "publishAt": "2027-01-21T11:32:29+04:00"
+  },
+  {
+   "n": 289,
+   "slug": "pictures-phantom-interior-exterior-dubai-drives",
+   "role": "Supporting",
+   "cluster": "MODEL-INFO",
+   "pillar": "pictures-rolls-royce-phantom-see-before-renting-dubai",
+   "order": 443,
+   "publishAt": "2027-01-21T12:41:04+04:00"
+  },
+  {
+   "n": 5,
+   "slug": "rolls-royce-owner-origins-heritage",
+   "role": "Supporting",
+   "cluster": "BRAND-INFO",
+   "pillar": "owns-rolls-royce-dubais-most-coveted-car",
+   "order": 444,
+   "publishAt": "2027-01-21T15:35:37+04:00"
+  },
+  {
+   "n": 354,
+   "slug": "2025-rolls-royce-ghost-series-ii-brings-dubai",
+   "role": "Supporting",
+   "cluster": "MODEL-INFO",
+   "pillar": "ghost-series-ii-series-rent-dubai",
+   "order": 445,
+   "publishAt": "2027-01-22T03:12:31+04:00"
+  },
+  {
+   "n": 566,
+   "slug": "much-rent-rolls-royce-dubai-photoshoot",
+   "role": "Supporting",
+   "cluster": "RENTAL-COMMERCIAL",
+   "pillar": "much-rent-rolls-royce-dubai-2026-price",
+   "order": 446,
+   "publishAt": "2027-01-23T12:08:28+04:00"
+  },
+  {
+   "n": 505,
+   "slug": "much-does-new-rolls-royce-cost-rent-dubai",
+   "role": "Supporting",
+   "cluster": "PRICE-INFO",
+   "pillar": "much-does-new-rolls-royce-cost-2026-price-breakdown",
+   "order": 447,
+   "publishAt": "2027-01-24T02:32:14+04:00"
+  },
+  {
+   "n": 97,
+   "slug": "owns-bentley-rolls-royce-two-rivals-two-stories",
+   "role": "Supporting",
+   "cluster": "COMPARISON",
+   "pillar": "owns-bentley-rolls-royce-ownership-split-explained",
+   "order": 448,
+   "publishAt": "2027-01-24T14:36:35+04:00"
+  },
+  {
+   "n": 671,
+   "slug": "rent-rolls-royce-dubai-airport-arrival-style",
+   "role": "Supporting",
+   "cluster": "RENTAL-COMMERCIAL",
+   "pillar": "rent-rolls-royce-dubai-models-rates-book",
+   "order": 449,
+   "publishAt": "2027-01-25T18:12:27+04:00"
+  },
+  {
+   "n": 199,
+   "slug": "rolls-royce-bentley-maybach-dubai-luxury-verdict",
+   "role": "Supporting",
+   "cluster": "COMPARISON",
+   "pillar": "rolls-royce-bentley-maybach-rent-dubai",
+   "order": 450,
+   "publishAt": "2027-01-25T19:40:11+04:00"
+  },
+  {
+   "n": 550,
+   "slug": "weekend-driving-dubai-best-luxury-cars-rent-2026",
+   "role": "Supporting",
+   "cluster": "RENTAL-COMMERCIAL",
+   "pillar": "rent-nice-car-weekend-dubai-top-luxury-picks",
+   "order": 451,
+   "publishAt": "2027-01-26T12:18:37+04:00"
+  },
+  {
+   "n": 280,
+   "slug": "phantom-colours-dubai-matte-black-pure-white",
+   "role": "Supporting",
+   "cluster": "MODEL-INFO",
+   "pillar": "matte-black-white-best-phantom-colours-rent-dubai",
+   "order": 452,
+   "publishAt": "2027-01-26T13:33:51+04:00"
+  },
+  {
+   "n": 591,
+   "slug": "rolls-royce-day-dubai-much-really-costs",
+   "role": "Supporting",
+   "cluster": "PRICE-INFO",
+   "pillar": "much-rent-rolls-royce-day-dubai-2026-rates",
+   "order": 453,
+   "publishAt": "2027-01-26T15:20:15+04:00"
+  },
+  {
+   "n": 85,
+   "slug": "invented-rolls-royce-visionaries-marque",
+   "role": "Supporting",
+   "cluster": "BRAND-INFO",
+   "pillar": "invented-rolls-royce-royce-rolls-partnership",
+   "order": 454,
+   "publishAt": "2027-01-26T18:06:34+04:00"
+  },
+  {
+   "n": 180,
+   "slug": "sets-cullinan-apart-bentley-bentayga",
+   "role": "Supporting",
+   "cluster": "COMPARISON",
+   "pillar": "bentley-bentayga-rolls-royce-cullinan-rent",
+   "order": 455,
+   "publishAt": "2027-01-27T08:18:23+04:00"
+  },
+  {
+   "n": 324,
+   "slug": "spectre-update-december-2025-electric-rolls-royce-dubai",
+   "role": "Supporting",
+   "cluster": "MODEL-INFO",
+   "pillar": "rolls-royce-spectre-news-december-2025-means-dubai",
+   "order": 456,
+   "publishAt": "2027-01-27T09:29:38+04:00"
+  },
+  {
+   "n": 537,
+   "slug": "much-rolls-royce-wraith-price-dubai-rental-2026",
+   "role": "Supporting",
+   "cluster": "MODEL-INFO",
+   "pillar": "much-rolls-royce-wraith-rent-coupe-dubai",
+   "order": 457,
+   "publishAt": "2027-01-27T14:38:51+04:00"
+  },
+  {
+   "n": 514,
+   "slug": "much-rolls-royce-phantom-2026-price-dubai-rental",
+   "role": "Supporting",
+   "cluster": "MODEL-INFO",
+   "pillar": "much-rolls-royce-phantom-rent-flagship-dubai",
+   "order": 458,
+   "publishAt": "2027-01-27T15:35:13+04:00"
+  },
+  {
+   "n": 538,
+   "slug": "much-cheapest-rolls-royce-entry-price-dubai-hire",
+   "role": "Supporting",
+   "cluster": "PRICE-INFO",
+   "pillar": "much-cheapest-rolls-royce-rent-dubai",
+   "order": 459,
+   "publishAt": "2027-01-27T19:46:35+04:00"
+  },
+  {
+   "n": 57,
+   "slug": "rolls-royce-british-german-ownership-question-settled",
+   "role": "Supporting",
+   "cluster": "BRAND-INFO",
+   "pillar": "rolls-royce-british-heritage-marque",
+   "order": 460,
+   "publishAt": "2027-01-29T18:37:23+04:00"
+  },
+  {
+   "n": 283,
+   "slug": "2025-cullinan-black-badge-rules-dubais-suv-scene",
+   "role": "Supporting",
+   "cluster": "MODEL-INFO",
+   "pillar": "2025-rolls-royce-cullinan-black-badge-dubai-rental",
+   "order": 461,
+   "publishAt": "2027-01-29T19:24:35+04:00"
+  },
+  {
+   "n": 556,
+   "slug": "rent-nice-car-weekend-dubai-chauffeur",
+   "role": "Supporting",
+   "cluster": "RENTAL-COMMERCIAL",
+   "pillar": "rent-nice-car-weekend-dubai-top-luxury-picks",
+   "order": 462,
+   "publishAt": "2027-01-30T11:27:29+04:00"
+  },
+  {
+   "n": 328,
+   "slug": "rolls-royce-phantom-cost-india-renting-dubai",
+   "role": "Supporting",
+   "cluster": "PRICE-INFO",
+   "pillar": "phantom-price-india-dubai-place-rent-one",
+   "order": 463,
+   "publishAt": "2027-01-30T16:02:09+04:00"
+  },
+  {
+   "n": 347,
+   "slug": "spectre-worth-renting-dubai-electric-rolls-royce",
+   "role": "Supporting",
+   "cluster": "MODEL-INFO",
+   "pillar": "rolls-royce-spectre-black-badge-price-dubai-rental",
+   "order": 464,
+   "publishAt": "2027-01-31T00:41:15+04:00"
+  },
+  {
+   "n": 595,
+   "slug": "rent-high-end-cars-downtown-dubai-difc",
+   "role": "Supporting",
+   "cluster": "BRAND-INFO",
+   "pillar": "rent-high-end-cars-dubai-insider",
+   "order": 465,
+   "publishAt": "2027-01-31T10:22:56+04:00"
+  },
+  {
+   "n": 331,
+   "slug": "ghost-black-badge-standard-better-rent-dubai",
+   "role": "Supporting",
+   "cluster": "COMPARISON",
+   "pillar": "2025-rolls-royce-ghost-black-badge-dubai-rental",
+   "order": 466,
+   "publishAt": "2027-01-31T11:02:49+04:00"
+  },
+  {
+   "n": 598,
+   "slug": "rent-high-end-cars-dubai-corporate-roadshows",
+   "role": "Supporting",
+   "cluster": "RENTAL-COMMERCIAL",
+   "pillar": "rent-high-end-cars-dubai-insider",
+   "order": 467,
+   "publishAt": "2027-01-31T12:38:28+04:00"
+  },
+  {
+   "n": 555,
+   "slug": "rent-nice-car-weekend-dubai-desert-drive",
+   "role": "Supporting",
+   "cluster": "RENTAL-COMMERCIAL",
+   "pillar": "rent-nice-car-weekend-dubai-top-luxury-picks",
+   "order": 468,
+   "publishAt": "2027-01-31T13:13:21+04:00"
+  },
+  {
+   "n": 196,
+   "slug": "rent-2017-ghost-reliability-2012",
+   "role": "Supporting",
+   "cluster": "COMPARISON",
+   "pillar": "rolls-royce-ghost-2012-2017-reliability-compared",
+   "order": 469,
+   "publishAt": "2027-02-01T04:54:39+04:00"
+  },
+  {
+   "n": 360,
+   "slug": "102-cullinan-recall-dubai-renters",
+   "role": "Supporting",
+   "cluster": "MODEL-INFO",
+   "pillar": "cullinan-seatbelt-recall-explained-keep-dubai-renters-safe",
+   "order": 470,
+   "publishAt": "2027-02-01T14:25:27+04:00"
+  },
+  {
+   "n": 330,
+   "slug": "phantom-price-india-explained-dubai-rental-alternative",
+   "role": "Supporting",
+   "cluster": "PRICE-INFO",
+   "pillar": "rolls-royce-phantom-price-india-rent-daily-dubai",
+   "order": 471,
+   "publishAt": "2027-02-01T18:32:27+04:00"
+  },
+  {
+   "n": 476,
+   "slug": "much-does-rolls-royce-cost-honest-2026-breakdown",
+   "role": "Supporting",
+   "cluster": "PRICE-INFO",
+   "pillar": "much-does-rolls-royce-cost-daily-hire-beats-buying-dubai",
+   "order": 472,
+   "publishAt": "2027-02-01T19:51:19+04:00"
+  },
+  {
+   "n": 235,
+   "slug": "wraith-black-badge-dubai-specs-renter",
+   "role": "Supporting",
+   "cluster": "MODEL-INFO",
+   "pillar": "rolls-royce-wraith-black-badge-dubais-boldest-renters-choose",
+   "order": 473,
+   "publishAt": "2027-02-02T13:20:15+04:00"
+  },
+  {
+   "n": 450,
+   "slug": "whats-average-cost-rolls-royce-2026-numbers-explained",
+   "role": "Supporting",
+   "cluster": "PRICE-INFO",
+   "pillar": "average-cost-rolls-royce-renting-dubai-worth",
+   "order": 474,
+   "publishAt": "2027-02-02T17:51:46+04:00"
+  },
+  {
+   "n": 48,
+   "slug": "makes-most-luxurious-car-world-so-special",
+   "role": "Supporting",
+   "cluster": "BRAND-INFO",
+   "pillar": "most-luxurious-car-world-available-rent-dubai",
+   "order": 475,
+   "publishAt": "2027-02-02T21:27:24+04:00"
+  },
+  {
+   "n": 645,
+   "slug": "rent-sports-car-dubai-special-occasion",
+   "role": "Supporting",
+   "cluster": "RENTAL-COMMERCIAL",
+   "pillar": "rent-sports-car-dubai-luxury-exotic-picks",
+   "order": 476,
+   "publishAt": "2027-02-03T02:48:13+04:00"
+  },
+  {
+   "n": 15,
+   "slug": "makes-rolls-royce-cars-goodwood-workshop",
+   "role": "Supporting",
+   "cluster": "BRAND-INFO",
+   "pillar": "makes-rolls-royce-craftsmanship-phantom",
+   "order": 477,
+   "publishAt": "2027-02-03T03:41:46+04:00"
+  },
+  {
+   "n": 416,
+   "slug": "much-rr-decoding-rolls-royce-pricing-dubai-drivers",
+   "role": "Supporting",
+   "cluster": "PRICE-INFO",
+   "pillar": "much-rr-rent-dubai-buy-outright",
+   "order": 478,
+   "publishAt": "2027-02-03T12:43:53+04:00"
+  },
+  {
+   "n": 154,
+   "slug": "ghost-phantom-dubai-renters",
+   "role": "Supporting",
+   "cluster": "COMPARISON",
+   "pillar": "rolls-royce-ghost-phantom-rent-dubai",
+   "order": 479,
+   "publishAt": "2027-02-03T19:28:41+04:00"
+  },
+  {
+   "n": 278,
+   "slug": "ghost-car-explained-specs-style-dubai-appeal",
+   "role": "Supporting",
+   "cluster": "MODEL-INFO",
+   "pillar": "ghost-car-rent-one-dubai",
+   "order": 480,
+   "publishAt": "2027-02-04T11:04:42+04:00"
+  },
+  {
+   "n": 79,
+   "slug": "bentley-rolls-royce-same-company-myth-reality",
+   "role": "Supporting",
+   "cluster": "COMPARISON",
+   "pillar": "makes-bentley-rolls-royce-two-marques-two-owners",
+   "order": 481,
+   "publishAt": "2027-02-04T11:46:27+04:00"
+  },
+  {
+   "n": 231,
+   "slug": "rolls-royce-wraith-black-badge-dubai-renters",
+   "role": "Supporting",
+   "cluster": "MODEL-INFO",
+   "pillar": "rolls-royce-wraith-black-badge-dubais-boldest-renters-choose",
+   "order": 482,
+   "publishAt": "2027-02-04T17:37:14+04:00"
+  },
+  {
+   "n": 286,
+   "slug": "whats-phantom-rolls-royce-flagship-explained-dubai",
+   "role": "Supporting",
+   "cluster": "MODEL-INFO",
+   "pillar": "whats-phantom-worth-knowing-before-rent-dubai",
+   "order": 483,
+   "publishAt": "2027-02-05T09:29:20+04:00"
+  },
+  {
+   "n": 640,
+   "slug": "rent-sports-car-dubai-aed-3800-day",
+   "role": "Supporting",
+   "cluster": "PRICE-INFO",
+   "pillar": "rent-sports-car-dubai-luxury-exotic-picks",
+   "order": 484,
+   "publishAt": "2027-02-05T11:45:09+04:00"
+  },
+  {
+   "n": 176,
+   "slug": "bentayga-cullinan-renters-suv-comparison-dubai",
+   "role": "Supporting",
+   "cluster": "COMPARISON",
+   "pillar": "bentley-bentayga-rolls-royce-cullinan-rent",
+   "order": 485,
+   "publishAt": "2027-02-06T06:56:23+04:00"
+  },
+  {
+   "n": 162,
+   "slug": "ghost-phantom-rolls-royce-commands-marina",
+   "role": "Supporting",
+   "cluster": "COMPARISON",
+   "pillar": "rolls-royce-ghost-phantom-rent-dubai",
+   "order": 486,
+   "publishAt": "2027-02-06T10:53:12+04:00"
+  },
+  {
+   "n": 677,
+   "slug": "rent-rolls-royce-dubai-graduation-photoshoot",
+   "role": "Supporting",
+   "cluster": "RENTAL-COMMERCIAL",
+   "pillar": "rent-rolls-royce-dubai-models-rates-book",
+   "order": 487,
+   "publishAt": "2027-02-07T09:12:21+04:00"
+  },
+  {
+   "n": 297,
+   "slug": "black-ghost-blue-cabin-bespoke-colour-pairings-rent-dubai",
+   "role": "Supporting",
+   "cluster": "MODEL-INFO",
+   "pillar": "black-rolls-royce-ghost-blue-interior-dubai-bespoke-pick",
+   "order": 488,
+   "publishAt": "2027-02-07T10:28:08+04:00"
+  },
+  {
+   "n": 414,
+   "slug": "much-rolls-royce-real-numbers-badge",
+   "role": "Supporting",
+   "cluster": "PRICE-INFO",
+   "pillar": "much-rolls-royce-renting-dubai-makes-sense",
+   "order": 489,
+   "publishAt": "2027-02-07T11:34:39+04:00"
+  },
+  {
+   "n": 544,
+   "slug": "rent-nice-car-weekend-phantom-ghost-cullinan",
+   "role": "Supporting",
+   "cluster": "COMPARISON",
+   "pillar": "rent-nice-car-weekend-dubai-top-luxury-picks",
+   "order": 490,
+   "publishAt": "2027-02-07T16:35:33+04:00"
+  },
+  {
+   "n": 394,
+   "slug": "much-rolls-royce-sticker-price-daily-hire-dubai",
+   "role": "Supporting",
+   "cluster": "PRICE-INFO",
+   "pillar": "much-rolls-royce-smarter-way-drive-one-dubai",
+   "order": 491,
+   "publishAt": "2027-02-08T07:33:17+04:00"
+  },
+  {
+   "n": 679,
+   "slug": "rent-rolls-royce-dubai-weekend-getaway-style",
+   "role": "Supporting",
+   "cluster": "RENTAL-COMMERCIAL",
+   "pillar": "rent-rolls-royce-dubai-models-rates-book",
+   "order": 492,
+   "publishAt": "2027-02-08T10:10:12+04:00"
+  },
+  {
+   "n": 58,
+   "slug": "rolls-royce-british-goodwood-marque",
+   "role": "Supporting",
+   "cluster": "BRAND-INFO",
+   "pillar": "rolls-royce-british-heritage-marque",
+   "order": 493,
+   "publishAt": "2027-02-08T17:50:50+04:00"
+  },
+  {
+   "n": 561,
+   "slug": "much-rent-rolls-royce-dubai-daily-weekly-rates",
+   "role": "Supporting",
+   "cluster": "PRICE-INFO",
+   "pillar": "much-rent-rolls-royce-dubai-2026-price",
+   "order": 494,
+   "publishAt": "2027-02-08T19:35:09+04:00"
+  },
+  {
+   "n": 156,
+   "slug": "rolls-royce-ghost-phantom-size-style-price-dubai",
+   "role": "Supporting",
+   "cluster": "COMPARISON",
+   "pillar": "rolls-royce-ghost-phantom-rent-dubai",
+   "order": 495,
+   "publishAt": "2027-02-09T11:43:47+04:00"
+  },
+  {
+   "n": 19,
+   "slug": "5-reasons-rolls-royce-worlds-most-coveted-car-marque",
+   "role": "Supporting",
+   "cluster": "BRAND-INFO",
+   "pillar": "makes-rolls-royce-craftsmanship-phantom",
+   "order": 496,
+   "publishAt": "2027-02-09T15:54:46+04:00"
+  },
+  {
+   "n": 407,
+   "slug": "much-does-rolls-royce-cost-no-nonsense-dubai",
+   "role": "Supporting",
+   "cluster": "PRICE-INFO",
+   "pillar": "much-does-rolls-royce-cost-day-costs-dubai",
+   "order": 497,
+   "publishAt": "2027-02-09T17:17:16+04:00"
+  },
+  {
+   "n": 299,
+   "slug": "much-ghost-per-day-dubai-rental-numbers",
+   "role": "Supporting",
+   "cluster": "PRICE-INFO",
+   "pillar": "much-rolls-royce-ghost-daily-rental-rates-dubai",
+   "order": 498,
+   "publishAt": "2027-02-10T07:53:34+04:00"
+  },
+  {
+   "n": 658,
+   "slug": "much-lease-rolls-royce-dubai-daily-rental",
+   "role": "Supporting",
+   "cluster": "COMPARISON",
+   "pillar": "much-lease-rolls-royce-dubai-monthly-cost",
+   "order": 499,
+   "publishAt": "2027-02-10T14:44:03+04:00"
+  },
+  {
+   "n": 313,
+   "slug": "cullinan-rolls-royces-luxury-suv-dubai",
+   "role": "Supporting",
+   "cluster": "MODEL-INFO",
+   "pillar": "cullinan-rent-one-dubai",
+   "order": 500,
+   "publishAt": "2027-02-10T18:18:04+04:00"
+  },
+  {
+   "n": 558,
+   "slug": "rent-nice-car-weekend-dubai-suv-sedan-picks",
+   "role": "Supporting",
+   "cluster": "COMPARISON",
+   "pillar": "rent-nice-car-weekend-dubai-top-luxury-picks",
+   "order": 501,
+   "publishAt": "2027-02-11T09:18:37+04:00"
+  },
+  {
+   "n": 662,
+   "slug": "can-rent-exotic-cars-dubai-chauffeur",
+   "role": "Supporting",
+   "cluster": "RENTAL-COMMERCIAL",
+   "pillar": "can-rent-exotic-cars-dubai-2026-fleet",
+   "order": 502,
+   "publishAt": "2027-02-11T18:36:57+04:00"
+  },
+  {
+   "n": 195,
+   "slug": "ghost-2012-2017-reliability-dubai-renters",
+   "role": "Supporting",
+   "cluster": "COMPARISON",
+   "pillar": "rolls-royce-ghost-2012-2017-reliability-compared",
+   "order": 503,
+   "publishAt": "2027-02-11T21:19:13+04:00"
+  },
+  {
+   "n": 570,
+   "slug": "much-rent-rolls-royce-spectre-dubai-ev-rates-2026",
+   "role": "Supporting",
+   "cluster": "MODEL-INFO",
+   "pillar": "much-rent-rolls-royce-dubai-2026-price",
+   "order": 504,
+   "publishAt": "2027-02-12T00:15:55+04:00"
+  },
+  {
+   "n": 244,
+   "slug": "phantom-starlight-headliner-sky-stars-over-dubai",
+   "role": "Supporting",
+   "cluster": "MODEL-INFO",
+   "pillar": "phantom-interior-worth-renting-cabin-dubai",
+   "order": 505,
+   "publishAt": "2027-02-13T11:42:24+04:00"
+  },
+  {
+   "n": 234,
+   "slug": "wraith-black-badge-renters-spec-style-dubai",
+   "role": "Supporting",
+   "cluster": "MODEL-INFO",
+   "pillar": "rolls-royce-wraith-black-badge-dubais-boldest-renters-choose",
+   "order": 506,
+   "publishAt": "2027-02-14T10:33:38+04:00"
+  },
+  {
+   "n": 200,
+   "slug": "rolls-royce-bentley-maybach-renters-three-way",
+   "role": "Supporting",
+   "cluster": "COMPARISON",
+   "pillar": "rolls-royce-bentley-maybach-rent-dubai",
+   "order": 507,
+   "publishAt": "2027-02-14T19:44:21+04:00"
+  },
+  {
+   "n": 366,
+   "slug": "rolls-royce-phantom-price-india-dubai-daily-rental",
+   "role": "Supporting",
+   "cluster": "PRICE-INFO",
+   "pillar": "phantom-car-price-india-heres-dubai-rental-option",
+   "order": 508,
+   "publishAt": "2027-02-15T14:10:22+04:00"
+  },
+  {
+   "n": 694,
+   "slug": "rent-luxury-car-dubai-weekend",
+   "role": "Supporting",
+   "cluster": "RENTAL-COMMERCIAL",
+   "pillar": "rent-luxury-car-dubai-rolls-royce-fleet",
+   "order": 509,
+   "publishAt": "2027-02-15T15:46:22+04:00"
+  },
+  {
+   "n": 625,
+   "slug": "rent-rolls-royce-driver-dubai-airport-transfers",
+   "role": "Supporting",
+   "cluster": "RENTAL-COMMERCIAL",
+   "pillar": "rent-rolls-royce-driver-dubai-chauffeur-service",
+   "order": 510,
+   "publishAt": "2027-02-15T16:32:28+04:00"
+  },
+  {
+   "n": 329,
+   "slug": "rolls-royce-phantom-price-usa-dubai-rental-rates",
+   "role": "Supporting",
+   "cluster": "PRICE-INFO",
+   "pillar": "phantom-price-usa-rent-flagship-dubai-instead",
+   "order": 511,
+   "publishAt": "2027-02-16T07:29:33+04:00"
+  },
+  {
+   "n": 669,
+   "slug": "best-luxury-car-rental-company-dubai-rolls-royce-hire",
+   "role": "Supporting",
+   "cluster": "RENTAL-COMMERCIAL",
+   "pillar": "best-car-rental-company-luxury-cars-dubai-look",
+   "order": 512,
+   "publishAt": "2027-02-16T11:27:33+04:00"
+  },
+  {
+   "n": 689,
+   "slug": "hourly-rolls-royce-rental-dubai-much-does-cost",
+   "role": "Supporting",
+   "cluster": "RENTAL-COMMERCIAL",
+   "pillar": "much-rent-rolls-royce-hour-dubai",
+   "order": 513,
+   "publishAt": "2027-02-16T14:58:44+04:00"
+  },
+  {
+   "n": 642,
+   "slug": "rent-rolls-royce-wedding-dubai-black-badge-options",
+   "role": "Supporting",
+   "cluster": "RENTAL-COMMERCIAL",
+   "pillar": "rent-rolls-royce-wedding-dubai-packages-models",
+   "order": 514,
+   "publishAt": "2027-02-16T19:25:24+04:00"
+  },
+  {
+   "n": 557,
+   "slug": "rent-nice-car-weekend-dubai-convertible-options",
+   "role": "Supporting",
+   "cluster": "MODEL-INFO",
+   "pillar": "rent-nice-car-weekend-dubai-top-luxury-picks",
+   "order": 515,
+   "publishAt": "2027-02-16T23:53:42+04:00"
+  },
+  {
+   "n": 62,
+   "slug": "rolls-royce-newcomers-luxury-car",
+   "role": "Supporting",
+   "cluster": "BRAND-INFO",
+   "pillar": "rolls-royce-marque-defines-automotive-luxury",
+   "order": 516,
+   "publishAt": "2027-02-17T05:19:08+04:00"
+  },
+  {
+   "n": 239,
+   "slug": "phantom-interior-dubai",
+   "role": "Supporting",
+   "cluster": "MODEL-INFO",
+   "pillar": "phantom-interior-worth-renting-cabin-dubai",
+   "order": 517,
+   "publishAt": "2027-02-17T10:42:40+04:00"
+  },
+  {
+   "n": 237,
+   "slug": "rolls-royce-phantom-interior-dubais-most-luxurious-cabin",
+   "role": "Supporting",
+   "cluster": "MODEL-INFO",
+   "pillar": "phantom-interior-worth-renting-cabin-dubai",
+   "order": 518,
+   "publishAt": "2027-02-17T14:39:56+04:00"
+  },
+  {
+   "n": 448,
+   "slug": "much-rolls-royce-ghost-price-daily-hire-dubai",
+   "role": "Supporting",
+   "cluster": "MODEL-INFO",
+   "pillar": "much-rolls-royce-ghost-buy-rent-dubai",
+   "order": 519,
+   "publishAt": "2027-02-17T18:56:23+04:00"
+  },
+  {
+   "n": 149,
+   "slug": "rolls-royce-maybach-dubai-wedding-book",
+   "role": "Supporting",
+   "cluster": "COMPARISON",
+   "pillar": "rolls-royce-more-comfortable-than-maybach-dubai-verdict",
+   "order": 520,
+   "publishAt": "2027-02-18T10:49:25+04:00"
+  },
+  {
+   "n": 673,
+   "slug": "rent-rolls-royce-dubai-events-galas-launches",
+   "role": "Supporting",
+   "cluster": "RENTAL-COMMERCIAL",
+   "pillar": "rent-rolls-royce-dubai-models-rates-book",
+   "order": 521,
+   "publishAt": "2027-02-18T14:41:10+04:00"
+  },
+  {
+   "n": 539,
+   "slug": "price-new-rolls-royce-2026-dubai-cost",
+   "role": "Supporting",
+   "cluster": "PRICE-INFO",
+   "pillar": "price-new-rolls-royce-renting-one-dubai",
+   "order": 522,
+   "publishAt": "2027-02-18T18:36:26+04:00"
+  },
+  {
+   "n": 545,
+   "slug": "rent-nice-car-weekend-dubai-marina-models-tips",
+   "role": "Supporting",
+   "cluster": "RENTAL-COMMERCIAL",
+   "pillar": "rent-nice-car-weekend-dubai-top-luxury-picks",
+   "order": 523,
+   "publishAt": "2027-02-19T08:01:40+04:00"
+  },
+  {
+   "n": 487,
+   "slug": "much-rolls-royce-spectre-electric-price-dubai-hire",
+   "role": "Supporting",
+   "cluster": "MODEL-INFO",
+   "pillar": "much-rolls-royce-spectre-rent-ev-dubai-2026",
+   "order": 524,
+   "publishAt": "2027-02-19T11:35:40+04:00"
+  },
+  {
+   "n": 159,
+   "slug": "ghost-phantom-before-rent",
+   "role": "Supporting",
+   "cluster": "COMPARISON",
+   "pillar": "rolls-royce-ghost-phantom-rent-dubai",
+   "order": 525,
+   "publishAt": "2027-02-20T12:53:05+04:00"
+  },
+  {
+   "n": 503,
+   "slug": "much-rolls-royce-cars-2026-dubai-price",
+   "role": "Supporting",
+   "cluster": "PRICE-INFO",
+   "pillar": "much-rolls-royce-cars-rent-dubai",
+   "order": 526,
+   "publishAt": "2027-02-21T07:43:38+04:00"
+  },
+  {
+   "n": 259,
+   "slug": "whats-phantom-really-flagship-explained-dubai",
+   "role": "Supporting",
+   "cluster": "MODEL-INFO",
+   "pillar": "rolls-royce-phantom-dubai-luxury-rental",
+   "order": 527,
+   "publishAt": "2027-02-21T11:22:36+04:00"
+  },
+  {
+   "n": 580,
+   "slug": "much-rent-rolls-royce-weekend-dubai",
+   "role": "Supporting",
+   "cluster": "RENTAL-COMMERCIAL",
+   "pillar": "much-rent-rolls-royce-dubai-2026-rates",
+   "order": 528,
+   "publishAt": "2027-02-21T13:53:22+04:00"
+  },
+  {
+   "n": 181,
+   "slug": "bentayga-cullinan-comfort-presence-price-dubai",
+   "role": "Supporting",
+   "cluster": "COMPARISON",
+   "pillar": "bentley-bentayga-rolls-royce-cullinan-rent",
+   "order": 529,
+   "publishAt": "2027-02-21T18:12:16+04:00"
+  },
+  {
+   "n": 341,
+   "slug": "much-cullinan-series-2-renting-dubai",
+   "role": "Supporting",
+   "cluster": "PRICE-INFO",
+   "pillar": "rolls-royce-cullinan-series-2-price-2026-dubai-rental",
+   "order": 530,
+   "publishAt": "2027-02-22T10:02:46+04:00"
+  },
+  {
+   "n": 144,
+   "slug": "makes-rolls-royce-more-comfortable-than-maybach",
+   "role": "Supporting",
+   "cluster": "COMPARISON",
+   "pillar": "rolls-royce-more-comfortable-than-maybach-dubai-verdict",
+   "order": 531,
+   "publishAt": "2027-02-22T11:22:35+04:00"
+  },
+  {
+   "n": 572,
+   "slug": "much-rent-rolls-royce-dubai-month-2026",
+   "role": "Supporting",
+   "cluster": "PRICE-INFO",
+   "pillar": "much-rent-rolls-royce-dubai-2026-price",
+   "order": 532,
+   "publishAt": "2027-02-22T12:49:25+04:00"
+  },
+  {
+   "n": 588,
+   "slug": "much-does-cost-rent-rolls-royce-airport-run",
+   "role": "Supporting",
+   "cluster": "RENTAL-COMMERCIAL",
+   "pillar": "much-does-cost-rent-rolls-royce-dubai-2026",
+   "order": 533,
+   "publishAt": "2027-02-22T14:46:23+04:00"
+  },
+  {
+   "n": 456,
+   "slug": "much-rolls-royce-ghost-price-dubai-rental",
+   "role": "Supporting",
+   "cluster": "MODEL-INFO",
+   "pillar": "much-rolls-royce-ghost-dubai-hire-less",
+   "order": 534,
+   "publishAt": "2027-02-23T10:57:21+04:00"
+  },
+  {
+   "n": 36,
+   "slug": "worth-price-rolls-royce-costs-does",
+   "role": "Supporting",
+   "cluster": "PRICE-INFO",
+   "pillar": "rolls-royce-so-expensive-dubai-insiders-breakdown",
+   "order": 535,
+   "publishAt": "2027-02-23T16:13:29+04:00"
+  },
+  {
+   "n": 535,
+   "slug": "much-2025-rolls-royce-pricing-dubai-rental",
+   "role": "Supporting",
+   "cluster": "PRICE-INFO",
+   "pillar": "much-2025-rolls-royce-rent-dubai",
+   "order": 536,
+   "publishAt": "2027-02-23T17:15:29+04:00"
+  },
+  {
+   "n": 624,
+   "slug": "rent-rolls-royce-driver-dubai-rates-models",
+   "role": "Supporting",
+   "cluster": "RENTAL-COMMERCIAL",
+   "pillar": "rent-rolls-royce-driver-dubai-chauffeur-service",
+   "order": 537,
+   "publishAt": "2027-02-24T13:24:32+04:00"
+  },
+  {
+   "n": 59,
+   "slug": "owns-rolls-royce-motor-cars",
+   "role": "Supporting",
+   "cluster": "BRAND-INFO",
+   "pillar": "owns-rolls-royce-motor-cars-definitive-answer",
+   "order": 538,
+   "publishAt": "2027-02-24T15:46:17+04:00"
+  },
+  {
+   "n": 170,
+   "slug": "phantom-ghost-side-by-side-dubai-renters",
+   "role": "Supporting",
+   "cluster": "COMPARISON",
+   "pillar": "rolls-royce-phantom-ghost-renters-comparison-dubai",
+   "order": 539,
+   "publishAt": "2027-02-24T16:27:13+04:00"
+  },
+  {
+   "n": 698,
+   "slug": "rent-luxury-car-dubai-corporate-roadshow",
+   "role": "Supporting",
+   "cluster": "RENTAL-COMMERCIAL",
+   "pillar": "rent-luxury-car-dubai-rolls-royce-fleet",
+   "order": 540,
+   "publishAt": "2027-02-25T09:26:15+04:00"
+  },
+  {
+   "n": 564,
+   "slug": "does-cost-rent-rolls-royce-dubai-rates",
+   "role": "Supporting",
+   "cluster": "PRICE-INFO",
+   "pillar": "much-rent-rolls-royce-dubai-2026-price",
+   "order": 541,
+   "publishAt": "2027-02-25T19:50:14+04:00"
+  },
+  {
+   "n": 690,
+   "slug": "much-rent-rolls-royce-hour-photoshoot-rates",
+   "role": "Supporting",
+   "cluster": "RENTAL-COMMERCIAL",
+   "pillar": "much-rent-rolls-royce-hour-dubai",
+   "order": 542,
+   "publishAt": "2027-02-26T09:54:26+04:00"
+  },
+  {
+   "n": 315,
+   "slug": "7-seater-cullinan-interior-family-luxury-dubai",
+   "role": "Supporting",
+   "cluster": "MODEL-INFO",
+   "pillar": "7-seat-cullinan-dubai-families-interior-space-comfort",
+   "order": 543,
+   "publishAt": "2027-02-26T19:49:28+04:00"
+  },
+  {
+   "n": 547,
+   "slug": "renting-nice-car-weekend-dubai-worth",
+   "role": "Supporting",
+   "cluster": "RENTAL-COMMERCIAL",
+   "pillar": "rent-nice-car-weekend-dubai-top-luxury-picks",
+   "order": 544,
+   "publishAt": "2027-02-27T06:12:27+04:00"
+  },
+  {
+   "n": 604,
+   "slug": "can-rent-luxury-cars-dubai-marina-palm-jumeirah",
+   "role": "Supporting",
+   "cluster": "BRAND-INFO",
+   "pillar": "can-rent-luxury-cars-dubai-top-fleet-picks",
+   "order": 545,
+   "publishAt": "2027-02-28T10:18:51+04:00"
+  },
+  {
+   "n": 326,
+   "slug": "spectre-dubais-electric-rolls",
+   "role": "Supporting",
+   "cluster": "MODEL-INFO",
+   "pillar": "rolls-royce-spectre-news-december-2025-means-dubai",
+   "order": 546,
+   "publishAt": "2027-02-28T12:19:53+04:00"
+  },
+  {
+   "n": 193,
+   "slug": "rolls-royce-ghost-reliability-2012-2017-compared",
+   "role": "Supporting",
+   "cluster": "COMPARISON",
+   "pillar": "rolls-royce-ghost-2012-2017-reliability-compared",
+   "order": 547,
+   "publishAt": "2027-03-01T07:21:23+04:00"
+  },
+  {
+   "n": 406,
+   "slug": "much-does-rolls-royce-cost-breakdown-model",
+   "role": "Supporting",
+   "cluster": "MODEL-INFO",
+   "pillar": "much-does-rolls-royce-cost-day-costs-dubai",
+   "order": 548,
+   "publishAt": "2027-03-01T12:52:16+04:00"
+  },
+  {
+   "n": 206,
+   "slug": "rolls-royce-mercedes-luxury-car-wins-dubai",
+   "role": "Supporting",
+   "cluster": "COMPARISON",
+   "pillar": "rolls-royce-mercedes-better-rent-dubai",
+   "order": 549,
+   "publishAt": "2027-03-01T21:28:04+04:00"
+  },
+  {
+   "n": 184,
+   "slug": "cullinan-bentayga-rolls-royce-renters-suv",
+   "role": "Supporting",
+   "cluster": "COMPARISON",
+   "pillar": "rolls-royce-cullinan-bentley-bentayga-rent-dubai",
+   "order": 550,
+   "publishAt": "2027-03-02T10:24:42+04:00"
+  },
+  {
+   "n": 483,
+   "slug": "much-rolls-royce-ghost-models-price-dubai-rental",
+   "role": "Supporting",
+   "cluster": "MODEL-INFO",
+   "pillar": "much-rolls-royce-ghost-cars-rent-dubai",
+   "order": 551,
+   "publishAt": "2027-03-02T15:41:52+04:00"
+  },
+  {
+   "n": 655,
+   "slug": "can-lease-rolls-royce-dubai-rent",
+   "role": "Supporting",
+   "cluster": "COMPARISON",
+   "pillar": "can-lease-rolls-royce-dubai-long-term",
+   "order": 552,
+   "publishAt": "2027-03-03T15:25:05+04:00"
+  },
+  {
+   "n": 397,
+   "slug": "rolls-royce-costs-so-much-dubai-rental-shortcut",
+   "role": "Supporting",
+   "cluster": "PRICE-INFO",
+   "pillar": "much-rolls-royce-smarter-way-drive-one-dubai",
+   "order": 553,
+   "publishAt": "2027-03-03T16:52:38+04:00"
+  },
+  {
+   "n": 620,
+   "slug": "rent-rolls-royce-wedding-dubai-chauffeur",
+   "role": "Supporting",
+   "cluster": "RENTAL-COMMERCIAL",
+   "pillar": "rent-rolls-royce-wedding-dubai-packages-models",
+   "order": 554,
+   "publishAt": "2027-03-03T18:27:56+04:00"
+  },
+  {
+   "n": 577,
+   "slug": "much-rent-rolls-royce-dubai-day",
+   "role": "Supporting",
+   "cluster": "PRICE-INFO",
+   "pillar": "much-rent-rolls-royce-dubai-2026-rates",
+   "order": 555,
+   "publishAt": "2027-03-03T20:12:55+04:00"
+  },
+  {
+   "n": 693,
+   "slug": "rent-luxury-car-business-bay-dubai-2026",
+   "role": "Supporting",
+   "cluster": "BRAND-INFO",
+   "pillar": "rent-luxury-car-dubai-rolls-royce-fleet",
+   "order": 556,
+   "publishAt": "2027-03-04T09:08:09+04:00"
+  },
+  {
+   "n": 652,
+   "slug": "rent-rolls-royce-driver-dubai-spectre-ev-chauffeur",
+   "role": "Supporting",
+   "cluster": "RENTAL-COMMERCIAL",
+   "pillar": "rent-rolls-royce-driver-dubai-chauffeur-service",
+   "order": 557,
+   "publishAt": "2027-03-04T14:37:06+04:00"
+  },
+  {
+   "n": 250,
+   "slug": "ghosts-design-dubai",
+   "role": "Supporting",
+   "cluster": "MODEL-INFO",
+   "pillar": "ghost-phantom-rolls-royce-rent-dubai",
+   "order": 558,
+   "publishAt": "2027-03-04T16:51:10+04:00"
+  },
+  {
+   "n": 142,
+   "slug": "chauffeured-comfort-rolls-royce-maybach-dubai",
+   "role": "Supporting",
+   "cluster": "COMPARISON",
+   "pillar": "rolls-royce-more-comfortable-than-maybach-dubai-verdict",
+   "order": 559,
+   "publishAt": "2027-03-05T10:35:06+04:00"
+  },
+  {
+   "n": 327,
+   "slug": "spectres-design-bailey-dog-dubais-first-ev",
+   "role": "Supporting",
+   "cluster": "MODEL-INFO",
+   "pillar": "spectre-bailey-dog-inspired-design-dubai-first",
+   "order": 560,
+   "publishAt": "2027-03-06T09:37:22+04:00"
+  },
+  {
+   "n": 549,
+   "slug": "rent-nice-car-weekend-palm-jumeirah-dubai",
+   "role": "Supporting",
+   "cluster": "RENTAL-COMMERCIAL",
+   "pillar": "rent-nice-car-weekend-dubai-top-luxury-picks",
+   "order": 561,
+   "publishAt": "2027-03-07T10:55:04+04:00"
+  },
+  {
+   "n": 270,
+   "slug": "silver-wraith-modern-wraith-dubai-rental",
+   "role": "Supporting",
+   "cluster": "MODEL-INFO",
+   "pillar": "rolls-royce-silver-wraith-classic-legacy-dubai-lovers",
+   "order": 562,
+   "publishAt": "2027-03-07T12:32:03+04:00"
+  },
+  {
+   "n": 592,
+   "slug": "much-rent-rolls-royce-day-chauffeur",
+   "role": "Supporting",
+   "cluster": "RENTAL-COMMERCIAL",
+   "pillar": "much-rent-rolls-royce-day-dubai-2026-rates",
+   "order": 563,
+   "publishAt": "2027-03-07T17:20:30+04:00"
+  },
+  {
+   "n": 290,
+   "slug": "whats-phantom-like-ride-dubai-passengers-view",
+   "role": "Supporting",
+   "cluster": "MODEL-INFO",
+   "pillar": "whats-phantom-worth-knowing-before-rent-dubai",
+   "order": 564,
+   "publishAt": "2027-03-07T20:36:34+04:00"
+  },
+  {
+   "n": 316,
+   "slug": "7-seater-cullinan-interior-space-comfort-dubai-trips",
+   "role": "Supporting",
+   "cluster": "MODEL-INFO",
+   "pillar": "7-seat-cullinan-dubai-families-interior-space-comfort",
+   "order": 565,
+   "publishAt": "2027-03-08T09:01:45+04:00"
+  },
+  {
+   "n": 194,
+   "slug": "2017-ghost-more-dependable-than-2012",
+   "role": "Supporting",
+   "cluster": "COMPARISON",
+   "pillar": "rolls-royce-ghost-2012-2017-reliability-compared",
+   "order": 566,
+   "publishAt": "2027-03-08T12:30:33+04:00"
+  },
+  {
+   "n": 138,
+   "slug": "phantom-maybach-s-class-more-comfortable-ride-dubai",
+   "role": "Supporting",
+   "cluster": "COMPARISON",
+   "pillar": "rolls-royce-more-comfortable-than-maybach-dubai-verdict",
+   "order": 567,
+   "publishAt": "2027-03-08T18:56:33+04:00"
+  },
+  {
+   "n": 334,
+   "slug": "car-ghost-phantom-dubai-renters-comparison",
+   "role": "Supporting",
+   "cluster": "COMPARISON",
+   "pillar": "car-ghost-rent-dubai",
+   "order": 568,
+   "publishAt": "2027-03-09T11:47:22+04:00"
+  },
+  {
+   "n": 489,
+   "slug": "much-electric-rolls-royce-spectre-price-dubai-hire",
+   "role": "Supporting",
+   "cluster": "MODEL-INFO",
+   "pillar": "much-electric-rolls-royce-rent-spectre-dubai",
+   "order": 569,
+   "publishAt": "2027-03-09T14:07:22+04:00"
+  },
+  {
+   "n": 108,
+   "slug": "rolls-royce-so-expensive-dubai-renters-honest-look",
+   "role": "Supporting",
+   "cluster": "PRICE-INFO",
+   "pillar": "rolls-royce-so-expensive-youre-really-paying",
+   "order": 570,
+   "publishAt": "2027-03-09T22:18:12+04:00"
+  },
+  {
+   "n": 635,
+   "slug": "rent-rolls-royce-driver-dubai-hourly-chauffeur-rates",
+   "role": "Supporting",
+   "cluster": "RENTAL-COMMERCIAL",
+   "pillar": "rent-rolls-royce-driver-dubai-chauffeur-service",
+   "order": 571,
+   "publishAt": "2027-03-10T07:35:21+04:00"
+  },
+  {
+   "n": 90,
+   "slug": "owns-rolls-royce-bentley-ownership-compared",
+   "role": "Supporting",
+   "cluster": "COMPARISON",
+   "pillar": "owns-bentley-rolls-royce-ownership-split-explained",
+   "order": 572,
+   "publishAt": "2027-03-10T19:23:18+04:00"
+  },
+  {
+   "n": 207,
+   "slug": "rolls-royce-really-better-than-mercedes-dubai",
+   "role": "Supporting",
+   "cluster": "COMPARISON",
+   "pillar": "rolls-royce-mercedes-better-rent-dubai",
+   "order": 573,
+   "publishAt": "2027-03-11T01:35:26+04:00"
+  },
+  {
+   "n": 619,
+   "slug": "rent-rolls-royce-wedding-dubai-phantom-ghost",
+   "role": "Supporting",
+   "cluster": "RENTAL-COMMERCIAL",
+   "pillar": "rent-rolls-royce-wedding-dubai-packages-models",
+   "order": 574,
+   "publishAt": "2027-03-11T06:01:50+04:00"
+  },
+  {
+   "n": 433,
+   "slug": "much-most-expensive-rolls-royce-ever-built",
+   "role": "Supporting",
+   "cluster": "BRAND-INFO",
+   "pillar": "much-most-expensive-rolls-royce-rent",
+   "order": 575,
+   "publishAt": "2027-03-11T11:47:33+04:00"
+  },
+  {
+   "n": 367,
+   "slug": "phantom-price-india-dubai-experience",
+   "role": "Supporting",
+   "cluster": "PRICE-INFO",
+   "pillar": "rolls-royce-phantom-price-india-rent-flagship-dubai",
+   "order": 576,
+   "publishAt": "2027-03-12T15:39:39+04:00"
+  },
+  {
+   "n": 434,
+   "slug": "much-rolls-royce-suv-cullinan-price-dubai-hire",
+   "role": "Supporting",
+   "cluster": "MODEL-INFO",
+   "pillar": "much-rolls-royce-suv-rent-dubai-own",
+   "order": 577,
+   "publishAt": "2027-03-13T12:42:32+04:00"
+  },
+  {
+   "n": 529,
+   "slug": "much-does-rolls-royce-cullinan-cost-2026-suv-price",
+   "role": "Supporting",
+   "cluster": "MODEL-INFO",
+   "pillar": "much-does-rolls-royce-cullinan-cost-rent-dubai",
+   "order": 578,
+   "publishAt": "2027-03-13T20:24:07+04:00"
+  },
+  {
+   "n": 636,
+   "slug": "rent-sports-car-dubai-chauffeur",
+   "role": "Supporting",
+   "cluster": "RENTAL-COMMERCIAL",
+   "pillar": "rent-sports-car-dubai-luxury-exotic-picks",
+   "order": 579,
+   "publishAt": "2027-03-14T04:45:25+04:00"
+  },
+  {
+   "n": 4,
+   "slug": "spirit-ecstasy-owns-rolls-royce",
+   "role": "Supporting",
+   "cluster": "BRAND-INFO",
+   "pillar": "owns-rolls-royce-dubais-most-coveted-car",
+   "order": 580,
+   "publishAt": "2027-03-14T07:33:13+04:00"
+  },
+  {
+   "n": 610,
+   "slug": "can-rent-luxury-cars-dubai-graduation",
+   "role": "Supporting",
+   "cluster": "RENTAL-COMMERCIAL",
+   "pillar": "can-rent-luxury-cars-dubai-top-fleet-picks",
+   "order": 581,
+   "publishAt": "2027-03-14T08:30:11+04:00"
+  },
+  {
+   "n": 60,
+   "slug": "most-luxurious-cars-dubais-definitive-shortlist",
+   "role": "Supporting",
+   "cluster": "BRAND-INFO",
+   "pillar": "most-luxurious-cars-rent-dubai-right-now",
+   "order": 582,
+   "publishAt": "2027-03-14T13:35:08+04:00"
+  },
+  {
+   "n": 248,
+   "slug": "rolls-royce-ghost-design-lines-presence-dubai",
+   "role": "Supporting",
+   "cluster": "MODEL-INFO",
+   "pillar": "ghost-phantom-rolls-royce-rent-dubai",
+   "order": 583,
+   "publishAt": "2027-03-15T04:35:29+04:00"
+  },
+  {
+   "n": 249,
+   "slug": "makes-ghosts-look-so-understated-yet-striking-dubai",
+   "role": "Supporting",
+   "cluster": "MODEL-INFO",
+   "pillar": "ghost-phantom-rolls-royce-rent-dubai",
+   "order": 584,
+   "publishAt": "2027-03-15T08:01:48+04:00"
+  },
+  {
+   "n": 34,
+   "slug": "rolls-royce-so-expensive-craft-price",
+   "role": "Supporting",
+   "cluster": "PRICE-INFO",
+   "pillar": "rolls-royce-so-expensive-dubai-insiders-breakdown",
+   "order": 585,
+   "publishAt": "2027-03-15T18:08:44+04:00"
+  },
+  {
+   "n": 254,
+   "slug": "matte-black-cullinan-worth-renting-dubai-closer-look",
+   "role": "Supporting",
+   "cluster": "RENTAL-COMMERCIAL",
+   "pillar": "rolls-royce-cullinan-matte-black-dubais-boldest-suv-glow",
+   "order": 586,
+   "publishAt": "2027-03-16T10:17:57+04:00"
+  },
+  {
+   "n": 602,
+   "slug": "rent-high-end-cars-dubai-rolls-royce-bentley",
+   "role": "Supporting",
+   "cluster": "COMPARISON",
+   "pillar": "rent-high-end-cars-dubai-insider",
+   "order": 587,
+   "publishAt": "2027-03-16T11:42:31+04:00"
+  },
+  {
+   "n": 596,
+   "slug": "rent-high-end-cars-dubai-wedding-2026",
+   "role": "Supporting",
+   "cluster": "RENTAL-COMMERCIAL",
+   "pillar": "rent-high-end-cars-dubai-insider",
+   "order": 588,
+   "publishAt": "2027-03-16T14:49:16+04:00"
+  },
+  {
+   "n": 143,
+   "slug": "rolls-royce-maybach-smoother-ride-dubai-roads",
+   "role": "Supporting",
+   "cluster": "COMPARISON",
+   "pillar": "rolls-royce-more-comfortable-than-maybach-dubai-verdict",
+   "order": 589,
+   "publishAt": "2027-03-16T16:39:50+04:00"
+  },
+  {
+   "n": 396,
+   "slug": "much-rolls-royce-buyers-renters-dubai",
+   "role": "Supporting",
+   "cluster": "PRICE-INFO",
+   "pillar": "much-rolls-royce-smarter-way-drive-one-dubai",
+   "order": 590,
+   "publishAt": "2027-03-17T10:47:08+04:00"
+  },
+  {
+   "n": 146,
+   "slug": "worth-choosing-rolls-royce-over-maybach-dubai",
+   "role": "Supporting",
+   "cluster": "COMPARISON",
+   "pillar": "rolls-royce-more-comfortable-than-maybach-dubai-verdict",
+   "order": 591,
+   "publishAt": "2027-03-17T16:06:50+04:00"
+  },
+  {
+   "n": 169,
+   "slug": "phantom-worth-step-up-ghost",
+   "role": "Supporting",
+   "cluster": "COMPARISON",
+   "pillar": "rolls-royce-phantom-ghost-renters-comparison-dubai",
+   "order": 592,
+   "publishAt": "2027-03-18T09:49:23+04:00"
+  },
+  {
+   "n": 666,
+   "slug": "rent-rolls-royce-dubai-wedding-event-photoshoot",
+   "role": "Supporting",
+   "cluster": "RENTAL-COMMERCIAL",
+   "pillar": "rent-rolls-royce-dubai-models-rates-book",
+   "order": 593,
+   "publishAt": "2027-03-18T15:40:33+04:00"
+  },
+  {
+   "n": 421,
+   "slug": "worth-buying-rolls-royce-phantom-renting-one-dubai",
+   "role": "Supporting",
+   "cluster": "MODEL-INFO",
+   "pillar": "much-rolls-royce-phantom-own-rent-dubai",
+   "order": 594,
+   "publishAt": "2027-03-19T10:43:42+04:00"
+  },
+  {
+   "n": 147,
+   "slug": "ghost-maybach-limousine-rent-dubai",
+   "role": "Supporting",
+   "cluster": "COMPARISON",
+   "pillar": "rolls-royce-more-comfortable-than-maybach-dubai-verdict",
+   "order": 595,
+   "publishAt": "2027-03-20T02:48:25+04:00"
+  },
+  {
+   "n": 275,
+   "slug": "colour-rolls-royce-phantom-dubais-bespoke-palette",
+   "role": "Supporting",
+   "cluster": "MODEL-INFO",
+   "pillar": "matte-black-white-best-phantom-colours-rent-dubai",
+   "order": 596,
+   "publishAt": "2027-03-20T15:39:43+04:00"
+  },
+  {
+   "n": 279,
+   "slug": "ghost-car-worth-knowing-before-renting-dubai",
+   "role": "Supporting",
+   "cluster": "MODEL-INFO",
+   "pillar": "ghost-car-rent-one-dubai",
+   "order": 597,
+   "publishAt": "2027-03-21T08:41:42+04:00"
+  },
+  {
+   "n": 553,
+   "slug": "worth-renting-rolls-royce-dubai-weekend",
+   "role": "Supporting",
+   "cluster": "RENTAL-COMMERCIAL",
+   "pillar": "rent-nice-car-weekend-dubai-top-luxury-picks",
+   "order": 598,
+   "publishAt": "2027-03-21T09:17:04+04:00"
+  },
+  {
+   "n": 616,
+   "slug": "rent-rolls-royce-day-dubai-chauffeur",
+   "role": "Supporting",
+   "cluster": "RENTAL-COMMERCIAL",
+   "pillar": "rent-rolls-royce-day-dubai-models-rates-tips",
+   "order": 599,
+   "publishAt": "2027-03-21T21:11:45+04:00"
+  },
+  {
+   "n": 93,
+   "slug": "company-owns-rolls-royce-motor-cars",
+   "role": "Supporting",
+   "cluster": "BRAND-INFO",
+   "pillar": "company-owns-rolls-royce-bmw-connection-explained",
+   "order": 600,
+   "publishAt": "2027-03-22T07:40:32+04:00"
+  },
+  {
+   "n": 358,
+   "slug": "black-on-black-wraith-commands-attention-dubai",
+   "role": "Supporting",
+   "cluster": "MODEL-INFO",
+   "pillar": "black-on-black-rolls-royce-wraith-dubais-most-sinister-pick",
+   "order": 601,
+   "publishAt": "2027-03-22T09:17:46+04:00"
+  },
+  {
+   "n": 261,
+   "slug": "phantom-dubai",
+   "role": "Supporting",
+   "cluster": "MODEL-INFO",
+   "pillar": "rolls-royce-phantom-dubai-luxury-rental",
+   "order": 602,
+   "publishAt": "2027-03-22T12:04:53+04:00"
+  },
+  {
+   "n": 224,
+   "slug": "bentley-rolls-royce-same-company-real",
+   "role": "Supporting",
+   "cluster": "COMPARISON",
+   "pillar": "bentley-rolls-royce-same-company-myth-debunked",
+   "order": 603,
+   "publishAt": "2027-03-22T15:07:03+04:00"
+  },
+  {
+   "n": 314,
+   "slug": "cullinan-explained-rolls-royces-first-suv-dubai",
+   "role": "Supporting",
+   "cluster": "MODEL-INFO",
+   "pillar": "cullinan-rent-one-dubai",
+   "order": 604,
+   "publishAt": "2027-03-23T12:33:24+04:00"
+  },
+  {
+   "n": 615,
+   "slug": "rent-rolls-royce-day-dubai-aed-3800",
+   "role": "Supporting",
+   "cluster": "PRICE-INFO",
+   "pillar": "rent-rolls-royce-day-dubai-models-rates-tips",
+   "order": 605,
+   "publishAt": "2027-03-23T16:40:05+04:00"
+  },
+  {
+   "n": 608,
+   "slug": "can-rent-luxury-cars-dubai-photoshoot",
+   "role": "Supporting",
+   "cluster": "RENTAL-COMMERCIAL",
+   "pillar": "can-rent-luxury-cars-dubai-top-fleet-picks",
+   "order": 606,
+   "publishAt": "2027-03-24T09:59:45+04:00"
+  },
+  {
+   "n": 446,
+   "slug": "much-rolls-royce-cullinan-price-dubai-rental-cost",
+   "role": "Supporting",
+   "cluster": "MODEL-INFO",
+   "pillar": "much-rolls-royce-cullinan-own-one-rent-dubai",
+   "order": 607,
+   "publishAt": "2027-03-24T13:02:41+04:00"
+  },
+  {
+   "n": 157,
+   "slug": "sets-ghost-apart-phantom-dubai",
+   "role": "Supporting",
+   "cluster": "COMPARISON",
+   "pillar": "rolls-royce-ghost-phantom-rent-dubai",
+   "order": 608,
+   "publishAt": "2027-03-24T16:22:54+04:00"
+  },
+  {
+   "n": 348,
+   "slug": "much-ghost-black-badge-per-day-dubai",
+   "role": "Supporting",
+   "cluster": "PRICE-INFO",
+   "pillar": "rolls-royce-black-badge-ghost-price-dubai-rental",
+   "order": 609,
+   "publishAt": "2027-03-24T22:53:51+04:00"
+  },
+  {
+   "n": 657,
+   "slug": "much-lease-rolls-royce-rent-one-dubai",
+   "role": "Supporting",
+   "cluster": "COMPARISON",
+   "pillar": "much-lease-rolls-royce-dubai-2026",
+   "order": 610,
+   "publishAt": "2027-03-25T17:30:50+04:00"
+  },
+  {
+   "n": 453,
+   "slug": "cheapest-way-drive-rolls-royce-dubai-hint-dont-buy",
+   "role": "Supporting",
+   "cluster": "PRICE-INFO",
+   "pillar": "cheapest-rolls-royce-best-value-rent-dubai",
+   "order": 611,
+   "publishAt": "2027-03-25T21:40:39+04:00"
+  },
+  {
+   "n": 300,
+   "slug": "whats-new-2025-cullinan-black-badge-dubai-renters",
+   "role": "Supporting",
+   "cluster": "MODEL-INFO",
+   "pillar": "2025-rolls-royce-cullinan-black-badge-dubai-rental",
+   "order": 612,
+   "publishAt": "2027-03-26T09:49:15+04:00"
+  },
+  {
+   "n": 272,
+   "slug": "silver-wraith-heritage-worth-knowing-dubai",
+   "role": "Supporting",
+   "cluster": "MODEL-INFO",
+   "pillar": "rolls-royce-silver-wraith-classic-legacy-dubai-lovers",
+   "order": 613,
+   "publishAt": "2027-03-26T18:28:09+04:00"
+  },
+  {
+   "n": 385,
+   "slug": "ghost-car-known-dubai-renters-primer",
+   "role": "Supporting",
+   "cluster": "MODEL-INFO",
+   "pillar": "ghost-car-rolls-royces-sedan-explained-dubai",
+   "order": 614,
+   "publishAt": "2027-03-28T16:54:04+04:00"
+  },
+  {
+   "n": 491,
+   "slug": "average-price-rolls-royce-days-hire-dubai",
+   "role": "Supporting",
+   "cluster": "PRICE-INFO",
+   "pillar": "whats-average-price-rolls-royce-2026",
+   "order": 615,
+   "publishAt": "2027-03-28T17:45:09+04:00"
+  },
+  {
+   "n": 682,
+   "slug": "rent-rolls-royce-dubai-corporate-client-roadshow",
+   "role": "Supporting",
+   "cluster": "RENTAL-COMMERCIAL",
+   "pillar": "rent-rolls-royce-dubai-models-rates-book",
+   "order": 616,
+   "publishAt": "2027-03-28T21:53:04+04:00"
+  },
+  {
+   "n": 179,
+   "slug": "bentayga-cullinan-dubai-renters",
+   "role": "Supporting",
+   "cluster": "COMPARISON",
+   "pillar": "bentley-bentayga-rolls-royce-cullinan-rent",
+   "order": 617,
+   "publishAt": "2027-03-29T11:43:08+04:00"
+  },
+  {
+   "n": 201,
+   "slug": "rolls-royce-bentley-maybach-picking-dubais-best-chauffeur-car",
+   "role": "Supporting",
+   "cluster": "COMPARISON",
+   "pillar": "rolls-royce-bentley-maybach-rent-dubai",
+   "order": 618,
+   "publishAt": "2027-03-29T17:46:09+04:00"
+  },
+  {
+   "n": 622,
+   "slug": "5-reasons-rent-rolls-royce-dubai-wedding",
+   "role": "Supporting",
+   "cluster": "RENTAL-COMMERCIAL",
+   "pillar": "rent-rolls-royce-wedding-dubai-packages-models",
+   "order": 619,
+   "publishAt": "2027-03-30T08:58:39+04:00"
+  },
+  {
+   "n": 177,
+   "slug": "cullinan-worth-renting-over-bentayga-dubai",
+   "role": "Supporting",
+   "cluster": "COMPARISON",
+   "pillar": "bentley-bentayga-rolls-royce-cullinan-rent",
+   "order": 620,
+   "publishAt": "2027-03-30T14:01:22+04:00"
+  },
+  {
+   "n": 613,
+   "slug": "rent-sports-car-dubai-wraith-spectre-coupes",
+   "role": "Supporting",
+   "cluster": "MODEL-INFO",
+   "pillar": "rent-sports-car-dubai-luxury-exotic-picks",
+   "order": 621,
+   "publishAt": "2027-03-31T12:33:47+04:00"
+  },
+  {
+   "n": 66,
+   "slug": "was-rolls-royce-founded-origins-icon",
+   "role": "Supporting",
+   "cluster": "BRAND-INFO",
+   "pillar": "was-rolls-royce-founded-1904-legend",
+   "order": 622,
+   "publishAt": "2027-03-31T18:54:21+04:00"
+  },
+  {
+   "n": 590,
+   "slug": "much-rent-rolls-royce-day-dubai-daily-pricing",
+   "role": "Supporting",
+   "cluster": "PRICE-INFO",
+   "pillar": "much-rent-rolls-royce-day-dubai-2026-rates",
+   "order": 623,
+   "publishAt": "2027-04-01T10:49:03+04:00"
+  },
+  {
+   "n": 186,
+   "slug": "rent-cullinan-over-bentayga-dubai",
+   "role": "Supporting",
+   "cluster": "COMPARISON",
+   "pillar": "rolls-royce-cullinan-bentley-bentayga-rent-dubai",
+   "order": 624,
+   "publishAt": "2027-04-01T12:08:32+04:00"
+  },
+  {
+   "n": 124,
+   "slug": "founded-rolls-royce-partnership-changed-motoring",
+   "role": "Supporting",
+   "cluster": "BRAND-INFO",
+   "pillar": "founded-rolls-royce-charles-rolls-henry-royce-legend",
+   "order": 625,
+   "publishAt": "2027-04-01T19:23:04+04:00"
+  },
+  {
+   "n": 317,
+   "slug": "does-cullinan-seat-7-interior-explained-dubai",
+   "role": "Supporting",
+   "cluster": "MODEL-INFO",
+   "pillar": "7-seat-cullinan-dubai-families-interior-space-comfort",
+   "order": 626,
+   "publishAt": "2027-04-01T20:28:16+04:00"
+  },
+  {
+   "n": 621,
+   "slug": "rent-rolls-royce-wedding-dubai-2026-booking",
+   "role": "Supporting",
+   "cluster": "RENTAL-COMMERCIAL",
+   "pillar": "rent-rolls-royce-wedding-dubai-packages-models",
+   "order": 627,
+   "publishAt": "2027-04-02T11:49:25+04:00"
+  },
+  {
+   "n": 349,
+   "slug": "car-ghost-rolls-royce-sedan-explained-dubai",
+   "role": "Supporting",
+   "cluster": "MODEL-INFO",
+   "pillar": "car-ghost-rent-dubai",
+   "order": 628,
+   "publishAt": "2027-04-03T10:34:03+04:00"
+  },
+  {
+   "n": 565,
+   "slug": "much-rent-rolls-royce-dubai-wedding-day",
+   "role": "Supporting",
+   "cluster": "RENTAL-COMMERCIAL",
+   "pillar": "much-rent-rolls-royce-dubai-2026-price",
+   "order": 629,
+   "publishAt": "2027-04-03T11:57:29+04:00"
+  },
+  {
+   "n": 600,
+   "slug": "rent-high-end-cars-dubai-graduation",
+   "role": "Supporting",
+   "cluster": "RENTAL-COMMERCIAL",
+   "pillar": "rent-high-end-cars-dubai-insider",
+   "order": 630,
+   "publishAt": "2027-04-04T09:15:33+04:00"
+  },
+  {
+   "n": 197,
+   "slug": "rolls-royce-ghost-reliability-improved-2012-2017",
+   "role": "Supporting",
+   "cluster": "COMPARISON",
+   "pillar": "rolls-royce-ghost-2012-2017-reliability-compared",
+   "order": 631,
+   "publishAt": "2027-04-04T10:27:48+04:00"
+  },
+  {
+   "n": 670,
+   "slug": "best-luxury-car-rental-dubai-weddings-events",
+   "role": "Supporting",
+   "cluster": "RENTAL-COMMERCIAL",
+   "pillar": "best-car-rental-company-luxury-cars-dubai-look",
+   "order": 632,
+   "publishAt": "2027-04-04T12:03:09+04:00"
+  },
+  {
+   "n": 419,
+   "slug": "much-rolls-royce-phantom-2026-price-dubai-hire",
+   "role": "Supporting",
+   "cluster": "MODEL-INFO",
+   "pillar": "much-rolls-royce-phantom-own-rent-dubai",
+   "order": 633,
+   "publishAt": "2027-04-05T10:06:39+04:00"
+  },
+  {
+   "n": 617,
+   "slug": "rent-rolls-royce-day-dubai-phantom-ghost-cullinan",
+   "role": "Supporting",
+   "cluster": "BRAND-INFO",
+   "pillar": "rent-rolls-royce-day-dubai-models-rates-tips",
+   "order": 634,
+   "publishAt": "2027-04-05T14:48:31+04:00"
+  },
+  {
+   "n": 52,
+   "slug": "rolls-royce-british-untangling-ownership-origin",
+   "role": "Supporting",
+   "cluster": "BRAND-INFO",
+   "pillar": "rolls-royce-british-heritage-marque",
+   "order": 635,
+   "publishAt": "2027-04-05T16:33:30+04:00"
+  },
+  {
+   "n": 475,
+   "slug": "much-rolls-royce-phantom-price-dubai-rental-2026",
+   "role": "Supporting",
+   "cluster": "MODEL-INFO",
+   "pillar": "much-rolls-royce-phantom-skip-purchase-rent-dubai",
+   "order": 636,
+   "publishAt": "2027-04-06T08:37:09+04:00"
+  },
+  {
+   "n": 563,
+   "slug": "much-rent-rolls-royce-dubai-chauffeur",
+   "role": "Supporting",
+   "cluster": "RENTAL-COMMERCIAL",
+   "pillar": "much-rent-rolls-royce-dubai-2026-price",
+   "order": 637,
+   "publishAt": "2027-04-06T10:37:10+04:00"
+  },
+  {
+   "n": 584,
+   "slug": "much-does-cost-rent-rolls-royce-dubai-model",
+   "role": "Supporting",
+   "cluster": "PRICE-INFO",
+   "pillar": "much-does-cost-rent-rolls-royce-dubai-2026",
+   "order": 638,
+   "publishAt": "2027-04-06T11:22:08+04:00"
+  },
+  {
+   "n": 485,
+   "slug": "much-does-rolls-royce-suv-cost-rent-dubai",
+   "role": "Supporting",
+   "cluster": "COMPARISON",
+   "pillar": "much-does-rolls-royce-suv-cost-cullinan-price-2026",
+   "order": 639,
+   "publishAt": "2027-04-06T20:53:51+04:00"
+  },
+  {
+   "n": 536,
+   "slug": "much-phantom-rolls-royce-flagship-price-dubai-hire",
+   "role": "Supporting",
+   "cluster": "MODEL-INFO",
+   "pillar": "much-phantom-rent-dubai-buy-outright",
+   "order": 640,
+   "publishAt": "2027-04-07T04:58:28+04:00"
+  },
+  {
+   "n": 534,
+   "slug": "much-rolls-royce-wraith-renting-one-dubai",
+   "role": "Supporting",
+   "cluster": "MODEL-INFO",
+   "pillar": "much-rolls-royce-wraith-2026-coupe-cost",
+   "order": 641,
+   "publishAt": "2027-04-07T09:15:14+04:00"
+  },
+  {
+   "n": 697,
+   "slug": "rent-luxury-car-dubai-airport-transfer",
+   "role": "Supporting",
+   "cluster": "RENTAL-COMMERCIAL",
+   "pillar": "rent-luxury-car-dubai-rolls-royce-fleet",
+   "order": 642,
+   "publishAt": "2027-04-07T13:20:27+04:00"
+  },
+  {
+   "n": 392,
+   "slug": "much-rolls-royce-price-dubai-rental-cost",
+   "role": "Supporting",
+   "cluster": "PRICE-INFO",
+   "pillar": "much-rolls-royce-smarter-way-drive-one-dubai",
+   "order": 643,
+   "publishAt": "2027-04-08T09:58:49+04:00"
+  },
+  {
+   "n": 641,
+   "slug": "can-lease-rolls-royce-dubai-corporate-fleet",
+   "role": "Supporting",
+   "cluster": "RENTAL-COMMERCIAL",
+   "pillar": "can-lease-rolls-royce-dubai-long-term",
+   "order": 644,
+   "publishAt": "2027-04-08T11:39:08+04:00"
+  },
+  {
+   "n": 663,
+   "slug": "can-rent-exotic-cars-palm-jumeirah-dubai",
+   "role": "Supporting",
+   "cluster": "BRAND-INFO",
+   "pillar": "can-rent-exotic-cars-dubai-2026-fleet",
+   "order": 645,
+   "publishAt": "2027-04-08T20:12:56+04:00"
+  },
+  {
+   "n": 357,
+   "slug": "makes-cullinan-black-badge-interior-so-bold-dubai",
+   "role": "Supporting",
+   "cluster": "MODEL-INFO",
+   "pillar": "cullinan-black-badge-interior-dubais-dark-luxury",
+   "order": 646,
+   "publishAt": "2027-04-09T07:54:34+04:00"
+  },
+  {
+   "n": 605,
+   "slug": "can-rent-luxury-cars-dubai-driver",
+   "role": "Supporting",
+   "cluster": "RENTAL-COMMERCIAL",
+   "pillar": "can-rent-luxury-cars-dubai-top-fleet-picks",
+   "order": 647,
+   "publishAt": "2027-04-09T16:45:11+04:00"
+  },
+  {
+   "n": 381,
+   "slug": "white-on-white-ghost-perfect-dubai-weddings",
+   "role": "Supporting",
+   "cluster": "RENTAL-COMMERCIAL",
+   "pillar": "white-on-white-rolls-royce-ghost-dubais-cleanest-statement",
+   "order": 648,
+   "publishAt": "2027-04-10T20:18:07+04:00"
+  },
+  {
+   "n": 430,
+   "slug": "much-does-rolls-royce-car-cost-buy-hire-dubai",
+   "role": "Supporting",
+   "cluster": "PRICE-INFO",
+   "pillar": "much-does-rolls-royce-car-cost-2026-dubai",
+   "order": 649,
+   "publishAt": "2027-04-10T21:20:19+04:00"
+  },
+  {
+   "n": 225,
+   "slug": "bentley-rolls-royce-same-company-old-rivals",
+   "role": "Supporting",
+   "cluster": "COMPARISON",
+   "pillar": "bentley-rolls-royce-same-company-myth-debunked",
+   "order": 650,
+   "publishAt": "2027-04-11T03:54:12+04:00"
+  },
+  {
+   "n": 365,
+   "slug": "cullinan-black-badge-interior-5-details-wow-dubai",
+   "role": "Supporting",
+   "cluster": "MODEL-INFO",
+   "pillar": "cullinan-black-badge-interior-dubais-dark-luxury",
+   "order": 651,
+   "publishAt": "2027-04-11T21:07:28+04:00"
+  },
+  {
+   "n": 362,
+   "slug": "stolen-recovered-silver-ghost-dubai-enthusiasts",
+   "role": "Supporting",
+   "cluster": "BRAND-INFO",
+   "pillar": "silver-ghost-theft-recovery-rolls-royce-legend-dubai",
+   "order": 652,
+   "publishAt": "2027-04-11T22:42:31+04:00"
+  },
+  {
+   "n": 683,
+   "slug": "renting-rolls-royce-day-dubai",
+   "role": "Supporting",
+   "cluster": "BRAND-INFO",
+   "pillar": "rent-rolls-royce-day-dubai-models-rates-tips",
+   "order": 653,
+   "publishAt": "2027-04-13T09:12:37+04:00"
+  },
+  {
+   "n": 597,
+   "slug": "rent-high-end-cars-dubai-photoshoot",
+   "role": "Supporting",
+   "cluster": "RENTAL-COMMERCIAL",
+   "pillar": "rent-high-end-cars-dubai-insider",
+   "order": 654,
+   "publishAt": "2027-04-13T18:27:40+04:00"
+  },
+  {
+   "n": 650,
+   "slug": "rent-rolls-royce-day-dubai-airport-arrival",
+   "role": "Supporting",
+   "cluster": "RENTAL-COMMERCIAL",
+   "pillar": "rent-rolls-royce-day-dubai-models-rates-tips",
+   "order": 655,
+   "publishAt": "2027-04-14T15:39:56+04:00"
+  },
+  {
+   "n": 569,
+   "slug": "much-rent-rolls-royce-dubai-airport-transfer",
+   "role": "Supporting",
+   "cluster": "RENTAL-COMMERCIAL",
+   "pillar": "much-rent-rolls-royce-dubai-2026-price",
+   "order": 656,
+   "publishAt": "2027-04-14T20:28:42+04:00"
+  },
+  {
+   "n": 320,
+   "slug": "spectres-bailey-dog-inspiration-renting-dubai",
+   "role": "Supporting",
+   "cluster": "MODEL-INFO",
+   "pillar": "spectre-bailey-dog-inspired-design-dubai-first",
+   "order": 657,
+   "publishAt": "2027-04-15T09:09:39+04:00"
+  },
+  {
+   "n": 424,
+   "slug": "much-rolls-royce-clear-price-dubai-2026",
+   "role": "Supporting",
+   "cluster": "PRICE-INFO",
+   "pillar": "much-rolls-royce-cheapest-way-drive-one-dubai",
+   "order": 658,
+   "publishAt": "2027-04-15T10:52:33+04:00"
+  },
+  {
+   "n": 646,
+   "slug": "rent-rolls-royce-driver-dubai-aed-3800",
+   "role": "Supporting",
+   "cluster": "RENTAL-COMMERCIAL",
+   "pillar": "rent-rolls-royce-driver-dubai-chauffeur-service",
+   "order": 659,
+   "publishAt": "2027-04-15T15:51:30+04:00"
+  },
+  {
+   "n": 64,
+   "slug": "most-expensive-car-company-world",
+   "role": "Supporting",
+   "cluster": "PRICE-INFO",
+   "pillar": "most-expensive-car-company-rolls-royce",
+   "order": 660,
+   "publishAt": "2027-04-15T18:06:24+04:00"
+  },
+  {
+   "n": 463,
+   "slug": "much-price-rolls-royce-renting-one-dubai",
+   "role": "Supporting",
+   "cluster": "PRICE-INFO",
+   "pillar": "much-price-rolls-royce-2026-dubai-cost",
+   "order": 661,
+   "publishAt": "2027-04-16T18:02:24+04:00"
+  },
+  {
+   "n": 428,
+   "slug": "much-rolls-royce-price-range-explained",
+   "role": "Supporting",
+   "cluster": "PRICE-INFO",
+   "pillar": "much-rolls-royce-cars-model-by-model-prices-2026",
+   "order": 662,
+   "publishAt": "2027-04-17T08:35:08+04:00"
+  },
+  {
+   "n": 585,
+   "slug": "much-does-cost-rent-rolls-royce-weekend",
+   "role": "Supporting",
+   "cluster": "RENTAL-COMMERCIAL",
+   "pillar": "much-does-cost-rent-rolls-royce-dubai-2026",
+   "order": 663,
+   "publishAt": "2027-04-17T17:09:53+04:00"
+  },
+  {
+   "n": 378,
+   "slug": "much-spectre-black-badge-rent-ev-dubai",
+   "role": "Supporting",
+   "cluster": "PRICE-INFO",
+   "pillar": "rolls-royce-spectre-black-badge-price-2026-dubai",
+   "order": 664,
+   "publishAt": "2027-04-18T15:24:39+04:00"
+  },
+  {
+   "n": 531,
+   "slug": "much-does-rolls-royce-ghost-cost-own-rent-dubai",
+   "role": "Supporting",
+   "cluster": "MODEL-INFO",
+   "pillar": "much-does-rolls-royce-ghost-cost-2026-price-dubai-hire",
+   "order": 665,
+   "publishAt": "2027-04-18T18:12:31+04:00"
+  },
+  {
+   "n": 376,
+   "slug": "2025-cullinan-black-badge-worth-renting-dubai",
+   "role": "Supporting",
+   "cluster": "MODEL-INFO",
+   "pillar": "2025-rolls-royce-cullinan-black-badge-dubais-flagship-suv",
+   "order": 666,
+   "publishAt": "2027-04-18T21:38:53+04:00"
+  },
+  {
+   "n": 515,
+   "slug": "much-rolls-royce-suv-cullinan-cost-dubai-hire-2026",
+   "role": "Supporting",
+   "cluster": "MODEL-INFO",
+   "pillar": "much-rolls-royce-suv-buy-cullinan-rent-dubai",
+   "order": 667,
+   "publishAt": "2027-04-19T09:11:06+04:00"
+  },
+  {
+   "n": 659,
+   "slug": "lease-rent-rolls-royce-dubai-choose",
+   "role": "Supporting",
+   "cluster": "COMPARISON",
+   "pillar": "can-lease-rolls-royce-dubai-long-term",
+   "order": 668,
+   "publishAt": "2027-04-19T14:29:08+04:00"
+  },
+  {
+   "n": 654,
+   "slug": "rent-rolls-royce-without-driver-dubai",
+   "role": "Supporting",
+   "cluster": "RENTAL-COMMERCIAL",
+   "pillar": "rent-rolls-royce-driver-dubai-chauffeur-service",
+   "order": 669,
+   "publishAt": "2027-04-19T16:42:18+04:00"
+  },
+  {
+   "n": 607,
+   "slug": "can-rent-luxury-cars-dubai-corporate-event",
+   "role": "Supporting",
+   "cluster": "RENTAL-COMMERCIAL",
+   "pillar": "can-rent-luxury-cars-dubai-top-fleet-picks",
+   "order": 670,
+   "publishAt": "2027-04-20T04:20:23+04:00"
+  },
+  {
+   "n": 401,
+   "slug": "much-rolls-royce-costs-own-rent-dubai",
+   "role": "Supporting",
+   "cluster": "PRICE-INFO",
+   "pillar": "much-rolls-royce-sets-back-aed-3800/day-rent",
+   "order": 671,
+   "publishAt": "2027-04-20T07:45:42+04:00"
+  },
+  {
+   "n": 667,
+   "slug": "rent-rolls-royce-dubai-chauffeur",
+   "role": "Supporting",
+   "cluster": "RENTAL-COMMERCIAL",
+   "pillar": "rent-rolls-royce-dubai-models-rates-book",
+   "order": 672,
+   "publishAt": "2027-04-20T09:51:40+04:00"
+  },
+  {
+   "n": 527,
+   "slug": "much-rolls-royce-cost-2026-clear-dubai",
+   "role": "Supporting",
+   "cluster": "PRICE-INFO",
+   "pillar": "much-rolls-royce-costs-daily-rate-dubai",
+   "order": 673,
+   "publishAt": "2027-04-20T14:22:07+04:00"
+  },
+  {
+   "n": 612,
+   "slug": "rent-sports-car-dubai-marina-weekend",
+   "role": "Supporting",
+   "cluster": "RENTAL-COMMERCIAL",
+   "pillar": "rent-sports-car-dubai-luxury-exotic-picks",
+   "order": 674,
+   "publishAt": "2027-04-21T01:31:44+04:00"
+  },
+  {
+   "n": 492,
+   "slug": "price-rolls-royce-ghost-2026-cost-dubai-rental",
+   "role": "Supporting",
+   "cluster": "MODEL-INFO",
+   "pillar": "price-rolls-royce-ghost-renting-wins-dubai",
+   "order": 675,
+   "publishAt": "2027-04-21T08:11:43+04:00"
+  },
+  {
+   "n": 609,
+   "slug": "can-rent-luxury-cars-dubai-airport-pickup",
+   "role": "Supporting",
+   "cluster": "RENTAL-COMMERCIAL",
+   "pillar": "can-rent-luxury-cars-dubai-top-fleet-picks",
+   "order": 676,
+   "publishAt": "2027-04-21T13:44:17+04:00"
+  },
+  {
+   "n": 665,
+   "slug": "rent-rolls-royce-dubai-aed-3800-per-day",
+   "role": "Supporting",
+   "cluster": "PRICE-INFO",
+   "pillar": "rent-rolls-royce-dubai-models-rates-book",
+   "order": 677,
+   "publishAt": "2027-04-21T21:48:49+04:00"
+  },
+  {
+   "n": 675,
+   "slug": "best-luxury-car-rental-company-dubai-airport-pickups",
+   "role": "Supporting",
+   "cluster": "RENTAL-COMMERCIAL",
+   "pillar": "best-car-rental-company-luxury-cars-dubai-look",
+   "order": 678,
+   "publishAt": "2027-04-22T10:39:24+04:00"
+  },
+  {
+   "n": 474,
+   "slug": "much-does-rolls-royce-cost-buy-hire-dubai",
+   "role": "Supporting",
+   "cluster": "PRICE-INFO",
+   "pillar": "much-does-rolls-royce-cost-2026-dubai",
+   "order": 679,
+   "publishAt": "2027-04-22T11:22:04+04:00"
+  },
+  {
+   "n": 637,
+   "slug": "rent-rolls-royce-day-dubai-graduation",
+   "role": "Supporting",
+   "cluster": "RENTAL-COMMERCIAL",
+   "pillar": "rent-rolls-royce-day-dubai-models-rates-tips",
+   "order": 680,
+   "publishAt": "2027-04-22T15:57:07+04:00"
+  },
+  {
+   "n": 574,
+   "slug": "much-rent-rolls-royce-dubai-event-arrival",
+   "role": "Supporting",
+   "cluster": "RENTAL-COMMERCIAL",
+   "pillar": "much-rent-rolls-royce-dubai-2026-price",
+   "order": 681,
+   "publishAt": "2027-04-23T17:27:37+04:00"
+  },
+  {
+   "n": 134,
+   "slug": "long-does-take-build-rolls-royce-hand",
+   "role": "Supporting",
+   "cluster": "MODEL-INFO",
+   "pillar": "long-does-take-build-rolls-royce-process",
+   "order": 682,
+   "publishAt": "2027-04-24T10:12:03+04:00"
+  },
+  {
+   "n": 528,
+   "slug": "much-rolls-royce-wraith-models-price-dubai-rental",
+   "role": "Supporting",
+   "cluster": "MODEL-INFO",
+   "pillar": "much-rolls-royce-wraith-cars-rent-dubai",
+   "order": 683,
+   "publishAt": "2027-04-24T16:18:25+04:00"
+  },
+  {
+   "n": 606,
+   "slug": "can-rent-luxury-cars-dubai-weekend",
+   "role": "Supporting",
+   "cluster": "RENTAL-COMMERCIAL",
+   "pillar": "can-rent-luxury-cars-dubai-top-fleet-picks",
+   "order": 684,
+   "publishAt": "2027-04-25T01:46:36+04:00"
+  },
+  {
+   "n": 532,
+   "slug": "much-rolls-royce-wraith-price-dubai-rental-cost",
+   "role": "Supporting",
+   "cluster": "MODEL-INFO",
+   "pillar": "much-rolls-royce-wraith-dubai-hire-aed-3800",
+   "order": 685,
+   "publishAt": "2027-04-25T09:27:45+04:00"
+  },
+  {
+   "n": 684,
+   "slug": "lease-rolls-royce-dubai-before-commit",
+   "role": "Supporting",
+   "cluster": "PRICE-INFO",
+   "pillar": "can-lease-rolls-royce-dubai-long-term",
+   "order": 686,
+   "publishAt": "2027-04-25T15:12:52+04:00"
+  },
+  {
+   "n": 633,
+   "slug": "rent-rolls-royce-day-dubai-city-tour",
+   "role": "Supporting",
+   "cluster": "RENTAL-COMMERCIAL",
+   "pillar": "rent-rolls-royce-day-dubai-models-rates-tips",
+   "order": 687,
+   "publishAt": "2027-04-25T19:17:35+04:00"
+  },
+  {
+   "n": 441,
+   "slug": "ghost-phantom-rolls-royce-cheaper-rent-dubai",
+   "role": "Supporting",
+   "cluster": "COMPARISON",
+   "pillar": "much-rolls-royce-ghost-buy-rent-dubai",
+   "order": 688,
+   "publishAt": "2027-04-26T00:20:21+04:00"
+  },
+  {
+   "n": 562,
+   "slug": "much-rent-rolls-royce-dubai-pricing-model",
+   "role": "Supporting",
+   "cluster": "PRICE-INFO",
+   "pillar": "much-rent-rolls-royce-dubai-2026-price",
+   "order": 689,
+   "publishAt": "2027-04-26T18:51:55+04:00"
+  },
+  {
+   "n": 578,
+   "slug": "much-rent-rolls-royce-dubai-price-breakdown",
+   "role": "Supporting",
+   "cluster": "PRICE-INFO",
+   "pillar": "much-rent-rolls-royce-dubai-2026-rates",
+   "order": 690,
+   "publishAt": "2027-04-27T10:22:38+04:00"
+  },
+  {
+   "n": 129,
+   "slug": "owns-rolls-royce-cars-goodwood-marque-explained",
+   "role": "Supporting",
+   "cluster": "BRAND-INFO",
+   "pillar": "owns-rolls-royce-cars-rolls-royce-engines-difference",
+   "order": 691,
+   "publishAt": "2027-04-27T18:14:29+04:00"
+  },
+  {
+   "n": 681,
+   "slug": "can-rent-exotic-cars-dubai-photoshoot",
+   "role": "Supporting",
+   "cluster": "RENTAL-COMMERCIAL",
+   "pillar": "can-rent-exotic-cars-dubai-2026-fleet",
+   "order": 692,
+   "publishAt": "2027-04-28T15:36:14+04:00"
+  },
+  {
+   "n": 509,
+   "slug": "much-does-rolls-royce-phantom-weigh-matters",
+   "role": "Supporting",
+   "cluster": "MODEL-INFO",
+   "pillar": "much-does-rolls-royce-phantom-weigh-spec-sheet-2026",
+   "order": 693,
+   "publishAt": "2027-04-28T18:16:48+04:00"
+  },
+  {
+   "n": 567,
+   "slug": "much-rent-rolls-royce-dubai-corporate-event",
+   "role": "Supporting",
+   "cluster": "RENTAL-COMMERCIAL",
+   "pillar": "much-rent-rolls-royce-dubai-2026-price",
+   "order": 694,
+   "publishAt": "2027-04-28T19:01:25+04:00"
+  },
+  {
+   "n": 575,
+   "slug": "much-rent-rolls-royce-dubai-one-weekend",
+   "role": "Supporting",
+   "cluster": "RENTAL-COMMERCIAL",
+   "pillar": "much-rent-rolls-royce-dubai-2026-price",
+   "order": 695,
+   "publishAt": "2027-04-29T08:02:32+04:00"
+  },
+  {
+   "n": 594,
+   "slug": "rent-high-end-cars-dubai-chauffeur",
+   "role": "Supporting",
+   "cluster": "RENTAL-COMMERCIAL",
+   "pillar": "rent-high-end-cars-dubai-insider",
+   "order": 696,
+   "publishAt": "2027-04-29T10:04:19+04:00"
+  },
+  {
+   "n": 656,
+   "slug": "can-lease-rolls-royce-dubai-lease-rent-explained",
+   "role": "Supporting",
+   "cluster": "COMPARISON",
+   "pillar": "can-lease-rolls-royce-dubai-long-term",
+   "order": 697,
+   "publishAt": "2027-04-29T14:04:06+04:00"
+  },
+  {
+   "n": 680,
+   "slug": "best-luxury-car-rental-company-dubai-photoshoots",
+   "role": "Supporting",
+   "cluster": "RENTAL-COMMERCIAL",
+   "pillar": "best-car-rental-company-luxury-cars-dubai-look",
+   "order": 698,
+   "publishAt": "2027-04-30T12:46:39+04:00"
+  },
+  {
+   "n": 631,
+   "slug": "much-lease-rolls-royce-cullinan-dubai-per-month",
+   "role": "Supporting",
+   "cluster": "PRICE-INFO",
+   "pillar": "much-lease-rolls-royce-dubai-monthly-cost",
+   "order": 699,
+   "publishAt": "2027-04-30T21:04:11+04:00"
+  }
+ ]
+}
