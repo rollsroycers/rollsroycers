@@ -96,11 +96,14 @@ export function getFileArticle(slug: string, locale: string): LocaleArticle | nu
  * only what the "Related Articles" grid renders).
  */
 export function getFileArticleMeta(
-  slug: string
+  slug: string,
+  locale = 'en'
 ): { slug: string; title: string; image: string; category: string; readTime: string } | null {
   const data = readFile(slug)
   if (!data || !isLive(data)) return null
-  const a = data.en || data.ar || data.ru
+  // Card metadata in the requested locale (fall back to en/ar/ru) so "Related Articles"
+  // titles/category/readTime match the current page language.
+  const a = (data as Record<string, any>)[locale] || data.en || data.ar || data.ru
   if (!a) return null
   return {
     slug,

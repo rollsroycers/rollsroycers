@@ -379,11 +379,23 @@ export const getStaticProps: GetStaticProps = async ({ params, locale }) => {
     ? (translatedArticle ? { ...baseArticle, ...translatedArticle } : baseArticle)
     : getFileArticle(slug, currentLocale)
 
-  // Resolve related articles data (only send minimal data to client)
+  // Resolve related articles in the CURRENT locale (same resolution as the main
+  // article) so the cards' title/category/readTime follow the page language — not English.
   const relatedArticlesData = article?.relatedArticles?.map((relSlug: string) => {
-    const rel = blogArticles[relSlug]
-    if (rel) return { slug: relSlug, title: rel.title, image: rel.image, category: rel.category, readTime: rel.readTime }
-    return getFileArticleMeta(relSlug)
+    const relBase = (
+      (localizedArticles[currentLocale] && localizedArticles[currentLocale][relSlug]) ||
+      (localizedArticles['en'] && localizedArticles['en'][relSlug]) ||
+      blogArticles[relSlug] ||
+      null
+    )
+    if (relBase) {
+      const relTranslated = currentLocale !== 'en'
+        ? (blogTranslations as Record<string, any>)[relSlug]?.[currentLocale]
+        : null
+      const r = relTranslated ? { ...relBase, ...relTranslated } : relBase
+      return { slug: relSlug, title: r.title, image: r.image, category: r.category, readTime: r.readTime }
+    }
+    return getFileArticleMeta(relSlug, currentLocale)
   }).filter(Boolean) || []
   
   return {
