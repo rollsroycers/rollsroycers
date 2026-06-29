@@ -138,7 +138,38 @@
       "title": "Stay Updated",
       "description": "Subscribe to our newsletter for the latest luxury car insights and exclusive offers.",
       "subscribe": "Subscribe",
-      "email": "Enter your email"
+      "email": "Enter your email",
+      "privacy": "We respect your privacy. Unsubscribe anytime."
+    },
+    "hero": {
+      "title": "Luxury Insights",
+      "subtitle": "Your Guide to Rolls-Royce Excellence in Dubai"
+    },
+    "latestArticles": "Latest Articles",
+    "readFullArticle": "Read Full Article",
+    "featuredBadge": "Featured",
+    "popularTopics": {
+      "title": "Popular Topics",
+      "tags": [
+        "Rolls-Royce Phantom",
+        "Wedding Car Rental",
+        "Dubai Marina",
+        "Airport Transfer",
+        "Chauffeur Service",
+        "Business Travel",
+        "Luxury Hotels",
+        "Dubai Attractions",
+        "Corporate Events",
+        "Photography Spots",
+        "Desert Safari",
+        "Night Life"
+      ]
+    },
+    "cta": {
+      "title": "Ready for Your Luxury Experience?",
+      "description": "Turn these insights into reality. Book your Rolls-Royce today and create your own Dubai story.",
+      "exploreFleet": "Explore Our Fleet",
+      "call": "Call: +971 55 816 4922"
     }
   }
 }

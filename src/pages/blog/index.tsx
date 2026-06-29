@@ -11,8 +11,13 @@ import WhatsAppButton from '@/components/WhatsAppButton'
 import SEO from '@/components/SEO'
 import GEOOptimizer from '@/components/GEOOptimizer'
 import { listFileSlugs, getFileArticle } from '@/data/blogFileStore'
+import { blogArticles, localizedArticles } from '@/data/blogArticlesData'
+import blogTranslations from '@/data/blogTranslations.json'
+import blogSlugs from '@/data/blogSlugs.json'
 
-export default function BlogPage({ filePosts = [] }: { filePosts?: any[] }) {
+type CardText = Record<string, { title: string; excerpt: string; readTime: string }>
+
+export default function BlogPage({ filePosts = [], cardText = {} }: { filePosts?: any[]; cardText?: CardText }) {
   const { t } = useTranslation('common')
   const [selectedCategory, setSelectedCategory] = useState('all')
   // Numbered, in-place pagination (URL stays /blog): only a window of cards mounts
@@ -269,8 +274,11 @@ export default function BlogPage({ filePosts = [] }: { filePosts?: any[] }) {
 
   // File-based posts (src/data/blog/*.json) come first (newest), then the legacy
   // curated list — so newly added posts surface automatically and /blog scales to 1000+.
+  // Localize legacy card title/excerpt/readTime to the current page language
+  // (cardText is resolved per-slug from blogTranslations in getStaticProps).
+  const localizedLegacy = articles.map((a) => (cardText[a.slug] ? { ...a, ...cardText[a.slug] } : a))
   // Newest first across BOTH file-based and legacy posts (locale-independent date parse).
-  const allArticles = [...filePosts, ...articles].sort(
+  const allArticles = [...filePosts, ...localizedLegacy].sort(
     (a, b) => (Date.parse(b.date) || 0) - (Date.parse(a.date) || 0)
   )
   const filteredArticles = selectedCategory === 'all'
@@ -350,10 +358,10 @@ export default function BlogPage({ filePosts = [] }: { filePosts?: any[] }) {
               transition={{ duration: 1 }}
             >
               <h1 className="text-5xl md:text-7xl font-bold text-white mb-6">
-                Luxury Insights
+                {t('blog.hero.title')}
               </h1>
               <p className="text-2xl text-rolls-gold mb-8">
-                Your Guide to Rolls-Royce Excellence in Dubai
+                {t('blog.hero.subtitle')}
               </p>
             </motion.div>
           </div>
@@ -397,7 +405,7 @@ export default function BlogPage({ filePosts = [] }: { filePosts?: any[] }) {
                     className="object-cover"
                   />
                   <div className="absolute top-4 left-4 bg-rolls-gold text-rolls-black px-4 py-2 rounded-full text-sm font-semibold">
-                    Featured
+                    {t('blog.featuredBadge')}
                   </div>
                 </div>
                 
@@ -419,8 +427,8 @@ export default function BlogPage({ filePosts = [] }: { filePosts?: any[] }) {
                     href={`/blog/${featuredArticle.slug}`}
                     className="inline-flex items-center gap-2 text-rolls-gold hover:text-white transition-colors"
                   >
-                    Read Full Article
-                    <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    {t('blog.readFullArticle')}
+                    <svg className="w-5 h-5 rtl:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
                     </svg>
                   </Link>
@@ -434,7 +442,7 @@ export default function BlogPage({ filePosts = [] }: { filePosts?: any[] }) {
         <section id="blog-articles" className="py-20 bg-gradient-to-b from-rolls-navy to-rolls-black scroll-mt-24">
           <div className="container mx-auto px-4">
             <h2 className="text-4xl font-bold text-white text-center mb-12">
-              Latest Articles
+              {t('blog.latestArticles')}
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
               {visibleArticles.map((article, index) => (
@@ -532,23 +540,23 @@ export default function BlogPage({ filePosts = [] }: { filePosts?: any[] }) {
           <div className="container mx-auto px-4">
             <div className="max-w-3xl mx-auto text-center">
               <h2 className="text-4xl font-bold text-white mb-6">
-                Stay Updated
+                {t('blog.newsletter.title')}
               </h2>
               <p className="text-xl text-gray-300 mb-8">
-                Get exclusive insights, special offers, and Dubai luxury travel tips delivered to your inbox
+                {t('blog.newsletter.description')}
               </p>
               <form className="flex flex-col sm:flex-row gap-4 max-w-md mx-auto">
                 <input
                   type="email"
-                  placeholder={t('placeholders.enterEmail')}
+                  placeholder={t('blog.newsletter.email')}
                   className="flex-1 px-6 py-3 bg-rolls-black/50 border border-rolls-gold/20 rounded-full text-white placeholder-gray-500 focus:outline-none focus:border-rolls-gold"
                 />
                 <button type="submit" className="btn-primary">
-                  Subscribe
+                  {t('blog.newsletter.subscribe')}
                 </button>
               </form>
               <p className="text-sm text-gray-400 mt-4">
-                We respect your privacy. Unsubscribe anytime.
+                {t('blog.newsletter.privacy')}
               </p>
             </div>
           </div>
@@ -558,23 +566,10 @@ export default function BlogPage({ filePosts = [] }: { filePosts?: any[] }) {
         <section className="py-20 bg-gradient-to-b from-rolls-navy to-rolls-black">
           <div className="container mx-auto px-4">
             <h2 className="text-4xl font-bold text-white text-center mb-12">
-              Popular Topics
+              {t('blog.popularTopics.title')}
             </h2>
             <div className="flex flex-wrap justify-center gap-3 max-w-4xl mx-auto">
-              {[
-                'Rolls-Royce Phantom',
-                'Wedding Car Rental',
-                'Dubai Marina',
-                'Airport Transfer',
-                'Chauffeur Service',
-                'Business Travel',
-                'Luxury Hotels',
-                'Dubai Attractions',
-                'Corporate Events',
-                'Photography Spots',
-                'Desert Safari',
-                'Night Life'
-              ].map((topic, index) => (
+              {(t('blog.popularTopics.tags', { returnObjects: true }) as string[]).map((topic, index) => (
                 <motion.a
                   key={index}
                   href="#"
@@ -594,10 +589,10 @@ export default function BlogPage({ filePosts = [] }: { filePosts?: any[] }) {
         <section className="py-20 bg-gradient-to-b from-rolls-black to-rolls-navy">
           <div className="container mx-auto px-4 text-center">
             <h2 className="text-4xl font-bold text-white mb-6">
-              Ready for Your Luxury Experience?
+              {t('blog.cta.title')}
             </h2>
             <p className="text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
-              Turn these insights into reality. Book your Rolls-Royce today and create your own Dubai story.
+              {t('blog.cta.description')}
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <motion.a
@@ -606,10 +601,10 @@ export default function BlogPage({ filePosts = [] }: { filePosts?: any[] }) {
                 whileTap={{ scale: 0.95 }}
                 className="btn-primary"
               >
-                Call: +971 55 816 4922
+                {t('blog.cta.call')}
               </motion.a>
               <Link href="/fleet" className="btn-secondary">
-                Explore Our Fleet
+                {t('blog.cta.exploreFleet')}
               </Link>
             </div>
           </div>
@@ -644,10 +639,26 @@ export const getStaticProps: GetStaticProps = async ({ locale }) => {
     })
     .filter((p) => p !== null) as any[])
     .sort((x, y) => (new Date(y.date).getTime() || 0) - (new Date(x.date).getTime() || 0))
+
+  // Localized card text for the legacy posts, resolved per-slug in the CURRENT locale
+  // (same resolution as the article page) so /blog cards aren't stuck in English.
+  const cardText: CardText = {}
+  for (const slug of blogSlugs as string[]) {
+    const base =
+      (localizedArticles[loc] && localizedArticles[loc][slug]) ||
+      (localizedArticles['en'] && localizedArticles['en'][slug]) ||
+      blogArticles[slug]
+    if (!base) continue
+    const tr = loc !== 'en' ? (blogTranslations as Record<string, any>)[slug]?.[loc] : null
+    const a = tr ? { ...base, ...tr } : base
+    cardText[slug] = { title: a.title, excerpt: a.description, readTime: a.readTime }
+  }
+
   return {
     props: {
       ...(await serverSideTranslations(loc, ['common', 'navigation', 'page_blog', 'seo_other'])),
       filePosts,
+      cardText,
     },
   }
 }
