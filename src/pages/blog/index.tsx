@@ -11,13 +11,9 @@ import WhatsAppButton from '@/components/WhatsAppButton'
 import SEO from '@/components/SEO'
 import GEOOptimizer from '@/components/GEOOptimizer'
 import { listFileSlugs, getFileArticle } from '@/data/blogFileStore'
-import { blogArticles, localizedArticles } from '@/data/blogArticlesData'
-import blogTranslations from '@/data/blogTranslations.json'
-import blogSlugs from '@/data/blogSlugs.json'
 
-type CardText = Record<string, { title: string; excerpt: string; readTime: string }>
 
-export default function BlogPage({ filePosts = [], cardText = {} }: { filePosts?: any[]; cardText?: CardText }) {
+export default function BlogPage({ filePosts = [] }: { filePosts?: any[] }) {
   const { t } = useTranslation('common')
   const [selectedCategory, setSelectedCategory] = useState('all')
   // Numbered, in-place pagination (URL stays /blog): only a window of cards mounts
@@ -45,242 +41,10 @@ export default function BlogPage({ filePosts = [], cardText = {} }: { filePosts?
     slug: 'ultimate-guide-rolls-royce-rental-dubai'
   }
 
-  const articles = [
-    {
-      id: 2,
-      title: t('blog.articles.article1.title'),
-      excerpt: t('blog.articles.article1.excerpt'),
-      category: 'guides',
-      author: t('blog.articles.article1.author'),
-      date: t('blog.articles.article1.date'),
-      readTime: t('blog.articles.article1.readTime'),
-      image: '/images/Rolls-Royce-Ride-2.jpg',
-      slug: 'top-scenic-drives-dubai'
-    },
-    {
-      id: 3,
-      title: t('blog.articles.article2.title'),
-      excerpt: t('blog.articles.article2.excerpt'),
-      category: 'luxury',
-      author: t('blog.articles.article2.author'),
-      date: t('blog.articles.article2.date'),
-      readTime: t('blog.articles.article2.readTime'),
-      image: '/images/Rolls-Royce-white.jpg',
-      slug: 'rolls-royce-wedding-car-dubai'
-    },
-    {
-      id: 4,
-      title: t('blog.articles.article3.title'),
-      excerpt: t('blog.articles.article3.excerpt'),
-      category: 'luxury',
-      author: t('blog.articles.article3.author'),
-      date: t('blog.articles.article3.date'),
-      readTime: t('blog.articles.article3.readTime'),
-      image: '/images/Rolls-royce-with-chauffeur.jpg',
-      slug: 'business-travel-rolls-royce'
-    },
-    {
-      id: 5,
-      title: t('blog.articles.article4.title'),
-      excerpt: t('blog.articles.article4.excerpt'),
-      category: 'events',
-      author: t('blog.articles.article4.author'),
-      date: t('blog.articles.article4.date'),
-      readTime: t('blog.articles.article4.readTime'),
-      image: '/images/Rolls-Royce-black.jpg',
-      slug: 'dubai-motor-show-2024'
-    },
-    {
-      id: 6,
-      title: t('blog.articles.article5.title'),
-      excerpt: t('blog.articles.article5.excerpt'),
-      category: 'tips',
-      author: t('blog.articles.article5.author'),
-      date: t('blog.articles.article5.date'),
-      readTime: t('blog.articles.article5.readTime'),
-      image: '/images/Rolls-Royce-front.jpg',
-      slug: 'first-time-dubai-luxury-guide'
-    },
-    {
-      id: 7,
-      title: t('blog.articles.article6.title'),
-      excerpt: t('blog.articles.article6.excerpt'),
-      category: 'luxury',
-      author: t('blog.articles.article6.author'),
-      date: t('blog.articles.article6.date'),
-      readTime: t('blog.articles.article6.readTime'),
-      image: '/images/Rolls-royce-phantom.jpg',
-      slug: 'evolution-rolls-royce-history'
-    },
-    {
-      id: 8,
-      title: t('blog.articles.article7.title'),
-      excerpt: t('blog.articles.article7.excerpt'),
-      category: 'guides',
-      author: t('blog.articles.article7.author'),
-      date: t('blog.articles.article7.date'),
-      readTime: t('blog.articles.article7.readTime'),
-      image: '/images/Rolls-oyce-air-port.jpg',
-      slug: 'dubai-luxury-hotels-guide'
-    },
-    {
-      id: 9,
-      title: t('blog.articles.article8.title'),
-      excerpt: t('blog.articles.article8.excerpt'),
-      category: 'tips',
-      author: t('blog.articles.article8.author'),
-      date: t('blog.articles.article8.date'),
-      readTime: t('blog.articles.article8.readTime'),
-      image: '/images/downtown-hero.jpg',
-      slug: 'luxury-shopping-dubai-rolls-royce'
-    },
-    {
-      id: 10,
-      title: t('blog.articles.article9.title'),
-      excerpt: t('blog.articles.article9.excerpt'),
-      category: 'luxury',
-      author: t('blog.articles.article9.author'),
-      date: t('blog.articles.article9.date'),
-      readTime: t('blog.articles.article9.readTime'),
-      image: '/images/Rolls-Royce_Dawn_Convertible-2.jpg',
-      slug: 'rolls-royce-dawn-convertible-dubai'
-    },
-    {
-      id: 11,
-      title: t('blog.articles.chauffeurGuide.title', 'Rolls-Royce Chauffeur Service in Dubai: Executive Guide 2025'),
-      excerpt: t('blog.articles.chauffeurGuide.excerpt', 'When to choose chauffeur service, pricing, routes, etiquette, and booking tips.'),
-      category: 'guides',
-      author: t('blog.articles.chauffeurGuide.author', 'Editorial Team'),
-      date: t('blog.articles.chauffeurGuide.date', 'Aug 8, 2025'),
-      readTime: t('blog.articles.chauffeurGuide.readTime', '9 min read'),
-      image: '/images/Rolls-royce-with-chauffeur.jpg',
-      slug: 'rolls-royce-chauffeur-dubai-guide'
-    },
-    {
-      id: 12,
-      title: t('blog.articles.airportTransfer.title', 'Rolls-Royce Airport Transfer Dubai: Seamless Arrivals & Departures'),
-      excerpt: t('blog.articles.airportTransfer.excerpt', 'Plan a flawless DXB/DWC transfer with timing, routes, terminals, and baggage support.'),
-      category: 'guides',
-      author: t('blog.articles.airportTransfer.author', 'Editorial Team'),
-      date: t('blog.articles.airportTransfer.date', 'Aug 8, 2025'),
-      readTime: t('blog.articles.airportTransfer.readTime', '8 min read'),
-      image: '/images/Rolls-oyce-air-port.jpg',
-      slug: 'rolls-royce-airport-transfer-dubai'
-    },
-    {
-      id: 13,
-      title: t('blog.articles.luxuryGuide2025.title', '2025 Dubai Luxury Car Experience Guide: Why Rolls-Royce Reigns Supreme'),
-      excerpt: t('blog.articles.luxuryGuide2025.excerpt', 'The ultimate 2025 guide to luxury car rentals in Dubai. Compare Rolls-Royce vs Bentley, Ferrari, Lamborghini with pricing, features, and insider tips.'),
-      category: 'guides',
-      author: t('blog.articles.luxuryGuide2025.author', 'Editorial Team'),
-      date: t('blog.articles.luxuryGuide2025.date', 'Jan 20, 2025'),
-      readTime: t('blog.articles.luxuryGuide2025.readTime', '15 min read'),
-      image: '/images/Rolls-royce-dubai.jpg',
-      slug: 'dubai-luxury-car-guide-2025'
-    },
-    // NOTE: Removed 2 cards (slugs 'art-of-arriving-special-events-dubai' and
-    // 'dubai-night-experience-rolls-royce') — they had no entry in blog/[slug].tsx
-    // getStaticPaths (fallback:false) and were returning hard 404s. Re-add here only
-    // after authoring the matching articles + adding their slugs to getStaticPaths.
-    {
-      id: 16,
-      title: 'Rolls-Royce Spectre: The World\'s First Ultra-Luxury Electric Car Now in Dubai',
-      excerpt: 'Rent the all-electric Rolls-Royce Spectre in Dubai from AED 7,500/day. 577 HP, 530km range, zero emissions luxury.',
-      category: 'guides',
-      author: 'Ahmed Salem',
-      date: 'Feb 1, 2026',
-      readTime: '8 min read',
-      image: '/images/2024_Rolls-Royce_Spectre.jpg',
-      slug: 'rolls-royce-spectre-electric-dubai'
-    },
-    {
-      id: 17,
-      title: 'Rolls-Royce Black Badge Dubai: The Dark Side of Luxury',
-      excerpt: 'Rent Black Badge editions in Dubai. Cullinan BB from AED 8,500/day, Ghost BB from AED 5,500/day. Darker, more powerful.',
-      category: 'guides',
-      author: 'Ahmed Salem',
-      date: 'Feb 2, 2026',
-      readTime: '9 min read',
-      image: '/images/2024_Rolls-Royce_Cullinan_Black_Badge.jpg',
-      slug: 'rolls-royce-black-badge-dubai'
-    },
-    {
-      id: 18,
-      title: 'Rolls-Royce Birthday Car Rental Dubai: Make It Unforgettable',
-      excerpt: 'Surprise birthday celebrations with a decorated Rolls-Royce. Packages from AED 3,500 with champagne and chauffeur.',
-      category: 'tips',
-      author: 'Fatima Al Rashid',
-      date: 'Feb 3, 2026',
-      readTime: '7 min read',
-      image: '/images/Rolls-Royce-white.jpg',
-      slug: 'rolls-royce-birthday-car-dubai'
-    },
-    {
-      id: 19,
-      title: 'Hourly Rolls-Royce Rental in Dubai: Luxury on Your Schedule',
-      excerpt: 'Rent a Rolls-Royce by the hour from AED 800/hr. All 6 models with chauffeur. Minimum 2-hour booking.',
-      category: 'guides',
-      author: 'James Thompson',
-      date: 'Feb 4, 2026',
-      readTime: '6 min read',
-      image: '/images/Rolls-royce-with-chauffeur.jpg',
-      slug: 'hourly-rolls-royce-rental-dubai'
-    },
-    {
-      id: 20,
-      title: 'Rolls-Royce Cullinan vs Bentley Bentayga: Dubai Luxury SUV Comparison',
-      excerpt: 'Comparing the two most luxurious SUVs for rent in Dubai. Cullinan from AED 6,500/day. Specs, comfort, and pricing.',
-      category: 'guides',
-      author: 'Sarah Mitchell',
-      date: 'Jan 25, 2026',
-      readTime: '10 min read',
-      image: '/images/2024_Rolls-Royce_Cullinan.jpg',
-      slug: 'rolls-royce-cullinan-vs-bentley-bentayga'
-    },
-    {
-      id: 21,
-      title: 'Rolls-Royce Photoshoot Guide Dubai: Best Locations, Models & Tips',
-      excerpt: 'Complete guide to Rolls-Royce photoshoots. Best locations, recommended models, and pro tips from AED 1,200/hour.',
-      category: 'tips',
-      author: 'Layla Al-Mansouri',
-      date: 'Jan 28, 2026',
-      readTime: '8 min read',
-      image: '/images/Rolls-Royce_Dawn.jpg',
-      slug: 'rolls-royce-photoshoot-dubai-guide'
-    },
-    {
-      id: 22,
-      title: 'Dubai New Year\'s Eve 2026: Rolls-Royce Rental for the Ultimate Celebration',
-      excerpt: 'Ring in 2026 in a Rolls-Royce. NYE packages with fireworks viewing, chauffeur, and champagne from AED 8,000.',
-      category: 'events',
-      author: 'Ahmed Salem',
-      date: 'Jan 20, 2026',
-      readTime: '7 min read',
-      image: '/images/downtown-hero.jpg',
-      slug: 'dubai-new-year-luxury-car-rental'
-    },
-    {
-      id: 23,
-      title: 'Rolls-Royce Phantom vs Ghost: Which Should You Rent in Dubai?',
-      excerpt: 'Detailed comparison of Phantom (AED 5,800/day) vs Ghost (AED 3,800/day). Specs, comfort, and best use cases.',
-      category: 'guides',
-      author: 'James Thompson',
-      date: 'Jan 22, 2026',
-      readTime: '9 min read',
-      image: '/images/Rolls-royce-phantom.jpg',
-      slug: 'rolls-royce-phantom-vs-ghost-comparison'
-    }
-  ]
-
-  // File-based posts (src/data/blog/*.json) come first (newest), then the legacy
-  // curated list — so newly added posts surface automatically and /blog scales to 1000+.
-  // Localize legacy card title/excerpt/readTime to the current page language
-  // (cardText is resolved per-slug from blogTranslations in getStaticProps).
-  const localizedLegacy = articles.map((a) => (cardText[a.slug] ? { ...a, ...cardText[a.slug] } : a))
-  // Newest first across BOTH file-based and legacy posts (locale-independent date parse).
-  const allArticles = [...filePosts, ...localizedLegacy].sort(
+  const allArticles = [...filePosts].sort(
     (a, b) => (Date.parse(b.date) || 0) - (Date.parse(a.date) || 0)
   )
+  
   const filteredArticles = selectedCategory === 'all'
     ? allArticles
     : allArticles.filter(article => article.category === selectedCategory)
@@ -640,25 +404,10 @@ export const getStaticProps: GetStaticProps = async ({ locale }) => {
     .filter((p) => p !== null) as any[])
     .sort((x, y) => (new Date(y.date).getTime() || 0) - (new Date(x.date).getTime() || 0))
 
-  // Localized card text for the legacy posts, resolved per-slug in the CURRENT locale
-  // (same resolution as the article page) so /blog cards aren't stuck in English.
-  const cardText: CardText = {}
-  for (const slug of blogSlugs as string[]) {
-    const base =
-      (localizedArticles[loc] && localizedArticles[loc][slug]) ||
-      (localizedArticles['en'] && localizedArticles['en'][slug]) ||
-      blogArticles[slug]
-    if (!base) continue
-    const tr = loc !== 'en' ? (blogTranslations as Record<string, any>)[slug]?.[loc] : null
-    const a = tr ? { ...base, ...tr } : base
-    cardText[slug] = { title: a.title, excerpt: a.description, readTime: a.readTime }
-  }
-
   return {
     props: {
       ...(await serverSideTranslations(loc, ['common', 'navigation', 'page_blog', 'seo_other'])),
       filePosts,
-      cardText,
     },
   }
 }
