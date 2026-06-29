@@ -26,7 +26,7 @@ import { join } from 'node:path'
 
 const BLOG_DIR = join(process.cwd(), 'src', 'data', 'blog')
 
-type LocaleArticle = {
+export type BlogArticle = {
   title: string
   description: string
   author: string
@@ -40,9 +40,9 @@ type LocaleArticle = {
 
 type ArticleFile = {
   publishAt?: string
-  en?: LocaleArticle
-  ar?: LocaleArticle
-  ru?: LocaleArticle
+  en?: BlogArticle
+  ar?: BlogArticle
+  ru?: BlogArticle
 }
 
 const isLive = (data: ArticleFile): boolean => {
@@ -83,7 +83,7 @@ export function listFileSlugs(): string[] {
  * Full article object for a slug in the requested locale, falling back to en.
  * Returns null when the file is missing or not yet live.
  */
-export function getFileArticle(slug: string, locale: string): LocaleArticle | null {
+export function getFileArticle(slug: string, locale: string): BlogArticle | null {
   const data = readFile(slug)
   if (!data || !isLive(data)) return null
   const article =

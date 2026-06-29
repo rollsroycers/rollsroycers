@@ -1,0 +1,826 @@
+{
+  "publishAt": "2025-02-01T12:00:00+04:00",
+  "en": {
+    "title": "Evolution of Rolls-Royce: A Century of Luxury",
+    "description": "Journey through 120 years of Rolls-Royce history, from two visionaries to the pinnacle of automotive luxury. Milestones, iconic models and craftsmanship.",
+    "author": "Editorial Team",
+    "date": "2025-02-01",
+    "readTime": "25 min read",
+    "category": "Heritage",
+    "image": "/images/Rolls-royce-phantom.jpg",
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "The story of Rolls-Royce is not just about luxury cars; it's a testament to human ambition, engineering excellence, and an unwavering commitment to perfection. For over 120 years, Rolls-Royce has defined what it means to create the \"best car in the world.\""
+      },
+      {
+        "type": "heading",
+        "text": "The Beginning: Two Visionaries Unite (1904)"
+      },
+      {
+        "type": "paragraph",
+        "text": "On May 4, 1904, Charles Rolls and Henry Royce met at the Midland Hotel in Manchester. Rolls, an aristocrat and car enthusiast, was seeking the perfect British-made automobile. Royce, a perfectionist engineer, had just built his first car. Their partnership would change automotive history forever."
+      },
+      {
+        "type": "image",
+        "src": "/images/Rolls-royce-official.jpg",
+        "alt": "Historic Rolls-Royce",
+        "caption": "The legacy that began with a handshake in 1904"
+      },
+      {
+        "type": "heading",
+        "text": "The Silver Ghost Era (1906-1925)"
+      },
+      {
+        "type": "paragraph",
+        "text": "The 1906 Silver Ghost established Rolls-Royce's reputation for reliability and refinement. It completed a record-breaking 14,371-mile journey, cementing its status as \"the best car in the world.\" This model set standards for quality that remain unmatched."
+      },
+      {
+        "type": "list",
+        "items": [
+          "<strong>1906:</strong> Silver Ghost debuts, setting new standards for reliability",
+          "<strong>1907:</strong> The famous 15,000-mile trial proves exceptional durability",
+          "<strong>1911:</strong> The Spirit of Ecstasy mascot is created by Charles Sykes",
+          "<strong>1914-1918:</strong> Rolls-Royce produces armored cars and aircraft engines for WWI",
+          "<strong>1921:</strong> First Rolls-Royce factory opens in Springfield, Massachusetts"
+        ]
+      },
+      {
+        "type": "heading",
+        "text": "The Phantom Dynasty Begins (1925)"
+      },
+      {
+        "type": "paragraph",
+        "text": "The Phantom name, now synonymous with ultimate luxury, first appeared in 1925. The Phantom I replaced the Silver Ghost, featuring a revolutionary overhead-valve engine and setting new benchmarks for power and refinement."
+      },
+      {
+        "type": "image",
+        "src": "/images/Phantom_Extended.jpg",
+        "alt": "Rolls-Royce Phantom",
+        "caption": "The Phantom: A name that has defined luxury for nearly a century"
+      },
+      {
+        "type": "heading",
+        "text": "Innovation Through Adversity (1930s-1940s)"
+      },
+      {
+        "type": "list",
+        "items": [
+          "<strong>1931:</strong> Acquisition of Bentley Motors, saving it from bankruptcy",
+          "<strong>1936:</strong> Phantom III introduces independent front suspension",
+          "<strong>1939-1945:</strong> Merlin engines power Spitfires and Lancasters in WWII",
+          "<strong>1946:</strong> Post-war production resumes with Silver Wraith",
+          "<strong>1949:</strong> Silver Dawn becomes first Rolls-Royce with factory body"
+        ]
+      },
+      {
+        "type": "heading",
+        "text": "The Modern Classic Era (1950s-1970s)"
+      },
+      {
+        "type": "paragraph",
+        "text": "The post-war period saw Rolls-Royce embrace modernity while maintaining traditional craftsmanship. The Silver Cloud and Silver Shadow represented technological leaps forward."
+      },
+      {
+        "type": "list",
+        "items": [
+          "<strong>1955:</strong> Silver Cloud I introduces more contemporary styling",
+          "<strong>1959:</strong> Silver Cloud II features new V8 engine",
+          "<strong>1965:</strong> Revolutionary Silver Shadow with monocoque construction",
+          "<strong>1971:</strong> Corniche convertible becomes celebrity favorite",
+          "<strong>1975:</strong> Camargue designed by Pininfarina debuts"
+        ]
+      },
+      {
+        "type": "image",
+        "src": "/images/Rolls-Royce_Dawn.jpg",
+        "alt": "Rolls-Royce Dawn",
+        "caption": "Modern Rolls-Royce continues the tradition of open-top luxury"
+      },
+      {
+        "type": "heading",
+        "text": "The BMW Era: Renaissance (1998-Present)"
+      },
+      {
+        "type": "paragraph",
+        "text": "BMW's acquisition in 1998 marked a new chapter. With significant investment and respect for heritage, Rolls-Royce entered its most successful period ever."
+      },
+      {
+        "type": "list",
+        "items": [
+          "<strong>2003:</strong> New Phantom launches from Goodwood, England",
+          "<strong>2009:</strong> Ghost introduces a more dynamic character",
+          "<strong>2013:</strong> Wraith brings unprecedented power and style",
+          "<strong>2016:</strong> Dawn revives the luxury convertible tradition",
+          "<strong>2018:</strong> Cullinan creates the ultimate luxury SUV",
+          "<strong>2023:</strong> Spectre becomes first fully-electric Rolls-Royce"
+        ]
+      },
+      {
+        "type": "heading",
+        "text": "The Goodwood Home of Rolls-Royce"
+      },
+      {
+        "type": "paragraph",
+        "text": "Since 2003, every Rolls-Royce has been handcrafted at Goodwood, England. This state-of-the-art facility combines cutting-edge technology with traditional craftsmanship, where 60 pairs of hands and 450 hours go into creating each car."
+      },
+      {
+        "type": "image",
+        "src": "/images/Rolls-Royce_Cullinan_Majestic_Aurora_.jpg",
+        "alt": "Rolls-Royce Cullinan",
+        "caption": "The Cullinan: Redefining luxury in the SUV segment"
+      },
+      {
+        "type": "heading",
+        "text": "Bespoke: The Art of Personalization"
+      },
+      {
+        "type": "paragraph",
+        "text": "Rolls-Royce Bespoke has elevated personalization to art. From starlight headliners with custom constellations to paint mixed with diamond dust, no request is too ambitious. Each car becomes a unique masterpiece reflecting its owner's vision."
+      },
+      {
+        "type": "list",
+        "items": [
+          "Custom paint colors matched to anything imaginable",
+          "Hand-embroidered headliners and monograms",
+          "Precious materials including mother-of-pearl and meteorite",
+          "Gallery installations in the dashboard",
+          "Champagne coolers and picnic sets"
+        ]
+      },
+      {
+        "type": "heading",
+        "text": "Technological Innovation"
+      },
+      {
+        "type": "paragraph",
+        "text": "While honoring tradition, Rolls-Royce embraces innovation. The Magic Carpet Ride suspension, Satellite Aided Transmission, and now electric powertrains show how technology enhances luxury."
+      },
+      {
+        "type": "list",
+        "items": [
+          "Planar Suspension: The smoothest ride ever created",
+          "Architecture of Luxury: All-aluminum spaceframe platform",
+          "Whispers App: Digital concierge service",
+          "Micro-Environment Purification System",
+          "Night Vision with pedestrian recognition"
+        ]
+      },
+      {
+        "type": "image",
+        "src": "/images/2024_Rolls-Royce_Spectre.jpg",
+        "alt": "Rolls-Royce Spectre",
+        "caption": "Spectre: The electric future of luxury"
+      },
+      {
+        "type": "heading",
+        "text": "Cultural Impact and Celebrity Connection"
+      },
+      {
+        "type": "paragraph",
+        "text": "Rolls-Royce has been the choice of royalty, heads of state, and cultural icons. From Queen Elizabeth II to The Beatles, from royal weddings to red carpets, Rolls-Royce represents arrival in every sense."
+      },
+      {
+        "type": "list",
+        "items": [
+          "Official state cars for multiple royal families",
+          "John Lennon's psychedelic Phantom V",
+          "Elvis Presley's collection of Rolls-Royces",
+          "The Great Gatsby's yellow Rolls-Royce",
+          "James Bond's Silver Shadow in the films"
+        ]
+      },
+      {
+        "type": "heading",
+        "text": "The Electric Future: Spectre and Beyond"
+      },
+      {
+        "type": "paragraph",
+        "text": "With Spectre, Rolls-Royce proves that electrification enhances rather than compromises luxury. Silent running, instant torque, and sustainable luxury point to an exciting future where tradition meets tomorrow."
+      },
+      {
+        "type": "image",
+        "src": "/images/Rolls-Royce-white.jpg",
+        "alt": "Rolls-Royce in white",
+        "caption": "Timeless elegance meets modern innovation"
+      },
+      {
+        "type": "heading",
+        "text": "Rolls-Royce in Dubai: A Perfect Partnership"
+      },
+      {
+        "type": "paragraph",
+        "text": "Dubai and Rolls-Royce share a vision of excellence without compromise. The emirate has become one of the most important markets globally, with the highest concentration of bespoke commissions and special editions created specifically for the region."
+      },
+      {
+        "type": "list",
+        "items": [
+          "Middle East accounts for 30% of global Rolls-Royce sales",
+          "Dubai hosts exclusive regional premieres",
+          "Special editions inspired by Arabian heritage",
+          "Highest percentage of bespoke orders globally",
+          "Dedicated Rolls-Royce Private Office in Dubai"
+        ]
+      },
+      {
+        "type": "heading",
+        "text": "The Rolls-Royce Promise"
+      },
+      {
+        "type": "paragraph",
+        "text": "Henry Royce's maxim, \"Take the best that exists and make it better,\" continues to guide every Rolls-Royce. When the best doesn't exist, Rolls-Royce creates it. This philosophy has driven 120 years of excellence and will shape the next century."
+      },
+      {
+        "type": "image",
+        "src": "/images/Rolls-Royce-black.jpg",
+        "alt": "Rolls-Royce in black",
+        "caption": "Power, presence, perfection"
+      },
+      {
+        "type": "heading",
+        "text": "Key Milestones in Rolls-Royce History"
+      },
+      {
+        "type": "list",
+        "ordered": true,
+        "items": [
+          "<strong>1904:</strong> Charles Rolls meets Henry Royce",
+          "<strong>1906:</strong> Silver Ghost sets reliability standards",
+          "<strong>1911:</strong> Spirit of Ecstasy mascot created",
+          "<strong>1925:</strong> Phantom nameplate introduced",
+          "<strong>1931:</strong> Bentley acquisition",
+          "<strong>1998:</strong> BMW acquires Rolls-Royce rights",
+          "<strong>2003:</strong> Goodwood factory opens",
+          "<strong>2023:</strong> Electric era begins with Spectre"
+        ]
+      },
+      {
+        "type": "heading",
+        "text": "Experience the Legacy"
+      },
+      {
+        "type": "paragraph",
+        "text": "Every Rolls-Royce carries 120 years of heritage, innovation, and uncompromising excellence. When you step into a Rolls-Royce in Dubai, you're not just experiencing a car – you're becoming part of a legacy that has defined luxury for over a century."
+      },
+      {
+        "type": "cta",
+        "text": "Experience 120 years of automotive excellence. Book your Rolls-Royce journey in Dubai today.",
+        "buttonText": "Explore Our Heritage Fleet",
+        "buttonLink": "/fleet"
+      }
+    ],
+    "relatedArticles": [
+      "ultimate-guide-rolls-royce-rental-dubai",
+      "dubai-motor-show-2024",
+      "dubai-luxury-car-guide-2025"
+    ]
+  },
+  "ar": {
+    "title": "تطور رولز رويس: قرن من الفخامة والرقي",
+    "description": "رحلة عبر 120 عاماً من تاريخ رولز رويس، من حلم رجلين إلى قمة فخامة السيارات. محطات وموديلات أيقونية وحرفية لا تضاهى.",
+    "author": "فريق التحرير",
+    "date": "2025-02-01",
+    "readTime": "قراءة 25 دقيقة",
+    "category": "التراث والإرث",
+    "image": "/images/Rolls-royce-phantom.jpg",
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "قصة رولز رويس ليست مجرد قصة سيارات فاخرة؛ بل هي شهادة على الطموح الإنساني والتميّز الهندسي والالتزام الذي لا يلين بالكمال. على مدى أكثر من 120 عاماً، رسّخت رولز رويس معنى صناعة \"أفضل سيارة في العالم\"."
+      },
+      {
+        "type": "heading",
+        "text": "البداية: التقاء رجلين أصحاب رؤية (1904)"
+      },
+      {
+        "type": "paragraph",
+        "text": "في الرابع من مايو 1904، التقى تشارلز رولز وهنري رويس في فندق ميدلاند بمدينة مانشستر. كان رولز، الأرستقراطي المولع بالسيارات، يبحث عن السيارة البريطانية المثالية. أما رويس، المهندس الساعي إلى الكمال، فقد كان قد صنع للتو سيارته الأولى. شراكتهما كانت ستغيّر تاريخ صناعة السيارات إلى الأبد."
+      },
+      {
+        "type": "image",
+        "src": "/images/Rolls-royce-official.jpg",
+        "alt": "سيارة رولز رويس تاريخية",
+        "caption": "إرثٌ بدأ بمصافحة يدٍ عام 1904"
+      },
+      {
+        "type": "heading",
+        "text": "عصر سيلفر غوست (1906-1925)"
+      },
+      {
+        "type": "paragraph",
+        "text": "رسّخت سيارة سيلفر غوست (Silver Ghost) عام 1906 سمعة رولز رويس في الموثوقية والرقي. فقد قطعت رحلة قياسية بلغت 14,371 ميلاً، لتؤكد مكانتها بوصفها \"أفضل سيارة في العالم\". وقد وضع هذا الموديل معايير للجودة لا تزال بلا منافس حتى اليوم."
+      },
+      {
+        "type": "list",
+        "items": [
+          "<strong>1906:</strong> ظهور سيلفر غوست ووضعها معايير جديدة للموثوقية",
+          "<strong>1907:</strong> اختبار الـ 15,000 ميل الشهير يثبت متانة استثنائية",
+          "<strong>1911:</strong> تشارلز سايكس يصمّم تمثال \"روح النشوة\" (Spirit of Ecstasy)",
+          "<strong>1914-1918:</strong> رولز رويس تنتج سيارات مدرّعة ومحركات طائرات للحرب العالمية الأولى",
+          "<strong>1921:</strong> افتتاح أول مصنع لرولز رويس في سبرينغفيلد بولاية ماساتشوستس"
+        ]
+      },
+      {
+        "type": "heading",
+        "text": "بداية سلالة فانتوم (1925)"
+      },
+      {
+        "type": "paragraph",
+        "text": "اسم فانتوم (Phantom)، المرادف اليوم للفخامة المطلقة، ظهر لأول مرة عام 1925. حلّت فانتوم I محل سيلفر غوست، بمحرّك ثوري ذي صمامات علوية، لتضع معايير جديدة للقوة والرقي."
+      },
+      {
+        "type": "image",
+        "src": "/images/Phantom_Extended.jpg",
+        "alt": "رولز رويس فانتوم",
+        "caption": "فانتوم: اسمٌ عرّف الفخامة لما يقارب القرن من الزمان"
+      },
+      {
+        "type": "heading",
+        "text": "الابتكار في وجه الشدائد (الثلاثينيات والأربعينيات)"
+      },
+      {
+        "type": "list",
+        "items": [
+          "<strong>1931:</strong> الاستحواذ على بنتلي موتورز وإنقاذها من الإفلاس",
+          "<strong>1936:</strong> فانتوم III تقدّم نظام تعليق أمامي مستقل",
+          "<strong>1939-1945:</strong> محركات ميرلين تشغّل طائرات سبيتفاير ولانكستر في الحرب العالمية الثانية",
+          "<strong>1946:</strong> استئناف الإنتاج بعد الحرب مع سيلفر رايث",
+          "<strong>1949:</strong> سيلفر دون تصبح أول رولز رويس بهيكل من صنع المصنع"
+        ]
+      },
+      {
+        "type": "heading",
+        "text": "عصر الكلاسيكيات الحديثة (الخمسينيات حتى السبعينيات)"
+      },
+      {
+        "type": "paragraph",
+        "text": "شهدت فترة ما بعد الحرب احتضان رولز رويس للحداثة مع الحفاظ على الحرفية التقليدية. ومثّلت سيلفر كلاود وسيلفر شادو قفزات تقنية إلى الأمام."
+      },
+      {
+        "type": "list",
+        "items": [
+          "<strong>1955:</strong> سيلفر كلاود I تقدّم تصميماً أكثر عصرية",
+          "<strong>1959:</strong> سيلفر كلاود II بمحرك V8 جديد",
+          "<strong>1965:</strong> سيلفر شادو الثورية بهيكل أحادي البناء (مونوكوك)",
+          "<strong>1971:</strong> كورنيش المكشوفة تصبح المفضلة لدى المشاهير",
+          "<strong>1975:</strong> كامارغ من تصميم بينينفارينا تنطلق لأول مرة"
+        ]
+      },
+      {
+        "type": "image",
+        "src": "/images/Rolls-Royce_Dawn.jpg",
+        "alt": "رولز رويس دون",
+        "caption": "رولز رويس الحديثة تواصل تقليد الفخامة المكشوفة"
+      },
+      {
+        "type": "heading",
+        "text": "عصر BMW: النهضة (1998 حتى اليوم)"
+      },
+      {
+        "type": "paragraph",
+        "text": "شكّل استحواذ BMW عام 1998 فصلاً جديداً. فمع استثمارات ضخمة واحترام عميق للإرث، دخلت رولز رويس أنجح فتراتها على الإطلاق."
+      },
+      {
+        "type": "list",
+        "items": [
+          "<strong>2003:</strong> إطلاق فانتوم الجديدة من غودوود بإنجلترا",
+          "<strong>2009:</strong> غوست تقدّم طابعاً أكثر حيوية وديناميكية",
+          "<strong>2013:</strong> رايث تجلب قوة وأناقة غير مسبوقة",
+          "<strong>2016:</strong> دون تُحيي تقليد السيارات المكشوفة الفاخرة",
+          "<strong>2018:</strong> كولينان تصنع سيارة الدفع الرباعي الفاخرة المثالية",
+          "<strong>2023:</strong> سبكتر تصبح أول رولز رويس كهربائية بالكامل"
+        ]
+      },
+      {
+        "type": "heading",
+        "text": "غودوود: موطن رولز رويس"
+      },
+      {
+        "type": "paragraph",
+        "text": "منذ عام 2003، تُصنع كل سيارة رولز رويس يدوياً في غودوود بإنجلترا. يجمع هذا المرفق المتطور بين أحدث التقنيات والحرفية التقليدية، حيث تتضافر 60 زوجاً من الأيدي وأكثر من 450 ساعة عمل في صناعة كل سيارة."
+      },
+      {
+        "type": "image",
+        "src": "/images/Rolls-Royce_Cullinan_Majestic_Aurora_.jpg",
+        "alt": "رولز رويس كولينان",
+        "caption": "كولينان: إعادة تعريف الفخامة في فئة سيارات الدفع الرباعي"
+      },
+      {
+        "type": "heading",
+        "text": "بيسبوك (Bespoke): فن التخصيص"
+      },
+      {
+        "type": "paragraph",
+        "text": "ارتقت خدمة رولز رويس بيسبوك بالتخصيص إلى مرتبة الفن. من سقف \"السماء المرصّعة بالنجوم\" بكوكبات مخصصة، إلى طلاء ممزوج بمسحوق الألماس، لا يوجد طلبٌ أكبر من أن يُنفَّذ. تتحوّل كل سيارة إلى تحفة فريدة تعكس رؤية مالكها."
+      },
+      {
+        "type": "list",
+        "items": [
+          "ألوان طلاء مخصصة مطابقة لأي شيء يمكن تخيّله",
+          "سقوف ومونوغرامات مطرّزة يدوياً",
+          "مواد ثمينة تشمل عرق اللؤلؤ والنيزك",
+          "لوحات فنية مدمجة في لوحة القيادة (غاليري)",
+          "مبرّدات شمبانيا وأطقم نزهات"
+        ]
+      },
+      {
+        "type": "heading",
+        "text": "الابتكار التقني"
+      },
+      {
+        "type": "paragraph",
+        "text": "بينما تكرّم رولز رويس التقاليد، فإنها تحتضن الابتكار. فنظام التعليق \"السجادة السحرية\"، وناقل الحركة المدعوم بالأقمار الصناعية، والآن أنظمة الدفع الكهربائية، كلها تُظهر كيف تعزّز التقنية الفخامة."
+      },
+      {
+        "type": "list",
+        "items": [
+          "نظام تعليق بلانار (Planar): أنعم قيادة على الإطلاق",
+          "هندسة الفخامة: منصة هيكل فضائي من الألمنيوم بالكامل",
+          "تطبيق Whispers: خدمة كونسيرج رقمية",
+          "نظام تنقية البيئة الدقيقة المحيطة",
+          "الرؤية الليلية مع التعرّف على المشاة"
+        ]
+      },
+      {
+        "type": "image",
+        "src": "/images/2024_Rolls-Royce_Spectre.jpg",
+        "alt": "رولز رويس سبكتر",
+        "caption": "سبكتر: مستقبل الفخامة الكهربائي"
+      },
+      {
+        "type": "heading",
+        "text": "التأثير الثقافي وارتباطها بالمشاهير"
+      },
+      {
+        "type": "paragraph",
+        "text": "كانت رولز رويس خيار الملوك ورؤساء الدول والأيقونات الثقافية. من الملكة إليزابيث الثانية إلى فرقة البيتلز، ومن حفلات الزفاف الملكية إلى السجاد الأحمر، تجسّد رولز رويس معنى الوصول والمكانة بكل أبعاده."
+      },
+      {
+        "type": "list",
+        "items": [
+          "سيارات رسمية لعدة عائلات مالكة حول العالم",
+          "سيارة فانتوم V النفسية الملونة الخاصة بجون لينون",
+          "مجموعة إلفيس بريسلي من سيارات رولز رويس",
+          "سيارة رولز رويس الصفراء في رواية \"غاتسبي العظيم\"",
+          "سيارة سيلفر شادو الخاصة بجيمس بوند في الأفلام"
+        ]
+      },
+      {
+        "type": "heading",
+        "text": "المستقبل الكهربائي: سبكتر وما بعدها"
+      },
+      {
+        "type": "paragraph",
+        "text": "مع سبكتر، تثبت رولز رويس أن الكهربة تعزّز الفخامة ولا تنتقص منها. فالقيادة الصامتة، وعزم الدوران الفوري، والفخامة المستدامة، كلها تشير إلى مستقبل مثير يلتقي فيه العريق بالغد."
+      },
+      {
+        "type": "image",
+        "src": "/images/Rolls-Royce-white.jpg",
+        "alt": "رولز رويس باللون الأبيض",
+        "caption": "أناقة خالدة تلتقي بالابتكار الحديث"
+      },
+      {
+        "type": "heading",
+        "text": "رولز رويس في دبي: شراكة مثالية"
+      },
+      {
+        "type": "paragraph",
+        "text": "تتشارك دبي ورولز رويس رؤية واحدة للتميّز دون تنازل. فقد أصبحت الإمارة من أهم الأسواق عالمياً، بأعلى نسبة من طلبات بيسبوك المخصصة والإصدارات الخاصة المصمّمة تحديداً لهذه المنطقة."
+      },
+      {
+        "type": "list",
+        "items": [
+          "منطقة الشرق الأوسط تمثّل 30% من مبيعات رولز رويس عالمياً",
+          "دبي تستضيف عروضاً إقليمية حصرية أولى",
+          "إصدارات خاصة مستوحاة من التراث العربي",
+          "أعلى نسبة من الطلبات المخصصة (بيسبوك) على مستوى العالم",
+          "مكتب رولز رويس الخاص (Private Office) المخصص في دبي"
+        ]
+      },
+      {
+        "type": "heading",
+        "text": "وعد رولز رويس"
+      },
+      {
+        "type": "paragraph",
+        "text": "تظل مقولة هنري رويس، \"خذ أفضل ما هو موجود واجعله أفضل\"، نبراساً يوجّه كل سيارة رولز رويس. وحين لا يكون الأفضل موجوداً، تصنعه رولز رويس. هذه الفلسفة قادت 120 عاماً من التميّز، وستشكّل القرن القادم."
+      },
+      {
+        "type": "image",
+        "src": "/images/Rolls-Royce-black.jpg",
+        "alt": "رولز رويس باللون الأسود",
+        "caption": "قوة، حضور، كمال"
+      },
+      {
+        "type": "heading",
+        "text": "أبرز المحطات في تاريخ رولز رويس"
+      },
+      {
+        "type": "list",
+        "items": [
+          "<strong>1904:</strong> تشارلز رولز يلتقي هنري رويس",
+          "<strong>1906:</strong> سيلفر غوست تضع معايير الموثوقية",
+          "<strong>1911:</strong> ابتكار تمثال \"روح النشوة\"",
+          "<strong>1925:</strong> تقديم اسم فانتوم",
+          "<strong>1931:</strong> الاستحواذ على بنتلي",
+          "<strong>1998:</strong> BMW تستحوذ على حقوق رولز رويس",
+          "<strong>2003:</strong> افتتاح مصنع غودوود",
+          "<strong>2023:</strong> بداية العصر الكهربائي مع سبكتر"
+        ]
+      },
+      {
+        "type": "heading",
+        "text": "عِش هذا الإرث العريق"
+      },
+      {
+        "type": "paragraph",
+        "text": "كل سيارة رولز رويس تحمل 120 عاماً من التراث والابتكار والتميّز بلا تنازل. وحين تستقل رولز رويس في دبي، فأنت لا تختبر سيارة فحسب – بل تصبح جزءاً من إرثٍ عرّف الفخامة لأكثر من قرن من الزمان."
+      },
+      {
+        "type": "cta",
+        "text": "عِش 120 عاماً من التميّز في عالم السيارات. احجز رحلتك مع رولز رويس في دبي اليوم.",
+        "buttonText": "استكشف أسطول التراث لدينا",
+        "buttonLink": "/fleet"
+      }
+    ],
+    "relatedArticles": [
+      "ultimate-guide-rolls-royce-rental-dubai",
+      "dubai-motor-show-2024",
+      "dubai-luxury-car-guide-2025"
+    ]
+  },
+  "ru": {
+    "title": "Эволюция Rolls-Royce: век роскоши и совершенства",
+    "description": "Путешествие сквозь 120 лет истории Rolls-Royce: от двух мечтателей до вершины автомобильной роскоши. Вехи, легендарные модели и мастерство.",
+    "author": "Редакция",
+    "date": "2025-02-01",
+    "readTime": "25 мин чтения",
+    "category": "Наследие",
+    "image": "/images/Rolls-royce-phantom.jpg",
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "История Rolls-Royce — это не просто рассказ о роскошных автомобилях; это свидетельство человеческих амбиций, инженерного совершенства и непоколебимой приверженности безупречности. На протяжении более 120 лет Rolls-Royce определяет, что значит создавать \"лучший автомобиль в мире\"."
+      },
+      {
+        "type": "heading",
+        "text": "Начало: встреча двух визионеров (1904)"
+      },
+      {
+        "type": "paragraph",
+        "text": "4 мая 1904 года Чарльз Роллс и Генри Ройс встретились в отеле Midland в Манчестере. Роллс, аристократ и страстный автолюбитель, искал идеальный автомобиль британского производства. Ройс, инженер-перфекционист, только что построил свой первый автомобиль. Их партнёрство навсегда изменило историю автомобилестроения."
+      },
+      {
+        "type": "image",
+        "src": "/images/Rolls-royce-official.jpg",
+        "alt": "Исторический Rolls-Royce",
+        "caption": "Наследие, начавшееся с рукопожатия в 1904 году"
+      },
+      {
+        "type": "heading",
+        "text": "Эпоха Silver Ghost (1906–1925)"
+      },
+      {
+        "type": "paragraph",
+        "text": "Silver Ghost 1906 года закрепил за Rolls-Royce репутацию надёжности и изысканности. Автомобиль преодолел рекордные 14 371 милю, утвердив свой статус \"лучшего автомобиля в мире\". Эта модель задала стандарты качества, которые остаются непревзойдёнными."
+      },
+      {
+        "type": "list",
+        "items": [
+          "<strong>1906:</strong> дебют Silver Ghost, задавшего новые стандарты надёжности",
+          "<strong>1907:</strong> знаменитое испытание на 15 000 миль доказывает исключительную выносливость",
+          "<strong>1911:</strong> Чарльз Сайкс создаёт фигурку \"Дух экстаза\" (Spirit of Ecstasy)",
+          "<strong>1914–1918:</strong> Rolls-Royce выпускает бронеавтомобили и авиадвигатели для Первой мировой войны",
+          "<strong>1921:</strong> открытие первого завода Rolls-Royce в Спрингфилде, штат Массачусетс"
+        ]
+      },
+      {
+        "type": "heading",
+        "text": "Рождение династии Phantom (1925)"
+      },
+      {
+        "type": "paragraph",
+        "text": "Имя Phantom, ныне синоним абсолютной роскоши, впервые появилось в 1925 году. Phantom I пришёл на смену Silver Ghost, получив революционный двигатель с верхним расположением клапанов и установив новые ориентиры мощности и изысканности."
+      },
+      {
+        "type": "image",
+        "src": "/images/Phantom_Extended.jpg",
+        "alt": "Rolls-Royce Phantom",
+        "caption": "Phantom: имя, определяющее роскошь почти столетие"
+      },
+      {
+        "type": "heading",
+        "text": "Инновации вопреки трудностям (1930–1940-е)"
+      },
+      {
+        "type": "list",
+        "items": [
+          "<strong>1931:</strong> приобретение Bentley Motors и спасение её от банкротства",
+          "<strong>1936:</strong> Phantom III внедряет независимую переднюю подвеску",
+          "<strong>1939–1945:</strong> двигатели Merlin поднимают в небо Spitfire и Lancaster во Второй мировой войне",
+          "<strong>1946:</strong> послевоенное производство возобновляется с Silver Wraith",
+          "<strong>1949:</strong> Silver Dawn становится первым Rolls-Royce с заводским кузовом"
+        ]
+      },
+      {
+        "type": "heading",
+        "text": "Эпоха современной классики (1950–1970-е)"
+      },
+      {
+        "type": "paragraph",
+        "text": "Послевоенный период ознаменовался тем, что Rolls-Royce принял современность, сохранив традиционное мастерство. Silver Cloud и Silver Shadow стали технологическими прорывами."
+      },
+      {
+        "type": "list",
+        "items": [
+          "<strong>1955:</strong> Silver Cloud I представляет более современный дизайн",
+          "<strong>1959:</strong> Silver Cloud II получает новый двигатель V8",
+          "<strong>1965:</strong> революционный Silver Shadow с несущим кузовом (монокок)",
+          "<strong>1971:</strong> кабриолет Corniche становится фаворитом знаменитостей",
+          "<strong>1975:</strong> дебют Camargue от ателье Pininfarina"
+        ]
+      },
+      {
+        "type": "image",
+        "src": "/images/Rolls-Royce_Dawn.jpg",
+        "alt": "Rolls-Royce Dawn",
+        "caption": "Современный Rolls-Royce продолжает традицию роскоши с открытым верхом"
+      },
+      {
+        "type": "heading",
+        "text": "Эпоха BMW: возрождение (1998 — настоящее время)"
+      },
+      {
+        "type": "paragraph",
+        "text": "Приобретение компанией BMW в 1998 году открыло новую главу. Благодаря значительным инвестициям и уважению к наследию Rolls-Royce вступил в самый успешный период своей истории."
+      },
+      {
+        "type": "list",
+        "items": [
+          "<strong>2003:</strong> запуск нового Phantom с завода в Гудвуде, Англия",
+          "<strong>2009:</strong> Ghost привносит более динамичный характер",
+          "<strong>2013:</strong> Wraith дарит беспрецедентную мощь и стиль",
+          "<strong>2016:</strong> Dawn возрождает традицию роскошных кабриолетов",
+          "<strong>2018:</strong> Cullinan создаёт идеальный роскошный внедорожник",
+          "<strong>2023:</strong> Spectre становится первым полностью электрическим Rolls-Royce"
+        ]
+      },
+      {
+        "type": "heading",
+        "text": "Гудвуд — дом Rolls-Royce"
+      },
+      {
+        "type": "paragraph",
+        "text": "С 2003 года каждый Rolls-Royce создаётся вручную в Гудвуде, Англия. Это передовое предприятие сочетает новейшие технологии с традиционным мастерством: над каждым автомобилем трудятся 60 пар рук, а на его создание уходит 450 часов."
+      },
+      {
+        "type": "image",
+        "src": "/images/Rolls-Royce_Cullinan_Majestic_Aurora_.jpg",
+        "alt": "Rolls-Royce Cullinan",
+        "caption": "Cullinan: новое определение роскоши в сегменте внедорожников"
+      },
+      {
+        "type": "heading",
+        "text": "Bespoke: искусство персонализации"
+      },
+      {
+        "type": "paragraph",
+        "text": "Программа Rolls-Royce Bespoke возвела персонализацию в ранг искусства. От потолка \"звёздное небо\" с индивидуальными созвездиями до краски, смешанной с алмазной пылью, — нет запроса, который был бы слишком смелым. Каждый автомобиль становится уникальным шедевром, воплощающим видение своего владельца."
+      },
+      {
+        "type": "list",
+        "items": [
+          "Индивидуальные цвета краски под любой мыслимый оттенок",
+          "Вышитые вручную потолки и монограммы",
+          "Драгоценные материалы, включая перламутр и метеорит",
+          "Инсталляции-галереи на передней панели",
+          "Холодильники для шампанского и наборы для пикника"
+        ]
+      },
+      {
+        "type": "heading",
+        "text": "Технологические инновации"
+      },
+      {
+        "type": "paragraph",
+        "text": "Чтя традиции, Rolls-Royce принимает инновации. Подвеска Magic Carpet Ride, трансмиссия со спутниковой навигацией, а теперь и электрические силовые установки показывают, как технологии усиливают роскошь."
+      },
+      {
+        "type": "list",
+        "items": [
+          "Подвеска Planar: самая плавная езда из когда-либо созданных",
+          "Architecture of Luxury: цельноалюминиевая платформа-пространственная рама",
+          "Приложение Whispers: цифровой сервис консьержа",
+          "Система очистки микроклимата салона",
+          "Ночное видение с распознаванием пешеходов"
+        ]
+      },
+      {
+        "type": "image",
+        "src": "/images/2024_Rolls-Royce_Spectre.jpg",
+        "alt": "Rolls-Royce Spectre",
+        "caption": "Spectre: электрическое будущее роскоши"
+      },
+      {
+        "type": "heading",
+        "text": "Культурное влияние и связь со знаменитостями"
+      },
+      {
+        "type": "paragraph",
+        "text": "Rolls-Royce был выбором монархов, глав государств и культурных икон. От королевы Елизаветы II до The Beatles, от королевских свадеб до красных дорожек — Rolls-Royce во всех смыслах олицетворяет статус и значимость."
+      },
+      {
+        "type": "list",
+        "items": [
+          "Официальные парадные автомобили нескольких королевских семей",
+          "Психоделический Phantom V Джона Леннона",
+          "Коллекция автомобилей Rolls-Royce Элвиса Пресли",
+          "Жёлтый Rolls-Royce из \"Великого Гэтсби\"",
+          "Silver Shadow Джеймса Бонда в фильмах"
+        ]
+      },
+      {
+        "type": "heading",
+        "text": "Электрическое будущее: Spectre и далее"
+      },
+      {
+        "type": "paragraph",
+        "text": "С моделью Spectre Rolls-Royce доказывает, что электрификация усиливает роскошь, а не идёт на компромисс с ней. Бесшумный ход, мгновенный крутящий момент и устойчивая роскошь указывают на захватывающее будущее, где традиции встречаются с завтрашним днём."
+      },
+      {
+        "type": "image",
+        "src": "/images/Rolls-Royce-white.jpg",
+        "alt": "Белый Rolls-Royce",
+        "caption": "Вечная элегантность встречается с современными инновациями"
+      },
+      {
+        "type": "heading",
+        "text": "Rolls-Royce в Дубае: идеальный союз"
+      },
+      {
+        "type": "paragraph",
+        "text": "Дубай и Rolls-Royce разделяют видение совершенства без компромиссов. Эмират стал одним из важнейших рынков в мире с наибольшей концентрацией заказов Bespoke и специальных серий, созданных специально для региона."
+      },
+      {
+        "type": "list",
+        "items": [
+          "На Ближний Восток приходится 30% мировых продаж Rolls-Royce",
+          "В Дубае проходят эксклюзивные региональные премьеры",
+          "Специальные серии, вдохновлённые арабским наследием",
+          "Самый высокий процент индивидуальных заказов Bespoke в мире",
+          "Собственный Rolls-Royce Private Office в Дубае"
+        ]
+      },
+      {
+        "type": "heading",
+        "text": "Обещание Rolls-Royce"
+      },
+      {
+        "type": "paragraph",
+        "text": "Девиз Генри Ройса \"Возьми лучшее из существующего и сделай его ещё лучше\" по-прежнему направляет каждый Rolls-Royce. А когда лучшего не существует, Rolls-Royce создаёт его. Эта философия питала 120 лет совершенства и будет формировать следующее столетие."
+      },
+      {
+        "type": "image",
+        "src": "/images/Rolls-Royce-black.jpg",
+        "alt": "Чёрный Rolls-Royce",
+        "caption": "Мощь, присутствие, совершенство"
+      },
+      {
+        "type": "heading",
+        "text": "Ключевые вехи в истории Rolls-Royce"
+      },
+      {
+        "type": "list",
+        "items": [
+          "<strong>1904:</strong> Чарльз Роллс встречает Генри Ройса",
+          "<strong>1906:</strong> Silver Ghost задаёт стандарты надёжности",
+          "<strong>1911:</strong> создана фигурка \"Дух экстаза\"",
+          "<strong>1925:</strong> представлено имя Phantom",
+          "<strong>1931:</strong> приобретение Bentley",
+          "<strong>1998:</strong> BMW приобретает права на Rolls-Royce",
+          "<strong>2003:</strong> открытие завода в Гудвуде",
+          "<strong>2023:</strong> начало электрической эпохи со Spectre"
+        ]
+      },
+      {
+        "type": "heading",
+        "text": "Прикоснитесь к легенде"
+      },
+      {
+        "type": "paragraph",
+        "text": "Каждый Rolls-Royce несёт в себе 120 лет наследия, инноваций и бескомпромиссного совершенства. Садясь за руль Rolls-Royce в Дубае, вы не просто пробуете автомобиль — вы становитесь частью легенды, определявшей роскошь более века."
+      },
+      {
+        "type": "cta",
+        "text": "Прикоснитесь к 120 годам автомобильного совершенства. Забронируйте поездку на Rolls-Royce в Дубае уже сегодня.",
+        "buttonText": "Откройте наш автопарк наследия",
+        "buttonLink": "/fleet"
+      }
+    ],
+    "relatedArticles": [
+      "ultimate-guide-rolls-royce-rental-dubai",
+      "dubai-motor-show-2024",
+      "dubai-luxury-car-guide-2025"
+    ]
+  }
+}

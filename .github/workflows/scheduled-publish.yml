@@ -1,0 +1,48 @@
+# Scheduled publishing for the file-based blog.
+# Runs every 15 min; publish-due.mjs no-ops unless an article's publishAt has
+# passed, in which case it rebuilds + deploys (revealing the now-due articles via
+# the build-time gating) and pings IndexNow. ~2–3 real deploys/day at the random
+# scheduled times; the rest are instant no-ops.
+name: scheduled-publish
+
+on:
+  schedule:
+    - cron: '*/15 * * * *'   # every 15 minutes (UTC). Tighten to */10 for closer-to-exact times.
+  workflow_dispatch: {}       # allow manual "publish now"
+
+concurrency:
+  group: scheduled-publish    # never run two deploys at once
+  cancel-in-progress: false
+
+jobs:
+  publish-due:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with: { fetch-depth: 0 }
+      - uses: actions/setup-node@v4
+        with: { node-version: '20' }
+      # Cheap no-op path: check the schedule with node only (no npm ci) — exits in seconds.
+      - id: check
+        run: node scripts/publish-due.mjs            # writes due=N to $GITHUB_OUTPUT
+      # Only when an article is actually due: install + build + deploy + IndexNow.
+      - if: steps.check.outputs.due != '0' && steps.check.outputs.due != ''
+        run: npm ci
+      - name: Build, deploy & IndexNow (only when due)
+        if: steps.check.outputs.due != '0' && steps.check.outputs.due != ''
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          INDEXNOW_KEY: ${{ secrets.INDEXNOW_KEY }}
+          SITE: rollsroycers.com
+        run: node scripts/publish-due.mjs --run
+      - name: Persist publish state
+        if: steps.check.outputs.due != '0' && steps.check.outputs.due != ''
+        run: |
+          if [ -n "$(git status --porcelain .publish-state.json)" ]; then
+            git config user.name "scheduled-publish"
+            git config user.email "bot@rollsroycers.com"
+            git add .publish-state.json
+            git commit -m "chore(publish): advance schedule high-water mark [skip ci]"
+            git push
+          fi

@@ -9,10 +9,7 @@ import { useTranslation } from 'next-i18next'
 import Layout from '@/components/Layout'
 import WhatsAppButton from '@/components/WhatsAppButton'
 import SEO from '@/components/SEO'
-import blogSlugs from '@/data/blogSlugs.json'
-import blogTranslations from '@/data/blogTranslations.json'
-import { listFileSlugs, getFileArticle, getFileArticleMeta } from '@/data/blogFileStore'
-import { blogArticles, localizedArticles, BlogArticle } from '@/data/blogArticlesData'
+import { listFileSlugs, getFileArticle, getFileArticleMeta, BlogArticle } from '@/data/blogFileStore'
 
 
 interface BlogPageProps {
@@ -334,10 +331,7 @@ export default function BlogArticlePage({ article, relatedArticlesData }: BlogPa
 }
 
 export const getStaticPaths: GetStaticPaths = async () => {
-  // Single source of truth for blog slugs — shared with the sitemap generator
-  // (scripts/generate-sitemap.mjs) so the sitemap can never list an unbuilt slug.
-  const baseSlugs = Object.keys(blogArticles)
-  const unique = Array.from(new Set([...baseSlugs, ...blogSlugs, ...listFileSlugs()]))
+  const unique = listFileSlugs()
   
   // Generate paths for all locales
   const locales = ['en', 'ar', 'ru']
@@ -362,39 +356,10 @@ export const getStaticProps: GetStaticProps = async ({ params, locale }) => {
   const slug = params?.slug as string
   const currentLocale = locale || 'en'
   
-  // Resolve article: English base + full ar/ru translation overrides when available.
-  const baseArticle = (
-    (localizedArticles[currentLocale] && localizedArticles[currentLocale][slug]) ||
-    (localizedArticles['en'] && localizedArticles['en'][slug]) ||
-    blogArticles[slug] ||
-    null
-  )
-  const translatedArticle = currentLocale !== 'en'
-    ? (blogTranslations as Record<string, any>)[slug]?.[currentLocale]
-    : null
-  // File-based articles (src/data/blog/<slug>.json) are self-contained per locale —
-  // used as the fallback for everything not defined inline above. This lets the blog
-  // scale to hundreds of posts without bloating this file or blogTranslations.json.
-  const article = baseArticle
-    ? (translatedArticle ? { ...baseArticle, ...translatedArticle } : baseArticle)
-    : getFileArticle(slug, currentLocale)
+  const article = getFileArticle(slug, currentLocale)
 
-  // Resolve related articles in the CURRENT locale (same resolution as the main
-  // article) so the cards' title/category/readTime follow the page language — not English.
+  // Resolve related articles in the CURRENT locale
   const relatedArticlesData = article?.relatedArticles?.map((relSlug: string) => {
-    const relBase = (
-      (localizedArticles[currentLocale] && localizedArticles[currentLocale][relSlug]) ||
-      (localizedArticles['en'] && localizedArticles['en'][relSlug]) ||
-      blogArticles[relSlug] ||
-      null
-    )
-    if (relBase) {
-      const relTranslated = currentLocale !== 'en'
-        ? (blogTranslations as Record<string, any>)[relSlug]?.[currentLocale]
-        : null
-      const r = relTranslated ? { ...relBase, ...relTranslated } : relBase
-      return { slug: relSlug, title: r.title, image: r.image, category: r.category, readTime: r.readTime }
-    }
     return getFileArticleMeta(relSlug, currentLocale)
   }).filter(Boolean) || []
   
