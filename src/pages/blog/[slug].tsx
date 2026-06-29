@@ -45,55 +45,43 @@ export default function BlogArticlePage({ article, relatedArticlesData }: BlogPa
       switch (block.type) {
         case 'paragraph':
           return (
-            <motion.p
+            <p
               key={index}
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              transition={{ delay: index * 0.05 }}
               className="text-gray-300 leading-relaxed mb-6"
               dangerouslySetInnerHTML={{ __html: block.text }}
             />
           )
-        
+
         case 'heading':
           return (
-            <motion.h2
+            <h2
               key={index}
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              transition={{ delay: index * 0.05 }}
               className="text-2xl font-bold text-white mb-4 mt-8"
             >
               {block.text}
-            </motion.h2>
+            </h2>
           )
-        
+
         case 'list':
           return (
-            <motion.ul
+            <ul
               key={index}
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              transition={{ delay: index * 0.05 }}
               className={`space-y-3 mb-6 ${block.ordered ? 'list-decimal' : 'list-disc'} list-inside`}
             >
               {block.items.map((item: string, i: number) => (
-                <li 
-                  key={i} 
+                <li
+                  key={i}
                   className="text-gray-300"
                   dangerouslySetInnerHTML={{ __html: item }}
                 />
               ))}
-            </motion.ul>
+            </ul>
           )
-        
+
         case 'image':
           return (
-            <motion.figure
+            <figure
               key={index}
-              initial={{ opacity: 0, scale: 0.9 }}
-              whileInView={{ opacity: 1, scale: 1 }}
-              transition={{ delay: index * 0.05 }}
               className="my-8"
             >
               <div className="relative aspect-video rounded-lg overflow-hidden">
@@ -108,23 +96,20 @@ export default function BlogArticlePage({ article, relatedArticlesData }: BlogPa
               {block.caption && (
                 <figcaption className="text-center text-gray-400 text-sm mt-2">{block.caption}</figcaption>
               )}
-            </motion.figure>
+            </figure>
           )
-        
+
         case 'cta':
           return (
-            <motion.div
+            <div
               key={index}
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              transition={{ delay: index * 0.05 }}
               className="bg-gradient-to-r from-rolls-gold/20 to-rolls-gold/10 border border-rolls-gold/30 rounded-lg p-8 my-8 text-center"
             >
               <p className="text-xl text-white mb-4">{block.text}</p>
               <Link href={block.buttonLink} className="btn-primary">
                 {block.buttonText}
               </Link>
-            </motion.div>
+            </div>
           )
         
         default:

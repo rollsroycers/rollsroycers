@@ -10,8 +10,9 @@ import Layout from '@/components/Layout'
 import WhatsAppButton from '@/components/WhatsAppButton'
 import SEO from '@/components/SEO'
 import GEOOptimizer from '@/components/GEOOptimizer'
+import { listFileSlugs, getFileArticle } from '@/data/blogFileStore'
 
-export default function BlogPage() {
+export default function BlogPage({ filePosts = [] }: { filePosts?: any[] }) {
   const { t } = useTranslation('common')
   const [selectedCategory, setSelectedCategory] = useState('all')
   // Progressive rendering: only mount a window of article cards so the index never
@@ -266,9 +267,12 @@ export default function BlogPage() {
     }
   ]
 
+  // File-based posts (src/data/blog/*.json) come first (newest), then the legacy
+  // curated list — so newly added posts surface automatically and /blog scales to 1000+.
+  const allArticles = [...filePosts, ...articles]
   const filteredArticles = selectedCategory === 'all'
-    ? articles
-    : articles.filter(article => article.category === selectedCategory)
+    ? allArticles
+    : allArticles.filter(article => article.category === selectedCategory)
   const visibleArticles = filteredArticles.slice(0, visibleCount)
 
   return (
@@ -577,9 +581,32 @@ export default function BlogPage() {
 }
 
 export const getStaticProps: GetStaticProps = async ({ locale }) => {
+  const loc = locale || 'en'
+  // Surface every PUBLISHED file-based post (src/data/blog/<slug>.json) in the index,
+  // so the blog scales to 1000+ posts with zero code edits per post. Build-time only.
+  const filePosts = (listFileSlugs()
+    .map((slug) => {
+      const a = getFileArticle(slug, loc)
+      return a
+        ? {
+            id: `file-${slug}`,
+            slug,
+            title: a.title,
+            excerpt: a.description,
+            category: a.category,
+            author: a.author,
+            date: a.date,
+            readTime: a.readTime,
+            image: a.image,
+          }
+        : null
+    })
+    .filter((p) => p !== null) as any[])
+    .sort((x, y) => (new Date(y.date).getTime() || 0) - (new Date(x.date).getTime() || 0))
   return {
     props: {
-      ...(await serverSideTranslations(locale || 'en', ['common', 'navigation', 'page_blog', 'seo_other'])),
+      ...(await serverSideTranslations(loc, ['common', 'navigation', 'page_blog', 'seo_other'])),
+      filePosts,
     },
   }
 }

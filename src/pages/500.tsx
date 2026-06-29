@@ -1,7 +1,6 @@
 import { GetStaticProps } from 'next'
 import { serverSideTranslations } from '@/lib/serverSideTranslations'
 import { useTranslation } from 'next-i18next'
-import Head from 'next/head'
 import Layout from '@/components/Layout'
 import SEO from '@/components/SEO'
 import Link from 'next/link'
@@ -12,13 +11,11 @@ export default function Custom500() {
 
   return (
     <>
-      <Head>
-        <meta name="robots" content="noindex, follow" />
-      </Head>
-      <SEO 
+      <SEO
         pageKey="500"
         title="500 - Server Error | Rolls-Royce Dubai"
         description="Sorry, something went wrong on our server. Please try again later."
+        noindex
       />
     <Layout>
         <div className="min-h-screen flex items-center justify-center bg-gradient-to-b from-rolls-black to-rolls-navy px-4">

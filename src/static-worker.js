@@ -78,7 +78,11 @@ const SECURITY_HEADERS = {
 function withHeaders(res, pathname) {
   const h = new Headers(res.headers)
   for (const [k, v] of Object.entries(SECURITY_HEADERS)) h.set(k, v)
-  if (/^\/(_next\/static|fonts|images)\//.test(pathname)) {
+  if (/^\/(_next\/static|_next\/data|fonts|images)\//.test(pathname)) {
+    // Build-ID-scoped paths (/_next/static, /_next/data) and content-hashed assets
+    // never mutate within a deploy, so they are safe to cache immutably. /_next/data
+    // URLs embed the build SHA (e.g. /_next/data/rrx-<sha>/...), so a new deploy
+    // produces a new URL — stale-serving across deploys is impossible.
     h.set('Cache-Control', 'public, max-age=31536000, immutable')
   }
   return new Response(res.body, {

@@ -94,6 +94,10 @@ const HEADERS = `# Source of truth for security headers is src/static-worker.js 
   Cache-Control: public, max-age=31536000, immutable
   X-Content-Type-Options: nosniff
 
+/_next/data/*
+  Cache-Control: public, max-age=31536000, immutable
+  X-Content-Type-Options: nosniff
+
 /fonts/*
   Cache-Control: public, max-age=31536000, immutable
   X-Content-Type-Options: nosniff
@@ -281,12 +285,17 @@ async function main() {
     }
   }
 
+  // Blog posts must exist and be CONSISTENT across locales — no hardcoded count,
+  // so the blog scales to any number of posts (1000+) without touching this gate.
+  const blogCounts = {}
   for (const prefix of ['', 'ar', 'ru']) {
     const blogDir = path.join(OUT, prefix, 'blog')
-    const n = await countFiles(blogDir, (f) => f.endsWith('.html'))
-    if (n !== 26) {
-      errors.push(`Blog HTML count for "${prefix || 'root'}" = ${n}, expected 26`)
-    }
+    blogCounts[prefix || 'en'] = await countFiles(blogDir, (f) => f.endsWith('.html'))
+  }
+  const enN = blogCounts.en
+  if (enN < 1) errors.push(`No blog post HTML found (en=${enN}) — getStaticPaths/blogFileStore may be broken`)
+  if (!(blogCounts.en === blogCounts.ar && blogCounts.ar === blogCounts.ru)) {
+    errors.push(`Blog HTML count mismatch across locales: ${JSON.stringify(blogCounts)} (each post must build for en/ar/ru)`)
   }
 
   const staticEmpty = (await countFiles(path.join(OUT, '_next', 'static'), () => true)) === 0
