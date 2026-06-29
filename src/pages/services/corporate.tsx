@@ -241,7 +241,7 @@ export default function CorporateServicesPage() {
                 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                   <div>
-                    <h4 className="text-rolls-gold font-semibold mb-4">Features Included:</h4>
+                    <h4 className="text-rolls-gold font-semibold mb-4">{t('servicesPages.corporate.packageDetails.featuresIncluded')}</h4>
                     <ul className="space-y-3">
                       {corporatePackages[selectedPackage as keyof typeof corporatePackages].features.map((feature, index) => (
                         <li key={index} className="flex items-start text-gray-300">
@@ -255,16 +255,16 @@ export default function CorporateServicesPage() {
                   </div>
                   
                   <div>
-                    <h4 className="text-rolls-gold font-semibold mb-4">Package Details:</h4>
+                    <h4 className="text-rolls-gold font-semibold mb-4">{t('servicesPages.corporate.packageDetails.details')}</h4>
                     <div className="space-y-4">
                       <div>
-                        <p className="text-gray-400">Available Vehicles:</p>
+                        <p className="text-gray-400">{t('servicesPages.corporate.packageDetails.availableVehicles')}</p>
                         <p className="text-white font-medium">
                           {corporatePackages[selectedPackage as keyof typeof corporatePackages].vehicles.join(', ')}
                         </p>
                       </div>
                       <div>
-                        <p className="text-gray-400">Starting From:</p>
+                        <p className="text-gray-400">{t('servicesPages.corporate.packageDetails.startingFrom')}</p>
                         <p className="text-2xl font-bold text-rolls-gold">
                           {corporatePackages[selectedPackage as keyof typeof corporatePackages].startingPrice}
                         </p>
@@ -441,13 +441,13 @@ export default function CorporateServicesPage() {
         {/* Recommended Models & Related Services */}
         <section className="py-20 bg-rolls-black">
           <div className="container mx-auto px-4">
-            <h2 className="text-3xl font-bold text-white text-center mb-4">Recommended Corporate Vehicles</h2>
-            <p className="text-rolls-gold/70 text-center mb-12">Our top picks for executive and business use</p>
+            <h2 className="text-3xl font-bold text-white text-center mb-4">{t('servicesPages.corporate.recommendedModels.title')}</h2>
+            <p className="text-rolls-gold/70 text-center mb-12">{t('servicesPages.corporate.recommendedModels.subtitle')}</p>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-16">
               {[
-                { href: '/fleet/ghost', name: 'Ghost', desc: 'Our #1 corporate choice. Understated elegance with Planar suspension — perfect for daily executive transport in DIFC.', price: 'From AED 3,800/day' },
-                { href: '/fleet/phantom', name: 'Phantom', desc: 'The flagship for VIP client entertainment and board-level transport. Extended Wheelbase for maximum rear comfort.', price: 'From AED 5,800/day' },
-                { href: '/fleet/spectre', name: 'Spectre', desc: 'Zero-emission luxury. Silent electric performance for environmentally conscious corporate clients.', price: 'From AED 7,500/day' },
+                { href: '/fleet/ghost', name: 'Ghost', desc: t('servicesPages.corporate.recommendedModels.models.ghost'), price: 'From AED 3,800/day' },
+                { href: '/fleet/phantom', name: 'Phantom', desc: t('servicesPages.corporate.recommendedModels.models.phantom'), price: 'From AED 5,800/day' },
+                { href: '/fleet/spectre', name: 'Spectre', desc: t('servicesPages.corporate.recommendedModels.models.spectre'), price: 'From AED 7,500/day' },
               ].map((model) => (
                 <Link key={model.href} href={model.href} className="group bg-white/5 border border-white/10 rounded-xl p-6 hover:border-rolls-gold/50 transition-all duration-300">
                   <h3 className="text-lg font-semibold text-white group-hover:text-rolls-gold transition-colors mb-2">{model.name}</h3>
@@ -456,13 +456,13 @@ export default function CorporateServicesPage() {
                 </Link>
               ))}
             </div>
-            <h3 className="text-2xl font-bold text-white text-center mb-8">Explore More Services</h3>
+            <h3 className="text-2xl font-bold text-white text-center mb-8">{t('servicesPages.corporate.moreServices.title')}</h3>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
               {[
-                { href: '/services/chauffeur', name: 'Chauffeur Service' },
-                { href: '/services/airport-transfer', name: 'Airport Transfer' },
-                { href: '/services/events', name: 'Events & Galas' },
-                { href: '/services/wedding', name: 'Wedding Service' },
+                { href: '/services/chauffeur', name: t('servicesPages.corporate.moreServices.links.chauffeur') },
+                { href: '/services/airport-transfer', name: t('servicesPages.corporate.moreServices.links.airportTransfer') },
+                { href: '/services/events', name: t('servicesPages.corporate.moreServices.links.events') },
+                { href: '/services/wedding', name: t('servicesPages.corporate.moreServices.links.wedding') },
               ].map((s) => (
                 <Link key={s.href} href={s.href} className="group text-center bg-white/5 border border-white/10 rounded-lg p-4 hover:border-rolls-gold/50 transition-all">
                   <p className="text-white font-semibold group-hover:text-rolls-gold transition-colors">{s.name}</p>

@@ -42,158 +42,74 @@ export default function RollsRoyceVsFerrariPage() {
   const comparisonData = {
     rental: {
       'rolls-royce': {
-        title: t('compare.ferrari.rental.rolls-royce.title', 'Premium Rental Excellence'),
-        points: getTranslatedArray('compare.ferrari.rental.rolls-royce.points', [
-          'Professional chauffeur included at no extra cost',
-          'Complimentary fuel for all rental periods',
-          'Free airport transfers and meet & greet service',
-          'Flexible rental terms from 4 hours to monthly',
-          '24/7 concierge support in multiple languages',
-          'Comprehensive insurance with zero deductible'
-        ]),
-        summary: t('compare.ferrari.rental.rolls-royce.summary', 'Rolls-Royce rental offers an unmatched luxury experience with complete peace of mind and exceptional value for discerning clients.')
+        title: t('compare.ferrari.rental.rolls-royce.title'),
+        points: getTranslatedArray('compare.ferrari.rental.rolls-royce.points', []),
+        summary: t('compare.ferrari.rental.rolls-royce.summary')
       },
       'ferrari': {
-        title: t('compare.ferrari.rental.ferrari.title', 'Performance Rental'),
-        points: getTranslatedArray('compare.ferrari.rental.ferrari.points', [
-          'Self-drive only (special license required)',
-          'Fuel costs not included',
-          'Limited daily mileage allowance',
-          'High security deposit required',
-          'Basic insurance with high deductible',
-          'Additional fees for delivery/collection'
-        ]),
-        summary: t('compare.ferrari.rental.ferrari.summary', 'Ferrari rental focuses on the driving experience but comes with additional costs and restrictions.')
+        title: t('compare.ferrari.rental.ferrari.title'),
+        points: getTranslatedArray('compare.ferrari.rental.ferrari.points', []),
+        summary: t('compare.ferrari.rental.ferrari.summary')
       }
     },
     comfort: {
       'rolls-royce': {
-        title: t('compare.ferrari.comfort.rolls-royce.title', 'Ultimate Comfort'),
-        points: getTranslatedArray('compare.ferrari.comfort.rolls-royce.points', [
-          'Spacious cabin for up to 5 passengers',
-          'Whisper-quiet interior ideal for business calls',
-          'Massage seats with climate control',
-          'Privacy glass and partition available',
-          'Premium entertainment system',
-          'Ample luggage space for shopping and travel'
-        ]),
-        summary: t('compare.ferrari.comfort.rolls-royce.summary', 'Rolls-Royce provides a serene sanctuary perfect for Dubai\'s climate and lifestyle, ensuring arrival in absolute comfort.')
+        title: t('compare.ferrari.comfort.rolls-royce.title'),
+        points: getTranslatedArray('compare.ferrari.comfort.rolls-royce.points', []),
+        summary: t('compare.ferrari.comfort.rolls-royce.summary')
       },
       'ferrari': {
-        title: t('compare.ferrari.comfort.ferrari.title', 'Sport-Focused Interior'),
-        points: getTranslatedArray('compare.ferrari.comfort.ferrari.points', [
-          'Limited to 2 passengers only',
-          'Engine noise dominates the cabin',
-          'Racing seats less comfortable for long trips',
-          'Minimal luggage space',
-          'Limited visibility',
-          'Harsh suspension on city roads'
-        ]),
-        summary: t('compare.ferrari.comfort.ferrari.summary', 'Ferrari prioritizes performance over comfort, which can be challenging for extended use in Dubai traffic.')
+        title: t('compare.ferrari.comfort.ferrari.title'),
+        points: getTranslatedArray('compare.ferrari.comfort.ferrari.points', []),
+        summary: t('compare.ferrari.comfort.ferrari.summary')
       }
     },
     occasion: {
       'rolls-royce': {
-        title: t('compare.ferrari.occasion.rolls-royce.title', 'Perfect for Every Occasion'),
-        points: getTranslatedArray('compare.ferrari.occasion.rolls-royce.points', [
-          'Weddings and special celebrations',
-          'Corporate events and business meetings',
-          'Airport transfers for VIP guests',
-          'Shopping trips to Dubai Mall and Mall of Emirates',
-          'Fine dining experiences at luxury hotels',
-          'Royal protocol events and diplomatic occasions'
-        ]),
-        summary: t('compare.ferrari.occasion.rolls-royce.summary', 'Rolls-Royce is the versatile choice that elevates any occasion with unmatched prestige and elegance.')
+        title: t('compare.ferrari.occasion.rolls-royce.title'),
+        points: getTranslatedArray('compare.ferrari.occasion.rolls-royce.points', []),
+        summary: t('compare.ferrari.occasion.rolls-royce.summary')
       },
       'ferrari': {
-        title: t('compare.ferrari.occasion.ferrari.title', 'Limited Use Cases'),
-        points: getTranslatedArray('compare.ferrari.occasion.ferrari.points', [
-          'Weekend joy rides only',
-          'Not suitable for formal events',
-          'Impractical for business meetings',
-          'Cannot accommodate groups',
-          'Uncomfortable in traffic',
-          'Weather-dependent experience'
-        ]),
-        summary: t('compare.ferrari.occasion.ferrari.summary', 'Ferrari rental is limited to recreational driving and lacks the versatility needed for most luxury occasions.')
+        title: t('compare.ferrari.occasion.ferrari.title'),
+        points: getTranslatedArray('compare.ferrari.occasion.ferrari.points', []),
+        summary: t('compare.ferrari.occasion.ferrari.summary')
       }
     },
     service: {
       'rolls-royce': {
-        title: t('compare.ferrari.service.rolls-royce.title', 'White Glove Service'),
-        points: getTranslatedArray('compare.ferrari.service.rolls-royce.points', [
-          'Dedicated account manager for personalized service',
-          'Complimentary vehicle swap if needed',
-          'Red carpet arrival service available',
-          'Refreshments and amenities included',
-          'Child seats and special requests accommodated',
-          'Multilingual chauffeurs with local expertise'
-        ]),
-        summary: t('compare.ferrari.service.rolls-royce.summary', 'Our Rolls-Royce service exceeds expectations with attention to every detail and genuine care for client comfort.')
+        title: t('compare.ferrari.service.rolls-royce.title'),
+        points: getTranslatedArray('compare.ferrari.service.rolls-royce.points', []),
+        summary: t('compare.ferrari.service.rolls-royce.summary')
       },
       'ferrari': {
-        title: t('compare.ferrari.service.ferrari.title', 'Basic Rental Service'),
-        points: getTranslatedArray('compare.ferrari.service.ferrari.points', [
-          'Standard rental counter service',
-          'Limited support hours',
-          'No chauffeur option available',
-          'Extra charges for most services',
-          'Strict terms and conditions',
-          'Limited flexibility for changes'
-        ]),
-        summary: t('compare.ferrari.service.ferrari.summary', 'Ferrari rental offers basic service focused on the car rather than the complete client experience.')
+        title: t('compare.ferrari.service.ferrari.title'),
+        points: getTranslatedArray('compare.ferrari.service.ferrari.points', []),
+        summary: t('compare.ferrari.service.ferrari.summary')
       }
     },
     value: {
       'rolls-royce': {
-        title: t('compare.ferrari.value.rolls-royce.title', 'Exceptional Value'),
-        points: getTranslatedArray('compare.ferrari.value.rolls-royce.points', [
-          'All-inclusive pricing with no hidden costs',
-          'Chauffeur service saves on driver costs',
-          'Fuel included saves AED 500-1000 per day',
-          'Free delivery saves AED 300-500',
-          'Comprehensive insurance provides peace of mind',
-          'Loyalty program with exclusive benefits'
-        ]),
-        summary: t('compare.ferrari.value.rolls-royce.summary', 'When considering all included services, Rolls-Royce rental offers superior value and worry-free luxury.')
+        title: t('compare.ferrari.value.rolls-royce.title'),
+        points: getTranslatedArray('compare.ferrari.value.rolls-royce.points', []),
+        summary: t('compare.ferrari.value.rolls-royce.summary')
       },
       'ferrari': {
-        title: t('compare.ferrari.value.ferrari.title', 'Hidden Costs'),
-        points: getTranslatedArray('compare.ferrari.value.ferrari.points', [
-          'Base price excludes many essentials',
-          'Fuel costs add significant expense',
-          'High insurance deductible risk',
-          'Delivery and collection fees',
-          'Excess mileage charges',
-          'Expensive damage liability'
-        ]),
-        summary: t('compare.ferrari.value.ferrari.summary', 'Ferrari\'s apparent rental rate becomes much higher when all additional costs are considered.')
+        title: t('compare.ferrari.value.ferrari.title'),
+        points: getTranslatedArray('compare.ferrari.value.ferrari.points', []),
+        summary: t('compare.ferrari.value.ferrari.summary')
       }
     },
     experience: {
       'rolls-royce': {
-        title: t('compare.ferrari.experience.rolls-royce.title', 'The Dubai Lifestyle Choice'),
-        points: getTranslatedArray('compare.ferrari.experience.rolls-royce.points', [
-          'Arrive at Burj Al Arab in ultimate style',
-          'Perfect for Dubai\'s luxury shopping destinations',
-          'Ideal for business in DIFC and Downtown',
-          'Comfortable in all weather conditions',
-          'Prestigious presence at exclusive venues',
-          'Networking opportunities with elite clientele'
-        ]),
-        summary: t('compare.ferrari.experience.rolls-royce.summary', 'Rolls-Royce rental perfectly complements Dubai\'s luxury lifestyle and opens doors to exclusive experiences.')
+        title: t('compare.ferrari.experience.rolls-royce.title'),
+        points: getTranslatedArray('compare.ferrari.experience.rolls-royce.points', []),
+        summary: t('compare.ferrari.experience.rolls-royce.summary')
       },
       'ferrari': {
-        title: t('compare.ferrari.experience.ferrari.title', 'Limited Dubai Compatibility'),
-        points: getTranslatedArray('compare.ferrari.experience.ferrari.points', [
-          'Uncomfortable in summer heat',
-          'Impractical for most Dubai venues',
-          'Attracts unwanted attention',
-          'Challenging in heavy traffic',
-          'Limited parking options',
-          'Not suitable for family outings'
-        ]),
-        summary: t('compare.ferrari.experience.ferrari.summary', 'Ferrari\'s limitations become apparent in Dubai\'s daily luxury lifestyle requirements.')
+        title: t('compare.ferrari.experience.ferrari.title'),
+        points: getTranslatedArray('compare.ferrari.experience.ferrari.points', []),
+        summary: t('compare.ferrari.experience.ferrari.summary')
       }
     }
   }
@@ -202,101 +118,53 @@ export default function RollsRoyceVsFerrariPage() {
     rollsRoyce: {
       daily: {
         price: 'AED 3,500',
-        includes: [
-          'Professional chauffeur',
-          'Unlimited local mileage',
-          'Complimentary fuel',
-          'Comprehensive insurance',
-          'Airport transfers',
-          '24/7 support'
-        ],
+        includes: getTranslatedArray('compare.ferrari.packages.rollsRoyce.daily.includes', []),
         totalValue: 'AED 5,500+'
       },
       weekly: {
         price: 'AED 21,000',
-        includes: [
-          'All daily benefits',
-          '1 free extra day',
-          'VIP event access',
-          'Personal concierge',
-          'Luxury hotel partnerships',
-          'Complimentary car wash'
-        ],
+        includes: getTranslatedArray('compare.ferrari.packages.rollsRoyce.weekly.includes', []),
         totalValue: 'AED 35,000+'
       },
       monthly: {
         price: 'AED 75,000',
-        includes: [
-          'All weekly benefits',
-          'Dedicated account manager',
-          'Vehicle replacement option',
-          'Custom branding available',
-          'Corporate billing',
-          'Exclusive member events'
-        ],
+        includes: getTranslatedArray('compare.ferrari.packages.rollsRoyce.monthly.includes', []),
         totalValue: 'AED 120,000+'
       }
     },
     ferrari: {
       daily: {
         price: 'AED 4,000',
-        excludes: [
-          'Chauffeur (not available)',
-          'Fuel (AED 500-800/day)',
-          'Full insurance (AED 1,000/day)',
-          'Delivery (AED 500)',
-          'Excess mileage (AED 10/km)',
-          'Security deposit (AED 20,000)'
-        ],
+        excludes: getTranslatedArray('compare.ferrari.packages.ferrari.daily.excludes', []),
         realCost: 'AED 6,500+'
       },
       weekly: {
         price: 'AED 25,000',
-        excludes: [
-          'All daily exclusions',
-          'No loyalty benefits',
-          'Limited support hours',
-          'Weather restrictions',
-          'Maintenance downtime',
-          'No replacement vehicle'
-        ],
+        excludes: getTranslatedArray('compare.ferrari.packages.ferrari.weekly.excludes', []),
         realCost: 'AED 40,000+'
       },
       monthly: {
         price: 'AED 90,000',
-        excludes: [
-          'All weekly exclusions',
-          'High wear and tear risk',
-          'No corporate benefits',
-          'Limited availability',
-          'Strict usage terms',
-          'No customization'
-        ],
+        excludes: getTranslatedArray('compare.ferrari.packages.ferrari.monthly.excludes', []),
         realCost: 'AED 150,000+'
       }
     }
   }
 
-  const testimonials = [
-    {
-      name: 'Ahmed Al Rashid',
-      position: 'CEO, Dubai Holdings',
-      text: 'For business in Dubai, nothing compares to the Rolls-Royce experience. The chauffeur service allows me to work during transit, and the prestige it brings to corporate meetings is invaluable.',
-      rating: 5
-    },
-    {
-      name: 'Princess Fatima',
-      position: 'Royal Family Member',
-      text: 'We exclusively use Rolls-Royce for all our official engagements. The comfort, privacy, and reliability are unmatched. Ferrari simply cannot provide the dignity required for formal occasions.',
-      rating: 5
-    },
-    {
-      name: 'Viktor Petrov',
-      position: 'Luxury Real Estate Developer',
-      text: 'I tried Ferrari rental once - the hidden costs and impracticality were shocking. Rolls-Royce includes everything and actually costs less when you factor in all services. It\'s a smart business choice.',
-      rating: 5
+  const getTestimonials = (): { name: string; position: string; text: string; rating: number }[] => {
+    const list = t('compare.ferrari.testimonials.list', { returnObjects: true })
+    if (Array.isArray(list)) {
+      return list.map((item: any) => ({
+        name: typeof item?.name === 'string' ? item.name : '',
+        position: typeof item?.position === 'string' ? item.position : '',
+        text: typeof item?.text === 'string' ? item.text : '',
+        rating: 5,
+      }))
     }
-  ]
+    return []
+  }
+
+  const testimonials = getTestimonials()
 
   return (
     <>
@@ -341,19 +209,19 @@ export default function RollsRoyceVsFerrariPage() {
               <div className="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-4xl mx-auto mb-8">
                 <div className="bg-rolls-gold/20 backdrop-blur-sm rounded-lg p-4">
                   <p className="text-3xl font-bold text-rolls-gold">98%</p>
-                  <p className="text-sm text-gray-300">Client Satisfaction</p>
+                  <p className="text-sm text-gray-300">{t('compare.ferrari.hero.stats.satisfaction')}</p>
                 </div>
                 <div className="bg-rolls-gold/20 backdrop-blur-sm rounded-lg p-4">
                   <p className="text-3xl font-bold text-rolls-gold">50%</p>
-                  <p className="text-sm text-gray-300">More Value</p>
+                  <p className="text-sm text-gray-300">{t('compare.ferrari.hero.stats.moreValue')}</p>
                 </div>
                 <div className="bg-rolls-gold/20 backdrop-blur-sm rounded-lg p-4">
                   <p className="text-3xl font-bold text-rolls-gold">24/7</p>
-                  <p className="text-sm text-gray-300">Full Service</p>
+                  <p className="text-sm text-gray-300">{t('compare.ferrari.hero.stats.fullService')}</p>
                 </div>
                 <div className="bg-rolls-gold/20 backdrop-blur-sm rounded-lg p-4">
                   <p className="text-3xl font-bold text-rolls-gold">100%</p>
-                  <p className="text-sm text-gray-300">All Inclusive</p>
+                  <p className="text-sm text-gray-300">{t('compare.ferrari.hero.stats.allInclusive')}</p>
                 </div>
               </div>
               
@@ -392,15 +260,14 @@ export default function RollsRoyceVsFerrariPage() {
                 className="bg-gradient-to-br from-rolls-gold/30 to-rolls-gold/10 border border-rolls-gold/40 rounded-lg p-8"
               >
                 <div className="text-5xl mb-4">💰</div>
-                <h3 className="text-2xl font-bold text-rolls-gold mb-4">Better Value</h3>
+                <h3 className="text-2xl font-bold text-rolls-gold mb-4">{t('compare.ferrari.winner.value.title')}</h3>
                 <p className="text-gray-300 mb-4">
-                  All-inclusive pricing saves you AED 2,000+ per day compared to Ferrari when including fuel, insurance, and chauffeur costs.
+                  {t('compare.ferrari.winner.value.description')}
                 </p>
                 <ul className="text-sm text-gray-400 space-y-2">
-                  <li>✓ Free chauffeur (worth AED 800/day)</li>
-                  <li>✓ Free fuel (worth AED 500/day)</li>
-                  <li>✓ Full insurance included</li>
-                  <li>✓ No hidden charges</li>
+                  {getTranslatedArray('compare.ferrari.winner.value.points', []).map((point, i) => (
+                    <li key={i}>✓ {point}</li>
+                  ))}
                 </ul>
               </motion.div>
 
@@ -411,15 +278,14 @@ export default function RollsRoyceVsFerrariPage() {
                 className="bg-gradient-to-br from-rolls-gold/30 to-rolls-gold/10 border border-rolls-gold/40 rounded-lg p-8"
               >
                 <div className="text-5xl mb-4">🏆</div>
-                <h3 className="text-2xl font-bold text-rolls-gold mb-4">Superior Experience</h3>
+                <h3 className="text-2xl font-bold text-rolls-gold mb-4">{t('compare.ferrari.winner.experience.title')}</h3>
                 <p className="text-gray-300 mb-4">
-                  Rolls-Royce provides a complete luxury experience, not just a car rental. Perfect for business and pleasure.
+                  {t('compare.ferrari.winner.experience.description')}
                 </p>
                 <ul className="text-sm text-gray-400 space-y-2">
-                  <li>✓ Seats up to 5 passengers</li>
-                  <li>✓ Silent cabin for calls</li>
-                  <li>✓ Ample luggage space</li>
-                  <li>✓ All-weather comfort</li>
+                  {getTranslatedArray('compare.ferrari.winner.experience.points', []).map((point, i) => (
+                    <li key={i}>✓ {point}</li>
+                  ))}
                 </ul>
               </motion.div>
 
@@ -430,15 +296,14 @@ export default function RollsRoyceVsFerrariPage() {
                 className="bg-gradient-to-br from-rolls-gold/30 to-rolls-gold/10 border border-rolls-gold/40 rounded-lg p-8"
               >
                 <div className="text-5xl mb-4">⭐</div>
-                <h3 className="text-2xl font-bold text-rolls-gold mb-4">Unmatched Service</h3>
+                <h3 className="text-2xl font-bold text-rolls-gold mb-4">{t('compare.ferrari.winner.service.title')}</h3>
                 <p className="text-gray-300 mb-4">
-                  Our white-glove service ensures every journey exceeds expectations with personalized attention to detail.
+                  {t('compare.ferrari.winner.service.description')}
                 </p>
                 <ul className="text-sm text-gray-400 space-y-2">
-                  <li>✓ 24/7 concierge support</li>
-                  <li>✓ Airport meet & greet</li>
-                  <li>✓ Flexible rental terms</li>
-                  <li>✓ VIP treatment always</li>
+                  {getTranslatedArray('compare.ferrari.winner.service.points', []).map((point, i) => (
+                    <li key={i}>✓ {point}</li>
+                  ))}
                 </ul>
               </motion.div>
             </div>
@@ -489,7 +354,7 @@ export default function RollsRoyceVsFerrariPage() {
                     <div className="flex items-center justify-between mb-6">
                       <h3 className="text-2xl font-bold text-white">Rolls-Royce</h3>
                       <div className="bg-rolls-gold text-rolls-black px-3 py-1 rounded-full text-sm font-bold">
-                        RECOMMENDED
+                        {t('compare.ferrari.detailed.recommended')}
                       </div>
                     </div>
                     
@@ -520,7 +385,7 @@ export default function RollsRoyceVsFerrariPage() {
                     <div className="flex items-center justify-between mb-6">
                       <h3 className="text-2xl font-bold text-white">Ferrari</h3>
                       <div className="bg-red-600/20 text-red-400 px-3 py-1 rounded-full text-sm">
-                        LIMITED
+                        {t('compare.ferrari.detailed.limited')}
                       </div>
                     </div>
                     
@@ -575,14 +440,14 @@ export default function RollsRoyceVsFerrariPage() {
                         <p className="text-3xl font-bold text-rolls-gold mt-2">
                           {rentalPackages.rollsRoyce[period as keyof typeof rentalPackages.rollsRoyce].price}
                         </p>
-                        <p className="text-sm text-gray-400 capitalize">{period} Rate</p>
+                        <p className="text-sm text-gray-400">{t(`compare.ferrari.packages.rateLabel.${period}`)}</p>
                       </div>
                       <span className="bg-rolls-gold text-rolls-black px-3 py-1 rounded-full text-xs font-bold">
-                        BEST VALUE
+                        {t('compare.ferrari.packages.bestValue')}
                       </span>
                     </div>
-                    
-                    <p className="text-sm text-green-400 font-semibold mb-3">✓ All Inclusive</p>
+
+                    <p className="text-sm text-green-400 font-semibold mb-3">✓ {t('compare.ferrari.packages.allInclusive')}</p>
                     <ul className="text-sm text-gray-300 space-y-1">
                       {rentalPackages.rollsRoyce[period as keyof typeof rentalPackages.rollsRoyce].includes.map((item, i) => (
                         <li key={i}>• {item}</li>
@@ -590,7 +455,7 @@ export default function RollsRoyceVsFerrariPage() {
                     </ul>
                     
                     <div className="mt-4 pt-4 border-t border-rolls-gold/20">
-                      <p className="text-xs text-gray-400">Total Value:</p>
+                      <p className="text-xs text-gray-400">{t('compare.ferrari.packages.totalValueLabel')}</p>
                       <p className="text-lg font-bold text-rolls-gold">
                         {rentalPackages.rollsRoyce[period as keyof typeof rentalPackages.rollsRoyce].totalValue}
                       </p>
@@ -605,14 +470,14 @@ export default function RollsRoyceVsFerrariPage() {
                         <p className="text-3xl font-bold text-red-500 mt-2">
                           {rentalPackages.ferrari[period as keyof typeof rentalPackages.ferrari].price}
                         </p>
-                        <p className="text-sm text-gray-400 capitalize">{period} Rate</p>
+                        <p className="text-sm text-gray-400">{t(`compare.ferrari.packages.rateLabel.${period}`)}</p>
                       </div>
                       <span className="bg-red-600/20 text-red-400 px-3 py-1 rounded-full text-xs">
-                        + EXTRAS
+                        {t('compare.ferrari.packages.extras')}
                       </span>
                     </div>
-                    
-                    <p className="text-sm text-red-400 font-semibold mb-3">✗ Additional Costs:</p>
+
+                    <p className="text-sm text-red-400 font-semibold mb-3">✗ {t('compare.ferrari.packages.additionalCosts')}</p>
                     <ul className="text-sm text-gray-400 space-y-1">
                       {rentalPackages.ferrari[period as keyof typeof rentalPackages.ferrari].excludes.map((item, i) => (
                         <li key={i}>• {item}</li>
@@ -620,7 +485,7 @@ export default function RollsRoyceVsFerrariPage() {
                     </ul>
                     
                     <div className="mt-4 pt-4 border-t border-red-600/20">
-                      <p className="text-xs text-gray-400">Real Cost:</p>
+                      <p className="text-xs text-gray-400">{t('compare.ferrari.packages.realCostLabel')}</p>
                       <p className="text-lg font-bold text-red-500">
                         {rentalPackages.ferrari[period as keyof typeof rentalPackages.ferrari].realCost}
                       </p>
@@ -693,23 +558,19 @@ export default function RollsRoyceVsFerrariPage() {
               <div className="bg-gradient-to-br from-rolls-gold/20 to-rolls-gold/10 border-2 border-rolls-gold/40 rounded-lg p-12">
                 <div className="grid md:grid-cols-2 gap-8 mb-8">
                   <div>
-                    <h3 className="text-2xl font-bold text-rolls-gold mb-4">Rolls-Royce</h3>
+                    <h3 className="text-2xl font-bold text-rolls-gold mb-4">{t('compare.ferrari.finalCta.rollsRoyce.label')}</h3>
                     <ul className="text-gray-300 space-y-2 text-left">
-                      <li>✓ All-inclusive luxury</li>
-                      <li>✓ Professional chauffeur</li>
-                      <li>✓ Perfect for all occasions</li>
-                      <li>✓ Superior comfort</li>
-                      <li>✓ Best overall value</li>
+                      {getTranslatedArray('compare.ferrari.finalCta.rollsRoyce.points', []).map((point, i) => (
+                        <li key={i}>✓ {point}</li>
+                      ))}
                     </ul>
                   </div>
                   <div>
-                    <h3 className="text-2xl font-bold text-red-500 mb-4">Ferrari</h3>
+                    <h3 className="text-2xl font-bold text-red-500 mb-4">{t('compare.ferrari.finalCta.ferrari.label')}</h3>
                     <ul className="text-gray-400 space-y-2 text-left">
-                      <li>✗ Hidden extra costs</li>
-                      <li>✗ Self-drive only</li>
-                      <li>✗ Limited practicality</li>
-                      <li>✗ Uncomfortable</li>
-                      <li>✗ Higher total cost</li>
+                      {getTranslatedArray('compare.ferrari.finalCta.ferrari.points', []).map((point, i) => (
+                        <li key={i}>✗ {point}</li>
+                      ))}
                     </ul>
                   </div>
                 </div>
@@ -752,7 +613,7 @@ export default function RollsRoyceVsFerrariPage() {
                   📞 +971 55 816 4922
                 </a>
                 <a href="https://wa.me/971558164922" target="_blank" rel="noopener noreferrer" className="bg-green-600 text-white px-6 py-3 rounded-full font-semibold hover:bg-green-700 transition-colors">
-                  💬 WhatsApp Now
+                  💬 {t('compare.ferrari.contact.whatsapp')}
                 </a>
               </div>
             </div>

@@ -218,6 +218,24 @@
             "Special rates for multiple day bookings"
           ]
         }
+      },
+      "recommendedModels": {
+        "title": "Best Models for Photoshoots",
+        "subtitle": "Choose the perfect Rolls-Royce for your creative vision",
+        "models": {
+          "dawn": "Our #1 photoshoot car. The convertible offers open-air beauty perfect for outdoor fashion, lifestyle, and Instagram content.",
+          "wraith": "Bold coupe silhouette with Starlight Headliner. Ideal for dramatic editorial shots and music video productions.",
+          "spectre": "Futuristic electric design with split headlights. The most visually striking choice for commercial and editorial shoots."
+        }
+      },
+      "moreServices": {
+        "title": "Explore More Services",
+        "links": {
+          "events": "Events & Galas",
+          "tours": "Dubai Tours",
+          "wedding": "Wedding Service",
+          "chauffeur": "Chauffeur Service"
+        }
       }
     }
   }

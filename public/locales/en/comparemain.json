@@ -8,7 +8,8 @@
       },
       "subtitle": "The Ultimate Luxury Car Comparison for Dubai",
       "description": "Explore detailed comparisons between Rolls-Royce and other luxury brands to find the perfect vehicle for your needs",
-      "bentleyAlt": "Bentley luxury car in Dubai"
+      "bentleyAlt": "Bentley luxury car in Dubai",
+      "imageAlt": "Luxury car comparison showcase"
     },
     "stats": {
       "comparisons": {
@@ -157,61 +158,133 @@
     "overview": {
       "rollsRoyce": {
         "title": "The Pinnacle of Luxury",
-        "summary": "Rolls-Royce represents the absolute pinnacle of automotive luxury, where no compromise is made in the pursuit of perfection."
+        "summary": "Rolls-Royce represents the absolute pinnacle of automotive luxury, where no compromise is made in the pursuit of perfection.",
+        "points": [
+          "Uncompromising commitment to luxury and comfort",
+          "Bespoke craftsmanship with unlimited customization",
+          "The quietest and smoothest ride in the automotive world",
+          "Preferred choice of royalty and heads of state"
+        ]
       },
       "bentley": {
         "title": "Performance Luxury",
-        "summary": "Bentley offers a unique blend of luxury and performance, appealing to those who want to drive as much as be driven."
+        "summary": "Bentley offers a unique blend of luxury and performance, appealing to those who want to drive as much as be driven.",
+        "points": [
+          "Luxury combined with sporting performance",
+          "Handcrafted interiors with modern technology",
+          "More driver-focused experience",
+          "Racing heritage and sporting credentials"
+        ]
       }
     },
     "luxury": {
       "rollsRoyce": {
         "title": "Unparalleled Opulence",
-        "summary": "Every Rolls-Royce is a masterpiece of craftsmanship, with attention to detail that borders on obsession."
+        "summary": "Every Rolls-Royce is a masterpiece of craftsmanship, with attention to detail that borders on obsession.",
+        "points": [
+          "Hand-stitched leather from specially reared bulls",
+          "Real wood veneers from single trees for perfect matching",
+          "Starlight headliner with thousands of fiber optic lights",
+          "Bespoke department for unlimited personalization"
+        ]
       },
       "bentley": {
         "title": "Contemporary Luxury",
-        "summary": "Bentley combines traditional craftsmanship with modern luxury, creating an environment that's both opulent and sporting."
+        "summary": "Bentley combines traditional craftsmanship with modern luxury, creating an environment that's both opulent and sporting.",
+        "points": [
+          "Diamond-quilted leather seats",
+          "Rotating display featuring analog dials",
+          "Knurled metal controls and switches",
+          "Mulliner personalization service"
+        ]
       }
     },
     "performance": {
       "rollsRoyce": {
         "title": "Effortless Power",
-        "summary": "Rolls-Royce prioritizes smooth, effortless power delivery over sporting performance, creating a serene driving experience."
+        "summary": "Rolls-Royce prioritizes smooth, effortless power delivery over sporting performance, creating a serene driving experience.",
+        "points": [
+          "V12 engines delivering seamless power",
+          "Focus on refinement over outright speed",
+          "Magic Carpet Ride suspension system",
+          "Near-silent operation at any speed"
+        ]
       },
       "bentley": {
         "title": "Exhilarating Performance",
-        "summary": "Bentley delivers supercar performance wrapped in luxury, appealing to enthusiasts who refuse to compromise."
+        "summary": "Bentley delivers supercar performance wrapped in luxury, appealing to enthusiasts who refuse to compromise.",
+        "points": [
+          "W12 and V8 engines with massive power",
+          "0-60 mph in under 4 seconds (Continental GT)",
+          "Active all-wheel drive systems",
+          "Track-capable luxury vehicles"
+        ]
       }
     },
     "technology": {
       "rollsRoyce": {
         "title": "Invisible Technology",
-        "summary": "Rolls-Royce integrates cutting-edge technology seamlessly, maintaining a classic, uncluttered aesthetic."
+        "summary": "Rolls-Royce integrates cutting-edge technology seamlessly, maintaining a classic, uncluttered aesthetic.",
+        "points": [
+          "Technology hidden behind traditional interfaces",
+          "Satellite Aided Transmission",
+          "Night vision with pedestrian detection",
+          "Bespoke audio system tuned to each car"
+        ]
       },
       "bentley": {
         "title": "Modern Innovation",
-        "summary": "Bentley embraces modern technology more openly, offering a blend of traditional luxury and contemporary innovation."
+        "summary": "Bentley embraces modern technology more openly, offering a blend of traditional luxury and contemporary innovation.",
+        "points": [
+          "Rotating display with touchscreen",
+          "Advanced driver assistance systems",
+          "Bang & Olufsen audio systems",
+          "Fully digital instrument cluster"
+        ]
       }
     },
     "heritage": {
       "rollsRoyce": {
         "title": "120 Years of Excellence",
-        "summary": "Rolls-Royce has maintained its position as the ultimate luxury car manufacturer for over a century."
+        "summary": "Rolls-Royce has maintained its position as the ultimate luxury car manufacturer for over a century.",
+        "points": [
+          "Founded in 1904 by Henry Royce and Charles Rolls",
+          "Spirit of Ecstasy - the most famous automotive mascot",
+          "Supplier to royalty worldwide",
+          "The best car in the world philosophy"
+        ]
       },
       "bentley": {
         "title": "Racing Pedigree",
-        "summary": "Bentley's racing heritage infuses every model with a sporting spirit that sets it apart from pure luxury brands."
+        "summary": "Bentley's racing heritage infuses every model with a sporting spirit that sets it apart from pure luxury brands.",
+        "points": [
+          "Founded in 1919 by W.O. Bentley",
+          "Five Le Mans victories in the 1920s",
+          "Modern racing success at Le Mans",
+          "Bentley Boys racing heritage"
+        ]
       }
     },
     "price": {
       "rollsRoyce": {
         "title": "Ultimate Investment",
-        "summary": "Rolls-Royce commands premium prices that reflect its position as the ultimate luxury automobile."
+        "summary": "Rolls-Royce commands premium prices that reflect its position as the ultimate luxury automobile.",
+        "points": [
+          "Starting prices from AED 2,000,000+",
+          "Bespoke options can double the base price",
+          "Strong value retention",
+          "Exclusive ownership experience"
+        ]
       },
       "bentley": {
         "title": "Accessible Ultra-Luxury",
-        "summary": "Bentley offers a more accessible entry into the ultra-luxury segment while maintaining exclusivity."
+        "summary": "Bentley offers a more accessible entry into the ultra-luxury segment while maintaining exclusivity.",
+        "points": [
+          "Starting prices from AED 1,200,000+",
+          "More accessible entry point to ultra-luxury",
+          "Good value retention",
+          "Wider model range and price points"
+        ]
       }
     },
     "models": {
@@ -257,13 +330,25 @@
         "title": "Rolls-Royce Rental",
         "daily": "AED 3,500+",
         "weekly": "AED 21,000+",
-        "monthly": "AED 75,000+"
+        "monthly": "AED 75,000+",
+        "benefits": [
+          "Professional chauffeur included",
+          "Complimentary fuel",
+          "Comprehensive insurance",
+          "Bespoke concierge service"
+        ]
       },
       "bentley": {
         "title": "Bentley Rental",
         "daily": "AED 2,800+",
         "weekly": "AED 16,000+",
-        "monthly": "AED 55,000+"
+        "monthly": "AED 55,000+",
+        "benefits": [
+          "Sport and luxury options",
+          "Self-drive available",
+          "Track day experiences",
+          "Performance driving courses"
+        ]
       },
       "title": "Rental Pricing Comparison",
       "dailyRate": "Daily Rate",
@@ -336,18 +421,26 @@
         "title": "Rolls-Royce vs Mercedes-Maybach",
         "subtitle": "British elegance meets German precision"
       },
-      "comingSoon": "Coming Soon"
+      "comingSoon": "Coming Soon",
+      "ferrari": {
+        "title": "Rolls-Royce vs Ferrari",
+        "subtitle": "Luxury comfort vs supercar performance"
+      },
+      "maybach": {
+        "title": "Phantom vs Maybach",
+        "subtitle": "The ultimate flagship comparison"
+      }
     },
     "mercedes": {
       "hero": {
         "title": {
-          "rollsRoyce": "Rolls-Royce",
-          "vs": "vs",
-          "mercedes": "Mercedes-Benz"
+          "rollsRoyce": "Rent Rolls-Royce",
+          "vs": "or",
+          "mercedes": "Mercedes-Benz in Dubai"
         },
-        "subtitle": "Experience the Unmatched Excellence of British Bespoke Luxury",
+        "subtitle": "Why Rolls-Royce Rental Delivers an Unmatched Luxury Experience",
         "exploreFleet": "Explore Our Fleet",
-        "bookNow": "Book Rolls-Royce Now"
+        "bookNow": "Book Your Experience"
       },
       "quickSummary": {
         "rollsRoyce": {
@@ -373,6 +466,251 @@
         "title": "The Clear Choice for Ultimate Luxury",
         "p1": "While Mercedes-Benz offers impressive German engineering and technology, Rolls-Royce remains in a league of its own.",
         "p2": "Choose Rolls-Royce for an experience that transcends mere transportation."
+      },
+      "aspects": {
+        "overview": {
+          "name": "Overview"
+        },
+        "luxury": {
+          "name": "Luxury & Comfort"
+        },
+        "performance": {
+          "name": "Performance"
+        },
+        "technology": {
+          "name": "Technology"
+        },
+        "heritage": {
+          "name": "Heritage"
+        },
+        "rental": {
+          "name": "Rental Experience"
+        }
+      },
+      "overview": {
+        "rolls-royce": {
+          "title": "The Epitome of Bespoke Luxury",
+          "points": [
+            "Handcrafted excellence with unlimited customization",
+            "The most prestigious automotive brand in the world",
+            "Unmatched ride quality with Magic Carpet Ride",
+            "Symbol of ultimate success and achievement"
+          ],
+          "summary": "Rolls-Royce stands alone at the pinnacle of automotive luxury."
+        },
+        "mercedes": {
+          "title": "Pioneering Luxury Innovation",
+          "points": [
+            "Advanced technology integrated with refined luxury",
+            "Broader model range from executive to ultra-luxury",
+            "Industry-leading safety and innovation features",
+            "Perfect balance of performance and comfort"
+          ],
+          "summary": "Mercedes-Benz combines German engineering with modern luxury."
+        }
+      },
+      "luxury": {
+        "rolls-royce": {
+          "title": "Artisanal Craftsmanship",
+          "points": [
+            "Hand-stitched leather from exclusive European tanneries",
+            "Starlight headliner with up to 1,600 fiber optic lights",
+            "Bespoke wood veneers matched from single trees",
+            "Gallery feature transforming dashboard into art space"
+          ],
+          "summary": "Every Rolls-Royce interior is a bespoke masterpiece."
+        },
+        "mercedes": {
+          "title": "Modern Sophisticated Luxury",
+          "points": [
+            "MBUX interior assistant with gesture control",
+            "Energizing comfort with massage and aromatherapy",
+            "Burmester 4D surround sound systems",
+            "Executive rear seat package with reclining seats"
+          ],
+          "summary": "Mercedes-Benz delivers cutting-edge luxury with advanced technology."
+        }
+      },
+      "performance": {
+        "rolls-royce": {
+          "title": "Effortless Waftability",
+          "points": [
+            "Twin-turbo V12 engines with seamless power delivery",
+            "Focus on silence and smoothness over speed",
+            "Satellite Aided Transmission for predictive gear changes",
+            "Air suspension with road-scanning technology"
+          ],
+          "summary": "Rolls-Royce prioritizes serene, effortless progress."
+        },
+        "mercedes": {
+          "title": "Dynamic Performance Excellence",
+          "points": [
+            "AMG variants with exceptional performance capabilities",
+            "EQ Boost mild hybrid technology for efficiency",
+            "4MATIC all-wheel drive for superior traction",
+            "Multiple driving modes from comfort to sport+"
+          ],
+          "summary": "Mercedes-Benz offers versatile performance options."
+        }
+      },
+      "technology": {
+        "rolls-royce": {
+          "title": "Discreet Innovation",
+          "points": [
+            "Technology seamlessly integrated behind classic design",
+            "Bespoke audio system individually tuned to each car",
+            "Night vision with wildlife and pedestrian warning",
+            "Spirit of Ecstasy retracts automatically for security"
+          ],
+          "summary": "Rolls-Royce integrates technology invisibly."
+        },
+        "mercedes": {
+          "title": "Technological Leadership",
+          "points": [
+            "MBUX Hyperscreen with AI-powered personalization",
+            "Level 3 autonomous driving capabilities",
+            "Augmented reality navigation display",
+            "Over-the-air updates for continuous improvement"
+          ],
+          "summary": "Mercedes-Benz leads automotive technology innovation."
+        }
+      },
+      "heritage": {
+        "rolls-royce": {
+          "title": "120 Years of Perfection",
+          "points": [
+            "Founded in 1904 with commitment to excellence",
+            "Provider to royalty and world leaders",
+            "Spirit of Ecstasy - most iconic automotive symbol",
+            "Each car still hand-built in Goodwood, England"
+          ],
+          "summary": "Rolls-Royce represents an unbroken tradition of excellence."
+        },
+        "mercedes": {
+          "title": "Inventor of the Automobile",
+          "points": [
+            "Karl Benz created the first automobile in 1886",
+            "Pioneered countless automotive innovations",
+            "Three-pointed star symbolizes universal motorization",
+            "Consistent Formula 1 dominance showcasing excellence"
+          ],
+          "summary": "Mercedes-Benz invented the automobile and continues to shape its future."
+        }
+      },
+      "rental": {
+        "rolls-royce": {
+          "title": "Ultimate Rental Experience",
+          "points": [
+            "Professional chauffeur included with every rental",
+            "Daily rates from AED 3,500 with all-inclusive service",
+            "Complimentary fuel, insurance, and 24/7 concierge",
+            "Perfect for weddings, corporate events, and VIP occasions"
+          ],
+          "summary": "Rolls-Royce rental offers an unmatched luxury experience with complete white-glove service."
+        },
+        "mercedes": {
+          "title": "Standard Luxury Rental",
+          "points": [
+            "Self-drive options from AED 1,200 per day",
+            "Basic insurance coverage included",
+            "Limited chauffeur availability",
+            "Suitable for business meetings and airport transfers"
+          ],
+          "summary": "Mercedes rental provides good value but lacks the exclusive services of Rolls-Royce."
+        }
+      },
+      "detailed": {
+        "comparison": "Comparison",
+        "rollsRoyce": "Rolls-Royce",
+        "mercedes": "Mercedes-Benz"
+      },
+      "models": {
+        "flagship": {
+          "rollsRoyce": {
+            "model": "Rolls-Royce Phantom",
+            "price": "AED 5,800/day",
+            "type": "Ultimate Flagship Experience"
+          },
+          "mercedes": {
+            "model": "Mercedes-Maybach S680",
+            "price": "AED 2,500/day",
+            "type": "Executive Luxury"
+          }
+        },
+        "executive": {
+          "rollsRoyce": {
+            "model": "Rolls-Royce Ghost",
+            "price": "AED 3,800/day",
+            "type": "Business Excellence"
+          },
+          "mercedes": {
+            "model": "Mercedes S-Class",
+            "price": "AED 1,200/day",
+            "type": "Corporate Standard"
+          }
+        },
+        "suv": {
+          "rollsRoyce": {
+            "model": "Rolls-Royce Cullinan",
+            "price": "AED 4,500/day",
+            "type": "Luxury Adventure"
+          },
+          "mercedes": {
+            "model": "Mercedes-Maybach GLS",
+            "price": "AED 1,800/day",
+            "type": "Family Luxury"
+          }
+        }
+      },
+      "modelComparison": {
+        "title": "Model by Model Comparison"
+      },
+      "whyRent": {
+        "title": "Why Rent Rolls-Royce Over Mercedes?",
+        "chauffeur": {
+          "title": "Professional Chauffeur",
+          "desc": "Every Rolls-Royce rental includes a trained professional chauffeur. Mercedes rentals often charge extra."
+        },
+        "experience": {
+          "title": "VIP Experience",
+          "desc": "Red carpet service, airport meet & greet, and personalized attention that Mercedes rentals cannot match."
+        },
+        "prestige": {
+          "title": "Ultimate Prestige",
+          "desc": "Arrive in a Rolls-Royce and make an unforgettable impression. Mercedes is common, Rolls-Royce is extraordinary."
+        }
+      },
+      "packages": {
+        "rollsRoyce": {
+          "title": "Rolls-Royce All-Inclusive Package",
+          "p1": "Professional uniformed chauffeur",
+          "p2": "Unlimited fuel included",
+          "p3": "Comprehensive insurance coverage",
+          "p4": "24/7 concierge service",
+          "p5": "Complimentary refreshments",
+          "p6": "Red carpet service for events",
+          "price": "From AED 3,500/day",
+          "cta": "Book Rolls-Royce Now"
+        },
+        "mercedes": {
+          "title": "Mercedes Basic Rental",
+          "p1": "Self-drive or chauffeur (extra cost)",
+          "p2": "Fuel costs extra",
+          "p3": "Basic insurance only",
+          "p4": "Limited support hours",
+          "p5": "No complimentary extras",
+          "p6": "Standard service only",
+          "price": "From AED 1,200/day",
+          "cta": "Limited Service"
+        }
+      },
+      "finalCta": {
+        "title": "Experience True Luxury with Rolls-Royce Dubai",
+        "subtitle": "Don't settle for ordinary. Choose Rolls-Royce for your special occasions, corporate events, and VIP experiences in Dubai.",
+        "offer": "Special Offer: Book 3+ Days and Get 10% Off",
+        "callNow": "Call Now for Instant Booking",
+        "viewFleet": "View Rolls-Royce Fleet",
+        "bookNow": "Book Your Rolls-Royce"
       }
     },
     "rolls-royce-vs-ferrari": {
@@ -384,7 +722,13 @@
         "title": "Rolls-Royce vs Ferrari Rental in Dubai",
         "subtitle": "Discover why Rolls-Royce is the intelligent choice for luxury car rental in Dubai",
         "bookRollsRoyce": "Book Rolls-Royce Now",
-        "seeComparison": "See Full Comparison"
+        "seeComparison": "See Full Comparison",
+        "stats": {
+          "satisfaction": "Client Satisfaction",
+          "moreValue": "More Value",
+          "fullService": "Full Service",
+          "allInclusive": "All Inclusive"
+        }
       },
       "aspects": {
         "rental": {
@@ -408,29 +752,330 @@
       },
       "winner": {
         "title": "Why Smart Clients Choose Rolls-Royce",
-        "subtitle": "The numbers speak for themselves - Rolls-Royce delivers superior value, comfort, and prestige"
+        "subtitle": "The numbers speak for themselves - Rolls-Royce delivers superior value, comfort, and prestige",
+        "value": {
+          "title": "Better Value",
+          "description": "All-inclusive pricing saves you AED 2,000+ per day compared to Ferrari when including fuel, insurance, and chauffeur costs.",
+          "points": [
+            "Free chauffeur (worth AED 800/day)",
+            "Free fuel (worth AED 500/day)",
+            "Full insurance included",
+            "No hidden charges"
+          ]
+        },
+        "experience": {
+          "title": "Superior Experience",
+          "description": "Rolls-Royce provides a complete luxury experience, not just a car rental. Perfect for business and pleasure.",
+          "points": [
+            "Seats up to 5 passengers",
+            "Silent cabin for calls",
+            "Ample luggage space",
+            "All-weather comfort"
+          ]
+        },
+        "service": {
+          "title": "Unmatched Service",
+          "description": "Our white-glove service ensures every journey exceeds expectations with personalized attention to detail.",
+          "points": [
+            "24/7 concierge support",
+            "Airport meet & greet",
+            "Flexible rental terms",
+            "VIP treatment always"
+          ]
+        }
       },
       "detailed": {
-        "comparison": "Comparison"
+        "comparison": "Comparison",
+        "recommended": "RECOMMENDED",
+        "limited": "LIMITED"
       },
       "packages": {
         "title": "Rental Packages - The Real Cost",
         "summary": "Save up to 40% with Rolls-Royce all-inclusive rental",
-        "cta": "Book Smart - Choose Rolls-Royce"
+        "cta": "Book Smart - Choose Rolls-Royce",
+        "bestValue": "BEST VALUE",
+        "extras": "+ EXTRAS",
+        "rateLabel": {
+          "daily": "Daily Rate",
+          "weekly": "Weekly Rate",
+          "monthly": "Monthly Rate"
+        },
+        "allInclusive": "All Inclusive",
+        "additionalCosts": "Additional Costs:",
+        "totalValueLabel": "Total Value:",
+        "realCostLabel": "Real Cost:",
+        "rollsRoyce": {
+          "daily": {
+            "includes": [
+              "Professional chauffeur",
+              "Unlimited local mileage",
+              "Complimentary fuel",
+              "Comprehensive insurance",
+              "Airport transfers",
+              "24/7 support"
+            ]
+          },
+          "weekly": {
+            "includes": [
+              "All daily benefits",
+              "1 free extra day",
+              "VIP event access",
+              "Personal concierge",
+              "Luxury hotel partnerships",
+              "Complimentary car wash"
+            ]
+          },
+          "monthly": {
+            "includes": [
+              "All weekly benefits",
+              "Dedicated account manager",
+              "Vehicle replacement option",
+              "Custom branding available",
+              "Corporate billing",
+              "Exclusive member events"
+            ]
+          }
+        },
+        "ferrari": {
+          "daily": {
+            "excludes": [
+              "Chauffeur (not available)",
+              "Fuel (AED 500-800/day)",
+              "Full insurance (AED 1,000/day)",
+              "Delivery (AED 500)",
+              "Excess mileage (AED 10/km)",
+              "Security deposit (AED 20,000)"
+            ]
+          },
+          "weekly": {
+            "excludes": [
+              "All daily exclusions",
+              "No loyalty benefits",
+              "Limited support hours",
+              "Weather restrictions",
+              "Maintenance downtime",
+              "No replacement vehicle"
+            ]
+          },
+          "monthly": {
+            "excludes": [
+              "All weekly exclusions",
+              "High wear and tear risk",
+              "No corporate benefits",
+              "Limited availability",
+              "Strict usage terms",
+              "No customization"
+            ]
+          }
+        }
       },
       "testimonials": {
-        "title": "What Our Clients Say"
+        "title": "What Our Clients Say",
+        "list": [
+          {
+            "name": "Ahmed Al Rashid",
+            "position": "CEO, Dubai Holdings",
+            "text": "For business in Dubai, nothing compares to the Rolls-Royce experience. The chauffeur service allows me to work during transit, and the prestige it brings to corporate meetings is invaluable."
+          },
+          {
+            "name": "Princess Fatima",
+            "position": "Royal Family Member",
+            "text": "We exclusively use Rolls-Royce for all our official engagements. The comfort, privacy, and reliability are unmatched. Ferrari simply cannot provide the dignity required for formal occasions."
+          },
+          {
+            "name": "Viktor Petrov",
+            "position": "Luxury Real Estate Developer",
+            "text": "I tried Ferrari rental once - the hidden costs and impracticality were shocking. Rolls-Royce includes everything and actually costs less when you factor in all services. It's a smart business choice."
+          }
+        ]
       },
       "finalCta": {
         "title": "The Smart Choice is Clear",
         "message": "Join thousands of satisfied clients who choose Rolls-Royce for the ultimate luxury rental experience in Dubai.",
         "bookNow": "Reserve Your Rolls-Royce",
         "viewFleet": "View Our Fleet",
-        "urgency": "⏰ Limited availability - Book now to secure your dates"
+        "urgency": "⏰ Limited availability - Book now to secure your dates",
+        "rollsRoyce": {
+          "label": "Rolls-Royce",
+          "points": [
+            "All-inclusive luxury",
+            "Professional chauffeur",
+            "Perfect for all occasions",
+            "Superior comfort",
+            "Best overall value"
+          ]
+        },
+        "ferrari": {
+          "label": "Ferrari",
+          "points": [
+            "Hidden extra costs",
+            "Self-drive only",
+            "Limited practicality",
+            "Uncomfortable",
+            "Higher total cost"
+          ]
+        }
       },
       "contact": {
         "title": "Ready to Experience True Luxury?",
-        "subtitle": "Our team is available 24/7 to assist you"
+        "subtitle": "Our team is available 24/7 to assist you",
+        "whatsapp": "WhatsApp Now"
+      },
+      "rental": {
+        "rolls-royce": {
+          "title": "Premium Rental Excellence",
+          "points": [
+            "Professional chauffeur included at no extra cost",
+            "Complimentary fuel for all rental periods",
+            "Free airport transfers and meet & greet service",
+            "Flexible rental terms from 4 hours to monthly",
+            "24/7 concierge support in multiple languages",
+            "Comprehensive insurance with zero deductible"
+          ],
+          "summary": "Rolls-Royce rental offers an unmatched luxury experience with complete peace of mind and exceptional value for discerning clients."
+        },
+        "ferrari": {
+          "title": "Performance Rental",
+          "points": [
+            "Self-drive only (special license required)",
+            "Fuel costs not included",
+            "Limited daily mileage allowance",
+            "High security deposit required",
+            "Basic insurance with high deductible",
+            "Additional fees for delivery/collection"
+          ],
+          "summary": "Ferrari rental focuses on the driving experience but comes with additional costs and restrictions."
+        }
+      },
+      "comfort": {
+        "rolls-royce": {
+          "title": "Ultimate Comfort",
+          "points": [
+            "Spacious cabin for up to 5 passengers",
+            "Whisper-quiet interior ideal for business calls",
+            "Massage seats with climate control",
+            "Privacy glass and partition available",
+            "Premium entertainment system",
+            "Ample luggage space for shopping and travel"
+          ],
+          "summary": "Rolls-Royce provides a serene sanctuary perfect for Dubai's climate and lifestyle, ensuring arrival in absolute comfort."
+        },
+        "ferrari": {
+          "title": "Sport-Focused Interior",
+          "points": [
+            "Limited to 2 passengers only",
+            "Engine noise dominates the cabin",
+            "Racing seats less comfortable for long trips",
+            "Minimal luggage space",
+            "Limited visibility",
+            "Harsh suspension on city roads"
+          ],
+          "summary": "Ferrari prioritizes performance over comfort, which can be challenging for extended use in Dubai traffic."
+        }
+      },
+      "occasion": {
+        "rolls-royce": {
+          "title": "Perfect for Every Occasion",
+          "points": [
+            "Weddings and special celebrations",
+            "Corporate events and business meetings",
+            "Airport transfers for VIP guests",
+            "Shopping trips to Dubai Mall and Mall of Emirates",
+            "Fine dining experiences at luxury hotels",
+            "Royal protocol events and diplomatic occasions"
+          ],
+          "summary": "Rolls-Royce is the versatile choice that elevates any occasion with unmatched prestige and elegance."
+        },
+        "ferrari": {
+          "title": "Limited Use Cases",
+          "points": [
+            "Weekend joy rides only",
+            "Not suitable for formal events",
+            "Impractical for business meetings",
+            "Cannot accommodate groups",
+            "Uncomfortable in traffic",
+            "Weather-dependent experience"
+          ],
+          "summary": "Ferrari rental is limited to recreational driving and lacks the versatility needed for most luxury occasions."
+        }
+      },
+      "service": {
+        "rolls-royce": {
+          "title": "White Glove Service",
+          "points": [
+            "Dedicated account manager for personalized service",
+            "Complimentary vehicle swap if needed",
+            "Red carpet arrival service available",
+            "Refreshments and amenities included",
+            "Child seats and special requests accommodated",
+            "Multilingual chauffeurs with local expertise"
+          ],
+          "summary": "Our Rolls-Royce service exceeds expectations with attention to every detail and genuine care for client comfort."
+        },
+        "ferrari": {
+          "title": "Basic Rental Service",
+          "points": [
+            "Standard rental counter service",
+            "Limited support hours",
+            "No chauffeur option available",
+            "Extra charges for most services",
+            "Strict terms and conditions",
+            "Limited flexibility for changes"
+          ],
+          "summary": "Ferrari rental offers basic service focused on the car rather than the complete client experience."
+        }
+      },
+      "value": {
+        "rolls-royce": {
+          "title": "Exceptional Value",
+          "points": [
+            "All-inclusive pricing with no hidden costs",
+            "Chauffeur service saves on driver costs",
+            "Fuel included saves AED 500-1000 per day",
+            "Free delivery saves AED 300-500",
+            "Comprehensive insurance provides peace of mind",
+            "Loyalty program with exclusive benefits"
+          ],
+          "summary": "When considering all included services, Rolls-Royce rental offers superior value and worry-free luxury."
+        },
+        "ferrari": {
+          "title": "Hidden Costs",
+          "points": [
+            "Base price excludes many essentials",
+            "Fuel costs add significant expense",
+            "High insurance deductible risk",
+            "Delivery and collection fees",
+            "Excess mileage charges",
+            "Expensive damage liability"
+          ],
+          "summary": "Ferrari's apparent rental rate becomes much higher when all additional costs are considered."
+        }
+      },
+      "experience": {
+        "rolls-royce": {
+          "title": "The Dubai Lifestyle Choice",
+          "points": [
+            "Arrive at Burj Al Arab in ultimate style",
+            "Perfect for Dubai's luxury shopping destinations",
+            "Ideal for business in DIFC and Downtown",
+            "Comfortable in all weather conditions",
+            "Prestigious presence at exclusive venues",
+            "Networking opportunities with elite clientele"
+          ],
+          "summary": "Rolls-Royce rental perfectly complements Dubai's luxury lifestyle and opens doors to exclusive experiences."
+        },
+        "ferrari": {
+          "title": "Limited Dubai Compatibility",
+          "points": [
+            "Uncomfortable in summer heat",
+            "Impractical for most Dubai venues",
+            "Attracts unwanted attention",
+            "Challenging in heavy traffic",
+            "Limited parking options",
+            "Not suitable for family outings"
+          ],
+          "summary": "Ferrari's limitations become apparent in Dubai's daily luxury lifestyle requirements."
+        }
       }
     }
   }

@@ -34,39 +34,6 @@ export default function ComparePage() {
         return String(item)
       })
     }
-    // Fallback highlights
-    if (comparisonId === 'rolls-royce-vs-bentley') {
-      return [
-        'Heritage & craftsmanship comparison',
-        'Performance philosophy differences',
-        'Customization options analysis',
-        'Investment value assessment'
-      ]
-    }
-    if (comparisonId === 'rolls-royce-vs-ferrari') {
-      return [
-        'Comfort vs speed priorities',
-        'Brand prestige comparison',
-        'Driving experience analysis',
-        'Ownership experience differences'
-      ]
-    }
-    if (comparisonId === 'rolls-royce-vs-mercedes') {
-      return [
-        'Technology integration comparison',
-        'Build quality assessment',
-        'Luxury features analysis',
-        'Service & maintenance comparison'
-      ]
-    }
-    if (comparisonId === 'phantom-vs-maybach') {
-      return [
-        'Interior opulence comparison',
-        'Ride quality assessment',
-        'Exclusivity factor analysis',
-        'Price-to-value ratio'
-      ]
-    }
     return []
   }
 

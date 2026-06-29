@@ -196,6 +196,30 @@
           "partnership": "Partnership Package"
         },
         "submitInquiry": "Submit Inquiry"
+      },
+      "packageDetails": {
+        "featuresIncluded": "Features Included:",
+        "details": "Package Details:",
+        "availableVehicles": "Available Vehicles:",
+        "startingFrom": "Starting From:"
+      },
+      "recommendedModels": {
+        "title": "Recommended Corporate Vehicles",
+        "subtitle": "Our top picks for executive and business use",
+        "models": {
+          "ghost": "Our #1 corporate choice. Understated elegance with Planar suspension — perfect for daily executive transport in DIFC.",
+          "phantom": "The flagship for VIP client entertainment and board-level transport. Extended Wheelbase for maximum rear comfort.",
+          "spectre": "Zero-emission luxury. Silent electric performance for environmentally conscious corporate clients."
+        }
+      },
+      "moreServices": {
+        "title": "Explore More Services",
+        "links": {
+          "chauffeur": "Chauffeur Service",
+          "airportTransfer": "Airport Transfer",
+          "events": "Events & Galas",
+          "wedding": "Wedding Service"
+        }
       }
     }
   }

@@ -208,6 +208,24 @@
           "satisfaction": "Multi-Car Fleet",
           "support": "24/7 Event Support"
         }
+      },
+      "recommendedModels": {
+        "title": "Best Models for Events",
+        "subtitle": "Make a statement at your next event",
+        "models": {
+          "phantom": "The ultimate red carpet car. Commanding presence and Starlight Headliner for VIP galas and premieres.",
+          "wraith": "Dramatic fastback silhouette. The most powerful Rolls-Royce makes a bold statement at any event.",
+          "spectre": "The future of luxury. Arrive in the world's first ultra-luxury electric car — a true conversation starter."
+        }
+      },
+      "moreServices": {
+        "title": "Explore More Services",
+        "links": {
+          "wedding": "Wedding Service",
+          "corporate": "Corporate Service",
+          "photoshoot": "Photoshoot",
+          "chauffeur": "Chauffeur Service"
+        }
       }
     }
   }

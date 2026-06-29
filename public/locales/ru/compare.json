@@ -384,5 +384,20 @@
       "viewFleet": "Посмотреть автопарк Rolls-Royce",
       "bookNow": "Забронировать ваш Rolls-Royce"
     }
+  },
+  "gallery": {
+    "title": "Визуальное сравнение",
+    "phantom_desc": "Роскошь удлинённой колёсной базы",
+    "maybach_desc": "Высшая альтернатива внедорожнику",
+    "phantom_interior": "Салон Phantom",
+    "phantom_interior_desc": "Британское совершенство ручной работы",
+    "luxury_interior": "Роскошь в чистом виде",
+    "luxury_interior_desc": "Где комфорт встречает технологии"
+  },
+  "quickStats": {
+    "phantom_power": "Мощность Phantom",
+    "maybach_power": "Мощность Maybach",
+    "phantom_length": "Длина Phantom",
+    "maybach_length": "Длина Maybach"
   }
 }

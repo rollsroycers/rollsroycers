@@ -253,7 +253,7 @@ export default function ToursServicePage() {
             </div>
             <div className="text-center mt-12">
               <Link href="/booking" className="btn-secondary">
-                Design Custom Tour
+                {t('servicesPages.tours.cta.designCustomTour')}
               </Link>
             </div>
           </div>
@@ -408,15 +408,15 @@ export default function ToursServicePage() {
                   rel="noopener noreferrer"
                   className="btn-secondary"
                 >
-                  WhatsApp Inquiry
+                  {t('servicesPages.tours.cta.whatsappInquiry')}
                 </a>
               </div>
               
               <div className="mt-12 bg-rolls-black/50 backdrop-blur-sm border border-rolls-gold/20 rounded-lg p-8 max-w-2xl mx-auto">
-                <h3 className="text-2xl font-bold text-white mb-4">Special Offer</h3>
+                <h3 className="text-2xl font-bold text-white mb-4">{t('servicesPages.tours.cta.specialOfferTitle')}</h3>
                 <p className="text-rolls-gold text-xl mb-2">{t('servicesPages.tours.cta.specialOffer')}</p>
                 <p className="text-gray-300">{t('servicesPages.tours.cta.subtitle')}</p>
-                <p className="text-gray-400 text-sm mt-4">Terms and conditions apply</p>
+                <p className="text-gray-400 text-sm mt-4">{t('servicesPages.tours.cta.termsApply')}</p>
               </div>
             </motion.div>
           </div>
@@ -425,31 +425,31 @@ export default function ToursServicePage() {
         {/* Recommended Models & Related Services */}
         <section className="py-20 bg-rolls-black">
           <div className="container mx-auto px-4">
-            <h2 className="text-3xl font-bold text-white text-center mb-4">Best Models for Dubai Tours</h2>
-            <p className="text-rolls-gold/70 text-center mb-12">Choose your touring companion</p>
+            <h2 className="text-3xl font-bold text-white text-center mb-4">{t('servicesPages.tours.recommendedModels.title')}</h2>
+            <p className="text-rolls-gold/70 text-center mb-12">{t('servicesPages.tours.recommendedModels.subtitle')}</p>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-16">
               {[
-                { href: '/fleet/cullinan', name: 'Cullinan', desc: 'Our #1 tour vehicle. All-terrain SUV capability for city tours and desert excursions with 7 seats of comfort.', price: 'From AED 6,500/day' },
-                { href: '/fleet/dawn', name: 'Dawn', desc: 'Open-top touring at its finest. Cruise Palm Jumeirah and Dubai Marina with the wind in your hair.', price: 'From AED 5,500/day' },
-                { href: '/fleet/ghost', name: 'Ghost', desc: 'Smooth and serene city touring. The Planar suspension makes even the longest routes feel effortless.', price: 'From AED 3,800/day' },
+                { href: '/fleet/cullinan', name: 'Cullinan', id: 'cullinan', price: 'From AED 6,500/day' },
+                { href: '/fleet/dawn', name: 'Dawn', id: 'dawn', price: 'From AED 5,500/day' },
+                { href: '/fleet/ghost', name: 'Ghost', id: 'ghost', price: 'From AED 3,800/day' },
               ].map((model) => (
                 <Link key={model.href} href={model.href} className="group bg-white/5 border border-white/10 rounded-xl p-6 hover:border-rolls-gold/50 transition-all duration-300">
                   <h3 className="text-lg font-semibold text-white group-hover:text-rolls-gold transition-colors mb-2">{model.name}</h3>
-                  <p className="text-gray-400 text-sm mb-3">{model.desc}</p>
+                  <p className="text-gray-400 text-sm mb-3">{t(`servicesPages.tours.recommendedModels.models.${model.id}`)}</p>
                   <p className="text-rolls-gold font-semibold text-sm">{model.price}</p>
                 </Link>
               ))}
             </div>
-            <h3 className="text-2xl font-bold text-white text-center mb-8">Explore More Services</h3>
+            <h3 className="text-2xl font-bold text-white text-center mb-8">{t('servicesPages.tours.moreServices.title')}</h3>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
               {[
-                { href: '/services/chauffeur', name: 'Chauffeur Service' },
-                { href: '/services/airport-transfer', name: 'Airport Transfer' },
-                { href: '/services/photoshoot', name: 'Photoshoot' },
-                { href: '/services/events', name: 'Events & Galas' },
+                { href: '/services/chauffeur', id: 'chauffeur' },
+                { href: '/services/airport-transfer', id: 'airportTransfer' },
+                { href: '/services/photoshoot', id: 'photoshoot' },
+                { href: '/services/events', id: 'events' },
               ].map((s) => (
                 <Link key={s.href} href={s.href} className="group text-center bg-white/5 border border-white/10 rounded-lg p-4 hover:border-rolls-gold/50 transition-all">
-                  <p className="text-white font-semibold group-hover:text-rolls-gold transition-colors">{s.name}</p>
+                  <p className="text-white font-semibold group-hover:text-rolls-gold transition-colors">{t(`servicesPages.tours.moreServices.links.${s.id}`)}</p>
                 </Link>
               ))}
             </div>

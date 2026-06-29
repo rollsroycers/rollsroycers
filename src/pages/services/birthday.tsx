@@ -37,7 +37,7 @@ export default function BirthdayServicePage() {
     {
       name: t('birthdayPage.packages.platinum.name'),
       duration: t('birthdayPage.packages.platinum.duration'),
-      vehicles: ['Full Fleet Available'],
+      vehicles: [t('birthdayPage.packages.fullFleet')],
       features: platinumFeatures,
       price: t('birthdayPage.packages.platinum.price')
     }
@@ -211,10 +211,10 @@ export default function BirthdayServicePage() {
             <h3 className="text-2xl font-bold text-white text-center mb-8">{t('birthdayPage.relatedServices')}</h3>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
               {[
-                { href: '/services/photoshoot', name: 'Photoshoot' },
-                { href: '/services/tours', name: 'Dubai Tours' },
-                { href: '/services/events', name: 'Events & Galas' },
-                { href: '/services/wedding', name: 'Wedding Service' },
+                { href: '/services/photoshoot', name: t('birthdayPage.relatedServicesItems.photoshoot') },
+                { href: '/services/tours', name: t('birthdayPage.relatedServicesItems.tours') },
+                { href: '/services/events', name: t('birthdayPage.relatedServicesItems.events') },
+                { href: '/services/wedding', name: t('birthdayPage.relatedServicesItems.wedding') },
               ].map((s) => (
                 <Link key={s.href} href={s.href} className="group text-center bg-white/5 border border-white/10 rounded-lg p-4 hover:border-rolls-gold/50 transition-all">
                   <p className="text-white font-semibold group-hover:text-rolls-gold transition-colors">{s.name}</p>

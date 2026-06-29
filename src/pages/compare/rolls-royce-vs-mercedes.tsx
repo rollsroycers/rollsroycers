@@ -42,134 +42,74 @@ export default function RollsRoyceVsMercedesPage() {
   const comparisonData = {
     overview: {
       'rolls-royce': {
-        title: t('compare.mercedes.overview.rolls-royce.title', 'The Epitome of Bespoke Luxury'),
-        points: getTranslatedArray('compare.mercedes.overview.rolls-royce.points', [
-          'Handcrafted excellence with unlimited customization',
-          'The most prestigious automotive brand in the world',
-          'Unmatched ride quality with Magic Carpet Ride',
-          'Symbol of ultimate success and achievement'
-        ]),
-        summary: t('compare.mercedes.overview.rolls-royce.summary', 'Rolls-Royce stands alone at the pinnacle of automotive luxury.')
+        title: t('compare.mercedes.overview.rolls-royce.title'),
+        points: getTranslatedArray('compare.mercedes.overview.rolls-royce.points', []),
+        summary: t('compare.mercedes.overview.rolls-royce.summary')
       },
       'mercedes': {
-        title: t('compare.mercedes.overview.mercedes.title', 'Pioneering Luxury Innovation'),
-        points: getTranslatedArray('compare.mercedes.overview.mercedes.points', [
-          'Advanced technology integrated with refined luxury',
-          'Broader model range from executive to ultra-luxury',
-          'Industry-leading safety and innovation features',
-          'Perfect balance of performance and comfort'
-        ]),
-        summary: t('compare.mercedes.overview.mercedes.summary', 'Mercedes-Benz combines German engineering with modern luxury.')
+        title: t('compare.mercedes.overview.mercedes.title'),
+        points: getTranslatedArray('compare.mercedes.overview.mercedes.points', []),
+        summary: t('compare.mercedes.overview.mercedes.summary')
       }
     },
     luxury: {
       'rolls-royce': {
-        title: t('compare.mercedes.luxury.rolls-royce.title', 'Artisanal Craftsmanship'),
-        points: getTranslatedArray('compare.mercedes.luxury.rolls-royce.points', [
-          'Hand-stitched leather from exclusive European tanneries',
-          'Starlight headliner with up to 1,600 fiber optic lights',
-          'Bespoke wood veneers matched from single trees',
-          'Gallery feature transforming dashboard into art space'
-        ]),
-        summary: t('compare.mercedes.luxury.rolls-royce.summary', 'Every Rolls-Royce interior is a bespoke masterpiece.')
+        title: t('compare.mercedes.luxury.rolls-royce.title'),
+        points: getTranslatedArray('compare.mercedes.luxury.rolls-royce.points', []),
+        summary: t('compare.mercedes.luxury.rolls-royce.summary')
       },
       'mercedes': {
-        title: t('compare.mercedes.luxury.mercedes.title', 'Modern Sophisticated Luxury'),
-        points: getTranslatedArray('compare.mercedes.luxury.mercedes.points', [
-          'MBUX interior assistant with gesture control',
-          'Energizing comfort with massage and aromatherapy',
-          'Burmester 4D surround sound systems',
-          'Executive rear seat package with reclining seats'
-        ]),
-        summary: t('compare.mercedes.luxury.mercedes.summary', 'Mercedes-Benz delivers cutting-edge luxury with advanced technology.')
+        title: t('compare.mercedes.luxury.mercedes.title'),
+        points: getTranslatedArray('compare.mercedes.luxury.mercedes.points', []),
+        summary: t('compare.mercedes.luxury.mercedes.summary')
       }
     },
     performance: {
       'rolls-royce': {
-        title: t('compare.mercedes.performance.rolls-royce.title', 'Effortless Waftability'),
-        points: getTranslatedArray('compare.mercedes.performance.rolls-royce.points', [
-          'Twin-turbo V12 engines with seamless power delivery',
-          'Focus on silence and smoothness over speed',
-          'Satellite Aided Transmission for predictive gear changes',
-          'Air suspension with road-scanning technology'
-        ]),
-        summary: t('compare.mercedes.performance.rolls-royce.summary', 'Rolls-Royce prioritizes serene, effortless progress.')
+        title: t('compare.mercedes.performance.rolls-royce.title'),
+        points: getTranslatedArray('compare.mercedes.performance.rolls-royce.points', []),
+        summary: t('compare.mercedes.performance.rolls-royce.summary')
       },
       'mercedes': {
-        title: t('compare.mercedes.performance.mercedes.title', 'Dynamic Performance Excellence'),
-        points: getTranslatedArray('compare.mercedes.performance.mercedes.points', [
-          'AMG variants with exceptional performance capabilities',
-          'EQ Boost mild hybrid technology for efficiency',
-          '4MATIC all-wheel drive for superior traction',
-          'Multiple driving modes from comfort to sport+'
-        ]),
-        summary: t('compare.mercedes.performance.mercedes.summary', 'Mercedes-Benz offers versatile performance options.')
+        title: t('compare.mercedes.performance.mercedes.title'),
+        points: getTranslatedArray('compare.mercedes.performance.mercedes.points', []),
+        summary: t('compare.mercedes.performance.mercedes.summary')
       }
     },
     technology: {
       'rolls-royce': {
-        title: t('compare.mercedes.technology.rolls-royce.title', 'Discreet Innovation'),
-        points: getTranslatedArray('compare.mercedes.technology.rolls-royce.points', [
-          'Technology seamlessly integrated behind classic design',
-          'Bespoke audio system individually tuned to each car',
-          'Night vision with wildlife and pedestrian warning',
-          'Spirit of Ecstasy retracts automatically for security'
-        ]),
-        summary: t('compare.mercedes.technology.rolls-royce.summary', 'Rolls-Royce integrates technology invisibly.')
+        title: t('compare.mercedes.technology.rolls-royce.title'),
+        points: getTranslatedArray('compare.mercedes.technology.rolls-royce.points', []),
+        summary: t('compare.mercedes.technology.rolls-royce.summary')
       },
       'mercedes': {
-        title: t('compare.mercedes.technology.mercedes.title', 'Technological Leadership'),
-        points: getTranslatedArray('compare.mercedes.technology.mercedes.points', [
-          'MBUX Hyperscreen with AI-powered personalization',
-          'Level 3 autonomous driving capabilities',
-          'Augmented reality navigation display',
-          'Over-the-air updates for continuous improvement'
-        ]),
-        summary: t('compare.mercedes.technology.mercedes.summary', 'Mercedes-Benz leads automotive technology innovation.')
+        title: t('compare.mercedes.technology.mercedes.title'),
+        points: getTranslatedArray('compare.mercedes.technology.mercedes.points', []),
+        summary: t('compare.mercedes.technology.mercedes.summary')
       }
     },
     heritage: {
       'rolls-royce': {
-        title: t('compare.mercedes.heritage.rolls-royce.title', '120 Years of Perfection'),
-        points: getTranslatedArray('compare.mercedes.heritage.rolls-royce.points', [
-          'Founded in 1904 with commitment to excellence',
-          'Provider to royalty and world leaders',
-          'Spirit of Ecstasy - most iconic automotive symbol',
-          'Each car still hand-built in Goodwood, England'
-        ]),
-        summary: t('compare.mercedes.heritage.rolls-royce.summary', 'Rolls-Royce represents an unbroken tradition of excellence.')
+        title: t('compare.mercedes.heritage.rolls-royce.title'),
+        points: getTranslatedArray('compare.mercedes.heritage.rolls-royce.points', []),
+        summary: t('compare.mercedes.heritage.rolls-royce.summary')
       },
       'mercedes': {
-        title: t('compare.mercedes.heritage.mercedes.title', 'Inventor of the Automobile'),
-        points: getTranslatedArray('compare.mercedes.heritage.mercedes.points', [
-          'Karl Benz created the first automobile in 1886',
-          'Pioneered countless automotive innovations',
-          'Three-pointed star symbolizes universal motorization',
-          'Consistent Formula 1 dominance showcasing excellence'
-        ]),
-        summary: t('compare.mercedes.heritage.mercedes.summary', 'Mercedes-Benz invented the automobile and continues to shape its future.')
+        title: t('compare.mercedes.heritage.mercedes.title'),
+        points: getTranslatedArray('compare.mercedes.heritage.mercedes.points', []),
+        summary: t('compare.mercedes.heritage.mercedes.summary')
       }
     },
     rental: {
       'rolls-royce': {
-        title: t('compare.mercedes.rental.rolls-royce.title', 'Ultimate Rental Experience'),
-        points: getTranslatedArray('compare.mercedes.rental.rolls-royce.points', [
-          'Professional chauffeur included with every rental',
-          'Daily rates from AED 3,500 with all-inclusive service',
-          'Complimentary fuel, insurance, and 24/7 concierge',
-          'Perfect for weddings, corporate events, and VIP occasions'
-        ]),
-        summary: t('compare.mercedes.rental.rolls-royce.summary', 'Rolls-Royce rental offers an unmatched luxury experience with complete white-glove service.')
+        title: t('compare.mercedes.rental.rolls-royce.title'),
+        points: getTranslatedArray('compare.mercedes.rental.rolls-royce.points', []),
+        summary: t('compare.mercedes.rental.rolls-royce.summary')
       },
       'mercedes': {
-        title: t('compare.mercedes.rental.mercedes.title', 'Standard Luxury Rental'),
-        points: getTranslatedArray('compare.mercedes.rental.mercedes.points', [
-          'Self-drive options from AED 1,200 per day',
-          'Basic insurance coverage included',
-          'Limited chauffeur availability',
-          'Suitable for business meetings and airport transfers'
-        ]),
-        summary: t('compare.mercedes.rental.mercedes.summary', 'Mercedes rental provides good value but lacks the exclusive services of Rolls-Royce.')
+        title: t('compare.mercedes.rental.mercedes.title'),
+        points: getTranslatedArray('compare.mercedes.rental.mercedes.points', []),
+        summary: t('compare.mercedes.rental.mercedes.summary')
       }
     }
   }

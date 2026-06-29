@@ -19,9 +19,9 @@ export default function PricingPage() {
   const [showCalculator, setShowCalculator] = useState(false)
 
   const durations = [
-    { id: 'daily', name: 'Daily Rates', multiplier: 1 },
-    { id: 'weekly', name: 'Weekly Rates', multiplier: 6, discount: '15% OFF' },
-    { id: 'monthly', name: 'Monthly Rates', multiplier: 20, discount: '30% OFF' }
+    { id: 'daily', name: t('pricingPage.durationSelector.daily'), multiplier: 1 },
+    { id: 'weekly', name: t('pricingPage.durationSelector.weekly'), multiplier: 6, discount: t('pricingPage.durationSelector.weeklyDiscount') },
+    { id: 'monthly', name: t('pricingPage.durationSelector.monthly'), multiplier: 20, discount: t('pricingPage.durationSelector.monthlyDiscount') }
   ]
 
   const vehiclePricing = [
@@ -252,6 +252,11 @@ export default function PricingPage() {
     }
   ]
 
+  const vehKeys = ['phantom', 'ghost', 'cullinan', 'dawn', 'wraith', 'spectre', 'ghostBlackBadge', 'cullinanBlackBadge']
+  const svcKeys = ['chauffeur', 'airport', 'wedding', 'hourly', 'mileage', 'delivery']
+  const pkgKeys = ['executive', 'chairman', 'enterprise']
+  const seasonKeys = ['peak', 'ramadan', 'summer', 'events']
+
   return (
     <>
       <SEO pageKey="other.pricing" />
@@ -353,7 +358,7 @@ export default function PricingPage() {
                 >
                   {vehicle.popular && (
                     <div className="absolute top-0 right-0 bg-rolls-gold text-rolls-black px-4 py-1 rounded-bl-lg font-semibold z-10">
-                      MOST POPULAR
+                      {t('pricingPage.vehiclePricing.labels.mostPopular')}
                     </div>
                   )}
                   
@@ -369,21 +374,21 @@ export default function PricingPage() {
                   
                   <div className="p-6">
                     <h3 className="text-2xl font-bold text-white mb-2">{vehicle.model}</h3>
-                    <p className="text-gray-400 mb-4">{vehicle.tagline}</p>
+                    <p className="text-gray-400 mb-4">{t(`pricingPage.vehiclePricing.${vehKeys[index]}.tagline`)}</p>
                     
                     <div className="mb-6">
                       <p className="text-4xl font-bold text-rolls-gold">
                         AED {vehicle.prices[selectedDuration as keyof typeof vehicle.prices].toLocaleString()}
                       </p>
                       <p className="text-gray-400">
-                        {selectedDuration === 'daily' ? 'per day' : 
-                         selectedDuration === 'weekly' ? 'per week' : 
-                         'per month'}
+                        {selectedDuration === 'daily' ? t('pricingPage.vehiclePricing.labels.perDay') :
+                         selectedDuration === 'weekly' ? t('pricingPage.vehiclePricing.labels.perWeek') :
+                         t('pricingPage.vehiclePricing.labels.perMonth')}
                       </p>
                     </div>
                     
                     <ul className="space-y-2 mb-6">
-                      {vehicle.features.map((feature, idx) => (
+                      {(t(`pricingPage.vehiclePricing.${vehKeys[index]}.features`, { returnObjects: true }) as string[]).map((feature, idx) => (
                         <li key={idx} className="flex items-center text-gray-300 text-sm">
                           <svg className="w-4 h-4 text-rolls-gold mr-2" fill="currentColor" viewBox="0 0 20 20">
                             <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
@@ -394,7 +399,7 @@ export default function PricingPage() {
                     </ul>
                     
                     <Link href={`/fleet/${vehicle.model.toLowerCase()}`} className="btn-primary w-full text-center">
-                      View {vehicle.model} Details & Book Now
+                      {`${vehicle.model} `}{t('pricingPage.vehiclePricing.labels.viewDetailsBook')}
                     </Link>
                   </div>
                 </motion.div>
@@ -418,9 +423,9 @@ export default function PricingPage() {
                   transition={{ delay: index * 0.05 }}
                   className="bg-rolls-black/30 border border-rolls-gold/10 rounded-lg p-6"
                 >
-                  <h3 className="text-lg font-semibold text-white mb-2">{service.service}</h3>
-                  <p className="text-2xl font-bold text-rolls-gold mb-2">{service.price}</p>
-                  <p className="text-gray-400 text-sm">{service.description}</p>
+                  <h3 className="text-lg font-semibold text-white mb-2">{t(`pricingPage.additionalServices.services.${svcKeys[index]}.name`)}</h3>
+                  <p className="text-2xl font-bold text-rolls-gold mb-2">{t(`pricingPage.additionalServices.services.${svcKeys[index]}.price`)}</p>
+                  <p className="text-gray-400 text-sm">{t(`pricingPage.additionalServices.services.${svcKeys[index]}.description`)}</p>
                 </motion.div>
               ))}
             </div>
@@ -446,13 +451,13 @@ export default function PricingPage() {
                 >
                   {index === 1 && (
                     <div className="absolute -top-4 left-1/2 transform -translate-x-1/2 bg-rolls-gold text-rolls-black px-4 py-1 rounded-full text-sm font-bold">
-                      RECOMMENDED
+                      {t('pricingPage.corporatePackages.recommended')}
                     </div>
                   )}
-                  <h3 className="text-2xl font-bold text-white mb-4">{pkg.name}</h3>
-                  <p className="text-3xl font-bold text-rolls-gold mb-6">{pkg.price}</p>
+                  <h3 className="text-2xl font-bold text-white mb-4">{t(`pricingPage.corporatePackages.packages.${pkgKeys[index]}.name`)}</h3>
+                  <p className="text-3xl font-bold text-rolls-gold mb-6">{t(`pricingPage.corporatePackages.packages.${pkgKeys[index]}.price`)}</p>
                   <ul className="space-y-3 mb-8 text-left">
-                    {pkg.features.map((feature, idx) => (
+                    {(t(`pricingPage.corporatePackages.packages.${pkgKeys[index]}.features`, { returnObjects: true }) as string[]).map((feature, idx) => (
                       <li key={idx} className="flex items-center text-gray-300">
                         <svg className="w-5 h-5 text-rolls-gold mr-3 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
                           <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
@@ -481,15 +486,15 @@ export default function PricingPage() {
                 <table className="w-full">
                   <thead>
                     <tr className="bg-rolls-gold/10">
-                      <th className="px-6 py-4 text-left text-white font-semibold">Season/Event</th>
-                      <th className="px-6 py-4 text-center text-white font-semibold">Price Factor</th>
-                      <th className="px-6 py-4 text-left text-white font-semibold">Details</th>
+                      <th className="px-6 py-4 text-left text-white font-semibold">{t('pricingPage.seasonalPricing.tableHeaders.season')}</th>
+                      <th className="px-6 py-4 text-center text-white font-semibold">{t('pricingPage.seasonalPricing.tableHeaders.factor')}</th>
+                      <th className="px-6 py-4 text-left text-white font-semibold">{t('pricingPage.seasonalPricing.tableHeaders.details')}</th>
                     </tr>
                   </thead>
                   <tbody>
                     {seasonalFactors.map((factor, index) => (
                       <tr key={index} className="border-t border-rolls-gold/10">
-                        <td className="px-6 py-4 text-gray-300">{factor.season}</td>
+                        <td className="px-6 py-4 text-gray-300">{t(`pricingPage.seasonalPricing.seasons.${seasonKeys[index]}.name`)}</td>
                         <td className="px-6 py-4 text-center">
                           <span className={`font-bold ${
                             factor.factor.startsWith('+') ? 'text-red-400' : 'text-green-400'
@@ -497,7 +502,7 @@ export default function PricingPage() {
                             {factor.factor}
                           </span>
                         </td>
-                        <td className="px-6 py-4 text-gray-400">{factor.description}</td>
+                        <td className="px-6 py-4 text-gray-400">{t(`pricingPage.seasonalPricing.seasons.${seasonKeys[index]}.description`)}</td>
                       </tr>
                     ))}
                   </tbody>

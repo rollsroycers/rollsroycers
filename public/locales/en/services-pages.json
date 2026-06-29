@@ -212,7 +212,8 @@
         "name": "Platinum Birthday",
         "duration": "Full Day",
         "price": "AED 12,000"
-      }
+      },
+      "fullFleet": "Full Fleet Available"
     },
     "silverFeatures": [
       "Professional chauffeur",
@@ -275,7 +276,13 @@
         "price": "From AED 6,500/day"
       }
     },
-    "relatedServices": "Related Services"
+    "relatedServices": "Related Services",
+    "relatedServicesItems": {
+      "photoshoot": "Photoshoot",
+      "tours": "Dubai Tours",
+      "events": "Events & Galas",
+      "wedding": "Wedding Service"
+    }
   },
   "hourlyPage": {
     "badge": "FLEXIBLE LUXURY",

@@ -58,6 +58,33 @@
           "Dynamic performance"
         ]
       },
+      "spectre": {
+        "tagline": "All-Electric Ultra-Luxury",
+        "features": [
+          "Fully electric powertrain",
+          "Silent propulsion",
+          "Starlight doors",
+          "Bespoke audio system"
+        ]
+      },
+      "ghostBlackBadge": {
+        "tagline": "The Darker Alter Ego",
+        "features": [
+          "Blackout exterior detailing",
+          "Increased power output",
+          "Technical fibre fascia",
+          "Magic carpet ride"
+        ]
+      },
+      "cullinanBlackBadge": {
+        "tagline": "Bold SUV Statement",
+        "features": [
+          "Blackout exterior detailing",
+          "All-terrain capability",
+          "Viewing suite option",
+          "Night vision system"
+        ]
+      },
       "labels": {
         "perDay": "per day",
         "perWeek": "per week",
@@ -71,23 +98,23 @@
       "services": {
         "chauffeur": {
           "name": "Professional Chauffeur",
-          "price": "AED 1,500/day",
+          "price": "AED 800/day",
           "description": "Experienced, multilingual drivers"
         },
         "airport": {
           "name": "Airport Transfer",
-          "price": "AED 1,000",
+          "price": "AED 1,200",
           "description": "One-way luxury transfer"
         },
         "wedding": {
           "name": "Wedding Package",
-          "price": "From AED 8,500",
+          "price": "From AED 2,500",
           "description": "Decorated vehicle with chauffeur"
         },
         "hourly": {
           "name": "Hourly Rental",
-          "price": "AED 2,000/hour",
-          "description": "Minimum 4 hours"
+          "price": "From AED 800/hour",
+          "description": "Minimum 2 hours (model-specific — see Hourly Rental page)"
         },
         "mileage": {
           "name": "Extra Mileage",
@@ -96,7 +123,7 @@
         },
         "delivery": {
           "name": "Delivery & Collection",
-          "price": "AED 500 in Dubai",
+          "price": "Free in Dubai",
           "description": "Other emirates from AED 1,000"
         }
       }

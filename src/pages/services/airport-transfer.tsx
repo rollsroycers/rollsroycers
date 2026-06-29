@@ -333,13 +333,13 @@ export default function AirportTransferPage() {
         {/* Recommended Models & Related Services */}
         <section className="py-20 bg-rolls-black">
           <div className="container mx-auto px-4">
-            <h2 className="text-3xl font-bold text-white text-center mb-4">Popular Airport Transfer Vehicles</h2>
-            <p className="text-rolls-gold/70 text-center mb-12">Arrive in style from DXB, DWC, or AUH</p>
+            <h2 className="text-3xl font-bold text-white text-center mb-4">{t('servicesPages.airportTransfer.recommendedModels.title')}</h2>
+            <p className="text-rolls-gold/70 text-center mb-12">{t('servicesPages.airportTransfer.recommendedModels.subtitle')}</p>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-16">
               {[
-                { href: '/fleet/ghost', name: 'Ghost', desc: 'Our most booked airport car. Effortless comfort and understated luxury for the discerning traveller.', price: 'From AED 3,800/day' },
-                { href: '/fleet/cullinan', name: 'Cullinan', desc: 'Perfect for families and groups. Generous luggage space and 7 seats make airport transfers seamless.', price: 'From AED 6,500/day' },
-                { href: '/fleet/phantom', name: 'Phantom', desc: 'First-class arrival in the flagship. Extended Wheelbase with privacy glass for the ultimate VIP transfer.', price: 'From AED 5,800/day' },
+                { href: '/fleet/ghost', name: 'Ghost', desc: t('servicesPages.airportTransfer.recommendedModels.models.ghost'), price: 'From AED 3,800/day' },
+                { href: '/fleet/cullinan', name: 'Cullinan', desc: t('servicesPages.airportTransfer.recommendedModels.models.cullinan'), price: 'From AED 6,500/day' },
+                { href: '/fleet/phantom', name: 'Phantom', desc: t('servicesPages.airportTransfer.recommendedModels.models.phantom'), price: 'From AED 5,800/day' },
               ].map((model) => (
                 <Link key={model.href} href={model.href} className="group bg-white/5 border border-white/10 rounded-xl p-6 hover:border-rolls-gold/50 transition-all duration-300">
                   <h3 className="text-lg font-semibold text-white group-hover:text-rolls-gold transition-colors mb-2">{model.name}</h3>
@@ -348,13 +348,13 @@ export default function AirportTransferPage() {
                 </Link>
               ))}
             </div>
-            <h3 className="text-2xl font-bold text-white text-center mb-8">Explore More Services</h3>
+            <h3 className="text-2xl font-bold text-white text-center mb-8">{t('servicesPages.airportTransfer.moreServices.title')}</h3>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
               {[
-                { href: '/services/chauffeur', name: 'Chauffeur Service' },
-                { href: '/services/corporate', name: 'Corporate Service' },
-                { href: '/services/tours', name: 'Dubai Tours' },
-                { href: '/services/events', name: 'Events & Galas' },
+                { href: '/services/chauffeur', name: t('servicesPages.airportTransfer.moreServices.links.chauffeur') },
+                { href: '/services/corporate', name: t('servicesPages.airportTransfer.moreServices.links.corporate') },
+                { href: '/services/tours', name: t('servicesPages.airportTransfer.moreServices.links.tours') },
+                { href: '/services/events', name: t('servicesPages.airportTransfer.moreServices.links.events') },
               ].map((s) => (
                 <Link key={s.href} href={s.href} className="group text-center bg-white/5 border border-white/10 rounded-lg p-4 hover:border-rolls-gold/50 transition-all">
                   <p className="text-white font-semibold group-hover:text-rolls-gold transition-colors">{s.name}</p>

@@ -204,6 +204,24 @@
         "call": "Call: +971 55 816 4922",
         "onlineBooking": "Online Booking",
         "waitingTime": "Free waiting time: 60 minutes for international flights, 30 minutes for domestic"
+      },
+      "recommendedModels": {
+        "title": "Popular Airport Transfer Vehicles",
+        "subtitle": "Arrive in style from DXB, DWC, or AUH",
+        "models": {
+          "ghost": "Our most booked airport car. Effortless comfort and understated luxury for the discerning traveller.",
+          "cullinan": "Perfect for families and groups. Generous luggage space and 7 seats make airport transfers seamless.",
+          "phantom": "First-class arrival in the flagship. Extended Wheelbase with privacy glass for the ultimate VIP transfer."
+        }
+      },
+      "moreServices": {
+        "title": "Explore More Services",
+        "links": {
+          "chauffeur": "Chauffeur Service",
+          "corporate": "Corporate Service",
+          "tours": "Dubai Tours",
+          "events": "Events & Galas"
+        }
       }
     }
   }

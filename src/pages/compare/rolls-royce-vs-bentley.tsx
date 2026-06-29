@@ -43,132 +43,72 @@ export default function RollsRoyceVsBentleyPage() {
     overview: {
       'rollsRoyce': {
         title: t('compare.overview.rollsRoyce.title') || 'The Pinnacle of Luxury',
-        points: getTranslatedArray('compare.overview.rollsRoyce.points', [
-          'Uncompromising commitment to luxury and comfort',
-          'Bespoke craftsmanship with unlimited customization',
-          'The quietest and smoothest ride in the automotive world',
-          'Preferred choice of royalty and heads of state'
-        ]),
+        points: getTranslatedArray('compare.overview.rollsRoyce.points', []),
         summary: t('compare.overview.rollsRoyce.summary') || 'Rolls-Royce represents the absolute pinnacle of automotive luxury, where no compromise is made in the pursuit of perfection.'
       },
       'bentley': {
         title: t('compare.overview.bentley.title') || 'Performance Luxury',
-        points: getTranslatedArray('compare.overview.bentley.points', [
-          'Luxury combined with sporting performance',
-          'Handcrafted interiors with modern technology',
-          'More driver-focused experience',
-          'Racing heritage and sporting credentials'
-        ]),
+        points: getTranslatedArray('compare.overview.bentley.points', []),
         summary: t('compare.overview.bentley.summary') || 'Bentley offers a unique blend of luxury and performance, appealing to those who want to drive as much as be driven.'
       }
     },
     luxury: {
       'rollsRoyce': {
         title: t('compare.luxury.rollsRoyce.title') || 'Unparalleled Opulence',
-        points: getTranslatedArray('compare.luxury.rollsRoyce.points', [
-          'Hand-stitched leather from specially reared bulls',
-          'Real wood veneers from single trees for perfect matching',
-          'Starlight headliner with thousands of fiber optic lights',
-          'Bespoke department for unlimited personalization'
-        ]),
+        points: getTranslatedArray('compare.luxury.rollsRoyce.points', []),
         summary: t('compare.luxury.rollsRoyce.summary') || 'Every Rolls-Royce is a masterpiece of craftsmanship, with attention to detail that borders on obsession.'
       },
       'bentley': {
         title: t('compare.luxury.bentley.title') || 'Contemporary Luxury',
-        points: getTranslatedArray('compare.luxury.bentley.points', [
-          'Diamond-quilted leather seats',
-          'Rotating display featuring analog dials',
-          'Knurled metal controls and switches',
-          'Mulliner personalization service'
-        ]),
+        points: getTranslatedArray('compare.luxury.bentley.points', []),
         summary: t('compare.luxury.bentley.summary') || 'Bentley combines traditional craftsmanship with modern luxury, creating an environment that\'s both opulent and sporting.'
       }
     },
     performance: {
       'rollsRoyce': {
         title: t('compare.performance.rollsRoyce.title') || 'Effortless Power',
-        points: getTranslatedArray('compare.performance.rollsRoyce.points', [
-          'V12 engines delivering seamless power',
-          'Focus on refinement over outright speed',
-          'Magic Carpet Ride suspension system',
-          'Near-silent operation at any speed'
-        ]),
+        points: getTranslatedArray('compare.performance.rollsRoyce.points', []),
         summary: t('compare.performance.rollsRoyce.summary') || 'Rolls-Royce prioritizes smooth, effortless power delivery over sporting performance, creating a serene driving experience.'
       },
       'bentley': {
         title: t('compare.performance.bentley.title') || 'Exhilarating Performance',
-        points: getTranslatedArray('compare.performance.bentley.points', [
-          'W12 and V8 engines with massive power',
-          '0-60 mph in under 4 seconds (Continental GT)',
-          'Active all-wheel drive systems',
-          'Track-capable luxury vehicles'
-        ]),
+        points: getTranslatedArray('compare.performance.bentley.points', []),
         summary: t('compare.performance.bentley.summary') || 'Bentley delivers supercar performance wrapped in luxury, appealing to enthusiasts who refuse to compromise.'
       }
     },
     technology: {
       'rollsRoyce': {
         title: t('compare.technology.rollsRoyce.title') || 'Invisible Technology',
-        points: getTranslatedArray('compare.technology.rollsRoyce.points', [
-          'Technology hidden behind traditional interfaces',
-          'Satellite Aided Transmission',
-          'Night vision with pedestrian detection',
-          'Bespoke audio system tuned to each car'
-        ]),
+        points: getTranslatedArray('compare.technology.rollsRoyce.points', []),
         summary: t('compare.technology.rollsRoyce.summary') || 'Rolls-Royce integrates cutting-edge technology seamlessly, maintaining a classic, uncluttered aesthetic.'
       },
       'bentley': {
         title: t('compare.technology.bentley.title') || 'Modern Innovation',
-        points: getTranslatedArray('compare.technology.bentley.points', [
-          'Rotating display with touchscreen',
-          'Advanced driver assistance systems',
-          'Bang & Olufsen audio systems',
-          'Fully digital instrument cluster'
-        ]),
+        points: getTranslatedArray('compare.technology.bentley.points', []),
         summary: t('compare.technology.bentley.summary') || 'Bentley embraces modern technology more openly, offering a blend of traditional luxury and contemporary innovation.'
       }
     },
     heritage: {
       'rollsRoyce': {
         title: t('compare.heritage.rollsRoyce.title') || '120 Years of Excellence',
-        points: getTranslatedArray('compare.heritage.rollsRoyce.points', [
-          'Founded in 1904 by Henry Royce and Charles Rolls',
-          'Spirit of Ecstasy - the most famous automotive mascot',
-          'Supplier to royalty worldwide',
-          'The best car in the world philosophy'
-        ]),
+        points: getTranslatedArray('compare.heritage.rollsRoyce.points', []),
         summary: t('compare.heritage.rollsRoyce.summary') || 'Rolls-Royce has maintained its position as the ultimate luxury car manufacturer for over a century.'
       },
       'bentley': {
         title: t('compare.heritage.bentley.title') || 'Racing Pedigree',
-        points: getTranslatedArray('compare.heritage.bentley.points', [
-          'Founded in 1919 by W.O. Bentley',
-          'Five Le Mans victories in the 1920s',
-          'Modern racing success at Le Mans',
-          'Bentley Boys racing heritage'
-        ]),
+        points: getTranslatedArray('compare.heritage.bentley.points', []),
         summary: t('compare.heritage.bentley.summary') || 'Bentley\'s racing heritage infuses every model with a sporting spirit that sets it apart from pure luxury brands.'
       }
     },
     price: {
       'rollsRoyce': {
         title: t('compare.price.rollsRoyce.title') || 'Ultimate Investment',
-        points: getTranslatedArray('compare.price.rollsRoyce.points', [
-          'Starting prices from AED 2,000,000+',
-          'Bespoke options can double the base price',
-          'Strong value retention',
-          'Exclusive ownership experience'
-        ]),
+        points: getTranslatedArray('compare.price.rollsRoyce.points', []),
         summary: t('compare.price.rollsRoyce.summary') || 'Rolls-Royce commands premium prices that reflect its position as the ultimate luxury automobile.'
       },
       'bentley': {
         title: t('compare.price.bentley.title') || 'Accessible Ultra-Luxury',
-        points: getTranslatedArray('compare.price.bentley.points', [
-          'Starting prices from AED 1,200,000+',
-          'More accessible entry point to ultra-luxury',
-          'Good value retention',
-          'Wider model range and price points'
-        ]),
+        points: getTranslatedArray('compare.price.bentley.points', []),
         summary: t('compare.price.bentley.summary') || 'Bentley offers a more accessible entry into the ultra-luxury segment while maintaining exclusivity.'
       }
     }
@@ -224,23 +164,13 @@ export default function RollsRoyceVsBentleyPage() {
       daily: t('compare.rental.rollsRoyce.daily') || 'AED 3,500+',
       weekly: t('compare.rental.rollsRoyce.weekly') || 'AED 21,000+',
       monthly: t('compare.rental.rollsRoyce.monthly') || 'AED 75,000+',
-      benefits: getTranslatedArray('compare.rental.rollsRoyce.benefits', [
-        'Professional chauffeur included',
-        'Complimentary fuel',
-        'Comprehensive insurance',
-        'Bespoke concierge service'
-      ])
+      benefits: getTranslatedArray('compare.rental.rollsRoyce.benefits', [])
     },
     bentley: {
       daily: t('compare.rental.bentley.daily') || 'AED 2,800+',
       weekly: t('compare.rental.bentley.weekly') || 'AED 16,000+',
       monthly: t('compare.rental.bentley.monthly') || 'AED 55,000+',
-      benefits: getTranslatedArray('compare.rental.bentley.benefits', [
-        'Sport and luxury options',
-        'Self-drive available',
-        'Track day experiences',
-        'Performance driving courses'
-      ])
+      benefits: getTranslatedArray('compare.rental.bentley.benefits', [])
     }
   }
 
@@ -722,10 +652,10 @@ export default function RollsRoyceVsBentleyPage() {
                 transition={{ delay: 0.1 }}
                 className="bg-rolls-black/50 backdrop-blur-sm border border-rolls-gold/20 rounded-lg p-6 text-center"
               >
-                <h3 className="text-xl font-bold text-white mb-2">Rolls-Royce vs Ferrari</h3>
-                <p className="text-gray-400 mb-4">Luxury comfort vs supercar performance</p>
+                <h3 className="text-xl font-bold text-white mb-2">{t('compare.related.ferrari.title')}</h3>
+                <p className="text-gray-400 mb-4">{t('compare.related.ferrari.subtitle')}</p>
                 <Link href="/compare/rolls-royce-vs-ferrari" className="text-rolls-gold hover:text-white transition-colors">
-                  Coming Soon →
+                  {t('compare.related.comingSoon')} →
                 </Link>
               </motion.div>
 
@@ -735,10 +665,10 @@ export default function RollsRoyceVsBentleyPage() {
                 transition={{ delay: 0.2 }}
                 className="bg-rolls-black/50 backdrop-blur-sm border border-rolls-gold/20 rounded-lg p-6 text-center"
               >
-                <h3 className="text-xl font-bold text-white mb-2">Phantom vs Maybach</h3>
-                <p className="text-gray-400 mb-4">The ultimate flagship comparison</p>
+                <h3 className="text-xl font-bold text-white mb-2">{t('compare.related.maybach.title')}</h3>
+                <p className="text-gray-400 mb-4">{t('compare.related.maybach.subtitle')}</p>
                 <Link href="/compare/phantom-vs-maybach" className="text-rolls-gold hover:text-white transition-colors">
-                  Coming Soon →
+                  {t('compare.related.comingSoon')} →
                 </Link>
               </motion.div>
             </div>

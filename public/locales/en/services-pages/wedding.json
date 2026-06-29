@@ -68,7 +68,9 @@
           "price": "From AED 8,500",
           "premium": "Most Popular"
         },
-        "bookPackage": "Book This Package"
+        "bookPackage": "Book This Package",
+        "durationLabel": "Duration",
+        "vehiclesLabel": "Vehicles"
       },
       "gallery": {
         "title": "Wedding Gallery",
@@ -100,6 +102,24 @@
         "backup": {
           "title": "Backup Guarantee",
           "description": "Emergency backup vehicle on standby to ensure your day goes perfectly"
+        }
+      },
+      "recommendedModels": {
+        "title": "Recommended Wedding Cars",
+        "subtitle": "Our most popular models for wedding celebrations",
+        "models": {
+          "phantom": "The ultimate wedding car. Extended Wheelbase in Arctic White with Starlight Headliner — the most majestic entrance.",
+          "ghost": "Elegant and refined. Perfect for intimate ceremonies. The most affordable Rolls-Royce wedding option.",
+          "dawn": "Open-air luxury. The convertible is stunning for outdoor garden and beach weddings in Dubai."
+        }
+      },
+      "moreServices": {
+        "title": "Explore More Services",
+        "links": {
+          "chauffeur": "Chauffeur Service",
+          "events": "Events & Galas",
+          "photoshoot": "Photoshoot",
+          "tours": "Dubai Tours"
         }
       }
     }

@@ -206,6 +206,25 @@
           "clients": "EN / AR / RU",
           "rating": "24/7 Availability"
         }
+      },
+      "serviceLabel": "Service",
+      "recommendedModels": {
+        "title": "Popular Chauffeur Vehicles",
+        "subtitle": "Choose your preferred Rolls-Royce with professional driver",
+        "models": {
+          "ghost": "Most popular chauffeur car. Smooth Planar suspension and refined cabin make every journey effortless.",
+          "phantom": "The pinnacle of chauffeured luxury. Extended Wheelbase rear suite with privacy glass and starlight ceiling.",
+          "cullinan": "SUV chauffeur service for families and groups. 7 seats of luxury with ample luggage space."
+        }
+      },
+      "moreServices": {
+        "title": "Explore More Services",
+        "links": {
+          "airportTransfer": "Airport Transfer",
+          "corporate": "Corporate Service",
+          "tours": "Dubai Tours",
+          "wedding": "Wedding Service"
+        }
       }
     }
   }

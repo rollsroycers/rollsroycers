@@ -227,7 +227,29 @@
         "description": "Contact our team to design your perfect Dubai adventure",
         "bookNow": "Book Your Tour",
         "learnMore": "Learn More",
-        "specialOffer": "Limited Time: 20% off Desert Safari tours!"
+        "specialOffer": "Limited Time: 20% off Desert Safari tours!",
+        "designCustomTour": "Design Custom Tour",
+        "whatsappInquiry": "WhatsApp Inquiry",
+        "specialOfferTitle": "Special Offer",
+        "termsApply": "Terms and conditions apply"
+      },
+      "recommendedModels": {
+        "title": "Best Models for Dubai Tours",
+        "subtitle": "Choose your touring companion",
+        "models": {
+          "cullinan": "Our #1 tour vehicle. All-terrain SUV capability for city tours and desert excursions with 7 seats of comfort.",
+          "dawn": "Open-top touring at its finest. Cruise Palm Jumeirah and Dubai Marina with the wind in your hair.",
+          "ghost": "Smooth and serene city touring. The Planar suspension makes even the longest routes feel effortless."
+        }
+      },
+      "moreServices": {
+        "title": "Explore More Services",
+        "links": {
+          "chauffeur": "Chauffeur Service",
+          "airportTransfer": "Airport Transfer",
+          "photoshoot": "Photoshoot",
+          "events": "Events & Galas"
+        }
       }
     }
   }

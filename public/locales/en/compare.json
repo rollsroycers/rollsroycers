@@ -384,5 +384,20 @@
       "viewFleet": "View Rolls-Royce Fleet",
       "bookNow": "Book Your Rolls-Royce"
     }
+  },
+  "gallery": {
+    "title": "Visual Comparison",
+    "phantom_desc": "Extended Wheelbase Luxury",
+    "maybach_desc": "Ultimate SUV Alternative",
+    "phantom_interior": "Phantom Interior",
+    "phantom_interior_desc": "Handcrafted British Excellence",
+    "luxury_interior": "Luxury Defined",
+    "luxury_interior_desc": "Where Comfort Meets Technology"
+  },
+  "quickStats": {
+    "phantom_power": "Phantom Power",
+    "maybach_power": "Maybach Power",
+    "phantom_length": "Phantom Length",
+    "maybach_length": "Maybach Length"
   }
 }

@@ -449,31 +449,31 @@ export default function PhotoshootServicePage() {
         {/* Recommended Models & Related Services */}
         <section className="py-20 bg-rolls-black">
           <div className="container mx-auto px-4">
-            <h2 className="text-3xl font-bold text-white text-center mb-4">Best Models for Photoshoots</h2>
-            <p className="text-rolls-gold/70 text-center mb-12">Choose the perfect Rolls-Royce for your creative vision</p>
+            <h2 className="text-3xl font-bold text-white text-center mb-4">{t('servicesPages.photoshoot.recommendedModels.title')}</h2>
+            <p className="text-rolls-gold/70 text-center mb-12">{t('servicesPages.photoshoot.recommendedModels.subtitle')}</p>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-16">
               {[
-                { href: '/fleet/dawn', name: 'Dawn', desc: 'Our #1 photoshoot car. The convertible offers open-air beauty perfect for outdoor fashion, lifestyle, and Instagram content.', price: 'From AED 5,500/day' },
-                { href: '/fleet/wraith', name: 'Wraith', desc: 'Bold coupe silhouette with Starlight Headliner. Ideal for dramatic editorial shots and music video productions.', price: 'From AED 5,000/day' },
-                { href: '/fleet/spectre', name: 'Spectre', desc: 'Futuristic electric design with split headlights. The most visually striking choice for commercial and editorial shoots.', price: 'From AED 7,500/day' },
+                { href: '/fleet/dawn', id: 'dawn', name: 'Dawn', price: 'From AED 5,500/day' },
+                { href: '/fleet/wraith', id: 'wraith', name: 'Wraith', price: 'From AED 5,000/day' },
+                { href: '/fleet/spectre', id: 'spectre', name: 'Spectre', price: 'From AED 7,500/day' },
               ].map((model) => (
                 <Link key={model.href} href={model.href} className="group bg-white/5 border border-white/10 rounded-xl p-6 hover:border-rolls-gold/50 transition-all duration-300">
                   <h3 className="text-lg font-semibold text-white group-hover:text-rolls-gold transition-colors mb-2">{model.name}</h3>
-                  <p className="text-gray-400 text-sm mb-3">{model.desc}</p>
+                  <p className="text-gray-400 text-sm mb-3">{t(`servicesPages.photoshoot.recommendedModels.models.${model.id}`)}</p>
                   <p className="text-rolls-gold font-semibold text-sm">{model.price}</p>
                 </Link>
               ))}
             </div>
-            <h3 className="text-2xl font-bold text-white text-center mb-8">Explore More Services</h3>
+            <h3 className="text-2xl font-bold text-white text-center mb-8">{t('servicesPages.photoshoot.moreServices.title')}</h3>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
               {[
-                { href: '/services/events', name: 'Events & Galas' },
-                { href: '/services/tours', name: 'Dubai Tours' },
-                { href: '/services/wedding', name: 'Wedding Service' },
-                { href: '/services/chauffeur', name: 'Chauffeur Service' },
+                { href: '/services/events', id: 'events' },
+                { href: '/services/tours', id: 'tours' },
+                { href: '/services/wedding', id: 'wedding' },
+                { href: '/services/chauffeur', id: 'chauffeur' },
               ].map((s) => (
                 <Link key={s.href} href={s.href} className="group text-center bg-white/5 border border-white/10 rounded-lg p-4 hover:border-rolls-gold/50 transition-all">
-                  <p className="text-white font-semibold group-hover:text-rolls-gold transition-colors">{s.name}</p>
+                  <p className="text-white font-semibold group-hover:text-rolls-gold transition-colors">{t(`servicesPages.photoshoot.moreServices.links.${s.id}`)}</p>
                 </Link>
               ))}
             </div>

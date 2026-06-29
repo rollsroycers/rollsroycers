@@ -271,22 +271,22 @@ const PhantomVsMaybach: React.FC = () => {
               <div className="bg-gray-900/50 rounded-xl p-6 text-center border border-gray-800">
                 <div className="text-3xl mb-2">🏎️</div>
                 <div className="text-2xl font-bold text-yellow-400">563 HP</div>
-                <div className="text-sm text-gray-400">Phantom Power</div>
+                <div className="text-sm text-gray-400">{t('compare:quickStats.phantom_power')}</div>
               </div>
               <div className="bg-gray-900/50 rounded-xl p-6 text-center border border-gray-800">
                 <div className="text-3xl mb-2">⚡</div>
                 <div className="text-2xl font-bold text-gray-400">550 HP</div>
-                <div className="text-sm text-gray-400">Maybach Power</div>
+                <div className="text-sm text-gray-400">{t('compare:quickStats.maybach_power')}</div>
               </div>
               <div className="bg-gray-900/50 rounded-xl p-6 text-center border border-gray-800">
                 <div className="text-3xl mb-2">🛡️</div>
                 <div className="text-2xl font-bold text-yellow-400">5,982mm</div>
-                <div className="text-sm text-gray-400">Phantom Length</div>
+                <div className="text-sm text-gray-400">{t('compare:quickStats.phantom_length')}</div>
               </div>
               <div className="bg-gray-900/50 rounded-xl p-6 text-center border border-gray-800">
                 <div className="text-3xl mb-2">📏</div>
                 <div className="text-2xl font-bold text-gray-400">5,469mm</div>
-                <div className="text-sm text-gray-400">Maybach Length</div>
+                <div className="text-sm text-gray-400">{t('compare:quickStats.maybach_length')}</div>
               </div>
             </motion.div>
           </div>
@@ -414,7 +414,7 @@ const PhantomVsMaybach: React.FC = () => {
               className="text-center mb-12"
             >
               <h2 className="text-4xl md:text-5xl font-bold mb-4 text-white">
-                {t('compare:gallery.title', 'Visual Comparison')}
+                {t('compare:gallery.title')}
               </h2>
             </motion.div>
 
@@ -435,7 +435,7 @@ const PhantomVsMaybach: React.FC = () => {
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent" />
                   <div className="absolute bottom-0 left-0 right-0 p-6">
                     <h3 className="text-2xl font-bold text-yellow-400">Rolls-Royce Phantom EWB</h3>
-                    <p className="text-gray-300">{t('compare:gallery.phantom_desc', 'Extended Wheelbase Luxury')}</p>
+                    <p className="text-gray-300">{t('compare:gallery.phantom_desc')}</p>
                   </div>
                 </div>
               </motion.div>
@@ -456,7 +456,7 @@ const PhantomVsMaybach: React.FC = () => {
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent" />
                   <div className="absolute bottom-0 left-0 right-0 p-6">
                     <h3 className="text-2xl font-bold text-gray-400">Mercedes-Maybach GLS</h3>
-                    <p className="text-gray-300">{t('compare:gallery.maybach_desc', 'Ultimate SUV Alternative')}</p>
+                    <p className="text-gray-300">{t('compare:gallery.maybach_desc')}</p>
                   </div>
                 </div>
               </motion.div>
@@ -479,8 +479,8 @@ const PhantomVsMaybach: React.FC = () => {
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent" />
                   <div className="absolute bottom-0 left-0 right-0 p-6">
-                    <h3 className="text-2xl font-bold text-yellow-400">{t('compare:gallery.phantom_interior', 'Phantom Interior')}</h3>
-                    <p className="text-gray-300">{t('compare:gallery.phantom_interior_desc', 'Handcrafted British Excellence')}</p>
+                    <h3 className="text-2xl font-bold text-yellow-400">{t('compare:gallery.phantom_interior')}</h3>
+                    <p className="text-gray-300">{t('compare:gallery.phantom_interior_desc')}</p>
                   </div>
                 </div>
               </motion.div>
@@ -500,8 +500,8 @@ const PhantomVsMaybach: React.FC = () => {
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent" />
                   <div className="absolute bottom-0 left-0 right-0 p-6">
-                    <h3 className="text-2xl font-bold text-gray-400">{t('compare:gallery.luxury_interior', 'Luxury Defined')}</h3>
-                    <p className="text-gray-300">{t('compare:gallery.luxury_interior_desc', 'Where Comfort Meets Technology')}</p>
+                    <h3 className="text-2xl font-bold text-gray-400">{t('compare:gallery.luxury_interior')}</h3>
+                    <p className="text-gray-300">{t('compare:gallery.luxury_interior_desc')}</p>
                   </div>
                 </div>
               </motion.div>

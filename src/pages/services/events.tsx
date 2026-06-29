@@ -445,13 +445,13 @@ export default function EventsServicePage() {
         {/* Recommended Models & Related Services */}
         <section className="py-20 bg-rolls-black">
           <div className="container mx-auto px-4">
-            <h2 className="text-3xl font-bold text-white text-center mb-4">Best Models for Events</h2>
-            <p className="text-rolls-gold/70 text-center mb-12">Make a statement at your next event</p>
+            <h2 className="text-3xl font-bold text-white text-center mb-4">{t('servicesPages.events.recommendedModels.title')}</h2>
+            <p className="text-rolls-gold/70 text-center mb-12">{t('servicesPages.events.recommendedModels.subtitle')}</p>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-16">
               {[
-                { href: '/fleet/phantom', name: 'Phantom', desc: 'The ultimate red carpet car. Commanding presence and Starlight Headliner for VIP galas and premieres.', price: 'From AED 5,800/day' },
-                { href: '/fleet/wraith', name: 'Wraith', desc: 'Dramatic fastback silhouette. The most powerful Rolls-Royce makes a bold statement at any event.', price: 'From AED 5,000/day' },
-                { href: '/fleet/spectre', name: 'Spectre', desc: 'The future of luxury. Arrive in the world\'s first ultra-luxury electric car — a true conversation starter.', price: 'From AED 7,500/day' },
+                { href: '/fleet/phantom', name: 'Phantom', desc: t('servicesPages.events.recommendedModels.models.phantom'), price: 'From AED 5,800/day' },
+                { href: '/fleet/wraith', name: 'Wraith', desc: t('servicesPages.events.recommendedModels.models.wraith'), price: 'From AED 5,000/day' },
+                { href: '/fleet/spectre', name: 'Spectre', desc: t('servicesPages.events.recommendedModels.models.spectre'), price: 'From AED 7,500/day' },
               ].map((model) => (
                 <Link key={model.href} href={model.href} className="group bg-white/5 border border-white/10 rounded-xl p-6 hover:border-rolls-gold/50 transition-all duration-300">
                   <h3 className="text-lg font-semibold text-white group-hover:text-rolls-gold transition-colors mb-2">{model.name}</h3>
@@ -460,13 +460,13 @@ export default function EventsServicePage() {
                 </Link>
               ))}
             </div>
-            <h3 className="text-2xl font-bold text-white text-center mb-8">Explore More Services</h3>
+            <h3 className="text-2xl font-bold text-white text-center mb-8">{t('servicesPages.events.moreServices.title')}</h3>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
               {[
-                { href: '/services/wedding', name: 'Wedding Service' },
-                { href: '/services/corporate', name: 'Corporate Service' },
-                { href: '/services/photoshoot', name: 'Photoshoot' },
-                { href: '/services/chauffeur', name: 'Chauffeur Service' },
+                { href: '/services/wedding', name: t('servicesPages.events.moreServices.links.wedding') },
+                { href: '/services/corporate', name: t('servicesPages.events.moreServices.links.corporate') },
+                { href: '/services/photoshoot', name: t('servicesPages.events.moreServices.links.photoshoot') },
+                { href: '/services/chauffeur', name: t('servicesPages.events.moreServices.links.chauffeur') },
               ].map((s) => (
                 <Link key={s.href} href={s.href} className="group text-center bg-white/5 border border-white/10 rounded-lg p-4 hover:border-rolls-gold/50 transition-all">
                   <p className="text-white font-semibold group-hover:text-rolls-gold transition-colors">{s.name}</p>
