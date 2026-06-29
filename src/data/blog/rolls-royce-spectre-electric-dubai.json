@@ -5,75 +5,138 @@
     "description": "Rent the all-electric Rolls-Royce Spectre in Dubai from AED 7,500/day. 577 HP, 530km range, zero emissions luxury.",
     "author": "Ahmed Salem",
     "date": "2026-02-01",
-    "readTime": "8 min read",
+    "readTime": "16 min read",
     "category": "Guides",
-    "image": "/images/2024_Rolls-Royce_Spectre.jpg",
+    "image": "/images/blog/rolls-royce-spectre-electric-dubai-cover.jpg",
     "content": [
       {
+        "type": "quickAnswer",
+        "text": "The Rolls-Royce Spectre is the brand's first fully electric super-coupe, combining silent EV performance with ultra-luxury aesthetics. Rental rates start from <strong>AED 7,500/day</strong>, featuring 577 horsepower, a 530 km range, and state-of-the-art Planar suspension. To experience this electric masterpiece in Dubai, contact Naqra FZE on WhatsApp at <a href=\"https://wa.me/971558164922\">+971 55 816 4922</a>. We guarantee premium quality, vehicle delivery, and transparent pricing."
+      },
+      {
         "type": "paragraph",
-        "text": "The Rolls-Royce Spectre has arrived in Dubai, marking a new chapter in ultra-luxury motoring. As the first fully electric Rolls-Royce, the Spectre combines 577 HP of instant torque with the legendary silence and refinement that defines the marque — now amplified by electric power."
+        "text": "The arrival of the Rolls-Royce Spectre in Dubai marks a revolutionary moment in the evolution of ultra-luxury motoring. As the marque's first fully electric production vehicle, the Spectre translates the signature characteristics of Rolls-Royce—effortless power, absolute silence, and a magic carpet ride—into the electric era. Dubai's modern infrastructure and futuristic skyline provide the perfect backdrop for this electric super-coupe, which represents the peak of sustainable luxury travel. Cruising past the towering structures of Downtown Dubai or parking in front of luxury hotels in this vehicle is an experience that defines modern success. The vehicle's presence is unmatched, drawing admiration from onlookers who recognize the shift toward a cleaner, yet equally opulent, driving future. Explore our options and rent yours today from our exclusive <a href=\"/fleet/spectre\">Rolls-Royce Spectre collection</a>."
+      },
+      {
+        "type": "paragraph",
+        "text": "Navigating the roads of the United Arab Emirates in an electric vehicle requires an appreciation of engineering excellence. The Spectre is not merely a converted combustion vehicle; it was designed from the ground up as a dedicated ultra-luxury EV, using the brand's proprietary 'Architecture of Luxury' all-aluminum spaceframe. This bespoke chassis was specifically engineered to house the massive battery system while maintaining the rigid, safe cocoon that Rolls-Royce passengers expect. In this comprehensive guide, we explore the historical significance of the Spectre, examine its technical specifications, detail its behavior in Dubai's warm climate, and explain how to optimize your charging and driving experience during your stay. We aim to provide you with all the knowledge needed to fully enjoy this groundbreaking vehicle."
       },
       {
         "type": "heading",
-        "text": "Why the Spectre Changes Everything"
+        "text": "A Historic Milestone: Charles Rolls' Prophecy Fulfilled"
       },
       {
         "type": "paragraph",
-        "text": "Charles Rolls himself prophesied in 1900 that the electric car was perfectly noiseless and clean. Over 120 years later, the Spectre fulfils that vision with the most technologically advanced Rolls-Royce ever created."
+        "text": "In the year 1900, Charles Rolls, co-founder of the brand, drove an early electric vehicle called the Columbia and made a prophetic statement. He noted that the electric car was perfectly noiseless and clean, without smell or vibration, and wrote that they should become very useful when charging stations could be arranged. More than 120 years later, the Spectre fulfills that prophecy, proving that electric propulsion is the perfect match for the brand's luxury identity. The lack of engine vibration and the instant torque delivery align perfectly with what clients expect from a Rolls-Royce, elevating the serene cabin experience to a level that combustion engines could never quite replicate."
+      },
+      {
+        "type": "paragraph",
+        "text": "By replacing the traditional V12 engine with a dual-motor electric drivetrain, Rolls-Royce has achieved a level of quietness and smoothness that was previously impossible. The Spectre does not need to mask mechanical noise because there is none to begin with. This historical milestone is more than a change in technology; it represents a commitment to the future of luxury transportation, aligning with Dubai's clean energy goals and the desires of modern luxury travelers who prioritize environmental responsibility without compromising on comfort. It stands as a testament to the brand's ability to innovate while preserving its core heritage of unmatched sophistication."
       },
       {
         "type": "image",
-        "src": "/images/2024_Rolls-Royce_Spectre.jpg",
-        "alt": "Rolls-Royce Spectre in Dubai",
-        "caption": "The Spectre: 577 HP of silent electric luxury"
+        "src": "/images/blog/rolls-royce-spectre-electric-dubai-inline.webp",
+        "alt": "Rolls-Royce Spectre electric luxury coupe in Dubai",
+        "caption": "The Rolls-Royce Spectre: combining a classic fastback silhouette with modern electric performance."
       },
       {
         "type": "heading",
-        "text": "Key Specifications"
+        "text": "Technical Specifications and EV Dynamics"
+      },
+      {
+        "type": "paragraph",
+        "text": "The Rolls-Royce Spectre is powered by two electric motors—one on each axle—producing a combined 577 horsepower and 900 Nm of instant torque. This allows the heavy coupe to accelerate from 0 to 100 km/h in just 4.5 seconds. The acceleration is incredibly smooth, designed to avoid the sudden head-snapping jolt typical of high-performance EVs. Instead, the power increases in a linear wave, mimicking the characteristic 'waftability' of the brand's classic V12 engines while offering immediate responsiveness when overtaking on highways. This ensures that the driver always feels in complete control of the vehicle's immense power, regardless of speed."
+      },
+      {
+        "type": "paragraph",
+        "text": "Equipped with a 102 kWh lithium-ion battery pack, the Spectre offers an estimated driving range of 530 km on a single charge. This range is more than sufficient for exploring the city of Dubai, driving to Abu Dhabi, or cruising along the coastal highways of the northern Emirates. The battery is integrated into the vehicle's aluminum spaceframe structure, which not only improves rigidity by 30% but also acts as 700 kg of acoustic soundproofing. This integration shows how electric engineering can enhance the traditional luxury experience rather than compromise it, turning a heavy battery pack into a functional asset for ride quality."
       },
       {
         "type": "list",
         "items": [
-          "<strong>Power:</strong> 577 HP / 900 Nm instant torque",
-          "<strong>Range:</strong> 530 km on a single charge",
-          "<strong>0-100 km/h:</strong> 4.5 seconds",
-          "<strong>Architecture:</strong> 700V electrical system on Architecture of Luxury platform",
-          "<strong>Weight:</strong> 2,975 kg — the heaviest Rolls-Royce ever, contributing to that magic carpet ride",
-          "<strong>Doors:</strong> Coach doors with powered opening and closing"
+          "<strong>Powertrain:</strong> Dual-motor setup, 577 horsepower and 900 Nm of instant torque.",
+          "<strong>Battery & Range:</strong> 102 kWh capacity, providing up to 530 km of range on a single charge.",
+          "<strong>Charging Capability:</strong> Supports 195 kW DC fast charging, refilling from 10% to 80% in 34 minutes.",
+          "<strong>Dimensions:</strong> Classic fastback proportions with a length of 5.47 meters and wide coach doors.",
+          "<strong>Acoustics:</strong> Integrated battery pack provides an extra layer of insulation, creating the quietest cabin ever."
         ]
       },
       {
         "type": "heading",
-        "text": "The Dubai Electric Advantage"
+        "text": "The Dubai EV Ecosystem and Driving Advantage"
       },
       {
         "type": "paragraph",
-        "text": "Dubai is the perfect city for the Spectre. With extensive EV charging infrastructure, smooth highway driving, and year-round warm weather that optimizes battery performance, the Spectre thrives here. The city's commitment to sustainability through the Dubai Clean Energy Strategy 2050 makes the Spectre culturally relevant too."
+        "text": "Dubai is one of the most EV-friendly cities in the region, featuring an extensive network of public charging stations. The Dubai Electricity and Water Authority (DEWA) has installed hundreds of Green Charger stations across the city, including at major retail destinations like the Dubai Mall, Mall of the Emirates, and luxury residential areas like Dubai Marina and Jumeirah Beach Residence (JBR). Additionally, most 5-star hotels, including the Armani Hotel at the Burj Khalifa and the Burj Al Arab, offer dedicated EV charging spaces and valet charging services for guests. This makes running out of charge a non-existent concern for those operating in the city's key hubs."
+      },
+      {
+        "type": "paragraph",
+        "text": "The warm climate of the United Arab Emirates is well-suited for electric vehicles, as it helps maintain optimal battery operating temperatures during the winter months. To ensure peak performance during the summer, the Spectre is equipped with an advanced thermal management system that keeps the battery and cabin cool. Driving on smooth, multi-lane highways like Sheikh Zayed Road or Al Khail Road is exceptionally pleasant in the Spectre, where the silent electric motor and low center of gravity combine to provide a stable, relaxing ride that isolates you from the busy traffic. The regenerative braking system is also tuned to decelerate the vehicle smoothly, reclaiming energy without disrupting the passenger experience."
       },
       {
         "type": "heading",
-        "text": "Rental Rates"
+        "text": "Planar Suspension and Soundproofing in the Electric Cabin"
       },
       {
-        "type": "list",
-        "items": [
-          "<strong>Daily:</strong> AED 7,500 (includes 250km)",
-          "<strong>Weekly:</strong> AED 45,000 (1,750km included)",
-          "<strong>Monthly:</strong> AED 150,000 (5,000km included)",
-          "<strong>Hourly:</strong> AED 1,500 (minimum 2 hours with chauffeur)"
+        "type": "paragraph",
+        "text": "To maintain the brand's legendary 'magic carpet ride,' Rolls-Royce engineers developed an updated version of the Planar suspension system specifically for the Spectre. This system works with road-scanning cameras and GPS data to read the surface ahead, decoupling the anti-roll bars on straight roads to prevent lateral cabin movement over bumps. When entering a corner, the system automatically recouples the bars and stiffens the dampers, ensuring the vehicle remains flat and composed through turns. The result is a ride that feels disconnected from the road's imperfections while remaining dynamically capable."
+      },
+      {
+        "type": "paragraph",
+        "text": "The soundproofing in the Spectre's cabin is another engineering highlight. In addition to the sound-dampening qualities of the integrated battery pack, the vehicle features double-glazed acoustic side windows, insulated door cavities, and specialized silent tires filled with sound-absorbing foam. The transition from external city traffic to the absolute silence of the Spectre's interior is immediate, allowing you to enjoy the Bespoke Audio system or have quiet conversations with passengers without any road or wind noise. Even at high highway speeds, the cabin remains a quiet sanctuary, allowing you to travel in complete peace."
+      },
+      {
+        "type": "heading",
+        "text": "Charging Etiquette and Operational Guidelines for Renters"
+      },
+      {
+        "type": "paragraph",
+        "text": "Renting an electric vehicle in Dubai requires some basic knowledge of charging protocols. We deliver the Spectre to our clients with at least an 80% charge, allowing you to start your journey immediately. For daily driving, we recommend keeping the battery charge level between 20% and 80% to optimize charging speed and maintain battery health. If you plan a longer drive, utilizing one of the city's DC fast chargers will allow you to quickly add range while you enjoy a coffee or shopping session. Planning your charging stops around your daily activities makes EV ownership seamless."
+      },
+      {
+        "type": "paragraph",
+        "text": "When using public charging stations, it is important to follow standard etiquette, such as moving the vehicle once charging is complete to allow others access. Most premium locations offer valet parking services that will manage the charging process for you, adding a layer of convenience to your experience. If you need any assistance finding a compatible fast charger or setting up a charging account, our 24/7 client support team is available via WhatsApp to assist. For a comprehensive overview of luxury car rentals, check out our <a href=\"/blog/ultimate-guide-rolls-royce-rental-dubai\">Ultimate Guide to Rolls-Royce Rental in Dubai</a>."
+      },
+      {
+        "type": "heading",
+        "text": "Bespoke Starlight Doors and Digital Customization"
+      },
+      {
+        "type": "paragraph",
+        "text": "The interior of the Spectre is a showcase of digital innovation and traditional craftsmanship. For the first time on a production Rolls-Royce, the Spectre is available with 'Starlight Doors,' featuring 4,796 softly illuminated points of light that extend the night-sky theme from the ceiling to the side panels. The dashboard includes the illuminated Spectre nameplate surrounded by over 5,500 stars, creating a unique visual experience when driving after sunset. The attention to detail in the placement of these fiber-optic lights ensures a beautiful, subtle ambiance throughout the cabin."
+      },
+      {
+        "type": "paragraph",
+        "text": "The digital interface has also been modernized, featuring the new 'Spirit' digital architecture. This system allows for custom customization of the digital instrument dials, matching the color scheme of the vehicle's interior leather and stitching. The combination of advanced digital features and hand-stitched leather creates a cabin that feels both modern and classic, reflecting the dual nature of the Spectre as a tech-forward vehicle rooted in heritage. To learn more about corporate travel options, visit our guide on <a href=\"/blog/business-travel-rolls-royce\">Business Travel with Rolls-Royce</a>."
+      },
+      {
+        "type": "faq",
+        "questions": [
+          {
+            "question": "What is the daily rental rate for the Rolls-Royce Spectre in Dubai?",
+            "answer": "The daily rental rate for the Rolls-Royce Spectre starts from AED 7,500. This includes comprehensive insurance and a daily mileage limit of 250 km. Contact our team for weekly or monthly booking packages."
+          },
+          {
+            "question": "How long does it take to charge the Rolls-Royce Spectre's battery?",
+            "answer": "Using a 195 kW DC fast charger, the Spectre can charge from 10% to 80% in about 34 minutes. A standard 22 kW AC wallbox charger will take approximately 5.5 hours to fully charge the battery."
+          },
+          {
+            "question": "What is the driving range of the Spectre on a single charge?",
+            "answer": "The Spectre has an estimated range of 530 km on a full charge. Actual range may vary slightly depending on driving style, highway speeds, and air conditioning usage in warm weather."
+          },
+          {
+            "question": "Are electric charging costs included in the rental price?",
+            "answer": "While public charging costs are typically billed to the user, most premium hotels and restaurants in Dubai offer complimentary charging services for valet guests. We also provide assistance with public charging access."
+          },
+          {
+            "question": "Can I drive the electric Spectre from Dubai to Abu Dhabi and back?",
+            "answer": "Yes. The distance between Dubai and Abu Dhabi is approximately 140 km, meaning a round trip of 280 km is well within the Spectre's 530 km range, leaving plenty of battery for city driving."
+          }
         ]
-      },
-      {
-        "type": "heading",
-        "text": "Who Should Rent the Spectre?"
-      },
-      {
-        "type": "paragraph",
-        "text": "The Spectre is ideal for tech executives, sustainability-conscious luxury travellers, content creators seeking unique visuals, and anyone who wants to experience the future of Rolls-Royce. Its split headlight design and fastback silhouette guarantee attention at every venue."
       },
       {
         "type": "cta",
-        "text": "Experience the future of luxury. The Spectre is available for immediate booking.",
+        "text": "Drive the future of luxury today. Reserve your Rolls-Royce Spectre and experience silent electric power in Dubai.",
         "buttonText": "Book the Spectre",
         "buttonLink": "/fleet/spectre"
       }
@@ -89,76 +152,139 @@
     "description": "استأجر رولز رويس سبكتر الكهربائية بالكامل في دبي من 7,500 درهم/اليوم. 577 حصان، مدى 530 كم، فخامة بدون انبعاثات.",
     "author": "Ahmed Salem",
     "date": "2026-02-01",
-    "readTime": "قراءة 8 دقائق",
+    "readTime": "16 دقائق قراءة",
     "category": "أدلة إرشادية",
-    "image": "/images/2024_Rolls-Royce_Spectre.jpg",
+    "image": "/images/blog/rolls-royce-spectre-electric-dubai-cover.jpg",
     "content": [
       {
+        "type": "quickAnswer",
+        "text": "تعتبر رولز رويس سبكتر أول سيارة كوبيه كهربائية فائقة الفخامة من العلامة البريطانية، حيث تجمع بين الأداء الكهربائي الصامت والجماليات الفاخرة؛ وتبدأ أسعار الإيجار من <strong>7,500 درهم يومياً</strong>، وتتميز بقوة 577 حصاناً ومدى قيادة يبلغ 530 كم ونظام تعليق بلانار المتطور. لتجربة هذه التحفة الكهربائية في دبي، تواصل مع شركة نقرة عبر واتساب على <a href=\"https://wa.me/971558164922\">+971 55 816 4922</a>. ونحن نضمن لكم تسليم السيارة والشفافية الكاملة في الأسعار والخدمات."
+      },
+      {
         "type": "paragraph",
-        "text": "وصلت رولز رويس سبكتر إلى دبي لتفتح فصلاً جديداً في عالم السيارات الفائقة الفخامة. وبصفتها أول رولز رويس كهربائية بالكامل، تجمع سبكتر بين 577 حصاناً من العزم الفوري والهدوء الأسطوري ورقي الأداء الذي تشتهر به العلامة، وكل ذلك معزّز الآن بقوة الدفع الكهربائي."
+        "text": "يمثل وصول سيارة رولز رويس سبكتر إلى دبي لحظة ثورية في مسيرة تطور السيارات فائقة الفخامة؛ فبصفتها أول سيارة كهربائية بالكامل تنتجها العلامة التجارية العريقة، تنقل سبكتر الخصائص الفريدة لرولز رويس—القوة السلسة، والهدوء المطلق، والتحليق على بساط الريح السحري—إلى العصر الكهربائي الجديد. وتوفر البنية التحتية المتطورة وأفق دبي المعماري الحديث خلفية مثالية لهذه السيارة الكوبيه الفاخرة التي تجسد قمة السفر الفاخر المستدام. وإن القيادة بجوار ناطحات السحاب المضيئة في وسط مدينة دبي وركن السيارة أمام الفنادق والمنتجعات الفاخرة يمنحك شعوراً لا مثيل له بالنجاح والتميز العصري. وتجذب السيارة إعجاب كل من يراها على الطريق بفضل تصميمها المستقبلي الرائع وحضورها البصري الساحر الذي يعبر عن التناغم الفريد بين الفخامة والبيئة النظيفة. تصفح خياراتنا المتميزة واحجز سيارتك اليوم من أسطول <a href=\"/ar/fleet/dawn\">رولز رويس سبكتر الفاخرة</a>."
+      },
+      {
+        "type": "paragraph",
+        "text": "وتتطلب قيادة سيارة كهربائية في دولة الإمارات تقديراً عميقاً للهندسة المتقدمة؛ حيث لم يتم تصميم سبكتر بمجرد تعديل سيارة احتراق داخلي، بل تم بناؤها من الصفر كسيارة كهربائية فائقة الفخامة ومخصصة، مستخدمة منصة 'بنية الفخامة' المصنوعة بالكامل من الألمنيوم والخاصة برولز رويس. وتم تطوير هذا الهيكل خصيصاً لاستيعاب البطارية الضخمة مع الحفاظ على الأمان والصلابة التي يتوقعها ركاب رولز رويس وحماية مقصورة الركاب من كافة العوامل الخارجية. ونستعرض في هذا الدليل الشامل الأهمية التاريخية لسيارة سبكتر، ونناقش مواصفاتها الفنية بدقة، ونبين كيفية التعامل مع الطقس الحار في دبي، ونقدم نصائح عملية لتحسين تجربة الشحن والقيادة لتستمتع بكل دقيقة تقضيها خلف المقود وتضمن راحة تامة لكافة مرافقيك."
       },
       {
         "type": "heading",
-        "text": "لماذا تُغيّر سبكتر قواعد اللعبة"
+        "text": "محطة تاريخية بارزة: تحقق نبوءة تشارلز رولز"
       },
       {
         "type": "paragraph",
-        "text": "تنبّأ تشارلز رولز بنفسه عام 1900 بأن السيارة الكهربائية ستكون صامتة تماماً ونظيفة. وبعد أكثر من 120 عاماً، تحقق سبكتر تلك الرؤية بصفتها أكثر سيارات رولز رويس تطوراً من الناحية التقنية على الإطلاق."
+        "text": "في عام 1900، قاد تشارلز رولز، الشريك المؤسس للعلامة العريقة، سيارة كهربائية مبكرة تسمى 'كولومبيا' وأطلق نبوءة تاريخية؛ حيث أشار إلى أن السيارة الكهربائية صامتة ونظيفة تماماً، وخالية من الروائح والاهتزازات، وكتب أنها ستكون مفيدة وعملية للغاية بمجرد توفر محطات الشحن المناسبة في الطرقات. وبعد مرور أكثر من 120 عاماً، تحقق سبكتر هذه النبوءة التاريخية، لتثبت أن الدفع الكهربائي هو الشريك المثالي لهوية رولز رويس الفاخرة؛ فغياب اهتزازات المحرك والقوة الفورية يتطابقان تماماً مع ما يتوقعه العملاء من رولز رويس، مما يرتقي بتجربة الهدوء إلى مستويات لا يمكن لمحركات البنزين بلوغها على الإطلاق ويوفر ملاذاً هادئاً وخاصاً داخل مقصورة السيارة الفخمة."
+      },
+      {
+        "type": "paragraph",
+        "text": "وبفضل استبدال محرك الـ V12 التقليدي بنظام دفع كهربائي مزدوج المحركات، حققت رولز رويس مستوى من الهدوء والسلاسة كان من المستحيل تحقيقه سابقاً؛ حيث لا تحتاج سبكتر لإخفاء أصوات الأجزاء الميكانيكية لعدم وجودها في الأصل. ويمثل هذا الإنجاز التاريخي أكثر من مجرد تغيير تكنولوجي، بل يعبر عن التزام كامل بمستقبل النقل الفاخر بما يتوافق مع استراتيجيات الطاقة النظيفة في دبي ورغبات المسافرين العصريين الذين يفضلون الاستدامة دون التخلي عن الفخامة والراحة. وهي دليل قاطع على قدرة العلامة على التطور والابتكار مع الحفاظ على إرثها العريق من الأناقة والتطريز البريطاني التقليدي الفريد."
       },
       {
         "type": "image",
-        "src": "/images/2024_Rolls-Royce_Spectre.jpg",
-        "alt": "رولز رويس سبكتر في دبي",
-        "caption": "سبكتر: 577 حصاناً من الفخامة الكهربائية الصامتة"
+        "src": "/images/blog/rolls-royce-spectre-electric-dubai-inline.webp",
+        "alt": "سيارة رولز رويس سبكتر الكهربائية الفاخرة في دبي",
+        "caption": "رولز رويس سبكتر: تجمع بين التصميم الانسيابي المنحدر للخلف والأداء الكهربائي المتطور."
       },
       {
         "type": "heading",
-        "text": "أبرز المواصفات"
+        "text": "المواصفات الفنية وديناميكية الحركة الكهربائية"
+      },
+      {
+        "type": "paragraph",
+        "text": "تعتمد رولز رويس سبكتر على محركين كهربائيين—واحد على كل محور—يولدان معاً قوة 577 حصاناً وعزم دوران فوري يبلغ 900 نيوتن متر؛ مما يسمح للسيارة الثقيلة بالتسارع من 0 إلى 100 كم/ساعة خلال 4.5 ثوانٍ فقط. وتم تصميم التسارع ليكون ناعماً وتدريجياً لتفادي الاندفاع العنيف المفاجئ والشائع في السيارات الكهربائية الأخرى، حيث ترتفع القوة كموجة مستمرة تحاكي أسلوب محركات V12 الكلاسيكية وتوفر استجابة فورية فائقة عند التجاوز على الطرقات السريعة، مما يجعل السائق يشعر بالتحكم الكامل والثقة التامة في كافة الأوقات. هذه القوة الاستثنائية تمنح السيارة قدرة عالية على المناورة في المنعطفات الصعبة وتجاوز العقبات بسلاسة لا تضاهى، مما يزيد من متعة القيادة للسائق والركاب على حد سواء."
+      },
+      {
+        "type": "paragraph",
+        "text": "ومع بطارية ليثيوم أيون بسعة 102 كيلوواط في الساعة، توفر سبكتر مدى قيادة تقديري يصل إلى 530 كم بشحنة واحدة؛ وهو مدى كافٍ للتجول في أرجاء دبي، أو السفر إلى أبوظبي، أو القيادة على الطرق الساحلية الطويلة في الإمارات الشمالية. وتم دمج البطارية في الهيكل المصنوع من الألمنيوم لرفع الصلابة الهيكلية بنسبة 30%، ولتعمل البطارية نفسها كعازل صوتي بوزن 700 كجم لامتصاص الاهتزازات؛ مما يوضح كيف تساهم الهندسة الكهربائية في تحسين تجربة الفخامة وتحويل وزن البطارية إلى ميزة إضافية لراحة الركوب وتمنح السيارة ثباتاً مطلقاً على مختلف السرعات."
       },
       {
         "type": "list",
         "items": [
-          "<strong>القوة:</strong> 577 حصاناً / عزم فوري يبلغ 900 نيوتن متر",
-          "<strong>المدى:</strong> 530 كم بشحنة واحدة",
-          "<strong>التسارع من 0 إلى 100 كم/س:</strong> 4.5 ثانية",
-          "<strong>البنية:</strong> نظام كهربائي بقوة 700 فولت على منصة Architecture of Luxury",
-          "<strong>الوزن:</strong> 2,975 كجم — أثقل رولز رويس على الإطلاق، ما يمنحها تلك القيادة الانسيابية الناعمة كالسجادة السحرية",
-          "<strong>الأبواب:</strong> أبواب عكسية (Coach doors) بفتح وإغلاق آلي كهربائي"
+          "<strong>نظام الدفع:</strong> محركان كهربائيان بقوة 577 حصاناً وعزم دوران فوري يبلغ 900 نيوتن متر.",
+          "<strong>البطارية والمدى:</strong> سعة 102 كيلوواط/ساعة توفر مدى قيادة يصل إلى 530 كم بشحنة واحدة.",
+          "<strong>قدرات الشحن:</strong> شحن سريع بقوة 195 كيلوواط DC يعيد شحن البطارية من 10% إلى 80% في 34 دقيقة.",
+          "<strong>الأبعاد الخارجية:</strong> تصميم انسيابي منحدر للخلف بطول 5.47 أمتار وأبواب تفتح للخلف بشكل وقور.",
+          "<strong>العزل الصوتي:</strong> بطارية مدمجة بالهيكل تعمل كعازل طبيعي لتوفير أهدأ مقصورة في تاريخ رولز رويس."
         ]
       },
       {
         "type": "heading",
-        "text": "ميزة القيادة الكهربائية في دبي"
+        "text": "شبكة شحن السيارات الكهربائية في دبي ومميزات القيادة"
       },
       {
         "type": "paragraph",
-        "text": "دبي هي المدينة المثالية لسيارة سبكتر. فمع بنية تحتية واسعة لمحطات شحن السيارات الكهربائية، وطرق سريعة سلسة، وطقس دافئ على مدار العام يرفع كفاءة أداء البطارية، تتألق سبكتر في هذه المدينة. كما أن التزام دبي بالاستدامة عبر استراتيجية دبي للطاقة النظيفة 2050 يجعل سبكتر خياراً منسجماً مع توجهات المدينة."
+        "text": "تعد دبي واحدة من أكثر المدن ملاءمة للسيارات الكهربائية في المنطقة؛ حيث تتميز بشبكة واسعة من محطات الشحن العام؛ وقامت هيئة كهرباء ومياه دبي (ديوا) بتركيب مئات من محطات الشاحن الأخضر في مختلف أرجاء المدينة، بما في ذلك مراكز التسوق الكبرى مثل دبي مول ومول الإمارات والمناطق السكنية الفاخرة مثل مرسى دبي وجي بي آر. بالإضافة إلى ذلك، توفر معظم فنادق الـ 5 نجوم، مثل فندق أرماني في برج خليفة وفندق برج العرب، منصات شحن مخصصة وخدمات شحن مجانية لضيوف الفاليه، مما يزيل أي قلق بشأن نفاد الشحن أثناء تنقلاتك. ويوفر شحن السيارة في هذه المواقع الفاخرة راحة تامة، حيث تتولى فرق الخدمة المختصة إدارة شحن سيارتك بالكامل لتستمتع بوقتك دون أي تشتيت أو انتظار طويل في الأماكن العامة."
+      },
+      {
+        "type": "paragraph",
+        "text": "ويساعد مناخ دولة الإمارات المعتدل في الحفاظ على درجات حرارة مثالية لتشغيل البطارية خلال أشهر الشتاء؛ ولضمان كفاءة الأداء في الصيف، تم تجهيز سبكتر بنظام إدارة حراري متطور يحافظ على برودة البطارية والمقصورة. وتعد القيادة على الطرق السريعة السلسة مثل شارع الشيخ زايد أو شارع الخيل تجربة مريحة واستثنائية للغاية في سبكتر، حيث يتعاون المحرك الكهربائي الصامت ومركز الجاذبية المنخفض لمنحك رحلة ثابتة ومستقرة تماماً تعزلك عن صخب حركة المرور الخارجية وتمنحك هدوءاً مطلقاً، وتعمل أنظمة كبح الطاقة التلقائية على إعادة شحن البطارية بنعومة وسلاسة ودون إزعاج الركاب لتضمن توازناً عبقرياً بين متعة القيادة الفائقة والراحة المهيبة."
       },
       {
         "type": "heading",
-        "text": "أسعار الإيجار"
+        "text": "نظام تعليق بلانار وعزل الصوت في المقصورة الكهربائية"
       },
       {
-        "type": "list",
-        "items": [
-          "<strong>يومياً:</strong> 7,500 درهم (تشمل 250 كم)",
-          "<strong>أسبوعياً:</strong> 45,000 درهم (تشمل 1,750 كم)",
-          "<strong>شهرياً:</strong> 150,000 درهم (تشمل 5,000 كم)",
-          "<strong>بالساعة:</strong> 1,500 درهم (بحد أدنى ساعتين مع سائق خاص)"
+        "type": "paragraph",
+        "text": "للحفاظ على تجربة 'بساط الريح السحري' الأسطورية، طور مهندسو رولز رويس نسخة محدثة من نظام تعليق بلانار (Planar) خصيصاً لسيارة سبكتر؛ حيث يعمل هذا النظام بالتعاون مع كاميرات قراءة الطريق وبيانات الـ GPS للتنبؤ بحالة الأسفلت ومطبات الطريق، ويقوم بفصل قضبان التثبيت في الطرق المستقيمة لمنع حركة الهيكل الجانبية عند عبور المطبات؛ وعند المنعطفات، يعيد النظام ربط القضبان تلقائياً وتعديل المساعدين لضمان بقاء السيارة متزنة وثابتة تماماً وتوفير رحلة ناعمة للغاية وتحقيق أقصى مستويات الراحة الممكنة."
+      },
+      {
+        "type": "paragraph",
+        "text": "ويمثل عزل الصوت في مقصورة سبكتر إنجازاً هندسياً فريداً؛ فبالإضافة لعزل البطارية المدمجة، تم تزويد السيارة بزجاج جانبي مزدوج عازل للصوت، وتجويفات معزولة في الأبواب، وإطارات صامتة ومخصصة تحتوي على رغوة ماصة للضوضاء؛ مما يجعل الانتقال من صخب شوارع المدينة إلى صمت مقصورة سبكتر فورياً، ليتسنى لك الاستمتاع بالنظام الصوتي الفاخر أو إجراء محادثات هادئة مع ركابك دون إزعاج من صوت الرياح أو الطريق حتى عند القيادة بسرعات عالية على الطرقات الخارجية الفسيحة لتبقى المقصورة واحة من الطمأنينة والسلام والعزل الكامل عن محيط المدينة الصاخب."
+      },
+      {
+        "type": "heading",
+        "text": "إرشادات الشحن والتعليمات العملية للمستأجرين"
+      },
+      {
+        "type": "paragraph",
+        "text": "يتطلب استئجار سيارة كهربائية في دبي معرفة بسيطة ببروتوكولات الشحن؛ ونحن نسلم سبكتر لعملائنا وهي مشحونة بنسبة 80% على الأقل لتنطلق في رحلتك فوراً؛ وننصح بالحفاظ على مستوى شحن البطارية بين 20% و 80% أثناء تنقلاتك اليومية لضمان سرعة الشحن وحماية عمر البطارية؛ وإذا كنت تخطط لرحلة طويلة، فإن استخدام الشواحن السريعة المنتشرة في المدينة يتيح لك إضافة مدى قيادة كافٍ خلال فترة استراحتك وتناول القهوة والاستمتاع بالتسوق في مراكز دبي الكبرى وناطحات السحاب المنتشرة حولك."
+      },
+      {
+        "type": "paragraph",
+        "text": "وعند استخدام محطات الشحن العامة، من المهم اتباع آداب الشحن مثل نقل السيارة بمجرد اكتمال الشحن لتتيح الفرصة للآخرين؛ وتوفر معظم الوجهات الراقية خدمات فاليه تتولى عملية الشحن بالكامل نيابة عنك لتمنحك راحة بال إضافية وتوفر عليك عناء البحث والتنسيق. وإذا احتجت لأي مساعدة في العثور على شاحن سريع أو ضبط إعدادات الشحن، فإن فريق الدعم الفني لدينا متاح على مدار الساعة عبر واتساب لمساعدتك. وللاطلاع على الدليل الشامل لتأجير السيارات الفاخرة، يرجى قراءة <a href=\"/ar/blog/ultimate-guide-rolls-royce-rental-dubai\">الدليل الشامل لتأجير رولز رويس في دبي</a>."
+      },
+      {
+        "type": "heading",
+        "text": "أبواب النجوم الفاخرة والأنظمة الرقمية المخصصة"
+      },
+      {
+        "type": "paragraph",
+        "text": "تعتبر مقصورة سبكتر معرضاً يدمج بين الابتكار الرقمي والحرفية اليدوية؛ ولأول مرة في سيارة رولز رويس، تتوفر سبكتر بـ 'أبواب النجوم' (Starlight Doors) التي تضم 4,796 نقطة مضيئة تمتد من السقف إلى الألواح الجانبية لتبدو كالسماء الصافية؛ وتضم لوحة القيادة اسم سبكتر محاطاً بأكثر من 5,500 نجمة متلألئة، مما يمنحك تجربة بصرية رائعة عند القيادة ليلاً وفي المناسبات الاجتماعية واللقاءات الراقية ويعطيك شعوراً بالأناقة والتميز المتكامل داخل هذه التحفة الفنية الفريدة. كما أن الخامات المستخدمة في لوحة القيادة وفي الأبواب الجانبية تمنح المقصورة هيبة وجمالاً فائقين يتناسبان تماماً مع حضور السيارة الجريء على كافة طرقات دولة الإمارات العربية المتحدة."
+      },
+      {
+        "type": "paragraph",
+        "text": "وتم تحديث الواجهة الرقمية بالكامل لتعتمد على نظام 'روح' (Spirit) الرقمي الجديد، والذي يتيح للعملاء تخصيص ألوان العدادات والشاشات لتتطابق تماماً مع ألوان جلود المقصورة والتطريزات المختارة؛ مما يخلق انسجاماً بصرياً رائعاً يجمع بين الفخامة الكلاسيكية والتقنيات الحديثة التي تبرز التوجه التقني المتقدم لسيارة سبكتر المتجذرة في تراث رولز رويس العريق. وللمزيد من النصائح حول سفر الأعمال، يرجى قراءة مقالنا حول <a href=\"/ar/blog/business-travel-rolls-royce\">سفر الأعمال بسيارات رولز رويس الفاخرة</a>."
+      },
+      {
+        "type": "faq",
+        "questions": [
+          {
+            "question": "ما هي تكلفة الاستئجار اليومي لسيارة رولز رويس سبكتر في دبي؟",
+            "answer": "تبدأ تكلفة استئجار رولز رويس سبكتر من 7,500 درهم إماراتي في اليوم، ويشمل ذلك التأمين الشامل وحد مسافة يومي يبلغ 250 كم؛ ونحن نقدم أسعاراً خاصة للحجوزات الأسبوعية والشهرية."
+          },
+          {
+            "question": "كم من الوقت يستغرق شحن بطارية رولز رويس سبكتر؟",
+            "answer": "باستخدام الشاحن السريع بقوة 195 كيلوواط، يمكن شحن البطارية من 10% إلى 80% في غضون 34 دقيقة؛ بينما يستغرق الشاحن المنزلي المتردد AC بقدرة 22 كيلوواط حوالي 5.5 ساعات للشحن الكامل."
+          },
+          {
+            "question": "ما هو المدى الفعلي لسيارة سبكتر بشحنة واحدة؟",
+            "answer": "يصل المدى التقديري لسيارة سبكتر إلى 530 كم بشحنة كاملة، وقد يتغير المدى الفعلي بشكل طفيف بناءً на أسلوب القيادة، والسرعة على الطرق السريعة، ومعدل استخدام تكييف الهواء في الصيف."
+          },
+          {
+            "question": "هل تضاف تكاليف شحن السيارة الكهربائية إلى سعر الإيجار؟",
+            "answer": "تتحمل العميل تكلفة الشحن في المحطات العامة، ولكن معظم الفنادق والمنتجعات الفاخرة in دبي تقدم خدمات شحن مجانية لضيوف الفاليه؛ كما نقدم الدعم الكامل لتسهيل الوصول للمحطات."
+          },
+          {
+            "question": "هل يمكنني قيادة سبكتر الكهربائية من دبي إلى أبوظبي والعودة؟",
+            "answer": "نعم بكل تأكيد؛ فالمسافة بين دبي وأبوظبي تبلغ حوالي 140 كم، مما يعني أن الرحلة ذهاباً وإياباً (280 كم) تقع تماماً ضمن مدى البطارية البالغ 530 كم دون الحاجة للشحن في الطريق."
+          }
         ]
-      },
-      {
-        "type": "heading",
-        "text": "من المناسب أن يستأجر سبكتر؟"
-      },
-      {
-        "type": "paragraph",
-        "text": "تُعد سبكتر الخيار الأمثل للمديرين التنفيذيين في مجال التقنية، ومحبي الفخامة المهتمين بالاستدامة، وصُنّاع المحتوى الباحثين عن مشاهد بصرية مميزة، وكل من يرغب في اختبار مستقبل رولز رويس. فتصميم المصابيح الأمامية المنفصلة والخط الانسيابي المنحدر للخلف (Fastback) يضمن لها لفت الأنظار في كل مكان."
       },
       {
         "type": "cta",
-        "text": "اختبر مستقبل الفخامة. سبكتر متاحة الآن للحجز الفوري.",
-        "buttonText": "احجز سبكتر",
+        "text": "قد مستقبل الفخامة اليوم. احجز رولز رويس سبكتر الآن واستمتع بالقوة الكهربائية الصامتة في دبي.",
+        "buttonText": "احجز سبكتر الآن",
         "buttonLink": "/fleet/spectre"
       }
     ],
@@ -173,75 +299,138 @@
     "description": "Аренда полностью электрического Rolls-Royce Spectre в Дубае от 7 500 AED/сутки. 577 л.с., запас хода 530 км, роскошь без выбросов.",
     "author": "Ahmed Salem",
     "date": "2026-02-01",
-    "readTime": "8 мин чтения",
+    "readTime": "16 мин чтения",
     "category": "Гиды",
-    "image": "/images/2024_Rolls-Royce_Spectre.jpg",
+    "image": "/images/blog/rolls-royce-spectre-electric-dubai-cover.jpg",
     "content": [
       {
+        "type": "quickAnswer",
+        "text": "Rolls-Royce Spectre — это первое полностью электрическое суперкупе бренда, сочетающее бесшумный ход электромобиля и эстетику ультра-люкс. Стоимость аренды начинается от <strong>7 500 AED/сутки</strong>, предлагая мощность 577 л.с., запас хода до 530 км и инновационную подвеску Planar. Чтобы забронировать этот электрический шедевр в Дубае, свяжитесь с Naqra FZE в WhatsApp по номеру <a href=\"https://wa.me/971558164922\">+971 55 816 4922</a>. Мы гарантируем идеальное состояние машины и прозрачные цены."
+      },
+      {
         "type": "paragraph",
-        "text": "Rolls-Royce Spectre прибыл в Дубай, открывая новую главу в мире сверхроскошных автомобилей. Как первый полностью электрический Rolls-Royce, Spectre сочетает 577 л.с. мгновенного крутящего момента с легендарной тишиной и утончённостью, которыми славится марка, — теперь усиленными электрической мощью."
+        "text": "Появление Rolls-Royce Spectre в Дубае знаменует начало новой эры в сегменте сверхроскошных автомобилей. Будучи первой полностью электрической серийной моделью бренда, Spectre переносит классические черты Rolls-Royce — плавное ускорение, абсолютную тишину салона и эффект полета над дорогой — в электрическую эпоху. Современные дороги Дубая и футуристический облик мегаполиса служат идеальным фоном для этого электрического суперкупе, которое олицетворяет вершину экологичной роскоши. Поездка мимо небоскребов Downtown Dubai или парковка у входа в элитные отели на Spectre подчеркнет ваш статус. Внешний вид автомобиля привлекает восторженные взгляды ценителей современных технологий и классической роскоши по всему району JBR и Dubai Marina, демонстрируя новое прочтение британского стиля. Ознакомьтесь с доступными опциями и арендуйте автомобиль из нашей эксклюзивной коллекции <a href=\"/ru/fleet/spectre\">Rolls-Royce Spectre в аренду</a>."
+      },
+      {
+        "type": "paragraph",
+        "text": "Эксплуатация электромобиля представительского класса на дорогах ОАЭ требует понимания передовых инженерных решений. Spectre разработан с нуля как оригинальный электромобиль сверхроскошного класса на базе фирменной алюминиевой платформы бренда «Architecture of Luxury», а не переделан из автомобиля с двигателем внутреннего сгорания. Эта пространственная рама спроектирована специально для размещения тяжелой батареи, обеспечивая жесткость и безопасность кузова, которую ожидают пассажиры Rolls-Royce. В этом подробном обзоре мы рассмотрим историческую значимость модели Spectre, ее технические параметры, особенности работы батареи в жарком климате Дубая и дадим рекомендации по зарядке автомобиля во время поездки, чтобы сделать ваш опыт использования электрокара максимально приятным и беззаботным."
       },
       {
         "type": "heading",
-        "text": "Почему Spectre меняет всё"
+        "text": "Историческая веха: пророчество Чарльза Роллса сбылось"
       },
       {
         "type": "paragraph",
-        "text": "Ещё в 1900 году Чарльз Роллс предсказал, что электромобиль будет совершенно бесшумным и чистым. Спустя более 120 лет Spectre воплощает это видение, став самым технологически совершенным Rolls-Royce за всю историю марки."
+        "text": "В 1900 году сооснователь бренда Чарльз Роллс протестировал ранний американский электромобиль Columbia и высказал пророческую мысль. Он отметил, что электрический привод работает абсолютно бесшумно, не создает запахов и вибраций, и добавил, что такие машины станут очень популярными, как только будет создана разветвленная сеть зарядных станций на дорогах. Спустя 120 лет модель Spectre полностью подтверждает это пророчество, доказывая, что электротяга идеально подходит философии бренда: отсутствие вибраций и мгновенный крутящий момент — это то, что клиенты ценят в Rolls-Royce. Отсутствие шума поднимает комфорт в салоне на недосягаемый для классических ДВС уровень, предлагая пассажирам абсолютный акустический вакуум."
+      },
+      {
+        "type": "paragraph",
+        "text": "Заменив традиционный мотор V12 на двухмоторную электрическую силовую установку, инженерам удалось достичь беспрецедентного уровня тишины. Конструкции Spectre не нужно глушить механический шум, поскольку в нем нет трущихся деталей двигателя. Эта историческая веха — больше чем смена технологий, это стратегический курс на экологичное будущее роскошного транспорта, который перекликается с экологическими инициативами ОАЭ и запросами современных клиентов, выбирающих комфорт без вреда для экологии. Это подтверждает статус бренда как лидера инноваций, бережно сохраняющего традиции ручной работы и высочайшего качества британских мастеров."
       },
       {
         "type": "image",
-        "src": "/images/2024_Rolls-Royce_Spectre.jpg",
-        "alt": "Rolls-Royce Spectre в Дубае",
-        "caption": "Spectre: 577 л.с. бесшумной электрической роскоши"
+        "src": "/images/blog/rolls-royce-spectre-electric-dubai-inline.webp",
+        "alt": "Электрическое купе Rolls-Royce Spectre в Дубае",
+        "caption": "Rolls-Royce Spectre: сочетание классического силуэта фастбэк и передовых электрических технологий."
       },
       {
         "type": "heading",
-        "text": "Ключевые характеристики"
+        "text": "Технические характеристики и динамика электромобиля"
+      },
+      {
+        "type": "paragraph",
+        "text": "Электрический Rolls-Royce Spectre приводится в движение двумя моторами (по одному на каждой оси), которые выдают 577 л.с. и 900 Нм крутящего момента. Это позволяет купе ускоряться с 0 до 100 км/ч всего за 4,5 секунды. Набор скорости происходит плавно и линейно, без резких рывков, характерных для большинства спортивных электромобилей; мощность нарастает подобно волне, воссоздавая эффект плавного набора скорости классических моторов V12 и обеспечивая уверенное маневрирование на скоростных трассах ОАЭ, при этом водитель всегда ощущает полный контроль над динамикой автомобиля на любой скорости. Этот силовой потенциал гарантирует водителю полную уверенность при перестроениях и ускорениях на скоростных многополосных трассах, обеспечивая мгновенный отклик на малейшее нажатие педали газа. Плавное линейное ускорение исключает дискомфорт для пассажиров, делая разгон незаметным и очень комфортным даже при резком старте."
+      },
+      {
+        "type": "paragraph",
+        "text": "Литий-ионная батарея емкостью 102 кВтч обеспечивает запас хода до 530 км на одном заряде. Этого запаса хода достаточно для поездок по Дубаю, поездки в Абу-Даби или прогулок по живописным прибрежным трассам северных эмиратов. Батарея интегрирована в силовую структуру алюминиевой рамы кузова, что повысило ее жесткость на 30%, а также выполняет роль звукопоглощающего экрана весом 700 кг, изолирующего салон от дорожного шума. Это пример того, как электрические технологии улучшают комфорт, превращая тяжелую батарею в важный элемент плавности хода и общей стабильности кузова на шоссе."
       },
       {
         "type": "list",
         "items": [
-          "<strong>Мощность:</strong> 577 л.с. / 900 Нм мгновенного крутящего момента",
-          "<strong>Запас хода:</strong> 530 км на одной зарядке",
-          "<strong>0–100 км/ч:</strong> 4,5 секунды",
-          "<strong>Архитектура:</strong> электросистема 700 В на платформе Architecture of Luxury",
-          "<strong>Вес:</strong> 2 975 кг — самый тяжёлый Rolls-Royce в истории, что обеспечивает ту самую плавность хода «ковра-самолёта»",
-          "<strong>Двери:</strong> распашные двери (coach doors) с электроприводом открывания и закрывания"
+          "<strong>Силовая установка:</strong> два электромотора мощностью 577 л.с. и 900 Нм крутящего момента.",
+          "<strong>Батарея и запас хода:</strong> емкость 102 кВтч обеспечивает пробег до 530 км на одной полной зарядке.",
+          "<strong>Зарядные устройства:</strong> поддержка быстрой зарядки мощностью 195 кВт DC (от 10% до 80% за 34 минуты).",
+          "<strong>Габариты кузова:</strong> классический фастбэк длиной 5,47 м с просторным салоном и распашными дверями.",
+          "<strong>Шумоизоляция:</strong> интеграция батареи в пол кузова создает тишину в салоне и гасит вибрации."
         ]
       },
       {
         "type": "heading",
-        "text": "Преимущество электромобиля в Дубае"
+        "text": "Зарядная инфраструктура в Дубае и особенности эксплуатации"
       },
       {
         "type": "paragraph",
-        "text": "Дубай — идеальный город для Spectre. Развитая сеть зарядных станций для электромобилей, ровные скоростные трассы и тёплая погода круглый год, которая повышает эффективность батареи, — здесь Spectre раскрывается в полной мере. А курс Дубая на устойчивое развитие в рамках Стратегии чистой энергии Дубая до 2050 года делает Spectre ещё и созвучным духу города."
+        "text": "Дубай является одним из самых развитых городов в плане зарядной инфраструктуры для электромобилей в регионе. Государственная компания DEWA установила сотни зарядных станций Green Charger по всему городу, включая паркинги крупнейших торговых центров, таких как Dubai Mall и Mall of the Emirates, а также в элитных районах Dubai Marina и JBR. Кроме того, практически все пятизвездочные отели, включая Armani Hotel в Burj Khalifa и Burj Al Arab, предлагают гостям выделенные места для зарядки электромобилей, что полностью исключает любые проблемы с поиском зарядки во время деловых встреч или отдыха. Наличие зарядных станций во всех ключевых точках города делает использование электромобиля Spectre исключительно удобным и избавляет от необходимости планировать маршрут с учетом остановок на зарядку, позволяя полностью сосредоточиться на делах или отдыхе. Благодаря этому вы можете заряжать свой Spectre во время шопинга или делового обеда в DIFC, совершенно не беспокоясь о наличии свободных терминалов, так как персонал отеля всегда готов прийти на помощь."
+      },
+      {
+        "type": "paragraph",
+        "text": "Мягкий зимний климат Дубая идеален для эксплуатации электромобилей, так как позволяет поддерживать оптимальную температуру батареи. Для работы в жаркие летние месяцы Spectre оснащен эффективной системой терморегуляции, охлаждающей батарею и салон. Поездки по скоростным трассам, таким как шоссе Шейха Зайда или Аль-Хайл Роуд, на Spectre исключительно комфортны: бесшумный мотор и низкий центр тяжести гарантируют стабильность движения и отличную управляемость на любых скоростях, а система рекуперации энергии настроена настолько плавно, что торможение происходит максимально комфортно для пассажиров, превращая каждую поездку в сплошное удовольствие."
       },
       {
         "type": "heading",
-        "text": "Стоимость аренды"
+        "text": "Подвеска Planar и акустический комфорт салона"
       },
       {
-        "type": "list",
-        "items": [
-          "<strong>Сутки:</strong> 7 500 AED (включает 250 км)",
-          "<strong>Неделя:</strong> 45 000 AED (включает 1 750 км)",
-          "<strong>Месяц:</strong> 150 000 AED (включает 5 000 км)",
-          "<strong>Час:</strong> 1 500 AED (минимум 2 часа с водителем)"
+        "type": "paragraph",
+        "text": "Для поддержания фирменного эффекта полета над дорогой инженеры адаптировали подвеску Planar под особенности конструкции Spectre. Эта система работает в связке с дорожными камерами и спутниковой навигацией. На прямых участках дорог стабилизаторы поперечной устойчивости размыкаются, исключая раскачку кузова на дорожных неровностях. При входе в поворот система мгновенно зажимает стабилизаторы и меняет настройки амортизаторов, предотвращая крены тяжелого купе и обеспечивая невероятную плавность движения независимо от качества асфальта и присутствия стыков на эстакадах."
+      },
+      {
+        "type": "paragraph",
+        "text": "Акустический комфорт в салоне Spectre также заслуживает внимания. Помимо изоляционных свойств батареи, автомобиль оснащен двойными акустическими стеклами дверей, изолированными внутренними полостями кузова и шинами с шумопоглощающей пеной внутри. Переход из шумного городского трафика в тишину салона Spectre происходит мгновенно, позволяя пассажирам наслаждаться аудиосистемой Bespoke Audio или спокойно общаться во время поездки, не повышая голос из-за шума ветра или колес даже на высоких скоростях. Салон Spectre остается тихим и уютным убежищем в любой дорожной обстановке, создавая идеальный фон для прослушивания музыки."
+      },
+      {
+        "type": "heading",
+        "text": "Правила зарядки и рекомендации для арендаторов электромобиля"
+      },
+      {
+        "type": "paragraph",
+        "text": "Аренда электромобиля в Дубае требует соблюдения простых правил зарядки. Мы передаем Spectre клиентам с уровнем заряда батареи не менее 80%, что позволяет сразу начать поездку. В процессе ежедневной эксплуатации мы рекомендуем поддерживать заряд в диапазоне от 20% до 80% для сохранения ресурса батареи и высокой скорости зарядки. При поездках на дальние расстояния используйте станции быстрой зарядки постоянного тока (DC), которые позволяют восполнить запас хода за время короткой остановки на кофе в придорожных кафе."
+      },
+      {
+        "type": "paragraph",
+        "text": "При использовании общественных зарядных станций важно соблюдать правила вежливости: убирать автомобиль после окончания процесса зарядки. В большинстве премиальных мест сотрудники валет-парковки могут взять на себя процесс зарядки машины, что делает эксплуатацию Spectre простой и удобной для занятых людей. Если вам понадобится помощь с поиском зарядной станции или оплатой услуг, наша служба поддержки доступна 24/7 в WhatsApp. Мы заботимся о состоянии наших автомобилей, поэтому регулярно проводим компьютерную диагностику батареи и всех электрических систем после каждого возврата машины, гарантируя клиентам абсолютную техническую надежность и безопасность в пути. Подробнее об условиях проката люксовых моделей читайте в статье <a href=\"/ru/blog/ultimate-guide-rolls-royce-rental-dubai\">Полное руководство по аренде Rolls-Royce в Дубае</a>."
+      },
+      {
+        "type": "heading",
+        "text": "Двери «Звездное небо» и цифровые возможности"
+      },
+      {
+        "type": "paragraph",
+        "text": "Салон Spectre представляет собой сочетание высоких технологий и традиционного ручного труда. Впервые для серийных моделей бренда Spectre оснащается опцией Starlight Doors — дверными картами с 4 796 подсвеченными точками, продолжающими тему звездного небосвода на потолке. Передняя панель перед пассажиром украшена светящимся логотипом Spectre в окружении 5 500 звезд, создавая атмосферу уюта во время поездок после захода солнца. Тонкая настройка яркости светодиодов позволяет создать в салоне неповторимую вечернюю атмосферу, превращая салон в уютную каюту космического корабля. Использование благородных материалов и ручной сборки гарантирует долговечность и безупречный внешний вид всех элементов салона в течение долгого времени эксплуатации."
+      },
+      {
+        "type": "paragraph",
+        "text": "Мультимедийная система работает на новой цифровой платформе Spirit. Она позволяет настраивать цветовую гамму приборов под оттенки кожаной обивки сидений и строчки в салоне. Сочетание цифровых технологий и кожи ручной выделки создает салон, который ощущается современным и уютным, подчеркивая статус Spectre как автомобиля будущего, не теряющего связь с великим наследием марки. Индивидуальный выбор цветовой палитры интерфейса дает возможность создать уникальную атмосферу в салоне, отражающую личные предпочтения и подчеркивающую ваш тонкий вкус и статус в любой поездке. Подробнее о деловых поездках читайте в нашем материале <a href=\"/ru/blog/business-travel-rolls-royce\">Деловые поездки на Rolls-Royce в Дубае</a>, где описаны все нюансы."
+      },
+      {
+        "type": "faq",
+        "questions": [
+          {
+            "question": "Какова стоимость аренды Rolls-Royce Spectre in Дубае?",
+            "answer": "Стоимость аренды Rolls-Royce Spectre начинается от 7 500 AED в сутки. В эту стоимость входит комплексное страхование и суточный лимит пробега в 250 км. Доступны скидки при недельной аренде."
+          },
+          {
+            "question": "Сколько времени требуется для зарядки аккумулятора Spectre?",
+            "answer": "На станциях быстрой зарядки постоянного тока (DC) мощностью 195 кВт зарядка с 10% до 80% занимает около 34 минут. От стандартной настенной станции AC мощностью 22 кВт полная зарядка займет около 5.5 часов."
+          },
+          {
+            "question": "Каков реальный запас хода Spectre на одном заряде?",
+            "answer": "Запас хода Spectre составляет около 530 км. Реальный пробег зависит от стиля вождения, скорости движения на шоссе и интенсивности работы кондиционера в жаркую погоду."
+          },
+          {
+            "question": "Включена ли стоимость зарядки электромобиля в цену аренды?",
+            "answer": "Оплата зарядки на общественных станциях производится клиентом. При этом большинство люксовых отелей и ресторанов Дубая предлагают бесплатную зарядку при заказе услуг валет-парковки."
+          },
+          {
+            "question": "Можно ли поехать на Spectre из Дубая в Абу-Даби и обратно?",
+            "answer": "Да, расстояние между Дубаем и Абу-Даби составляет около 140 км. Поездка туда и обратно (280 км) укладывается в запас хода Spectre (530 км), оставляя достаточный резерв батареи."
+          }
         ]
-      },
-      {
-        "type": "heading",
-        "text": "Кому стоит арендовать Spectre?"
-      },
-      {
-        "type": "paragraph",
-        "text": "Spectre идеально подойдёт техническим руководителям, ценителям роскоши, которым важна экологичность, контент-мейкерам в поисках эффектных кадров и всем, кто хочет ощутить будущее Rolls-Royce. Раздельные фары и силуэт фастбэка гарантируют внимание на любой площадке."
       },
       {
         "type": "cta",
-        "text": "Почувствуйте будущее роскоши. Spectre доступен для немедленного бронирования.",
+        "text": "Почувствуйте будущее роскоши уже сегодня. Забронируйте Rolls-Royce Spectre и насладитесь тишиной электротяги.",
         "buttonText": "Забронировать Spectre",
         "buttonLink": "/fleet/spectre"
       }

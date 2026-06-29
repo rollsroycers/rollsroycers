@@ -55,29 +55,7 @@ const hrefs = (blocks) => {
 const isInternal = (h) => h.startsWith('/') && !h.startsWith('//')
 const words = (blocks) => (blocks || []).map((b) => [b.text, ...(b.items || [])].filter((x) => typeof x === 'string').join(' ')).join(' ').replace(/<[^>]+>/g, ' ').split(/\s+/).filter(Boolean).length
 
-const LEGACY_SLUGS = new Set([
-  "ultimate-guide-rolls-royce-rental-dubai",
-  "top-scenic-drives-dubai",
-  "rolls-royce-wedding-car-dubai",
-  "business-travel-rolls-royce",
-  "luxury-shopping-dubai-rolls-royce",
-  "rolls-royce-dawn-convertible-dubai",
-  "dubai-luxury-car-guide-2025",
-  "first-time-dubai-luxury-guide",
-  "dubai-luxury-hotels-guide",
-  "dubai-motor-show-2024",
-  "evolution-rolls-royce-history",
-  "rolls-royce-spectre-electric-dubai",
-  "rolls-royce-black-badge-dubai",
-  "rolls-royce-birthday-car-dubai",
-  "hourly-rolls-royce-rental-dubai",
-  "rolls-royce-cullinan-vs-bentley-bentayga",
-  "rolls-royce-photoshoot-dubai-guide",
-  "dubai-new-year-luxury-car-rental",
-  "rolls-royce-phantom-vs-ghost-comparison",
-  "rolls-royce-chauffeur-dubai-guide",
-  "rolls-royce-airport-transfer-dubai"
-])
+const LEGACY_SLUGS = new Set([])
 
 function verify(slug, data) {
   const fails = [], warns = []
