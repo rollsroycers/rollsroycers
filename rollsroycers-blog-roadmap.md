@@ -59,7 +59,7 @@
 
 > **لا تُعد كتابتها.** مصدر الحقيقة: `blogArticles` Record **داخل** `src/pages/blog/[slug].tsx` (محتوى EN) + `src/data/blogTranslations.json` (ar + ru) + `src/data/blogSlugs.json`. عند التضارب → **اعتمد الكود وحدّث هذه القائمة**.
 
-`ultimate-guide-rolls-royce-rental-dubai` · `top-scenic-drives-dubai` · `rolls-royce-wedding-car-dubai` · `business-travel-rolls-royce` · `luxury-shopping-dubai-rolls-royce` · `rolls-royce-dawn-convertible-dubai` · `dubai-luxury-car-guide-2025` · `first-time-dubai-luxury-guide` · `dubai-luxury-hotels-guide` · `dubai-motor-show-2024` · `evolution-rolls-royce-history` · `rolls-royce-spectre-electric-dubai` · `rolls-royce-black-badge-dubai` · `rolls-royce-birthday-car-dubai` · `hourly-rolls-royce-rental-dubai` · `rolls-royce-cullinan-vs-bentley-bentayga` · `rolls-royce-photoshoot-dubai-guide` · `dubai-new-year-luxury-car-rental` · `rolls-royce-phantom-vs-ghost-comparison` · `rolls-royce-chauffeur-dubai-guide` · `rolls-royce-airport-transfer-dubai` · `owns-rolls-royce-dubais-most-coveted-car` · `much-rent-ghost-dubai-clear-price` · `rolls-royce-car-definition-automotive-luxury` · `most-luxurious-car-world-available-rent-dubai` · `rolls-royce-so-expensive-dubai-insiders-breakdown` · `makes-bentley-rolls-royce-two-marques-two-owners`
+`ultimate-guide-rolls-royce-rental-dubai` · `top-scenic-drives-dubai` · `rolls-royce-wedding-car-dubai` · `business-travel-rolls-royce` · `luxury-shopping-dubai-rolls-royce` · `rolls-royce-dawn-convertible-dubai` · `dubai-luxury-car-guide-2025` · `first-time-dubai-luxury-guide` · `dubai-luxury-hotels-guide` · `dubai-motor-show-2024` · `evolution-rolls-royce-history` · `rolls-royce-spectre-electric-dubai` · `rolls-royce-black-badge-dubai` · `rolls-royce-birthday-car-dubai` · `hourly-rolls-royce-rental-dubai` · `rolls-royce-cullinan-vs-bentley-bentayga` · `rolls-royce-photoshoot-dubai-guide` · `dubai-new-year-luxury-car-rental` · `rolls-royce-phantom-vs-ghost-comparison` · `rolls-royce-chauffeur-dubai-guide` · `rolls-royce-airport-transfer-dubai` · `owns-rolls-royce-dubais-most-coveted-car` · `much-rent-ghost-dubai-clear-price` · `rolls-royce-car-definition-automotive-luxury` · `most-luxurious-car-world-available-rent-dubai` · `rolls-royce-so-expensive-dubai-insiders-breakdown` · `makes-bentley-rolls-royce-two-marques-two-owners` · `owns-rolls-royce-company-ownership-history-legacy`
 
 **جدول مرجعي مختصر (slug | category | author | عنوان EN):**
 
@@ -92,6 +92,7 @@
 | 25 | `most-luxurious-car-world-available-rent-dubai` | Luxury | Ahmed Salem | The Most Luxurious Car in the World, Available to Rent in Dubai |
 | 26 | `rolls-royce-so-expensive-dubai-insiders-breakdown` | Guides | Ahmed Salem | Why Are Rolls-Royce So Expensive? A Dubai Insider's Breakdown |
 | 27 | `makes-bentley-rolls-royce-two-marques-two-owners` | Guides | Fatima Al Rashid | Who Makes Bentley vs Rolls-Royce? Two Marques, Two Owners |
+| 28 | `owns-rolls-royce-company-ownership-history-legacy` | Guides | Ahmed Salem | Who Owns the Rolls-Royce Company? Ownership, History and Legacy |
 
 > **الفئات (categories) المتاحة للمقالات الجديدة:** `Guides` · `Luxury` · `Events` · `Tips` — بالإضافة إلى الفئات الموجودة فعلاً في الكود: `Travel` · `Weddings` · `Business` · `Heritage` · `Lifestyle`. التزم بإحداها ولا تخترع فئة جديدة دون حاجة.
 
