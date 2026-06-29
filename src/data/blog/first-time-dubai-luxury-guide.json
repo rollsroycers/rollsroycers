@@ -280,14 +280,14 @@
       {
         "type": "list",
         "items": [
-          "<strong>Daily Rates:</strong> AED 4,800-6,500 depending on model and season.",
+          "<strong>Daily Rates:</strong> AED 3,800-8,500 depending on model and season.",
           "<strong>Weekly Packages:</strong> 15-20% discount for 7+ days.",
           "<strong>Monthly Deals:</strong> Up to 35% savings for extended stays.",
-          "<strong>Chauffeur Service:</strong> Add AED 800-1,200 per day for professional driver.",
+          "<strong>Chauffeur Service:</strong> Add AED 800 per day for professional driver.",
           "<strong>Insurance Options:</strong> Basic included, comprehensive recommended (AED 300-500/day).",
           "<strong>Delivery/Collection:</strong> Complimentary to hotels, AED 300-500 for private addresses.",
           "<strong>Fuel Policy:</strong> Full-to-full standard. Special 98 octane required.",
-          "<strong>Mileage:</strong> 250-300 km/day included. AED 5-10 per extra km."
+          "<strong>Mileage:</strong> 250-300 km/day included. AED 20 per extra km."
         ]
       },
       {
@@ -660,14 +660,14 @@
       {
         "type": "list",
         "items": [
-          "<strong>الأسعار اليومية:</strong> 4,800-6,500 درهم حسب الموديل والموسم.",
+          "<strong>الأسعار اليومية:</strong> 3,800-8,500 درهم حسب الموديل والموسم.",
           "<strong>الباقات الأسبوعية:</strong> خصم 15-20% لـ7 أيام فأكثر.",
           "<strong>العروض الشهرية:</strong> توفير يصل إلى 35% للإقامات الطويلة.",
-          "<strong>خدمة السائق:</strong> أضف 800-1,200 درهم يومياً لسائق محترف.",
+          "<strong>خدمة السائق:</strong> أضف 800 درهم يومياً لسائق محترف.",
           "<strong>خيارات التأمين:</strong> أساسي مشمول، والشامل مستحسن (300-500 درهم/يوم).",
           "<strong>التوصيل/الاستلام:</strong> مجاني للفنادق، و300-500 درهم للعناوين الخاصة.",
           "<strong>سياسة الوقود:</strong> ممتلئ إلى ممتلئ. بنزين خاص 98 أوكتان مطلوب.",
-          "<strong>المسافة:</strong> 250-300 كم/يوم مشمولة. 5-10 دراهم لكل كم إضافي."
+          "<strong>المسافة:</strong> 250-300 كم/يوم مشمولة. 20 درهماً لكل كم إضافي."
         ]
       },
       {
@@ -1040,14 +1040,14 @@
       {
         "type": "list",
         "items": [
-          "<strong>Суточные тарифы:</strong> 4 800–6 500 AED в зависимости от модели и сезона.",
+          "<strong>Суточные тарифы:</strong> 3 800–8 500 AED в зависимости от модели и сезона.",
           "<strong>Недельные пакеты:</strong> скидка 15–20% при аренде от 7 дней.",
           "<strong>Месячные предложения:</strong> экономия до 35% при длительной аренде.",
-          "<strong>Услуга водителя:</strong> +800–1 200 AED в сутки за профессионального шофёра.",
+          "<strong>Услуга водителя:</strong> +800 AED в сутки за профессионального шофёра.",
           "<strong>Страхование:</strong> базовое включено, полное рекомендуется (300–500 AED/сутки).",
           "<strong>Доставка/возврат:</strong> бесплатно к отелям, 300–500 AED на частные адреса.",
           "<strong>Топливо:</strong> «полный — полный». Нужен специальный бензин 98.",
-          "<strong>Пробег:</strong> 250–300 км/сутки включено. 5–10 AED за каждый сверх."
+          "<strong>Пробег:</strong> 250–300 км/сутки включено. 20 AED за каждый сверх."
         ]
       },
       {

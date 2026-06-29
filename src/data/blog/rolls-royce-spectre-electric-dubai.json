@@ -58,7 +58,7 @@
         "type": "list",
         "items": [
           "<strong>Daily:</strong> AED 7,500 (includes 250km)",
-          "<strong>Weekly:</strong> AED 42,000 (1,750km included)",
+          "<strong>Weekly:</strong> AED 45,000 (1,750km included)",
           "<strong>Monthly:</strong> AED 150,000 (5,000km included)",
           "<strong>Hourly:</strong> AED 1,500 (minimum 2 hours with chauffeur)"
         ]
@@ -142,7 +142,7 @@
         "type": "list",
         "items": [
           "<strong>يومياً:</strong> 7,500 درهم (تشمل 250 كم)",
-          "<strong>أسبوعياً:</strong> 42,000 درهم (تشمل 1,750 كم)",
+          "<strong>أسبوعياً:</strong> 45,000 درهم (تشمل 1,750 كم)",
           "<strong>شهرياً:</strong> 150,000 درهم (تشمل 5,000 كم)",
           "<strong>بالساعة:</strong> 1,500 درهم (بحد أدنى ساعتين مع سائق خاص)"
         ]
@@ -226,7 +226,7 @@
         "type": "list",
         "items": [
           "<strong>Сутки:</strong> 7 500 AED (включает 250 км)",
-          "<strong>Неделя:</strong> 42 000 AED (включает 1 750 км)",
+          "<strong>Неделя:</strong> 45 000 AED (включает 1 750 км)",
           "<strong>Месяц:</strong> 150 000 AED (включает 5 000 км)",
           "<strong>Час:</strong> 1 500 AED (минимум 2 часа с водителем)"
         ]

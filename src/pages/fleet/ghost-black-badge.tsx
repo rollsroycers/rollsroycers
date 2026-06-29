@@ -56,7 +56,7 @@ export default function GhostBlackBadgePage() {
       {
         "@type": "Question",
         "name": "How much does the Rolls-Royce Ghost Black Badge cost to rent in Dubai?",
-        "acceptedAnswer": { "@type": "Answer", "text": "The Ghost Black Badge starts from AED 5,500/day. Weekly rates from AED 32,000 and monthly from AED 110,000. Includes insurance and 250km/day." }
+        "acceptedAnswer": { "@type": "Answer", "text": "The Ghost Black Badge starts from AED 5,500/day. Weekly rates from AED 33,000 and monthly from AED 110,000. Includes insurance and 250km/day." }
       },
       {
         "@type": "Question",

@@ -49,7 +49,7 @@ export default function Fleet({ t }: { t: TFunction }) {
       description: t('fleet.ghost.description'),
       features: getFeatures('fleet.ghost.features'),
       image: '/images/Rolls-Royce-white.jpg',
-      price: `${t('common.aed', 'AED')} 4,800`
+      price: `${t('common.aed', 'AED')} 3,800`
     },
     {
       id: 4,

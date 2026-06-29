@@ -109,29 +109,80 @@ export default function PricingPage() {
         'Dynamic performance'
       ],
       popular: false
+    },
+    {
+      model: 'Spectre',
+      tagline: 'All-Electric Ultra-Luxury',
+      image: '/images/Rolls-royce-phantom.jpg',
+      prices: {
+        daily: 7500,
+        weekly: 45000,
+        monthly: 150000
+      },
+      features: [
+        'Fully electric powertrain',
+        'Silent propulsion',
+        'Starlight doors',
+        'Bespoke audio system'
+      ],
+      popular: false
+    },
+    {
+      model: 'Ghost Black Badge',
+      tagline: 'The Darker Alter Ego',
+      image: '/images/Black_Rolls_Royce_Ghost.jpg',
+      prices: {
+        daily: 5500,
+        weekly: 33000,
+        monthly: 110000
+      },
+      features: [
+        'Blackout exterior detailing',
+        'Increased power output',
+        'Technical fibre fascia',
+        'Magic carpet ride'
+      ],
+      popular: false
+    },
+    {
+      model: 'Cullinan Black Badge',
+      tagline: 'Bold SUV Statement',
+      image: '/images/Rolls-Royce-Cullinan_.jpg',
+      prices: {
+        daily: 8500,
+        weekly: 51000,
+        monthly: 170000
+      },
+      features: [
+        'Blackout exterior detailing',
+        'All-terrain capability',
+        'Viewing suite option',
+        'Night vision system'
+      ],
+      popular: false
     }
   ]
 
   const additionalServices = [
     {
       service: 'Professional Chauffeur',
-      price: 'AED 1,500/day',
+      price: 'AED 800/day',
       description: 'Experienced, multilingual drivers'
     },
     {
       service: 'Airport Transfer',
-      price: 'AED 1,000',
+      price: 'AED 1,200',
       description: 'One-way luxury transfer'
     },
     {
       service: 'Wedding Package',
-      price: 'From AED 8,500',
+      price: 'From AED 2,500',
       description: 'Decorated vehicle with chauffeur'
     },
     {
       service: 'Hourly Rental',
-      price: 'AED 2,000/hour',
-      description: 'Minimum 4 hours'
+      price: 'From AED 800/hour',
+      description: 'Minimum 2 hours (model-specific — see Hourly Rental page)'
     },
     {
       service: 'Extra Mileage',
@@ -140,7 +191,7 @@ export default function PricingPage() {
     },
     {
       service: 'Delivery & Collection',
-      price: 'AED 500 in Dubai',
+      price: 'Free in Dubai',
       description: 'Other emirates from AED 1,000'
     }
   ]

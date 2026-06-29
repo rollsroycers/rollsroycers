@@ -30,7 +30,7 @@ export default function DIFCLocationPage() {
       id: 'ghost',
       name: 'Rolls-Royce Ghost',
       image: '/images/ghost-black-badge-2.jpg',
-      price: 'AED 4,800',
+      price: 'AED 3,800',
       features: [
         t('locations.difc.fleet.ghost.features.0'),
         t('locations.difc.fleet.ghost.features.1'),

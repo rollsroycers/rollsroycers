@@ -56,7 +56,7 @@ export default function CullinanBlackBadgePage() {
       {
         "@type": "Question",
         "name": "How much does the Rolls-Royce Cullinan Black Badge cost to rent in Dubai?",
-        "acceptedAnswer": { "@type": "Answer", "text": "The Cullinan Black Badge starts from AED 8,500/day. Weekly rates from AED 49,000 and monthly from AED 170,000. Includes insurance and 250km/day." }
+        "acceptedAnswer": { "@type": "Answer", "text": "The Cullinan Black Badge starts from AED 8,500/day. Weekly rates from AED 51,000 and monthly from AED 170,000. Includes insurance and 250km/day." }
       },
       {
         "@type": "Question",
