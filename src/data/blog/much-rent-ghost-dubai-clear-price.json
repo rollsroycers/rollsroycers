@@ -17,6 +17,10 @@
         "text": "<div style=\"background:#0f0f0f;border:1px solid #2a2a2a;border-left:4px solid #c9a227;padding:20px;margin:32px 0;border-radius:8px;\"><p style=\"color:#c9a227;font-weight:bold;margin:0 0 8px;\">🛎️ From Our Dubai Concierge Operations</p><p style=\"margin:0;line-height:1.8;\">To ensure complete transparency, our quoted daily rate of AED 3,800 for the Rolls-Royce Ghost includes standard comprehensive insurance and 250 km of daily mileage. We deliver and retrieve the Ghost directly to your location in Dubai (Downtown, Palm Jumeirah, Marina, or DXB airport) with zero delivery fees. For extended business trips, we coordinate custom weekly and monthly invoicing with corporate-compliant receipts.</p></div>"
       },
       {
+        "type": "paragraph",
+        "text": "<div style=\"background:#0f0f0f;border:1px solid #2a2a2a;border-left:4px solid #c9a227;padding:20px;margin:32px 0;border-radius:8px;\"><p style=\"color:#c9a227;font-weight:bold;margin:0 0 8px;\">🛎️ From Our Dubai Concierge Operations</p><p style=\"margin:0;line-height:1.8;\">To ensure complete transparency, our quoted daily rate of AED 3,800 for the Rolls-Royce Ghost includes standard comprehensive insurance and 250 km of daily mileage. We deliver and retrieve the Ghost directly to your location in Dubai (Downtown, Palm Jumeirah, Marina, or DXB airport) with zero delivery fees. For extended business trips, we coordinate custom weekly and monthly invoicing with corporate-compliant receipts.</p></div>"
+      },
+      {
         "type": "heading",
         "text": "The Short Answer"
       },
@@ -53,6 +57,10 @@
       {
         "type": "heading",
         "text": "Daily, Weekly, or Monthly: The Economics of Rental Durations"
+      },
+      {
+        "type": "paragraph",
+        "text": "<div class=\"overflow-x-auto my-8 border border-rolls-gold/20 rounded-lg\"><table class=\"w-full text-left border-collapse text-gray-300\"><thead><tr class=\"bg-rolls-gold/10 border-b border-rolls-gold/20\"><th class=\"p-4 text-white font-bold\">Rental Duration</th><th class=\"p-4 text-white font-bold\">Total Rate (AED)</th><th class=\"p-4 text-white font-bold\">Daily Equivalent (AED)</th><th class=\"p-4 text-white font-bold\">Mileage Limit</th></tr></thead><tbody class=\"divide-y divide-rolls-gold/10\"><tr><td class=\"p-4 font-semibold text-white\">Daily Rental</td><td class=\"p-4\">AED 3,800</td><td class=\"p-4\">AED 3,800 / day</td><td class=\"p-4\">250 km / day</td></tr><tr><td class=\"p-4 font-semibold text-white\">Weekly Rental</td><td class=\"p-4\">AED 22,800</td><td class=\"p-4\">AED 3,257 / day</td><td class=\"p-4\">1,750 km / week</td></tr><tr><td class=\"p-4 font-semibold text-white\">Monthly Rental</td><td class=\"p-4\">AED 76,000</td><td class=\"p-4\">AED 2,533 / day</td><td class=\"p-4\">7,500 km / month</td></tr></tbody></table></div>"
       },
       {
         "type": "paragraph",
@@ -163,6 +171,10 @@
         "text": "<div style=\"background:#0f0f0f;border:1px solid #2a2a2a;border-right:4px solid #c9a227;padding:20px;margin:32px 0;border-radius:8px;\"><p style=\"color:#c9a227;font-weight:bold;margin:0 0 8px;\">🛎️ من عمليات الكونسيرج في دبي</p><p style=\"margin:0;line-height:1.8;direction:rtl;\">لضمان الشفافية الكاملة، يشمل سعرنا اليومي البالغ 3,800 درهم إماراتي لسيارة رولز رويس جوست التأمين الشامل و250 كم من الأميال اليومية. نقوم بتسليم واستلام السيارة مباشرة في موقعك في دبي (الداون تاون، نخلة جميرا، دبي مارينا، أو مطار دبي الدولي) دون أي رسوم إضافية. بالنسبة لرحلات العمل الطويلة، نقوم بتنسيق فواتير أسبوعية وشهرية مخصصة للشركات.</p></div>"
       },
       {
+        "type": "paragraph",
+        "text": "<div style=\"background:#0f0f0f;border:1px solid #2a2a2a;border-right:4px solid #c9a227;padding:20px;margin:32px 0;border-radius:8px;\"><p style=\"color:#c9a227;font-weight:bold;margin:0 0 8px;\">🛎️ من عمليات الكونسيرج في دبي</p><p style=\"margin:0;line-height:1.8;direction:rtl;\">لضمان الشفافية الكاملة، يشمل سعرنا اليومي البالغ 3,800 درهم إماراتي لسيارة رولز رويس جوست التأمين الشامل و250 كم من الأميال اليومية. نقوم بتسليم واستلام السيارة مباشرة في موقعك في دبي (الداون تاون، نخلة جميرا، دبي مارينا، أو مطار دبي الدولي) دون أي رسوم إضافية. بالنسبة لرحلات العمل الطويلة، نقوم بتنسيق فواتير أسبوعية وشهرية مخصصة للشركات.</p></div>"
+      },
+      {
         "type": "heading",
         "text": "الإجابة المختصرة"
       },
@@ -199,6 +211,10 @@
       {
         "type": "heading",
         "text": "يوم أو أسبوع أو شهر: الحساب المالي لمدد التأجير"
+      },
+      {
+        "type": "paragraph",
+        "text": "<div class=\"overflow-x-auto my-8 border border-rolls-gold/20 rounded-lg\" style=\"direction:rtl;\"><table class=\"w-full text-right border-collapse text-gray-300\"><thead><tr class=\"bg-rolls-gold/10 border-b border-rolls-gold/20\"><th class=\"p-4 text-white font-bold\">مدة الاستئجار</th><th class=\"p-4 text-white font-bold\">السعر الإجمالي (درهم)</th><th class=\"p-4 text-white font-bold\">المعدل اليومي (درهم)</th><th class=\"p-4 text-white font-bold\">حد المسافة (الكيلومترات)</th></tr></thead><tbody class=\"divide-y divide-rolls-gold/10\"><tr><td class=\"p-4 font-semibold text-white\">إيجار يومي</td><td class=\"p-4\">3,800 درهم</td><td class=\"p-4\">3,800 درهم / يوم</td><td class=\"p-4\">250 كم / يوم</td></tr><tr><td class=\"p-4 font-semibold text-white\">إيجار أسبوعي</td><td class=\"p-4\">22,800 درهم</td><td class=\"p-4\">3,257 درهم / يوم</td><td class=\"p-4\">1,750 كم / أسبوع</td></tr><tr><td class=\"p-4 font-semibold text-white\">إيجار شهري</td><td class=\"p-4\">76,000 درهم</td><td class=\"p-4\">2,533 درهم / يوم</td><td class=\"p-4\">7,500 كم / شهر</td></tr></tbody></table></div>"
       },
       {
         "type": "paragraph",
@@ -309,6 +325,10 @@
         "text": "<div style=\"background:#0f0f0f;border:1px solid #2a2a2a;border-left:4px solid #c9a227;padding:20px;margin:32px 0;border-radius:8px;\"><p style=\"color:#c9a227;font-weight:bold;margin:0 0 8px;\">🛎️ Из службы консьерж-сервиса в Дубае</p><p style=\"margin:0;line-height:1.8;\">Для обеспечения полной прозрачности наш суточный тариф в размере 3 800 AED на аренду Rolls-Royce Ghost включает стандартную комплексную страховку и суточный лимит пробега в 250 км. Мы бесплатно доставим и заберем автомобиль в любой точке Дубая (Даунтаун, Пальм-Джумейра, Марина или аэропорт DXB). Для длительных деловых поездок мы предоставляем специальные еженедельные и ежемесячные тарифы с оформлением всех необходимых закрывающих документов.</p></div>"
       },
       {
+        "type": "paragraph",
+        "text": "<div style=\"background:#0f0f0f;border:1px solid #2a2a2a;border-left:4px solid #c9a227;padding:20px;margin:32px 0;border-radius:8px;\"><p style=\"color:#c9a227;font-weight:bold;margin:0 0 8px;\">🛎️ Из службы консьерж-сервиса в Дубае</p><p style=\"margin:0;line-height:1.8;\">Для обеспечения полной прозрачности наш суточный тариф в размере 3 800 AED на аренду Rolls-Royce Ghost включает стандартную комплексную страховку и суточный лимит пробега в 250 км. Мы бесплатно доставим и заберем автомобиль в любой точке Дубая (Даунтаун, Пальм-Джумейра, Марина или аэропорт DXB). Для длительных деловых поездок мы предоставляем специальные еженедельные и ежемесячные тарифы с оформлением всех необходимых закрывающих документов.</p></div>"
+      },
+      {
         "type": "heading",
         "text": "Короткий ответ"
       },
@@ -345,6 +365,10 @@
       {
         "type": "heading",
         "text": "День, неделя или месяц: экономика длительной аренды"
+      },
+      {
+        "type": "paragraph",
+        "text": "<div class=\"overflow-x-auto my-8 border border-rolls-gold/20 rounded-lg\"><table class=\"w-full text-left border-collapse text-gray-300\"><thead><tr class=\"bg-rolls-gold/10 border-b border-rolls-gold/20\"><th class=\"p-4 text-white font-bold\">Период аренды</th><th class=\"p-4 text-white font-bold\">Общая стоимость (AED)</th><th class=\"p-4 text-white font-bold\">Эквивалент в день (AED)</th><th class=\"p-4 text-white font-bold\">Лимит пробега</th></tr></thead><tbody class=\"divide-y divide-rolls-gold/10\"><tr><td class=\"p-4 font-semibold text-white\">Посуточная аренда</td><td class=\"p-4\">3 800 AED</td><td class=\"p-4\">3 800 AED / день</td><td class=\"p-4\">250 км / день</td></tr><tr><td class=\"p-4 font-semibold text-white\">Еженедельная аренда</td><td class=\"p-4\">22 800 AED</td><td class=\"p-4\">3 257 AED / день</td><td class=\"p-4\">1 750 км / неделя</td></tr><tr><td class=\"p-4 font-semibold text-white\">Ежемесячная аренда</td><td class=\"p-4\">76 000 AED</td><td class=\"p-4\">2 533 AED / день</td><td class=\"p-4\">7 500 км / месяц</td></tr></tbody></table></div>"
       },
       {
         "type": "paragraph",

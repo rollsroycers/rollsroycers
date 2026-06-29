@@ -17,6 +17,10 @@
         "text": "<div style=\"background:#0f0f0f;border:1px solid #2a2a2a;border-left:4px solid #c9a227;padding:20px;margin:32px 0;border-radius:8px;\"><p style=\"color:#c9a227;font-weight:bold;margin:0 0 8px;\">🛎️ From Our Dubai Concierge Operations</p><p style=\"margin:0;line-height:1.8;\">Every vehicle in our Rolls-Royce fleet represents the pinnacle of bespoke automotive design defined by the Goodwood factory. We maintain our fleet to strict museum standards, ensuring that when we deliver a Ghost, Phantom, or Cullinan to Downtown Dubai, DIFC, or the Palm Jumeirah, the hand-finished details and mechanical systems perform with the exact whisper-quiet precision intended by their creators.</p></div>"
       },
       {
+        "type": "paragraph",
+        "text": "<div style=\"background:#0f0f0f;border:1px solid #2a2a2a;border-left:4px solid #c9a227;padding:20px;margin:32px 0;border-radius:8px;\"><p style=\"color:#c9a227;font-weight:bold;margin:0 0 8px;\">🛎️ From Our Dubai Concierge Operations</p><p style=\"margin:0;line-height:1.8;\">Every vehicle in our Rolls-Royce fleet represents the pinnacle of bespoke automotive design defined by the Goodwood factory. We maintain our fleet to strict museum standards, ensuring that when we deliver a Ghost, Phantom, or Cullinan to Downtown Dubai, DIFC, or the Palm Jumeirah, the hand-finished details and mechanical systems perform with the exact whisper-quiet precision intended by their creators.</p></div>"
+      },
+      {
         "type": "heading",
         "text": "The Essence of Goodwood"
       },
@@ -53,6 +57,10 @@
       {
         "type": "heading",
         "text": "Phantom, Ghost, and Cullinan: The Modern Archetypes"
+      },
+      {
+        "type": "paragraph",
+        "text": "<div class=\"overflow-x-auto my-8 border border-rolls-gold/20 rounded-lg\"><table class=\"w-full text-left border-collapse text-gray-300\"><thead><tr class=\"bg-rolls-gold/10 border-b border-rolls-gold/20\"><th class=\"p-4 text-white font-bold\">Luxury Dimension</th><th class=\"p-4 text-white font-bold\">Rolls-Royce Phantom</th><th class=\"p-4 text-white font-bold\">Rolls-Royce Ghost</th><th class=\"p-4 text-white font-bold\">Rolls-Royce Cullinan</th></tr></thead><tbody class=\"divide-y divide-rolls-gold/10\"><tr><td class=\"p-4 font-semibold text-white\">Acoustic Insulation</td><td class=\"p-4\">130+ kg of insulation material</td><td class=\"p-4\">100+ kg of insulation material</td><td class=\"p-4\">100+ kg of insulation material</td></tr><tr><td class=\"p-4 font-semibold text-white\">Starlight Optical Fibers</td><td class=\"p-4\">Up to 1,340 hand-woven stars</td><td class=\"p-4\">Up to 850 hand-woven stars</td><td class=\"p-4\">Up to 1,340 hand-woven stars</td></tr><tr><td class=\"p-4 font-semibold text-white\">Magic Carpet Suspension</td><td class=\"p-4\">Dynamic air + Road-scan cameras</td><td class=\"p-4\">Planar system + Road-scan cameras</td><td class=\"p-4\">Dynamic air + Road-scan cameras</td></tr><tr><td class=\"p-4 font-semibold text-white\">Acoustic Glass Thickness</td><td class=\"p-4\">6 mm double-glazed</td><td class=\"p-4\">6 mm double-glazed</td><td class=\"p-4\">6 mm double-glazed</td></tr></tbody></table></div>"
       },
       {
         "type": "paragraph",
@@ -155,6 +163,10 @@
         "text": "<div style=\"background:#0f0f0f;border:1px solid #2a2a2a;border-right:4px solid #c9a227;padding:20px;margin:32px 0;border-radius:8px;\"><p style=\"color:#c9a227;font-weight:bold;margin:0 0 8px;\">🛎️ من عمليات الكونسيرج في دبي</p><p style=\"margin:0;line-height:1.8;direction:rtl;\">تمثل كل سيارة في أسطول رولز رويس لدينا ذروة التصميم المخصص لسيارات غودوود. نحن نحافظ على أسطولنا وفقاً لمعايير صارمة للغاية، مما يضمن أنه عندما نقوم بتسليم سيارة جوست أو فانتوم أو كولينان إلى داون تاون دبي، أو مركز دبي المالي العالمي، أو نخلة جميرا، فإن التفاصيل المشغولة يدوياً والأنظمة الميكانيكية تعمل بدقة متناهية وهدوء تام.</p></div>"
       },
       {
+        "type": "paragraph",
+        "text": "<div style=\"background:#0f0f0f;border:1px solid #2a2a2a;border-right:4px solid #c9a227;padding:20px;margin:32px 0;border-radius:8px;\"><p style=\"color:#c9a227;font-weight:bold;margin:0 0 8px;\">🛎️ من عمليات الكونسيرج في دبي</p><p style=\"margin:0;line-height:1.8;direction:rtl;\">تمثل كل سيارة في أسطول رولز رويس لدينا ذروة التصميم المخصص لسيارات غودوود. نحن نحافظ على أسطولنا وفقاً لمعايير صارمة للغاية، مما يضمن أنه عندما نقوم بتسليم سيارة جوست أو فانتوم أو كولينان إلى داون تاون دبي، أو مركز دبي المالي العالمي، أو نخلة جميرا، فإن التفاصيل المشغولة يدوياً والأنظمة الميكانيكية تعمل بدقة متناهية وهدوء تام.</p></div>"
+      },
+      {
         "type": "heading",
         "text": "جوهر غودوود الفريد"
       },
@@ -191,6 +203,10 @@
       {
         "type": "heading",
         "text": "فانتوم وجوست وكولينان: الرموز الحديثة للفخامة"
+      },
+      {
+        "type": "paragraph",
+        "text": "<div class=\"overflow-x-auto my-8 border border-rolls-gold/20 rounded-lg\" style=\"direction:rtl;\"><table class=\"w-full text-right border-collapse text-gray-300\"><thead><tr class=\"bg-rolls-gold/10 border-b border-rolls-gold/20\"><th class=\"p-4 text-white font-bold\">بُعد الفخامة</th><th class=\"p-4 text-white font-bold\">رولز رويس فانتوم</th><th class=\"p-4 text-white font-bold\">رولز رويس جوست</th><th class=\"p-4 text-white font-bold\">رولز رويس كولينان</th></tr></thead><tbody class=\"divide-y divide-rolls-gold/10\"><tr><td class=\"p-4 font-semibold text-white\">العزل الصوتي للمقصورة</td><td class=\"p-4\">أكثر من 130 كجم من المواد العازلة</td><td class=\"p-4\">أكثر من 100 كجم من المواد العازلة</td><td class=\"p-4\">أكثر من 100 كجم من المواد العازلة</td></tr><tr><td class=\"p-4 font-semibold text-white\">ألياف سقف النجوم الضوئية</td><td class=\"p-4\">ما يصل إلى 1,340 نجمة مغزولة يدوياً</td><td class=\"p-4\">ما يصل إلى 850 نجمة مغزولة يدوياً</td><td class=\"p-4\">ما يصل إلى 1,340 نجمة مغزولة يدوياً</td></tr><tr><td class=\"p-4 font-semibold text-white\">نظام تعليق \"بساط الريح\"</td><td class=\"p-4\">هواء ديناميكي + كاميرات مسح الطريق</td><td class=\"p-4\">نظام بلانار مستقر + كاميرات مسح الطريق</td><td class=\"p-4\">هواء ديناميكي + كاميرات مسح الطريق</td></tr><tr><td class=\"p-4 font-semibold text-white\">سمك الزجاج الصوتي</td><td class=\"p-4\">6 ملم مزدوج الطبقات</td><td class=\"p-4\">6 ملم مزدوج الطبقات</td><td class=\"p-4\">6 ملم مزدوج الطبقات</td></tr></tbody></table></div>"
       },
       {
         "type": "paragraph",
@@ -293,6 +309,10 @@
         "text": "<div style=\"background:#0f0f0f;border:1px solid #2a2a2a;border-left:4px solid #c9a227;padding:20px;margin:32px 0;border-radius:8px;\"><p style=\"color:#c9a227;font-weight:bold;margin:0 0 8px;\">🛎️ Из службы консьерж-сервиса в Дубае</p><p style=\"margin:0;line-height:1.8;\">Каждый автомобиль Rolls-Royce в нашем автопарке представляет собой вершину индивидуального дизайна, разработанного на заводе в Гудвуде. Мы поддерживаем наши машины в идеальном состоянии, гарантируя, что при доставке Ghost, Phantom или Cullinan в Даунтаун Дубай, DIFC или на Пальм-Джумейру все ручные детали отделки и механические системы будут работать с той же бесшумной точностью, которая была заложена создателями.</p></div>"
       },
       {
+        "type": "paragraph",
+        "text": "<div style=\"background:#0f0f0f;border:1px solid #2a2a2a;border-left:4px solid #c9a227;padding:20px;margin:32px 0;border-radius:8px;\"><p style=\"color:#c9a227;font-weight:bold;margin:0 0 8px;\">🛎️ Из службы консьерж-сервиса в Дубае</p><p style=\"margin:0;line-height:1.8;\">Каждый автомобиль Rolls-Royce в нашем автопарке представляет собой вершину индивидуального дизайна, разработанного на заводе в Гудвуде. Мы поддерживаем наши машины в идеальном состоянии, гарантируя, что при доставке Ghost, Phantom или Cullinan в Даунтаун Дубай, DIFC или на Пальм-Джумейру все ручные детали отделки и механические системы будут работать с той же бесшумной точностью, которая была заложена создателями.</p></div>"
+      },
+      {
         "type": "heading",
         "text": "Суть Гудвуда"
       },
@@ -329,6 +349,10 @@
       {
         "type": "heading",
         "text": "Phantom, Ghost и Cullinan: Современные эталоны"
+      },
+      {
+        "type": "paragraph",
+        "text": "<div class=\"overflow-x-auto my-8 border border-rolls-gold/20 rounded-lg\"><table class=\"w-full text-left border-collapse text-gray-300\"><thead><tr class=\"bg-rolls-gold/10 border-b border-rolls-gold/20\"><th class=\"p-4 text-white font-bold\">Аспект роскоши</th><th class=\"p-4 text-white font-bold\">Rolls-Royce Phantom</th><th class=\"p-4 text-white font-bold\">Rolls-Royce Ghost</th><th class=\"p-4 text-white font-bold\">Rolls-Royce Cullinan</th></tr></thead><tbody class=\"divide-y divide-rolls-gold/10\"><tr><td class=\"p-4 font-semibold text-white\">Шумоизоляция</td><td class=\"p-4\">130+ кг изоляционных материалов</td><td class=\"p-4\">100+ кг изоляционных материалов</td><td class=\"p-4\">100+ кг изоляционных материалов</td></tr><tr><td class=\"p-4 font-semibold text-white\">Звездное небо в салоне</td><td class=\"p-4\">До 1 340 оптических волокон</td><td class=\"p-4\">До 850 оптических волокон</td><td class=\"p-4\">До 1 340 оптических волокон</td></tr><tr><td class=\"p-4 font-semibold text-white\">Подвеска «ковер-самолет»</td><td class=\"p-4\">Пневматическая + сканирование дороги</td><td class=\"p-4\">Система Planar + сканирование дороги</td><td class=\"p-4\">Пневматическая + сканирование дороги</td></tr><tr><td class=\"p-4 font-semibold text-white\">Толщина звукового стекла</td><td class=\"p-4\">6 мм, двойное остекление</td><td class=\"p-4\">6 мм, двойное остекление</td><td class=\"p-4\">6 мм, двойное остекление</td></tr></tbody></table></div>"
       },
       {
         "type": "paragraph",

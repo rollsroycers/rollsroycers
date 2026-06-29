@@ -21,6 +21,10 @@
         "text": "<div style=\"background:#0f0f0f;border:1px solid #2a2a2a;border-left:4px solid #c9a227;padding:20px;margin:32px 0;border-radius:8px;\"><p style=\"color:#c9a227;font-weight:bold;margin:0 0 8px;\">🛎️ From Our Dubai Concierge Operations</p><p style=\"margin:0;line-height:1.8;\">We maintain both Goodwood-era Rolls-Royce models and Crewe-assembled Bentleys in our active fleet. Whether you prefer the sportier dynamics of a Bentley Continental GT for self-drive or the absolute passenger isolation of a Rolls-Royce Ghost, our operations team delivers both marques in showroom condition to any hotel, office, or residence in Dubai, including Palm Jumeirah, Downtown Dubai, and DIFC. Complete airport meet-and-greet transfers are also available at DXB and DWC terminals.</p></div>"
       },
       {
+        "type": "paragraph",
+        "text": "<div style=\"background:#0f0f0f;border:1px solid #2a2a2a;border-left:4px solid #c9a227;padding:20px;margin:32px 0;border-radius:8px;\"><p style=\"color:#c9a227;font-weight:bold;margin:0 0 8px;\">🛎️ From Our Dubai Concierge Operations</p><p style=\"margin:0;line-height:1.8;\">We maintain both Goodwood-era Rolls-Royce models and Crewe-assembled Bentleys in our active fleet. Whether you prefer the sportier dynamics of a Bentley Continental GT for self-drive or the absolute passenger isolation of a Rolls-Royce Ghost, our operations team delivers both marques in showroom condition to any hotel, office, or residence in Dubai, including Palm Jumeirah, Downtown Dubai, and DIFC. Complete airport meet-and-greet transfers are also available at DXB and DWC terminals.</p></div>"
+      },
+      {
         "type": "heading",
         "text": "The Split of the British Icons"
       },
@@ -75,6 +79,10 @@
       {
         "type": "paragraph",
         "text": "The geographical and corporate separation of Bentley and Rolls-Royce has resulted in two distinct engineering paths. While both brands offer incomparable cabin materials and assembly quality, they target entirely different driving sensations. Bentley focuses heavily on high-speed stability, dynamic performance, and direct driver engagement. The engineering team at Crewe tunes the chassis, steering, and active anti-roll systems to provide a connected, athletic driving experience that feels reassuringly heavy yet agile. A Bentley invites you to grip the steering wheel and actively negotiate corners, making it a true driver's car."
+      },
+      {
+        "type": "paragraph",
+        "text": "<div class=\"overflow-x-auto my-8 border border-rolls-gold/20 rounded-lg\"><table class=\"w-full text-left border-collapse text-gray-300\"><thead><tr class=\"bg-rolls-gold/10 border-b border-rolls-gold/20\"><th class=\"p-4 text-white font-bold\">Feature</th><th class=\"p-4 text-white font-bold\">Bentley Motors</th><th class=\"p-4 text-white font-bold\">Rolls-Royce Motor Cars</th></tr></thead><tbody class=\"divide-y divide-rolls-gold/10\"><tr><td class=\"p-4 font-semibold text-white\">Daily Rate in Dubai</td><td class=\"p-4\">From AED 3,000</td><td class=\"p-4\">From AED 3,800</td></tr><tr><td class=\"p-4 font-semibold text-white\">Power Plant</td><td class=\"p-4\">V8 & Twin-Turbo W12</td><td class=\"p-4\">6.75L Twin-Turbo V12</td></tr><tr><td class=\"p-4 font-semibold text-white\">Chassis</td><td class=\"p-4\">Volkswagen shared platform</td><td class=\"p-4\">Bespoke Architecture of Luxury</td></tr><tr><td class=\"p-4 font-semibold text-white\">Core Driving Feel</td><td class=\"p-4\">Driver-focused, athletic</td><td class=\"p-4\">Passenger isolation, Magic Carpet Ride</td></tr></tbody></table></div>"
       },
       {
         "type": "paragraph",
@@ -205,6 +213,10 @@
         "text": "<div style=\"background:#0f0f0f;border:1px solid #2a2a2a;border-right:4px solid #c9a227;padding:20px;margin:32px 0;border-radius:8px;\"><p style=\"color:#c9a227;font-weight:bold;margin:0 0 8px;\">🛎️ من عمليات الكونسيرج في دبي</p><p style=\"margin:0;line-height:1.8;direction:rtl;\">نحتفظ بكل من طرازات رولز رويس من عهد غودوود وسيارات بنتلي المجمعة في كرو ضمن أسطولنا النشط. سواء كنت تفضل الديناميكيات الرياضية لسيارة بنتلي كونتيننتال جي تي للقيادة الذاتية أو العزل التام لسيارة رولز رويس جوست، يقوم فريق العمليات لدينا بتسليم كلتا العلامتين في حالة ممتازة إلى أي فندق أو مكتب أو مكان إقامة في دبي، بما في ذلك نخلة جميرا، وداون تاون دبي، ومركز دبي المالي العالمي.</p></div>"
       },
       {
+        "type": "paragraph",
+        "text": "<div style=\"background:#0f0f0f;border:1px solid #2a2a2a;border-right:4px solid #c9a227;padding:20px;margin:32px 0;border-radius:8px;\"><p style=\"color:#c9a227;font-weight:bold;margin:0 0 8px;\">🛎️ من عمليات الكونسيرج في دبي</p><p style=\"margin:0;line-height:1.8;direction:rtl;\">نحتفظ بكل من طرازات رولز رويس من عهد غودوود وسيارات بنتلي المجمعة في كرو ضمن أسطولنا النشط. سواء كنت تفضل الديناميكيات الرياضية لسيارة بنتلي كونتيننتال جي تي للقيادة الذاتية أو العزل التام لسيارة رولز رويس جوست، يقوم فريق العمليات لدينا بتسليم كلتا العلامتين في حالة ممتازة إلى أي فندق أو مكتب أو مكان إقامة في دبي، بما في ذلك نخلة جميرا، وداون تاون دبي، ومركز دبي المالي العالمي.</p></div>"
+      },
+      {
         "type": "heading",
         "text": "انفصال الأيقونتين البريطانيتين"
       },
@@ -259,6 +271,10 @@
       {
         "type": "paragraph",
         "text": "رغم أن كلا العلامتين تمثلان ذروة الفخامة البريطانية، إلا أن الفلسفة الهندسية لكل منهما تتجه نحو غاية مختلفة تماماً. تسعى سيارات بنتلي المصنوعة في كرو إلى إرضاء السائق الشغوف بالأداء الرياضي والديناميكية العالية، حيث توفر توجيهاً دقيقاً واستجابة فورية للمحرك، مما يجعلها مثالية للقيادة الذاتية الممتعة."
+      },
+      {
+        "type": "paragraph",
+        "text": "<div class=\"overflow-x-auto my-8 border border-rolls-gold/20 rounded-lg\" style=\"direction:rtl;\"><table class=\"w-full text-right border-collapse text-gray-300\"><thead><tr class=\"bg-rolls-gold/10 border-b border-rolls-gold/20\"><th class=\"p-4 text-white font-bold\">الميزة</th><th class=\"p-4 text-white font-bold\">بنتلي موتورز</th><th class=\"p-4 text-white font-bold\">رولز رويس للسيارات</th></tr></thead><tbody class=\"divide-y divide-rolls-gold/10\"><tr><td class=\"p-4 font-semibold text-white\">سعر الإيجار اليومي في دبي</td><td class=\"p-4\">تبدأ من 3,000 درهم</td><td class=\"p-4\">تبدأ من 3,800 درهم</td></tr><tr><td class=\"p-4 font-semibold text-white\">منظومة القوة</td><td class=\"p-4\">محركات V8 و W12 بتوربو مزدوج</td><td class=\"p-4\">محرك V12 سعة 6.75 لتر بتوربو مزدوج</td></tr><tr><td class=\"p-4 font-semibold text-white\">الشاصي وقاعدة العجلات</td><td class=\"p-4\">منصة مشتركة من مجموعة فولكس فاجن</td><td class=\"p-4\">منصة \"بنية الفخامة\" المخصصة بالكامل</td></tr><tr><td class=\"p-4 font-semibold text-white\">الشعور الأساسي للقيادة</td><td class=\"p-4\">رياضي ممتع وموجه نحو السائق</td><td class=\"p-4\">عزل تام للركاب، وتجربة \"بساط الريح\"</td></tr></tbody></table></div>"
       },
       {
         "type": "paragraph",
@@ -389,6 +405,10 @@
         "text": "<div style=\"background:#0f0f0f;border:1px solid #2a2a2a;border-left:4px solid #c9a227;padding:20px;margin:32px 0;border-radius:8px;\"><p style=\"color:#c9a227;font-weight:bold;margin:0 0 8px;\">🛎️ Из службы консьерж-сервиса в Дубае</p><p style=\"margin:0;line-height:1.8;\">Мы поддерживаем как современные модели Rolls-Royce из Гудвуда, так и автомобили Bentley из Крю в нашем активном автопарке. Предпочитаете ли вы спортивную динамику Bentley Continental GT для самостоятельного вождения или абсолютную изоляцию пассажиров в Rolls-Royce Ghost, наша операционная команда доставит любой автомобиль в идеальном состоянии в любой отель, офис или резиденцию в Дубае, включая Palm Jumeirah, Downtown Dubai и DIFC. Также доступен трансфер из аэропортов DXB и DWC.</p></div>"
       },
       {
+        "type": "paragraph",
+        "text": "<div style=\"background:#0f0f0f;border:1px solid #2a2a2a;border-left:4px solid #c9a227;padding:20px;margin:32px 0;border-radius:8px;\"><p style=\"color:#c9a227;font-weight:bold;margin:0 0 8px;\">🛎️ Из службы консьерж-сервиса в Дубае</p><p style=\"margin:0;line-height:1.8;\">Мы поддерживаем как современные модели Rolls-Royce из Гудвуда, так и автомобили Bentley из Крю в нашем активном автопарке. Предпочитаете ли вы спортивную динамику Bentley Continental GT для самостоятельного вождения или абсолютную изоляцию пассажиров в Rolls-Royce Ghost, наша операционная команда доставит любой автомобиль в идеальном состоянии в любой отель, офис или резиденцию в Дубае, включая Palm Jumeirah, Downtown Dubai и DIFC. Также доступен трансфер из аэропортов DXB и DWC.</p></div>"
+      },
+      {
         "type": "heading",
         "text": "Разделение британских икон"
       },
@@ -443,6 +463,10 @@
       {
         "type": "paragraph",
         "text": "Хотя обе марки имеют общие британские корни и находятся под управлением немецких автомобильных гигантов, их инженерная философия кардинально различается. Разница между автомобилями из Крю и Гудвуда выражается в том, как они ведут себя на дороге и какие эмоции дарят своему владельцу. Bentley ориентирован на водителя: эти машины созданы для тех, кто любит лично держать руки на руле и чувствовать обратную связь от дороги. В их конструкции преобладает спортивный характер с акцентом на динамику прохождения поворотов и скорость."
+      },
+      {
+        "type": "paragraph",
+        "text": "<div class=\"overflow-x-auto my-8 border border-rolls-gold/20 rounded-lg\"><table class=\"w-full text-left border-collapse text-gray-300\"><thead><tr class=\"bg-rolls-gold/10 border-b border-rolls-gold/20\"><th class=\"p-4 text-white font-bold\">Характеристика</th><th class=\"p-4 text-white font-bold\">Bentley Motors</th><th class=\"p-4 text-white font-bold\">Rolls-Royce Motor Cars</th></tr></thead><tbody class=\"divide-y divide-rolls-gold/10\"><tr><td class=\"p-4 font-semibold text-white\">Суточный тариф в Дубае</td><td class=\"p-4\">От 3 000 AED</td><td class=\"p-4\">От 3 800 AED</td></tr><tr><td class=\"p-4 font-semibold text-white\">Двигатель</td><td class=\"p-4\">V8 и W12 с двойным турбонаддувом</td><td class=\"p-4\">6.75L V12 с двойным турбонаддувом</td></tr><tr><td class=\"p-4 font-semibold text-white\">Шасси</td><td class=\"p-4\">Платформа Volkswagen Group</td><td class=\"p-4\">Эксклюзивная «Архитектура роскоши»</td></tr><tr><td class=\"p-4 font-semibold text-white\">Ощущения от вождения</td><td class=\"p-4\">Спортивные, динамичные, для водителя</td><td class=\"p-4\">Абсолютная изоляция, эффект «ковра-самолета»</td></tr></tbody></table></div>"
       },
       {
         "type": "paragraph",

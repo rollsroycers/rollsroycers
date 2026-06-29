@@ -81,6 +81,10 @@
       },
       {
         "type": "paragraph",
+        "text": "<div class=\"overflow-x-auto my-8 border border-rolls-gold/20 rounded-lg\"><table class=\"w-full text-left border-collapse text-gray-300\"><thead><tr class=\"bg-rolls-gold/10 border-b border-rolls-gold/20\"><th class=\"p-4 text-white font-bold\">Model</th><th class=\"p-4 text-white font-bold\">Daily Rate (AED)</th><th class=\"p-4 text-white font-bold\">Ideal Passenger Profile</th><th class=\"p-4 text-white font-bold\">Best Dubai Occasion</th></tr></thead><tbody class=\"divide-y divide-rolls-gold/10\"><tr><td class=\"p-4 font-semibold text-white\">Rolls-Royce Phantom</td><td class=\"p-4\">From AED 5,500</td><td class=\"p-4\">Royalty, high-net-worth VIPs</td><td class=\"p-4\">Weddings, high-profile red carpet galas</td></tr><tr><td class=\"p-4 font-semibold text-white\">Rolls-Royce Cullinan</td><td class=\"p-4\">From AED 6,500</td><td class=\"p-4\">Families, luxury tourists</td><td class=\"p-4\">Desert grand tours, high-end shopping</td></tr><tr><td class=\"p-4 font-semibold text-white\">Rolls-Royce Ghost</td><td class=\"p-4\">From AED 3,800</td><td class=\"p-4\">Business executives, self-drive enthusiasts</td><td class=\"p-4\">Corporate logistics, daily luxury commuting</td></tr></tbody></table></div>"
+      },
+      {
+        "type": "paragraph",
         "text": "For clients renting a vehicle from our fleet, BMW's ownership brings tangible benefits. The Goodwood era represents the most reliable, technically advanced, and refined cars Rolls-Royce has ever produced. Before BMW took control, older models suffered from complex, bespoke hydraulic systems and electrical components that were difficult to maintain. Under BMW, the cars feature legendary German electrical architecture, active safety systems, and the \"Magic Carpet Ride\" air suspension, which uses cameras to scan the road ahead and adjust the dampers in milliseconds. This ensures that when you drive along Sheikh Zayed Road or park at Palm Jumeirah, your experience is smooth and trouble-free."
       },
       {
@@ -230,6 +234,10 @@
       },
       {
         "type": "paragraph",
+        "text": "<div class=\"overflow-x-auto my-8 border border-rolls-gold/20 rounded-lg\" style=\"direction:rtl;\"><table class=\"w-full text-right border-collapse text-gray-300\"><thead><tr class=\"bg-rolls-gold/10 border-b border-rolls-gold/20\"><th class=\"p-4 text-white font-bold\">الموديل</th><th class=\"p-4 text-white font-bold\">السعر اليومي (درهم)</th><th class=\"p-4 text-white font-bold\">الملف التعريفي للراكب المثالي</th><th class=\"p-4 text-white font-bold\">أفضل مناسبة في دبي</th></tr></thead><tbody class=\"divide-y divide-rolls-gold/10\"><tr><td class=\"p-4 font-semibold text-white\">رولز رويس فانتوم</td><td class=\"p-4\">تبدأ من 5,500 درهم</td><td class=\"p-4\">الشخصيات الهامة، كبار الشخصيات ورجال الأعمال</td><td class=\"p-4\">حفلات الزفاف الفاخرة والمناسبات الرسمية الكبرى</td></tr><tr><td class=\"p-4 font-semibold text-white\">رولز رويس كولينان</td><td class=\"p-4\">تبدأ من 6,500 درهم</td><td class=\"p-4\">العائلات، السياح الباحثون عن الرفاهية والمساحة</td><td class=\"p-4\">الجولات السياحية الكبرى والتسوق الراقي</td></tr><tr><td class=\"p-4 font-semibold text-white\">رولز رويس جوست</td><td class=\"p-4\">تبدأ من 3,800 درهم</td><td class=\"p-4\">التنفيذيون ورجال الأعمال، محبو القيادة الذاتية</td><td class=\"p-4\">التنقلات اليومية الفاخرة واجتماعات الأعمال في مركز دبي المالي</td></tr></tbody></table></div>"
+      },
+      {
+        "type": "paragraph",
         "text": "بالنسبة لعملائنا الذين يستأجرون سيارات من أسطولنا الفاخر، فإن ملكية بي إم دبليو تترجم إلى مزايا عملية ملموسة. يمثل عصر غودوود الطرازات الأكثر اعتمادية وأماناً وتطوراً في تاريخ العلامة بالكامل. فقبل إدارة بي إم دبليو، كانت الطرازات القديمة تعاني من تعقيد الأنظمة الهيدروليكية والتمديدات الكهربائية اليدوية وصعوبة صيانتها. أما تحت مظلة بي إم دبليو، فتتميز السيارات بالمعمارية الكهربائية الألمانية الأحدث، وأنظمة الأمان النشطة، ونظام التعليق الهوائي المبتكر (البساط السحري)، الذي يستخدم كاميرات ذكية لمسح الطريق أمام السيارة وضبط المساعدين في أجزاء من الثانية. هذا يضمن أن تكون جولتك في شارع الشيخ زايد أو نخلة جميرا خالية تماماً من المتاعب ومنتهى النعومة."
       },
       {
@@ -376,6 +384,10 @@
       {
         "type": "heading",
         "text": "Почему история владения важна для арендаторов в Дубае"
+      },
+      {
+        "type": "paragraph",
+        "text": "<div class=\"overflow-x-auto my-8 border border-rolls-gold/20 rounded-lg\"><table class=\"w-full text-left border-collapse text-gray-300\"><thead><tr class=\"bg-rolls-gold/10 border-b border-rolls-gold/20\"><th class=\"p-4 text-white font-bold\">Модель</th><th class=\"p-4 text-white font-bold\">Суточный тариф (AED)</th><th class=\"p-4 text-white font-bold\">Идеальный профиль пассажира</th><th class=\"p-4 text-white font-bold\">Лучший повод в Дубае</th></tr></thead><tbody class=\"divide-y divide-rolls-gold/10\"><tr><td class=\"p-4 font-semibold text-white\">Rolls-Royce Phantom</td><td class=\"p-4\">От 5 500 AED</td><td class=\"p-4\">Высокопоставленные VIP-персоны, знаменитости</td><td class=\"p-4\">Свадьбы, официальные красные дорожки</td></tr><tr><td class=\"p-4 font-semibold text-white\">Rolls-Royce Cullinan</td><td class=\"p-4\">От 6 500 AED</td><td class=\"p-4\">Семьи, любители простора и комфорта</td><td class=\"p-4\">Загородные поездки, премиальный шоппинг</td></tr><tr><td class=\"p-4 font-semibold text-white\">Rolls-Royce Ghost</td><td class=\"p-4\">От 3 800 AED</td><td class=\"p-4\">Бизнес-лидеры, ценители самостоятельного вождения</td><td class=\"p-4\">Деловые встречи, повседневные поездки в DIFC</td></tr></tbody></table></div>"
       },
       {
         "type": "paragraph",

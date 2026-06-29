@@ -73,6 +73,10 @@
         "text": "Corporate Structure: Rolls-Royce Motor Cars vs. Rolls-Royce plc"
       },
       {
+        "type": "paragraph",
+        "text": "<div class=\"overflow-x-auto my-8 border border-rolls-gold/20 rounded-lg\"><table class=\"w-full text-left border-collapse text-gray-300\"><thead><tr class=\"bg-rolls-gold/10 border-b border-rolls-gold/20\"><th class=\"p-4 text-white font-bold\">Entity</th><th class=\"p-4 text-white font-bold\">Parent / Ownership</th><th class=\"p-4 text-white font-bold\">Core Products</th><th class=\"p-4 text-white font-bold\">Headquarters</th></tr></thead><tbody class=\"divide-y divide-rolls-gold/10\"><tr><td class=\"p-4 font-semibold text-white\">Rolls-Royce Motor Cars</td><td class=\"p-4\">BMW Group (German)</td><td class=\"p-4\">Ultra-luxury cars (Phantom, Ghost, Cullinan)</td><td class=\"p-4\">Goodwood, West Sussex, UK</td></tr><tr><td class=\"p-4 font-semibold text-white\">Rolls-Royce plc</td><td class=\"p-4\">Publicly traded (LSE: RR.)</td><td class=\"p-4\">Aviation jet engines, marine & defense power</td><td class=\"p-4\">London, England, UK</td></tr></tbody></table></div>"
+      },
+      {
         "type": "list",
         "items": [
           "<strong>Rolls-Royce Motor Cars Limited:</strong> A wholly owned subsidiary of the BMW Group since 1998, based in Goodwood, England. It manufactures and sells ultra-luxury passenger vehicles and bespoke accessories.",
@@ -230,6 +234,10 @@
         "text": "الهيكل المؤسسي: رولز رويس للسيارات ضد رولز رويس للطيران"
       },
       {
+        "type": "paragraph",
+        "text": "<div class=\"overflow-x-auto my-8 border border-rolls-gold/20 rounded-lg\" style=\"direction:rtl;\"><table class=\"w-full text-right border-collapse text-gray-300\"><thead><tr class=\"bg-rolls-gold/10 border-b border-rolls-gold/20\"><th class=\"p-4 text-white font-bold\">الكيان</th><th class=\"p-4 text-white font-bold\">الشركة الأم / الملكية</th><th class=\"p-4 text-white font-bold\">المنتجات الأساسية</th><th class=\"p-4 text-white font-bold\">المقر الرئيسي</th></tr></thead><tbody class=\"divide-y divide-rolls-gold/10\"><tr><td class=\"p-4 font-semibold text-white\">رولز رويس للسيارات</td><td class=\"p-4\">مجموعة بي إم دبليو (ألمانية)</td><td class=\"p-4\">سيارات فائقة الفخامة (فانتوم، جوست، كولينان)</td><td class=\"p-4\">غودوود، غرب ساسكس، المملكة المتحدة</td></tr><tr><td class=\"p-4 font-semibold text-white\">رولز رويس القابضة (plc)</td><td class=\"p-4\">شركة مساهمة عامة مدرجة (LSE)</td><td class=\"p-4\">محركات الطائرات النفاثة، الطاقة البحرية والدفاعية</td><td class=\"p-4\">لندن، إنجلترا، المملكة المتحدة</td></tr></tbody></table></div>"
+      },
+      {
         "type": "list",
         "items": [
           "<strong>رولز رويس للسيارات (Rolls-Royce Motor Cars):</strong> شركة تابعة بالكامل لمجموعة بي إم دبليو (BMW Group) منذ عام 1998، ومقرها غودوود، إنجلترا. وتقوم بتصنيع وبيع السيارات فائقة الفخامة والإكسسوارات المخصصة.",
@@ -385,6 +393,10 @@
       {
         "type": "heading",
         "text": "Corporate Structure: Rolls-Royce Motor Cars vs. Rolls-Royce plc"
+      },
+      {
+        "type": "paragraph",
+        "text": "<div class=\"overflow-x-auto my-8 border border-rolls-gold/20 rounded-lg\"><table class=\"w-full text-left border-collapse text-gray-300\"><thead><tr class=\"bg-rolls-gold/10 border-b border-rolls-gold/20\"><th class=\"p-4 text-white font-bold\">Компания</th><th class=\"p-4 text-white font-bold\">Владелец / Структура</th><th class=\"p-4 text-white font-bold\">Основная продукция</th><th class=\"p-4 text-white font-bold\">Штаб-квартира</th></tr></thead><tbody class=\"divide-y divide-rolls-gold/10\"><tr><td class=\"p-4 font-semibold text-white\">Rolls-Royce Motor Cars</td><td class=\"p-4\">BMW Group (Германия)</td><td class=\"p-4\">Ультрароскошные авто (Phantom, Ghost, Cullinan)</td><td class=\"p-4\">Гудвуд, Западный Суссекс, Великобритания</td></tr><tr><td class=\"p-4 font-semibold text-white\">Rolls-Royce plc</td><td class=\"p-4\">Публичная компания (LSE)</td><td class=\"p-4\">Авиационные реактивные двигатели, морские системы</td><td class=\"p-4\">Лондон, Англия, Великобритания</td></tr></tbody></table></div>"
       },
       {
         "type": "list",

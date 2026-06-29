@@ -50,6 +50,10 @@
       },
       {
         "type": "paragraph",
+        "text": "<div class=\"overflow-x-auto my-8 border border-rolls-gold/20 rounded-lg\"><table class=\"w-full text-left border-collapse text-gray-300\"><thead><tr class=\"bg-rolls-gold/10 border-b border-rolls-gold/20\"><th class=\"p-4 text-white font-bold\">Model</th><th class=\"p-4 text-white font-bold\">Daily Rate (AED)</th><th class=\"p-4 text-white font-bold\">Power (V12 / V8)</th><th class=\"p-4 text-white font-bold\">Prestige & Focus</th></tr></thead><tbody class=\"divide-y divide-rolls-gold/10\"><tr><td class=\"p-4 font-semibold text-white\">Rolls-Royce Phantom</td><td class=\"p-4\">From AED 5,500</td><td class=\"p-4\">563 hp V12</td><td class=\"p-4\">Absolute pinnacle, passenger suite</td></tr><tr><td class=\"p-4 font-semibold text-white\">Mercedes-Maybach S680</td><td class=\"p-4\">From AED 3,500</td><td class=\"p-4\">621 hp V12</td><td class=\"p-4\">Business class, digital workspace</td></tr><tr><td class=\"p-4 font-semibold text-white\">Bentley Flying Spur</td><td class=\"p-4\">From AED 3,200</td><td class=\"p-4\">542 hp V8</td><td class=\"p-4\">Sporty luxury, driver-centric</td></tr></tbody></table></div>"
+      },
+      {
+        "type": "paragraph",
         "text": "Furthermore, the transmission is linked to a satellite navigation system. The car reads the GPS coordinates of the road ahead, anticipating upcoming turns, highway merges, and roundabouts. It selects the optimal gear from the eight-speed automatic gearbox before the driver even turns the steering wheel. This ensures that the engine is always in the perfect RPM range for smooth power delivery, eliminating the minor shifts and hesitations that disrupt the serenity of lesser vehicles. The four-wheel steering system adds to this agility, turning the rear wheels in the opposite direction of the front wheels at low speeds to reduce the turning circle, making the long sedan surprisingly easy to maneuver through the narrow lanes of Dubai's luxury shopping centers."
       },
       {
@@ -220,6 +224,10 @@
       },
       {
         "type": "paragraph",
+        "text": "<div class=\"overflow-x-auto my-8 border border-rolls-gold/20 rounded-lg\" style=\"direction:rtl;\"><table class=\"w-full text-right border-collapse text-gray-300\"><thead><tr class=\"bg-rolls-gold/10 border-b border-rolls-gold/20\"><th class=\"p-4 text-white font-bold\">الموديل</th><th class=\"p-4 text-white font-bold\">السعر اليومي (بالدرهم)</th><th class=\"p-4 text-white font-bold\">القوة (V12 / V8)</th><th class=\"p-4 text-white font-bold\">المكانة والتركيز</th></tr></thead><tbody class=\"divide-y divide-rolls-gold/10\"><tr><td class=\"p-4 font-semibold text-white\">رولز رويس فانتوم</td><td class=\"p-4\">تبدأ من 5,500 درهم</td><td class=\"p-4\">563 حصان (V12)</td><td class=\"p-4\">القمة المطلقة، جناح الركاب الفاخر</td></tr><tr><td class=\"p-4 font-semibold text-white\">مرسيدس مايباخ S680</td><td class=\"p-4\">تبدأ من 3,500 درهم</td><td class=\"p-4\">621 حصان (V12)</td><td class=\"p-4\">درجة رجال الأعمال، مساحة عمل رقمية</td></tr><tr><td class=\"p-4 font-semibold text-white\">بنتلي فلاينج سبير</td><td class=\"p-4\">تبدأ من 3,200 درهم</td><td class=\"p-4\">542 حصان (V8)</td><td class=\"p-4\">فخامة رياضية، موجهة نحو السائق</td></tr></tbody></table></div>"
+      },
+      {
+        "type": "paragraph",
         "text": "علاوة على ذلك، يرتبط ناقل الحركة بنظام ملاحة متصل بالأقمار الصناعية. تقرأ السيارة إحداثيات نظام تحديد المواقع العالمي (GPS) للطريق أمامها، متوقعة المنعطفات القادمة والاندماجات على الطرق السريعة والدوارات. وتختار الترس الأمثل من صندوق التروس الأوتوماتيكي ذي الثماني سرعات قبل أن يدير السائق عجلة القيادة. يضمن ذلك بقاء المحرك دائماً في نطاق دورات المحرك المثالي لتوفير الطاقة بسلاسة، مما يلغي التبديلات والترددات الطفيفة التي تعكر صفو الهدوء في السيارات الأقل شأناً. ويضيف نظام التوجيه الرباعي للعجلات مرونة إضافية، حيث يوجه العجلات الخلفية في عكس اتجاه العجلات الأمامية عند السرعات المنخفضة لتقليص دائرة الانعطاف، مما يجعل السيدان الطويلة سهلة المناورة بشكل مدهش في الممرات الضيقة لمراكز التسوق الفاخرة في دبي."
       },
       {
@@ -387,6 +395,10 @@
       {
         "type": "paragraph",
         "text": "Система подвески, известная как 'Magic Carpet Ride' (поездка на ковре-самолете), представляет собой чудо электронной и пневматической инженерии. Она использует стереокамеру, встроенную в лобовое стекло, для сканирования дороги впереди, распознавая выбоины, неровности и трещины еще до того, как колеса достигнут их. Пневмоподвеска затем регулирует жесткость амортизаторов на каждом отдельном колесе за миллисекунды, проактивно готовя шасси к поглощению удара. В результате поездка ощущается полностью оторванной от реальной дорожной поверхности. Едете ли вы по брусчатке курорта на Пальме Джумейра или преодолеваете лежачие полицейские в Даунтауне, салон остается идеально горизонтальным и спокойным."
+      },
+      {
+        "type": "paragraph",
+        "text": "<div class=\"overflow-x-auto my-8 border border-rolls-gold/20 rounded-lg\"><table class=\"w-full text-left border-collapse text-gray-300\"><thead><tr class=\"bg-rolls-gold/10 border-b border-rolls-gold/20\"><th class=\"p-4 text-white font-bold\">Модель</th><th class=\"p-4 text-white font-bold\">Суточный тариф (AED)</th><th class=\"p-4 text-white font-bold\">Мощность (V12 / V8)</th><th class=\"p-4 text-white font-bold\">Престиж и фокус</th></tr></thead><tbody class=\"divide-y divide-rolls-gold/10\"><tr><td class=\"p-4 font-semibold text-white\">Rolls-Royce Phantom</td><td class=\"p-4\">От 5 500 AED</td><td class=\"p-4\">563 л.с. V12</td><td class=\"p-4\">Абсолютная вершина, люкс для пассажира</td></tr><tr><td class=\"p-4 font-semibold text-white\">Mercedes-Maybach S680</td><td class=\"p-4\">От 3 500 AED</td><td class=\"p-4\">621 л.с. V12</td><td class=\"p-4\">Бизнес-класс, цифровое пространство</td></tr><tr><td class=\"p-4 font-semibold text-white\">Bentley Flying Spur</td><td class=\"p-4\">От 3 200 AED</td><td class=\"p-4\">542 л.с. V8</td><td class=\"p-4\">Спортивная роскошь, для водителя</td></tr></tbody></table></div>"
       },
       {
         "type": "paragraph",
