@@ -301,6 +301,47 @@ async function main() {
   const staticEmpty = (await countFiles(path.join(OUT, '_next', 'static'), () => true)) === 0
   if (staticEmpty) errors.push('_next/static is empty')
 
+  // Case-sensitive image-reference check. Cloudflare serves assets case-sensitively
+  // but macOS is case-insensitive, so a wrong-case ref (e.g. /images/rolls-royce-phantom.jpg
+  // when the file is Rolls-royce-phantom.jpg) passes locally then 404s in production.
+  {
+    const htmlFiles = []
+    const walk = async (dir) => {
+      for (const e of await fs.readdir(dir, { withFileTypes: true })) {
+        const p = path.join(dir, e.name)
+        if (e.isDirectory()) await walk(p)
+        else if (e.name.endsWith('.html')) htmlFiles.push(p)
+      }
+    }
+    await walk(OUT)
+    const refs = new Set()
+    const re = /\/images\/[^"'?)\s\\]+\.(?:jpg|jpeg|png|webp|avif|gif|svg)/gi
+    for (const hf of htmlFiles) {
+      const html = await fs.readFile(hf, 'utf8')
+      let m
+      while ((m = re.exec(html))) refs.add(m[0])
+    }
+    const dirCache = new Map()
+    const listDir = async (d) => {
+      if (!dirCache.has(d)) { try { dirCache.set(d, await fs.readdir(d)) } catch { dirCache.set(d, []) } }
+      return dirCache.get(d)
+    }
+    let mism = 0
+    for (const ref of refs) {
+      const abs = path.join(OUT, ref)
+      const entries = await listDir(path.dirname(abs))
+      const base = path.basename(abs)
+      if (!entries.includes(base)) {
+        const variant = entries.find((e) => e.toLowerCase() === base.toLowerCase())
+        errors.push(variant
+          ? `Image CASE mismatch (will 404 on Cloudflare): HTML references "${ref}" but the file is ".../${variant}"`
+          : `Image referenced in HTML but MISSING from output: ${ref}`)
+        mism++
+      }
+    }
+    if (!mism) console.log(`  image refs checked  : ${refs.size} unique (all exact-case OK)`)
+  }
+
   if (errors.length) {
     console.error('[assemble] VERIFICATION FAILED:')
     for (const e of errors) console.error('  - ' + e)

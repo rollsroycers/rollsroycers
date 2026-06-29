@@ -374,7 +374,7 @@ export const blogArticles: Record<string, BlogArticle> = {
       },
       {
         type: 'image',
-        src: '/images/Rolls-Royce-with-blan.jpg',
+        src: '/images/Rolls-royce-with-blan.jpg',
         alt: 'Decorated Rolls-Royce for wedding',
         caption: 'Elegant decoration enhances the luxury experience'
       },
@@ -2158,7 +2158,7 @@ export const blogArticles: Record<string, BlogArticle> = {
       },
       {
         type: 'image',
-        src: '/images/Rolls-Royce-event.jpg',
+        src: '/images/rolls-royce-event.jpg',
         alt: 'VIP event at Rolls-Royce pavilion',
         caption: 'Exclusive VIP preview at the Rolls-Royce pavilion'
       },
@@ -2919,12 +2919,12 @@ export const blogArticles: Record<string, BlogArticle> = {
     date: '2026-01-22',
     readTime: '9 min read',
     category: 'Guides',
-    image: '/images/rolls-royce-phantom.jpg',
+    image: '/images/Rolls-royce-phantom.jpg',
     content: [
       { type: 'paragraph', text: 'The Phantom and Ghost are the two pillars of the Rolls-Royce sedan lineup, but they serve different purposes. Understanding the difference helps you choose the perfect car for your Dubai experience — and potentially save AED 2,000/day in the process.' },
       { type: 'heading', text: 'The Fundamental Difference' },
       { type: 'paragraph', text: 'The Phantom is designed to be driven in. It\'s the ultimate chauffeured car — the pinnacle of rear-seat luxury. The Ghost is designed to be driven. It\'s for those who want to command the road themselves while enjoying supreme comfort. This distinction shapes every aspect of the cars.' },
-      { type: 'image', src: '/images/rolls-royce-phantom.jpg', alt: 'Rolls-Royce Phantom Dubai', caption: 'The Phantom: the undisputed king of luxury sedans' },
+      { type: 'image', src: '/images/Rolls-royce-phantom.jpg', alt: 'Rolls-Royce Phantom Dubai', caption: 'The Phantom: the undisputed king of luxury sedans' },
       { type: 'heading', text: 'Specifications Comparison' },
       { type: 'list', items: ['<strong>Engine:</strong> Both 6.75L Twin-Turbo V12', '<strong>Phantom:</strong> 563 HP, 900 Nm | <strong>Ghost:</strong> 563 HP, 850 Nm', '<strong>Length:</strong> Phantom 5.76m (EWB: 5.98m) | Ghost 5.55m', '<strong>0-100:</strong> Phantom 5.4s | Ghost 4.8s', '<strong>Weight:</strong> Phantom 2,560 kg | Ghost 2,490 kg', '<strong>Unique to Phantom:</strong> Gallery dashboard (bespoke art behind glass), partition glass, rear theatre configuration', '<strong>Unique to Ghost:</strong> Planar suspension, illuminated fascia, more agile handling'] },
       { type: 'heading', text: 'When to Choose the Phantom' },

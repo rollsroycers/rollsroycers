@@ -15,10 +15,10 @@ import { listFileSlugs, getFileArticle } from '@/data/blogFileStore'
 export default function BlogPage({ filePosts = [] }: { filePosts?: any[] }) {
   const { t } = useTranslation('common')
   const [selectedCategory, setSelectedCategory] = useState('all')
-  // Progressive rendering: only mount a window of article cards so the index never
-  // tries to load hundreds of cover images at once (critical as the blog scales to 700+).
+  // Numbered, in-place pagination (URL stays /blog): only a window of cards mounts
+  // per page, so the index never loads hundreds of cover images at once and scales to 1000+.
   const PAGE_SIZE = 12
-  const [visibleCount, setVisibleCount] = useState(PAGE_SIZE)
+  const [page, setPage] = useState(1)
   
   const categories = [
     { id: 'all', name: t('blog.categories.all') },
@@ -262,18 +262,35 @@ export default function BlogPage({ filePosts = [] }: { filePosts?: any[] }) {
       author: 'James Thompson',
       date: 'Jan 22, 2026',
       readTime: '9 min read',
-      image: '/images/rolls-royce-phantom.jpg',
+      image: '/images/Rolls-royce-phantom.jpg',
       slug: 'rolls-royce-phantom-vs-ghost-comparison'
     }
   ]
 
   // File-based posts (src/data/blog/*.json) come first (newest), then the legacy
   // curated list — so newly added posts surface automatically and /blog scales to 1000+.
-  const allArticles = [...filePosts, ...articles]
+  // Newest first across BOTH file-based and legacy posts (locale-independent date parse).
+  const allArticles = [...filePosts, ...articles].sort(
+    (a, b) => (Date.parse(b.date) || 0) - (Date.parse(a.date) || 0)
+  )
   const filteredArticles = selectedCategory === 'all'
     ? allArticles
     : allArticles.filter(article => article.category === selectedCategory)
-  const visibleArticles = filteredArticles.slice(0, visibleCount)
+  const totalPages = Math.max(1, Math.ceil(filteredArticles.length / PAGE_SIZE))
+  const currentPage = Math.min(page, totalPages)
+  const visibleArticles = filteredArticles.slice((currentPage - 1) * PAGE_SIZE, currentPage * PAGE_SIZE)
+  // Windowed page numbers (max 7, like the reference control).
+  const PAGER_WINDOW = 7
+  const pgEndRaw = Math.min(totalPages, Math.max(1, currentPage - Math.floor(PAGER_WINDOW / 2)) + PAGER_WINDOW - 1)
+  const pgStart = Math.max(1, pgEndRaw - PAGER_WINDOW + 1)
+  const pageNumbers: number[] = []
+  for (let i = pgStart; i <= pgEndRaw; i++) pageNumbers.push(i)
+  const goToPage = (n: number) => {
+    setPage(Math.min(Math.max(1, n), totalPages))
+    if (typeof document !== 'undefined') {
+      document.getElementById('blog-articles')?.scrollIntoView({ behavior: 'smooth', block: 'start' })
+    }
+  }
 
   return (
     <>
@@ -349,7 +366,7 @@ export default function BlogPage({ filePosts = [] }: { filePosts?: any[] }) {
               {categories.map((category) => (
                 <button
                   key={category.id}
-                  onClick={() => { setSelectedCategory(category.id); setVisibleCount(PAGE_SIZE) }}
+                  onClick={() => { setSelectedCategory(category.id); setPage(1) }}
                   className={`px-6 py-2 rounded-full transition-all ${
                     selectedCategory === category.id
                       ? 'bg-rolls-gold text-rolls-black font-semibold'
@@ -414,7 +431,7 @@ export default function BlogPage({ filePosts = [] }: { filePosts?: any[] }) {
         </section>
 
         {/* Articles Grid */}
-        <section className="py-20 bg-gradient-to-b from-rolls-navy to-rolls-black">
+        <section id="blog-articles" className="py-20 bg-gradient-to-b from-rolls-navy to-rolls-black scroll-mt-24">
           <div className="container mx-auto px-4">
             <h2 className="text-4xl font-bold text-white text-center mb-12">
               Latest Articles
@@ -473,15 +490,39 @@ export default function BlogPage({ filePosts = [] }: { filePosts?: any[] }) {
                 </motion.article>
               ))}
             </div>
-            {visibleCount < filteredArticles.length && (
-              <div className="text-center mt-12">
+            {totalPages > 1 && (
+              <nav aria-label="Blog pagination" className="flex items-center justify-center gap-2 mt-12">
                 <button
-                  onClick={() => setVisibleCount((c) => c + PAGE_SIZE)}
-                  className="px-8 py-3 rounded-full bg-rolls-gold text-rolls-black font-semibold hover:bg-white transition-all"
+                  onClick={() => goToPage(currentPage - 1)}
+                  disabled={currentPage === 1}
+                  aria-label="Previous page"
+                  className="w-10 h-10 flex items-center justify-center rounded-lg text-gray-400 hover:text-white hover:bg-rolls-gold/10 disabled:opacity-30 disabled:cursor-not-allowed transition-all rtl:rotate-180"
                 >
-                  Load more articles ({filteredArticles.length - visibleCount} more)
+                  <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" /></svg>
                 </button>
-              </div>
+                {pageNumbers.map((n) => (
+                  <button
+                    key={n}
+                    onClick={() => goToPage(n)}
+                    aria-current={n === currentPage ? 'page' : undefined}
+                    className={`min-w-[2.5rem] h-10 px-3 flex items-center justify-center rounded-lg font-semibold transition-all ${
+                      n === currentPage
+                        ? 'bg-rolls-gold text-rolls-black shadow-lg'
+                        : 'text-gray-300 hover:text-white hover:bg-rolls-gold/10'
+                    }`}
+                  >
+                    {n}
+                  </button>
+                ))}
+                <button
+                  onClick={() => goToPage(currentPage + 1)}
+                  disabled={currentPage === totalPages}
+                  aria-label="Next page"
+                  className="w-10 h-10 flex items-center justify-center rounded-lg text-gray-400 hover:text-white hover:bg-rolls-gold/10 disabled:opacity-30 disabled:cursor-not-allowed transition-all rtl:rotate-180"
+                >
+                  <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" /></svg>
+                </button>
+              </nav>
             )}
           </div>
         </section>

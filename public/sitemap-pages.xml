@@ -252,7 +252,6 @@
     <image:image><image:loc>https://rollsroycers.com/images/2024_Rolls-Royce_Cullinan_Black_Badge.jpg</image:loc></image:image>
     <image:image><image:loc>https://rollsroycers.com/images/2024_Rolls-Royce_Cullinan.jpg</image:loc></image:image>
     <image:image><image:loc>https://rollsroycers.com/images/Rolls-Royce_Dawn.jpg</image:loc></image:image>
-    <image:image><image:loc>https://rollsroycers.com/images/rolls-royce-phantom.jpg</image:loc></image:image>
     <image:image><image:loc>https://rollsroycers.com/images/Rolls-royce-official.jpg</image:loc></image:image>
   </url>
   <url>
@@ -481,7 +480,7 @@
   </url>
   <url>
     <loc>https://rollsroycers.com/services/hourly-rental</loc>
-    <lastmod>2026-06-24</lastmod>
+    <lastmod>2026-06-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://rollsroycers.com/services/hourly-rental"/>
@@ -489,7 +488,7 @@
     <xhtml:link rel="alternate" hreflang="ru" href="https://rollsroycers.com/ru/services/hourly-rental"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://rollsroycers.com/services/hourly-rental"/>
     <image:image><image:loc>https://rollsroycers.com/images/Rolls-Royce_Ghost-2.jpg</image:loc></image:image>
-    <image:image><image:loc>https://rollsroycers.com/images/rolls-royce-phantom.jpg</image:loc></image:image>
+    <image:image><image:loc>https://rollsroycers.com/images/Rolls-royce-phantom.jpg</image:loc></image:image>
     <image:image><image:loc>https://rollsroycers.com/images/2024_Rolls-Royce_Cullinan.jpg</image:loc></image:image>
     <image:image><image:loc>https://rollsroycers.com/images/Rolls-Royce_Dawn.jpg</image:loc></image:image>
     <image:image><image:loc>https://rollsroycers.com/images/wraith-coupe.jpg</image:loc></image:image>
