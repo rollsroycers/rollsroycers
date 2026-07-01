@@ -46,7 +46,7 @@
 | **Specificity** | كل ادعاء برقم حقيقي (محرك 6.75L V12، AED 3,800/يوم…) — لا "فخم"/"قوي"/"رائع" | §8 |
 | **الأسعار** | AED دائمًا — Ghost من 3,800/يوم · Cullinan 6,500 · Spectre 7,500 | §8, §9 |
 | **WhatsApp** | `+971558164922` (في CTA — كرابط `https://wa.me/971558164922`) | §10 |
-| **🔍 الفهرسة** | بعد النشر: sitemap آلي + GSC + IndexNow (en/ar/ru) | §18 |
+| **🔍 الفهرسة** | بعد النشر الفعلي: sitemap آلي + GSC + IndexNow (en/ar/ru) (لا تفهرس المجدول) | §18 |
 
 > 🔴 **قبل أي نشر:** (1) شغّل `node scripts/i18n-verify.mjs` — يجب أن يمر بـ exit 0 (0 مفاتيح i18next خام + لا FAQPage مكرّر). (2) نفّذ فحوص §16-A اليدوية — عدّ الكلمات لكل لغة ≥ 1,500، وفحص تسريب بادئة اللغة. **فشل أيٍّ منهما = لا نشر.**
 
@@ -76,7 +76,7 @@
 8. شغّل `npm run deploy` للتحقق والبناء والنشر إلى Cloudflare مباشرةً (يتبعه postbuild → sitemap آلي + deploy + warm-cache).
 9. اعمل `commit` مباشرة على فرع `main`.
 10. 🔴 **ارفع وانشر:** `git push origin main` مباشرةً لرفع التغييرات إلى GitHub دون انتظار موافقة.
-11. 🔍 **فهرس فورًا:** قدّم الـ URLs الثلاثة (en/ar/ru) في Google Search Console + IndexNow (§18).
+11. 🔍 **جدولة الفهرسة:** قدّم الـ URLs الثلاثة (en/ar/ru) في Google Search Console + IndexNow عند حلول موعد النشر الفعلي فقط (§18). لا ترسل روابط المقالات المجدولة مستقبلاً للمحركات قبل موعدها.
 12. **حدّث `rollsroycers-blog-roadmap.md`** (⬜ → ✅).
 13. قدّم تقرير 6 أسطر (يشمل نتيجة البناء + النشر + الفهرسة).
 
@@ -108,7 +108,7 @@
 | 15 | Checklist نهائي + تحديث `rollsroycers-blog-roadmap.md` | تحقق شامل |
 | **16** | **بوابة التدقيق §16-A ثم `npm run build`** | **build خالٍ من الأخطاء** |
 | **17** | **`git commit` (على فرع) + `push` بإذن المالك** | **Commit مرفوع** |
-| **18** | 🔍 **`npm run deploy` + فهرسة GSC/IndexNow (en/ar/ru)** | **منشور + مُبلَّغ للمحركات** |
+| **18** | 🔍 **`npm run deploy` + فهرسة GSC/IndexNow (عند النشر الفعلي)** | **منشور + مُبلَّغ للمحركات (لا للمجدول)** |
 
 ### 🔑 إنشاء مقال جديد — طريقتان (الأولى موصى بها)
 
@@ -116,7 +116,7 @@
 
 > 🗄️ **الطريقة القديمة (للـ21 مقال القائم فقط — لا تستخدمها لمقال جديد):** 3 مواقع — (1) كائن EN inline في `blogArticles` داخل [`src/pages/blog/[slug].tsx`](src/pages/blog/[slug].tsx)، (2) ترجمات ar/ru في [`src/data/blogTranslations.json`](src/data/blogTranslations.json) (نفس بنية الكتل، ليست HTML string)، (3) الـ slug في [`src/data/blogSlugs.json`](src/data/blogSlugs.json). تعمل لكنها **لا تتوسّع** (21 مقال = 3,774 سطرًا في ملف واحد). أبقِها للمقالات القائمة فقط، ولا تنقلها إلا عند الحاجة.
 
-ثم (لأي طريقة): اضبط `relatedArticles` (3 slugs موجودة فعلًا في أي مخزن) + `image` (cover) → `npm run build` → بوابة تدقيق §16-A → `npm run deploy` → فهرسة GSC/IndexNow.
+ثم (لأي طريقة): اضبط `relatedArticles` (3 slugs موجودة فعلًا في أي مخزن) + `image` (cover) → `npm run build` → بوابة تدقيق §16-A → `npm run deploy` → فهرسة GSC/IndexNow (عند حلول موعد النشر الفعلي فقط).
 
 > 🧠 **منطق الدمج (احفظه — مصدر خطأ صامت):** في `getStaticProps`:
 > ```ts
@@ -261,10 +261,10 @@ https://rollsroycers.com/ru/blog/{slug}     ← RU
 
 | الآلية | الإجراء |
 |--------|---------|
-| **Google Search Console** | URL Inspection → Request Indexing للـ 3 روابط (en/ar/ru) |
-| **IndexNow** | أرسِل الـ 3 روابط لـ IndexNow (Bing/Yandex) |
+| **Google Search Console** | URL Inspection → Request Indexing للـ 3 روابط (en/ar/ru) عند النشر الفعلي |
+| **IndexNow** | أرسِل الـ 3 روابط لـ IndexNow (Bing/Yandex) عند النشر الفعلي |
 
-> 🔴 **القاعدة الذهبية:** مقال بدون نشر + فهرسة = **لم يُنشر**. الخطوة 18 جزء لا يتجزأ من العملية مثل `npm run build`.
+> 🔴 **القاعدة الذهبية:** المقالات المجدولة مستقبلاً لا يتم فهرستها أو إرسالها لـ Google Search Console / IndexNow إلا عند حلول موعد النشر الفعلي. مقال بدون نشر + فهرسة = **لم يُنشر**. الخطوة 18 جزء لا يتجزأ من العملية مثل `npm run build` عند موعد الصدور الفعلي.
 
 ---
 
@@ -870,6 +870,6 @@ content: [
 
 ## 🎯 الخلاصة
 
-كل مقال جديد يجب أن: (1) يبدأ بفائدة/سؤال + Quick-Answer Box ككتلة مُلوّنة · (2) سياق دبي طبيعي (2-3 إشارات) · (3) كل ادعاء برقم **حقيقي** (لا اختلاق) · (4) فصحى راقية في AR، روسية احترافية في RU، إنجليزية فاخرة · (5) 5 FAQ ككتل + 3 related · (6) **Trilingual Parity (EN === AR === RU)** بنفس العمق · (7) ⚖️ **i18n معكوس** (EN بلا بادئة · AR `/ar/` · RU `/ru/`) · (8) لا كليشيهات AI · 🔴 (9) **≥ 1,500 كلمة لكل لغة — مُتحقَّق بـ §16-A** · (10) مُسجَّل في **3 مواقع** (blogArticles + blogTranslations + blogSlugs) · (11) `npm run build` ثم `npm run deploy` (warm-cache) ثم فهرسة GSC/IndexNow للـ 3 روابط.
+كل مقال جديد يجب أن: (1) يبدأ بفائدة/سؤال + Quick-Answer Box ككتلة مُلوّنة · (2) سياق دبي طبيعي (2-3 إشارات) · (3) كل ادعاء برقم **حقيقي** (لا اختلاق) · (4) فصحى راقية في AR، روسية احترافية في RU، إنجليزية فاخرة · (5) 5 FAQ ككتل + 3 related · (6) **Trilingual Parity (EN === AR === RU)** بنفس العمق · (7) ⚖️ **i18n معكوس** (EN بلا بادئة · AR `/ar/` · RU `/ru/`) · (8) لا كليشيهات AI · 🔴 (9) **≥ 1,500 كلمة لكل لغة — مُتحقَّق بـ §16-A** · (10) مُسجَّل في **3 مواقع** (blogArticles + blogTranslations + blogSlugs) · (11) `npm run build` ثم `npm run deploy` (warm-cache) ثم الفهرسة عند موعد النشر الفعلي فقط للروابط الثلاثة.
 
 **النتيجة:** محتوى ثلاثي اللغة يربح خوارزميًا (AI Overviews + Featured Snippets) ويبني ثقة في سوق الفخامة بدبي، ويحفظ هوية Rolls-Royce Dubai كمستشار فخامة موثوق — على ستاك Next.js Pages Router + OpenNext/Cloudflare Workers.

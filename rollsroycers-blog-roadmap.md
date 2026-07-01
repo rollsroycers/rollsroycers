@@ -34,20 +34,20 @@
 9. **البناء:** `npm run build` للتحقق من خلو البناء من الأخطاء.
 10. **النشر:** `npm run deploy` (يشغّل `opennextjs-cloudflare build` + `deploy` + `warm-cache`).
     > ⚠️ النشر **لا يُفرّغ كاش الـ edge**: الصفحات SSG خلف كاش CDN على Cloudflare؛ مرحلة `warm-cache` بعد النشر تمتص أول render بارد. لا تتوقع تحديثاً فورياً للصفحات المخزّنة حتى تمر warm-cache.
-11. **الفهرسة:** الـ sitemap يُولَّد تلقائياً (`scripts/generate-sitemap.mjs`، 67 رابط × 3 لغات شاملة en/ar/ru). بعد النشر: قدّم الـ URL في **Google Search Console** + **IndexNow**.
+11. **الفهرسة:** الـ sitemap يُولَّد تلقائياً (`scripts/generate-sitemap.mjs`، 67 رابط × 3 لغات شاملة en/ar/ru). بعد النشر الفعلي (عند حلول موعد النشر): قدّم الـ URL في **Google Search Console** + **IndexNow**. (المقالات المجدولة مستقبلاً لا تُفهرس حتى يحين موعد نشرها الفعلي).
 12. **حدّث هذا الملف:** سجّل المقال الجديد في «منشور بالفعل» وفي عنقوده الموضوعي (Edit tool، أسطر قليلة فقط).
 13. قدّم تقرير 5 أسطر.
 
 **خطوات إنشاء مقال جديد في مدونة RR الفعلية (إلزامية بالترتيب):**
 
 1. أضف كائن المقال في `blogArticles` Record **داخل** `src/pages/blog/[slug].tsx` (الحقول: `author` باسم شخصية حقيقية مثل Ahmed Salem / Sarah Mitchell، `category` ∈ {Guides, Luxury, Events, Tips} — أو الفئات الموجودة فعلاً: Travel, Weddings, Business, Heritage, Lifestyle — أقسام المحتوى، FAQ، `relatedArticles[]`، حقول schema/BlogPosting).
-2. أضف ترجمات `ar` + `ru` في `src/data/blogTranslations.json`.
+2. أضف ترجمات `ar` + `ru` in `src/data/blogTranslations.json`.
 3. أضف الـ slug في `src/data/blogSlugs.json`.
 4. اضبط `relatedArticles` (3–5) + **3–5 روابط داخلية في المتن** (موضوعات + خدمات/أسطول، حد أقصى 5) + `coverImage`.
 5. `npm run build`.
 6. بوابة التدقيق (الخطوة 8 أعلاه).
 7. `npm run deploy`.
-8. الفهرسة (GSC + IndexNow).
+8. الفهرسة عند حلول موعد النشر الفعلي (GSC + IndexNow).
 
 **Trigger Phrases:** "اكتب مقال رولز رويس جديد" · "اكمل المدونة" · "اكتب المقال التالي" · "ابدأ موضوع من القائمة" · "Write the next blog post" · "اكتب موضوع #N".
 
