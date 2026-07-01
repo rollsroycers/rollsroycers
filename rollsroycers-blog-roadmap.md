@@ -113,6 +113,16 @@
 | 46 | `owned-rolls-royce-timeline-royce-bmw` | Heritage | Editorial Team | Who Owned Rolls-Royce? A Timeline From Royce to BMW |
 | 47 | `rolls-royce-silver-wraith-classic-legacy-dubai-lovers` | Heritage | Fatima Al Rashid | The Rolls-Royce Silver Wraith: A Classic Legacy for Dubai Lovers |
 | 48 | `phantom-interior-worth-renting-cabin-dubai` | Guides | Ahmed Salem | Is the Phantom Interior Worth It? Renting the Cabin in Dubai |
+| 49 | `pictures-rolls-royce-phantom-see-before-renting-dubai` | Guides | Ahmed Salem | Pictures of a Rolls-Royce Phantom: See It Before Renting in Dubai |
+| 50 | `whats-phantom-worth-knowing-before-rent-dubai` | Guides | Editorial Team | What's a Phantom Worth Knowing Before You Rent in Dubai? |
+| 51 | `rolls-royce-ghost-black-badge-price-rent-smarter-dubai` | Pricing | Editorial Team | Rolls-Royce Ghost Black Badge Price: Rent Smarter in Dubai |
+| 52 | `rolls-royce-ghost-2012-2017-reliability-compared` | Guides | Editorial Team | Rolls-Royce Ghost 2012 vs 2017: Reliability Compared |
+| 53 | `owns-rolls-royce-separating-cars-jet-engines` | Guides | Ahmed Salem | Who Owns Rolls-Royce? Separating the Cars From the Jet Engines |
+| 54 | `cullinan-rent-one-dubai` | Guides | Editorial Team | What Is a Cullinan, and Why Rent One in Dubai? |
+| 55 | `5-reasons-rolls-royce-out-comforts-maybach-dubai` | Guides | Editorial Team | 5 Reasons Rolls-Royce Out-Comforts the Maybach in Dubai |
+| 56 | `can-phantom-be-rented-day-dubai-yes-heres` | Guides | Editorial Team | Can the Phantom Be Rented for a Day in Dubai? Yes, Here's How |
+| 57 | `rolls-royce-ghost-series-2-price-rent-own-dubai` | Pricing | Ahmed Salem | Rolls-Royce Ghost Series 2 Price: Rent vs Own in Dubai |
+| 58 | `rolls-royce-bentley-maybach-rent-dubai` | Guides | Editorial Team | Rolls-Royce vs Bentley vs Maybach: Which to Rent in Dubai? |
 
 
 > **الفئات (categories) المتاحة للمقالات الجديدة:** `Guides` · `Luxury` · `Events` · `Tips` — بالإضافة إلى الفئات الموجودة فعلاً في الكود: `Travel` · `Weddings` · `Business` · `Heritage` · `Lifestyle`. التزم بإحداها ولا تخترع فئة جديدة دون حاجة.
