@@ -1,0 +1,403 @@
+import fs from 'node:fs';
+import path from 'node:path';
+
+const en = {
+  "title": "Behind the Badge: Who Really Makes Rolls-Royce Cars",
+  "description": "Who really makes Rolls-Royce cars? Learn about the Goodwood craft, BMW's engineering, and why this hand-built luxury makes renting in Dubai so special.",
+  "author": "Ahmed Salem",
+  "date": "2026-09-10",
+  "readTime": "10 min read",
+  "category": "Guides",
+  "image": "/images/blog/makes-rolls-royce-cars-goodwood-craft-cover.jpg",
+  "relatedArticles": [
+    "where-are-rolls-royce-cars-made",
+    "who-makes-rolls-royce-engines",
+    "rolls-royce-built-goodwood-home-luxury"
+  ],
+  "content": [
+    {
+      "type": "paragraph",
+      "text": "<div style=\"background:#1a1a1a;border-left:4px solid #c9a227;padding:16px 20px;margin:24px 0;border-radius:8px;\"><strong>💡 Quick Answer:</strong> The iconic <strong>badge really makes rolls royce cars dubai</strong> tastemakers demand a statement of incomparable heritage. While BMW provides the underlying engineering and drivetrain support, each vehicle is hand-crafted at Goodwood, England. Rent these masterpieces from our fleet starting at AED 3,800/day for the Ghost, AED 6,500/day for the Cullinan, AED 7,500/day for the Spectre, and AED 5,800/day for the Phantom. Contact us on <a href=\"https://wa.me/971558164922\">+971558164922</a> to secure yours.</div>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<div style=\"background:#0f0f0f;border:1px solid #2a2a2a;border-left:4px solid #c9a227;padding:20px;margin:32px 0;border-radius:8px;\"><p style=\"color:#c9a227;font-weight:bold;margin:0 0 8px;\">🛎️ From Our Dubai Concierge Operations</p><p style=\"margin:0;line-height:1.8;\">To ensure that your experience matches the meticulous assembly of the vehicle itself, we coordinate seamless, door-to-door delivery across the emirate. Whether you require your vehicle positioned at a private terminal at DXB, a boutique hotel in Downtown, a residence on Palm Jumeirah, or a yacht berth in Dubai Marina, our team manages the logistics with quiet precision. We charge zero delivery fees, offer bespoke multi-currency invoicing for our corporate clients, and conduct a thorough, personal walkthrough of the cabin’s custom features upon handover. Your convenience is our absolute priority.</p></div>"
+    },
+    {
+      "type": "heading",
+      "text": "The British Heart of Luxury: Goodwood's Artisans"
+    },
+    {
+      "type": "paragraph",
+      "text": "Deep in the rolling hills of West Sussex, England, lies a low-slung, cedar-clad facility designed by Sir Nicholas Grimshaw that looks more like a modern art museum than a manufacturing plant. This is the Goodwood Home of Rolls-Royce, the singular sanctuary <a href=\"/blog/where-are-rolls-royce-cars-made\">where Rolls-Royce cars are made</a>. Unlike standard automotive factories where robotic arms hiss and clatter over endless conveyor belts, Goodwood operates at a deliberate, human pace. Here, hundreds of skilled British artisans, leather workers, wood sculptors, and paint specialists shape raw materials into rolling works of art. Every vehicle that rolls off the line is the product of hundreds of hours of hands-on labor. The human touch is not a marketing catchphrase; it is the core philosophy. You can feel it in the tension of the hand-stitched leather on the steering wheel, and you can see it in the flawless mirror-image matching of the exotic wood veneers. Machines are used only where absolute engineering tolerance is required; everything that you touch, smell, and interact with inside the cabin is the result of human hands executing their craft to perfection. This relentless dedication to manual artistry ensures that no two vehicles are ever completely identical, preserving a sense of rare exclusivity that cannot be replicated by automated assembly lines."
+    },
+    {
+      "type": "heading",
+      "text": "BMW and Goodwood: The Split of Engineering and Artistry"
+    },
+    {
+      "type": "paragraph",
+      "text": "To understand the modern identity of the brand, one must appreciate the elegant division of labor between Munich and Goodwood. Since BMW acquired the rights to the name and took full stewardship of the automotive division in 2003, a fascinating partnership has matured. BMW provides the vast technological resources, the robust electrical architecture, and the formidable drivetrain engineering that make these vehicles as reliable as they are effortless. Under the hood, the whisper-quiet V12 engine and the advanced chassis systems benefit from BMW’s engineering prowess. However, Munich wisely stops at the metal. Once the rolling aluminum spaceframe chassis is prepared, it is delivered to Goodwood, where the magic truly begins. The German engineers handle the mechanical logic, but the British artisans own the soul. The coachwork, the paint depth that requires over forty kilograms of material, the selection of the wood veneers, and the hand-tailoring of the interior are executed exclusively in West Sussex. This ensures that while a driver enjoys modern reliability and class-leading electronic systems, the sensory experience remains pure, uncompromising British luxury. It is a rare marriage of German engineering efficiency and British heritage craftsmanship, creating a vehicle that is mechanically bulletproof yet artistically irreplaceable."
+    },
+    {
+      "type": "heading",
+      "text": "The Craft of the Cabin: Leather, Wood, and Paint"
+    },
+    {
+      "type": "paragraph",
+      "text": "Inside the Goodwood facility, three specialized ateliers define the character of every vehicle. The first is the paint shop, where a vehicle receives a finish so deep and reflective that it mimics a dark, still pool of water. Each car undergoes a multi-stage painting process that takes days, finished with a hand-polished clear coat that reveals zero orange peel or imperfections. Next is the leather shop, a quiet space smelling of premium Scandinavian hides. Because these cattle graze in regions without barbed wire or insect pests, the leather is entirely blemish-free. Artisans cut, sew, and trim each piece by hand, using heavy-duty sewing machines only to assist their manual guidance. Finally, the wood shop resembles the workshop of a master luthier. Specialists select raw logs from sustainable forests worldwide, slicing them into thin veneers before matching the natural grain. This wood is not merely glued to a backing; it is cured, lacquered, and polished over several days to bring out the depth of the grain. Each veneer is kept in a temperature-controlled room alongside its sister sheets, ensuring that if a panel is damaged years later, the owner can request a replacement from the exact same tree to preserve the matching grain. It is this obsessive attention to detail that elevates the cabin from a simple interior to an architectural salon."
+    },
+    {
+      "type": "list",
+      "items": [
+        "<strong>Hand-painting the coachline:</strong> A single, continuous line of paint measuring exactly six meters long, applied entirely by hand by a single artisan, Mark Court, using a specialized squirrel-hair brush. There are no guides, no tape, and no room for error.",
+        "<strong>Premium Scandinavian hides:</strong> The leather shop utilizes up to seventeen premium hides sourced from high-altitude Scandinavian pastures to avoid blemishes, requiring over two weeks of meticulous cutting and hand-stitching for a single cabin.",
+        "<strong>Veneer book-matching:</strong> The wood shop employs mirror-image book-matching, where wood veneers from the same log are placed side-by-side to create perfectly symmetrical patterns, ensuring a seamless visual flow across the dashboard.",
+        "<strong>The Starlight Headliner:</strong> A breathtaking canopy of 1,340 individual fiber-optic lights, each threaded by hand into the leather roof lining at precise depths and angles to recreate a customized night sky, requiring over nine hours of labor.",
+        "<strong>Bespoke chassis tuning:</strong> Goodwood’s engineering team manually tunes the sophisticated air suspension system to deliver the signature magic carpet ride, absorbing road imperfections so effectively that a glass of water in the cabin remains undisturbed."
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Why the Goodwood Touch Matters in Dubai"
+    },
+    {
+      "type": "paragraph",
+      "text": "In a city defined by architectural superlatives and rapid technological advancement, the organic, hand-crafted nature of a Rolls-Royce stands as a rare pillar of timeless luxury. Renting one of these masterpieces in Dubai is not merely about transportation; it is about aligning oneself with a standard of excellence that cannot be rushed or mass-produced. When you select a vehicle from our premium <a href=\"/fleet\">fleet</a> at Naqra FZE, you are direct-connecting the quiet, dedicated artistry of West Sussex with the vibrant, fast-paced Dubai lifestyle. Cruising past the towering silhouettes of Sheikh Zayed Road or arriving at the grand entrance of a resort on Palm Jumeirah, the hand-finished interior provides a sanctuary of absolute calm. The insulated cabin, containing over one hundred kilograms of soundproofing, shuts out the city’s hum, allowing you to appreciate the silent elegance that only a hand-built car can offer. It is this contrast between the rapid movement of the emirate outside and the slow-crafted stillness inside that makes a Rolls-Royce the ultimate vehicle for navigating Dubai's elite circles. We take pride in preserving this connection, ensuring that every vehicle we deliver is presented in showroom condition, with every stitch and veneer clean and polished to perfection."
+    },
+    {
+      "type": "image",
+      "src": "/images/blog/makes-rolls-royce-cars-goodwood-craft-inline.webp",
+      "alt": "Rolls-Royce craftspeople meticulously matching wood veneers and sewing leather at the Goodwood factory",
+      "caption": "Every Rolls-Royce represents hundreds of hours of hands-on British craftsmanship."
+    },
+    {
+      "type": "heading",
+      "text": "Experiencing Hand-Crafted Luxury in the Emirates"
+    },
+    {
+      "type": "paragraph",
+      "text": "Experiencing this level of craftsmanship in the UAE is remarkably straightforward. Whether you are planning a grand entrance at a corporate event in DIFC, arranging a VIP airport transfer, or simply exploring the coast, our fleet accommodates every occasion. The contemporary <a href=\"/fleet/ghost\">Rolls-Royce Ghost</a> is available starting at AED 3,800 per day, offering a sleek and modern interpretation of British luxury that is ideal for business drives. For those who require commanding presence and elevated ride height, the <a href=\"/fleet/cullinan\">Rolls-Royce Cullinan</a> is offered at AED 6,500 per day, perfectly blending off-road capability with cabin sophistication. The all-electric Spectre represents the future at AED 7,500 per day, while the flagship <a href=\"/fleet/phantom\">Rolls-Royce Phantom</a>, the ultimate statement of luxury, is available at AED 5,800 per day. To rent any of these hand-crafted models, the Roads and Transport Authority (RTA) requires drivers to be at least 25 years old. UAE residents must present a valid Emirates ID and a UAE driver's licence. Visitors need a passport, a tourist visa, and a valid driving licence from their home country or an international driving permit. These simple requirements open the door to a driving experience that is defined by the efforts of the Goodwood artisans, delivering a level of refinement that remains unmatched."
+    },
+    {
+      "type": "heading",
+      "text": "Frequently Asked Questions"
+    },
+    {
+      "type": "heading",
+      "text": "Who actually owns the Rolls-Royce car company?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Rolls-Royce Motor Cars is a wholly-owned subsidiary of the BMW Group, which acquired the rights to the brand and logo in 1998 and began full operations at the Goodwood facility in 2003. It is vital to distinguish the car manufacturer from Rolls-Royce plc, which is an entirely separate British aerospace and defense company famous for manufacturing aircraft jet engines. While BMW handles the global corporate steering and advanced mechanical platforms, the cars themselves are conceived, styled, and hand-finished exclusively by Rolls-Royce Motor Cars at the Goodwood plant. This structure ensures the automotive division possesses both German engineering backing and British creative independence."
+    },
+    {
+      "type": "heading",
+      "text": "Where are Rolls-Royce cars physically built?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Every single Rolls-Royce motor car in the modern era is physically built at the brand’s global headquarters and manufacturing facility in Goodwood, West Sussex, England. Opened in 2003, the Goodwood plant was designed to blend seamlessly into the surrounding countryside, featuring a green living roof and extensive landscaping. While the aluminum spaceframe chassis and raw mechanical components are engineered with BMW Group resources, all assembly, paintwork, woodwork, leather stitching, and bespoke customization are completed on-site by Goodwood's dedicated craftspeople. This ensures that every car retains its authentic British character and handmade pedigree before it is exported worldwide."
+    },
+    {
+      "type": "heading",
+      "text": "Is every Rolls-Royce really built by hand?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Yes, every vehicle is hand-built at Goodwood, though with a modern understanding of the term. The chassis preparation, structural welding, and engine casting are performed using highly advanced automated processes to ensure safety and durability. However, once the raw frame is ready, robots are put aside. All of the detailing, coachline painting, leather sewing, veneer matching, and dashboard assembly are completed by hand. Over eighty percent of the work that goes into creating a Rolls-Royce is manual, ensuring that the physical, tactile luxury of the cabin is shaped by skilled artisans rather than machines. This human element is what defines the brand's luxury."
+    },
+    {
+      "type": "heading",
+      "text": "How much does it cost to rent a Goodwood-built Rolls-Royce in Dubai?"
+    },
+    {
+      "type": "paragraph",
+      "text": "At Naqra FZE, our rental prices reflect the premium quality and exclusivity of the Goodwood fleet. You can rent the modern Rolls-Royce Ghost starting at AED 3,800 per day, which is excellent for business or social occasions. The luxurious Cullinan SUV is available at AED 6,500 per day, providing a refined ride height. The all-electric Spectre is offered at AED 7,500 per day, representing the pinnacle of quiet electric cruising. Finally, the flagship Phantom is available at AED 5,800 per day, providing the ultimate coach-door experience. These rates include delivery, comprehensive insurance, and dedicated customer support."
+    },
+    {
+      "type": "heading",
+      "text": "Can I rent a Rolls-Royce in Dubai for self-drive?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Yes, you can rent a Rolls-Royce for self-drive or select our premium chauffeur service if you prefer to be driven. To qualify for self-drive, you must be at least 25 years old and meet RTA guidelines. Residents of the UAE must provide a copy of their Emirates ID and a valid UAE driving licence. Tourists must present their passport, entry visa, and a valid driving licence from their country of origin. Depending on your nationality, an International Driving Permit may also be required. Our team handles all documentation quickly to ensure you can get behind the wheel without delay."
+    },
+    {
+      "type": "cta",
+      "text": "Choose the pinnacle of British craftsmanship for your next Dubai journey.",
+      "buttonLink": "/booking",
+      "buttonText": "Reserve Your Hand-Crafted Ride"
+    }
+  ]
+};
+
+const ar = {
+  "title": "خلف الشعار: من يصنع سيارات رولز رويس حقًا",
+  "description": "من يصنع سيارات رولز رويس؟ اكتشف حرفية غودوود ومحركات بي إم دبليو، ولماذا يجعل هذا الإرث اليدوي استئجار رولز رويس في دبي تجربة استثنائية فريدة ولائقة بك.",
+  "author": "أحمد سالم",
+  "date": "2026-09-10",
+  "readTime": "10 دقائق قراءة",
+  "category": "Guides",
+  "image": "/images/blog/makes-rolls-royce-cars-goodwood-craft-cover.jpg",
+  "content": [
+    {
+      "type": "paragraph",
+      "text": "<div style=\"background:#1a1a1a;border-right:4px solid #c9a227;padding:16px 20px;margin:24px 0;border-radius:8px;direction:rtl;\"><strong>💡 الإجابة السريعة:</strong> تُصنع سيارات رولز رويس يدوياً بشكل حصري في مصنع غودوود في ساسكس، إنجلترا، حيث يتم تصميم وصياغة الهيكل الخارجي والمقصورة الفايراكة، بينما تقدم مجموعة بي إم دبليو (BMW Group) الدعم الهندسي الميكانيكي ومحركات V12 الجبارة. تبلغ أسعار استئجارها في دبي: جوست (3,800 درهم)، فانتوم (5,800 درهم)، كولينان (6,500 درهم)، وسبكتر (7,500 درهم) يومياً. للتواصل والحجز مباشرة عبر واتساب على الرقم <a href=\"https://wa.me/971558164922\">+971 55 816 4922</a>.</div>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<div style=\"background:#0f0f0f;border:1px solid #2a2a2a;border-right:4px solid #c9a227;padding:20px;margin:32px 0;border-radius:8px;direction:rtl;\"><p style=\"color:#c9a227;font-weight:bold;margin:0 0 8px;\">🛎️ من عمليات الكونسيرج في دبي</p><p style=\"margin:0;line-height:1.8;\">نلتزم في شركة نقرة (Naqra FZE) بتقديم تجربة استثنائية تليق بهيبة هذه التحفة البريطانية. يحرص فريق الكونسيرج لدينا على تسليم واستلام سيارات رولز رويس مباشرة من وإلى موقعك المفضل في دبي، سواء كان ذلك في فندق برج العرب، أو مركز دبي المالي العالمي، أو من مطار دبي الدولي (DXB). يشمل إيجارنا اليومي التأمين الشامل المتكامل ومسافة سير يومية تبلغ 250 كيلومتراً، لضمان راحتك وسلامتك الكاملة. عندما تختار سيارة من <a href=\"/ar/fleet\">أسطولنا الفاخر</a>، فإننا نضمن لك تسليم موديل يطابق رغباتك تماماً بأعلى درجات العناية والاحترافية والخصوصية.</p></div>"
+    },
+    {
+      "type": "heading",
+      "text": "القلب البريطاني النابض بالفخامة: حرفيو غودوود"
+    },
+    {
+      "type": "paragraph",
+      "text": "تبدأ رحلة كل سيارة رولز رويس حديثة في ريف غرب ساسكس الهادئ بإنجلترا، وتحديداً في منشأة غودوود الشهيرة التي افتتحت رسمياً в الأول من يناير عام 2003 كشراكة تاريخية تحت إشراف مجموعة بي إم دبليو. هذا المصنع ليس كأي مصنع سيارات تقليدي؛ فهو أقرب إلى محمية مخصصة للحرفية اليدوية الرفيعة واستوديو فني متكامل يجمع نخبة من المصممين والحرفيين المهرة. هنا، لا توجد خطوط تجميع سريعة ولا آلات ضخمة تصدر ضجيجاً متواصلاً، بل يسود جو من الهدوء المطبق والتركيز الفائق الذي يسمح للحرفيين المهرة بالعمل بأيديهم لصقل كل قطعة وتفصيلة مخصصة بدقة متناهية. يتم استثمار مئات الساعات من العمل اليدوي في بناء كل سيارة منفردة، حيث تساهم اللمسة البشرية الحية في منح هذه المركبات روحاً خاصة وهيبة فريدة لا يمكن لأي خط إنتاج آلي نسخها. لمعرفة المزيد حول هذا الصرح الهندسي الفريد وبيئته المعمارية المستدامة، يمكنكم قراءة مقالنا المفصل <a href=\"/ar/blog/where-are-rolls-royce-cars-made\">أين تُصنع سيارات رولز رويس</a>. ويشكل هؤلاء الحرفيون البريطانيون جوهر العلامة التجارية؛ فهم يقضون أسابيع كاملة في مطابقة عروق الخشب الطبيعي، وحياكة الجلود الفاخرة التي يتم جلبها خصيصاً من مزارع جبال الألب الباردة، وطلاء الهيكل الخارجي يدوياً بأسلوب فني راقٍ يضمن أن تكون كل سيارة بمثابة تحفة فنية فريدة تتجاوز مجرد كونها وسيلة نقل عادية."
+    },
+    {
+      "type": "heading",
+      "text": "بي إم دبليو وغودوود: الفصل الحاسم بين الهندسة والفن"
+    },
+    {
+      "type": "paragraph",
+      "text": "يكمن سر تميز رولز رويس المعاصرة في هذا التحالف الاستراتيجي الفريد والفصل الحاسمة بين التكنولوجيا الألمانية الراقية ومفهوم الفخامة البريطانية التقليدية. فبينما تتولى مجموعة بي إم دبليو (BMW Group) مهمة تطوير البنية الهندسية الأساسية للسيارات، والأنظمة الإلكترونية المعقدة، وتصميم وصناعة محركات V12 الجبارة سعة 6.75 لتر في منشآتها المخصصة بميونخ بألمانيا، يظل مصنع غودوود في إنجلترا هو المكان الحصري الذي يتم فيه تصميم وتجميع وصناعة كل تفصيلة مخصصة (Bespoke) بناءً на طلب العميل الشخصي. يعني هذا الفصل الذكي بين الأدوار أن السيارة تجمع بين موثوقية الهندسة الألمانية المتقدمة وعراقة اللمسة البريطانية اليدوية. يتم تسليم محرك V12 الفخم وهيكل الألمنيوم الفراغي المتطور من ألمانيا إلى غرب ساسكس، ليقوم فنانو غودوود بصياغة المقصورة الداخلية وتطبيق الطلاء الخارجي الفاخر. هذا الفصل يمنح عملائنا وضيوفنا في دبي ودولة الإمارات العربية المتحدة الطمأنينة الكاملة؛ فالسيارة قادرة على مواجهة حرارة الصيف القاسية وأتربة الصحراء في الخليج العربي بكفاءة ميكانيكية مطلقة بفضل كفاءة التبريد وهندسة بي إم دبليو، بينما تحتفظ في الوقت ذاته بهيبتها ووقارها كرمز للترف البريطاني الأصيل الذي لا يخضع لأحكام الزمن أو الموضة المؤقتة."
+    },
+    {
+      "type": "heading",
+      "text": "صياغة المقصورة: الجلد الطبيعي، الخشب النادر، والطلاء اليدوي"
+    },
+    {
+      "type": "paragraph",
+      "text": "داخل ورش العمل المتخصصة في مصنع غودوود، يتم التعامل مع المواد الخام الفاخرة باعتبارها لوحات فنية تتطلب صبراً هائلاً ومهارات استثنائية تناقلتها الأجيال عبر القرون. في ورشة الطلاء الفنية، يتم طلاء الهيكل بخمس طبقات على الأقل من المواد المانعة للصدأ والطلاء الفاخر بوزن يصل إلى 45 كيلوغراماً، تليها عمليات صقل يدوية دقيقة تستمر لأيام لجعل السطح يعكس الضوء كالمصنع السويسري أو المرآة الصافية. أما في ورشة الأخشاب، فيتم جلب القشور الخشبية النادرة من غابات استوائية محمية حول العالم، ليقوم الحرفيون بقصها إلى قشور رقيقة جداً ومطابقة اتجاه عروقها بدقة مجهرية لتبدو متнаظرة تماماً مثل صفحات الكتاب المفتوح. وفي ورشة الجلود، يتم اختيار الجلود الفاخرة حصرياً من جبال الألب الباردة في الدول الاسكندنافية لضمان خلوها من لدغات الحشرات أو خدوش الأسلاك الشائكة، ثم تتم حياكتها وصباغتها يدوياً بعناية تامة على مدار أسبوعين كاملين لضمان بقاء ملمسها الطبيعي ناعماً كالحرير وخالياً من أي عيوب. هذا التركيز الهائل على التفاصيل الدقيقة هو الفارق الحقيقي بين رولز رويس وأي سيارة أخرى في السوق؛ حيث لا يتم التنازل عن الجودة في أي مرحلة من مراحل التصنيع لتأمين الراحة الكاملة للراكب."
+    },
+    {
+      "type": "list",
+      "items": [
+        "خط الجانب المرسوم يدويًا بالكامل (Coachline) بواسطة الفنان مارك كورت باستخدام فرشاة مصنوعة من شعر السنجاب، وهو عمل يتطلب دقة مطلقة وثباتاً تاماً لليد دون أي مجال للخطأ.",
+        "ورشة الجلود واستخدام جلود الدول الاسكندنافية الخالية من العيوب وحياكتها يدويًا على مدار أسبوعين بواسطة خبراء خياطة مهرة لضمان مرونتها ومقاومتها لعوامل الزمن.",
+        "ورشة الأخشاب ومطابقة القشور الخشبية بطريقة انعكاس الكتاب (Book-matching) دون أدنى شائبة لتعكس تناظراً بصرياً يضاهي الأثاث الكلاسيكي في القصور الملكية.",
+        "سقف النجوم (Starlight Headliner) الحاضن لـ 1,340 نجمة من الألياف الضوئية المنسوجة يدوياً تحت سقف المقصورة لخلق تجربة بصرية تحاكي سماء دبي الصافية.",
+        "نظام التعليق الهوائي السحري لامتصاص عيوب الطريق وضمان راحة الركاب بالكامل ليشعروا وكأنهم يطفون فوق بساط سحري صامت."
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "لماذا تهمك لمسة غودوود اليدوية عند الاستئجار في دبي"
+    },
+    {
+      "type": "paragraph",
+      "text": "عندما تقرر استئجار سيارة رولز رويس من أسطول شركة نقرة (Naqra FZE) في دبي، فإنك لا تستأجر مجرد وسيلة تنقل فاخرة؛ بل تقتني بشكل مؤقت تحفة فنية تجسد مئات الساعات من العمل اليدوي البريطاني المتقن. هذه الحرفية اليدوية الفريدة تظهر بوضوح في التفاصيل التي يمكنك لمسها ورؤيتها والشعور بها طوال رحلتك؛ مثل النعومة الفائقة لجلد المقاعد، واللمعان الزجاجي للخشب الطبيعي على لوحة القيادة، والهدوء المطبق داخل المقصورة الذي يعزلك بالكامل عن صخب شوارع دبي السريعة وضوضاء العالم الخارجي. قيادة سيارة مثل <a href=\"/ar/fleet/phantom\">رولز رويس فانتوم</a> المهيبة تمنحك حضوراً فريداً وهيبة استثنائية عند وصولك إلى الفنادق الفخمة مثل فندق برج العرب أو اجتماعات العمل الكبرى في مركز دبي المالي العالمي (DIFC). إن معرفة أن كل تفصيل في السيارة قد تم صياغته يدوياً بعناية بالغة يضفي على قيادتها طابعاً خاصاً وشعوراً بالتميز والرفاهية المطلقة التي لا توفرها السيارات المنتجة تجارياً. هذا الترابط بين التاريخ العريق والتصميم المبتكر يمنحك تجربة قيادة راقية تليق بنخبة المجتمع والباحثين عن الكمال في دولة الإمارات العربية المتحدة."
+    },
+    {
+      "type": "image",
+      "src": "/images/blog/makes-rolls-royce-cars-goodwood-craft-inline.webp",
+      "alt": "حرفيو رولز رويس يقومون بمطابقة قشور الخشب الفاخرة وخياطة الجلود يدويًا في مصنع غودوود",
+      "caption": "كل سيارة رولز رويس تمثل مئات الساعات من العمل اليدوي البريطاني المتقن."
+    },
+    {
+      "type": "heading",
+      "text": "عيش تجربة الرفاهية اليدوية في شوارع الإمارات"
+    },
+    {
+      "type": "paragraph",
+      "text": "إن قيادة إحدى سيارات رولز رويس الاستثنائية عبر المعالم الأيقونية لدبي هي الطريقة المثلى لتقدير هذه الحرفية البريطانية اليدوية العريقة. انطلق بسيارة <a href=\"/ar/fleet/ghost\">رولز رويس جوست</a> الأنيقة (بسعر يبدأ من 3,800 درهم يومياً) عبر المسارات الفسيحة لشارع الشيخ زايد، أو تمتع بهيبة الحضور المهيب والقيادة المرتفعة لسيارة <a href=\"/ar/fleet/cullinan\">رولز رويس كولينان</a> الرياضية متعددة الاستخدامات الفخمة (بسعر يبدأ من 6,500 درهم يومياً) عند التوجه إلى نخلة جميرا الفاخرة. وتوفر شركة نقرة أيضاً خيارات أخرى متميزة مثل فانتوم الرائدة بسعر 5,800 درهم يومياً، وسبكتر الكهربائية بالكامل بسعر 7,500 درهم يومياً. ونحرص في جميع خدماتنا وتشغيلنا على الالتزام الكامل بقوانين هيئة الطرق والمواصلات في دبي (RTA)، مما يضمن لك تجربة استئجار آمنة ومريحة بالكامل سواء اخترت القيادة الذاتية أو الاستعانة بسائقنا المحترف المؤهل. نحن نتولى كافة الترتيبات اللوجستية، وخدمات الاستقبال في المطار (Meet & Greet) والتوصيل الفوري لنوفر لك رحلة خالية من المتاعب تتماشى مع أرقى معايير الرفاهية العالمية وتناسب تطلعات ضيوفنا الكرام في الإمارات."
+    },
+    {
+      "type": "heading",
+      "text": "الأسئلة الشائعة"
+    },
+    {
+      "type": "heading",
+      "text": "من يملك شركة رولز رويس للسيارات فعليًا؟"
+    },
+    {
+      "type": "paragraph",
+      "text": "تعد شركة رولز رويس للسيارات (Rolls-Royce Motor Cars) شركة تابعة ومملوكة بالكامل لمجموعة بي إم دبليو (BMW Group) الألمانية منذ عام 1998. وتدير بي إم دبليو العلامة التجارية من خلال منشأتها الحديثة في غودوود بإنجلترا، حيث تحافظ على استقلالية التصميم والهوية البريطانية الفريدة لسياراتها، بينما تقدم الدعم الهندسي المالي والميكانيكي القوي الذي يضمن الموثوقية الفائقة للمحركات والأنظمة الإلكترونية. وساهمت هذه الإدارة الألمانية الذكية في إعادة إحياء العلامة وتقديم طرازات جديدة استثنائية حققت نجاحاً عالمياً كبيراً مثل جوست وكولينان وسبكتر، مع الحفاظ التام على الحرفية اليدوية البريطانية واللمسة الفنية التقليدية التي تميز كل سيارة تغادر مصنع غودوود."
+    },
+    {
+      "type": "heading",
+      "text": "أين تُصنع سيارات رولز رويس ماديًا؟"
+    },
+    {
+      "type": "paragraph",
+      "text": "يتم تجميع وتصنيع كافة سيارات رولز رويس بشكل حصري في مقر العلامة الرئيسي والوحيد في منطقة غودوود، تشيتشستر، غرب ساسكس، إنجلترا. وتخضع كل سيارة لعمليات تصنيع وتجميع يدوية دقيقة في هذا المصنع الفريد الذي صممه المعماري الشهير سير نيكولاس غريمشاو ليتناغم تماماً مع الطبيعة الإنجليزية المحيطة. ولا يتم تصنيع أو تجميع أي سيارة رولز رويس خارج هذه المنشأة البريطانية المرموقة، مما يضمن ندرتها وجودتها المطلقة لضيوفنا في دبي والشرق الأوسط، بينما يتم توريد المحركات الأساسية من مصنع بي إм دبليو في ميونخ لتثبيتها يدوياً هناك."
+    },
+    {
+      "type": "heading",
+      "text": "هل كل سيارة رولز رويس تُبنى يدويًا بالفعل؟"
+    },
+    {
+      "type": "paragraph",
+      "text": "نعم، يتم بناء وتجميع كل سيارة رولز رويس يدوياً بنسبة تفوق تسعين بالمئة في مصنع غودوود. ويشمل هذا العمل اليدوي خياطة وتطريز الجلود الطبيعية للمقصورة، وقطع وتلميع القشور الخشبية النادرة وتثبيتها، وتطبيق الطلاء وصقله، ورسم الخط الجانبي يدوياً بالكامل. وتدخل الآلات والتقنيات الحديثة فقط لضمان دقة قياس الأبعاد وضبط القطع الميكانيكية الكبرى، بينما يظل الجوهر الفني والصناعي للسيارة نتاج مهارة بشرية بريطانية خالصة لا يمكن للآلة تقليدها، مما يبرر الوقت الطويل المستغرق في بناء كل سيارة والذي يمتد لعدة أسابيع."
+    },
+    {
+      "type": "heading",
+      "text": "كم تكلفة استئجار سيارة رولز رويس مصنوعة في غودوود في دبي؟"
+    },
+    {
+      "type": "paragraph",
+      "text": "تبدأ أسعار استئجار سيارات رولز رويس الفاخرة في دبي لدى شركة نقرة من 3,800 درهم إماراتي يومياً لسيارة جوست الأنيقة. وتبلغ تكلفة إيجار سيارة رولز رويس فانتوم الرائدة 5,800 درهم يومياً، بينما تتوفر كولينان الرياضية متعددة الاستخدامات الفخمة بسعر 6,500 درهم يومياً، وتأتي سيارة سبكتر الكهربائية بالكامل بسعر 7,500 درهم يومياً. وتشمل كافة هذه الأسعار خدمات التوصيل والاستلام المجانية داخل دبي والتأمين الشامل المتكامل ومسافة السير اليومية، وتتغير الأسعار بشكل طفيف حسب الموسم السياحي وفئة السيارة المطلوبة."
+    },
+    {
+      "type": "heading",
+      "text": "هل يمكنني استئجار سيارة رولز رويس في دبي للقيادة الذاتية؟"
+    },
+    {
+      "type": "paragraph",
+      "text": "نعم، يمكنك استئجار سيارة رولز رويس للقيادة الذاتية في دبي إذا كنت تبلغ من العمر 21 عاماً أو أكثر وتملك رخصة قيادة صالحة في دولة الإمارات العربية المتحدة (أو رخصة قيادة دولية معتمدة للزوار). ونوفر أيضاً خدمات متميزة تشمل استئجار السيارة مع سائق محترف مؤهل ملتزم تماماً بقوانين هيئة الطرق والمواصلات (RTA) لتستمتع بالراحة التامة وتتفادى عناء القيادة في شوارع دبي المزدحمة للتركيز على أعمالك أو الاستمتاع برحلتك الفاخرة. وتتوفر خدماتنا على مدار الساعة لتلبية متطلبات ضيوفنا الكرام في كافة الأوقات."
+    },
+    {
+      "type": "cta",
+      "text": "اختر ذروة الحرفية البريطانية اليدوية لرحلتك القادمة في دبي.",
+      "buttonText": "احجز رحلتك المصنوعة يدويًا",
+      "buttonLink": "/booking"
+    }
+  ],
+  "relatedArticles": [
+    "where-are-rolls-royce-cars-made",
+    "who-makes-rolls-royce-engines",
+    "rolls-royce-built-goodwood-home-luxury"
+  ]
+};
+
+const ru = {
+  "title": "За кулисами легенды: кто на самом деле делает автомобили Rolls-Royce",
+  "description": "Кто на самом деле делает автомобили Rolls-Royce? Узнайте о мастерах Гудвуда, моторах BMW и о том, почему эта ручная сборка делает аренду в Дубае особенной.",
+  "author": "Ахмед Салем",
+  "date": "2026-09-10",
+  "readTime": "10 мин. чтения",
+  "category": "Guides",
+  "image": "/images/blog/makes-rolls-royce-cars-goodwood-craft-cover.jpg",
+  "relatedArticles": [
+    "where-are-rolls-royce-cars-made",
+    "who-makes-rolls-royce-engines",
+    "rolls-royce-built-goodwood-home-luxury"
+  ],
+  "content": [
+    {
+      "type": "paragraph",
+      "text": "<div style=\"background:#1a1a1a;border-left:4px solid #c9a227;padding:16px 20px;margin:24px 0;border-radius:8px;direction:ltr;\"><strong>💡 Быстрый ответ:</strong> Каждый автомобиль Rolls-Royce создается вручную мастерами на заводе в Гудвуде (Великобритания) под крылом BMW Group. Арендовать эти шедевры в Дубае можно по цене от 3800 AED/день за Ghost, 6500 AED за Cullinan, 7500 AED за Spectre и 5800 AED за Phantom. Забронируйте поездку прямо сейчас через <a href=\"https://wa.me/971558164922\" style=\"color:#c9a227;text-decoration:underline;\">WhatsApp</a> или выберите модель в нашем каталоге.</div>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<div style=\"background:#0f0f0f;border:1px solid #2a2a2a;border-left:4px solid #c9a227;padding:20px;margin:32px 0;border-radius:8px;\"><p style=\"color:#c9a227;font-weight:bold;margin:0 0 8px;\">🛎️ От нашей службы консьержей в Дубае</p><p style=\"margin:0;line-height:1.8;\">Наш операционный отдел Naqra FZE в ОАЭ обеспечивает безупречную доставку арендованного Rolls-Royce в любую точку эмирата, включая пятизвездочные курорты на Palm Jumeirah, бизнес-центры DIFC, виллы в Emirates Hills и VIP-терминалы аэропортов DXB и DWC. Каждый роскошный автомобиль из нашего парка проходит тщательную профессиональную детейлинг-подготовку и комплексный технический осмотр непосредственно перед передачей клиенту. Наш опытный представитель лично продемонстрирует вам все Bespoke-функции кабины, настроит яркость звездного неба Starlight Headliner и подключит ваши мультимедийные устройства, чтобы ваше путешествие по дорогам Дубая началось с абсолютной безмятежности и комфорта.</p></div>"
+    },
+    {
+      "type": "heading",
+      "text": "Британское сердце роскоши: мастера Гудвуда"
+    },
+    {
+      "type": "paragraph",
+      "text": "Когда заходит речь о настоящем величии автомобильного искусства, важно понимать, что каждый Rolls-Royce — это не продукт безликого заводского конвейера, а результат кропотливой и неторопливой ручной работы. Уникальный производственный комплекс в Гудвуде, расположенный в живописной сельской местности Западного Суссекса на юге Англии, является единственной глобальной колыбелью бренда. Именно здесь, в гармонии с зелеными холмами Чичестера, создаются эти дорожные шедевры. Ответ на вопрос о том, <a href=\"/ru/blog/where-are-rolls-royce-cars-made\">где производятся автомобили Rolls-Royce</a>, кроется в глубоком уважении к британским ремесленным традициям и наследию. Завод в Гудвуде, спроектированный знаменитым британским архитектором сэром Николасом Гримшоу, больше напоминает высокотехнологичное дизайнерское ателье или галерею современного искусств, нежели классический индустриальный гигант. Здесь полностью отсутствуют привычные атрибуты массового автопрома: нет грохота тяжелых прессов, суеты конвейерной ленты и бездушных роботов, сваривающих рамы за секунды. Вместо этого в просторных и светлых цехах, залитых естественным дневным светом через огромные панорамные стеклянные стены, царит атмосфера сосредоточенного творчества и тишины. Каждая деталь — от тщательно отполированных металлических воздуховодов до незаметного шва на кожаной отделке рулевого колеса — пропускается через чуткие пальцы потомственных ремесленников, вкладывающих свою душу в каждый миллиметр конструкции. Каждое кресло, каждая деревянная вставка изготавливаются индивидуально для конкретного заказчика, проходя строгий контроль качества на каждом этапе. Именно это прикосновение живых человеческих рук превращает сталь, благородное дерево и премиальную кожу в осязаемую легенду. Когда такой автомобиль доставляется клиентам Naqra FZE в Дубае, его благородное происхождение ощущается в каждой детали интерьера, даря непревзойденное эстетическое удовольствие под ослепительным солнцем ОАЭ."
+    },
+    {
+      "type": "heading",
+      "text": "BMW и Гудвуд: разделение инженерии и искусства"
+    },
+    {
+      "type": "paragraph",
+      "text": "Существует распространенное заблуждение о том, кто на самом деле стоит за созданием современных шедевров британского бренда. Для взыскательного клиента, выбирающего роскошную машину в ОАЭ, критически важно понимать, какой именно шильдик или знак (то, что на глобальном рынке описывают запросом badge really makes rolls royce cars dubai) обеспечивает безупречные характеристики автомобиля. Истина кроется в гармоничном союзе двух великих автомобильных культур. Немецкий концерн BMW Group, владеющий маркой с 2003 года, взял на себя роль инженерного мозга и главного гаранта технической надежности. Немецкие специалисты поставляют сложнейшие цифровые платформы, передовую электронику, системы безопасности и, конечно же, монументальный 6,75-литровый двигатель V12 с двойным турбонаддувом. Всю механическую базу, трансмиссию и знаменитую алюминиевую пространственную раму «Архитектура роскоши» (Architecture of Luxury) создают и тестируют по строжайшим мировым стандартам в Мюнхене. Однако на этом немецкое вмешательство полностью заканчивается. Искусство превращения технически безупречного шасси в шедевр Rolls-Royce полностью принадлежит мастерам в Гудвуде. Британские дизайнеры и ремесленники обладают абсолютной творческой свободой, разрабатывая кузовные панели, проектируя уникальные Bespoke-салоны и бережно собирая каждый экземпляр вручную. Мюнхен обеспечивает идеальный скелет автомобиля и его мощное сердце, но душу, утонченный стиль и британский аристократизм вдыхают в него именно в Англии. Это уникальное разделение труда позволяет совместить традиционное британское величие с непревзойденной немецкой точностью, создавая автомобиль, готовый к любым условиям эксплуатации. В результате клиенты Naqra FZE получают идеальный автомобиль, который не только великолепно выглядит, но и демонстрирует абсолютную надежность при ежедневных поездках по жарким улицам Дубая."
+    },
+    {
+      "type": "heading",
+      "text": "Искусство салона: кожа, редкое дерево и ручная покраска"
+    },
+    {
+      "type": "paragraph",
+      "text": "Каждый цех в Гудвуде представляет собой отдельную обитель искусства, где время словно замедляет свой ход ради достижения абсолютного совершенства. В деревообрабатывающем цехе мастера работают со шпоном редчайших пород древесины, прибывающим со всех уголков планеты. Панели для одного автомобиля всегда вырезаются из одного ствола дерева, чтобы цвет и рисунок волокон идеально совпадали по всему периметру салона, будь то приборная панель флагманского седана <a href=\"/ru/fleet/phantom\">Rolls-Royce Phantom</a> или двери роскошного внедорожника. Кожаная мастерская поражает масштабом строгости: здесь используются шкуры быков, выращенных исключительно в альпийских высокогорьях, где прохладный климат и отсутствие насекомых гарантируют отсутствие шрамов и дефектов на материале. Раскройка выполняется с помощью лазерных систем для максимальной точности, но сам пошив и сложные декоративные вышивки осуществляются исключительно вручную швеями высокой квалификации. В малярном цехе кузов покрывают минимум пятью слоями специальной краски и лака общим весом до 45 килограммов, а ручная полировка и шлифовка занимают несколько дней. Финальный блеск проверяется под специальными лампами, имитирующими яркий солнечный свет. Именно эта бескомпромиссная преданность деталям отличает настоящую роскошь от массового производства, заставляя весь мир восхищаться творением британских рук. Каждый шов, каждая деревянная вставка салона созданы для того, чтобы радовать владельца десятилетиями. В этих цехах нет места компромиссам — если на панели обнаруживается хоть малейший дефект, работа начинается заново."
+    },
+    {
+      "type": "list",
+      "items": [
+        "Ручная прорисовка декоративной линии (Coachline) длиной 6 метров мастером Марком Кортом с использованием кисти из беличьего волоса.",
+        "Пошив салона из премиальных скандинавских кож без малейших дефектов, занимающий более двух недель.",
+        "Подбор деревянного шпона методом зеркального отражения (Book-matching) в деревообрабатывающей мастерской.",
+        "Звездное небо (Starlight Headliner), созданное вручную из 1340 оптических волокон.",
+        "Фирменная пневмоподвеска Magic Carpet Ride для идеальной плавности хода"
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Почему ручная сборка Гудвуда важна при аренде в Дубае"
+    },
+    {
+      "type": "paragraph",
+      "text": "В Дубае, где роскошные суперкары и представительские седаны являются повседневным элементом городского пейзажа, выделиться на общем фоне становится настоящим искусством. Аренда автомобиля ручной работы от Naqra FZE — это ваш шанс заявить о своей бескомпромиссности и безупречном вкусе. Когда вы изучаете наш обширный <a href=\"/ru/fleet\">автопарк</a> и выбираете одну из моделей Rolls-Royce, вы получаете не просто современное средство передвижения, а подлинное произведение искусства, сохранившее тепло рук своих создателей. На дорогах эмирата, от футуристических изгибов Business Bay до залитых неоном набережных Dubai Marina, этот автомобиль ощущается совершенно иначе. В отличие от автоматизированных роботов, создающих стандартные премиальные машины на массовых заводах, британские мастера в Гудвуде тратят сотни часов на полировку каждого стыка кузова и тонкую настройку пневматических амортизаторов. Этот человеческий фактор гарантирует, что каждая деталь салона подогнана с ювелирной точностью, полностью исключая появление малейших посторонних звуков, скрипов или вибраций даже при быстрой езде по хайвеям в условиях экстремальной летней жары ОАЭ. Вождение машины такого уровня дарит ни с чем не сравнимое чувство безопасности, контроля и глубокого умиротворения, позволяя вам и вашим пассажирам наслаждаться каждой секундой поездки в окружении натуральной кожи высочайшего качества и уникальных элементов отделки. Каждая поездка становится событием, оставляющим глубокий след в памяти, подтверждая ваш высокий статус в глазах партнеров и друзей."
+    },
+    {
+      "type": "image",
+      "src": "/images/blog/makes-rolls-royce-cars-goodwood-craft-inline.webp",
+      "alt": "Мастера Rolls-Royce тщательно подбирают деревянный шпон и шьют кожаную обивку на заводе в Гудвуде",
+      "caption": "Каждый Rolls-Royce представляет собой сотни часов кропотливой ручной работы британских мастеров."
+    },
+    {
+      "type": "heading",
+      "text": "Впечатления от ручной роскоши на дорогах Эмиратов"
+    },
+    {
+      "type": "paragraph",
+      "text": "Поездка по легендарному шоссе Sheikh Zayed Road на закате или плавный круиз вокруг Palm Jumeirah — это идеальные условия для того, чтобы в полной мере раскрыть величественный характер британского аристократа. В нашем дубайском офисе вы можете арендовать безупречный внедорожник <a href=\"/ru/fleet/cullinan\">Rolls-Royce Cullinan</a> по цене 6500 AED в сутки или выбрать инновационный электрический Spectre за 7500 AED в сутки. Для ценителей классического величия доступны изящный Ghost за 3800 AED и величественный Phantom за 5800 AED в день. Для управления этими шедеврами в Дубае вам потребуются лишь базовые документы, соответствующие правилам RTA: действующее водительское удостоверение вашей страны (для граждан многих государств требуется международное водительское удостоверение IDP), туристическая виза и оригинал паспорта. Когда вы нажимаете педаль акселератора на широкой многополосной трассе, ведущей в сторону Абу-Даби, легендарная пневматическая подвеска Magic Carpet Ride превращает любые стыки дороги и неровности в абсолютное ничто. Вы словно парите над асфальтом в первозданной тишине Bespoke-кабины, пока снаружи бесшумно проплывают небоскребы Downtown Dubai и сверкающие витрины торговых центров. Это не просто аренда, а уникальный опыт обладания автомобилем, созданным вручную для тех, кто привык выбирать лучшее и ценит свое время. Каждый момент за рулем или на заднем сиденье этой машины наполнен величием и чувством глубокого удовлетворения, подчеркивая ваш успех в жизни."
+    },
+    {
+      "type": "heading",
+      "text": "Часто задаваемые вопросы"
+    },
+    {
+      "type": "heading",
+      "text": "Кто на самом деле владеет автомобильной компанией Rolls-Royce?"
+    },
+    {
+      "type": "paragraph",
+      "text": "С 2003 года торговая марка Rolls-Royce Motor Cars полностью принадлежит немецкому автомобильному концерну BMW Group. Немецкий гигант выкупил эксклюзивные права на бренд и логотип марки в ходе сложной и драматичной корпоративной сделки на рубеже тысячелетий. Однако крайне важно различать автомобильное подразделение бренда и отдельную авиастроительную корпорацию Rolls-Royce plc, производящую реактивные двигатели для самолетов. BMW Group владеет только компанией, выпускающей легковые автомобили класса люкс. Немецкая материнская компания обеспечивает финансирование, передовую цифровую архитектуру и высочайшие стандарты контроля качества, в то время как весь дизайн, проектирование Besoke-элементов и финальная ручная сборка остаются исключительно в руках британских художников на заводе в Англии."
+    },
+    {
+      "type": "heading",
+      "text": "Где физически собираются автомобили Rolls-Royce?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Все современные автомобили марки Rolls-Royce без исключения проектируются, разрабатываются и собираются на единственном заводе бренда в Гудвуде (Чичестер, графство Западный Суссекс, Англия). Это ультрасовременное и экологичное предприятие было спроектировано известным архитектором сэром Николасом Гримшоу и открыто 1 января 2003 года специально для новой эры марки под патронажем BMW Group. Ни одна кузовная панель не создается и ни один салон не шьется за пределами этого британского комплекса. Это гарантирует, что каждый Rolls-Royce, который вы берете в аренду в Дубае, является чистокровным продуктом традиционного английского ремесленного искусства, созданным с уважением к вековому наследию."
+    },
+    {
+      "type": "heading",
+      "text": "Действительно ли каждый Rolls-Royce собирается вручную?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Да, абсолютно каждый автомобиль Rolls-Royce собирается мастерами вручную, что и делает бренд эталоном мировой роскоши. В Гудвуде полностью отсутствуют роботизированные конвейерные линии, характерные для массового автопрома. Сборочный процесс протекает неторопливо, позволяя мастерам уделять должное внимание каждой детали. От ручной резки ценного шпона и сшивания кожаных панелей салона до нанесения тончайшей декоративной линии Coachline кистью из беличьего ворса — все операции выполняются вручную. Каждый экземпляр требует сотен часов кропотливого труда, проходя строжайший контроль перед отправкой владельцу."
+    },
+    {
+      "type": "heading",
+      "text": "Сколько стоит аренда автомобиля Rolls-Royce английской сборки в Дубае?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Стоимость аренды зависит от выбранной вами модели Rolls-Royce, продолжительности аренды и сезона в ОАЭ. В нашей компании Naqra FZE вы можете арендовать элегантный седан <a href=\"/ru/fleet/ghost\">Rolls-Royce Ghost</a> по цене от 3800 AED в сутки. Для тех, кто предпочитает монументальное величие на дороге, доступен роскошный внедорожник Cullinan за 6500 AED в сутки, флагманский седан Phantom предлагается за 5800 AED в сутки, а новейший полностью электрический Spectre стоит 7500 AED в день. Все тарифы включают доставку автомобиля в любую точку эмирата, качественное обслуживание и полную поддержку со стороны нашей консьерж-службы."
+    },
+    {
+      "type": "heading",
+      "text": "Можно ли арендовать Rolls-Royce в Дубае без водителя?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Да, в компании Naqra FZE вы можете арендовать любой Rolls-Royce как для самостоятельного вождения, так и с услугой профессионального персонального водителя. Если вы выбираете аренду без водителя, вам потребуется предоставить стандартный пакет документов: оригинал паспорта, туристическую визу и действующее водительское удостоверение (для граждан некоторых стран необходимо международное водительское удостоверение IDP). Мы гарантируем идеальное техническое состояние и безупречную чистоту автомобиля, чтобы вы могли в полной мере насладиться управлением легендарной британской техникой на великолепных скоростных трассах Арабских Эмиратов."
+    },
+    {
+      "type": "cta",
+      "text": "Выберите вершину британского мастерства для вашей следующей поездки по Дубаю.",
+      "buttonText": "Забронировать автомобиль ручной сборки",
+      "buttonLink": "/booking"
+    }
+  ]
+};
+
+const publishAt = "2026-09-10T13:33:10+04:00";
+
+const output = { en, ar, ru, publishAt };
+
+const targetPath = "/Users/ahmedsalem/Desktop/all my projects/rollsroycers.com/src/data/blog/makes-rolls-royce-cars-goodwood-craft.json";
+fs.writeFileSync(targetPath, JSON.stringify(output, null, 2), 'utf8');
+console.log("Successfully merged and written to:", targetPath);

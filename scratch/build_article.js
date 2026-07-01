@@ -1,0 +1,418 @@
+const fs = require('fs');
+const path = require('path');
+
+const slug = 'much-does-rolls-royce-car-cost-2026-dubai';
+const targetPath = path.join('/Users/ahmedsalem/Desktop/all my projects/rollsroycers.com/src/data/blog', `${slug}.json`);
+
+const enContent = [
+  {
+    type: 'paragraph',
+    text: '<div style="background:#1a1a1a;border-left:4px solid #c9a227;padding:16px 20px;margin:24px 0;border-radius:8px;"><strong>💡 Quick Answer:</strong> Buying a Rolls-Royce in Dubai involves a <strong>5% import customs tariff</strong>, <strong>5% VAT</strong>, registration, annual comprehensive insurance of <strong>AED 30,000–60,000</strong>, and <strong>20% first-year depreciation</strong>. Conversely, renting a Rolls-Royce Ghost starts at <strong>AED 3,800 per day</strong>, which includes basic comprehensive insurance, complimentary VIP delivery, and a 250 km daily mileage allowance. Hiring provides complete financial predictability and the flexibility to switch models. Contact our concierge via WhatsApp at <a href="https://wa.me/971558164922">+971 55 816 4922</a> to arrange your drive.</div>'
+  },
+  {
+    type: 'paragraph',
+    text: '<div style="background:#0f0f0f;border:1px solid #2a2a2a;border-left:4px solid #c9a227;padding:20px;margin:32px 0;border-radius:8px;"><p style="color:#c9a227;font-weight:bold;margin:0 0 8px;">🛎️ From Our Dubai Concierge Operations</p><p style="margin:0;line-height:1.8;">To ensure complete transparency, our quoted daily rate of AED 3,800 for the Rolls-Royce Ghost includes standard comprehensive insurance and 250 km of daily mileage. We deliver and retrieve the vehicle directly to your location in Dubai (Downtown, Palm Jumeirah, Marina, or DXB airport) with zero delivery fees. For extended business trips, we coordinate custom weekly and monthly invoicing with corporate-compliant receipts. We manage the entire fleet transition seamlessly, handling all logistics so you experience zero downtime.</p></div>'
+  },
+  {
+    type: 'heading',
+    text: 'The Calculus of Ownership: What Buying a Rolls-Royce in Dubai Truly Demands'
+  },
+  {
+    type: 'paragraph',
+    text: 'On paper, a Rolls-Royce is a passenger saloon. So is a taxi, and we should perhaps be more precise. The prestige of owning a Goodwood-built motor car parked under the glowing canopy of the Burj Khalifa or outside a high-end corporate office in DIFC is undeniable. Yet, the financial mechanics of buying a Rolls-Royce in Dubai are far more complex than the initial price tag suggests. When purchasing a new model in the UAE, the buyer immediately faces a series of upfront capital demands that extend beyond the basic list price. First, any vehicle imported into the country is subject to a 5% customs tariff, followed by the standard 5% UAE Value Added Tax (VAT). For a car of this scale, registration is not a matter of a simple visit to the RTA; it requires luxury vehicle registration fees, bespoke number plate acquisitions that frequently cost as much as the vehicle itself, and specialized transport fees. In Dubai, a distinctive three-digit or two-digit plate is a major status indicator, and securing one requires attending official auctions or dealing with private brokers, which adds another layer of financial complexity. More importantly, buying outright requires tying up a significant amount of liquid capital—often between AED 2,000,000 and AED 4,000,000 depending on the level of Bespoke customization selected. This is capital that could otherwise be deployed in Dubai’s high-yielding real estate market or private equity, generating active returns rather than sitting locked in a depreciating asset. For the modern executive or international visitor, this initial capital lockup represents a significant opportunity cost, shifting the perspective on whether ownership is the most logical path. When you consider the vast liquidity required to purchase, renting emerges as a highly rational choice.'
+  },
+  {
+    type: 'heading',
+    text: 'The True Cost of Ownership: Depreciation, Maintenance, and Insurance'
+  },
+  {
+    type: 'paragraph',
+    text: 'Once the vehicle is registered, the ongoing overheads begin to accrue in earnest. The most substantial hidden cost of owning a Rolls-Royce in Dubai is depreciation, which typically eats away 20% of the car\'s value in the first year alone. For a vehicle with an initial purchase price of AED 2,500,000, that translates to a silent loss of AED 500,000 in just twelve months. This is a cost that cannot be negotiated or avoided; it simply happens while the car sits in your garage. Furthermore, annual comprehensive insurance for a vehicle of this caliber is priced at a premium in the UAE. Insurance companies calculate premiums based on the vehicle’s replacement value and the high cost of Bespoke carbon fiber or hand-painted parts, resulting in annual premiums ranging from AED 30,000 to AED 60,000. In addition, regular agency servicing at the official dealer is mandatory to maintain the manufacturer\'s warranty. A standard service for a V12 engine is not comparable to a normal sedan; it involves specialized diagnostic equipment, Goodwood-trained technicians, and genuine parts imported directly from West Sussex, easily running into tens of thousands of dirhams per visit. When you also factor in the rapid wear of specialized tire compounds in Dubai\'s intense summer heat, where a set of four tires can cost up to AED 24,000, the cost of keeping a Rolls-Royce roadworthy becomes a major annual expense. Every road bump, desert sand particle, and high-temperature run contributes to maintenance overheads that owner-drivers must bear out of pocket.'
+  },
+  {
+    type: 'heading',
+    text: 'The Rental Paradigm: Daily and Monthly Hire Rates'
+  },
+  {
+    type: 'paragraph',
+    text: 'In contrast to the complex financial obligations of buying, renting a Rolls-Royce offers a clean, predictable, and highly efficient model. For instance, renting a Ghost starts at AED 3,800 per day. This rate is entirely transparent and all-inclusive. It covers standard comprehensive insurance, complimentary VIP delivery and retrieval directly to your location (whether that is Downtown Dubai, Dubai Marina, Palm Jumeirah, or DXB airport), and a daily mileage allowance of 250 km. Live numbers are always on our <a href="/pricing">pricing page</a>, reflecting the current state of our fleet. The daily rate allows you to experience the legendary V12 engine and the Magic Carpet Ride suspension without any long-term liabilities. For extended stays or corporate needs, monthly leasing options provide even greater efficiency, reducing the daily equivalent cost by up to 30%. You pay only for the time you actually drive the vehicle, while our concierge team handles all administrative details, including registration renewals, RTA tolls (Salik), and scheduled maintenance. This is the modern approach to luxury travel: paying for the utility and experience of a flagship car rather than the burden of asset management. You avoid the massive capital outlay and transfer all operational risk to the hire company, ensuring peace of mind throughout your residency.'
+  },
+  {
+    type: 'list',
+    items: [
+      '<strong>Rolls-Royce Ghost:</strong> starts at AED 3,800 per day — the quintessential balanced daily driver for business executives seeking presence and agility.',
+      '<strong>Rolls-Royce Cullinan:</strong> AED 6,500 per day — commanding presence, exceptional ground clearance, and supreme comfort for family travel and touring across the Emirates.',
+      '<strong>Rolls-Royce Spectre:</strong> AED 7,500 per day — the first all-electric coupe, offering absolute silence, digital dashboard control, and cutting-edge design for forward-thinking pioneers.',
+      '<strong>Rolls-Royce Phantom:</strong> AED 5,800 per day — the ultimate classic flagship presence for high-profile weddings, red carpet events, and VIP concierge arrivals.'
+    ]
+  },
+  {
+    type: 'heading',
+    text: 'Lifestyle Flexibility: Switching Models on Demand'
+  },
+  {
+    type: 'paragraph',
+    text: 'Beyond the purely financial comparison, renting offers a lifestyle luxury that ownership cannot replicate: flexibility. An owner is committed to a single model, color, and specification for years, regardless of how their needs change. A renter, however, can adapt their vehicle to the occasion. For weekday business meetings in the financial heart of DIFC, a sleek <a href="/fleet/ghost">Rolls-Royce Ghost</a> or the imposing presence of a <a href="/fleet/phantom">Rolls-Royce Phantom</a> provides the ultimate executive statement. If you are planning a weekend tour to the desert resort of Bab Al Shams or carrying family guests, the command and space of a <a href="/fleet/cullinan">Rolls-Royce Cullinan</a> SUV is the natural choice. For evenings in Downtown Dubai or high-profile social events at the Dubai Opera, the silent, all-electric power of the <a href="/fleet/spectre">Rolls-Royce Spectre</a> represents the absolute cutting edge of modern luxury. This ability to switch models on demand ensures that you are always driving the perfect vehicle for your current schedule. It turns the car from a static asset into a dynamic service, tailored to your immediate preferences, allowing you to sample the entire Goodwood portfolio at your leisure.'
+  },
+  {
+    type: 'image',
+    src: `/images/blog/${slug}-inline.webp`,
+    alt: 'A fleet of Rolls-Royce vehicles waiting in Downtown Dubai',
+    caption: 'Choose the Rolls-Royce that fits your day.'
+  },
+  {
+    type: 'heading',
+    text: 'The Concierge Advantage: Seamless Luxury Without the Burden'
+  },
+  {
+    type: 'paragraph',
+    text: 'When you choose to rent, the entire experience is managed by our dedicated concierge team. There are no registration renewals to track, no maintenance appointments to schedule, and no worries about eventual resale values in a fluctuating pre-owned market. The vehicle is delivered immaculate, fully detailed, and fueled, ready for you to enjoy. If a service is due, we swap the car with another pristine model from our fleet, ensuring you experience zero downtime. It is a seamless process designed for those who value their time above all else. Whether you need a vehicle waiting for you at the private aviation terminal or delivered directly to your villa on the Palm Jumeirah, we ensure absolute precision. For bookings or specific fleet availability, you can contact our concierge directly via WhatsApp at <a href="https://wa.me/971558164922">+971 55 816 4922</a>. We are dedicated to providing a premium service that honors the spirit of West Sussex.'
+  },
+  {
+    type: 'cta',
+    text: 'Decide which Rolls-Royce suits your schedule — we are a message away.',
+    buttonText: 'Reserve Your Drive',
+    buttonLink: '/booking'
+  },
+  {
+    type: 'heading',
+    text: 'Frequently Asked Questions'
+  },
+  {
+    type: 'heading',
+    text: 'How much does a Rolls-Royce cost to buy in Dubai?'
+  },
+  {
+    type: 'paragraph',
+    text: 'Prices for new Rolls-Royce vehicles in Dubai start from approximately AED 1,600,000 for the standard Ghost and can exceed AED 3,500,000 for a flagship Phantom with custom Bespoke details. In addition to the list price, buyers must account for a 5% import customs tariff, 5% UAE VAT, luxury registration fees, and annual comprehensive insurance, which can push the initial cost significantly higher.'
+  },
+  {
+    type: 'heading',
+    text: 'What is the daily rate to hire a Rolls-Royce Ghost?'
+  },
+  {
+    type: 'paragraph',
+    text: 'Renting a Rolls-Royce Ghost in Dubai starts at AED 3,800 per day. This rate includes standard comprehensive insurance, free concierge delivery to your hotel or airport, and a daily allowance of 250 kilometers. Rates can vary depending on season, rental duration, and if you choose a Black Badge model. Weekly and monthly rentals offer substantial discounts on the equivalent daily rate.'
+  },
+  {
+    type: 'heading',
+    text: 'Do daily rental rates include insurance and mileage in Dubai?'
+  },
+  {
+    type: 'paragraph',
+    text: 'Yes, all of our daily Rolls-Royce rentals include basic comprehensive insurance and a mileage allowance of 250 km per day. We also offer complimentary delivery and pickup anywhere in Dubai, including DXB airport and major luxury hotels in Downtown and Palm Jumeirah. Excess mileage charges apply if you exceed the daily allowance.'
+  },
+  {
+    type: 'heading',
+    text: 'Can I switch Rolls-Royce models during my rental period?'
+  },
+  {
+    type: 'paragraph',
+    text: 'Absolutely. We offer complete flexibility to switch models depending on your needs. For instance, you can drive a Ghost for business during the week and swap to a Cullinan SUV for a family trip over the weekend, subject to fleet availability and rate adjustments. Simply coordinate with your dedicated concierge representative at least 24 hours in advance.'
+  },
+  {
+    type: 'heading',
+    text: 'How does the depreciation of a Rolls-Royce affect buying vs hiring?'
+  },
+  {
+    type: 'paragraph',
+    text: 'A Rolls-Royce typically depreciates by about 20% in its first year, representing a massive loss in asset value. By choosing to hire instead of buying, you avoid this financial loss entirely, along with ongoing overheads like maintenance, registration, and high insurance premiums. This allows your capital to remain active and liquid in high-yield investments.'
+  }
+];
+
+const arContent = [
+  {
+    type: 'paragraph',
+    text: '<div style="background:#1a1a1a;border-right:4px solid #c9a227;padding:16px 20px;margin:24px 0;border-radius:8px;direction:rtl;"><strong>💡 الإجابة السريعة:</strong> يتطلب شراء سيارة رولز رويس في دبي سداد <strong>رسوم جمركية بنسبة 5%</strong>، و<strong>ضريبة القيمة المضافة بنسبة 5%</strong>، وتكاليف التسجيل الفاخر، وتأمين شامل سنوي يتراوح بين <strong>30,000 و60,000 درهم إماراتي</strong>، بالإضافة إلى تحمل <strong>استهلاك السنة الأولى بنسبة 20%</strong>. في المقابل، يبدأ استئجار رولز رويس جوست من <strong>3,800 درهم إماراتي يوميًا</strong>، ويشمل التأمين الشامل الأساسي، وتوصيل كونسيرج راقٍ مجاني، ومسافة سير يومية تبلغ 250 كم. يمنحك الاستئجار مرونة كاملة لتغيير الموديل مع شفافية مالية مطلقة. للتواصل والحجز مع الكونسيرج عبر واتساب على الرقم <a href="https://wa.me/971558164922">+971 55 816 4922</a>.</div>'
+  },
+  {
+    type: 'paragraph',
+    text: '<div style="background:#0f0f0f;border:1px solid #2a2a2a;border-right:4px solid #c9a227;padding:20px;margin:32px 0;border-radius:8px;direction:rtl;"><p style="color:#c9a227;font-weight:bold;margin:0 0 8px;">🛎️ من واقع عمليات الكونسيرج في دبي</p><p style="margin:0;line-height:1.8;">لضمان أعلى معايير الشفافية لضيوفنا الكرام، فإن السعر اليومي المحدد لسيارة رولز رويس جوست والبالغ 3,800 درهم إماراتي يشمل التأمين الشامل ومسافة سير تبلغ 250 كم يوميًا. نقوم بتسليم واستلام السيارة في أي موقع تختارونه في دبي (داون تاون دبي، نخلة جميرا، مارينا، أو مطار دبي الدولي) دون أي رسوم إضافية. لرحلات العمل الطويلة، نوفر فواتير مخصصة أسبوعية وشهرية متوافقة مع متطلبات الشركات. نحن ندير عملية نقل الأسطول بالكامل بسلاسة تامة، لضمان عدم حدوث أي انقطاع في وقتك الثمين.</p></div>'
+  },
+  {
+    type: 'heading',
+    text: 'حسابات الاقتناء: ما يتطلبه شراء رولز رويس في دبي فعلياً'
+  },
+  {
+    type: 'paragraph',
+    text: 'على الورق، سيارة رولز رويس هي سيارة سيدان فارهة بأربعة أبواب. وكذلك سيارات الأجرة، وربما يجدر بنا أن نكون أكثر دقة وتحديداً هنا. لا شك أن هيبة امتلاك سيارة رولز رويس مصنعة يدوياً في غودوود وتنتظرك تحت مظلة فندق برج العرب أو أمام مكتبك في مركز دبي المالي العالمي (DIFC) هي تجربة لا تضاهى. ولكن، الحسابات المالية لشراء سيارة رولز رويس جديدة في دبي أكثر تعقيداً بكثير مما يوحي به سعر الشراء الأولي. عند التفكير في الاقتناء داخل دولة الإمارات، يواجه المشتري فوراً سلسلة من التكاليف الرأسمالية المرتفعة التي تبدأ حتى قبل استلام المفتاح. أولاً، تخضع أي سيارة مستوردة لرسوم جمركية بنسبة 5%، تليها ضريبة القيمة المضافة بنسبة 5% المطبقة في الدولة. ثم تأتي رسوم تسجيل المركبات الفاخرة لدى هيئة الطرق والمواصلات (RTA)، ناهيك عن تكلفة لوحة الأرقام المتميزة التي تعكس مكانة مالكها، والتي قد تتجاوز قيمتها أحياناً سعر السيارة نفسها. وفي مدينة مثل دبي، يمثل الرقم المميز ثنائي أو ثلاثي الخانات رمزاً للمكانة الاجتماعية والرفاهية المطلقة، وهو ما يستدعي المشاركة في مزادات علنية أو التفاوض مع وسطاء مستقلين، مما يزيد الأعباء المالية بشكل كبير. بالإضافة إلى ذلك، فإن عملية الاستيراد الفردي أو الشراء عبر الوكلاء المحليين تتطلب فترات انتظار طويلة قد تمتد من ستة أشهر إلى عامين لتصنيع السيارة وتخصيصها في مصنع غودوود، وهو ما لا يتناسب مع نمط الحياة السريع والديناميكي في إمارة دبي. والأهم من ذلك، يتطلب الشراء نقداً تجميد رأس مال ضخم يتراوح عادة بين 2,000,000 و4,000,000 درهم إماراتي بناءً على مستوى التخصيص (Bespoke) المختار. هذا التدفق النقدي المحبوس يمثل تكلفة فرصة بديلة ضخمة؛ إذ يمكن استثماره في قطاع العقارات الواعد في دبي أو في محافظ الأسهم الخاصة لتحقيق عوائد قوية، بدلاً من تركه حبيساً في أصل تنخفض قيمته يومياً. بالنسبة لرجال الأعمال المعاصرين وزوار دبي البارزين، فإن هذا التجميد المالي يطرح تساؤلاً جوهرياً حول ما إذا كان الاقتناء هو الخيار الأكثر منطقية، وعند مقارنة حجم السيولة المطلوبة، يظهر خيار الإيجار كأداة مالية ذكية ومستدامة.'
+  },
+  {
+    type: 'heading',
+    text: 'التكاليف الحقيقية للاقتناء: الاستهلاك، التأمين، والصيانة الدورية'
+  },
+  {
+    type: 'paragraph',
+    text: 'بمجرد تسجيل السيارة باسمك، تبدأ التكاليف التشغيلية الخفية في التراكم بشكل متسارع. التكلفة الصامتة الأكبر لاقتناء رولز رويس في دبي هي الاستهلاك، حيث تفقد المركبة ما يقارب 20% من قيمتها السوقية خلال العام الأول فقط من شرائها. فإذا كان سعر الشراء الأولي 2,500,000 درهم إماراتي، فهذا يعني خسارة مالية صامتة قدرها 500,000 درهم في اثني عشر شهراً فقط دون أي استخدام فعلي. يضاف إلى ذلك تكلفة التأمين الشامل السنوي في دولة الإمارات، والذي يُسعر بمعدلات مرتفعة تتناسب مع القيمة الاستبدالية للأجزاء المصنعة من ألياف الكربون وألواح الهيكل المطلية يدوياً في غودوود؛ حيث تتراوح أقساط التأمين السنوية بين 30,000 و60,000 درهم إماراتي. علاوة على ذلك، فإن الصيانة الدورية لدى الوكيل الرسمي إلزامية للحفاظ على كفالة المصنع. خدمة صيانة محرك V12 ذو الأسطوانات الاثنتي عشرة ليست كخدمة أي سيارة أخرى؛ بل تتطلب مهندسين مدربين خصيصاً في إنجلترا، واستخدام معدات تشخيص متطورة، وقطع غيار أصلية مستوردة خصيصاً، مما يجعل الفاتورة السنوية تصل بسهولة لعشرات الآلاف من الدراهم. ومع أخذ التآكل السريع للإطارات الفاخرة بعين الاعتبار نتيجة حرارة الصيف الشديدة في دبي، حيث تكلف مجموعة الإطارات الجديدة ما يصل إلى 24,000 درهم، فإن الحفاظ على جاهزية السيارة يمثل التزاماً مالياً مستمراً وباهظاً. وتتطلب البيئة المناخية الجافة والحارة في دولة الإمارات عناية فائقة بالطلاء الخارجي وجلود المقصورة لمنع تلفها بفعل أشعة الشمس المستمرة، وهو ما يستدعي استخدام خدمات الحماية والنانو سيراميك وتخزين السيارة في مواقف مكيفة باستمرار، مما يضفي تكاليف تشغيلية خفية أخرى يتحملها المالك وحده. كل خدش بسيط أو ترسبات رملية بفعل العوامل الجوية تتطلب زيارة خاصة لمركز الصيانة المعتمد، وتتحمل أنت كمالك كامل هذه المصاريف والمسؤوليات.'
+  },
+  {
+    type: 'heading',
+    text: 'بديل الاستئجار: التكاليف اليومية والشهرية الواضحة'
+  },
+  {
+    type: 'paragraph',
+    text: 'في المقابل، يمثل استئجار رولز رويس خياراً مالياً ذكياً يتميز بالشفافية والوضوح التام. يبدأ استئجار رولز رويس جوست من 3,800 درهم إماراتي يومياً. هذا السعر شامل وبسيط، حيث يغطي التأمين الشامل الأساسي، وخدمة التوصيل والاستلام المجانية من الكونسيرج إلى فندقك أو فيلتك الخاصة في نخلة جميرا أو داون تاون دبي أو مطار دبي الدولي، ومسافة سير تبلغ 250 كم يومياً. وتتوفر التفاصيل الفورية للأسعار دائماً على <a href="/ar/pricing">صفحة الأسعار</a> الخاصة بنا، لتمنحك دقة كاملة قبل التخطيط لرحلتك. يتيح لك الإيجار اليومي تجربة قوة محرك V12 ونعومة نظام التعليق الهوائي (Magic Carpet Ride) دون أي التزامات طويلة الأجل. وللإقامات الطويلة أو رحلات العمل الممتدة، يوفر الإيجار الشهري كفاءة مالية أكبر، حيث يقلل السعر اليومي المعادل بنسبة تصل إلى 30%. أنت تدفع فقط مقابل المدة التي تحتاج فيها للسيارة، بينما يتولى فريقنا التشغيلي كافة التفاصيل الإدارية من صيانة دورية، وتسجيل، ورسوم بوابات سالك التعريفية. ونوفر لضيوفنا أيضاً خيار السائق الخاص المؤهل والمرخص من هيئة الطرق والمواصلات RTA، والذي يتمتع بدراية كاملة بكافة مسارات شوارع دبي السريعة، مما يتيح لكم التركيز على أعمالكم أو الاسترخاء أثناء التنقل. هذا هو المفهوم الحديث للفخامة: الاستمتاع بالخدمة والتميز دون تحمل عبء إدارة الأصول والالتزامات، حيث تنتقل كافة المخاطر التشغيلية إلى شركة التأجير، وتترك لك حرية الاستمتاع بالمسار.'
+  },
+  {
+    type: 'list',
+    items: [
+      '<strong>رولز رويس جوست:</strong> تبدأ من 3,800 درهم إماراتي يومياً — الخيار الأمثل للقيادة اليومية ورجال الأعمال كبار الشخصيات الذين يفضلون الرشاقة والقوة الهادئة والتصميم العصري.',
+      '<strong>رولز رويس كولينان:</strong> تبلغ 6,500 درهم إماراتي يومياً — تجمع بين هيبة الحضور والديناميكية الفائقة لرحلات العائلات الفاخرة والاستكشاف عبر الإمارات.',
+      '<strong>رولز رويس سبكتر:</strong> تبلغ 7,500 درهم إماراتي يومياً — أول سيارة كوبيه كهربائية بالكامل تمثل ذروة الهدوء المطبق والتكنولوجيا الرقمية المتطورة لرواد المستقبل.',
+      '<strong>رولز رويس فانتوم:</strong> تبلغ 5,800 درهم إماراتي يومياً — سيارة القمة الكلاسيكية الكبرى لحفلات الزفاف الفارهة والاستقبالات الرسمية ومواكب كبار الشخصيات.'
+    ]
+  },
+  {
+    type: 'heading',
+    text: 'حرية الاختيار: تبديل الموديلات حسب احتياجات أسلوب حياتك'
+  },
+  {
+    type: 'paragraph',
+    text: 'خلف الأرقام والتوفير المالي، تكمن الميزة الأبرز للاستئجار وهي الحرية المطلقة ومرونة أسلوب الحياة الفاخر. المالك يبقى مرتبطاً بموديل واحد ولون ومواصفات محددة لسنوات طويلة، بينما يملك المستأجر رفاهية ملاءمة سيارته للمناسبة والحدث. ففي لقاءات العمل الرسمية في قلب مركز دبي المالي العالمي، تمنحك سيارة <a href="/ar/fleet/ghost">رولز رويس جوست</a> أو الهيبة المطلقة لسيارة <a href="/ar/fleet/phantom">رولز رويس فانتوم</a> حضوراً قيادياً لا يقارن. وإذا كنت تخطط لرحلة عائلية فاخرة أو عطلة نهاية أسبوع في منتجع باب الشمس الصحراوي، فإن رحابة وقوة سيارة الـ SUV الفارهة <a href="/ar/fleet/cullinan">رولز رويس كولينان</a> هي الخيار الطبيعي. أما للأمسيات المميزة في بوليفارد الشيخ محمد بن راشد أو حضور عرض في أوبرا دبي، فإن الهدوء المطبق لمحرك سيارة <a href="/ar/fleet/spectre">رولز رويس سبكتر</a> يضعك في طليعة الفخامة المستقبلية. والقدرة على اختيار السيارة المناسبة تلغي أي تنازلات قد تضطر لتقديمها عند امتلاك سيارة واحدة فقط. رولز رويس جوست تمنحك الرشاقة اليومية، بينما كولينان تؤمن لك الهيبة والرحابة العائلية، وسبيكتر تعبر عن ريادتك للمستقبل. إن القدرة على تبديل سيارتك عند الطلب تضمن بقاءك دائماً خلف مقود السيارة الأنسب لجدول أعمالك، وتحول المركبة من أصل جامد إلى خدمة ديناميكية مصممة لراحتك، مما يسمح لك بتجربة كامل أسطول غودوود الفاخر وفق رغبتك.'
+  },
+  {
+    type: 'image',
+    src: `/images/blog/${slug}-inline.webp`,
+    alt: 'أسطول سيارات رولز رويس في دبي',
+    caption: 'اختر من أسطولنا ما يناسب إيقاع يومك.'
+  },
+  {
+    type: 'heading',
+    text: 'امتيازات الكونسيرج: فخامة متكاملة خالية من الأعباء'
+  },
+  {
+    type: 'paragraph',
+    text: 'عندما تختار الاستئجار معنا، يتولى فريق الكونسيرج المتخصص كافة التفاصيل التشغيلية نيابة عنكم. لن تقلق بشأن مواعيد الفحص الفني، أو تجديد ملكية السيارة السنوي، أو تقلبات أسعار إعادة البيع في السوق المستعملة. نحن نسلمكم السيارة في حالة مثالية من النظافة التامة وخزان وقود ممتلئ وجاهزة فوراً لتجربة استثنائية. وفي حال حان موعد الصيانة، نقوم بتبديلها فوراً بمركبة بديلة بذات المستوى من أسطولنا لنضمن استمرار جدول أعمالكم دون أي انقطاع. ويتعامل فريقنا مع كافة رسوم العبور (بوابات سالك) والمخالفات المرورية المسجلة ويقوم بتبويبها في فاتورة نهائية واحدة واضحة، مما يوفر عليك عناء المتابعة الإدارية والتعامل مع الجهات المعنية. إنها تجربة مصممة خصيصاً لمن يقدرون قيمة الوقت ويبحثون عن السلاسة المطلقة، وسواء أردت تسليم السيارة في مهبط الطيران الخاص أو مباشرة إلى باب فيلتك في نخلة جميرا، فإن الدقة هي التزامنا. للاستفسار وحجز سيارتك القادمة، يسعدنا تواصلكم المباشر مع فريق الحجوزات عبر واتساب على الرقم <a href="https://wa.me/971558164922">+971 55 816 4922</a>. ونحن نتطلع لخدمتكم وتقديم ما يليق برحلتكم الفاخرة.'
+  },
+  {
+    type: 'cta',
+    text: 'حدد موديل رولز رويس الذي يناسب تطلعاتك اليوم — فريقنا في انتظار رسالتكم.',
+    buttonText: 'احجز سيارتك الآن',
+    buttonLink: '/booking'
+  },
+  {
+    type: 'heading',
+    text: 'الأسئلة الشائعة'
+  },
+  {
+    type: 'heading',
+    text: 'كم تكلفة شراء سيارة رولز رويس في دبي؟'
+  },
+  {
+    type: 'paragraph',
+    text: 'يبدأ سعر شراء سيارة رولز رويس جديدة في دبي من حوالي 1,600,000 درهم إماراتي لطراز جوست القياسي، ويمكن أن يتجاوز 3,500,000 درهم لطراز فانتوم مع خيارات التخصيص. يضاف إلى ذلك رسوم جمركية بنسبة 5%، وضريبة القيمة المضافة بنسبة 5%، وتكاليف التأمين السنوي الباهظة، مما يرفع الاستثمار الأولي بشكل كبير.'
+  },
+  {
+    type: 'heading',
+    text: 'ما هو السعر اليومي لاستئجار رولز رويس جوست؟'
+  },
+  {
+    type: 'paragraph',
+    text: 'يبدأ السعر اليومي لاستئجار رولز رويس جوست في دبي من 3,800 درهم إماراتي. ويشمل هذا السعر خدمة التوصيل والاستلام المجانية والتأمين الشامل ومسافة سير تبلغ 250 كيلومتراً يومياً. قد تختلف الأسعار بناءً على الموسم السياحي أو في حال اختيار طراز Black Badge الرياضي. كما توفر الحجوزات الأسبوعية والشهرية خصومات إضافية.'
+  },
+  {
+    type: 'heading',
+    text: 'هل تشمل أسعار استئجار السيارات اليومية التأمين والمسافة المحددة؟'
+  },
+  {
+    type: 'paragraph',
+    text: 'نعم، جميع أسعار الاستئجار اليومية المحددة في أسطولنا تشمل التأمين الشامل الأساسي ومسافة سير تبلغ 250 كيلومتراً في اليوم. كما نوفر خدمة توصيل كونسيرج مجانية للمطار أو فندق إقامتك داخل دبي (داون تاون ونخلة جميرا) دون أي رسوم إضافية مخفية، وتطبق رسوم إضافية طفيفة عند تجاوز حد المسافة اليومي.'
+  },
+  {
+    type: 'heading',
+    text: 'هل يمكنني تبديل موديل السيارة أثناء فترة الإيجار؟'
+  },
+  {
+    type: 'paragraph',
+    text: 'نعم، نتيح لضيوفنا الكرام مرونة كاملة لتبديل الموديلات أثناء فترة الإيجار لتناسب طبيعة أعمالهم أو أسلوب حياتهم. يمكنكم التنسيق مع فريق الكونسيرج لدينا قبل 24 ساعة لترتيب استلام سيارتكم الحالية وتسليم الموديل الجديد بسهولة تامة، مع مراعاة توفر السيارات في الأسطول وتعديل الأسعار.'
+  },
+  {
+    type: 'heading',
+    text: 'كيف يؤثر معدل استهلاك رولز رويس على المقارنة بين الشراء والاستئجار؟'
+  },
+  {
+    type: 'paragraph',
+    text: 'تفقد رولز رويس حوالي 20% من قيمتها كاستهلاك في العام الأول فقط، مما يعني خسارة مئات الآلاف من الدراهم صامتاً. يجعل هذا الاستهلاك المرتفع، بالإضافة إلى تكاليف الصيانة الدورية والتأمين، خيار الاستئجار أكثر كفاءة وملاءمة مالية خاصة للزيارات القصيرة أو المتوسطة، مما يبقي أموالك سائلة ونشطة في استثمارات أخرى.'
+  }
+];
+
+const ruContent = [
+  {
+    type: 'paragraph',
+    text: '<div style="background:#1a1a1a;border-left:4px solid #c9a227;padding:16px 20px;margin:24px 0;border-radius:8px;"><strong>💡 Быстрый ответ:</strong> Покупка Rolls-Royce в Дубае влечет за собой <strong>5% таможенную пошлину</strong>, <strong>5% НДС</strong>, дорогую регистрацию, ежегодную страховку от <strong>30 000 до 60 000 AED</strong> и <strong>20% амортизацию в первый год</strong>. Напротив, аренда Rolls-Royce Ghost начинается от <strong>3 800 AED в день</strong>, включая комплексное страхование, VIP-доставку консьержем и 250 км пробега в сутки. Аренда гарантирует предсказуемость расходов и гибкость в выборе моделей. Свяжитесь с нами в WhatsApp по телефону <a href="https://wa.me/971558164922">+971 55 816 4922</a> для бронирования.</div>'
+  },
+  {
+    type: 'paragraph',
+    text: '<div style="background:#0f0f0f;border:1px solid #2a2a2a;border-left:4px solid #c9a227;padding:20px;margin:32px 0;border-radius:8px;"><p style="color:#c9a227;font-weight:bold;margin:0 0 8px;">🛎️ Из консьерж-сервиса Rolls-Royce в Дубае</p><p style="margin:0;line-height:1.8;">Для обеспечения абсолютной прозрачности сообщаем, что наш суточный тариф на Rolls-Royce Ghost (3 800 AED) включает полную комплексную страховку и суточный лимит пробега 250 км. Мы доставим и заберем автомобиль в любой точке Дубая (Даунтаун, Пальм-Джумейра, Марина или аэропорт DXB) совершенно бесплатно. Для длительных поездок мы оформляем специальные еженедельные и ежемесячные инвойсы для корпоративной отчетности. Мы берем на себя все заботы по логистике автопарка, гарантируя вам безупречный опыт.</p></div>'
+  },
+  {
+    type: 'heading',
+    text: 'Расчет владения: реальная стоимость покупки Rolls-Royce в Дубае'
+  },
+  {
+    type: 'paragraph',
+    text: 'На бумаге Rolls-Royce — это пассажирский седан. Как и обычное такси, поэтому нам следует быть более точными. Престиж обладания созданным в Гудвуде автомобилем, припаркованным под сияющими огнями Burj Khalifa или у престижного офиса в DIFC, бесспорен. Однако финансовая сторона покупки Rolls-Royce в Дубае гораздо сложнее, чем кажется на первый взгляд. При покупке нового автомобиля в ОАЭ владелец сразу сталкивается с рядом крупных первоначальных затрат. Во-первых, любой импортируемый в страну автомобиль облагается 5% таможенной пошлиной, за которой следует стандартный 5% НДС ОАЭ. Регистрация машины такого класса в RTA также требует особых сборов и, как правило, приобретения эксклюзивных номерных знаков, стоимость которых порой сопоставима с ценой самого автомобиля. В таком мегаполисе, как Дубай, красивый двух- или трехзначный номер является ключевым элементом статуса, и его покупка на аукционах добавляет значительные расходы. Помимо таможни и налогов, покупка у дилера сопровождается длительным периодом ожидания автомобиля под заказ. Индивидуальная сборка на заводе в Гудвуде может занимать от шести месяцев до двух лет, что оставляет покупателя без средства передвижения на этот период. В Дубае, где динамика жизни требует мгновенных решений, такое ожидание является непозволительной роскошью для многих предпринимателей и инвесторов. Более того, покупка за наличные замораживает значительный объем ликвидного капитала — обычно от 2 000 000 до 4 000 000 AED в зависимости от уровня персонализации Bespoke. Этот замороженный капитал представляет собой упущенную выгоду; его можно было бы направить в высокодоходную недвижимость Дубая или инвестиционные фонды, приносящие реальный доход, вместо того чтобы держать в дешевеющем активе. Для современных бизнесменов и статусных гостей Дубая эта первоначальная блокировка средств заставляет серьезно задуматься, является ли покупка наиболее разумным решением, ведь аренда сохраняет капитал свободным.'
+  },
+  {
+    type: 'heading',
+    text: 'Скрытые расходы владения: амортизация, обслуживание и страхование'
+  },
+  {
+    type: 'paragraph',
+    text: 'Как только автомобиль зарегистрирован, начинают накапливаться текущие операционные расходы. Самым крупным скрытым расходом при покупке Rolls-Royce в Дубае является амортизация, которая забирает около 20% стоимости машины в первый же год. Для автомобиля стоимостью 2 500 000 AED это означает потерю 500 000 AED всего за двенадцать месяцев. Это потеря, которую нельзя предотвратить; она происходит, пока машина просто стоит в гараже. Кроме того, страховка КАСКО для машин такого уровня в ОАЭ стоит очень дорого. Страховые компании рассчитывают тарифы исходя из стоимости замены деталей из углеродного волокна и кузовных панелей ручной окраски, что выливается в ежегодную премию от 30 000 до 60 000 AED. Также обязательным условием сохранения гарантии является регулярное ТО у официального дилера. Обычный сервис для двигателя V12 не имеет ничего общего с обслуживанием массовых седанов; он требует сертифицированных специалистов, дилерского оборудования и оригинальных запчастей из Великобритании, что легко обходится в десятки тысяч дирхамов ежегодно. Кроме того, в ОАЭ страхование является обязательным юридическим требованием, и езда без надлежащего КАСКО влечет за собой строгие штрафы и конфискацию автомобиля властями RTA. Сложная электроника и системы помощи водителю, такие как лазерные фары или система ночного видения, в случае повреждения требуют замены целых блоков, что делает страховые выплаты значительными расходами. Владелец также сталкивается с необходимостью регулярной химчистки салона из-за пыли и песчаных бурь, характерных для климата Персидского залива. Добавьте к этому быстрый износ шин в жарком летнем климате Дубая (комплект стоит до 24 000 AED), и стоимость содержания станет внушительной статьей расходов. Любая мелкая царапина или обслуживание фар требуют поездки на сервис, расходы за которую ложатся на ваши плечи.'
+  },
+  {
+    type: 'heading',
+    text: 'Арендная альтернатива: прозрачные дневные и месячные тарифы'
+  },
+  {
+    type: 'paragraph',
+    text: 'В отличие от финансовых обязательств при покупке, аренда Rolls-Royce предлагает простую и понятную схему. Например, аренда модели Ghost начинается от 3 800 AED в сутки. Этот тариф полностью прозрачен: в него входит страховка КАСКО, VIP-доставка и забор машины по вашему адресу (Даунтаун, Марина, Пальм-Джумейра или аэропорт DXB) и суточный пробег 250 км. Актуальные цены всегда представлены на нашей <a href="/ru/pricing">странице цен</a>, что гарантирует прозрачность планирования расходов. Суточный тариф позволяет вам ощутить всю мощь двигателя V12 и мягкость пневмоподвески Magic Carpet Ride без долгосрочных обязательств. При долгосрочной аренде на месяц суточный эквивалент снижается на 30%. Вы платите только за время реального использования автомобиля, тогда как все хлопоты по ТО, страховке и оплате Salik берет на себя консьерж-служба. Наш автопарк постоянно обновляется, и все машины находятся на гарантии, что полностью исключает риски поломок. При аренде на длительный срок мы предоставляем гибкие схемы оплаты и полный пакет закрывающих документов для бухгалтерии. Если вы приехали в Дубай на зимний сезон, аренда Rolls-Royce позволит вам подчеркнуть свой статус без необходимости открывать локальный банковский счет для покупки машины. Это современный подход к роскоши: оплата опыта вождения флагмана, а не хлопот по управлению его активами. Вы перекладываете все риски на прокатную компанию, получая взамен идеальный сервис.'
+  },
+  {
+    type: 'list',
+    items: [
+      '<strong>Rolls-Royce Ghost:</strong> от 3 800 AED в день — идеальный баланс элегантности, маневренности и динамики V12 для деловых поездок и представительских целей.',
+      '<strong>Rolls-Royce Cullinan:</strong> 6 500 AED в день — величественный люксовый внедорожник для семейных туров и поездок по эмиратам в максимальном комфорте.',
+      '<strong>Rolls-Royce Spectre:</strong> 7 500 AED в день — первый полностью электрический Rolls-Royce, вершина тишины, технологий и дизайна будущего.',
+      '<strong>Rolls-Royce Phantom:</strong> 5 800 AED в день — классический представительский флагман для свадеб, красных дорожек и VIP-встреч высшего уровня.'
+    ]
+  },
+  {
+    type: 'heading',
+    text: 'Гибкость стиля жизни: смена моделей под ваши задачи'
+  },
+  {
+    type: 'paragraph',
+    text: 'Помимо чисто финансовой выгоды, аренда дает то, что не может дать покупка — свободу выбора. Владелец привязан к одной модели и цвету на годы вперед. Арендатор же может менять автомобиль в зависимости от планов. Для деловых встреч в DIFC лаконичный <a href="/ru/fleet/ghost">Rolls-Royce Ghost</a> или внушительный <a href="/ru/fleet/phantom">Rolls-Royce Phantom</a> создадут нужный статус. Для выходных с семьей или поездки в пустынный отель Bab Al Shams лучшим выбором станет полноприводный <a href="/ru/fleet/cullinan">Rolls-Royce Cullinan</a>. А для вечерних выездов по бульварам Даунтауна бесшумная электрическая тяга купе <a href="/ru/fleet/spectre">Rolls-Royce Spectre</a> подчеркнет вашу технологическую искушенность. Возможность выбирать автомобиль под конкретную задачу избавляет вас от необходимости идти на компромиссы. На встрече в Downtown вы будете на Ghost, а для загородной поездки пересядете на Cullinan. Это подписка на роскошь, которая адаптируется под ваше расписание в реальном времени, позволяя насладиться всей линейкой марки.'
+  },
+  {
+    type: 'image',
+    src: `/images/blog/${slug}-inline.webp`,
+    alt: 'Парк автомобилей Rolls-Royce в Дубае',
+    caption: 'Выбирайте Rolls-Royce под настроение вашего дня.'
+  },
+  {
+    type: 'heading',
+    text: 'Преимущества консьержа: роскошь без лишних забот'
+  },
+  {
+    type: 'paragraph',
+    text: 'При выборе аренды все организационные вопросы решает наша профессиональная команда консьержей. Вам не нужно следить за продлением регистрации, графиком ТО или переживать из-за падения рыночной стоимости авто. Мы доставляем машину в безупречном виде и с полным баком. В случае необходимости обслуживания мы предоставим аналогичный подменный автомобиль, чтобы ваши планы не менялись. Наш водитель привезет машину прямо к вашему трапу в VIP-терминале Al Maktoum (DWC) или к дверям отеля Burj Al Arab. Все дорожные сборы Salik и штрафы RTA автоматически консолидируются в одном финальном счете, что экономит ваше время. Это сервис, созданный для тех, кто ценит свое время, ценит подлинный комфорт и хочет наслаждаться поездкой на Palm Jumeirah или Sheikh Zayed Road без рутины. Для бронирования и уточнения доступности моделей пишите нашему консьержу в WhatsApp по телефону <a href="https://wa.me/971558164922">+971 55 816 4922</a>. Мы рады организовать вашу поездку на высшем уровне.'
+  },
+  {
+    type: 'cta',
+    text: 'Выберите, какой Rolls-Royce дополнит ваши планы сегодня — мы на расстоянии одного сообщения.',
+    buttonText: 'Забронировать автомобиль',
+    buttonLink: '/booking'
+  },
+  {
+    type: 'heading',
+    text: 'Frequently Asked Questions'
+  },
+  {
+    type: 'heading',
+    text: 'Сколько стоит купить Rolls-Royce в Дубае?'
+  },
+  {
+    type: 'paragraph',
+    text: 'Цены на новые Rolls-Royce в Дубае начинаются от 1 600 000 AED за модель Ghost и могут легко превысить 3 500 000 AED за флагманский Phantom с индивидуальными опциями Bespoke. Также при покупке необходимо уплатить 5% таможенную пошлину, 5% НДС и ежегодные регистрационные сборы, а также страховые взносы.'
+  },
+  {
+    type: 'heading',
+    text: 'Какова стоимость посуточной аренды Rolls-Royce Ghost?'
+  },
+  {
+    type: 'paragraph',
+    text: 'Суточный тариф на аренду Rolls-Royce Ghost начинается от 3 800 AED. В эту цену входит бесплатная доставка консьержем по Дубаю, страховка КАСКО и дневной лимит пробега 250 км. Цены могут меняться в зависимости от туристического сезона или выбора версии Black Badge. Еженедельные и ежемесячные тарифы снижают среднюю стоимость дня.'
+  },
+  {
+    type: 'heading',
+    text: 'Включает ли суточный тариф аренды страховку и лимит пробега?'
+  },
+  {
+    type: 'paragraph',
+    text: 'Да, все суточные тарифы нашего автопарка включают стандартное страхование КАСКО и лимит пробега в 250 км в день. Также мы бесплатно доставляем и забираем машину из отелей Дубая (Даунтаун, Марина) и VIP-терминалов аэропорта, исключая любые скрытые доплаты и административные сборы.'
+  },
+  {
+    type: 'heading',
+    text: 'Могу ли я менять модели Rolls-Royce во время аренды?'
+  },
+  {
+    type: 'paragraph',
+    text: 'Да, мы предоставляем клиентам возможность менять модели в течение периода аренды в соответствии с их планами. Для этого достаточно уведомить нашего консьержа за 24 часа, чтобы мы подготовили замену и доставили новую машину в удобное время. Смена моделей зависит от текущей доступности автопарка.'
+  },
+  {
+    type: 'heading',
+    text: 'Как амортизация Rolls-Royce влияет на выбор между покупкой и арендой?'
+  },
+  {
+    type: 'paragraph',
+    text: 'Rolls-Royce теряет порядка 20% стоимости в первый год, что выливается в сотни тысяч дирхамов потерь. С учетом затрат на дорогое ежегодное обслуживание и страховку, аренда является гораздо более рациональным решением, особенно для сезонных визитов в Дубай, сохраняя ваш инвестиционный капитал ликвидным.'
+  }
+];
+
+const blogData = {
+  en: {
+    title: 'How Much Does a Rolls-Royce Car Cost to Buy vs Hire in Dubai?',
+    description: 'Compare the actual cost of buying a Rolls-Royce in Dubai (VAT, customs, insurance & depreciation) versus renting starting from AED 3,800 per day with VIP delivery.',
+    author: 'Ahmed Salem',
+    date: '2026-09-26',
+    readTime: '10 min read',
+    category: 'Pricing',
+    image: `/images/blog/${slug}-cover.jpg`,
+    content: enContent,
+    relatedArticles: [
+      'much-rent-ghost-dubai-clear-price',
+      'ultimate-guide-rolls-royce-rental-dubai',
+      'first-time-dubai-luxury-guide',
+      'rolls-royce-wedding-car-dubai'
+    ]
+  },
+  ar: {
+    title: 'كم تبلغ تكلفة شراء رولز رويس مقابل استئجارها في دبي؟',
+    description: 'قارن بين تكاليف شراء رولز رويس في دبي (الجمارك، القيمة المضافة، التأمين، والاستهلاك) وتكلفة استئجارها يومياً بأسعار تبدأ من 3,800 درهم إماراتي مع خدمة التوصيل.',
+    author: 'Ahmed Salem',
+    date: '2026-09-26',
+    readTime: '10 دقائق قراءة',
+    category: 'Pricing',
+    image: `/images/blog/${slug}-cover.jpg`,
+    content: arContent,
+    relatedArticles: [
+      'much-rent-ghost-dubai-clear-price',
+      'ultimate-guide-rolls-royce-rental-dubai',
+      'first-time-dubai-luxury-guide',
+      'rolls-royce-wedding-car-dubai'
+    ]
+  },
+  ru: {
+    title: 'Сколько стоит покупка против аренды Rolls-Royce в Дубае?',
+    description: 'Сравните реальные расходы на покупку Rolls-Royce в Дубае (НДС, пошлины, страховка, износ) со стоимостью аренды от 3 800 AED в день с доставкой VIP-консьержем.',
+    author: 'Ahmed Salem',
+    date: '2026-09-26',
+    readTime: '10 мин чтения',
+    category: 'Pricing',
+    image: `/images/blog/${slug}-cover.jpg`,
+    content: ruContent,
+    relatedArticles: [
+      'much-rent-ghost-dubai-clear-price',
+      'ultimate-guide-rolls-royce-rental-dubai',
+      'first-time-dubai-luxury-guide',
+      'rolls-royce-wedding-car-dubai'
+    ]
+  },
+  publishAt: '2026-09-26T12:00:00+04:00'
+};
+
+fs.writeFileSync(targetPath, JSON.stringify(blogData, null, 2), 'utf8');
+
+const wc = (blocks) => (blocks || []).reduce((n, b) => {
+  const s = b.text || (b.items ? b.items.join(' ') : '') || b.caption || '';
+  return n + s.replace(/<[^>]*>/g, ' ').split(/\s+/).filter(Boolean).length;
+}, 0);
+
+console.log('Words counts:');
+console.log('EN:', wc(blogData.en.content));
+console.log('AR:', wc(blogData.ar.content));
+console.log('RU:', wc(blogData.ru.content));
+console.log('JSON generated successfully at', targetPath);

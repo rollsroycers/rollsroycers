@@ -1,0 +1,500 @@
+const fs = require('fs');
+const path = require('path');
+
+const slug = 'does-rolls-royce-make-cars-bespoke-beyond';
+const targetPath = '/Users/ahmedsalem/Desktop/all my projects/rollsroycers.com/src/data/blog/does-rolls-royce-make-cars-bespoke-beyond.json';
+
+const enContent = [
+  // 1) Quick Answer Box (paragraph)
+  {
+    type: 'paragraph',
+    text: '<div style="background:#1a1a1a;border-left:4px solid #c9a227;padding:16px 20px;margin:24px 0;border-radius:8px;"><strong>💡 Quick Answer:</strong> Rolls-Royce currently manufactures four primary models at its Goodwood estate: the flagship <strong>Phantom</strong> saloon (from AED 5,800/day), the refined <strong>Ghost</strong> saloon (from AED 3,800/day), the ultra-luxury <strong>Cullinan</strong> SUV (from AED 6,500/day), and the all-electric <strong>Spectre</strong> super-coupe (from AED 7,500/day). Discontinued classics like the Wraith and Dawn remain highly popular in Dubai\'s premier rental catalogs. To secure your model for self-drive or chauffeur service, contact Naqra FZE via WhatsApp at <a href="https://wa.me/971558164922">+971 55 816 4922</a>.</div>'
+  },
+  // 2) Operational Callout (paragraph)
+  {
+    type: 'paragraph',
+    text: '<div style="background:#0f0f0f;border:1px solid #2a2a2a;border-left:4px solid #c9a227;padding:20px;margin:32px 0;border-radius:8px;"><p style="color:#c9a227;font-weight:bold;margin:0 0 8px;">🛎️ From Our Dubai Concierge Operations</p><p style="margin:0;line-height:1.8;">Our operational team coordinates deliveries across all major Dubai zones, including Downtown Dubai, Palm Jumeirah, DIFC, and Dubai Marina. Whether you are arriving at Dubai International Airport (DXB) or a private jet terminal, we ensure a seamless handoff. Each vehicle in our fleet undergoes rigorous maintenance according to Goodwood standards, ensuring that when you drive a Rolls-Royce under Sheikh Zayed Road\'s skyline, the experience is indistinguishable from driving a brand-new vehicle straight from the factory floor. Our goal is absolute transparency, with no hidden fees and 24/7 concierge support.</p></div>'
+  },
+  // 3) Section 1 Heading
+  {
+    type: 'heading',
+    text: 'The Modern Lineup: What Does Rolls-Royce Make Today?'
+  },
+  // 4) Section 1 Paragraph
+  {
+    type: 'paragraph',
+    text: 'Under the stewardship of the BMW Group, Rolls-Royce Motor Cars has consolidated its global manufacturing operations at the state-of-the-art Goodwood estate in West Sussex, England. Today, the marque crafts a highly curated and prestigious portfolio designed for the world\'s most discerning patrons, combining traditional British craftsmanship with German electronic precision. The current active production lineup consists of four primary models, each representing a unique facet of modern automotive indulgence. The flagship is the <a href="/fleet/phantom">Phantom</a>, a massive, imposing saloon powered by the classic 6.75-litre twin-turbocharged V12 engine, representing the absolute zenith of luxury motoring. Alongside it sits the <a href="/fleet/ghost">Ghost</a>, a slightly more compact, driver-focused saloon that balances daily usability with the brand\'s signature luxury and presence. For patrons requiring a commanding view of both urban boulevards and desert routes, the <a href="/fleet/cullinan">Cullinan</a> stands as the marque\'s premier high-bodied luxury SUV, offering unparalleled space and capability. Finally, the <a href="/fleet/spectre">Spectre</a> represents the electric future of Goodwood, serving as the first fully electric super-coupe that transitions the brand into a silent, zero-emission era. Each of these machines is built on the bespoke \'Architecture of Luxury\' aluminum spaceframe, ensuring that the legendary \'Magic Carpet Ride\' suspension remains consistent across the entire range, whether powered by twelve cylinders or advanced electric motors. This shared engineering foundation allows each vehicle to isolate its passengers from the outside world, creating a silent sanctuary that remains calm even in the middle of Dubai\'s busiest hours. When you examine the <a href="/fleet">full model lineup</a>, you begin to appreciate how the brand has evolved to meet the demands of modern luxury while preserving its historic heritage.'
+  },
+  // 5) Section 2 Heading
+  {
+    type: 'heading',
+    text: 'Discontinued Icons: The Continuing Appeal of Wraith and Dawn'
+  },
+  // 6) Section 2 Paragraph
+  {
+    type: 'paragraph',
+    text: 'While the current production lineup is forward-looking and increasingly electrified, the luxury automotive world still holds a deep and abiding fascination for the recently retired icons of Goodwood. The Rolls-Royce Wraith, a sweeping and powerful fastback coupe, and the Dawn, its open-top convertible counterpart, officially ended their historic production runs to clear assembly space for the electric Spectre. However, their departure from the production line has done absolutely nothing to diminish their global allure. In fact, in premier markets like Dubai, these discontinued vehicles are more coveted than ever. In the rental catalogs of Naqra FZE, the Wraith and Dawn remain absolute favorites for those who appreciate the raw presence of a twin-turbocharged V12 grand tourer. Driving a Wraith along Sheikh Zayed Road at night or cruising Palm Jumeirah in a convertible Dawn during the winter season remains a quintessential luxury experience. Because Rolls-Royce no longer builds these V12 two-door masterpieces, renting them represents a rare opportunity to experience a bygone era of internal combustion perfection, preserved in immaculate, factory-standard condition by our specialist maintenance teams. These models continue to attract clients who want to experience the traditional V12 power and classic proportions that defined the marque\'s modern renaissance. Both the Wraith and the Dawn were designed to be driven rather than chauffeured, offering a more dynamic, personal relationship with the road that continues to resonate with car enthusiasts visiting the United Arab Emirates.'
+  },
+  // 7) Section 3 Heading
+  {
+    type: 'heading',
+    text: 'Bespoke Artistry: Craftsmanship Beyond the Factory Floor'
+  },
+  // 8) Section 3 Paragraph
+  {
+    type: 'paragraph',
+    text: 'To truly understand what Rolls-Royce makes, one must look beyond the basic metal and leather of the chassis. The true heart of the brand lies in its Bespoke division, a specialized studio where designers and artisans turn personal dreams into rolling sculptures. When you acquire or rent a Rolls-Royce, you are not simply choosing a car; you are commissioning a canvas. The Bespoke division allows for almost infinite customization, from custom paint blending where owners can create unique paint shades matched to personal items, to elaborate interior woodwork sourced from single trees. This level of craftsmanship is what elevates a Rolls-Royce from a mode of transportation to a piece of fine art. The attention to detail is so precise that a single coachline, painted by hand with a squirrel-hair brush, takes hours of concentration. For those who choose to rent these vehicles in Dubai, experiencing these bespoke touches—such as custom-ordered hide colors, specialized wood veneers, and custom accessories—provides a direct link to the extraordinary effort that goes into creating every single vehicle that leaves West Sussex. It is this commitment to individuality that ensures no two Rolls-Royce vehicles are ever truly identical, making each journey feel like a private gallery showing. The craftspeople in Goodwood spent decades perfecting techniques for leather sewing, wood polishing, and paint application, ensuring that the touch-points of the cabin feel entirely different from any mass-produced vehicle.'
+  },
+  // 9) Section 3 List (list)
+  {
+    type: 'list',
+    items: [
+      '<strong>The Starlight Headliner:</strong> A signature option requiring up to 17 hours of labor, using 1,340 hand-woven fiber-optic lights to recreate a sparkling night sky, complete with occasional shooting stars.',
+      '<strong>Individual Paint Blending:</strong> A process allowing patrons to match their vehicle\'s exterior to any object, resulting in over 44,000 unique color variations developed in the Goodwood paint shop.',
+      '<strong>Specialized Picnic Hampers:</strong> Custom-engineered hampers made from oiled teak and saddle leather, containing crystal glassware, fine china, and silver cutlery tailored to outdoor dining.',
+      '<strong>Integrated Champagne Chests:</strong> A beautifully crafted console feature featuring a cooling bay, custom flutes, and caviar storage, designed to celebrate special arrivals in absolute style.',
+      '<strong>Bespoke Umbrella Compartments:</strong> Built directly into the frames of the rear-hinged coach doors, containing teflon-coated umbrellas that deploy at the touch of a button to ensure passengers remain dry.'
+    ]
+  },
+  // 10) Section 4 Heading
+  {
+    type: 'heading',
+    text: 'Rolls-Royce in Dubai: The Premier Fleet at Naqra FZE'
+  },
+  // 11) Section 4 Paragraph
+  {
+    type: 'paragraph',
+    text: 'In Dubai, a city defined by architectural marvels and high-profile lifestyles, a Rolls-Royce is the natural choice for navigating the streets. At Naqra FZE, we align our rental offerings with this demand, maintaining a fleet that represents the very best of Goodwood\'s craftsmanship. The local climate and roads provide the perfect backdrop for these vehicles. Driving past the towering Burj Khalifa or arriving at the luxury resorts of the Palm Jumeirah requires a vehicle that commands respect, and nothing does so quite like the Pantheon grille. We ensure that our clients experience the full spectrum of Rolls-Royce\'s modern lineup. Our fleet is curated to match the diverse needs of Dubai\'s elite visitors and business executives. Whether you require a <a href="/fleet/ghost">Ghost</a> for a corporate roadshow in DIFC, a <a href="/fleet/cullinan">Cullinan</a> for a family excursion along the coast, or a <a href="/fleet/spectre">Spectre</a> to experience the absolute cutting edge of electric motoring, we provide the vehicles in pristine, showroom-standard condition. Each rental is treated as a bespoke service, tailored to your schedule and delivered directly to your doorstep. Our concierge team manages every detail of the handover, walking you through the vehicle\'s features to ensure your driving experience is effortless and entirely satisfying from the moment you receive the keys.'
+  },
+  // 12) Section 4 Image (image)
+  {
+    type: 'image',
+    src: '/images/blog/does-rolls-royce-make-cars-bespoke-beyond-inline.webp',
+    alt: 'The complete modern lineup of Rolls-Royce vehicles lined up outside a luxury Dubai estate',
+    caption: 'Goodwood\'s finest creations gathered in Dubai, ready for the open road.'
+  },
+  // 13) Section 5 Heading
+  {
+    type: 'heading',
+    text: 'Comparing Daily Rates: Ghost, Phantom, Cullinan, and Spectre'
+  },
+  // 14) Section 5 Paragraph
+  {
+    type: 'paragraph',
+    text: 'For those looking to experience this lineup firsthand, understanding the rental structure is the first step. The daily rates for our fleet reflect the unique position of each model. The balanced, driver-focused <a href="/fleet/ghost">Rolls-Royce Ghost</a> is available starting at AED 3,800 per day, making it an excellent choice for corporate travel or urban cruising. If you require the commanding presence of an SUV, the <a href="/fleet/cullinan">Rolls-Royce Cullinan</a> starts at AED 6,500 per day. For the ultimate statement of luxury, the flagship <a href="/fleet/phantom">Rolls-Royce Phantom</a> can be secured for AED 5,800 per day. Meanwhile, those wishing to experience the silent power of the electric era can rent the <a href="/fleet/spectre">Rolls-Royce Spectre</a> at AED 7,500 per day. We offer flexible terms for daily, weekly, and monthly arrangements, allowing you to tailor the rental to your specific itinerary. Every rate includes comprehensive insurance and a generous daily mileage allowance, backed by our twenty-four-hour concierge support. To discuss availability or to customize your booking, you can contact our reservation desk via WhatsApp at <a href="https://wa.me/971558164922">+971 55 816 4922</a>. Our team is dedicated to providing a transparent, seamless service that aligns with the high standards of the Rolls-Royce marque, ensuring that your Dubai experience is elevated at every single turn.'
+  },
+  // 15) FAQ Heading ("Frequently Asked Questions" Heading)
+  {
+    type: 'heading',
+    text: 'Frequently Asked Questions'
+  },
+  // 16) FAQ 1 Q (heading)
+  {
+    type: 'heading',
+    text: 'Does Rolls-Royce still make the Wraith or Dawn?'
+  },
+  // 17) FAQ 1 A (paragraph)
+  {
+    type: 'paragraph',
+    text: 'No, Rolls-Royce has officially ended production of the Wraith and Dawn to focus on the electric Spectre. However, they remain highly popular in luxury rental catalogs worldwide. At Naqra FZE, we continue to maintain these V12 models in pristine condition, allowing clients in Dubai to experience their timeless style. Our specialized maintenance ensures they drive as smoothly as the day they left Goodwood.'
+  },
+  // 18) FAQ 2 Q (heading)
+  {
+    type: 'heading',
+    text: 'What is the daily cost to rent a Rolls-Royce in Dubai?'
+  },
+  // 19) FAQ 2 A (paragraph)
+  {
+    type: 'paragraph',
+    text: 'Renting a Ghost starts at AED 3,800 per day, while the Phantom is available for AED 5,800. The Cullinan SUV starts at AED 6,500 per day, and the fully electric Spectre is priced at AED 7,500 per day. These rates reflect our commitment to transparent, all-inclusive luxury pricing. We include comprehensive insurance and delivery as standard with no hidden fees.'
+  },
+  // 20) FAQ 3 Q (heading)
+  {
+    type: 'heading',
+    text: 'How long does it take to create a bespoke paint color?'
+  },
+  // 21) FAQ 3 A (paragraph)
+  {
+    type: 'paragraph',
+    text: 'Developing a custom paint blend through the Bespoke division can take anywhere from several weeks to months. The Goodwood paint shop tests the custom color under various lighting conditions to ensure it remains perfect under the intense Dubai sun and matches the client\'s exact specification. This meticulous testing prevents the color from fading or changing under high heat.'
+  },
+  // 22) FAQ 4 Q (heading)
+  {
+    type: 'heading',
+    text: 'Can I rent a Rolls-Royce for self-drive in Dubai?'
+  },
+  // 23) FAQ 4 A (paragraph)
+  {
+    type: 'paragraph',
+    text: 'Yes. Self-drive rentals are fully available for individuals aged 25 and older who hold a valid UAE driving license or an international permit. If you prefer to be driven, we also offer a professional chauffeur service to navigate Dubai\'s busy highways in complete comfort, allowing you to relax in the rear cabin without worrying about traffic.'
+  },
+  // 24) FAQ 5 Q (heading)
+  {
+    type: 'heading',
+    text: 'Does the Rolls-Royce Spectre have a V12 engine?'
+  },
+  // 25) FAQ 5 A (paragraph)
+  {
+    type: 'paragraph',
+    text: 'No, the Spectre is the first fully electric vehicle made by Rolls-Royce. It swaps the traditional V12 engine for a silent dual-motor electric drivetrain, delivering 584 horsepower while maintaining the legendary \'Magic Carpet Ride\' suspension that defines the brand. The absence of engine vibration creates an even quieter and more refined cabin environment.'
+  },
+  // 26) CTA Block (cta)
+  {
+    type: 'cta',
+    text: 'Experience Goodwood\'s finest in Dubai. Contact our concierge to reserve your Rolls-Royce.',
+    buttonText: 'Book Your Rolls-Royce',
+    buttonLink: '/booking'
+  }
+];
+
+const arContent = [
+  // 1) Quick Answer Box (paragraph)
+  {
+    type: 'paragraph',
+    text: '<div style="background:#1a1a1a;border-right:4px solid #c9a227;padding:16px 20px;margin:24px 0;border-radius:8px;"><strong>💡 الإجابة السريعة:</strong> تنتج رولز رويس حالياً في مصنعها بمدينة غودوود البريطانية أربعة طرازات رئيسية: سيارة الصالون الرائدة <strong>فانتوم</strong> (تبدأ من 5,800 درهم/اليوم)، وسيارة الصالون الفاخرة <strong>جوست</strong> (تبدأ من 3,800 درهم/اليوم)، والسيارة الرياضية متعددة الاستخدامات الفاخرة <strong>كولينان</strong> (تبدأ من 6,500 درهم/اليوم)، وسيارة الكوبيه الكهربائية بالكامل <strong>سبيكتر</strong> (تبدأ من 7,500 درهم/اليوم). وتظل الطرازات الكلاسيكية التي توقف إنتاجها مثل وريث وداون تحظى بشعبية هائلة في دبي. للحجز والتنسيق مع شركة نقرة (Naqra FZE)، يرجى التواصل معنا عبر واتساب <a href="https://wa.me/971558164922">+971 55 816 4922</a>.</div>'
+  },
+  // 2) Operational Callout (paragraph)
+  {
+    type: 'paragraph',
+    text: '<div style="background:#0f0f0f;border:1px solid #2a2a2a;border-right:4px solid #c9a227;padding:20px;margin:32px 0;border-radius:8px;"><p style="color:#c9a227;font-weight:bold;margin:0 0 8px;">🛎️ من خبرة التشغيل في دبي</p><p style="margin:0;line-height:1.8;">يتولى فريقنا التشغيلي تنسيق عمليات تسليم واستلام السيارات الفاخرة في جميع المناطق الحيوية في دبي، بما في ذلك وسط مدينة دبي (Downtown)، ونخلة جميرا، ومركز دبي المالي العالمي (DIFC)، ودبي مارينا. وسواء كنتم قادمين عبر مطار دبي الدولي (DXB) أو عبر صالة الطيران الخاص، فإننا نضمن لكم تجربة تسليم سلسة تليق بتطلعاتكم. تخضع كل سيارة في أسطولنا لصيانة دورية صارمة تتطابق مع معايير غودوود، لضمان أن قيادتكم لسيارة رولز رويس تحت أضواء أفق دبي على شارع الشيخ زايد ستكون مطابقة تماماً لقيادة سيارة جديدة خرجت للتو من المصنع. هدفنا الشفافية المطلقة بلا رسوم خفية وخدمة كونسيرج 24 ساعة.</p></div>'
+  },
+  // 3) Section 1 Heading
+  {
+    type: 'heading',
+    text: 'ماذا تصنع رولز رويس اليوم؟ تشكيلة الطرازات الحديثة'
+  },
+  // 4) Section 1 Paragraph
+  {
+    type: 'paragraph',
+    text: 'تحت مظلة مجموعة بي إم دبليو (BMW Group)، قامت رولز رويس بتركيز كافة عمليات التصنيع العالمية في مقاطعة غرب ساسكس بإنكلترا وتحديداً في منطقة غودوود الشهيرة. واليوم، تصيغ العلامة البريطانية العريقة محفظة حصرية للغاية من السيارات الفاخرة المصممة خصيصاً للنخبة من ضيوفنا، حيث تمتزج الحرفة البريطانية التقليدية مع الدقة الهندسية الألمانية المتطورة. وتتألف تشكيلة السيارات النشطة في خطوط الإنتاج حالياً من أربعة طرازات رئيسية، يمثل كل منها جانباً فريداً من جوانب الفخامة المعاصرة. وتأتي <a href="/ar/fleet/phantom">فانتوم</a> في قمة هذه التشكيلة كسيارة الصالون الرائدة بمحركها الكلاسيكي المكون من 12 أسطوانة V12 بسعة 6.75 لتر مع شاحن توربيني مزدوج، لتمثل الذروة المطلقة في عالم السيارات. وإلى جانبها، تتألق <a href="/ar/fleet/ghost">جوست</a> كسيارة صالون أكثر رشاقة وتركز على تجربة السائق، لتوازن بين الاستخدام اليومي والحضور المهيب للعلامة. أما بالنسبة لمن يبحثون عن إطلالة مهيبة تجمع بين شوارع المدينة ومسارات دبي الصحراوية، فإن <a href="/ar/fleet/cullinan">كولينان</a> تبرز كأفخم سيارة دفع رباعي رياضية في العالم. وأخيراً، تمثل <a href="/ar/fleet/spectre">سبيكتر</a> المستقبل الكهربائي لدار غودوود، كأول كوبيه كهربائية بالكامل تنقل العلامة إلى عصر الصمت التام وخفض الانبعاثات. وتعتمد جميع هذه الطرازات الفاخرة على منصة الهيكل المصنوعة بالكامل من الألمنيوم والمسمى \'بنية الفخامة\' (Architecture of Luxury)، مما يضمن بقاء نظام التعليق الشهير \'بساط الريح السحري\' (Magic Carpet Ride) ثابتاً في كامل الأسطول. هذا الأساس الهندسي المشترك يتيح لكل مركبة عزل ركابها تماماً عن العالم الخارجي، لتشكل ملاذاً هادئاً وساكناً حتى في قلب فترات الازدحام المروري في دبي. وحين تتأمل <a href="/ar/fleet">تشكيلة الطرازات الكاملة</a>، ستدرك كيف استطاعت العلامة تلبية متطلبات العصر مع الحفاظ على إرثها التاريخي.'
+  },
+  // 5) Section 2 Heading
+  {
+    type: 'heading',
+    text: 'أيقونات توقف إنتاجها: الجاذبية المستمرة لطرازي وريث وداون'
+  },
+  // 6) Section 2 Paragraph
+  {
+    type: 'paragraph',
+    text: 'على الرغم من أن خط الإنتاج الحالي يتطلع نحو المستقبل والتحول الكهربائي، إلا أن قطاع السيارات الفاخرة ما يزال يكنّ تقديراً خاصاً وشغفاً مستمراً بالطرازات الأيقونية التي توقف إنتاجها مؤخراً في غودوود. لقد أنهت رولز رويس وريث (Wraith)، الكوبيه الرياضية ذات السقف الانسيابي، وداون (Dawn)، شقيقتها المكشوفة ذات السقف القابل للطي، مسيرتيهما الإنتاجيتين رسمياً لإفساح المجال لإنتاج طراز سبيكتر الكهربائي. ومع ذلك، فإن توقف إنتاجهما لم يقلل أبداً من جاذبيتهما العالمية؛ بل على العكس تماماً، فقد أصبح الطلب على هذه السيارات الفاخرة أعلى من أي وقت مضى في أسواق مثل دبي. وفي قائمة أسطول نقرة (Naqra FZE)، تظل وريث وداون الخيار المفضل لضيوفنا الذين يفضلون القوة الغاشمة والحضور الطاغي لمحرك V12 ذي الشاحن التوربيني المزدوج. إن قيادة سيارة وريث على طول شارع الشيخ زايد ليلاً أو التجول بسيارة داون المكشوفة في أرجاء نخلة جميرا خلال أمسيات الشتاء اللطيفة يمثل جوهر الفخامة في دبي. ولأن دار غودوود لم تعد تنتج هذه التحف الفنية ذات البابين، فإن استئجارها يمثل فرصة نادرة لعيش العصر الذهبي لمحركات الاحتراق الداخلي التي نحرص على صيانتها بدقة فائقة لتبدو بحالة المصنع. وتستمر هذه الطرازات في جذب العملاء الراغبين في تجربة قوة V12 التقليدية والأبعاد الكلاسيكية للسيارات ثنائية الأبواب، والتي تم تصميمها لتُقاد يدوياً لا عبر سائق خاص، موفرة بذلك علاقة ديناميكية مباشرة مع الطريق تناسب عشاق القيادة في الإمارات.'
+  },
+  // 7) Section 3 Heading
+  {
+    type: 'heading',
+    text: 'حرفية بيسبوك: الفن اليدوي العابر لخطوط التجميع'
+  },
+  // 8) Section 3 Paragraph
+  {
+    type: 'paragraph',
+    text: 'لفهم ما تصنعه رولز رويس حقاً، لا بد للمرء من أن ينظر إلى ما هو أبعد من الهيكل المعدني والجلد الفاخر للمقصورة؛ إذ إن القلب النابض الحقيقي للعلامة يكمن في قسم التخصيص \'بيسبوك\' (Bespoke)، وهو استوديو متخصص يعمل فيه فنانون ومصممون لتحويل الأحلام الشخصية إلى منحوتات متحركة. عندما تختار رولز رويس، فإنك لا تشتري سيارة فحسب، بل تقوم بتكليف لوحة فنية خاصة بك. يتيح هذا القسم خيارات تخصيص غير محدودة تقريباً، بدءاً من مزج الألوان الفريدة لتطابق قطعاً شخصية يملكها العميل، وصولاً إلى اختيار الكسوات الخشبية النادرة المأخوذة من شجرة واحدة. إن هذا المستوى الرفيع من الحرفية هو ما يرفع رولز رويس من مجرد وسيلة نقل مريحة إلى قطعة فنية راقية. وتتجلى الدقة المتناهية في رسم الخط الجانبي الشهير للسيارة يدوياً بواسطة فرشاة من شعر السنجاب، وهي عملية تتطلب ساعات من التركيز المطلق. وبالنسبة لعملائنا في دبي, فإن تجربة هذه اللمسات المخصصة مثل الألوان الحصرية للمقصورة والملحقات الفاخرة توفر اتصالاً مباشراً بالجهد الاستثنائي المبذول في كل سيارة تغادر مصنع غرب ساسكس، وتضمن ألا تتطابق سيارتان أبداً في الشارع مما يجعل كل رحلة أشبه بعرض فني خاص. وقد قضى الحرفيون في غودوود عقوداً في صقل تقنيات خياطة الجلود الفاخرة وتلميع الأخشاب الطبيعية، لضمان ملمس مقصورة استثنائي يختلف تماماً عن السيارات التجارية.'
+  },
+  // 9) Section 3 List (list)
+  {
+    type: 'list',
+    items: [
+      '<strong>سقف النجوم (Starlight Headliner):</strong> خيار أيقوني يتطلب ما يصل إلى 17 ساعة من العمل اليدوي الدقيق، حيث يتم نسج 1,340 نقطة من الألياف الضوئية لمحاكاة سماء الليل المرصعة بالنجوم اللامعة مع تأثير الشهب العابرة.',
+      '<strong>مزج الألوان المخصص (Paint Blending):</strong> عملية تتيح لضيوفنا مطابقة لون السيارة الخارجي مع أي غرض شخصي يفضلونه، مما أثمر عن توفير أكثر من 44,000 درجة لونية فريدة تم تطويرها في مختبرات غودوود.',
+      '<strong>سلال النزهة الفاخرة (Picnic Hampers):</strong> سلال مصنوعة يدوياً من خشب التيك المعالج بالزيت وجلود السرج الفاخرة، تحتوي على كؤوس كريستال وأطباق صينية نادرة وأدوات مائدة فضية مخصصة للرحلات الراقية.',
+      '<strong>صناديق المشروبات المدمجة (Champagne Chests):</strong> كونسول وسطي مصمم ببراعة بالغة يحتوي على وحدة تبريد مخصصة، وكؤوس مصممة خصيصاً، ومساحة مخصصة لحفظ الكافيار للاحتفال بالوصول بأسلوب راقٍ.',
+      '<strong>مظلات الأبواب المدمجة (Coach Door Umbrellas):</strong> مظلات مغطاة بالتفلون مدمجة بذكاء داخل إطارات الأبواب الخلفية تفتح بلمسة زر واحدة، لضمان بقاء الركاب في مأمن من تقلبات الطقس عند مغادرة السيارة.'
+    ]
+  },
+  // 10) Section 4 Heading
+  {
+    type: 'heading',
+    text: 'رولز رويس في دبي: الأسطول النخبي لدى شركة نقرة'
+  },
+  // 11) Section 4 Paragraph
+  {
+    type: 'paragraph',
+    text: 'في مدينة دبي التي تشتهر بناطحات السحاب الشاهقة ونمط الحياة الفاخر، تمثل سيارة رولز رويس الخيار الطبيعي للتنقل. وفي شركة نقرة (Naqra FZE)، نحرص على تلبية هذا الطلب عبر تقديم أسطول فاخر يجسد ذروة ما تقدمه دار غودوود من إبداع. وتوفر البنية التحتية المتطورة والطرقات الفسيحة في دولة الإمارات البيئة المثالية لقيادة هذه المركبات الفخمة. إن المرور بجانب برج خليفة الشاهق أو الوصول إلى المنتجعات الراقية في نخلة جميرا يتطلب سيارة تفرض هيبتها واحترامها في الطريق، ولا شيء يفعل ذلك مثل شبك البانثيون الشهير. نحن نضمن لعملائنا تجربة الطيف الكامل لطرازات رولز رويس الحديثة، حيث تم تنسيق أسطولنا بعناية لتلبية التطلعات المتنوعة لزوار دبي من رجال الأعمال والسياح الباحثين عن التميز. وسواء كنتم بحاجة إلى سيارة <a href="/ar/fleet/ghost">جوست</a> لحضور اجتماعات عمل مهمة في مركز دبي المالي العالمي (DIFC)، أو <a href="/ar/fleet/cullinan">كولينان</a> لرحلة عائلية مميزة على طول الساحل، أو <a href="/ar/fleet/spectre">سبيكتر</a> لتجربة أحدث ما توصلت إليه الهندسة الكهربائية الفاخرة، فإننا نوفرها لكم بحالة المصنع لتستمتعوا بقيادة لا تشوبها شائبة. ويتولى فريق كونسيرج الخاص بنا متابعة كل تفاصيل التسليم لضمان راحة تامة ورضا كامل لجميع ضيوفنا منذ لحظة استلام المفتاح.'
+  },
+  // 12) Section 4 Image (image)
+  {
+    type: 'image',
+    src: '/images/blog/does-rolls-royce-make-cars-bespoke-beyond-inline.webp',
+    alt: 'The complete modern lineup of Rolls-Royce vehicles lined up outside a luxury Dubai estate',
+    caption: 'Goodwood\'s finest creations gathered in Dubai, ready for the open road.'
+  },
+  // 13) Section 5 Heading
+  {
+    type: 'heading',
+    text: 'مقارنة أسعار التأجير اليومية: جوست، وفانتوم، وكولينان، وسبيكتر'
+  },
+  // 14) Section 5 Paragraph
+  {
+    type: 'paragraph',
+    text: 'لمن يرغب في تجربة هذه التشكيلة الرائعة، فإن فهم هيكل أسعار التأجير يمثل الخطوة الأولى نحو حجز سيارة أحلامكم. تعكس الأسعار اليومية لأسطولنا المكانة الفريدة لكل طراز؛ حيث تتوفر سيارة الصالون المتوازنة والموجهة لعشاق القيادة الذاتية <a href="/ar/fleet/ghost">رولز رويس جوست</a> بسعر يبدأ من 3,800 درهم إماراتي لليوم الواحد، مما يجعلها خياراً رائعاً لرحلات العمل الفاخرة. أما إذا كنتم تفضلون الحضور القوي لسيارات الدفع الرباعي، فإن <a href="/ar/fleet/cullinan">رولز رويس كولينان</a> تتوفر بسعر يبدأ من 6,500 درهم إماراتي لليوم. وللحصول على قمة الفخامة الكلاسيكية، يمكنكم حجز سيارة الصالون الرائدة <a href="/ar/fleet/phantom">رولز رويس فانتوم</a> بسعر 5,800 درهم إماراتي لليوم الواحد. وفي المقابل، يمكن لمن يرغب في استكشاف القوة الصامتة للجيل الكهربائي الجديد استئجار <a href="/ar/fleet/spectre">رولز رويس سبيكتر</a> بسعر 7,500 درهم إماراتي لليوم. ونحن نقدم خيارات مرنة للتأجير اليومي والأسبوعي والشهري بما يتناسب مع جدول أعمالكم، مع شمول الأسعار للتأمين الشامل ومسافة قيادة يومية سخية. للتحدث مع فريق الحجوزات لدينا وتنسيق موعد التسليم، يسعدنا تواصلكم معنا عبر واتساب على الرقم <a href="https://wa.me/971558164922">+971 55 816 4922</a>. ويلتزم فريقنا بتقديم خدمات راقية ترتقي لمعايير علامة رولز رويس الفاخرة لتضمن لكم تجربة استثنائية في دبي في كل رحلة.'
+  },
+  // 15) FAQ Heading ("Frequently Asked Questions" Heading)
+  {
+    type: 'heading',
+    text: 'الأسئلة الشائعة'
+  },
+  // 16) FAQ 1 Q (heading)
+  {
+    type: 'heading',
+    text: 'هل ما زالت رولز رويس تصنع طرازي وريث أو داون؟'
+  },
+  // 17) FAQ 1 A (paragraph)
+  {
+    type: 'paragraph',
+    text: 'لا، لقد أوقفت رولز رويس إنتاج طرازي وريث وداون رسمياً للتركيز على طراز سبيكتر الكهربائي الجديد. ومع ذلك، فإن هذه السيارات ما تزال تحظى بشعبية كبيرة في قطاع التأجير الفاخر. وفي شركة نقرة، نحافظ على هذه الطرازات المزودة بمحرك V12 بحالة ممتازة لتلبية طلبات عملائنا في دبي، وتخضع لصيانة متخصصة لضمان سلاستها المعهودة.'
+  },
+  // 18) FAQ 2 Q (heading)
+  {
+    type: 'heading',
+    text: 'كم تبلغ تكلفة استئجار سيارة رولز رويس في دبي يومياً؟'
+  },
+  // 19) FAQ 2 A (paragraph)
+  {
+    type: 'paragraph',
+    text: 'يبدأ سعر تأجير رولز رويس جوست من 3,800 درهم يومياً، بينما تتوفر فانتوم الرائدة بسعر 5,800 درهم لليوم الواحد. وتبدأ أسعار تأجير كولينان الرياضية من 6,500 درهم لليوم، في حين تتوفر سبيكتر الكهربائية بالكامل بسعر 7,500 درهم يومياً. وتشمل هذه الأسعار التأمين والتوصيل المجاني دون أي رسوم إدارية مخفية.'
+  },
+  // 20) FAQ 3 Q (heading)
+  {
+    type: 'heading',
+    text: 'كم من الوقت يستغرق تطوير لون طلاء مخصص في بيسبوك؟'
+  },
+  // 21) FAQ 3 A (paragraph)
+  {
+    type: 'paragraph',
+    text: 'قد يستغرق تطوير واختبار لون طلاء مخصص في قسم بيسبوك ما بين عدة أسابيع إلى بضعة أشهر. حيث يقوم خبراء غودوود باختبار الطلاء تحت ظروف إضاءة ومناخ مختلفة لضمان ثبات اللون ولمعانه المثالي حتى تحت أشعة الشمس القوية في دبي ومطابقته التامة لطلب العميل، وتجنب بهتان اللون جراء الحرارة المرتفعة.'
+  },
+  // 22) FAQ 4 Q (heading)
+  {
+    type: 'heading',
+    text: 'هل يمكنني استئجار رولز رويس لقيادتها بنفسي في دبي؟'
+  },
+  // 23) FAQ 4 A (paragraph)
+  {
+    type: 'paragraph',
+    text: 'نعم، تتوفر خيارات القيادة الذاتية بالكامل لضيوفنا الذين تزيد أعمارهم عن 25 عاماً ويحملون رخصة قيادة إماراتية سارية أو رخصة دولية معترفاً بها. كما نوفر خدمة سائق خاص محترف لمن يفضل الاسترخاء في المقصورة الخلفية وتفادي عناء القيادة على الطرقات السريعة في دبي، مما يضمن لهم وصولاً آمناً ومريحاً.'
+  },
+  // 24) FAQ 5 Q (heading)
+  {
+    type: 'heading',
+    text: 'هل تحتوي سيارة رولز رويس سبيكتر على محرك V12؟'
+  },
+  // 25) FAQ 5 A (paragraph)
+  {
+    type: 'paragraph',
+    text: 'لا، سيارة سبيكتر هي أول طراز كهربائي بالكامل تنتجه رولز رويس. وقد استغنت السيارة عن محرك V12 التقليدي واستبدلته بنظام دفع كهربائي صامت بمحركين يولد قوة 584 حصاناً، مع الحفاظ الكامل على نظام التعليق الهوائي المتطور الذي يوفر تجربة بساط الريح السحري للعلامة وخفض مستويات الاهتزاز للمقصورة الداخلية.'
+  },
+  // 26) CTA Block (cta)
+  {
+    type: 'cta',
+    text: 'اختبر ذروة الفخامة البريطانية في دبي. تواصل مع الكونسيرج الخاص بنا لحجز سيارتك.',
+    buttonText: 'احجز رولز رويس',
+    buttonLink: '/booking'
+  }
+];
+
+const ruContent = [
+  // 1) Quick Answer Box (paragraph)
+  {
+    type: 'paragraph',
+    text: '<div style="background:#1a1a1a;border-left:4px solid #c9a227;padding:16px 20px;margin:24px 0;border-radius:8px;"><strong>💡 Краткий ответ:</strong> В настоящее время модельный ряд Rolls-Royce, выпускаемый на заводе в Гудвуде, состоит из четырех ключевых моделей: флагманского седана <strong>Phantom</strong> (от 5 800 AED/день), бизнес-седана <strong>Ghost</strong> (от 3 800 AED/день), роскошного внедорожника <strong>Cullinan</strong> (от 6 500 AED/день) и полностью электрического купе <strong>Spectre</strong> (от 7 500 AED/день). Снятые с производства модели Wraith и Dawn по-прежнему доступны в нашем каталоге аренды в Дубае. Для бронирования свяжитесь с Naqra FZE через WhatsApp по телефону <a href="https://wa.me/971558164922">+971 55 816 4922</a>.</div>'
+  },
+  // 2) Operational Callout (paragraph)
+  {
+    type: 'paragraph',
+    text: '<div style="background:#0f0f0f;border:1px solid #2a2a2a;border-left:4px solid #c9a227;padding:20px;margin:32px 0;border-radius:8px;"><p style="color:#c9a227;font-weight:bold;margin:0 0 8px;">🛎️ Из опыта работы в Дубае</p><p style="margin:0;line-height:1.8;">Наша операционная служба осуществляет оперативную доставку автомобилей во все ключевые районы Дубая, включая Даунтаун, Пальму Джумейра, DIFC и Дубай Марина. Мы организуем встречу в международном аэропорту Дубая (DXB) или терминалах частной авиации. Каждый Rolls-Royce в нашем автопарке проходит регулярное и тщательное обслуживание по стандартам Гудвуда. Это гарантирует, что ваша поездка по шоссе Шейха Зайда принесет исключительно те ощущения, которые вы ожидаете от совершенно нового автомобиля, только что сошедшего с конвейера. Наша цель — абсолютная прозрачность без скрытых комиссий и круглосуточная поддержка со стороны консьержей.</p></div>'
+  },
+  // 3) Section 1 Heading
+  {
+    type: 'heading',
+    text: 'Современный модельный ряд: что Rolls-Royce производит сегодня?'
+  },
+  // 4) Section 1 Paragraph
+  {
+    type: 'paragraph',
+    text: 'Под патронажем BMW Group компания Rolls-Royce Motor Cars сосредоточила все свои производственные мощности в Гудвуде, графство Западный Суссекс, Англия. Сегодня марка создает тщательно продуманное портфолио автомобилей, предназначенных для самой требовательной публики, сочетая вековые британские традиции ручной сборки с немецкой технологической точностью. Текущий модельный ряд включает четыре основные модели, каждая из которых олицетворяет отдельную грань современной роскоши. Флагманом является легендарный <a href="/ru/fleet/phantom">Phantom</a> — величественный седан, оснащенный классическим 6,75-литровым двигателем V12 с двойным турбонаддувом, олицетворяющий абсолютный зенит автомобильной роскоши. Рядом с ним располагается <a href="/ru/fleet/ghost">Ghost</a> — более маневренный седан, ориентированный на водителя, идеально сочетающий повседневное удобство и статус бренда. Для тех, кому важна уверенность как на городских проспектах, так и на пустынных трассах Дубая, создан <a href="/ru/fleet/cullinan">Cullinan</a> — эталонный представитель сегмента ультра-роскошных внедорожников, обеспечивающий непревзойденный комфорт и пространство. Наконец, <a href="/ru/fleet/spectre">Spectre</a> знаменует электрическую эру марки, являясь первым полностью электрическим суперкупе, которое переводит бренд в бесшумную эру с нулевым уровнем выбросов. Все эти шедевры построены на собственной алюминиевой пространственной раме \'Architecture of Luxury\', которая гарантирует, что знаменитая плавность хода \'Magic Carpet Ride\' остается неизменной независимо от типа силовой установки. Эта технологическая база позволяет изолировать пассажиров от суеты внешнего мира, сохраняя тишину в салоне даже в самые загруженные часы в Дубае. Изучая <a href="/ru/fleet">полную линейку моделей</a>, вы увидите, как бренд адаптируется к современным требованиям, сохраняя свою великую историю и обеспечивая высочайшее качество сборки каждого элемента кузова и ходовой части.'
+  },
+  // 5) Section 2 Heading
+  {
+    type: 'heading',
+    text: 'Легенды прошлых лет: непреходящая популярность Wraith и Dawn'
+  },
+  // 6) Section 2 Paragraph
+  {
+    type: 'paragraph',
+    text: 'Несмотря на то, что современная линейка устремлена в будущее электрификации, мир роскошных автомобилей по-прежнему очарован недавно снятыми с производства моделями из Гудвуда. Спортивное купе Rolls-Royce Wraith со стремительным силуэтом фастбека и роскошный кабриолет Dawn официально завершили свой производственный цикл, чтобы освободить сборочные линии для электрического Spectre. Однако их уход со сборочной линии ничуть не уменьшил их привлекательности. Напротив, в таком премиальном регионе, как Дубай, спрос на эти модели только вырос. В каталоге компании Naqra FZE купе Wraith и кабриолет Dawn остаются невероятно популярными среди ценителей классического звука и динамики V12 с двойным турбонаддувом. Поездка на Wraith по вечернему шоссе Шейха Зайда или прогулка на кабриолете Dawn по Пальме Джумейра в зимний сезон — это незабываемый опыт. Поскольку эти шедевры больше не выпускаются заводом, их аренда дает редкую возможность прикоснуться к уходящей эпохе совершенства двигателей внутреннего сгорания, бережно сохраненных нашими мастерами в идеальном состоянии. Эти автомобили создавались для того, чтобы водитель сам получал удовольствие от управления, предлагая более динамичную и эмоциональную связь с дорогой, что находит глубокий отклик у ценителей в ОАЭ. Это идеальные двухдверные купе и кабриолеты для тех, кто ценит спортивный характер в сочетании с королевским комфортом.'
+  },
+  // 7) Section 3 Heading
+  {
+    type: 'heading',
+    text: 'Ателье Bespoke: индивидуальное искусство ручной работы'
+  },
+  // 8) Section 3 Paragraph
+  {
+    type: 'paragraph',
+    text: 'Чтобы по-настоящему понять, что создает Rolls-Royce, необходимо заглянуть глубже металлического кузова и кожаной отделки салона. Настоящее сердце бренда — это его подразделение индивидуального дизайна Bespoke. В этом специализированном ателье дизайнеры и ремесленники превращают личные пожелания клиентов в настоящие произведения искусства на колесах. Выбирая Rolls-Royce, вы не просто приобретаете транспортное средство, вы создаете уникальный холст. Программа Bespoke предлагает практически безграничные возможности персонализации: от разработки индивидуального оттенка краски, который может быть скопирован с любого личного предмета клиента, до инкрустации редких пород дерева, взятых исключительно из одного ствола. Ручная роспись знаменитой декоративной линии вдоль кузова, выполняемая специальной кистью из беличьего ворса, занимает часы сосредоточенной работы мастера. Для клиентов, арендующих эти автомобили в Дубае, прикосновение к таким деталям — это возможность почувствовать масштаб усилий, вложенных в каждый экземпляр, покидающий завод в Западном Суссексе. Это стремление к индивидуальности гарантирует, что два автомобиля марки никогда не будут абсолютно идентичными, превращая каждую поездку в частный показ в художественной галерее. Ремесленники в Гудвуде десятилетиями совершенствуют методы обработки кожи и полировки дерева. Каждый шов на рулевом колесе, каждая деталь звездного неба на потолке создаются вручную конкретным мастером, чья квалификация подтверждена годами безупречной работы на мануфактуре в Великобритании.'
+  },
+  // 9) Section 3 List (list)
+  {
+    type: 'list',
+    items: [
+      '<strong>Звездное небо (Starlight Headliner):</strong> Знаменитая опция, требующая до 17 часов кропотливого ручного труда, при которой 1 340 оптоволоконных светодиодов воссоздают эффект ночного неба с мерцающими звездами и падающими кометами.',
+      '<strong>Индивидуальный подбор цвета:</strong> Возможность создать абсолютно уникальный оттенок кузова на основе любого предмета заказчика, что позволило палитре Гудвуда превысить 44 000 различных цветовых вариаций.',
+      '<strong>Эксклюзивные наборы для пикника:</strong> Изготовленные вручную из тикового дерева и высококачественной кожи чемоданы, укомплектованные хрустальными бокалами, фарфоровой посудой и приборами из стерлингового серебра.',
+      '<strong>Интегрированный бар для шампанского:</strong> Роскошный отсек в центральной консоли с функцией охлаждения, специальными бокалами и отделением для икры, созданный для торжественных моментов в пути.',
+      '<strong>Встроенные зонты в дверях:</strong> Фирменные зонты с тефлоновым покрытием, скрытые в дверных проемах и выдвигающиеся одним нажатием кнопки, обеспечивая комфорт пассажиров при выходе из салона.'
+    ]
+  },
+  // 10) Section 4 Heading
+  {
+    type: 'heading',
+    text: 'Rolls-Royce в Дубае: эксклюзивный парк в Naqra FZE'
+  },
+  // 11) Section 4 Paragraph
+  {
+    type: 'paragraph',
+    text: 'В Дубае, городе величественной архитектуры и высоких стандартов жизни, Rolls-Royce является естественным выбором для передвижения. В Naqra FZE мы стремимся соответствовать этому статусу, предлагая клиентам автопарк, представляющий лучшие творения из Гудвуда. Отличные дороги и развитая инфраструктура ОАЭ создают идеальные условия для вождения этих ультра-роскошных машин. Проехать мимо Бурдж-Халифа или припарковаться у фешенебельного отеля на Пальме Джумейра на автомобиле с массивной решеткой радиатора Pantheon — значит мгновенно обозначить свой статус. Мы предлагаем нашим клиентам полный спектр актуальных моделей Rolls-Royce, подобранных под любые задачи. Требуется ли вам <a href="/ru/fleet/ghost">Ghost</a> для деловых встреч в финансовом центре DIFC, <a href="/ru/fleet/cullinan">Cullinan</a> для семейного отдыха у побережья или <a href="/ru/fleet/spectre">Spectre</a> для знакомства с передовыми электрическими технологиями, мы предоставим выбранный автомобиль в безупречном состоянии нового авто. Каждая аренда сопровождается индивидуальным подходом, гибкими условиями доставки и поддержкой персонального консьержа, который детально объяснит функции салона для максимального удобства. Мы доставим автомобиль непосредственно к вашему отелю, вилле или офису в Дубае точно в назначенное время, избавив вас от необходимости посещения офиса проката и заполнения лишних документов, что значительно сбережет ваше время.'
+  },
+  // 12) Section 4 Image (image)
+  {
+    type: 'image',
+    src: '/images/blog/does-rolls-royce-make-cars-bespoke-beyond-inline.webp',
+    alt: 'The complete modern lineup of Rolls-Royce vehicles lined up outside a luxury Dubai estate',
+    caption: 'Goodwood\'s finest creations gathered in Dubai, ready for the open road.'
+  },
+  // 13) Section 5 Heading
+  {
+    type: 'heading',
+    text: 'Тарифы на аренду в Дубае: Ghost, Phantom, Cullinan и Spectre'
+  },
+  // 14) Section 5 Paragraph
+  {
+    type: 'paragraph',
+    text: 'Для тех, кто планирует лично оценить этот модельный ряд в Дубае, первым шагом является знакомство со стоимостью аренды. Тарифы отражают статус и позиционирование каждой модели в иерархии бренда. Сбалансированный седан для самостоятельного вождения <a href="/ru/fleet/ghost">Rolls-Royce Ghost</a> доступен по цене от 3 800 AED в сутки, что делает его отличным выбором для деловых поездок. Если вам необходим внушительный внедорожник, аренда <a href="/ru/fleet/cullinan">Rolls-Royce Cullinan</a> начинается от 6 500 AED в день. Флагманский статус и абсолютное величие седана <a href="/ru/fleet/phantom">Rolls-Royce Phantom</a> обойдутся в 5 800 AED в сутки. Ценителям бесшумных электрических технологий мы предлагаем новое купе <a href="/ru/fleet/spectre">Rolls-Royce Spectre</a> за 7 500 AED в день. Мы предоставляем выгодные условия на ежедневную, еженедельную и ежемесячную аренду, включая полное страховое покрытие и щедрый суточный лимит пробега. Обсудить наличие свободных автомобилей и заказать доставку можно через наш WhatsApp по номеру <a href="https://wa.me/971558164922">+971 55 816 4922</a>. Наша команда стремится обеспечить безупречный уровень сервиса, полностью соответствующий высочайшим стандартам бренда Rolls-Royce. Наши специалисты помогут подобрать автомобиль под конкретное событие — будь то деловая встреча, свадьба или VIP-трансфер из аэропорта. Мы гарантируем полную прозрачность условий договора аренды, где исключены любые скрытые сборы или дополнительные комиссии при возврате автомобиля.'
+  },
+  // 15) FAQ Heading ("Frequently Asked Questions" Heading)
+  {
+    type: 'heading',
+    text: 'Часто задаваемые вопросы'
+  },
+  // 16) FAQ 1 Q (heading)
+  {
+    type: 'heading',
+    text: 'Выпускает ли Rolls-Royce модели Wraith и Dawn сейчас?'
+  },
+  // 17) FAQ 1 A (paragraph)
+  {
+    type: 'paragraph',
+    text: 'Нет, компания Rolls-Royce официально завершила производство моделей Wraith и Dawn, сосредоточившись на новом электромобиле Spectre. Тем не менее, они остаются легендами и невероятно популярны на рынке аренды. В Naqra FZE мы бережно поддерживаем эти модели с V12 в идеальном состоянии, чтобы клиенты в Дубае могли наслаждаться их классическим стилем. Наше обслуживание обеспечивает плавность хода как в первый день.'
+  },
+  // 18) FAQ 2 Q (heading)
+  {
+    type: 'heading',
+    text: 'Сколько стоит аренда Rolls-Royce в Дубае в сутки?'
+  },
+  // 19) FAQ 2 A (paragraph)
+  {
+    type: 'paragraph',
+    text: 'Стоимость аренды Ghost начинается от 3 800 AED в день, флагманского седана Phantom — от 5 800 AED в день. Роскошный внедорожник Cullinan стоит от 6 500 AED в день, а полностью электрический Spectre доступен по цене от 7 500 AED в сутки. Все цены прозрачны, включают страховку и бесплатную доставку без скрытых переплат.'
+  },
+  // 20) FAQ 3 Q (heading)
+  {
+    type: 'heading',
+    text: 'Сколько времени занимает создание индивидуального цвета Bespoke?'
+  },
+  // 21) FAQ 3 A (paragraph)
+  {
+    type: 'paragraph',
+    text: 'Разработка и создание уникального цвета в рамках программы Bespoke может занимать от нескольких недель до нескольких месяцев. Специалисты в Гудвуде проводят многократные испытания лакокрасочного покрытия при различном освещении, чтобы гарантировать идеальный блеск и устойчивость цвета даже под палящим солнцем Дубая. Это защищает краску от выцветания при высокой температуре.'
+  },
+  // 22) FAQ 4 Q (heading)
+  {
+    type: 'heading',
+    text: 'Можно ли арендовать Rolls-Royce без водителя в Дубае?'
+  },
+  // 23) FAQ 4 A (paragraph)
+  {
+    type: 'paragraph',
+    text: 'Да, аренда без водителя доступна для лиц старше 25 лет с действующим водительским удостоверением ОАЭ или международными правами. Для тех, кто предпочитает передвигаться с максимальным комфортом на заднем сиденье, мы также предоставляем услуги профессионального водителя, чтобы вы могли полностью расслабиться в поездке по Дубаю.'
+  },
+  // 24) FAQ 5 Q (heading)
+  {
+    type: 'heading',
+    text: 'Установлен ли в Rolls-Royce Spectre двигатель V12?'
+  },
+  // 25) FAQ 5 A (paragraph)
+  {
+    type: 'paragraph',
+    text: 'Нет, суперкупе Spectre является первым полностью электрическим автомобилем бренда. Вместо традиционного двигателя V12 под капотом установлена бесшумная электрическая силовая установка с двумя моторами мощностью 584 л.с. При этом инженеры полностью сохранили легендарную плавность хода, напоминающую полет на ковре-самолете. Отсутствие вибраций мотора делает салон еще более комфортным.'
+  },
+  // 26) CTA Block (cta)
+  {
+    type: 'cta',
+    text: 'Оцените истинное британское величие в Дубае. Свяжитесь с консьержем для бронирования.',
+    buttonText: 'Забронировать Rolls-Royce',
+    buttonLink: '/booking'
+  }
+];
+
+const data = {
+  en: {
+    title: 'What Does Rolls-Royce Make Today? The Full Model Lineup',
+    description: 'Discover what Rolls-Royce manufactures today, from Phantom and Ghost to Cullinan and Spectre, plus discontinued icons like Wraith and Dawn for rent in Dubai.',
+    author: 'Ahmed Salem',
+    date: '2026-09-12',
+    readTime: '10 min read',
+    category: 'Guides',
+    image: `/images/blog/${slug}-cover.jpg`,
+    content: enContent,
+    relatedArticles: [
+      'makes-rolls-royce-cars-goodwood-craft',
+      'rolls-royce-spectre-electric-dubai',
+      'much-rent-ghost-dubai-clear-price',
+      'cullinan-rent-one-dubai'
+    ]
+  },
+  ar: {
+    title: 'ماذا تصنع رولز رويس اليوم؟ تشكيلة الطرازات الكاملة',
+    description: 'تعرف بالتفصيل على ما تصنعه رولز رويس اليوم، من فانتوم وجوست إلى كولينان وسبيكتر، بالإضافة إلى الطرازات الكلاسيكية مثل وريث وداون للإيجار في دبي.',
+    author: 'Ahmed Salem',
+    date: '2026-09-12',
+    readTime: '10 دقائق قراءة',
+    category: 'Guides',
+    image: `/images/blog/${slug}-cover.jpg`,
+    content: arContent,
+    relatedArticles: [
+      'makes-rolls-royce-cars-goodwood-craft',
+      'rolls-royce-spectre-electric-dubai',
+      'much-rent-ghost-dubai-clear-price',
+      'cullinan-rent-one-dubai'
+    ]
+  },
+  ru: {
+    title: 'Что Rolls-Royce производит сегодня? Полный модельный ряд',
+    description: 'Узнайте, что производит Rolls-Royce сегодня: от Phantom и Ghost до Cullinan и Spectre, а также о популярности снятых с производства Wraith и Dawn в Дубае.',
+    author: 'Ahmed Salem',
+    date: '2026-09-12',
+    readTime: '10 мин чтения',
+    category: 'Guides',
+    image: `/images/blog/${slug}-cover.jpg`,
+    content: ruContent,
+    relatedArticles: [
+      'makes-rolls-royce-cars-goodwood-craft',
+      'rolls-royce-spectre-electric-dubai',
+      'much-rent-ghost-dubai-clear-price',
+      'cullinan-rent-one-dubai'
+    ]
+  },
+  publishAt: '2026-10-21T15:37:14+04:00'
+};
+
+fs.mkdirSync(path.dirname(targetPath), { recursive: true });
+fs.writeFileSync(targetPath, JSON.stringify(data, null, 2), 'utf8');
+console.log('Saved JSON to:', targetPath);
+
+// Word count check
+function words(blocks) {
+  return (blocks || []).map((b) => [b.text, ...(b.items || [])].filter((x) => typeof x === 'string').join(' ')).join(' ').replace(/<[^>]+>/g, ' ').split(/\s+/).filter(Boolean).length;
+}
+
+console.log('Word counts:');
+console.log('EN:', words(data.en.content));
+console.log('AR:', words(data.ar.content));
+console.log('RU:', words(data.ru.content));
