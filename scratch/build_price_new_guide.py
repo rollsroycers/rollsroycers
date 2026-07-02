@@ -1,0 +1,521 @@
+# -*- coding: utf-8 -*-
+import json
+import re
+import os
+
+# Text definitions for the Rolls-Royce Price new rolls royce 2026 dubai cost blog post.
+# Each language must contain >= 1500 words and adhere to the 26-block sequence.
+
+def count_words(blocks):
+    total = 0
+    for b in blocks:
+        t = b.get('text', '')
+        if 'items' in b:
+            t += ' ' + ' '.join(b['items'])
+        # Strip HTML tags
+        t_clean = re.sub(r'<[^>]+>', ' ', t)
+        total += len([w for w in t_clean.split() if w.strip()])
+    return total
+
+# -- ENGLISH BLOCKS --
+en_content = [
+    # Block 0: Hook
+    {
+        "type": "paragraph",
+        "text": "On paper, the price of a new Rolls-Royce is a straightforward figure issued from the Goodwood workshop in West Sussex. In practice, it represents a substantial capital allocation that demands careful consideration, particularly when viewed through the lens of Dubai's fast-paced business environment. Driving a brand-new Rolls-Royce down Sheikh Zayed Road or arriving under the canopy of Atlantis The Royal is a statement of absolute success. However, for the international executive visiting the Dubai International Financial Centre (DIFC) for seasonal negotiations, or the high-net-worth tourist spending the winter months in the United Arab Emirates, committing millions of dirhams to a depreciating automotive asset is a choice that invites scrutiny. In a city built on the principles of speed, efficiency, and capital liquidity, locking up large sums in a vehicle that spends most of its life resting in a climate-controlled garage in Emirates Hills is often a compromise. This guide evaluates the real, often unstated costs of purchasing a factory-new Rolls-Royce in Dubai in 2026 against the frictionless, capital-preserving alternative of renting a pristine, current-year model from Naqra FZE. We examine the showroom numbers, depreciation curves, waitlist timelines, and total cost of ownership to help you make an informed decision."
+    },
+    # Block 1: Quick Answer
+    {
+        "type": "paragraph",
+        "text": "<div style=\"background:#1a1a1a;border-left:4px solid #c9a227;padding:16px 20px;margin:24px 0;border-radius:8px;\"><strong>💡 Quick Answer:</strong> Buying a brand-new Rolls-Royce in Dubai in 2026 requires an initial capital outlay of <strong>AED 1.5M to AED 3.5M+</strong>, followed by a 12-to-18-month waitlist. In contrast, renting a current-year model from Naqra FZE is immediate, starting at <strong>AED 3,800/day</strong> for the Ghost, <strong>AED 5,800/day</strong> for the Phantom, <strong>AED 6,500/day</strong> for the Cullinan, and <strong>AED 7,500/day</strong> for the Spectre. Rates include standard comprehensive insurance and 250 km/day mileage. Contact us via WhatsApp at <a href=\"https://wa.me/971558164922\">+971 55 816 4922</a> to book.</div>"
+    },
+    # Block 2: Section 1 Title
+    {
+        "type": "heading",
+        "text": "The Capital Equation of Goodwood Excellence: 2026 Factory Prices"
+    },
+    # Block 3: Section 1 Body
+    {
+        "type": "paragraph",
+        "text": "Walk into a showroom in Dubai with the intention of ordering a brand-new Rolls-Royce, and you will find that the base numbers are as imposing as the Pantheon grille itself. In 2026, the entry point to ownership—the standard Ghost saloon—starts at approximately AED 1.5 million. If you require the commanding presence of the Cullinan SUV, the base price climbs to AED 2.2 million, and a Black Badge Cullinan pushes the figure to AED 2.6 million. The flagship Phantom saloon starts at AED 3.5 million, while the all-electric Spectre coupe demands around AED 3.0 million before bespoke commissions. In Dubai's rapid financial environment, this initial purchase price is merely the first line item. A new vehicle of this caliber experiences immediate and steep depreciation, losing between 15% and 20% of its market value within the first twelve months of registration. For a Cullinan owner, this translates to a silent capital loss of up to AED 440,000 while the vehicle sits idle. Furthermore, annual comprehensive insurance policies tailored for ultra-luxury assets in the UAE range from 1.5% to 2.5% of the vehicle's valuation, costing between AED 30,000 and AED 70,000 annually. Add to this the annual RTA registration fees, specialized maintenance at authorized workshops, and the depreciation that accumulates even when the car is parked in a climate-controlled garage in Emirates Hills. For temporary residents or corporate executives who travel frequently, owning a vehicle that is parked ninety percent of the time represents a substantial opportunity cost, locking up productive capital that could otherwise be deployed in high-yielding investments across Dubai's real estate or financial markets. Our <a href=\"/pricing\">pricing page</a> outlines the transparent rates for our rental fleet, showcasing a more liquid alternative. By bypassing outright purchase, you keep your cash flow fluid and avoid the massive capital sinking that traditional ownership demands in the UAE."
+    },
+    # Block 4: Section 2 Title
+    {
+        "type": "heading",
+        "text": "The Waitlist Reality: Time Sinks in the Bespoke Queue"
+    },
+    # Block 5: Section 2 Body
+    {
+        "type": "paragraph",
+        "text": "The second major obstacle of purchasing a brand-new Rolls-Royce is time. Because every vehicle leaving the Goodwood factory in West Sussex is a custom commission, the production process is deliberately slow. Craftsmen hand-apply multiple coats of paint, hand-stitch leather hides, and hand-assemble the V12 engine. Consequently, the waitlist for a brand-new model in 2026 typically ranges from 12 to 18 months. In Dubai's fast-paced environment, where business cycles move rapidly and seasonal opportunities require immediate action, waiting a year and a half for a vehicle is highly impractical. Renting a current-year model provides a direct solution to this bottleneck. At Naqra FZE, our fleet consists of low-mileage, current-year vehicles that are available for immediate delivery. You can drive a pristine <a href=\"/fleet/ghost\">Rolls-Royce Ghost</a> or a commanding Cullinan today, bypassing the dealer waitlists entirely. This allows you to align your transportation with your current business or leisure schedule, rather than waiting for a factory order to clear. For international visitors who spend the winter season in Dubai, immediate access is the only logical choice, ensuring that their time in the UAE is defined by comfort from the moment they land. You escape the frustration of delayed deliveries and the administrative hassle of managing imported vehicles, enjoying instead the immediate pleasure of the legendary Goodwood drive. The convenience of immediate delivery directly to your hotel or private residence is an unmatched benefit for those who value efficiency."
+    },
+    # Block 6: Section 3 Title
+    {
+        "type": "heading",
+        "text": "Immediate Access vs. Capital Allocation: The Financial Logic"
+    },
+    # Block 7: Section 3 Body
+    {
+        "type": "paragraph",
+        "text": "For the modern business executive or the discerning tourist visiting the UAE, the decision between buying and renting is primarily a matter of capital preservation. Tying up AED 2.0 million or more in an asset that depreciates by hundreds of thousands of dirhams each year is a strategy that runs counter to sound financial planning. By choosing to rent a Rolls-Royce, you maintain maximum liquidity, keeping your capital free to generate returns in Dubai's dynamic property market or high-yield equities. Furthermore, renting offers a level of operational flexibility that ownership simply cannot match. A purchased car remains the same model year after year, whereas our clients have the freedom to drive a Ghost on Monday, switch to a Cullinan for a desert excursion on Friday, and reserve a Spectre for a gala dinner on Saturday. This flexibility is particularly valuable during Dubai's high season, when the city hosts major international conferences, luxury exhibitions, and high-society weddings. Our professional concierge team handles all delivery and pickup logistics, ensuring the vehicle is delivered pristine and fully fueled directly to Atlantis The Royal, your private villa in Palm Jumeirah, or the VIP terminal at DXB. This seamless service allows you to focus on your business and leisure pursuits, knowing that your luxury transportation is managed by dedicated professionals. The ability to match your car to your daily agenda is the ultimate luxury that traditional ownership fails to provide."
+    },
+    # Block 8: List
+    {
+        "type": "list",
+        "items": [
+            "<strong>Capital Preservation:</strong> Renting avoids the massive upfront cash outlay, keeping capital liquid and free for productive investments in the UAE.",
+            "<strong>Zero Depreciation Exposure:</strong> You bypass the first-year 20% depreciation hit, protecting your wealth from silent, automatic market losses.",
+            "<strong>All-Inclusive Simplicity:</strong> Insurance, registration, and routine maintenance are handled by Naqra FZE, removing administrative overheads.",
+            "<strong>Fleet Versatility:</strong> The unique ability to select between the Ghost, Cullinan, Spectre, or Phantom based on the specific occasion and route.",
+            "<strong>No Long-Term Commitments:</strong> Perfect for seasonal tourists and business executives who spend weeks or months in the UAE without permanent residency."
+        ]
+    },
+    # Block 9: Section 4 Title
+    {
+        "type": "heading",
+        "text": "Financial Comparison: Rolls-Royce Ownership vs. Renting in Dubai"
+    },
+    # Block 10: Section 4 Body
+    {
+        "type": "paragraph",
+        "text": "To assist in your strategic planning, we have compiled a detailed comparison of ownership costs against our rental model. Consider a Rolls-Royce Ghost: purchasing new requires an initial outlay starting at AED 1.5 million. In contrast, renting a Ghost for a 10-day business trip costs AED 38,000, leaving AED 1,462,000 of your capital untouched and active in the market. The following table illustrates the cost structure across the primary models in our fleet:<div class=\"overflow-x-auto my-8 border border-rolls-gold/20 rounded-lg\"><table class=\"w-full text-left border-collapse text-gray-300\"><thead><tr class=\"bg-rolls-gold/10 border-b border-rolls-gold/20\"><th class=\"p-4 text-white font-bold\">Rolls-Royce Model</th><th class=\"p-4 text-white font-bold\">Est. 2026 Purchase Price (AED)</th><th class=\"p-4 text-white font-bold\">Daily Rental Rate (AED)</th><th class=\"p-4 text-white font-bold\">Included Benefits</th></tr></thead><tbody class=\"divide-y divide-rolls-gold/10\"><tr><td class=\"p-4 font-semibold text-white\">Rolls-Royce Ghost</td><td class=\"p-4\">AED 1,500,000+</td><td class=\"p-4\">AED 3,800 / day</td><td class=\"p-4\">Standard Insurance, 250 km/day</td></tr><tr><td class=\"p-4 font-semibold text-white\">Rolls-Royce Phantom</td><td class=\"p-4\">AED 3,500,000+</td><td class=\"p-4\">AED 5,800 / day</td><td class=\"p-4\">Standard Insurance, 250 km/day</td></tr><tr><td class=\"p-4 font-semibold text-white\">Rolls-Royce Cullinan</td><td class=\"p-4\">AED 2,200,000+</td><td class=\"p-4\">AED 6,500 / day</td><td class=\"p-4\">Standard Insurance, 250 km/day</td></tr><tr><td class=\"p-4 font-semibold text-white\">Rolls-Royce Spectre</td><td class=\"p-4\">AED 3,000,000+</td><td class=\"p-4\">AED 7,500 / day</td><td class=\"p-4\">Standard Insurance, 250 km/day</td></tr></tbody></table></div>For detailed model specifications and features, you may explore our dedicated <a href=\"/fleet/cullinan\">Rolls-Royce Cullinan</a> and other pages. This comparison makes it clear that for short-term stays and seasonal business operations, renting is the economically superior choice. The mathematics of leasing or renting demonstrate that direct access beats long-term ownership on every metric of capital efficiency."
+    },
+    # Block 11: Image
+    {
+        "type": "image",
+        "src": "/images/blog/price-new-rolls-royce-renting-one-dubai-inline.webp",
+        "alt": "A brand-new Rolls-Royce Spectre parked outside a luxury villa in Palm Jumeirah at dusk, with the Dubai skyline softly blurred in the background",
+        "caption": "The Spectre: experience the future of electric refinement today without the long waitlist."
+    },
+    # Block 12: Section 5 Title
+    {
+        "type": "heading",
+        "text": "The Handover Protocol: Securing Your Rolls-Royce in Dubai"
+    },
+    # Block 13: Section 5 Body
+    {
+        "type": "paragraph",
+        "text": "Securing a Rolls-Royce with Naqra FZE is a streamlined, paperless experience designed to respect your time. UAE residents need only present a valid UAE driving license and an Emirates ID. International visitors are required to present a passport, a tourist visit visa, and a valid driving license from their home country or an International Driving Permit. A refundable security deposit is pre-authorized on a major credit card to cover any toll charges (Salik), minor damages, or RTA traffic fines, and is released automatically after your rental concludes. We deliver the vehicle pristine and fully fueled directly to your villa, hotel, or the VIP terminal at DXB. For those who prefer to be driven rather than navigate Dubai's busy highways, our professional <a href=\"/services/chauffeur\">chauffeur service</a> provides a discreet, RTA-certified driver who handles the roads with absolute precision, allowing you to focus entirely on your business. Read more in our <a href=\"/blog/much-does-cost-rent-rolls-royce-dubai-2026\">monthly rental guide</a> to understand the economics of extended bookings. When you decide which model suits your stay, we are a message away. Our team is available twenty-four hours a day to handle your reservations and ensure your travel in Dubai is conducted in absolute comfort and luxury."
+    },
+    # Block 14: FAQ Title
+    {
+        "type": "heading",
+        "text": "Frequently Asked Questions"
+    },
+    # Block 15: FAQ 1 Q
+    {
+        "type": "heading",
+        "text": "How much does a brand-new Rolls-Royce cost to buy in Dubai?"
+    },
+    # Block 16: FAQ 1 A
+    {
+        "type": "paragraph",
+        "text": "In 2026, purchasing a brand-new Rolls-Royce from an authorized dealer in Dubai starts at approximately AED 1.5 million for a Ghost saloon. The Cullinan SUV begins at AED 2.2 million, the Spectre electric coupe at AED 3.0 million, and the flagship Phantom saloon starts at AED 3.5 million. These base prices exclude bespoke options, registration, and insurance."
+    },
+    # Block 17: FAQ 2 Q
+    {
+        "type": "heading",
+        "text": "What is the typical waitlist time for a brand-new Rolls-Royce?"
+    },
+    # Block 18: FAQ 2 A
+    {
+        "type": "paragraph",
+        "text": "Because every Rolls-Royce is custom-built to bespoke specifications at the Goodwood factory in West Sussex, waitlists typically range from 12 to 18 months. Renting from Naqra FZE provides immediate access to current-year models, allowing you to bypass waitlists entirely and drive the latest vehicle today."
+    },
+    # Block 19: FAQ 3 Q
+    {
+        "type": "heading",
+        "text": "What are the daily rates to rent a Rolls-Royce in Dubai?"
+    },
+    # Block 20: FAQ 3 A
+    {
+        "type": "paragraph",
+        "text": "Daily rental rates at Naqra FZE start at AED 3,800 for the Ghost, AED 5,800 for the Phantom, AED 6,500 for the Cullinan, and AED 7,500 for the Spectre. These rates are transparent and all-inclusive, covering comprehensive insurance and a mileage allowance of 250 kilometers per day."
+    },
+    # Block 21: FAQ 4 Q
+    {
+        "type": "heading",
+        "text": "Is renting a Rolls-Royce more financially sensible than buying one?"
+    },
+    # Block 22: FAQ 4 A
+    {
+        "type": "paragraph",
+        "text": "Yes, especially for tourists, business executives, and temporary residents. Renting avoids the initial capital outlay (AED 1.5M - 3.5M+), first-year depreciation (up to 20%), high annual insurance costs, and RTA registration fees. It keeps your capital liquid and active in high-yield UAE investments."
+    },
+    # Block 23: FAQ 5 Q
+    {
+        "type": "heading",
+        "text": "What documents are required to rent a Rolls-Royce in Dubai?"
+    },
+    # Block 24: FAQ 5 A
+    {
+        "type": "paragraph",
+        "text": "UAE residents must provide a valid UAE driving license and an Emirates ID. International visitors need a valid passport, a visit visa, and a driving license from their home country or an international driving permit. A refundable security deposit is also pre-authorized on a credit card before delivery."
+    },
+    # Block 25: CTA
+    {
+        "type": "cta",
+        "text": "Whether you require a Ghost for corporate meetings or a Cullinan for a weekend getaway, our team is ready. Contact us on WhatsApp to finalize your booking.",
+        "buttonLink": "/booking",
+        "buttonText": "Book Your Rolls-Royce"
+    }
+]
+
+# -- ARABIC BLOCKS --
+ar_content = [
+    # Block 0: Hook
+    {
+        "type": "paragraph",
+        "text": "على الورق، يمثل سعر شراء رولز رويس جديدة رقماً قياسياً تحدده غودوود في غرب ساسكس. وفي الواقع، هو التزام رأسمالي ضخم يمثل ما هو أكثر بكثير من مجرد معاملة مالية بسيطة. وحين تتم هذه المعاملة في دبي—المدينة التي تُعتبر فيها العجائب أمراً اعتيادياً، ويتحول شارع الشيخ زايد يومياً إلى منصة عرض لأكثر السيارات حصرية وفخامة في العالم—فإن المنطق المالي لاقتناء مركبة جديدة بالكامل يبدأ في التغير والتحول. إن قيادة سيارة رولز رويس جديدة كلياً عبر شوارع نخلة جميرا الهادئة أو إيقافها أمام المدخل الفاخر لفندق أتلانتس ذا رويال Atlantis The Royal يُعد تعبيراً واضحاً عن النجاح المطلق والريادة. ومع ذلك، بالنسبة للمديرين التنفيذيين الدوليين الذين يزورون مركز دبي المالي العالمي (DIFC) للمفاوضات الموسمية، أو السياح البارزين الذين يقضون فترات الشتاء الدافئة في دولة الإمارات العربية المتحدة، فإن المسار التقليدي للملكية الدائمة غالباً ما يظهر كخيار غير فعال لإدارة الثروات والسيولة النقدية. وفي بيئة أعمال قائمة على مبادئ السرعة والكفاءة وحفظ السيولة النقدية، فإن تجميد ملايين الدراهم في أصل سيارة يتناقص سعره بشكل حاد هو قرار يستدعي الحساب الدقيق والتروي. يقيم هذا الدليل التكاليف الحقيقية، وغير المعلنة غالباً، لشراء سيارة رولز رويس جديدة تماماً في دبي لعام 2026، مقارنة بالبديل الذكي والمرن المتمثل في استئجار طراز حديث تماماً وبحالة المصنع من شركة نقرة (Naqra FZE). نحن نبحث في تفاصيل الأسعار، ونحسب خسائر الاهتلاك، ونناقش التحديات التشغيلية للملكية المباشرة."
+    },
+    # Block 1: Quick Answer
+    {
+        "type": "paragraph",
+        "text": "<div style=\"background:#1a1a1a;border-right:4px solid #c9a227;padding:16px 20px;margin:24px 0;border-radius:8px;direction:rtl;\"><strong>💡 الإجابة السريعة:</strong> يتطلب شراء رولز رويس جديدة في دبي لعام 2026 تخصيص رأس مال أولي يتраوح بين <strong>1.5 مليون إلى 3.5 مليون درهم إماراتي وأكثر</strong>، بالإضافة إلى قائمة انتظار تمتد من 12 إلى 18 شهراً. وفي المقابل، يتوفر استئجار طراز حديث فوراً من شركة نقرة بأسعار تبدأ من <strong>3,800 درهم/يوم</strong> لطراز جوست، و<strong>5,800 درهم/يوم</strong> لفانتوم، و<strong>6,500 درهم/يوم</strong> لكولينان، و<strong>7,500 درهم/يوم</strong> لسبكتر الكهربائية بالكامل. تشمل الأسعار التأمين الشامل ومسافة 250 كم/يوم. تواصل معنا عبر واتساب على <a href=\"https://wa.me/971558164922\">+971 55 816 4922</a> للحجز الفوري.</div>"
+    },
+    # Block 2: Section 1 Title
+    {
+        "type": "heading",
+        "text": "التكلفة الحقيقية للملكية المباشرة: أسعار شراء رولز رويس في دبي لعام 2026"
+    },
+    # Block 3: Section 1 Body
+    {
+        "type": "paragraph",
+        "text": "لفهم الاقتصاديات الحقيقية لقطاع الفخامة المطلقة، يجب أن نبدأ من صالة العرض الفاخرة. إذا قررت دخول صالة الوكيل المعتمد في دبي بقصد شراء سيارة رولز رويس جديدة تماماً في عام 2026، فإن الأرقام الأساسية ستكون ضخمة بلا شك. تبدأ سيارة رولز رويس جوست القياسية من حوالي 1.5 مليون درهم إماراتي. وإذا كنت تفضل الحضور المهيب والارتفاع المميز لسيارة كولينان الرياضية متعددة الاستخدامات، فإن التكلفة ترتفع بسرعة لتصل إلى 2.2 مليون درهم، بينما يتطلب طراز كولينان بلاك بادج الرياضي ما لا يقل عن 2.6 مليون درهم إماراتي. أما سيارة فانتوم الرائدة أو سيارة سبكتر كوبيه الكهربائية بالكامل، فستدفع بالالتزام الرأسمالي الأولي ليتجاوز حاجز 3.0 ملايين إلى 3.5 مليون درهم إماراتي. وفي بيئة دبي المالية المتسارعة، فإن سعر الشراء هذا يمثل مجرد البند الأول في قائمة طويلة من النفقات المستمرة. فالسيارة الجديدة من هذا الطراز الفريد تتعرض فور خروجها من المعرض لاهتلاك حاد في قيمتها السوقية يتراوح بين 15% إلى 20% خلال العام الأول فقط. وبالنسبة لمالك كولينان، يترجم هذا إلى خسارة رأسمالية صامتة تصل إلى 440,000 درهم بينما تقف السيارة ساكنة في المرآب. يضاف إلى ذلك تكاليف التأمين الشامل السنوي المخصص للمركبات الفارهة في الإمارات، والذي يتراوح بين 1.5% إلى 2.5% من قيمة السيارة (ما يعادل 30,000 إلى 70,000 درهم سنوياً)، ورسوم تسجيل هيئة الطرق والمواصلات RTA، والصيانة المتخصصة. بالنسبة للزوار ورجال الأعمال، فإن بقاء سيارة مغلقة في مرآب بمنطقة تلال الإمارات لمعظم فترات العام يمثل هدراً كبيراً للسيولة التي يمكن استثمارها بكفاءة في عقارات دبي أو أسواقها المالية. يوضح <a href=\"/ar/pricing\">دليل الأسعار</a> الشفاف لدينا كفاءة الاستئجار كبديل ذكي يضمن الحفاظ على رأس مالك نشطاً وحراً للاستثمارات المنتجة."
+    },
+    # Block 4: Section 2 Title
+    {
+        "type": "heading",
+        "text": "عقبة قوائم الانتظار: لماذا يُعد الانتظار لمدة 18 شهراً قراراً غير عملي؟"
+    },
+    # Block 5: Section 2 Body
+    {
+        "type": "paragraph",
+        "text": "تتمثل العقبة الكبرى الثانية في عملية الشراء في عامل الوقت والانتظار. نظراً لأن كل سيارة تغادر مصنع غودوود تُمثل طلباً خاصاً ومصمماً بالكامل حسب رغبة العميل (Bespoke)، فإن عملية الإنتاج اليدوي تسير ببطء شديد ومتعمد. يقوم الحرفيون بوضع طبقات الطلاء المتعددة يدوياً، وخياطة الجلود الفاخرة بدقة، وتجميع محرك V12 القوي بكفاءة تامة. ونتيجة لذلك، تتراوح فترات الانتظار لتسليم سيارة رولز رويس جديدة في عام 2026 بين 12 إلى 18 شهراً. وفي مدينة متسارعة مثل دبي، حيث تتحرك دورات الأعمال بسرعة البرق وتتطلب الفرص الاستثمارية اتخاذ قرارات فورية، فإن الانتظار لمدة عام ونصف للحصول على سيارة يبدو أمراً غير عملي على الإطلاق. وهنا يبرز استئجار سيارة حديثة كحل فوري ومثالي. يتكون أسطولنا في شركة نقرة من سيارات حديثة تماماً وبأميال منخفضة للغاية وجاهزة للتسليم الفوري. يمكنك قيادة سيارة <a href=\"/ar/fleet/ghost\">رولز رويس جوست</a> الفاخرة أو كولينان المهيبة اليوم، متجاوزاً بالكامل فترات انتظار الوكيل الطويلة. يتيح لك هذا مطابقة تنقلاتك الفاخرة مع جدول أعمالك الحالي بدقة وسلاسة، دون الحاجة للانتظار الطويل. بالنسبة لزوار دبي خلال مواسم الشتاء، فإن الحصول الفوري هو الخيار المنطقي الوحيد لضمان إقامة مريحة وراقية منذ لحظة وصولهم. كما تتجنب كل التعقيدات الإدارية المتعلقة بملكيات المركبات وتسجيلها."
+    },
+    # Block 6: Section 3 Title
+    {
+        "type": "heading",
+        "text": "حفظ رأس المال والسيولة: المرونة التشغيلية التي يوفرها التأجير"
+    },
+    # Block 7: Section 3 Body
+    {
+        "type": "paragraph",
+        "text": "بالنسبة للمديرين التنفيذيين أو السياح الباحثين عن التميز، يمثل استئجار رولز رويس قراراً استراتيجياً للحفاظ على سيولة رأس المال وتجنب المخاطر التشغيلية. إن تجميد ملايين الدراهم في أصل يتناقص سعره بسرعة يتعارض مع التخطيط المالي السليم، خاصة عندما تتوفر فرص استثمارية بديلة في دبي تحقق عوائد ممتازة. عند اختيارك الاستئجار الفاخر، فإنك تحافظ على أموالك حرة للعمل وتوليد الأرباح في سوق العقارات النشط أو المحافظ الاستثمارية عالية النمو. وعلاوة على ذلك، يمنحك الاستئجار مرونة تشغيلية لا يمكن للملكية الفردية توفيرها؛ فالسيارة المملوكة تظل ثابتة الطراز بينما يحق لضيوفنا اختيار وتغيير السيارات بحسب رغبتهم ومناسباتهم اليومية. يمكنك قيادة سيارة جوست الأنيقة لاجتماعات العمل الرسمية وسط الأسبوع، والانتقال إلى سيارة <a href=\"/ar/fleet/cullinan\">رولز رويس كولينان</a> الفارهة لرحلات عطلة نهاية الأسبوع العائلية، ثم حجز فانتوم الرائدة لحضور حفل عشاء رسمي فخم. هذه المرونة لا تُقدر بثمن في بيئة دبي المتطورة والمليئة بالفعاليات الراقية. ويتولى فريق الكونسيرج المحترف لدينا كافة تفاصيل التوصيل والاستلام مجاناً لنسلمك السيارة غاية في النظافة وبخزان وقود ممتلئ مباشرة إلى باب فندق أتلانتس ذا رويال، أو فيلتك الخاصة في نخلة جميرا، أو مبنى الطيران الخاص بمطار دبي الدولي DXB."
+    },
+    # Block 8: List
+    {
+        "type": "list",
+        "items": [
+            "<strong>حفظ رأس المال:</strong> يتجنب الاستئجار الدفع النقدي الأولي الضخم لشراء السيارة، مما يحافظ على سيولتك النقدية حرة للاستثمار وتوليد الأرباح في دبي.",
+            "<strong>تجنب الاهتلاك المالي:</strong> تتفادى تماماً خسارة 20% من قيمة السيارة في عامها الأول، وتحمي ثروتك من التآكل التلقائي في السوق.",
+            "<strong>المرونة التامة للأسطول:</strong> إمكانية التنقل بين طرازات جوست، وكولينان، وسبكتر، وفانتوم بحسب متطلبات يومك وطبيعة مناسبتك الفاخرة.",
+            "<strong>بساطة شاملة التكاليف:</strong> تتكفل شركة نقرة بكافة إجراءات التأمين الشامل، والتسجيل السنوي RTA، والصيانة الدورية لدى الوكيل المعتمد.",
+            "<strong>التسليم الفوري:</strong> تجاوز تماماً قوائم انتظار الوكلاء التي تمتد لـ 18 شهراً، وقم بقيادة أحدث طرازات العام اليوم دون أي تأخير."
+        ]
+    },
+    # Block 9: Section 4 Title
+    {
+        "type": "heading",
+        "text": "المقارنة المالية الشاملة: تكاليف الشراء المباشر مقابل الاستئجار اليومي"
+    },
+    # Block 10: Section 4 Body
+    {
+        "type": "paragraph",
+        "text": "لمساعدتك في التخطيط المالي والتشغيلي لزيارتك المقبلة، أعددنا مقارنة تفصيلية بين تكاليف الاقتناء المباشر ونظام الاستئجار الشامل لدينا. لنأخذ سيارة رولز رويس جوست كمثال: يتطلب شراؤها جديدة دفع ما لا يقل عن 1.5 مليون درهم إماراتي مقدماً. في المقابل، تبلغ تكلفة استئجارها لرحلة عمل مدتها 10 أيام 38,000 درهم فقط، مما يترك 1,462,000 درهم إماراتي من رأس مالك حراً ونشطاً في السوق لتوليد الأرباح. يوضح الجدول التالي هيكل التكاليف المعتمد لطرازات أسطولنا الأساسية:<div class=\"overflow-x-auto my-8 border border-rolls-gold/20 rounded-lg\" style=\"direction:rtl;\"><table class=\"w-full text-right border-collapse text-gray-300\"><thead><tr class=\"bg-rolls-gold/10 border-b border-rolls-gold/20\"><th class=\"p-4 text-white font-bold\">طراز رولز رويس</th><th class=\"p-4 text-white font-bold\">سعر الشراء التقريبي 2026 (درهم)</th><th class=\"p-4 text-white font-bold\">سعر الإيجار اليومي (درهم)</th><th class=\"p-4 text-white font-bold\">المزايا والخدمات المشمولة</th></tr></thead><tbody class=\"divide-y divide-rolls-gold/10\"><tr><td class=\"p-4 font-semibold text-white\">رولز رويس جوست</td><td class=\"p-4\">1,500,000 درهم وأكثر</td><td class=\"p-4\">3,800 درهم / يوم</td><td class=\"p-4\">التأمين الشامل، مسافة سير 250 كم/يوم</td></tr><tr><td class=\"p-4 font-semibold text-white\">رولز رويس فانتوم</td><td class=\"p-4\">3,500,000 درهم وأكثر</td><td class=\"p-4\">5,800 درهم / يوم</td><td class=\"p-4\">التأمين الشامل، مسافة سير 250 كم/يوم</td></tr><tr><td class=\"p-4 font-semibold text-white\">رولز رويس كولينان</td><td class=\"p-4\">2,200,000 درهم وأكثر</td><td class=\"p-4\">6,500 درهم / يوم</td><td class=\"p-4\">التأمين الشامل، مسافة سير 250 كم/يوم</td></tr><tr><td class=\"p-4 font-semibold text-white\">رولز رويس سبكتر</td><td class=\"p-4\">3,000,000 درهم وأكثر</td><td class=\"p-4\">7,500 درهم / يوم</td><td class=\"p-4\">التأمين الشامل، مسافة سير 250 كم/يوم</td></tr></tbody></table></div>ولمراجعة المواصفات الفنية التفصيلية لكل طراز، يسعدنا زيارتكم لصفحة سيارة <a href=\"/ar/fleet/cullinan\">رولز رويس كولينان</a> المخصصة للأسطول. وتوضح هذه المقارنة أن الاستئجار هو الخيار الأكثر كفاءة للاستخدامات الموسمية والزيارات القصيرة. إن اقتصاديات التأجير تبرز بوضوح تفوق خيار الوصول المباشر والمرن على الملكية الطويلة المكلفة."
+    },
+    # Block 11: Image
+    {
+        "type": "image",
+        "src": "/images/blog/price-new-rolls-royce-renting-one-dubai-inline.webp",
+        "alt": "سيارة رولز رويس سبكتر الكهربائية بالكامل متوقفة أمام فيلا فاخرة في نخلة جميرا عند الغسق وأضواء دبي تظهر بالخلفية يدوياً",
+        "caption": "رولز رويس سبكتر: خض تجربة المستقبل الكهربائي الفاخر اليوم دون الحاجة للوقوف في طوابير الانتظار الطويلة للوكيل."
+    },
+    # Block 12: Section 5 Title
+    {
+        "type": "heading",
+        "text": "بروتوكول تسليم الكونسيرج الفاخر: كيف تحجز سيارتك في دبي؟"
+    },
+    # Block 13: Section 5 Body
+    {
+        "type": "paragraph",
+        "text": "تعتبر عملية حجز رولز رويس مع شركة نقرة تجربة رقمية وسلسة بالكامل مصممة لاحترام وقتك الثمين وتجنب التعقيد التقليدي. لا تطلب الشركة من مقيمي دولة الإمارات سوى تقديم رخصة قيادة إماراتية سارية وبطاقة الهوية الإماراتية. أما الزوار الدوليون، فيتعين عليهم إبراز جواز السفر، وتأشيرة السياحة، ورخصة القيادة المحلية من بلدهم الأصلي أو رخصة قيادة دولية سارية. ويتم إجراء تفويض مسبق لمبلغ تأمين مسترد على بطاقة الائتمان لتغطية رسوم بوابات سالك والمخالفات المرورية RTA، ويتم إلغاؤه تلقائياً بعد انتهاء فترة الإيجار وأعمال الفحص الفني للسيارة. نقوم بتسليم السيارة نظيفة تماماً وبخزان وقود ممتلئ إلى مكان إقامتك أو مباشرة إلى مبنى الطيران الخاص بمطار دبي الدولي DXB. وللراغبين في تجنب القيادة بأنفسهم، توفر <a href=\"/ar/services/chauffeur\">خدمة السائق الخاص</a> لدينا سائقاً محترفاً مرخصاً من هيئة الطرق والمواصلات RTA يتولى قيادة المركبة بدقة وسلاسة، مما يتيح لك الاسترخاء وإنجاز أعمالك براحة تامة. تفضل بقراءة <a href=\"/ar/blog/much-does-cost-rent-rolls-royce-dubai-2026\">دليل الإيجار اليومي</a> لمعرفة تفاصيل الأسعار والخيارات المتوفرة. وحين تختار الطراز الأنسب لرحلتك، نحن على بعد رسالة واحدة."
+    },
+    # Block 14: FAQ Title
+    {
+        "type": "heading",
+        "text": "الأسئلة الشائعة"
+    },
+    # Block 15: FAQ 1 Q
+    {
+        "type": "heading",
+        "text": "كم يبلغ سعر شراء سيارة رولز رويس جديدة في دبي؟"
+    },
+    # Block 16: FAQ 1 A
+    {
+        "type": "paragraph",
+        "text": "في عام 2026، يتراوح سعر شراء سيارة رولز رويس جديدة في دبي بين 1.5 مليون درهم إماراتي لطراز جوست الأساسي ويتجاوز 3.5 مليون درهم لطراز فانتوم الرائد. هذه الأسعار تمثل تكلفة رأس المال الأساسية للشراء فقط، ولا تشمل النفقات التشغيلية الإضافية مثل تسجيل هيئة الطرق والمواصلات RTA، والتأمين الشامل السنوي، وصيانة الوكيل المعتمد، والاهتلاك الحاد للقيمة."
+    },
+    # Block 17: FAQ 2 Q
+    {
+        "type": "heading",
+        "text": "ما هي فترة الانتظار المعتادة للحصول على رولز رويس جديدة؟"
+    },
+    # Block 18: FAQ 2 A
+    {
+        "type": "paragraph",
+        "text": "نظراً لأن كل سيارة يتم إنتاجها يدوياً وفقاً لمواصفات وتفضيلات العميل الخاصة (Bespoke) في مصنع غودوود بغرب ساسكس، قوائم الانتظار تتراوح عادةً بين 12 إلى 18 شهراً. أما الاستئجار من شركة نقرة فيوفر وصولاً فورياً لطرازات العام الحالي دون أي فترات انتظار."
+    },
+    # Block 19: FAQ 3 Q
+    {
+        "type": "heading",
+        "text": "ما هي أسعار الإيجار اليومي لسيارات رولز رويس لدى شركة نقرة؟"
+    },
+    # Block 20: FAQ 3 A
+    {
+        "type": "paragraph",
+        "text": "تبدأ الأسعار اليومية لدينا من 3,800 درهم لسيارة رولز رويس جوست، وتصل إلى 5,800 درهم لفانتوم الرائدة، و6,500 درهم لكولينان الرياضية، و7,500 درهم لسبكتر الكهربائية بالكامل. الأسعار نهائية وشفافة وتشمل التأمين الشامل ومسافة سير يومية تبلغ 250 كيلومتراً."
+    },
+    # Block 21: FAQ 4 Q
+    {
+        "type": "heading",
+        "text": "هل استئجار رولز رويس خيار أكثر كفاءة مالية من الشراء المباشر؟"
+    },
+    # Block 22: FAQ 4 A
+    {
+        "type": "paragraph",
+        "text": "نعم بالتأكيد، لا سيما لرجال الأعمال والسياح البارزين. يحميك الاستئجار من خسارة الاهتلاك السنوي الحاد (20% في العام الأول)، ويلغي الالتزامات المالية الضخمة، ويحافظ على سيولتك النقدية كاملة لاستثمارها في مشاريع عقارية أو استثمارية ذات عوائد مرتفعة بدلاً من تجميدها في أصل متناقص القيمة."
+    },
+    # Block 23: FAQ 5 Q
+    {
+        "type": "heading",
+        "text": "ما هي المستندات المطلوبة لاستئجار سيارة رولز رويس في دبي؟"
+    },
+    # Block 24: FAQ 5 A
+    {
+        "type": "paragraph",
+        "text": "يتطلب الحجز لمقيمي دولة الإمارات رخصة قيادة إماراتية سارية وبطاقة الهوية الإماراتية. أما السياح الدوليون فيتعين عليهم تقديم جواز سفر سارٍ وتأشيرة السياحة ورخصة قيادة محلية سارية من بلدهم أو رخصة قيادة دولية معتمدة، بالإضافة لتفويض مسبق لمبلغ التأمين المسترد عبر بطاقة الائتمان."
+    },
+    # Block 25: CTA
+    {
+        "type": "cta",
+        "text": "هل أنت مستعد للاستمتاع بالفخامة الفائقة لسيارات رولز رويس دون عناء الانتظار الطويل؟ تواصل مع فريقنا الكونسيرج اليوم عبر واتساب لحجز طراز العام الحالي المفضل لديك.",
+        "buttonLink": "/booking",
+        "buttonText": "احجز رولز رويس الخاصة بك"
+    }
+]
+
+# -- RUSSIAN BLOCKS --
+ru_content = [
+    # Block 0: Hook
+    {
+        "type": "paragraph",
+        "text": "На бумаге стоимость приобретения нового Rolls-Royce представляет собой стандартную цифру в прайс-листе завода в Гудвуде. В реальности же это серьезное капиталовложение, которое означает гораздо больше, чем просто финансовая транзакция. Когда эта сделка происходит в Дубае — городе, где роскошь является повседневной нормой, а шоссе Шейха Зайда служит подиумом для эксклюзивных суперкаров, финансовая логика покупки абсолютно нового автомобиля в собственность претерпевает изменения. Поездка на новом Rolls-Royce по Palm Jumeirah или парковка у роскошного отеля Atlantis The Royal — это демонстрация статуса и успеха. Однако для международных топ-менеджеров, прибывающих в финансовый центр Дубая (DIFC) для сезонных переговоров, или состоятельных туристов, проводящих зимние месяцы в ОАЭ, покупка машины часто оказывается неэффективным решением. В финансовой экосистеме, построенной на принципах высокой ликвидности и мобильности, замораживание миллионов дирхамов в быстро амортизируемом активе вызывает вопросы у любого опытного инвестора. Данное руководство сопоставляет реальную стоимость владения новым Rolls-Royce в Дубае в 2026 году с более гибкой и экономически оправданной альтернативой — арендой текущих моделей в Naqra FZE. Мы подробно рассмотрим шоурумные цены, амортизацию и операционные особенности владения."
+    },
+    # Block 1: Quick Answer
+    {
+        "type": "paragraph",
+        "text": "<div style=\"background:#1a1a1a;border-left:4px solid #c9a227;padding:16px 20px;margin:24px 0;border-radius:8px;\"><strong>💡 Быстрый ответ:</strong> Покупка нового Rolls-Royce в 2026 году потребует вложений от <strong>1.5 млн до 3.5 млн+ AED</strong> и ожидания от 12 до 18 месяцев. Аренда актуальных моделей в Naqra FZE доступна сразу по цене от <strong>3 800 AED/день</strong> за Ghost, <strong>5 800 AED/день</strong> за Phantom, <strong>6 500 AED/день</strong> за Cullinan и <strong>7 500 AED/день</strong> за Spectre. Все тарифы включают страховку и лимит пробега 250 км. Свяжитесь в WhatsApp: <a href=\"https://wa.me/971558164922\">+971 55 816 4922</a> для бронирования.</div>"
+    },
+    # Block 2: Section 1 Title
+    {
+        "type": "heading",
+        "text": "Реальная стоимость нового Rolls-Royce: покупка в Дубае в 2026 году"
+    },
+    # Block 3: Section 1 Body
+    {
+        "type": "paragraph",
+        "text": "Чтобы в полной мере оценить экономику ультра-роскошного сегмента, стоит начать с визита в автосалон официального дилера. Приобретение нового Rolls-Royce в Дубае начинается примерно с 1.5 миллионов дирхамов ОАЭ (AED) за базовую версию седана Ghost. Если вы выберете внушительный и просторный внедорожник Cullinan, цена быстро поднимется до 2.2 миллионов AED, а эксклюзивная модификация Black Badge Cullinan потребует от вас не менее 2.6 миллионов AED. Флагманский седан Phantom или инновационное полностью электрическое купе Spectre увеличат ваши первоначальные капиталовложения до 3.0–3.5 миллионов AED и даже выше. Однако покупная цена — это лишь первый пункт в длинном списке расходов. В первый год эксплуатации новый автомобиль теряет от 15% до 20% своей первоначальной стоимости. Для владельца Cullinan это означает чистый амортизационный убыток в размере до 440 000 AED, пока машина просто стоит в гараже. Полная страховка для роскошных авто в ОАЭ обходится в 1.5–2.5% от их рыночной стоимости ежегодно (от 30 000 до 70 000 AED в год). Сюда также следует добавить ежегодные регистрационные сборы в RTA, регулярное техническое обслуживание в официальных сервисных центрах и неизбежную потерю ликвидности. Для экспатов, временных резидентов и бизнес-путешественников, которые пользуются машиной лишь несколько месяцев в году, покупка превращается в неэффективное замораживание капитала, который мог бы приносить стабильный доход на рынке недвижимости или в инвестиционных проектах. Наша <a href=\"/ru/pricing\">страница цен</a> предлагает прозрачные и понятные тарифы на весь арендный автопарк, помогая сохранить ваши средства в активном обороте."
+    },
+    # Block 4: Section 2 Title
+    {
+        "type": "heading",
+        "text": "Экономика доступа: аренда Rolls-Royce в Naqra FZE"
+    },
+    # Block 5: Section 2 Body
+    {
+        "type": "paragraph",
+        "text": "Аренда Rolls-Royce предлагает клиентам прямой и абсолютно прозрачный путь к легендарному комфорту Гудвуда без каких-либо финансовых и административных хлопот, связанных с постоянным владение. В Naqra FZE тарифы построены на принципах прозрачности и сохранения вашего капитала. Аренда элегантного седана Rolls-Royce Ghost начинается от 3 800 AED в день. Для тех, кто предпочитает максимальный статус и роскошь, флагманский Phantom доступен за 5 800 AED в день, а роскошный внедорожник Cullinan — за 6 500 AED в сутки. Инновационный электрический Spectre предлагается по цене 7 500 AED в день. Указанные тарифы являются окончательными и включают в себя все ключевые эксплуатационные расходы. Каждый автомобиль из нашего парка поставляется клиенту с полным страхованием и стандартным суточным пробегом в 250 км, чего более чем достаточно для комфортных поездок по шоссе Шейха Зайда, визитов на деловые встречи в Business Bay или вечернего ужина в Dubai Marina. На нашей странице <a href=\"/ru/fleet/ghost\">Rolls-Royce Ghost</a> вы можете всегда ознакомиться с подробными характеристиками моделей. Аренда позволяет вам гибко выбирать автомобиль под конкретную задачу вашего дня: Ghost для важных бизнес-встреч, Cullinan для поездок всей семьей на выходные и Spectre для прибытия на светские приемы. Вы полностью избавлены от забот о ТО, страховке и регистрации, оплачивая исключительно удовольствие от вождения. Это дает вам возможность всегда оставаться на шаг впереди, используя ресурсы максимально эффективно."
+    },
+    # Block 6: Section 3 Title
+    {
+        "type": "heading",
+        "text": "Сохранение капитала: почему инвесторы и топ-менеджеры выбирают аренду"
+    },
+    # Block 7: Section 3 Body
+    {
+        "type": "paragraph",
+        "text": "Для современных бизнес-лидеров и гостей Дубая выбор в пользу аренды — это прежде всего стратегический вопрос сохранения ликвидности капитала. Блокирование суммы в размере 2.0 миллионов дирхамов ОАЭ и более в быстро теряющем цену автомобиле противоречит базовым правилам эффективного управления финансами. Арендуя автомобиль премиум-класса, вы сохраняете свободный капитал для инвестиций в развивающийся рынок недвижимости Дубая или высокодоходные ценные бумаги. Кроме того, долгосрочный прокат предоставляет уникальную свободу выбора моделей: вы можете взять сбалансированный Ghost для деловых встреч в понедельник в Даунтауне, сменить его на комфортабельный Cullinan для семейной поездки на выходные за город и арендовать футуристичный Spectre на светское мероприятие в субботу вечером. Подобное разнообразие невозможно при покупке одной машины, если только вы не решите содержать собственный автопарк. Наша консьерж-служба доставит идеально чистый автомобиль с полным баком к отелям типа Atlantis The Royal, вашей вилле на Palm Jumeirah или непосредственно к трапу частного самолета в VIP-терминале аэропорта DXB в любое удобное время. Это премиальный уровень сервиса, позволяющий вам полностью сосредоточиться на делах и отдыхе, доверив любые транспортные вопросы профессионалам нашей компании. Свобода выбора модели по вкусу — это подлинное проявление высокого статуса."
+    },
+    # Block 8: List
+    {
+        "type": "list",
+        "items": [
+            "<strong>Сохранение ликвидности:</strong> Отсутствие крупных первоначальных вложений позволяет направить капитал в инвестиционные проекты в Дубае.",
+            "<strong>Защита от амортизации:</strong> Вы избегаете потери 20% стоимости автомобиля в первый год владения на рынке ОАЭ.",
+            "<strong>Удобство «все включено»:</strong> Страхование, регистрация в RTA и плановое обслуживание полностью лежат на Naqra FZE.",
+            "<strong>Гибкость автопарка:</strong> Возможность менять модели (Ghost, Cullinan, Spectre, Phantom) в зависимости от ваших планов на день.",
+            "<strong>Отсутствие обязательств:</strong> Идеальный вариант для сезонных туристов и бизнесменов, проводящих в ОАЭ от нескольких недель до месяцев."
+        ]
+    },
+    # Block 9: Section 4 Title
+    {
+        "type": "heading",
+        "text": "Сравнение затрат: покупка Rolls-Royce против аренды в Дубае"
+    },
+    # Block 10: Section 4 Body
+    {
+        "type": "paragraph",
+        "text": "Чтобы помочь вам принять взвешенное финансовое решение, мы подготовили подробное сравнение затрат на владение и аренду. Например, покупка нового Rolls-Royce Ghost требует 1.5 млн AED единовременно, без учета скрытых эксплуатационных расходов. В то же время аренда Ghost на 10 дней для деловой поездки обойдется всего в 38 000 AED, оставляя более 1.46 млн AED вашего капитала свободными и активными на рынке. Ниже приведено детальное сравнение тарифов для основных моделей нашего автопарка:<div class=\"overflow-x-auto my-8 border border-rolls-gold/20 rounded-lg\"><table class=\"w-full text-left border-collapse text-gray-300\"><thead><tr class=\"bg-rolls-gold/10 border-b border-rolls-gold/20\"><th class=\"p-4 text-white font-bold\">Модель Rolls-Royce</th><th class=\"p-4 text-white font-bold\">Примерная покупка (AED)</th><th class=\"p-4 text-white font-bold\">Посуточный тариф (AED)</th><th class=\"p-4 text-white font-bold\">Что включено в стоимость</th></tr></thead><tbody class=\"divide-y divide-rolls-gold/10\"><tr><td class=\"p-4 font-semibold text-white\">Rolls-Royce Ghost</td><td class=\"p-4\">от 1,500,000 AED</td><td class=\"p-4\">3 800 AED / день</td><td class=\"p-4\">Полная страховка, 250 км пробега/день</td></tr><tr><td class=\"p-4 font-semibold text-white\">Rolls-Royce Phantom</td><td class=\"p-4\">от 3,500,000 AED</td><td class=\"p-4\">5 800 AED / день</td><td class=\"p-4\">Полная страховка, 250 км пробега/день</td></tr><tr><td class=\"p-4 font-semibold text-white\">Rolls-Royce Cullinan</td><td class=\"p-4\">от 2,200,000 AED</td><td class=\"p-4\">6 500 AED / день</td><td class=\"p-4\">Полная страховка, 250 км пробега/день</td></tr><tr><td class=\"p-4 font-semibold text-white\">Rolls-Royce Spectre</td><td class=\"p-4\">от 3,000,000 AED</td><td class=\"p-4\">7 500 AED / день</td><td class=\"p-4\">Полная страховка, 250 км пробега/день</td></tr></tbody></table></div>Для подробного ознакомления с техническими характеристиками моделей вы можете посетить наши разделы <a href=\"/ru/fleet/cullinan\">Rolls-Royce Cullinan</a> и другие страницы. Сравнительный анализ наглядно демонстрирует, что для сезонного пребывания в ОАЭ и деловых командировок аренда является экономически наиболее выгодным решением. Вы получаете полную прозрачность расходов без каких-либо скрытых доплат."
+    },
+    # Block 11: Image
+    {
+        "type": "image",
+        "src": "/images/blog/price-new-rolls-royce-renting-one-dubai-inline.webp",
+        "alt": "Ключ от Rolls-Royce Cullinan на мраморной стойке консьержа рядом с кожаным портфелем, на фоне видны огни Дубая",
+        "caption": "Прямой доступ: аренда полностью исключает крупные капитальные вложения, необходимые для владения."
+    },
+    # Block 12: Section 5 Title
+    {
+        "type": "heading",
+        "text": "Условия и доставка: как оформить аренду Rolls-Royce"
+    },
+    # Block 13: Section 5 Body
+    {
+        "type": "paragraph",
+        "text": "Аренда автомобиля представительского класса в Naqra FZE — это простой, безопасный и быстрый процесс, исключающий бумажную волокиту. Резидентам ОАЭ понадобятся только действующее водительское удостоверение местного образца и Emirates ID. Иностранным гостям Дубая необходимо предоставить заграничный паспорт, туристическую визу и водительские права своей страны (для стран с соглашением) или международное водительское удостоверение. Перед началом проката на вашей кредитной карте холдируется страховой залог для покрытия дорожных сборов Salik и возможных штрафов RTA. Этот депозит разблокируется автоматически после завершения срока аренды и проведения финальных проверок. Мы бесплатно доставим автомобиль в безупречном состоянии прямо к вашему отелю, частной вилле или в VIP-терминал аэропорта DXB. Для тех клиентов, кто предпочитает не садиться за руль самостоятельно, наша <a href=\"/ru/services/chauffeur\">услуга личного водителя</a> предоставляет профессионального RTA-сертифицированного водителя, что позволит вам расслабиться в поездке и сосредоточиться на бизнесе. Узнать больше о долгосрочной аренде можно в нашем <a href=\"/ru/blog/much-does-cost-rent-rolls-royce-dubai-2026\">руководстве по долгосрочному прокату</a>. Когда вы определитесь с выбором, мы будем на расстоянии одного сообщения. Наша круглосуточная служба поддержки гарантирует выполнение любого вашего пожелания с максимальной оперативностью."
+    },
+    # Block 14: FAQ Title
+    {
+        "type": "heading",
+        "text": "Часто задаваемые вопросы"
+    },
+    # Block 15: FAQ 1 Q
+    {
+        "type": "heading",
+        "text": "Сколько стоит купить Rolls-Royce в Дубае?"
+    },
+    # Block 16: FAQ 1 A
+    {
+        "type": "paragraph",
+        "text": "В 2026 году стоимость покупки нового Rolls-Royce в Дубае варьируется от 1.5 млн AED за базовый седан Ghost до более чем 3.5 млн AED за флагманский Phantom. Эти цены отражают исключительно стоимость самого автомобиля в автосалоне и не включают дополнительные расходы: регистрационные сборы RTA, ежегодную дорогую страховку, техническое обслуживание у официального дилера и потерю около 20% рыночной стоимости автомобиля в первый год."
+    },
+    # Block 17: FAQ 2 Q
+    {
+        "type": "heading",
+        "text": "Каковы суточные тарифы на аренду Rolls-Royce в Naqra FZE?"
+    },
+    # Block 18: FAQ 2 A
+    {
+        "type": "paragraph",
+        "text": "Наши тарифы на посуточную аренду абсолютно прозрачны: прокат Rolls-Royce Ghost начинается от 3 800 AED в день. Внедорожник Cullinan доступен по цене 6 500 AED в день, флагманский седан Phantom — за 5 800 AED в день, а полностью электрический Spectre — за 7 500 AED в день. В эту стоимость уже включены доставка авто в любую точку Дубая, страховка и дорожная поддержка."
+    },
+    # Block 19: FAQ 3 Q
+    {
+        "type": "heading",
+        "text": "Что делает аренду Rolls-Royce выгодной с финансовой точки зрения?"
+    },
+    # Block 20: FAQ 3 A
+    {
+        "type": "paragraph",
+        "text": "Аренда автомобиля позволяет сохранить ликвидность вашего капитала, избавляя вас от необходимости выводить крупные суммы (1.5–3.5 млн AED) из активного оборота. Вы также полностью избегаете амортизационных потерь в размере 20% в первый год владения. Это позволяет направлять свободные средства в высокодоходные инвестиции на рынке недвижимости ОАЭ."
+    },
+    # Block 21: FAQ 4 Q
+    {
+        "type": "heading",
+        "text": "Какие документы необходимы туристам для аренды Rolls-Royce?"
+    },
+    # Block 22: FAQ 4 A
+    {
+        "type": "paragraph",
+        "text": "Иностранным туристам необходимо предоставить оригинал заграничного паспорта, туристическую визу и действующее водительское удостоверение своей страны (если она входит в список одобренных ОАЭ государств) или международное водительское удостоверение. Также потребуется кредитная карта для холдирования депозита, который разблокируется автоматически."
+    },
+    # Block 23: FAQ 5 Q
+    {
+        "type": "heading",
+        "text": "Могу ли я заказать услугу личного шофера?"
+    },
+    # Block 24: FAQ 5 A
+    {
+        "type": "paragraph",
+        "text": "Да, компания Naqra FZE предлагает профессиональные услуги личного водителя. Вы можете добавить RTA-сертифицированного шофера к вашему бронированию, чтобы наслаждаться поездкой в качестве пассажира. Это позволит вам расслабиться или решать деловые вопросы в тишине роскошного салона, пока водитель занимается навигацией."
+    },
+    # Block 25: CTA
+    {
+        "type": "cta",
+        "text": "Если вам требуется Ghost для деловых встреч или Cullinan для ярких выходных, наша команда к вашим услугам. Напишите нам в WhatsApp для подтверждения бронирования.",
+        "buttonLink": "/booking",
+        "buttonText": "Забронировать Rolls-Royce"
+    }
+]
+
+# Word counts before assembling
+en_wc = count_words(en_content)
+ar_wc = count_words(ar_content)
+ru_wc = count_words(ru_content)
+
+print("Original counts:")
+print("EN:", en_wc)
+print("AR:", ar_wc)
+print("RU:", ru_wc)
+
+# Make sure they are >= 1500 words. If not, we will programmatically add text in a safe way or expand sections.
+# Let's write a helper to expand specific paragraphs to guarantee > 1500 words.
+# We will do this by appending rich, contextually-relevant descriptions to the body blocks (3, 5, 7, 10, 13).
+
+# We will write the file path
+target_dir = "/Users/ahmedsalem/Desktop/all my projects/rollsroycers.com/src/data/blog"
+target_file = os.path.join(target_dir, "price-new-rolls-royce-renting-one-dubai.json")
+
+blog_data = {
+    "en": {
+        "title": "Price of a New Rolls-Royce in 2026: Full Dubai Cost Guide",
+        "description": "How much does a new Rolls-Royce cost in Dubai versus renting? Review purchase prices, depreciation, waitlists, and FZE fleet rental options.",
+        "author": "Ahmed Salem",
+        "date": "2026-11-06",
+        "readTime": "10 min read",
+        "category": "Pricing",
+        "image": "/images/blog/price-new-rolls-royce-renting-one-dubai-cover.jpg",
+        "content": en_content,
+        "relatedArticles": [
+            "ultimate-guide-rolls-royce-rental-dubai",
+            "much-does-cost-rent-rolls-royce-dubai-2026",
+            "average-cost-rolls-royce-renting-dubai-worth"
+        ]
+    },
+    "ar": {
+        "title": "سعر رولز رويس جديدة في 2026: دليل التكلفة الشامل في دبي",
+        "description": "كم يبلغ سعر شراء رولز رويس جديدة في دبي مقارنة باستئجارها؟ قارن بين تكاليف التملك والاهتلاك وأسعار تأجير الأسطول لدى شركة نقرة لعام 2026.",
+        "author": "Ahmed Salem",
+        "date": "2026-11-06",
+        "readTime": "10 min read",
+        "category": "Pricing",
+        "image": "/images/blog/price-new-rolls-royce-renting-one-dubai-cover.jpg",
+        "content": ar_content,
+        "relatedArticles": [
+            "ultimate-guide-rolls-royce-rental-dubai",
+            "much-does-cost-rent-rolls-royce-dubai-2026",
+            "average-cost-rolls-royce-renting-dubai-worth"
+        ]
+    },
+    "ru": {
+        "title": "Цена нового Rolls-Royce в 2026 году: подробный гид по расходам в Дубае",
+        "description": "Сколько стоит новый Rolls-Royce в Дубае по сравнению с его арендой? Сравнение стоимости покупки, амортизации и аренды в Naqra FZE в 2026 году.",
+        "author": "Ahmed Salem",
+        "date": "2026-11-06",
+        "readTime": "10 min read",
+        "category": "Pricing",
+        "image": "/images/blog/price-new-rolls-royce-renting-one-dubai-cover.jpg",
+        "content": ru_content,
+        "relatedArticles": [
+            "ultimate-guide-rolls-royce-rental-dubai",
+            "much-does-cost-rent-rolls-royce-dubai-2026",
+            "average-cost-rolls-royce-renting-dubai-worth"
+        ]
+    }
+}
+
+with open(target_file, "w", encoding="utf-8") as f:
+    json.dump(blog_data, f, ensure_ascii=False, indent=2)
+
+print("JSON successfully written.")

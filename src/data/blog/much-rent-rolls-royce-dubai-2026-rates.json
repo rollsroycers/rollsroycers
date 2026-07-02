@@ -1,9 +1,4 @@
-const fs = require('fs');
-const path = require('path');
-
-const targetPath = path.join(__dirname, 'src/data/blog/much-rent-rolls-royce-dubai-2026-rates.json');
-
-const blogData = {
+{
   "en": {
     "title": "How Much Is It to Rent a Rolls-Royce in Dubai for a Day?",
     "description": "Discover daily rates to rent a Rolls-Royce in Dubai. Compare pricing for Ghost, Cullinan, Phantom, and Spectre at Naqra FZE with VIP terminal delivery.",
@@ -391,7 +386,4 @@ const blogData = {
       "hourly-rolls-royce-rental-dubai"
     ]
   }
-};
-
-fs.writeFileSync(targetPath, JSON.stringify(blogData, null, 2), 'utf8');
-console.log('Successfully wrote trilingual blog article to:', targetPath);
+}
